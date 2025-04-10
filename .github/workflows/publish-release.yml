@@ -5,9 +5,6 @@ on:
     types: [published]
 
 env:
-  DOTNET_VERSIONS: |
-    8.0.x
-    9.0.x
   NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
 
 jobs:
@@ -30,10 +27,15 @@ jobs:
         echo "ShowsOnSale.World directory contents:"
         ls -la src/ShowsOnSale.World
 
-    - name: Setup .NET
+    - name: Setup .NET 8.0
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: ${{ env.DOTNET_VERSIONS }}
+        dotnet-version: '8.0.x'
+
+    - name: Setup .NET 9.0
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '9.0.x'
 
     - name: Check .NET SDK
       run: |
