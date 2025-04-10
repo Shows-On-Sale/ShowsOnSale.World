@@ -29,7 +29,7 @@ dotnet build src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration $con
 $testProjects = Get-ChildItem -Path "tests" -Filter "*.csproj" -Recurse
 if ($testProjects) {
     Write-Host "Running tests..." -ForegroundColor Yellow
-    dotnet test tests/*.csproj --configuration $configuration --no-build
+    dotnet test tests/ShowsOnSale.World.Tests/ShowsOnSale.World.Tests.csproj --configuration $configuration --no-build
 } else {
     Write-Host "No test projects found. Skipping tests." -ForegroundColor Yellow
 }

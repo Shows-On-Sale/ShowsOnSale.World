@@ -28,7 +28,7 @@ dotnet build src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration "$CO
 # Run tests if they exist
 if [ -d "tests" ]; then
     echo -e "\033[33mRunning tests...\033[0m"
-    dotnet test tests/*.csproj --configuration "$CONFIGURATION" --no-build
+    dotnet test tests/ShowsOnSale.World.Tests/ShowsOnSale.World.Tests.csproj --configuration "$CONFIGURATION" --no-build
 fi
 
 # Create NuGet package
