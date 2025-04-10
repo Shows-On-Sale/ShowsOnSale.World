@@ -5,7 +5,9 @@ on:
     types: [published]
 
 env:
-  DOTNET_VERSIONS: '8.0.x,9.0.x'
+  DOTNET_VERSIONS: |
+    8.0.x
+    9.0.x
   NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
 
 jobs:

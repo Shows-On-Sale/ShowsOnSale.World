@@ -9,7 +9,9 @@ on:
       - master
 
 env:
-  DOTNET_VERSION: '9.0.x'
+  DOTNET_VERSIONS: |
+    8.0.x
+    9.0.x
   NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
 
 jobs:
@@ -24,7 +26,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: ${{ env.DOTNET_VERSION }}
+        dotnet-version: ${{ env.DOTNET_VERSIONS }}
 
     - name: Get version
       id: get_version
