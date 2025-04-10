@@ -30,3 +30,7 @@ jobs:
 
     - name: Build
       run: dotnet build src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration Release --no-restore 
+
+    - name: Test
+      run: dotnet test src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration Release --no-restore 
+
