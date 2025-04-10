@@ -35,9 +35,9 @@ jobs:
 
     - name: Build and pack
       run: |
-        dotnet build src/ShowsOnSale.World.csproj --configuration Release
-        dotnet pack src/ShowsOnSale.World.csproj --configuration Release --no-build -p:Version=${{ env.VERSION }}
+        dotnet build src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration Release
+        dotnet pack src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration Release --no-build -p:Version=${{ env.VERSION }}
 
     - name: Push to NuGet
       run: |
-        dotnet nuget push "src/bin/Release/ShowsOnSale.World.${{ env.VERSION }}.nupkg" --api-key ${{ env.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate 
+        dotnet nuget push "src/ShowsOnSale.World/bin/Release/ShowsOnSale.World.${{ env.VERSION }}.nupkg" --api-key ${{ env.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate 
