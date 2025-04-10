@@ -1,0 +1,31 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Force bash scripts to always use LF line endings
+*.sh text eol=lf
+
+# Force batch scripts to always use CRLF line endings
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
+
+# Force PowerShell scripts to always use CRLF line endings
+*.ps1 text eol=crlf
+
+# Force YAML files to always use LF line endings
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Force JSON files to always use LF line endings
+*.json text eol=lf
+
+# Force XML files to always use LF line endings
+*.xml text eol=lf
+
+# Force C# source files to always use LF line endings
+*.cs text eol=lf
+
+# Force C# project files to always use LF line endings
+*.csproj text eol=lf
+
+# Force solution files to always use LF line endings
+*.sln text eol=lf 
