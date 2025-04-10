@@ -14,3 +14,43 @@ A comprehensive C# library providing a static data representation of the world's
 - Emoji flags for countries
 
 ## Installation
+
+Install the package via NuGet Package Manager:
+
+```powershell
+Install-Package ShowsOnSale.World
+```
+
+Or via the .NET CLI:
+
+```bash
+dotnet add package ShowsOnSale.World
+```
+
+## Usage
+
+```csharp
+using ShowsOnSale.World.Models;
+
+// Get all countries
+var countries = WorldData.Countries;
+
+// Get a specific country
+var usa = WorldData.GetCountry("US");
+
+// Get states/provinces for a country
+var usStates = usa.States;
+
+// Get cities in a state
+var californiaCities = usa.States.First(s => s.Name == "California").Cities;
+
+// Access timezone information
+var timezone = usa.Timezone;
+
+// Get currency information
+var currency = usa.Currency;
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
