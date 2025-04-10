@@ -30,25 +30,46 @@ dotnet add package ShowsOnSale.World
 ## Usage
 
 ```csharp
+using ShowsOnSale.World;
 using ShowsOnSale.World.Models;
 
 // Get all countries
-var countries = WorldData.Countries;
+var allCountries = WorldData.All;
 
-// Get a specific country
-var usa = WorldData.GetCountry("US");
+// Get a specific country by name
+var usa = WorldData.GetCountryByName("United States");
 
-// Get states/provinces for a country
-var usStates = usa.States;
+// Get a country by ISO code
+var japan = WorldData.GetCountryByCode("JP");
 
-// Get cities in a state
-var californiaCities = usa.States.First(s => s.Name == "California").Cities;
+// Access country properties
+Console.WriteLine($"Country: {usa.Name} ({usa.Iso2})");
+Console.WriteLine($"Region: {usa.Region}, Subregion: {usa.Subregion}");
+Console.WriteLine($"Capital: {usa.Capital}");
+Console.WriteLine($"Currency: {usa.CurrencySymbol} {usa.CurrencyName}");
+Console.WriteLine($"Phone Code: +{usa.PhoneCode}");
+Console.WriteLine($"Emoji: {usa.Emoji}");
 
-// Access timezone information
-var timezone = usa.Timezone;
+// Access translations
+Console.WriteLine($"USA in French: {usa.Translations["fr"]}");
 
-// Get currency information
-var currency = usa.Currency;
+// Access timezones
+foreach (var timezone in usa.Timezones)
+{
+    Console.WriteLine($"Timezone: {timezone.ZoneName} ({timezone.GmtOffsetName})");
+}
+
+// Access states/regions
+foreach (var state in usa.States)
+{
+    Console.WriteLine($"State: {state.Name} ({state.StateCode})");
+    
+    // Access cities in each state
+    foreach (var city in state.Cities)
+    {
+        Console.WriteLine($"  City: {city.Name} ({city.Latitude}, {city.Longitude})");
+    }
+}
 ```
 
 ## License

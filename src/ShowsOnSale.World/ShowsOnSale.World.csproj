@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+      <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+      <ImplicitUsings>enable</ImplicitUsings>
+      <Nullable>enable</Nullable>
+      <PackageId>ShowsOnSale.World</PackageId>
+      <Version>1.0.0</Version>
+      <Authors>Kevin Griffin</Authors>
+      <Company>Shows On Sale</Company>
+      <Description>A comprehensive C# model and static data representation of the world's geographical hierarchy, including countries, states/regions, cities, and additional metadata such as timezones, currencies, and ISO codes.</Description>
+      <PackageLicenseExpression>MIT</PackageLicenseExpression>
+      <PackageReadmeFile>README.md</PackageReadmeFile>
+      <PackageTags>geography;world;countries;states;cities;timezone;currency</PackageTags>
+      <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+      <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+      <IncludeSymbols>true</IncludeSymbols>
+      <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+      <PublishRepositoryUrl>true</PublishRepositoryUrl>
+      <EmbedUntrackedSources>true</EmbedUntrackedSources>
+      <IncludeSource>true</IncludeSource>
+      <RepositoryUrl>https://github.com/ShowsOnSale/ShowsOnSale.World</RepositoryUrl>
+    </PropertyGroup>
+  
+    <ItemGroup>
+      <None Include="README.md" Pack="true" PackagePath="/" />
+      <None Include="LICENSE" Pack="true" PackagePath="/" />
+    </ItemGroup>
+  
+  </Project>
