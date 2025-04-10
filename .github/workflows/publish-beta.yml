@@ -31,8 +31,8 @@ jobs:
         ls -la
         echo "Src directory contents:"
         ls -la src
-        echo "ShowsOnSale.World directory contents:"
-        ls -la src/ShowsOnSale.World
+        echo "ShowsOnsale.World directory contents:"
+        ls -la src/ShowsOnsale.World
 
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
@@ -67,10 +67,10 @@ jobs:
 
     - name: Build and pack
       run: |
-        dotnet build --project src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration Release
-        dotnet pack --project src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration Release --no-build -p:Version=${{ env.BETA_VERSION }}
+        dotnet build --project src/ShowsOnsale.World/ShowsOnsale.World.csproj --configuration Release
+        dotnet pack --project src/ShowsOnsale.World/ShowsOnsale.World.csproj --configuration Release --no-build -p:Version=${{ env.BETA_VERSION }}
 
     - name: Push to NuGet
       if: github.event_name == 'push'
       run: |
-        dotnet nuget push "src/ShowsOnSale.World/bin/Release/ShowsOnSale.World.${{ env.BETA_VERSION }}.nupkg" --api-key ${{ env.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate 
+        dotnet nuget push "src/ShowsOnsale.World/bin/Release/ShowsOnsale.World.${{ env.BETA_VERSION }}.nupkg" --api-key ${{ env.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate 
