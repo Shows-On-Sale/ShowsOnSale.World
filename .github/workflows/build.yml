@@ -1,0 +1,32 @@
+name: Build Check
+
+on:
+  pull_request:
+    branches:
+      - master
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup .NET 8.0
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Setup .NET 9.0
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '9.0.x'
+
+    - name: Restore dependencies
+      run: dotnet restore src/ShowsOnSale.World/ShowsOnSale.World.csproj
+
+    - name: Build
+      run: dotnet build src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration Release --no-restore 
