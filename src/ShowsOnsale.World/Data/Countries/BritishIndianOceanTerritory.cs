@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "영국령 인도양 지역" },
-                { "pt-BR" = "Território Britânico do Oceano íÍdico" }
-                { "pt" = "Território Britânico do Oceano Índico" }
-                { "nl" = "Britse Gebieden in de Indische Oceaan" }
-                { "hr" = "Britanski Indijskooceanski teritorij" }
-                { "fa" = "قلمرو بریتانیا در اقیانوس هند" }
-                { "de" = "Britisches Territorium im Indischen Ozean" }
-                { "es" = "Territorio Británico del Océano Índico" }
-                { "fr" = "Territoire britannique de l'océan Indien" }
-                { "ja" = "イギリス領インド洋地域" }
-                { "it" = "Territorio britannico dell'oceano indiano" }
-                { "zh-CN" = "英属印度洋领地" }
-                { "tr" = "Britanya Hint Okyanusu Topraklari" }
-                { "ru" = "Британская территория в Индийском океане" }
-                { "uk" = "Британська територія в Індійському океані" }
-                { "pl" = "Brytyjskie Terytorium Oceanu Indyjskiego" }
+                ["ko"] = "영국령 인도양 지역",
+                ["pt-BR"] = "Território Britânico do Oceano íÍdico",
+                ["pt"] = "Território Britânico do Oceano Índico",
+                ["nl"] = "Britse Gebieden in de Indische Oceaan",
+                ["hr"] = "Britanski Indijskooceanski teritorij",
+                ["fa"] = "قلمرو بریتانیا در اقیانوس هند",
+                ["de"] = "Britisches Territorium im Indischen Ozean",
+                ["es"] = "Territorio Británico del Océano Índico",
+                ["fr"] = "Territoire britannique de l'océan Indien",
+                ["ja"] = "イギリス領インド洋地域",
+                ["it"] = "Territorio britannico dell'oceano indiano",
+                ["zh-CN"] = "英属印度洋领地",
+                ["tr"] = "Britanya Hint Okyanusu Topraklari",
+                ["ru"] = "Британская территория в Индийском океане",
+                ["uk"] = "Британська територія в Індійському океані",
+                ["pl"] = "Brytyjskie Terytorium Oceanu Indyjskiego"
             },
             States = new()
             {

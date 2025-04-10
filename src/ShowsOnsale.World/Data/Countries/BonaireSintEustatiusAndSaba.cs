@@ -38,18 +38,18 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "보네르 섬" },
-                { "pt-BR" = "Bonaire" }
-                { "pt" = "Bonaire" }
-                { "fa" = "بونیر" }
-                { "de" = "Bonaire, Sint Eustatius und Saba" }
-                { "fr" = "Bonaire, Saint-Eustache et Saba" }
-                { "it" = "Bonaire, Saint-Eustache e Saba" }
-                { "zh-CN" = "博内尔岛、圣尤斯特歇斯和萨巴岛" }
-                { "tr" = "Karayip Hollandasi" }
-                { "ru" = "Бонайре, Синт-Эстатиус и Саба" }
-                { "uk" = "Бонайре, Сент-Естатіус і Саба" }
-                { "pl" = "Bonaire, Sint Eustatius i Saba" }
+                ["ko"] = "보네르 섬",
+                ["pt-BR"] = "Bonaire",
+                ["pt"] = "Bonaire",
+                ["fa"] = "بونیر",
+                ["de"] = "Bonaire, Sint Eustatius und Saba",
+                ["fr"] = "Bonaire, Saint-Eustache et Saba",
+                ["it"] = "Bonaire, Saint-Eustache e Saba",
+                ["zh-CN"] = "博内尔岛、圣尤斯特歇斯和萨巴岛",
+                ["tr"] = "Karayip Hollandasi",
+                ["ru"] = "Бонайре, Синт-Эстатиус и Саба",
+                ["uk"] = "Бонайре, Сент-Естатіус і Саба",
+                ["pl"] = "Bonaire, Sint Eustatius i Saba"
             },
             States = new()
             {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "이탈리아" },
-                { "pt-BR" = "Itália" }
-                { "pt" = "Itália" }
-                { "nl" = "Italië" }
-                { "hr" = "Italija" }
-                { "fa" = "ایتالیا" }
-                { "de" = "Italien" }
-                { "es" = "Italia" }
-                { "fr" = "Italie" }
-                { "ja" = "イタリア" }
-                { "it" = "Italia" }
-                { "zh-CN" = "意大利" }
-                { "tr" = "İtalya" }
-                { "ru" = "Италия" }
-                { "uk" = "Італія" }
-                { "pl" = "Włochy" }
+                ["ko"] = "이탈리아",
+                ["pt-BR"] = "Itália",
+                ["pt"] = "Itália",
+                ["nl"] = "Italië",
+                ["hr"] = "Italija",
+                ["fa"] = "ایتالیا",
+                ["de"] = "Italien",
+                ["es"] = "Italia",
+                ["fr"] = "Italie",
+                ["ja"] = "イタリア",
+                ["it"] = "Italia",
+                ["zh-CN"] = "意大利",
+                ["tr"] = "İtalya",
+                ["ru"] = "Италия",
+                ["uk"] = "Італія",
+                ["pl"] = "Włochy"
             },
             States = new()
             {
@@ -433,7 +433,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -446,7 +446,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -459,7 +459,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -563,7 +563,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 90, Name = "Villefranche", Latitude = "45.74064000", Longitude = "7.41598000" },
                         new() { Id = 91, Name = "Villeneuve", Latitude = "45.70201000", Longitude = "7.20682000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -874,7 +874,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 297, Name = "Zapponeta", Latitude = "41.45710000", Longitude = "15.95615000" },
                         new() { Id = 298, Name = "Zollino", Latitude = "40.20581000", Longitude = "18.24774000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -887,7 +887,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -900,7 +900,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -913,7 +913,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -1103,7 +1103,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 140, Name = "Villa d'Agri", Latitude = "40.35426000", Longitude = "15.82770000" },
                         new() { Id = 141, Name = "Zona 179", Latitude = "41.00313000", Longitude = "15.61868000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1116,7 +1116,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -1129,7 +1129,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -1142,7 +1142,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -1155,7 +1155,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -1168,7 +1168,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -1181,7 +1181,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -1701,7 +1701,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 506, Name = "Zumpano", Latitude = "39.31053000", Longitude = "16.29269000" },
                         new() { Id = 507, Name = "Zungri", Latitude = "38.65668000", Longitude = "15.98409000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1714,7 +1714,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -2419,7 +2419,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 691, Name = "Zungoli", Latitude = "41.12766000", Longitude = "15.20255000" },
                         new() { Id = 692, Name = "Zuni", Latitude = "41.21722000", Longitude = "14.13082000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -2432,7 +2432,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -2445,7 +2445,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -2458,7 +2458,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -2471,7 +2471,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -2484,7 +2484,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -2497,7 +2497,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -2510,7 +2510,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -2523,7 +2523,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -2536,7 +2536,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3087,7 +3087,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 537, Name = "Zocca", Latitude = "44.34566000", Longitude = "10.99308000" },
                         new() { Id = 538, Name = "Zola Predosa", Latitude = "44.48967000", Longitude = "11.21831000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -3100,7 +3100,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3113,7 +3113,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3126,7 +3126,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3139,7 +3139,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3152,7 +3152,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3436,7 +3436,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 270, Name = "Zugliano-Terenzano-Cargnacco", Latitude = "46.00750000", Longitude = "13.21694000" },
                         new() { Id = 271, Name = "Zuglio", Latitude = "46.45830000", Longitude = "13.02589000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -3449,7 +3449,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3462,7 +3462,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3475,7 +3475,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3488,7 +3488,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3501,7 +3501,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3514,7 +3514,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3527,7 +3527,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3540,7 +3540,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -4058,7 +4058,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 504, Name = "Zagarolo", Latitude = "41.84159000", Longitude = "12.81540000" },
                         new() { Id = 505, Name = "Zepponami", Latitude = "42.52518000", Longitude = "12.05411000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -4071,7 +4071,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -4084,7 +4084,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -4374,7 +4374,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 276, Name = "Zoagli", Latitude = "44.33668000", Longitude = "9.26680000" },
                         new() { Id = 277, Name = "Zuccarello", Latitude = "44.10973000", Longitude = "8.11814000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -4387,7 +4387,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -4400,7 +4400,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6200,7 +6200,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1786, Name = "Zone", Latitude = "45.76339000", Longitude = "10.11586000" },
                         new() { Id = 1787, Name = "Zorlesco", Latitude = "45.20035000", Longitude = "9.61603000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -6213,7 +6213,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6226,7 +6226,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6239,7 +6239,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6567,7 +6567,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 314, Name = "Visso", Latitude = "42.93351000", Longitude = "13.08051000" },
                         new() { Id = 315, Name = "Zona Industriale", Latitude = "43.26155000", Longitude = "13.48834000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -6580,7 +6580,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6593,7 +6593,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6606,7 +6606,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6760,7 +6760,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 140, Name = "Venafro", Latitude = "41.48275000", Longitude = "14.04773000" },
                         new() { Id = 141, Name = "Vinchiaturo", Latitude = "41.49282000", Longitude = "14.59200000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -6773,7 +6773,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6786,7 +6786,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6799,7 +6799,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6812,7 +6812,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6825,7 +6825,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6838,7 +6838,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6851,7 +6851,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6864,7 +6864,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6877,7 +6877,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6890,7 +6890,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6903,7 +6903,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6916,7 +6916,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -8218,7 +8218,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1288, Name = "Zubiena", Latitude = "45.49266000", Longitude = "7.99552000" },
                         new() { Id = 1289, Name = "Zumaglia", Latitude = "45.59386000", Longitude = "8.08942000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -8231,7 +8231,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -8244,7 +8244,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -8257,7 +8257,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -8270,7 +8270,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -8283,7 +8283,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -8296,7 +8296,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -8327,7 +8327,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 17, Name = "Sant'Agata sul Santerno", Latitude = "44.44351000", Longitude = "11.86112000" },
                         new() { Id = 18, Name = "Solarolo", Latitude = "44.35892000", Longitude = "11.84661000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -8340,7 +8340,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -8353,7 +8353,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -8366,7 +8366,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -8379,7 +8379,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -8392,7 +8392,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -8807,7 +8807,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 401, Name = "Zeddiani", Latitude = "39.98898000", Longitude = "8.59580000" },
                         new() { Id = 402, Name = "Zerfaliu", Latitude = "39.96088000", Longitude = "8.70971000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -8820,7 +8820,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -8833,7 +8833,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -9320,7 +9320,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 473, Name = "Vizzini", Latitude = "37.16188000", Longitude = "14.75712000" },
                         new() { Id = 474, Name = "Zafferana Etnea", Latitude = "37.67895000", Longitude = "15.10432000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -9333,7 +9333,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -9346,7 +9346,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -9359,7 +9359,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -9372,7 +9372,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -9385,7 +9385,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -9398,7 +9398,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -9411,7 +9411,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -9424,7 +9424,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -9827,7 +9827,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 389, Name = "Ziano di Fiemme", Latitude = "46.28572000", Longitude = "11.56496000" },
                         new() { Id = 390, Name = "Zuclo", Latitude = "46.03430000", Longitude = "10.75107000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -9840,7 +9840,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

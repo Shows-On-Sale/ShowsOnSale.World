@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "케이먼 제도" },
-                { "pt-BR" = "Ilhas Cayman" }
-                { "pt" = "Ilhas Caimão" }
-                { "nl" = "Caymaneilanden" }
-                { "hr" = "Kajmanski otoci" }
-                { "fa" = "جزایر کیمن" }
-                { "de" = "Kaimaninseln" }
-                { "es" = "Islas Caimán" }
-                { "fr" = "Îles Caïmans" }
-                { "ja" = "ケイマン諸島" }
-                { "it" = "Isole Cayman" }
-                { "zh-CN" = "开曼群岛" }
-                { "tr" = "Cayman Adalari" }
-                { "ru" = "Каймановы острова" }
-                { "uk" = "Кайманові острови" }
-                { "pl" = "Kajmany" }
+                ["ko"] = "케이먼 제도",
+                ["pt-BR"] = "Ilhas Cayman",
+                ["pt"] = "Ilhas Caimão",
+                ["nl"] = "Caymaneilanden",
+                ["hr"] = "Kajmanski otoci",
+                ["fa"] = "جزایر کیمن",
+                ["de"] = "Kaimaninseln",
+                ["es"] = "Islas Caimán",
+                ["fr"] = "Îles Caïmans",
+                ["ja"] = "ケイマン諸島",
+                ["it"] = "Isole Cayman",
+                ["zh-CN"] = "开曼群岛",
+                ["tr"] = "Cayman Adalari",
+                ["ru"] = "Каймановы острова",
+                ["uk"] = "Кайманові острови",
+                ["pl"] = "Kajmany"
             },
             States = new()
             {

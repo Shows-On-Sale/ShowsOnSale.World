@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "카보베르데" },
-                { "pt-BR" = "Cabo Verde" }
-                { "pt" = "Cabo Verde" }
-                { "nl" = "Kaapverdië" }
-                { "hr" = "Zelenortska Republika" }
-                { "fa" = "کیپ ورد" }
-                { "de" = "Kap Verde" }
-                { "es" = "Cabo Verde" }
-                { "fr" = "Cap Vert" }
-                { "ja" = "カーボベルデ" }
-                { "it" = "Capo Verde" }
-                { "zh-CN" = "佛得角" }
-                { "tr" = "Cabo Verde" }
-                { "ru" = "Кабо-Верде" }
-                { "uk" = "Кабо-Верде" }
-                { "pl" = "Republika Zielonego Przylądka" }
+                ["ko"] = "카보베르데",
+                ["pt-BR"] = "Cabo Verde",
+                ["pt"] = "Cabo Verde",
+                ["nl"] = "Kaapverdië",
+                ["hr"] = "Zelenortska Republika",
+                ["fa"] = "کیپ ورد",
+                ["de"] = "Kap Verde",
+                ["es"] = "Cabo Verde",
+                ["fr"] = "Cap Vert",
+                ["ja"] = "カーボベルデ",
+                ["it"] = "Capo Verde",
+                ["zh-CN"] = "佛得角",
+                ["tr"] = "Cabo Verde",
+                ["ru"] = "Кабо-Верде",
+                ["uk"] = "Кабо-Верде",
+                ["pl"] = "Republika Zielonego Przylądka"
             },
             States = new()
             {
@@ -97,7 +97,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Nova Sintra", Latitude = "14.87139000", Longitude = "-24.69556000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -111,7 +111,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Vila do Maio", Latitude = "15.13823000", Longitude = "-23.21158000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -125,7 +125,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Igreja", Latitude = "15.03389000", Longitude = "-24.32500000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -139,7 +139,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Pombas", Latitude = "17.15026000", Longitude = "-25.02007000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -153,7 +153,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Porto Novo", Latitude = "17.01969000", Longitude = "-25.06471000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -167,7 +167,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Praia", Latitude = "14.93152000", Longitude = "-23.51254000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -181,7 +181,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Ribeira Brava", Latitude = "16.61583000", Longitude = "-24.29833000" }
                     }
-                }
+                },
 
                 new()
                 {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "자메이카" },
-                { "pt-BR" = "Jamaica" }
-                { "pt" = "Jamaica" }
-                { "nl" = "Jamaica" }
-                { "hr" = "Jamajka" }
-                { "fa" = "جامائیکا" }
-                { "de" = "Jamaika" }
-                { "es" = "Jamaica" }
-                { "fr" = "Jamaïque" }
-                { "ja" = "ジャマイカ" }
-                { "it" = "Giamaica" }
-                { "zh-CN" = "牙买加" }
-                { "tr" = "Jamaika" }
-                { "ru" = "Ямайка" }
-                { "uk" = "Ямайка" }
-                { "pl" = "Jamajka" }
+                ["ko"] = "자메이카",
+                ["pt-BR"] = "Jamaica",
+                ["pt"] = "Jamaica",
+                ["nl"] = "Jamaica",
+                ["hr"] = "Jamajka",
+                ["fa"] = "جامائیکا",
+                ["de"] = "Jamaika",
+                ["es"] = "Jamaica",
+                ["fr"] = "Jamaïque",
+                ["ja"] = "ジャマイカ",
+                ["it"] = "Giamaica",
+                ["zh-CN"] = "牙买加",
+                ["tr"] = "Jamaika",
+                ["ru"] = "Ямайка",
+                ["uk"] = "Ямайка",
+                ["pl"] = "Jamajka"
             },
             States = new()
             {
@@ -204,7 +204,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 35, Name = "Woodlands", Latitude = "18.44555000", Longitude = "-77.99963000" },
                         new() { Id = 36, Name = "Woodsville", Latitude = "18.36950000", Longitude = "-78.07217000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -242,7 +242,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 24, Name = "Tivoli Gardens", Latitude = "17.97326000", Longitude = "-76.80090000" },
                         new() { Id = 25, Name = "West Down Town", Latitude = "17.97294000", Longitude = "-76.79704000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -330,7 +330,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 74, Name = "Watham", Latitude = "18.00675000", Longitude = "-77.51873000" },
                         new() { Id = 75, Name = "Williamsfield", Latitude = "18.06664000", Longitude = "-77.46582000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -387,7 +387,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 43, Name = "Windsor Castle", Latitude = "18.24888000", Longitude = "-76.69029000" },
                         new() { Id = 44, Name = "Windsor Forest", Latitude = "18.12057000", Longitude = "-76.33876000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -507,7 +507,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 106, Name = "Woodford Park", Latitude = "17.98712000", Longitude = "-76.78117000" },
                         new() { Id = 107, Name = "Zaidie Gardens", Latitude = "18.02566000", Longitude = "-76.80978000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -574,7 +574,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 53, Name = "Watt Town", Latitude = "18.29427000", Longitude = "-77.41466000" },
                         new() { Id = 54, Name = "York Castle", Latitude = "18.27515000", Longitude = "-77.22923000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -641,7 +641,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 53, Name = "West Cumberland", Latitude = "17.97890000", Longitude = "-76.88662000" },
                         new() { Id = 54, Name = "Willowdene", Latitude = "17.99189000", Longitude = "-76.98199000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -717,7 +717,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 62, Name = "Watchwell", Latitude = "17.93876000", Longitude = "-77.77250000" },
                         new() { Id = 63, Name = "White Hill", Latitude = "18.15646000", Longitude = "-77.81067000" }
                     }
-                }
+                },
 
                 new()
                 {

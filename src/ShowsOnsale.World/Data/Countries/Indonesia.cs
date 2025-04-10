@@ -41,22 +41,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "인도네시아" },
-                { "pt-BR" = "Indonésia" }
-                { "pt" = "Indonésia" }
-                { "nl" = "Indonesië" }
-                { "hr" = "Indonezija" }
-                { "fa" = "اندونزی" }
-                { "de" = "Indonesien" }
-                { "es" = "Indonesia" }
-                { "fr" = "Indonésie" }
-                { "ja" = "インドネシア" }
-                { "it" = "Indonesia" }
-                { "zh-CN" = "印度尼西亚" }
-                { "tr" = "Endonezya" }
-                { "ru" = "Индонезия" }
-                { "uk" = "Індонезія" }
-                { "pl" = "Indonezja" }
+                ["ko"] = "인도네시아",
+                ["pt-BR"] = "Indonésia",
+                ["pt"] = "Indonésia",
+                ["nl"] = "Indonesië",
+                ["hr"] = "Indonezija",
+                ["fa"] = "اندونزی",
+                ["de"] = "Indonesien",
+                ["es"] = "Indonesia",
+                ["fr"] = "Indonésie",
+                ["ja"] = "インドネシア",
+                ["it"] = "Indonesia",
+                ["zh-CN"] = "印度尼西亚",
+                ["tr"] = "Endonezya",
+                ["ru"] = "Индонезия",
+                ["uk"] = "Індонезія",
+                ["pl"] = "Indonezja"
             },
             States = new()
             {
@@ -183,7 +183,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Kabupaten Rejang Lebong", Latitude = "-3.43333000", Longitude = "102.71667000" },
                         new() { Id = 11, Name = "Kabupaten Seluma", Latitude = "-3.96644000", Longitude = "102.47429000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -201,7 +201,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Kabupaten Sleman", Latitude = "-7.68167000", Longitude = "110.32333000" },
                         new() { Id = 5, Name = "Yogyakarta", Latitude = "-7.80139000", Longitude = "110.36472000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -219,7 +219,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Jakarta Timur", Latitude = "-6.26097100", Longitude = "106.82261800" },
                         new() { Id = 5, Name = "Jakarta Utara", Latitude = "-6.13570900", Longitude = "106.75949840" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -238,7 +238,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Kabupaten Gorontalo Utara", Latitude = "0.77000000", Longitude = "122.31667000" },
                         new() { Id = 6, Name = "Kabupaten Pohuwato", Latitude = "0.70980000", Longitude = "121.59582000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -266,7 +266,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 14, Name = "Simpang", Latitude = "-1.26424000", Longitude = "104.09701000" },
                         new() { Id = 15, Name = "Sungai Penuh", Latitude = "-2.05610000", Longitude = "101.39130000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -359,7 +359,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 79, Name = "Wanaraja", Latitude = "-7.17490000", Longitude = "107.98080000" },
                         new() { Id = 80, Name = "Weru", Latitude = "-6.71100000", Longitude = "108.50370000" }
                     }
-                }
+                },
 
                 new()
                 {

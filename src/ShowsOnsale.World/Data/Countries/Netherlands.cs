@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "네덜란드 " },
-                { "pt-BR" = "Holanda" }
-                { "pt" = "Países Baixos" }
-                { "nl" = "Nederland" }
-                { "hr" = "Nizozemska" }
-                { "fa" = "پادشاهی هلند" }
-                { "de" = "Niederlande" }
-                { "es" = "Países Bajos" }
-                { "fr" = "Pays-Bas" }
-                { "ja" = "オランダ" }
-                { "it" = "Paesi Bassi" }
-                { "zh-CN" = "荷兰" }
-                { "tr" = "Hollanda" }
-                { "ru" = "Нидерланды" }
-                { "uk" = "Нідерланди" }
-                { "pl" = "Holandia" }
+                ["ko"] = "네덜란드 ",
+                ["pt-BR"] = "Holanda",
+                ["pt"] = "Países Baixos",
+                ["nl"] = "Nederland",
+                ["hr"] = "Nizozemska",
+                ["fa"] = "پادشاهی هلند",
+                ["de"] = "Niederlande",
+                ["es"] = "Países Bajos",
+                ["fr"] = "Pays-Bas",
+                ["ja"] = "オランダ",
+                ["it"] = "Paesi Bassi",
+                ["zh-CN"] = "荷兰",
+                ["tr"] = "Hollanda",
+                ["ru"] = "Нидерланды",
+                ["uk"] = "Нідерланди",
+                ["pl"] = "Holandia"
             },
             States = new()
             {
@@ -154,7 +154,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 63, Name = "Wolfsbos", Latitude = "52.71734000", Longitude = "6.49881000" },
                         new() { Id = 64, Name = "Zuidlaren", Latitude = "53.09417000", Longitude = "6.68194000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -175,7 +175,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Urk", Latitude = "52.66250000", Longitude = "5.60139000" },
                         new() { Id = 8, Name = "Zeewolde", Latitude = "52.33000000", Longitude = "5.54167000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -306,7 +306,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 117, Name = "Woudsend", Latitude = "52.94357000", Longitude = "5.62843000" },
                         new() { Id = 118, Name = "Zuiderburen", Latitude = "53.17340000", Longitude = "5.84271000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -543,7 +543,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 223, Name = "Zuilichem", Latitude = "51.80917000", Longitude = "5.13611000" },
                         new() { Id = 224, Name = "Zutphen", Latitude = "52.13833000", Longitude = "6.20139000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -635,7 +635,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 78, Name = "Zuidbroek", Latitude = "53.16333000", Longitude = "6.86111000" },
                         new() { Id = 79, Name = "Zuidhorn", Latitude = "53.24667000", Longitude = "6.40278000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -827,7 +827,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 178, Name = "Wolder", Latitude = "50.83752000", Longitude = "5.65938000" },
                         new() { Id = 179, Name = "Ysselsteyn", Latitude = "51.49000000", Longitude = "5.89722000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1098,7 +1098,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 257, Name = "Zonderwijk", Latitude = "51.41141000", Longitude = "5.39361000" },
                         new() { Id = 258, Name = "Zundert", Latitude = "51.47167000", Longitude = "4.65556000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1459,7 +1459,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 347, Name = "Zwaagdijk-West", Latitude = "52.67580000", Longitude = "5.05920000" },
                         new() { Id = 348, Name = "Zwaanshoek", Latitude = "52.31250000", Longitude = "4.61667000" }
                     }
-                }
+                },
 
                 new()
                 {

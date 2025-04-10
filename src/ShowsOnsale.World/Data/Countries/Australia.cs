@@ -35,14 +35,14 @@ namespace ShowsOnSale.World.Data.Countries
             Timezones = new()
             {
                 new() { ZoneName = "Antarctica/Macquarie", GmtOffset = 39600, GmtOffsetName = "UTC+11:00", Abbreviation = "MIST", TzName = "Macquarie Island Station Time" },
-                new() { ZoneName = "Australia/Adelaide", GmtOffset = 37800, GmtOffsetName = "UTC+10:30", Abbreviation = "ACDT", TzName = "Australian Central Daylight Saving Time" }
-                new() { ZoneName = "Australia/Brisbane", GmtOffset = 36000, GmtOffsetName = "UTC+10:00", Abbreviation = "AEST", TzName = "Australian Eastern Standard Time" }
-                new() { ZoneName = "Australia/Broken_Hill", GmtOffset = 37800, GmtOffsetName = "UTC+10:30", Abbreviation = "ACDT", TzName = "Australian Central Daylight Saving Time" }
-                new() { ZoneName = "Australia/Currie", GmtOffset = 39600, GmtOffsetName = "UTC+11:00", Abbreviation = "AEDT", TzName = "Australian Eastern Daylight Saving Time" }
-                new() { ZoneName = "Australia/Darwin", GmtOffset = 34200, GmtOffsetName = "UTC+09:30", Abbreviation = "ACST", TzName = "Australian Central Standard Time" }
-                new() { ZoneName = "Australia/Eucla", GmtOffset = 31500, GmtOffsetName = "UTC+08:45", Abbreviation = "ACWST", TzName = "Australian Central Western Standard Time (Unofficial)" }
-                new() { ZoneName = "Australia/Hobart", GmtOffset = 39600, GmtOffsetName = "UTC+11:00", Abbreviation = "AEDT", TzName = "Australian Eastern Daylight Saving Time" }
-                new() { ZoneName = "Australia/Lindeman", GmtOffset = 36000, GmtOffsetName = "UTC+10:00", Abbreviation = "AEST", TzName = "Australian Eastern Standard Time" }
+                new() { ZoneName = "Australia/Adelaide", GmtOffset = 37800, GmtOffsetName = "UTC+10:30", Abbreviation = "ACDT", TzName = "Australian Central Daylight Saving Time" },
+                new() { ZoneName = "Australia/Brisbane", GmtOffset = 36000, GmtOffsetName = "UTC+10:00", Abbreviation = "AEST", TzName = "Australian Eastern Standard Time" },
+                new() { ZoneName = "Australia/Broken_Hill", GmtOffset = 37800, GmtOffsetName = "UTC+10:30", Abbreviation = "ACDT", TzName = "Australian Central Daylight Saving Time" },
+                new() { ZoneName = "Australia/Currie", GmtOffset = 39600, GmtOffsetName = "UTC+11:00", Abbreviation = "AEDT", TzName = "Australian Eastern Daylight Saving Time" },
+                new() { ZoneName = "Australia/Darwin", GmtOffset = 34200, GmtOffsetName = "UTC+09:30", Abbreviation = "ACST", TzName = "Australian Central Standard Time" },
+                new() { ZoneName = "Australia/Eucla", GmtOffset = 31500, GmtOffsetName = "UTC+08:45", Abbreviation = "ACWST", TzName = "Australian Central Western Standard Time (Unofficial)" },
+                new() { ZoneName = "Australia/Hobart", GmtOffset = 39600, GmtOffsetName = "UTC+11:00", Abbreviation = "AEDT", TzName = "Australian Eastern Daylight Saving Time" },
+                new() { ZoneName = "Australia/Lindeman", GmtOffset = 36000, GmtOffsetName = "UTC+10:00", Abbreviation = "AEST", TzName = "Australian Eastern Standard Time" },
                 new() { ZoneName = "Australia/Lord_Howe", GmtOffset = 39600, GmtOffsetName = "UTC+11:00", Abbreviation = "LHST", TzName = "Lord Howe Summer Time" },
                 new() { ZoneName = "Australia/Melbourne", GmtOffset = 39600, GmtOffsetName = "UTC+11:00", Abbreviation = "AEDT", TzName = "Australian Eastern Daylight Saving Time" },
                 new() { ZoneName = "Australia/Perth", GmtOffset = 28800, GmtOffsetName = "UTC+08:00", Abbreviation = "AWST", TzName = "Australian Western Standard Time" },
@@ -50,22 +50,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "호주" },
-                { "pt-BR" = "Austrália" }
-                { "pt" = "Austrália" }
-                { "nl" = "Australië" }
-                { "hr" = "Australija" }
-                { "fa" = "استرالیا" }
-                { "de" = "Australien" }
-                { "es" = "Australia" }
-                { "fr" = "Australie" }
-                { "ja" = "オーストラリア" }
-                { "it" = "Australia" }
-                { "zh-CN" = "澳大利亚" }
-                { "tr" = "Avustralya" }
-                { "ru" = "Австралия" }
-                { "uk" = "Австралія" }
-                { "pl" = "Australia" }
+                ["ko"] = "호주",
+                ["pt-BR"] = "Austrália",
+                ["pt"] = "Austrália",
+                ["nl"] = "Australië",
+                ["hr"] = "Australija",
+                ["fa"] = "استرالیا",
+                ["de"] = "Australien",
+                ["es"] = "Australia",
+                ["fr"] = "Australie",
+                ["ja"] = "オーストラリア",
+                ["it"] = "Australia",
+                ["zh-CN"] = "澳大利亚",
+                ["tr"] = "Avustralya",
+                ["ru"] = "Австралия",
+                ["uk"] = "Австралія",
+                ["pl"] = "Australia"
             },
             States = new()
             {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "모리셔스" },
-                { "pt-BR" = "Maurício" }
-                { "pt" = "Maurícia" }
-                { "nl" = "Mauritius" }
-                { "hr" = "Mauricijus" }
-                { "fa" = "موریس" }
-                { "de" = "Mauritius" }
-                { "es" = "Mauricio" }
-                { "fr" = "Île Maurice" }
-                { "ja" = "モーリシャス" }
-                { "it" = "Mauritius" }
-                { "zh-CN" = "毛里求斯" }
-                { "tr" = "Morityus" }
-                { "ru" = "Маврикий" }
-                { "uk" = "Маврикій" }
-                { "pl" = "Mauritius" }
+                ["ko"] = "모리셔스",
+                ["pt-BR"] = "Maurício",
+                ["pt"] = "Maurícia",
+                ["nl"] = "Mauritius",
+                ["hr"] = "Mauricijus",
+                ["fa"] = "موریس",
+                ["de"] = "Mauritius",
+                ["es"] = "Mauricio",
+                ["fr"] = "Île Maurice",
+                ["ja"] = "モーリシャス",
+                ["it"] = "Mauritius",
+                ["zh-CN"] = "毛里求斯",
+                ["tr"] = "Morityus",
+                ["ru"] = "Маврикий",
+                ["uk"] = "Маврикій",
+                ["pl"] = "Mauritius"
             },
             States = new()
             {
@@ -98,7 +98,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 14, Name = "Richelieu", Latitude = "-20.19084900", Longitude = "57.46129900" },
                         new() { Id = 15, Name = "Tamarin", Latitude = "-20.32556000", Longitude = "57.37056000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -136,7 +136,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 24, Name = "Sebastopol", Latitude = "-20.29070000", Longitude = "57.68779000" },
                         new() { Id = 25, Name = "Trou D'Eau Douce", Latitude = "-20.23458600", Longitude = "57.79486100" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -170,7 +170,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 20, Name = "Union Park", Latitude = "-20.38629400", Longitude = "57.58068000" },
                         new() { Id = 21, Name = "Vieux Grand Port", Latitude = "-20.37406600", Longitude = "57.71607700" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -200,7 +200,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 16, Name = "Saint Pierre", Latitude = "-20.21750000", Longitude = "57.52083000" },
                         new() { Id = 17, Name = "Verdun", Latitude = "-20.23417000", Longitude = "57.55476000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -231,7 +231,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 17, Name = "Trou Aux Biches", Latitude = "-20.03123500", Longitude = "57.55189700" },
                         new() { Id = 18, Name = "Ville Bague", Latitude = "-20.14604500", Longitude = "57.62414900" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -264,7 +264,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 19, Name = "Rose Hill", Latitude = "-20.24347800", Longitude = "57.46985500" },
                         new() { Id = 20, Name = "Vacoas", Latitude = "-20.29806000", Longitude = "57.47833000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -290,7 +290,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "Vallée des Prêtres", Latitude = "-20.16514700", Longitude = "57.53403900" },
                         new() { Id = 13, Name = "Vallee Pitot", Latitude = "-20.16920000", Longitude = "57.51997000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -321,7 +321,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 17, Name = "Roches Noire", Latitude = "-20.11111000", Longitude = "57.71222000" },
                         new() { Id = 18, Name = "The Vale", Latitude = "-20.03018000", Longitude = "57.60219000" }
                     }
-                }
+                },
 
                 new()
                 {

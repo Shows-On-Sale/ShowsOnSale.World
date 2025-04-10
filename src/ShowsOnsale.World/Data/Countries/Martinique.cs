@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "마르티니크" },
-                { "pt-BR" = "Martinica" }
-                { "pt" = "Martinica" }
-                { "nl" = "Martinique" }
-                { "hr" = "Martinique" }
-                { "fa" = "مونتسرات" }
-                { "de" = "Martinique" }
-                { "es" = "Martinica" }
-                { "fr" = "Martinique" }
-                { "ja" = "マルティニーク" }
-                { "it" = "Martinica" }
-                { "zh-CN" = "马提尼克岛" }
-                { "tr" = "Martinik" }
-                { "ru" = "Мартиника" }
-                { "uk" = "Мартініка" }
-                { "pl" = "Martynika" }
+                ["ko"] = "마르티니크",
+                ["pt-BR"] = "Martinica",
+                ["pt"] = "Martinica",
+                ["nl"] = "Martinique",
+                ["hr"] = "Martinique",
+                ["fa"] = "مونتسرات",
+                ["de"] = "Martinique",
+                ["es"] = "Martinica",
+                ["fr"] = "Martinique",
+                ["ja"] = "マルティニーク",
+                ["it"] = "Martinica",
+                ["zh-CN"] = "马提尼克岛",
+                ["tr"] = "Martinik",
+                ["ru"] = "Мартиника",
+                ["uk"] = "Мартініка",
+                ["pl"] = "Martynika"
             },
             States = new()
             {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "투발루" },
-                { "pt-BR" = "Tuvalu" }
-                { "pt" = "Tuvalu" }
-                { "nl" = "Tuvalu" }
-                { "hr" = "Tuvalu" }
-                { "fa" = "تووالو" }
-                { "de" = "Tuvalu" }
-                { "es" = "Tuvalu" }
-                { "fr" = "Tuvalu" }
-                { "ja" = "ツバル" }
-                { "it" = "Tuvalu" }
-                { "zh-CN" = "图瓦卢" }
-                { "tr" = "Tuvalu" }
-                { "ru" = "Тувалу" }
-                { "uk" = "Тувалу" }
-                { "pl" = "Tuvalu" }
+                ["ko"] = "투발루",
+                ["pt-BR"] = "Tuvalu",
+                ["pt"] = "Tuvalu",
+                ["nl"] = "Tuvalu",
+                ["hr"] = "Tuvalu",
+                ["fa"] = "تووالو",
+                ["de"] = "Tuvalu",
+                ["es"] = "Tuvalu",
+                ["fr"] = "Tuvalu",
+                ["ja"] = "ツバル",
+                ["it"] = "Tuvalu",
+                ["zh-CN"] = "图瓦卢",
+                ["tr"] = "Tuvalu",
+                ["ru"] = "Тувалу",
+                ["uk"] = "Тувалу",
+                ["pl"] = "Tuvalu"
             },
             States = new()
             {

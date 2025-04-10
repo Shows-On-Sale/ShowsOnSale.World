@@ -35,36 +35,36 @@ namespace ShowsOnSale.World.Data.Countries
             Timezones = new()
             {
                 new() { ZoneName = "America/Argentina/Buenos_Aires", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" },
-                new() { ZoneName = "America/Argentina/Catamarca", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" }
-                new() { ZoneName = "America/Argentina/Cordoba", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" }
-                new() { ZoneName = "America/Argentina/Jujuy", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" }
-                new() { ZoneName = "America/Argentina/La_Rioja", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" }
-                new() { ZoneName = "America/Argentina/Mendoza", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" }
-                new() { ZoneName = "America/Argentina/Rio_Gallegos", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" }
-                new() { ZoneName = "America/Argentina/Salta", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" }
-                new() { ZoneName = "America/Argentina/San_Juan", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" }
+                new() { ZoneName = "America/Argentina/Catamarca", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" },
+                new() { ZoneName = "America/Argentina/Cordoba", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" },
+                new() { ZoneName = "America/Argentina/Jujuy", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" },
+                new() { ZoneName = "America/Argentina/La_Rioja", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" },
+                new() { ZoneName = "America/Argentina/Mendoza", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" },
+                new() { ZoneName = "America/Argentina/Rio_Gallegos", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" },
+                new() { ZoneName = "America/Argentina/Salta", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" },
+                new() { ZoneName = "America/Argentina/San_Juan", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" },
                 new() { ZoneName = "America/Argentina/San_Luis", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" },
                 new() { ZoneName = "America/Argentina/Tucuman", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" },
                 new() { ZoneName = "America/Argentina/Ushuaia", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" }
             },
             Translations = new()
             {
-                { "ko" = "아르헨티나" },
-                { "pt-BR" = "Argentina" }
-                { "pt" = "Argentina" }
-                { "nl" = "Argentinië" }
-                { "hr" = "Argentina" }
-                { "fa" = "آرژانتین" }
-                { "de" = "Argentinien" }
-                { "es" = "Argentina" }
-                { "fr" = "Argentine" }
-                { "ja" = "アルゼンチン" }
-                { "it" = "Argentina" }
-                { "zh-CN" = "阿根廷" }
-                { "tr" = "Arjantin" }
-                { "ru" = "Аргентина" }
-                { "uk" = "Аргентина" }
-                { "pl" = "Argentyna" }
+                ["ko"] = "아르헨티나",
+                ["pt-BR"] = "Argentina",
+                ["pt"] = "Argentina",
+                ["nl"] = "Argentinië",
+                ["hr"] = "Argentina",
+                ["fa"] = "آرژانتین",
+                ["de"] = "Argentinien",
+                ["es"] = "Argentina",
+                ["fr"] = "Argentine",
+                ["ja"] = "アルゼンチン",
+                ["it"] = "Argentina",
+                ["zh-CN"] = "阿根廷",
+                ["tr"] = "Arjantin",
+                ["ru"] = "Аргентина",
+                ["uk"] = "Аргентина",
+                ["pl"] = "Argentyna"
             },
             States = new()
             {
@@ -324,7 +324,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 34, Name = "Santa María", Latitude = "-26.69547000", Longitude = "-66.04732000" },
                         new() { Id = 35, Name = "Tinogasta", Latitude = "-28.06319000", Longitude = "-67.56488000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -411,7 +411,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 73, Name = "Villa Ángela", Latitude = "-27.57383000", Longitude = "-60.71526000" },
                         new() { Id = 74, Name = "Villa Berthet", Latitude = "-27.29174000", Longitude = "-60.41263000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -461,7 +461,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 36, Name = "Trelew", Latitude = "-43.24895000", Longitude = "-65.30505000" },
                         new() { Id = 37, Name = "Trevelin", Latitude = "-43.08580000", Longitude = "-71.46386000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -661,7 +661,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 186, Name = "Villa Valeria", Latitude = "-34.34093000", Longitude = "-64.92030000" },
                         new() { Id = 187, Name = "Wenceslao Escalante", Latitude = "-33.17303000", Longitude = "-62.77078000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -748,7 +748,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 73, Name = "Yapeyú", Latitude = "-29.46914000", Longitude = "-56.81841000" },
                         new() { Id = 74, Name = "Yataity Calle", Latitude = "-29.01913000", Longitude = "-58.90846000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -826,7 +826,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 64, Name = "Villa Urquiza", Latitude = "-31.64757000", Longitude = "-60.37516000" },
                         new() { Id = 65, Name = "Villaguay", Latitude = "-31.86530000", Longitude = "-59.02689000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -859,7 +859,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 19, Name = "Villa Escolar", Latitude = "-26.62209000", Longitude = "-58.67134000" },
                         new() { Id = 20, Name = "Villa General Guemes", Latitude = "-24.75530000", Longitude = "-59.48940000" }
                     }
-                }
+                },
 
                 new()
                 {

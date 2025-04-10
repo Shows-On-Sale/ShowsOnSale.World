@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "모잠비크" },
-                { "pt-BR" = "Moçambique" }
-                { "pt" = "Moçambique" }
-                { "nl" = "Mozambique" }
-                { "hr" = "Mozambik" }
-                { "fa" = "موزامبیک" }
-                { "de" = "Mosambik" }
-                { "es" = "Mozambique" }
-                { "fr" = "Mozambique" }
-                { "ja" = "モザンビーク" }
-                { "it" = "Mozambico" }
-                { "zh-CN" = "莫桑比克" }
-                { "tr" = "Mozambik" }
-                { "ru" = "Мозамбик" }
-                { "uk" = "Мозамбік" }
-                { "pl" = "Mozambik" }
+                ["ko"] = "모잠비크",
+                ["pt-BR"] = "Moçambique",
+                ["pt"] = "Moçambique",
+                ["nl"] = "Mozambique",
+                ["hr"] = "Mozambik",
+                ["fa"] = "موزامبیک",
+                ["de"] = "Mosambik",
+                ["es"] = "Mozambique",
+                ["fr"] = "Mozambique",
+                ["ja"] = "モザンビーク",
+                ["it"] = "Mozambico",
+                ["zh-CN"] = "莫桑比克",
+                ["tr"] = "Mozambik",
+                ["ru"] = "Мозамбик",
+                ["uk"] = "Мозамбік",
+                ["pl"] = "Mozambik"
             },
             States = new()
             {
@@ -90,7 +90,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Macia", Latitude = "-25.02694000", Longitude = "33.09889000" },
                         new() { Id = 4, Name = "Xai-Xai", Latitude = "-25.05194000", Longitude = "33.64417000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -105,7 +105,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Inhambane", Latitude = "-23.86500000", Longitude = "35.38333000" },
                         new() { Id = 2, Name = "Maxixe", Latitude = "-23.85972000", Longitude = "35.34722000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -119,7 +119,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Chimoio", Latitude = "-19.11639000", Longitude = "33.48333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -142,7 +142,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Namaacha District", Latitude = "-26.10900000", Longitude = "32.18000000" },
                         new() { Id = 10, Name = "Ressano Garcia", Latitude = "-25.44278000", Longitude = "31.99528000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -157,7 +157,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "KaTembe", Latitude = "-26.02985000", Longitude = "32.53204000" },
                         new() { Id = 2, Name = "Maputo", Latitude = "-25.96553000", Longitude = "32.58322000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -175,7 +175,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Nacala", Latitude = "-14.56257000", Longitude = "40.68538000" },
                         new() { Id = 5, Name = "Nampula", Latitude = "-15.11646000", Longitude = "39.26660000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -191,7 +191,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Lichinga", Latitude = "-13.31278000", Longitude = "35.24056000" },
                         new() { Id = 3, Name = "Mandimba", Latitude = "-14.35250000", Longitude = "35.65056000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -207,7 +207,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Dondo", Latitude = "-19.60944000", Longitude = "34.74306000" },
                         new() { Id = 3, Name = "Nhamatanda District", Latitude = "-19.34900000", Longitude = "34.26800000" }
                     }
-                }
+                },
 
                 new()
                 {

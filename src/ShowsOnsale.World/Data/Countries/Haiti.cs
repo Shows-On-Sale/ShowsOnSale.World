@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "아이티" },
-                { "pt-BR" = "Haiti" }
-                { "pt" = "Haiti" }
-                { "nl" = "Haïti" }
-                { "hr" = "Haiti" }
-                { "fa" = "هائیتی" }
-                { "de" = "Haiti" }
-                { "es" = "Haiti" }
-                { "fr" = "Haïti" }
-                { "ja" = "ハイチ" }
-                { "it" = "Haiti" }
-                { "zh-CN" = "海地" }
-                { "tr" = "Haiti" }
-                { "ru" = "Гаити" }
-                { "uk" = "Гаїті" }
-                { "pl" = "Haiti" }
+                ["ko"] = "아이티",
+                ["pt-BR"] = "Haiti",
+                ["pt"] = "Haiti",
+                ["nl"] = "Haïti",
+                ["hr"] = "Haiti",
+                ["fa"] = "هائیتی",
+                ["de"] = "Haiti",
+                ["es"] = "Haiti",
+                ["fr"] = "Haïti",
+                ["ja"] = "ハイチ",
+                ["it"] = "Haiti",
+                ["zh-CN"] = "海地",
+                ["tr"] = "Haiti",
+                ["ru"] = "Гаити",
+                ["uk"] = "Гаїті",
+                ["pl"] = "Haiti"
             },
             States = new()
             {
@@ -101,7 +101,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Thomassique", Latitude = "19.08209000", Longitude = "-71.83855000" },
                         new() { Id = 8, Name = "Thomonde", Latitude = "19.01730000", Longitude = "-71.96235000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -124,7 +124,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Moron", Latitude = "18.56039000", Longitude = "-74.25777000" },
                         new() { Id = 10, Name = "Petite Rivière de Nippes", Latitude = "18.47611000", Longitude = "-73.23495000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -141,7 +141,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Miragoâne", Latitude = "18.44599000", Longitude = "-73.08957000" },
                         new() { Id = 4, Name = "Petit Trou de Nippes", Latitude = "18.52535000", Longitude = "-73.50815000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -174,7 +174,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 19, Name = "Ranquitte", Latitude = "19.41327000", Longitude = "-72.08077000" },
                         new() { Id = 20, Name = "Saint-Raphaël", Latitude = "19.43877000", Longitude = "-72.19910000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -200,7 +200,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "Trou du Nord", Latitude = "19.61668000", Longitude = "-72.02442000" },
                         new() { Id = 13, Name = "Wanament", Latitude = "19.48333000", Longitude = "-71.76667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -226,7 +226,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "Saint-Louis du Nord", Latitude = "19.93397000", Longitude = "-72.72138000" },
                         new() { Id = 13, Name = "Ti Port-de-Paix", Latitude = "19.93333000", Longitude = "-72.83333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -260,7 +260,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 20, Name = "Thomazeau", Latitude = "18.65297000", Longitude = "-72.09391000" },
                         new() { Id = 21, Name = "Tigwav", Latitude = "18.43117000", Longitude = "-72.86521000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -288,7 +288,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 14, Name = "Tiburon", Latitude = "18.32589000", Longitude = "-74.39598000" },
                         new() { Id = 15, Name = "Torbeck", Latitude = "18.16338000", Longitude = "-73.80949000" }
                     }
-                }
+                },
 
                 new()
                 {

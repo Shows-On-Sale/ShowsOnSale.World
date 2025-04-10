@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "이스라엘" },
-                { "pt-BR" = "Israel" }
-                { "pt" = "Israel" }
-                { "nl" = "Israël" }
-                { "hr" = "Izrael" }
-                { "fa" = "اسرائیل" }
-                { "de" = "Israel" }
-                { "es" = "Israel" }
-                { "fr" = "Israël" }
-                { "ja" = "イスラエル" }
-                { "it" = "Israele" }
-                { "zh-CN" = "以色列" }
-                { "tr" = "İsrail" }
-                { "ru" = "Израиль" }
-                { "uk" = "Ізраїль" }
-                { "pl" = "Izrael" }
+                ["ko"] = "이스라엘",
+                ["pt-BR"] = "Israel",
+                ["pt"] = "Israel",
+                ["nl"] = "Israël",
+                ["hr"] = "Izrael",
+                ["fa"] = "اسرائیل",
+                ["de"] = "Israel",
+                ["es"] = "Israel",
+                ["fr"] = "Israël",
+                ["ja"] = "イスラエル",
+                ["it"] = "Israele",
+                ["zh-CN"] = "以色列",
+                ["tr"] = "İsrail",
+                ["ru"] = "Израиль",
+                ["uk"] = "Ізраїль",
+                ["pl"] = "Izrael"
             },
             States = new()
             {

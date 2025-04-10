@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "노퍽 섬" },
-                { "pt-BR" = "Ilha Norfolk" }
-                { "pt" = "Ilha Norfolk" }
-                { "nl" = "Norfolkeiland" }
-                { "hr" = "Otok Norfolk" }
-                { "fa" = "جزیره نورفک" }
-                { "de" = "Norfolkinsel" }
-                { "es" = "Isla de Norfolk" }
-                { "fr" = "Île de Norfolk" }
-                { "ja" = "ノーフォーク島" }
-                { "it" = "Isola Norfolk" }
-                { "zh-CN" = "诺福克岛" }
-                { "tr" = "Norfolk Adasi" }
-                { "ru" = "Остров Норфолк" }
-                { "uk" = "Острів Норфолк" }
-                { "pl" = "Wyspa Norfolk" }
+                ["ko"] = "노퍽 섬",
+                ["pt-BR"] = "Ilha Norfolk",
+                ["pt"] = "Ilha Norfolk",
+                ["nl"] = "Norfolkeiland",
+                ["hr"] = "Otok Norfolk",
+                ["fa"] = "جزیره نورفک",
+                ["de"] = "Norfolkinsel",
+                ["es"] = "Isla de Norfolk",
+                ["fr"] = "Île de Norfolk",
+                ["ja"] = "ノーフォーク島",
+                ["it"] = "Isola Norfolk",
+                ["zh-CN"] = "诺福克岛",
+                ["tr"] = "Norfolk Adasi",
+                ["ru"] = "Остров Норфолк",
+                ["uk"] = "Острів Норфолк",
+                ["pl"] = "Wyspa Norfolk"
             },
             States = new()
             {

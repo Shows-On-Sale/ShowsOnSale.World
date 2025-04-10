@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "나미비아" },
-                { "pt-BR" = "Namíbia" }
-                { "pt" = "Namíbia" }
-                { "nl" = "Namibië" }
-                { "hr" = "Namibija" }
-                { "fa" = "نامیبیا" }
-                { "de" = "Namibia" }
-                { "es" = "Namibia" }
-                { "fr" = "Namibie" }
-                { "ja" = "ナミビア" }
-                { "it" = "Namibia" }
-                { "zh-CN" = "纳米比亚" }
-                { "tr" = "Namibya" }
-                { "ru" = "Намибия" }
-                { "uk" = "Намібія" }
-                { "pl" = "Namibia" }
+                ["ko"] = "나미비아",
+                ["pt-BR"] = "Namíbia",
+                ["pt"] = "Namíbia",
+                ["nl"] = "Namibië",
+                ["hr"] = "Namibija",
+                ["fa"] = "نامیبیا",
+                ["de"] = "Namibia",
+                ["es"] = "Namibia",
+                ["fr"] = "Namibie",
+                ["ja"] = "ナミビア",
+                ["it"] = "Namibia",
+                ["zh-CN"] = "纳米比亚",
+                ["tr"] = "Namibya",
+                ["ru"] = "Намибия",
+                ["uk"] = "Намібія",
+                ["pl"] = "Namibia"
             },
             States = new()
             {
@@ -96,7 +96,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Mariental", Latitude = "-24.63333000", Longitude = "17.96667000" },
                         new() { Id = 5, Name = "Rehoboth", Latitude = "-23.31700000", Longitude = "17.09000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -116,7 +116,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Tses", Latitude = "-25.88333000", Longitude = "18.00000000" },
                         new() { Id = 7, Name = "Warmbad", Latitude = "-28.45000000", Longitude = "18.73333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -130,7 +130,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Rundu", Latitude = "-17.93333000", Longitude = "19.76667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -143,7 +143,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -158,7 +158,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Katutura", Latitude = "-22.52306000", Longitude = "17.06028000" },
                         new() { Id = 2, Name = "Windhoek", Latitude = "-22.55941000", Longitude = "17.08323000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -178,7 +178,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Outjo", Latitude = "-20.11667000", Longitude = "16.15000000" },
                         new() { Id = 7, Name = "Sesfontein Constituency", Latitude = "-19.56106000", Longitude = "13.76530000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -192,7 +192,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Oshikango", Latitude = "-17.40000000", Longitude = "15.88333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -206,7 +206,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Gobabis", Latitude = "-22.45000000", Longitude = "18.96667000" }
                     }
-                }
+                },
 
                 new()
                 {

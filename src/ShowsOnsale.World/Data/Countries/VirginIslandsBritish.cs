@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "영국령 버진아일랜드" },
-                { "pt-BR" = "Ilhas Virgens Britânicas" }
-                { "pt" = "Ilhas Virgens Britânicas" }
-                { "nl" = "Britse Maagdeneilanden" }
-                { "hr" = "Britanski Djevičanski Otoci" }
-                { "fa" = "جزایر ویرجین بریتانیا" }
-                { "de" = "Britische Jungferninseln" }
-                { "es" = "Islas Vírgenes del Reino Unido" }
-                { "fr" = "Îles Vierges britanniques" }
-                { "ja" = "イギリス領ヴァージン諸島" }
-                { "it" = "Isole Vergini Britanniche" }
-                { "zh-CN" = "圣文森特和格林纳丁斯" }
-                { "tr" = "Britanya Virjin Adalari" }
-                { "ru" = "Виргинские острова (Британские)" }
-                { "uk" = "Віргінські острови (Британські)" }
-                { "pl" = "Wyspy Dziewicze (Brytyjskie)" }
+                ["ko"] = "영국령 버진아일랜드",
+                ["pt-BR"] = "Ilhas Virgens Britânicas",
+                ["pt"] = "Ilhas Virgens Britânicas",
+                ["nl"] = "Britse Maagdeneilanden",
+                ["hr"] = "Britanski Djevičanski Otoci",
+                ["fa"] = "جزایر ویرجین بریتانیا",
+                ["de"] = "Britische Jungferninseln",
+                ["es"] = "Islas Vírgenes del Reino Unido",
+                ["fr"] = "Îles Vierges britanniques",
+                ["ja"] = "イギリス領ヴァージン諸島",
+                ["it"] = "Isole Vergini Britanniche",
+                ["zh-CN"] = "圣文森特和格林纳丁斯",
+                ["tr"] = "Britanya Virjin Adalari",
+                ["ru"] = "Виргинские острова (Британские)",
+                ["uk"] = "Віргінські острови (Британські)",
+                ["pl"] = "Wyspy Dziewicze (Brytyjskie)"
             },
             States = new()
             {

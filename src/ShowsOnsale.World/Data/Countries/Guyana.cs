@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "가이아나" },
-                { "pt-BR" = "Guiana" }
-                { "pt" = "Guiana" }
-                { "nl" = "Guyana" }
-                { "hr" = "Gvajana" }
-                { "fa" = "گویان" }
-                { "de" = "Guyana" }
-                { "es" = "Guyana" }
-                { "fr" = "Guyane" }
-                { "ja" = "ガイアナ" }
-                { "it" = "Guyana" }
-                { "zh-CN" = "圭亚那" }
-                { "tr" = "Guyana" }
-                { "ru" = "Гайана" }
-                { "uk" = "Гайана" }
-                { "pl" = "Gujana" }
+                ["ko"] = "가이아나",
+                ["pt-BR"] = "Guiana",
+                ["pt"] = "Guiana",
+                ["nl"] = "Guyana",
+                ["hr"] = "Gvajana",
+                ["fa"] = "گویان",
+                ["de"] = "Guyana",
+                ["es"] = "Guyana",
+                ["fr"] = "Guyane",
+                ["ja"] = "ガイアナ",
+                ["it"] = "Guyana",
+                ["zh-CN"] = "圭亚那",
+                ["tr"] = "Guyana",
+                ["ru"] = "Гайана",
+                ["uk"] = "Гайана",
+                ["pl"] = "Gujana"
             },
             States = new()
             {
@@ -84,7 +84,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bartica", Latitude = "6.40799000", Longitude = "-58.62192000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -99,7 +99,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Georgetown", Latitude = "6.80448000", Longitude = "-58.15527000" },
                         new() { Id = 2, Name = "Mahaica Village", Latitude = "6.68405000", Longitude = "-57.92181000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -114,7 +114,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "New Amsterdam", Latitude = "6.24793000", Longitude = "-57.51710000" },
                         new() { Id = 2, Name = "Skeldon", Latitude = "5.88333000", Longitude = "-57.13333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -129,7 +129,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Parika", Latitude = "6.83712000", Longitude = "-58.42941000" },
                         new() { Id = 2, Name = "Vreed-en-Hoop", Latitude = "6.80927000", Longitude = "-58.19798000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -144,7 +144,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Mahaicony Village", Latitude = "6.57633000", Longitude = "-57.80486000" },
                         new() { Id = 2, Name = "Rosignol", Latitude = "6.27095000", Longitude = "-57.53697000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -158,7 +158,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Anna Regina", Latitude = "7.26439000", Longitude = "-58.50769000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -172,7 +172,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Mahdia", Latitude = "5.26667000", Longitude = "-59.15000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -186,7 +186,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Linden", Latitude = "6.00809000", Longitude = "-58.30714000" }
                     }
-                }
+                },
 
                 new()
                 {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "아랍에미리트" },
-                { "pt-BR" = "Emirados árabes Unidos" }
-                { "pt" = "Emirados árabes Unidos" }
-                { "nl" = "Verenigde Arabische Emiraten" }
-                { "hr" = "Ujedinjeni Arapski Emirati" }
-                { "fa" = "امارات متحده عربی" }
-                { "de" = "Vereinigte Arabische Emirate" }
-                { "es" = "Emiratos Árabes Unidos" }
-                { "fr" = "Émirats arabes unis" }
-                { "ja" = "アラブ首長国連邦" }
-                { "it" = "Emirati Arabi Uniti" }
-                { "zh-CN" = "阿拉伯联合酋长国" }
-                { "tr" = "Birleşik Arap Emirlikleri" }
-                { "ru" = "Объединенные Арабские Эмираты" }
-                { "uk" = "Об'єднані Арабські Емірати" }
-                { "pl" = "Zjednoczone Emiraty Arabskie" }
+                ["ko"] = "아랍에미리트",
+                ["pt-BR"] = "Emirados árabes Unidos",
+                ["pt"] = "Emirados árabes Unidos",
+                ["nl"] = "Verenigde Arabische Emiraten",
+                ["hr"] = "Ujedinjeni Arapski Emirati",
+                ["fa"] = "امارات متحده عربی",
+                ["de"] = "Vereinigte Arabische Emirate",
+                ["es"] = "Emiratos Árabes Unidos",
+                ["fr"] = "Émirats arabes unis",
+                ["ja"] = "アラブ首長国連邦",
+                ["it"] = "Emirati Arabi Uniti",
+                ["zh-CN"] = "阿拉伯联合酋长国",
+                ["tr"] = "Birleşik Arap Emirlikleri",
+                ["ru"] = "Объединенные Арабские Эмираты",
+                ["uk"] = "Об'єднані Арабські Емірати",
+                ["pl"] = "Zjednoczone Emiraty Arabskie"
             },
             States = new()
             {

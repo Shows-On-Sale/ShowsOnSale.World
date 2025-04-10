@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "세네갈" },
-                { "pt-BR" = "Senegal" }
-                { "pt" = "Senegal" }
-                { "nl" = "Senegal" }
-                { "hr" = "Senegal" }
-                { "fa" = "سنگال" }
-                { "de" = "Senegal" }
-                { "es" = "Senegal" }
-                { "fr" = "Sénégal" }
-                { "ja" = "セネガル" }
-                { "it" = "Senegal" }
-                { "zh-CN" = "塞内加尔" }
-                { "tr" = "Senegal" }
-                { "ru" = "Сенегал" }
-                { "uk" = "Сенегал" }
-                { "pl" = "Senegal" }
+                ["ko"] = "세네갈",
+                ["pt-BR"] = "Senegal",
+                ["pt"] = "Senegal",
+                ["nl"] = "Senegal",
+                ["hr"] = "Senegal",
+                ["fa"] = "سنگال",
+                ["de"] = "Senegal",
+                ["es"] = "Senegal",
+                ["fr"] = "Sénégal",
+                ["ja"] = "セネガル",
+                ["it"] = "Senegal",
+                ["zh-CN"] = "塞内加尔",
+                ["tr"] = "Senegal",
+                ["ru"] = "Сенегал",
+                ["uk"] = "Сенегал",
+                ["pl"] = "Senegal"
             },
             States = new()
             {
@@ -94,7 +94,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Tiébo", Latitude = "14.63333000", Longitude = "-16.23333000" },
                         new() { Id = 4, Name = "Touba", Latitude = "14.85000000", Longitude = "-15.88333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -114,7 +114,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Pourham", Latitude = "14.35000000", Longitude = "-16.41667000" },
                         new() { Id = 7, Name = "Sokone", Latitude = "13.88333000", Longitude = "-16.36667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -129,7 +129,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Kaffrine", Latitude = "14.10594000", Longitude = "-15.55080000" },
                         new() { Id = 2, Name = "Koungheul", Latitude = "13.98333000", Longitude = "-14.80000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -146,7 +146,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Ndofane", Latitude = "13.91667000", Longitude = "-15.93333000" },
                         new() { Id = 4, Name = "Nioro du Rip", Latitude = "13.75000000", Longitude = "-15.80000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -163,7 +163,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Kédougou Department", Latitude = "12.81716000", Longitude = "-12.17834000" },
                         new() { Id = 4, Name = "Saraya", Latitude = "13.00150000", Longitude = "-11.79627000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -180,7 +180,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Marsassoum", Latitude = "12.82750000", Longitude = "-15.98056000" },
                         new() { Id = 4, Name = "Vélingara", Latitude = "13.15000000", Longitude = "-14.11667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -198,7 +198,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Louga", Latitude = "15.61867000", Longitude = "-16.22436000" },
                         new() { Id = 5, Name = "Ndibène Dahra", Latitude = "15.33380000", Longitude = "-15.47660000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -219,7 +219,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Sémé", Latitude = "15.19422000", Longitude = "-12.94482000" },
                         new() { Id = 8, Name = "Waoundé", Latitude = "15.26367000", Longitude = "-12.86821000" }
                     }
-                }
+                },
 
                 new()
                 {

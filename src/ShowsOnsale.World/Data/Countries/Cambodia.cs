@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "캄보디아" },
-                { "pt-BR" = "Camboja" }
-                { "pt" = "Camboja" }
-                { "nl" = "Cambodja" }
-                { "hr" = "Kambodža" }
-                { "fa" = "کامبوج" }
-                { "de" = "Kambodscha" }
-                { "es" = "Camboya" }
-                { "fr" = "Cambodge" }
-                { "ja" = "カンボジア" }
-                { "it" = "Cambogia" }
-                { "zh-CN" = "柬埔寨" }
-                { "tr" = "Kamboçya" }
-                { "ru" = "Камбоджа" }
-                { "uk" = "Камбоджа" }
-                { "pl" = "Kambodża" }
+                ["ko"] = "캄보디아",
+                ["pt-BR"] = "Camboja",
+                ["pt"] = "Camboja",
+                ["nl"] = "Cambodja",
+                ["hr"] = "Kambodža",
+                ["fa"] = "کامبوج",
+                ["de"] = "Kambodscha",
+                ["es"] = "Camboya",
+                ["fr"] = "Cambodge",
+                ["ja"] = "カンボジア",
+                ["it"] = "Cambogia",
+                ["zh-CN"] = "柬埔寨",
+                ["tr"] = "Kamboçya",
+                ["ru"] = "Камбоджа",
+                ["uk"] = "Камбоджа",
+                ["pl"] = "Kambodża"
             },
             States = new()
             {
@@ -108,7 +108,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Kampong Cham", Latitude = "11.98000000", Longitude = "105.44500000" },
                         new() { Id = 3, Name = "Srŏk Bathéay", Latitude = "12.02986000", Longitude = "104.93171000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -126,7 +126,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Srŏk Chol Kiri", Latitude = "12.15861000", Longitude = "104.82287000" },
                         new() { Id = 5, Name = "Srŏk Sameakki Mean Chey", Latitude = "11.86788000", Longitude = "104.55549000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -144,7 +144,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Srŏk Kông Pĭsei", Latitude = "11.31648000", Longitude = "104.65992000" },
                         new() { Id = 5, Name = "Srŏk Ŏdŏngk", Latitude = "11.66845000", Longitude = "104.61224000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -157,7 +157,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -179,7 +179,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Srŏk Dângtóng", Latitude = "10.70733000", Longitude = "104.42229000" },
                         new() { Id = 9, Name = "Srok Tuek Chhou", Latitude = "10.74557000", Longitude = "104.11013000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -195,7 +195,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Srŏk Khsăch Kândal", Latitude = "11.69224000", Longitude = "105.03732000" },
                         new() { Id = 3, Name = "Ta Khmau", Latitude = "11.48333000", Longitude = "104.95000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -210,7 +210,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Krong Kep", Latitude = "10.48291000", Longitude = "104.31672000" },
                         new() { Id = 2, Name = "Srŏk Dâmnăk Châng’aeur", Latitude = "10.53394000", Longitude = "104.34855000" }
                     }
-                }
+                },
 
                 new()
                 {

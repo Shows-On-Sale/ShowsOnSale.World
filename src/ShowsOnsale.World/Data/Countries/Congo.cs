@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "콩고" },
-                { "pt-BR" = "Congo" }
-                { "pt" = "Congo" }
-                { "nl" = "Congo [Republiek]" }
-                { "hr" = "Kongo" }
-                { "fa" = "کنگو" }
-                { "de" = "Kongo" }
-                { "es" = "Congo" }
-                { "fr" = "Congo" }
-                { "ja" = "コンゴ共和国" }
-                { "it" = "Congo" }
-                { "zh-CN" = "刚果" }
-                { "tr" = "Kongo" }
-                { "ru" = "Конго" }
-                { "uk" = "Конго" }
-                { "pl" = "Kongo" }
+                ["ko"] = "콩고",
+                ["pt-BR"] = "Congo",
+                ["pt"] = "Congo",
+                ["nl"] = "Congo [Republiek]",
+                ["hr"] = "Kongo",
+                ["fa"] = "کنگو",
+                ["de"] = "Kongo",
+                ["es"] = "Congo",
+                ["fr"] = "Congo",
+                ["ja"] = "コンゴ共和国",
+                ["it"] = "Congo",
+                ["zh-CN"] = "刚果",
+                ["tr"] = "Kongo",
+                ["ru"] = "Конго",
+                ["uk"] = "Конго",
+                ["pl"] = "Kongo"
             },
             States = new()
             {
@@ -85,7 +85,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Brazzaville", Latitude = "-4.26613000", Longitude = "15.28318000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -100,7 +100,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Makoua", Latitude = "0.00694000", Longitude = "15.63333000" },
                         new() { Id = 2, Name = "Owando", Latitude = "-0.48193000", Longitude = "15.89988000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -114,7 +114,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Ewo", Latitude = "-0.87250000", Longitude = "14.82056000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -127,7 +127,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -141,7 +141,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Sibiti", Latitude = "-3.68192000", Longitude = "13.34985000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -155,7 +155,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Impfondo", Latitude = "1.61804000", Longitude = "18.05981000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -170,7 +170,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Dolisie", Latitude = "-4.19834000", Longitude = "12.66664000" },
                         new() { Id = 2, Name = "Mossendjo", Latitude = "-2.94968000", Longitude = "12.70423000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -185,7 +185,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Djambala", Latitude = "-2.54472000", Longitude = "14.75333000" },
                         new() { Id = 2, Name = "Gamboma", Latitude = "-1.87639000", Longitude = "15.86444000" }
                     }
-                }
+                },
 
                 new()
                 {

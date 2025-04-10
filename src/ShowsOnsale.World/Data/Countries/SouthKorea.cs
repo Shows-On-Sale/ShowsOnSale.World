@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "대한민국" },
-                { "pt-BR" = "Coreia do Sul" }
-                { "pt" = "Coreia do Sul" }
-                { "nl" = "Zuid-Korea" }
-                { "hr" = "Južna Koreja" }
-                { "fa" = "کره شمالی" }
-                { "de" = "Südkorea" }
-                { "es" = "Corea del Sur" }
-                { "fr" = "Corée du Sud" }
-                { "ja" = "大韓民国" }
-                { "it" = "Corea del Sud" }
-                { "zh-CN" = "韩国" }
-                { "tr" = "Güney Kore" }
-                { "ru" = "Южная Корея" }
-                { "uk" = "Південна Корея" }
-                { "pl" = "Korea Południowa" }
+                ["ko"] = "대한민국",
+                ["pt-BR"] = "Coreia do Sul",
+                ["pt"] = "Coreia do Sul",
+                ["nl"] = "Zuid-Korea",
+                ["hr"] = "Južna Koreja",
+                ["fa"] = "کره شمالی",
+                ["de"] = "Südkorea",
+                ["es"] = "Corea del Sur",
+                ["fr"] = "Corée du Sud",
+                ["ja"] = "大韓民国",
+                ["it"] = "Corea del Sud",
+                ["zh-CN"] = "韩国",
+                ["tr"] = "Güney Kore",
+                ["ru"] = "Южная Корея",
+                ["uk"] = "Південна Корея",
+                ["pl"] = "Korea Południowa"
             },
             States = new()
             {
@@ -105,7 +105,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Seo-gu", Latitude = "35.87465000", Longitude = "128.55109000" },
                         new() { Id = 8, Name = "Suseong-gu", Latitude = "35.85905000", Longitude = "128.62625000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -123,7 +123,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Songgangdong", Latitude = "36.43387000", Longitude = "127.37587000" },
                         new() { Id = 5, Name = "Yuseong-gu", Latitude = "36.36685000", Longitude = "127.32700000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -166,7 +166,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 29, Name = "Yanggu-gun", Latitude = "38.10160000", Longitude = "127.98555000" },
                         new() { Id = 30, Name = "Yangyang-gun", Latitude = "38.06215000", Longitude = "128.61471000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -182,7 +182,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Gwangsan-gu", Latitude = "35.16158000", Longitude = "126.80810000" },
                         new() { Id = 3, Name = "Masan", Latitude = "35.12725000", Longitude = "126.83149000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -238,7 +238,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 42, Name = "Yeoncheon-gun", Latitude = "38.09404000", Longitude = "127.07577000" },
                         new() { Id = 43, Name = "Yongin-si", Latitude = "37.23825000", Longitude = "127.17795000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -255,7 +255,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Michuhol", Latitude = "37.46362000", Longitude = "126.65000000" },
                         new() { Id = 4, Name = "Yeonsu-gu", Latitude = "37.41911000", Longitude = "126.66489000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -272,7 +272,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Jeju-si", Latitude = "33.45578000", Longitude = "126.53928000" },
                         new() { Id = 4, Name = "Seogwipo", Latitude = "33.25333000", Longitude = "126.56181000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -300,7 +300,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 14, Name = "Yeongdong", Latitude = "36.17500000", Longitude = "127.77639000" },
                         new() { Id = 15, Name = "Yeongdong-gun", Latitude = "36.21658000", Longitude = "127.79374000" }
                     }
-                }
+                },
 
                 new()
                 {

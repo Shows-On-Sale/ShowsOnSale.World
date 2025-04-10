@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "팔라우" },
-                { "pt-BR" = "Palau" }
-                { "pt" = "Palau" }
-                { "nl" = "Palau" }
-                { "hr" = "Palau" }
-                { "fa" = "پالائو" }
-                { "de" = "Palau" }
-                { "es" = "Palau" }
-                { "fr" = "Palaos" }
-                { "ja" = "パラオ" }
-                { "it" = "Palau" }
-                { "zh-CN" = "帕劳" }
-                { "tr" = "Palau" }
-                { "ru" = "Палау" }
-                { "uk" = "Палау" }
-                { "pl" = "Palau" }
+                ["ko"] = "팔라우",
+                ["pt-BR"] = "Palau",
+                ["pt"] = "Palau",
+                ["nl"] = "Palau",
+                ["hr"] = "Palau",
+                ["fa"] = "پالائو",
+                ["de"] = "Palau",
+                ["es"] = "Palau",
+                ["fr"] = "Palaos",
+                ["ja"] = "パラオ",
+                ["it"] = "Palau",
+                ["zh-CN"] = "帕劳",
+                ["tr"] = "Palau",
+                ["ru"] = "Палау",
+                ["uk"] = "Палау",
+                ["pl"] = "Palau"
             },
             States = new()
             {
@@ -84,7 +84,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Ngetkib", Latitude = "7.36451000", Longitude = "134.51484000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -98,7 +98,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Angaur State", Latitude = "6.90601000", Longitude = "134.12997000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -112,7 +112,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Tobi Village", Latitude = "3.00488000", Longitude = "131.12168000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -126,7 +126,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kayangel", Latitude = "8.08228000", Longitude = "134.71725000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -141,7 +141,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Koror", Latitude = "7.33978000", Longitude = "134.47326000" },
                         new() { Id = 2, Name = "Koror Town", Latitude = "7.34257000", Longitude = "134.47888000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -155,7 +155,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Melekeok Village", Latitude = "7.49567000", Longitude = "134.63671000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -169,7 +169,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Ulimang", Latitude = "7.62416000", Longitude = "134.64208000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -183,7 +183,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Mengellang", Latitude = "7.69570000", Longitude = "134.63054000" }
                     }
-                }
+                },
 
                 new()
                 {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "마다가스카르" },
-                { "pt-BR" = "Madagascar" }
-                { "pt" = "Madagáscar" }
-                { "nl" = "Madagaskar" }
-                { "hr" = "Madagaskar" }
-                { "fa" = "ماداگاسکار" }
-                { "de" = "Madagaskar" }
-                { "es" = "Madagascar" }
-                { "fr" = "Madagascar" }
-                { "ja" = "マダガスカル" }
-                { "it" = "Madagascar" }
-                { "zh-CN" = "马达加斯加" }
-                { "tr" = "Madagaskar" }
-                { "ru" = "Мадагаскар" }
-                { "uk" = "Мадагаскар" }
-                { "pl" = "Madagaskar" }
+                ["ko"] = "마다가스카르",
+                ["pt-BR"] = "Madagascar",
+                ["pt"] = "Madagáscar",
+                ["nl"] = "Madagaskar",
+                ["hr"] = "Madagaskar",
+                ["fa"] = "ماداگاسکار",
+                ["de"] = "Madagaskar",
+                ["es"] = "Madagascar",
+                ["fr"] = "Madagascar",
+                ["ja"] = "マダガスカル",
+                ["it"] = "Madagascar",
+                ["zh-CN"] = "马达加斯加",
+                ["tr"] = "Madagaskar",
+                ["ru"] = "Мадагаскар",
+                ["uk"] = "Мадагаскар",
+                ["pl"] = "Madagaskar"
             },
             States = new()
             {

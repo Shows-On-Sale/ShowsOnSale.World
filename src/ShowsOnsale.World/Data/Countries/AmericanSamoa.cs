@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "아메리칸사모아" },
-                { "pt-BR" = "Samoa Americana" }
-                { "pt" = "Samoa Americana" }
-                { "nl" = "Amerikaans Samoa" }
-                { "hr" = "Američka Samoa" }
-                { "fa" = "ساموآی آمریکا" }
-                { "de" = "Amerikanisch-Samoa" }
-                { "es" = "Samoa Americana" }
-                { "fr" = "Samoa américaines" }
-                { "ja" = "アメリカ領サモア" }
-                { "it" = "Samoa Americane" }
-                { "zh-CN" = "美属萨摩亚" }
-                { "tr" = "Amerikan Samoasi" }
-                { "ru" = "Американское Самоа" }
-                { "uk" = "Американське Самоа" }
-                { "pl" = "Samoa Amerykańskie" }
+                ["ko"] = "아메리칸사모아",
+                ["pt-BR"] = "Samoa Americana",
+                ["pt"] = "Samoa Americana",
+                ["nl"] = "Amerikaans Samoa",
+                ["hr"] = "Američka Samoa",
+                ["fa"] = "ساموآی آمریکا",
+                ["de"] = "Amerikanisch-Samoa",
+                ["es"] = "Samoa Americana",
+                ["fr"] = "Samoa américaines",
+                ["ja"] = "アメリカ領サモア",
+                ["it"] = "Samoa Americane",
+                ["zh-CN"] = "美属萨摩亚",
+                ["tr"] = "Amerikan Samoasi",
+                ["ru"] = "Американское Самоа",
+                ["uk"] = "Американське Самоа",
+                ["pl"] = "Samoa Amerykańskie"
             },
             States = new()
             {

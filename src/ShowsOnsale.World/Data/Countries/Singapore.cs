@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "싱가포르" },
-                { "pt-BR" = "Singapura" }
-                { "pt" = "Singapura" }
-                { "nl" = "Singapore" }
-                { "hr" = "Singapur" }
-                { "fa" = "سنگاپور" }
-                { "de" = "Singapur" }
-                { "es" = "Singapur" }
-                { "fr" = "Singapour" }
-                { "ja" = "シンガポール" }
-                { "it" = "Singapore" }
-                { "zh-CN" = "新加坡" }
-                { "tr" = "Singapur" }
-                { "ru" = "Сингапур" }
-                { "uk" = "Сінгапур" }
-                { "pl" = "Singapur" }
+                ["ko"] = "싱가포르",
+                ["pt-BR"] = "Singapura",
+                ["pt"] = "Singapura",
+                ["nl"] = "Singapore",
+                ["hr"] = "Singapur",
+                ["fa"] = "سنگاپور",
+                ["de"] = "Singapur",
+                ["es"] = "Singapur",
+                ["fr"] = "Singapour",
+                ["ja"] = "シンガポール",
+                ["it"] = "Singapore",
+                ["zh-CN"] = "新加坡",
+                ["tr"] = "Singapur",
+                ["ru"] = "Сингапур",
+                ["uk"] = "Сінгапур",
+                ["pl"] = "Singapur"
             },
             States = new()
             {

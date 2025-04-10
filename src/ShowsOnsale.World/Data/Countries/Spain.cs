@@ -40,22 +40,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "스페인" },
-                { "pt-BR" = "Espanha" }
-                { "pt" = "Espanha" }
-                { "nl" = "Spanje" }
-                { "hr" = "Španjolska" }
-                { "fa" = "اسپانیا" }
-                { "de" = "Spanien" }
-                { "es" = "España" }
-                { "fr" = "Espagne" }
-                { "ja" = "スペイン" }
-                { "it" = "Spagna" }
-                { "zh-CN" = "西班牙" }
-                { "tr" = "İspanya" }
-                { "ru" = "Испания" }
-                { "uk" = "Іспанія" }
-                { "pl" = "Hiszpania" }
+                ["ko"] = "스페인",
+                ["pt-BR"] = "Espanha",
+                ["pt"] = "Espanha",
+                ["nl"] = "Spanje",
+                ["hr"] = "Španjolska",
+                ["fa"] = "اسپانیا",
+                ["de"] = "Spanien",
+                ["es"] = "España",
+                ["fr"] = "Espagne",
+                ["ja"] = "スペイン",
+                ["it"] = "Spagna",
+                ["zh-CN"] = "西班牙",
+                ["tr"] = "İspanya",
+                ["ru"] = "Испания",
+                ["uk"] = "Іспанія",
+                ["pl"] = "Hiszpania"
             },
             States = new()
             {
@@ -626,7 +626,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -639,7 +639,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -729,7 +729,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 76, Name = "Villayón", Latitude = "43.44801330", Longitude = "-6.70456100" },
                         new() { Id = 77, Name = "Yernes y Tameza", Latitude = "43.25392690", Longitude = "-6.09969780" }
                     }
-                }
+                },
 
                 new()
                 {

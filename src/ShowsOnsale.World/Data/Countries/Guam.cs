@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "괌" },
-                { "pt-BR" = "Guam" }
-                { "pt" = "Guame" }
-                { "nl" = "Guam" }
-                { "hr" = "Guam" }
-                { "fa" = "گوام" }
-                { "de" = "Guam" }
-                { "es" = "Guam" }
-                { "fr" = "Guam" }
-                { "ja" = "グアム" }
-                { "it" = "Guam" }
-                { "zh-CN" = "关岛" }
-                { "tr" = "Guam" }
-                { "ru" = "Гуам" }
-                { "uk" = "Гуам" }
-                { "pl" = "Guam" }
+                ["ko"] = "괌",
+                ["pt-BR"] = "Guam",
+                ["pt"] = "Guame",
+                ["nl"] = "Guam",
+                ["hr"] = "Guam",
+                ["fa"] = "گوام",
+                ["de"] = "Guam",
+                ["es"] = "Guam",
+                ["fr"] = "Guam",
+                ["ja"] = "グアム",
+                ["it"] = "Guam",
+                ["zh-CN"] = "关岛",
+                ["tr"] = "Guam",
+                ["ru"] = "Гуам",
+                ["uk"] = "Гуам",
+                ["pl"] = "Guam"
             },
             States = new()
             {
@@ -82,7 +82,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -95,7 +95,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -108,7 +108,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -121,7 +121,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -134,7 +134,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -147,7 +147,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -160,7 +160,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -173,7 +173,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

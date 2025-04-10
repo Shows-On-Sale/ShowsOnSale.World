@@ -38,12 +38,12 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "코소보" },
-                { "zh-CN" = "科索沃" }
-                { "tr" = "Kosova" }
-                { "ru" = "Косово" }
-                { "uk" = "Косово" }
-                { "pl" = "Kosowo" }
+                ["ko"] = "코소보",
+                ["zh-CN"] = "科索沃",
+                ["tr"] = "Kosova",
+                ["ru"] = "Косово",
+                ["uk"] = "Косово",
+                ["pl"] = "Kosowo"
             },
             States = new()
             {

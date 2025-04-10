@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "버뮤다" },
-                { "pt-BR" = "Bermudas" }
-                { "pt" = "Bermudas" }
-                { "nl" = "Bermuda" }
-                { "hr" = "Bermudi" }
-                { "fa" = "برمودا" }
-                { "de" = "Bermuda" }
-                { "es" = "Bermudas" }
-                { "fr" = "Bermudes" }
-                { "ja" = "バミューダ" }
-                { "it" = "Bermuda" }
-                { "zh-CN" = "百慕大" }
-                { "tr" = "Bermuda" }
-                { "ru" = "Бермуды" }
-                { "uk" = "Бермудські острови" }
-                { "pl" = "Bermudy" }
+                ["ko"] = "버뮤다",
+                ["pt-BR"] = "Bermudas",
+                ["pt"] = "Bermudas",
+                ["nl"] = "Bermuda",
+                ["hr"] = "Bermudi",
+                ["fa"] = "برمودا",
+                ["de"] = "Bermuda",
+                ["es"] = "Bermudas",
+                ["fr"] = "Bermudes",
+                ["ja"] = "バミューダ",
+                ["it"] = "Bermuda",
+                ["zh-CN"] = "百慕大",
+                ["tr"] = "Bermuda",
+                ["ru"] = "Бермуды",
+                ["uk"] = "Бермудські острови",
+                ["pl"] = "Bermudy"
             },
             States = new()
             {

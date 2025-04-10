@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "나우루" },
-                { "pt-BR" = "Nauru" }
-                { "pt" = "Nauru" }
-                { "nl" = "Nauru" }
-                { "hr" = "Nauru" }
-                { "fa" = "نائورو" }
-                { "de" = "Nauru" }
-                { "es" = "Nauru" }
-                { "fr" = "Nauru" }
-                { "ja" = "ナウル" }
-                { "it" = "Nauru" }
-                { "zh-CN" = "瑙鲁" }
-                { "tr" = "Nauru" }
-                { "ru" = "Науру" }
-                { "uk" = "Науру" }
-                { "pl" = "Nauru" }
+                ["ko"] = "나우루",
+                ["pt-BR"] = "Nauru",
+                ["pt"] = "Nauru",
+                ["nl"] = "Nauru",
+                ["hr"] = "Nauru",
+                ["fa"] = "نائورو",
+                ["de"] = "Nauru",
+                ["es"] = "Nauru",
+                ["fr"] = "Nauru",
+                ["ja"] = "ナウル",
+                ["it"] = "Nauru",
+                ["zh-CN"] = "瑙鲁",
+                ["tr"] = "Nauru",
+                ["ru"] = "Науру",
+                ["uk"] = "Науру",
+                ["pl"] = "Nauru"
             },
             States = new()
             {
@@ -84,7 +84,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Anabar", Latitude = "-0.50845000", Longitude = "166.95326000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -97,7 +97,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -110,7 +110,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -124,7 +124,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Baiti", Latitude = "-0.50803000", Longitude = "166.92945000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -137,7 +137,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -150,7 +150,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -163,7 +163,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -176,7 +176,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

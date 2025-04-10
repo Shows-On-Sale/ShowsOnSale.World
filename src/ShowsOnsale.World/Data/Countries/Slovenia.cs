@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "슬로베니아" },
-                { "pt-BR" = "Eslovênia" }
-                { "pt" = "Eslovénia" }
-                { "nl" = "Slovenië" }
-                { "hr" = "Slovenija" }
-                { "fa" = "اسلوونی" }
-                { "de" = "Slowenien" }
-                { "es" = "Eslovenia" }
-                { "fr" = "Slovénie" }
-                { "ja" = "スロベニア" }
-                { "it" = "Slovenia" }
-                { "zh-CN" = "斯洛文尼亚" }
-                { "tr" = "Slovenya" }
-                { "ru" = "Словения" }
-                { "uk" = "Словенія" }
-                { "pl" = "Słowenia" }
+                ["ko"] = "슬로베니아",
+                ["pt-BR"] = "Eslovênia",
+                ["pt"] = "Eslovénia",
+                ["nl"] = "Slovenië",
+                ["hr"] = "Slovenija",
+                ["fa"] = "اسلوونی",
+                ["de"] = "Slowenien",
+                ["es"] = "Eslovenia",
+                ["fr"] = "Slovénie",
+                ["ja"] = "スロベニア",
+                ["it"] = "Slovenia",
+                ["zh-CN"] = "斯洛文尼亚",
+                ["tr"] = "Slovenya",
+                ["ru"] = "Словения",
+                ["uk"] = "Словенія",
+                ["pl"] = "Słowenia"
             },
             States = new()
             {
@@ -100,7 +100,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Apače", Latitude = "46.69722000", Longitude = "15.91056000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -117,7 +117,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Lipovci", Latitude = "46.62833000", Longitude = "16.22806000" },
                         new() { Id = 4, Name = "Zgornje Gorje", Latitude = "46.37962000", Longitude = "14.06937000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -131,7 +131,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Benedikt", Latitude = "46.60861000", Longitude = "15.88833000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -145,7 +145,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bistrica ob Sotli", Latitude = "46.05889000", Longitude = "15.66417000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -161,7 +161,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Kostanjevica na Krki", Latitude = "45.84611000", Longitude = "15.42222000" },
                         new() { Id = 3, Name = "Zasip", Latitude = "46.39284000", Longitude = "14.10869000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -175,7 +175,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Nova Vas", Latitude = "45.77167000", Longitude = "14.50583000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -191,7 +191,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Dragomer", Latitude = "46.01667000", Longitude = "14.38333000" },
                         new() { Id = 3, Name = "Log pri Brezovici", Latitude = "46.01667000", Longitude = "14.36667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -383,7 +383,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -397,7 +397,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Črenšovci", Latitude = "46.55794000", Longitude = "16.30410000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -411,7 +411,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Črna na Koroškem", Latitude = "46.47045000", Longitude = "14.85009000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -425,7 +425,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Črnomelj", Latitude = "45.57111000", Longitude = "15.18889000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -439,7 +439,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Destrnik", Latitude = "46.49254000", Longitude = "15.87893000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -453,7 +453,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Divača", Latitude = "45.68472000", Longitude = "13.97028000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -467,7 +467,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Dobje pri Planini", Latitude = "46.13747000", Longitude = "15.39412000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -481,7 +481,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Videm", Latitude = "45.85000000", Longitude = "14.69417000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -495,7 +495,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Dobrna", Latitude = "46.33750000", Longitude = "15.22639000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -509,7 +509,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Dobrova", Latitude = "46.04580000", Longitude = "14.39186000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -523,7 +523,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Dobrovnik", Latitude = "46.65139000", Longitude = "16.35250000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -537,7 +537,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Dol pri Ljubljani", Latitude = "46.08861000", Longitude = "14.60083000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -551,7 +551,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Dolenjske Toplice", Latitude = "45.75657000", Longitude = "15.05917000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -568,7 +568,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Radomlje", Latitude = "46.17361000", Longitude = "14.61222000" },
                         new() { Id = 4, Name = "Vir", Latitude = "46.15325000", Longitude = "14.60741000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -582,7 +582,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Dornava", Latitude = "46.43667000", Longitude = "15.95361000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -596,7 +596,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Dravograd", Latitude = "46.58806000", Longitude = "15.01917000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -611,7 +611,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Spodnji Duplek", Latitude = "46.50306000", Longitude = "15.74528000" },
                         new() { Id = 2, Name = "Zgornji Duplek", Latitude = "46.51361000", Longitude = "15.72083000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -625,7 +625,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Gorenja Vas", Latitude = "46.10722000", Longitude = "14.14806000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -639,7 +639,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Gorišnica", Latitude = "46.41472000", Longitude = "16.01389000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -652,7 +652,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -666,7 +666,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Gornja Radgona", Latitude = "46.67333000", Longitude = "15.99222000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -680,7 +680,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Gornji Grad", Latitude = "46.29528000", Longitude = "14.80833000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -694,7 +694,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Gornji Petrovci", Latitude = "46.80528000", Longitude = "16.22250000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -708,7 +708,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Grad", Latitude = "46.80000000", Longitude = "16.10000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -723,7 +723,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Grosuplje", Latitude = "45.95556000", Longitude = "14.65889000" },
                         new() { Id = 2, Name = "Šmarje-Sap", Latitude = "45.97618000", Longitude = "14.61177000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -737,7 +737,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Spodnja Hajdina", Latitude = "46.40889000", Longitude = "15.84694000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -754,7 +754,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Rogoza", Latitude = "46.50000000", Longitude = "15.68333000" },
                         new() { Id = 4, Name = "Spodnje Hoče", Latitude = "46.50000000", Longitude = "15.65000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -768,7 +768,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Hodoš", Latitude = "46.82333000", Longitude = "16.33417000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -782,7 +782,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Horjul", Latitude = "46.02361000", Longitude = "14.29917000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -797,7 +797,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Dol pri Hrastniku", Latitude = "46.14194000", Longitude = "15.11278000" },
                         new() { Id = 2, Name = "Hrastnik", Latitude = "46.14611000", Longitude = "15.08139000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -811,7 +811,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kozina", Latitude = "45.61000000", Longitude = "13.93556000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -826,7 +826,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Idrija", Latitude = "46.00278000", Longitude = "14.03056000" },
                         new() { Id = 2, Name = "Spodnja Idrija", Latitude = "46.03194000", Longitude = "14.02722000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -840,7 +840,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Ig", Latitude = "45.96028000", Longitude = "14.52889000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -854,7 +854,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Ilirska Bistrica", Latitude = "45.56757000", Longitude = "14.24571000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -869,7 +869,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Ivančna Gorica", Latitude = "45.93833000", Longitude = "14.80444000" },
                         new() { Id = 2, Name = "Šentvid pri Stični", Latitude = "45.95004000", Longitude = "14.84344000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -884,7 +884,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Izola", Latitude = "45.53694000", Longitude = "13.66194000" },
                         new() { Id = 2, Name = "Jagodje", Latitude = "45.52845000", Longitude = "13.64721000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -901,7 +901,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Koroška Bela", Latitude = "46.44913000", Longitude = "14.11135000" },
                         new() { Id = 4, Name = "Slovenski Javornik", Latitude = "46.42611000", Longitude = "14.08722000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -915,7 +915,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Zgornje Jezersko", Latitude = "46.39410000", Longitude = "14.50659000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -929,7 +929,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Juršinci", Latitude = "46.48472000", Longitude = "15.97139000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -945,7 +945,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Mekinje", Latitude = "46.23333000", Longitude = "14.61667000" },
                         new() { Id = 3, Name = "Šmarca", Latitude = "46.19333000", Longitude = "14.59667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -960,7 +960,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Deskle", Latitude = "46.05307000", Longitude = "13.61382000" },
                         new() { Id = 2, Name = "Kanal", Latitude = "46.08861000", Longitude = "13.63972000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -974,7 +974,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kidričevo", Latitude = "46.40361000", Longitude = "15.79111000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -988,7 +988,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kobarid", Latitude = "46.24761000", Longitude = "13.57907000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1002,7 +1002,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kobilje", Latitude = "46.68472000", Longitude = "16.39778000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1016,7 +1016,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kočevje", Latitude = "45.64333000", Longitude = "14.86333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1030,7 +1030,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Komen", Latitude = "45.81528000", Longitude = "13.74833000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1045,7 +1045,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Komenda", Latitude = "46.20484000", Longitude = "14.53839000" },
                         new() { Id = 2, Name = "Moste", Latitude = "46.19500000", Longitude = "14.55139000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1065,7 +1065,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Spodnje Škofije", Latitude = "45.57167000", Longitude = "13.79250000" },
                         new() { Id = 7, Name = "Sv. Anton", Latitude = "45.52583000", Longitude = "13.83194000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1078,7 +1078,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -1092,7 +1092,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kostel", Latitude = "45.50842000", Longitude = "14.91005000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1106,7 +1106,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kozje", Latitude = "46.07500000", Longitude = "15.56028000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1125,7 +1125,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Mlaka pri Kranju", Latitude = "46.28333000", Longitude = "14.35000000" },
                         new() { Id = 6, Name = "Zgornje Bitnje", Latitude = "46.22000000", Longitude = "14.33667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1140,7 +1140,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Kranjska Gora", Latitude = "46.45689000", Longitude = "13.77824000" },
                         new() { Id = 2, Name = "Mojstrana", Latitude = "46.42383000", Longitude = "13.87520000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1154,7 +1154,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Križevci pri Ljutomeru", Latitude = "46.56833000", Longitude = "16.13861000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1170,7 +1170,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Leskovec pri Krškem", Latitude = "45.93566000", Longitude = "15.47184000" },
                         new() { Id = 3, Name = "Senovo", Latitude = "46.02361000", Longitude = "15.47694000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1184,7 +1184,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Zgornja Kungota", Latitude = "46.63917000", Longitude = "15.61556000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1198,7 +1198,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kuzma", Latitude = "46.83694000", Longitude = "16.08333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1212,7 +1212,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Laško", Latitude = "46.15463000", Longitude = "15.23555000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1226,7 +1226,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Lenart v Slov. Goricah", Latitude = "46.57611000", Longitude = "15.83139000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1240,7 +1240,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Lendava", Latitude = "46.56494000", Longitude = "16.45091000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1254,7 +1254,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Litija", Latitude = "46.05861000", Longitude = "14.82250000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1278,7 +1278,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Trnovo District", Latitude = "46.02412000", Longitude = "14.48891000" },
                         new() { Id = 11, Name = "Vič District", Latitude = "46.00779000", Longitude = "14.46968000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1292,7 +1292,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Ljubno ob Savinji", Latitude = "46.34358000", Longitude = "14.83377000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1306,7 +1306,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Ljutomer", Latitude = "46.52083000", Longitude = "16.19750000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1319,7 +1319,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -1333,7 +1333,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Logatec", Latitude = "45.91444000", Longitude = "14.22583000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1347,7 +1347,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Leskova Dolina", Latitude = "45.62139000", Longitude = "14.46056000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1361,7 +1361,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Hrib-Loški Potok", Latitude = "45.70688000", Longitude = "14.61674000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1375,7 +1375,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Lovrenc na Pohorju", Latitude = "46.54056000", Longitude = "15.39306000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1389,7 +1389,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Luče", Latitude = "46.35611000", Longitude = "14.74667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1403,7 +1403,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Lukovica pri Domžalah", Latitude = "46.16988000", Longitude = "14.69179000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1417,7 +1417,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Majšperk", Latitude = "46.35167000", Longitude = "15.73361000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1430,7 +1430,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -1449,7 +1449,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Pekre", Latitude = "46.54722000", Longitude = "15.59556000" },
                         new() { Id = 6, Name = "Razvanje", Latitude = "46.51444000", Longitude = "15.63611000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1463,7 +1463,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Markovci", Latitude = "46.39557000", Longitude = "15.92831000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1479,7 +1479,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Opština [historical] Ljubljana-Šiška", Latitude = "46.16667000", Longitude = "14.43333000" },
                         new() { Id = 3, Name = "Zgornje Pirniče", Latitude = "46.14251000", Longitude = "14.43158000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1494,7 +1494,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Mengeš", Latitude = "46.16694000", Longitude = "14.57500000" },
                         new() { Id = 2, Name = "Preserje pri Radomljah", Latitude = "46.16911000", Longitude = "14.59698000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1508,7 +1508,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Metlika", Latitude = "45.64722000", Longitude = "15.31417000" }
                     }
-                }
+                },
 
                 new()
                 {

@@ -5,12 +5,12 @@ namespace ShowsOnSale.World.Models
     public class State
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string StateCode { get; set; }
-        public string Latitude { get; set; }
-        public string Longitude { get; set; }
-        public string Type { get; set; }
-        public List<City> Cities { get; set; }
+        public required string Name { get; set; }
+        public required string StateCode { get; set; }
+        public required string Latitude { get; set; }
+        public required string Longitude { get; set; }
+        public required string Type { get; set; }
+        public required List<City> Cities { get; set; }
 
         public override string ToString()
         {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "산마리노" },
-                { "pt-BR" = "San Marino" }
-                { "pt" = "São Marinho" }
-                { "nl" = "San Marino" }
-                { "hr" = "San Marino" }
-                { "fa" = "سان مارینو" }
-                { "de" = "San Marino" }
-                { "es" = "San Marino" }
-                { "fr" = "Saint-Marin" }
-                { "ja" = "サンマリノ" }
-                { "it" = "San Marino" }
-                { "zh-CN" = "圣马力诺" }
-                { "tr" = "San Marino" }
-                { "ru" = "Сан-Марино" }
-                { "uk" = "Сан-Марино" }
-                { "pl" = "San Marino" }
+                ["ko"] = "산마리노",
+                ["pt-BR"] = "San Marino",
+                ["pt"] = "São Marinho",
+                ["nl"] = "San Marino",
+                ["hr"] = "San Marino",
+                ["fa"] = "سان مارینو",
+                ["de"] = "San Marino",
+                ["es"] = "San Marino",
+                ["fr"] = "Saint-Marin",
+                ["ja"] = "サンマリノ",
+                ["it"] = "San Marino",
+                ["zh-CN"] = "圣马力诺",
+                ["tr"] = "San Marino",
+                ["ru"] = "Сан-Марино",
+                ["uk"] = "Сан-Марино",
+                ["pl"] = "San Marino"
             },
             States = new()
             {

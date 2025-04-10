@@ -38,19 +38,19 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "퀴라소" },
-                { "pt-BR" = "Curaçao" }
-                { "pt" = "Curaçao" }
-                { "nl" = "Curaçao" }
-                { "fa" = "کوراسائو" }
-                { "de" = "Curaçao" }
-                { "fr" = "Curaçao" }
-                { "it" = "Curaçao" }
-                { "zh-CN" = "库拉索" }
-                { "tr" = "Curaçao" }
-                { "ru" = "Кюрасао" }
-                { "uk" = "Кюрасао" }
-                { "pl" = "Curaçao" }
+                ["ko"] = "퀴라소",
+                ["pt-BR"] = "Curaçao",
+                ["pt"] = "Curaçao",
+                ["nl"] = "Curaçao",
+                ["fa"] = "کوراسائو",
+                ["de"] = "Curaçao",
+                ["fr"] = "Curaçao",
+                ["it"] = "Curaçao",
+                ["zh-CN"] = "库拉索",
+                ["tr"] = "Curaçao",
+                ["ru"] = "Кюрасао",
+                ["uk"] = "Кюрасао",
+                ["pl"] = "Curaçao"
             },
             States = new()
             {

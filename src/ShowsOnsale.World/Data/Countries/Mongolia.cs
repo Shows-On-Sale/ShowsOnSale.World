@@ -40,22 +40,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "몽골" },
-                { "pt-BR" = "Mongólia" }
-                { "pt" = "Mongólia" }
-                { "nl" = "Mongolië" }
-                { "hr" = "Mongolija" }
-                { "fa" = "مغولستان" }
-                { "de" = "Mongolei" }
-                { "es" = "Mongolia" }
-                { "fr" = "Mongolie" }
-                { "ja" = "モンゴル" }
-                { "it" = "Mongolia" }
-                { "zh-CN" = "蒙古" }
-                { "tr" = "Moğolistan" }
-                { "ru" = "Монголия" }
-                { "uk" = "Монголія" }
-                { "pl" = "Mongolia" }
+                ["ko"] = "몽골",
+                ["pt-BR"] = "Mongólia",
+                ["pt"] = "Mongólia",
+                ["nl"] = "Mongolië",
+                ["hr"] = "Mongolija",
+                ["fa"] = "مغولستان",
+                ["de"] = "Mongolei",
+                ["es"] = "Mongolia",
+                ["fr"] = "Mongolie",
+                ["ja"] = "モンゴル",
+                ["it"] = "Mongolia",
+                ["zh-CN"] = "蒙古",
+                ["tr"] = "Moğolistan",
+                ["ru"] = "Монголия",
+                ["uk"] = "Монголія",
+                ["pl"] = "Mongolia"
             },
             States = new()
             {
@@ -102,7 +102,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bayanhongor", Latitude = "46.19444000", Longitude = "100.71806000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -116,7 +116,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bulgan", Latitude = "48.81250000", Longitude = "103.53472000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -130,7 +130,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Darhan", Latitude = "49.48667000", Longitude = "105.92278000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -145,7 +145,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Choibalsan", Latitude = "48.07257000", Longitude = "114.53264000" },
                         new() { Id = 2, Name = "Ereencav", Latitude = "49.88070000", Longitude = "115.72526000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -158,7 +158,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -172,7 +172,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Mandalgovi", Latitude = "45.76250000", Longitude = "106.27083000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -186,7 +186,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Altai", Latitude = "46.37222000", Longitude = "96.25833000" }
                     }
-                }
+                },
 
                 new()
                 {

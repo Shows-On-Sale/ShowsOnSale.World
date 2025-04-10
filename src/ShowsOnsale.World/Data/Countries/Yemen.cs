@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "예멘" },
-                { "pt-BR" = "Iêmen" }
-                { "pt" = "Iémen" }
-                { "nl" = "Jemen" }
-                { "hr" = "Jemen" }
-                { "fa" = "یمن" }
-                { "de" = "Jemen" }
-                { "es" = "Yemen" }
-                { "fr" = "Yémen" }
-                { "ja" = "イエメン" }
-                { "it" = "Yemen" }
-                { "zh-CN" = "也门" }
-                { "tr" = "Yemen" }
-                { "ru" = "Йемен" }
-                { "uk" = "Ємен" }
-                { "pl" = "Jemen" }
+                ["ko"] = "예멘",
+                ["pt-BR"] = "Iêmen",
+                ["pt"] = "Iémen",
+                ["nl"] = "Jemen",
+                ["hr"] = "Jemen",
+                ["fa"] = "یمن",
+                ["de"] = "Jemen",
+                ["es"] = "Yemen",
+                ["fr"] = "Yémen",
+                ["ja"] = "イエメン",
+                ["it"] = "Yemen",
+                ["zh-CN"] = "也门",
+                ["tr"] = "Yemen",
+                ["ru"] = "Йемен",
+                ["uk"] = "Ємен",
+                ["pl"] = "Jemen"
             },
             States = new()
             {
@@ -136,7 +136,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "Zingibar", Latitude = "13.13420000", Longitude = "45.43040000" },
                         new() { Id = 13, Name = "Zinjibār", Latitude = "13.12871000", Longitude = "45.38073000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -170,7 +170,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 20, Name = "Sabah", Latitude = "14.27590000", Longitude = "44.67000000" },
                         new() { Id = 21, Name = "Wald Rabi'", Latitude = "14.55574000", Longitude = "44.90596000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -209,7 +209,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 25, Name = "Kamaran", Latitude = "15.36050000", Longitude = "42.58540000" },
                         new() { Id = 26, Name = "Zabīd", Latitude = "14.27742000", Longitude = "43.36841000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -235,7 +235,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "Kharab Al Marashi", Latitude = "16.61070000", Longitude = "44.22550000" },
                         new() { Id = 13, Name = "Rajuzah", Latitude = "16.63420000", Longitude = "44.50420000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -258,7 +258,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Sayhut", Latitude = "15.53450000", Longitude = "51.28690000" },
                         new() { Id = 10, Name = "Shahan", Latitude = "17.59230000", Longitude = "52.59400000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -280,7 +280,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Milhan", Latitude = "15.32240000", Longitude = "43.33180000" },
                         new() { Id = 9, Name = "Shibām Kawkabān", Latitude = "15.50277000", Longitude = "43.84237000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -293,7 +293,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

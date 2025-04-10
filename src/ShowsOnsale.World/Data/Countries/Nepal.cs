@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "네팔" },
-                { "pt-BR" = "Nepal" }
-                { "pt" = "Nepal" }
-                { "nl" = "Nepal" }
-                { "hr" = "Nepal" }
-                { "fa" = "نپال" }
-                { "de" = "Népal" }
-                { "es" = "Nepal" }
-                { "fr" = "Népal" }
-                { "ja" = "ネパール" }
-                { "it" = "Nepal" }
-                { "zh-CN" = "尼泊尔" }
-                { "tr" = "Nepal" }
-                { "ru" = "Непал" }
-                { "uk" = "Непал" }
-                { "pl" = "Nepal" }
+                ["ko"] = "네팔",
+                ["pt-BR"] = "Nepal",
+                ["pt"] = "Nepal",
+                ["nl"] = "Nepal",
+                ["hr"] = "Nepal",
+                ["fa"] = "نپال",
+                ["de"] = "Népal",
+                ["es"] = "Nepal",
+                ["fr"] = "Népal",
+                ["ja"] = "ネパール",
+                ["it"] = "Nepal",
+                ["zh-CN"] = "尼泊尔",
+                ["tr"] = "Nepal",
+                ["ru"] = "Непал",
+                ["uk"] = "Непал",
+                ["pl"] = "Nepal"
             },
             States = new()
             {

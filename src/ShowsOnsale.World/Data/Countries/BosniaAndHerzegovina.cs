@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "보스니아 헤르체고비나" },
-                { "pt-BR" = "Bósnia e Herzegovina" }
-                { "pt" = "Bósnia e Herzegovina" }
-                { "nl" = "Bosnië en Herzegovina" }
-                { "hr" = "Bosna i Hercegovina" }
-                { "fa" = "بوسنی و هرزگوین" }
-                { "de" = "Bosnien und Herzegowina" }
-                { "es" = "Bosnia y Herzegovina" }
-                { "fr" = "Bosnie-Herzégovine" }
-                { "ja" = "ボスニア・ヘルツェゴビナ" }
-                { "it" = "Bosnia ed Erzegovina" }
-                { "zh-CN" = "波斯尼亚和黑塞哥维那" }
-                { "tr" = "Bosna Hersek" }
-                { "ru" = "Босния и Герцеговина" }
-                { "uk" = "Боснія і Герцеговина" }
-                { "pl" = "Bośnia i Hercegowina" }
+                ["ko"] = "보스니아 헤르체고비나",
+                ["pt-BR"] = "Bósnia e Herzegovina",
+                ["pt"] = "Bósnia e Herzegovina",
+                ["nl"] = "Bosnië en Herzegovina",
+                ["hr"] = "Bosna i Hercegovina",
+                ["fa"] = "بوسنی و هرزگوین",
+                ["de"] = "Bosnien und Herzegowina",
+                ["es"] = "Bosnia y Herzegovina",
+                ["fr"] = "Bosnie-Herzégovine",
+                ["ja"] = "ボスニア・ヘルツェゴビナ",
+                ["it"] = "Bosnia ed Erzegovina",
+                ["zh-CN"] = "波斯尼亚和黑塞哥维那",
+                ["tr"] = "Bosna Hersek",
+                ["ru"] = "Босния и Герцеговина",
+                ["uk"] = "Боснія і Герцеговина",
+                ["pl"] = "Bośnia i Hercegowina"
             },
             States = new()
             {
@@ -84,7 +84,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Brčko", Latitude = "44.86995000", Longitude = "18.81012000" },
                         new() { Id = 2, Name = "Brka", Latitude = "44.82837000", Longitude = "18.72420000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -97,7 +97,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -110,7 +110,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -278,7 +278,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 154, Name = "Žepče", Latitude = "44.42667000", Longitude = "18.03778000" },
                         new() { Id = 155, Name = "Živinice", Latitude = "44.44929000", Longitude = "18.64978000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -291,7 +291,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -304,7 +304,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -392,7 +392,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 74, Name = "Živinice", Latitude = "44.54765000", Longitude = "17.37357000" },
                         new() { Id = 75, Name = "Zvornik", Latitude = "44.38605000", Longitude = "19.10247000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -405,7 +405,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

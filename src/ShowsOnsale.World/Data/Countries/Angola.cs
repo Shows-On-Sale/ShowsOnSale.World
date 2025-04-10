@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "앙골라" },
-                { "pt-BR" = "Angola" }
-                { "pt" = "Angola" }
-                { "nl" = "Angola" }
-                { "hr" = "Angola" }
-                { "fa" = "آنگولا" }
-                { "de" = "Angola" }
-                { "es" = "Angola" }
-                { "fr" = "Angola" }
-                { "ja" = "アンゴラ" }
-                { "it" = "Angola" }
-                { "zh-CN" = "安哥拉" }
-                { "tr" = "Angola" }
-                { "ru" = "Ангола" }
-                { "uk" = "Ангола" }
-                { "pl" = "Angola" }
+                ["ko"] = "앙골라",
+                ["pt-BR"] = "Angola",
+                ["pt"] = "Angola",
+                ["nl"] = "Angola",
+                ["hr"] = "Angola",
+                ["fa"] = "آنگولا",
+                ["de"] = "Angola",
+                ["es"] = "Angola",
+                ["fr"] = "Angola",
+                ["ja"] = "アンゴラ",
+                ["it"] = "Angola",
+                ["zh-CN"] = "安哥拉",
+                ["tr"] = "Angola",
+                ["ru"] = "Ангола",
+                ["uk"] = "Ангола",
+                ["pl"] = "Angola"
             },
             States = new()
             {
@@ -101,7 +101,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Lobito", Latitude = "-12.36440000", Longitude = "13.53601000" },
                         new() { Id = 11, Name = "Sumbe", Latitude = "-11.20610000", Longitude = "13.84480000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -118,7 +118,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Chissamba", Latitude = "-12.16667000", Longitude = "17.33333000" },
                         new() { Id = 4, Name = "Cuito", Latitude = "-12.38333000", Longitude = "16.93333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -132,7 +132,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Cabinda", Latitude = "-5.55000000", Longitude = "12.20000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -146,7 +146,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Menongue", Latitude = "-14.65850000", Longitude = "17.69099000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -162,7 +162,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Sumbe", Latitude = "-11.20605000", Longitude = "13.84371000" },
                         new() { Id = 3, Name = "Uacu Cungo", Latitude = "-11.35669000", Longitude = "15.11719000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -177,7 +177,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Camabatela", Latitude = "-8.18812000", Longitude = "15.37495000" },
                         new() { Id = 2, Name = "N’dalatando", Latitude = "-9.29782000", Longitude = "14.91162000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -191,7 +191,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Ondjiva", Latitude = "-17.06667000", Longitude = "15.73333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -208,7 +208,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Huambo", Latitude = "-12.77611000", Longitude = "15.73917000" },
                         new() { Id = 4, Name = "Longonjo", Latitude = "-12.90667000", Longitude = "15.25333000" }
                     }
-                }
+                },
 
                 new()
                 {

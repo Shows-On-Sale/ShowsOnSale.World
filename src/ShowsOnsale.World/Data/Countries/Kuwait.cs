@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "쿠웨이트" },
-                { "pt-BR" = "Kuwait" }
-                { "pt" = "Kuwait" }
-                { "nl" = "Koeweit" }
-                { "hr" = "Kuvajt" }
-                { "fa" = "کویت" }
-                { "de" = "Kuwait" }
-                { "es" = "Kuwait" }
-                { "fr" = "Koweït" }
-                { "ja" = "クウェート" }
-                { "it" = "Kuwait" }
-                { "zh-CN" = "科威特" }
-                { "tr" = "Kuveyt" }
-                { "ru" = "Кувейт" }
-                { "uk" = "Кувейт" }
-                { "pl" = "Kuwejt" }
+                ["ko"] = "쿠웨이트",
+                ["pt-BR"] = "Kuwait",
+                ["pt"] = "Kuwait",
+                ["nl"] = "Koeweit",
+                ["hr"] = "Kuvajt",
+                ["fa"] = "کویت",
+                ["de"] = "Kuwait",
+                ["es"] = "Kuwait",
+                ["fr"] = "Koweït",
+                ["ja"] = "クウェート",
+                ["it"] = "Kuwait",
+                ["zh-CN"] = "科威特",
+                ["tr"] = "Kuveyt",
+                ["ru"] = "Кувейт",
+                ["uk"] = "Кувейт",
+                ["pl"] = "Kuwejt"
             },
             States = new()
             {

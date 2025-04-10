@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "투르크메니스탄" },
-                { "pt-BR" = "Turcomenistão" }
-                { "pt" = "Turquemenistão" }
-                { "nl" = "Turkmenistan" }
-                { "hr" = "Turkmenistan" }
-                { "fa" = "ترکمنستان" }
-                { "de" = "Turkmenistan" }
-                { "es" = "Turkmenistán" }
-                { "fr" = "Turkménistan" }
-                { "ja" = "トルクメニスタン" }
-                { "it" = "Turkmenistan" }
-                { "zh-CN" = "土库曼斯坦" }
-                { "tr" = "Türkmenistan" }
-                { "ru" = "Туркменистан" }
-                { "uk" = "Туркменістан" }
-                { "pl" = "Turkmenistan" }
+                ["ko"] = "투르크메니스탄",
+                ["pt-BR"] = "Turcomenistão",
+                ["pt"] = "Turquemenistão",
+                ["nl"] = "Turkmenistan",
+                ["hr"] = "Turkmenistan",
+                ["fa"] = "ترکمنستان",
+                ["de"] = "Turkmenistan",
+                ["es"] = "Turkmenistán",
+                ["fr"] = "Turkménistan",
+                ["ja"] = "トルクメニスタン",
+                ["it"] = "Turkmenistan",
+                ["zh-CN"] = "土库曼斯坦",
+                ["tr"] = "Türkmenistan",
+                ["ru"] = "Туркменистан",
+                ["uk"] = "Туркменістан",
+                ["pl"] = "Turkmenistan"
             },
             States = new()
             {

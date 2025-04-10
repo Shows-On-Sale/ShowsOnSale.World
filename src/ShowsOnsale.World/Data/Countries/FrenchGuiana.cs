@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "프랑스령 기아나" },
-                { "pt-BR" = "Guiana Francesa" }
-                { "pt" = "Guiana Francesa" }
-                { "nl" = "Frans-Guyana" }
-                { "hr" = "Francuska Gvajana" }
-                { "fa" = "گویان فرانسه" }
-                { "de" = "Französisch Guyana" }
-                { "es" = "Guayana Francesa" }
-                { "fr" = "Guayane" }
-                { "ja" = "フランス領ギアナ" }
-                { "it" = "Guyana francese" }
-                { "zh-CN" = "法属圭亚那" }
-                { "tr" = "Fransiz Guyanasi" }
-                { "ru" = "Французская Гвиана" }
-                { "uk" = "Французька Гвіана" }
-                { "pl" = "Gujana Francuska" }
+                ["ko"] = "프랑스령 기아나",
+                ["pt-BR"] = "Guiana Francesa",
+                ["pt"] = "Guiana Francesa",
+                ["nl"] = "Frans-Guyana",
+                ["hr"] = "Francuska Gvajana",
+                ["fa"] = "گویان فرانسه",
+                ["de"] = "Französisch Guyana",
+                ["es"] = "Guayana Francesa",
+                ["fr"] = "Guayane",
+                ["ja"] = "フランス領ギアナ",
+                ["it"] = "Guyana francese",
+                ["zh-CN"] = "法属圭亚那",
+                ["tr"] = "Fransiz Guyanasi",
+                ["ru"] = "Французская Гвиана",
+                ["uk"] = "Французька Гвіана",
+                ["pl"] = "Gujana Francuska"
             },
             States = new()
             {

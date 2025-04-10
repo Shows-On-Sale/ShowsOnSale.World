@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "말라위" },
-                { "pt-BR" = "Malawi" }
-                { "pt" = "Malávi" }
-                { "nl" = "Malawi" }
-                { "hr" = "Malavi" }
-                { "fa" = "مالاوی" }
-                { "de" = "Malawi" }
-                { "es" = "Malawi" }
-                { "fr" = "Malawi" }
-                { "ja" = "マラウイ" }
-                { "it" = "Malawi" }
-                { "zh-CN" = "马拉维" }
-                { "tr" = "Malavi" }
-                { "ru" = "Малави" }
-                { "uk" = "Малаві" }
-                { "pl" = "Malawi" }
+                ["ko"] = "말라위",
+                ["pt-BR"] = "Malawi",
+                ["pt"] = "Malávi",
+                ["nl"] = "Malawi",
+                ["hr"] = "Malavi",
+                ["fa"] = "مالاوی",
+                ["de"] = "Malawi",
+                ["es"] = "Malawi",
+                ["fr"] = "Malawi",
+                ["ja"] = "マラウイ",
+                ["it"] = "Malawi",
+                ["zh-CN"] = "马拉维",
+                ["tr"] = "Malavi",
+                ["ru"] = "Малави",
+                ["uk"] = "Малаві",
+                ["pl"] = "Malawi"
             },
             States = new()
             {
@@ -128,7 +128,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -141,7 +141,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -154,7 +154,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -167,7 +167,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -180,7 +180,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -193,7 +193,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

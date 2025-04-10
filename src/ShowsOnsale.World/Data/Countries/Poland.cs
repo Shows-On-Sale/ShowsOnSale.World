@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "폴란드" },
-                { "pt-BR" = "Polônia" }
-                { "pt" = "Polónia" }
-                { "nl" = "Polen" }
-                { "hr" = "Poljska" }
-                { "fa" = "لهستان" }
-                { "de" = "Polen" }
-                { "es" = "Polonia" }
-                { "fr" = "Pologne" }
-                { "ja" = "ポーランド" }
-                { "it" = "Polonia" }
-                { "zh-CN" = "波兰" }
-                { "tr" = "Polonya" }
-                { "ru" = "Польша" }
-                { "uk" = "Польща" }
-                { "pl" = "Polska" }
+                ["ko"] = "폴란드",
+                ["pt-BR"] = "Polônia",
+                ["pt"] = "Polónia",
+                ["nl"] = "Polen",
+                ["hr"] = "Poljska",
+                ["fa"] = "لهستان",
+                ["de"] = "Polen",
+                ["es"] = "Polonia",
+                ["fr"] = "Pologne",
+                ["ja"] = "ポーランド",
+                ["it"] = "Polonia",
+                ["zh-CN"] = "波兰",
+                ["tr"] = "Polonya",
+                ["ru"] = "Польша",
+                ["uk"] = "Польща",
+                ["pl"] = "Polska"
             },
             States = new()
             {
@@ -469,7 +469,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 118, Name = "Zawichost", Latitude = "50.80743000", Longitude = "21.85408000" },
                         new() { Id = 119, Name = "Złota", Latitude = "50.38160000", Longitude = "20.59361000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -626,7 +626,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 143, Name = "Złotniki Kujawskie", Latitude = "52.89943000", Longitude = "18.14564000" },
                         new() { Id = 144, Name = "Żnin", Latitude = "52.84958000", Longitude = "17.71992000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1018,7 +1018,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 378, Name = "Zubrzyca Górna", Latitude = "49.56174000", Longitude = "19.64973000" },
                         new() { Id = 379, Name = "Żurowa", Latitude = "49.82636000", Longitude = "21.16894000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1271,7 +1271,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 239, Name = "Żmigród", Latitude = "51.46672000", Longitude = "16.90564000" },
                         new() { Id = 240, Name = "Żórawina", Latitude = "50.98080000", Longitude = "17.03671000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1488,7 +1488,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 203, Name = "Zwierzyniec", Latitude = "50.61400000", Longitude = "22.97512000" },
                         new() { Id = 204, Name = "Żyrzyn", Latitude = "51.49918000", Longitude = "22.09170000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1598,7 +1598,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 96, Name = "Zielona Góra", Latitude = "51.93768000", Longitude = "15.51216000" },
                         new() { Id = 97, Name = "Zwierzyń", Latitude = "52.83212000", Longitude = "15.56763000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1787,7 +1787,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 175, Name = "Złoczew", Latitude = "51.41719000", Longitude = "18.60363000" },
                         new() { Id = 176, Name = "Żychlin", Latitude = "52.24404000", Longitude = "19.62613000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -2163,7 +2163,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 362, Name = "Zwoleń", Latitude = "51.35542000", Longitude = "21.58768000" },
                         new() { Id = 363, Name = "Żyrardów", Latitude = "52.04880000", Longitude = "20.44599000" }
                     }
-                }
+                },
 
                 new()
                 {

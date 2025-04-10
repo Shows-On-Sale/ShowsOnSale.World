@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "키르기스스탄" },
-                { "pt-BR" = "Quirguistão" }
-                { "pt" = "Quirguizistão" }
-                { "nl" = "Kirgizië" }
-                { "hr" = "Kirgistan" }
-                { "fa" = "قرقیزستان" }
-                { "de" = "Kirgisistan" }
-                { "es" = "Kirguizistán" }
-                { "fr" = "Kirghizistan" }
-                { "ja" = "キルギス" }
-                { "it" = "Kirghizistan" }
-                { "zh-CN" = "吉尔吉斯斯坦" }
-                { "tr" = "Kirgizistan" }
-                { "ru" = "Кыргызстан" }
-                { "uk" = "Киргизстан" }
-                { "pl" = "Kirgistan" }
+                ["ko"] = "키르기스스탄",
+                ["pt-BR"] = "Quirguistão",
+                ["pt"] = "Quirguizistão",
+                ["nl"] = "Kirgizië",
+                ["hr"] = "Kirgistan",
+                ["fa"] = "قرقیزستان",
+                ["de"] = "Kirgisistan",
+                ["es"] = "Kirguizistán",
+                ["fr"] = "Kirghizistan",
+                ["ja"] = "キルギス",
+                ["it"] = "Kirghizistan",
+                ["zh-CN"] = "吉尔吉斯斯坦",
+                ["tr"] = "Kirgizistan",
+                ["ru"] = "Кыргызстан",
+                ["uk"] = "Киргизстан",
+                ["pl"] = "Kirgistan"
             },
             States = new()
             {

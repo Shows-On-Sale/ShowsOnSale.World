@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "바하마" },
-                { "pt-BR" = "Bahamas" }
-                { "pt" = "Baamas" }
-                { "nl" = "Bahama’s" }
-                { "hr" = "Bahami" }
-                { "fa" = "باهاما" }
-                { "de" = "Bahamas" }
-                { "es" = "Bahamas" }
-                { "fr" = "Bahamas" }
-                { "ja" = "バハマ" }
-                { "it" = "Bahamas" }
-                { "zh-CN" = "巴哈马" }
-                { "tr" = "Bahamalar" }
-                { "ru" = "Багамы" }
-                { "uk" = "Багамські острови" }
-                { "pl" = "Bahamy" }
+                ["ko"] = "바하마",
+                ["pt-BR"] = "Bahamas",
+                ["pt"] = "Baamas",
+                ["nl"] = "Bahama’s",
+                ["hr"] = "Bahami",
+                ["fa"] = "باهاما",
+                ["de"] = "Bahamas",
+                ["es"] = "Bahamas",
+                ["fr"] = "Bahamas",
+                ["ja"] = "バハマ",
+                ["it"] = "Bahamas",
+                ["zh-CN"] = "巴哈马",
+                ["tr"] = "Bahamalar",
+                ["ru"] = "Багамы",
+                ["uk"] = "Багамські острови",
+                ["pl"] = "Bahamy"
             },
             States = new()
             {
@@ -122,7 +122,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -136,7 +136,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Arthur’s Town", Latitude = "24.62240000", Longitude = "-75.67151000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -150,7 +150,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Marsh Harbour", Latitude = "26.54124000", Longitude = "-77.06360000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -163,7 +163,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -176,7 +176,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

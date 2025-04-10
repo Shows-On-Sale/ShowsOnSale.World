@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "도미니카 연방" },
-                { "pt-BR" = "Dominica" }
-                { "pt" = "Dominica" }
-                { "nl" = "Dominica" }
-                { "hr" = "Dominika" }
-                { "fa" = "دومینیکا" }
-                { "de" = "Dominica" }
-                { "es" = "Dominica" }
-                { "fr" = "Dominique" }
-                { "ja" = "ドミニカ国" }
-                { "it" = "Dominica" }
-                { "zh-CN" = "多米尼加" }
-                { "tr" = "Dominika" }
-                { "ru" = "Доминика" }
-                { "uk" = "Домініка" }
-                { "pl" = "Dominika" }
+                ["ko"] = "도미니카 연방",
+                ["pt-BR"] = "Dominica",
+                ["pt"] = "Dominica",
+                ["nl"] = "Dominica",
+                ["hr"] = "Dominika",
+                ["fa"] = "دومینیکا",
+                ["de"] = "Dominica",
+                ["es"] = "Dominica",
+                ["fr"] = "Dominique",
+                ["ja"] = "ドミニカ国",
+                ["it"] = "Dominica",
+                ["zh-CN"] = "多米尼加",
+                ["tr"] = "Dominika",
+                ["ru"] = "Доминика",
+                ["uk"] = "Домініка",
+                ["pl"] = "Dominika"
             },
             States = new()
             {
@@ -88,7 +88,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Castle Bruce", Latitude = "15.44397000", Longitude = "-61.25723000" },
                         new() { Id = 2, Name = "Rosalie", Latitude = "15.36667000", Longitude = "-61.26667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -102,7 +102,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Roseau", Latitude = "15.30174000", Longitude = "-61.38808000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -116,7 +116,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Portsmouth", Latitude = "15.58333000", Longitude = "-61.46667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -131,7 +131,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Saint Joseph", Latitude = "15.40000000", Longitude = "-61.43333000" },
                         new() { Id = 2, Name = "Salisbury", Latitude = "15.43689000", Longitude = "-61.43637000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -145,7 +145,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Pointe Michel", Latitude = "15.25976000", Longitude = "-61.37452000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -159,7 +159,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Soufrière", Latitude = "15.23374000", Longitude = "-61.35881000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -174,7 +174,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Berekua", Latitude = "15.23333000", Longitude = "-61.31667000" },
                         new() { Id = 2, Name = "La Plaine", Latitude = "15.32768000", Longitude = "-61.24753000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -189,7 +189,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Mahaut", Latitude = "15.36357000", Longitude = "-61.39701000" },
                         new() { Id = 2, Name = "Pont Cassé", Latitude = "15.36667000", Longitude = "-61.35000000" }
                     }
-                }
+                },
 
                 new()
                 {

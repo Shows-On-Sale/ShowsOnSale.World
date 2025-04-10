@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "조지아" },
-                { "pt-BR" = "Geórgia" }
-                { "pt" = "Geórgia" }
-                { "nl" = "Georgië" }
-                { "hr" = "Gruzija" }
-                { "fa" = "گرجستان" }
-                { "de" = "Georgien" }
-                { "es" = "Georgia" }
-                { "fr" = "Géorgie" }
-                { "ja" = "グルジア" }
-                { "it" = "Georgia" }
-                { "zh-CN" = "格鲁吉亚" }
-                { "tr" = "Gürcistan" }
-                { "ru" = "Джорджия" }
-                { "uk" = "Грузія" }
-                { "pl" = "Gruzja" }
+                ["ko"] = "조지아",
+                ["pt-BR"] = "Geórgia",
+                ["pt"] = "Geórgia",
+                ["nl"] = "Georgië",
+                ["hr"] = "Gruzija",
+                ["fa"] = "گرجستان",
+                ["de"] = "Georgien",
+                ["es"] = "Georgia",
+                ["fr"] = "Géorgie",
+                ["ja"] = "グルジア",
+                ["it"] = "Georgia",
+                ["zh-CN"] = "格鲁吉亚",
+                ["tr"] = "Gürcistan",
+                ["ru"] = "Джорджия",
+                ["uk"] = "Грузія",
+                ["pl"] = "Gruzja"
             },
             States = new()
             {
@@ -105,7 +105,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Shuakhevi", Latitude = "41.63000000", Longitude = "42.19083000" },
                         new() { Id = 11, Name = "Tsikhisdziri", Latitude = "41.76659000", Longitude = "41.75517000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -122,7 +122,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Ozurgeti", Latitude = "41.92442000", Longitude = "42.00682000" },
                         new() { Id = 4, Name = "Urek’i", Latitude = "41.99556000", Longitude = "41.77861000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -149,7 +149,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 13, Name = "Vani", Latitude = "42.08320000", Longitude = "42.52163000" },
                         new() { Id = 14, Name = "Zestap’oni", Latitude = "42.11000000", Longitude = "43.05250000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -173,7 +173,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Tsinandali", Latitude = "41.89315000", Longitude = "45.57129000" },
                         new() { Id = 11, Name = "Tsnori", Latitude = "41.62088000", Longitude = "45.96943000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -201,7 +201,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 14, Name = "Ts’alk’is Munitsip’alit’et’i", Latitude = "41.63333000", Longitude = "43.96667000" },
                         new() { Id = 15, Name = "Tsalka", Latitude = "41.59460000", Longitude = "44.08909000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -222,7 +222,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Step’antsminda", Latitude = "42.65667000", Longitude = "44.64333000" },
                         new() { Id = 8, Name = "Zhinvali", Latitude = "42.13181000", Longitude = "44.77264000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -239,7 +239,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Lent’ekhi", Latitude = "42.78893000", Longitude = "42.72226000" },
                         new() { Id = 4, Name = "Oni", Latitude = "42.57944000", Longitude = "43.44250000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -264,7 +264,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 11, Name = "Tsalenjikha", Latitude = "42.60444000", Longitude = "42.06825000" },
                         new() { Id = 12, Name = "Zugdidi", Latitude = "42.50880000", Longitude = "41.87088000" }
                     }
-                }
+                },
 
                 new()
                 {

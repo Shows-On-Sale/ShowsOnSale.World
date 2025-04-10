@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "루마니아" },
-                { "pt-BR" = "Romênia" }
-                { "pt" = "Roménia" }
-                { "nl" = "Roemenië" }
-                { "hr" = "Rumunjska" }
-                { "fa" = "رومانی" }
-                { "de" = "Rumänien" }
-                { "es" = "Rumania" }
-                { "fr" = "Roumanie" }
-                { "ja" = "ルーマニア" }
-                { "it" = "Romania" }
-                { "zh-CN" = "罗马尼亚" }
-                { "tr" = "Romanya" }
-                { "ru" = "Румыния" }
-                { "uk" = "Румунія" }
-                { "pl" = "Rumunia" }
+                ["ko"] = "루마니아",
+                ["pt-BR"] = "Romênia",
+                ["pt"] = "Roménia",
+                ["nl"] = "Roemenië",
+                ["hr"] = "Rumunjska",
+                ["fa"] = "رومانی",
+                ["de"] = "Rumänien",
+                ["es"] = "Rumania",
+                ["fr"] = "Roumanie",
+                ["ja"] = "ルーマニア",
+                ["it"] = "Romania",
+                ["zh-CN"] = "罗马尼亚",
+                ["tr"] = "Romanya",
+                ["ru"] = "Румыния",
+                ["uk"] = "Румунія",
+                ["pl"] = "Rumunia"
             },
             States = new()
             {
@@ -1247,7 +1247,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 242, Name = "Vintere", Latitude = "46.76883000", Longitude = "22.14652000" },
                         new() { Id = 243, Name = "Voivozi", Latitude = "47.21562000", Longitude = "22.39024000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1408,7 +1408,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 147, Name = "Viișoara", Latitude = "47.10332000", Longitude = "24.44949000" },
                         new() { Id = 148, Name = "Zagra", Latitude = "47.33333000", Longitude = "24.28333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1620,7 +1620,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 198, Name = "Vorona Teodoru", Latitude = "47.55000000", Longitude = "26.60000000" },
                         new() { Id = 199, Name = "Zlătunoaia", Latitude = "47.65026000", Longitude = "27.00743000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1736,7 +1736,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 102, Name = "Viziru", Latitude = "45.01667000", Longitude = "27.70000000" },
                         new() { Id = 103, Name = "Zăvoaia", Latitude = "44.95000000", Longitude = "27.48333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1881,7 +1881,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 131, Name = "Zărnești", Latitude = "45.56093000", Longitude = "25.31787000" },
                         new() { Id = 132, Name = "Zizin", Latitude = "45.63697000", Longitude = "25.77898000" }
                     }
-                }
+                },
 
                 new()
                 {

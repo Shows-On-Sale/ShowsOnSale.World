@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "저지 섬" },
-                { "pt-BR" = "Jersey" }
-                { "pt" = "Jersey" }
-                { "nl" = "Jersey" }
-                { "hr" = "Jersey" }
-                { "fa" = "جرزی" }
-                { "de" = "Jersey" }
-                { "es" = "Jersey" }
-                { "fr" = "Jersey" }
-                { "ja" = "ジャージー" }
-                { "it" = "Isola di Jersey" }
-                { "zh-CN" = "泽西岛" }
-                { "tr" = "Jersey" }
-                { "ru" = "Джерси" }
-                { "uk" = "Джерсі" }
-                { "pl" = "Jersey" }
+                ["ko"] = "저지 섬",
+                ["pt-BR"] = "Jersey",
+                ["pt"] = "Jersey",
+                ["nl"] = "Jersey",
+                ["hr"] = "Jersey",
+                ["fa"] = "جرزی",
+                ["de"] = "Jersey",
+                ["es"] = "Jersey",
+                ["fr"] = "Jersey",
+                ["ja"] = "ジャージー",
+                ["it"] = "Isola di Jersey",
+                ["zh-CN"] = "泽西岛",
+                ["tr"] = "Jersey",
+                ["ru"] = "Джерси",
+                ["uk"] = "Джерсі",
+                ["pl"] = "Jersey"
             },
             States = new()
             {
@@ -90,7 +90,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Vingtaine des Quennevais", Latitude = "49.19704320", Longitude = "-2.21618080" },
                         new() { Id = 4, Name = "Vingtaine du Coin", Latitude = "49.18753960", Longitude = "-2.18473710" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -106,7 +106,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Vingtaine de Samarès", Latitude = "49.16497580", Longitude = "-2.09880290" },
                         new() { Id = 3, Name = "Vingtaine du Rocquier", Latitude = "49.16708180", Longitude = "-2.05058070" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -125,7 +125,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Vingtaine du Mont Cochon", Latitude = "49.19975370", Longitude = "-2.14757550" },
                         new() { Id = 6, Name = "Vingtaine du Rouge Bouillon", Latitude = "49.19291200", Longitude = "-2.10935300" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -141,7 +141,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Vingtaine du Douet", Latitude = "49.23459620", Longitude = "-2.17227710" },
                         new() { Id = 3, Name = "Vingtaine du Nord", Latitude = "49.23938780", Longitude = "-2.12069720" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -160,7 +160,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Vingtaine du Coin Tourgis Sud", Latitude = "49.21873100", Longitude = "-2.14180450" },
                         new() { Id = 6, Name = "Vingtaine Haut de la Vallée", Latitude = "49.21873100", Longitude = "-2.14180450" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -178,7 +178,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Vingtaine de Rozel", Latitude = "49.23569500", Longitude = "-2.05048470" },
                         new() { Id = 5, Name = "Vingtaine du Fief de la Reine", Latitude = "49.22056780", Longitude = "-2.04008200" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -193,7 +193,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Vingtaine du Nord", Latitude = "49.24102700", Longitude = "-2.16900950" },
                         new() { Id = 2, Name = "Vingtaine du Sud", Latitude = "49.24102700", Longitude = "-2.16900950" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -212,7 +212,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Grande Cueillette", Latitude = "49.23747580", Longitude = "-2.22264800" },
                         new() { Id = 6, Name = "Petite Cueillette", Latitude = "49.23747580", Longitude = "-2.22264800" }
                     }
-                }
+                },
 
                 new()
                 {

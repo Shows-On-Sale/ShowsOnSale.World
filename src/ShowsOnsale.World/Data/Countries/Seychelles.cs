@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "세이셸" },
-                { "pt-BR" = "Seicheles" }
-                { "pt" = "Seicheles" }
-                { "nl" = "Seychellen" }
-                { "hr" = "Sejšeli" }
-                { "fa" = "سیشل" }
-                { "de" = "Seychellen" }
-                { "es" = "Seychelles" }
-                { "fr" = "Seychelles" }
-                { "ja" = "セーシェル" }
-                { "it" = "Seychelles" }
-                { "zh-CN" = "塞舌尔" }
-                { "tr" = "Seyşeller" }
-                { "ru" = "Сейшельские острова" }
-                { "uk" = "Сейшельські острови" }
-                { "pl" = "Seszele" }
+                ["ko"] = "세이셸",
+                ["pt-BR"] = "Seicheles",
+                ["pt"] = "Seicheles",
+                ["nl"] = "Seychellen",
+                ["hr"] = "Sejšeli",
+                ["fa"] = "سیشل",
+                ["de"] = "Seychellen",
+                ["es"] = "Seychelles",
+                ["fr"] = "Seychelles",
+                ["ja"] = "セーシェル",
+                ["it"] = "Seychelles",
+                ["zh-CN"] = "塞舌尔",
+                ["tr"] = "Seyşeller",
+                ["ru"] = "Сейшельские острова",
+                ["uk"] = "Сейшельські острови",
+                ["pl"] = "Seszele"
             },
             States = new()
             {
@@ -97,7 +97,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -110,7 +110,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -123,7 +123,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -136,7 +136,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -150,7 +150,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Beau Vallon", Latitude = "-4.62091000", Longitude = "55.43015000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -163,7 +163,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -177,7 +177,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bel Ombre", Latitude = "-4.61667000", Longitude = "55.41667000" }
                     }
-                }
+                },
 
                 new()
                 {

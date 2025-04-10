@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "코스타리카" },
-                { "pt-BR" = "Costa Rica" }
-                { "pt" = "Costa Rica" }
-                { "nl" = "Costa Rica" }
-                { "hr" = "Kostarika" }
-                { "fa" = "کاستاریکا" }
-                { "de" = "Costa Rica" }
-                { "es" = "Costa Rica" }
-                { "fr" = "Costa Rica" }
-                { "ja" = "コスタリカ" }
-                { "it" = "Costa Rica" }
-                { "zh-CN" = "哥斯达黎加" }
-                { "tr" = "Kosta Rika" }
-                { "ru" = "Коста-Рика" }
-                { "uk" = "Коста-Ріка" }
-                { "pl" = "Kostaryka" }
+                ["ko"] = "코스타리카",
+                ["pt-BR"] = "Costa Rica",
+                ["pt"] = "Costa Rica",
+                ["nl"] = "Costa Rica",
+                ["hr"] = "Kostarika",
+                ["fa"] = "کاستاریکا",
+                ["de"] = "Costa Rica",
+                ["es"] = "Costa Rica",
+                ["fr"] = "Costa Rica",
+                ["ja"] = "コスタリカ",
+                ["it"] = "Costa Rica",
+                ["zh-CN"] = "哥斯达黎加",
+                ["tr"] = "Kosta Rika",
+                ["ru"] = "Коста-Рика",
+                ["uk"] = "Коста-Ріка",
+                ["pl"] = "Kostaryka"
             },
             States = new()
             {

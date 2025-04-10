@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "라이베리아" },
-                { "pt-BR" = "Libéria" }
-                { "pt" = "Libéria" }
-                { "nl" = "Liberia" }
-                { "hr" = "Liberija" }
-                { "fa" = "لیبریا" }
-                { "de" = "Liberia" }
-                { "es" = "Liberia" }
-                { "fr" = "Liberia" }
-                { "ja" = "リベリア" }
-                { "it" = "Liberia" }
-                { "zh-CN" = "利比里亚" }
-                { "tr" = "Liberya" }
-                { "ru" = "Либерия" }
-                { "uk" = "Ліберія" }
-                { "pl" = "Liberia" }
+                ["ko"] = "라이베리아",
+                ["pt-BR"] = "Libéria",
+                ["pt"] = "Libéria",
+                ["nl"] = "Liberia",
+                ["hr"] = "Liberija",
+                ["fa"] = "لیبریا",
+                ["de"] = "Liberia",
+                ["es"] = "Liberia",
+                ["fr"] = "Liberia",
+                ["ja"] = "リベリア",
+                ["it"] = "Liberia",
+                ["zh-CN"] = "利比里亚",
+                ["tr"] = "Liberya",
+                ["ru"] = "Либерия",
+                ["uk"] = "Ліберія",
+                ["pl"] = "Liberia"
             },
             States = new()
             {
@@ -84,7 +84,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Gbarnga", Latitude = "6.99543000", Longitude = "-9.47122000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -98,7 +98,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bopolu", Latitude = "7.06667000", Longitude = "-10.48750000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -112,7 +112,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Buchanan", Latitude = "5.87693000", Longitude = "-10.04964000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -126,7 +126,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Robertsport", Latitude = "6.75329000", Longitude = "-11.36710000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -140,7 +140,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Zwedru", Latitude = "6.06846000", Longitude = "-8.13559000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -154,7 +154,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Barclayville", Latitude = "4.67443000", Longitude = "-8.23306000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -168,7 +168,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Voinjama", Latitude = "8.42194000", Longitude = "-9.74778000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -182,7 +182,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kakata", Latitude = "6.53104000", Longitude = "-10.35368000" }
                     }
-                }
+                },
 
                 new()
                 {

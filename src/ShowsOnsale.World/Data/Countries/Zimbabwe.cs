@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "짐바브웨" },
-                { "pt-BR" = "Zimbabwe" }
-                { "pt" = "Zimbabué" }
-                { "nl" = "Zimbabwe" }
-                { "hr" = "Zimbabve" }
-                { "fa" = "زیمباوه" }
-                { "de" = "Simbabwe" }
-                { "es" = "Zimbabue" }
-                { "fr" = "Zimbabwe" }
-                { "ja" = "ジンバブエ" }
-                { "it" = "Zimbabwe" }
-                { "zh-CN" = "津巴布韦" }
-                { "tr" = "Zimbabve" }
-                { "ru" = "Зимбабве" }
-                { "uk" = "Зімбабве" }
-                { "pl" = "Zimbabwe" }
+                ["ko"] = "짐바브웨",
+                ["pt-BR"] = "Zimbabwe",
+                ["pt"] = "Zimbabué",
+                ["nl"] = "Zimbabwe",
+                ["hr"] = "Zimbabve",
+                ["fa"] = "زیمباوه",
+                ["de"] = "Simbabwe",
+                ["es"] = "Zimbabue",
+                ["fr"] = "Zimbabwe",
+                ["ja"] = "ジンバブエ",
+                ["it"] = "Zimbabwe",
+                ["zh-CN"] = "津巴布韦",
+                ["tr"] = "Zimbabve",
+                ["ru"] = "Зимбабве",
+                ["uk"] = "Зімбабве",
+                ["pl"] = "Zimbabwe"
             },
             States = new()
             {
@@ -86,7 +86,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Epworth", Latitude = "-17.89000000", Longitude = "31.14750000" },
                         new() { Id = 3, Name = "Harare", Latitude = "-17.82772000", Longitude = "31.05337000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -116,7 +116,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 16, Name = "Penhalonga", Latitude = "-18.89112000", Longitude = "32.69781000" },
                         new() { Id = 17, Name = "Rusape", Latitude = "-18.52785000", Longitude = "32.12843000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -143,7 +143,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 13, Name = "Shamva", Latitude = "-17.31159000", Longitude = "31.57561000" },
                         new() { Id = 14, Name = "Shamva District", Latitude = "-17.12366000", Longitude = "31.64146000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -167,7 +167,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Mutoko", Latitude = "-17.39699000", Longitude = "32.22677000" },
                         new() { Id = 11, Name = "Ruwa", Latitude = "-17.88972000", Longitude = "31.24472000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -196,7 +196,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 15, Name = "Norton", Latitude = "-17.88333000", Longitude = "30.70000000" },
                         new() { Id = 16, Name = "Raffingora", Latitude = "-17.03333000", Longitude = "30.43333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -219,7 +219,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Mwenezi District", Latitude = "-21.35838000", Longitude = "30.70668000" },
                         new() { Id = 10, Name = "Zvishavane", Latitude = "-20.32674000", Longitude = "30.06648000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -244,7 +244,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 11, Name = "Nkayi District", Latitude = "-18.92472000", Longitude = "28.71221000" },
                         new() { Id = 12, Name = "Victoria Falls", Latitude = "-17.93285000", Longitude = "25.83066000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -269,7 +269,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 11, Name = "Plumtree", Latitude = "-20.48333000", Longitude = "27.81667000" },
                         new() { Id = 12, Name = "Umzingwane District", Latitude = "-20.34704000", Longitude = "28.94994000" }
                     }
-                }
+                },
 
                 new()
                 {

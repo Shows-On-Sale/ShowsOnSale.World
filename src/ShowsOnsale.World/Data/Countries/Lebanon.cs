@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "레바논" },
-                { "pt-BR" = "Líbano" }
-                { "pt" = "Líbano" }
-                { "nl" = "Libanon" }
-                { "hr" = "Libanon" }
-                { "fa" = "لبنان" }
-                { "de" = "Libanon" }
-                { "es" = "Líbano" }
-                { "fr" = "Liban" }
-                { "ja" = "レバノン" }
-                { "it" = "Libano" }
-                { "zh-CN" = "黎巴嫩" }
-                { "tr" = "Lübnan" }
-                { "ru" = "Ливан" }
-                { "uk" = "Ліван" }
-                { "pl" = "Liban" }
+                ["ko"] = "레바논",
+                ["pt-BR"] = "Líbano",
+                ["pt"] = "Líbano",
+                ["nl"] = "Libanon",
+                ["hr"] = "Libanon",
+                ["fa"] = "لبنان",
+                ["de"] = "Libanon",
+                ["es"] = "Líbano",
+                ["fr"] = "Liban",
+                ["ja"] = "レバノン",
+                ["it"] = "Libano",
+                ["zh-CN"] = "黎巴嫩",
+                ["tr"] = "Lübnan",
+                ["ru"] = "Ливан",
+                ["uk"] = "Ліван",
+                ["pl"] = "Liban"
             },
             States = new()
             {

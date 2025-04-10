@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "스발바르 얀마옌 제도" },
-                { "pt-BR" = "Svalbard" }
-                { "pt" = "Svalbard" }
-                { "nl" = "Svalbard en Jan Mayen" }
-                { "hr" = "Svalbard i Jan Mayen" }
-                { "fa" = "سوالبارد و یان ماین" }
-                { "de" = "Svalbard und Jan Mayen" }
-                { "es" = "Islas Svalbard y Jan Mayen" }
-                { "fr" = "Svalbard et Jan Mayen" }
-                { "ja" = "スヴァールバル諸島およびヤンマイエン島" }
-                { "it" = "Svalbard e Jan Mayen" }
-                { "zh-CN" = "斯瓦尔巴和扬马延群岛" }
-                { "tr" = "Svalbard Ve Jan Mayen" }
-                { "ru" = "Шпицберген и острова Ян-Майен" }
-                { "uk" = "Шпіцберген та острови Ян-Майєн" }
-                { "pl" = "Wyspy Svalbard i Jan Mayen" }
+                ["ko"] = "스발바르 얀마옌 제도",
+                ["pt-BR"] = "Svalbard",
+                ["pt"] = "Svalbard",
+                ["nl"] = "Svalbard en Jan Mayen",
+                ["hr"] = "Svalbard i Jan Mayen",
+                ["fa"] = "سوالبارد و یان ماین",
+                ["de"] = "Svalbard und Jan Mayen",
+                ["es"] = "Islas Svalbard y Jan Mayen",
+                ["fr"] = "Svalbard et Jan Mayen",
+                ["ja"] = "スヴァールバル諸島およびヤンマイエン島",
+                ["it"] = "Svalbard e Jan Mayen",
+                ["zh-CN"] = "斯瓦尔巴和扬马延群岛",
+                ["tr"] = "Svalbard Ve Jan Mayen",
+                ["ru"] = "Шпицберген и острова Ян-Майен",
+                ["uk"] = "Шпіцберген та острови Ян-Майєн",
+                ["pl"] = "Wyspy Svalbard i Jan Mayen"
             },
             States = new()
             {

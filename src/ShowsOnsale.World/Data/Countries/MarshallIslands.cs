@@ -39,22 +39,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "마셜 제도" },
-                { "pt-BR" = "Ilhas Marshall" }
-                { "pt" = "Ilhas Marshall" }
-                { "nl" = "Marshalleilanden" }
-                { "hr" = "Maršalovi Otoci" }
-                { "fa" = "جزایر مارشال" }
-                { "de" = "Marshallinseln" }
-                { "es" = "Islas Marshall" }
-                { "fr" = "Îles Marshall" }
-                { "ja" = "マーシャル諸島" }
-                { "it" = "Isole Marshall" }
-                { "zh-CN" = "马绍尔群岛" }
-                { "tr" = "Marşal Adalari" }
-                { "ru" = "Маршалловы острова" }
-                { "uk" = "Маршаллові острови" }
-                { "pl" = "Wyspy Marshalla" }
+                ["ko"] = "마셜 제도",
+                ["pt-BR"] = "Ilhas Marshall",
+                ["pt"] = "Ilhas Marshall",
+                ["nl"] = "Marshalleilanden",
+                ["hr"] = "Maršalovi Otoci",
+                ["fa"] = "جزایر مارشال",
+                ["de"] = "Marshallinseln",
+                ["es"] = "Islas Marshall",
+                ["fr"] = "Îles Marshall",
+                ["ja"] = "マーシャル諸島",
+                ["it"] = "Isole Marshall",
+                ["zh-CN"] = "马绍尔群岛",
+                ["tr"] = "Marşal Adalari",
+                ["ru"] = "Маршалловы острова",
+                ["uk"] = "Маршаллові острови",
+                ["pl"] = "Wyspy Marshalla"
             },
             States = new()
             {

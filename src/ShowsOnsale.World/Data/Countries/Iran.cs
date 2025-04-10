@@ -38,21 +38,21 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "이란" },
-                { "pt-BR" = "Irã" }
-                { "pt" = "Irão" }
-                { "nl" = "Iran" }
-                { "hr" = "Iran" }
-                { "fa" = "ایران" }
-                { "de" = "Iran" }
-                { "es" = "Iran" }
-                { "fr" = "Iran" }
-                { "ja" = "イラン・イスラム共和国" }
-                { "zh-CN" = "伊朗" }
-                { "tr" = "İran" }
-                { "ru" = "Иран" }
-                { "uk" = "Іран" }
-                { "pl" = "Iran" }
+                ["ko"] = "이란",
+                ["pt-BR"] = "Irã",
+                ["pt"] = "Irão",
+                ["nl"] = "Iran",
+                ["hr"] = "Iran",
+                ["fa"] = "ایران",
+                ["de"] = "Iran",
+                ["es"] = "Iran",
+                ["fr"] = "Iran",
+                ["ja"] = "イラン・イスラム共和国",
+                ["zh-CN"] = "伊朗",
+                ["tr"] = "İran",
+                ["ru"] = "Иран",
+                ["uk"] = "Іран",
+                ["pl"] = "Iran"
             },
             States = new()
             {
@@ -242,7 +242,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 44, Name = "Taqanak", Latitude = "32.22333300", Longitude = "50.83861100" },
                         new() { Id = 45, Name = "Vardanjan ", Latitude = "32.47903740", Longitude = "50.75005520" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -322,7 +322,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 66, Name = "Zarnaq", Latitude = "38.09240870", Longitude = "47.07680230" },
                         new() { Id = 67, Name = "Zonouz", Latitude = "38.58949510", Longitude = "45.82614190" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -449,7 +449,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 113, Name = "Zarrin Dasht", Latitude = "28.30000000", Longitude = "54.46667000" },
                         new() { Id = 114, Name = "سروستان", Latitude = "29.27022530", Longitude = "53.20730190" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -516,7 +516,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 53, Name = "Vajargah", Latitude = "37.04083300", Longitude = "50.40861100" },
                         new() { Id = 54, Name = "Ziabar", Latitude = "37.42610000", Longitude = "49.24590000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -563,7 +563,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 33, Name = "Tatar Olia", Latitude = "37.11100750", Longitude = "55.04270560" },
                         new() { Id = 34, Name = "Torkaman", Latitude = "36.90000000", Longitude = "54.16667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1067,7 +1067,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 490, Name = "Zeraq", Latitude = "35.07140000", Longitude = "49.16940000" },
                         new() { Id = 491, Name = "Zirabiyeh", Latitude = "34.41330000", Longitude = "48.61690000" }
                     }
-                }
+                },
 
                 new()
                 {

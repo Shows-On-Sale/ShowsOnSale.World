@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "가나" },
-                { "pt-BR" = "Gana" }
-                { "pt" = "Gana" }
-                { "nl" = "Ghana" }
-                { "hr" = "Gana" }
-                { "fa" = "غنا" }
-                { "de" = "Ghana" }
-                { "es" = "Ghana" }
-                { "fr" = "Ghana" }
-                { "ja" = "ガーナ" }
-                { "it" = "Ghana" }
-                { "zh-CN" = "加纳" }
-                { "tr" = "Gana" }
-                { "ru" = "Гана" }
-                { "uk" = "Гана" }
-                { "pl" = "Ghana" }
+                ["ko"] = "가나",
+                ["pt-BR"] = "Gana",
+                ["pt"] = "Gana",
+                ["nl"] = "Ghana",
+                ["hr"] = "Gana",
+                ["fa"] = "غنا",
+                ["de"] = "Ghana",
+                ["es"] = "Ghana",
+                ["fr"] = "Ghana",
+                ["ja"] = "ガーナ",
+                ["it"] = "Ghana",
+                ["zh-CN"] = "加纳",
+                ["tr"] = "Gana",
+                ["ru"] = "Гана",
+                ["uk"] = "Гана",
+                ["pl"] = "Ghana"
             },
             States = new()
             {
@@ -96,7 +96,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Obuase", Latitude = "6.20228000", Longitude = "-1.66796000" },
                         new() { Id = 8, Name = "Tafo", Latitude = "6.73156000", Longitude = "-1.61370000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -121,7 +121,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 11, Name = "Tain", Latitude = "8.18114110", Longitude = "-2.86487620" },
                         new() { Id = 12, Name = "Wenchi", Latitude = "7.74059920", Longitude = "-2.12267880" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -145,7 +145,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Techiman", Latitude = "7.58968560", Longitude = "-1.95122140" },
                         new() { Id = 11, Name = "Techiman North", Latitude = "7.70428020", Longitude = "-2.08140570" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -168,7 +168,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Swedru", Latitude = "5.53711000", Longitude = "-0.69984000" },
                         new() { Id = 10, Name = "Winneba", Latitude = "5.35113000", Longitude = "-0.62313000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -193,7 +193,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 11, Name = "Nsawam", Latitude = "5.80893000", Longitude = "-0.35026000" },
                         new() { Id = 12, Name = "Suhum", Latitude = "6.04089000", Longitude = "-0.45004000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -214,7 +214,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Tema", Latitude = "5.66980000", Longitude = "-0.01657000" },
                         new() { Id = 8, Name = "Teshi Old Town", Latitude = "5.58365000", Longitude = "-0.10722000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -233,7 +233,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "West Mamprusi", Latitude = "10.29906060", Longitude = "-1.36750100" },
                         new() { Id = 6, Name = "Yunyoo-Nasuan", Latitude = "10.48400000", Longitude = "-0.00900000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -251,7 +251,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Tamale", Latitude = "9.40079000", Longitude = "-0.83930000" },
                         new() { Id = 5, Name = "Yendi", Latitude = "9.44272000", Longitude = "-0.00991000" }
                     }
-                }
+                },
 
                 new()
                 {

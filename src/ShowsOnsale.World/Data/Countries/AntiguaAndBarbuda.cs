@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "앤티가 바부다" },
-                { "pt-BR" = "Antígua e Barbuda" }
-                { "pt" = "Antígua e Barbuda" }
-                { "nl" = "Antigua en Barbuda" }
-                { "hr" = "Antigva i Barbuda" }
-                { "fa" = "آنتیگوا و باربودا" }
-                { "de" = "Antigua und Barbuda" }
-                { "es" = "Antigua y Barbuda" }
-                { "fr" = "Antigua-et-Barbuda" }
-                { "ja" = "アンティグア・バーブーダ" }
-                { "it" = "Antigua e Barbuda" }
-                { "zh-CN" = "安提瓜和巴布达" }
-                { "tr" = "Antigua Ve Barbuda" }
-                { "ru" = "Антигуа и Барбуда" }
-                { "uk" = "Антигуа і Барбуда" }
-                { "pl" = "Antigua i Barbuda" }
+                ["ko"] = "앤티가 바부다",
+                ["pt-BR"] = "Antígua e Barbuda",
+                ["pt"] = "Antígua e Barbuda",
+                ["nl"] = "Antigua en Barbuda",
+                ["hr"] = "Antigva i Barbuda",
+                ["fa"] = "آنتیگوا و باربودا",
+                ["de"] = "Antigua und Barbuda",
+                ["es"] = "Antigua y Barbuda",
+                ["fr"] = "Antigua-et-Barbuda",
+                ["ja"] = "アンティグア・バーブーダ",
+                ["it"] = "Antigua e Barbuda",
+                ["zh-CN"] = "安提瓜和巴布达",
+                ["tr"] = "Antigua Ve Barbuda",
+                ["ru"] = "Антигуа и Барбуда",
+                ["uk"] = "Антигуа і Барбуда",
+                ["pl"] = "Antigua i Barbuda"
             },
             States = new()
             {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "타지키스탄" },
-                { "pt-BR" = "Tajiquistão" }
-                { "pt" = "Tajiquistão" }
-                { "nl" = "Tadzjikistan" }
-                { "hr" = "Tađikistan" }
-                { "fa" = "تاجیکستان" }
-                { "de" = "Tadschikistan" }
-                { "es" = "Tayikistán" }
-                { "fr" = "Tadjikistan" }
-                { "ja" = "タジキスタン" }
-                { "it" = "Tagikistan" }
-                { "zh-CN" = "塔吉克斯坦" }
-                { "tr" = "Tacikistan" }
-                { "ru" = "Таджикистан" }
-                { "uk" = "Таджикистан" }
-                { "pl" = "Tadżykistan" }
+                ["ko"] = "타지키스탄",
+                ["pt-BR"] = "Tajiquistão",
+                ["pt"] = "Tajiquistão",
+                ["nl"] = "Tadzjikistan",
+                ["hr"] = "Tađikistan",
+                ["fa"] = "تاجیکستان",
+                ["de"] = "Tadschikistan",
+                ["es"] = "Tayikistán",
+                ["fr"] = "Tadjikistan",
+                ["ja"] = "タジキスタン",
+                ["it"] = "Tagikistan",
+                ["zh-CN"] = "塔吉克斯坦",
+                ["tr"] = "Tacikistan",
+                ["ru"] = "Таджикистан",
+                ["uk"] = "Таджикистан",
+                ["pl"] = "Tadżykistan"
             },
             States = new()
             {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "동티모르" },
-                { "pt-BR" = "Timor Leste" }
-                { "pt" = "Timor Leste" }
-                { "nl" = "Oost-Timor" }
-                { "hr" = "Istočni Timor" }
-                { "fa" = "تیمور شرقی" }
-                { "de" = "Timor-Leste" }
-                { "es" = "Timor Oriental" }
-                { "fr" = "Timor oriental" }
-                { "ja" = "東ティモール" }
-                { "it" = "Timor Est" }
-                { "zh-CN" = "东帝汶" }
-                { "tr" = "Doğu Timor" }
-                { "ru" = "Тимор-Лешти" }
-                { "uk" = "Тимор-Лешті" }
-                { "pl" = "Timor Wschodni" }
+                ["ko"] = "동티모르",
+                ["pt-BR"] = "Timor Leste",
+                ["pt"] = "Timor Leste",
+                ["nl"] = "Oost-Timor",
+                ["hr"] = "Istočni Timor",
+                ["fa"] = "تیمور شرقی",
+                ["de"] = "Timor-Leste",
+                ["es"] = "Timor Oriental",
+                ["fr"] = "Timor oriental",
+                ["ja"] = "東ティモール",
+                ["it"] = "Timor Est",
+                ["zh-CN"] = "东帝汶",
+                ["tr"] = "Doğu Timor",
+                ["ru"] = "Тимор-Лешти",
+                ["uk"] = "Тимор-Лешті",
+                ["pl"] = "Timor Wschodni"
             },
             States = new()
             {
@@ -87,7 +87,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Ainaro", Latitude = "-8.99241000", Longitude = "125.50816000" },
                         new() { Id = 2, Name = "Hato-Udo", Latitude = "-9.12036000", Longitude = "125.58935000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -107,7 +107,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Vemasse", Latitude = "-8.51036000", Longitude = "126.20823000" },
                         new() { Id = 7, Name = "Venilale", Latitude = "-8.64306000", Longitude = "126.37833000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -121,7 +121,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Maliana", Latitude = "-8.99167000", Longitude = "125.21972000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -139,7 +139,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Suai", Latitude = "-9.30000000", Longitude = "125.25000000" },
                         new() { Id = 5, Name = "Tilomar", Latitude = "-9.34182000", Longitude = "125.10887000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -156,7 +156,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Dili", Latitude = "-8.55861000", Longitude = "125.57361000" },
                         new() { Id = 4, Name = "Metinaro", Latitude = "-8.53007000", Longitude = "125.74163000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -174,7 +174,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Letefoho", Latitude = "-8.83444000", Longitude = "125.42639000" },
                         new() { Id = 5, Name = "Railaco", Latitude = "-8.67237000", Longitude = "125.42546000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -192,7 +192,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Luro", Latitude = "-8.54359000", Longitude = "126.83003000" },
                         new() { Id = 5, Name = "Tutuala", Latitude = "-8.39597000", Longitude = "127.25923000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -208,7 +208,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Likisá", Latitude = "-8.58750000", Longitude = "125.34194000" },
                         new() { Id = 3, Name = "Maubara", Latitude = "-8.61194000", Longitude = "125.20611000" }
                     }
-                }
+                },
 
                 new()
                 {

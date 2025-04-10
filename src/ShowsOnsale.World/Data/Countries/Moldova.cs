@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "몰도바" },
-                { "pt-BR" = "Moldávia" }
-                { "pt" = "Moldávia" }
-                { "nl" = "Moldavië" }
-                { "hr" = "Moldova" }
-                { "fa" = "مولداوی" }
-                { "de" = "Moldawie" }
-                { "es" = "Moldavia" }
-                { "fr" = "Moldavie" }
-                { "ja" = "モルドバ共和国" }
-                { "it" = "Moldavia" }
-                { "zh-CN" = "摩尔多瓦" }
-                { "tr" = "Moldova" }
-                { "ru" = "Молдова" }
-                { "uk" = "Молдова" }
-                { "pl" = "Mołdawia" }
+                ["ko"] = "몰도바",
+                ["pt-BR"] = "Moldávia",
+                ["pt"] = "Moldávia",
+                ["nl"] = "Moldavië",
+                ["hr"] = "Moldova",
+                ["fa"] = "مولداوی",
+                ["de"] = "Moldawie",
+                ["es"] = "Moldavia",
+                ["fr"] = "Moldavie",
+                ["ja"] = "モルドバ共和国",
+                ["it"] = "Moldavia",
+                ["zh-CN"] = "摩尔多瓦",
+                ["tr"] = "Moldova",
+                ["ru"] = "Молдова",
+                ["uk"] = "Молдова",
+                ["pl"] = "Mołdawia"
             },
             States = new()
             {
@@ -113,7 +113,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bender", Latitude = "46.83156000", Longitude = "29.47769000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -127,7 +127,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Briceni", Latitude = "48.36289000", Longitude = "27.07787000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -142,7 +142,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Cahul", Latitude = "45.90425000", Longitude = "28.19929000" },
                         new() { Id = 2, Name = "Giurgiuleşti", Latitude = "45.48167000", Longitude = "28.19722000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -156,7 +156,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Călăraşi", Latitude = "47.25560000", Longitude = "28.30987000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -172,7 +172,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Iargara", Latitude = "46.42520000", Longitude = "28.42676000" },
                         new() { Id = 3, Name = "Vişniovca", Latitude = "46.33260000", Longitude = "28.44797000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -187,7 +187,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Căuşeni", Latitude = "46.63674000", Longitude = "29.41114000" },
                         new() { Id = 2, Name = "Chiţcani", Latitude = "46.78296000", Longitude = "29.61682000" }
                     }
-                }
+                },
 
                 new()
                 {

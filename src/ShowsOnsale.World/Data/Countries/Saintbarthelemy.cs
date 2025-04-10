@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "생바르텔레미" },
-                { "pt-BR" = "São Bartolomeu" }
-                { "pt" = "São Bartolomeu" }
-                { "nl" = "Saint Barthélemy" }
-                { "hr" = "Saint Barthélemy" }
-                { "fa" = "سن-بارتلمی" }
-                { "de" = "Saint-Barthélemy" }
-                { "es" = "San Bartolomé" }
-                { "fr" = "Saint-Barthélemy" }
-                { "ja" = "サン・バルテルミー" }
-                { "it" = "Antille Francesi" }
-                { "zh-CN" = "圣巴泰勒米" }
-                { "tr" = "Saint Barthélemy" }
-                { "ru" = "Сен-Бартелеми" }
-                { "uk" = "Сен-Бартелемі" }
-                { "pl" = "Saint-Barthelemy" }
+                ["ko"] = "생바르텔레미",
+                ["pt-BR"] = "São Bartolomeu",
+                ["pt"] = "São Bartolomeu",
+                ["nl"] = "Saint Barthélemy",
+                ["hr"] = "Saint Barthélemy",
+                ["fa"] = "سن-بارتلمی",
+                ["de"] = "Saint-Barthélemy",
+                ["es"] = "San Bartolomé",
+                ["fr"] = "Saint-Barthélemy",
+                ["ja"] = "サン・バルテルミー",
+                ["it"] = "Antille Francesi",
+                ["zh-CN"] = "圣巴泰勒米",
+                ["tr"] = "Saint Barthélemy",
+                ["ru"] = "Сен-Бартелеми",
+                ["uk"] = "Сен-Бартелемі",
+                ["pl"] = "Saint-Barthelemy"
             },
             States = new()
             {

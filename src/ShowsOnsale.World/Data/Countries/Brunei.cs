@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "브루나이" },
-                { "pt-BR" = "Brunei" }
-                { "pt" = "Brunei" }
-                { "nl" = "Brunei" }
-                { "hr" = "Brunej" }
-                { "fa" = "برونئی" }
-                { "de" = "Brunei" }
-                { "es" = "Brunei" }
-                { "fr" = "Brunei" }
-                { "ja" = "ブルネイ・ダルサラーム" }
-                { "it" = "Brunei" }
-                { "zh-CN" = "文莱" }
-                { "tr" = "Brunei" }
-                { "ru" = "Бруней" }
-                { "uk" = "Бруней" }
-                { "pl" = "Brunei" }
+                ["ko"] = "브루나이",
+                ["pt-BR"] = "Brunei",
+                ["pt"] = "Brunei",
+                ["nl"] = "Brunei",
+                ["hr"] = "Brunej",
+                ["fa"] = "برونئی",
+                ["de"] = "Brunei",
+                ["es"] = "Brunei",
+                ["fr"] = "Brunei",
+                ["ja"] = "ブルネイ・ダルサラーム",
+                ["it"] = "Brunei",
+                ["zh-CN"] = "文莱",
+                ["tr"] = "Brunei",
+                ["ru"] = "Бруней",
+                ["uk"] = "Бруней",
+                ["pl"] = "Brunei"
             },
             States = new()
             {

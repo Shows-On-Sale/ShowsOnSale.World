@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "몬테네그로" },
-                { "pt-BR" = "Montenegro" }
-                { "pt" = "Montenegro" }
-                { "nl" = "Montenegro" }
-                { "hr" = "Crna Gora" }
-                { "fa" = "مونته‌نگرو" }
-                { "de" = "Montenegro" }
-                { "es" = "Montenegro" }
-                { "fr" = "Monténégro" }
-                { "ja" = "モンテネグロ" }
-                { "it" = "Montenegro" }
-                { "zh-CN" = "黑山" }
-                { "tr" = "Karadağ" }
-                { "ru" = "Черногория" }
-                { "uk" = "Чорногорія" }
-                { "pl" = "Czarnogóra" }
+                ["ko"] = "몬테네그로",
+                ["pt-BR"] = "Montenegro",
+                ["pt"] = "Montenegro",
+                ["nl"] = "Montenegro",
+                ["hr"] = "Crna Gora",
+                ["fa"] = "مونته‌نگرو",
+                ["de"] = "Montenegro",
+                ["es"] = "Montenegro",
+                ["fr"] = "Monténégro",
+                ["ja"] = "モンテネグロ",
+                ["it"] = "Montenegro",
+                ["zh-CN"] = "黑山",
+                ["tr"] = "Karadağ",
+                ["ru"] = "Черногория",
+                ["uk"] = "Чорногорія",
+                ["pl"] = "Czarnogóra"
             },
             States = new()
             {
@@ -101,7 +101,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Berane", Latitude = "42.84250000", Longitude = "19.87333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -115,7 +115,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bijelo Polje", Latitude = "43.03834000", Longitude = "19.74758000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -130,7 +130,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Budva", Latitude = "42.28639000", Longitude = "18.84000000" },
                         new() { Id = 2, Name = "Petrovac na Moru", Latitude = "42.20556000", Longitude = "18.94250000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -145,7 +145,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Danilovgrad", Latitude = "42.55384000", Longitude = "19.14608000" },
                         new() { Id = 2, Name = "Spuž", Latitude = "42.51500000", Longitude = "19.19500000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -159,7 +159,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Gusinje", Latitude = "42.56194000", Longitude = "19.83389000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -173,7 +173,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kolašin", Latitude = "42.82229000", Longitude = "19.51653000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -190,7 +190,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Prčanj", Latitude = "42.45750000", Longitude = "18.74222000" },
                         new() { Id = 4, Name = "Risan", Latitude = "42.51500000", Longitude = "18.69556000" }
                     }
-                }
+                },
 
                 new()
                 {

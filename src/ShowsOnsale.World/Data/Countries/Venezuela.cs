@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "베네수엘라" },
-                { "pt-BR" = "Venezuela" }
-                { "pt" = "Venezuela" }
-                { "nl" = "Venezuela" }
-                { "hr" = "Venezuela" }
-                { "fa" = "ونزوئلا" }
-                { "de" = "Venezuela" }
-                { "es" = "Venezuela" }
-                { "fr" = "Venezuela" }
-                { "ja" = "ベネズエラ・ボリバル共和国" }
-                { "it" = "Venezuela" }
-                { "zh-CN" = "委内瑞拉" }
-                { "tr" = "Venezuela" }
-                { "ru" = "Венесуэла" }
-                { "uk" = "Венесуела" }
-                { "pl" = "Wenezuela" }
+                ["ko"] = "베네수엘라",
+                ["pt-BR"] = "Venezuela",
+                ["pt"] = "Venezuela",
+                ["nl"] = "Venezuela",
+                ["hr"] = "Venezuela",
+                ["fa"] = "ونزوئلا",
+                ["de"] = "Venezuela",
+                ["es"] = "Venezuela",
+                ["fr"] = "Venezuela",
+                ["ja"] = "ベネズエラ・ボリバル共和国",
+                ["it"] = "Venezuela",
+                ["zh-CN"] = "委内瑞拉",
+                ["tr"] = "Venezuela",
+                ["ru"] = "Венесуэла",
+                ["uk"] = "Венесуела",
+                ["pl"] = "Wenezuela"
             },
             States = new()
             {
@@ -112,7 +112,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "San Fernando de Apure", Latitude = "7.87266930", Longitude = "-67.48193280" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -135,7 +135,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Turmero", Latitude = "10.22856000", Longitude = "-67.47421000" },
                         new() { Id = 10, Name = "Villa de Cura", Latitude = "10.03863000", Longitude = "-67.48938000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -152,7 +152,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Barinitas", Latitude = "8.76171000", Longitude = "-70.41199000" },
                         new() { Id = 4, Name = "Municipio Barinas", Latitude = "8.61497000", Longitude = "-70.19852000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -170,7 +170,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Santa Elena de Uairén", Latitude = "4.60226000", Longitude = "-61.11025000" },
                         new() { Id = 5, Name = "Upata", Latitude = "8.01620000", Longitude = "-62.40561000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -193,7 +193,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Tocuyito", Latitude = "10.11347000", Longitude = "-68.06783000" },
                         new() { Id = 10, Name = "Valencia", Latitude = "10.16202000", Longitude = "-68.00765000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -208,7 +208,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "San Carlos", Latitude = "9.66124000", Longitude = "-68.58268000" },
                         new() { Id = 2, Name = "Tinaquillo", Latitude = "9.91861000", Longitude = "-68.30472000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -222,7 +222,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Tucupita", Latitude = "9.05806000", Longitude = "-62.05000000" }
                     }
-                }
+                },
 
                 new()
                 {

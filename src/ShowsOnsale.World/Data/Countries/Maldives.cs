@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "몰디브" },
-                { "pt-BR" = "Maldivas" }
-                { "pt" = "Maldivas" }
-                { "nl" = "Maldiven" }
-                { "hr" = "Maldivi" }
-                { "fa" = "مالدیو" }
-                { "de" = "Malediven" }
-                { "es" = "Maldivas" }
-                { "fr" = "Maldives" }
-                { "ja" = "モルディブ" }
-                { "it" = "Maldive" }
-                { "zh-CN" = "马尔代夫" }
-                { "tr" = "Maldivler" }
-                { "ru" = "Мальдивы" }
-                { "uk" = "Мальдіви" }
-                { "pl" = "Malediwy" }
+                ["ko"] = "몰디브",
+                ["pt-BR"] = "Maldivas",
+                ["pt"] = "Maldivas",
+                ["nl"] = "Maldiven",
+                ["hr"] = "Maldivi",
+                ["fa"] = "مالدیو",
+                ["de"] = "Malediven",
+                ["es"] = "Maldivas",
+                ["fr"] = "Maldives",
+                ["ja"] = "モルディブ",
+                ["it"] = "Maldive",
+                ["zh-CN"] = "马尔代夫",
+                ["tr"] = "Maldivler",
+                ["ru"] = "Мальдивы",
+                ["uk"] = "Мальдіви",
+                ["pl"] = "Malediwy"
             },
             States = new()
             {
@@ -97,7 +97,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -110,7 +110,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -124,7 +124,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kudahuvadhoo", Latitude = "2.67075000", Longitude = "72.89437000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -137,7 +137,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -151,7 +151,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Viligili", Latitude = "0.75906000", Longitude = "73.43296000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -165,7 +165,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Thinadhoo", Latitude = "0.53060000", Longitude = "72.99969000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -179,7 +179,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Fuvahmulah", Latitude = "-0.29878000", Longitude = "73.42403000" }
                     }
-                }
+                },
 
                 new()
                 {

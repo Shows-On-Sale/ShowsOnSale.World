@@ -41,22 +41,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "그린란드" },
-                { "pt-BR" = "Groelândia" }
-                { "pt" = "Gronelândia" }
-                { "nl" = "Groenland" }
-                { "hr" = "Grenland" }
-                { "fa" = "گرینلند" }
-                { "de" = "Grönland" }
-                { "es" = "Groenlandia" }
-                { "fr" = "Groenland" }
-                { "ja" = "グリーンランド" }
-                { "it" = "Groenlandia" }
-                { "zh-CN" = "格陵兰岛" }
-                { "tr" = "Grönland" }
-                { "ru" = "Гренландия" }
-                { "uk" = "Гренландія" }
-                { "pl" = "Grenlandia" }
+                ["ko"] = "그린란드",
+                ["pt-BR"] = "Groelândia",
+                ["pt"] = "Gronelândia",
+                ["nl"] = "Groenland",
+                ["hr"] = "Grenland",
+                ["fa"] = "گرینلند",
+                ["de"] = "Grönland",
+                ["es"] = "Groenlandia",
+                ["fr"] = "Groenland",
+                ["ja"] = "グリーンランド",
+                ["it"] = "Groenlandia",
+                ["zh-CN"] = "格陵兰岛",
+                ["tr"] = "Grönland",
+                ["ru"] = "Гренландия",
+                ["uk"] = "Гренландія",
+                ["pl"] = "Grenlandia"
             },
             States = new()
             {

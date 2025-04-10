@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "에리트레아" },
-                { "pt-BR" = "Eritreia" }
-                { "pt" = "Eritreia" }
-                { "nl" = "Eritrea" }
-                { "hr" = "Eritreja" }
-                { "fa" = "اریتره" }
-                { "de" = "Eritrea" }
-                { "es" = "Eritrea" }
-                { "fr" = "Érythrée" }
-                { "ja" = "エリトリア" }
-                { "it" = "Eritrea" }
-                { "zh-CN" = "厄立特里亚" }
-                { "tr" = "Eritre" }
-                { "ru" = "Эритрея" }
-                { "uk" = "Еритрея" }
-                { "pl" = "Erytrea" }
+                ["ko"] = "에리트레아",
+                ["pt-BR"] = "Eritreia",
+                ["pt"] = "Eritreia",
+                ["nl"] = "Eritrea",
+                ["hr"] = "Eritreja",
+                ["fa"] = "اریتره",
+                ["de"] = "Eritrea",
+                ["es"] = "Eritrea",
+                ["fr"] = "Érythrée",
+                ["ja"] = "エリトリア",
+                ["it"] = "Eritrea",
+                ["zh-CN"] = "厄立特里亚",
+                ["tr"] = "Eritre",
+                ["ru"] = "Эритрея",
+                ["uk"] = "Еритрея",
+                ["pl"] = "Erytrea"
             },
             States = new()
             {

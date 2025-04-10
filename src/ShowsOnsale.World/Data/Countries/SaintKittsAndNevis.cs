@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "세인트키츠 네비스" },
-                { "pt-BR" = "São Cristóvão e Neves" }
-                { "pt" = "São Cristóvão e Neves" }
-                { "nl" = "Saint Kitts en Nevis" }
-                { "hr" = "Sveti Kristof i Nevis" }
-                { "fa" = "سنت کیتس و نویس" }
-                { "de" = "St. Kitts und Nevis" }
-                { "es" = "San Cristóbal y Nieves" }
-                { "fr" = "Saint-Christophe-et-Niévès" }
-                { "ja" = "セントクリストファー・ネイビス" }
-                { "it" = "Saint Kitts e Nevis" }
-                { "zh-CN" = "圣基茨和尼维斯" }
-                { "tr" = "Saint Kitts Ve Nevis" }
-                { "ru" = "Сент-Китс и Невис" }
-                { "uk" = "Сент-Кітс і Невіс" }
-                { "pl" = "Saint Kitts i Nevis" }
+                ["ko"] = "세인트키츠 네비스",
+                ["pt-BR"] = "São Cristóvão e Neves",
+                ["pt"] = "São Cristóvão e Neves",
+                ["nl"] = "Saint Kitts en Nevis",
+                ["hr"] = "Sveti Kristof i Nevis",
+                ["fa"] = "سنت کیتس و نویس",
+                ["de"] = "St. Kitts und Nevis",
+                ["es"] = "San Cristóbal y Nieves",
+                ["fr"] = "Saint-Christophe-et-Niévès",
+                ["ja"] = "セントクリストファー・ネイビス",
+                ["it"] = "Saint Kitts e Nevis",
+                ["zh-CN"] = "圣基茨和尼维斯",
+                ["tr"] = "Saint Kitts Ve Nevis",
+                ["ru"] = "Сент-Китс и Невис",
+                ["uk"] = "Сент-Кітс і Невіс",
+                ["pl"] = "Saint Kitts i Nevis"
             },
             States = new()
             {
@@ -83,7 +83,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -97,7 +97,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Sandy Point Town", Latitude = "17.35908000", Longitude = "-62.84858000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -110,7 +110,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -124,7 +124,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Market Shop", Latitude = "17.13218000", Longitude = "-62.57267000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -138,7 +138,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Newcastle", Latitude = "17.20000000", Longitude = "-62.58333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -152,7 +152,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Dieppe Bay Town", Latitude = "17.41473000", Longitude = "-62.81390000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -166,7 +166,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Fig Tree", Latitude = "17.12623000", Longitude = "-62.60265000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -179,7 +179,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

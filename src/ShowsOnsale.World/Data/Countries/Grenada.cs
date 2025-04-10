@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "그레나다" },
-                { "pt-BR" = "Granada" }
-                { "pt" = "Granada" }
-                { "nl" = "Grenada" }
-                { "hr" = "Grenada" }
-                { "fa" = "گرنادا" }
-                { "de" = "Grenada" }
-                { "es" = "Grenada" }
-                { "fr" = "Grenade" }
-                { "ja" = "グレナダ" }
-                { "it" = "Grenada" }
-                { "zh-CN" = "格林纳达" }
-                { "tr" = "Grenada" }
-                { "ru" = "Гренада" }
-                { "uk" = "Гренада" }
-                { "pl" = "Grenada" }
+                ["ko"] = "그레나다",
+                ["pt-BR"] = "Granada",
+                ["pt"] = "Granada",
+                ["nl"] = "Grenada",
+                ["hr"] = "Grenada",
+                ["fa"] = "گرنادا",
+                ["de"] = "Grenada",
+                ["es"] = "Grenada",
+                ["fr"] = "Grenade",
+                ["ja"] = "グレナダ",
+                ["it"] = "Grenada",
+                ["zh-CN"] = "格林纳达",
+                ["tr"] = "Grenada",
+                ["ru"] = "Гренада",
+                ["uk"] = "Гренада",
+                ["pl"] = "Grenada"
             },
             States = new()
             {

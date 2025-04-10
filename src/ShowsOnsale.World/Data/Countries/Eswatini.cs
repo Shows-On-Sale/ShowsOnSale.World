@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "에스와티니" },
-                { "pt-BR" = "Suazilândia" }
-                { "pt" = "Suazilândia" }
-                { "nl" = "Swaziland" }
-                { "hr" = "Svazi" }
-                { "fa" = "سوازیلند" }
-                { "de" = "Swasiland" }
-                { "es" = "Suazilandia" }
-                { "fr" = "Swaziland" }
-                { "ja" = "スワジランド" }
-                { "it" = "Swaziland" }
-                { "zh-CN" = "斯威士兰" }
-                { "tr" = "Esvatini" }
-                { "ru" = "Эсватини" }
-                { "uk" = "Есватіні" }
-                { "pl" = "Eswatini" }
+                ["ko"] = "에스와티니",
+                ["pt-BR"] = "Suazilândia",
+                ["pt"] = "Suazilândia",
+                ["nl"] = "Swaziland",
+                ["hr"] = "Svazi",
+                ["fa"] = "سوازیلند",
+                ["de"] = "Swasiland",
+                ["es"] = "Suazilandia",
+                ["fr"] = "Swaziland",
+                ["ja"] = "スワジランド",
+                ["it"] = "Swaziland",
+                ["zh-CN"] = "斯威士兰",
+                ["tr"] = "Esvatini",
+                ["ru"] = "Эсватини",
+                ["uk"] = "Есватіні",
+                ["pl"] = "Eswatini"
             },
             States = new()
             {

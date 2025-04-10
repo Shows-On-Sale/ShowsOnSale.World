@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "튀니지" },
-                { "pt-BR" = "Tunísia" }
-                { "pt" = "Tunísia" }
-                { "nl" = "Tunesië" }
-                { "hr" = "Tunis" }
-                { "fa" = "تونس" }
-                { "de" = "Tunesien" }
-                { "es" = "Túnez" }
-                { "fr" = "Tunisie" }
-                { "ja" = "チュニジア" }
-                { "it" = "Tunisia" }
-                { "zh-CN" = "突尼斯" }
-                { "tr" = "Tunus" }
-                { "ru" = "Тунис" }
-                { "uk" = "Туніс" }
-                { "pl" = "Tunezja" }
+                ["ko"] = "튀니지",
+                ["pt-BR"] = "Tunísia",
+                ["pt"] = "Tunísia",
+                ["nl"] = "Tunesië",
+                ["hr"] = "Tunis",
+                ["fa"] = "تونس",
+                ["de"] = "Tunesien",
+                ["es"] = "Túnez",
+                ["fr"] = "Tunisie",
+                ["ja"] = "チュニジア",
+                ["it"] = "Tunisia",
+                ["zh-CN"] = "突尼斯",
+                ["tr"] = "Tunus",
+                ["ru"] = "Тунис",
+                ["uk"] = "Туніс",
+                ["pl"] = "Tunezja"
             },
             States = new()
             {
@@ -116,7 +116,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Mornaguia", Latitude = "36.72140000", Longitude = "10.04940000" },
                         new() { Id = 5, Name = "Radès", Latitude = "36.76946000", Longitude = "10.27468000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -142,7 +142,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "Sejenane", Latitude = "37.05722000", Longitude = "9.23806000" },
                         new() { Id = 13, Name = "Zahānah", Latitude = "37.03959000", Longitude = "10.03876000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -159,7 +159,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Gabès", Latitude = "33.88146000", Longitude = "10.09820000" },
                         new() { Id = 4, Name = "Matmata", Latitude = "33.54445000", Longitude = "9.97157000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -177,7 +177,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Metlaoui", Latitude = "34.32081000", Longitude = "8.40157000" },
                         new() { Id = 5, Name = "Mu‘tamadīyat ar Rudayyif", Latitude = "34.40081000", Longitude = "8.17057000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -194,7 +194,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Oued Meliz", Latitude = "36.46813000", Longitude = "8.54951000" },
                         new() { Id = 4, Name = "Tabarka", Latitude = "36.95442000", Longitude = "8.75801000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -210,7 +210,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Kairouan", Latitude = "35.67810000", Longitude = "10.09633000" },
                         new() { Id = 3, Name = "Sbikha", Latitude = "35.93325000", Longitude = "10.02081000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -227,7 +227,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Sbiba", Latitude = "35.54332000", Longitude = "9.07370000" },
                         new() { Id = 4, Name = "Thala", Latitude = "35.57244000", Longitude = "8.67031000" }
                     }
-                }
+                },
 
                 new()
                 {

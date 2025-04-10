@@ -35,34 +35,34 @@ namespace ShowsOnSale.World.Data.Countries
             Timezones = new()
             {
                 new() { ZoneName = "Antarctica/Casey", GmtOffset = 39600, GmtOffsetName = "UTC+11:00", Abbreviation = "AWST", TzName = "Australian Western Standard Time" },
-                new() { ZoneName = "Antarctica/Davis", GmtOffset = 25200, GmtOffsetName = "UTC+07:00", Abbreviation = "DAVT", TzName = "Davis Time" }
-                new() { ZoneName = "Antarctica/DumontDUrville", GmtOffset = 36000, GmtOffsetName = "UTC+10:00", Abbreviation = "DDUT", TzName = "Dumont d'Urville Time" }
-                new() { ZoneName = "Antarctica/Mawson", GmtOffset = 18000, GmtOffsetName = "UTC+05:00", Abbreviation = "MAWT", TzName = "Mawson Station Time" }
-                new() { ZoneName = "Antarctica/McMurdo", GmtOffset = 46800, GmtOffsetName = "UTC+13:00", Abbreviation = "NZDT", TzName = "New Zealand Daylight Time" }
-                new() { ZoneName = "Antarctica/Palmer", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "CLST", TzName = "Chile Summer Time" }
-                new() { ZoneName = "Antarctica/Rothera", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ROTT", TzName = "Rothera Research Station Time" }
-                new() { ZoneName = "Antarctica/Syowa", GmtOffset = 10800, GmtOffsetName = "UTC+03:00", Abbreviation = "SYOT", TzName = "Showa Station Time" }
-                new() { ZoneName = "Antarctica/Troll", GmtOffset = 0, GmtOffsetName = "UTC±00", Abbreviation = "GMT", TzName = "Greenwich Mean Time" }
+                new() { ZoneName = "Antarctica/Davis", GmtOffset = 25200, GmtOffsetName = "UTC+07:00", Abbreviation = "DAVT", TzName = "Davis Time" },
+                new() { ZoneName = "Antarctica/DumontDUrville", GmtOffset = 36000, GmtOffsetName = "UTC+10:00", Abbreviation = "DDUT", TzName = "Dumont d'Urville Time" },
+                new() { ZoneName = "Antarctica/Mawson", GmtOffset = 18000, GmtOffsetName = "UTC+05:00", Abbreviation = "MAWT", TzName = "Mawson Station Time" },
+                new() { ZoneName = "Antarctica/McMurdo", GmtOffset = 46800, GmtOffsetName = "UTC+13:00", Abbreviation = "NZDT", TzName = "New Zealand Daylight Time" },
+                new() { ZoneName = "Antarctica/Palmer", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "CLST", TzName = "Chile Summer Time" },
+                new() { ZoneName = "Antarctica/Rothera", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ROTT", TzName = "Rothera Research Station Time" },
+                new() { ZoneName = "Antarctica/Syowa", GmtOffset = 10800, GmtOffsetName = "UTC+03:00", Abbreviation = "SYOT", TzName = "Showa Station Time" },
+                new() { ZoneName = "Antarctica/Troll", GmtOffset = 0, GmtOffsetName = "UTC±00", Abbreviation = "GMT", TzName = "Greenwich Mean Time" },
                 new() { ZoneName = "Antarctica/Vostok", GmtOffset = 21600, GmtOffsetName = "UTC+06:00", Abbreviation = "VOST", TzName = "Vostok Station Time" }
             },
             Translations = new()
             {
-                { "ko" = "남극" },
-                { "pt-BR" = "Antártida" }
-                { "pt" = "Antárctida" }
-                { "nl" = "Antarctica" }
-                { "hr" = "Antarktika" }
-                { "fa" = "جنوبگان" }
-                { "de" = "Antarktika" }
-                { "es" = "Antártida" }
-                { "fr" = "Antarctique" }
-                { "ja" = "南極大陸" }
-                { "it" = "Antartide" }
-                { "zh-CN" = "南极洲" }
-                { "tr" = "Antartika" }
-                { "ru" = "Антарктида" }
-                { "uk" = "Антарктида" }
-                { "pl" = "Antarktyda" }
+                ["ko"] = "남극",
+                ["pt-BR"] = "Antártida",
+                ["pt"] = "Antárctida",
+                ["nl"] = "Antarctica",
+                ["hr"] = "Antarktika",
+                ["fa"] = "جنوبگان",
+                ["de"] = "Antarktika",
+                ["es"] = "Antártida",
+                ["fr"] = "Antarctique",
+                ["ja"] = "南極大陸",
+                ["it"] = "Antartide",
+                ["zh-CN"] = "南极洲",
+                ["tr"] = "Antartika",
+                ["ru"] = "Антарктида",
+                ["uk"] = "Антарктида",
+                ["pl"] = "Antarktyda"
             },
             States = new()
             {

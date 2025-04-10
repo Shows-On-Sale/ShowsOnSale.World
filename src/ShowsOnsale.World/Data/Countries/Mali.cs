@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "말리" },
-                { "pt-BR" = "Mali" }
-                { "pt" = "Mali" }
-                { "nl" = "Mali" }
-                { "hr" = "Mali" }
-                { "fa" = "مالی" }
-                { "de" = "Mali" }
-                { "es" = "Mali" }
-                { "fr" = "Mali" }
-                { "ja" = "マリ" }
-                { "it" = "Mali" }
-                { "zh-CN" = "马里" }
-                { "tr" = "Mali" }
-                { "ru" = "Мали" }
-                { "uk" = "Малі" }
-                { "pl" = "Mali" }
+                ["ko"] = "말리",
+                ["pt-BR"] = "Mali",
+                ["pt"] = "Mali",
+                ["nl"] = "Mali",
+                ["hr"] = "Mali",
+                ["fa"] = "مالی",
+                ["de"] = "Mali",
+                ["es"] = "Mali",
+                ["fr"] = "Mali",
+                ["ja"] = "マリ",
+                ["it"] = "Mali",
+                ["zh-CN"] = "马里",
+                ["tr"] = "Mali",
+                ["ru"] = "Мали",
+                ["uk"] = "Малі",
+                ["pl"] = "Mali"
             },
             States = new()
             {
@@ -88,7 +88,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Gao Cercle", Latitude = "16.72237000", Longitude = "0.43984000" },
                         new() { Id = 5, Name = "Inékar", Latitude = "15.95944000", Longitude = "3.14111000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -106,7 +106,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Kokofata", Latitude = "12.88333000", Longitude = "-9.95000000" },
                         new() { Id = 5, Name = "Sagalo", Latitude = "12.20000000", Longitude = "-10.70000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -122,7 +122,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Cercle d’Abeïbara", Latitude = "19.48878000", Longitude = "2.20025000" },
                         new() { Id = 3, Name = "Kidal", Latitude = "18.44111000", Longitude = "1.40778000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -140,7 +140,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Kolokani", Latitude = "13.57280000", Longitude = "-8.03390000" },
                         new() { Id = 5, Name = "Koulikoro", Latitude = "12.86273000", Longitude = "-7.55985000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -153,7 +153,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -172,7 +172,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Mopti", Latitude = "14.48430000", Longitude = "-4.18296000" },
                         new() { Id = 6, Name = "Ténenkou", Latitude = "14.45722000", Longitude = "-4.91690000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -193,7 +193,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Ségou", Latitude = "13.43170000", Longitude = "-6.21570000" },
                         new() { Id = 8, Name = "Sokolo", Latitude = "14.73280000", Longitude = "-6.12190000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -213,7 +213,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Sikasso", Latitude = "11.31755000", Longitude = "-5.66654000" },
                         new() { Id = 7, Name = "Yorosso", Latitude = "12.35811000", Longitude = "-4.77688000" }
                     }
-                }
+                },
 
                 new()
                 {

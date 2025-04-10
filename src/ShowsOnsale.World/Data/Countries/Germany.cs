@@ -39,22 +39,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "독일" },
-                { "pt-BR" = "Alemanha" }
-                { "pt" = "Alemanha" }
-                { "nl" = "Duitsland" }
-                { "hr" = "Njemačka" }
-                { "fa" = "آلمان" }
-                { "de" = "Deutschland" }
-                { "es" = "Alemania" }
-                { "fr" = "Allemagne" }
-                { "ja" = "ドイツ" }
-                { "it" = "Germania" }
-                { "zh-CN" = "德国" }
-                { "tr" = "Almanya" }
-                { "ru" = "Германия" }
-                { "uk" = "Німеччина" }
-                { "pl" = "Niemcy" }
+                ["ko"] = "독일",
+                ["pt-BR"] = "Alemanha",
+                ["pt"] = "Alemanha",
+                ["nl"] = "Duitsland",
+                ["hr"] = "Njemačka",
+                ["fa"] = "آلمان",
+                ["de"] = "Deutschland",
+                ["es"] = "Alemania",
+                ["fr"] = "Allemagne",
+                ["ja"] = "ドイツ",
+                ["it"] = "Germania",
+                ["zh-CN"] = "德国",
+                ["tr"] = "Almanya",
+                ["ru"] = "Германия",
+                ["uk"] = "Німеччина",
+                ["pl"] = "Niemcy"
             },
             States = new()
             {
@@ -2785,7 +2785,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1756, Name = "Zusmarshausen", Latitude = "48.40014000", Longitude = "10.59917000" },
                         new() { Id = 1757, Name = "Zwiesel", Latitude = "49.01693000", Longitude = "13.23765000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -2895,7 +2895,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 96, Name = "Wittenau", Latitude = "52.59319000", Longitude = "13.32127000" },
                         new() { Id = 97, Name = "Zehlendorf", Latitude = "52.43333000", Longitude = "13.25000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -3125,7 +3125,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 216, Name = "Ziltendorf", Latitude = "52.20608000", Longitude = "14.62411000" },
                         new() { Id = 217, Name = "Zossen", Latitude = "52.21600000", Longitude = "13.44909000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -3142,7 +3142,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Burglesum", Latitude = "53.16532000", Longitude = "8.68873000" },
                         new() { Id = 4, Name = "Vegesack", Latitude = "53.16667000", Longitude = "8.61667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -3192,7 +3192,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 36, Name = "Winterhude", Latitude = "53.60000000", Longitude = "10.00000000" },
                         new() { Id = 37, Name = "Wohldorf-Ohlstedt", Latitude = "53.69282000", Longitude = "10.13117000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -3552,7 +3552,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 346, Name = "Zierenberg", Latitude = "51.36948000", Longitude = "9.30164000" },
                         new() { Id = 347, Name = "Zwingenberg", Latitude = "49.72389000", Longitude = "8.61084000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -4316,7 +4316,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 750, Name = "Zeven", Latitude = "53.29657000", Longitude = "9.27685000" },
                         new() { Id = 751, Name = "Zorge", Latitude = "51.63333000", Longitude = "10.63333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -4582,7 +4582,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 252, Name = "Zurow", Latitude = "53.86429000", Longitude = "11.61434000" },
                         new() { Id = 253, Name = "Züssow", Latitude = "53.97709000", Longitude = "13.54855000" }
                     }
-                }
+                },
 
                 new()
                 {

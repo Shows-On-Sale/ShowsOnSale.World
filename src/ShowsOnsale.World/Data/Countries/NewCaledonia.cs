@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "누벨칼레도니" },
-                { "pt-BR" = "Nova Caledônia" }
-                { "pt" = "Nova Caledónia" }
-                { "nl" = "Nieuw-Caledonië" }
-                { "hr" = "Nova Kaledonija" }
-                { "fa" = "کالدونیای جدید" }
-                { "de" = "Neukaledonien" }
-                { "es" = "Nueva Caledonia" }
-                { "fr" = "Nouvelle-Calédonie" }
-                { "ja" = "ニューカレドニア" }
-                { "it" = "Nuova Caledonia" }
-                { "zh-CN" = "新喀里多尼亚" }
-                { "tr" = "Yeni Kaledonya" }
-                { "ru" = "Новая Каледония" }
-                { "uk" = "Нова Каледонія" }
-                { "pl" = "Nowa Kaledonia" }
+                ["ko"] = "누벨칼레도니",
+                ["pt-BR"] = "Nova Caledônia",
+                ["pt"] = "Nova Caledónia",
+                ["nl"] = "Nieuw-Caledonië",
+                ["hr"] = "Nova Kaledonija",
+                ["fa"] = "کالدونیای جدید",
+                ["de"] = "Neukaledonien",
+                ["es"] = "Nueva Caledonia",
+                ["fr"] = "Nouvelle-Calédonie",
+                ["ja"] = "ニューカレドニア",
+                ["it"] = "Nuova Caledonia",
+                ["zh-CN"] = "新喀里多尼亚",
+                ["tr"] = "Yeni Kaledonya",
+                ["ru"] = "Новая Каледония",
+                ["uk"] = "Нова Каледонія",
+                ["pl"] = "Nowa Kaledonia"
             },
             States = new()
             {

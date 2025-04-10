@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "카타르" },
-                { "pt-BR" = "Catar" }
-                { "pt" = "Catar" }
-                { "nl" = "Qatar" }
-                { "hr" = "Katar" }
-                { "fa" = "قطر" }
-                { "de" = "Katar" }
-                { "es" = "Catar" }
-                { "fr" = "Qatar" }
-                { "ja" = "カタール" }
-                { "it" = "Qatar" }
-                { "zh-CN" = "卡塔尔" }
-                { "tr" = "Katar" }
-                { "ru" = "Катар" }
-                { "uk" = "Катар" }
-                { "pl" = "Katar" }
+                ["ko"] = "카타르",
+                ["pt-BR"] = "Catar",
+                ["pt"] = "Catar",
+                ["nl"] = "Qatar",
+                ["hr"] = "Katar",
+                ["fa"] = "قطر",
+                ["de"] = "Katar",
+                ["es"] = "Catar",
+                ["fr"] = "Qatar",
+                ["ja"] = "カタール",
+                ["it"] = "Qatar",
+                ["zh-CN"] = "卡塔尔",
+                ["tr"] = "Katar",
+                ["ru"] = "Катар",
+                ["uk"] = "Катар",
+                ["pl"] = "Katar"
             },
             States = new()
             {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "체코" },
-                { "pt-BR" = "República Tcheca" }
-                { "pt" = "República Checa" }
-                { "nl" = "Tsjechië" }
-                { "hr" = "Češka" }
-                { "fa" = "جمهوری چک" }
-                { "de" = "Tschechische Republik" }
-                { "es" = "República Checa" }
-                { "fr" = "République tchèque" }
-                { "ja" = "チェコ" }
-                { "it" = "Repubblica Ceca" }
-                { "zh-CN" = "捷克" }
-                { "tr" = "Çekya" }
-                { "ru" = "Чешская Республика" }
-                { "uk" = "Чеська Республіка" }
-                { "pl" = "Republika Czeska" }
+                ["ko"] = "체코",
+                ["pt-BR"] = "República Tcheca",
+                ["pt"] = "República Checa",
+                ["nl"] = "Tsjechië",
+                ["hr"] = "Češka",
+                ["fa"] = "جمهوری چک",
+                ["de"] = "Tschechische Republik",
+                ["es"] = "República Checa",
+                ["fr"] = "République tchèque",
+                ["ja"] = "チェコ",
+                ["it"] = "Repubblica Ceca",
+                ["zh-CN"] = "捷克",
+                ["tr"] = "Çekya",
+                ["ru"] = "Чешская Республика",
+                ["uk"] = "Чеська Республіка",
+                ["pl"] = "Republika Czeska"
             },
             States = new()
             {

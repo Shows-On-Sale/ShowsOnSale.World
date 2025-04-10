@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "탄자니아" },
-                { "pt-BR" = "Tanzânia" }
-                { "pt" = "Tanzânia" }
-                { "nl" = "Tanzania" }
-                { "hr" = "Tanzanija" }
-                { "fa" = "تانزانیا" }
-                { "de" = "Tansania" }
-                { "es" = "Tanzania" }
-                { "fr" = "Tanzanie" }
-                { "ja" = "タンザニア" }
-                { "it" = "Tanzania" }
-                { "zh-CN" = "坦桑尼亚" }
-                { "tr" = "Tanzanya" }
-                { "ru" = "Танзания" }
-                { "uk" = "Танзанія" }
-                { "pl" = "Tanzania" }
+                ["ko"] = "탄자니아",
+                ["pt-BR"] = "Tanzânia",
+                ["pt"] = "Tanzânia",
+                ["nl"] = "Tanzania",
+                ["hr"] = "Tanzanija",
+                ["fa"] = "تانزانیا",
+                ["de"] = "Tansania",
+                ["es"] = "Tanzania",
+                ["fr"] = "Tanzanie",
+                ["ja"] = "タンザニア",
+                ["it"] = "Tanzania",
+                ["zh-CN"] = "坦桑尼亚",
+                ["tr"] = "Tanzanya",
+                ["ru"] = "Танзания",
+                ["uk"] = "Танзанія",
+                ["pl"] = "Tanzania"
             },
             States = new()
             {
@@ -144,7 +144,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Ushirombo", Latitude = "-3.49194000", Longitude = "31.96389000" },
                         new() { Id = 8, Name = "Uyovu", Latitude = "-3.28333000", Longitude = "31.52583000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -163,7 +163,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Makungu", Latitude = "-8.73333000", Longitude = "35.28333000" },
                         new() { Id = 6, Name = "Malangali", Latitude = "-8.56667000", Longitude = "34.85000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -190,7 +190,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 13, Name = "Nyakahanga", Latitude = "-1.60333000", Longitude = "31.14139000" },
                         new() { Id = 14, Name = "Rulenge", Latitude = "-2.71750000", Longitude = "30.63250000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -207,7 +207,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Mpanda", Latitude = "-6.34379000", Longitude = "31.06951000" },
                         new() { Id = 4, Name = "Usevia", Latitude = "-7.10000000", Longitude = "31.23333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -228,7 +228,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Nguruka", Latitude = "-5.10917000", Longitude = "31.04194000" },
                         new() { Id = 8, Name = "Uvinza", Latitude = "-5.10361000", Longitude = "30.39111000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -246,7 +246,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Moshi", Latitude = "-3.35000000", Longitude = "37.33333000" },
                         new() { Id = 5, Name = "Same", Latitude = "-4.22199000", Longitude = "37.88278000" }
                     }
-                }
+                },
 
                 new()
                 {

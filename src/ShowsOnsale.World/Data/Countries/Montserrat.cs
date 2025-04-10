@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "몬트세랫" },
-                { "pt-BR" = "Montserrat" }
-                { "pt" = "Monserrate" }
-                { "nl" = "Montserrat" }
-                { "hr" = "Montserrat" }
-                { "fa" = "مایوت" }
-                { "de" = "Montserrat" }
-                { "es" = "Montserrat" }
-                { "fr" = "Montserrat" }
-                { "ja" = "モントセラト" }
-                { "it" = "Montserrat" }
-                { "zh-CN" = "蒙特塞拉特" }
-                { "tr" = "Montserrat" }
-                { "ru" = "Монтсеррат" }
-                { "uk" = "Монтсеррат" }
-                { "pl" = "Montserrat" }
+                ["ko"] = "몬트세랫",
+                ["pt-BR"] = "Montserrat",
+                ["pt"] = "Monserrate",
+                ["nl"] = "Montserrat",
+                ["hr"] = "Montserrat",
+                ["fa"] = "مایوت",
+                ["de"] = "Montserrat",
+                ["es"] = "Montserrat",
+                ["fr"] = "Montserrat",
+                ["ja"] = "モントセラト",
+                ["it"] = "Montserrat",
+                ["zh-CN"] = "蒙特塞拉特",
+                ["tr"] = "Montserrat",
+                ["ru"] = "Монтсеррат",
+                ["uk"] = "Монтсеррат",
+                ["pl"] = "Montserrat"
             },
             States = new()
             {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "시리아" },
-                { "pt-BR" = "Síria" }
-                { "pt" = "Síria" }
-                { "nl" = "Syrië" }
-                { "hr" = "Sirija" }
-                { "fa" = "سوریه" }
-                { "de" = "Syrien" }
-                { "es" = "Siria" }
-                { "fr" = "Syrie" }
-                { "ja" = "シリア・アラブ共和国" }
-                { "it" = "Siria" }
-                { "zh-CN" = "叙利亚" }
-                { "tr" = "Suriye" }
-                { "ru" = "Сирия" }
-                { "uk" = "Сирія" }
-                { "pl" = "Syria" }
+                ["ko"] = "시리아",
+                ["pt-BR"] = "Síria",
+                ["pt"] = "Síria",
+                ["nl"] = "Syrië",
+                ["hr"] = "Sirija",
+                ["fa"] = "سوریه",
+                ["de"] = "Syrien",
+                ["es"] = "Siria",
+                ["fr"] = "Syrie",
+                ["ja"] = "シリア・アラブ共和国",
+                ["it"] = "Siria",
+                ["zh-CN"] = "叙利亚",
+                ["tr"] = "Suriye",
+                ["ru"] = "Сирия",
+                ["uk"] = "Сирія",
+                ["pl"] = "Syria"
             },
             States = new()
             {
@@ -94,7 +94,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Tall Abyaḑ", Latitude = "36.69648000", Longitude = "38.95382000" },
                         new() { Id = 6, Name = "Tell Abyad District", Latitude = "36.48280000", Longitude = "39.21360000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -128,7 +128,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 20, Name = "Tādif", Latitude = "36.34814000", Longitude = "37.53090000" },
                         new() { Id = 21, Name = "Tall Rif‘at", Latitude = "36.47229000", Longitude = "37.09471000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -148,7 +148,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Shahbā", Latitude = "32.85514000", Longitude = "36.62896000" },
                         new() { Id = 7, Name = "Shahba District", Latitude = "33.04282000", Longitude = "36.72034000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -162,7 +162,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Damascus", Latitude = "33.51020000", Longitude = "36.29128000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -190,7 +190,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 14, Name = "Ţafas", Latitude = "32.73709000", Longitude = "36.06654000" },
                         new() { Id = 15, Name = "Tasīl", Latitude = "32.83395000", Longitude = "35.96973000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -208,7 +208,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Hajīn", Latitude = "34.69508000", Longitude = "40.83138000" },
                         new() { Id = 5, Name = "Subaykhān", Latitude = "34.85305000", Longitude = "40.59987000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -235,7 +235,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 13, Name = "Ţayyibat al Imām", Latitude = "35.26592000", Longitude = "36.71219000" },
                         new() { Id = 14, Name = "Tremseh", Latitude = "35.27181000", Longitude = "36.50395000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -262,7 +262,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 13, Name = "Tallbīsah", Latitude = "34.84072000", Longitude = "36.73092000" },
                         new() { Id = 14, Name = "Tallkalakh", Latitude = "34.66842000", Longitude = "36.25995000" }
                     }
-                }
+                },
 
                 new()
                 {

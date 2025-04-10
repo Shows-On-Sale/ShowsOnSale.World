@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "세인트헬레나" },
-                { "pt-BR" = "Santa Helena" }
-                { "pt" = "Santa Helena" }
-                { "nl" = "Sint-Helena" }
-                { "hr" = "Sveta Helena" }
-                { "fa" = "سنت هلنا، اسنشن و تریستان دا کونا" }
-                { "de" = "Sankt Helena" }
-                { "es" = "Santa Helena" }
-                { "fr" = "Sainte-Hélène" }
-                { "ja" = "セントヘレナ・アセンションおよびトリスタンダクーニャ" }
-                { "it" = "Sant'Elena" }
-                { "zh-CN" = "圣赫勒拿" }
-                { "tr" = "Saint Helena" }
-                { "ru" = "Святая Елена" }
-                { "uk" = "Свята Єлена" }
-                { "pl" = "Święta Helena" }
+                ["ko"] = "세인트헬레나",
+                ["pt-BR"] = "Santa Helena",
+                ["pt"] = "Santa Helena",
+                ["nl"] = "Sint-Helena",
+                ["hr"] = "Sveta Helena",
+                ["fa"] = "سنت هلنا، اسنشن و تریستان دا کونا",
+                ["de"] = "Sankt Helena",
+                ["es"] = "Santa Helena",
+                ["fr"] = "Sainte-Hélène",
+                ["ja"] = "セントヘレナ・アセンションおよびトリスタンダクーニャ",
+                ["it"] = "Sant'Elena",
+                ["zh-CN"] = "圣赫勒拿",
+                ["tr"] = "Saint Helena",
+                ["ru"] = "Святая Елена",
+                ["uk"] = "Свята Єлена",
+                ["pl"] = "Święta Helena"
             },
             States = new()
             {

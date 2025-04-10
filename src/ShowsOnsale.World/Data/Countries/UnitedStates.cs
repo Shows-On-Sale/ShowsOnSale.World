@@ -36,13 +36,13 @@ namespace ShowsOnSale.World.Data.Countries
             {
                 new() { ZoneName = "America/Adak", GmtOffset = -36000, GmtOffsetName = "UTC-10:00", Abbreviation = "HST", TzName = "Hawaii–Aleutian Standard Time" },
                 new() { ZoneName = "America/Anchorage", GmtOffset = -32400, GmtOffsetName = "UTC-09:00", Abbreviation = "AKST", TzName = "Alaska Standard Time" },
-                new() { ZoneName = "America/Boise", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America" }
-                new() { ZoneName = "America/Chicago", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" }
-                new() { ZoneName = "America/Denver", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America" }
-                new() { ZoneName = "America/Detroit", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "EST", TzName = "Eastern Standard Time (North America" }
-                new() { ZoneName = "America/Indiana/Indianapolis", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "EST", TzName = "Eastern Standard Time (North America" }
-                new() { ZoneName = "America/Indiana/Knox", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" }
-                new() { ZoneName = "America/Indiana/Marengo", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "EST", TzName = "Eastern Standard Time (North America" }
+                new() { ZoneName = "America/Boise", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America" },
+                new() { ZoneName = "America/Chicago", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" },
+                new() { ZoneName = "America/Denver", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America" },
+                new() { ZoneName = "America/Detroit", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "EST", TzName = "Eastern Standard Time (North America" },
+                new() { ZoneName = "America/Indiana/Indianapolis", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "EST", TzName = "Eastern Standard Time (North America" },
+                new() { ZoneName = "America/Indiana/Knox", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" },
+                new() { ZoneName = "America/Indiana/Marengo", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "EST", TzName = "Eastern Standard Time (North America" },
                 new() { ZoneName = "America/Indiana/Petersburg", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "EST", TzName = "Eastern Standard Time (North America" },
                 new() { ZoneName = "America/Indiana/Tell_City", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" },
                 new() { ZoneName = "America/Indiana/Vevay", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "EST", TzName = "Eastern Standard Time (North America" },
@@ -66,22 +66,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "미국" },
-                { "pt-BR" = "Estados Unidos" }
-                { "pt" = "Estados Unidos" }
-                { "nl" = "Verenigde Staten" }
-                { "hr" = "Sjedinjene Američke Države" }
-                { "fa" = "ایالات متحده آمریکا" }
-                { "de" = "Vereinigte Staaten von Amerika" }
-                { "es" = "Estados Unidos" }
-                { "fr" = "États-Unis" }
-                { "ja" = "アメリカ合衆国" }
-                { "it" = "Stati Uniti D'America" }
-                { "zh-CN" = "美国" }
-                { "tr" = "Amerika" }
-                { "ru" = "Соединенные Штаты" }
-                { "uk" = "Сполучені Штати" }
-                { "pl" = "Stany Zjednoczone" }
+                ["ko"] = "미국",
+                ["pt-BR"] = "Estados Unidos",
+                ["pt"] = "Estados Unidos",
+                ["nl"] = "Verenigde Staten",
+                ["hr"] = "Sjedinjene Američke Države",
+                ["fa"] = "ایالات متحده آمریکا",
+                ["de"] = "Vereinigte Staaten von Amerika",
+                ["es"] = "Estados Unidos",
+                ["fr"] = "États-Unis",
+                ["ja"] = "アメリカ合衆国",
+                ["it"] = "Stati Uniti D'America",
+                ["zh-CN"] = "美国",
+                ["tr"] = "Amerika",
+                ["ru"] = "Соединенные Штаты",
+                ["uk"] = "Сполучені Штати",
+                ["pl"] = "Stany Zjednoczone"
             },
             States = new()
             {
@@ -2287,7 +2287,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1123, Name = "Yucaipa", Latitude = "34.03363000", Longitude = "-117.04309000" },
                         new() { Id = 1124, Name = "Yucca Valley", Latitude = "34.11417000", Longitude = "-116.43224000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -2589,7 +2589,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 288, Name = "Yuma", Latitude = "40.12221000", Longitude = "-102.72521000" },
                         new() { Id = 289, Name = "Yuma County", Latitude = "40.00290000", Longitude = "-102.42423000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -2794,7 +2794,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 191, Name = "Woodbury Center", Latitude = "41.54453000", Longitude = "-73.20476000" },
                         new() { Id = 192, Name = "Woodmont", Latitude = "41.22815000", Longitude = "-72.99149000" }
                     }
-                }
+                },
 
                 new()
                 {

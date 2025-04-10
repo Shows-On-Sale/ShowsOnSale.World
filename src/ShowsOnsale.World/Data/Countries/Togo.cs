@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "토고" },
-                { "pt-BR" = "Togo" }
-                { "pt" = "Togo" }
-                { "nl" = "Togo" }
-                { "hr" = "Togo" }
-                { "fa" = "توگو" }
-                { "de" = "Togo" }
-                { "es" = "Togo" }
-                { "fr" = "Togo" }
-                { "ja" = "トーゴ" }
-                { "it" = "Togo" }
-                { "zh-CN" = "多哥" }
-                { "tr" = "Togo" }
-                { "ru" = "Того" }
-                { "uk" = "Того" }
-                { "pl" = "Togo" }
+                ["ko"] = "토고",
+                ["pt-BR"] = "Togo",
+                ["pt"] = "Togo",
+                ["nl"] = "Togo",
+                ["hr"] = "Togo",
+                ["fa"] = "توگو",
+                ["de"] = "Togo",
+                ["es"] = "Togo",
+                ["fr"] = "Togo",
+                ["ja"] = "トーゴ",
+                ["it"] = "Togo",
+                ["zh-CN"] = "多哥",
+                ["tr"] = "Togo",
+                ["ru"] = "Того",
+                ["uk"] = "Того",
+                ["pl"] = "Togo"
             },
             States = new()
             {

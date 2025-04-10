@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "덴마크" },
-                { "pt-BR" = "Dinamarca" }
-                { "pt" = "Dinamarca" }
-                { "nl" = "Denemarken" }
-                { "hr" = "Danska" }
-                { "fa" = "دانمارک" }
-                { "de" = "Dänemark" }
-                { "es" = "Dinamarca" }
-                { "fr" = "Danemark" }
-                { "ja" = "デンマーク" }
-                { "it" = "Danimarca" }
-                { "zh-CN" = "丹麦" }
-                { "tr" = "Danimarka" }
-                { "ru" = "Дания" }
-                { "uk" = "Данія" }
-                { "pl" = "Dania" }
+                ["ko"] = "덴마크",
+                ["pt-BR"] = "Dinamarca",
+                ["pt"] = "Dinamarca",
+                ["nl"] = "Denemarken",
+                ["hr"] = "Danska",
+                ["fa"] = "دانمارک",
+                ["de"] = "Dänemark",
+                ["es"] = "Dinamarca",
+                ["fr"] = "Danemark",
+                ["ja"] = "デンマーク",
+                ["it"] = "Danimarca",
+                ["zh-CN"] = "丹麦",
+                ["tr"] = "Danimarka",
+                ["ru"] = "Дания",
+                ["uk"] = "Данія",
+                ["pl"] = "Dania"
             },
             States = new()
             {

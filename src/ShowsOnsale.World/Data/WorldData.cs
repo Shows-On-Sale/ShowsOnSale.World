@@ -18,19 +18,19 @@ namespace ShowsOnSale.World.Data
 
             Countries.AlandIslands.Data,
 
-            Countries.Albania.Data
+            Countries.Albania.Data,
 
-            Countries.Algeria.Data
+            Countries.Algeria.Data,
 
-            Countries.AmericanSamoa.Data
+            Countries.AmericanSamoa.Data,
 
-            Countries.Andorra.Data
+            Countries.Andorra.Data,
 
-            Countries.Angola.Data
+            Countries.Angola.Data,
 
-            Countries.Anguilla.Data
+            Countries.Anguilla.Data,
 
-            Countries.Antarctica.Data
+            Countries.Antarctica.Data,
 
             Countries.AntiguaAndBarbuda.Data,
 
@@ -64,153 +64,153 @@ namespace ShowsOnSale.World.Data
 
             Countries.Bhutan.Data,
 
-            Countries.Bolivia.Data
+            Countries.Bolivia.Data,
 
-            Countries.BonaireSintEustatiusAndSaba.Data
+            Countries.BonaireSintEustatiusAndSaba.Data,
 
-            Countries.BosniaAndHerzegovina.Data
+            Countries.BosniaAndHerzegovina.Data,
 
-            Countries.Botswana.Data
+            Countries.Botswana.Data,
 
-            Countries.BouvetIsland.Data
+            Countries.BouvetIsland.Data,
 
-            Countries.Brazil.Data
+            Countries.Brazil.Data,
 
-            Countries.BritishIndianOceanTerritory.Data
+            Countries.BritishIndianOceanTerritory.Data,
 
-            Countries.Brunei.Data
+            Countries.Brunei.Data,
 
-            Countries.Bulgaria.Data
+            Countries.Bulgaria.Data,
 
-            Countries.BurkinaFaso.Data
+            Countries.BurkinaFaso.Data,
 
-            Countries.Burundi.Data
+            Countries.Burundi.Data,
 
-            Countries.Cambodia.Data
+            Countries.Cambodia.Data,
 
-            Countries.Cameroon.Data
+            Countries.Cameroon.Data,
 
-            Countries.Canada.Data
+            Countries.Canada.Data,
 
-            Countries.CapeVerde.Data
+            Countries.CapeVerde.Data,
 
-            Countries.CaymanIslands.Data
+            Countries.CaymanIslands.Data,
 
-            Countries.CentralAfricanRepublic.Data
+            Countries.CentralAfricanRepublic.Data,
 
-            Countries.Chad.Data
+            Countries.Chad.Data,
 
-            Countries.Chile.Data
+            Countries.Chile.Data,
 
-            Countries.China.Data
+            Countries.China.Data,
 
-            Countries.ChristmasIsland.Data
+            Countries.ChristmasIsland.Data,
 
-            Countries.CocosKeelingIslands.Data
+            Countries.CocosKeelingIslands.Data,
 
-            Countries.Colombia.Data
+            Countries.Colombia.Data,
 
-            Countries.Comoros.Data
+            Countries.Comoros.Data,
 
-            Countries.Congo.Data
+            Countries.Congo.Data,
 
-            Countries.CookIslands.Data
+            Countries.CookIslands.Data,
 
-            Countries.CostaRica.Data
+            Countries.CostaRica.Data,
 
-            Countries.CoteDivoireIvoryCoast.Data
+            Countries.CoteDivoireIvoryCoast.Data,
 
-            Countries.Croatia.Data
+            Countries.Croatia.Data,
 
-            Countries.Cuba.Data
+            Countries.Cuba.Data,
 
-            Countries.Curaao.Data
+            Countries.Curaao.Data,
 
-            Countries.Cyprus.Data
+            Countries.Cyprus.Data,
 
-            Countries.CzechRepublic.Data
+            Countries.CzechRepublic.Data,
 
-            Countries.DemocraticRepublicOfTheCongo.Data
+            Countries.DemocraticRepublicOfTheCongo.Data,
 
-            Countries.Denmark.Data
+            Countries.Denmark.Data,
 
-            Countries.Djibouti.Data
+            Countries.Djibouti.Data,
 
-            Countries.Dominica.Data
+            Countries.Dominica.Data,
 
-            Countries.DominicanRepublic.Data
+            Countries.DominicanRepublic.Data,
 
-            Countries.Ecuador.Data
+            Countries.Ecuador.Data,
 
-            Countries.Egypt.Data
+            Countries.Egypt.Data,
 
-            Countries.ElSalvador.Data
+            Countries.ElSalvador.Data,
 
-            Countries.EquatorialGuinea.Data
+            Countries.EquatorialGuinea.Data,
 
-            Countries.Eritrea.Data
+            Countries.Eritrea.Data,
 
-            Countries.Estonia.Data
+            Countries.Estonia.Data,
 
-            Countries.Eswatini.Data
+            Countries.Eswatini.Data,
 
-            Countries.Ethiopia.Data
+            Countries.Ethiopia.Data,
 
-            Countries.FalklandIslands.Data
+            Countries.FalklandIslands.Data,
 
-            Countries.FaroeIslands.Data
+            Countries.FaroeIslands.Data,
 
-            Countries.FijiIslands.Data
+            Countries.FijiIslands.Data,
 
-            Countries.Finland.Data
+            Countries.Finland.Data,
 
-            Countries.France.Data
+            Countries.France.Data,
 
-            Countries.FrenchGuiana.Data
+            Countries.FrenchGuiana.Data,
 
-            Countries.FrenchPolynesia.Data
+            Countries.FrenchPolynesia.Data,
 
-            Countries.FrenchSouthernTerritories.Data
+            Countries.FrenchSouthernTerritories.Data,
 
-            Countries.Gabon.Data
+            Countries.Gabon.Data,
 
-            Countries.Georgia.Data
+            Countries.Georgia.Data,
 
-            Countries.Germany.Data
+            Countries.Germany.Data,
 
-            Countries.Ghana.Data
+            Countries.Ghana.Data,
 
-            Countries.Gibraltar.Data
+            Countries.Gibraltar.Data,
 
-            Countries.Greece.Data
+            Countries.Greece.Data,
 
-            Countries.Greenland.Data
+            Countries.Greenland.Data,
 
-            Countries.Grenada.Data
+            Countries.Grenada.Data,
 
-            Countries.Guadeloupe.Data
+            Countries.Guadeloupe.Data,
 
-            Countries.Guam.Data
+            Countries.Guam.Data,
 
-            Countries.Guatemala.Data
+            Countries.Guatemala.Data,
 
-            Countries.Guernsey.Data
+            Countries.Guernsey.Data,
 
-            Countries.Guinea.Data
+            Countries.Guinea.Data,
 
-            Countries.Guineabissau.Data
+            Countries.Guineabissau.Data,
 
-            Countries.Guyana.Data
+            Countries.Guyana.Data,
 
-            Countries.Haiti.Data
+            Countries.Haiti.Data,
 
-            Countries.HeardIslandAndMcdonaldIslands.Data
+            Countries.HeardIslandAndMcdonaldIslands.Data,
 
-            Countries.Honduras.Data
+            Countries.Honduras.Data,
 
-            Countries.HongKongSar.Data
+            Countries.HongKongSar.Data,
 
-            Countries.Hungary.Data
+            Countries.Hungary.Data,
 
             Countries.Iceland.Data,
 

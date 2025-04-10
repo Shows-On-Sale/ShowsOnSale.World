@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "왈리스 푸투나" },
-                { "pt-BR" = "Wallis e Futuna" }
-                { "pt" = "Wallis e Futuna" }
-                { "nl" = "Wallis en Futuna" }
-                { "hr" = "Wallis i Fortuna" }
-                { "fa" = "والیس و فوتونا" }
-                { "de" = "Wallis und Futuna" }
-                { "es" = "Wallis y Futuna" }
-                { "fr" = "Wallis-et-Futuna" }
-                { "ja" = "ウォリス・フツナ" }
-                { "it" = "Wallis e Futuna" }
-                { "zh-CN" = "瓦利斯群岛和富图纳群岛" }
-                { "tr" = "Wallis Ve Futuna" }
-                { "ru" = "Острова Уоллис и Футуна" }
-                { "uk" = "Острови Уолліс і Футуна" }
-                { "pl" = "Wyspy Wallis i Futuna" }
+                ["ko"] = "왈리스 푸투나",
+                ["pt-BR"] = "Wallis e Futuna",
+                ["pt"] = "Wallis e Futuna",
+                ["nl"] = "Wallis en Futuna",
+                ["hr"] = "Wallis i Fortuna",
+                ["fa"] = "والیس و فوتونا",
+                ["de"] = "Wallis und Futuna",
+                ["es"] = "Wallis y Futuna",
+                ["fr"] = "Wallis-et-Futuna",
+                ["ja"] = "ウォリス・フツナ",
+                ["it"] = "Wallis e Futuna",
+                ["zh-CN"] = "瓦利斯群岛和富图纳群岛",
+                ["tr"] = "Wallis Ve Futuna",
+                ["ru"] = "Острова Уоллис и Футуна",
+                ["uk"] = "Острови Уолліс і Футуна",
+                ["pl"] = "Wyspy Wallis i Futuna"
             },
             States = new()
             {

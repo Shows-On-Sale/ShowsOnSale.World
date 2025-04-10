@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "과테말라" },
-                { "pt-BR" = "Guatemala" }
-                { "pt" = "Guatemala" }
-                { "nl" = "Guatemala" }
-                { "hr" = "Gvatemala" }
-                { "fa" = "گواتمالا" }
-                { "de" = "Guatemala" }
-                { "es" = "Guatemala" }
-                { "fr" = "Guatemala" }
-                { "ja" = "グアテマラ" }
-                { "it" = "Guatemala" }
-                { "zh-CN" = "危地马拉" }
-                { "tr" = "Guatemala" }
-                { "ru" = "Гватемала" }
-                { "uk" = "Гватемала" }
-                { "pl" = "Gwatemala" }
+                ["ko"] = "과테말라",
+                ["pt-BR"] = "Guatemala",
+                ["pt"] = "Guatemala",
+                ["nl"] = "Guatemala",
+                ["hr"] = "Gvatemala",
+                ["fa"] = "گواتمالا",
+                ["de"] = "Guatemala",
+                ["es"] = "Guatemala",
+                ["fr"] = "Guatemala",
+                ["ja"] = "グアテマラ",
+                ["it"] = "Guatemala",
+                ["zh-CN"] = "危地马拉",
+                ["tr"] = "Guatemala",
+                ["ru"] = "Гватемала",
+                ["uk"] = "Гватемала",
+                ["pl"] = "Gwatemala"
             },
             States = new()
             {
@@ -134,7 +134,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 15, Name = "Yepocapa", Latitude = "14.50195000", Longitude = "-90.95396000" },
                         new() { Id = 16, Name = "Zaragoza", Latitude = "14.64968000", Longitude = "-90.89034000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -158,7 +158,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "San José La Arada", Latitude = "14.71667000", Longitude = "-89.58333000" },
                         new() { Id = 11, Name = "San Juan Ermita", Latitude = "14.76471000", Longitude = "-89.43014000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -179,7 +179,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Sanarate", Latitude = "14.78828000", Longitude = "-90.19876000" },
                         new() { Id = 8, Name = "Sansare", Latitude = "14.74572000", Longitude = "-90.11615000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -205,7 +205,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "Siquinalá", Latitude = "14.30611000", Longitude = "-90.96500000" },
                         new() { Id = 13, Name = "Tiquisate", Latitude = "14.28356000", Longitude = "-91.36063000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -235,7 +235,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 16, Name = "Villa Canales", Latitude = "14.48285000", Longitude = "-90.53425000" },
                         new() { Id = 17, Name = "Villa Nueva", Latitude = "14.52512000", Longitude = "-90.58544000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -278,7 +278,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 29, Name = "Tectitán", Latitude = "15.30630000", Longitude = "-92.06051000" },
                         new() { Id = 30, Name = "Todos Santos Cuchumatán", Latitude = "15.50846000", Longitude = "-91.60382000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -298,7 +298,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Municipio de Puerto Barrios", Latitude = "15.71754000", Longitude = "-88.58517000" },
                         new() { Id = 7, Name = "Puerto Barrios", Latitude = "15.72778000", Longitude = "-88.59444000" }
                     }
-                }
+                },
 
                 new()
                 {

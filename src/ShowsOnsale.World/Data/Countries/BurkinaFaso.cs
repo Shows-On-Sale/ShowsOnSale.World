@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "부르키나 파소" },
-                { "pt-BR" = "Burkina Faso" }
-                { "pt" = "Burquina Faso" }
-                { "nl" = "Burkina Faso" }
-                { "hr" = "Burkina Faso" }
-                { "fa" = "بورکینافاسو" }
-                { "de" = "Burkina Faso" }
-                { "es" = "Burkina Faso" }
-                { "fr" = "Burkina Faso" }
-                { "ja" = "ブルキナファソ" }
-                { "it" = "Burkina Faso" }
-                { "zh-CN" = "布基纳法索" }
-                { "tr" = "Burkina Faso" }
-                { "ru" = "Буркина-Фасо" }
-                { "uk" = "Буркіна-Фасо" }
-                { "pl" = "Burkina Faso" }
+                ["ko"] = "부르키나 파소",
+                ["pt-BR"] = "Burkina Faso",
+                ["pt"] = "Burquina Faso",
+                ["nl"] = "Burkina Faso",
+                ["hr"] = "Burkina Faso",
+                ["fa"] = "بورکینافاسو",
+                ["de"] = "Burkina Faso",
+                ["es"] = "Burkina Faso",
+                ["fr"] = "Burkina Faso",
+                ["ja"] = "ブルキナファソ",
+                ["it"] = "Burkina Faso",
+                ["zh-CN"] = "布基纳法索",
+                ["tr"] = "Burkina Faso",
+                ["ru"] = "Буркина-Фасо",
+                ["uk"] = "Буркіна-Фасо",
+                ["pl"] = "Burkina Faso"
             },
             States = new()
             {
@@ -147,7 +147,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -160,7 +160,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -173,7 +173,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -190,7 +190,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Province de la Léraba", Latitude = "10.66667000", Longitude = "-5.20000000" },
                         new() { Id = 4, Name = "Sindou", Latitude = "10.66667000", Longitude = "-5.16667000" }
                     }
-                }
+                },
 
                 new()
                 {

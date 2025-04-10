@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "부룬디" },
-                { "pt-BR" = "Burundi" }
-                { "pt" = "Burúndi" }
-                { "nl" = "Burundi" }
-                { "hr" = "Burundi" }
-                { "fa" = "بوروندی" }
-                { "de" = "Burundi" }
-                { "es" = "Burundi" }
-                { "fr" = "Burundi" }
-                { "ja" = "ブルンジ" }
-                { "it" = "Burundi" }
-                { "zh-CN" = "布隆迪" }
-                { "tr" = "Burundi" }
-                { "ru" = "Бурунди" }
-                { "uk" = "Бурунді" }
-                { "pl" = "Burundi" }
+                ["ko"] = "부룬디",
+                ["pt-BR"] = "Burundi",
+                ["pt"] = "Burúndi",
+                ["nl"] = "Burundi",
+                ["hr"] = "Burundi",
+                ["fa"] = "بوروندی",
+                ["de"] = "Burundi",
+                ["es"] = "Burundi",
+                ["fr"] = "Burundi",
+                ["ja"] = "ブルンジ",
+                ["it"] = "Burundi",
+                ["zh-CN"] = "布隆迪",
+                ["tr"] = "Burundi",
+                ["ru"] = "Бурунди",
+                ["uk"] = "Бурунді",
+                ["pl"] = "Burundi"
             },
             States = new()
             {
@@ -84,7 +84,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bujumbura", Latitude = "-3.38193000", Longitude = "29.36142000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -97,7 +97,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -111,7 +111,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bururi", Latitude = "-3.94877000", Longitude = "29.62438000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -125,7 +125,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Cankuzo", Latitude = "-3.21860000", Longitude = "30.55280000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -139,7 +139,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Cibitoke", Latitude = "-2.88690000", Longitude = "29.12480000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -153,7 +153,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Gitega", Latitude = "-3.42708000", Longitude = "29.92463000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -167,7 +167,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Karuzi", Latitude = "-3.10139000", Longitude = "30.16278000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -181,7 +181,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kayanza", Latitude = "-2.92210000", Longitude = "29.62930000" }
                     }
-                }
+                },
 
                 new()
                 {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "수리남" },
-                { "pt-BR" = "Suriname" }
-                { "pt" = "Suriname" }
-                { "nl" = "Suriname" }
-                { "hr" = "Surinam" }
-                { "fa" = "سورینام" }
-                { "de" = "Suriname" }
-                { "es" = "Surinam" }
-                { "fr" = "Surinam" }
-                { "ja" = "スリナム" }
-                { "it" = "Suriname" }
-                { "zh-CN" = "苏里南" }
-                { "tr" = "Surinam" }
-                { "ru" = "Суринам" }
-                { "uk" = "Суринам" }
-                { "pl" = "Surinam" }
+                ["ko"] = "수리남",
+                ["pt-BR"] = "Suriname",
+                ["pt"] = "Suriname",
+                ["nl"] = "Suriname",
+                ["hr"] = "Surinam",
+                ["fa"] = "سورینام",
+                ["de"] = "Suriname",
+                ["es"] = "Surinam",
+                ["fr"] = "Surinam",
+                ["ja"] = "スリナム",
+                ["it"] = "Suriname",
+                ["zh-CN"] = "苏里南",
+                ["tr"] = "Surinam",
+                ["ru"] = "Суринам",
+                ["uk"] = "Суринам",
+                ["pl"] = "Surinam"
             },
             States = new()
             {
@@ -86,7 +86,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Mariënburg", Latitude = "5.87722000", Longitude = "-55.04322000" },
                         new() { Id = 2, Name = "Nieuw Amsterdam", Latitude = "5.88573000", Longitude = "-55.08871000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -100,7 +100,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Totness", Latitude = "5.87618000", Longitude = "-56.32572000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -115,7 +115,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Albina", Latitude = "5.49788000", Longitude = "-54.05522000" },
                         new() { Id = 2, Name = "Moengo", Latitude = "5.61411000", Longitude = "-54.40121000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -130,7 +130,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Nieuw Nickerie", Latitude = "5.92606000", Longitude = "-56.97297000" },
                         new() { Id = 2, Name = "Wageningen", Latitude = "5.76010000", Longitude = "-56.66523000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -144,7 +144,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Onverwacht", Latitude = "5.58983000", Longitude = "-55.19462000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -158,7 +158,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Paramaribo", Latitude = "5.86638000", Longitude = "-55.16682000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -172,7 +172,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Groningen", Latitude = "5.80000000", Longitude = "-55.46667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -185,7 +185,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

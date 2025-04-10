@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "시에라리온" },
-                { "pt-BR" = "Serra Leoa" }
-                { "pt" = "Serra Leoa" }
-                { "nl" = "Sierra Leone" }
-                { "hr" = "Sijera Leone" }
-                { "fa" = "سیرالئون" }
-                { "de" = "Sierra Leone" }
-                { "es" = "Sierra Leone" }
-                { "fr" = "Sierra Leone" }
-                { "ja" = "シエラレオネ" }
-                { "it" = "Sierra Leone" }
-                { "zh-CN" = "塞拉利昂" }
-                { "tr" = "Sierra Leone" }
-                { "ru" = "Сьерра-Леоне" }
-                { "uk" = "Сьєрра-Леоне" }
-                { "pl" = "Sierra Leone" }
+                ["ko"] = "시에라리온",
+                ["pt-BR"] = "Serra Leoa",
+                ["pt"] = "Serra Leoa",
+                ["nl"] = "Sierra Leone",
+                ["hr"] = "Sijera Leone",
+                ["fa"] = "سیرالئون",
+                ["de"] = "Sierra Leone",
+                ["es"] = "Sierra Leone",
+                ["fr"] = "Sierra Leone",
+                ["ja"] = "シエラレオネ",
+                ["it"] = "Sierra Leone",
+                ["zh-CN"] = "塞拉利昂",
+                ["tr"] = "Sierra Leone",
+                ["ru"] = "Сьерра-Леоне",
+                ["uk"] = "Сьєрра-Леоне",
+                ["pl"] = "Sierra Leone"
             },
             States = new()
             {

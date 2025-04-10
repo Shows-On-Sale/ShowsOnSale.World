@@ -39,22 +39,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "콩고 민주 공화국" },
-                { "pt-BR" = "RD Congo" }
-                { "pt" = "RD Congo" }
-                { "nl" = "Congo [DRC]" }
-                { "hr" = "Kongo, Demokratska Republika" }
-                { "fa" = "جمهوری کنگو" }
-                { "de" = "Kongo (Dem. Rep.)" }
-                { "es" = "Congo (Rep. Dem.)" }
-                { "fr" = "Congo (Rép. dém.)" }
-                { "ja" = "コンゴ民主共和国" }
-                { "it" = "Congo (Rep. Dem.)" }
-                { "zh-CN" = "刚果（金）" }
-                { "tr" = "Kongo Demokratik Cumhuriyeti" }
-                { "ru" = "Демократическая Республика Конго" }
-                { "uk" = "Демократична Республіка Конго" }
-                { "pl" = "Demokratyczna Republika Konga" }
+                ["ko"] = "콩고 민주 공화국",
+                ["pt-BR"] = "RD Congo",
+                ["pt"] = "RD Congo",
+                ["nl"] = "Congo [DRC]",
+                ["hr"] = "Kongo, Demokratska Republika",
+                ["fa"] = "جمهوری کنگو",
+                ["de"] = "Kongo (Dem. Rep.)",
+                ["es"] = "Congo (Rep. Dem.)",
+                ["fr"] = "Congo (Rép. dém.)",
+                ["ja"] = "コンゴ民主共和国",
+                ["it"] = "Congo (Rep. Dem.)",
+                ["zh-CN"] = "刚果（金）",
+                ["tr"] = "Kongo Demokratik Cumhuriyeti",
+                ["ru"] = "Демократическая Республика Конго",
+                ["uk"] = "Демократична Республіка Конго",
+                ["pl"] = "Demokratyczna Republika Konga"
             },
             States = new()
             {
@@ -105,7 +105,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Likasi", Latitude = "-10.98303000", Longitude = "26.73840000" },
                         new() { Id = 2, Name = "Lubumbashi", Latitude = "-11.66089000", Longitude = "27.47938000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -120,7 +120,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Bukama", Latitude = "-9.20443000", Longitude = "25.85475000" },
                         new() { Id = 2, Name = "Kamina", Latitude = "-8.73508000", Longitude = "24.99798000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -136,7 +136,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Wamba", Latitude = "2.14838000", Longitude = "27.99466000" },
                         new() { Id = 3, Name = "Watsa", Latitude = "3.03716000", Longitude = "29.53551000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -150,7 +150,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bunia", Latitude = "1.55941000", Longitude = "30.25224000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -167,7 +167,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Mweka", Latitude = "-4.85187000", Longitude = "21.55950000" },
                         new() { Id = 4, Name = "Tshikapa", Latitude = "-6.41621000", Longitude = "20.79995000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -180,7 +180,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -196,7 +196,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Kabinda", Latitude = "-6.13791000", Longitude = "24.48179000" },
                         new() { Id = 3, Name = "Mbuji-Mayi", Latitude = "-6.13603000", Longitude = "23.58979000" }
                     }
-                }
+                },
 
                 new()
                 {

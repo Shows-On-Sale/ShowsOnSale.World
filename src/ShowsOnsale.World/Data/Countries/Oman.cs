@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "오만" },
-                { "pt-BR" = "Omã" }
-                { "pt" = "Omã" }
-                { "nl" = "Oman" }
-                { "hr" = "Oman" }
-                { "fa" = "عمان" }
-                { "de" = "Oman" }
-                { "es" = "Omán" }
-                { "fr" = "Oman" }
-                { "ja" = "オマーン" }
-                { "it" = "oman" }
-                { "zh-CN" = "阿曼" }
-                { "tr" = "Umman" }
-                { "ru" = "Оман" }
-                { "uk" = "Оман" }
-                { "pl" = "Oman" }
+                ["ko"] = "오만",
+                ["pt-BR"] = "Omã",
+                ["pt"] = "Omã",
+                ["nl"] = "Oman",
+                ["hr"] = "Oman",
+                ["fa"] = "عمان",
+                ["de"] = "Oman",
+                ["es"] = "Omán",
+                ["fr"] = "Oman",
+                ["ja"] = "オマーン",
+                ["it"] = "oman",
+                ["zh-CN"] = "阿曼",
+                ["tr"] = "Umman",
+                ["ru"] = "Оман",
+                ["uk"] = "Оман",
+                ["pl"] = "Oman"
             },
             States = new()
             {
@@ -90,7 +90,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "‘Ibrī", Latitude = "23.22573000", Longitude = "56.51572000" },
                         new() { Id = 2, Name = "Yanqul", Latitude = "23.58645000", Longitude = "56.53969000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -109,7 +109,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Shināş", Latitude = "24.74260000", Longitude = "56.46698000" },
                         new() { Id = 6, Name = "Sohar", Latitude = "24.34745000", Longitude = "56.70937000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -126,7 +126,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Oman Smart Future City", Latitude = "23.65270000", Longitude = "57.59926000" },
                         new() { Id = 4, Name = "Rustaq", Latitude = "23.39083000", Longitude = "57.42444000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -139,7 +139,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -153,7 +153,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Al Buraymī", Latitude = "24.25088000", Longitude = "55.79312000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -167,7 +167,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Haymā’", Latitude = "19.95931000", Longitude = "56.27575000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -180,7 +180,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -194,7 +194,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Sur", Latitude = "22.56667000", Longitude = "59.52889000" }
                     }
-                }
+                },
 
                 new()
                 {

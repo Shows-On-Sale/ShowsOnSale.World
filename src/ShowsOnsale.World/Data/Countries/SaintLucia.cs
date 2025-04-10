@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "세인트루시아" },
-                { "pt-BR" = "Santa Lúcia" }
-                { "pt" = "Santa Lúcia" }
-                { "nl" = "Saint Lucia" }
-                { "hr" = "Sveta Lucija" }
-                { "fa" = "سنت لوسیا" }
-                { "de" = "Saint Lucia" }
-                { "es" = "Santa Lucía" }
-                { "fr" = "Saint-Lucie" }
-                { "ja" = "セントルシア" }
-                { "it" = "Santa Lucia" }
-                { "zh-CN" = "圣卢西亚" }
-                { "tr" = "Saint Lucia" }
-                { "ru" = "Сент-Люсия" }
-                { "uk" = "Сент-Люсія" }
-                { "pl" = "Saint Lucia" }
+                ["ko"] = "세인트루시아",
+                ["pt-BR"] = "Santa Lúcia",
+                ["pt"] = "Santa Lúcia",
+                ["nl"] = "Saint Lucia",
+                ["hr"] = "Sveta Lucija",
+                ["fa"] = "سنت لوسیا",
+                ["de"] = "Saint Lucia",
+                ["es"] = "Santa Lucía",
+                ["fr"] = "Saint-Lucie",
+                ["ja"] = "セントルシア",
+                ["it"] = "Santa Lucia",
+                ["zh-CN"] = "圣卢西亚",
+                ["tr"] = "Saint Lucia",
+                ["ru"] = "Сент-Люсия",
+                ["uk"] = "Сент-Люсія",
+                ["pl"] = "Saint Lucia"
             },
             States = new()
             {
@@ -115,7 +115,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Theodrine", Latitude = "13.92878000", Longitude = "-61.04972000" },
                         new() { Id = 8, Name = "Village", Latitude = "13.90526000", Longitude = "-61.06108000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -247,7 +247,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 118, Name = "Wilton'S Yard/Grave Yard", Latitude = "14.00968000", Longitude = "-60.98639000" },
                         new() { Id = 119, Name = "Yorke Hill", Latitude = "14.01694000", Longitude = "-60.97919000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -296,7 +296,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 35, Name = "Victoria", Latitude = "13.81116000", Longitude = "-61.03963000" },
                         new() { Id = 36, Name = "Village", Latitude = "13.77464000", Longitude = "-61.05020000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -309,7 +309,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -362,7 +362,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 39, Name = "St. Joseph Estate", Latitude = "13.90066000", Longitude = "-60.91444000" },
                         new() { Id = 40, Name = "Thamazo", Latitude = "13.93245000", Longitude = "-60.94786000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -457,7 +457,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 81, Name = "Union Terrace", Latitude = "14.02654000", Longitude = "-60.95710000" },
                         new() { Id = 82, Name = "Union/Ti Morne", Latitude = "14.02283000", Longitude = "-60.95272000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -500,7 +500,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 29, Name = "Village", Latitude = "13.74927000", Longitude = "-60.99375000" },
                         new() { Id = 30, Name = "Warwick/Daban", Latitude = "13.81084000", Longitude = "-61.00047000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -561,7 +561,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 47, Name = "Village", Latitude = "13.81904000", Longitude = "-60.89692000" },
                         new() { Id = 48, Name = "Volet", Latitude = "13.82626000", Longitude = "-60.90789000" }
                     }
-                }
+                },
 
                 new()
                 {

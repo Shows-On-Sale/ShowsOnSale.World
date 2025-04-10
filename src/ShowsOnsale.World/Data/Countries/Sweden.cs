@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "스웨덴" },
-                { "pt-BR" = "Suécia" }
-                { "pt" = "Suécia" }
-                { "nl" = "Zweden" }
-                { "hr" = "Švedska" }
-                { "fa" = "سوئد" }
-                { "de" = "Schweden" }
-                { "es" = "Suecia" }
-                { "fr" = "Suède" }
-                { "ja" = "スウェーデン" }
-                { "it" = "Svezia" }
-                { "zh-CN" = "瑞典" }
-                { "tr" = "İsveç" }
-                { "ru" = "Швеция" }
-                { "uk" = "Швеція" }
-                { "pl" = "Szwecja" }
+                ["ko"] = "스웨덴",
+                ["pt-BR"] = "Suécia",
+                ["pt"] = "Suécia",
+                ["nl"] = "Zweden",
+                ["hr"] = "Švedska",
+                ["fa"] = "سوئد",
+                ["de"] = "Schweden",
+                ["es"] = "Suecia",
+                ["fr"] = "Suède",
+                ["ja"] = "スウェーデン",
+                ["it"] = "Svezia",
+                ["zh-CN"] = "瑞典",
+                ["tr"] = "İsveç",
+                ["ru"] = "Швеция",
+                ["uk"] = "Швеція",
+                ["pl"] = "Szwecja"
             },
             States = new()
             {
@@ -175,7 +175,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 27, Name = "Storvik", Latitude = "60.58333000", Longitude = "16.53333000" },
                         new() { Id = 28, Name = "Valbo", Latitude = "60.65000000", Longitude = "17.03333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -193,7 +193,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Vibble", Latitude = "57.60452000", Longitude = "18.25601000" },
                         new() { Id = 5, Name = "Visby", Latitude = "57.64089000", Longitude = "18.29602000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -240,7 +240,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 33, Name = "Veddige", Latitude = "57.26591000", Longitude = "12.33220000" },
                         new() { Id = 34, Name = "Veinge", Latitude = "56.55000000", Longitude = "13.06667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -253,7 +253,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -305,7 +305,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 38, Name = "Vetlanda", Latitude = "57.42887000", Longitude = "15.07762000" },
                         new() { Id = 39, Name = "Vrigstad", Latitude = "57.35000000", Longitude = "14.46667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -350,7 +350,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 31, Name = "Vimmerby", Latitude = "57.66588000", Longitude = "15.85515000" },
                         new() { Id = 32, Name = "Virserum", Latitude = "57.31667000", Longitude = "15.58333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -383,7 +383,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 19, Name = "Växjö", Latitude = "56.87767000", Longitude = "14.80906000" },
                         new() { Id = 20, Name = "Vislanda", Latitude = "56.78333000", Longitude = "14.45000000" }
                     }
-                }
+                },
 
                 new()
                 {

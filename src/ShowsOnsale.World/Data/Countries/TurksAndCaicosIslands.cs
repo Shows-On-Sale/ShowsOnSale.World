@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "터크스 케이커스 제도" },
-                { "pt-BR" = "Ilhas Turcas e Caicos" }
-                { "pt" = "Ilhas Turcas e Caicos" }
-                { "nl" = "Turks- en Caicoseilanden" }
-                { "hr" = "Otoci Turks i Caicos" }
-                { "fa" = "جزایر تورکس و کایکوس" }
-                { "de" = "Turks- und Caicosinseln" }
-                { "es" = "Islas Turks y Caicos" }
-                { "fr" = "Îles Turques-et-Caïques" }
-                { "ja" = "タークス・カイコス諸島" }
-                { "it" = "Isole Turks e Caicos" }
-                { "zh-CN" = "特克斯和凯科斯群岛" }
-                { "tr" = "Turks Ve Caicos Adalari" }
-                { "ru" = "Острова Теркс и Кайкос" }
-                { "uk" = "Острови Теркс і Кайкос" }
-                { "pl" = "Wyspy Turks i Caicos" }
+                ["ko"] = "터크스 케이커스 제도",
+                ["pt-BR"] = "Ilhas Turcas e Caicos",
+                ["pt"] = "Ilhas Turcas e Caicos",
+                ["nl"] = "Turks- en Caicoseilanden",
+                ["hr"] = "Otoci Turks i Caicos",
+                ["fa"] = "جزایر تورکس و کایکوس",
+                ["de"] = "Turks- und Caicosinseln",
+                ["es"] = "Islas Turks y Caicos",
+                ["fr"] = "Îles Turques-et-Caïques",
+                ["ja"] = "タークス・カイコス諸島",
+                ["it"] = "Isole Turks e Caicos",
+                ["zh-CN"] = "特克斯和凯科斯群岛",
+                ["tr"] = "Turks Ve Caicos Adalari",
+                ["ru"] = "Острова Теркс и Кайкос",
+                ["uk"] = "Острови Теркс і Кайкос",
+                ["pl"] = "Wyspy Turks i Caicos"
             },
             States = new()
             {

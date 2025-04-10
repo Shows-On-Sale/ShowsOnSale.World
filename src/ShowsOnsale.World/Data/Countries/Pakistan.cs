@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "파키스탄" },
-                { "pt-BR" = "Paquistão" }
-                { "pt" = "Paquistão" }
-                { "nl" = "Pakistan" }
-                { "hr" = "Pakistan" }
-                { "fa" = "پاکستان" }
-                { "de" = "Pakistan" }
-                { "es" = "Pakistán" }
-                { "fr" = "Pakistan" }
-                { "ja" = "パキスタン" }
-                { "it" = "Pakistan" }
-                { "zh-CN" = "巴基斯坦" }
-                { "tr" = "Pakistan" }
-                { "ru" = "Пакистан" }
-                { "uk" = "Пакистан" }
-                { "pl" = "Pakistan" }
+                ["ko"] = "파키스탄",
+                ["pt-BR"] = "Paquistão",
+                ["pt"] = "Paquistão",
+                ["nl"] = "Pakistan",
+                ["hr"] = "Pakistan",
+                ["fa"] = "پاکستان",
+                ["de"] = "Pakistan",
+                ["es"] = "Pakistán",
+                ["fr"] = "Pakistan",
+                ["ja"] = "パキスタン",
+                ["it"] = "Pakistan",
+                ["zh-CN"] = "巴基斯坦",
+                ["tr"] = "Pakistan",
+                ["ru"] = "Пакистан",
+                ["uk"] = "Пакистан",
+                ["pl"] = "Pakistan"
             },
             States = new()
             {

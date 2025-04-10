@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "페로 제도" },
-                { "pt-BR" = "Ilhas Faroé" }
-                { "pt" = "Ilhas Faroé" }
-                { "nl" = "Faeröer" }
-                { "hr" = "Farski Otoci" }
-                { "fa" = "جزایر فارو" }
-                { "de" = "Färöer-Inseln" }
-                { "es" = "Islas Faroe" }
-                { "fr" = "Îles Féroé" }
-                { "ja" = "フェロー諸島" }
-                { "it" = "Isole Far Oer" }
-                { "zh-CN" = "法罗群岛" }
-                { "tr" = "Faroe Adalari" }
-                { "ru" = "Фарерские острова" }
-                { "uk" = "Фарерські острови" }
-                { "pl" = "Wyspy Owcze" }
+                ["ko"] = "페로 제도",
+                ["pt-BR"] = "Ilhas Faroé",
+                ["pt"] = "Ilhas Faroé",
+                ["nl"] = "Faeröer",
+                ["hr"] = "Farski Otoci",
+                ["fa"] = "جزایر فارو",
+                ["de"] = "Färöer-Inseln",
+                ["es"] = "Islas Faroe",
+                ["fr"] = "Îles Féroé",
+                ["ja"] = "フェロー諸島",
+                ["it"] = "Isole Far Oer",
+                ["zh-CN"] = "法罗群岛",
+                ["tr"] = "Faroe Adalari",
+                ["ru"] = "Фарерские острова",
+                ["uk"] = "Фарерські острови",
+                ["pl"] = "Wyspy Owcze"
             },
             States = new()
             {

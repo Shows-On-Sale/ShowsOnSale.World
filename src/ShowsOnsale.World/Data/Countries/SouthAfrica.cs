@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "남아프리카 공화국" },
-                { "pt-BR" = "República Sul-Africana" }
-                { "pt" = "República Sul-Africana" }
-                { "nl" = "Zuid-Afrika" }
-                { "hr" = "Južnoafrička Republika" }
-                { "fa" = "آفریقای جنوبی" }
-                { "de" = "Republik Südafrika" }
-                { "es" = "República de Sudáfrica" }
-                { "fr" = "Afrique du Sud" }
-                { "ja" = "南アフリカ" }
-                { "it" = "Sud Africa" }
-                { "zh-CN" = "南非" }
-                { "tr" = "Güney Afrika Cumhuriyeti" }
-                { "ru" = "Южная Африка" }
-                { "uk" = "Південна Африка" }
-                { "pl" = "Republika Południowej Afryki" }
+                ["ko"] = "남아프리카 공화국",
+                ["pt-BR"] = "República Sul-Africana",
+                ["pt"] = "República Sul-Africana",
+                ["nl"] = "Zuid-Afrika",
+                ["hr"] = "Južnoafrička Republika",
+                ["fa"] = "آفریقای جنوبی",
+                ["de"] = "Republik Südafrika",
+                ["es"] = "República de Sudáfrica",
+                ["fr"] = "Afrique du Sud",
+                ["ja"] = "南アフリカ",
+                ["it"] = "Sud Africa",
+                ["zh-CN"] = "南非",
+                ["tr"] = "Güney Afrika Cumhuriyeti",
+                ["ru"] = "Южная Африка",
+                ["uk"] = "Південна Африка",
+                ["pl"] = "Republika Południowej Afryki"
             },
             States = new()
             {

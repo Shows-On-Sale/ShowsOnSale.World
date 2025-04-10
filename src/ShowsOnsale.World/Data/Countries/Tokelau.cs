@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "토켈라우" },
-                { "pt-BR" = "Tokelau" }
-                { "pt" = "Toquelau" }
-                { "nl" = "Tokelau" }
-                { "hr" = "Tokelau" }
-                { "fa" = "توکلائو" }
-                { "de" = "Tokelau" }
-                { "es" = "Islas Tokelau" }
-                { "fr" = "Tokelau" }
-                { "ja" = "トケラウ" }
-                { "it" = "Isole Tokelau" }
-                { "zh-CN" = "托克劳" }
-                { "tr" = "Tokelau" }
-                { "ru" = "Токелау" }
-                { "uk" = "Токелау" }
-                { "pl" = "Tokelau" }
+                ["ko"] = "토켈라우",
+                ["pt-BR"] = "Tokelau",
+                ["pt"] = "Toquelau",
+                ["nl"] = "Tokelau",
+                ["hr"] = "Tokelau",
+                ["fa"] = "توکلائو",
+                ["de"] = "Tokelau",
+                ["es"] = "Islas Tokelau",
+                ["fr"] = "Tokelau",
+                ["ja"] = "トケラウ",
+                ["it"] = "Isole Tokelau",
+                ["zh-CN"] = "托克劳",
+                ["tr"] = "Tokelau",
+                ["ru"] = "Токелау",
+                ["uk"] = "Токелау",
+                ["pl"] = "Tokelau"
             },
             States = new()
             {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "일본" },
-                { "pt-BR" = "Japão" }
-                { "pt" = "Japão" }
-                { "nl" = "Japan" }
-                { "hr" = "Japan" }
-                { "fa" = "ژاپن" }
-                { "de" = "Japan" }
-                { "es" = "Japón" }
-                { "fr" = "Japon" }
-                { "ja" = "日本" }
-                { "it" = "Giappone" }
-                { "zh-CN" = "日本" }
-                { "tr" = "Japonya" }
-                { "ru" = "Япония" }
-                { "uk" = "Японія" }
-                { "pl" = "Japonia" }
+                ["ko"] = "일본",
+                ["pt-BR"] = "Japão",
+                ["pt"] = "Japão",
+                ["nl"] = "Japan",
+                ["hr"] = "Japan",
+                ["fa"] = "ژاپن",
+                ["de"] = "Japan",
+                ["es"] = "Japón",
+                ["fr"] = "Japon",
+                ["ja"] = "日本",
+                ["it"] = "Giappone",
+                ["zh-CN"] = "日本",
+                ["tr"] = "Japonya",
+                ["ru"] = "Япония",
+                ["uk"] = "Японія",
+                ["pl"] = "Japonia"
             },
             States = new()
             {
@@ -324,7 +324,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 19, Name = "Uwajima-shi", Latitude = "33.22325000", Longitude = "132.56069000" },
                         new() { Id = 20, Name = "Yawatahama-shi", Latitude = "33.46302000", Longitude = "132.42336000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -356,7 +356,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 18, Name = "Tsuruga", Latitude = "35.64547000", Longitude = "136.05580000" },
                         new() { Id = 19, Name = "Tsuruga-shi", Latitude = "35.63730000", Longitude = "136.08068000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -425,7 +425,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 55, Name = "Yukuhashi", Latitude = "33.72873000", Longitude = "130.98300000" },
                         new() { Id = 56, Name = "Yukuhashi Shi", Latitude = "33.71404000", Longitude = "130.97108000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -468,7 +468,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 29, Name = "Tamura-shi", Latitude = "37.43793000", Longitude = "140.57384000" },
                         new() { Id = 30, Name = "Yanagawamachi-saiwaichō", Latitude = "37.85000000", Longitude = "140.60000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -516,7 +516,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 34, Name = "Toki-shi", Latitude = "35.32418000", Longitude = "137.20748000" },
                         new() { Id = 35, Name = "Yamagata-shi", Latitude = "35.59892000", Longitude = "136.74311000" }
                     }
-                }
+                },
 
                 new()
                 {

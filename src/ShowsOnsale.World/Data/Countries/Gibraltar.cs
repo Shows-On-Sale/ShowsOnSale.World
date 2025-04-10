@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "지브롤터" },
-                { "pt-BR" = "Gibraltar" }
-                { "pt" = "Gibraltar" }
-                { "nl" = "Gibraltar" }
-                { "hr" = "Gibraltar" }
-                { "fa" = "جبل‌طارق" }
-                { "de" = "Gibraltar" }
-                { "es" = "Gibraltar" }
-                { "fr" = "Gibraltar" }
-                { "ja" = "ジブラルタル" }
-                { "it" = "Gibilterra" }
-                { "zh-CN" = "直布罗陀" }
-                { "tr" = "Cebelitarik" }
-                { "ru" = "Гибралтар" }
-                { "uk" = "Гібралтар" }
-                { "pl" = "Gibraltar" }
+                ["ko"] = "지브롤터",
+                ["pt-BR"] = "Gibraltar",
+                ["pt"] = "Gibraltar",
+                ["nl"] = "Gibraltar",
+                ["hr"] = "Gibraltar",
+                ["fa"] = "جبل‌طارق",
+                ["de"] = "Gibraltar",
+                ["es"] = "Gibraltar",
+                ["fr"] = "Gibraltar",
+                ["ja"] = "ジブラルタル",
+                ["it"] = "Gibilterra",
+                ["zh-CN"] = "直布罗陀",
+                ["tr"] = "Cebelitarik",
+                ["ru"] = "Гибралтар",
+                ["uk"] = "Гібралтар",
+                ["pl"] = "Gibraltar"
             },
             States = new()
             {

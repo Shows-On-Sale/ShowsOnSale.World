@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "에티오피아" },
-                { "pt-BR" = "Etiópia" }
-                { "pt" = "Etiópia" }
-                { "nl" = "Ethiopië" }
-                { "hr" = "Etiopija" }
-                { "fa" = "اتیوپی" }
-                { "de" = "Äthiopien" }
-                { "es" = "Etiopía" }
-                { "fr" = "Éthiopie" }
-                { "ja" = "エチオピア" }
-                { "it" = "Etiopia" }
-                { "zh-CN" = "埃塞俄比亚" }
-                { "tr" = "Etiyopya" }
-                { "ru" = "Эфиопия" }
-                { "uk" = "Ефіопія" }
-                { "pl" = "Etiopia" }
+                ["ko"] = "에티오피아",
+                ["pt-BR"] = "Etiópia",
+                ["pt"] = "Etiópia",
+                ["nl"] = "Ethiopië",
+                ["hr"] = "Etiopija",
+                ["fa"] = "اتیوپی",
+                ["de"] = "Äthiopien",
+                ["es"] = "Etiopía",
+                ["fr"] = "Éthiopie",
+                ["ja"] = "エチオピア",
+                ["it"] = "Etiopia",
+                ["zh-CN"] = "埃塞俄比亚",
+                ["tr"] = "Etiyopya",
+                ["ru"] = "Эфиопия",
+                ["uk"] = "Ефіопія",
+                ["pl"] = "Etiopia"
             },
             States = new()
             {
@@ -90,7 +90,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Gewanē", Latitude = "10.16658000", Longitude = "40.64689000" },
                         new() { Id = 7, Name = "Semera", Latitude = "11.79342000", Longitude = "41.00578000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -132,7 +132,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 28, Name = "Were Īlu", Latitude = "10.58964000", Longitude = "39.43767000" },
                         new() { Id = 29, Name = "Werota", Latitude = "11.91667000", Longitude = "37.70000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -147,7 +147,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Asosa", Latitude = "10.00000000", Longitude = "34.50000000" },
                         new() { Id = 2, Name = "Metekel", Latitude = "10.42673000", Longitude = "35.71975000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -161,7 +161,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Dire Dawa", Latitude = "9.59306000", Longitude = "41.86611000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -176,7 +176,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Administrative Zone 1", Latitude = "8.14699000", Longitude = "33.97335000" },
                         new() { Id = 2, Name = "Gambēla", Latitude = "8.25000000", Longitude = "34.58333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -190,7 +190,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Harar", Latitude = "9.31387000", Longitude = "42.11815000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -257,7 +257,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 53, Name = "Yabēlo", Latitude = "4.88333000", Longitude = "38.08333000" },
                         new() { Id = 54, Name = "Ziway", Latitude = "7.93333000", Longitude = "38.71667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -276,7 +276,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Liben zone", Latitude = "4.75000000", Longitude = "40.50000000" },
                         new() { Id = 6, Name = "Shinile Zone", Latitude = "10.17097000", Longitude = "41.83748000" }
                     }
-                }
+                },
 
                 new()
                 {

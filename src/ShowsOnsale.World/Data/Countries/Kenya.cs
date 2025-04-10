@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "케냐" },
-                { "pt-BR" = "Quênia" }
-                { "pt" = "Quénia" }
-                { "nl" = "Kenia" }
-                { "hr" = "Kenija" }
-                { "fa" = "کنیا" }
-                { "de" = "Kenia" }
-                { "es" = "Kenia" }
-                { "fr" = "Kenya" }
-                { "ja" = "ケニア" }
-                { "it" = "Kenya" }
-                { "zh-CN" = "肯尼亚" }
-                { "tr" = "Kenya" }
-                { "ru" = "Кения" }
-                { "uk" = "Кенія" }
-                { "pl" = "Kenia" }
+                ["ko"] = "케냐",
+                ["pt-BR"] = "Quênia",
+                ["pt"] = "Quénia",
+                ["nl"] = "Kenia",
+                ["hr"] = "Kenija",
+                ["fa"] = "کنیا",
+                ["de"] = "Kenia",
+                ["es"] = "Kenia",
+                ["fr"] = "Kenya",
+                ["ja"] = "ケニア",
+                ["it"] = "Kenya",
+                ["zh-CN"] = "肯尼亚",
+                ["tr"] = "Kenya",
+                ["ru"] = "Кения",
+                ["uk"] = "Кенія",
+                ["pl"] = "Kenia"
             },
             States = new()
             {
@@ -150,7 +150,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 14, Name = "Kocholwo", Latitude = "0.41670000", Longitude = "35.56670000" },
                         new() { Id = 15, Name = "Tambach", Latitude = "0.73330000", Longitude = "35.58330000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -164,7 +164,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Embu", Latitude = "-0.53987000", Longitude = "37.45743000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -178,7 +178,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Garissa", Latitude = "-0.45275000", Longitude = "39.64601000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -194,7 +194,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Oyugis", Latitude = "-0.50974000", Longitude = "34.73067000" },
                         new() { Id = 3, Name = "Rachuonyo District", Latitude = "-0.44000000", Longitude = "34.73900000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -208,7 +208,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Isiolo", Latitude = "0.35462000", Longitude = "37.58218000" }
                     }
-                }
+                },
 
                 new()
                 {

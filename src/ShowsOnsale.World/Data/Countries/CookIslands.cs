@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "쿡 제도" },
-                { "pt-BR" = "Ilhas Cook" }
-                { "pt" = "Ilhas Cook" }
-                { "nl" = "Cookeilanden" }
-                { "hr" = "Cookovo Otočje" }
-                { "fa" = "جزایر کوک" }
-                { "de" = "Cookinseln" }
-                { "es" = "Islas Cook" }
-                { "fr" = "Îles Cook" }
-                { "ja" = "クック諸島" }
-                { "it" = "Isole Cook" }
-                { "zh-CN" = "库克群岛" }
-                { "tr" = "Cook Adalari" }
-                { "ru" = "Острова Кука" }
-                { "uk" = "Острови Кука" }
-                { "pl" = "Wyspy Cooka" }
+                ["ko"] = "쿡 제도",
+                ["pt-BR"] = "Ilhas Cook",
+                ["pt"] = "Ilhas Cook",
+                ["nl"] = "Cookeilanden",
+                ["hr"] = "Cookovo Otočje",
+                ["fa"] = "جزایر کوک",
+                ["de"] = "Cookinseln",
+                ["es"] = "Islas Cook",
+                ["fr"] = "Îles Cook",
+                ["ja"] = "クック諸島",
+                ["it"] = "Isole Cook",
+                ["zh-CN"] = "库克群岛",
+                ["tr"] = "Cook Adalari",
+                ["ru"] = "Острова Кука",
+                ["uk"] = "Острови Кука",
+                ["pl"] = "Wyspy Cooka"
             },
             States = new()
             {

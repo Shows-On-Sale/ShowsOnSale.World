@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "안도라" },
-                { "pt-BR" = "Andorra" }
-                { "pt" = "Andorra" }
-                { "nl" = "Andorra" }
-                { "hr" = "Andora" }
-                { "fa" = "آندورا" }
-                { "de" = "Andorra" }
-                { "es" = "Andorra" }
-                { "fr" = "Andorre" }
-                { "ja" = "アンドラ" }
-                { "it" = "Andorra" }
-                { "zh-CN" = "安道尔" }
-                { "tr" = "Andorra" }
-                { "ru" = "Андорра" }
-                { "uk" = "Андорра" }
-                { "pl" = "Andora" }
+                ["ko"] = "안도라",
+                ["pt-BR"] = "Andorra",
+                ["pt"] = "Andorra",
+                ["nl"] = "Andorra",
+                ["hr"] = "Andora",
+                ["fa"] = "آندورا",
+                ["de"] = "Andorra",
+                ["es"] = "Andorra",
+                ["fr"] = "Andorre",
+                ["ja"] = "アンドラ",
+                ["it"] = "Andorra",
+                ["zh-CN"] = "安道尔",
+                ["tr"] = "Andorra",
+                ["ru"] = "Андорра",
+                ["uk"] = "Андорра",
+                ["pl"] = "Andora"
             },
             States = new()
             {

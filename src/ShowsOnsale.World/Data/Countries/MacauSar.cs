@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "마카오" },
-                { "pt-BR" = "Macau" }
-                { "pt" = "Macau" }
-                { "nl" = "Macao" }
-                { "hr" = "Makao" }
-                { "fa" = "مکائو" }
-                { "de" = "Macao" }
-                { "es" = "Macao" }
-                { "fr" = "Macao" }
-                { "ja" = "マカオ" }
-                { "it" = "Macao" }
-                { "zh-CN" = "中国澳门" }
-                { "tr" = "Makao" }
-                { "ru" = "Макао С.А.Р." }
-                { "uk" = "САР Макао." }
-                { "pl" = "Macau S.A.R." }
+                ["ko"] = "마카오",
+                ["pt-BR"] = "Macau",
+                ["pt"] = "Macau",
+                ["nl"] = "Macao",
+                ["hr"] = "Makao",
+                ["fa"] = "مکائو",
+                ["de"] = "Macao",
+                ["es"] = "Macao",
+                ["fr"] = "Macao",
+                ["ja"] = "マカオ",
+                ["it"] = "Macao",
+                ["zh-CN"] = "中国澳门",
+                ["tr"] = "Makao",
+                ["ru"] = "Макао С.А.Р.",
+                ["uk"] = "САР Макао.",
+                ["pl"] = "Macau S.A.R."
             },
             States = new()
             {

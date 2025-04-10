@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "쿠바" },
-                { "pt-BR" = "Cuba" }
-                { "pt" = "Cuba" }
-                { "nl" = "Cuba" }
-                { "hr" = "Kuba" }
-                { "fa" = "کوبا" }
-                { "de" = "Kuba" }
-                { "es" = "Cuba" }
-                { "fr" = "Cuba" }
-                { "ja" = "キューバ" }
-                { "it" = "Cuba" }
-                { "zh-CN" = "古巴" }
-                { "tr" = "Küba" }
-                { "ru" = "Куба" }
-                { "uk" = "Куба" }
-                { "pl" = "Kuba" }
+                ["ko"] = "쿠바",
+                ["pt-BR"] = "Cuba",
+                ["pt"] = "Cuba",
+                ["nl"] = "Cuba",
+                ["hr"] = "Kuba",
+                ["fa"] = "کوبا",
+                ["de"] = "Kuba",
+                ["es"] = "Cuba",
+                ["fr"] = "Cuba",
+                ["ja"] = "キューバ",
+                ["it"] = "Cuba",
+                ["zh-CN"] = "古巴",
+                ["tr"] = "Küba",
+                ["ru"] = "Куба",
+                ["uk"] = "Куба",
+                ["pl"] = "Kuba"
             },
             States = new()
             {
@@ -112,7 +112,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "Sibanicú", Latitude = "21.23631000", Longitude = "-77.52561000" },
                         new() { Id = 13, Name = "Vertientes", Latitude = "21.25817000", Longitude = "-78.14979000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -135,7 +135,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Primero de Enero", Latitude = "21.94501000", Longitude = "-78.43130000" },
                         new() { Id = 10, Name = "Venezuela", Latitude = "21.73748000", Longitude = "-78.79336000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -158,7 +158,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Palmira", Latitude = "22.24126000", Longitude = "-80.39110000" },
                         new() { Id = 10, Name = "Rodas", Latitude = "22.34184000", Longitude = "-80.55596000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -185,7 +185,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 13, Name = "Río Cauto", Latitude = "20.55971000", Longitude = "-76.91673000" },
                         new() { Id = 14, Name = "Yara", Latitude = "20.27465000", Longitude = "-76.95132000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -204,7 +204,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Río Guayabal de Yateras", Latitude = "20.36667000", Longitude = "-75.01667000" },
                         new() { Id = 6, Name = "San Antonio del Sur", Latitude = "20.05564000", Longitude = "-74.80750000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -230,7 +230,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "San Miguel del Padrón", Latitude = "23.06639000", Longitude = "-82.29472000" },
                         new() { Id = 13, Name = "Santiago de las Vegas", Latitude = "22.97000000", Longitude = "-82.38694000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -254,7 +254,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Sagua de Tánamo", Latitude = "20.58269000", Longitude = "-75.24116000" },
                         new() { Id = 11, Name = "San Germán", Latitude = "20.60009000", Longitude = "-76.13364000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -268,7 +268,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Nueva Gerona", Latitude = "21.88667000", Longitude = "-82.80556000" }
                     }
-                }
+                },
 
                 new()
                 {

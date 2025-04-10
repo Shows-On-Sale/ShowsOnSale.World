@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "사모아" },
-                { "pt-BR" = "Samoa" }
-                { "pt" = "Samoa" }
-                { "nl" = "Samoa" }
-                { "hr" = "Samoa" }
-                { "fa" = "ساموآ" }
-                { "de" = "Samoa" }
-                { "es" = "Samoa" }
-                { "fr" = "Samoa" }
-                { "ja" = "サモア" }
-                { "it" = "Samoa" }
-                { "zh-CN" = "萨摩亚" }
-                { "tr" = "Samoa" }
-                { "ru" = "Самоа" }
-                { "uk" = "Самоа" }
-                { "pl" = "Samoa" }
+                ["ko"] = "사모아",
+                ["pt-BR"] = "Samoa",
+                ["pt"] = "Samoa",
+                ["nl"] = "Samoa",
+                ["hr"] = "Samoa",
+                ["fa"] = "ساموآ",
+                ["de"] = "Samoa",
+                ["es"] = "Samoa",
+                ["fr"] = "Samoa",
+                ["ja"] = "サモア",
+                ["it"] = "Samoa",
+                ["zh-CN"] = "萨摩亚",
+                ["tr"] = "Samoa",
+                ["ru"] = "Самоа",
+                ["uk"] = "Самоа",
+                ["pl"] = "Samoa"
             },
             States = new()
             {
@@ -87,7 +87,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Mulifanua", Latitude = "-13.83183000", Longitude = "-172.03602000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -104,7 +104,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Lufilufi", Latitude = "-13.87449000", Longitude = "-171.59857000" },
                         new() { Id = 4, Name = "Solosolo", Latitude = "-13.87504000", Longitude = "-171.64181000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -117,7 +117,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -130,7 +130,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -145,7 +145,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Matavai", Latitude = "-14.03208000", Longitude = "-171.64768000" },
                         new() { Id = 2, Name = "Safotu", Latitude = "-13.45132000", Longitude = "-172.40177000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -160,7 +160,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Gataivai", Latitude = "-13.77360000", Longitude = "-172.38802000" },
                         new() { Id = 2, Name = "Vailoa", Latitude = "-13.75551000", Longitude = "-172.30698000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -173,7 +173,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -191,7 +191,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Vailima", Latitude = "-13.86417000", Longitude = "-171.76126000" },
                         new() { Id = 5, Name = "Vaiusu", Latitude = "-13.82678000", Longitude = "-171.79333000" }
                     }
-                }
+                },
 
                 new()
                 {

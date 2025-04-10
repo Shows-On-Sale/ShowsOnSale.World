@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "코코스 제도" },
-                { "pt-BR" = "Ilhas Cocos" }
-                { "pt" = "Ilhas dos Cocos" }
-                { "nl" = "Cocoseilanden" }
-                { "hr" = "Kokosovi Otoci" }
-                { "fa" = "جزایر کوکوس" }
-                { "de" = "Kokosinseln" }
-                { "es" = "Islas Cocos o Islas Keeling" }
-                { "fr" = "Îles Cocos" }
-                { "ja" = "ココス（キーリング）諸島" }
-                { "it" = "Isole Cocos e Keeling" }
-                { "zh-CN" = "科科斯（基林）群岛" }
-                { "tr" = "Cocos Adalari" }
-                { "ru" = "Кокосовые (Килинг) острова" }
-                { "uk" = "Кокосові (Кілінг) острови" }
-                { "pl" = "Wyspy Kokosowe (Keelinga)" }
+                ["ko"] = "코코스 제도",
+                ["pt-BR"] = "Ilhas Cocos",
+                ["pt"] = "Ilhas dos Cocos",
+                ["nl"] = "Cocoseilanden",
+                ["hr"] = "Kokosovi Otoci",
+                ["fa"] = "جزایر کوکوس",
+                ["de"] = "Kokosinseln",
+                ["es"] = "Islas Cocos o Islas Keeling",
+                ["fr"] = "Îles Cocos",
+                ["ja"] = "ココス（キーリング）諸島",
+                ["it"] = "Isole Cocos e Keeling",
+                ["zh-CN"] = "科科斯（基林）群岛",
+                ["tr"] = "Cocos Adalari",
+                ["ru"] = "Кокосовые (Килинг) острова",
+                ["uk"] = "Кокосові (Кілінг) острови",
+                ["pl"] = "Wyspy Kokosowe (Keelinga)"
             },
             States = new()
             {

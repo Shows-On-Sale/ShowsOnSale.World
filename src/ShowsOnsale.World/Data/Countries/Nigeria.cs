@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "나이지리아" },
-                { "pt-BR" = "Nigéria" }
-                { "pt" = "Nigéria" }
-                { "nl" = "Nigeria" }
-                { "hr" = "Nigerija" }
-                { "fa" = "نیجریه" }
-                { "de" = "Nigeria" }
-                { "es" = "Nigeria" }
-                { "fr" = "Nigéria" }
-                { "ja" = "ナイジェリア" }
-                { "it" = "Nigeria" }
-                { "zh-CN" = "尼日利亚" }
-                { "tr" = "Nijerya" }
-                { "ru" = "Нигерия" }
-                { "uk" = "Нігерія" }
-                { "pl" = "Nigeria" }
+                ["ko"] = "나이지리아",
+                ["pt-BR"] = "Nigéria",
+                ["pt"] = "Nigéria",
+                ["nl"] = "Nigeria",
+                ["hr"] = "Nigerija",
+                ["fa"] = "نیجریه",
+                ["de"] = "Nigeria",
+                ["es"] = "Nigeria",
+                ["fr"] = "Nigéria",
+                ["ja"] = "ナイジェリア",
+                ["it"] = "Nigeria",
+                ["zh-CN"] = "尼日利亚",
+                ["tr"] = "Nijerya",
+                ["ru"] = "Нигерия",
+                ["uk"] = "Нігерія",
+                ["pl"] = "Nigeria"
             },
             States = new()
             {
@@ -146,7 +146,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Itu", Latitude = "5.20131000", Longitude = "7.98373000" },
                         new() { Id = 5, Name = "Uyo", Latitude = "5.05127000", Longitude = "7.93350000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -171,7 +171,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 11, Name = "Uga", Latitude = "5.93576000", Longitude = "7.07930000" },
                         new() { Id = 12, Name = "Uruobo-Okija", Latitude = "5.90016000", Longitude = "6.84312000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -205,7 +205,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 20, Name = "Zadawa", Latitude = "11.44960000", Longitude = "10.36720000" },
                         new() { Id = 21, Name = "Zalanga", Latitude = "10.61432000", Longitude = "10.17647000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -221,7 +221,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Twon-Brass", Latitude = "4.31231000", Longitude = "6.24091000" },
                         new() { Id = 3, Name = "Yenagoa", Latitude = "4.92675000", Longitude = "6.26764000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -245,7 +245,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Yandev", Latitude = "7.36308000", Longitude = "9.04235000" },
                         new() { Id = 11, Name = "Zaki Biam", Latitude = "7.50671000", Longitude = "9.61040000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -280,7 +280,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 21, Name = "Wuyo", Latitude = "10.38522000", Longitude = "11.69678000" },
                         new() { Id = 22, Name = "Yajiwa", Latitude = "11.38623000", Longitude = "12.71992000" }
                     }
-                }
+                },
 
                 new()
                 {

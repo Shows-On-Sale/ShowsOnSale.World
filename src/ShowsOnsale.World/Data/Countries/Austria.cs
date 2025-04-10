@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "오스트리아" },
-                { "pt-BR" = "áustria" }
-                { "pt" = "áustria" }
-                { "nl" = "Oostenrijk" }
-                { "hr" = "Austrija" }
-                { "fa" = "اتریش" }
-                { "de" = "Österreich" }
-                { "es" = "Austria" }
-                { "fr" = "Autriche" }
-                { "ja" = "オーストリア" }
-                { "it" = "Austria" }
-                { "zh-CN" = "奥地利" }
-                { "tr" = "Avusturya" }
-                { "ru" = "Австрия" }
-                { "uk" = "Австрія" }
-                { "pl" = "Austria" }
+                ["ko"] = "오스트리아",
+                ["pt-BR"] = "áustria",
+                ["pt"] = "áustria",
+                ["nl"] = "Oostenrijk",
+                ["hr"] = "Austrija",
+                ["fa"] = "اتریش",
+                ["de"] = "Österreich",
+                ["es"] = "Austria",
+                ["fr"] = "Autriche",
+                ["ja"] = "オーストリア",
+                ["it"] = "Austria",
+                ["zh-CN"] = "奥地利",
+                ["tr"] = "Avusturya",
+                ["ru"] = "Австрия",
+                ["uk"] = "Австрія",
+                ["pl"] = "Austria"
             },
             States = new()
             {

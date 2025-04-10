@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "알바니아" },
-                { "pt-BR" = "Albânia" }
-                { "pt" = "Albânia" }
-                { "nl" = "Albanië" }
-                { "hr" = "Albanija" }
-                { "fa" = "آلبانی" }
-                { "de" = "Albanien" }
-                { "es" = "Albania" }
-                { "fr" = "Albanie" }
-                { "ja" = "アルバニア" }
-                { "it" = "Albania" }
-                { "zh-CN" = "阿尔巴尼亚" }
-                { "tr" = "Arnavutluk" }
-                { "ru" = "Албания" }
-                { "uk" = "Албанія" }
-                { "pl" = "Albania" }
+                ["ko"] = "알바니아",
+                ["pt-BR"] = "Albânia",
+                ["pt"] = "Albânia",
+                ["nl"] = "Albanië",
+                ["hr"] = "Albanija",
+                ["fa"] = "آلبانی",
+                ["de"] = "Albanien",
+                ["es"] = "Albania",
+                ["fr"] = "Albanie",
+                ["ja"] = "アルバニア",
+                ["it"] = "Albania",
+                ["zh-CN"] = "阿尔巴尼亚",
+                ["tr"] = "Arnavutluk",
+                ["ru"] = "Албания",
+                ["uk"] = "Албанія",
+                ["pl"] = "Albania"
             },
             States = new()
             {
@@ -134,7 +134,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -158,7 +158,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Rrethi i Matit", Latitude = "41.58333000", Longitude = "20.08333000" },
                         new() { Id = 11, Name = "Ulëz", Latitude = "41.68278000", Longitude = "19.89333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -171,7 +171,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -194,7 +194,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Shijak", Latitude = "41.34556000", Longitude = "19.56722000" },
                         new() { Id = 10, Name = "Sukth", Latitude = "41.38056000", Longitude = "19.53778000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -207,7 +207,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

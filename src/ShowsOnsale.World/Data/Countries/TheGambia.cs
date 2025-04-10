@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "감비아" },
-                { "pt-BR" = "Gâmbia" }
-                { "pt" = "Gâmbia" }
-                { "nl" = "Gambia" }
-                { "hr" = "Gambija" }
-                { "fa" = "گامبیا" }
-                { "de" = "Gambia" }
-                { "es" = "Gambia" }
-                { "fr" = "Gambie" }
-                { "ja" = "ガンビア" }
-                { "it" = "Gambia" }
-                { "zh-CN" = "冈比亚" }
-                { "tr" = "Gambiya" }
-                { "ru" = "Гамбия" }
-                { "uk" = "Гамбія The" }
-                { "pl" = "Gambia The" }
+                ["ko"] = "감비아",
+                ["pt-BR"] = "Gâmbia",
+                ["pt"] = "Gâmbia",
+                ["nl"] = "Gambia",
+                ["hr"] = "Gambija",
+                ["fa"] = "گامبیا",
+                ["de"] = "Gambia",
+                ["es"] = "Gambia",
+                ["fr"] = "Gambie",
+                ["ja"] = "ガンビア",
+                ["it"] = "Gambia",
+                ["zh-CN"] = "冈比亚",
+                ["tr"] = "Gambiya",
+                ["ru"] = "Гамбия",
+                ["uk"] = "Гамбія The",
+                ["pl"] = "Gambia The"
             },
             States = new()
             {

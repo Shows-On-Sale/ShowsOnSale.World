@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "세르비아" },
-                { "pt-BR" = "Sérvia" }
-                { "pt" = "Sérvia" }
-                { "nl" = "Servië" }
-                { "hr" = "Srbija" }
-                { "fa" = "صربستان" }
-                { "de" = "Serbien" }
-                { "es" = "Serbia" }
-                { "fr" = "Serbie" }
-                { "ja" = "セルビア" }
-                { "it" = "Serbia" }
-                { "zh-CN" = "塞尔维亚" }
-                { "tr" = "Sirbistan" }
-                { "ru" = "Сербия" }
-                { "uk" = "Сербія" }
-                { "pl" = "Serbia" }
+                ["ko"] = "세르비아",
+                ["pt-BR"] = "Sérvia",
+                ["pt"] = "Sérvia",
+                ["nl"] = "Servië",
+                ["hr"] = "Srbija",
+                ["fa"] = "صربستان",
+                ["de"] = "Serbien",
+                ["es"] = "Serbia",
+                ["fr"] = "Serbie",
+                ["ja"] = "セルビア",
+                ["it"] = "Serbia",
+                ["zh-CN"] = "塞尔维亚",
+                ["tr"] = "Sirbistan",
+                ["ru"] = "Сербия",
+                ["uk"] = "Сербія",
+                ["pl"] = "Serbia"
             },
             States = new()
             {
@@ -131,7 +131,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Žabari", Latitude = "44.38522130", Longitude = "21.04498720" },
                         new() { Id = 11, Name = "Žagubica", Latitude = "44.15544450", Longitude = "21.69317990" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -192,7 +192,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 47, Name = "Žitište", Latitude = "45.54150190", Longitude = "20.29310490" },
                         new() { Id = 48, Name = "Zrenjanin", Latitude = "45.38361000", Longitude = "20.38194000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -212,7 +212,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Medveđa", Latitude = "42.83278560", Longitude = "21.53388900" },
                         new() { Id = 7, Name = "Vlasotince", Latitude = "42.96648980", Longitude = "22.09399660" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -233,7 +233,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Ub", Latitude = "44.45594110", Longitude = "20.04489880" },
                         new() { Id = 8, Name = "Valjevo", Latitude = "44.27513000", Longitude = "19.89821000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -288,7 +288,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 41, Name = "Vladimirci", Latitude = "44.61472000", Longitude = "19.78528000" },
                         new() { Id = 42, Name = "Zminjak", Latitude = "44.75711000", Longitude = "19.47070000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -306,7 +306,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Lučani", Latitude = "43.85854930", Longitude = "20.11661750" },
                         new() { Id = 5, Name = "Prislonica", Latitude = "43.95223000", Longitude = "20.43521000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -327,7 +327,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Ražanj", Latitude = "43.70924730", Longitude = "21.41131260" },
                         new() { Id = 8, Name = "Svrljig", Latitude = "43.46937580", Longitude = "21.80472770" }
                     }
-                }
+                },
 
                 new()
                 {

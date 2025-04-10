@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "베냉" },
-                { "pt-BR" = "Benin" }
-                { "pt" = "Benim" }
-                { "nl" = "Benin" }
-                { "hr" = "Benin" }
-                { "fa" = "بنین" }
-                { "de" = "Benin" }
-                { "es" = "Benín" }
-                { "fr" = "Bénin" }
-                { "ja" = "ベナン" }
-                { "it" = "Benin" }
-                { "zh-CN" = "贝宁" }
-                { "tr" = "Benin" }
-                { "ru" = "Бенин" }
-                { "uk" = "Бенін" }
-                { "pl" = "Benin" }
+                ["ko"] = "베냉",
+                ["pt-BR"] = "Benin",
+                ["pt"] = "Benim",
+                ["nl"] = "Benin",
+                ["hr"] = "Benin",
+                ["fa"] = "بنین",
+                ["de"] = "Benin",
+                ["es"] = "Benín",
+                ["fr"] = "Bénin",
+                ["ja"] = "ベナン",
+                ["it"] = "Benin",
+                ["zh-CN"] = "贝宁",
+                ["tr"] = "Benin",
+                ["ru"] = "Бенин",
+                ["uk"] = "Бенін",
+                ["pl"] = "Benin"
             },
             States = new()
             {
@@ -88,7 +88,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Natitingou", Latitude = "10.30416000", Longitude = "1.37962000" },
                         new() { Id = 3, Name = "Tanguieta", Latitude = "11.03621000", Longitude = "1.41757000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -106,7 +106,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Hinvi", Latitude = "6.76667000", Longitude = "2.16667000" },
                         new() { Id = 5, Name = "Ouidah", Latitude = "6.36307000", Longitude = "2.08506000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -124,7 +124,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Parakou", Latitude = "9.33716000", Longitude = "2.63031000" },
                         new() { Id = 5, Name = "Tchaourou", Latitude = "8.88649000", Longitude = "2.59753000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -141,7 +141,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Savalou", Latitude = "7.92807000", Longitude = "1.97558000" },
                         new() { Id = 4, Name = "Savé", Latitude = "8.03424000", Longitude = "2.48660000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -157,7 +157,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Commune of Djougou", Latitude = "9.64300000", Longitude = "1.89600000" },
                         new() { Id = 3, Name = "Djougou", Latitude = "9.70853000", Longitude = "1.66598000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -172,7 +172,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Djakotomey", Latitude = "6.90000000", Longitude = "1.71667000" },
                         new() { Id = 2, Name = "Dogbo", Latitude = "6.79911000", Longitude = "1.78073000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -186,7 +186,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Cotonou", Latitude = "6.36536000", Longitude = "2.41833000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -201,7 +201,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Commune of Athieme", Latitude = "6.56924000", Longitude = "1.70259000" },
                         new() { Id = 2, Name = "Lokossa", Latitude = "6.63869000", Longitude = "1.71674000" }
                     }
-                }
+                },
 
                 new()
                 {

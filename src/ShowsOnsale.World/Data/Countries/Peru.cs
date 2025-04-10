@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "페루" },
-                { "pt-BR" = "Peru" }
-                { "pt" = "Peru" }
-                { "nl" = "Peru" }
-                { "hr" = "Peru" }
-                { "fa" = "پرو" }
-                { "de" = "Peru" }
-                { "es" = "Perú" }
-                { "fr" = "Pérou" }
-                { "ja" = "ペルー" }
-                { "it" = "Perù" }
-                { "zh-CN" = "秘鲁" }
-                { "tr" = "Peru" }
-                { "ru" = "Перу" }
-                { "uk" = "Перу" }
-                { "pl" = "Peru" }
+                ["ko"] = "페루",
+                ["pt-BR"] = "Peru",
+                ["pt"] = "Peru",
+                ["nl"] = "Peru",
+                ["hr"] = "Peru",
+                ["fa"] = "پرو",
+                ["de"] = "Peru",
+                ["es"] = "Perú",
+                ["fr"] = "Pérou",
+                ["ja"] = "ペルー",
+                ["it"] = "Perù",
+                ["zh-CN"] = "秘鲁",
+                ["tr"] = "Peru",
+                ["ru"] = "Перу",
+                ["uk"] = "Перу",
+                ["pl"] = "Peru"
             },
             States = new()
             {
@@ -145,7 +145,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "San Jerónimo", Latitude = "-13.65138000", Longitude = "-73.36388000" },
                         new() { Id = 10, Name = "Talavera", Latitude = "-13.65306000", Longitude = "-73.42917000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -185,7 +185,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 26, Name = "Vizcachane", Latitude = "-15.80861000", Longitude = "-71.20111000" },
                         new() { Id = 27, Name = "Yura", Latitude = "-16.25223000", Longitude = "-71.67969000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -216,7 +216,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 17, Name = "San Miguel", Latitude = "-13.01250000", Longitude = "-73.98083000" },
                         new() { Id = 18, Name = "Tambo", Latitude = "-14.79847000", Longitude = "-73.92438000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -248,7 +248,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 18, Name = "Provincia de Santa Cruz", Latitude = "-6.83333000", Longitude = "-79.00000000" },
                         new() { Id = 19, Name = "San Ignacio", Latitude = "-5.14583000", Longitude = "-79.00139000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -262,7 +262,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Callao", Latitude = "-12.05659000", Longitude = "-77.11814000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -328,7 +328,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 52, Name = "Urubamba", Latitude = "-13.30472000", Longitude = "-72.11583000" },
                         new() { Id = 53, Name = "Yanaoca", Latitude = "-14.21806000", Longitude = "-71.43167000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -350,7 +350,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Provincia de Huancavelica", Latitude = "-12.66667000", Longitude = "-75.25000000" },
                         new() { Id = 9, Name = "Provincia de Tayacaja", Latitude = "-12.25000000", Longitude = "-74.75000000" }
                     }
-                }
+                },
 
                 new()
                 {

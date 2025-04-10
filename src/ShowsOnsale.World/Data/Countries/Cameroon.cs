@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "카메룬" },
-                { "pt-BR" = "Camarões" }
-                { "pt" = "Camarões" }
-                { "nl" = "Kameroen" }
-                { "hr" = "Kamerun" }
-                { "fa" = "کامرون" }
-                { "de" = "Kamerun" }
-                { "es" = "Camerún" }
-                { "fr" = "Cameroun" }
-                { "ja" = "カメルーン" }
-                { "it" = "Camerun" }
-                { "zh-CN" = "喀麦隆" }
-                { "tr" = "Kamerun" }
-                { "ru" = "Камерун" }
-                { "uk" = "Камерун" }
-                { "pl" = "Kamerun" }
+                ["ko"] = "카메룬",
+                ["pt-BR"] = "Camarões",
+                ["pt"] = "Camarões",
+                ["nl"] = "Kameroen",
+                ["hr"] = "Kamerun",
+                ["fa"] = "کامرون",
+                ["de"] = "Kamerun",
+                ["es"] = "Camerún",
+                ["fr"] = "Cameroun",
+                ["ja"] = "カメルーン",
+                ["it"] = "Camerun",
+                ["zh-CN"] = "喀麦隆",
+                ["tr"] = "Kamerun",
+                ["ru"] = "Камерун",
+                ["uk"] = "Камерун",
+                ["pl"] = "Kamerun"
             },
             States = new()
             {
@@ -120,7 +120,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 25, Name = "Yaoundé", Latitude = "3.86667000", Longitude = "11.51667000" },
                         new() { Id = 26, Name = "Yoko", Latitude = "5.53333000", Longitude = "12.31667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -144,7 +144,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Ndelele", Latitude = "4.04065000", Longitude = "14.92501000" },
                         new() { Id = 11, Name = "Yokadouma", Latitude = "3.51667000", Longitude = "15.05000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -169,7 +169,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 11, Name = "Mora", Latitude = "11.04611000", Longitude = "14.14011000" },
                         new() { Id = 12, Name = "Yagoua", Latitude = "10.34107000", Longitude = "15.23288000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -198,7 +198,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 15, Name = "Penja", Latitude = "4.63911000", Longitude = "9.67987000" },
                         new() { Id = 16, Name = "Yabassi", Latitude = "4.45697000", Longitude = "9.96822000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -221,7 +221,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Rey Bouba", Latitude = "8.67240000", Longitude = "14.17860000" },
                         new() { Id = 10, Name = "Tcholliré", Latitude = "8.40220000", Longitude = "14.16980000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -247,7 +247,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "Njinikom", Latitude = "6.23333000", Longitude = "10.28333000" },
                         new() { Id = 13, Name = "Wum", Latitude = "6.38333000", Longitude = "10.06667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -268,7 +268,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Mvila", Latitude = "2.79796000", Longitude = "11.39434000" },
                         new() { Id = 8, Name = "Sangmélima", Latitude = "2.93333000", Longitude = "11.98333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -295,7 +295,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 13, Name = "Nguti", Latitude = "5.32990000", Longitude = "9.41850000" },
                         new() { Id = 14, Name = "Tiko", Latitude = "4.07500000", Longitude = "9.36005000" }
                     }
-                }
+                },
 
                 new()
                 {

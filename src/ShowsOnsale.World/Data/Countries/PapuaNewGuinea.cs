@@ -39,22 +39,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "파푸아뉴기니" },
-                { "pt-BR" = "Papua Nova Guiné" }
-                { "pt" = "Papua Nova Guiné" }
-                { "nl" = "Papoea-Nieuw-Guinea" }
-                { "hr" = "Papua Nova Gvineja" }
-                { "fa" = "پاپوآ گینه نو" }
-                { "de" = "Papua-Neuguinea" }
-                { "es" = "Papúa Nueva Guinea" }
-                { "fr" = "Papouasie-Nouvelle-Guinée" }
-                { "ja" = "パプアニューギニア" }
-                { "it" = "Papua Nuova Guinea" }
-                { "zh-CN" = "巴布亚新几内亚" }
-                { "tr" = "Papua Yeni Gine" }
-                { "ru" = "Папуа - Новая Гвинея" }
-                { "uk" = "Папуа-Нова Гвінея" }
-                { "pl" = "Papua-Nowa Gwinea" }
+                ["ko"] = "파푸아뉴기니",
+                ["pt-BR"] = "Papua Nova Guiné",
+                ["pt"] = "Papua Nova Guiné",
+                ["nl"] = "Papoea-Nieuw-Guinea",
+                ["hr"] = "Papua Nova Gvineja",
+                ["fa"] = "پاپوآ گینه نو",
+                ["de"] = "Papua-Neuguinea",
+                ["es"] = "Papúa Nueva Guinea",
+                ["fr"] = "Papouasie-Nouvelle-Guinée",
+                ["ja"] = "パプアニューギニア",
+                ["it"] = "Papua Nuova Guinea",
+                ["zh-CN"] = "巴布亚新几内亚",
+                ["tr"] = "Papua Yeni Gine",
+                ["ru"] = "Папуа - Новая Гвинея",
+                ["uk"] = "Папуа-Нова Гвінея",
+                ["pl"] = "Papua-Nowa Gwinea"
             },
             States = new()
             {
@@ -112,7 +112,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Kundiawa", Latitude = "-5.91667000", Longitude = "145.05000000" },
                         new() { Id = 6, Name = "Sinasina Yonggamugl", Latitude = "-6.08333000", Longitude = "145.01667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -129,7 +129,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Pomio", Latitude = "-5.50000000", Longitude = "151.33333000" },
                         new() { Id = 4, Name = "Rabaul", Latitude = "-4.18333000", Longitude = "152.16667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -142,7 +142,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -163,7 +163,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Okapa", Latitude = "-6.63333000", Longitude = "145.50000000" },
                         new() { Id = 8, Name = "Unggai Bena", Latitude = "-6.11667000", Longitude = "145.51667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -182,7 +182,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Wabag", Latitude = "-5.33333000", Longitude = "143.65000000" },
                         new() { Id = 6, Name = "Wapenamanda", Latitude = "-5.66667000", Longitude = "143.91667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -197,7 +197,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Kerema", Latitude = "-7.79600000", Longitude = "146.09300000" },
                         new() { Id = 2, Name = "Kikori", Latitude = "-7.25000000", Longitude = "144.33333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -214,7 +214,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Tari", Latitude = "-5.84500000", Longitude = "142.94667000" },
                         new() { Id = 4, Name = "Tari Pori", Latitude = "-6.28333000", Longitude = "142.83333000" }
                     }
-                }
+                },
 
                 new()
                 {

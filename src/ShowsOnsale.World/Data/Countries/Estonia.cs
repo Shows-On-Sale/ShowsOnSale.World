@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "에스토니아" },
-                { "pt-BR" = "Estônia" }
-                { "pt" = "Estónia" }
-                { "nl" = "Estland" }
-                { "hr" = "Estonija" }
-                { "fa" = "استونی" }
-                { "de" = "Estland" }
-                { "es" = "Estonia" }
-                { "fr" = "Estonie" }
-                { "ja" = "エストニア" }
-                { "it" = "Estonia" }
-                { "zh-CN" = "爱沙尼亚" }
-                { "tr" = "Estonya" }
-                { "ru" = "Эстония" }
-                { "uk" = "Естонія" }
-                { "pl" = "Estonia" }
+                ["ko"] = "에스토니아",
+                ["pt-BR"] = "Estônia",
+                ["pt"] = "Estónia",
+                ["nl"] = "Estland",
+                ["hr"] = "Estonija",
+                ["fa"] = "استونی",
+                ["de"] = "Estland",
+                ["es"] = "Estonia",
+                ["fr"] = "Estonie",
+                ["ja"] = "エストニア",
+                ["it"] = "Estonia",
+                ["zh-CN"] = "爱沙尼亚",
+                ["tr"] = "Estonya",
+                ["ru"] = "Эстония",
+                ["uk"] = "Естонія",
+                ["pl"] = "Estonia"
             },
             States = new()
             {
@@ -118,7 +118,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kärdla", Latitude = "58.99778000", Longitude = "22.74917000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -145,7 +145,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 13, Name = "Toila", Latitude = "59.42127000", Longitude = "27.50807000" },
                         new() { Id = 14, Name = "Voka", Latitude = "59.40776000", Longitude = "27.58263000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -165,7 +165,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Türi", Latitude = "58.80861000", Longitude = "25.43250000" },
                         new() { Id = 7, Name = "Türi vald", Latitude = "58.74143000", Longitude = "25.46443000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -183,7 +183,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Põltsamaa", Latitude = "58.65250000", Longitude = "25.97056000" },
                         new() { Id = 5, Name = "Põltsamaa vald", Latitude = "58.64067000", Longitude = "26.00957000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -203,7 +203,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Uuemõisa", Latitude = "58.93944000", Longitude = "23.58944000" },
                         new() { Id = 7, Name = "Vormsi vald", Latitude = "58.99986000", Longitude = "23.23408000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -236,7 +236,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 19, Name = "Vinni vald", Latitude = "59.23744000", Longitude = "26.62261000" },
                         new() { Id = 20, Name = "Viru-Nigula vald", Latitude = "59.46387000", Longitude = "26.58585000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -265,7 +265,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 15, Name = "Uulu", Latitude = "58.28361000", Longitude = "24.58722000" },
                         new() { Id = 16, Name = "Vändra", Latitude = "58.64806000", Longitude = "25.03611000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -284,7 +284,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Räpina", Latitude = "58.09806000", Longitude = "27.46361000" },
                         new() { Id = 6, Name = "Räpina vald", Latitude = "58.10777000", Longitude = "27.38580000" }
                     }
-                }
+                },
 
                 new()
                 {

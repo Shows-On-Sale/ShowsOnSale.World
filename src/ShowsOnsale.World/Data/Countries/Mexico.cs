@@ -35,35 +35,35 @@ namespace ShowsOnSale.World.Data.Countries
             Timezones = new()
             {
                 new() { ZoneName = "America/Bahia_Banderas", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" },
-                new() { ZoneName = "America/Cancun", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "EST", TzName = "Eastern Standard Time (North America" }
-                new() { ZoneName = "America/Chihuahua", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America" }
-                new() { ZoneName = "America/Hermosillo", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America" }
-                new() { ZoneName = "America/Matamoros", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" }
-                new() { ZoneName = "America/Mazatlan", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America" }
-                new() { ZoneName = "America/Merida", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" }
-                new() { ZoneName = "America/Mexico_City", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" }
-                new() { ZoneName = "America/Monterrey", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" }
+                new() { ZoneName = "America/Cancun", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "EST", TzName = "Eastern Standard Time (North America" },
+                new() { ZoneName = "America/Chihuahua", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America" },
+                new() { ZoneName = "America/Hermosillo", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America" },
+                new() { ZoneName = "America/Matamoros", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" },
+                new() { ZoneName = "America/Mazatlan", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America" },
+                new() { ZoneName = "America/Merida", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" },
+                new() { ZoneName = "America/Mexico_City", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" },
+                new() { ZoneName = "America/Monterrey", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" },
                 new() { ZoneName = "America/Ojinaga", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America" },
                 new() { ZoneName = "America/Tijuana", GmtOffset = -28800, GmtOffsetName = "UTC-08:00", Abbreviation = "PST", TzName = "Pacific Standard Time (North America" }
             },
             Translations = new()
             {
-                { "ko" = "멕시코" },
-                { "pt-BR" = "México" }
-                { "pt" = "México" }
-                { "nl" = "Mexico" }
-                { "hr" = "Meksiko" }
-                { "fa" = "مکزیک" }
-                { "de" = "Mexiko" }
-                { "es" = "México" }
-                { "fr" = "Mexique" }
-                { "ja" = "メキシコ" }
-                { "it" = "Messico" }
-                { "zh-CN" = "墨西哥" }
-                { "tr" = "Meksika" }
-                { "ru" = "Мексика" }
-                { "uk" = "Мексика" }
-                { "pl" = "Meksyk" }
+                ["ko"] = "멕시코",
+                ["pt-BR"] = "México",
+                ["pt"] = "México",
+                ["nl"] = "Mexico",
+                ["hr"] = "Meksiko",
+                ["fa"] = "مکزیک",
+                ["de"] = "Mexiko",
+                ["es"] = "México",
+                ["fr"] = "Mexique",
+                ["ja"] = "メキシコ",
+                ["it"] = "Messico",
+                ["zh-CN"] = "墨西哥",
+                ["tr"] = "Meksika",
+                ["ru"] = "Мексика",
+                ["uk"] = "Мексика",
+                ["pl"] = "Meksyk"
             },
             States = new()
             {
@@ -408,7 +408,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 72, Name = "Xpujil", Latitude = "18.50760000", Longitude = "-89.39437000" },
                         new() { Id = 73, Name = "Zoh-Laguna", Latitude = "18.59306000", Longitude = "-89.41714000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -955,7 +955,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 533, Name = "Zequentic", Latitude = "16.71694000", Longitude = "-92.82667000" },
                         new() { Id = 534, Name = "Zinacantán", Latitude = "16.76020000", Longitude = "-92.72257000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1116,7 +1116,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 147, Name = "Valle del Rosario", Latitude = "27.31881000", Longitude = "-106.29551000" },
                         new() { Id = 148, Name = "Yécora", Latitude = "28.37154000", Longitude = "-108.92781000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1167,7 +1167,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 37, Name = "Venustiano Carranza", Latitude = "19.44361000", Longitude = "-99.10499000" },
                         new() { Id = 38, Name = "Xochimilco", Latitude = "19.25465000", Longitude = "-99.10356000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1291,7 +1291,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 110, Name = "Virginias", Latitude = "25.80083000", Longitude = "-103.27235000" },
                         new() { Id = 111, Name = "Zaragoza", Latitude = "28.49320000", Longitude = "-100.92230000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1338,7 +1338,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 33, Name = "Venustiano Carranza", Latitude = "19.01112000", Longitude = "-104.11033000" },
                         new() { Id = 34, Name = "Zacualpan", Latitude = "19.36318000", Longitude = "-103.82433000" }
                     }
-                }
+                },
 
                 new()
                 {

@@ -42,6 +42,57 @@ function Get-SanitizedName {
     return $sanitized
 }
 
+# Function to escape string for C# code
+function Get-EscapedString {
+    param([string]$text)
+    
+    if ($text -eq $null) {
+        return ""
+    }
+    
+    # Replace double quotes with escaped double quotes
+    return $text -replace '"', '\"'
+}
+
+# Function to safely convert to integer
+function Get-IntegerValue {
+    param($value)
+    
+    Write-Host "DEBUG: Get-IntegerValue called with value: $value (Type: $($value.GetType()))"
+    
+    if ($null -eq $value) {
+        Write-Host "DEBUG: Value is null, returning 0"
+        return 0
+    }
+    
+    # If it's already an integer, return it
+    if ($value -is [int]) {
+        Write-Host "DEBUG: Value is already an integer: $value"
+        return $value
+    }
+    
+    # If it's an array, try to get the first non-null value
+    if ($value -is [array]) {
+        Write-Host "DEBUG: Value is an array with $($value.Count) elements"
+        $firstValue = $value | Where-Object { $null -ne $_ } | Select-Object -First 1
+        if ($null -eq $firstValue) {
+            Write-Host "DEBUG: No non-null values found in array, returning 0"
+            return 0
+        }
+        Write-Host "DEBUG: Using first non-null value from array: $firstValue"
+        $value = $firstValue
+    }
+    
+    # Try to parse as integer
+    if ([int]::TryParse($value.ToString(), [ref]$null)) {
+        Write-Host "DEBUG: Successfully parsed as integer: $value"
+        return [int]$value
+    }
+    
+    Write-Host "DEBUG: Failed to parse as integer, returning 0"
+    return 0
+}
+
 # Function to generate C# code from JSON data
 function Generate-WorldData {
     $jsonPath = "countries-states-cities-database/json/countries+states+cities.json"
@@ -97,14 +148,19 @@ namespace ShowsOnSale.World.Data
     Set-Content $mainOutputPath $initialCode -Encoding UTF8
     
     # Process each country
-    $totalCountries = $jsonData.Count
-    $currentCountry = 0
+    $totalCountries = [int]$jsonData.Count
+    $currentCountry = [int]0
     
     foreach ($country in $jsonData) {
         $currentCountry++
         $countryName = Get-SanitizedName $country.name
         $countryFilePath = Join-Path $outputDir "$countryName.cs"
         Write-Host "Processing country $currentCountry of $totalCountries : $($country.name)"
+        
+        # Debug country data
+        Write-Host "DEBUG: Country data:"
+        Write-Host "DEBUG: - region_id: $($country.region_id) (Type: $($country.region_id.GetType()))"
+        Write-Host "DEBUG: - subregion_id: $($country.subregion_id) (Type: $($country.subregion_id.GetType()))"
         
         # Generate country file
         $countryCode = @"
@@ -122,22 +178,22 @@ namespace ShowsOnSale.World.Data.Countries
         public static Country Data { get; } = new()
         {
             Id = $($currentCountry),
-            Name = "$($country.name -replace '"', '\"')",
+            Name = "$(Get-EscapedString $country.name)",
             Iso3 = "$($country.iso3)",
             Iso2 = "$($country.iso2)",
             NumericCode = "$($country.numeric_code -eq $null ? "" : $country.numeric_code)",
             PhoneCode = "$($country.phonecode -eq $null ? "" : $country.phonecode)",
-            Capital = "$($country.capital -eq $null ? "" : ($country.capital -replace '"', '\"'))",
-            Currency = "$($country.currency -eq $null ? "" : $country.currency)",
-            CurrencyName = "$($country.currency_name -eq $null ? "" : ($country.currency_name -replace '"', '\"'))",
+            Capital = "$(Get-EscapedString $country.capital)",
+            Currency = "$($country.currency)",
+            CurrencyName = "$(Get-EscapedString $country.currency_name)",
             CurrencySymbol = "$($country.currency_symbol -eq $null ? "" : $country.currency_symbol)",
             Tld = "$($country.tld -eq $null ? "" : $country.tld)",
-            Native = "$($country.native -eq $null ? "" : ($country.native -replace '"', '\"'))",
-            Region = "$($country.region -eq $null ? "" : ($country.region -replace '"', '\"'))",
-            RegionId = $($country.region_id -eq $null ? 0 : $country.region_id),
-            Subregion = "$($country.subregion -eq $null ? "" : ($country.subregion -replace '"', '\"'))",
-            SubregionId = $($country.subregion_id -eq $null ? 0 : $country.subregion_id),
-            Nationality = "$($country.nationality -eq $null ? "" : ($country.nationality -replace '"', '\"'))",
+            Native = "$(Get-EscapedString $country.native)",
+            Region = "$(Get-EscapedString $country.region)",
+            RegionId = $(Get-IntegerValue $country.region_id),
+            Subregion = "$(Get-EscapedString $country.subregion)",
+            SubregionId = $(Get-IntegerValue $country.subregion_id),
+            Nationality = "$(Get-EscapedString $country.nationality)",
             Latitude = "$($country.latitude -eq $null ? "" : $country.latitude)",
             Longitude = "$($country.longitude -eq $null ? "" : $country.longitude)",
             Emoji = "$($country.emoji -eq $null ? "" : $country.emoji)",
@@ -149,19 +205,22 @@ namespace ShowsOnSale.World.Data.Countries
         Set-Content $countryFilePath $countryCode -Encoding UTF8
         
         # Add timezones as single-line entries
-        $timezoneCount = $country.timezones.Count
-        $currentTimezone = 0
+        $timezoneCount = [int]$country.timezones.Count
+        $currentTimezone = [int]0
         $timezoneEntries = @()
         
         foreach ($timezone in $country.timezones) {
             $currentTimezone++
-            $zoneName = $timezone.zoneName -eq $null ? "" : ($timezone.zoneName -replace '"', '\"')
-            $gmtOffset = $timezone.gmtOffset -eq $null ? 0 : $timezone.gmtOffset
-            $gmtOffsetName = $timezone.gmtOffsetName -eq $null ? "" : ($timezone.gmtOffsetName -replace '"', '\"')
+            $zoneName = Get-EscapedString $timezone.zoneName
+            $gmtOffset = Get-IntegerValue $timezone.gmtOffset
+            $gmtOffsetName = Get-EscapedString $timezone.gmtOffsetName
             $abbreviation = $timezone.abbreviation -eq $null ? "" : $timezone.abbreviation
-            $tzName = $timezone.tzName -eq $null ? "" : ($timezone.tzName -replace '"', '\"')
+            $tzName = Get-EscapedString $timezone.tzName
             
-            $timezoneEntry = "                new() { ZoneName = `"$zoneName`", GmtOffset = $gmtOffset, GmtOffsetName = `"$gmtOffsetName`", Abbreviation = `"$abbreviation`", TzName = `"$tzName`" }$(if ([string]$currentTimezone -lt [string]$timezoneCount) { "," })"
+            # Simple integer comparison since variables are already cast to [int]
+            $commaValue = $currentTimezone -lt $timezoneCount ? "," : ""
+            
+            $timezoneEntry = "                new() { ZoneName = `"$zoneName`", GmtOffset = $gmtOffset, GmtOffsetName = `"$gmtOffsetName`", Abbreviation = `"$abbreviation`", TzName = `"$tzName`" }$commaValue"
             $timezoneEntries += $timezoneEntry
         }
         
@@ -176,14 +235,27 @@ namespace ShowsOnSale.World.Data.Countries
         Add-Content $countryFilePath $translationsCode -Encoding UTF8
         
         # Add translations
-        $translationCount = $country.translations.PSObject.Properties.Count
+        Write-Host "DEBUG: Processing translations for country $($country.name)"
+        
+        # Get translations count safely
+        $translationsObj = @($country.translations.PSObject.Properties)
+        $translationCount = $translationsObj.Length
+        Write-Host "DEBUG: Found $translationCount translations"
         $currentTranslation = 0
-        foreach ($translation in $country.translations.PSObject.Properties) {
+        
+        foreach ($translation in $translationsObj) {
             $currentTranslation++
-            $translationCode = @"
-                { "$($translation.Name)" = "$($translation.Value -eq $null ? "" : ($translation.Value -replace '"', '\"'))" }$(if ([string]$currentTranslation -lt [string]$translationCount) { "," })
-"@
-            Add-Content $countryFilePath $translationCode -Encoding UTF8
+            $langCode = $translation.Name
+            $translationValue = Get-EscapedString $translation.Value
+            
+            Write-Host "DEBUG: Translation $currentTranslation of $translationCount - Language: $langCode, Value: $translationValue"
+            
+            # Add comma after every entry except the last one
+            $commaValue = if ([int]$currentTranslation -lt [int]$translationCount) { "," } else { "" }
+            
+            # Write each translation entry individually to ensure proper formatting
+            $translationEntry = "                [`"$langCode`"] = `"$translationValue`"$commaValue"
+            Add-Content $countryFilePath $translationEntry -Encoding UTF8
         }
         
         $statesStartCode = @"
@@ -194,19 +266,20 @@ namespace ShowsOnSale.World.Data.Countries
         Add-Content $countryFilePath $statesStartCode -Encoding UTF8
         
         # Process states for this country
-        $totalStates = $country.states.Count
-        $currentState = 0
+        $totalStates = [int]$country.states.Count
+        $currentState = [int]0
         
         foreach ($state in $country.states) {
             $currentState++
             Write-Host "  Processing state $currentState of $totalStates : $($state.name)"
             
+            $stateName = Get-EscapedString $state.name
             $stateCode = @"
 
                 new()
                 {
                     Id = $($currentState),
-                    Name = "$($state.name -eq $null ? "" : ($state.name -replace '"', '\"'))",
+                    Name = "$stateName",
                     StateCode = "$($state.state_code -eq $null ? "" : $state.state_code)",
                     Latitude = "$($state.latitude -eq $null ? "" : $state.latitude)",
                     Longitude = "$($state.longitude -eq $null ? "" : $state.longitude)",
@@ -218,18 +291,32 @@ namespace ShowsOnSale.World.Data.Countries
             Add-Content $countryFilePath $stateCode -Encoding UTF8
             
             # Process cities for this state
-            $totalCities = $state.cities.Count
-            $currentCity = 0
+            Write-Host "DEBUG: Starting city processing for state: $($state.name)"
+            Write-Host "DEBUG: Cities collection type: $($state.cities.GetType())"
+            
+            # Get cities count safely
+            $citiesCount = $state.cities.Count
+            if ($citiesCount -is [array]) {
+                Write-Host "DEBUG: Cities count is an array, using first element"
+                $citiesCount = $citiesCount[0]
+            }
+            $totalCities = [int]$citiesCount
+            Write-Host "DEBUG: Total cities count: $totalCities (Type: $($totalCities.GetType()))"
+            $currentCity = [int]0
             
             # Process cities in batches for better performance
-            $cityBatchSize = 1000
+            $cityBatchSize = [int]1000
+            Write-Host "DEBUG: City batch size: $cityBatchSize (Type: $($cityBatchSize.GetType()))"
+            
+            # Calculate number of batches
             $cityBatches = [Math]::Ceiling($totalCities / $cityBatchSize)
+            Write-Host "DEBUG: Number of batches: $cityBatches (Type: $($cityBatches.GetType()))"
             
             for ($batch = 0; $batch -lt $cityBatches; $batch++) {
                 $startIndex = $batch * $cityBatchSize
                 $endIndex = [Math]::Min(($batch + 1) * $cityBatchSize, $totalCities)
                 
-                Write-Host "    Processing cities batch $($batch + 1) of $cityBatches ($startIndex to $endIndex)"
+                Write-Host "DEBUG: Processing batch $($batch + 1) - Index range: $startIndex to $endIndex"
                 
                 # Collect city entries for this batch
                 $cityEntries = @()
@@ -238,12 +325,31 @@ namespace ShowsOnSale.World.Data.Countries
                     $city = $state.cities[$i]
                     $currentCity = $i + 1
                     
-                    # Create single-line city entry with proper escaping
-                    $cityName = $city.name -eq $null ? "" : ($city.name -replace '"', '\"')
-                    $cityLatitude = $city.latitude -eq $null ? "" : $city.latitude
-                    $cityLongitude = $city.longitude -eq $null ? "" : $city.longitude
+                    Write-Host "DEBUG: Processing city index $i - Current city: $currentCity"
+                    Write-Host "DEBUG: City object type: $($city.GetType())"
                     
-                    $cityEntry = "                        new() { Id = $($currentCity), Name = `"$cityName`", Latitude = `"$cityLatitude`", Longitude = `"$cityLongitude`" }$(if ($currentCity -lt $totalCities) { "," })"
+                    # Create single-line city entry with proper escaping
+                    $cityName = Get-EscapedString $city.name
+                    
+                    # Handle potential array values for latitude and longitude
+                    $cityLatitude = if ($city.latitude -is [array]) {
+                        $city.latitude[0] -eq $null ? "" : $city.latitude[0]
+                    } else {
+                        $city.latitude -eq $null ? "" : $city.latitude
+                    }
+                    
+                    $cityLongitude = if ($city.longitude -is [array]) {
+                        $city.longitude[0] -eq $null ? "" : $city.longitude[0]
+                    } else {
+                        $city.longitude -eq $null ? "" : $city.longitude
+                    }
+                    
+                    Write-Host "DEBUG: City values - Name: $cityName, Lat: $cityLatitude, Long: $cityLongitude"
+                    
+                    # Simple integer comparison since variables are already cast to [int]
+                    $commaValue = $currentCity -lt $totalCities ? "," : ""
+                    
+                    $cityEntry = "                        new() { Id = $($currentCity), Name = `"$cityName`", Latitude = `"$cityLatitude`", Longitude = `"$cityLongitude`" }$commaValue"
                     $cityEntries += $cityEntry
                 }
                 
@@ -251,9 +357,12 @@ namespace ShowsOnSale.World.Data.Countries
                 Add-Content $countryFilePath $cityEntries -Encoding UTF8
             }
             
+            # Simple integer comparison since variables are already cast to [int]
+            $commaValue = $currentState -lt $totalStates ? "," : ""
+            
             $stateEndCode = @"
                     }
-                }$(if ([string]$currentState -lt [string]$totalStates) { "," })
+                }$commaValue
 "@
             
             Add-Content $countryFilePath $stateEndCode -Encoding UTF8
@@ -268,10 +377,12 @@ namespace ShowsOnSale.World.Data.Countries
         
         Add-Content $countryFilePath $countryEndCode -Encoding UTF8
         
-        # Add reference to main file
+        # Simple integer comparison since variables are already cast to [int]
+        $commaValue = $currentCountry -lt $totalCountries ? "," : ""
+        
         $mainReference = @"
 
-            Countries.$countryName.Data$(if ([string]$currentCountry -lt [string]$totalCountries) { "," })
+            Countries.$countryName.Data$commaValue
 "@
         Add-Content $mainOutputPath $mainReference -Encoding UTF8
     }
@@ -299,5 +410,7 @@ try {
     Write-Host "World data generation completed successfully!"
 } catch {
     Write-Error "An error occurred: $_"
+    Write-Host "DEBUG: Stack trace:"
+    Write-Host $_.ScriptStackTrace
     exit 1
 }

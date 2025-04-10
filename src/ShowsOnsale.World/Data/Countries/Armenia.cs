@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "아르메니아" },
-                { "pt-BR" = "Armênia" }
-                { "pt" = "Arménia" }
-                { "nl" = "Armenië" }
-                { "hr" = "Armenija" }
-                { "fa" = "ارمنستان" }
-                { "de" = "Armenien" }
-                { "es" = "Armenia" }
-                { "fr" = "Arménie" }
-                { "ja" = "アルメニア" }
-                { "it" = "Armenia" }
-                { "zh-CN" = "亚美尼亚" }
-                { "tr" = "Ermenistan" }
-                { "ru" = "Армения" }
-                { "uk" = "Вірменія" }
-                { "pl" = "Armenia" }
+                ["ko"] = "아르메니아",
+                ["pt-BR"] = "Armênia",
+                ["pt"] = "Arménia",
+                ["nl"] = "Armenië",
+                ["hr"] = "Armenija",
+                ["fa"] = "ارمنستان",
+                ["de"] = "Armenien",
+                ["es"] = "Armenia",
+                ["fr"] = "Arménie",
+                ["ja"] = "アルメニア",
+                ["it"] = "Armenia",
+                ["zh-CN"] = "亚美尼亚",
+                ["tr"] = "Ermenistan",
+                ["ru"] = "Армения",
+                ["uk"] = "Вірменія",
+                ["pl"] = "Armenia"
             },
             States = new()
             {
@@ -155,7 +155,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 52, Name = "Zangakatun", Latitude = "39.82233000", Longitude = "45.04169000" },
                         new() { Id = 53, Name = "Zorak", Latitude = "40.09168000", Longitude = "44.39447000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -222,7 +222,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 53, Name = "Yeghegnut", Latitude = "40.08893000", Longitude = "44.16669000" },
                         new() { Id = 54, Name = "Yeraskhahun", Latitude = "40.07233000", Longitude = "44.21948000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -271,7 +271,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 35, Name = "Verin Getashen", Latitude = "40.13068000", Longitude = "45.25293000" },
                         new() { Id = 36, Name = "Yeranos", Latitude = "40.20428000", Longitude = "45.19209000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -316,7 +316,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 31, Name = "Zoravan", Latitude = "40.35553000", Longitude = "44.52228000" },
                         new() { Id = 32, Name = "Zovaber", Latitude = "40.56671000", Longitude = "44.79028000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -365,7 +365,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 35, Name = "Vardablur", Latitude = "40.97083000", Longitude = "44.50889000" },
                         new() { Id = 36, Name = "Yeghegnut", Latitude = "40.90302000", Longitude = "44.63155000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -404,7 +404,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 25, Name = "Voskehask", Latitude = "40.76426000", Longitude = "43.77474000" },
                         new() { Id = 26, Name = "Yerazgavors", Latitude = "40.69505000", Longitude = "43.74722000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -431,7 +431,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 13, Name = "Tegh", Latitude = "39.55826000", Longitude = "46.48054000" },
                         new() { Id = 14, Name = "Verishen", Latitude = "39.53543000", Longitude = "46.32063000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -461,7 +461,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 16, Name = "Sarigyugh", Latitude = "41.03531000", Longitude = "45.14486000" },
                         new() { Id = 17, Name = "Voskevan", Latitude = "41.12081000", Longitude = "45.06381000" }
                     }
-                }
+                },
 
                 new()
                 {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "스리랑카" },
-                { "pt-BR" = "Sri Lanka" }
-                { "pt" = "Sri Lanka" }
-                { "nl" = "Sri Lanka" }
-                { "hr" = "Šri Lanka" }
-                { "fa" = "سری‌لانکا" }
-                { "de" = "Sri Lanka" }
-                { "es" = "Sri Lanka" }
-                { "fr" = "Sri Lanka" }
-                { "ja" = "スリランカ" }
-                { "it" = "Sri Lanka" }
-                { "zh-CN" = "斯里兰卡" }
-                { "tr" = "Sri Lanka" }
-                { "ru" = "Шри-Ланка" }
-                { "uk" = "Шрі-Ланка" }
-                { "pl" = "Sri Lanka" }
+                ["ko"] = "스리랑카",
+                ["pt-BR"] = "Sri Lanka",
+                ["pt"] = "Sri Lanka",
+                ["nl"] = "Sri Lanka",
+                ["hr"] = "Šri Lanka",
+                ["fa"] = "سری‌لانکا",
+                ["de"] = "Sri Lanka",
+                ["es"] = "Sri Lanka",
+                ["fr"] = "Sri Lanka",
+                ["ja"] = "スリランカ",
+                ["it"] = "Sri Lanka",
+                ["zh-CN"] = "斯里兰卡",
+                ["tr"] = "Sri Lanka",
+                ["ru"] = "Шри-Ланка",
+                ["uk"] = "Шрі-Ланка",
+                ["pl"] = "Sri Lanka"
             },
             States = new()
             {
@@ -108,7 +108,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -131,7 +131,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Sigiriya", Latitude = "7.94946000", Longitude = "80.75037000" },
                         new() { Id = 10, Name = "Talawakele", Latitude = "6.93710000", Longitude = "80.65810000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -156,7 +156,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 11, Name = "Seethawaka", Latitude = "6.92959912", Longitude = "80.14979867" },
                         new() { Id = 12, Name = "Thimbirigasyaya", Latitude = "6.90214217", Longitude = "79.86957578" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -178,7 +178,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Trincomalee District", Latitude = "8.58333000", Longitude = "81.08333000" },
                         new() { Id = 9, Name = "Vakarai", Latitude = "8.13333000", Longitude = "81.43333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -191,7 +191,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -204,7 +204,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

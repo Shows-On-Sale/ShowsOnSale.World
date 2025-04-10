@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "홍콩" },
-                { "pt-BR" = "Hong Kong" }
-                { "pt" = "Hong Kong" }
-                { "nl" = "Hongkong" }
-                { "hr" = "Hong Kong" }
-                { "fa" = "هنگ‌کنگ" }
-                { "de" = "Hong Kong" }
-                { "es" = "Hong Kong" }
-                { "fr" = "Hong Kong" }
-                { "ja" = "香港" }
-                { "it" = "Hong Kong" }
-                { "zh-CN" = "中国香港" }
-                { "tr" = "Hong Kong" }
-                { "ru" = "Гонконг С.А.Р." }
-                { "uk" = "Гонконг САР." }
-                { "pl" = "Hongkong S.A.R." }
+                ["ko"] = "홍콩",
+                ["pt-BR"] = "Hong Kong",
+                ["pt"] = "Hong Kong",
+                ["nl"] = "Hongkong",
+                ["hr"] = "Hong Kong",
+                ["fa"] = "هنگ‌کنگ",
+                ["de"] = "Hong Kong",
+                ["es"] = "Hong Kong",
+                ["fr"] = "Hong Kong",
+                ["ja"] = "香港",
+                ["it"] = "Hong Kong",
+                ["zh-CN"] = "中国香港",
+                ["tr"] = "Hong Kong",
+                ["ru"] = "Гонконг С.А.Р.",
+                ["uk"] = "Гонконг САР.",
+                ["pl"] = "Hongkong S.A.R."
             },
             States = new()
             {
@@ -84,7 +84,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -98,7 +98,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Tai O", Latitude = "22.24700000", Longitude = "113.86900000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -112,7 +112,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kowloon Tong", Latitude = "22.33700000", Longitude = "114.17900000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -125,7 +125,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -140,7 +140,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Kwun Tong", Latitude = "22.31000000", Longitude = "114.22500000" },
                         new() { Id = 2, Name = "Lam Tin", Latitude = "22.30700000", Longitude = "114.23500000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -154,7 +154,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Sheung Shui", Latitude = "22.50100000", Longitude = "114.12300000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -169,7 +169,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Sai Kung", Latitude = "22.38400000", Longitude = "114.27300000" },
                         new() { Id = 2, Name = "Tseung Kwan O", Latitude = "22.31900000", Longitude = "114.26300000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -185,7 +185,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Sha Tin", Latitude = "22.38300000", Longitude = "114.18800000" },
                         new() { Id = 3, Name = "Sha Tin Wai", Latitude = "22.38000000", Longitude = "114.19100000" }
                     }
-                }
+                },
 
                 new()
                 {

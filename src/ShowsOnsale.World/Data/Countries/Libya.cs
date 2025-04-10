@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "리비아" },
-                { "pt-BR" = "Líbia" }
-                { "pt" = "Líbia" }
-                { "nl" = "Libië" }
-                { "hr" = "Libija" }
-                { "fa" = "لیبی" }
-                { "de" = "Libyen" }
-                { "es" = "Libia" }
-                { "fr" = "Libye" }
-                { "ja" = "リビア" }
-                { "it" = "Libia" }
-                { "zh-CN" = "利比亚" }
-                { "tr" = "Libya" }
-                { "ru" = "Ливия" }
-                { "uk" = "Лівія" }
-                { "pl" = "Libia" }
+                ["ko"] = "리비아",
+                ["pt-BR"] = "Líbia",
+                ["pt"] = "Líbia",
+                ["nl"] = "Libië",
+                ["hr"] = "Libija",
+                ["fa"] = "لیبی",
+                ["de"] = "Libyen",
+                ["es"] = "Libia",
+                ["fr"] = "Libye",
+                ["ja"] = "リビア",
+                ["it"] = "Libia",
+                ["zh-CN"] = "利比亚",
+                ["tr"] = "Libya",
+                ["ru"] = "Ливия",
+                ["uk"] = "Лівія",
+                ["pl"] = "Libia"
             },
             States = new()
             {
@@ -105,7 +105,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Al Qubbah", Latitude = "32.75684000", Longitude = "22.24106000" },
                         new() { Id = 2, Name = "Darnah", Latitude = "32.76704000", Longitude = "22.63669000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -119,7 +119,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Ghat", Latitude = "24.96334000", Longitude = "10.18003000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -133,7 +133,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Al Bayḑā’", Latitude = "32.76272000", Longitude = "21.75506000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -151,7 +151,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Yafran", Latitude = "32.06329000", Longitude = "12.52859000" },
                         new() { Id = 5, Name = "Zintan", Latitude = "31.93155000", Longitude = "12.25291000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -165,7 +165,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Al ‘Azīzīyah", Latitude = "32.53194000", Longitude = "13.01750000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -180,7 +180,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Hūn", Latitude = "29.12684000", Longitude = "15.94772000" },
                         new() { Id = 2, Name = "Waddān", Latitude = "29.16140000", Longitude = "16.13904000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -195,7 +195,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Al Jawf", Latitude = "24.19890000", Longitude = "23.29093000" },
                         new() { Id = 2, Name = "At Tāj", Latitude = "24.20487000", Longitude = "23.28570000" }
                     }
-                }
+                },
 
                 new()
                 {

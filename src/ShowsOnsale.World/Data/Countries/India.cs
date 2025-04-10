@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "인도" },
-                { "pt-BR" = "Índia" }
-                { "pt" = "Índia" }
-                { "nl" = "India" }
-                { "hr" = "Indija" }
-                { "fa" = "هند" }
-                { "de" = "Indien" }
-                { "es" = "India" }
-                { "fr" = "Inde" }
-                { "ja" = "インド" }
-                { "it" = "India" }
-                { "zh-CN" = "印度" }
-                { "tr" = "Hindistan" }
-                { "ru" = "Индия" }
-                { "uk" = "Індія" }
-                { "pl" = "Indie" }
+                ["ko"] = "인도",
+                ["pt-BR"] = "Índia",
+                ["pt"] = "Índia",
+                ["nl"] = "India",
+                ["hr"] = "Indija",
+                ["fa"] = "هند",
+                ["de"] = "Indien",
+                ["es"] = "India",
+                ["fr"] = "Inde",
+                ["ja"] = "インド",
+                ["it"] = "India",
+                ["zh-CN"] = "印度",
+                ["tr"] = "Hindistan",
+                ["ru"] = "Индия",
+                ["uk"] = "Індія",
+                ["pl"] = "Indie"
             },
             States = new()
             {
@@ -393,7 +393,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 86, Name = "Titabar", Latitude = "26.60140000", Longitude = "94.20386000" },
                         new() { Id = 87, Name = "Udalguri", Latitude = "26.75367000", Longitude = "92.10215000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -537,7 +537,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 130, Name = "Vaishali", Latitude = "25.75000000", Longitude = "85.41667000" },
                         new() { Id = 131, Name = "Waris Aliganj", Latitude = "25.01720000", Longitude = "85.64047000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -551,7 +551,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Chandigarh", Latitude = "30.73629000", Longitude = "76.78840000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -642,7 +642,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 77, Name = "Umarkot", Latitude = "19.66529000", Longitude = "82.20629000" },
                         new() { Id = 78, Name = "Uttar Bastar Kanker", Latitude = "20.20000000", Longitude = "81.10000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -661,7 +661,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Diu", Latitude = "20.72081000", Longitude = "70.93989000" },
                         new() { Id = 6, Name = "Silvassa", Latitude = "20.27386000", Longitude = "72.99673000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -693,7 +693,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 18, Name = "South West Delhi", Latitude = "28.58060000", Longitude = "77.06720000" },
                         new() { Id = 19, Name = "West Delhi", Latitude = "28.65655000", Longitude = "77.10068000" }
                     }
-                }
+                },
 
                 new()
                 {

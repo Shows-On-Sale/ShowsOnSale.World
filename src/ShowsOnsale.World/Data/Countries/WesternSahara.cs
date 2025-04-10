@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "서사하라" },
-                { "pt-BR" = "Saara Ocidental" }
-                { "pt" = "Saara Ocidental" }
-                { "nl" = "Westelijke Sahara" }
-                { "hr" = "Zapadna Sahara" }
-                { "fa" = "جمهوری دموکراتیک عربی صحرا" }
-                { "de" = "Westsahara" }
-                { "es" = "Sahara Occidental" }
-                { "fr" = "Sahara Occidental" }
-                { "ja" = "西サハラ" }
-                { "it" = "Sahara Occidentale" }
-                { "zh-CN" = "西撒哈拉" }
-                { "tr" = "Bati Sahra" }
-                { "ru" = "Западная Сахара" }
-                { "uk" = "Західна Сахара" }
-                { "pl" = "Sahara Zachodnia" }
+                ["ko"] = "서사하라",
+                ["pt-BR"] = "Saara Ocidental",
+                ["pt"] = "Saara Ocidental",
+                ["nl"] = "Westelijke Sahara",
+                ["hr"] = "Zapadna Sahara",
+                ["fa"] = "جمهوری دموکراتیک عربی صحرا",
+                ["de"] = "Westsahara",
+                ["es"] = "Sahara Occidental",
+                ["fr"] = "Sahara Occidental",
+                ["ja"] = "西サハラ",
+                ["it"] = "Sahara Occidentale",
+                ["zh-CN"] = "西撒哈拉",
+                ["tr"] = "Bati Sahra",
+                ["ru"] = "Западная Сахара",
+                ["uk"] = "Західна Сахара",
+                ["pl"] = "Sahara Zachodnia"
             },
             States = new()
             {

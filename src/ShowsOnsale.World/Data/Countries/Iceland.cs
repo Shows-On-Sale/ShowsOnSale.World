@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "아이슬란드" },
-                { "pt-BR" = "Islândia" }
-                { "pt" = "Islândia" }
-                { "nl" = "IJsland" }
-                { "hr" = "Island" }
-                { "fa" = "ایسلند" }
-                { "de" = "Island" }
-                { "es" = "Islandia" }
-                { "fr" = "Islande" }
-                { "ja" = "アイスランド" }
-                { "it" = "Islanda" }
-                { "zh-CN" = "冰岛" }
-                { "tr" = "İzlanda" }
-                { "ru" = "Исландия" }
-                { "uk" = "Ісландія" }
-                { "pl" = "Islandia" }
+                ["ko"] = "아이슬란드",
+                ["pt-BR"] = "Islândia",
+                ["pt"] = "Islândia",
+                ["nl"] = "IJsland",
+                ["hr"] = "Island",
+                ["fa"] = "ایسلند",
+                ["de"] = "Island",
+                ["es"] = "Islandia",
+                ["fr"] = "Islande",
+                ["ja"] = "アイスランド",
+                ["it"] = "Islanda",
+                ["zh-CN"] = "冰岛",
+                ["tr"] = "İzlanda",
+                ["ru"] = "Исландия",
+                ["uk"] = "Ісландія",
+                ["pl"] = "Islandia"
             },
             States = new()
             {

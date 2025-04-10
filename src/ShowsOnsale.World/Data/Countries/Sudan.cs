@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "수단" },
-                { "pt-BR" = "Sudão" }
-                { "pt" = "Sudão" }
-                { "nl" = "Soedan" }
-                { "hr" = "Sudan" }
-                { "fa" = "سودان" }
-                { "de" = "Sudan" }
-                { "es" = "Sudán" }
-                { "fr" = "Soudan" }
-                { "ja" = "スーダン" }
-                { "it" = "Sudan" }
-                { "zh-CN" = "苏丹" }
-                { "tr" = "Sudan" }
-                { "ru" = "Судан" }
-                { "uk" = "Судан" }
-                { "pl" = "Sudan" }
+                ["ko"] = "수단",
+                ["pt-BR"] = "Sudão",
+                ["pt"] = "Sudão",
+                ["nl"] = "Soedan",
+                ["hr"] = "Sudan",
+                ["fa"] = "سودان",
+                ["de"] = "Sudan",
+                ["es"] = "Sudán",
+                ["fr"] = "Soudan",
+                ["ja"] = "スーダン",
+                ["it"] = "Sudan",
+                ["zh-CN"] = "苏丹",
+                ["tr"] = "Sudan",
+                ["ru"] = "Судан",
+                ["uk"] = "Судан",
+                ["pl"] = "Sudan"
             },
             States = new()
             {
@@ -92,7 +92,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Al Qadarif", Latitude = "14.03493000", Longitude = "35.38344000" },
                         new() { Id = 3, Name = "Doka", Latitude = "13.51667000", Longitude = "35.76667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -108,7 +108,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Ar Ruseris", Latitude = "11.86590000", Longitude = "34.38690000" },
                         new() { Id = 3, Name = "Kurmuk", Latitude = "10.55000000", Longitude = "34.28333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -122,7 +122,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Zalingei", Latitude = "12.90918000", Longitude = "23.47058000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -136,7 +136,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "El Daein", Latitude = "11.46186000", Longitude = "26.12583000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -152,7 +152,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Kassala", Latitude = "15.45099000", Longitude = "36.39998000" },
                         new() { Id = 3, Name = "Wagar", Latitude = "16.15250000", Longitude = "36.20320000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -167,7 +167,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Khartoum", Latitude = "15.55177000", Longitude = "32.53241000" },
                         new() { Id = 2, Name = "Omdurman", Latitude = "15.64453000", Longitude = "32.47773000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -183,7 +183,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Kutum", Latitude = "14.20000000", Longitude = "24.66667000" },
                         new() { Id = 3, Name = "Umm Kaddadah", Latitude = "13.60169000", Longitude = "26.68759000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -200,7 +200,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "El Obeid", Latitude = "13.18421000", Longitude = "30.21669000" },
                         new() { Id = 4, Name = "Umm Ruwaba", Latitude = "12.90610000", Longitude = "31.21580000" }
                     }
-                }
+                },
 
                 new()
                 {

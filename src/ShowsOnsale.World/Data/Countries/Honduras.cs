@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "온두라스" },
-                { "pt-BR" = "Honduras" }
-                { "pt" = "Honduras" }
-                { "nl" = "Honduras" }
-                { "hr" = "Honduras" }
-                { "fa" = "هندوراس" }
-                { "de" = "Honduras" }
-                { "es" = "Honduras" }
-                { "fr" = "Honduras" }
-                { "ja" = "ホンジュラス" }
-                { "it" = "Honduras" }
-                { "zh-CN" = "洪都拉斯" }
-                { "tr" = "Honduras" }
-                { "ru" = "Гондурас" }
-                { "uk" = "Гондурас" }
-                { "pl" = "Honduras" }
+                ["ko"] = "온두라스",
+                ["pt-BR"] = "Honduras",
+                ["pt"] = "Honduras",
+                ["nl"] = "Honduras",
+                ["hr"] = "Honduras",
+                ["fa"] = "هندوراس",
+                ["de"] = "Honduras",
+                ["es"] = "Honduras",
+                ["fr"] = "Honduras",
+                ["ja"] = "ホンジュラス",
+                ["it"] = "Honduras",
+                ["zh-CN"] = "洪都拉斯",
+                ["tr"] = "Honduras",
+                ["ru"] = "Гондурас",
+                ["uk"] = "Гондурас",
+                ["pl"] = "Honduras"
             },
             States = new()
             {
@@ -110,7 +110,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Savannah Bight", Latitude = "16.45000000", Longitude = "-85.85000000" },
                         new() { Id = 8, Name = "Utila", Latitude = "16.10026000", Longitude = "-86.93070000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -148,7 +148,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 24, Name = "Santa Ana de Yusguare", Latitude = "13.30056000", Longitude = "-87.11389000" },
                         new() { Id = 25, Name = "Santa Cruz", Latitude = "13.25806000", Longitude = "-87.34833000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -187,7 +187,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 25, Name = "Trujillo", Latitude = "15.91667000", Longitude = "-85.95417000" },
                         new() { Id = 26, Name = "Zamora", Latitude = "15.63333000", Longitude = "-86.06667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -236,7 +236,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 35, Name = "Valle de Ángeles", Latitude = "14.50000000", Longitude = "-87.63333000" },
                         new() { Id = 36, Name = "Villa de San Antonio", Latitude = "14.31667000", Longitude = "-87.61667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -290,7 +290,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 40, Name = "Trinidad de Copán", Latitude = "14.95000000", Longitude = "-88.75000000" },
                         new() { Id = 41, Name = "Veracruz", Latitude = "14.88343000", Longitude = "-88.78570000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -359,7 +359,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 55, Name = "Travesía", Latitude = "15.86667000", Longitude = "-87.90000000" },
                         new() { Id = 56, Name = "Villanueva", Latitude = "15.31667000", Longitude = "-88.00000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -404,7 +404,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 31, Name = "Yauyupe", Latitude = "13.74867000", Longitude = "-87.07610000" },
                         new() { Id = 32, Name = "Yuscarán", Latitude = "13.95708000", Longitude = "-86.83170000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -469,7 +469,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 51, Name = "Yaguacire", Latitude = "14.01667000", Longitude = "-87.21667000" },
                         new() { Id = 52, Name = "Zambrano", Latitude = "14.26667000", Longitude = "-87.40000000" }
                     }
-                }
+                },
 
                 new()
                 {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "니제르" },
-                { "pt-BR" = "Níger" }
-                { "pt" = "Níger" }
-                { "nl" = "Niger" }
-                { "hr" = "Niger" }
-                { "fa" = "نیجر" }
-                { "de" = "Niger" }
-                { "es" = "Níger" }
-                { "fr" = "Niger" }
-                { "ja" = "ニジェール" }
-                { "it" = "Niger" }
-                { "zh-CN" = "尼日尔" }
-                { "tr" = "Nijer" }
-                { "ru" = "Нигер" }
-                { "uk" = "Нігер" }
-                { "pl" = "Niger" }
+                ["ko"] = "니제르",
+                ["pt-BR"] = "Níger",
+                ["pt"] = "Níger",
+                ["nl"] = "Niger",
+                ["hr"] = "Niger",
+                ["fa"] = "نیجر",
+                ["de"] = "Niger",
+                ["es"] = "Níger",
+                ["fr"] = "Niger",
+                ["ja"] = "ニジェール",
+                ["it"] = "Niger",
+                ["zh-CN"] = "尼日尔",
+                ["tr"] = "Nijer",
+                ["ru"] = "Нигер",
+                ["uk"] = "Нігер",
+                ["pl"] = "Niger"
             },
             States = new()
             {

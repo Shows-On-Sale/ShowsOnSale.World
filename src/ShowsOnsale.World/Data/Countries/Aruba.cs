@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "아루바" },
-                { "pt-BR" = "Aruba" }
-                { "pt" = "Aruba" }
-                { "nl" = "Aruba" }
-                { "hr" = "Aruba" }
-                { "fa" = "آروبا" }
-                { "de" = "Aruba" }
-                { "es" = "Aruba" }
-                { "fr" = "Aruba" }
-                { "ja" = "アルバ" }
-                { "it" = "Aruba" }
-                { "zh-CN" = "阿鲁巴" }
-                { "tr" = "Aruba" }
-                { "ru" = "Аруба" }
-                { "uk" = "Аруба" }
-                { "pl" = "Aruba" }
+                ["ko"] = "아루바",
+                ["pt-BR"] = "Aruba",
+                ["pt"] = "Aruba",
+                ["nl"] = "Aruba",
+                ["hr"] = "Aruba",
+                ["fa"] = "آروبا",
+                ["de"] = "Aruba",
+                ["es"] = "Aruba",
+                ["fr"] = "Aruba",
+                ["ja"] = "アルバ",
+                ["it"] = "Aruba",
+                ["zh-CN"] = "阿鲁巴",
+                ["tr"] = "Aruba",
+                ["ru"] = "Аруба",
+                ["uk"] = "Аруба",
+                ["pl"] = "Aruba"
             },
             States = new()
             {

@@ -35,14 +35,14 @@ namespace ShowsOnSale.World.Data.Countries
             Timezones = new()
             {
                 new() { ZoneName = "America/Araguaina", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "BRT", TzName = "Brasília Time" },
-                new() { ZoneName = "America/Bahia", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "BRT", TzName = "Brasília Time" }
-                new() { ZoneName = "America/Belem", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "BRT", TzName = "Brasília Time" }
-                new() { ZoneName = "America/Boa_Vista", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AMT", TzName = "Amazon Time (Brazil)[3" }
-                new() { ZoneName = "America/Campo_Grande", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AMT", TzName = "Amazon Time (Brazil)[3" }
-                new() { ZoneName = "America/Cuiaba", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "BRT", TzName = "Brasilia Time" }
-                new() { ZoneName = "America/Eirunepe", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "ACT", TzName = "Acre Time" }
-                new() { ZoneName = "America/Fortaleza", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "BRT", TzName = "Brasília Time" }
-                new() { ZoneName = "America/Maceio", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "BRT", TzName = "Brasília Time" }
+                new() { ZoneName = "America/Bahia", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "BRT", TzName = "Brasília Time" },
+                new() { ZoneName = "America/Belem", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "BRT", TzName = "Brasília Time" },
+                new() { ZoneName = "America/Boa_Vista", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AMT", TzName = "Amazon Time (Brazil)[3" },
+                new() { ZoneName = "America/Campo_Grande", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AMT", TzName = "Amazon Time (Brazil)[3" },
+                new() { ZoneName = "America/Cuiaba", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "BRT", TzName = "Brasilia Time" },
+                new() { ZoneName = "America/Eirunepe", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "ACT", TzName = "Acre Time" },
+                new() { ZoneName = "America/Fortaleza", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "BRT", TzName = "Brasília Time" },
+                new() { ZoneName = "America/Maceio", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "BRT", TzName = "Brasília Time" },
                 new() { ZoneName = "America/Manaus", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AMT", TzName = "Amazon Time (Brazil)" },
                 new() { ZoneName = "America/Noronha", GmtOffset = -7200, GmtOffsetName = "UTC-02:00", Abbreviation = "FNT", TzName = "Fernando de Noronha Time" },
                 new() { ZoneName = "America/Porto_Velho", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AMT", TzName = "Amazon Time (Brazil)[3" },
@@ -53,22 +53,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "브라질" },
-                { "pt-BR" = "Brasil" }
-                { "pt" = "Brasil" }
-                { "nl" = "Brazilië" }
-                { "hr" = "Brazil" }
-                { "fa" = "برزیل" }
-                { "de" = "Brasilien" }
-                { "es" = "Brasil" }
-                { "fr" = "Brésil" }
-                { "ja" = "ブラジル" }
-                { "it" = "Brasile" }
-                { "zh-CN" = "巴西" }
-                { "tr" = "Brezilya" }
-                { "ru" = "Бразилия" }
-                { "uk" = "Бразилія" }
-                { "pl" = "Brazylia" }
+                ["ko"] = "브라질",
+                ["pt-BR"] = "Brasil",
+                ["pt"] = "Brasil",
+                ["nl"] = "Brazilië",
+                ["hr"] = "Brazil",
+                ["fa"] = "برزیل",
+                ["de"] = "Brasilien",
+                ["es"] = "Brasil",
+                ["fr"] = "Brésil",
+                ["ja"] = "ブラジル",
+                ["it"] = "Brasile",
+                ["zh-CN"] = "巴西",
+                ["tr"] = "Brezilya",
+                ["ru"] = "Бразилия",
+                ["uk"] = "Бразилія",
+                ["pl"] = "Brazylia"
             },
             States = new()
             {
@@ -250,7 +250,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 15, Name = "Tartarugalzinho", Latitude = "1.26300000", Longitude = "-51.10973000" },
                         new() { Id = 16, Name = "Vitória do Jari", Latitude = "-0.95653000", Longitude = "-52.03443000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -325,7 +325,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 61, Name = "Urucará", Latitude = "-2.53639000", Longitude = "-57.76000000" },
                         new() { Id = 62, Name = "Urucurituba", Latitude = "-3.12845000", Longitude = "-58.15856000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -759,7 +759,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 420, Name = "Xique Xique", Latitude = "-10.82294000", Longitude = "-42.72815000" },
                         new() { Id = 421, Name = "Xique-Xique", Latitude = "-10.83393000", Longitude = "-42.56320000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -959,7 +959,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 186, Name = "Várzea Alegre", Latitude = "-5.35000000", Longitude = "-40.38333000" },
                         new() { Id = 187, Name = "Viçosa do Ceará", Latitude = "-3.56222000", Longitude = "-41.09222000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -974,7 +974,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Brasília", Latitude = "-15.77972000", Longitude = "-47.92972000" },
                         new() { Id = 2, Name = "Planaltina", Latitude = "-15.61791000", Longitude = "-47.64874000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1066,7 +1066,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 78, Name = "Vila Velha", Latitude = "-20.32972000", Longitude = "-40.29250000" },
                         new() { Id = 79, Name = "Vitória", Latitude = "-20.31944000", Longitude = "-40.33778000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -1325,7 +1325,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 245, Name = "Vila Boa", Latitude = "-14.97912000", Longitude = "-47.09259000" },
                         new() { Id = 246, Name = "Vila Propício", Latitude = "-15.20221000", Longitude = "-48.77569000" }
                     }
-                }
+                },
 
                 new()
                 {

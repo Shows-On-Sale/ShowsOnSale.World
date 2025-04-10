@@ -44,22 +44,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "카자흐스탄" },
-                { "pt-BR" = "Cazaquistão" }
-                { "pt" = "Cazaquistão" }
-                { "nl" = "Kazachstan" }
-                { "hr" = "Kazahstan" }
-                { "fa" = "قزاقستان" }
-                { "de" = "Kasachstan" }
-                { "es" = "Kazajistán" }
-                { "fr" = "Kazakhstan" }
-                { "ja" = "カザフスタン" }
-                { "it" = "Kazakistan" }
-                { "zh-CN" = "哈萨克斯坦" }
-                { "tr" = "Kazakistan" }
-                { "ru" = "Казахстан" }
-                { "uk" = "Казахстан" }
-                { "pl" = "Kazachstan" }
+                ["ko"] = "카자흐스탄",
+                ["pt-BR"] = "Cazaquistão",
+                ["pt"] = "Cazaquistão",
+                ["nl"] = "Kazachstan",
+                ["hr"] = "Kazahstan",
+                ["fa"] = "قزاقستان",
+                ["de"] = "Kasachstan",
+                ["es"] = "Kazajistán",
+                ["fr"] = "Kazakhstan",
+                ["ja"] = "カザフスタン",
+                ["it"] = "Kazakistan",
+                ["zh-CN"] = "哈萨克斯坦",
+                ["tr"] = "Kazakistan",
+                ["ru"] = "Казахстан",
+                ["uk"] = "Казахстан",
+                ["pl"] = "Kazachstan"
             },
             States = new()
             {
@@ -122,7 +122,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 11, Name = "Temir", Latitude = "49.14132000", Longitude = "57.12855000" },
                         new() { Id = 12, Name = "Yrghyz", Latitude = "48.61667000", Longitude = "61.26667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -156,7 +156,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 20, Name = "Ush-Tyube", Latitude = "45.25201000", Longitude = "77.98007000" },
                         new() { Id = 21, Name = "Zharkent", Latitude = "44.16660000", Longitude = "80.00655000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -170,7 +170,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Almaty", Latitude = "43.25667000", Longitude = "76.92861000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -184,7 +184,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Nur-Sultan", Latitude = "51.18010000", Longitude = "71.44598000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -210,7 +210,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "Qulsary", Latitude = "46.95307000", Longitude = "54.01978000" },
                         new() { Id = 13, Name = "Shalkar", Latitude = "48.03333000", Longitude = "48.90000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -224,7 +224,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Baikonur", Latitude = "45.61667000", Longitude = "63.31667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -267,7 +267,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 29, Name = "Zhezkent", Latitude = "50.93112000", Longitude = "81.36150000" },
                         new() { Id = 30, Name = "Zyryanovsk", Latitude = "49.72654000", Longitude = "84.27318000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -296,7 +296,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 15, Name = "Taraz", Latitude = "42.90000000", Longitude = "71.36667000" },
                         new() { Id = 16, Name = "Zhangatas", Latitude = "43.56222000", Longitude = "69.73428000" }
                     }
-                }
+                },
 
                 new()
                 {

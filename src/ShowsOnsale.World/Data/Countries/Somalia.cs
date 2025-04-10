@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "소말리아" },
-                { "pt-BR" = "Somália" }
-                { "pt" = "Somália" }
-                { "nl" = "Somalië" }
-                { "hr" = "Somalija" }
-                { "fa" = "سومالی" }
-                { "de" = "Somalia" }
-                { "es" = "Somalia" }
-                { "fr" = "Somalie" }
-                { "ja" = "ソマリア" }
-                { "it" = "Somalia" }
-                { "zh-CN" = "索马里" }
-                { "tr" = "Somali" }
-                { "ru" = "Сомали" }
-                { "uk" = "Сомалі" }
-                { "pl" = "Somalia" }
+                ["ko"] = "소말리아",
+                ["pt-BR"] = "Somália",
+                ["pt"] = "Somália",
+                ["nl"] = "Somalië",
+                ["hr"] = "Somalija",
+                ["fa"] = "سومالی",
+                ["de"] = "Somalia",
+                ["es"] = "Somalia",
+                ["fr"] = "Somalie",
+                ["ja"] = "ソマリア",
+                ["it"] = "Somalia",
+                ["zh-CN"] = "索马里",
+                ["tr"] = "Somali",
+                ["ru"] = "Сомали",
+                ["uk"] = "Сомалі",
+                ["pl"] = "Somalia"
             },
             States = new()
             {
@@ -86,7 +86,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Xuddur", Latitude = "4.12129000", Longitude = "43.88945000" },
                         new() { Id = 4, Name = "Yeed", Latitude = "4.55000000", Longitude = "43.03333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -100,7 +100,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Mogadishu", Latitude = "2.03711000", Longitude = "45.34375000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -120,7 +120,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Iskushuban", Latitude = "10.28370000", Longitude = "50.23000000" },
                         new() { Id = 7, Name = "Qandala", Latitude = "11.47197000", Longitude = "49.87282000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -135,7 +135,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Baidoa", Latitude = "3.11383000", Longitude = "43.64980000" },
                         new() { Id = 2, Name = "Buurhakaba", Latitude = "2.80257000", Longitude = "44.07805000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -151,7 +151,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Ceeldheer", Latitude = "3.84878000", Longitude = "47.18064000" },
                         new() { Id = 3, Name = "Dhuusamarreeb", Latitude = "5.53597000", Longitude = "46.38666000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -167,7 +167,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Garbahaarrey", Latitude = "3.32892000", Longitude = "42.22091000" },
                         new() { Id = 3, Name = "Luuq", Latitude = "3.80315000", Longitude = "42.54417000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -183,7 +183,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Buulobarde", Latitude = "3.85375000", Longitude = "45.56744000" },
                         new() { Id = 3, Name = "Jalalaqsi", Latitude = "3.37660000", Longitude = "45.59960000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -199,7 +199,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Jamaame", Latitude = "0.06968000", Longitude = "42.74497000" },
                         new() { Id = 3, Name = "Kismayo", Latitude = "-0.35817000", Longitude = "42.54536000" }
                     }
-                }
+                },
 
                 new()
                 {

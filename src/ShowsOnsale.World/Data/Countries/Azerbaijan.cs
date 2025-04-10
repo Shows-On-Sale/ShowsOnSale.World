@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "아제르바이잔" },
-                { "pt-BR" = "Azerbaijão" }
-                { "pt" = "Azerbaijão" }
-                { "nl" = "Azerbeidzjan" }
-                { "hr" = "Azerbajdžan" }
-                { "fa" = "آذربایجان" }
-                { "de" = "Aserbaidschan" }
-                { "es" = "Azerbaiyán" }
-                { "fr" = "Azerbaïdjan" }
-                { "ja" = "アゼルバイジャン" }
-                { "it" = "Azerbaijan" }
-                { "zh-CN" = "阿塞拜疆" }
-                { "tr" = "Azerbaycan" }
-                { "ru" = "Азербайджан" }
-                { "uk" = "Азербайджан" }
-                { "pl" = "Azerbejdżan" }
+                ["ko"] = "아제르바이잔",
+                ["pt-BR"] = "Azerbaijão",
+                ["pt"] = "Azerbaijão",
+                ["nl"] = "Azerbeidzjan",
+                ["hr"] = "Azerbajdžan",
+                ["fa"] = "آذربایجان",
+                ["de"] = "Aserbaidschan",
+                ["es"] = "Azerbaiyán",
+                ["fr"] = "Azerbaïdjan",
+                ["ja"] = "アゼルバイジャン",
+                ["it"] = "Azerbaijan",
+                ["zh-CN"] = "阿塞拜疆",
+                ["tr"] = "Azerbaycan",
+                ["ru"] = "Азербайджан",
+                ["uk"] = "Азербайджан",
+                ["pl"] = "Azerbejdżan"
             },
             States = new()
             {
@@ -176,7 +176,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -219,7 +219,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 29, Name = "Zabrat", Latitude = "40.47746000", Longitude = "49.94174000" },
                         new() { Id = 30, Name = "Zyrya", Latitude = "40.36613000", Longitude = "50.29198000" }
                     }
-                }
+                },
 
                 new()
                 {

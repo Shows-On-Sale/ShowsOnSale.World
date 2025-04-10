@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "핀란드" },
-                { "pt-BR" = "Finlândia" }
-                { "pt" = "Finlândia" }
-                { "nl" = "Finland" }
-                { "hr" = "Finska" }
-                { "fa" = "فنلاند" }
-                { "de" = "Finnland" }
-                { "es" = "Finlandia" }
-                { "fr" = "Finlande" }
-                { "ja" = "フィンランド" }
-                { "it" = "Finlandia" }
-                { "zh-CN" = "芬兰" }
-                { "tr" = "Finlandiya" }
-                { "ru" = "Финляндия" }
-                { "uk" = "Фінляндія" }
-                { "pl" = "Finlandia" }
+                ["ko"] = "핀란드",
+                ["pt-BR"] = "Finlândia",
+                ["pt"] = "Finlândia",
+                ["nl"] = "Finland",
+                ["hr"] = "Finska",
+                ["fa"] = "فنلاند",
+                ["de"] = "Finnland",
+                ["es"] = "Finlandia",
+                ["fr"] = "Finlande",
+                ["ja"] = "フィンランド",
+                ["it"] = "Finlandia",
+                ["zh-CN"] = "芬兰",
+                ["tr"] = "Finlandiya",
+                ["ru"] = "Финляндия",
+                ["uk"] = "Фінляндія",
+                ["pl"] = "Finlandia"
             },
             States = new()
             {
@@ -124,7 +124,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 29, Name = "Uurainen", Latitude = "62.50000000", Longitude = "25.45000000" },
                         new() { Id = 30, Name = "Viitasaari", Latitude = "63.06667000", Longitude = "25.86667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -148,7 +148,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Ullava", Latitude = "63.60000000", Longitude = "24.08333000" },
                         new() { Id = 11, Name = "Veteli", Latitude = "63.47839000", Longitude = "23.78285000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -214,7 +214,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 52, Name = "Velkua", Latitude = "60.46667000", Longitude = "21.66667000" },
                         new() { Id = 53, Name = "Yläne", Latitude = "60.88333000", Longitude = "22.41667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -238,7 +238,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Vuokatti", Latitude = "64.14466000", Longitude = "28.28196000" },
                         new() { Id = 11, Name = "Vuolijoki", Latitude = "64.18538000", Longitude = "26.99547000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -262,7 +262,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Pyhtää", Latitude = "60.49349000", Longitude = "26.54346000" },
                         new() { Id = 11, Name = "Virojoki", Latitude = "60.57940000", Longitude = "27.70354000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -298,7 +298,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 22, Name = "Utsjoki", Latitude = "69.90864000", Longitude = "27.02843000" },
                         new() { Id = 23, Name = "Ylitornio", Latitude = "66.30893000", Longitude = "23.67734000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -329,7 +329,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 17, Name = "Tuupovaara", Latitude = "62.48372000", Longitude = "30.62731000" },
                         new() { Id = 18, Name = "Valtimo", Latitude = "63.66667000", Longitude = "28.80000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -383,7 +383,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 40, Name = "Ylikiiminki", Latitude = "65.08333000", Longitude = "26.25000000" },
                         new() { Id = 41, Name = "Ylivieska", Latitude = "64.08333000", Longitude = "24.55000000" }
                     }
-                }
+                },
 
                 new()
                 {

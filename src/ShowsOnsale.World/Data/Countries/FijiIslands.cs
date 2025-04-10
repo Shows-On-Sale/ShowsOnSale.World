@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "피지" },
-                { "pt-BR" = "Fiji" }
-                { "pt" = "Fiji" }
-                { "nl" = "Fiji" }
-                { "hr" = "Fiđi" }
-                { "fa" = "فیجی" }
-                { "de" = "Fidschi" }
-                { "es" = "Fiyi" }
-                { "fr" = "Fidji" }
-                { "ja" = "フィジー" }
-                { "it" = "Figi" }
-                { "zh-CN" = "斐济" }
-                { "tr" = "Fiji" }
-                { "ru" = "Острова Фиджи" }
-                { "uk" = "Острови Фіджі" }
-                { "pl" = "Wyspy Fidżi" }
+                ["ko"] = "피지",
+                ["pt-BR"] = "Fiji",
+                ["pt"] = "Fiji",
+                ["nl"] = "Fiji",
+                ["hr"] = "Fiđi",
+                ["fa"] = "فیجی",
+                ["de"] = "Fidschi",
+                ["es"] = "Fiyi",
+                ["fr"] = "Fidji",
+                ["ja"] = "フィジー",
+                ["it"] = "Figi",
+                ["zh-CN"] = "斐济",
+                ["tr"] = "Fiji",
+                ["ru"] = "Острова Фиджи",
+                ["uk"] = "Острови Фіджі",
+                ["pl"] = "Wyspy Fidżi"
             },
             States = new()
             {
@@ -82,7 +82,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -95,7 +95,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -114,7 +114,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Suva", Latitude = "-18.14161000", Longitude = "178.44149000" },
                         new() { Id = 6, Name = "Tailevu Province", Latitude = "-17.83333000", Longitude = "178.50000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -131,7 +131,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Levuka", Latitude = "-18.06667000", Longitude = "179.31667000" },
                         new() { Id = 4, Name = "Lomaiviti Province", Latitude = "-17.66667000", Longitude = "178.80000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -144,7 +144,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -157,7 +157,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -170,7 +170,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -183,7 +183,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

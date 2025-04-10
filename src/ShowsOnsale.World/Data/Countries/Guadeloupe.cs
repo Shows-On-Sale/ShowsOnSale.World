@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "과들루프" },
-                { "pt-BR" = "Guadalupe" }
-                { "pt" = "Guadalupe" }
-                { "nl" = "Guadeloupe" }
-                { "hr" = "Gvadalupa" }
-                { "fa" = "جزیره گوادلوپ" }
-                { "de" = "Guadeloupe" }
-                { "es" = "Guadalupe" }
-                { "fr" = "Guadeloupe" }
-                { "ja" = "グアドループ" }
-                { "it" = "Guadeloupa" }
-                { "zh-CN" = "瓜德罗普岛" }
-                { "tr" = "Guadeloupe" }
-                { "ru" = "Гваделупа" }
-                { "uk" = "Гваделупа" }
-                { "pl" = "Gwadelupa" }
+                ["ko"] = "과들루프",
+                ["pt-BR"] = "Guadalupe",
+                ["pt"] = "Guadalupe",
+                ["nl"] = "Guadeloupe",
+                ["hr"] = "Gvadalupa",
+                ["fa"] = "جزیره گوادلوپ",
+                ["de"] = "Guadeloupe",
+                ["es"] = "Guadalupe",
+                ["fr"] = "Guadeloupe",
+                ["ja"] = "グアドループ",
+                ["it"] = "Guadeloupa",
+                ["zh-CN"] = "瓜德罗普岛",
+                ["tr"] = "Guadeloupe",
+                ["ru"] = "Гваделупа",
+                ["uk"] = "Гваделупа",
+                ["pl"] = "Gwadelupa"
             },
             States = new()
             {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "푸에르토리코" },
-                { "pt-BR" = "Porto Rico" }
-                { "pt" = "Porto Rico" }
-                { "nl" = "Puerto Rico" }
-                { "hr" = "Portoriko" }
-                { "fa" = "پورتو ریکو" }
-                { "de" = "Puerto Rico" }
-                { "es" = "Puerto Rico" }
-                { "fr" = "Porto Rico" }
-                { "ja" = "プエルトリコ" }
-                { "it" = "Porto Rico" }
-                { "zh-CN" = "波多黎各" }
-                { "tr" = "Porto Riko" }
-                { "ru" = "Пуэрто-Рико" }
-                { "uk" = "Пуерто-Ріко" }
-                { "pl" = "Portoryko" }
+                ["ko"] = "푸에르토리코",
+                ["pt-BR"] = "Porto Rico",
+                ["pt"] = "Porto Rico",
+                ["nl"] = "Puerto Rico",
+                ["hr"] = "Portoriko",
+                ["fa"] = "پورتو ریکو",
+                ["de"] = "Puerto Rico",
+                ["es"] = "Puerto Rico",
+                ["fr"] = "Porto Rico",
+                ["ja"] = "プエルトリコ",
+                ["it"] = "Porto Rico",
+                ["zh-CN"] = "波多黎各",
+                ["tr"] = "Porto Riko",
+                ["ru"] = "Пуэрто-Рико",
+                ["uk"] = "Пуерто-Ріко",
+                ["pl"] = "Portoryko"
             },
             States = new()
             {
@@ -181,7 +181,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Arroyo", Latitude = "17.99642200", Longitude = "-66.09248790" }
                     }
-                }
+                },
 
                 new()
                 {

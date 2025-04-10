@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "솔로몬 제도" },
-                { "pt-BR" = "Ilhas Salomão" }
-                { "pt" = "Ilhas Salomão" }
-                { "nl" = "Salomonseilanden" }
-                { "hr" = "Solomonski Otoci" }
-                { "fa" = "جزایر سلیمان" }
-                { "de" = "Salomonen" }
-                { "es" = "Islas Salomón" }
-                { "fr" = "Îles Salomon" }
-                { "ja" = "ソロモン諸島" }
-                { "it" = "Isole Salomone" }
-                { "zh-CN" = "所罗门群岛" }
-                { "tr" = "Solomon Adalari" }
-                { "ru" = "Соломоновы острова" }
-                { "uk" = "Соломонові острови" }
-                { "pl" = "Wyspy Salomona" }
+                ["ko"] = "솔로몬 제도",
+                ["pt-BR"] = "Ilhas Salomão",
+                ["pt"] = "Ilhas Salomão",
+                ["nl"] = "Salomonseilanden",
+                ["hr"] = "Solomonski Otoci",
+                ["fa"] = "جزایر سلیمان",
+                ["de"] = "Salomonen",
+                ["es"] = "Islas Salomón",
+                ["fr"] = "Îles Salomon",
+                ["ja"] = "ソロモン諸島",
+                ["it"] = "Isole Salomone",
+                ["zh-CN"] = "所罗门群岛",
+                ["tr"] = "Solomon Adalari",
+                ["ru"] = "Соломоновы острова",
+                ["uk"] = "Соломонові острови",
+                ["pl"] = "Wyspy Salomona"
             },
             States = new()
             {
@@ -83,7 +83,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -97,7 +97,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Honiara", Latitude = "-9.43333000", Longitude = "159.95000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -110,7 +110,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -124,7 +124,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Buala", Latitude = "-8.14497000", Longitude = "159.59212000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -138,7 +138,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kirakira", Latitude = "-10.45442000", Longitude = "161.92045000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -152,7 +152,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Auki", Latitude = "-8.76778000", Longitude = "160.69778000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -165,7 +165,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -179,7 +179,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Lata", Latitude = "-10.72500000", Longitude = "165.79722000" }
                     }
-                }
+                },
 
                 new()
                 {

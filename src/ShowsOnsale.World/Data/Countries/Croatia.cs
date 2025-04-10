@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "크로아티아" },
-                { "pt-BR" = "Croácia" }
-                { "pt" = "Croácia" }
-                { "nl" = "Kroatië" }
-                { "hr" = "Hrvatska" }
-                { "fa" = "کرواسی" }
-                { "de" = "Kroatien" }
-                { "es" = "Croacia" }
-                { "fr" = "Croatie" }
-                { "ja" = "クロアチア" }
-                { "it" = "Croazia" }
-                { "zh-CN" = "克罗地亚" }
-                { "tr" = "Hirvatistan" }
-                { "ru" = "Хорватия" }
-                { "uk" = "Хорватія" }
-                { "pl" = "Chorwacja" }
+                ["ko"] = "크로아티아",
+                ["pt-BR"] = "Croácia",
+                ["pt"] = "Croácia",
+                ["nl"] = "Kroatië",
+                ["hr"] = "Hrvatska",
+                ["fa"] = "کرواسی",
+                ["de"] = "Kroatien",
+                ["es"] = "Croacia",
+                ["fr"] = "Croatie",
+                ["ja"] = "クロアチア",
+                ["it"] = "Croazia",
+                ["zh-CN"] = "克罗地亚",
+                ["tr"] = "Hirvatistan",
+                ["ru"] = "Хорватия",
+                ["uk"] = "Хорватія",
+                ["pl"] = "Chorwacja"
             },
             States = new()
             {
@@ -176,7 +176,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 25, Name = "Žrnovo", Latitude = "42.95111000", Longitude = "17.11417000" },
                         new() { Id = 26, Name = "Župa dubrovačka", Latitude = "42.62683000", Longitude = "18.19475000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -245,7 +245,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 55, Name = "Vrsar-Orsera", Latitude = "45.15074000", Longitude = "13.60558000" },
                         new() { Id = 56, Name = "Žminj", Latitude = "45.14278000", Longitude = "13.90889000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -258,7 +258,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -292,7 +292,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 20, Name = "Sigetec", Latitude = "46.18833000", Longitude = "16.93583000" },
                         new() { Id = 21, Name = "Virje", Latitude = "46.06722000", Longitude = "16.99000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -329,7 +329,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 23, Name = "Zlatar", Latitude = "46.09417000", Longitude = "16.07083000" },
                         new() { Id = 24, Name = "Zlatar Bistrica", Latitude = "46.04788000", Longitude = "16.08527000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -352,7 +352,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Popovača", Latitude = "44.63917000", Longitude = "15.17917000" },
                         new() { Id = 10, Name = "Senj", Latitude = "44.98944000", Longitude = "14.90583000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -391,7 +391,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 25, Name = "Sveti Juraj na Bregu", Latitude = "46.42853000", Longitude = "16.38525000" },
                         new() { Id = 26, Name = "Vratišinec", Latitude = "46.47806000", Longitude = "16.45778000" }
                     }
-                }
+                },
 
                 new()
                 {

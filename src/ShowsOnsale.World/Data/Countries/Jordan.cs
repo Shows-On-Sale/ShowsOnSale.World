@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "요르단" },
-                { "pt-BR" = "Jordânia" }
-                { "pt" = "Jordânia" }
-                { "nl" = "Jordanië" }
-                { "hr" = "Jordan" }
-                { "fa" = "اردن" }
-                { "de" = "Jordanien" }
-                { "es" = "Jordania" }
-                { "fr" = "Jordanie" }
-                { "ja" = "ヨルダン" }
-                { "it" = "Giordania" }
-                { "zh-CN" = "约旦" }
-                { "tr" = "Ürdün" }
-                { "ru" = "Джордан" }
-                { "uk" = "Йорданія" }
-                { "pl" = "Jordan" }
+                ["ko"] = "요르단",
+                ["pt-BR"] = "Jordânia",
+                ["pt"] = "Jordânia",
+                ["nl"] = "Jordanië",
+                ["hr"] = "Jordan",
+                ["fa"] = "اردن",
+                ["de"] = "Jordanien",
+                ["es"] = "Jordania",
+                ["fr"] = "Jordanie",
+                ["ja"] = "ヨルダン",
+                ["it"] = "Giordania",
+                ["zh-CN"] = "约旦",
+                ["tr"] = "Ürdün",
+                ["ru"] = "Джордан",
+                ["uk"] = "Йорданія",
+                ["pl"] = "Jordan"
             },
             States = new()
             {
@@ -96,7 +96,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Umm as Summāq", Latitude = "31.88542000", Longitude = "35.85430000" },
                         new() { Id = 9, Name = "Wādī as Sīr", Latitude = "31.95450000", Longitude = "35.81831000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -111,7 +111,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Aqaba", Latitude = "29.52667000", Longitude = "35.00778000" },
                         new() { Id = 2, Name = "Tala Bay", Latitude = "29.40842000", Longitude = "34.97918000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -127,7 +127,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "As Salţ", Latitude = "32.03917000", Longitude = "35.72722000" },
                         new() { Id = 3, Name = "Yarqā", Latitude = "31.97583000", Longitude = "35.69638000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -167,7 +167,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 26, Name = "Waqqāş", Latitude = "32.54214000", Longitude = "35.60508000" },
                         new() { Id = 27, Name = "Zaḩar", Latitude = "32.56670000", Longitude = "35.77811000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -188,7 +188,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Sakib", Latitude = "32.28431000", Longitude = "35.80909000" },
                         new() { Id = 8, Name = "Sūf", Latitude = "32.31372000", Longitude = "35.83713000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -210,7 +210,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Karak City", Latitude = "31.16368000", Longitude = "35.76204000" },
                         new() { Id = 9, Name = "Safi", Latitude = "31.03608000", Longitude = "35.46544000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -230,7 +230,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Petra", Latitude = "30.32096000", Longitude = "35.47895000" },
                         new() { Id = 7, Name = "Qīr Moāv", Latitude = "31.18248000", Longitude = "35.69999000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -244,7 +244,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Mādabā", Latitude = "31.71599000", Longitude = "35.79392000" }
                     }
-                }
+                },
 
                 new()
                 {

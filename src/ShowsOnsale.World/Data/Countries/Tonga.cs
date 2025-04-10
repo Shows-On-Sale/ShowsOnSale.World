@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "통가" },
-                { "pt-BR" = "Tonga" }
-                { "pt" = "Tonga" }
-                { "nl" = "Tonga" }
-                { "hr" = "Tonga" }
-                { "fa" = "تونگا" }
-                { "de" = "Tonga" }
-                { "es" = "Tonga" }
-                { "fr" = "Tonga" }
-                { "ja" = "トンガ" }
-                { "it" = "Tonga" }
-                { "zh-CN" = "汤加" }
-                { "tr" = "Tonga" }
-                { "ru" = "Тонга" }
-                { "uk" = "Тонга" }
-                { "pl" = "Tonga" }
+                ["ko"] = "통가",
+                ["pt-BR"] = "Tonga",
+                ["pt"] = "Tonga",
+                ["nl"] = "Tonga",
+                ["hr"] = "Tonga",
+                ["fa"] = "تونگا",
+                ["de"] = "Tonga",
+                ["es"] = "Tonga",
+                ["fr"] = "Tonga",
+                ["ja"] = "トンガ",
+                ["it"] = "Tonga",
+                ["zh-CN"] = "汤加",
+                ["tr"] = "Tonga",
+                ["ru"] = "Тонга",
+                ["uk"] = "Тонга",
+                ["pl"] = "Tonga"
             },
             States = new()
             {

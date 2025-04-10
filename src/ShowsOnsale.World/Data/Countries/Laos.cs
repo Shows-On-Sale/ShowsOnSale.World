@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "라오스" },
-                { "pt-BR" = "Laos" }
-                { "pt" = "Laos" }
-                { "nl" = "Laos" }
-                { "hr" = "Laos" }
-                { "fa" = "لائوس" }
-                { "de" = "Laos" }
-                { "es" = "Laos" }
-                { "fr" = "Laos" }
-                { "ja" = "ラオス人民民主共和国" }
-                { "it" = "Laos" }
-                { "zh-CN" = "寮人民民主共和国" }
-                { "tr" = "Laos" }
-                { "ru" = "Лаос" }
-                { "uk" = "Лаос" }
-                { "pl" = "Laos" }
+                ["ko"] = "라오스",
+                ["pt-BR"] = "Laos",
+                ["pt"] = "Laos",
+                ["nl"] = "Laos",
+                ["hr"] = "Laos",
+                ["fa"] = "لائوس",
+                ["de"] = "Laos",
+                ["es"] = "Laos",
+                ["fr"] = "Laos",
+                ["ja"] = "ラオス人民民主共和国",
+                ["it"] = "Laos",
+                ["zh-CN"] = "寮人民民主共和国",
+                ["tr"] = "Laos",
+                ["ru"] = "Лаос",
+                ["uk"] = "Лаос",
+                ["pl"] = "Laos"
             },
             States = new()
             {
@@ -95,7 +95,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Muang Pha Oudôm", Latitude = "20.18744000", Longitude = "100.92600000" },
                         new() { Id = 7, Name = "Muang Tônpheung", Latitude = "20.53465000", Longitude = "100.29624000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -110,7 +110,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Ban Nahin", Latitude = "18.24253000", Longitude = "104.21281000" },
                         new() { Id = 2, Name = "Pakxan", Latitude = "18.39420000", Longitude = "103.66110000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -136,7 +136,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "Pakse", Latitude = "15.12022000", Longitude = "105.79898000" },
                         new() { Id = 13, Name = "Pakxong", Latitude = "15.18154000", Longitude = "106.23038000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -151,7 +151,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Xam Neua", Latitude = "20.40764000", Longitude = "104.06560000" },
                         new() { Id = 2, Name = "Xam Nua", Latitude = "20.41640000", Longitude = "104.04500000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -166,7 +166,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Muang Thakhèk", Latitude = "17.40880000", Longitude = "104.82639000" },
                         new() { Id = 2, Name = "Thakhèk", Latitude = "17.41027000", Longitude = "104.83068000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -181,7 +181,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Luang Namtha", Latitude = "20.94860000", Longitude = "101.40188000" },
                         new() { Id = 2, Name = "Muang Louang Namtha", Latitude = "21.00424000", Longitude = "101.44785000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -195,7 +195,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Luang Prabang", Latitude = "19.88601000", Longitude = "102.13503000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -209,7 +209,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Muang Xay", Latitude = "20.69229000", Longitude = "101.98368000" }
                     }
-                }
+                },
 
                 new()
                 {

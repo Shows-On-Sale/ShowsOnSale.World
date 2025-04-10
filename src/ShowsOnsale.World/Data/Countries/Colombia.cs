@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "콜롬비아" },
-                { "pt-BR" = "Colômbia" }
-                { "pt" = "Colômbia" }
-                { "nl" = "Colombia" }
-                { "hr" = "Kolumbija" }
-                { "fa" = "کلمبیا" }
-                { "de" = "Kolumbien" }
-                { "es" = "Colombia" }
-                { "fr" = "Colombie" }
-                { "ja" = "コロンビア" }
-                { "it" = "Colombia" }
-                { "zh-CN" = "哥伦比亚" }
-                { "tr" = "Kolombiya" }
-                { "ru" = "Колумбия" }
-                { "uk" = "Колумбія" }
-                { "pl" = "Kolumbia" }
+                ["ko"] = "콜롬비아",
+                ["pt-BR"] = "Colômbia",
+                ["pt"] = "Colômbia",
+                ["nl"] = "Colombia",
+                ["hr"] = "Kolumbija",
+                ["fa"] = "کلمبیا",
+                ["de"] = "Kolumbien",
+                ["es"] = "Colombia",
+                ["fr"] = "Colombie",
+                ["ja"] = "コロンビア",
+                ["it"] = "Colombia",
+                ["zh-CN"] = "哥伦比亚",
+                ["tr"] = "Kolombiya",
+                ["ru"] = "Колумбия",
+                ["uk"] = "Колумбія",
+                ["pl"] = "Kolumbia"
             },
             States = new()
             {
@@ -274,7 +274,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 22, Name = "Tubará", Latitude = "10.87562000", Longitude = "-74.97873000" },
                         new() { Id = 23, Name = "Usiacurí", Latitude = "10.74313000", Longitude = "-74.97604000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -288,7 +288,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bogotá D.C.", Latitude = "4.61263889", Longitude = "-74.07050000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -347,7 +347,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 45, Name = "Villanueva", Latitude = "10.44759000", Longitude = "-75.26574000" },
                         new() { Id = 46, Name = "Zambrano", Latitude = "9.74823000", Longitude = "-74.88487000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -483,7 +483,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 122, Name = "Viracachá", Latitude = "5.43637000", Longitude = "-73.29606000" },
                         new() { Id = 123, Name = "Zetaquira", Latitude = "5.25824000", Longitude = "-73.18275000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -523,7 +523,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 26, Name = "Villamaría", Latitude = "4.95078000", Longitude = "-75.43680000" },
                         new() { Id = 27, Name = "Viterbo", Latitude = "5.06242000", Longitude = "-75.87159000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -552,7 +552,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 15, Name = "Solita", Latitude = "0.87583333", Longitude = "-75.61972222" },
                         new() { Id = 16, Name = "Valparaíso", Latitude = "1.19403000", Longitude = "-75.70746000" }
                     }
-                }
+                },
 
                 new()
                 {

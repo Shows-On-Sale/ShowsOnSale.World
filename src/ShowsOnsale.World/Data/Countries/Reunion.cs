@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "레위니옹" },
-                { "pt-BR" = "Reunião" }
-                { "pt" = "Reunião" }
-                { "nl" = "Réunion" }
-                { "hr" = "Réunion" }
-                { "fa" = "رئونیون" }
-                { "de" = "Réunion" }
-                { "es" = "Reunión" }
-                { "fr" = "Réunion" }
-                { "ja" = "レユニオン" }
-                { "it" = "Riunione" }
-                { "zh-CN" = "留尼汪岛" }
-                { "tr" = "Réunion" }
-                { "ru" = "Воссоединение" }
-                { "uk" = "Возз'єднання" }
-                { "pl" = "Reunion" }
+                ["ko"] = "레위니옹",
+                ["pt-BR"] = "Reunião",
+                ["pt"] = "Reunião",
+                ["nl"] = "Réunion",
+                ["hr"] = "Réunion",
+                ["fa"] = "رئونیون",
+                ["de"] = "Réunion",
+                ["es"] = "Reunión",
+                ["fr"] = "Réunion",
+                ["ja"] = "レユニオン",
+                ["it"] = "Riunione",
+                ["zh-CN"] = "留尼汪岛",
+                ["tr"] = "Réunion",
+                ["ru"] = "Воссоединение",
+                ["uk"] = "Возз'єднання",
+                ["pl"] = "Reunion"
             },
             States = new()
             {

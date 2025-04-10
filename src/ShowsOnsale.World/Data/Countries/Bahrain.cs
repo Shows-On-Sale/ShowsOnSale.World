@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "바레인" },
-                { "pt-BR" = "Bahrein" }
-                { "pt" = "Barém" }
-                { "nl" = "Bahrein" }
-                { "hr" = "Bahrein" }
-                { "fa" = "بحرین" }
-                { "de" = "Bahrain" }
-                { "es" = "Bahrein" }
-                { "fr" = "Bahreïn" }
-                { "ja" = "バーレーン" }
-                { "it" = "Bahrein" }
-                { "zh-CN" = "巴林" }
-                { "tr" = "Bahreyn" }
-                { "ru" = "Бахрейн" }
-                { "uk" = "Бахрейн" }
-                { "pl" = "Bahrajn" }
+                ["ko"] = "바레인",
+                ["pt-BR"] = "Bahrein",
+                ["pt"] = "Barém",
+                ["nl"] = "Bahrein",
+                ["hr"] = "Bahrein",
+                ["fa"] = "بحرین",
+                ["de"] = "Bahrain",
+                ["es"] = "Bahrein",
+                ["fr"] = "Bahreïn",
+                ["ja"] = "バーレーン",
+                ["it"] = "Bahrein",
+                ["zh-CN"] = "巴林",
+                ["tr"] = "Bahreyn",
+                ["ru"] = "Бахрейн",
+                ["uk"] = "Бахрейн",
+                ["pl"] = "Bahrajn"
             },
             States = new()
             {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "벨기에" },
-                { "pt-BR" = "Bélgica" }
-                { "pt" = "Bélgica" }
-                { "nl" = "België" }
-                { "hr" = "Belgija" }
-                { "fa" = "بلژیک" }
-                { "de" = "Belgien" }
-                { "es" = "Bélgica" }
-                { "fr" = "Belgique" }
-                { "ja" = "ベルギー" }
-                { "it" = "Belgio" }
-                { "zh-CN" = "比利时" }
-                { "tr" = "Belçika" }
-                { "ru" = "Бельгия" }
-                { "uk" = "Бельгія" }
-                { "pl" = "Belgia" }
+                ["ko"] = "벨기에",
+                ["pt-BR"] = "Bélgica",
+                ["pt"] = "Bélgica",
+                ["nl"] = "België",
+                ["hr"] = "Belgija",
+                ["fa"] = "بلژیک",
+                ["de"] = "Belgien",
+                ["es"] = "Bélgica",
+                ["fr"] = "Belgique",
+                ["ja"] = "ベルギー",
+                ["it"] = "Belgio",
+                ["zh-CN"] = "比利时",
+                ["tr"] = "Belçika",
+                ["ru"] = "Бельгия",
+                ["uk"] = "Бельгія",
+                ["pl"] = "Belgia"
             },
             States = new()
             {
@@ -83,7 +83,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Brussels", Latitude = "50.85045000", Longitude = "4.34878000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -96,7 +96,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -409,7 +409,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 299, Name = "Zwevegem", Latitude = "50.81268000", Longitude = "3.33848000" },
                         new() { Id = 300, Name = "Zwijndrecht", Latitude = "51.21979000", Longitude = "4.32664000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -422,7 +422,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -435,7 +435,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -448,7 +448,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -461,7 +461,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -474,7 +474,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

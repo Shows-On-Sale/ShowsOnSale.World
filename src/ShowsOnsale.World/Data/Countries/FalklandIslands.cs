@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "포클랜드 제도" },
-                { "pt-BR" = "Ilhas Malvinas" }
-                { "pt" = "Ilhas Falkland" }
-                { "nl" = "Falklandeilanden [Islas Malvinas]" }
-                { "hr" = "Falklandski Otoci" }
-                { "fa" = "جزایر فالکلند" }
-                { "de" = "Falklandinseln" }
-                { "es" = "Islas Malvinas" }
-                { "fr" = "Îles Malouines" }
-                { "ja" = "フォークランド（マルビナス）諸島" }
-                { "it" = "Isole Falkland o Isole Malvine" }
-                { "zh-CN" = "福克兰群岛" }
-                { "tr" = "Falkland Adalari" }
-                { "ru" = "Фолклендские острова" }
-                { "uk" = "Фолклендські острови" }
-                { "pl" = "Falklandy" }
+                ["ko"] = "포클랜드 제도",
+                ["pt-BR"] = "Ilhas Malvinas",
+                ["pt"] = "Ilhas Falkland",
+                ["nl"] = "Falklandeilanden [Islas Malvinas]",
+                ["hr"] = "Falklandski Otoci",
+                ["fa"] = "جزایر فالکلند",
+                ["de"] = "Falklandinseln",
+                ["es"] = "Islas Malvinas",
+                ["fr"] = "Îles Malouines",
+                ["ja"] = "フォークランド（マルビナス）諸島",
+                ["it"] = "Isole Falkland o Isole Malvine",
+                ["zh-CN"] = "福克兰群岛",
+                ["tr"] = "Falkland Adalari",
+                ["ru"] = "Фолклендские острова",
+                ["uk"] = "Фолклендські острови",
+                ["pl"] = "Falklandy"
             },
             States = new()
             {

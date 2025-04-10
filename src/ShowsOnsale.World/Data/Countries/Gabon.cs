@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "가봉" },
-                { "pt-BR" = "Gabão" }
-                { "pt" = "Gabão" }
-                { "nl" = "Gabon" }
-                { "hr" = "Gabon" }
-                { "fa" = "گابن" }
-                { "de" = "Gabun" }
-                { "es" = "Gabón" }
-                { "fr" = "Gabon" }
-                { "ja" = "ガボン" }
-                { "it" = "Gabon" }
-                { "zh-CN" = "加蓬" }
-                { "tr" = "Gabon" }
-                { "ru" = "Габон" }
-                { "uk" = "Габон" }
-                { "pl" = "Gabon" }
+                ["ko"] = "가봉",
+                ["pt-BR"] = "Gabão",
+                ["pt"] = "Gabão",
+                ["nl"] = "Gabon",
+                ["hr"] = "Gabon",
+                ["fa"] = "گابن",
+                ["de"] = "Gabun",
+                ["es"] = "Gabón",
+                ["fr"] = "Gabon",
+                ["ja"] = "ガボン",
+                ["it"] = "Gabon",
+                ["zh-CN"] = "加蓬",
+                ["tr"] = "Gabon",
+                ["ru"] = "Габон",
+                ["uk"] = "Габон",
+                ["pl"] = "Gabon"
             },
             States = new()
             {

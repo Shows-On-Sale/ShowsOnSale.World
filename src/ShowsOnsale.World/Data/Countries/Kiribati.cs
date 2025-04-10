@@ -40,22 +40,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "키리바시" },
-                { "pt-BR" = "Kiribati" }
-                { "pt" = "Quiribáti" }
-                { "nl" = "Kiribati" }
-                { "hr" = "Kiribati" }
-                { "fa" = "کیریباتی" }
-                { "de" = "Kiribati" }
-                { "es" = "Kiribati" }
-                { "fr" = "Kiribati" }
-                { "ja" = "キリバス" }
-                { "it" = "Kiribati" }
-                { "zh-CN" = "基里巴斯" }
-                { "tr" = "Kiribati" }
-                { "ru" = "Кирибати" }
-                { "uk" = "Кірібаті" }
-                { "pl" = "Kiribati" }
+                ["ko"] = "키리바시",
+                ["pt-BR"] = "Kiribati",
+                ["pt"] = "Quiribáti",
+                ["nl"] = "Kiribati",
+                ["hr"] = "Kiribati",
+                ["fa"] = "کیریباتی",
+                ["de"] = "Kiribati",
+                ["es"] = "Kiribati",
+                ["fr"] = "Kiribati",
+                ["ja"] = "キリバス",
+                ["it"] = "Kiribati",
+                ["zh-CN"] = "基里巴斯",
+                ["tr"] = "Kiribati",
+                ["ru"] = "Кирибати",
+                ["uk"] = "Кірібаті",
+                ["pl"] = "Kiribati"
             },
             States = new()
             {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "적도 기니" },
-                { "pt-BR" = "Guiné Equatorial" }
-                { "pt" = "Guiné Equatorial" }
-                { "nl" = "Equatoriaal-Guinea" }
-                { "hr" = "Ekvatorijalna Gvineja" }
-                { "fa" = "گینه استوایی" }
-                { "de" = "Äquatorial-Guinea" }
-                { "es" = "Guinea Ecuatorial" }
-                { "fr" = "Guinée-Équatoriale" }
-                { "ja" = "赤道ギニア" }
-                { "it" = "Guinea Equatoriale" }
-                { "zh-CN" = "赤道几内亚" }
-                { "tr" = "Ekvator Ginesi" }
-                { "ru" = "Экваториальная Гвинея" }
-                { "uk" = "Екваторіальна Гвінея" }
-                { "pl" = "Gwinea Równikowa" }
+                ["ko"] = "적도 기니",
+                ["pt-BR"] = "Guiné Equatorial",
+                ["pt"] = "Guiné Equatorial",
+                ["nl"] = "Equatoriaal-Guinea",
+                ["hr"] = "Ekvatorijalna Gvineja",
+                ["fa"] = "گینه استوایی",
+                ["de"] = "Äquatorial-Guinea",
+                ["es"] = "Guinea Ecuatorial",
+                ["fr"] = "Guinée-Équatoriale",
+                ["ja"] = "赤道ギニア",
+                ["it"] = "Guinea Equatoriale",
+                ["zh-CN"] = "赤道几内亚",
+                ["tr"] = "Ekvator Ginesi",
+                ["ru"] = "Экваториальная Гвинея",
+                ["uk"] = "Екваторіальна Гвінея",
+                ["pl"] = "Gwinea Równikowa"
             },
             States = new()
             {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "앵귈라" },
-                { "pt-BR" = "Anguila" }
-                { "pt" = "Anguila" }
-                { "nl" = "Anguilla" }
-                { "hr" = "Angvila" }
-                { "fa" = "آنگویلا" }
-                { "de" = "Anguilla" }
-                { "es" = "Anguilla" }
-                { "fr" = "Anguilla" }
-                { "ja" = "アンギラ" }
-                { "it" = "Anguilla" }
-                { "zh-CN" = "安圭拉" }
-                { "tr" = "Anguilla" }
-                { "ru" = "Ангилья" }
-                { "uk" = "Ангілья" }
-                { "pl" = "Anguilla" }
+                ["ko"] = "앵귈라",
+                ["pt-BR"] = "Anguila",
+                ["pt"] = "Anguila",
+                ["nl"] = "Anguilla",
+                ["hr"] = "Angvila",
+                ["fa"] = "آنگویلا",
+                ["de"] = "Anguilla",
+                ["es"] = "Anguilla",
+                ["fr"] = "Anguilla",
+                ["ja"] = "アンギラ",
+                ["it"] = "Anguilla",
+                ["zh-CN"] = "安圭拉",
+                ["tr"] = "Anguilla",
+                ["ru"] = "Ангилья",
+                ["uk"] = "Ангілья",
+                ["pl"] = "Anguilla"
             },
             States = new()
             {
@@ -82,7 +82,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -95,7 +95,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -108,7 +108,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -121,7 +121,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -134,7 +134,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -147,7 +147,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -160,7 +160,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -173,7 +173,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

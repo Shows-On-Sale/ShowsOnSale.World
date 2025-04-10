@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "벨리즈" },
-                { "pt-BR" = "Belize" }
-                { "pt" = "Belize" }
-                { "nl" = "Belize" }
-                { "hr" = "Belize" }
-                { "fa" = "بلیز" }
-                { "de" = "Belize" }
-                { "es" = "Belice" }
-                { "fr" = "Belize" }
-                { "ja" = "ベリーズ" }
-                { "it" = "Belize" }
-                { "zh-CN" = "伯利兹" }
-                { "tr" = "Belize" }
-                { "ru" = "Белиз" }
-                { "uk" = "Беліз" }
-                { "pl" = "Belize" }
+                ["ko"] = "벨리즈",
+                ["pt-BR"] = "Belize",
+                ["pt"] = "Belize",
+                ["nl"] = "Belize",
+                ["hr"] = "Belize",
+                ["fa"] = "بلیز",
+                ["de"] = "Belize",
+                ["es"] = "Belice",
+                ["fr"] = "Belize",
+                ["ja"] = "ベリーズ",
+                ["it"] = "Belize",
+                ["zh-CN"] = "伯利兹",
+                ["tr"] = "Belize",
+                ["ru"] = "Белиз",
+                ["uk"] = "Беліз",
+                ["pl"] = "Belize"
             },
             States = new()
             {

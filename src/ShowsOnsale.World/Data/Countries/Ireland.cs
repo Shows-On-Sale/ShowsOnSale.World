@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "아일랜드" },
-                { "pt-BR" = "Irlanda" }
-                { "pt" = "Irlanda" }
-                { "nl" = "Ierland" }
-                { "hr" = "Irska" }
-                { "fa" = "ایرلند" }
-                { "de" = "Irland" }
-                { "es" = "Irlanda" }
-                { "fr" = "Irlande" }
-                { "ja" = "アイルランド" }
-                { "it" = "Irlanda" }
-                { "zh-CN" = "爱尔兰" }
-                { "tr" = "İrlanda" }
-                { "ru" = "Ирландия" }
-                { "uk" = "Ірландія" }
-                { "pl" = "Irlandia" }
+                ["ko"] = "아일랜드",
+                ["pt-BR"] = "Irlanda",
+                ["pt"] = "Irlanda",
+                ["nl"] = "Ierland",
+                ["hr"] = "Irska",
+                ["fa"] = "ایرلند",
+                ["de"] = "Irland",
+                ["es"] = "Irlanda",
+                ["fr"] = "Irlande",
+                ["ja"] = "アイルランド",
+                ["it"] = "Irlanda",
+                ["zh-CN"] = "爱尔兰",
+                ["tr"] = "İrlanda",
+                ["ru"] = "Ирландия",
+                ["uk"] = "Ірландія",
+                ["pl"] = "Irlandia"
             },
             States = new()
             {
@@ -150,7 +150,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 41, Name = "Tuam", Latitude = "53.51667000", Longitude = "-8.85000000" },
                         new() { Id = 42, Name = "Westport", Latitude = "53.80000000", Longitude = "-9.51667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -163,7 +163,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -176,7 +176,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -189,7 +189,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -202,7 +202,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -215,7 +215,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

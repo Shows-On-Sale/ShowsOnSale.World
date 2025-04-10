@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "세인트마틴 섬" },
-                { "pt-BR" = "Saint Martin" }
-                { "pt" = "Ilha São Martinho" }
-                { "nl" = "Saint-Martin" }
-                { "hr" = "Sveti Martin" }
-                { "fa" = "سینت مارتن" }
-                { "de" = "Saint Martin" }
-                { "es" = "Saint Martin" }
-                { "fr" = "Saint-Martin" }
-                { "ja" = "サン・マルタン（フランス領）" }
-                { "it" = "Saint Martin" }
-                { "zh-CN" = "密克罗尼西亚" }
-                { "tr" = "Saint Martin" }
-                { "ru" = "Сен-Мартен (французская часть)" }
-                { "uk" = "Сен-Мартен (французька частина)" }
-                { "pl" = "Saint-Martin (część francuska)" }
+                ["ko"] = "세인트마틴 섬",
+                ["pt-BR"] = "Saint Martin",
+                ["pt"] = "Ilha São Martinho",
+                ["nl"] = "Saint-Martin",
+                ["hr"] = "Sveti Martin",
+                ["fa"] = "سینت مارتن",
+                ["de"] = "Saint Martin",
+                ["es"] = "Saint Martin",
+                ["fr"] = "Saint-Martin",
+                ["ja"] = "サン・マルタン（フランス領）",
+                ["it"] = "Saint Martin",
+                ["zh-CN"] = "密克罗尼西亚",
+                ["tr"] = "Saint Martin",
+                ["ru"] = "Сен-Мартен (французская часть)",
+                ["uk"] = "Сен-Мартен (французька частина)",
+                ["pl"] = "Saint-Martin (część francuska)"
             },
             States = new()
             {

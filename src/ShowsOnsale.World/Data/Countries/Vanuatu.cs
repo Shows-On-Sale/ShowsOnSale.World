@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "바누아투" },
-                { "pt-BR" = "Vanuatu" }
-                { "pt" = "Vanuatu" }
-                { "nl" = "Vanuatu" }
-                { "hr" = "Vanuatu" }
-                { "fa" = "وانواتو" }
-                { "de" = "Vanuatu" }
-                { "es" = "Vanuatu" }
-                { "fr" = "Vanuatu" }
-                { "ja" = "バヌアツ" }
-                { "it" = "Vanuatu" }
-                { "zh-CN" = "瓦努阿图" }
-                { "tr" = "Vanuatu" }
-                { "ru" = "Вануату" }
-                { "uk" = "Вануату" }
-                { "pl" = "Vanuatu" }
+                ["ko"] = "바누아투",
+                ["pt-BR"] = "Vanuatu",
+                ["pt"] = "Vanuatu",
+                ["nl"] = "Vanuatu",
+                ["hr"] = "Vanuatu",
+                ["fa"] = "وانواتو",
+                ["de"] = "Vanuatu",
+                ["es"] = "Vanuatu",
+                ["fr"] = "Vanuatu",
+                ["ja"] = "バヌアツ",
+                ["it"] = "Vanuatu",
+                ["zh-CN"] = "瓦努阿图",
+                ["tr"] = "Vanuatu",
+                ["ru"] = "Вануату",
+                ["uk"] = "Вануату",
+                ["pl"] = "Vanuatu"
             },
             States = new()
             {

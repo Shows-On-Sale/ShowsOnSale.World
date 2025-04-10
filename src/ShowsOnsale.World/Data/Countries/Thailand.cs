@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "태국" },
-                { "pt-BR" = "Tailândia" }
-                { "pt" = "Tailândia" }
-                { "nl" = "Thailand" }
-                { "hr" = "Tajland" }
-                { "fa" = "تایلند" }
-                { "de" = "Thailand" }
-                { "es" = "Tailandia" }
-                { "fr" = "Thaïlande" }
-                { "ja" = "タイ" }
-                { "it" = "Tailandia" }
-                { "zh-CN" = "泰国" }
-                { "tr" = "Tayland" }
-                { "ru" = "Таиланд" }
-                { "uk" = "Таїланд" }
-                { "pl" = "Tajlandia" }
+                ["ko"] = "태국",
+                ["pt-BR"] = "Tailândia",
+                ["pt"] = "Tailândia",
+                ["nl"] = "Thailand",
+                ["hr"] = "Tajland",
+                ["fa"] = "تایلند",
+                ["de"] = "Thailand",
+                ["es"] = "Tailandia",
+                ["fr"] = "Thaïlande",
+                ["ja"] = "タイ",
+                ["it"] = "Tailandia",
+                ["zh-CN"] = "泰国",
+                ["tr"] = "Tayland",
+                ["ru"] = "Таиланд",
+                ["uk"] = "Таїланд",
+                ["pl"] = "Tajlandia"
             },
             States = new()
             {
@@ -300,7 +300,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Nakhon Nayok", Latitude = "14.20305600", Longitude = "101.21500000" },
                         new() { Id = 6, Name = "Phu Khiao", Latitude = "16.37650000", Longitude = "102.12853000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -328,7 +328,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 14, Name = "Pong Nam Ron", Latitude = "12.90575000", Longitude = "102.26225000" },
                         new() { Id = 15, Name = "Tha Mai", Latitude = "12.62137000", Longitude = "102.00481000" }
                     }
-                }
+                },
 
                 new()
                 {

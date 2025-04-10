@@ -39,22 +39,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "팔레스타인 영토" },
-                { "pt-BR" = "Palestina" }
-                { "pt" = "Palestina" }
-                { "nl" = "Palestijnse gebieden" }
-                { "hr" = "Palestina" }
-                { "fa" = "فلسطین" }
-                { "de" = "Palästina" }
-                { "es" = "Palestina" }
-                { "fr" = "Palestine" }
-                { "ja" = "パレスチナ" }
-                { "it" = "Palestina" }
-                { "zh-CN" = "巴勒斯坦" }
-                { "tr" = "Filistin" }
-                { "ru" = "Оккупированная палестинская территория" }
-                { "uk" = "Окупована палестинська територія" }
-                { "pl" = "Okupowane terytorium palestyńskie" }
+                ["ko"] = "팔레스타인 영토",
+                ["pt-BR"] = "Palestina",
+                ["pt"] = "Palestina",
+                ["nl"] = "Palestijnse gebieden",
+                ["hr"] = "Palestina",
+                ["fa"] = "فلسطین",
+                ["de"] = "Palästina",
+                ["es"] = "Palestina",
+                ["fr"] = "Palestine",
+                ["ja"] = "パレスチナ",
+                ["it"] = "Palestina",
+                ["zh-CN"] = "巴勒斯坦",
+                ["tr"] = "Filistin",
+                ["ru"] = "Оккупированная палестинская территория",
+                ["uk"] = "Окупована палестинська територія",
+                ["pl"] = "Okupowane terytorium palestyńskie"
             },
             States = new()
             {
@@ -97,7 +97,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "az-Zawayda", Latitude = "31.42979750", Longitude = "34.35014230" },
                         new() { Id = 2, Name = "Deir al-Balah", Latitude = "31.41717350", Longitude = "34.33033130" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -112,7 +112,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Al-Zahra", Latitude = "31.47246750", Longitude = "34.37782930" },
                         new() { Id = 2, Name = "Gaza City", Latitude = "31.50172950", Longitude = "34.44624480" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -143,7 +143,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 17, Name = "Tarqumiya", Latitude = "31.57736440", Longitude = "34.99357430" },
                         new() { Id = 18, Name = "Yatta", Latitude = "31.44418450", Longitude = "35.06950530" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -171,7 +171,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 14, Name = "Ya'bad", Latitude = "32.44686800", Longitude = "35.14667430" },
                         new() { Id = 15, Name = "Zababdeh", Latitude = "32.38523610", Longitude = "35.30287930" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -187,7 +187,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "al-Jiftlik", Latitude = "32.14143230", Longitude = "35.44660250" },
                         new() { Id = 3, Name = "Jericho", Latitude = "31.85950700", Longitude = "35.44390820" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -210,7 +210,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Qalandiya", Latitude = "31.86163130", Longitude = "35.18731430" },
                         new() { Id = 10, Name = "Qatanna", Latitude = "31.82695730", Longitude = "35.08960030" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -229,7 +229,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Khan Yunis", Latitude = "31.34623510", Longitude = "34.28339890" },
                         new() { Id = 6, Name = "Khuzaʽa", Latitude = "31.30705660", Longitude = "34.33944730" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -251,7 +251,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Qabalan", Latitude = "32.10185420", Longitude = "35.26712930" },
                         new() { Id = 9, Name = "Sebastia", Latitude = "32.27827510", Longitude = "35.17803330" }
                     }
-                }
+                },
 
                 new()
                 {

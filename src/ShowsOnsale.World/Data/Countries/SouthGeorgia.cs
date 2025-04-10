@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "사우스조지아" },
-                { "pt-BR" = "Ilhas Geórgias do Sul e Sandwich do Sul" }
-                { "pt" = "Ilhas Geórgia do Sul e Sanduíche do Sul" }
-                { "nl" = "Zuid-Georgia en Zuidelijke Sandwicheilanden" }
-                { "hr" = "Južna Georgija i otočje Južni Sandwich" }
-                { "fa" = "جزایر جورجیای جنوبی و ساندویچ جنوبی" }
-                { "de" = "Südgeorgien und die Südlichen Sandwichinseln" }
-                { "es" = "Islas Georgias del Sur y Sandwich del Sur" }
-                { "fr" = "Géorgie du Sud-et-les Îles Sandwich du Sud" }
-                { "ja" = "サウスジョージア・サウスサンドウィッチ諸島" }
-                { "it" = "Georgia del Sud e Isole Sandwich Meridionali" }
-                { "zh-CN" = "南乔治亚" }
-                { "tr" = "Güney Georgia" }
-                { "ru" = "Южная Джорджия" }
-                { "uk" = "Південна Джорджія" }
-                { "pl" = "Południowa Georgia" }
+                ["ko"] = "사우스조지아",
+                ["pt-BR"] = "Ilhas Geórgias do Sul e Sandwich do Sul",
+                ["pt"] = "Ilhas Geórgia do Sul e Sanduíche do Sul",
+                ["nl"] = "Zuid-Georgia en Zuidelijke Sandwicheilanden",
+                ["hr"] = "Južna Georgija i otočje Južni Sandwich",
+                ["fa"] = "جزایر جورجیای جنوبی و ساندویچ جنوبی",
+                ["de"] = "Südgeorgien und die Südlichen Sandwichinseln",
+                ["es"] = "Islas Georgias del Sur y Sandwich del Sur",
+                ["fr"] = "Géorgie du Sud-et-les Îles Sandwich du Sud",
+                ["ja"] = "サウスジョージア・サウスサンドウィッチ諸島",
+                ["it"] = "Georgia del Sud e Isole Sandwich Meridionali",
+                ["zh-CN"] = "南乔治亚",
+                ["tr"] = "Güney Georgia",
+                ["ru"] = "Южная Джорджия",
+                ["uk"] = "Південна Джорджія",
+                ["pl"] = "Południowa Georgia"
             },
             States = new()
             {

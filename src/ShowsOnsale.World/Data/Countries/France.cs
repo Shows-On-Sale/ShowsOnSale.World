@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "프랑스" },
-                { "pt-BR" = "França" }
-                { "pt" = "França" }
-                { "nl" = "Frankrijk" }
-                { "hr" = "Francuska" }
-                { "fa" = "فرانسه" }
-                { "de" = "Frankreich" }
-                { "es" = "Francia" }
-                { "fr" = "France" }
-                { "ja" = "フランス" }
-                { "it" = "Francia" }
-                { "zh-CN" = "法国" }
-                { "tr" = "Fransa" }
-                { "ru" = "Франция" }
-                { "uk" = "Франція" }
-                { "pl" = "Francja" }
+                ["ko"] = "프랑스",
+                ["pt-BR"] = "França",
+                ["pt"] = "França",
+                ["nl"] = "Frankrijk",
+                ["hr"] = "Francuska",
+                ["fa"] = "فرانسه",
+                ["de"] = "Frankreich",
+                ["es"] = "Francia",
+                ["fr"] = "France",
+                ["ja"] = "フランス",
+                ["it"] = "Francia",
+                ["zh-CN"] = "法国",
+                ["tr"] = "Fransa",
+                ["ru"] = "Франция",
+                ["uk"] = "Франція",
+                ["pl"] = "Francja"
             },
             States = new()
             {
@@ -82,7 +82,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -95,7 +95,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -108,7 +108,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -121,7 +121,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -134,7 +134,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -147,7 +147,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -160,7 +160,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -173,7 +173,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -1456,7 +1456,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -1469,7 +1469,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -1482,7 +1482,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -1946,7 +1946,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 450, Name = "Vitteaux", Latitude = "47.39732000", Longitude = "4.54190000" },
                         new() { Id = 451, Name = "Voujeaucourt", Latitude = "47.47513000", Longitude = "6.77431000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -2625,7 +2625,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 665, Name = "Yffiniac", Latitude = "48.48428000", Longitude = "-2.67647000" },
                         new() { Id = 666, Name = "Yvignac-la-Tour", Latitude = "48.35000000", Longitude = "-2.18333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -2638,7 +2638,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -2651,7 +2651,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3140,7 +3140,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 475, Name = "Yèvres", Latitude = "48.21078000", Longitude = "1.18717000" },
                         new() { Id = 476, Name = "Yzeures-sur-Creuse", Latitude = "46.78609000", Longitude = "0.87166000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -3153,7 +3153,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3166,7 +3166,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3179,7 +3179,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3192,7 +3192,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3205,7 +3205,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3269,7 +3269,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 50, Name = "Vescovato", Latitude = "42.49293000", Longitude = "9.43934000" },
                         new() { Id = 51, Name = "Zonza", Latitude = "41.74934000", Longitude = "9.17082000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -3282,7 +3282,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3295,7 +3295,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3308,7 +3308,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3321,7 +3321,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3334,7 +3334,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3347,7 +3347,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3360,7 +3360,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3373,7 +3373,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3386,7 +3386,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3399,7 +3399,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3412,7 +3412,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3425,7 +3425,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3438,7 +3438,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3451,7 +3451,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3464,7 +3464,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3477,7 +3477,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3490,7 +3490,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -3503,7 +3503,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -4403,7 +4403,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 886, Name = "Zillisheim", Latitude = "47.69604000", Longitude = "7.29736000" },
                         new() { Id = 887, Name = "Zimmersheim", Latitude = "47.72079000", Longitude = "7.38847000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -4416,7 +4416,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -4429,7 +4429,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -4442,7 +4442,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -4455,7 +4455,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -4468,7 +4468,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -4481,7 +4481,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -4494,7 +4494,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -4507,7 +4507,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -4520,7 +4520,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -4533,7 +4533,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -4546,7 +4546,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -5480,7 +5480,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 920, Name = "Zutkerque", Latitude = "50.85303000", Longitude = "2.06818000" },
                         new() { Id = 921, Name = "Zuydcoote", Latitude = "51.06096000", Longitude = "2.49338000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -5493,7 +5493,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -5506,7 +5506,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6213,7 +6213,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 693, Name = "Yerres", Latitude = "48.71785000", Longitude = "2.49338000" },
                         new() { Id = 694, Name = "Yvelines", Latitude = "48.80546000", Longitude = "1.85696000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -6226,7 +6226,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6239,7 +6239,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6252,7 +6252,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6265,7 +6265,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6278,7 +6278,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6291,7 +6291,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6304,7 +6304,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6317,7 +6317,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6330,7 +6330,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6343,7 +6343,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6356,7 +6356,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6369,7 +6369,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6382,7 +6382,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6395,7 +6395,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6408,7 +6408,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6421,7 +6421,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6434,7 +6434,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6447,7 +6447,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6460,7 +6460,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6473,7 +6473,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6486,7 +6486,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6499,7 +6499,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6512,7 +6512,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6525,7 +6525,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6538,7 +6538,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6551,7 +6551,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -6564,7 +6564,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -7103,7 +7103,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 525, Name = "Yport", Latitude = "49.73716000", Longitude = "0.31537000" },
                         new() { Id = 526, Name = "Yvetot", Latitude = "49.61744000", Longitude = "0.75814000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -8084,7 +8084,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 967, Name = "Yves", Latitude = "46.01922000", Longitude = "-1.04833000" },
                         new() { Id = 968, Name = "Yvrac", Latitude = "44.87786000", Longitude = "-0.45870000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -8925,7 +8925,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 827, Name = "Viviers-lès-Montagnes", Latitude = "43.55474000", Longitude = "2.17672000" },
                         new() { Id = 828, Name = "Viviez", Latitude = "44.55678000", Longitude = "2.21649000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -8938,7 +8938,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -8951,7 +8951,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -8964,7 +8964,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -8977,7 +8977,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -9650,7 +9650,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 659, Name = "Yvré-le-Pôlin", Latitude = "47.82235000", Longitude = "0.15581000" },
                         new() { Id = 660, Name = "Yzernay", Latitude = "47.02229000", Longitude = "-0.70295000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -10198,7 +10198,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 534, Name = "Volonne", Latitude = "44.11039000", Longitude = "6.01424000" },
                         new() { Id = 535, Name = "Volx", Latitude = "43.87787000", Longitude = "5.84148000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -10211,7 +10211,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -10224,7 +10224,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -10237,7 +10237,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

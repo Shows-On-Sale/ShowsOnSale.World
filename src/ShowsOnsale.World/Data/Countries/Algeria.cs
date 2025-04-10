@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "알제리" },
-                { "pt-BR" = "Argélia" }
-                { "pt" = "Argélia" }
-                { "nl" = "Algerije" }
-                { "hr" = "Alžir" }
-                { "fa" = "الجزایر" }
-                { "de" = "Algerien" }
-                { "es" = "Argelia" }
-                { "fr" = "Algérie" }
-                { "ja" = "アルジェリア" }
-                { "it" = "Algeria" }
-                { "zh-CN" = "阿尔及利亚" }
-                { "tr" = "Cezayir" }
-                { "ru" = "Алжир" }
-                { "uk" = "Алжир" }
-                { "pl" = "Algieria" }
+                ["ko"] = "알제리",
+                ["pt-BR"] = "Argélia",
+                ["pt"] = "Argélia",
+                ["nl"] = "Algerije",
+                ["hr"] = "Alžir",
+                ["fa"] = "الجزایر",
+                ["de"] = "Algerien",
+                ["es"] = "Argelia",
+                ["fr"] = "Algérie",
+                ["ja"] = "アルジェリア",
+                ["it"] = "Algeria",
+                ["zh-CN"] = "阿尔及利亚",
+                ["tr"] = "Cezayir",
+                ["ru"] = "Алжир",
+                ["uk"] = "Алжир",
+                ["pl"] = "Algieria"
             },
             States = new()
             {
@@ -167,7 +167,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Râs el Aïoun", Latitude = "35.67384000", Longitude = "5.64530000" },
                         new() { Id = 8, Name = "Tazoult-Lambese", Latitude = "35.48171000", Longitude = "6.26074000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -181,7 +181,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Béchar", Latitude = "31.61667000", Longitude = "-2.21667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -202,7 +202,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Feraoun", Latitude = "36.56041000", Longitude = "4.85454000" },
                         new() { Id = 8, Name = "Seddouk", Latitude = "36.54722000", Longitude = "4.68611000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -215,7 +215,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

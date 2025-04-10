@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "레소토" },
-                { "pt-BR" = "Lesoto" }
-                { "pt" = "Lesoto" }
-                { "nl" = "Lesotho" }
-                { "hr" = "Lesoto" }
-                { "fa" = "لسوتو" }
-                { "de" = "Lesotho" }
-                { "es" = "Lesotho" }
-                { "fr" = "Lesotho" }
-                { "ja" = "レソト" }
-                { "it" = "Lesotho" }
-                { "zh-CN" = "莱索托" }
-                { "tr" = "Lesotho" }
-                { "ru" = "Лесото" }
-                { "uk" = "Лесото" }
-                { "pl" = "Lesotho" }
+                ["ko"] = "레소토",
+                ["pt-BR"] = "Lesoto",
+                ["pt"] = "Lesoto",
+                ["nl"] = "Lesotho",
+                ["hr"] = "Lesoto",
+                ["fa"] = "لسوتو",
+                ["de"] = "Lesotho",
+                ["es"] = "Lesotho",
+                ["fr"] = "Lesotho",
+                ["ja"] = "レソト",
+                ["it"] = "Lesotho",
+                ["zh-CN"] = "莱索托",
+                ["tr"] = "Lesotho",
+                ["ru"] = "Лесото",
+                ["uk"] = "Лесото",
+                ["pl"] = "Lesotho"
             },
             States = new()
             {
@@ -84,7 +84,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Butha-Buthe", Latitude = "-28.76659000", Longitude = "28.24937000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -99,7 +99,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Leribe", Latitude = "-28.87185000", Longitude = "28.04501000" },
                         new() { Id = 2, Name = "Maputsoe", Latitude = "-28.88660000", Longitude = "27.89915000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -113,7 +113,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Mafeteng", Latitude = "-29.82299000", Longitude = "27.23744000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -128,7 +128,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Maseru", Latitude = "-29.31667000", Longitude = "27.48333000" },
                         new() { Id = 2, Name = "Nako", Latitude = "-29.61667000", Longitude = "27.76667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -142,7 +142,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Mohale’s Hoek", Latitude = "-30.15137000", Longitude = "27.47691000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -156,7 +156,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Mokhotlong", Latitude = "-29.28939000", Longitude = "29.06751000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -170,7 +170,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Qacha’s Nek", Latitude = "-30.11537000", Longitude = "28.68936000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -184,7 +184,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Quthing", Latitude = "-30.40001000", Longitude = "27.70027000" }
                     }
-                }
+                },
 
                 new()
                 {

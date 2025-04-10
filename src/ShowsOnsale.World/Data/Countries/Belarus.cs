@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "벨라루스" },
-                { "pt-BR" = "Bielorrússia" }
-                { "pt" = "Bielorrússia" }
-                { "nl" = "Wit-Rusland" }
-                { "hr" = "Bjelorusija" }
-                { "fa" = "بلاروس" }
-                { "de" = "Weißrussland" }
-                { "es" = "Bielorrusia" }
-                { "fr" = "Biélorussie" }
-                { "ja" = "ベラルーシ" }
-                { "it" = "Bielorussia" }
-                { "zh-CN" = "白俄罗斯" }
-                { "tr" = "Belarus" }
-                { "ru" = "Беларусь" }
-                { "uk" = "Білорусь" }
-                { "pl" = "Białoruś" }
+                ["ko"] = "벨라루스",
+                ["pt-BR"] = "Bielorrússia",
+                ["pt"] = "Bielorrússia",
+                ["nl"] = "Wit-Rusland",
+                ["hr"] = "Bjelorusija",
+                ["fa"] = "بلاروس",
+                ["de"] = "Weißrussland",
+                ["es"] = "Bielorrusia",
+                ["fr"] = "Biélorussie",
+                ["ja"] = "ベラルーシ",
+                ["it"] = "Bielorussia",
+                ["zh-CN"] = "白俄罗斯",
+                ["tr"] = "Belarus",
+                ["ru"] = "Беларусь",
+                ["uk"] = "Білорусь",
+                ["pl"] = "Białoruś"
             },
             States = new()
             {

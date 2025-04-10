@@ -36,13 +36,13 @@ namespace ShowsOnSale.World.Data.Countries
             {
                 new() { ZoneName = "America/Atikokan", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "EST", TzName = "Eastern Standard Time (North America)" },
                 new() { ZoneName = "America/Blanc-Sablon", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" },
-                new() { ZoneName = "America/Cambridge_Bay", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America)" }
-                new() { ZoneName = "America/Creston", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America)" }
-                new() { ZoneName = "America/Dawson", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America)" }
-                new() { ZoneName = "America/Dawson_Creek", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America)" }
-                new() { ZoneName = "America/Edmonton", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America)" }
-                new() { ZoneName = "America/Fort_Nelson", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America)" }
-                new() { ZoneName = "America/Glace_Bay", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" }
+                new() { ZoneName = "America/Cambridge_Bay", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America)" },
+                new() { ZoneName = "America/Creston", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America)" },
+                new() { ZoneName = "America/Dawson", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America)" },
+                new() { ZoneName = "America/Dawson_Creek", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America)" },
+                new() { ZoneName = "America/Edmonton", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America)" },
+                new() { ZoneName = "America/Fort_Nelson", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America)" },
+                new() { ZoneName = "America/Glace_Bay", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" },
                 new() { ZoneName = "America/Goose_Bay", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" },
                 new() { ZoneName = "America/Halifax", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" },
                 new() { ZoneName = "America/Inuvik", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America" },
@@ -65,22 +65,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "캐나다" },
-                { "pt-BR" = "Canadá" }
-                { "pt" = "Canadá" }
-                { "nl" = "Canada" }
-                { "hr" = "Kanada" }
-                { "fa" = "کانادا" }
-                { "de" = "Kanada" }
-                { "es" = "Canadá" }
-                { "fr" = "Canada" }
-                { "ja" = "カナダ" }
-                { "it" = "Canada" }
-                { "zh-CN" = "加拿大" }
-                { "tr" = "Kanada" }
-                { "ru" = "Канада" }
-                { "uk" = "Канада" }
-                { "pl" = "Kanada" }
+                ["ko"] = "캐나다",
+                ["pt-BR"] = "Canadá",
+                ["pt"] = "Canadá",
+                ["nl"] = "Canada",
+                ["hr"] = "Kanada",
+                ["fa"] = "کانادا",
+                ["de"] = "Kanada",
+                ["es"] = "Canadá",
+                ["fr"] = "Canada",
+                ["ja"] = "カナダ",
+                ["it"] = "Canada",
+                ["zh-CN"] = "加拿大",
+                ["tr"] = "Kanada",
+                ["ru"] = "Канада",
+                ["uk"] = "Канада",
+                ["pl"] = "Kanada"
             },
             States = new()
             {
@@ -363,7 +363,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 138, Name = "White Rock", Latitude = "49.01636000", Longitude = "-122.80260000" },
                         new() { Id = 139, Name = "Williams Lake", Latitude = "52.14153000", Longitude = "-122.14451000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -419,7 +419,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 42, Name = "Winkler", Latitude = "49.18170000", Longitude = "-97.94104000" },
                         new() { Id = 43, Name = "Winnipeg", Latitude = "49.88440000", Longitude = "-97.14704000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -469,7 +469,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 36, Name = "Tracadie-Sheila", Latitude = "47.51444000", Longitude = "-64.91806000" },
                         new() { Id = 37, Name = "Wells", Latitude = "45.39274000", Longitude = "-65.92313000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -514,7 +514,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 31, Name = "Upper Island Cove", Latitude = "47.64989000", Longitude = "-53.21478000" },
                         new() { Id = 32, Name = "Wabana", Latitude = "47.63319000", Longitude = "-52.94806000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -534,7 +534,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Norman Wells", Latitude = "65.28201000", Longitude = "-126.83290000" },
                         new() { Id = 7, Name = "Yellowknife", Latitude = "62.45411000", Longitude = "-114.37248000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -590,7 +590,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 42, Name = "Wolfville", Latitude = "45.08345000", Longitude = "-64.36546000" },
                         new() { Id = 43, Name = "Yarmouth", Latitude = "43.83345000", Longitude = "-66.11557000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -609,7 +609,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Pangnirtung", Latitude = "66.14642000", Longitude = "-65.69996000" },
                         new() { Id = 6, Name = "Rankin Inlet", Latitude = "62.80906000", Longitude = "-92.08534000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -863,7 +863,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 240, Name = "Woodstock", Latitude = "43.13339000", Longitude = "-80.74970000" },
                         new() { Id = 241, Name = "York", Latitude = "44.00011000", Longitude = "-79.46632000" }
                     }
-                }
+                },
 
                 new()
                 {

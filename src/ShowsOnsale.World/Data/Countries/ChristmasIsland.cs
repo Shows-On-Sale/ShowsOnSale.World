@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "크리스마스 섬" },
-                { "pt-BR" = "Ilha Christmas" }
-                { "pt" = "Ilha do Natal" }
-                { "nl" = "Christmaseiland" }
-                { "hr" = "Božićni otok" }
-                { "fa" = "جزیره کریسمس" }
-                { "de" = "Weihnachtsinsel" }
-                { "es" = "Isla de Navidad" }
-                { "fr" = "Île Christmas" }
-                { "ja" = "クリスマス島" }
-                { "it" = "Isola di Natale" }
-                { "zh-CN" = "圣诞岛" }
-                { "tr" = "Christmas Adasi" }
-                { "ru" = "Остров Рождества" }
-                { "uk" = "Острів Різдва" }
-                { "pl" = "Wyspa Bożego Narodzenia" }
+                ["ko"] = "크리스마스 섬",
+                ["pt-BR"] = "Ilha Christmas",
+                ["pt"] = "Ilha do Natal",
+                ["nl"] = "Christmaseiland",
+                ["hr"] = "Božićni otok",
+                ["fa"] = "جزیره کریسمس",
+                ["de"] = "Weihnachtsinsel",
+                ["es"] = "Isla de Navidad",
+                ["fr"] = "Île Christmas",
+                ["ja"] = "クリスマス島",
+                ["it"] = "Isola di Natale",
+                ["zh-CN"] = "圣诞岛",
+                ["tr"] = "Christmas Adasi",
+                ["ru"] = "Остров Рождества",
+                ["uk"] = "Острів Різдва",
+                ["pl"] = "Wyspa Bożego Narodzenia"
             },
             States = new()
             {

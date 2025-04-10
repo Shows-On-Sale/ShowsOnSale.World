@@ -38,21 +38,21 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "미국령 버진아일랜드" },
-                { "pt-BR" = "Ilhas Virgens Americanas" }
-                { "pt" = "Ilhas Virgens Americanas" }
-                { "nl" = "Verenigde Staten Maagdeneilanden" }
-                { "fa" = "جزایر ویرجین آمریکا" }
-                { "de" = "Amerikanische Jungferninseln" }
-                { "es" = "Islas Vírgenes de los Estados Unidos" }
-                { "fr" = "Îles Vierges des États-Unis" }
-                { "ja" = "アメリカ領ヴァージン諸島" }
-                { "it" = "Isole Vergini americane" }
-                { "zh-CN" = "维尔京群岛（美国）" }
-                { "tr" = "Abd Virjin Adalari" }
-                { "ru" = "Виргинские острова (США)" }
-                { "uk" = "Віргінські острови (США)" }
-                { "pl" = "Wyspy Dziewicze (USA)" }
+                ["ko"] = "미국령 버진아일랜드",
+                ["pt-BR"] = "Ilhas Virgens Americanas",
+                ["pt"] = "Ilhas Virgens Americanas",
+                ["nl"] = "Verenigde Staten Maagdeneilanden",
+                ["fa"] = "جزایر ویرجین آمریکا",
+                ["de"] = "Amerikanische Jungferninseln",
+                ["es"] = "Islas Vírgenes de los Estados Unidos",
+                ["fr"] = "Îles Vierges des États-Unis",
+                ["ja"] = "アメリカ領ヴァージン諸島",
+                ["it"] = "Isole Vergini americane",
+                ["zh-CN"] = "维尔京群岛（美国）",
+                ["tr"] = "Abd Virjin Adalari",
+                ["ru"] = "Виргинские острова (США)",
+                ["uk"] = "Віргінські острови (США)",
+                ["pl"] = "Wyspy Dziewicze (USA)"
             },
             States = new()
             {

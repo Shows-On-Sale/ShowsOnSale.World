@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "엘살바도르" },
-                { "pt-BR" = "El Salvador" }
-                { "pt" = "El Salvador" }
-                { "nl" = "El Salvador" }
-                { "hr" = "Salvador" }
-                { "fa" = "السالوادور" }
-                { "de" = "El Salvador" }
-                { "es" = "El Salvador" }
-                { "fr" = "Salvador" }
-                { "ja" = "エルサルバドル" }
-                { "it" = "El Salvador" }
-                { "zh-CN" = "萨尔瓦多" }
-                { "tr" = "El Salvador" }
-                { "ru" = "Сальвадор" }
-                { "uk" = "Сальвадор" }
-                { "pl" = "Salwador" }
+                ["ko"] = "엘살바도르",
+                ["pt-BR"] = "El Salvador",
+                ["pt"] = "El Salvador",
+                ["nl"] = "El Salvador",
+                ["hr"] = "Salvador",
+                ["fa"] = "السالوادور",
+                ["de"] = "El Salvador",
+                ["es"] = "El Salvador",
+                ["fr"] = "Salvador",
+                ["ja"] = "エルサルバドル",
+                ["it"] = "El Salvador",
+                ["zh-CN"] = "萨尔瓦多",
+                ["tr"] = "El Salvador",
+                ["ru"] = "Сальвадор",
+                ["uk"] = "Сальвадор",
+                ["pl"] = "Salwador"
             },
             States = new()
             {
@@ -91,7 +91,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Sensuntepeque", Latitude = "13.86667000", Longitude = "-88.63333000" },
                         new() { Id = 2, Name = "Victoria", Latitude = "13.95000000", Longitude = "-88.63333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -106,7 +106,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Chalatenango", Latitude = "14.03333000", Longitude = "-88.93333000" },
                         new() { Id = 2, Name = "Nueva Concepción", Latitude = "14.13333000", Longitude = "-89.30000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -124,7 +124,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Tecoluca", Latitude = "13.78917000", Longitude = "-89.00528000" },
                         new() { Id = 5, Name = "Tenancingo", Latitude = "13.83333000", Longitude = "-88.98333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -146,7 +146,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Santa Tecla", Latitude = "13.67694000", Longitude = "-89.27972000" },
                         new() { Id = 9, Name = "Zaragoza", Latitude = "13.58944000", Longitude = "-89.28889000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -164,7 +164,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Santiago Nonualco", Latitude = "13.51667000", Longitude = "-88.95000000" },
                         new() { Id = 5, Name = "Zacatecoluca", Latitude = "13.50000000", Longitude = "-88.86667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -185,7 +185,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "San Alejo", Latitude = "13.43139000", Longitude = "-87.96306000" },
                         new() { Id = 8, Name = "Santa Rosa de Lima", Latitude = "13.62472000", Longitude = "-87.89361000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -204,7 +204,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "San Francisco", Latitude = "13.70000000", Longitude = "-88.10000000" },
                         new() { Id = 6, Name = "Sociedad", Latitude = "13.70000000", Longitude = "-88.01667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -228,7 +228,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "San Rafael Oriente", Latitude = "13.38333000", Longitude = "-88.35000000" },
                         new() { Id = 11, Name = "Sesori", Latitude = "13.71667000", Longitude = "-88.36667000" }
                     }
-                }
+                },
 
                 new()
                 {

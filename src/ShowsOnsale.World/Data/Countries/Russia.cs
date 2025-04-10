@@ -36,13 +36,13 @@ namespace ShowsOnSale.World.Data.Countries
             {
                 new() { ZoneName = "Asia/Anadyr", GmtOffset = 43200, GmtOffsetName = "UTC+12:00", Abbreviation = "ANAT", TzName = "Anadyr Time[4" },
                 new() { ZoneName = "Asia/Barnaul", GmtOffset = 25200, GmtOffsetName = "UTC+07:00", Abbreviation = "KRAT", TzName = "Krasnoyarsk Time" },
-                new() { ZoneName = "Asia/Chita", GmtOffset = 32400, GmtOffsetName = "UTC+09:00", Abbreviation = "YAKT", TzName = "Yakutsk Time" }
-                new() { ZoneName = "Asia/Irkutsk", GmtOffset = 28800, GmtOffsetName = "UTC+08:00", Abbreviation = "IRKT", TzName = "Irkutsk Time" }
-                new() { ZoneName = "Asia/Kamchatka", GmtOffset = 43200, GmtOffsetName = "UTC+12:00", Abbreviation = "PETT", TzName = "Kamchatka Time" }
-                new() { ZoneName = "Asia/Khandyga", GmtOffset = 32400, GmtOffsetName = "UTC+09:00", Abbreviation = "YAKT", TzName = "Yakutsk Time" }
-                new() { ZoneName = "Asia/Krasnoyarsk", GmtOffset = 25200, GmtOffsetName = "UTC+07:00", Abbreviation = "KRAT", TzName = "Krasnoyarsk Time" }
-                new() { ZoneName = "Asia/Magadan", GmtOffset = 39600, GmtOffsetName = "UTC+11:00", Abbreviation = "MAGT", TzName = "Magadan Time" }
-                new() { ZoneName = "Asia/Novokuznetsk", GmtOffset = 25200, GmtOffsetName = "UTC+07:00", Abbreviation = "KRAT", TzName = "Krasnoyarsk Time" }
+                new() { ZoneName = "Asia/Chita", GmtOffset = 32400, GmtOffsetName = "UTC+09:00", Abbreviation = "YAKT", TzName = "Yakutsk Time" },
+                new() { ZoneName = "Asia/Irkutsk", GmtOffset = 28800, GmtOffsetName = "UTC+08:00", Abbreviation = "IRKT", TzName = "Irkutsk Time" },
+                new() { ZoneName = "Asia/Kamchatka", GmtOffset = 43200, GmtOffsetName = "UTC+12:00", Abbreviation = "PETT", TzName = "Kamchatka Time" },
+                new() { ZoneName = "Asia/Khandyga", GmtOffset = 32400, GmtOffsetName = "UTC+09:00", Abbreviation = "YAKT", TzName = "Yakutsk Time" },
+                new() { ZoneName = "Asia/Krasnoyarsk", GmtOffset = 25200, GmtOffsetName = "UTC+07:00", Abbreviation = "KRAT", TzName = "Krasnoyarsk Time" },
+                new() { ZoneName = "Asia/Magadan", GmtOffset = 39600, GmtOffsetName = "UTC+11:00", Abbreviation = "MAGT", TzName = "Magadan Time" },
+                new() { ZoneName = "Asia/Novokuznetsk", GmtOffset = 25200, GmtOffsetName = "UTC+07:00", Abbreviation = "KRAT", TzName = "Krasnoyarsk Time" },
                 new() { ZoneName = "Asia/Novosibirsk", GmtOffset = 25200, GmtOffsetName = "UTC+07:00", Abbreviation = "NOVT", TzName = "Novosibirsk Time" },
                 new() { ZoneName = "Asia/Omsk", GmtOffset = 21600, GmtOffsetName = "UTC+06:00", Abbreviation = "OMST", TzName = "Omsk Time" },
                 new() { ZoneName = "Asia/Sakhalin", GmtOffset = 39600, GmtOffsetName = "UTC+11:00", Abbreviation = "SAKT", TzName = "Sakhalin Island Time" },
@@ -63,22 +63,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "러시아" },
-                { "pt-BR" = "Rússia" }
-                { "pt" = "Rússia" }
-                { "nl" = "Rusland" }
-                { "hr" = "Rusija" }
-                { "fa" = "روسیه" }
-                { "de" = "Russland" }
-                { "es" = "Rusia" }
-                { "fr" = "Russie" }
-                { "ja" = "ロシア連邦" }
-                { "it" = "Russia" }
-                { "zh-CN" = "俄罗斯联邦" }
-                { "tr" = "Rusya" }
-                { "ru" = "Россия" }
-                { "uk" = "Росія" }
-                { "pl" = "Rosja" }
+                ["ko"] = "러시아",
+                ["pt-BR"] = "Rússia",
+                ["pt"] = "Rússia",
+                ["nl"] = "Rusland",
+                ["hr"] = "Rusija",
+                ["fa"] = "روسیه",
+                ["de"] = "Russland",
+                ["es"] = "Rusia",
+                ["fr"] = "Russie",
+                ["ja"] = "ロシア連邦",
+                ["it"] = "Russia",
+                ["zh-CN"] = "俄罗斯联邦",
+                ["tr"] = "Rusya",
+                ["ru"] = "Россия",
+                ["uk"] = "Росія",
+                ["pl"] = "Rosja"
             },
             States = new()
             {
@@ -825,7 +825,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 82, Name = "Zhukovskiy Rayon", Latitude = "53.50000000", Longitude = "33.83333000" },
                         new() { Id = 83, Name = "Zlynka", Latitude = "52.42670000", Longitude = "31.73780000" }
                     }
-                }
+                },
 
                 new()
                 {

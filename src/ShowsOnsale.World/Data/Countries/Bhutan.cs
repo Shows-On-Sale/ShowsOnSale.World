@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "부탄" },
-                { "pt-BR" = "Butão" }
-                { "pt" = "Butão" }
-                { "nl" = "Bhutan" }
-                { "hr" = "Butan" }
-                { "fa" = "بوتان" }
-                { "de" = "Bhutan" }
-                { "es" = "Bután" }
-                { "fr" = "Bhoutan" }
-                { "ja" = "ブータン" }
-                { "it" = "Bhutan" }
-                { "zh-CN" = "不丹" }
-                { "tr" = "Butan" }
-                { "ru" = "Бутан" }
-                { "uk" = "Бутан" }
-                { "pl" = "Bhutan" }
+                ["ko"] = "부탄",
+                ["pt-BR"] = "Butão",
+                ["pt"] = "Butão",
+                ["nl"] = "Bhutan",
+                ["hr"] = "Butan",
+                ["fa"] = "بوتان",
+                ["de"] = "Bhutan",
+                ["es"] = "Bután",
+                ["fr"] = "Bhoutan",
+                ["ja"] = "ブータン",
+                ["it"] = "Bhutan",
+                ["zh-CN"] = "不丹",
+                ["tr"] = "Butan",
+                ["ru"] = "Бутан",
+                ["uk"] = "Бутан",
+                ["pl"] = "Bhutan"
             },
             States = new()
             {
@@ -106,7 +106,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Sibsu", Latitude = "27.00000000", Longitude = "88.90000000" },
                         new() { Id = 3, Name = "Thumgaon", Latitude = "26.98330000", Longitude = "89.96670000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -120,7 +120,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Gasa", Latitude = "27.90372000", Longitude = "89.72689000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -136,7 +136,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Naktsang", Latitude = "27.38330000", Longitude = "89.26670000" },
                         new() { Id = 3, Name = "Sangkari", Latitude = "27.30000000", Longitude = "89.31670000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -150,7 +150,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Lhuentse", Latitude = "27.66787000", Longitude = "91.18393000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -166,7 +166,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Mongar", Latitude = "27.27471000", Longitude = "91.23963000" },
                         new() { Id = 3, Name = "Thebong", Latitude = "27.26670000", Longitude = "91.26670000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -182,7 +182,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Suchha", Latitude = "27.23330000", Longitude = "89.45000000" },
                         new() { Id = 3, Name = "Tshalunang", Latitude = "27.43330000", Longitude = "89.65000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -197,7 +197,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Nganglam", Latitude = "26.84181100", Longitude = "91.24248490" },
                         new() { Id = 2, Name = "Pemagatshel", Latitude = "27.03795000", Longitude = "91.40305000" }
                     }
-                }
+                },
 
                 new()
                 {

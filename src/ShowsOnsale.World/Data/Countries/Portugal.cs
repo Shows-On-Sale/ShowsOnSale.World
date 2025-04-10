@@ -40,22 +40,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "포르투갈" },
-                { "pt-BR" = "Portugal" }
-                { "pt" = "Portugal" }
-                { "nl" = "Portugal" }
-                { "hr" = "Portugal" }
-                { "fa" = "پرتغال" }
-                { "de" = "Portugal" }
-                { "es" = "Portugal" }
-                { "fr" = "Portugal" }
-                { "ja" = "ポルトガル" }
-                { "it" = "Portogallo" }
-                { "zh-CN" = "葡萄牙" }
-                { "tr" = "Portekiz" }
-                { "ru" = "Португалия" }
-                { "uk" = "Португалія" }
-                { "pl" = "Portugalia" }
+                ["ko"] = "포르투갈",
+                ["pt-BR"] = "Portugal",
+                ["pt"] = "Portugal",
+                ["nl"] = "Portugal",
+                ["hr"] = "Portugal",
+                ["fa"] = "پرتغال",
+                ["de"] = "Portugal",
+                ["es"] = "Portugal",
+                ["fr"] = "Portugal",
+                ["ja"] = "ポルトガル",
+                ["it"] = "Portogallo",
+                ["zh-CN"] = "葡萄牙",
+                ["tr"] = "Portekiz",
+                ["ru"] = "Португалия",
+                ["uk"] = "Португалія",
+                ["pl"] = "Portugalia"
             },
             States = new()
             {
@@ -237,7 +237,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 26, Name = "Vila Nova de Milfontes", Latitude = "37.72377000", Longitude = "-8.78278000" },
                         new() { Id = 27, Name = "Zambujeira do Mar", Latitude = "37.52799000", Longitude = "-8.78483000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -321,7 +321,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 70, Name = "Vilar de Figos", Latitude = "41.47555000", Longitude = "-8.65382000" },
                         new() { Id = 71, Name = "Vizela", Latitude = "41.37529000", Longitude = "-8.29310000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -350,7 +350,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 15, Name = "Vimioso", Latitude = "41.57287000", Longitude = "-6.52087000" },
                         new() { Id = 16, Name = "Vinhais", Latitude = "41.83509000", Longitude = "-7.00501000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -376,7 +376,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "Vila de Rei", Latitude = "39.70685000", Longitude = "-8.12836000" },
                         new() { Id = 13, Name = "Vila Velha de Ródão", Latitude = "39.68709000", Longitude = "-7.65987000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -423,7 +423,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 33, Name = "Travanca", Latitude = "40.32357000", Longitude = "-8.18687000" },
                         new() { Id = 34, Name = "Vila Nova de Poiares", Latitude = "40.22129000", Longitude = "-8.24105000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -450,7 +450,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 13, Name = "Viana do Alentejo", Latitude = "38.33645000", Longitude = "-8.00011000" },
                         new() { Id = 14, Name = "Vila Viçosa", Latitude = "38.78790000", Longitude = "-7.41852000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -518,7 +518,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 54, Name = "Vila Real de Santo António", Latitude = "37.19232000", Longitude = "-7.42538000" },
                         new() { Id = 55, Name = "Vilamoura", Latitude = "37.08728000", Longitude = "-8.11701000" }
                     }
-                }
+                },
 
                 new()
                 {

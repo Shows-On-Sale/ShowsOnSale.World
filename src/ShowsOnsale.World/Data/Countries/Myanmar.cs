@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "미얀마" },
-                { "pt-BR" = "Myanmar" }
-                { "pt" = "Myanmar" }
-                { "nl" = "Myanmar" }
-                { "hr" = "Mijanmar" }
-                { "fa" = "میانمار" }
-                { "de" = "Myanmar" }
-                { "es" = "Myanmar" }
-                { "fr" = "Myanmar" }
-                { "ja" = "ミャンマー" }
-                { "it" = "Birmania" }
-                { "zh-CN" = "缅甸" }
-                { "tr" = "Myanmar" }
-                { "ru" = "Мьянма" }
-                { "uk" = "М'янма" }
-                { "pl" = "Birma" }
+                ["ko"] = "미얀마",
+                ["pt-BR"] = "Myanmar",
+                ["pt"] = "Myanmar",
+                ["nl"] = "Myanmar",
+                ["hr"] = "Mijanmar",
+                ["fa"] = "میانمار",
+                ["de"] = "Myanmar",
+                ["es"] = "Myanmar",
+                ["fr"] = "Myanmar",
+                ["ja"] = "ミャンマー",
+                ["it"] = "Birmania",
+                ["zh-CN"] = "缅甸",
+                ["tr"] = "Myanmar",
+                ["ru"] = "Мьянма",
+                ["uk"] = "М'янма",
+                ["pl"] = "Birma"
             },
             States = new()
             {
@@ -101,7 +101,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Thanatpin", Latitude = "17.29136000", Longitude = "96.57523000" },
                         new() { Id = 9, Name = "Tharyarwady", Latitude = "17.65399000", Longitude = "95.78813000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -116,7 +116,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Falam", Latitude = "22.91335000", Longitude = "93.67779000" },
                         new() { Id = 2, Name = "Hakha", Latitude = "22.64452000", Longitude = "93.61076000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -131,7 +131,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Bhamo", Latitude = "24.25256000", Longitude = "97.23357000" },
                         new() { Id = 2, Name = "Myitkyina", Latitude = "25.38327000", Longitude = "97.39637000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -145,7 +145,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Loikaw", Latitude = "19.67798000", Longitude = "97.20975000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -167,7 +167,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Tagondaing", Latitude = "16.06750000", Longitude = "97.90694000" },
                         new() { Id = 9, Name = "Tamoowoug", Latitude = "16.03447000", Longitude = "97.91458000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -188,7 +188,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Thayetmyo", Latitude = "19.32076000", Longitude = "95.18272000" },
                         new() { Id = 8, Name = "Yenangyaung", Latitude = "20.46504000", Longitude = "94.87120000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -209,7 +209,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Pyin Oo Lwin", Latitude = "22.03501000", Longitude = "96.45683000" },
                         new() { Id = 8, Name = "Yamethin", Latitude = "20.43189000", Longitude = "96.13875000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -228,7 +228,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Mudon", Latitude = "16.25624000", Longitude = "97.72460000" },
                         new() { Id = 6, Name = "Thaton", Latitude = "16.91867000", Longitude = "97.37001000" }
                     }
-                }
+                },
 
                 new()
                 {

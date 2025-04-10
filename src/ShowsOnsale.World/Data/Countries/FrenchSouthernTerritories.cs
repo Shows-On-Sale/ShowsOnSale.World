@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "프랑스령 남방 및 남극" },
-                { "pt-BR" = "Terras Austrais e Antárticas Francesas" }
-                { "pt" = "Terras Austrais e Antárticas Francesas" }
-                { "nl" = "Franse Gebieden in de zuidelijke Indische Oceaan" }
-                { "hr" = "Francuski južni i antarktički teritoriji" }
-                { "fa" = "سرزمین‌های جنوبی و جنوبگانی فرانسه" }
-                { "de" = "Französische Süd- und Antarktisgebiete" }
-                { "es" = "Tierras Australes y Antárticas Francesas" }
-                { "fr" = "Terres australes et antarctiques françaises" }
-                { "ja" = "フランス領南方・南極地域" }
-                { "it" = "Territori Francesi del Sud" }
-                { "zh-CN" = "法属南部领地" }
-                { "tr" = "Fransiz Güney Topraklari" }
-                { "ru" = "Французские южные территории" }
-                { "uk" = "Французькі південні території" }
-                { "pl" = "Francuskie terytoria południowe" }
+                ["ko"] = "프랑스령 남방 및 남극",
+                ["pt-BR"] = "Terras Austrais e Antárticas Francesas",
+                ["pt"] = "Terras Austrais e Antárticas Francesas",
+                ["nl"] = "Franse Gebieden in de zuidelijke Indische Oceaan",
+                ["hr"] = "Francuski južni i antarktički teritoriji",
+                ["fa"] = "سرزمین‌های جنوبی و جنوبگانی فرانسه",
+                ["de"] = "Französische Süd- und Antarktisgebiete",
+                ["es"] = "Tierras Australes y Antárticas Francesas",
+                ["fr"] = "Terres australes et antarctiques françaises",
+                ["ja"] = "フランス領南方・南極地域",
+                ["it"] = "Territori Francesi del Sud",
+                ["zh-CN"] = "法属南部领地",
+                ["tr"] = "Fransiz Güney Topraklari",
+                ["ru"] = "Французские южные территории",
+                ["uk"] = "Французькі південні території",
+                ["pl"] = "Francuskie terytoria południowe"
             },
             States = new()
             {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "트리니다드 토바고" },
-                { "pt-BR" = "Trinidad e Tobago" }
-                { "pt" = "Trindade e Tobago" }
-                { "nl" = "Trinidad en Tobago" }
-                { "hr" = "Trinidad i Tobago" }
-                { "fa" = "ترینیداد و توباگو" }
-                { "de" = "Trinidad und Tobago" }
-                { "es" = "Trinidad y Tobago" }
-                { "fr" = "Trinité et Tobago" }
-                { "ja" = "トリニダード・トバゴ" }
-                { "it" = "Trinidad e Tobago" }
-                { "zh-CN" = "特立尼达和多巴哥" }
-                { "tr" = "Trinidad Ve Tobago" }
-                { "ru" = "Тринидад и Тобаго" }
-                { "uk" = "Тринідад і Тобаго" }
-                { "pl" = "Trynidad i Tobago" }
+                ["ko"] = "트리니다드 토바고",
+                ["pt-BR"] = "Trinidad e Tobago",
+                ["pt"] = "Trindade e Tobago",
+                ["nl"] = "Trinidad en Tobago",
+                ["hr"] = "Trinidad i Tobago",
+                ["fa"] = "ترینیداد و توباگو",
+                ["de"] = "Trinidad und Tobago",
+                ["es"] = "Trinidad y Tobago",
+                ["fr"] = "Trinité et Tobago",
+                ["ja"] = "トリニダード・トバゴ",
+                ["it"] = "Trinidad e Tobago",
+                ["zh-CN"] = "特立尼达和多巴哥",
+                ["tr"] = "Trinidad Ve Tobago",
+                ["ru"] = "Тринидад и Тобаго",
+                ["uk"] = "Тринідад і Тобаго",
+                ["pl"] = "Trynidad i Tobago"
             },
             States = new()
             {
@@ -85,7 +85,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Chaguanas", Latitude = "10.51667000", Longitude = "-61.41667000" },
                         new() { Id = 2, Name = "Ward of Chaguanas", Latitude = "10.50000000", Longitude = "-61.38333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -100,7 +100,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Couva", Latitude = "10.42248000", Longitude = "-61.46748000" },
                         new() { Id = 2, Name = "Tabaquite", Latitude = "10.38824000", Longitude = "-61.29704000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -115,7 +115,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Petit Valley", Latitude = "10.69974000", Longitude = "-61.54717000" },
                         new() { Id = 2, Name = "Ward of Diego Martin", Latitude = "10.70000000", Longitude = "-61.58333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -129,7 +129,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Scarborough", Latitude = "11.18229000", Longitude = "-60.73525000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -144,7 +144,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Debe", Latitude = "10.20846000", Longitude = "-61.45273000" },
                         new() { Id = 2, Name = "Peñal", Latitude = "10.16667000", Longitude = "-61.46667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -158,7 +158,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Point Fortin", Latitude = "10.17411000", Longitude = "-61.68407000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -173,7 +173,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Mucurapo", Latitude = "10.66253000", Longitude = "-61.53697000" },
                         new() { Id = 2, Name = "Port of Spain", Latitude = "10.66668000", Longitude = "-61.51889000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -187,7 +187,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Princes Town", Latitude = "10.27184000", Longitude = "-61.37103000" }
                     }
-                }
+                },
 
                 new()
                 {

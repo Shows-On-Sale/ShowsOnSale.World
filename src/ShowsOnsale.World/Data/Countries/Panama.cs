@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "파나마" },
-                { "pt-BR" = "Panamá" }
-                { "pt" = "Panamá" }
-                { "nl" = "Panama" }
-                { "hr" = "Panama" }
-                { "fa" = "پاناما" }
-                { "de" = "Panama" }
-                { "es" = "Panamá" }
-                { "fr" = "Panama" }
-                { "ja" = "パナマ" }
-                { "it" = "Panama" }
-                { "zh-CN" = "巴拿马" }
-                { "tr" = "Panama" }
-                { "ru" = "Панама" }
-                { "uk" = "Панама" }
-                { "pl" = "Panama" }
+                ["ko"] = "파나마",
+                ["pt-BR"] = "Panamá",
+                ["pt"] = "Panamá",
+                ["nl"] = "Panama",
+                ["hr"] = "Panama",
+                ["fa"] = "پاناما",
+                ["de"] = "Panama",
+                ["es"] = "Panamá",
+                ["fr"] = "Panama",
+                ["ja"] = "パナマ",
+                ["it"] = "Panama",
+                ["zh-CN"] = "巴拿马",
+                ["tr"] = "Panama",
+                ["ru"] = "Панама",
+                ["uk"] = "Панама",
+                ["pl"] = "Panama"
             },
             States = new()
             {
@@ -213,7 +213,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 109, Name = "Veladero", Latitude = "8.23136000", Longitude = "-81.65417000" },
                         new() { Id = 110, Name = "Volcán", Latitude = "8.77291000", Longitude = "-82.63823000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -281,7 +281,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 54, Name = "Toza", Latitude = "8.34542000", Longitude = "-80.64012000" },
                         new() { Id = 55, Name = "Vista Hermosa", Latitude = "8.52687000", Longitude = "-80.37486000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -332,7 +332,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 37, Name = "Santa Rita Arriba", Latitude = "9.33032000", Longitude = "-79.79363000" },
                         new() { Id = 38, Name = "Viento Frío", Latitude = "9.58263000", Longitude = "-79.40690000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -358,7 +358,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "Santa Fé", Latitude = "8.65525000", Longitude = "-78.16140000" },
                         new() { Id = 13, Name = "Yaviza", Latitude = "8.15835000", Longitude = "-77.69276000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -377,7 +377,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Unión Chocó", Latitude = "8.08404000", Longitude = "-77.53507000" },
                         new() { Id = 6, Name = "Yape", Latitude = "8.09839000", Longitude = "-77.59817000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -401,7 +401,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Tubualá", Latitude = "9.51667000", Longitude = "-79.03333000" },
                         new() { Id = 11, Name = "Ustupo", Latitude = "9.13112000", Longitude = "-77.92620000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -461,7 +461,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 46, Name = "San Juan Bautista", Latitude = "7.96099000", Longitude = "-80.41283000" },
                         new() { Id = 47, Name = "Santa María", Latitude = "8.11143000", Longitude = "-80.66582000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -551,7 +551,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 76, Name = "Vallerriquito", Latitude = "7.62163000", Longitude = "-80.31975000" },
                         new() { Id = 77, Name = "Villa Lourdes", Latitude = "7.81141000", Longitude = "-80.47029000" }
                     }
-                }
+                },
 
                 new()
                 {

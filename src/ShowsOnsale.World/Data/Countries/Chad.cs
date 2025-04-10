@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "차드" },
-                { "pt-BR" = "Chade" }
-                { "pt" = "Chade" }
-                { "nl" = "Tsjaad" }
-                { "hr" = "Čad" }
-                { "fa" = "چاد" }
-                { "de" = "Tschad" }
-                { "es" = "Chad" }
-                { "fr" = "Tchad" }
-                { "ja" = "チャド" }
-                { "it" = "Ciad" }
-                { "zh-CN" = "乍得" }
-                { "tr" = "Çad" }
-                { "ru" = "Чад" }
-                { "uk" = "Чад." }
-                { "pl" = "Czad" }
+                ["ko"] = "차드",
+                ["pt-BR"] = "Chade",
+                ["pt"] = "Chade",
+                ["nl"] = "Tsjaad",
+                ["hr"] = "Čad",
+                ["fa"] = "چاد",
+                ["de"] = "Tschad",
+                ["es"] = "Chad",
+                ["fr"] = "Tchad",
+                ["ja"] = "チャド",
+                ["it"] = "Ciad",
+                ["zh-CN"] = "乍得",
+                ["tr"] = "Çad",
+                ["ru"] = "Чад",
+                ["uk"] = "Чад.",
+                ["pl"] = "Czad"
             },
             States = new()
             {
@@ -99,7 +99,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Faya-Largeau", Latitude = "17.92570000", Longitude = "19.10428000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -120,7 +120,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Mandjafa", Latitude = "11.19861111", Longitude = "15.36111111" },
                         new() { Id = 8, Name = "Massenya", Latitude = "11.40277778", Longitude = "16.17000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -133,7 +133,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -147,7 +147,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Fada", Latitude = "17.18535000", Longitude = "21.58114000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -163,7 +163,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Melfi", Latitude = "11.05980000", Longitude = "17.93550000" },
                         new() { Id = 3, Name = "Mongo", Latitude = "12.18441000", Longitude = "18.69303000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -179,7 +179,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Massaguet", Latitude = "12.47554000", Longitude = "15.43647000" },
                         new() { Id = 3, Name = "Massakory", Latitude = "12.99600000", Longitude = "15.72927000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -193,7 +193,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Mao", Latitude = "14.12116000", Longitude = "15.31030000" }
                     }
-                }
+                },
 
                 new()
                 {

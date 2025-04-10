@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "모로코" },
-                { "pt-BR" = "Marrocos" }
-                { "pt" = "Marrocos" }
-                { "nl" = "Marokko" }
-                { "hr" = "Maroko" }
-                { "fa" = "مراکش" }
-                { "de" = "Marokko" }
-                { "es" = "Marruecos" }
-                { "fr" = "Maroc" }
-                { "ja" = "モロッコ" }
-                { "it" = "Marocco" }
-                { "zh-CN" = "摩洛哥" }
-                { "tr" = "Fas" }
-                { "ru" = "Марокко" }
-                { "uk" = "Марокко" }
-                { "pl" = "Maroko" }
+                ["ko"] = "모로코",
+                ["pt-BR"] = "Marrocos",
+                ["pt"] = "Marrocos",
+                ["nl"] = "Marokko",
+                ["hr"] = "Maroko",
+                ["fa"] = "مراکش",
+                ["de"] = "Marokko",
+                ["es"] = "Marruecos",
+                ["fr"] = "Maroc",
+                ["ja"] = "モロッコ",
+                ["it"] = "Marocco",
+                ["zh-CN"] = "摩洛哥",
+                ["tr"] = "Fas",
+                ["ru"] = "Марокко",
+                ["uk"] = "Марокко",
+                ["pl"] = "Maroko"
             },
             States = new()
             {
@@ -199,7 +199,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "도미니카 공화국" },
-                { "pt-BR" = "República Dominicana" }
-                { "pt" = "República Dominicana" }
-                { "nl" = "Dominicaanse Republiek" }
-                { "hr" = "Dominikanska Republika" }
-                { "fa" = "جمهوری دومینیکن" }
-                { "de" = "Dominikanische Republik" }
-                { "es" = "República Dominicana" }
-                { "fr" = "République dominicaine" }
-                { "ja" = "ドミニカ共和国" }
-                { "it" = "Repubblica Dominicana" }
-                { "zh-CN" = "多明尼加共和国" }
-                { "tr" = "Dominik Cumhuriyeti" }
-                { "ru" = "Доминиканская Республика" }
-                { "uk" = "Домініканська Республіка" }
-                { "pl" = "Republika Dominikańska" }
+                ["ko"] = "도미니카 공화국",
+                ["pt-BR"] = "República Dominicana",
+                ["pt"] = "República Dominicana",
+                ["nl"] = "Dominicaanse Republiek",
+                ["hr"] = "Dominikanska Republika",
+                ["fa"] = "جمهوری دومینیکن",
+                ["de"] = "Dominikanische Republik",
+                ["es"] = "República Dominicana",
+                ["fr"] = "République dominicaine",
+                ["ja"] = "ドミニカ共和国",
+                ["it"] = "Repubblica Dominicana",
+                ["zh-CN"] = "多明尼加共和国",
+                ["tr"] = "Dominik Cumhuriyeti",
+                ["ru"] = "Доминиканская Республика",
+                ["uk"] = "Домініканська Республіка",
+                ["pl"] = "Republika Dominikańska"
             },
             States = new()
             {
@@ -146,7 +146,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Partido", Latitude = "19.48403000", Longitude = "-71.54730000" },
                         new() { Id = 5, Name = "Restauración", Latitude = "19.31532000", Longitude = "-71.69239000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -169,7 +169,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Villa Consuelo", Latitude = "18.48333000", Longitude = "-69.90000000" },
                         new() { Id = 10, Name = "Villa Francisca", Latitude = "18.48278000", Longitude = "-69.88914000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -190,7 +190,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "San Francisco de Macorís", Latitude = "19.30099000", Longitude = "-70.25259000" },
                         new() { Id = 8, Name = "Villa Riva", Latitude = "19.15051000", Longitude = "-69.88370000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -206,7 +206,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Pedro Sánchez", Latitude = "18.86375000", Longitude = "-69.10868000" },
                         new() { Id = 3, Name = "Santa Cruz de El Seibo", Latitude = "18.76559000", Longitude = "-69.03886000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -227,7 +227,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "San Víctor Arriba", Latitude = "19.47741000", Longitude = "-70.53585000" },
                         new() { Id = 8, Name = "Veragua Arriba", Latitude = "19.58333000", Longitude = "-70.33333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -244,7 +244,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Hato Mayor del Rey", Latitude = "18.76278000", Longitude = "-69.25681000" },
                         new() { Id = 4, Name = "Sabana de la Mar", Latitude = "19.03333000", Longitude = "-69.41667000" }
                     }
-                }
+                },
 
                 new()
                 {

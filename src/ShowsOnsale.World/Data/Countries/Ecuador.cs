@@ -39,22 +39,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "에콰도르" },
-                { "pt-BR" = "Equador" }
-                { "pt" = "Equador" }
-                { "nl" = "Ecuador" }
-                { "hr" = "Ekvador" }
-                { "fa" = "اکوادور" }
-                { "de" = "Ecuador" }
-                { "es" = "Ecuador" }
-                { "fr" = "Équateur" }
-                { "ja" = "エクアドル" }
-                { "it" = "Ecuador" }
-                { "zh-CN" = "厄瓜多尔" }
-                { "tr" = "Ekvator" }
-                { "ru" = "Эквадор" }
-                { "uk" = "Еквадор" }
-                { "pl" = "Ekwador" }
+                ["ko"] = "에콰도르",
+                ["pt-BR"] = "Equador",
+                ["pt"] = "Equador",
+                ["nl"] = "Ecuador",
+                ["hr"] = "Ekvador",
+                ["fa"] = "اکوادور",
+                ["de"] = "Ecuador",
+                ["es"] = "Ecuador",
+                ["fr"] = "Équateur",
+                ["ja"] = "エクアドル",
+                ["it"] = "Ecuador",
+                ["zh-CN"] = "厄瓜多尔",
+                ["tr"] = "Ekvator",
+                ["ru"] = "Эквадор",
+                ["uk"] = "Еквадор",
+                ["pl"] = "Ekwador"
             },
             States = new()
             {
@@ -107,7 +107,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Cañar", Latitude = "-2.56062000", Longitude = "-78.93940000" },
                         new() { Id = 3, Name = "La Troncal", Latitude = "-2.42355000", Longitude = "-79.33977000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -123,7 +123,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "San Gabriel", Latitude = "0.59318000", Longitude = "-77.83078000" },
                         new() { Id = 3, Name = "Tulcán", Latitude = "0.81187000", Longitude = "-77.71727000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -139,7 +139,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Guano", Latitude = "-1.60789000", Longitude = "-78.63105000" },
                         new() { Id = 3, Name = "Riobamba", Latitude = "-1.67098000", Longitude = "-78.64712000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -157,7 +157,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "San Miguel de Salcedo", Latitude = "-1.04547000", Longitude = "-78.59063000" },
                         new() { Id = 5, Name = "Saquisilí", Latitude = "-0.83990000", Longitude = "-78.66700000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -178,7 +178,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Santa Rosa", Latitude = "-3.44882000", Longitude = "-79.95952000" },
                         new() { Id = 8, Name = "Zaruma", Latitude = "-3.69132000", Longitude = "-79.61174000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -198,7 +198,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "San Lorenzo de Esmeraldas", Latitude = "1.28626000", Longitude = "-78.83514000" },
                         new() { Id = 7, Name = "Valdez", Latitude = "1.24917000", Longitude = "-78.98306000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -214,7 +214,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Puerto Baquerizo Moreno", Latitude = "-0.90172000", Longitude = "-89.61021000" },
                         new() { Id = 3, Name = "Puerto Villamil", Latitude = "-0.95542000", Longitude = "-90.96654000" }
                     }
-                }
+                },
 
                 new()
                 {

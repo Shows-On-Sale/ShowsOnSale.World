@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "기니" },
-                { "pt-BR" = "Guiné" }
-                { "pt" = "Guiné" }
-                { "nl" = "Guinee" }
-                { "hr" = "Gvineja" }
-                { "fa" = "گینه" }
-                { "de" = "Guinea" }
-                { "es" = "Guinea" }
-                { "fr" = "Guinée" }
-                { "ja" = "ギニア" }
-                { "it" = "Guinea" }
-                { "zh-CN" = "几内亚" }
-                { "tr" = "Gine" }
-                { "ru" = "Гвинея" }
-                { "uk" = "Гвінея" }
-                { "pl" = "Gwinea" }
+                ["ko"] = "기니",
+                ["pt-BR"] = "Guiné",
+                ["pt"] = "Guiné",
+                ["nl"] = "Guinee",
+                ["hr"] = "Gvineja",
+                ["fa"] = "گینه",
+                ["de"] = "Guinea",
+                ["es"] = "Guinea",
+                ["fr"] = "Guinée",
+                ["ja"] = "ギニア",
+                ["it"] = "Guinea",
+                ["zh-CN"] = "几内亚",
+                ["tr"] = "Gine",
+                ["ru"] = "Гвинея",
+                ["uk"] = "Гвінея",
+                ["pl"] = "Gwinea"
             },
             States = new()
             {
@@ -134,7 +134,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Camayenne", Latitude = "9.53500000", Longitude = "-13.68778000" },
                         new() { Id = 2, Name = "Conakry", Latitude = "9.53795000", Longitude = "-13.67729000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -147,7 +147,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -160,7 +160,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -173,7 +173,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -186,7 +186,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

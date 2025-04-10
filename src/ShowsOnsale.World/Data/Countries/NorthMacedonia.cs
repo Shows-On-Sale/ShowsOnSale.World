@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "북마케도니아" },
-                { "pt-BR" = "Macedônia do Norte" }
-                { "pt" = "Macedónia do Norte" }
-                { "nl" = "Noord-Macedonië" }
-                { "hr" = "Sjeverna Makedonija" }
-                { "fa" = "ﻢﻗﺩﻮﻨﯿﻫ ﺶﻣﺎﻠﯾ" }
-                { "de" = "Nordmazedonien" }
-                { "es" = "Macedonia del Norte" }
-                { "fr" = "Macédoine du Nord" }
-                { "ja" = "北マケドニア" }
-                { "it" = "Macedonia del Nord" }
-                { "zh-CN" = "北馬其頓" }
-                { "tr" = "Kuzey Makedonya" }
-                { "ru" = "Северная Македония" }
-                { "uk" = "Північна Македонія" }
-                { "pl" = "Macedonia Północna" }
+                ["ko"] = "북마케도니아",
+                ["pt-BR"] = "Macedônia do Norte",
+                ["pt"] = "Macedónia do Norte",
+                ["nl"] = "Noord-Macedonië",
+                ["hr"] = "Sjeverna Makedonija",
+                ["fa"] = "ﻢﻗﺩﻮﻨﯿﻫ ﺶﻣﺎﻠﯾ",
+                ["de"] = "Nordmazedonien",
+                ["es"] = "Macedonia del Norte",
+                ["fr"] = "Macédoine du Nord",
+                ["ja"] = "北マケドニア",
+                ["it"] = "Macedonia del Nord",
+                ["zh-CN"] = "北馬其頓",
+                ["tr"] = "Kuzey Makedonya",
+                ["ru"] = "Северная Македония",
+                ["uk"] = "Північна Македонія",
+                ["pl"] = "Macedonia Północna"
             },
             States = new()
             {
@@ -199,7 +199,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Butel", Latitude = "42.03083000", Longitude = "21.44667000" },
                         new() { Id = 2, Name = "Radishani", Latitude = "42.06111000", Longitude = "21.44778000" }
                     }
-                }
+                },
 
                 new()
                 {

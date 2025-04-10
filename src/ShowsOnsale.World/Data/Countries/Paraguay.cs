@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "파라과이" },
-                { "pt-BR" = "Paraguai" }
-                { "pt" = "Paraguai" }
-                { "nl" = "Paraguay" }
-                { "hr" = "Paragvaj" }
-                { "fa" = "پاراگوئه" }
-                { "de" = "Paraguay" }
-                { "es" = "Paraguay" }
-                { "fr" = "Paraguay" }
-                { "ja" = "パラグアイ" }
-                { "it" = "Paraguay" }
-                { "zh-CN" = "巴拉圭" }
-                { "tr" = "Paraguay" }
-                { "ru" = "Парагвай" }
-                { "uk" = "Парагвай" }
-                { "pl" = "Paragwaj" }
+                ["ko"] = "파라과이",
+                ["pt-BR"] = "Paraguai",
+                ["pt"] = "Paraguai",
+                ["nl"] = "Paraguay",
+                ["hr"] = "Paragvaj",
+                ["fa"] = "پاراگوئه",
+                ["de"] = "Paraguay",
+                ["es"] = "Paraguay",
+                ["fr"] = "Paraguay",
+                ["ja"] = "パラグアイ",
+                ["it"] = "Paraguay",
+                ["zh-CN"] = "巴拉圭",
+                ["tr"] = "Paraguay",
+                ["ru"] = "Парагвай",
+                ["uk"] = "Парагвай",
+                ["pl"] = "Paragwaj"
             },
             States = new()
             {
@@ -94,7 +94,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Santa Rita", Latitude = "-25.78333000", Longitude = "-55.06667000" },
                         new() { Id = 10, Name = "Yguazú", Latitude = "-25.46187000", Longitude = "-55.00007000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -110,7 +110,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Capitán Bado", Latitude = "-23.26667000", Longitude = "-55.53333000" },
                         new() { Id = 3, Name = "Pedro Juan Caballero", Latitude = "-22.54722000", Longitude = "-55.73333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -123,7 +123,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -139,7 +139,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Colonia Neuland", Latitude = "-22.66667000", Longitude = "-60.11667000" },
                         new() { Id = 3, Name = "Filadelfia", Latitude = "-22.33936000", Longitude = "-60.03157000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -163,7 +163,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "San José", Latitude = "-25.53333000", Longitude = "-56.73333000" },
                         new() { Id = 11, Name = "Yhú", Latitude = "-25.05784000", Longitude = "-55.92267000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -183,7 +183,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Yegros", Latitude = "-26.45000000", Longitude = "-56.40000000" },
                         new() { Id = 7, Name = "Yuty", Latitude = "-26.61471000", Longitude = "-56.24607000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -203,7 +203,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "San Isidro de Curuguaty", Latitude = "-24.47184000", Longitude = "-55.69227000" },
                         new() { Id = 7, Name = "Ygatimi", Latitude = "-24.12371000", Longitude = "-55.64418000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -231,7 +231,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 14, Name = "Villa Elisa", Latitude = "-25.36760000", Longitude = "-57.59274000" },
                         new() { Id = 15, Name = "Ypacarai", Latitude = "-25.40777000", Longitude = "-57.28889000" }
                     }
-                }
+                },
 
                 new()
                 {

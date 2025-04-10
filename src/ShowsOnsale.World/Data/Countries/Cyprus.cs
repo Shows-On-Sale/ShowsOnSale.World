@@ -39,22 +39,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "키프로스" },
-                { "pt-BR" = "Chipre" }
-                { "pt" = "Chipre" }
-                { "nl" = "Cyprus" }
-                { "hr" = "Cipar" }
-                { "fa" = "قبرس" }
-                { "de" = "Zypern" }
-                { "es" = "Chipre" }
-                { "fr" = "Chypre" }
-                { "ja" = "キプロス" }
-                { "it" = "Cipro" }
-                { "zh-CN" = "塞浦路斯" }
-                { "tr" = "Kuzey Kıbrıs Türk Cumhuriyeti" }
-                { "ru" = "Кипр" }
-                { "uk" = "Кіпр" }
-                { "pl" = "Cypr" }
+                ["ko"] = "키프로스",
+                ["pt-BR"] = "Chipre",
+                ["pt"] = "Chipre",
+                ["nl"] = "Cyprus",
+                ["hr"] = "Cipar",
+                ["fa"] = "قبرس",
+                ["de"] = "Zypern",
+                ["es"] = "Chipre",
+                ["fr"] = "Chypre",
+                ["ja"] = "キプロス",
+                ["it"] = "Cipro",
+                ["zh-CN"] = "塞浦路斯",
+                ["tr"] = "Kuzey Kıbrıs Türk Cumhuriyeti",
+                ["ru"] = "Кипр",
+                ["uk"] = "Кіпр",
+                ["pl"] = "Cypr"
             },
             States = new()
             {

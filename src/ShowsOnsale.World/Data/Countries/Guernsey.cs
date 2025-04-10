@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "건지, 올더니" },
-                { "pt-BR" = "Guernsey" }
-                { "pt" = "Guernsey" }
-                { "nl" = "Guernsey" }
-                { "hr" = "Guernsey" }
-                { "fa" = "گرنزی" }
-                { "de" = "Guernsey" }
-                { "es" = "Guernsey" }
-                { "fr" = "Guernesey" }
-                { "ja" = "ガーンジー" }
-                { "it" = "Guernsey" }
-                { "zh-CN" = "根西岛" }
-                { "tr" = "Alderney" }
-                { "ru" = "Гернси и Олдерни" }
-                { "uk" = "Гернсі та Олдерні" }
-                { "pl" = "Guernsey i Alderney" }
+                ["ko"] = "건지, 올더니",
+                ["pt-BR"] = "Guernsey",
+                ["pt"] = "Guernsey",
+                ["nl"] = "Guernsey",
+                ["hr"] = "Guernsey",
+                ["fa"] = "گرنزی",
+                ["de"] = "Guernsey",
+                ["es"] = "Guernsey",
+                ["fr"] = "Guernesey",
+                ["ja"] = "ガーンジー",
+                ["it"] = "Guernsey",
+                ["zh-CN"] = "根西岛",
+                ["tr"] = "Alderney",
+                ["ru"] = "Гернси и Олдерни",
+                ["uk"] = "Гернсі та Олдерні",
+                ["pl"] = "Guernsey i Alderney"
             },
             States = new()
             {
@@ -82,7 +82,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -95,7 +95,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -108,7 +108,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -121,7 +121,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -134,7 +134,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -147,7 +147,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -160,7 +160,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -173,7 +173,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

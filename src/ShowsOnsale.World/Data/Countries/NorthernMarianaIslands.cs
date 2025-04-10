@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "북마리아나 제도" },
-                { "pt-BR" = "Ilhas Marianas" }
-                { "pt" = "Ilhas Marianas" }
-                { "nl" = "Noordelijke Marianeneilanden" }
-                { "hr" = "Sjevernomarijanski otoci" }
-                { "fa" = "جزایر ماریانای شمالی" }
-                { "de" = "Nördliche Marianen" }
-                { "es" = "Islas Marianas del Norte" }
-                { "fr" = "Îles Mariannes du Nord" }
-                { "ja" = "北マリアナ諸島" }
-                { "it" = "Isole Marianne Settentrionali" }
-                { "zh-CN" = "北马里亚纳群岛" }
-                { "tr" = "Kuzey Mariana Adalari" }
-                { "ru" = "Северные Марианские острова" }
-                { "uk" = "Північні Маріанські острови" }
-                { "pl" = "Mariany Północne" }
+                ["ko"] = "북마리아나 제도",
+                ["pt-BR"] = "Ilhas Marianas",
+                ["pt"] = "Ilhas Marianas",
+                ["nl"] = "Noordelijke Marianeneilanden",
+                ["hr"] = "Sjevernomarijanski otoci",
+                ["fa"] = "جزایر ماریانای شمالی",
+                ["de"] = "Nördliche Marianen",
+                ["es"] = "Islas Marianas del Norte",
+                ["fr"] = "Îles Mariannes du Nord",
+                ["ja"] = "北マリアナ諸島",
+                ["it"] = "Isole Marianne Settentrionali",
+                ["zh-CN"] = "北马里亚纳群岛",
+                ["tr"] = "Kuzey Mariana Adalari",
+                ["ru"] = "Северные Марианские острова",
+                ["uk"] = "Північні Маріанські острови",
+                ["pl"] = "Mariany Północne"
             },
             States = new()
             {

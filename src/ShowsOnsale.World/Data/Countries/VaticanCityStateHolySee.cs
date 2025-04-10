@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "바티칸 시국" },
-                { "pt-BR" = "Vaticano" }
-                { "pt" = "Vaticano" }
-                { "nl" = "Heilige Stoel" }
-                { "hr" = "Sveta Stolica" }
-                { "fa" = "سریر مقدس" }
-                { "de" = "Heiliger Stuhl" }
-                { "es" = "Santa Sede" }
-                { "fr" = "voir Saint" }
-                { "ja" = "聖座" }
-                { "it" = "Santa Sede" }
-                { "zh-CN" = "梵蒂冈" }
-                { "tr" = "Vatikan" }
-                { "ru" = "Город-государство Ватикан (Святой Престол)" }
-                { "uk" = "Держава-місто Ватикан (Святий Престол)" }
-                { "pl" = "Państwo Watykańskie (Stolica Apostolska)" }
+                ["ko"] = "바티칸 시국",
+                ["pt-BR"] = "Vaticano",
+                ["pt"] = "Vaticano",
+                ["nl"] = "Heilige Stoel",
+                ["hr"] = "Sveta Stolica",
+                ["fa"] = "سریر مقدس",
+                ["de"] = "Heiliger Stuhl",
+                ["es"] = "Santa Sede",
+                ["fr"] = "voir Saint",
+                ["ja"] = "聖座",
+                ["it"] = "Santa Sede",
+                ["zh-CN"] = "梵蒂冈",
+                ["tr"] = "Vatikan",
+                ["ru"] = "Город-государство Ватикан (Святой Престол)",
+                ["uk"] = "Держава-місто Ватикан (Святий Престол)",
+                ["pl"] = "Państwo Watykańskie (Stolica Apostolska)"
             },
             States = new()
             {

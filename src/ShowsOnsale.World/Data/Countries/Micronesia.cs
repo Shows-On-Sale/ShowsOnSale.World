@@ -40,22 +40,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "미크로네시아 연방" },
-                { "pt-BR" = "Micronésia" }
-                { "pt" = "Micronésia" }
-                { "nl" = "Micronesië" }
-                { "hr" = "Mikronezija" }
-                { "fa" = "ایالات فدرال میکرونزی" }
-                { "de" = "Mikronesien" }
-                { "es" = "Micronesia" }
-                { "fr" = "Micronésie" }
-                { "ja" = "ミクロネシア連邦" }
-                { "it" = "Micronesia" }
-                { "zh-CN" = "密克罗尼西亚" }
-                { "tr" = "Mikronezya" }
-                { "ru" = "Микронезия" }
-                { "uk" = "Мікронезія" }
-                { "pl" = "Mikronezja" }
+                ["ko"] = "미크로네시아 연방",
+                ["pt-BR"] = "Micronésia",
+                ["pt"] = "Micronésia",
+                ["nl"] = "Micronesië",
+                ["hr"] = "Mikronezija",
+                ["fa"] = "ایالات فدرال میکرونزی",
+                ["de"] = "Mikronesien",
+                ["es"] = "Micronesia",
+                ["fr"] = "Micronésie",
+                ["ja"] = "ミクロネシア連邦",
+                ["it"] = "Micronesia",
+                ["zh-CN"] = "密克罗尼西亚",
+                ["tr"] = "Mikronezya",
+                ["ru"] = "Микронезия",
+                ["uk"] = "Мікронезія",
+                ["pl"] = "Mikronezja"
             },
             States = new()
             {

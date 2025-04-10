@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "리히텐슈타인" },
-                { "pt-BR" = "Liechtenstein" }
-                { "pt" = "Listenstaine" }
-                { "nl" = "Liechtenstein" }
-                { "hr" = "Lihtenštajn" }
-                { "fa" = "لیختن‌اشتاین" }
-                { "de" = "Liechtenstein" }
-                { "es" = "Liechtenstein" }
-                { "fr" = "Liechtenstein" }
-                { "ja" = "リヒテンシュタイン" }
-                { "it" = "Liechtenstein" }
-                { "zh-CN" = "列支敦士登" }
-                { "tr" = "Lihtenştayn" }
-                { "ru" = "Лихтенштейн" }
-                { "uk" = "Ліхтенштейн" }
-                { "pl" = "Liechtenstein" }
+                ["ko"] = "리히텐슈타인",
+                ["pt-BR"] = "Liechtenstein",
+                ["pt"] = "Listenstaine",
+                ["nl"] = "Liechtenstein",
+                ["hr"] = "Lihtenštajn",
+                ["fa"] = "لیختن‌اشتاین",
+                ["de"] = "Liechtenstein",
+                ["es"] = "Liechtenstein",
+                ["fr"] = "Liechtenstein",
+                ["ja"] = "リヒテンシュタイン",
+                ["it"] = "Liechtenstein",
+                ["zh-CN"] = "列支敦士登",
+                ["tr"] = "Lihtenştayn",
+                ["ru"] = "Лихтенштейн",
+                ["uk"] = "Ліхтенштейн",
+                ["pl"] = "Liechtenstein"
             },
             States = new()
             {
@@ -84,7 +84,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Eschen", Latitude = "47.21071000", Longitude = "9.52223000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -98,7 +98,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Gamprin", Latitude = "47.22038000", Longitude = "9.50935000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -112,7 +112,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Mauren", Latitude = "47.21805000", Longitude = "9.54420000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -126,7 +126,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Planken", Latitude = "47.18516000", Longitude = "9.54437000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -140,7 +140,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Ruggell", Latitude = "47.23799000", Longitude = "9.52540000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -154,7 +154,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Schaan", Latitude = "47.16498000", Longitude = "9.50867000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -168,7 +168,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Schellenberg", Latitude = "47.23123000", Longitude = "9.54678000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -182,7 +182,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Triesen", Latitude = "47.10752000", Longitude = "9.52815000" }
                     }
-                }
+                },
 
                 new()
                 {

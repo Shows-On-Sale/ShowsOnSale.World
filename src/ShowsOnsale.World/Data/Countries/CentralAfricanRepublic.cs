@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "중앙아프리카 공화국" },
-                { "pt-BR" = "República Centro-Africana" }
-                { "pt" = "República Centro-Africana" }
-                { "nl" = "Centraal-Afrikaanse Republiek" }
-                { "hr" = "Srednjoafrička Republika" }
-                { "fa" = "جمهوری آفریقای مرکزی" }
-                { "de" = "Zentralafrikanische Republik" }
-                { "es" = "República Centroafricana" }
-                { "fr" = "République centrafricaine" }
-                { "ja" = "中央アフリカ共和国" }
-                { "it" = "Repubblica Centrafricana" }
-                { "zh-CN" = "中非" }
-                { "tr" = "Orta Afrika Cumhuriyeti" }
-                { "ru" = "Центральноафриканская Республика" }
-                { "uk" = "Центральноафриканська Республіка" }
-                { "pl" = "Republika Środkowoafrykańska" }
+                ["ko"] = "중앙아프리카 공화국",
+                ["pt-BR"] = "República Centro-Africana",
+                ["pt"] = "República Centro-Africana",
+                ["nl"] = "Centraal-Afrikaanse Republiek",
+                ["hr"] = "Srednjoafrička Republika",
+                ["fa"] = "جمهوری آفریقای مرکزی",
+                ["de"] = "Zentralafrikanische Republik",
+                ["es"] = "República Centroafricana",
+                ["fr"] = "République centrafricaine",
+                ["ja"] = "中央アフリカ共和国",
+                ["it"] = "Repubblica Centrafricana",
+                ["zh-CN"] = "中非",
+                ["tr"] = "Orta Afrika Cumhuriyeti",
+                ["ru"] = "Центральноафриканская Республика",
+                ["uk"] = "Центральноафриканська Республіка",
+                ["pl"] = "Republika Środkowoafrykańska"
             },
             States = new()
             {
@@ -85,7 +85,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bangui", Latitude = "4.36122000", Longitude = "18.55496000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -101,7 +101,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Kembé", Latitude = "4.62275000", Longitude = "21.88645000" },
                         new() { Id = 3, Name = "Mobaye", Latitude = "4.31902000", Longitude = "21.17861000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -116,7 +116,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Obo", Latitude = "5.39586000", Longitude = "26.49211000" },
                         new() { Id = 2, Name = "Zemio", Latitude = "5.03144000", Longitude = "25.13614000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -131,7 +131,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Bria", Latitude = "6.54233000", Longitude = "21.98633000" },
                         new() { Id = 2, Name = "Ouadda", Latitude = "8.07771000", Longitude = "22.40075000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -145,7 +145,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Sibut", Latitude = "5.71801000", Longitude = "19.07389000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -162,7 +162,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Mbaiki", Latitude = "3.97145000", Longitude = "17.93352000" },
                         new() { Id = 4, Name = "Mongoumba", Latitude = "3.64153000", Longitude = "18.59364000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -178,7 +178,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Carnot", Latitude = "4.94273000", Longitude = "15.87735000" },
                         new() { Id = 3, Name = "Gamboula", Latitude = "4.11775000", Longitude = "15.13926000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -195,7 +195,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Ouango", Latitude = "4.31325000", Longitude = "22.55524000" },
                         new() { Id = 4, Name = "Rafai", Latitude = "5.81012000", Longitude = "24.20305000" }
                     }
-                }
+                },
 
                 new()
                 {

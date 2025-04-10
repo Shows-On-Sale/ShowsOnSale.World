@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "모리타니" },
-                { "pt-BR" = "Mauritânia" }
-                { "pt" = "Mauritânia" }
-                { "nl" = "Mauritanië" }
-                { "hr" = "Mauritanija" }
-                { "fa" = "موریتانی" }
-                { "de" = "Mauretanien" }
-                { "es" = "Mauritania" }
-                { "fr" = "Mauritanie" }
-                { "ja" = "モーリタニア" }
-                { "it" = "Mauritania" }
-                { "zh-CN" = "毛里塔尼亚" }
-                { "tr" = "Moritanya" }
-                { "ru" = "Мавритания" }
-                { "uk" = "Мавританія" }
-                { "pl" = "Mauretania" }
+                ["ko"] = "모리타니",
+                ["pt-BR"] = "Mauritânia",
+                ["pt"] = "Mauritânia",
+                ["nl"] = "Mauritanië",
+                ["hr"] = "Mauritanija",
+                ["fa"] = "موریتانی",
+                ["de"] = "Mauretanien",
+                ["es"] = "Mauritania",
+                ["fr"] = "Mauritanie",
+                ["ja"] = "モーリタニア",
+                ["it"] = "Mauritania",
+                ["zh-CN"] = "毛里塔尼亚",
+                ["tr"] = "Moritanya",
+                ["ru"] = "Мавритания",
+                ["uk"] = "Мавританія",
+                ["pl"] = "Mauretania"
             },
             States = new()
             {
@@ -88,7 +88,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Barkéwol", Latitude = "16.64039000", Longitude = "-12.49849000" },
                         new() { Id = 2, Name = "Kiffa", Latitude = "16.62073000", Longitude = "-11.40208000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -105,7 +105,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Bofal", Latitude = "16.41666667", Longitude = "-13.80000000" },
                         new() { Id = 4, Name = "Sori Malé", Latitude = "16.95416667", Longitude = "-13.37916667" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -121,7 +121,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Iouik", Latitude = "19.84944444", Longitude = "-16.33083333" },
                         new() { Id = 3, Name = "Nouadhibou", Latitude = "20.94188000", Longitude = "-17.03842000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -135,7 +135,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kaédi", Latitude = "16.15027000", Longitude = "-13.50370000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -149,7 +149,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Sélibaby", Latitude = "15.15846000", Longitude = "-12.18430000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -166,7 +166,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Néma", Latitude = "16.61702000", Longitude = "-7.25649000" },
                         new() { Id = 4, Name = "Timbedra", Latitude = "16.24472222", Longitude = "-8.16750000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -182,7 +182,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Ayoun el Atrous", Latitude = "16.66666667", Longitude = "-9.61666667" },
                         new() { Id = 3, Name = "Togba", Latitude = "17.40000000", Longitude = "-10.36666667" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -196,7 +196,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Akjoujt", Latitude = "19.74657000", Longitude = "-14.38531000" }
                     }
-                }
+                },
 
                 new()
                 {

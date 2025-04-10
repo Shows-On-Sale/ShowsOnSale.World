@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "남수단" },
-                { "pt-BR" = "Sudão do Sul" }
-                { "pt" = "Sudão do Sul" }
-                { "nl" = "Zuid-Soedan" }
-                { "hr" = "Južni Sudan" }
-                { "fa" = "سودان جنوبی" }
-                { "de" = "Südsudan" }
-                { "es" = "Sudán del Sur" }
-                { "fr" = "Soudan du Sud" }
-                { "ja" = "南スーダン" }
-                { "it" = "Sudan del sud" }
-                { "zh-CN" = "南苏丹" }
-                { "tr" = "Güney Sudan" }
-                { "ru" = "Южный Судан" }
-                { "uk" = "Південний Судан" }
-                { "pl" = "Sudan Południowy" }
+                ["ko"] = "남수단",
+                ["pt-BR"] = "Sudão do Sul",
+                ["pt"] = "Sudão do Sul",
+                ["nl"] = "Zuid-Soedan",
+                ["hr"] = "Južni Sudan",
+                ["fa"] = "سودان جنوبی",
+                ["de"] = "Südsudan",
+                ["es"] = "Sudán del Sur",
+                ["fr"] = "Soudan du Sud",
+                ["ja"] = "南スーダン",
+                ["it"] = "Sudan del sud",
+                ["zh-CN"] = "南苏丹",
+                ["tr"] = "Güney Sudan",
+                ["ru"] = "Южный Судан",
+                ["uk"] = "Південний Судан",
+                ["pl"] = "Sudan Południowy"
             },
             States = new()
             {
@@ -82,7 +82,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -95,7 +95,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -109,7 +109,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Yirol", Latitude = "6.55250000", Longitude = "30.49806000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -122,7 +122,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -135,7 +135,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -148,7 +148,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -161,7 +161,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -174,7 +174,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

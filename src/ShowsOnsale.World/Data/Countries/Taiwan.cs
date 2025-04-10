@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "대만" },
-                { "pt-BR" = "Taiwan" }
-                { "pt" = "Taiwan" }
-                { "nl" = "Taiwan" }
-                { "hr" = "Tajvan" }
-                { "fa" = "تایوان" }
-                { "de" = "Taiwan" }
-                { "es" = "Taiwán" }
-                { "fr" = "Taïwan" }
-                { "ja" = "台湾（中華民国）" }
-                { "it" = "Taiwan" }
-                { "zh-CN" = "中国台湾" }
-                { "tr" = "Tayvan" }
-                { "ru" = "Тайвань" }
-                { "uk" = "Тайвань" }
-                { "pl" = "Tajwan" }
+                ["ko"] = "대만",
+                ["pt-BR"] = "Taiwan",
+                ["pt"] = "Taiwan",
+                ["nl"] = "Taiwan",
+                ["hr"] = "Tajvan",
+                ["fa"] = "تایوان",
+                ["de"] = "Taiwan",
+                ["es"] = "Taiwán",
+                ["fr"] = "Taïwan",
+                ["ja"] = "台湾（中華民国）",
+                ["it"] = "Taiwan",
+                ["zh-CN"] = "中国台湾",
+                ["tr"] = "Tayvan",
+                ["ru"] = "Тайвань",
+                ["uk"] = "Тайвань",
+                ["pl"] = "Tajwan"
             },
             States = new()
             {
@@ -100,7 +100,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Chiayi County", Latitude = "23.46333000", Longitude = "120.58166000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -114,7 +114,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Hsinchu", Latitude = "24.80361000", Longitude = "120.96861000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -128,7 +128,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Hsinchu County", Latitude = "24.67416000", Longitude = "121.16111000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -143,7 +143,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Hualien", Latitude = "23.78166000", Longitude = "121.39333000" },
                         new() { Id = 2, Name = "Hualien City", Latitude = "23.97694000", Longitude = "121.60444000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -157,7 +157,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kaohsiung", Latitude = "22.61626000", Longitude = "120.31333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -170,7 +170,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -185,7 +185,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Jincheng", Latitude = "24.43415000", Longitude = "118.31712000" },
                         new() { Id = 2, Name = "Kinmen County", Latitude = "24.45333000", Longitude = "118.38861000" }
                     }
-                }
+                },
 
                 new()
                 {

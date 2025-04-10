@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "터키" },
-                { "pt-BR" = "Turquia" }
-                { "pt" = "Turquia" }
-                { "nl" = "Turkije" }
-                { "hr" = "Turska" }
-                { "fa" = "ترکیه" }
-                { "de" = "Türkei" }
-                { "es" = "Turquía" }
-                { "fr" = "Turquie" }
-                { "ja" = "トルコ" }
-                { "it" = "Turchia" }
-                { "zh-CN" = "土耳其" }
-                { "tr" = "Türkiye" }
-                { "ru" = "Турция" }
-                { "uk" = "Туреччина" }
-                { "pl" = "Turcja" }
+                ["ko"] = "터키",
+                ["pt-BR"] = "Turquia",
+                ["pt"] = "Turquia",
+                ["nl"] = "Turkije",
+                ["hr"] = "Turska",
+                ["fa"] = "ترکیه",
+                ["de"] = "Türkei",
+                ["es"] = "Turquía",
+                ["fr"] = "Turquie",
+                ["ja"] = "トルコ",
+                ["it"] = "Turchia",
+                ["zh-CN"] = "土耳其",
+                ["tr"] = "Türkiye",
+                ["ru"] = "Турция",
+                ["uk"] = "Туреччина",
+                ["pl"] = "Turcja"
             },
             States = new()
             {
@@ -291,7 +291,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Merkez", Latitude = "41.10871000", Longitude = "42.70222000" },
                         new() { Id = 6, Name = "Posof", Latitude = "41.51111000", Longitude = "42.72917000" }
                     }
-                }
+                },
 
                 new()
                 {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "모나코" },
-                { "pt-BR" = "Mônaco" }
-                { "pt" = "Mónaco" }
-                { "nl" = "Monaco" }
-                { "hr" = "Monako" }
-                { "fa" = "موناکو" }
-                { "de" = "Monaco" }
-                { "es" = "Mónaco" }
-                { "fr" = "Monaco" }
-                { "ja" = "モナコ" }
-                { "it" = "Principato di Monaco" }
-                { "zh-CN" = "摩纳哥" }
-                { "tr" = "Monako" }
-                { "ru" = "Монако" }
-                { "uk" = "Монако" }
-                { "pl" = "Monako" }
+                ["ko"] = "모나코",
+                ["pt-BR"] = "Mônaco",
+                ["pt"] = "Mónaco",
+                ["nl"] = "Monaco",
+                ["hr"] = "Monako",
+                ["fa"] = "موناکو",
+                ["de"] = "Monaco",
+                ["es"] = "Mónaco",
+                ["fr"] = "Monaco",
+                ["ja"] = "モナコ",
+                ["it"] = "Principato di Monaco",
+                ["zh-CN"] = "摩纳哥",
+                ["tr"] = "Monako",
+                ["ru"] = "Монако",
+                ["uk"] = "Монако",
+                ["pl"] = "Monako"
             },
             States = new()
             {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "라트비아" },
-                { "pt-BR" = "Letônia" }
-                { "pt" = "Letónia" }
-                { "nl" = "Letland" }
-                { "hr" = "Latvija" }
-                { "fa" = "لتونی" }
-                { "de" = "Lettland" }
-                { "es" = "Letonia" }
-                { "fr" = "Lettonie" }
-                { "ja" = "ラトビア" }
-                { "it" = "Lettonia" }
-                { "zh-CN" = "拉脱维亚" }
-                { "tr" = "Letonya" }
-                { "ru" = "Латвия" }
-                { "uk" = "Латвія" }
-                { "pl" = "Łotwa" }
+                ["ko"] = "라트비아",
+                ["pt-BR"] = "Letônia",
+                ["pt"] = "Letónia",
+                ["nl"] = "Letland",
+                ["hr"] = "Latvija",
+                ["fa"] = "لتونی",
+                ["de"] = "Lettland",
+                ["es"] = "Letonia",
+                ["fr"] = "Lettonie",
+                ["ja"] = "ラトビア",
+                ["it"] = "Lettonia",
+                ["zh-CN"] = "拉脱维亚",
+                ["tr"] = "Letonya",
+                ["ru"] = "Латвия",
+                ["uk"] = "Латвія",
+                ["pl"] = "Łotwa"
             },
             States = new()
             {
@@ -135,7 +135,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Rugāji", Latitude = "57.00325000", Longitude = "27.13371000" },
                         new() { Id = 4, Name = "Viļaka", Latitude = "57.18458000", Longitude = "27.67220000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -152,7 +152,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Pilsrundāle", Latitude = "56.41812000", Longitude = "24.01625000" },
                         new() { Id = 4, Name = "Vecumnieki", Latitude = "56.60608000", Longitude = "24.52232000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -170,7 +170,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Stalbe", Latitude = "57.37065000", Longitude = "25.03106000" },
                         new() { Id = 5, Name = "Vecpiebalga", Latitude = "57.06090000", Longitude = "25.81624000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -183,7 +183,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -204,7 +204,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Rucava", Latitude = "56.16314000", Longitude = "21.16156000" },
                         new() { Id = 8, Name = "Vaiņode", Latitude = "56.41848000", Longitude = "21.85405000" }
                     }
-                }
+                },
 
                 new()
                 {

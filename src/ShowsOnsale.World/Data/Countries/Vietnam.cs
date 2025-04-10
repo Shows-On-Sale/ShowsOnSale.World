@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "베트남" },
-                { "pt-BR" = "Vietnã" }
-                { "pt" = "Vietname" }
-                { "nl" = "Vietnam" }
-                { "hr" = "Vijetnam" }
-                { "fa" = "ویتنام" }
-                { "de" = "Vietnam" }
-                { "es" = "Vietnam" }
-                { "fr" = "Viêt Nam" }
-                { "ja" = "ベトナム" }
-                { "it" = "Vietnam" }
-                { "zh-CN" = "越南" }
-                { "tr" = "Vietnam" }
-                { "ru" = "Вьетнам" }
-                { "uk" = "В'єтнам" }
-                { "pl" = "Wietnam" }
+                ["ko"] = "베트남",
+                ["pt-BR"] = "Vietnã",
+                ["pt"] = "Vietname",
+                ["nl"] = "Vietnam",
+                ["hr"] = "Vijetnam",
+                ["fa"] = "ویتنام",
+                ["de"] = "Vietnam",
+                ["es"] = "Vietnam",
+                ["fr"] = "Viêt Nam",
+                ["ja"] = "ベトナム",
+                ["it"] = "Vietnam",
+                ["zh-CN"] = "越南",
+                ["tr"] = "Vietnam",
+                ["ru"] = "Вьетнам",
+                ["uk"] = "В'єтнам",
+                ["pl"] = "Wietnam"
             },
             States = new()
             {
@@ -191,7 +191,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Huyện Giồng Trôm", Latitude = "10.15909000", Longitude = "106.47004000" },
                         new() { Id = 8, Name = "Huyện Thạnh Phú", Latitude = "9.92993000", Longitude = "106.54316000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -206,7 +206,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Dĩ An", Latitude = "10.90682000", Longitude = "106.76940000" },
                         new() { Id = 2, Name = "Thủ Dầu Một", Latitude = "10.98040000", Longitude = "106.65190000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -226,7 +226,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Huyện Vĩnh Thạnh", Latitude = "14.21100000", Longitude = "108.74389000" },
                         new() { Id = 7, Name = "Qui Nhon", Latitude = "13.77648000", Longitude = "109.22367000" }
                     }
-                }
+                },
 
                 new()
                 {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "기니비사우" },
-                { "pt-BR" = "Guiné-Bissau" }
-                { "pt" = "Guiné-Bissau" }
-                { "nl" = "Guinee-Bissau" }
-                { "hr" = "Gvineja Bisau" }
-                { "fa" = "گینه بیسائو" }
-                { "de" = "Guinea-Bissau" }
-                { "es" = "Guinea-Bisáu" }
-                { "fr" = "Guinée-Bissau" }
-                { "ja" = "ギニアビサウ" }
-                { "it" = "Guinea-Bissau" }
-                { "zh-CN" = "几内亚比绍" }
-                { "tr" = "Gine-bissau" }
-                { "ru" = "Гвинея-Бисау" }
-                { "uk" = "Гвінея-Бісау" }
-                { "pl" = "Gwinea Bissau" }
+                ["ko"] = "기니비사우",
+                ["pt-BR"] = "Guiné-Bissau",
+                ["pt"] = "Guiné-Bissau",
+                ["nl"] = "Guinee-Bissau",
+                ["hr"] = "Gvineja Bisau",
+                ["fa"] = "گینه بیسائو",
+                ["de"] = "Guinea-Bissau",
+                ["es"] = "Guinea-Bisáu",
+                ["fr"] = "Guinée-Bissau",
+                ["ja"] = "ギニアビサウ",
+                ["it"] = "Guinea-Bissau",
+                ["zh-CN"] = "几内亚比绍",
+                ["tr"] = "Gine-bissau",
+                ["ru"] = "Гвинея-Бисау",
+                ["uk"] = "Гвінея-Бісау",
+                ["pl"] = "Gwinea Bissau"
             },
             States = new()
             {
@@ -85,7 +85,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Quinhámel", Latitude = "11.88694000", Longitude = "-15.85556000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -100,7 +100,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Bolama", Latitude = "11.57694000", Longitude = "-15.47611000" },
                         new() { Id = 2, Name = "Bubaque", Latitude = "11.28333000", Longitude = "-15.83333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -115,7 +115,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Cacheu", Latitude = "12.27444000", Longitude = "-16.16528000" },
                         new() { Id = 2, Name = "Canchungo", Latitude = "12.06722000", Longitude = "-16.03333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -129,7 +129,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Gabú", Latitude = "12.28000000", Longitude = "-14.22222000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -142,7 +142,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -155,7 +155,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -171,7 +171,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Farim", Latitude = "12.48389000", Longitude = "-15.22167000" },
                         new() { Id = 3, Name = "Mansôa", Latitude = "12.07333000", Longitude = "-15.31889000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -185,7 +185,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Buba", Latitude = "11.58889000", Longitude = "-14.99583000" }
                     }
-                }
+                },
 
                 new()
                 {

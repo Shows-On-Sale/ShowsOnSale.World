@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "코트디부아르" },
-                { "pt-BR" = "Costa do Marfim" }
-                { "pt" = "Costa do Marfim" }
-                { "nl" = "Ivoorkust" }
-                { "hr" = "Obala Bjelokosti" }
-                { "fa" = "ساحل عاج" }
-                { "de" = "Elfenbeinküste" }
-                { "es" = "Costa de Marfil" }
-                { "fr" = "Côte d'Ivoire" }
-                { "ja" = "コートジボワール" }
-                { "it" = "Costa D'Avorio" }
-                { "zh-CN" = "科特迪瓦" }
-                { "tr" = "Kotdivuar" }
-                { "ru" = "Кот-д'Ивуар (Берег Слоновой Кости)" }
-                { "uk" = "Кот-д'Івуар (Берег Слонової Кістки)" }
-                { "pl" = "Cote D'Ivoire (Wybrzeże Kości Słoniowej)" }
+                ["ko"] = "코트디부아르",
+                ["pt-BR"] = "Costa do Marfim",
+                ["pt"] = "Costa do Marfim",
+                ["nl"] = "Ivoorkust",
+                ["hr"] = "Obala Bjelokosti",
+                ["fa"] = "ساحل عاج",
+                ["de"] = "Elfenbeinküste",
+                ["es"] = "Costa de Marfil",
+                ["fr"] = "Côte d'Ivoire",
+                ["ja"] = "コートジボワール",
+                ["it"] = "Costa D'Avorio",
+                ["zh-CN"] = "科特迪瓦",
+                ["tr"] = "Kotdivuar",
+                ["ru"] = "Кот-д'Ивуар (Берег Слоновой Кости)",
+                ["uk"] = "Кот-д'Івуар (Берег Слонової Кістки)",
+                ["pl"] = "Cote D'Ivoire (Wybrzeże Kości Słoniowej)"
             },
             States = new()
             {
@@ -117,7 +117,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Sassandra", Latitude = "4.95384000", Longitude = "-6.08531000" },
                         new() { Id = 5, Name = "Tabou", Latitude = "4.42295000", Longitude = "-7.35280000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -130,7 +130,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -152,7 +152,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Indénié-Djuablin", Latitude = "6.74434000", Longitude = "-3.49400000" },
                         new() { Id = 9, Name = "Sud-Comoé", Latitude = "5.49961000", Longitude = "-3.24080000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -168,7 +168,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Kabadougou", Latitude = "9.60571000", Longitude = "-7.43774000" },
                         new() { Id = 3, Name = "Odienné", Latitude = "9.50511000", Longitude = "-7.56433000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -181,7 +181,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -204,7 +204,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Tonkpi", Latitude = "7.56785000", Longitude = "-7.60941000" },
                         new() { Id = 10, Name = "Toulépleu Gueré", Latitude = "6.57395000", Longitude = "-8.42592000" }
                     }
-                }
+                },
 
                 new()
                 {

@@ -39,22 +39,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "미국령 군소 제도" },
-                { "pt-BR" = "Ilhas Menores Distantes dos Estados Unidos" }
-                { "pt" = "Ilhas Menores Distantes dos Estados Unidos" }
-                { "nl" = "Kleine afgelegen eilanden van de Verenigde Staten" }
-                { "hr" = "Mali udaljeni otoci SAD-a" }
-                { "fa" = "جزایر کوچک حاشیه‌ای ایالات متحده آمریکا" }
-                { "de" = "Kleinere Inselbesitzungen der Vereinigten Staaten" }
-                { "es" = "Islas Ultramarinas Menores de Estados Unidos" }
-                { "fr" = "Îles mineures éloignées des États-Unis" }
-                { "ja" = "合衆国領有小離島" }
-                { "it" = "Isole minori esterne degli Stati Uniti d'America" }
-                { "zh-CN" = "美国本土外小岛屿" }
-                { "tr" = "Abd Küçük Harici Adalari" }
-                { "ru" = "Малые отдаленные острова Соединенных Штатов" }
-                { "uk" = "Малі віддалені острови Сполучених Штатів" }
-                { "pl" = "Mniejsze Wyspy Zewnętrzne Stanów Zjednoczonych" }
+                ["ko"] = "미국령 군소 제도",
+                ["pt-BR"] = "Ilhas Menores Distantes dos Estados Unidos",
+                ["pt"] = "Ilhas Menores Distantes dos Estados Unidos",
+                ["nl"] = "Kleine afgelegen eilanden van de Verenigde Staten",
+                ["hr"] = "Mali udaljeni otoci SAD-a",
+                ["fa"] = "جزایر کوچک حاشیه‌ای ایالات متحده آمریکا",
+                ["de"] = "Kleinere Inselbesitzungen der Vereinigten Staaten",
+                ["es"] = "Islas Ultramarinas Menores de Estados Unidos",
+                ["fr"] = "Îles mineures éloignées des États-Unis",
+                ["ja"] = "合衆国領有小離島",
+                ["it"] = "Isole minori esterne degli Stati Uniti d'America",
+                ["zh-CN"] = "美国本土外小岛屿",
+                ["tr"] = "Abd Küçük Harici Adalari",
+                ["ru"] = "Малые отдаленные острова Соединенных Штатов",
+                ["uk"] = "Малі віддалені острови Сполучених Штатів",
+                ["pl"] = "Mniejsze Wyspy Zewnętrzne Stanów Zjednoczonych"
             },
             States = new()
             {

@@ -39,22 +39,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "뉴질랜드" },
-                { "pt-BR" = "Nova Zelândia" }
-                { "pt" = "Nova Zelândia" }
-                { "nl" = "Nieuw-Zeeland" }
-                { "hr" = "Novi Zeland" }
-                { "fa" = "نیوزیلند" }
-                { "de" = "Neuseeland" }
-                { "es" = "Nueva Zelanda" }
-                { "fr" = "Nouvelle-Zélande" }
-                { "ja" = "ニュージーランド" }
-                { "it" = "Nuova Zelanda" }
-                { "zh-CN" = "新西兰" }
-                { "tr" = "Yeni Zelanda" }
-                { "ru" = "Новая Зеландия" }
-                { "uk" = "Нова Зеландія" }
-                { "pl" = "Nowa Zelandia" }
+                ["ko"] = "뉴질랜드",
+                ["pt-BR"] = "Nova Zelândia",
+                ["pt"] = "Nova Zelândia",
+                ["nl"] = "Nieuw-Zeeland",
+                ["hr"] = "Novi Zeland",
+                ["fa"] = "نیوزیلند",
+                ["de"] = "Neuseeland",
+                ["es"] = "Nueva Zelanda",
+                ["fr"] = "Nouvelle-Zélande",
+                ["ja"] = "ニュージーランド",
+                ["it"] = "Nuova Zelanda",
+                ["zh-CN"] = "新西兰",
+                ["tr"] = "Yeni Zelanda",
+                ["ru"] = "Новая Зеландия",
+                ["uk"] = "Нова Зеландія",
+                ["pl"] = "Nowa Zelandia"
             },
             States = new()
             {
@@ -114,7 +114,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Waihi Beach", Latitude = "-37.40000000", Longitude = "175.93333000" },
                         new() { Id = 10, Name = "Whakatane", Latitude = "-37.95855000", Longitude = "176.98545000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -151,7 +151,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 23, Name = "Waimakariri District", Latitude = "-43.20750000", Longitude = "172.33286000" },
                         new() { Id = 24, Name = "Woodend", Latitude = "-43.31667000", Longitude = "172.66667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -165,7 +165,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Waitangi", Latitude = "-43.95353000", Longitude = "-176.55973000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -179,7 +179,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Gisborne", Latitude = "-38.65333000", Longitude = "178.00417000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -196,7 +196,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Taradale", Latitude = "-39.53333000", Longitude = "176.85000000" },
                         new() { Id = 4, Name = "Wairoa", Latitude = "-39.03333000", Longitude = "177.36667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -217,7 +217,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Waiouru", Latitude = "-39.47753000", Longitude = "175.66834000" },
                         new() { Id = 8, Name = "Wanganui", Latitude = "-39.93333000", Longitude = "175.05000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -232,7 +232,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Blenheim", Latitude = "-41.51603000", Longitude = "173.95280000" },
                         new() { Id = 2, Name = "Picton", Latitude = "-41.29067000", Longitude = "174.00801000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -246,7 +246,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Nelson", Latitude = "-41.27078000", Longitude = "173.28404000" }
                     }
-                }
+                },
 
                 new()
                 {

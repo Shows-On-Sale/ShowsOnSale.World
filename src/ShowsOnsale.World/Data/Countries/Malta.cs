@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "몰타" },
-                { "pt-BR" = "Malta" }
-                { "pt" = "Malta" }
-                { "nl" = "Malta" }
-                { "hr" = "Malta" }
-                { "fa" = "مالت" }
-                { "de" = "Malta" }
-                { "es" = "Malta" }
-                { "fr" = "Malte" }
-                { "ja" = "マルタ" }
-                { "it" = "Malta" }
-                { "zh-CN" = "马耳他" }
-                { "tr" = "Malta" }
-                { "ru" = "Мальта" }
-                { "uk" = "Мальта" }
-                { "pl" = "Malta" }
+                ["ko"] = "몰타",
+                ["pt-BR"] = "Malta",
+                ["pt"] = "Malta",
+                ["nl"] = "Malta",
+                ["hr"] = "Malta",
+                ["fa"] = "مالت",
+                ["de"] = "Malta",
+                ["es"] = "Malta",
+                ["fr"] = "Malte",
+                ["ja"] = "マルタ",
+                ["it"] = "Malta",
+                ["zh-CN"] = "马耳他",
+                ["tr"] = "Malta",
+                ["ru"] = "Мальта",
+                ["uk"] = "Мальта",
+                ["pl"] = "Malta"
             },
             States = new()
             {
@@ -157,7 +157,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Dingli", Latitude = "35.86139000", Longitude = "14.38222000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -171,7 +171,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Fgura", Latitude = "35.87028000", Longitude = "14.51333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -185,7 +185,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Floriana", Latitude = "35.89583000", Longitude = "14.50833000" }
                     }
-                }
+                },
 
                 new()
                 {

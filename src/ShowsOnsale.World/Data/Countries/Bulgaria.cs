@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "불가리아" },
-                { "pt-BR" = "Bulgária" }
-                { "pt" = "Bulgária" }
-                { "nl" = "Bulgarije" }
-                { "hr" = "Bugarska" }
-                { "fa" = "بلغارستان" }
-                { "de" = "Bulgarien" }
-                { "es" = "Bulgaria" }
-                { "fr" = "Bulgarie" }
-                { "ja" = "ブルガリア" }
-                { "it" = "Bulgaria" }
-                { "zh-CN" = "保加利亚" }
-                { "tr" = "Bulgaristan" }
-                { "ru" = "Болгария" }
-                { "uk" = "Болгарія" }
-                { "pl" = "Bułgaria" }
+                ["ko"] = "불가리아",
+                ["pt-BR"] = "Bulgária",
+                ["pt"] = "Bulgária",
+                ["nl"] = "Bulgarije",
+                ["hr"] = "Bugarska",
+                ["fa"] = "بلغارستان",
+                ["de"] = "Bulgarien",
+                ["es"] = "Bulgaria",
+                ["fr"] = "Bulgarie",
+                ["ja"] = "ブルガリア",
+                ["it"] = "Bulgaria",
+                ["zh-CN"] = "保加利亚",
+                ["tr"] = "Bulgaristan",
+                ["ru"] = "Болгария",
+                ["uk"] = "Болгарія",
+                ["pl"] = "Bułgaria"
             },
             States = new()
             {
@@ -171,7 +171,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 14, Name = "Shabla", Latitude = "43.53983000", Longitude = "28.53429000" },
                         new() { Id = 15, Name = "Tervel", Latitude = "43.74789000", Longitude = "27.40911000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -192,7 +192,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Sevlievo", Latitude = "43.02583000", Longitude = "25.11361000" },
                         new() { Id = 8, Name = "Tryavna", Latitude = "42.86667000", Longitude = "25.50000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -224,7 +224,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 18, Name = "Svilengrad", Latitude = "41.76667000", Longitude = "26.20000000" },
                         new() { Id = 19, Name = "Topolovgrad", Latitude = "42.08333000", Longitude = "26.33333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -248,7 +248,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Obshtina Kirkovo", Latitude = "41.35816000", Longitude = "25.33731000" },
                         new() { Id = 11, Name = "Obshtina Momchilgrad", Latitude = "41.53333000", Longitude = "25.50000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -278,7 +278,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 16, Name = "Rila", Latitude = "42.13333000", Longitude = "23.13333000" },
                         new() { Id = 17, Name = "Sapareva Banya", Latitude = "42.28333000", Longitude = "23.26667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -302,7 +302,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Ugarchin", Latitude = "43.10000000", Longitude = "24.41667000" },
                         new() { Id = 11, Name = "Yablanitsa", Latitude = "43.03139000", Longitude = "24.11278000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -333,7 +333,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 17, Name = "Varshets", Latitude = "43.19356000", Longitude = "23.28680000" },
                         new() { Id = 18, Name = "Yakimovo", Latitude = "43.63472000", Longitude = "23.35350000" }
                     }
-                }
+                },
 
                 new()
                 {

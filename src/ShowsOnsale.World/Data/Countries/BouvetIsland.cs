@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "부벳 섬" },
-                { "pt-BR" = "Ilha Bouvet" }
-                { "pt" = "Ilha Bouvet" }
-                { "nl" = "Bouveteiland" }
-                { "hr" = "Otok Bouvet" }
-                { "fa" = "جزیره بووه" }
-                { "de" = "Bouvetinsel" }
-                { "es" = "Isla Bouvet" }
-                { "fr" = "Île Bouvet" }
-                { "ja" = "ブーベ島" }
-                { "it" = "Isola Bouvet" }
-                { "zh-CN" = "布维岛" }
-                { "tr" = "Bouvet Adasi" }
-                { "ru" = "Остров Буве" }
-                { "uk" = "Острів Буве" }
-                { "pl" = "Wyspa Bouveta" }
+                ["ko"] = "부벳 섬",
+                ["pt-BR"] = "Ilha Bouvet",
+                ["pt"] = "Ilha Bouvet",
+                ["nl"] = "Bouveteiland",
+                ["hr"] = "Otok Bouvet",
+                ["fa"] = "جزیره بووه",
+                ["de"] = "Bouvetinsel",
+                ["es"] = "Isla Bouvet",
+                ["fr"] = "Île Bouvet",
+                ["ja"] = "ブーベ島",
+                ["it"] = "Isola Bouvet",
+                ["zh-CN"] = "布维岛",
+                ["tr"] = "Bouvet Adasi",
+                ["ru"] = "Остров Буве",
+                ["uk"] = "Острів Буве",
+                ["pl"] = "Wyspa Bouveta"
             },
             States = new()
             {

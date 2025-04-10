@@ -41,22 +41,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "우크라이나" },
-                { "pt-BR" = "Ucrânia" }
-                { "pt" = "Ucrânia" }
-                { "nl" = "Oekraïne" }
-                { "hr" = "Ukrajina" }
-                { "fa" = "وکراین" }
-                { "de" = "Ukraine" }
-                { "es" = "Ucrania" }
-                { "fr" = "Ukraine" }
-                { "ja" = "ウクライナ" }
-                { "it" = "Ucraina" }
-                { "zh-CN" = "乌克兰" }
-                { "tr" = "Ukrayna" }
-                { "ru" = "Украина" }
-                { "uk" = "Україна" }
-                { "pl" = "Ukraina" }
+                ["ko"] = "우크라이나",
+                ["pt-BR"] = "Ucrânia",
+                ["pt"] = "Ucrânia",
+                ["nl"] = "Oekraïne",
+                ["hr"] = "Ukrajina",
+                ["fa"] = "وکراین",
+                ["de"] = "Ukraine",
+                ["es"] = "Ucrania",
+                ["fr"] = "Ukraine",
+                ["ja"] = "ウクライナ",
+                ["it"] = "Ucraina",
+                ["zh-CN"] = "乌克兰",
+                ["tr"] = "Ukrayna",
+                ["ru"] = "Украина",
+                ["uk"] = "Україна",
+                ["pl"] = "Ukraina"
             },
             States = new()
             {
@@ -525,7 +525,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 40, Name = "Varva", Latitude = "50.49503000", Longitude = "32.71968000" },
                         new() { Id = 41, Name = "Zhuravka", Latitude = "50.48108000", Longitude = "32.59490000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -568,7 +568,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 29, Name = "Yizhivtsi", Latitude = "48.03962000", Longitude = "25.66232000" },
                         new() { Id = 30, Name = "Zastavna", Latitude = "48.52307000", Longitude = "25.84369000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -633,7 +633,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 51, Name = "Yur”yivs’kyy Rayon", Latitude = "48.80743000", Longitude = "35.91325000" },
                         new() { Id = 52, Name = "Zhovti Vody", Latitude = "48.34493000", Longitude = "33.50374000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -724,7 +724,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 77, Name = "Yenakiyeve", Latitude = "48.23331000", Longitude = "38.21137000" },
                         new() { Id = 78, Name = "Zuhres", Latitude = "48.01140000", Longitude = "38.26444000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -823,7 +823,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 85, Name = "Zahvizdya", Latitude = "48.91836000", Longitude = "24.65275000" },
                         new() { Id = 86, Name = "Zarichchya", Latitude = "48.52144000", Longitude = "24.64857000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -902,7 +902,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 65, Name = "Zmiyiv", Latitude = "49.67453000", Longitude = "36.34775000" },
                         new() { Id = 66, Name = "Zolochiv", Latitude = "50.27985000", Longitude = "35.98179000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -959,7 +959,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 43, Name = "Vysokopillya", Latitude = "47.49187000", Longitude = "33.53061000" },
                         new() { Id = 44, Name = "Zaliznyy Port", Latitude = "46.12337000", Longitude = "32.29892000" }
                     }
-                }
+                },
 
                 new()
                 {

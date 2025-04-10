@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "생피에르 미클롱" },
-                { "pt-BR" = "Saint-Pierre e Miquelon" }
-                { "pt" = "São Pedro e Miquelon" }
-                { "nl" = "Saint Pierre en Miquelon" }
-                { "hr" = "Sveti Petar i Mikelon" }
-                { "fa" = "سن پیر و میکلن" }
-                { "de" = "Saint-Pierre und Miquelon" }
-                { "es" = "San Pedro y Miquelón" }
-                { "fr" = "Saint-Pierre-et-Miquelon" }
-                { "ja" = "サンピエール島・ミクロン島" }
-                { "it" = "Saint-Pierre e Miquelon" }
-                { "zh-CN" = "圣皮埃尔和密克隆" }
-                { "tr" = "Saint Pierre Ve Miquelon" }
-                { "ru" = "Сен-Пьер и Микелон" }
-                { "uk" = "Сен-П'єр і Мікелон" }
-                { "pl" = "Saint-Pierre i Miquelon" }
+                ["ko"] = "생피에르 미클롱",
+                ["pt-BR"] = "Saint-Pierre e Miquelon",
+                ["pt"] = "São Pedro e Miquelon",
+                ["nl"] = "Saint Pierre en Miquelon",
+                ["hr"] = "Sveti Petar i Mikelon",
+                ["fa"] = "سن پیر و میکلن",
+                ["de"] = "Saint-Pierre und Miquelon",
+                ["es"] = "San Pedro y Miquelón",
+                ["fr"] = "Saint-Pierre-et-Miquelon",
+                ["ja"] = "サンピエール島・ミクロン島",
+                ["it"] = "Saint-Pierre e Miquelon",
+                ["zh-CN"] = "圣皮埃尔和密克隆",
+                ["tr"] = "Saint Pierre Ve Miquelon",
+                ["ru"] = "Сен-Пьер и Микелон",
+                ["uk"] = "Сен-П'єр і Мікелон",
+                ["pl"] = "Saint-Pierre i Miquelon"
             },
             States = new()
             {

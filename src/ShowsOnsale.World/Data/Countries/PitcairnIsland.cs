@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "핏케언 제도" },
-                { "pt-BR" = "Ilhas Pitcairn" }
-                { "pt" = "Ilhas Picárnia" }
-                { "nl" = "Pitcairneilanden" }
-                { "hr" = "Pitcairnovo otočje" }
-                { "fa" = "پیتکرن" }
-                { "de" = "Pitcairn" }
-                { "es" = "Islas Pitcairn" }
-                { "fr" = "Îles Pitcairn" }
-                { "ja" = "ピトケアン" }
-                { "it" = "Isole Pitcairn" }
-                { "zh-CN" = "皮特凯恩群岛" }
-                { "tr" = "Pitcairn Adalari" }
-                { "ru" = "Остров Питкэрн" }
-                { "uk" = "Острів Піткерн" }
-                { "pl" = "Wyspa Pitcairn" }
+                ["ko"] = "핏케언 제도",
+                ["pt-BR"] = "Ilhas Pitcairn",
+                ["pt"] = "Ilhas Picárnia",
+                ["nl"] = "Pitcairneilanden",
+                ["hr"] = "Pitcairnovo otočje",
+                ["fa"] = "پیتکرن",
+                ["de"] = "Pitcairn",
+                ["es"] = "Islas Pitcairn",
+                ["fr"] = "Îles Pitcairn",
+                ["ja"] = "ピトケアン",
+                ["it"] = "Isole Pitcairn",
+                ["zh-CN"] = "皮特凯恩群岛",
+                ["tr"] = "Pitcairn Adalari",
+                ["ru"] = "Остров Питкэрн",
+                ["uk"] = "Острів Піткерн",
+                ["pl"] = "Wyspa Pitcairn"
             },
             States = new()
             {

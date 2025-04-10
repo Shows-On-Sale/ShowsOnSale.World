@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "리투아니아" },
-                { "pt-BR" = "Lituânia" }
-                { "pt" = "Lituânia" }
-                { "nl" = "Litouwen" }
-                { "hr" = "Litva" }
-                { "fa" = "لیتوانی" }
-                { "de" = "Litauen" }
-                { "es" = "Lituania" }
-                { "fr" = "Lituanie" }
-                { "ja" = "リトアニア" }
-                { "it" = "Lituania" }
-                { "zh-CN" = "立陶宛" }
-                { "tr" = "Litvanya" }
-                { "ru" = "Литва" }
-                { "uk" = "Литва" }
-                { "pl" = "Litwa" }
+                ["ko"] = "리투아니아",
+                ["pt-BR"] = "Lituânia",
+                ["pt"] = "Lituânia",
+                ["nl"] = "Litouwen",
+                ["hr"] = "Litva",
+                ["fa"] = "لیتوانی",
+                ["de"] = "Litauen",
+                ["es"] = "Lituania",
+                ["fr"] = "Lituanie",
+                ["ja"] = "リトアニア",
+                ["it"] = "Lituania",
+                ["zh-CN"] = "立陶宛",
+                ["tr"] = "Litvanya",
+                ["ru"] = "Литва",
+                ["uk"] = "Литва",
+                ["pl"] = "Litwa"
             },
             States = new()
             {
@@ -167,7 +167,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -180,7 +180,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

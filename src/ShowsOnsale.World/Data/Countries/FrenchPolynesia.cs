@@ -40,22 +40,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "프랑스령 폴리네시아" },
-                { "pt-BR" = "Polinésia Francesa" }
-                { "pt" = "Polinésia Francesa" }
-                { "nl" = "Frans-Polynesië" }
-                { "hr" = "Francuska Polinezija" }
-                { "fa" = "پلی‌نزی فرانسه" }
-                { "de" = "Französisch-Polynesien" }
-                { "es" = "Polinesia Francesa" }
-                { "fr" = "Polynésie française" }
-                { "ja" = "フランス領ポリネシア" }
-                { "it" = "Polinesia Francese" }
-                { "zh-CN" = "法属波利尼西亚" }
-                { "tr" = "Fransiz Polinezyasi" }
-                { "ru" = "Французская Полинезия" }
-                { "uk" = "Французька Полінезія" }
-                { "pl" = "Polinezja Francuska" }
+                ["ko"] = "프랑스령 폴리네시아",
+                ["pt-BR"] = "Polinésia Francesa",
+                ["pt"] = "Polinésia Francesa",
+                ["nl"] = "Frans-Polynesië",
+                ["hr"] = "Francuska Polinezija",
+                ["fa"] = "پلی‌نزی فرانسه",
+                ["de"] = "Französisch-Polynesien",
+                ["es"] = "Polinesia Francesa",
+                ["fr"] = "Polynésie française",
+                ["ja"] = "フランス領ポリネシア",
+                ["it"] = "Polinesia Francese",
+                ["zh-CN"] = "法属波利尼西亚",
+                ["tr"] = "Fransiz Polinezyasi",
+                ["ru"] = "Французская Полинезия",
+                ["uk"] = "Французька Полінезія",
+                ["pl"] = "Polinezja Francuska"
             },
             States = new()
             {

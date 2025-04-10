@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "스위스" },
-                { "pt-BR" = "Suíça" }
-                { "pt" = "Suíça" }
-                { "nl" = "Zwitserland" }
-                { "hr" = "Švicarska" }
-                { "fa" = "سوئیس" }
-                { "de" = "Schweiz" }
-                { "es" = "Suiza" }
-                { "fr" = "Suisse" }
-                { "ja" = "スイス" }
-                { "it" = "Svizzera" }
-                { "zh-CN" = "瑞士" }
-                { "tr" = "İsviçre" }
-                { "ru" = "Швейцария" }
-                { "uk" = "Швейцарія" }
-                { "pl" = "Szwajcaria" }
+                ["ko"] = "스위스",
+                ["pt-BR"] = "Suíça",
+                ["pt"] = "Suíça",
+                ["nl"] = "Zwitserland",
+                ["hr"] = "Švicarska",
+                ["fa"] = "سوئیس",
+                ["de"] = "Schweiz",
+                ["es"] = "Suiza",
+                ["fr"] = "Suisse",
+                ["ja"] = "スイス",
+                ["it"] = "Svizzera",
+                ["zh-CN"] = "瑞士",
+                ["tr"] = "İsviçre",
+                ["ru"] = "Швейцария",
+                ["uk"] = "Швейцарія",
+                ["pl"] = "Szwajcaria"
             },
             States = new()
             {
@@ -232,7 +232,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Haslen", Latitude = "47.36931000", Longitude = "9.36752000" },
                         new() { Id = 4, Name = "Oberegg", Latitude = "47.42531000", Longitude = "9.55134000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -291,7 +291,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 45, Name = "Zunzgen", Latitude = "47.44925000", Longitude = "7.80789000" },
                         new() { Id = 46, Name = "Zwingen", Latitude = "47.43825000", Longitude = "7.53027000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -307,7 +307,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Bettingen", Latitude = "47.57138900", Longitude = "7.66416700" },
                         new() { Id = 3, Name = "Riehen", Latitude = "47.58333300", Longitude = "7.63333300" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -487,7 +487,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 166, Name = "Zollikofen", Latitude = "46.99905000", Longitude = "7.45809000" },
                         new() { Id = 167, Name = "Zweisimmen", Latitude = "46.55539000", Longitude = "7.37302000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -555,7 +555,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 54, Name = "Villaz-Saint-Pierre", Latitude = "46.72074000", Longitude = "6.95638000" },
                         new() { Id = 55, Name = "Vuadens", Latitude = "46.61545000", Longitude = "7.01732000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -596,7 +596,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 27, Name = "Versoix", Latitude = "46.28382000", Longitude = "6.16214000" },
                         new() { Id = 28, Name = "Veyrier", Latitude = "46.16699000", Longitude = "6.18436000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -620,7 +620,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Oberurnen", Latitude = "47.11412000", Longitude = "9.05866000" },
                         new() { Id = 11, Name = "Schwanden", Latitude = "46.99541000", Longitude = "9.07010000" }
                     }
-                }
+                },
 
                 new()
                 {

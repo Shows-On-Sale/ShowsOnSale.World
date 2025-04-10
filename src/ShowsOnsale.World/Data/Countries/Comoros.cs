@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "코모로" },
-                { "pt-BR" = "Comores" }
-                { "pt" = "Comores" }
-                { "nl" = "Comoren" }
-                { "hr" = "Komori" }
-                { "fa" = "کومور" }
-                { "de" = "Union der Komoren" }
-                { "es" = "Comoras" }
-                { "fr" = "Comores" }
-                { "ja" = "コモロ" }
-                { "it" = "Comore" }
-                { "zh-CN" = "科摩罗" }
-                { "tr" = "Komorlar" }
-                { "ru" = "Коморские острова" }
-                { "uk" = "Коморські острови" }
-                { "pl" = "Komory" }
+                ["ko"] = "코모로",
+                ["pt-BR"] = "Comores",
+                ["pt"] = "Comores",
+                ["nl"] = "Comoren",
+                ["hr"] = "Komori",
+                ["fa"] = "کومور",
+                ["de"] = "Union der Komoren",
+                ["es"] = "Comoras",
+                ["fr"] = "Comores",
+                ["ja"] = "コモロ",
+                ["it"] = "Comore",
+                ["zh-CN"] = "科摩罗",
+                ["tr"] = "Komorlar",
+                ["ru"] = "Коморские острова",
+                ["uk"] = "Коморські острови",
+                ["pl"] = "Komory"
             },
             States = new()
             {

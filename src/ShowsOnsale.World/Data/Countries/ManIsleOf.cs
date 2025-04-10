@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "맨 섬" },
-                { "pt-BR" = "Ilha de Man" }
-                { "pt" = "Ilha de Man" }
-                { "nl" = "Isle of Man" }
-                { "hr" = "Otok Man" }
-                { "fa" = "جزیره من" }
-                { "de" = "Insel Man" }
-                { "es" = "Isla de Man" }
-                { "fr" = "Île de Man" }
-                { "ja" = "マン島" }
-                { "it" = "Isola di Man" }
-                { "zh-CN" = "马恩岛" }
-                { "tr" = "Man Adasi" }
-                { "ru" = "Мэн (остров)" }
-                { "uk" = "Мен (острів Мен)" }
-                { "pl" = "Man (Wyspa)" }
+                ["ko"] = "맨 섬",
+                ["pt-BR"] = "Ilha de Man",
+                ["pt"] = "Ilha de Man",
+                ["nl"] = "Isle of Man",
+                ["hr"] = "Otok Man",
+                ["fa"] = "جزیره من",
+                ["de"] = "Insel Man",
+                ["es"] = "Isla de Man",
+                ["fr"] = "Île de Man",
+                ["ja"] = "マン島",
+                ["it"] = "Isola di Man",
+                ["zh-CN"] = "马恩岛",
+                ["tr"] = "Man Adasi",
+                ["ru"] = "Мэн (остров)",
+                ["uk"] = "Мен (острів Мен)",
+                ["pl"] = "Man (Wyspa)"
             },
             States = new()
             {

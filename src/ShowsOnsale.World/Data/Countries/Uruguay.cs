@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "우루과이" },
-                { "pt-BR" = "Uruguai" }
-                { "pt" = "Uruguai" }
-                { "nl" = "Uruguay" }
-                { "hr" = "Urugvaj" }
-                { "fa" = "اروگوئه" }
-                { "de" = "Uruguay" }
-                { "es" = "Uruguay" }
-                { "fr" = "Uruguay" }
-                { "ja" = "ウルグアイ" }
-                { "it" = "Uruguay" }
-                { "zh-CN" = "乌拉圭" }
-                { "tr" = "Uruguay" }
-                { "ru" = "Уругвай" }
-                { "uk" = "Уругвай" }
-                { "pl" = "Urugwaj" }
+                ["ko"] = "우루과이",
+                ["pt-BR"] = "Uruguai",
+                ["pt"] = "Uruguai",
+                ["nl"] = "Uruguay",
+                ["hr"] = "Urugvaj",
+                ["fa"] = "اروگوئه",
+                ["de"] = "Uruguay",
+                ["es"] = "Uruguay",
+                ["fr"] = "Uruguay",
+                ["ja"] = "ウルグアイ",
+                ["it"] = "Uruguay",
+                ["zh-CN"] = "乌拉圭",
+                ["tr"] = "Uruguay",
+                ["ru"] = "Уругвай",
+                ["uk"] = "Уругвай",
+                ["pl"] = "Urugwaj"
             },
             States = new()
             {
@@ -116,7 +116,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 28, Name = "Tala", Latitude = "-34.34349000", Longitude = "-55.76375000" },
                         new() { Id = 29, Name = "Toledo", Latitude = "-34.73807000", Longitude = "-56.09469000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -134,7 +134,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Río Branco", Latitude = "-32.59802000", Longitude = "-53.38583000" },
                         new() { Id = 5, Name = "Tupambaé", Latitude = "-32.83333000", Longitude = "-54.76667000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -156,7 +156,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Rosario", Latitude = "-34.31667000", Longitude = "-57.35000000" },
                         new() { Id = 9, Name = "Tarariras", Latitude = "-34.26555000", Longitude = "-57.61866000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -176,7 +176,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Sarandí del Yi", Latitude = "-33.35000000", Longitude = "-55.63333000" },
                         new() { Id = 7, Name = "Villa del Carmen", Latitude = "-33.23943000", Longitude = "-56.00936000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -190,7 +190,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Trinidad", Latitude = "-33.51650000", Longitude = "-56.89957000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -210,7 +210,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Florida", Latitude = "-34.09556000", Longitude = "-56.21417000" },
                         new() { Id = 7, Name = "Sarandí Grande", Latitude = "-33.73333000", Longitude = "-56.33333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -228,7 +228,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Minas", Latitude = "-34.37589000", Longitude = "-55.23771000" },
                         new() { Id = 5, Name = "Solís de Mataojo", Latitude = "-34.59951000", Longitude = "-55.46808000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -247,7 +247,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Punta del Este", Latitude = "-34.94747000", Longitude = "-54.93382000" },
                         new() { Id = 6, Name = "San Carlos", Latitude = "-34.79123000", Longitude = "-54.91824000" }
                     }
-                }
+                },
 
                 new()
                 {

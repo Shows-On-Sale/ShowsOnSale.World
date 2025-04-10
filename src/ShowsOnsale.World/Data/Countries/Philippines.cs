@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "필리핀" },
-                { "pt-BR" = "Filipinas" }
-                { "pt" = "Filipinas" }
-                { "nl" = "Filipijnen" }
-                { "hr" = "Filipini" }
-                { "fa" = "جزایر الندفیلیپین" }
-                { "de" = "Philippinen" }
-                { "es" = "Filipinas" }
-                { "fr" = "Philippines" }
-                { "ja" = "フィリピン" }
-                { "it" = "Filippine" }
-                { "zh-CN" = "菲律宾" }
-                { "tr" = "Filipinler" }
-                { "ru" = "Филиппины" }
-                { "uk" = "Філіппіни" }
-                { "pl" = "Filipiny" }
+                ["ko"] = "필리핀",
+                ["pt-BR"] = "Filipinas",
+                ["pt"] = "Filipinas",
+                ["nl"] = "Filipijnen",
+                ["hr"] = "Filipini",
+                ["fa"] = "جزایر الندفیلیپین",
+                ["de"] = "Philippinen",
+                ["es"] = "Filipinas",
+                ["fr"] = "Philippines",
+                ["ja"] = "フィリピン",
+                ["it"] = "Filippine",
+                ["zh-CN"] = "菲律宾",
+                ["tr"] = "Filipinler",
+                ["ru"] = "Филиппины",
+                ["uk"] = "Філіппіни",
+                ["pl"] = "Filipiny"
             },
             States = new()
             {

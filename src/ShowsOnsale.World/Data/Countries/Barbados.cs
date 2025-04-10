@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "바베이도스" },
-                { "pt-BR" = "Barbados" }
-                { "pt" = "Barbados" }
-                { "nl" = "Barbados" }
-                { "hr" = "Barbados" }
-                { "fa" = "باربادوس" }
-                { "de" = "Barbados" }
-                { "es" = "Barbados" }
-                { "fr" = "Barbade" }
-                { "ja" = "バルバドス" }
-                { "it" = "Barbados" }
-                { "zh-CN" = "巴巴多斯" }
-                { "tr" = "Barbados" }
-                { "ru" = "Барбадос" }
-                { "uk" = "Барбадос" }
-                { "pl" = "Barbados" }
+                ["ko"] = "바베이도스",
+                ["pt-BR"] = "Barbados",
+                ["pt"] = "Barbados",
+                ["nl"] = "Barbados",
+                ["hr"] = "Barbados",
+                ["fa"] = "باربادوس",
+                ["de"] = "Barbados",
+                ["es"] = "Barbados",
+                ["fr"] = "Barbade",
+                ["ja"] = "バルバドス",
+                ["it"] = "Barbados",
+                ["zh-CN"] = "巴巴多斯",
+                ["tr"] = "Barbados",
+                ["ru"] = "Барбадос",
+                ["uk"] = "Барбадос",
+                ["pl"] = "Barbados"
             },
             States = new()
             {
@@ -84,7 +84,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Greenland", Latitude = "13.25808000", Longitude = "-59.57763000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -97,7 +97,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -111,7 +111,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Holetown", Latitude = "13.18672000", Longitude = "-59.63808000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -124,7 +124,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -138,7 +138,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bathsheba", Latitude = "13.21133000", Longitude = "-59.52596000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -151,7 +151,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -165,7 +165,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bridgetown", Latitude = "13.10732000", Longitude = "-59.62021000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -179,7 +179,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Speightstown", Latitude = "13.25072000", Longitude = "-59.64396000" }
                     }
-                }
+                },
 
                 new()
                 {

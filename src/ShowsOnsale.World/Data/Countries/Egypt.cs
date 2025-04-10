@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "이집트" },
-                { "pt-BR" = "Egito" }
-                { "pt" = "Egipto" }
-                { "nl" = "Egypte" }
-                { "hr" = "Egipat" }
-                { "fa" = "مصر" }
-                { "de" = "Ägypten" }
-                { "es" = "Egipto" }
-                { "fr" = "Égypte" }
-                { "ja" = "エジプト" }
-                { "it" = "Egitto" }
-                { "zh-CN" = "埃及" }
-                { "tr" = "Mısır" }
-                { "ru" = "Египет" }
-                { "uk" = "Єгипет" }
-                { "pl" = "Egipt" }
+                ["ko"] = "이집트",
+                ["pt-BR"] = "Egito",
+                ["pt"] = "Egipto",
+                ["nl"] = "Egypte",
+                ["hr"] = "Egipat",
+                ["fa"] = "مصر",
+                ["de"] = "Ägypten",
+                ["es"] = "Egipto",
+                ["fr"] = "Égypte",
+                ["ja"] = "エジプト",
+                ["it"] = "Egitto",
+                ["zh-CN"] = "埃及",
+                ["tr"] = "Mısır",
+                ["ru"] = "Египет",
+                ["uk"] = "Єгипет",
+                ["pl"] = "Egipt"
             },
             States = new()
             {
@@ -114,7 +114,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Dayrūţ", Latitude = "27.55602000", Longitude = "30.80764000" },
                         new() { Id = 7, Name = "Manfalūţ", Latitude = "27.31040000", Longitude = "30.97004000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -135,7 +135,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Kawm Ḩamādah", Latitude = "30.76128000", Longitude = "30.69972000" },
                         new() { Id = 8, Name = "Rosetta", Latitude = "31.39951000", Longitude = "30.41718000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -152,7 +152,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Būsh", Latitude = "29.14816000", Longitude = "31.12733000" },
                         new() { Id = 4, Name = "Sumusţā as Sulţānī", Latitude = "28.91667000", Longitude = "30.85000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -178,7 +178,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "Shubra", Latitude = "30.07250000", Longitude = "31.24080000" },
                         new() { Id = 13, Name = "Tura", Latitude = "29.93927900", Longitude = "31.29000700" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -202,7 +202,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Shirbīn", Latitude = "31.19688000", Longitude = "31.52430000" },
                         new() { Id = 11, Name = "Ţalkhā", Latitude = "31.05390000", Longitude = "31.37787000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -218,7 +218,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Damietta", Latitude = "31.41648000", Longitude = "31.81332000" },
                         new() { Id = 3, Name = "Fāraskūr", Latitude = "31.32977000", Longitude = "31.71507000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -236,7 +236,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Iţsā", Latitude = "29.23760000", Longitude = "30.78944000" },
                         new() { Id = 5, Name = "Ţāmiyah", Latitude = "29.47639000", Longitude = "30.96119000" }
                     }
-                }
+                },
 
                 new()
                 {

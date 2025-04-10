@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "볼리비아" },
-                { "pt-BR" = "Bolívia" }
-                { "pt" = "Bolívia" }
-                { "nl" = "Bolivia" }
-                { "hr" = "Bolivija" }
-                { "fa" = "بولیوی" }
-                { "de" = "Bolivien" }
-                { "es" = "Bolivia" }
-                { "fr" = "Bolivie" }
-                { "ja" = "ボリビア多民族国" }
-                { "it" = "Bolivia" }
-                { "zh-CN" = "玻利维亚" }
-                { "tr" = "Bolivya" }
-                { "ru" = "Боливия" }
-                { "uk" = "Болівія" }
-                { "pl" = "Boliwia" }
+                ["ko"] = "볼리비아",
+                ["pt-BR"] = "Bolívia",
+                ["pt"] = "Bolívia",
+                ["nl"] = "Bolivia",
+                ["hr"] = "Bolivija",
+                ["fa"] = "بولیوی",
+                ["de"] = "Bolivien",
+                ["es"] = "Bolivia",
+                ["fr"] = "Bolivie",
+                ["ja"] = "ボリビア多民族国",
+                ["it"] = "Bolivia",
+                ["zh-CN"] = "玻利维亚",
+                ["tr"] = "Bolivya",
+                ["ru"] = "Боливия",
+                ["uk"] = "Болівія",
+                ["pl"] = "Boliwia"
             },
             States = new()
             {

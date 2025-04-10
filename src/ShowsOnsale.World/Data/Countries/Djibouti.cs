@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "지부티" },
-                { "pt-BR" = "Djibuti" }
-                { "pt" = "Djibuti" }
-                { "nl" = "Djibouti" }
-                { "hr" = "Džibuti" }
-                { "fa" = "جیبوتی" }
-                { "de" = "Dschibuti" }
-                { "es" = "Yibuti" }
-                { "fr" = "Djibouti" }
-                { "ja" = "ジブチ" }
-                { "it" = "Gibuti" }
-                { "zh-CN" = "吉布提" }
-                { "tr" = "Cibuti" }
-                { "ru" = "Джибути" }
-                { "uk" = "Джибуті" }
-                { "pl" = "Dżibuti" }
+                ["ko"] = "지부티",
+                ["pt-BR"] = "Djibuti",
+                ["pt"] = "Djibuti",
+                ["nl"] = "Djibouti",
+                ["hr"] = "Džibuti",
+                ["fa"] = "جیبوتی",
+                ["de"] = "Dschibuti",
+                ["es"] = "Yibuti",
+                ["fr"] = "Djibouti",
+                ["ja"] = "ジブチ",
+                ["it"] = "Gibuti",
+                ["zh-CN"] = "吉布提",
+                ["tr"] = "Cibuti",
+                ["ru"] = "Джибути",
+                ["uk"] = "Джибуті",
+                ["pl"] = "Dżibuti"
             },
             States = new()
             {

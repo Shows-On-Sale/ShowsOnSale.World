@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "아프가니스탄" },
-                { "pt-BR" = "Afeganistão" }
-                { "pt" = "Afeganistão" }
-                { "nl" = "Afghanistan" }
-                { "hr" = "Afganistan" }
-                { "fa" = "افغانستان" }
-                { "de" = "Afghanistan" }
-                { "es" = "Afganistán" }
-                { "fr" = "Afghanistan" }
-                { "ja" = "アフガニスタン" }
-                { "it" = "Afghanistan" }
-                { "zh-CN" = "阿富汗" }
-                { "tr" = "Afganistan" }
-                { "ru" = "Афганистан" }
-                { "uk" = "Афганістан" }
-                { "pl" = "Afganistan" }
+                ["ko"] = "아프가니스탄",
+                ["pt-BR"] = "Afeganistão",
+                ["pt"] = "Afeganistão",
+                ["nl"] = "Afghanistan",
+                ["hr"] = "Afganistan",
+                ["fa"] = "افغانستان",
+                ["de"] = "Afghanistan",
+                ["es"] = "Afganistán",
+                ["fr"] = "Afghanistan",
+                ["ja"] = "アフガニスタン",
+                ["it"] = "Afghanistan",
+                ["zh-CN"] = "阿富汗",
+                ["tr"] = "Afganistan",
+                ["ru"] = "Афганистан",
+                ["uk"] = "Афганістан",
+                ["pl"] = "Afganistan"
             },
             States = new()
             {
@@ -126,7 +126,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Mazār-e Sharīf", Latitude = "36.70904000", Longitude = "67.11087000" },
                         new() { Id = 6, Name = "Qarchī Gak", Latitude = "37.03999000", Longitude = "66.78891000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -141,7 +141,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Bāmyān", Latitude = "34.82156000", Longitude = "67.82734000" },
                         new() { Id = 2, Name = "Panjāb", Latitude = "34.38795000", Longitude = "67.02327000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -155,7 +155,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Nīlī", Latitude = "33.76329000", Longitude = "66.07617000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -169,7 +169,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Farah", Latitude = "32.37451000", Longitude = "62.11638000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -184,7 +184,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Andkhoy", Latitude = "36.95293000", Longitude = "65.12376000" },
                         new() { Id = 2, Name = "Maymana", Latitude = "35.92139000", Longitude = "64.78361000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -198,7 +198,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Ghazni", Latitude = "33.55391000", Longitude = "68.42096000" }
                     }
-                }
+                },
 
                 new()
                 {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "니카라과" },
-                { "pt-BR" = "Nicarágua" }
-                { "pt" = "Nicarágua" }
-                { "nl" = "Nicaragua" }
-                { "hr" = "Nikaragva" }
-                { "fa" = "نیکاراگوئه" }
-                { "de" = "Nicaragua" }
-                { "es" = "Nicaragua" }
-                { "fr" = "Nicaragua" }
-                { "ja" = "ニカラグア" }
-                { "it" = "Nicaragua" }
-                { "zh-CN" = "尼加拉瓜" }
-                { "tr" = "Nikaragua" }
-                { "ru" = "Никарагуа" }
-                { "uk" = "Нікарагуа" }
-                { "pl" = "Nikaragua" }
+                ["ko"] = "니카라과",
+                ["pt-BR"] = "Nicarágua",
+                ["pt"] = "Nicarágua",
+                ["nl"] = "Nicaragua",
+                ["hr"] = "Nikaragva",
+                ["fa"] = "نیکاراگوئه",
+                ["de"] = "Nicaragua",
+                ["es"] = "Nicaragua",
+                ["fr"] = "Nicaragua",
+                ["ja"] = "ニカラグア",
+                ["it"] = "Nicaragua",
+                ["zh-CN"] = "尼加拉瓜",
+                ["tr"] = "Nikaragua",
+                ["ru"] = "Никарагуа",
+                ["uk"] = "Нікарагуа",
+                ["pl"] = "Nikaragua"
             },
             States = new()
             {
@@ -97,7 +97,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "San Marcos", Latitude = "11.90949000", Longitude = "-86.20351000" },
                         new() { Id = 9, Name = "Santa Teresa", Latitude = "11.74321000", Longitude = "-86.21413000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -122,7 +122,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 11, Name = "Santo Tomás del Norte", Latitude = "13.18610000", Longitude = "-86.92267000" },
                         new() { Id = 12, Name = "Somotillo", Latitude = "13.04387000", Longitude = "-86.90506000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -144,7 +144,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Santo Tomás", Latitude = "12.06938000", Longitude = "-85.09059000" },
                         new() { Id = 9, Name = "Villa Sandino", Latitude = "12.04830000", Longitude = "-84.99362000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -162,7 +162,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Pueblo Nuevo", Latitude = "13.37984000", Longitude = "-86.48075000" },
                         new() { Id = 5, Name = "San Juan de Limay", Latitude = "13.17603000", Longitude = "-86.61234000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -179,7 +179,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Granada", Latitude = "11.92988000", Longitude = "-85.95602000" },
                         new() { Id = 4, Name = "Nandaime", Latitude = "11.75696000", Longitude = "-86.05286000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -200,7 +200,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "San Rafael del Norte", Latitude = "13.21248000", Longitude = "-86.11089000" },
                         new() { Id = 8, Name = "San Sebastián de Yalí", Latitude = "13.30540000", Longitude = "-86.18641000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -223,7 +223,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Santa Rosa del Peñón", Latitude = "12.80116000", Longitude = "-86.36994000" },
                         new() { Id = 10, Name = "Telica", Latitude = "12.52200000", Longitude = "-86.85938000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -245,7 +245,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Totogalpa", Latitude = "13.56284000", Longitude = "-86.49254000" },
                         new() { Id = 9, Name = "Yalagüina", Latitude = "13.48383000", Longitude = "-86.49305000" }
                     }
-                }
+                },
 
                 new()
                 {

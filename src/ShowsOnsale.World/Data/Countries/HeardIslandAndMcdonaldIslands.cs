@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "허드 맥도날드 제도" },
-                { "pt-BR" = "Ilha Heard e Ilhas McDonald" }
-                { "pt" = "Ilha Heard e Ilhas McDonald" }
-                { "nl" = "Heard- en McDonaldeilanden" }
-                { "hr" = "Otok Heard i otočje McDonald" }
-                { "fa" = "جزیره هرد و جزایر مک‌دونالد" }
-                { "de" = "Heard und die McDonaldinseln" }
-                { "es" = "Islas Heard y McDonald" }
-                { "fr" = "Îles Heard-et-MacDonald" }
-                { "ja" = "ハード島とマクドナルド諸島" }
-                { "it" = "Isole Heard e McDonald" }
-                { "zh-CN" = "赫德·唐纳岛及麦唐纳岛" }
-                { "tr" = "Heard Adasi Ve Mcdonald Adalari" }
-                { "ru" = "Остров Херд и острова Макдональд" }
-                { "uk" = "Острів Херд та острови Макдональд" }
-                { "pl" = "Wyspa Heard i Wyspy McDonalda" }
+                ["ko"] = "허드 맥도날드 제도",
+                ["pt-BR"] = "Ilha Heard e Ilhas McDonald",
+                ["pt"] = "Ilha Heard e Ilhas McDonald",
+                ["nl"] = "Heard- en McDonaldeilanden",
+                ["hr"] = "Otok Heard i otočje McDonald",
+                ["fa"] = "جزیره هرد و جزایر مک‌دونالد",
+                ["de"] = "Heard und die McDonaldinseln",
+                ["es"] = "Islas Heard y McDonald",
+                ["fr"] = "Îles Heard-et-MacDonald",
+                ["ja"] = "ハード島とマクドナルド諸島",
+                ["it"] = "Isole Heard e McDonald",
+                ["zh-CN"] = "赫德·唐纳岛及麦唐纳岛",
+                ["tr"] = "Heard Adasi Ve Mcdonald Adalari",
+                ["ru"] = "Остров Херд и острова Макдональд",
+                ["uk"] = "Острів Херд та острови Макдональд",
+                ["pl"] = "Wyspa Heard i Wyspy McDonalda"
             },
             States = new()
             {

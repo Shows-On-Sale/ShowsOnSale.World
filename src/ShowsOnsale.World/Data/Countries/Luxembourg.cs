@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "룩셈부르크" },
-                { "pt-BR" = "Luxemburgo" }
-                { "pt" = "Luxemburgo" }
-                { "nl" = "Luxemburg" }
-                { "hr" = "Luksemburg" }
-                { "fa" = "لوکزامبورگ" }
-                { "de" = "Luxemburg" }
-                { "es" = "Luxemburgo" }
-                { "fr" = "Luxembourg" }
-                { "ja" = "ルクセンブルク" }
-                { "it" = "Lussemburgo" }
-                { "zh-CN" = "卢森堡" }
-                { "tr" = "Lüksemburg" }
-                { "ru" = "Люксембург" }
-                { "uk" = "Люксембург" }
-                { "pl" = "Luksemburg" }
+                ["ko"] = "룩셈부르크",
+                ["pt-BR"] = "Luxemburgo",
+                ["pt"] = "Luxemburgo",
+                ["nl"] = "Luxemburg",
+                ["hr"] = "Luksemburg",
+                ["fa"] = "لوکزامبورگ",
+                ["de"] = "Luxemburg",
+                ["es"] = "Luxemburgo",
+                ["fr"] = "Luxembourg",
+                ["ja"] = "ルクセンブルク",
+                ["it"] = "Lussemburgo",
+                ["zh-CN"] = "卢森堡",
+                ["tr"] = "Lüksemburg",
+                ["ru"] = "Люксембург",
+                ["uk"] = "Люксембург",
+                ["pl"] = "Luksemburg"
             },
             States = new()
             {
@@ -105,7 +105,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Weiswampach", Latitude = "50.13722000", Longitude = "6.07500000" },
                         new() { Id = 6, Name = "Wincrange", Latitude = "50.05333000", Longitude = "5.91917000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -131,7 +131,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "Schieren", Latitude = "49.83056000", Longitude = "6.09861000" },
                         new() { Id = 13, Name = "Warken", Latitude = "49.85918000", Longitude = "6.08415000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -152,7 +152,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Rosport", Latitude = "49.80470000", Longitude = "6.50532000" },
                         new() { Id = 8, Name = "Waldbillig", Latitude = "49.79636000", Longitude = "6.28431000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -190,7 +190,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 24, Name = "Soleuvre", Latitude = "49.52148000", Longitude = "5.93781000" },
                         new() { Id = 25, Name = "Tétange", Latitude = "49.47583000", Longitude = "6.04222000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -213,7 +213,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Wasserbillig", Latitude = "49.71534000", Longitude = "6.49861000" },
                         new() { Id = 10, Name = "Wormeldange", Latitude = "49.61114000", Longitude = "6.40546000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -248,7 +248,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 21, Name = "Walferdange", Latitude = "49.66321000", Longitude = "6.13224000" },
                         new() { Id = 22, Name = "Weiler-la-Tour", Latitude = "49.54083000", Longitude = "6.20083000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -273,7 +273,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 11, Name = "Rollingen", Latitude = "49.74167000", Longitude = "6.11444000" },
                         new() { Id = 12, Name = "Tuntange", Latitude = "49.71778000", Longitude = "6.01028000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -297,7 +297,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Vichten", Latitude = "49.80306000", Longitude = "6.00000000" },
                         new() { Id = 11, Name = "Wahl", Latitude = "49.83667000", Longitude = "5.90639000" }
                     }
-                }
+                },
 
                 new()
                 {

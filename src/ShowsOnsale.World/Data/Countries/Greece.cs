@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "그리스" },
-                { "pt-BR" = "Grécia" }
-                { "pt" = "Grécia" }
-                { "nl" = "Griekenland" }
-                { "hr" = "Grčka" }
-                { "fa" = "یونان" }
-                { "de" = "Griechenland" }
-                { "es" = "Grecia" }
-                { "fr" = "Grèce" }
-                { "ja" = "ギリシャ" }
-                { "it" = "Grecia" }
-                { "zh-CN" = "希腊" }
-                { "tr" = "Yunanistan" }
-                { "ru" = "Греция" }
-                { "uk" = "Греція" }
-                { "pl" = "Grecja" }
+                ["ko"] = "그리스",
+                ["pt-BR"] = "Grécia",
+                ["pt"] = "Grécia",
+                ["nl"] = "Griekenland",
+                ["hr"] = "Grčka",
+                ["fa"] = "یونان",
+                ["de"] = "Griechenland",
+                ["es"] = "Grecia",
+                ["fr"] = "Grèce",
+                ["ja"] = "ギリシャ",
+                ["it"] = "Grecia",
+                ["zh-CN"] = "希腊",
+                ["tr"] = "Yunanistan",
+                ["ru"] = "Греция",
+                ["uk"] = "Греція",
+                ["pl"] = "Grecja"
             },
             States = new()
             {
@@ -108,7 +108,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -261,7 +261,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 139, Name = "Zefyri", Latitude = "38.06647000", Longitude = "23.71701000" },
                         new() { Id = 140, Name = "Zográfos", Latitude = "37.97574000", Longitude = "23.76911000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -274,7 +274,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -380,7 +380,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 92, Name = "Vathí", Latitude = "38.40490000", Longitude = "23.60332000" },
                         new() { Id = 93, Name = "Yimnón", Latitude = "38.44048000", Longitude = "23.88400000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -624,7 +624,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 230, Name = "Vrontoú", Latitude = "40.19356000", Longitude = "22.43203000" },
                         new() { Id = 231, Name = "Xilópolis", Latitude = "40.92713000", Longitude = "23.17944000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -637,7 +637,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

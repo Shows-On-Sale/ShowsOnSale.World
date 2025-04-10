@@ -38,19 +38,19 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "신트마르턴" },
-                { "pt-BR" = "Sint Maarten" }
-                { "pt" = "São Martinho" }
-                { "nl" = "Sint Maarten" }
-                { "fa" = "سینت مارتن" }
-                { "de" = "Sint Maarten (niederl. Teil)" }
-                { "fr" = "Saint Martin (partie néerlandaise)" }
-                { "it" = "Saint Martin (parte olandese)" }
-                { "zh-CN" = "圣马丁岛（荷兰部分）" }
-                { "tr" = "Sint Maarten" }
-                { "ru" = "Синт-Мартен (голландская часть)" }
-                { "uk" = "Сінт-Мартен (голландська частина)" }
-                { "pl" = "Sint Maarten (część niderlandzka)" }
+                ["ko"] = "신트마르턴",
+                ["pt-BR"] = "Sint Maarten",
+                ["pt"] = "São Martinho",
+                ["nl"] = "Sint Maarten",
+                ["fa"] = "سینت مارتن",
+                ["de"] = "Sint Maarten (niederl. Teil)",
+                ["fr"] = "Saint Martin (partie néerlandaise)",
+                ["it"] = "Saint Martin (parte olandese)",
+                ["zh-CN"] = "圣马丁岛（荷兰部分）",
+                ["tr"] = "Sint Maarten",
+                ["ru"] = "Синт-Мартен (голландская часть)",
+                ["uk"] = "Сінт-Мартен (голландська частина)",
+                ["pl"] = "Sint Maarten (część niderlandzka)"
             },
             States = new()
             {

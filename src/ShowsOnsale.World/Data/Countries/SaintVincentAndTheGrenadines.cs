@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "세인트빈센트 그레나딘" },
-                { "pt-BR" = "São Vicente e Granadinas" }
-                { "pt" = "São Vicente e Granadinas" }
-                { "nl" = "Saint Vincent en de Grenadines" }
-                { "hr" = "Sveti Vincent i Grenadini" }
-                { "fa" = "سنت وینسنت و گرنادین‌ها" }
-                { "de" = "Saint Vincent und die Grenadinen" }
-                { "es" = "San Vicente y Granadinas" }
-                { "fr" = "Saint-Vincent-et-les-Grenadines" }
-                { "ja" = "セントビンセントおよびグレナディーン諸島" }
-                { "it" = "Saint Vincent e Grenadine" }
-                { "zh-CN" = "圣文森特和格林纳丁斯" }
-                { "tr" = "Saint Vincent Ve Grenadinler" }
-                { "ru" = "Сент-Винсент и Гренадины" }
-                { "uk" = "Сент-Вінсент і Гренадини" }
-                { "pl" = "Saint Vincent i Grenadyny" }
+                ["ko"] = "세인트빈센트 그레나딘",
+                ["pt-BR"] = "São Vicente e Granadinas",
+                ["pt"] = "São Vicente e Granadinas",
+                ["nl"] = "Saint Vincent en de Grenadines",
+                ["hr"] = "Sveti Vincent i Grenadini",
+                ["fa"] = "سنت وینسنت و گرنادین‌ها",
+                ["de"] = "Saint Vincent und die Grenadinen",
+                ["es"] = "San Vicente y Granadinas",
+                ["fr"] = "Saint-Vincent-et-les-Grenadines",
+                ["ja"] = "セントビンセントおよびグレナディーン諸島",
+                ["it"] = "Saint Vincent e Grenadine",
+                ["zh-CN"] = "圣文森特和格林纳丁斯",
+                ["tr"] = "Saint Vincent Ve Grenadinler",
+                ["ru"] = "Сент-Винсент и Гренадины",
+                ["uk"] = "Сент-Вінсент і Гренадини",
+                ["pl"] = "Saint Vincent i Grenadyny"
             },
             States = new()
             {

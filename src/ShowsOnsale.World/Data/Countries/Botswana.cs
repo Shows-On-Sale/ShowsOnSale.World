@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "보츠와나" },
-                { "pt-BR" = "Botsuana" }
-                { "pt" = "Botsuana" }
-                { "nl" = "Botswana" }
-                { "hr" = "Bocvana" }
-                { "fa" = "بوتسوانا" }
-                { "de" = "Botswana" }
-                { "es" = "Botswana" }
-                { "fr" = "Botswana" }
-                { "ja" = "ボツワナ" }
-                { "it" = "Botswana" }
-                { "zh-CN" = "博茨瓦纳" }
-                { "tr" = "Botsvana" }
-                { "ru" = "Ботсвана" }
-                { "uk" = "Ботсвана" }
-                { "pl" = "Botswana" }
+                ["ko"] = "보츠와나",
+                ["pt-BR"] = "Botsuana",
+                ["pt"] = "Botsuana",
+                ["nl"] = "Botswana",
+                ["hr"] = "Bocvana",
+                ["fa"] = "بوتسوانا",
+                ["de"] = "Botswana",
+                ["es"] = "Botswana",
+                ["fr"] = "Botswana",
+                ["ja"] = "ボツワナ",
+                ["it"] = "Botswana",
+                ["zh-CN"] = "博茨瓦纳",
+                ["tr"] = "Botsvana",
+                ["ru"] = "Ботсвана",
+                ["uk"] = "Ботсвана",
+                ["pl"] = "Botswana"
             },
             States = new()
             {
@@ -116,7 +116,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Dekar", Latitude = "-21.53333000", Longitude = "21.93333000" },
                         new() { Id = 2, Name = "Ghanzi", Latitude = "-21.69785000", Longitude = "21.64581000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -135,7 +135,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Tshabong", Latitude = "-26.05000000", Longitude = "22.45000000" },
                         new() { Id = 6, Name = "Werda", Latitude = "-25.26667000", Longitude = "23.28333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -152,7 +152,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Mochudi", Latitude = "-24.41667000", Longitude = "26.15000000" },
                         new() { Id = 4, Name = "Pilane", Latitude = "-24.45000000", Longitude = "26.13333000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -178,7 +178,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "Nkoyaphiri", Latitude = "-24.63222000", Longitude = "25.83139000" },
                         new() { Id = 13, Name = "Thamaga", Latitude = "-24.67014000", Longitude = "25.53975000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -191,7 +191,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -208,7 +208,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Masunga", Latitude = "-20.62455000", Longitude = "27.44875000" },
                         new() { Id = 4, Name = "Sebina", Latitude = "-20.86667000", Longitude = "27.25000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -226,7 +226,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Sehithwa", Latitude = "-20.46667000", Longitude = "22.71667000" },
                         new() { Id = 5, Name = "Shakawe", Latitude = "-18.36536000", Longitude = "21.84219000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -244,7 +244,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Otse", Latitude = "-25.01667000", Longitude = "25.73333000" },
                         new() { Id = 5, Name = "Ramotswa", Latitude = "-24.87158000", Longitude = "25.86989000" }
                     }
-                }
+                },
 
                 new()
                 {

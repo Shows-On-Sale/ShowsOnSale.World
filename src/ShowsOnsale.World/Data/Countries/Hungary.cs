@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "헝가리" },
-                { "pt-BR" = "Hungria" }
-                { "pt" = "Hungria" }
-                { "nl" = "Hongarije" }
-                { "hr" = "Mađarska" }
-                { "fa" = "مجارستان" }
-                { "de" = "Ungarn" }
-                { "es" = "Hungría" }
-                { "fr" = "Hongrie" }
-                { "ja" = "ハンガリー" }
-                { "it" = "Ungheria" }
-                { "zh-CN" = "匈牙利" }
-                { "tr" = "Macaristan" }
-                { "ru" = "Венгрия" }
-                { "uk" = "Угорщина" }
-                { "pl" = "Węgry" }
+                ["ko"] = "헝가리",
+                ["pt-BR"] = "Hungria",
+                ["pt"] = "Hungria",
+                ["nl"] = "Hongarije",
+                ["hr"] = "Mađarska",
+                ["fa"] = "مجارستان",
+                ["de"] = "Ungarn",
+                ["es"] = "Hungría",
+                ["fr"] = "Hongrie",
+                ["ja"] = "ハンガリー",
+                ["it"] = "Ungheria",
+                ["zh-CN"] = "匈牙利",
+                ["tr"] = "Macaristan",
+                ["ru"] = "Венгрия",
+                ["uk"] = "Угорщина",
+                ["pl"] = "Węgry"
             },
             States = new()
             {
@@ -366,7 +366,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 85, Name = "Tokaji Járás", Latitude = "48.14014000", Longitude = "21.37002000" },
                         new() { Id = 86, Name = "Tolcsva", Latitude = "48.28333000", Longitude = "21.45000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -402,7 +402,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 22, Name = "Kispest", Latitude = "47.45150000", Longitude = "19.14017000" },
                         new() { Id = 23, Name = "Zugló", Latitude = "47.51758000", Longitude = "19.10549000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -458,7 +458,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 42, Name = "Zákányszék", Latitude = "46.27453000", Longitude = "19.88975000" },
                         new() { Id = 43, Name = "Zsombó", Latitude = "46.32566000", Longitude = "19.97464000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -471,7 +471,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -484,7 +484,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {

@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "노르웨이" },
-                { "pt-BR" = "Noruega" }
-                { "pt" = "Noruega" }
-                { "nl" = "Noorwegen" }
-                { "hr" = "Norveška" }
-                { "fa" = "نروژ" }
-                { "de" = "Norwegen" }
-                { "es" = "Noruega" }
-                { "fr" = "Norvège" }
-                { "ja" = "ノルウェー" }
-                { "it" = "Norvegia" }
-                { "zh-CN" = "挪威" }
-                { "tr" = "Norveç" }
-                { "ru" = "Норвегия" }
-                { "uk" = "Норвегія" }
-                { "pl" = "Norwegia" }
+                ["ko"] = "노르웨이",
+                ["pt-BR"] = "Noruega",
+                ["pt"] = "Noruega",
+                ["nl"] = "Noorwegen",
+                ["hr"] = "Norveška",
+                ["fa"] = "نروژ",
+                ["de"] = "Norwegen",
+                ["es"] = "Noruega",
+                ["fr"] = "Norvège",
+                ["ja"] = "ノルウェー",
+                ["it"] = "Norvegia",
+                ["zh-CN"] = "挪威",
+                ["tr"] = "Norveç",
+                ["ru"] = "Норвегия",
+                ["uk"] = "Норвегія",
+                ["pl"] = "Norwegia"
             },
             States = new()
             {
@@ -181,7 +181,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 73, Name = "Vestre Toten", Latitude = "60.72593000", Longitude = "10.60764000" },
                         new() { Id = 74, Name = "Vinstra", Latitude = "61.59496000", Longitude = "9.75134000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -194,7 +194,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -259,7 +259,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 51, Name = "Vestnes", Latitude = "62.62130000", Longitude = "7.08966000" },
                         new() { Id = 52, Name = "Volda", Latitude = "62.14678000", Longitude = "6.06800000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -350,7 +350,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 77, Name = "Vevelstad", Latitude = "65.70002000", Longitude = "12.43921000" },
                         new() { Id = 78, Name = "Vik", Latitude = "65.31254000", Longitude = "12.16734000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -365,7 +365,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Oslo", Latitude = "59.91273000", Longitude = "10.74609000" },
                         new() { Id = 2, Name = "Sjølyststranda", Latitude = "59.92105000", Longitude = "10.68017000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -427,7 +427,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 48, Name = "Vindafjord", Latitude = "59.60543000", Longitude = "5.80784000" },
                         new() { Id = 49, Name = "Vormedal", Latitude = "59.35607000", Longitude = "5.31962000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -440,7 +440,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                     }
-                }
+                },
 
                 new()
                 {
@@ -518,7 +518,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 64, Name = "Vadsø", Latitude = "70.07412000", Longitude = "29.74922000" },
                         new() { Id = 65, Name = "Vardø", Latitude = "70.37040000", Longitude = "31.10866000" }
                     }
-                }
+                },
 
                 new()
                 {

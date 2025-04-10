@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "슬로바키아" },
-                { "pt-BR" = "Eslováquia" }
-                { "pt" = "Eslováquia" }
-                { "nl" = "Slowakije" }
-                { "hr" = "Slovačka" }
-                { "fa" = "اسلواکی" }
-                { "de" = "Slowakei" }
-                { "es" = "República Eslovaca" }
-                { "fr" = "Slovaquie" }
-                { "ja" = "スロバキア" }
-                { "it" = "Slovacchia" }
-                { "zh-CN" = "斯洛伐克" }
-                { "tr" = "Slovakya" }
-                { "ru" = "Словакия" }
-                { "uk" = "Словаччина" }
-                { "pl" = "Słowacja" }
+                ["ko"] = "슬로바키아",
+                ["pt-BR"] = "Eslováquia",
+                ["pt"] = "Eslováquia",
+                ["nl"] = "Slowakije",
+                ["hr"] = "Slovačka",
+                ["fa"] = "اسلواکی",
+                ["de"] = "Slowakei",
+                ["es"] = "República Eslovaca",
+                ["fr"] = "Slovaquie",
+                ["ja"] = "スロバキア",
+                ["it"] = "Slovacchia",
+                ["zh-CN"] = "斯洛伐克",
+                ["tr"] = "Slovakya",
+                ["ru"] = "Словакия",
+                ["uk"] = "Словаччина",
+                ["pl"] = "Słowacja"
             },
             States = new()
             {

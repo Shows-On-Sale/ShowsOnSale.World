@@ -39,22 +39,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "중국" },
-                { "pt-BR" = "China" }
-                { "pt" = "China" }
-                { "nl" = "China" }
-                { "hr" = "Kina" }
-                { "fa" = "چین" }
-                { "de" = "China" }
-                { "es" = "China" }
-                { "fr" = "Chine" }
-                { "ja" = "中国" }
-                { "it" = "Cina" }
-                { "zh-CN" = "中国" }
-                { "tr" = "Çin" }
-                { "ru" = "Китай" }
-                { "uk" = "Китай" }
-                { "pl" = "Chiny" }
+                ["ko"] = "중국",
+                ["pt-BR"] = "China",
+                ["pt"] = "China",
+                ["nl"] = "China",
+                ["hr"] = "Kina",
+                ["fa"] = "چین",
+                ["de"] = "China",
+                ["es"] = "China",
+                ["fr"] = "Chine",
+                ["ja"] = "中国",
+                ["it"] = "Cina",
+                ["zh-CN"] = "中国",
+                ["tr"] = "Çin",
+                ["ru"] = "Китай",
+                ["uk"] = "Китай",
+                ["pl"] = "Chiny"
             },
             States = new()
             {
@@ -283,7 +283,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 110, Name = "Zhuoyang", Latitude = "26.63003000", Longitude = "119.02150000" },
                         new() { Id = 111, Name = "Zhuqi", Latitude = "26.14860000", Longitude = "119.10216000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -316,7 +316,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 19, Name = "Zhangye", Latitude = "38.93417000", Longitude = "100.45167000" },
                         new() { Id = 20, Name = "Zhangye Shi", Latitude = "39.12183000", Longitude = "99.92495000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -399,7 +399,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 69, Name = "Zhongshan Prefecture", Latitude = "22.55358000", Longitude = "113.37550000" },
                         new() { Id = 70, Name = "Zhuhai", Latitude = "22.27694000", Longitude = "113.56778000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -440,7 +440,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 27, Name = "Yashan", Latitude = "22.19750000", Longitude = "109.94194000" },
                         new() { Id = 28, Name = "Yulin", Latitude = "22.63333000", Longitude = "110.15000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -506,7 +506,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 52, Name = "Zhujiachang", Latitude = "27.35750000", Longitude = "108.93833000" },
                         new() { Id = 53, Name = "Zunyi", Latitude = "27.68667000", Longitude = "106.90722000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -533,7 +533,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 13, Name = "Wenchang", Latitude = "19.61570000", Longitude = "110.74894000" },
                         new() { Id = 14, Name = "Xiuying", Latitude = "20.00073000", Longitude = "110.29359000" }
                     }
-                }
+                },
 
                 new()
                 {

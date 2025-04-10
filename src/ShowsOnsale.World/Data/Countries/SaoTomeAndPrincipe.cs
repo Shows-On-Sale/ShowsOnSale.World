@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "상투메 프린시페" },
-                { "pt-BR" = "São Tomé e Príncipe" }
-                { "pt" = "São Tomé e Príncipe" }
-                { "nl" = "Sao Tomé en Principe" }
-                { "hr" = "Sveti Toma i Princip" }
-                { "fa" = "کواترو دو فرویرو" }
-                { "de" = "São Tomé und Príncipe" }
-                { "es" = "Santo Tomé y Príncipe" }
-                { "fr" = "Sao Tomé-et-Principe" }
-                { "ja" = "サントメ・プリンシペ" }
-                { "it" = "São Tomé e Príncipe" }
-                { "zh-CN" = "圣多美和普林西比" }
-                { "tr" = "Sao Tome Ve Prinsipe" }
-                { "ru" = "Сан-Томе и Принсипи" }
-                { "uk" = "Сан-Томе і Принсіпі" }
-                { "pl" = "Wyspy Świętego Tomasza i Książęca" }
+                ["ko"] = "상투메 프린시페",
+                ["pt-BR"] = "São Tomé e Príncipe",
+                ["pt"] = "São Tomé e Príncipe",
+                ["nl"] = "Sao Tomé en Principe",
+                ["hr"] = "Sveti Toma i Princip",
+                ["fa"] = "کواترو دو فرویرو",
+                ["de"] = "São Tomé und Príncipe",
+                ["es"] = "Santo Tomé y Príncipe",
+                ["fr"] = "Sao Tomé-et-Principe",
+                ["ja"] = "サントメ・プリンシペ",
+                ["it"] = "São Tomé e Príncipe",
+                ["zh-CN"] = "圣多美和普林西比",
+                ["tr"] = "Sao Tome Ve Prinsipe",
+                ["ru"] = "Сан-Томе и Принсипи",
+                ["uk"] = "Сан-Томе і Принсіпі",
+                ["pl"] = "Wyspy Świętego Tomasza i Książęca"
             },
             States = new()
             {

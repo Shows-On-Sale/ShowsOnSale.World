@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "르완다" },
-                { "pt-BR" = "Ruanda" }
-                { "pt" = "Ruanda" }
-                { "nl" = "Rwanda" }
-                { "hr" = "Ruanda" }
-                { "fa" = "رواندا" }
-                { "de" = "Ruanda" }
-                { "es" = "Ruanda" }
-                { "fr" = "Rwanda" }
-                { "ja" = "ルワンダ" }
-                { "it" = "Ruanda" }
-                { "zh-CN" = "卢旺达" }
-                { "tr" = "Ruanda" }
-                { "ru" = "Руанда" }
-                { "uk" = "Руанда" }
-                { "pl" = "Rwanda" }
+                ["ko"] = "르완다",
+                ["pt-BR"] = "Ruanda",
+                ["pt"] = "Ruanda",
+                ["nl"] = "Rwanda",
+                ["hr"] = "Ruanda",
+                ["fa"] = "رواندا",
+                ["de"] = "Ruanda",
+                ["es"] = "Ruanda",
+                ["fr"] = "Rwanda",
+                ["ja"] = "ルワンダ",
+                ["it"] = "Ruanda",
+                ["zh-CN"] = "卢旺达",
+                ["tr"] = "Ruanda",
+                ["ru"] = "Руанда",
+                ["uk"] = "Руанда",
+                ["pl"] = "Rwanda"
             },
             States = new()
             {

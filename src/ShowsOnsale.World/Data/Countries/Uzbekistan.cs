@@ -39,22 +39,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "우즈베키스탄" },
-                { "pt-BR" = "Uzbequistão" }
-                { "pt" = "Usbequistão" }
-                { "nl" = "Oezbekistan" }
-                { "hr" = "Uzbekistan" }
-                { "fa" = "ازبکستان" }
-                { "de" = "Usbekistan" }
-                { "es" = "Uzbekistán" }
-                { "fr" = "Ouzbékistan" }
-                { "ja" = "ウズベキスタン" }
-                { "it" = "Uzbekistan" }
-                { "zh-CN" = "乌兹别克斯坦" }
-                { "tr" = "Özbekistan" }
-                { "ru" = "Узбекистан" }
-                { "uk" = "Узбекистан" }
-                { "pl" = "Uzbekistan" }
+                ["ko"] = "우즈베키스탄",
+                ["pt-BR"] = "Uzbequistão",
+                ["pt"] = "Usbequistão",
+                ["nl"] = "Oezbekistan",
+                ["hr"] = "Uzbekistan",
+                ["fa"] = "ازبکستان",
+                ["de"] = "Usbekistan",
+                ["es"] = "Uzbekistán",
+                ["fr"] = "Ouzbékistan",
+                ["ja"] = "ウズベキスタン",
+                ["it"] = "Uzbekistan",
+                ["zh-CN"] = "乌兹别克斯坦",
+                ["tr"] = "Özbekistan",
+                ["ru"] = "Узбекистан",
+                ["uk"] = "Узбекистан",
+                ["pl"] = "Uzbekistan"
             },
             States = new()
             {
@@ -118,7 +118,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 13, Name = "Wobkent", Latitude = "40.03028000", Longitude = "64.51500000" },
                         new() { Id = 14, Name = "Wobkent Tumani", Latitude = "40.00000000", Longitude = "64.50000000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -146,7 +146,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 14, Name = "Yangi Marg‘ilon", Latitude = "40.42722000", Longitude = "71.71889000" },
                         new() { Id = 15, Name = "Yaypan", Latitude = "40.37583000", Longitude = "70.81556000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -165,7 +165,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Paxtakor", Latitude = "40.31528000", Longitude = "67.95444000" },
                         new() { Id = 6, Name = "Zomin", Latitude = "39.96056000", Longitude = "68.39583000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -186,7 +186,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Nukus", Latitude = "42.45306000", Longitude = "59.61028000" },
                         new() { Id = 8, Name = "Oltinko‘l", Latitude = "43.06874000", Longitude = "58.90372000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -210,7 +210,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Uychi", Latitude = "41.08073000", Longitude = "71.92331000" },
                         new() { Id = 11, Name = "Yangiqo‘rg‘on", Latitude = "41.19474000", Longitude = "71.72385000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -227,7 +227,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Qiziltepa", Latitude = "40.03306000", Longitude = "64.85000000" },
                         new() { Id = 4, Name = "Yangirabot", Latitude = "40.02539000", Longitude = "65.96095000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -249,7 +249,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Qarshi", Latitude = "38.86056000", Longitude = "65.78905000" },
                         new() { Id = 9, Name = "Shahrisabz", Latitude = "39.05778000", Longitude = "66.83417000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -274,7 +274,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 11, Name = "Samarkand", Latitude = "39.65417000", Longitude = "66.95972000" },
                         new() { Id = 12, Name = "Urgut", Latitude = "39.40222000", Longitude = "67.24306000" }
                     }
-                }
+                },
 
                 new()
                 {

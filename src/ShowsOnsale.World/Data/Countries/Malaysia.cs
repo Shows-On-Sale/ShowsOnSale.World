@@ -39,22 +39,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "말레이시아" },
-                { "pt-BR" = "Malásia" }
-                { "pt" = "Malásia" }
-                { "nl" = "Maleisië" }
-                { "hr" = "Malezija" }
-                { "fa" = "مالزی" }
-                { "de" = "Malaysia" }
-                { "es" = "Malasia" }
-                { "fr" = "Malaisie" }
-                { "ja" = "マレーシア" }
-                { "it" = "Malesia" }
-                { "zh-CN" = "马来西亚" }
-                { "tr" = "Malezya" }
-                { "ru" = "Малайзия" }
-                { "uk" = "Малайзія" }
-                { "pl" = "Malezja" }
+                ["ko"] = "말레이시아",
+                ["pt-BR"] = "Malásia",
+                ["pt"] = "Malásia",
+                ["nl"] = "Maleisië",
+                ["hr"] = "Malezija",
+                ["fa"] = "مالزی",
+                ["de"] = "Malaysia",
+                ["es"] = "Malasia",
+                ["fr"] = "Malaisie",
+                ["ja"] = "マレーシア",
+                ["it"] = "Malesia",
+                ["zh-CN"] = "马来西亚",
+                ["tr"] = "Malezya",
+                ["ru"] = "Малайзия",
+                ["uk"] = "Малайзія",
+                ["pl"] = "Malezja"
             },
             States = new()
             {
@@ -128,7 +128,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 13, Name = "Padang Mat Sirat", Latitude = "6.35423000", Longitude = "99.73404000" },
                         new() { Id = 14, Name = "Sungai Petani", Latitude = "5.64700000", Longitude = "100.48772000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -148,7 +148,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Peringat", Latitude = "6.03333000", Longitude = "102.28333000" },
                         new() { Id = 7, Name = "Tumpat", Latitude = "6.19775000", Longitude = "102.17098000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -162,7 +162,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kuala Lumpur", Latitude = "3.14120000", Longitude = "101.68653000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -176,7 +176,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Labuan", Latitude = "5.28028000", Longitude = "115.24750000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -202,7 +202,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "Pulau Sebang", Latitude = "2.45500000", Longitude = "102.23290000" },
                         new() { Id = 13, Name = "Sungai Udang", Latitude = "2.26900000", Longitude = "102.14270000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -221,7 +221,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Seremban", Latitude = "2.72970000", Longitude = "101.93810000" },
                         new() { Id = 6, Name = "Tampin", Latitude = "2.47010000", Longitude = "102.23020000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -245,7 +245,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Tanah Rata", Latitude = "4.46361000", Longitude = "101.37630000" },
                         new() { Id = 11, Name = "Temerluh", Latitude = "3.45060000", Longitude = "102.41760000" }
                     }
-                }
+                },
 
                 new()
                 {
@@ -273,7 +273,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 14, Name = "Tasek Glugor", Latitude = "5.48032000", Longitude = "100.49849000" },
                         new() { Id = 15, Name = "Telaga Batu", Latitude = "5.46667000", Longitude = "100.23333000" }
                     }
-                }
+                },
 
                 new()
                 {

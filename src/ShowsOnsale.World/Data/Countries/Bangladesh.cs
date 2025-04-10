@@ -38,22 +38,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
-                { "ko" = "방글라데시" },
-                { "pt-BR" = "Bangladesh" }
-                { "pt" = "Bangladeche" }
-                { "nl" = "Bangladesh" }
-                { "hr" = "Bangladeš" }
-                { "fa" = "بنگلادش" }
-                { "de" = "Bangladesch" }
-                { "es" = "Bangladesh" }
-                { "fr" = "Bangladesh" }
-                { "ja" = "バングラデシュ" }
-                { "it" = "Bangladesh" }
-                { "zh-CN" = "孟加拉" }
-                { "tr" = "Bangladeş" }
-                { "ru" = "Бангладеш" }
-                { "uk" = "Бангладеш" }
-                { "pl" = "Bangladesz" }
+                ["ko"] = "방글라데시",
+                ["pt-BR"] = "Bangladesh",
+                ["pt"] = "Bangladeche",
+                ["nl"] = "Bangladesh",
+                ["hr"] = "Bangladeš",
+                ["fa"] = "بنگلادش",
+                ["de"] = "Bangladesch",
+                ["es"] = "Bangladesh",
+                ["fr"] = "Bangladesh",
+                ["ja"] = "バングラデシュ",
+                ["it"] = "Bangladesh",
+                ["zh-CN"] = "孟加拉",
+                ["tr"] = "Bangladeş",
+                ["ru"] = "Бангладеш",
+                ["uk"] = "Бангладеш",
+                ["pl"] = "Bangladesz"
             },
             States = new()
             {
