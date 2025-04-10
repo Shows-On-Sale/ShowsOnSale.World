@@ -16,27 +16,30 @@ Set-Location $repoRoot
 # Clean previous builds
 Write-Host "Cleaning previous builds..." -ForegroundColor Yellow
 dotnet clean src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration $configuration
+dotnet clean tests/ShowsOnSale.World.Tests/ShowsOnSale.World.Tests.csproj --configuration $configuration
 
 # Restore packages
 Write-Host "Restoring packages..." -ForegroundColor Yellow
 dotnet restore src/ShowsOnSale.World/ShowsOnSale.World.csproj
+dotnet restore tests/ShowsOnSale.World.Tests/ShowsOnSale.World.Tests.csproj
 
 # Build the project
 Write-Host "Building project..." -ForegroundColor Yellow
 dotnet build src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration $configuration --no-restore
+dotnet build tests/ShowsOnSale.World.Tests/ShowsOnSale.World.Tests.csproj --configuration $configuration --no-restore
 
 # Run tests if they exist
 $testProjects = Get-ChildItem -Path "tests" -Filter "*.csproj" -Recurse
 if ($testProjects) {
     Write-Host "Running tests..." -ForegroundColor Yellow
-    dotnet test tests/ShowsOnSale.World.Tests/ShowsOnSale.World.Tests.csproj --configuration $configuration --no-build
+    dotnet test tests/ShowsOnSale.World.Tests/ShowsOnSale.World.Tests.csproj --configuration $configuration
 } else {
     Write-Host "No test projects found. Skipping tests." -ForegroundColor Yellow
 }
 
 # Create NuGet package
 Write-Host "Creating NuGet package..." -ForegroundColor Yellow
-dotnet pack src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration $configuration --no-build -p:Version=$version
+dotnet pack src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration $configuration -p:Version=$version
 
 Write-Host "Build completed successfully!" -ForegroundColor Green
 Write-Host "Package location: src/ShowsOnSale.World/bin/$configuration/ShowsOnSale.World.$version.nupkg" -ForegroundColor Cyan 

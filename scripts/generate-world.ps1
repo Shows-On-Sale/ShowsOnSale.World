@@ -1,7 +1,17 @@
 # Script to generate static world data from countries-states-cities database
 param(
-    [switch]$ForceUpdate
+    [switch]$ForceUpdate,
+    [switch]$Debug
 )
+
+# Function to write debug messages
+function Write-DebugMessage {
+    param([string]$Message)
+    
+    if ($Debug) {
+        Write-Host "DEBUG: $Message"
+    }
+}
 
 # Function to ensure submodules are up to date
 function Update-Submodules {
@@ -58,38 +68,38 @@ function Get-EscapedString {
 function Get-IntegerValue {
     param($value)
     
-    Write-Host "DEBUG: Get-IntegerValue called with value: $value (Type: $($value.GetType()))"
+    Write-DebugMessage "Get-IntegerValue called with value: $value (Type: $($value.GetType()))"
     
     if ($null -eq $value) {
-        Write-Host "DEBUG: Value is null, returning 0"
+        Write-DebugMessage "Value is null, returning 0"
         return 0
     }
     
     # If it's already an integer, return it
     if ($value -is [int]) {
-        Write-Host "DEBUG: Value is already an integer: $value"
+        Write-DebugMessage "Value is already an integer: $value"
         return $value
     }
     
     # If it's an array, try to get the first non-null value
     if ($value -is [array]) {
-        Write-Host "DEBUG: Value is an array with $($value.Count) elements"
+        Write-DebugMessage "Value is an array with $($value.Count) elements"
         $firstValue = $value | Where-Object { $null -ne $_ } | Select-Object -First 1
         if ($null -eq $firstValue) {
-            Write-Host "DEBUG: No non-null values found in array, returning 0"
+            Write-DebugMessage "No non-null values found in array, returning 0"
             return 0
         }
-        Write-Host "DEBUG: Using first non-null value from array: $firstValue"
+        Write-DebugMessage "Using first non-null value from array: $firstValue"
         $value = $firstValue
     }
     
     # Try to parse as integer
     if ([int]::TryParse($value.ToString(), [ref]$null)) {
-        Write-Host "DEBUG: Successfully parsed as integer: $value"
+        Write-DebugMessage "Successfully parsed as integer: $value"
         return [int]$value
     }
     
-    Write-Host "DEBUG: Failed to parse as integer, returning 0"
+    Write-DebugMessage "Failed to parse as integer, returning 0"
     return 0
 }
 
@@ -97,7 +107,7 @@ function Get-IntegerValue {
 function Generate-WorldData {
     $jsonPath = "countries-states-cities-database/json/countries+states+cities.json"
     $outputDir = "src/ShowsOnSale.World/Data/Countries"
-    $mainOutputPath = "src/ShowsOnSale.World/Data/WorldData.cs"
+    $mainOutputPath = "src/ShowsOnSale.World/WorldData.cs"
     
     Write-Host "Reading JSON data from $jsonPath..."
     $jsonData = Get-Content $jsonPath -Raw | ConvertFrom-Json
@@ -135,14 +145,12 @@ If you need to modify the world data:
 using System.Collections.Generic;
 using ShowsOnSale.World.Models;
 
-namespace ShowsOnSale.World.Data
+namespace ShowsOnSale.World
 {
     public static partial class WorldData
     {
-        public static partial class Generated
+        public static List<Country> All { get; } = new()
         {
-            public static List<Country> All { get; } = new()
-            {
 "@
     
     Set-Content $mainOutputPath $initialCode -Encoding UTF8
@@ -158,9 +166,9 @@ namespace ShowsOnSale.World.Data
         Write-Host "Processing country $currentCountry of $totalCountries : $($country.name)"
         
         # Debug country data
-        Write-Host "DEBUG: Country data:"
-        Write-Host "DEBUG: - region_id: $($country.region_id) (Type: $($country.region_id.GetType()))"
-        Write-Host "DEBUG: - subregion_id: $($country.subregion_id) (Type: $($country.subregion_id.GetType()))"
+        Write-DebugMessage "Country data:"
+        Write-DebugMessage "- region_id: $($country.region_id) (Type: $($country.region_id.GetType()))"
+        Write-DebugMessage "- subregion_id: $($country.subregion_id) (Type: $($country.subregion_id.GetType()))"
         
         # Generate country file
         $countryCode = @"
@@ -235,12 +243,12 @@ namespace ShowsOnSale.World.Data.Countries
         Add-Content $countryFilePath $translationsCode -Encoding UTF8
         
         # Add translations
-        Write-Host "DEBUG: Processing translations for country $($country.name)"
+        Write-DebugMessage "Processing translations for country $($country.name)"
         
         # Get translations count safely
         $translationsObj = @($country.translations.PSObject.Properties)
         $translationCount = $translationsObj.Length
-        Write-Host "DEBUG: Found $translationCount translations"
+        Write-DebugMessage "Found $translationCount translations"
         $currentTranslation = 0
         
         foreach ($translation in $translationsObj) {
@@ -248,7 +256,7 @@ namespace ShowsOnSale.World.Data.Countries
             $langCode = $translation.Name
             $translationValue = Get-EscapedString $translation.Value
             
-            Write-Host "DEBUG: Translation $currentTranslation of $translationCount - Language: $langCode, Value: $translationValue"
+            Write-DebugMessage "Translation $currentTranslation of $translationCount - Language: $langCode, Value: $translationValue"
             
             # Add comma after every entry except the last one
             $commaValue = if ([int]$currentTranslation -lt [int]$translationCount) { "," } else { "" }
@@ -271,7 +279,7 @@ namespace ShowsOnSale.World.Data.Countries
         
         foreach ($state in $country.states) {
             $currentState++
-            Write-Host "  Processing state $currentState of $totalStates : $($state.name)"
+            Write-Host "  Processing $($country.name) | state $currentState of $totalStates : $($state.name)"
             
             $stateName = Get-EscapedString $state.name
             $stateCode = @"
@@ -291,32 +299,32 @@ namespace ShowsOnSale.World.Data.Countries
             Add-Content $countryFilePath $stateCode -Encoding UTF8
             
             # Process cities for this state
-            Write-Host "DEBUG: Starting city processing for state: $($state.name)"
-            Write-Host "DEBUG: Cities collection type: $($state.cities.GetType())"
+            Write-DebugMessage "Starting city processing for state: $($state.name)"
+            Write-DebugMessage "Cities collection type: $($state.cities.GetType())"
             
             # Get cities count safely
             $citiesCount = $state.cities.Count
             if ($citiesCount -is [array]) {
-                Write-Host "DEBUG: Cities count is an array, using first element"
+                Write-DebugMessage "Cities count is an array, using first element"
                 $citiesCount = $citiesCount[0]
             }
             $totalCities = [int]$citiesCount
-            Write-Host "DEBUG: Total cities count: $totalCities (Type: $($totalCities.GetType()))"
+            Write-DebugMessage "Total cities count: $totalCities (Type: $($totalCities.GetType()))"
             $currentCity = [int]0
             
             # Process cities in batches for better performance
             $cityBatchSize = [int]1000
-            Write-Host "DEBUG: City batch size: $cityBatchSize (Type: $($cityBatchSize.GetType()))"
+            Write-DebugMessage "City batch size: $cityBatchSize (Type: $($cityBatchSize.GetType()))"
             
             # Calculate number of batches
             $cityBatches = [Math]::Ceiling($totalCities / $cityBatchSize)
-            Write-Host "DEBUG: Number of batches: $cityBatches (Type: $($cityBatches.GetType()))"
+            Write-DebugMessage "Number of batches: $cityBatches (Type: $($cityBatches.GetType()))"
             
             for ($batch = 0; $batch -lt $cityBatches; $batch++) {
                 $startIndex = $batch * $cityBatchSize
                 $endIndex = [Math]::Min(($batch + 1) * $cityBatchSize, $totalCities)
                 
-                Write-Host "DEBUG: Processing batch $($batch + 1) - Index range: $startIndex to $endIndex"
+                Write-DebugMessage "Processing batch $($batch + 1) - Index range: $startIndex to $endIndex"
                 
                 # Collect city entries for this batch
                 $cityEntries = @()
@@ -325,8 +333,8 @@ namespace ShowsOnSale.World.Data.Countries
                     $city = $state.cities[$i]
                     $currentCity = $i + 1
                     
-                    Write-Host "DEBUG: Processing city index $i - Current city: $currentCity"
-                    Write-Host "DEBUG: City object type: $($city.GetType())"
+                    Write-DebugMessage "Processing city index $i - Current city: $currentCity"
+                    Write-DebugMessage "City object type: $($city.GetType())"
                     
                     # Create single-line city entry with proper escaping
                     $cityName = Get-EscapedString $city.name
@@ -344,7 +352,7 @@ namespace ShowsOnSale.World.Data.Countries
                         $city.longitude -eq $null ? "" : $city.longitude
                     }
                     
-                    Write-Host "DEBUG: City values - Name: $cityName, Lat: $cityLatitude, Long: $cityLongitude"
+                    Write-DebugMessage "City values - Name: $cityName, Lat: $cityLatitude, Long: $cityLongitude"
                     
                     # Simple integer comparison since variables are already cast to [int]
                     $commaValue = $currentCity -lt $totalCities ? "," : ""
@@ -382,15 +390,14 @@ namespace ShowsOnSale.World.Data.Countries
         
         $mainReference = @"
 
-            Countries.$countryName.Data$commaValue
+            ShowsOnSale.World.Data.Countries.$countryName.Data$commaValue
 "@
         Add-Content $mainOutputPath $mainReference -Encoding UTF8
     }
     
     # Write the final closing brackets for main file
     $finalCode = @"
-            };
-        }
+        };
     }
 }
 "@
@@ -410,7 +417,9 @@ try {
     Write-Host "World data generation completed successfully!"
 } catch {
     Write-Error "An error occurred: $_"
-    Write-Host "DEBUG: Stack trace:"
-    Write-Host $_.ScriptStackTrace
+    if ($Debug) {
+        Write-Host "DEBUG: Stack trace:"
+        Write-Host $_.ScriptStackTrace
+    }
     exit 1
 }
