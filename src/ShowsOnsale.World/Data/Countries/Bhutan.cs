@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class Bhutan
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 25,
             Name = "Bhutan",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "90.50000000",
             Emoji = "🇧🇹",
             EmojiU = "U+1F1E7 U+1F1F9",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "Asia/Thimphu",
-                    GmtOffset = 21600,
-                    GmtOffsetName = "UTC+06:00",
-                    Abbreviation = "BTT",
-                    TzName = "Bhutan Time"
-                }
+                new() { ZoneName = "Asia/Thimphu", GmtOffset = 21600, GmtOffsetName = "UTC+06:00", Abbreviation = "BTT", TzName = "Bhutan Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "부탄" },
                 { "pt-BR" = "Butão" }
@@ -62,10 +55,10 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Бутан" }
                 { "pl" = "Bhutan" }
             },
-            States = new List<State>
+            States = new()
             {
 
-                new State
+                new()
                 {
                     Id = 1,
                     Name = "Bumthang ",
@@ -73,28 +66,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "27.64183900",
                     Longitude = "90.67730460",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Jakar",
-                            Latitude = "27.54918000",
-                            Longitude = "90.75250000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Tang Valley",
-                            Latitude = "27.50252420",
-                            Longitude = "90.74495440"
-                        }
+                        new() { Id = 1, Name = "Jakar", Latitude = "27.54918000", Longitude = "90.75250000" },
+                        new() { Id = 2, Name = "Tang Valley", Latitude = "27.50252420", Longitude = "90.74495440" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 2,
                     Name = "Chukha ",
@@ -102,60 +81,18 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "27.07843040",
                     Longitude = "89.47421770",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Chapchha",
-                            Latitude = "27.20000000",
-                            Longitude = "89.55000000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Daphu",
-                            Latitude = "26.96670000",
-                            Longitude = "89.38330000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Khitokha",
-                            Latitude = "26.90000000",
-                            Longitude = "89.61670000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Lobnig",
-                            Latitude = "27.15000000",
-                            Longitude = "89.55000000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Pachu",
-                            Latitude = "26.90000000",
-                            Longitude = "89.35000000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Phuntsholing",
-                            Latitude = "26.85164000",
-                            Longitude = "89.38837000"
-                        }
+                        new() { Id = 1, Name = "Chapchha", Latitude = "27.20000000", Longitude = "89.55000000" },
+                        new() { Id = 2, Name = "Daphu", Latitude = "26.96670000", Longitude = "89.38330000" },
+                        new() { Id = 3, Name = "Khitokha", Latitude = "26.90000000", Longitude = "89.61670000" },
+                        new() { Id = 4, Name = "Lobnig", Latitude = "27.15000000", Longitude = "89.55000000" },
+                        new() { Id = 5, Name = "Pachu", Latitude = "26.90000000", Longitude = "89.35000000" },
+                        new() { Id = 6, Name = "Phuntsholing", Latitude = "26.85164000", Longitude = "89.38837000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 3,
                     Name = "Dagana ",
@@ -163,36 +100,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "27.03228610",
                     Longitude = "89.88793040",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Daga",
-                            Latitude = "27.07529000",
-                            Longitude = "89.87688000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Sibsu",
-                            Latitude = "27.00000000",
-                            Longitude = "88.90000000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Thumgaon",
-                            Latitude = "26.98330000",
-                            Longitude = "89.96670000"
-                        }
+                        new() { Id = 1, Name = "Daga", Latitude = "27.07529000", Longitude = "89.87688000" },
+                        new() { Id = 2, Name = "Sibsu", Latitude = "27.00000000", Longitude = "88.90000000" },
+                        new() { Id = 3, Name = "Thumgaon", Latitude = "26.98330000", Longitude = "89.96670000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 4,
                     Name = "Gasa ",
@@ -200,20 +116,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "28.01858860",
                     Longitude = "89.92532330",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Gasa",
-                            Latitude = "27.90372000",
-                            Longitude = "89.72689000"
-                        }
+                        new() { Id = 1, Name = "Gasa", Latitude = "27.90372000", Longitude = "89.72689000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 5,
                     Name = "Haa ",
@@ -221,36 +130,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "27.26516690",
                     Longitude = "89.17059980",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Ha",
-                            Latitude = "27.38747000",
-                            Longitude = "89.28074000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Naktsang",
-                            Latitude = "27.38330000",
-                            Longitude = "89.26670000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Sangkari",
-                            Latitude = "27.30000000",
-                            Longitude = "89.31670000"
-                        }
+                        new() { Id = 1, Name = "Ha", Latitude = "27.38747000", Longitude = "89.28074000" },
+                        new() { Id = 2, Name = "Naktsang", Latitude = "27.38330000", Longitude = "89.26670000" },
+                        new() { Id = 3, Name = "Sangkari", Latitude = "27.30000000", Longitude = "89.31670000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 6,
                     Name = "Lhuntse ",
@@ -258,20 +146,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "27.82649890",
                     Longitude = "91.13530200",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Lhuentse",
-                            Latitude = "27.66787000",
-                            Longitude = "91.18393000"
-                        }
+                        new() { Id = 1, Name = "Lhuentse", Latitude = "27.66787000", Longitude = "91.18393000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 7,
                     Name = "Mongar ",
@@ -279,36 +160,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "27.26170590",
                     Longitude = "91.28910360",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Kengkhar",
-                            Latitude = "27.10000000",
-                            Longitude = "91.25000000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Mongar",
-                            Latitude = "27.27471000",
-                            Longitude = "91.23963000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Thebong",
-                            Latitude = "27.26670000",
-                            Longitude = "91.26670000"
-                        }
+                        new() { Id = 1, Name = "Kengkhar", Latitude = "27.10000000", Longitude = "91.25000000" },
+                        new() { Id = 2, Name = "Mongar", Latitude = "27.27471000", Longitude = "91.23963000" },
+                        new() { Id = 3, Name = "Thebong", Latitude = "27.26670000", Longitude = "91.26670000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 8,
                     Name = "Paro ",
@@ -316,36 +176,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "27.42859490",
                     Longitude = "89.41665160",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Paro",
-                            Latitude = "27.43050000",
-                            Longitude = "89.41334000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Suchha",
-                            Latitude = "27.23330000",
-                            Longitude = "89.45000000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Tshalunang",
-                            Latitude = "27.43330000",
-                            Longitude = "89.65000000"
-                        }
+                        new() { Id = 1, Name = "Paro", Latitude = "27.43050000", Longitude = "89.41334000" },
+                        new() { Id = 2, Name = "Suchha", Latitude = "27.23330000", Longitude = "89.45000000" },
+                        new() { Id = 3, Name = "Tshalunang", Latitude = "27.43330000", Longitude = "89.65000000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 9,
                     Name = "Pemagatshel ",
@@ -353,28 +192,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "27.00238200",
                     Longitude = "91.34692470",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Nganglam",
-                            Latitude = "26.84181100",
-                            Longitude = "91.24248490"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Pemagatshel",
-                            Latitude = "27.03795000",
-                            Longitude = "91.40305000"
-                        }
+                        new() { Id = 1, Name = "Nganglam", Latitude = "26.84181100", Longitude = "91.24248490" },
+                        new() { Id = 2, Name = "Pemagatshel", Latitude = "27.03795000", Longitude = "91.40305000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 10,
                     Name = "Punakha ",
@@ -382,28 +207,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "27.69037160",
                     Longitude = "89.88793040",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Pajo",
-                            Latitude = "27.53333000",
-                            Longitude = "89.88333000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Punākha",
-                            Latitude = "27.59137000",
-                            Longitude = "89.87743000"
-                        }
+                        new() { Id = 1, Name = "Pajo", Latitude = "27.53333000", Longitude = "89.88333000" },
+                        new() { Id = 2, Name = "Punākha", Latitude = "27.59137000", Longitude = "89.87743000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 11,
                     Name = "Samdrup Jongkhar ",
@@ -411,20 +222,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "26.80356820",
                     Longitude = "91.50392070",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Samdrup Jongkhar",
-                            Latitude = "26.80069000",
-                            Longitude = "91.50519000"
-                        }
+                        new() { Id = 1, Name = "Samdrup Jongkhar", Latitude = "26.80069000", Longitude = "91.50519000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 12,
                     Name = "Samtse ",
@@ -432,44 +236,16 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "27.02918320",
                     Longitude = "89.05615320",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Denchukha",
-                            Latitude = "27.01670000",
-                            Longitude = "89.25000000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Dorokha",
-                            Latitude = "27.01670000",
-                            Longitude = "89.21670000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Samtse",
-                            Latitude = "26.89903000",
-                            Longitude = "89.09951000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Tendu",
-                            Latitude = "27.13330000",
-                            Longitude = "88.88330000"
-                        }
+                        new() { Id = 1, Name = "Denchukha", Latitude = "27.01670000", Longitude = "89.25000000" },
+                        new() { Id = 2, Name = "Dorokha", Latitude = "27.01670000", Longitude = "89.21670000" },
+                        new() { Id = 3, Name = "Samtse", Latitude = "26.89903000", Longitude = "89.09951000" },
+                        new() { Id = 4, Name = "Tendu", Latitude = "27.13330000", Longitude = "88.88330000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 13,
                     Name = "Sarpang ",
@@ -477,44 +253,16 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "26.93730410",
                     Longitude = "90.48799160",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Bhurgaon",
-                            Latitude = "26.90000000",
-                            Longitude = "90.43330000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Galechugaon",
-                            Latitude = "27.00000000",
-                            Longitude = "90.53330000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Geylegphug",
-                            Latitude = "26.87060000",
-                            Longitude = "90.48560000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Sarpang",
-                            Latitude = "26.86395000",
-                            Longitude = "90.26745000"
-                        }
+                        new() { Id = 1, Name = "Bhurgaon", Latitude = "26.90000000", Longitude = "90.43330000" },
+                        new() { Id = 2, Name = "Galechugaon", Latitude = "27.00000000", Longitude = "90.53330000" },
+                        new() { Id = 3, Name = "Geylegphug", Latitude = "26.87060000", Longitude = "90.48560000" },
+                        new() { Id = 4, Name = "Sarpang", Latitude = "26.86395000", Longitude = "90.26745000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 14,
                     Name = "Thimphu ",
@@ -522,20 +270,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "27.47122160",
                     Longitude = "89.63390410",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Thimphu",
-                            Latitude = "27.46609000",
-                            Longitude = "89.64191000"
-                        }
+                        new() { Id = 1, Name = "Thimphu", Latitude = "27.46609000", Longitude = "89.64191000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 15,
                     Name = "Trashi Yangtse	",
@@ -543,36 +284,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "27.71758500",
                     Longitude = "91.19811020",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Shali",
-                            Latitude = "27.48330000",
-                            Longitude = "91.56670000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Trashi Yangtse",
-                            Latitude = "27.58330000",
-                            Longitude = "91.46670000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Yalang ",
-                            Latitude = "27.43330000",
-                            Longitude = "91.63330000"
-                        }
+                        new() { Id = 1, Name = "Shali", Latitude = "27.48330000", Longitude = "91.56670000" },
+                        new() { Id = 2, Name = "Trashi Yangtse", Latitude = "27.58330000", Longitude = "91.46670000" },
+                        new() { Id = 3, Name = "Yalang ", Latitude = "27.43330000", Longitude = "91.63330000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 16,
                     Name = "Trashigang ",
@@ -580,76 +300,20 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "27.25667950",
                     Longitude = "91.75388170",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Balfai",
-                            Latitude = "27.21670320",
-                            Longitude = "91.47940030"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Ghunkarah",
-                            Latitude = "27.40000000",
-                            Longitude = "91.56670000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Ngalangkang",
-                            Latitude = "27.45282330",
-                            Longitude = "91.56477710"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Rungzyung",
-                            Latitude = "27.35000000",
-                            Longitude = "91.66670000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Sassi",
-                            Latitude = "27.13330000",
-                            Longitude = "91.43330000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Thrimshing",
-                            Latitude = "27.13330000",
-                            Longitude = "91.61670000"
-                        },
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Trashigang",
-                            Latitude = "27.33310000",
-                            Longitude = "91.55424000"
-                        },
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Wamrong",
-                            Latitude = "27.13784530",
-                            Longitude = "91.56044470"
-                        }
+                        new() { Id = 1, Name = "Balfai", Latitude = "27.21670320", Longitude = "91.47940030" },
+                        new() { Id = 2, Name = "Ghunkarah", Latitude = "27.40000000", Longitude = "91.56670000" },
+                        new() { Id = 3, Name = "Ngalangkang", Latitude = "27.45282330", Longitude = "91.56477710" },
+                        new() { Id = 4, Name = "Rungzyung", Latitude = "27.35000000", Longitude = "91.66670000" },
+                        new() { Id = 5, Name = "Sassi", Latitude = "27.13330000", Longitude = "91.43330000" },
+                        new() { Id = 6, Name = "Thrimshing", Latitude = "27.13330000", Longitude = "91.61670000" },
+                        new() { Id = 7, Name = "Trashigang", Latitude = "27.33310000", Longitude = "91.55424000" },
+                        new() { Id = 8, Name = "Wamrong", Latitude = "27.13784530", Longitude = "91.56044470" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 17,
                     Name = "Trongsa ",
@@ -657,20 +321,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "27.50022690",
                     Longitude = "90.50806340",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Trongsa",
-                            Latitude = "27.49940000",
-                            Longitude = "90.50470000"
-                        }
+                        new() { Id = 1, Name = "Trongsa", Latitude = "27.49940000", Longitude = "90.50470000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 18,
                     Name = "Tsirang ",
@@ -678,44 +335,16 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "27.03220700",
                     Longitude = "90.18696440",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Beteni",
-                            Latitude = "27.03330000",
-                            Longitude = "90.23330000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Dagapela",
-                            Latitude = "26.93330000",
-                            Longitude = "89.95000000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Damphu",
-                            Latitude = "27.01670000",
-                            Longitude = "90.10000000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Tsirang",
-                            Latitude = "27.02190000",
-                            Longitude = "90.12291000"
-                        }
+                        new() { Id = 1, Name = "Beteni", Latitude = "27.03330000", Longitude = "90.23330000" },
+                        new() { Id = 2, Name = "Dagapela", Latitude = "26.93330000", Longitude = "89.95000000" },
+                        new() { Id = 3, Name = "Damphu", Latitude = "27.01670000", Longitude = "90.10000000" },
+                        new() { Id = 4, Name = "Tsirang", Latitude = "27.02190000", Longitude = "90.12291000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 19,
                     Name = "Wangdue Phodrang ",
@@ -723,36 +352,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "27.45260460",
                     Longitude = "90.06749280",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Manikyangsa",
-                            Latitude = "27.53330000",
-                            Longitude = "90.10000000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Ritang",
-                            Latitude = "27.55000000",
-                            Longitude = "90.16670000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Wangdue Phodrang",
-                            Latitude = "27.48330000",
-                            Longitude = "89.90000000"
-                        }
+                        new() { Id = 1, Name = "Manikyangsa", Latitude = "27.53330000", Longitude = "90.10000000" },
+                        new() { Id = 2, Name = "Ritang", Latitude = "27.55000000", Longitude = "90.16670000" },
+                        new() { Id = 3, Name = "Wangdue Phodrang", Latitude = "27.48330000", Longitude = "89.90000000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 20,
                     Name = "Zhemgang ",
@@ -760,24 +368,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "27.07697500",
                     Longitude = "90.82940020",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Panbang",
-                            Latitude = "26.86667000",
-                            Longitude = "90.98333000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Zhemgang",
-                            Latitude = "27.21689000",
-                            Longitude = "90.65793000"
-                        }
+                        new() { Id = 1, Name = "Panbang", Latitude = "26.86667000", Longitude = "90.98333000" },
+                        new() { Id = 2, Name = "Zhemgang", Latitude = "27.21689000", Longitude = "90.65793000" }
                     }
                 }
             }

@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class Aruba
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 13,
             Name = "Aruba",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "-69.96666666",
             Emoji = "🇦🇼",
             EmojiU = "U+1F1E6 U+1F1FC",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "America/Aruba",
-                    GmtOffset = -14400,
-                    GmtOffsetName = "UTC-04:00",
-                    Abbreviation = "AST",
-                    TzName = "Atlantic Standard Time"
-                }
+                new() { ZoneName = "America/Aruba", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "아루바" },
                 { "pt-BR" = "Aruba" }
@@ -62,10 +55,10 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Аруба" }
                 { "pl" = "Aruba" }
             },
-            States = new List<State>
+            States = new()
             {
 
-                new State
+                new()
                 {
                     Id = 1,
                     Name = "Noord",
@@ -73,12 +66,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "12.58243290",
                     Longitude = "-70.06761180",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 2,
                     Name = "Oranjestad",
@@ -86,12 +79,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "12.50837050",
                     Longitude = "-70.05452530",
                     Type = "capital city",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 3,
                     Name = "Oranjestad East",
@@ -99,12 +92,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "12.51331810",
                     Longitude = "-70.05048180",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 4,
                     Name = "Oranjestad West",
@@ -112,12 +105,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "12.53522930",
                     Longitude = "-70.06284040",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 5,
                     Name = "Paradera",
@@ -125,12 +118,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "12.53628710",
                     Longitude = "-70.01485110",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 6,
                     Name = "San Nicolaas Noord",
@@ -138,12 +131,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "12.46427170",
                     Longitude = "-69.94349390",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 7,
                     Name = "San Nicolaas Zuid",
@@ -151,12 +144,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "12.42785580",
                     Longitude = "-69.93810790",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 8,
                     Name = "Santa Cruz",
@@ -164,12 +157,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "12.51128360",
                     Longitude = "-69.98769660",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 9,
                     Name = "Savaneta",
@@ -177,7 +170,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "12.46184190",
                     Longitude = "-69.98558580",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 }

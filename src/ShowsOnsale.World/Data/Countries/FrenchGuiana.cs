@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class FrenchGuiana
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 77,
             Name = "French Guiana",
@@ -32,39 +32,32 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "-53.00000000",
             Emoji = "🇬🇫",
             EmojiU = "U+1F1EC U+1F1EB",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {{
-                    ZoneName = "America/Cayenne",
-                    GmtOffset = -10800,
-                    GmtOffsetName = "UTC-03:00",
-                    Abbreviation = "GFT",
-                    TzName = "French Guiana Time"
-                }},
-            }},
-            Translations = new Dictionary<string, string>
-            {{
-                {{ "ko" = "프랑스령 기아나" }},
-                {{ "pt-BR" = "Guiana Francesa" }},
-                {{ "pt" = "Guiana Francesa" }},
-                {{ "nl" = "Frans-Guyana" }},
-                {{ "hr" = "Francuska Gvajana" }},
-                {{ "fa" = "گویان فرانسه" }},
-                {{ "de" = "Französisch Guyana" }},
-                {{ "es" = "Guayana Francesa" }},
-                {{ "fr" = "Guayane" }},
-                {{ "ja" = "フランス領ギアナ" }},
-                {{ "it" = "Guyana francese" }},
-                {{ "zh-CN" = "法属圭亚那" }},
-                {{ "tr" = "Fransiz Guyanasi" }},
-                {{ "ru" = "Французская Гвиана" }},
-                {{ "uk" = "Французька Гвіана" }},
-                {{ "pl" = "Gujana Francuska" }},
-            }},
-            States = new List<State>
-            {{
-            }}
-        }};
-    }}
-}}
+                new() { ZoneName = "America/Cayenne", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "GFT", TzName = "French Guiana Time" }
+            },
+            Translations = new()
+            {
+                { "ko" = "프랑스령 기아나" },
+                { "pt-BR" = "Guiana Francesa" }
+                { "pt" = "Guiana Francesa" }
+                { "nl" = "Frans-Guyana" }
+                { "hr" = "Francuska Gvajana" }
+                { "fa" = "گویان فرانسه" }
+                { "de" = "Französisch Guyana" }
+                { "es" = "Guayana Francesa" }
+                { "fr" = "Guayane" }
+                { "ja" = "フランス領ギアナ" }
+                { "it" = "Guyana francese" }
+                { "zh-CN" = "法属圭亚那" }
+                { "tr" = "Fransiz Guyanasi" }
+                { "ru" = "Французская Гвиана" }
+                { "uk" = "Французька Гвіана" }
+                { "pl" = "Gujana Francuska" }
+            },
+            States = new()
+            {
+            }
+        };
+    }
+}

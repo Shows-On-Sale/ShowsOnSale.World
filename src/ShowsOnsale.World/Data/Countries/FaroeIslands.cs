@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class FaroeIslands
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 73,
             Name = "Faroe Islands",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "-7.00000000",
             Emoji = "🇫🇴",
             EmojiU = "U+1F1EB U+1F1F4",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "Atlantic/Faroe",
-                    GmtOffset = 0,
-                    GmtOffsetName = "UTC±00",
-                    Abbreviation = "WET",
-                    TzName = "Western European Time"
-                }
+                new() { ZoneName = "Atlantic/Faroe", GmtOffset = 0, GmtOffsetName = "UTC±00", Abbreviation = "WET", TzName = "Western European Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "페로 제도" },
                 { "pt-BR" = "Ilhas Faroé" }
@@ -62,10 +55,10 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Фарерські острови" }
                 { "pl" = "Wyspy Owcze" }
             },
-            States = new List<State>
+            States = new()
             {
 
-                new State
+                new()
                 {
                     Id = 1,
                     Name = "Eysturoy",
@@ -73,60 +66,18 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "62.19787370",
                     Longitude = "-7.18239060",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Eiði",
-                            Latitude = "62.27890000",
-                            Longitude = "-7.01230000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Eystur",
-                            Latitude = "62.15670000",
-                            Longitude = "-6.82330000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Fuglafjørður",
-                            Latitude = "62.21010000",
-                            Longitude = "-6.81230000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Nes",
-                            Latitude = "62.09870000",
-                            Longitude = "-6.76540000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Runavík",
-                            Latitude = "62.13230000",
-                            Longitude = "-6.78900000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Sjóvar",
-                            Latitude = "62.12340000",
-                            Longitude = "-6.87650000"
-                        }
+                        new() { Id = 1, Name = "Eiði", Latitude = "62.27890000", Longitude = "-7.01230000" },
+                        new() { Id = 2, Name = "Eystur", Latitude = "62.15670000", Longitude = "-6.82330000" },
+                        new() { Id = 3, Name = "Fuglafjørður", Latitude = "62.21010000", Longitude = "-6.81230000" },
+                        new() { Id = 4, Name = "Nes", Latitude = "62.09870000", Longitude = "-6.76540000" },
+                        new() { Id = 5, Name = "Runavík", Latitude = "62.13230000", Longitude = "-6.78900000" },
+                        new() { Id = 6, Name = "Sjóvar", Latitude = "62.12340000", Longitude = "-6.87650000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 2,
                     Name = "Northern Isles",
@@ -134,52 +85,17 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "62.28056890",
                     Longitude = "6.70170610",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Fugloy",
-                            Latitude = "62.45670000",
-                            Longitude = "-6.72340000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Hvannasund",
-                            Latitude = "62.34560000",
-                            Longitude = "-6.78900000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Klaksvík",
-                            Latitude = "62.22100000",
-                            Longitude = "-6.58000000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Kunoy",
-                            Latitude = "62.34560000",
-                            Longitude = "-6.89010000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Viðareiði",
-                            Latitude = "62.45670000",
-                            Longitude = "-6.72340000"
-                        }
+                        new() { Id = 1, Name = "Fugloy", Latitude = "62.45670000", Longitude = "-6.72340000" },
+                        new() { Id = 2, Name = "Hvannasund", Latitude = "62.34560000", Longitude = "-6.78900000" },
+                        new() { Id = 3, Name = "Klaksvík", Latitude = "62.22100000", Longitude = "-6.58000000" },
+                        new() { Id = 4, Name = "Kunoy", Latitude = "62.34560000", Longitude = "-6.89010000" },
+                        new() { Id = 5, Name = "Viðareiði", Latitude = "62.45670000", Longitude = "-6.72340000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 3,
                     Name = "Sandoy",
@@ -187,52 +103,17 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "61.83651690",
                     Longitude = "-6.96301660",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Húsavík",
-                            Latitude = "61.90120000",
-                            Longitude = "-6.84560000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Sandur",
-                            Latitude = "61.90120000",
-                            Longitude = "-6.84560000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Skálavík",
-                            Latitude = "61.98760000",
-                            Longitude = "-6.76540000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Skopun",
-                            Latitude = "62.01230000",
-                            Longitude = "-6.98760000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Skúvoy",
-                            Latitude = "61.98760000",
-                            Longitude = "-6.76540000"
-                        }
+                        new() { Id = 1, Name = "Húsavík", Latitude = "61.90120000", Longitude = "-6.84560000" },
+                        new() { Id = 2, Name = "Sandur", Latitude = "61.90120000", Longitude = "-6.84560000" },
+                        new() { Id = 3, Name = "Skálavík", Latitude = "61.98760000", Longitude = "-6.76540000" },
+                        new() { Id = 4, Name = "Skopun", Latitude = "62.01230000", Longitude = "-6.98760000" },
+                        new() { Id = 5, Name = "Skúvoy", Latitude = "61.98760000", Longitude = "-6.76540000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 4,
                     Name = "Streymoy",
@@ -240,44 +121,16 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "62.12338200",
                     Longitude = "-7.32641080",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Kvívík",
-                            Latitude = "62.14560000",
-                            Longitude = "-7.20980000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Sunda",
-                            Latitude = "62.13450000",
-                            Longitude = "-7.09870000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Tórshavn",
-                            Latitude = "62.00000000",
-                            Longitude = "-7.00000000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Vestmanna",
-                            Latitude = "62.15670000",
-                            Longitude = "-7.23450000"
-                        }
+                        new() { Id = 1, Name = "Kvívík", Latitude = "62.14560000", Longitude = "-7.20980000" },
+                        new() { Id = 2, Name = "Sunda", Latitude = "62.13450000", Longitude = "-7.09870000" },
+                        new() { Id = 3, Name = "Tórshavn", Latitude = "62.00000000", Longitude = "-7.00000000" },
+                        new() { Id = 4, Name = "Vestmanna", Latitude = "62.15670000", Longitude = "-7.23450000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 5,
                     Name = "Suðuroy",
@@ -285,68 +138,19 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "61.52118160",
                     Longitude = "-7.00190140",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Fámjin",
-                            Latitude = "61.45670000",
-                            Longitude = "-6.89010000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Hov",
-                            Latitude = "61.45670000",
-                            Longitude = "-6.89010000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Hvalba",
-                            Latitude = "61.59870000",
-                            Longitude = "-6.98760000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Porkeri",
-                            Latitude = "61.54320000",
-                            Longitude = "-6.98760000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Sumba",
-                            Latitude = "61.45670000",
-                            Longitude = "-6.89010000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Tvøroyri",
-                            Latitude = "61.56230000",
-                            Longitude = "-6.77800000"
-                        },
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Vágur",
-                            Latitude = "61.47890000",
-                            Longitude = "-6.81010000"
-                        }
+                        new() { Id = 1, Name = "Fámjin", Latitude = "61.45670000", Longitude = "-6.89010000" },
+                        new() { Id = 2, Name = "Hov", Latitude = "61.45670000", Longitude = "-6.89010000" },
+                        new() { Id = 3, Name = "Hvalba", Latitude = "61.59870000", Longitude = "-6.98760000" },
+                        new() { Id = 4, Name = "Porkeri", Latitude = "61.54320000", Longitude = "-6.98760000" },
+                        new() { Id = 5, Name = "Sumba", Latitude = "61.45670000", Longitude = "-6.89010000" },
+                        new() { Id = 6, Name = "Tvøroyri", Latitude = "61.56230000", Longitude = "-6.77800000" },
+                        new() { Id = 7, Name = "Vágur", Latitude = "61.47890000", Longitude = "-6.81010000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 6,
                     Name = "Vágar",
@@ -354,24 +158,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "62.08998350",
                     Longitude = "-7.42768370",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Sørvágur",
-                            Latitude = "62.06540000",
-                            Longitude = "-7.37870000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Vágar",
-                            Latitude = "62.06670000",
-                            Longitude = "-7.10000000"
-                        }
+                        new() { Id = 1, Name = "Sørvágur", Latitude = "62.06540000", Longitude = "-7.37870000" },
+                        new() { Id = 2, Name = "Vágar", Latitude = "62.06670000", Longitude = "-7.10000000" }
                     }
                 }
             }

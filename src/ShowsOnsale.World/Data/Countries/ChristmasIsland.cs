@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class ChristmasIsland
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 46,
             Name = "Christmas Island",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "105.66666666",
             Emoji = "🇨🇽",
             EmojiU = "U+1F1E8 U+1F1FD",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "Indian/Christmas",
-                    GmtOffset = 25200,
-                    GmtOffsetName = "UTC+07:00",
-                    Abbreviation = "CXT",
-                    TzName = "Christmas Island Time"
-                }
+                new() { ZoneName = "Indian/Christmas", GmtOffset = 25200, GmtOffsetName = "UTC+07:00", Abbreviation = "CXT", TzName = "Christmas Island Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "크리스마스 섬" },
                 { "pt-BR" = "Ilha Christmas" }
@@ -62,7 +55,7 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Острів Різдва" }
                 { "pl" = "Wyspa Bożego Narodzenia" }
             },
-            States = new List<State>
+            States = new()
             {
             }
         };

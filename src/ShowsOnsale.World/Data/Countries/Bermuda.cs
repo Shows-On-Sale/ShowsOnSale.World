@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class Bermuda
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 24,
             Name = "Bermuda",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "-64.75000000",
             Emoji = "🇧🇲",
             EmojiU = "U+1F1E7 U+1F1F2",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "Atlantic/Bermuda",
-                    GmtOffset = -14400,
-                    GmtOffsetName = "UTC-04:00",
-                    Abbreviation = "AST",
-                    TzName = "Atlantic Standard Time"
-                }
+                new() { ZoneName = "Atlantic/Bermuda", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "버뮤다" },
                 { "pt-BR" = "Bermudas" }
@@ -62,10 +55,10 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Бермудські острови" }
                 { "pl" = "Bermudy" }
             },
-            States = new List<State>
+            States = new()
             {
 
-                new State
+                new()
                 {
                     Id = 1,
                     Name = "Devonshire",
@@ -73,20 +66,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "32.30380620",
                     Longitude = "-64.76069540",
                     Type = "municipality",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Devonshire",
-                            Latitude = "32.29300000",
-                            Longitude = "-64.80000000"
-                        }
+                        new() { Id = 1, Name = "Devonshire", Latitude = "32.29300000", Longitude = "-64.80000000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 2,
                     Name = "Hamilton",
@@ -94,20 +80,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "32.34494320",
                     Longitude = "-64.72365000",
                     Type = "municipality",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Hamilton",
-                            Latitude = "32.29400000",
-                            Longitude = "-64.78300000"
-                        }
+                        new() { Id = 1, Name = "Hamilton", Latitude = "32.29400000", Longitude = "-64.78300000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 3,
                     Name = "Paget",
@@ -115,20 +94,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "32.28107400",
                     Longitude = "-64.77847870",
                     Type = "municipality",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Paget",
-                            Latitude = "32.27800000",
-                            Longitude = "-64.76900000"
-                        }
+                        new() { Id = 1, Name = "Paget", Latitude = "32.27800000", Longitude = "-64.76900000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 4,
                     Name = "Pembroke",
@@ -136,12 +108,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "32.30076720",
                     Longitude = "-64.79626300",
                     Type = "municipality",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 5,
                     Name = "Saint George's",
@@ -149,28 +121,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "17.12577590",
                     Longitude = "-62.56198110",
                     Type = "municipality",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "St. George's",
-                            Latitude = "32.38100000",
-                            Longitude = "-64.67400000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Tucker’s Town",
-                            Latitude = "32.33280000",
-                            Longitude = "64.68810000"
-                        }
+                        new() { Id = 1, Name = "St. George's", Latitude = "32.38100000", Longitude = "-64.67400000" },
+                        new() { Id = 2, Name = "Tucker’s Town", Latitude = "32.33280000", Longitude = "64.68810000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 6,
                     Name = "Sandys",
@@ -178,20 +136,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "32.29995280",
                     Longitude = "-64.86741030",
                     Type = "municipality",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Somerset",
-                            Latitude = "32.28200000",
-                            Longitude = "-64.84400000"
-                        }
+                        new() { Id = 1, Name = "Somerset", Latitude = "32.28200000", Longitude = "-64.84400000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 7,
                     Name = "Smith's",
@@ -199,20 +150,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "32.31339660",
                     Longitude = "-64.73105880",
                     Type = "municipality",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Flatts",
-                            Latitude = "32.32800000",
-                            Longitude = "-64.73600000"
-                        }
+                        new() { Id = 1, Name = "Flatts", Latitude = "32.32800000", Longitude = "-64.73600000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 8,
                     Name = "Southampton",
@@ -220,20 +164,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "32.25400950",
                     Longitude = "-64.82590580",
                     Type = "municipality",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Southampton",
-                            Latitude = "32.24900000",
-                            Longitude = "-64.86100000"
-                        }
+                        new() { Id = 1, Name = "Southampton", Latitude = "32.24900000", Longitude = "-64.86100000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 9,
                     Name = "Warwick",
@@ -241,16 +178,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "32.26615340",
                     Longitude = "-64.80811980",
                     Type = "municipality",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Warwick",
-                            Latitude = "32.26700000",
-                            Longitude = "-64.80600000"
-                        }
+                        new() { Id = 1, Name = "Warwick", Latitude = "32.26700000", Longitude = "-64.80600000" }
                     }
                 }
             }

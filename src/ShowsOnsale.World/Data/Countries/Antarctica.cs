@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class Antarctica
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 9,
             Name = "Antarctica",
@@ -32,90 +32,20 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "4.48000000",
             Emoji = "🇦🇶",
             EmojiU = "U+1F1E6 U+1F1F6",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "Antarctica/Casey",
-                    GmtOffset = 39600,
-                    GmtOffsetName = "UTC+11:00",
-                    Abbreviation = "AWST",
-                    TzName = "Australian Western Standard Time"
-                },
-                new Timezone
-                {
-                    ZoneName = "Antarctica/Davis",
-                    GmtOffset = 25200,
-                    GmtOffsetName = "UTC+07:00",
-                    Abbreviation = "DAVT",
-                    TzName = "Davis Time"
-                }
-                new Timezone
-                {
-                    ZoneName = "Antarctica/DumontDUrville",
-                    GmtOffset = 36000,
-                    GmtOffsetName = "UTC+10:00",
-                    Abbreviation = "DDUT",
-                    TzName = "Dumont d'Urville Time"
-                }
-                new Timezone
-                {
-                    ZoneName = "Antarctica/Mawson",
-                    GmtOffset = 18000,
-                    GmtOffsetName = "UTC+05:00",
-                    Abbreviation = "MAWT",
-                    TzName = "Mawson Station Time"
-                }
-                new Timezone
-                {
-                    ZoneName = "Antarctica/McMurdo",
-                    GmtOffset = 46800,
-                    GmtOffsetName = "UTC+13:00",
-                    Abbreviation = "NZDT",
-                    TzName = "New Zealand Daylight Time"
-                }
-                new Timezone
-                {
-                    ZoneName = "Antarctica/Palmer",
-                    GmtOffset = -10800,
-                    GmtOffsetName = "UTC-03:00",
-                    Abbreviation = "CLST",
-                    TzName = "Chile Summer Time"
-                }
-                new Timezone
-                {
-                    ZoneName = "Antarctica/Rothera",
-                    GmtOffset = -10800,
-                    GmtOffsetName = "UTC-03:00",
-                    Abbreviation = "ROTT",
-                    TzName = "Rothera Research Station Time"
-                }
-                new Timezone
-                {
-                    ZoneName = "Antarctica/Syowa",
-                    GmtOffset = 10800,
-                    GmtOffsetName = "UTC+03:00",
-                    Abbreviation = "SYOT",
-                    TzName = "Showa Station Time"
-                }
-                new Timezone
-                {
-                    ZoneName = "Antarctica/Troll",
-                    GmtOffset = 0,
-                    GmtOffsetName = "UTC±00",
-                    Abbreviation = "GMT",
-                    TzName = "Greenwich Mean Time"
-                }
-                new Timezone
-                {
-                    ZoneName = "Antarctica/Vostok",
-                    GmtOffset = 21600,
-                    GmtOffsetName = "UTC+06:00",
-                    Abbreviation = "VOST",
-                    TzName = "Vostok Station Time"
-                }
+                new() { ZoneName = "Antarctica/Casey", GmtOffset = 39600, GmtOffsetName = "UTC+11:00", Abbreviation = "AWST", TzName = "Australian Western Standard Time" },
+                new() { ZoneName = "Antarctica/Davis", GmtOffset = 25200, GmtOffsetName = "UTC+07:00", Abbreviation = "DAVT", TzName = "Davis Time" }
+                new() { ZoneName = "Antarctica/DumontDUrville", GmtOffset = 36000, GmtOffsetName = "UTC+10:00", Abbreviation = "DDUT", TzName = "Dumont d'Urville Time" }
+                new() { ZoneName = "Antarctica/Mawson", GmtOffset = 18000, GmtOffsetName = "UTC+05:00", Abbreviation = "MAWT", TzName = "Mawson Station Time" }
+                new() { ZoneName = "Antarctica/McMurdo", GmtOffset = 46800, GmtOffsetName = "UTC+13:00", Abbreviation = "NZDT", TzName = "New Zealand Daylight Time" }
+                new() { ZoneName = "Antarctica/Palmer", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "CLST", TzName = "Chile Summer Time" }
+                new() { ZoneName = "Antarctica/Rothera", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ROTT", TzName = "Rothera Research Station Time" }
+                new() { ZoneName = "Antarctica/Syowa", GmtOffset = 10800, GmtOffsetName = "UTC+03:00", Abbreviation = "SYOT", TzName = "Showa Station Time" }
+                new() { ZoneName = "Antarctica/Troll", GmtOffset = 0, GmtOffsetName = "UTC±00", Abbreviation = "GMT", TzName = "Greenwich Mean Time" }
+                new() { ZoneName = "Antarctica/Vostok", GmtOffset = 21600, GmtOffsetName = "UTC+06:00", Abbreviation = "VOST", TzName = "Vostok Station Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "남극" },
                 { "pt-BR" = "Antártida" }
@@ -134,7 +64,7 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Антарктида" }
                 { "pl" = "Antarktyda" }
             },
-            States = new List<State>
+            States = new()
             {
             }
         };

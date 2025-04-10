@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class CookIslands
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 51,
             Name = "Cook Islands",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "-159.76666666",
             Emoji = "🇨🇰",
             EmojiU = "U+1F1E8 U+1F1F0",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "Pacific/Rarotonga",
-                    GmtOffset = -36000,
-                    GmtOffsetName = "UTC-10:00",
-                    Abbreviation = "CKT",
-                    TzName = "Cook Island Time"
-                }
+                new() { ZoneName = "Pacific/Rarotonga", GmtOffset = -36000, GmtOffsetName = "UTC-10:00", Abbreviation = "CKT", TzName = "Cook Island Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "쿡 제도" },
                 { "pt-BR" = "Ilhas Cook" }
@@ -62,7 +55,7 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Острови Кука" }
                 { "pl" = "Wyspy Cooka" }
             },
-            States = new List<State>
+            States = new()
             {
             }
         };

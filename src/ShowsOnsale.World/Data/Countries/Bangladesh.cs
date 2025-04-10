@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class Bangladesh
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 18,
             Name = "Bangladesh",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "90.00000000",
             Emoji = "🇧🇩",
             EmojiU = "U+1F1E7 U+1F1E9",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "Asia/Dhaka",
-                    GmtOffset = 21600,
-                    GmtOffsetName = "UTC+06:00",
-                    Abbreviation = "BDT",
-                    TzName = "Bangladesh Standard Time"
-                }
+                new() { ZoneName = "Asia/Dhaka", GmtOffset = 21600, GmtOffsetName = "UTC+06:00", Abbreviation = "BDT", TzName = "Bangladesh Standard Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "방글라데시" },
                 { "pt-BR" = "Bangladesh" }
@@ -62,10 +55,10 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Бангладеш" }
                 { "pl" = "Bangladesz" }
             },
-            States = new List<State>
+            States = new()
             {
 
-                new State
+                new()
                 {
                     Id = 1,
                     Name = "Barisal ",
@@ -73,60 +66,18 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "22.38111310",
                     Longitude = "90.33718890",
                     Type = "division",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Barguna ",
-                            Latitude = "22.17167870",
-                            Longitude = "89.79740240"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Barisal ",
-                            Latitude = "22.42035790",
-                            Longitude = "89.78250340"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Bhola ",
-                            Latitude = "22.32452480",
-                            Longitude = "90.10568470"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Jhalokati ",
-                            Latitude = "22.56303520",
-                            Longitude = "89.87191590"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Patuakhali ",
-                            Latitude = "22.18709170",
-                            Longitude = "89.71647060"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Pirojpur ",
-                            Latitude = "22.50937910",
-                            Longitude = "89.36434220"
-                        }
+                        new() { Id = 1, Name = "Barguna ", Latitude = "22.17167870", Longitude = "89.79740240" },
+                        new() { Id = 2, Name = "Barisal ", Latitude = "22.42035790", Longitude = "89.78250340" },
+                        new() { Id = 3, Name = "Bhola ", Latitude = "22.32452480", Longitude = "90.10568470" },
+                        new() { Id = 4, Name = "Jhalokati ", Latitude = "22.56303520", Longitude = "89.87191590" },
+                        new() { Id = 5, Name = "Patuakhali ", Latitude = "22.18709170", Longitude = "89.71647060" },
+                        new() { Id = 6, Name = "Pirojpur ", Latitude = "22.50937910", Longitude = "89.36434220" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 2,
                     Name = "Chittagong ",
@@ -134,100 +85,23 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "23.17931570",
                     Longitude = "91.98815270",
                     Type = "division",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Bandarban",
-                            Latitude = "22.00000000",
-                            Longitude = "92.33333000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Brahmanbaria",
-                            Latitude = "23.98333000",
-                            Longitude = "91.16667000"
-                        }
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Chandpur",
-                            Latitude = "23.25000000",
-                            Longitude = "90.83333000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Chittagong",
-                            Latitude = "22.48750000",
-                            Longitude = "91.96333000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Comilla",
-                            Latitude = "23.44170000",
-                            Longitude = "91.00987000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Cox's Bazar",
-                            Latitude = "21.58389000",
-                            Longitude = "92.01528000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Feni",
-                            Latitude = "22.96667000",
-                            Longitude = "91.31667000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Khagrachhari",
-                            Latitude = "23.16667000",
-                            Longitude = "91.90000000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Lakshmipur",
-                            Latitude = "22.91667000",
-                            Longitude = "90.83333000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Noakhali",
-                            Latitude = "22.75000000",
-                            Longitude = "91.16667000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Rangamati",
-                            Latitude = "22.63333000",
-                            Longitude = "92.20000000"
-                        }
+                        new() { Id = 1, Name = "Bandarban", Latitude = "22.00000000", Longitude = "92.33333000" },
+                        new() { Id = 2, Name = "Brahmanbaria", Latitude = "23.98333000", Longitude = "91.16667000" },
+                        new() { Id = 3, Name = "Chandpur", Latitude = "23.25000000", Longitude = "90.83333000" },
+                        new() { Id = 4, Name = "Chittagong", Latitude = "22.48750000", Longitude = "91.96333000" },
+                        new() { Id = 5, Name = "Comilla", Latitude = "23.44170000", Longitude = "91.00987000" },
+                        new() { Id = 6, Name = "Cox's Bazar", Latitude = "21.58389000", Longitude = "92.01528000" },
+                        new() { Id = 7, Name = "Feni", Latitude = "22.96667000", Longitude = "91.31667000" },
+                        new() { Id = 8, Name = "Khagrachhari", Latitude = "23.16667000", Longitude = "91.90000000" },
+                        new() { Id = 9, Name = "Lakshmipur", Latitude = "22.91667000", Longitude = "90.83333000" },
+                        new() { Id = 10, Name = "Noakhali", Latitude = "22.75000000", Longitude = "91.16667000" },
+                        new() { Id = 11, Name = "Rangamati", Latitude = "22.63333000", Longitude = "92.20000000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 3,
                     Name = "Dhaka ",
@@ -235,116 +109,25 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "23.95357420",
                     Longitude = "90.14949880",
                     Type = "division",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Dhaka ",
-                            Latitude = "23.78417980",
-                            Longitude = "89.92859830"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Faridpur ",
-                            Latitude = "23.45115240",
-                            Longitude = "89.52820380"
-                        }
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Gazipur ",
-                            Latitude = "24.10914520",
-                            Longitude = "90.09596140"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Gopalganj ",
-                            Latitude = "23.10660120",
-                            Longitude = "89.57802710"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Kishoreganj ",
-                            Latitude = "24.33888030",
-                            Longitude = "90.58499800"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Madaripur ",
-                            Latitude = "23.23455490",
-                            Longitude = "89.81089030"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Manikganj ",
-                            Latitude = "23.83174080",
-                            Longitude = "89.64097890"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Munshiganj ",
-                            Latitude = "23.52615230",
-                            Longitude = "90.11590910"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Narayanganj ",
-                            Latitude = "23.74880130",
-                            Longitude = "90.25638500"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Narsingdi ",
-                            Latitude = "24.00966000",
-                            Longitude = "90.44480420"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Rajbari ",
-                            Latitude = "23.73843000",
-                            Longitude = "89.25547000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Shariatpur ",
-                            Latitude = "23.23124340",
-                            Longitude = "90.08293470"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Tangail ",
-                            Latitude = "24.37630700",
-                            Longitude = "89.35804610"
-                        }
+                        new() { Id = 1, Name = "Dhaka ", Latitude = "23.78417980", Longitude = "89.92859830" },
+                        new() { Id = 2, Name = "Faridpur ", Latitude = "23.45115240", Longitude = "89.52820380" },
+                        new() { Id = 3, Name = "Gazipur ", Latitude = "24.10914520", Longitude = "90.09596140" },
+                        new() { Id = 4, Name = "Gopalganj ", Latitude = "23.10660120", Longitude = "89.57802710" },
+                        new() { Id = 5, Name = "Kishoreganj ", Latitude = "24.33888030", Longitude = "90.58499800" },
+                        new() { Id = 6, Name = "Madaripur ", Latitude = "23.23455490", Longitude = "89.81089030" },
+                        new() { Id = 7, Name = "Manikganj ", Latitude = "23.83174080", Longitude = "89.64097890" },
+                        new() { Id = 8, Name = "Munshiganj ", Latitude = "23.52615230", Longitude = "90.11590910" },
+                        new() { Id = 9, Name = "Narayanganj ", Latitude = "23.74880130", Longitude = "90.25638500" },
+                        new() { Id = 10, Name = "Narsingdi ", Latitude = "24.00966000", Longitude = "90.44480420" },
+                        new() { Id = 11, Name = "Rajbari ", Latitude = "23.73843000", Longitude = "89.25547000" },
+                        new() { Id = 12, Name = "Shariatpur ", Latitude = "23.23124340", Longitude = "90.08293470" },
+                        new() { Id = 13, Name = "Tangail ", Latitude = "24.37630700", Longitude = "89.35804610" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 4,
                     Name = "Khulna ",
@@ -352,92 +135,22 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "22.80878160",
                     Longitude = "89.24671910",
                     Type = "division",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Bagerhat ",
-                            Latitude = "22.34880590",
-                            Longitude = "89.07470250"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Chuadanga ",
-                            Latitude = "23.60352730",
-                            Longitude = "88.48732400"
-                        }
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Jessore ",
-                            Latitude = "23.08473560",
-                            Longitude = "88.87480080"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Jhenaidah ",
-                            Latitude = "23.49521270",
-                            Longitude = "88.70694930"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Khulna ",
-                            Latitude = "22.35351390",
-                            Longitude = "88.83407090"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Kushtia ",
-                            Latitude = "23.94595240",
-                            Longitude = "88.70179290"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Magura ",
-                            Latitude = "23.46557740",
-                            Longitude = "89.11547300"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Meherpur ",
-                            Latitude = "23.78972180",
-                            Longitude = "88.39319490"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Narail ",
-                            Latitude = "23.13175700",
-                            Longitude = "89.26258440"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Satkhira ",
-                            Latitude = "22.29898590",
-                            Longitude = "88.47540870"
-                        }
+                        new() { Id = 1, Name = "Bagerhat ", Latitude = "22.34880590", Longitude = "89.07470250" },
+                        new() { Id = 2, Name = "Chuadanga ", Latitude = "23.60352730", Longitude = "88.48732400" },
+                        new() { Id = 3, Name = "Jessore ", Latitude = "23.08473560", Longitude = "88.87480080" },
+                        new() { Id = 4, Name = "Jhenaidah ", Latitude = "23.49521270", Longitude = "88.70694930" },
+                        new() { Id = 5, Name = "Khulna ", Latitude = "22.35351390", Longitude = "88.83407090" },
+                        new() { Id = 6, Name = "Kushtia ", Latitude = "23.94595240", Longitude = "88.70179290" },
+                        new() { Id = 7, Name = "Magura ", Latitude = "23.46557740", Longitude = "89.11547300" },
+                        new() { Id = 8, Name = "Meherpur ", Latitude = "23.78972180", Longitude = "88.39319490" },
+                        new() { Id = 9, Name = "Narail ", Latitude = "23.13175700", Longitude = "89.26258440" },
+                        new() { Id = 10, Name = "Satkhira ", Latitude = "22.29898590", Longitude = "88.47540870" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 5,
                     Name = "Mymensingh ",
@@ -445,44 +158,16 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "24.71362000",
                     Longitude = "90.45023680",
                     Type = "division",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Jamalpur ",
-                            Latitude = "25.00108250",
-                            Longitude = "89.26050130"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Mymensingh ",
-                            Latitude = "24.72309850",
-                            Longitude = "89.78411730"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Netrokona ",
-                            Latitude = "24.87204810",
-                            Longitude = "90.52293810"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Sherpur ",
-                            Latitude = "25.09260380",
-                            Longitude = "89.76352070"
-                        }
+                        new() { Id = 1, Name = "Jamalpur ", Latitude = "25.00108250", Longitude = "89.26050130" },
+                        new() { Id = 2, Name = "Mymensingh ", Latitude = "24.72309850", Longitude = "89.78411730" },
+                        new() { Id = 3, Name = "Netrokona ", Latitude = "24.87204810", Longitude = "90.52293810" },
+                        new() { Id = 4, Name = "Sherpur ", Latitude = "25.09260380", Longitude = "89.76352070" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 6,
                     Name = "Rajshahi ",
@@ -490,76 +175,20 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "24.71057760",
                     Longitude = "88.94138650",
                     Type = "division",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Bogra ",
-                            Latitude = "24.82966450",
-                            Longitude = "89.02598570"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Chapai Nawabganj",
-                            Latitude = "24.69520750",
-                            Longitude = "87.93021310"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Joypurhat ",
-                            Latitude = "25.06567070",
-                            Longitude = "88.76832650"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Naogaon ",
-                            Latitude = "24.87425080",
-                            Longitude = "88.43751910"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Natore ",
-                            Latitude = "24.38021070",
-                            Longitude = "88.76302520"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Pabna ",
-                            Latitude = "24.08126720",
-                            Longitude = "89.03724420"
-                        },
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Rajshahi ",
-                            Latitude = "24.42073360",
-                            Longitude = "88.29602140"
-                        },
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Sirajganj ",
-                            Latitude = "24.39876240",
-                            Longitude = "88.87641810"
-                        }
+                        new() { Id = 1, Name = "Bogra ", Latitude = "24.82966450", Longitude = "89.02598570" },
+                        new() { Id = 2, Name = "Chapai Nawabganj", Latitude = "24.69520750", Longitude = "87.93021310" },
+                        new() { Id = 3, Name = "Joypurhat ", Latitude = "25.06567070", Longitude = "88.76832650" },
+                        new() { Id = 4, Name = "Naogaon ", Latitude = "24.87425080", Longitude = "88.43751910" },
+                        new() { Id = 5, Name = "Natore ", Latitude = "24.38021070", Longitude = "88.76302520" },
+                        new() { Id = 6, Name = "Pabna ", Latitude = "24.08126720", Longitude = "89.03724420" },
+                        new() { Id = 7, Name = "Rajshahi ", Latitude = "24.42073360", Longitude = "88.29602140" },
+                        new() { Id = 8, Name = "Sirajganj ", Latitude = "24.39876240", Longitude = "88.87641810" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 7,
                     Name = "Rangpur ",
@@ -567,76 +196,20 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "25.84833880",
                     Longitude = "88.94138650",
                     Type = "division",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Dinajpur ",
-                            Latitude = "25.64261030",
-                            Longitude = "88.18344620"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Gaibandha ",
-                            Latitude = "25.34315570",
-                            Longitude = "89.13978570"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Kurigram ",
-                            Latitude = "25.80827220",
-                            Longitude = "89.00915030"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Lalmonirhat ",
-                            Latitude = "26.12442390",
-                            Longitude = "88.91060900"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Nilphamari ",
-                            Latitude = "26.02264250",
-                            Longitude = "88.63412710"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Panchagarh ",
-                            Latitude = "26.32032700",
-                            Longitude = "26.32032700"
-                        },
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Rangpur ",
-                            Latitude = "25.62390240",
-                            Longitude = "88.90094980"
-                        },
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Thakurgaon ",
-                            Latitude = "25.93648420",
-                            Longitude = "88.03366640"
-                        }
+                        new() { Id = 1, Name = "Dinajpur ", Latitude = "25.64261030", Longitude = "88.18344620" },
+                        new() { Id = 2, Name = "Gaibandha ", Latitude = "25.34315570", Longitude = "89.13978570" },
+                        new() { Id = 3, Name = "Kurigram ", Latitude = "25.80827220", Longitude = "89.00915030" },
+                        new() { Id = 4, Name = "Lalmonirhat ", Latitude = "26.12442390", Longitude = "88.91060900" },
+                        new() { Id = 5, Name = "Nilphamari ", Latitude = "26.02264250", Longitude = "88.63412710" },
+                        new() { Id = 6, Name = "Panchagarh ", Latitude = "26.32032700", Longitude = "26.32032700" },
+                        new() { Id = 7, Name = "Rangpur ", Latitude = "25.62390240", Longitude = "88.90094980" },
+                        new() { Id = 8, Name = "Thakurgaon ", Latitude = "25.93648420", Longitude = "88.03366640" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 8,
                     Name = "Sylhet ",
@@ -644,40 +217,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "24.70498110",
                     Longitude = "91.67606910",
                     Type = "division",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Habiganj ",
-                            Latitude = "24.33481970",
-                            Longitude = "90.74899010"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Moulvibazar ",
-                            Latitude = "24.48617710",
-                            Longitude = "91.28742410"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Sunamganj ",
-                            Latitude = "24.88905540",
-                            Longitude = "91.00248270"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Sylhet ",
-                            Latitude = "24.89189110",
-                            Longitude = "91.73554950"
-                        }
+                        new() { Id = 1, Name = "Habiganj ", Latitude = "24.33481970", Longitude = "90.74899010" },
+                        new() { Id = 2, Name = "Moulvibazar ", Latitude = "24.48617710", Longitude = "91.28742410" },
+                        new() { Id = 3, Name = "Sunamganj ", Latitude = "24.88905540", Longitude = "91.00248270" },
+                        new() { Id = 4, Name = "Sylhet ", Latitude = "24.89189110", Longitude = "91.73554950" }
                     }
                 }
             }

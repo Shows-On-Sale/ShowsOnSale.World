@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class BouvetIsland
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 30,
             Name = "Bouvet Island",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "3.40000000",
             Emoji = "🇧🇻",
             EmojiU = "U+1F1E7 U+1F1FB",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "Europe/Oslo",
-                    GmtOffset = 3600,
-                    GmtOffsetName = "UTC+01:00",
-                    Abbreviation = "CET",
-                    TzName = "Central European Time"
-                }
+                new() { ZoneName = "Europe/Oslo", GmtOffset = 3600, GmtOffsetName = "UTC+01:00", Abbreviation = "CET", TzName = "Central European Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "부벳 섬" },
                 { "pt-BR" = "Ilha Bouvet" }
@@ -62,7 +55,7 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Острів Буве" }
                 { "pl" = "Wyspa Bouveta" }
             },
-            States = new List<State>
+            States = new()
             {
             }
         };

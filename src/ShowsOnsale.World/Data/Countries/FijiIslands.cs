@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class FijiIslands
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 74,
             Name = "Fiji Islands",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "175.00000000",
             Emoji = "🇫🇯",
             EmojiU = "U+1F1EB U+1F1EF",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "Pacific/Fiji",
-                    GmtOffset = 43200,
-                    GmtOffsetName = "UTC+12:00",
-                    Abbreviation = "FJT",
-                    TzName = "Fiji Time"
-                }
+                new() { ZoneName = "Pacific/Fiji", GmtOffset = 43200, GmtOffsetName = "UTC+12:00", Abbreviation = "FJT", TzName = "Fiji Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "피지" },
                 { "pt-BR" = "Fiji" }
@@ -62,10 +55,10 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Острови Фіджі" }
                 { "pl" = "Wyspy Fidżi" }
             },
-            States = new List<State>
+            States = new()
             {
 
-                new State
+                new()
                 {
                     Id = 1,
                     Name = "Ba",
@@ -73,12 +66,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "36.06138930",
                     Longitude = "-95.80058720",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 2,
                     Name = "Bua",
@@ -86,12 +79,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "43.09645840",
                     Longitude = "-89.50088000",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 3,
                     Name = "Cakaudrove",
@@ -99,12 +92,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-16.58141050",
                     Longitude = "179.51200840",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 4,
                     Name = "Central",
@@ -112,60 +105,18 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "34.04400660",
                     Longitude = "-118.24727380",
                     Type = "division",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Naitasiri Province",
-                            Latitude = "-17.83333000",
-                            Longitude = "178.25000000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Namosi Province",
-                            Latitude = "-18.05000000",
-                            Longitude = "178.13333000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Rewa Province",
-                            Latitude = "-18.08333000",
-                            Longitude = "178.33333000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Serua Province",
-                            Latitude = "-18.16667000",
-                            Longitude = "178.00000000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Suva",
-                            Latitude = "-18.14161000",
-                            Longitude = "178.44149000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Tailevu Province",
-                            Latitude = "-17.83333000",
-                            Longitude = "178.50000000"
-                        }
+                        new() { Id = 1, Name = "Naitasiri Province", Latitude = "-17.83333000", Longitude = "178.25000000" },
+                        new() { Id = 2, Name = "Namosi Province", Latitude = "-18.05000000", Longitude = "178.13333000" },
+                        new() { Id = 3, Name = "Rewa Province", Latitude = "-18.08333000", Longitude = "178.33333000" },
+                        new() { Id = 4, Name = "Serua Province", Latitude = "-18.16667000", Longitude = "178.00000000" },
+                        new() { Id = 5, Name = "Suva", Latitude = "-18.14161000", Longitude = "178.44149000" },
+                        new() { Id = 6, Name = "Tailevu Province", Latitude = "-17.83333000", Longitude = "178.50000000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 5,
                     Name = "Eastern",
@@ -173,44 +124,16 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "32.80943050",
                     Longitude = "-117.12899370",
                     Type = "division",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Kadavu Province",
-                            Latitude = "-18.99331000",
-                            Longitude = "178.22021000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Lau Province",
-                            Latitude = "-18.20488000",
-                            Longitude = "-178.79251000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Levuka",
-                            Latitude = "-18.06667000",
-                            Longitude = "179.31667000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Lomaiviti Province",
-                            Latitude = "-17.66667000",
-                            Longitude = "178.80000000"
-                        }
+                        new() { Id = 1, Name = "Kadavu Province", Latitude = "-18.99331000", Longitude = "178.22021000" },
+                        new() { Id = 2, Name = "Lau Province", Latitude = "-18.20488000", Longitude = "-178.79251000" },
+                        new() { Id = 3, Name = "Levuka", Latitude = "-18.06667000", Longitude = "179.31667000" },
+                        new() { Id = 4, Name = "Lomaiviti Province", Latitude = "-17.66667000", Longitude = "178.80000000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 6,
                     Name = "Kadavu",
@@ -218,12 +141,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-19.01271220",
                     Longitude = "178.18766760",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 7,
                     Name = "Lau",
@@ -231,12 +154,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "31.66870150",
                     Longitude = "-106.39557630",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 8,
                     Name = "Lomaiviti",
@@ -244,12 +167,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-17.70900000",
                     Longitude = "179.09100000",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 9,
                     Name = "Macuata",
@@ -257,12 +180,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-16.48649220",
                     Longitude = "179.28472510",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 10,
                     Name = "Nadroga-Navosa",
@@ -270,12 +193,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-17.98652780",
                     Longitude = "177.65811300",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 11,
                     Name = "Naitasiri",
@@ -283,12 +206,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-17.89757540",
                     Longitude = "178.20715980",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 12,
                     Name = "Namosi",
@@ -296,12 +219,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-18.08641760",
                     Longitude = "178.12913870",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 13,
                     Name = "Northern",
@@ -309,44 +232,16 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "32.87687660",
                     Longitude = "-117.21563450",
                     Type = "division",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Bua Province",
-                            Latitude = "-16.83333000",
-                            Longitude = "178.75000000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Cakaudrove Province",
-                            Latitude = "-16.66667000",
-                            Longitude = "179.41667000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Labasa",
-                            Latitude = "-16.43320000",
-                            Longitude = "179.36451000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Macuata Province",
-                            Latitude = "-16.50000000",
-                            Longitude = "179.25000000"
-                        }
+                        new() { Id = 1, Name = "Bua Province", Latitude = "-16.83333000", Longitude = "178.75000000" },
+                        new() { Id = 2, Name = "Cakaudrove Province", Latitude = "-16.66667000", Longitude = "179.41667000" },
+                        new() { Id = 3, Name = "Labasa", Latitude = "-16.43320000", Longitude = "179.36451000" },
+                        new() { Id = 4, Name = "Macuata Province", Latitude = "-16.50000000", Longitude = "179.25000000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 14,
                     Name = "Ra",
@@ -354,12 +249,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "37.10031530",
                     Longitude = "-95.67442460",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 15,
                     Name = "Rewa",
@@ -367,12 +262,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "34.79235170",
                     Longitude = "-82.36092640",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 16,
                     Name = "Rotuma",
@@ -380,12 +275,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-12.50250690",
                     Longitude = "177.07241640",
                     Type = "dependency",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 17,
                     Name = "Serua",
@@ -393,12 +288,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-18.18047490",
                     Longitude = "178.05097900",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 18,
                     Name = "Tailevu",
@@ -406,12 +301,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-17.82691110",
                     Longitude = "178.29324800",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 19,
                     Name = "Western",
@@ -419,56 +314,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "42.96621980",
                     Longitude = "-78.70211340",
                     Type = "division",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Ba",
-                            Latitude = "-17.53430000",
-                            Longitude = "177.67407000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Ba Province",
-                            Latitude = "-17.66667000",
-                            Longitude = "177.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Lautoka",
-                            Latitude = "-17.61686000",
-                            Longitude = "177.45049000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Nadi",
-                            Latitude = "-17.80309000",
-                            Longitude = "177.41617000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Nandronga and Navosa Province",
-                            Latitude = "-18.00000000",
-                            Longitude = "177.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Ra Province",
-                            Latitude = "-17.50000000",
-                            Longitude = "178.16667000"
-                        }
+                        new() { Id = 1, Name = "Ba", Latitude = "-17.53430000", Longitude = "177.67407000" },
+                        new() { Id = 2, Name = "Ba Province", Latitude = "-17.66667000", Longitude = "177.66667000" },
+                        new() { Id = 3, Name = "Lautoka", Latitude = "-17.61686000", Longitude = "177.45049000" },
+                        new() { Id = 4, Name = "Nadi", Latitude = "-17.80309000", Longitude = "177.41617000" },
+                        new() { Id = 5, Name = "Nandronga and Navosa Province", Latitude = "-18.00000000", Longitude = "177.66667000" },
+                        new() { Id = 6, Name = "Ra Province", Latitude = "-17.50000000", Longitude = "178.16667000" }
                     }
                 }
             }

@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class BonaireSintEustatiusAndSaba
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 27,
             Name = "Bonaire, Sint Eustatius and Saba",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "-68.26666700",
             Emoji = "🇧🇶",
             EmojiU = "U+1F1E7 U+1F1F6",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "America/Anguilla",
-                    GmtOffset = -14400,
-                    GmtOffsetName = "UTC-04:00",
-                    Abbreviation = "AST",
-                    TzName = "Atlantic Standard Time"
-                }
+                new() { ZoneName = "America/Anguilla", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "보네르 섬" },
                 { "pt-BR" = "Bonaire" }
@@ -58,10 +51,10 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Бонайре, Сент-Естатіус і Саба" }
                 { "pl" = "Bonaire, Sint Eustatius i Saba" }
             },
-            States = new List<State>
+            States = new()
             {
 
-                new State
+                new()
                 {
                     Id = 1,
                     Name = "Bonaire",
@@ -69,76 +62,20 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "12.20189020",
                     Longitude = "-68.26238220",
                     Type = "special municipality",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Boven Bolivia",
-                            Latitude = "12.18190000",
-                            Longitude = "-68.21810000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Dorp Tera Kora",
-                            Latitude = "12.13333000",
-                            Longitude = "-68.26667000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Oranjestad",
-                            Latitude = "17.48333333",
-                            Longitude = "-62.98333333"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Rincon",
-                            Latitude = "12.23833333",
-                            Longitude = "-68.33250000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "St. Johns",
-                            Latitude = "17.62100750",
-                            Longitude = "-63.24316830"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "The Bottom",
-                            Latitude = "17.62611111",
-                            Longitude = "-63.24916667"
-                        },
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Windwardside",
-                            Latitude = "17.62864000",
-                            Longitude = "-63.23136000"
-                        },
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Zion's Hill",
-                            Latitude = "17.64300000",
-                            Longitude = "-63.22649000"
-                        }
+                        new() { Id = 1, Name = "Boven Bolivia", Latitude = "12.18190000", Longitude = "-68.21810000" },
+                        new() { Id = 2, Name = "Dorp Tera Kora", Latitude = "12.13333000", Longitude = "-68.26667000" },
+                        new() { Id = 3, Name = "Oranjestad", Latitude = "17.48333333", Longitude = "-62.98333333" },
+                        new() { Id = 4, Name = "Rincon", Latitude = "12.23833333", Longitude = "-68.33250000" },
+                        new() { Id = 5, Name = "St. Johns", Latitude = "17.62100750", Longitude = "-63.24316830" },
+                        new() { Id = 6, Name = "The Bottom", Latitude = "17.62611111", Longitude = "-63.24916667" },
+                        new() { Id = 7, Name = "Windwardside", Latitude = "17.62864000", Longitude = "-63.23136000" },
+                        new() { Id = 8, Name = "Zion's Hill", Latitude = "17.64300000", Longitude = "-63.22649000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 2,
                     Name = "Saba",
@@ -146,12 +83,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "17.63546420",
                     Longitude = "-63.23267630",
                     Type = "special municipality",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 3,
                     Name = "Sint Eustatius",
@@ -159,7 +96,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "17.48903060",
                     Longitude = "-62.97355500",
                     Type = "special municipality",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 }

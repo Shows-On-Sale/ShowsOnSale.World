@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class Canada
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 39,
             Name = "Canada",
@@ -32,234 +32,38 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "-95.00000000",
             Emoji = "🇨🇦",
             EmojiU = "U+1F1E8 U+1F1E6",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "America/Atikokan",
-                    GmtOffset = -18000,
-                    GmtOffsetName = "UTC-05:00",
-                    Abbreviation = "EST",
-                    TzName = "Eastern Standard Time (North America)"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Blanc-Sablon",
-                    GmtOffset = -14400,
-                    GmtOffsetName = "UTC-04:00",
-                    Abbreviation = "AST",
-                    TzName = "Atlantic Standard Time"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Cambridge_Bay",
-                    GmtOffset = -25200,
-                    GmtOffsetName = "UTC-07:00",
-                    Abbreviation = "MST",
-                    TzName = "Mountain Standard Time (North America)"
-                }
-                new Timezone
-                {
-                    ZoneName = "America/Creston",
-                    GmtOffset = -25200,
-                    GmtOffsetName = "UTC-07:00",
-                    Abbreviation = "MST",
-                    TzName = "Mountain Standard Time (North America)"
-                }
-                new Timezone
-                {
-                    ZoneName = "America/Dawson",
-                    GmtOffset = -25200,
-                    GmtOffsetName = "UTC-07:00",
-                    Abbreviation = "MST",
-                    TzName = "Mountain Standard Time (North America)"
-                }
-                new Timezone
-                {
-                    ZoneName = "America/Dawson_Creek",
-                    GmtOffset = -25200,
-                    GmtOffsetName = "UTC-07:00",
-                    Abbreviation = "MST",
-                    TzName = "Mountain Standard Time (North America)"
-                }
-                new Timezone
-                {
-                    ZoneName = "America/Edmonton",
-                    GmtOffset = -25200,
-                    GmtOffsetName = "UTC-07:00",
-                    Abbreviation = "MST",
-                    TzName = "Mountain Standard Time (North America)"
-                }
-                new Timezone
-                {
-                    ZoneName = "America/Fort_Nelson",
-                    GmtOffset = -25200,
-                    GmtOffsetName = "UTC-07:00",
-                    Abbreviation = "MST",
-                    TzName = "Mountain Standard Time (North America)"
-                }
-                new Timezone
-                {
-                    ZoneName = "America/Glace_Bay",
-                    GmtOffset = -14400,
-                    GmtOffsetName = "UTC-04:00",
-                    Abbreviation = "AST",
-                    TzName = "Atlantic Standard Time"
-                }
-                new Timezone
-                {
-                    ZoneName = "America/Goose_Bay",
-                    GmtOffset = -14400,
-                    GmtOffsetName = "UTC-04:00",
-                    Abbreviation = "AST",
-                    TzName = "Atlantic Standard Time"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Halifax",
-                    GmtOffset = -14400,
-                    GmtOffsetName = "UTC-04:00",
-                    Abbreviation = "AST",
-                    TzName = "Atlantic Standard Time"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Inuvik",
-                    GmtOffset = -25200,
-                    GmtOffsetName = "UTC-07:00",
-                    Abbreviation = "MST",
-                    TzName = "Mountain Standard Time (North America"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Iqaluit",
-                    GmtOffset = -18000,
-                    GmtOffsetName = "UTC-05:00",
-                    Abbreviation = "EST",
-                    TzName = "Eastern Standard Time (North America"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Moncton",
-                    GmtOffset = -14400,
-                    GmtOffsetName = "UTC-04:00",
-                    Abbreviation = "AST",
-                    TzName = "Atlantic Standard Time"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Nipigon",
-                    GmtOffset = -18000,
-                    GmtOffsetName = "UTC-05:00",
-                    Abbreviation = "EST",
-                    TzName = "Eastern Standard Time (North America"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Pangnirtung",
-                    GmtOffset = -18000,
-                    GmtOffsetName = "UTC-05:00",
-                    Abbreviation = "EST",
-                    TzName = "Eastern Standard Time (North America"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Rainy_River",
-                    GmtOffset = -21600,
-                    GmtOffsetName = "UTC-06:00",
-                    Abbreviation = "CST",
-                    TzName = "Central Standard Time (North America"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Rankin_Inlet",
-                    GmtOffset = -21600,
-                    GmtOffsetName = "UTC-06:00",
-                    Abbreviation = "CST",
-                    TzName = "Central Standard Time (North America"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Regina",
-                    GmtOffset = -21600,
-                    GmtOffsetName = "UTC-06:00",
-                    Abbreviation = "CST",
-                    TzName = "Central Standard Time (North America"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Resolute",
-                    GmtOffset = -21600,
-                    GmtOffsetName = "UTC-06:00",
-                    Abbreviation = "CST",
-                    TzName = "Central Standard Time (North America"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/St_Johns",
-                    GmtOffset = -12600,
-                    GmtOffsetName = "UTC-03:30",
-                    Abbreviation = "NST",
-                    TzName = "Newfoundland Standard Time"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Swift_Current",
-                    GmtOffset = -21600,
-                    GmtOffsetName = "UTC-06:00",
-                    Abbreviation = "CST",
-                    TzName = "Central Standard Time (North America"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Thunder_Bay",
-                    GmtOffset = -18000,
-                    GmtOffsetName = "UTC-05:00",
-                    Abbreviation = "EST",
-                    TzName = "Eastern Standard Time (North America"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Toronto",
-                    GmtOffset = -18000,
-                    GmtOffsetName = "UTC-05:00",
-                    Abbreviation = "EST",
-                    TzName = "Eastern Standard Time (North America"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Vancouver",
-                    GmtOffset = -28800,
-                    GmtOffsetName = "UTC-08:00",
-                    Abbreviation = "PST",
-                    TzName = "Pacific Standard Time (North America"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Whitehorse",
-                    GmtOffset = -25200,
-                    GmtOffsetName = "UTC-07:00",
-                    Abbreviation = "MST",
-                    TzName = "Mountain Standard Time (North America"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Winnipeg",
-                    GmtOffset = -21600,
-                    GmtOffsetName = "UTC-06:00",
-                    Abbreviation = "CST",
-                    TzName = "Central Standard Time (North America"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Yellowknife",
-                    GmtOffset = -25200,
-                    GmtOffsetName = "UTC-07:00",
-                    Abbreviation = "MST",
-                    TzName = "Mountain Standard Time (North America"
-                }
+                new() { ZoneName = "America/Atikokan", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "EST", TzName = "Eastern Standard Time (North America)" },
+                new() { ZoneName = "America/Blanc-Sablon", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" },
+                new() { ZoneName = "America/Cambridge_Bay", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America)" }
+                new() { ZoneName = "America/Creston", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America)" }
+                new() { ZoneName = "America/Dawson", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America)" }
+                new() { ZoneName = "America/Dawson_Creek", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America)" }
+                new() { ZoneName = "America/Edmonton", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America)" }
+                new() { ZoneName = "America/Fort_Nelson", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America)" }
+                new() { ZoneName = "America/Glace_Bay", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" }
+                new() { ZoneName = "America/Goose_Bay", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" },
+                new() { ZoneName = "America/Halifax", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" },
+                new() { ZoneName = "America/Inuvik", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America" },
+                new() { ZoneName = "America/Iqaluit", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "EST", TzName = "Eastern Standard Time (North America" },
+                new() { ZoneName = "America/Moncton", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" },
+                new() { ZoneName = "America/Nipigon", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "EST", TzName = "Eastern Standard Time (North America" },
+                new() { ZoneName = "America/Pangnirtung", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "EST", TzName = "Eastern Standard Time (North America" },
+                new() { ZoneName = "America/Rainy_River", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" },
+                new() { ZoneName = "America/Rankin_Inlet", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" },
+                new() { ZoneName = "America/Regina", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" },
+                new() { ZoneName = "America/Resolute", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" },
+                new() { ZoneName = "America/St_Johns", GmtOffset = -12600, GmtOffsetName = "UTC-03:30", Abbreviation = "NST", TzName = "Newfoundland Standard Time" },
+                new() { ZoneName = "America/Swift_Current", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" },
+                new() { ZoneName = "America/Thunder_Bay", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "EST", TzName = "Eastern Standard Time (North America" },
+                new() { ZoneName = "America/Toronto", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "EST", TzName = "Eastern Standard Time (North America" },
+                new() { ZoneName = "America/Vancouver", GmtOffset = -28800, GmtOffsetName = "UTC-08:00", Abbreviation = "PST", TzName = "Pacific Standard Time (North America" },
+                new() { ZoneName = "America/Whitehorse", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America" },
+                new() { ZoneName = "America/Winnipeg", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" },
+                new() { ZoneName = "America/Yellowknife", GmtOffset = -25200, GmtOffsetName = "UTC-07:00", Abbreviation = "MST", TzName = "Mountain Standard Time (North America" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "캐나다" },
                 { "pt-BR" = "Canadá" }
@@ -278,10 +82,10 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Канада" }
                 { "pl" = "Kanada" }
             },
-            States = new List<State>
+            States = new()
             {
 
-                new State
+                new()
                 {
                     Id = 1,
                     Name = "Alberta",
@@ -289,932 +93,127 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.93327060",
                     Longitude = "-116.57650350",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Airdrie",
-                            Latitude = "51.30011000",
-                            Longitude = "-114.03528000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Athabasca",
-                            Latitude = "54.71687000",
-                            Longitude = "-113.28537000"
-                        }
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Banff",
-                            Latitude = "51.17622000",
-                            Longitude = "-115.56982000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Barrhead",
-                            Latitude = "54.13345000",
-                            Longitude = "-114.40211000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Bassano",
-                            Latitude = "50.78342000",
-                            Longitude = "-112.46854000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Beaumont",
-                            Latitude = "53.35013000",
-                            Longitude = "-113.41871000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Beaverlodge",
-                            Latitude = "55.21664000",
-                            Longitude = "-119.43605000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Black Diamond",
-                            Latitude = "50.70011000",
-                            Longitude = "-114.23530000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Blackfalds",
-                            Latitude = "52.38342000",
-                            Longitude = "-113.78530000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Bon Accord",
-                            Latitude = "53.83345000",
-                            Longitude = "-113.41872000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Bonnyville",
-                            Latitude = "54.26684000",
-                            Longitude = "-110.73505000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Bow Island",
-                            Latitude = "49.86676000",
-                            Longitude = "-111.36843000"
-                        }
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Brooks",
-                            Latitude = "50.58341000",
-                            Longitude = "-111.88509000"
-                        }
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Calgary",
-                            Latitude = "51.05011000",
-                            Longitude = "-114.08529000"
-                        }
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Calmar",
-                            Latitude = "53.26683000",
-                            Longitude = "-113.81874000"
-                        }
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Camrose",
-                            Latitude = "53.01684000",
-                            Longitude = "-112.83525000"
-                        }
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Canmore",
-                            Latitude = "51.08335000",
-                            Longitude = "-115.35206000"
-                        }
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Cardston",
-                            Latitude = "49.19998000",
-                            Longitude = "-113.30190000"
-                        }
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Carstairs",
-                            Latitude = "51.56681000",
-                            Longitude = "-114.10200000"
-                        }
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Chestermere",
-                            Latitude = "51.03341000",
-                            Longitude = "-113.81867000"
-                        }
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Claresholm",
-                            Latitude = "50.03332000",
-                            Longitude = "-113.58524000"
-                        }
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Coaldale",
-                            Latitude = "49.71670000",
-                            Longitude = "-112.61854000"
-                        }
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Coalhurst",
-                            Latitude = "49.74640000",
-                            Longitude = "-112.93246000"
-                        }
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Cochrane",
-                            Latitude = "51.18341000",
-                            Longitude = "-114.46871000"
-                        }
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Cold Lake",
-                            Latitude = "54.46525000",
-                            Longitude = "-110.18154000"
-                        }
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Crossfield",
-                            Latitude = "51.43341000",
-                            Longitude = "-114.03528000"
-                        }
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Devon",
-                            Latitude = "53.36683000",
-                            Longitude = "-113.73533000"
-                        }
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Didsbury",
-                            Latitude = "51.66681000",
-                            Longitude = "-114.13529000"
-                        }
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Drayton Valley",
-                            Latitude = "53.21682000",
-                            Longitude = "-114.98544000"
-                        }
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Edmonton",
-                            Latitude = "53.55014000",
-                            Longitude = "-113.46871000"
-                        }
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Edson",
-                            Latitude = "53.58345000",
-                            Longitude = "-116.43559000"
-                        }
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Elk Point",
-                            Latitude = "53.90017000",
-                            Longitude = "-110.90170000"
-                        }
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Fairview",
-                            Latitude = "56.06675000",
-                            Longitude = "-118.38606000"
-                        }
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Falher",
-                            Latitude = "55.73339000",
-                            Longitude = "-117.20262000"
-                        }
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Fort Macleod",
-                            Latitude = "49.71671000",
-                            Longitude = "-113.41857000"
-                        }
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Fort McMurray",
-                            Latitude = "56.72676000",
-                            Longitude = "-111.38103000"
-                        }
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Fort Saskatchewan",
-                            Latitude = "53.71684000",
-                            Longitude = "-113.21870000"
-                        }
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Fox Creek",
-                            Latitude = "54.40007000",
-                            Longitude = "-116.80238000"
-                        }
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Gibbons",
-                            Latitude = "53.83345000",
-                            Longitude = "-113.33531000"
-                        }
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Grand Centre",
-                            Latitude = "54.41628000",
-                            Longitude = "-110.21304000"
-                        }
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Grande Cache",
-                            Latitude = "53.88335000",
-                            Longitude = "-119.13585000"
-                        }
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Grande Prairie",
-                            Latitude = "55.16667000",
-                            Longitude = "-118.80271000"
-                        }
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Grimshaw",
-                            Latitude = "56.18339000",
-                            Longitude = "-117.60270000"
-                        }
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "Hanna",
-                            Latitude = "51.63343000",
-                            Longitude = "-111.90181000"
-                        }
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "Heritage Pointe",
-                            Latitude = "50.84213000",
-                            Longitude = "-114.00493000"
-                        }
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "High Level",
-                            Latitude = "58.51688000",
-                            Longitude = "-117.13605000"
-                        }
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "High Prairie",
-                            Latitude = "55.43340000",
-                            Longitude = "-116.48580000"
-                        }
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "High River",
-                            Latitude = "50.58341000",
-                            Longitude = "-113.86867000"
-                        }
-
-                        new City
-                        {
-                            Id = 49,
-                            Name = "Hinton",
-                            Latitude = "53.40009000",
-                            Longitude = "-117.58567000"
-                        }
-
-                        new City
-                        {
-                            Id = 50,
-                            Name = "Irricana",
-                            Latitude = "51.32372000",
-                            Longitude = "-113.60475000"
-                        }
-
-                        new City
-                        {
-                            Id = 51,
-                            Name = "Jasper Park Lodge",
-                            Latitude = "52.88633000",
-                            Longitude = "-118.05625000"
-                        }
-
-                        new City
-                        {
-                            Id = 52,
-                            Name = "Killam",
-                            Latitude = "52.78344000",
-                            Longitude = "-111.85175000"
-                        }
-
-                        new City
-                        {
-                            Id = 53,
-                            Name = "Lac La Biche",
-                            Latitude = "54.76690000",
-                            Longitude = "-111.96861000"
-                        }
-
-                        new City
-                        {
-                            Id = 54,
-                            Name = "Lacombe",
-                            Latitude = "52.46681000",
-                            Longitude = "-113.73530000"
-                        }
-
-                        new City
-                        {
-                            Id = 55,
-                            Name = "Lamont",
-                            Latitude = "53.76686000",
-                            Longitude = "-112.80195000"
-                        }
-
-                        new City
-                        {
-                            Id = 56,
-                            Name = "Larkspur",
-                            Latitude = "53.47942000",
-                            Longitude = "-113.38142000"
-                        }
-
-                        new City
-                        {
-                            Id = 57,
-                            Name = "Laurel",
-                            Latitude = "53.44667000",
-                            Longitude = "-113.38197000"
-                        }
-
-                        new City
-                        {
-                            Id = 58,
-                            Name = "Leduc",
-                            Latitude = "53.26682000",
-                            Longitude = "-113.55201000"
-                        }
-
-                        new City
-                        {
-                            Id = 59,
-                            Name = "Lethbridge",
-                            Latitude = "49.69999000",
-                            Longitude = "-112.81856000"
-                        }
-
-                        new City
-                        {
-                            Id = 60,
-                            Name = "Lloydminster",
-                            Latitude = "53.27237000",
-                            Longitude = "-110.02256000"
-                        }
-
-                        new City
-                        {
-                            Id = 61,
-                            Name = "Magrath",
-                            Latitude = "49.41668000",
-                            Longitude = "-112.86856000"
-                        }
-
-                        new City
-                        {
-                            Id = 62,
-                            Name = "Manning",
-                            Latitude = "56.91683000",
-                            Longitude = "-117.61945000"
-                        }
-
-                        new City
-                        {
-                            Id = 63,
-                            Name = "Mannville",
-                            Latitude = "53.33764000",
-                            Longitude = "-111.17750000"
-                        }
-
-                        new City
-                        {
-                            Id = 64,
-                            Name = "Maple Ridge",
-                            Latitude = "53.50172000",
-                            Longitude = "-113.36274000"
-                        }
-
-                        new City
-                        {
-                            Id = 65,
-                            Name = "Mayerthorpe",
-                            Latitude = "53.95015000",
-                            Longitude = "-115.13547000"
-                        }
-
-                        new City
-                        {
-                            Id = 66,
-                            Name = "Medicine Hat",
-                            Latitude = "50.03928000",
-                            Longitude = "-110.67661000"
-                        }
-
-                        new City
-                        {
-                            Id = 67,
-                            Name = "Mill Woods Town Centre",
-                            Latitude = "53.45639000",
-                            Longitude = "-113.42751000"
-                        }
-
-                        new City
-                        {
-                            Id = 68,
-                            Name = "Millet",
-                            Latitude = "53.10013000",
-                            Longitude = "-113.46870000"
-                        }
-
-                        new City
-                        {
-                            Id = 69,
-                            Name = "Morinville",
-                            Latitude = "53.80014000",
-                            Longitude = "-113.65203000"
-                        }
-
-                        new City
-                        {
-                            Id = 70,
-                            Name = "Nanton",
-                            Latitude = "50.35008000",
-                            Longitude = "-113.76866000"
-                        }
-
-                        new City
-                        {
-                            Id = 71,
-                            Name = "Okotoks",
-                            Latitude = "50.72885000",
-                            Longitude = "-113.98281000"
-                        }
-
-                        new City
-                        {
-                            Id = 72,
-                            Name = "Olds",
-                            Latitude = "51.78341000",
-                            Longitude = "-114.10199000"
-                        }
-
-                        new City
-                        {
-                            Id = 73,
-                            Name = "Peace River",
-                            Latitude = "56.23715000",
-                            Longitude = "-117.29176000"
-                        }
-
-                        new City
-                        {
-                            Id = 74,
-                            Name = "Penhold",
-                            Latitude = "52.13342000",
-                            Longitude = "-113.86870000"
-                        }
-
-                        new City
-                        {
-                            Id = 75,
-                            Name = "Picture Butte",
-                            Latitude = "49.88330000",
-                            Longitude = "-112.78516000"
-                        }
-
-                        new City
-                        {
-                            Id = 76,
-                            Name = "Pincher Creek",
-                            Latitude = "49.48328000",
-                            Longitude = "-113.95195000"
-                        }
-
-                        new City
-                        {
-                            Id = 77,
-                            Name = "Ponoka",
-                            Latitude = "52.67680000",
-                            Longitude = "-113.58147000"
-                        }
-
-                        new City
-                        {
-                            Id = 78,
-                            Name = "Provost",
-                            Latitude = "52.35014000",
-                            Longitude = "-110.26828000"
-                        }
-
-                        new City
-                        {
-                            Id = 79,
-                            Name = "Raymond",
-                            Latitude = "49.44998000",
-                            Longitude = "-112.65185000"
-                        }
-
-                        new City
-                        {
-                            Id = 80,
-                            Name = "Red Deer",
-                            Latitude = "52.26682000",
-                            Longitude = "-113.80200000"
-                        }
-
-                        new City
-                        {
-                            Id = 81,
-                            Name = "Rideau Park",
-                            Latitude = "53.47899000",
-                            Longitude = "-113.50470000"
-                        }
-
-                        new City
-                        {
-                            Id = 82,
-                            Name = "Rimbey",
-                            Latitude = "52.63340000",
-                            Longitude = "-114.23532000"
-                        }
-
-                        new City
-                        {
-                            Id = 83,
-                            Name = "Rocky Mountain House",
-                            Latitude = "52.36683000",
-                            Longitude = "-114.91880000"
-                        }
-
-                        new City
-                        {
-                            Id = 84,
-                            Name = "Sexsmith",
-                            Latitude = "55.34998000",
-                            Longitude = "-118.78602000"
-                        }
-
-                        new City
-                        {
-                            Id = 85,
-                            Name = "Sherwood Park",
-                            Latitude = "53.51684000",
-                            Longitude = "-113.31870000"
-                        }
-
-                        new City
-                        {
-                            Id = 86,
-                            Name = "Silver Berry",
-                            Latitude = "53.45787000",
-                            Longitude = "-113.38170000"
-                        }
-
-                        new City
-                        {
-                            Id = 87,
-                            Name = "Slave Lake",
-                            Latitude = "55.28344000",
-                            Longitude = "-114.76896000"
-                        }
-
-                        new City
-                        {
-                            Id = 88,
-                            Name = "Smoky Lake",
-                            Latitude = "54.11687000",
-                            Longitude = "-112.46863000"
-                        }
-
-                        new City
-                        {
-                            Id = 89,
-                            Name = "Spirit River",
-                            Latitude = "55.78327000",
-                            Longitude = "-118.83607000"
-                        }
-
-                        new City
-                        {
-                            Id = 90,
-                            Name = "Springbrook",
-                            Latitude = "52.17920000",
-                            Longitude = "-113.87981000"
-                        }
-
-                        new City
-                        {
-                            Id = 91,
-                            Name = "Spruce Grove",
-                            Latitude = "53.53344000",
-                            Longitude = "-113.91874000"
-                        }
-
-                        new City
-                        {
-                            Id = 92,
-                            Name = "St. Albert",
-                            Latitude = "53.63344000",
-                            Longitude = "-113.63533000"
-                        }
-
-                        new City
-                        {
-                            Id = 93,
-                            Name = "Stettler",
-                            Latitude = "52.31683000",
-                            Longitude = "-112.71861000"
-                        }
-
-                        new City
-                        {
-                            Id = 94,
-                            Name = "Stony Plain",
-                            Latitude = "53.53343000",
-                            Longitude = "-114.00205000"
-                        }
-
-                        new City
-                        {
-                            Id = 95,
-                            Name = "Strathmore",
-                            Latitude = "51.05011000",
-                            Longitude = "-113.38523000"
-                        }
-
-                        new City
-                        {
-                            Id = 96,
-                            Name = "Sundre",
-                            Latitude = "51.80010000",
-                            Longitude = "-114.63532000"
-                        }
-
-                        new City
-                        {
-                            Id = 97,
-                            Name = "Swan Hills",
-                            Latitude = "54.71681000",
-                            Longitude = "-115.40226000"
-                        }
-
-                        new City
-                        {
-                            Id = 98,
-                            Name = "Sylvan Lake",
-                            Latitude = "52.31100000",
-                            Longitude = "-114.08375000"
-                        }
-
-                        new City
-                        {
-                            Id = 99,
-                            Name = "Taber",
-                            Latitude = "49.78703000",
-                            Longitude = "-112.14603000"
-                        }
-
-                        new City
-                        {
-                            Id = 100,
-                            Name = "Tamarack",
-                            Latitude = "53.46441000",
-                            Longitude = "-113.36235000"
-                        },
-
-                        new City
-                        {
-                            Id = 101,
-                            Name = "Three Hills",
-                            Latitude = "51.70012000",
-                            Longitude = "-113.26863000"
-                        },
-
-                        new City
-                        {
-                            Id = 102,
-                            Name = "Tofield",
-                            Latitude = "53.36684000",
-                            Longitude = "-112.66862000"
-                        },
-
-                        new City
-                        {
-                            Id = 103,
-                            Name = "Two Hills",
-                            Latitude = "53.71686000",
-                            Longitude = "-111.75181000"
-                        },
-
-                        new City
-                        {
-                            Id = 104,
-                            Name = "Valleyview",
-                            Latitude = "55.06673000",
-                            Longitude = "-117.28585000"
-                        },
-
-                        new City
-                        {
-                            Id = 105,
-                            Name = "Vegreville",
-                            Latitude = "53.50015000",
-                            Longitude = "-112.05182000"
-                        },
-
-                        new City
-                        {
-                            Id = 106,
-                            Name = "Vermilion",
-                            Latitude = "53.35409000",
-                            Longitude = "-110.85849000"
-                        },
-
-                        new City
-                        {
-                            Id = 107,
-                            Name = "Viking",
-                            Latitude = "53.10014000",
-                            Longitude = "-111.76844000"
-                        },
-
-                        new City
-                        {
-                            Id = 108,
-                            Name = "Vulcan",
-                            Latitude = "50.40008000",
-                            Longitude = "-113.25189000"
-                        },
-
-                        new City
-                        {
-                            Id = 109,
-                            Name = "Wainwright",
-                            Latitude = "52.83482000",
-                            Longitude = "-110.85342000"
-                        },
-
-                        new City
-                        {
-                            Id = 110,
-                            Name = "Wembley",
-                            Latitude = "55.14995000",
-                            Longitude = "-119.13602000"
-                        },
-
-                        new City
-                        {
-                            Id = 111,
-                            Name = "Westlake",
-                            Latitude = "55.22228000",
-                            Longitude = "-118.80415000"
-                        },
-
-                        new City
-                        {
-                            Id = 112,
-                            Name = "Westlock",
-                            Latitude = "54.15016000",
-                            Longitude = "-113.86876000"
-                        },
-
-                        new City
-                        {
-                            Id = 113,
-                            Name = "Wetaskiwin",
-                            Latitude = "52.96683000",
-                            Longitude = "-113.36869000"
-                        },
-
-                        new City
-                        {
-                            Id = 114,
-                            Name = "Whitecourt",
-                            Latitude = "54.15015000",
-                            Longitude = "-115.68548000"
-                        },
-
-                        new City
-                        {
-                            Id = 115,
-                            Name = "Wild Rose",
-                            Latitude = "53.47080000",
-                            Longitude = "-113.38119000"
-                        }
+                        new() { Id = 1, Name = "Airdrie", Latitude = "51.30011000", Longitude = "-114.03528000" },
+                        new() { Id = 2, Name = "Athabasca", Latitude = "54.71687000", Longitude = "-113.28537000" },
+                        new() { Id = 3, Name = "Banff", Latitude = "51.17622000", Longitude = "-115.56982000" },
+                        new() { Id = 4, Name = "Barrhead", Latitude = "54.13345000", Longitude = "-114.40211000" },
+                        new() { Id = 5, Name = "Bassano", Latitude = "50.78342000", Longitude = "-112.46854000" },
+                        new() { Id = 6, Name = "Beaumont", Latitude = "53.35013000", Longitude = "-113.41871000" },
+                        new() { Id = 7, Name = "Beaverlodge", Latitude = "55.21664000", Longitude = "-119.43605000" },
+                        new() { Id = 8, Name = "Black Diamond", Latitude = "50.70011000", Longitude = "-114.23530000" },
+                        new() { Id = 9, Name = "Blackfalds", Latitude = "52.38342000", Longitude = "-113.78530000" },
+                        new() { Id = 10, Name = "Bon Accord", Latitude = "53.83345000", Longitude = "-113.41872000" },
+                        new() { Id = 11, Name = "Bonnyville", Latitude = "54.26684000", Longitude = "-110.73505000" },
+                        new() { Id = 12, Name = "Bow Island", Latitude = "49.86676000", Longitude = "-111.36843000" },
+                        new() { Id = 13, Name = "Brooks", Latitude = "50.58341000", Longitude = "-111.88509000" },
+                        new() { Id = 14, Name = "Calgary", Latitude = "51.05011000", Longitude = "-114.08529000" },
+                        new() { Id = 15, Name = "Calmar", Latitude = "53.26683000", Longitude = "-113.81874000" },
+                        new() { Id = 16, Name = "Camrose", Latitude = "53.01684000", Longitude = "-112.83525000" },
+                        new() { Id = 17, Name = "Canmore", Latitude = "51.08335000", Longitude = "-115.35206000" },
+                        new() { Id = 18, Name = "Cardston", Latitude = "49.19998000", Longitude = "-113.30190000" },
+                        new() { Id = 19, Name = "Carstairs", Latitude = "51.56681000", Longitude = "-114.10200000" },
+                        new() { Id = 20, Name = "Chestermere", Latitude = "51.03341000", Longitude = "-113.81867000" },
+                        new() { Id = 21, Name = "Claresholm", Latitude = "50.03332000", Longitude = "-113.58524000" },
+                        new() { Id = 22, Name = "Coaldale", Latitude = "49.71670000", Longitude = "-112.61854000" },
+                        new() { Id = 23, Name = "Coalhurst", Latitude = "49.74640000", Longitude = "-112.93246000" },
+                        new() { Id = 24, Name = "Cochrane", Latitude = "51.18341000", Longitude = "-114.46871000" },
+                        new() { Id = 25, Name = "Cold Lake", Latitude = "54.46525000", Longitude = "-110.18154000" },
+                        new() { Id = 26, Name = "Crossfield", Latitude = "51.43341000", Longitude = "-114.03528000" },
+                        new() { Id = 27, Name = "Devon", Latitude = "53.36683000", Longitude = "-113.73533000" },
+                        new() { Id = 28, Name = "Didsbury", Latitude = "51.66681000", Longitude = "-114.13529000" },
+                        new() { Id = 29, Name = "Drayton Valley", Latitude = "53.21682000", Longitude = "-114.98544000" },
+                        new() { Id = 30, Name = "Edmonton", Latitude = "53.55014000", Longitude = "-113.46871000" },
+                        new() { Id = 31, Name = "Edson", Latitude = "53.58345000", Longitude = "-116.43559000" },
+                        new() { Id = 32, Name = "Elk Point", Latitude = "53.90017000", Longitude = "-110.90170000" },
+                        new() { Id = 33, Name = "Fairview", Latitude = "56.06675000", Longitude = "-118.38606000" },
+                        new() { Id = 34, Name = "Falher", Latitude = "55.73339000", Longitude = "-117.20262000" },
+                        new() { Id = 35, Name = "Fort Macleod", Latitude = "49.71671000", Longitude = "-113.41857000" },
+                        new() { Id = 36, Name = "Fort McMurray", Latitude = "56.72676000", Longitude = "-111.38103000" },
+                        new() { Id = 37, Name = "Fort Saskatchewan", Latitude = "53.71684000", Longitude = "-113.21870000" },
+                        new() { Id = 38, Name = "Fox Creek", Latitude = "54.40007000", Longitude = "-116.80238000" },
+                        new() { Id = 39, Name = "Gibbons", Latitude = "53.83345000", Longitude = "-113.33531000" },
+                        new() { Id = 40, Name = "Grand Centre", Latitude = "54.41628000", Longitude = "-110.21304000" },
+                        new() { Id = 41, Name = "Grande Cache", Latitude = "53.88335000", Longitude = "-119.13585000" },
+                        new() { Id = 42, Name = "Grande Prairie", Latitude = "55.16667000", Longitude = "-118.80271000" },
+                        new() { Id = 43, Name = "Grimshaw", Latitude = "56.18339000", Longitude = "-117.60270000" },
+                        new() { Id = 44, Name = "Hanna", Latitude = "51.63343000", Longitude = "-111.90181000" },
+                        new() { Id = 45, Name = "Heritage Pointe", Latitude = "50.84213000", Longitude = "-114.00493000" },
+                        new() { Id = 46, Name = "High Level", Latitude = "58.51688000", Longitude = "-117.13605000" },
+                        new() { Id = 47, Name = "High Prairie", Latitude = "55.43340000", Longitude = "-116.48580000" },
+                        new() { Id = 48, Name = "High River", Latitude = "50.58341000", Longitude = "-113.86867000" },
+                        new() { Id = 49, Name = "Hinton", Latitude = "53.40009000", Longitude = "-117.58567000" },
+                        new() { Id = 50, Name = "Irricana", Latitude = "51.32372000", Longitude = "-113.60475000" },
+                        new() { Id = 51, Name = "Jasper Park Lodge", Latitude = "52.88633000", Longitude = "-118.05625000" },
+                        new() { Id = 52, Name = "Killam", Latitude = "52.78344000", Longitude = "-111.85175000" },
+                        new() { Id = 53, Name = "Lac La Biche", Latitude = "54.76690000", Longitude = "-111.96861000" },
+                        new() { Id = 54, Name = "Lacombe", Latitude = "52.46681000", Longitude = "-113.73530000" },
+                        new() { Id = 55, Name = "Lamont", Latitude = "53.76686000", Longitude = "-112.80195000" },
+                        new() { Id = 56, Name = "Larkspur", Latitude = "53.47942000", Longitude = "-113.38142000" },
+                        new() { Id = 57, Name = "Laurel", Latitude = "53.44667000", Longitude = "-113.38197000" },
+                        new() { Id = 58, Name = "Leduc", Latitude = "53.26682000", Longitude = "-113.55201000" },
+                        new() { Id = 59, Name = "Lethbridge", Latitude = "49.69999000", Longitude = "-112.81856000" },
+                        new() { Id = 60, Name = "Lloydminster", Latitude = "53.27237000", Longitude = "-110.02256000" },
+                        new() { Id = 61, Name = "Magrath", Latitude = "49.41668000", Longitude = "-112.86856000" },
+                        new() { Id = 62, Name = "Manning", Latitude = "56.91683000", Longitude = "-117.61945000" },
+                        new() { Id = 63, Name = "Mannville", Latitude = "53.33764000", Longitude = "-111.17750000" },
+                        new() { Id = 64, Name = "Maple Ridge", Latitude = "53.50172000", Longitude = "-113.36274000" },
+                        new() { Id = 65, Name = "Mayerthorpe", Latitude = "53.95015000", Longitude = "-115.13547000" },
+                        new() { Id = 66, Name = "Medicine Hat", Latitude = "50.03928000", Longitude = "-110.67661000" },
+                        new() { Id = 67, Name = "Mill Woods Town Centre", Latitude = "53.45639000", Longitude = "-113.42751000" },
+                        new() { Id = 68, Name = "Millet", Latitude = "53.10013000", Longitude = "-113.46870000" },
+                        new() { Id = 69, Name = "Morinville", Latitude = "53.80014000", Longitude = "-113.65203000" },
+                        new() { Id = 70, Name = "Nanton", Latitude = "50.35008000", Longitude = "-113.76866000" },
+                        new() { Id = 71, Name = "Okotoks", Latitude = "50.72885000", Longitude = "-113.98281000" },
+                        new() { Id = 72, Name = "Olds", Latitude = "51.78341000", Longitude = "-114.10199000" },
+                        new() { Id = 73, Name = "Peace River", Latitude = "56.23715000", Longitude = "-117.29176000" },
+                        new() { Id = 74, Name = "Penhold", Latitude = "52.13342000", Longitude = "-113.86870000" },
+                        new() { Id = 75, Name = "Picture Butte", Latitude = "49.88330000", Longitude = "-112.78516000" },
+                        new() { Id = 76, Name = "Pincher Creek", Latitude = "49.48328000", Longitude = "-113.95195000" },
+                        new() { Id = 77, Name = "Ponoka", Latitude = "52.67680000", Longitude = "-113.58147000" },
+                        new() { Id = 78, Name = "Provost", Latitude = "52.35014000", Longitude = "-110.26828000" },
+                        new() { Id = 79, Name = "Raymond", Latitude = "49.44998000", Longitude = "-112.65185000" },
+                        new() { Id = 80, Name = "Red Deer", Latitude = "52.26682000", Longitude = "-113.80200000" },
+                        new() { Id = 81, Name = "Rideau Park", Latitude = "53.47899000", Longitude = "-113.50470000" },
+                        new() { Id = 82, Name = "Rimbey", Latitude = "52.63340000", Longitude = "-114.23532000" },
+                        new() { Id = 83, Name = "Rocky Mountain House", Latitude = "52.36683000", Longitude = "-114.91880000" },
+                        new() { Id = 84, Name = "Sexsmith", Latitude = "55.34998000", Longitude = "-118.78602000" },
+                        new() { Id = 85, Name = "Sherwood Park", Latitude = "53.51684000", Longitude = "-113.31870000" },
+                        new() { Id = 86, Name = "Silver Berry", Latitude = "53.45787000", Longitude = "-113.38170000" },
+                        new() { Id = 87, Name = "Slave Lake", Latitude = "55.28344000", Longitude = "-114.76896000" },
+                        new() { Id = 88, Name = "Smoky Lake", Latitude = "54.11687000", Longitude = "-112.46863000" },
+                        new() { Id = 89, Name = "Spirit River", Latitude = "55.78327000", Longitude = "-118.83607000" },
+                        new() { Id = 90, Name = "Springbrook", Latitude = "52.17920000", Longitude = "-113.87981000" },
+                        new() { Id = 91, Name = "Spruce Grove", Latitude = "53.53344000", Longitude = "-113.91874000" },
+                        new() { Id = 92, Name = "St. Albert", Latitude = "53.63344000", Longitude = "-113.63533000" },
+                        new() { Id = 93, Name = "Stettler", Latitude = "52.31683000", Longitude = "-112.71861000" },
+                        new() { Id = 94, Name = "Stony Plain", Latitude = "53.53343000", Longitude = "-114.00205000" },
+                        new() { Id = 95, Name = "Strathmore", Latitude = "51.05011000", Longitude = "-113.38523000" },
+                        new() { Id = 96, Name = "Sundre", Latitude = "51.80010000", Longitude = "-114.63532000" },
+                        new() { Id = 97, Name = "Swan Hills", Latitude = "54.71681000", Longitude = "-115.40226000" },
+                        new() { Id = 98, Name = "Sylvan Lake", Latitude = "52.31100000", Longitude = "-114.08375000" },
+                        new() { Id = 99, Name = "Taber", Latitude = "49.78703000", Longitude = "-112.14603000" },
+                        new() { Id = 100, Name = "Tamarack", Latitude = "53.46441000", Longitude = "-113.36235000" },
+                        new() { Id = 101, Name = "Three Hills", Latitude = "51.70012000", Longitude = "-113.26863000" },
+                        new() { Id = 102, Name = "Tofield", Latitude = "53.36684000", Longitude = "-112.66862000" },
+                        new() { Id = 103, Name = "Two Hills", Latitude = "53.71686000", Longitude = "-111.75181000" },
+                        new() { Id = 104, Name = "Valleyview", Latitude = "55.06673000", Longitude = "-117.28585000" },
+                        new() { Id = 105, Name = "Vegreville", Latitude = "53.50015000", Longitude = "-112.05182000" },
+                        new() { Id = 106, Name = "Vermilion", Latitude = "53.35409000", Longitude = "-110.85849000" },
+                        new() { Id = 107, Name = "Viking", Latitude = "53.10014000", Longitude = "-111.76844000" },
+                        new() { Id = 108, Name = "Vulcan", Latitude = "50.40008000", Longitude = "-113.25189000" },
+                        new() { Id = 109, Name = "Wainwright", Latitude = "52.83482000", Longitude = "-110.85342000" },
+                        new() { Id = 110, Name = "Wembley", Latitude = "55.14995000", Longitude = "-119.13602000" },
+                        new() { Id = 111, Name = "Westlake", Latitude = "55.22228000", Longitude = "-118.80415000" },
+                        new() { Id = 112, Name = "Westlock", Latitude = "54.15016000", Longitude = "-113.86876000" },
+                        new() { Id = 113, Name = "Wetaskiwin", Latitude = "52.96683000", Longitude = "-113.36869000" },
+                        new() { Id = 114, Name = "Whitecourt", Latitude = "54.15015000", Longitude = "-115.68548000" },
+                        new() { Id = 115, Name = "Wild Rose", Latitude = "53.47080000", Longitude = "-113.38119000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 2,
                     Name = "British Columbia",
@@ -1222,1124 +221,151 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.72666830",
                     Longitude = "-127.64762050",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Abbotsford",
-                            Latitude = "49.05798000",
-                            Longitude = "-122.25257000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Agassiz",
-                            Latitude = "49.23298000",
-                            Longitude = "-121.76926000"
-                        }
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Aldergrove",
-                            Latitude = "49.05801000",
-                            Longitude = "-122.47087000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Aldergrove East",
-                            Latitude = "49.05593000",
-                            Longitude = "-122.42299000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Anmore",
-                            Latitude = "49.31637000",
-                            Longitude = "-122.85263000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Arbutus Ridge",
-                            Latitude = "49.24966000",
-                            Longitude = "-123.16934000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Armstrong",
-                            Latitude = "50.44979000",
-                            Longitude = "-119.20235000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Ashcroft",
-                            Latitude = "50.72372000",
-                            Longitude = "-121.28207000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Barrière",
-                            Latitude = "51.18308000",
-                            Longitude = "-120.11920000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Bowen Island",
-                            Latitude = "49.38470000",
-                            Longitude = "-123.33622000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Burnaby",
-                            Latitude = "49.26636000",
-                            Longitude = "-122.95263000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Burns Lake",
-                            Latitude = "54.22972000",
-                            Longitude = "-125.76084000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Cache Creek",
-                            Latitude = "50.81011000",
-                            Longitude = "-121.32460000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Campbell River",
-                            Latitude = "50.01634000",
-                            Longitude = "-125.24459000"
-                        }
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Castlegar",
-                            Latitude = "49.32317000",
-                            Longitude = "-117.65831000"
-                        }
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Cedar",
-                            Latitude = "49.11633000",
-                            Longitude = "-123.85270000"
-                        }
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Central Coast Regional District",
-                            Latitude = "52.16638000",
-                            Longitude = "-127.00323000"
-                        }
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Chase",
-                            Latitude = "50.81650000",
-                            Longitude = "-119.68571000"
-                        }
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Chemainus",
-                            Latitude = "48.91633000",
-                            Longitude = "-123.71937000"
-                        }
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Chetwynd",
-                            Latitude = "55.69988000",
-                            Longitude = "-121.63627000"
-                        }
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Chilliwack",
-                            Latitude = "49.16638000",
-                            Longitude = "-121.95257000"
-                        }
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Colwood",
-                            Latitude = "48.43293000",
-                            Longitude = "-123.48591000"
-                        }
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Coombs",
-                            Latitude = "49.29963000",
-                            Longitude = "-124.41946000"
-                        }
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Coquitlam",
-                            Latitude = "49.28460000",
-                            Longitude = "-122.78217000"
-                        }
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Courtenay",
-                            Latitude = "49.68657000",
-                            Longitude = "-124.99360000"
-                        }
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Cowichan Bay",
-                            Latitude = "48.73366000",
-                            Longitude = "-123.61739000"
-                        }
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Cranbrook",
-                            Latitude = "49.49991000",
-                            Longitude = "-115.76879000"
-                        }
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Creston",
-                            Latitude = "49.09987000",
-                            Longitude = "-116.50211000"
-                        }
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Cumberland",
-                            Latitude = "49.61634000",
-                            Longitude = "-125.03613000"
-                        }
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Dawson Creek",
-                            Latitude = "55.75984000",
-                            Longitude = "-120.24030000"
-                        }
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Delta",
-                            Latitude = "49.14399000",
-                            Longitude = "-122.90680000"
-                        }
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Denman Island",
-                            Latitude = "49.53294000",
-                            Longitude = "-124.81950000"
-                        }
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Denman Island Trust Area",
-                            Latitude = "49.55189000",
-                            Longitude = "-124.79881000"
-                        }
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Duck Lake",
-                            Latitude = "50.00880000",
-                            Longitude = "-119.39672000"
-                        }
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Duncan",
-                            Latitude = "48.78293000",
-                            Longitude = "-123.70266000"
-                        }
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "East Wellington",
-                            Latitude = "49.17385000",
-                            Longitude = "-124.01745000"
-                        }
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Elkford",
-                            Latitude = "50.05007000",
-                            Longitude = "-114.88540000"
-                        }
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Ellison",
-                            Latitude = "49.93307000",
-                            Longitude = "-119.36907000"
-                        }
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Enderby",
-                            Latitude = "50.54980000",
-                            Longitude = "-119.15234000"
-                        }
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Fairwinds",
-                            Latitude = "49.27588000",
-                            Longitude = "-124.12782000"
-                        }
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Fernie",
-                            Latitude = "49.49996000",
-                            Longitude = "-115.06871000"
-                        }
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Fort Nelson",
-                            Latitude = "58.80533000",
-                            Longitude = "-122.70020000"
-                        }
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Fort St. John",
-                            Latitude = "56.24988000",
-                            Longitude = "-120.85292000"
-                        }
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "Fraser Valley Regional District",
-                            Latitude = "49.58299000",
-                            Longitude = "-121.83587000"
-                        }
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "French Creek",
-                            Latitude = "49.34123000",
-                            Longitude = "-124.35541000"
-                        }
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "Fruitvale",
-                            Latitude = "49.11654000",
-                            Longitude = "-117.55222000"
-                        }
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "Gibsons",
-                            Latitude = "49.39539000",
-                            Longitude = "-123.50555000"
-                        }
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "Golden",
-                            Latitude = "51.29995000",
-                            Longitude = "-116.96890000"
-                        }
-
-                        new City
-                        {
-                            Id = 49,
-                            Name = "Grand Forks",
-                            Latitude = "49.03309000",
-                            Longitude = "-118.43560000"
-                        }
-
-                        new City
-                        {
-                            Id = 50,
-                            Name = "Hanceville",
-                            Latitude = "51.91922000",
-                            Longitude = "-123.04458000"
-                        }
-
-                        new City
-                        {
-                            Id = 51,
-                            Name = "Hope",
-                            Latitude = "49.38299000",
-                            Longitude = "-121.44144000"
-                        }
-
-                        new City
-                        {
-                            Id = 52,
-                            Name = "Hornby Island",
-                            Latitude = "49.53448000",
-                            Longitude = "-124.66923000"
-                        }
-
-                        new City
-                        {
-                            Id = 53,
-                            Name = "Houston",
-                            Latitude = "54.39976000",
-                            Longitude = "-126.67008000"
-                        }
-
-                        new City
-                        {
-                            Id = 54,
-                            Name = "Invermere",
-                            Latitude = "50.51666000",
-                            Longitude = "-116.03538000"
-                        }
-
-                        new City
-                        {
-                            Id = 55,
-                            Name = "Kamloops",
-                            Latitude = "50.66648000",
-                            Longitude = "-120.31920000"
-                        }
-
-                        new City
-                        {
-                            Id = 56,
-                            Name = "Kelowna",
-                            Latitude = "49.88307000",
-                            Longitude = "-119.48568000"
-                        }
-
-                        new City
-                        {
-                            Id = 57,
-                            Name = "Kimberley",
-                            Latitude = "49.67071000",
-                            Longitude = "-115.97760000"
-                        }
-
-                        new City
-                        {
-                            Id = 58,
-                            Name = "Kitimat",
-                            Latitude = "54.05244000",
-                            Longitude = "-128.65342000"
-                        }
-
-                        new City
-                        {
-                            Id = 59,
-                            Name = "Ladner",
-                            Latitude = "49.08938000",
-                            Longitude = "-123.08241000"
-                        }
-
-                        new City
-                        {
-                            Id = 60,
-                            Name = "Ladysmith",
-                            Latitude = "48.99016000",
-                            Longitude = "-123.81699000"
-                        }
-
-                        new City
-                        {
-                            Id = 61,
-                            Name = "Lake Cowichan",
-                            Latitude = "48.82495000",
-                            Longitude = "-124.05461000"
-                        }
-
-                        new City
-                        {
-                            Id = 62,
-                            Name = "Langford",
-                            Latitude = "48.44963000",
-                            Longitude = "-123.50261000"
-                        }
-
-                        new City
-                        {
-                            Id = 63,
-                            Name = "Langley",
-                            Latitude = "49.10107000",
-                            Longitude = "-122.65883000"
-                        }
-
-                        new City
-                        {
-                            Id = 64,
-                            Name = "Lillooet",
-                            Latitude = "50.68560000",
-                            Longitude = "-121.94200000"
-                        }
-
-                        new City
-                        {
-                            Id = 65,
-                            Name = "Lions Bay",
-                            Latitude = "49.45218000",
-                            Longitude = "-123.23760000"
-                        }
-
-                        new City
-                        {
-                            Id = 66,
-                            Name = "Logan Lake",
-                            Latitude = "50.49976000",
-                            Longitude = "-120.80253000"
-                        }
-
-                        new City
-                        {
-                            Id = 67,
-                            Name = "Lumby",
-                            Latitude = "50.24979000",
-                            Longitude = "-118.96904000"
-                        }
-
-                        new City
-                        {
-                            Id = 68,
-                            Name = "Mackenzie",
-                            Latitude = "55.33637000",
-                            Longitude = "-123.09374000"
-                        }
-
-                        new City
-                        {
-                            Id = 69,
-                            Name = "Maple Ridge",
-                            Latitude = "49.21939000",
-                            Longitude = "-122.60193000"
-                        }
-
-                        new City
-                        {
-                            Id = 70,
-                            Name = "Merritt",
-                            Latitude = "50.11225000",
-                            Longitude = "-120.79420000"
-                        }
-
-                        new City
-                        {
-                            Id = 71,
-                            Name = "Metchosin",
-                            Latitude = "48.38293000",
-                            Longitude = "-123.53591000"
-                        }
-
-                        new City
-                        {
-                            Id = 72,
-                            Name = "Metro Vancouver Regional District",
-                            Latitude = "49.33296000",
-                            Longitude = "-123.00264000"
-                        }
-
-                        new City
-                        {
-                            Id = 73,
-                            Name = "Mission",
-                            Latitude = "49.13298000",
-                            Longitude = "-122.30258000"
-                        }
-
-                        new City
-                        {
-                            Id = 74,
-                            Name = "Nakusp",
-                            Latitude = "50.24987000",
-                            Longitude = "-117.80226000"
-                        }
-
-                        new City
-                        {
-                            Id = 75,
-                            Name = "Nanaimo",
-                            Latitude = "49.16638000",
-                            Longitude = "-123.94003000"
-                        }
-
-                        new City
-                        {
-                            Id = 76,
-                            Name = "Nelson",
-                            Latitude = "49.49985000",
-                            Longitude = "-117.28553000"
-                        }
-
-                        new City
-                        {
-                            Id = 77,
-                            Name = "New Westminster",
-                            Latitude = "49.20678000",
-                            Longitude = "-122.91092000"
-                        }
-
-                        new City
-                        {
-                            Id = 78,
-                            Name = "North Cowichan",
-                            Latitude = "48.84133000",
-                            Longitude = "-123.68596000"
-                        }
-
-                        new City
-                        {
-                            Id = 79,
-                            Name = "North Oyster/Yellow Point",
-                            Latitude = "49.04807000",
-                            Longitude = "-123.83395000"
-                        }
-
-                        new City
-                        {
-                            Id = 80,
-                            Name = "North Saanich",
-                            Latitude = "48.66634000",
-                            Longitude = "-123.41933000"
-                        }
-
-                        new City
-                        {
-                            Id = 81,
-                            Name = "North Vancouver",
-                            Latitude = "49.31636000",
-                            Longitude = "-123.06934000"
-                        }
-
-                        new City
-                        {
-                            Id = 82,
-                            Name = "Oak Bay",
-                            Latitude = "48.44964000",
-                            Longitude = "-123.30260000"
-                        }
-
-                        new City
-                        {
-                            Id = 83,
-                            Name = "Okanagan",
-                            Latitude = "50.36386000",
-                            Longitude = "-119.34997000"
-                        }
-
-                        new City
-                        {
-                            Id = 84,
-                            Name = "Okanagan Falls",
-                            Latitude = "49.35000000",
-                            Longitude = "-119.56667000"
-                        }
-
-                        new City
-                        {
-                            Id = 85,
-                            Name = "Oliver",
-                            Latitude = "49.18306000",
-                            Longitude = "-119.55240000"
-                        }
-
-                        new City
-                        {
-                            Id = 86,
-                            Name = "Osoyoos",
-                            Latitude = "49.03306000",
-                            Longitude = "-119.45237000"
-                        }
-
-                        new City
-                        {
-                            Id = 87,
-                            Name = "Parksville",
-                            Latitude = "49.31947000",
-                            Longitude = "-124.31575000"
-                        }
-
-                        new City
-                        {
-                            Id = 88,
-                            Name = "Peace River Regional District",
-                            Latitude = "56.66650000",
-                            Longitude = "-122.75302000"
-                        }
-
-                        new City
-                        {
-                            Id = 89,
-                            Name = "Peachland",
-                            Latitude = "49.76647000",
-                            Longitude = "-119.73568000"
-                        }
-
-                        new City
-                        {
-                            Id = 90,
-                            Name = "Pemberton",
-                            Latitude = "50.31641000",
-                            Longitude = "-122.80273000"
-                        }
-
-                        new City
-                        {
-                            Id = 91,
-                            Name = "Penticton",
-                            Latitude = "49.48062000",
-                            Longitude = "-119.58584000"
-                        }
-
-                        new City
-                        {
-                            Id = 92,
-                            Name = "Pitt Meadows",
-                            Latitude = "49.22119000",
-                            Longitude = "-122.68965000"
-                        }
-
-                        new City
-                        {
-                            Id = 93,
-                            Name = "Port Alberni",
-                            Latitude = "49.24133000",
-                            Longitude = "-124.80280000"
-                        }
-
-                        new City
-                        {
-                            Id = 94,
-                            Name = "Port Coquitlam",
-                            Latitude = "49.26637000",
-                            Longitude = "-122.76932000"
-                        }
-
-                        new City
-                        {
-                            Id = 95,
-                            Name = "Port McNeill",
-                            Latitude = "50.58716000",
-                            Longitude = "-127.08053000"
-                        }
-
-                        new City
-                        {
-                            Id = 96,
-                            Name = "Port Moody",
-                            Latitude = "49.28124000",
-                            Longitude = "-122.82457000"
-                        }
-
-                        new City
-                        {
-                            Id = 97,
-                            Name = "Powell River",
-                            Latitude = "49.83278000",
-                            Longitude = "-124.52368000"
-                        }
-
-                        new City
-                        {
-                            Id = 98,
-                            Name = "Prince George",
-                            Latitude = "53.91660000",
-                            Longitude = "-122.75301000"
-                        }
-
-                        new City
-                        {
-                            Id = 99,
-                            Name = "Prince Rupert",
-                            Latitude = "54.31507000",
-                            Longitude = "-130.32098000"
-                        }
-
-                        new City
-                        {
-                            Id = 100,
-                            Name = "Princeton",
-                            Latitude = "49.45802000",
-                            Longitude = "-120.51076000"
-                        },
-
-                        new City
-                        {
-                            Id = 101,
-                            Name = "Puntledge",
-                            Latitude = "49.66168000",
-                            Longitude = "-125.05686000"
-                        },
-
-                        new City
-                        {
-                            Id = 102,
-                            Name = "Quesnel",
-                            Latitude = "52.97842000",
-                            Longitude = "-122.49310000"
-                        },
-
-                        new City
-                        {
-                            Id = 103,
-                            Name = "Regional District of Alberni-Clayoquot",
-                            Latitude = "49.24962000",
-                            Longitude = "-125.33615000"
-                        },
-
-                        new City
-                        {
-                            Id = 104,
-                            Name = "Regional District of Central Okanagan",
-                            Latitude = "49.99978000",
-                            Longitude = "-119.41908000"
-                        },
-
-                        new City
-                        {
-                            Id = 105,
-                            Name = "Revelstoke",
-                            Latitude = "50.99712000",
-                            Longitude = "-118.19530000"
-                        },
-
-                        new City
-                        {
-                            Id = 106,
-                            Name = "Richmond",
-                            Latitude = "49.17003000",
-                            Longitude = "-123.13683000"
-                        },
-
-                        new City
-                        {
-                            Id = 107,
-                            Name = "Rossland",
-                            Latitude = "49.08313000",
-                            Longitude = "-117.80224000"
-                        },
-
-                        new City
-                        {
-                            Id = 108,
-                            Name = "Royston",
-                            Latitude = "49.64703000",
-                            Longitude = "-124.94670000"
-                        },
-
-                        new City
-                        {
-                            Id = 109,
-                            Name = "Salmo",
-                            Latitude = "49.19986000",
-                            Longitude = "-117.26890000"
-                        },
-
-                        new City
-                        {
-                            Id = 110,
-                            Name = "Salmon Arm",
-                            Latitude = "50.69980000",
-                            Longitude = "-119.30237000"
-                        },
-
-                        new City
-                        {
-                            Id = 111,
-                            Name = "Salt Spring Island",
-                            Latitude = "48.81852000",
-                            Longitude = "-123.49061000"
-                        },
-
-                        new City
-                        {
-                            Id = 112,
-                            Name = "Saltair",
-                            Latitude = "48.94963000",
-                            Longitude = "-123.76939000"
-                        },
-
-                        new City
-                        {
-                            Id = 113,
-                            Name = "Sechelt",
-                            Latitude = "49.47512000",
-                            Longitude = "-123.75903000"
-                        },
-
-                        new City
-                        {
-                            Id = 114,
-                            Name = "Sicamous",
-                            Latitude = "50.83312000",
-                            Longitude = "-118.98565000"
-                        },
-
-                        new City
-                        {
-                            Id = 115,
-                            Name = "Six Mile",
-                            Latitude = "48.45767000",
-                            Longitude = "-123.46088000"
-                        },
-
-                        new City
-                        {
-                            Id = 116,
-                            Name = "Smithers",
-                            Latitude = "54.78036000",
-                            Longitude = "-127.17428000"
-                        },
-
-                        new City
-                        {
-                            Id = 117,
-                            Name = "Sooke",
-                            Latitude = "48.37463000",
-                            Longitude = "-123.72762000"
-                        },
-
-                        new City
-                        {
-                            Id = 118,
-                            Name = "South Pender Harbour",
-                            Latitude = "49.62202000",
-                            Longitude = "-124.02484000"
-                        },
-
-                        new City
-                        {
-                            Id = 119,
-                            Name = "Sparwood",
-                            Latitude = "49.73332000",
-                            Longitude = "-114.88532000"
-                        },
-
-                        new City
-                        {
-                            Id = 120,
-                            Name = "Summerland",
-                            Latitude = "49.59977000",
-                            Longitude = "-119.66911000"
-                        },
-
-                        new City
-                        {
-                            Id = 121,
-                            Name = "Surrey",
-                            Latitude = "49.10635000",
-                            Longitude = "-122.82509000"
-                        },
-
-                        new City
-                        {
-                            Id = 122,
-                            Name = "Terrace",
-                            Latitude = "54.51634000",
-                            Longitude = "-128.60345000"
-                        },
-
-                        new City
-                        {
-                            Id = 123,
-                            Name = "Tofino",
-                            Latitude = "49.15314000",
-                            Longitude = "-125.90744000"
-                        },
-
-                        new City
-                        {
-                            Id = 124,
-                            Name = "Trail",
-                            Latitude = "49.09983000",
-                            Longitude = "-117.70223000"
-                        },
-
-                        new City
-                        {
-                            Id = 125,
-                            Name = "Tsawwassen",
-                            Latitude = "49.01667000",
-                            Longitude = "-123.08333000"
-                        },
-
-                        new City
-                        {
-                            Id = 126,
-                            Name = "Tumbler Ridge",
-                            Latitude = "55.13027000",
-                            Longitude = "-120.99415000"
-                        },
-
-                        new City
-                        {
-                            Id = 127,
-                            Name = "Ucluelet",
-                            Latitude = "48.94153000",
-                            Longitude = "-125.54635000"
-                        },
-
-                        new City
-                        {
-                            Id = 128,
-                            Name = "Vancouver",
-                            Latitude = "49.24966000",
-                            Longitude = "-123.11934000"
-                        },
-
-                        new City
-                        {
-                            Id = 129,
-                            Name = "Vanderhoof",
-                            Latitude = "54.01657000",
-                            Longitude = "-124.01982000"
-                        },
-
-                        new City
-                        {
-                            Id = 130,
-                            Name = "Vernon",
-                            Latitude = "50.26729000",
-                            Longitude = "-119.27337000"
-                        },
-
-                        new City
-                        {
-                            Id = 131,
-                            Name = "Victoria",
-                            Latitude = "48.43590000",
-                            Longitude = "-123.35155000"
-                        },
-
-                        new City
-                        {
-                            Id = 132,
-                            Name = "Walnut Grove",
-                            Latitude = "49.16473000",
-                            Longitude = "-122.64042000"
-                        },
-
-                        new City
-                        {
-                            Id = 133,
-                            Name = "Welcome Beach",
-                            Latitude = "49.47959000",
-                            Longitude = "-123.89239000"
-                        },
-
-                        new City
-                        {
-                            Id = 134,
-                            Name = "West End",
-                            Latitude = "49.28333000",
-                            Longitude = "-123.13333000"
-                        },
-
-                        new City
-                        {
-                            Id = 135,
-                            Name = "West Kelowna",
-                            Latitude = "49.86250000",
-                            Longitude = "-119.58333000"
-                        },
-
-                        new City
-                        {
-                            Id = 136,
-                            Name = "West Vancouver",
-                            Latitude = "49.36672000",
-                            Longitude = "-123.16652000"
-                        },
-
-                        new City
-                        {
-                            Id = 137,
-                            Name = "Whistler",
-                            Latitude = "50.11817000",
-                            Longitude = "-122.95396000"
-                        },
-
-                        new City
-                        {
-                            Id = 138,
-                            Name = "White Rock",
-                            Latitude = "49.01636000",
-                            Longitude = "-122.80260000"
-                        },
-
-                        new City
-                        {
-                            Id = 139,
-                            Name = "Williams Lake",
-                            Latitude = "52.14153000",
-                            Longitude = "-122.14451000"
-                        }
+                        new() { Id = 1, Name = "Abbotsford", Latitude = "49.05798000", Longitude = "-122.25257000" },
+                        new() { Id = 2, Name = "Agassiz", Latitude = "49.23298000", Longitude = "-121.76926000" },
+                        new() { Id = 3, Name = "Aldergrove", Latitude = "49.05801000", Longitude = "-122.47087000" },
+                        new() { Id = 4, Name = "Aldergrove East", Latitude = "49.05593000", Longitude = "-122.42299000" },
+                        new() { Id = 5, Name = "Anmore", Latitude = "49.31637000", Longitude = "-122.85263000" },
+                        new() { Id = 6, Name = "Arbutus Ridge", Latitude = "49.24966000", Longitude = "-123.16934000" },
+                        new() { Id = 7, Name = "Armstrong", Latitude = "50.44979000", Longitude = "-119.20235000" },
+                        new() { Id = 8, Name = "Ashcroft", Latitude = "50.72372000", Longitude = "-121.28207000" },
+                        new() { Id = 9, Name = "Barrière", Latitude = "51.18308000", Longitude = "-120.11920000" },
+                        new() { Id = 10, Name = "Bowen Island", Latitude = "49.38470000", Longitude = "-123.33622000" },
+                        new() { Id = 11, Name = "Burnaby", Latitude = "49.26636000", Longitude = "-122.95263000" },
+                        new() { Id = 12, Name = "Burns Lake", Latitude = "54.22972000", Longitude = "-125.76084000" },
+                        new() { Id = 13, Name = "Cache Creek", Latitude = "50.81011000", Longitude = "-121.32460000" },
+                        new() { Id = 14, Name = "Campbell River", Latitude = "50.01634000", Longitude = "-125.24459000" },
+                        new() { Id = 15, Name = "Castlegar", Latitude = "49.32317000", Longitude = "-117.65831000" },
+                        new() { Id = 16, Name = "Cedar", Latitude = "49.11633000", Longitude = "-123.85270000" },
+                        new() { Id = 17, Name = "Central Coast Regional District", Latitude = "52.16638000", Longitude = "-127.00323000" },
+                        new() { Id = 18, Name = "Chase", Latitude = "50.81650000", Longitude = "-119.68571000" },
+                        new() { Id = 19, Name = "Chemainus", Latitude = "48.91633000", Longitude = "-123.71937000" },
+                        new() { Id = 20, Name = "Chetwynd", Latitude = "55.69988000", Longitude = "-121.63627000" },
+                        new() { Id = 21, Name = "Chilliwack", Latitude = "49.16638000", Longitude = "-121.95257000" },
+                        new() { Id = 22, Name = "Colwood", Latitude = "48.43293000", Longitude = "-123.48591000" },
+                        new() { Id = 23, Name = "Coombs", Latitude = "49.29963000", Longitude = "-124.41946000" },
+                        new() { Id = 24, Name = "Coquitlam", Latitude = "49.28460000", Longitude = "-122.78217000" },
+                        new() { Id = 25, Name = "Courtenay", Latitude = "49.68657000", Longitude = "-124.99360000" },
+                        new() { Id = 26, Name = "Cowichan Bay", Latitude = "48.73366000", Longitude = "-123.61739000" },
+                        new() { Id = 27, Name = "Cranbrook", Latitude = "49.49991000", Longitude = "-115.76879000" },
+                        new() { Id = 28, Name = "Creston", Latitude = "49.09987000", Longitude = "-116.50211000" },
+                        new() { Id = 29, Name = "Cumberland", Latitude = "49.61634000", Longitude = "-125.03613000" },
+                        new() { Id = 30, Name = "Dawson Creek", Latitude = "55.75984000", Longitude = "-120.24030000" },
+                        new() { Id = 31, Name = "Delta", Latitude = "49.14399000", Longitude = "-122.90680000" },
+                        new() { Id = 32, Name = "Denman Island", Latitude = "49.53294000", Longitude = "-124.81950000" },
+                        new() { Id = 33, Name = "Denman Island Trust Area", Latitude = "49.55189000", Longitude = "-124.79881000" },
+                        new() { Id = 34, Name = "Duck Lake", Latitude = "50.00880000", Longitude = "-119.39672000" },
+                        new() { Id = 35, Name = "Duncan", Latitude = "48.78293000", Longitude = "-123.70266000" },
+                        new() { Id = 36, Name = "East Wellington", Latitude = "49.17385000", Longitude = "-124.01745000" },
+                        new() { Id = 37, Name = "Elkford", Latitude = "50.05007000", Longitude = "-114.88540000" },
+                        new() { Id = 38, Name = "Ellison", Latitude = "49.93307000", Longitude = "-119.36907000" },
+                        new() { Id = 39, Name = "Enderby", Latitude = "50.54980000", Longitude = "-119.15234000" },
+                        new() { Id = 40, Name = "Fairwinds", Latitude = "49.27588000", Longitude = "-124.12782000" },
+                        new() { Id = 41, Name = "Fernie", Latitude = "49.49996000", Longitude = "-115.06871000" },
+                        new() { Id = 42, Name = "Fort Nelson", Latitude = "58.80533000", Longitude = "-122.70020000" },
+                        new() { Id = 43, Name = "Fort St. John", Latitude = "56.24988000", Longitude = "-120.85292000" },
+                        new() { Id = 44, Name = "Fraser Valley Regional District", Latitude = "49.58299000", Longitude = "-121.83587000" },
+                        new() { Id = 45, Name = "French Creek", Latitude = "49.34123000", Longitude = "-124.35541000" },
+                        new() { Id = 46, Name = "Fruitvale", Latitude = "49.11654000", Longitude = "-117.55222000" },
+                        new() { Id = 47, Name = "Gibsons", Latitude = "49.39539000", Longitude = "-123.50555000" },
+                        new() { Id = 48, Name = "Golden", Latitude = "51.29995000", Longitude = "-116.96890000" },
+                        new() { Id = 49, Name = "Grand Forks", Latitude = "49.03309000", Longitude = "-118.43560000" },
+                        new() { Id = 50, Name = "Hanceville", Latitude = "51.91922000", Longitude = "-123.04458000" },
+                        new() { Id = 51, Name = "Hope", Latitude = "49.38299000", Longitude = "-121.44144000" },
+                        new() { Id = 52, Name = "Hornby Island", Latitude = "49.53448000", Longitude = "-124.66923000" },
+                        new() { Id = 53, Name = "Houston", Latitude = "54.39976000", Longitude = "-126.67008000" },
+                        new() { Id = 54, Name = "Invermere", Latitude = "50.51666000", Longitude = "-116.03538000" },
+                        new() { Id = 55, Name = "Kamloops", Latitude = "50.66648000", Longitude = "-120.31920000" },
+                        new() { Id = 56, Name = "Kelowna", Latitude = "49.88307000", Longitude = "-119.48568000" },
+                        new() { Id = 57, Name = "Kimberley", Latitude = "49.67071000", Longitude = "-115.97760000" },
+                        new() { Id = 58, Name = "Kitimat", Latitude = "54.05244000", Longitude = "-128.65342000" },
+                        new() { Id = 59, Name = "Ladner", Latitude = "49.08938000", Longitude = "-123.08241000" },
+                        new() { Id = 60, Name = "Ladysmith", Latitude = "48.99016000", Longitude = "-123.81699000" },
+                        new() { Id = 61, Name = "Lake Cowichan", Latitude = "48.82495000", Longitude = "-124.05461000" },
+                        new() { Id = 62, Name = "Langford", Latitude = "48.44963000", Longitude = "-123.50261000" },
+                        new() { Id = 63, Name = "Langley", Latitude = "49.10107000", Longitude = "-122.65883000" },
+                        new() { Id = 64, Name = "Lillooet", Latitude = "50.68560000", Longitude = "-121.94200000" },
+                        new() { Id = 65, Name = "Lions Bay", Latitude = "49.45218000", Longitude = "-123.23760000" },
+                        new() { Id = 66, Name = "Logan Lake", Latitude = "50.49976000", Longitude = "-120.80253000" },
+                        new() { Id = 67, Name = "Lumby", Latitude = "50.24979000", Longitude = "-118.96904000" },
+                        new() { Id = 68, Name = "Mackenzie", Latitude = "55.33637000", Longitude = "-123.09374000" },
+                        new() { Id = 69, Name = "Maple Ridge", Latitude = "49.21939000", Longitude = "-122.60193000" },
+                        new() { Id = 70, Name = "Merritt", Latitude = "50.11225000", Longitude = "-120.79420000" },
+                        new() { Id = 71, Name = "Metchosin", Latitude = "48.38293000", Longitude = "-123.53591000" },
+                        new() { Id = 72, Name = "Metro Vancouver Regional District", Latitude = "49.33296000", Longitude = "-123.00264000" },
+                        new() { Id = 73, Name = "Mission", Latitude = "49.13298000", Longitude = "-122.30258000" },
+                        new() { Id = 74, Name = "Nakusp", Latitude = "50.24987000", Longitude = "-117.80226000" },
+                        new() { Id = 75, Name = "Nanaimo", Latitude = "49.16638000", Longitude = "-123.94003000" },
+                        new() { Id = 76, Name = "Nelson", Latitude = "49.49985000", Longitude = "-117.28553000" },
+                        new() { Id = 77, Name = "New Westminster", Latitude = "49.20678000", Longitude = "-122.91092000" },
+                        new() { Id = 78, Name = "North Cowichan", Latitude = "48.84133000", Longitude = "-123.68596000" },
+                        new() { Id = 79, Name = "North Oyster/Yellow Point", Latitude = "49.04807000", Longitude = "-123.83395000" },
+                        new() { Id = 80, Name = "North Saanich", Latitude = "48.66634000", Longitude = "-123.41933000" },
+                        new() { Id = 81, Name = "North Vancouver", Latitude = "49.31636000", Longitude = "-123.06934000" },
+                        new() { Id = 82, Name = "Oak Bay", Latitude = "48.44964000", Longitude = "-123.30260000" },
+                        new() { Id = 83, Name = "Okanagan", Latitude = "50.36386000", Longitude = "-119.34997000" },
+                        new() { Id = 84, Name = "Okanagan Falls", Latitude = "49.35000000", Longitude = "-119.56667000" },
+                        new() { Id = 85, Name = "Oliver", Latitude = "49.18306000", Longitude = "-119.55240000" },
+                        new() { Id = 86, Name = "Osoyoos", Latitude = "49.03306000", Longitude = "-119.45237000" },
+                        new() { Id = 87, Name = "Parksville", Latitude = "49.31947000", Longitude = "-124.31575000" },
+                        new() { Id = 88, Name = "Peace River Regional District", Latitude = "56.66650000", Longitude = "-122.75302000" },
+                        new() { Id = 89, Name = "Peachland", Latitude = "49.76647000", Longitude = "-119.73568000" },
+                        new() { Id = 90, Name = "Pemberton", Latitude = "50.31641000", Longitude = "-122.80273000" },
+                        new() { Id = 91, Name = "Penticton", Latitude = "49.48062000", Longitude = "-119.58584000" },
+                        new() { Id = 92, Name = "Pitt Meadows", Latitude = "49.22119000", Longitude = "-122.68965000" },
+                        new() { Id = 93, Name = "Port Alberni", Latitude = "49.24133000", Longitude = "-124.80280000" },
+                        new() { Id = 94, Name = "Port Coquitlam", Latitude = "49.26637000", Longitude = "-122.76932000" },
+                        new() { Id = 95, Name = "Port McNeill", Latitude = "50.58716000", Longitude = "-127.08053000" },
+                        new() { Id = 96, Name = "Port Moody", Latitude = "49.28124000", Longitude = "-122.82457000" },
+                        new() { Id = 97, Name = "Powell River", Latitude = "49.83278000", Longitude = "-124.52368000" },
+                        new() { Id = 98, Name = "Prince George", Latitude = "53.91660000", Longitude = "-122.75301000" },
+                        new() { Id = 99, Name = "Prince Rupert", Latitude = "54.31507000", Longitude = "-130.32098000" },
+                        new() { Id = 100, Name = "Princeton", Latitude = "49.45802000", Longitude = "-120.51076000" },
+                        new() { Id = 101, Name = "Puntledge", Latitude = "49.66168000", Longitude = "-125.05686000" },
+                        new() { Id = 102, Name = "Quesnel", Latitude = "52.97842000", Longitude = "-122.49310000" },
+                        new() { Id = 103, Name = "Regional District of Alberni-Clayoquot", Latitude = "49.24962000", Longitude = "-125.33615000" },
+                        new() { Id = 104, Name = "Regional District of Central Okanagan", Latitude = "49.99978000", Longitude = "-119.41908000" },
+                        new() { Id = 105, Name = "Revelstoke", Latitude = "50.99712000", Longitude = "-118.19530000" },
+                        new() { Id = 106, Name = "Richmond", Latitude = "49.17003000", Longitude = "-123.13683000" },
+                        new() { Id = 107, Name = "Rossland", Latitude = "49.08313000", Longitude = "-117.80224000" },
+                        new() { Id = 108, Name = "Royston", Latitude = "49.64703000", Longitude = "-124.94670000" },
+                        new() { Id = 109, Name = "Salmo", Latitude = "49.19986000", Longitude = "-117.26890000" },
+                        new() { Id = 110, Name = "Salmon Arm", Latitude = "50.69980000", Longitude = "-119.30237000" },
+                        new() { Id = 111, Name = "Salt Spring Island", Latitude = "48.81852000", Longitude = "-123.49061000" },
+                        new() { Id = 112, Name = "Saltair", Latitude = "48.94963000", Longitude = "-123.76939000" },
+                        new() { Id = 113, Name = "Sechelt", Latitude = "49.47512000", Longitude = "-123.75903000" },
+                        new() { Id = 114, Name = "Sicamous", Latitude = "50.83312000", Longitude = "-118.98565000" },
+                        new() { Id = 115, Name = "Six Mile", Latitude = "48.45767000", Longitude = "-123.46088000" },
+                        new() { Id = 116, Name = "Smithers", Latitude = "54.78036000", Longitude = "-127.17428000" },
+                        new() { Id = 117, Name = "Sooke", Latitude = "48.37463000", Longitude = "-123.72762000" },
+                        new() { Id = 118, Name = "South Pender Harbour", Latitude = "49.62202000", Longitude = "-124.02484000" },
+                        new() { Id = 119, Name = "Sparwood", Latitude = "49.73332000", Longitude = "-114.88532000" },
+                        new() { Id = 120, Name = "Summerland", Latitude = "49.59977000", Longitude = "-119.66911000" },
+                        new() { Id = 121, Name = "Surrey", Latitude = "49.10635000", Longitude = "-122.82509000" },
+                        new() { Id = 122, Name = "Terrace", Latitude = "54.51634000", Longitude = "-128.60345000" },
+                        new() { Id = 123, Name = "Tofino", Latitude = "49.15314000", Longitude = "-125.90744000" },
+                        new() { Id = 124, Name = "Trail", Latitude = "49.09983000", Longitude = "-117.70223000" },
+                        new() { Id = 125, Name = "Tsawwassen", Latitude = "49.01667000", Longitude = "-123.08333000" },
+                        new() { Id = 126, Name = "Tumbler Ridge", Latitude = "55.13027000", Longitude = "-120.99415000" },
+                        new() { Id = 127, Name = "Ucluelet", Latitude = "48.94153000", Longitude = "-125.54635000" },
+                        new() { Id = 128, Name = "Vancouver", Latitude = "49.24966000", Longitude = "-123.11934000" },
+                        new() { Id = 129, Name = "Vanderhoof", Latitude = "54.01657000", Longitude = "-124.01982000" },
+                        new() { Id = 130, Name = "Vernon", Latitude = "50.26729000", Longitude = "-119.27337000" },
+                        new() { Id = 131, Name = "Victoria", Latitude = "48.43590000", Longitude = "-123.35155000" },
+                        new() { Id = 132, Name = "Walnut Grove", Latitude = "49.16473000", Longitude = "-122.64042000" },
+                        new() { Id = 133, Name = "Welcome Beach", Latitude = "49.47959000", Longitude = "-123.89239000" },
+                        new() { Id = 134, Name = "West End", Latitude = "49.28333000", Longitude = "-123.13333000" },
+                        new() { Id = 135, Name = "West Kelowna", Latitude = "49.86250000", Longitude = "-119.58333000" },
+                        new() { Id = 136, Name = "West Vancouver", Latitude = "49.36672000", Longitude = "-123.16652000" },
+                        new() { Id = 137, Name = "Whistler", Latitude = "50.11817000", Longitude = "-122.95396000" },
+                        new() { Id = 138, Name = "White Rock", Latitude = "49.01636000", Longitude = "-122.80260000" },
+                        new() { Id = 139, Name = "Williams Lake", Latitude = "52.14153000", Longitude = "-122.14451000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 3,
                     Name = "Manitoba",
@@ -2347,356 +373,55 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.76086080",
                     Longitude = "-98.81387620",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Altona",
-                            Latitude = "49.10469000",
-                            Longitude = "-97.55961000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Beausejour",
-                            Latitude = "50.06220000",
-                            Longitude = "-96.51669000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Boissevain",
-                            Latitude = "49.23062000",
-                            Longitude = "-100.05586000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Brandon",
-                            Latitude = "49.84692000",
-                            Longitude = "-99.95306000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Carberry",
-                            Latitude = "49.86893000",
-                            Longitude = "-99.36021000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Carman",
-                            Latitude = "49.49920000",
-                            Longitude = "-98.00156000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Cross Lake 19A",
-                            Latitude = "54.65135000",
-                            Longitude = "-97.76848000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Dauphin",
-                            Latitude = "51.14941000",
-                            Longitude = "-100.05023000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "De Salaberry",
-                            Latitude = "49.39999000",
-                            Longitude = "-97.00894000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Deloraine",
-                            Latitude = "49.19082000",
-                            Longitude = "-100.49477000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Flin Flon",
-                            Latitude = "54.76703000",
-                            Longitude = "-101.87433000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Gimli",
-                            Latitude = "50.63362000",
-                            Longitude = "-96.99066000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Grunthal",
-                            Latitude = "49.40668000",
-                            Longitude = "-96.85873000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Headingley",
-                            Latitude = "49.87530000",
-                            Longitude = "-97.40896000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Ile des Chênes",
-                            Latitude = "49.71060000",
-                            Longitude = "-96.98893000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Killarney",
-                            Latitude = "49.18332000",
-                            Longitude = "-99.66364000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "La Broquerie",
-                            Latitude = "49.51688000",
-                            Longitude = "-96.50029000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Lac du Bonnet",
-                            Latitude = "50.25360000",
-                            Longitude = "-96.06116000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Landmark",
-                            Latitude = "49.67169000",
-                            Longitude = "-96.82232000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Lorette",
-                            Latitude = "49.73919000",
-                            Longitude = "-96.87232000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Melita",
-                            Latitude = "49.26811000",
-                            Longitude = "-100.99669000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Minnedosa",
-                            Latitude = "50.24532000",
-                            Longitude = "-99.84364000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Moose Lake",
-                            Latitude = "49.20559000",
-                            Longitude = "-95.30629000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Morden",
-                            Latitude = "49.19190000",
-                            Longitude = "-98.10136000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Morris",
-                            Latitude = "49.35499000",
-                            Longitude = "-97.36567000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Neepawa",
-                            Latitude = "50.22892000",
-                            Longitude = "-99.46642000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Niverville",
-                            Latitude = "49.60559000",
-                            Longitude = "-97.04234000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Portage la Prairie",
-                            Latitude = "49.97282000",
-                            Longitude = "-98.29263000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Rivers",
-                            Latitude = "50.03081000",
-                            Longitude = "-100.24029000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Roblin",
-                            Latitude = "51.22999000",
-                            Longitude = "-101.35650000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Selkirk",
-                            Latitude = "50.14360000",
-                            Longitude = "-96.88452000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Shilo",
-                            Latitude = "49.80509000",
-                            Longitude = "-99.63175000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Souris",
-                            Latitude = "49.61720000",
-                            Longitude = "-100.26120000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "St. Adolphe",
-                            Latitude = "49.67440000",
-                            Longitude = "-97.11124000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Steinbach",
-                            Latitude = "49.52579000",
-                            Longitude = "-96.68451000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Stonewall",
-                            Latitude = "50.13441000",
-                            Longitude = "-97.32676000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Swan River",
-                            Latitude = "52.10580000",
-                            Longitude = "-101.26759000"
-                        },
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "The Pas",
-                            Latitude = "53.82509000",
-                            Longitude = "-101.25413000"
-                        },
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Thompson",
-                            Latitude = "55.74350000",
-                            Longitude = "-97.85579000"
-                        },
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Virden",
-                            Latitude = "49.85080000",
-                            Longitude = "-100.93262000"
-                        },
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "West St. Paul",
-                            Latitude = "49.99940000",
-                            Longitude = "-97.16284000"
-                        },
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Winkler",
-                            Latitude = "49.18170000",
-                            Longitude = "-97.94104000"
-                        },
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Winnipeg",
-                            Latitude = "49.88440000",
-                            Longitude = "-97.14704000"
-                        }
+                        new() { Id = 1, Name = "Altona", Latitude = "49.10469000", Longitude = "-97.55961000" },
+                        new() { Id = 2, Name = "Beausejour", Latitude = "50.06220000", Longitude = "-96.51669000" },
+                        new() { Id = 3, Name = "Boissevain", Latitude = "49.23062000", Longitude = "-100.05586000" },
+                        new() { Id = 4, Name = "Brandon", Latitude = "49.84692000", Longitude = "-99.95306000" },
+                        new() { Id = 5, Name = "Carberry", Latitude = "49.86893000", Longitude = "-99.36021000" },
+                        new() { Id = 6, Name = "Carman", Latitude = "49.49920000", Longitude = "-98.00156000" },
+                        new() { Id = 7, Name = "Cross Lake 19A", Latitude = "54.65135000", Longitude = "-97.76848000" },
+                        new() { Id = 8, Name = "Dauphin", Latitude = "51.14941000", Longitude = "-100.05023000" },
+                        new() { Id = 9, Name = "De Salaberry", Latitude = "49.39999000", Longitude = "-97.00894000" },
+                        new() { Id = 10, Name = "Deloraine", Latitude = "49.19082000", Longitude = "-100.49477000" },
+                        new() { Id = 11, Name = "Flin Flon", Latitude = "54.76703000", Longitude = "-101.87433000" },
+                        new() { Id = 12, Name = "Gimli", Latitude = "50.63362000", Longitude = "-96.99066000" },
+                        new() { Id = 13, Name = "Grunthal", Latitude = "49.40668000", Longitude = "-96.85873000" },
+                        new() { Id = 14, Name = "Headingley", Latitude = "49.87530000", Longitude = "-97.40896000" },
+                        new() { Id = 15, Name = "Ile des Chênes", Latitude = "49.71060000", Longitude = "-96.98893000" },
+                        new() { Id = 16, Name = "Killarney", Latitude = "49.18332000", Longitude = "-99.66364000" },
+                        new() { Id = 17, Name = "La Broquerie", Latitude = "49.51688000", Longitude = "-96.50029000" },
+                        new() { Id = 18, Name = "Lac du Bonnet", Latitude = "50.25360000", Longitude = "-96.06116000" },
+                        new() { Id = 19, Name = "Landmark", Latitude = "49.67169000", Longitude = "-96.82232000" },
+                        new() { Id = 20, Name = "Lorette", Latitude = "49.73919000", Longitude = "-96.87232000" },
+                        new() { Id = 21, Name = "Melita", Latitude = "49.26811000", Longitude = "-100.99669000" },
+                        new() { Id = 22, Name = "Minnedosa", Latitude = "50.24532000", Longitude = "-99.84364000" },
+                        new() { Id = 23, Name = "Moose Lake", Latitude = "49.20559000", Longitude = "-95.30629000" },
+                        new() { Id = 24, Name = "Morden", Latitude = "49.19190000", Longitude = "-98.10136000" },
+                        new() { Id = 25, Name = "Morris", Latitude = "49.35499000", Longitude = "-97.36567000" },
+                        new() { Id = 26, Name = "Neepawa", Latitude = "50.22892000", Longitude = "-99.46642000" },
+                        new() { Id = 27, Name = "Niverville", Latitude = "49.60559000", Longitude = "-97.04234000" },
+                        new() { Id = 28, Name = "Portage la Prairie", Latitude = "49.97282000", Longitude = "-98.29263000" },
+                        new() { Id = 29, Name = "Rivers", Latitude = "50.03081000", Longitude = "-100.24029000" },
+                        new() { Id = 30, Name = "Roblin", Latitude = "51.22999000", Longitude = "-101.35650000" },
+                        new() { Id = 31, Name = "Selkirk", Latitude = "50.14360000", Longitude = "-96.88452000" },
+                        new() { Id = 32, Name = "Shilo", Latitude = "49.80509000", Longitude = "-99.63175000" },
+                        new() { Id = 33, Name = "Souris", Latitude = "49.61720000", Longitude = "-100.26120000" },
+                        new() { Id = 34, Name = "St. Adolphe", Latitude = "49.67440000", Longitude = "-97.11124000" },
+                        new() { Id = 35, Name = "Steinbach", Latitude = "49.52579000", Longitude = "-96.68451000" },
+                        new() { Id = 36, Name = "Stonewall", Latitude = "50.13441000", Longitude = "-97.32676000" },
+                        new() { Id = 37, Name = "Swan River", Latitude = "52.10580000", Longitude = "-101.26759000" },
+                        new() { Id = 38, Name = "The Pas", Latitude = "53.82509000", Longitude = "-101.25413000" },
+                        new() { Id = 39, Name = "Thompson", Latitude = "55.74350000", Longitude = "-97.85579000" },
+                        new() { Id = 40, Name = "Virden", Latitude = "49.85080000", Longitude = "-100.93262000" },
+                        new() { Id = 41, Name = "West St. Paul", Latitude = "49.99940000", Longitude = "-97.16284000" },
+                        new() { Id = 42, Name = "Winkler", Latitude = "49.18170000", Longitude = "-97.94104000" },
+                        new() { Id = 43, Name = "Winnipeg", Latitude = "49.88440000", Longitude = "-97.14704000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 4,
                     Name = "New Brunswick",
@@ -2704,308 +429,49 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.56531630",
                     Longitude = "-66.46191640",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Baie Ste. Anne",
-                            Latitude = "47.05231000",
-                            Longitude = "-64.95355000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Bathurst",
-                            Latitude = "47.61814000",
-                            Longitude = "-65.65112000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Bouctouche",
-                            Latitude = "46.46844000",
-                            Longitude = "-64.73905000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Campbellton",
-                            Latitude = "48.00751000",
-                            Longitude = "-66.67272000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Dieppe",
-                            Latitude = "46.07844000",
-                            Longitude = "-64.68735000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Edmundston",
-                            Latitude = "47.37370000",
-                            Longitude = "-68.32512000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Florenceville-Bristol",
-                            Latitude = "46.44353000",
-                            Longitude = "-67.61536000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Fredericton",
-                            Latitude = "45.94541000",
-                            Longitude = "-66.66558000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Fundy Bay",
-                            Latitude = "44.74100000",
-                            Longitude = "-66.76041000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Grande-Digue",
-                            Latitude = "46.30014000",
-                            Longitude = "-64.56546000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Greater Lakeburn",
-                            Latitude = "46.07651000",
-                            Longitude = "-64.66818000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Hampton",
-                            Latitude = "45.52876000",
-                            Longitude = "-65.85354000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Harrison Brook",
-                            Latitude = "47.21304000",
-                            Longitude = "-67.92847000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Keswick Ridge",
-                            Latitude = "46.00011000",
-                            Longitude = "-66.88218000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Lincoln",
-                            Latitude = "45.90012000",
-                            Longitude = "-66.58218000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Lutes Mountain",
-                            Latitude = "46.13544000",
-                            Longitude = "-64.90504000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "McEwen",
-                            Latitude = "46.14520000",
-                            Longitude = "-64.78615000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Miramichi",
-                            Latitude = "47.02895000",
-                            Longitude = "-65.50186000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Moncton",
-                            Latitude = "46.09454000",
-                            Longitude = "-64.79650000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Nackawic",
-                            Latitude = "45.99666000",
-                            Longitude = "-67.24028000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "New Maryland",
-                            Latitude = "45.87932000",
-                            Longitude = "-66.66828000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Noonan",
-                            Latitude = "45.96682000",
-                            Longitude = "-66.53218000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Oromocto",
-                            Latitude = "45.83512000",
-                            Longitude = "-66.47917000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Richibucto",
-                            Latitude = "46.68073000",
-                            Longitude = "-64.88044000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Sackville",
-                            Latitude = "45.91875000",
-                            Longitude = "-64.38455000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Saint Andrews",
-                            Latitude = "45.07370000",
-                            Longitude = "-67.05312000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Saint John",
-                            Latitude = "45.27271000",
-                            Longitude = "-66.06766000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Saint-Antoine",
-                            Latitude = "46.36294000",
-                            Longitude = "-64.74985000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Saint-Léonard",
-                            Latitude = "47.16317000",
-                            Longitude = "-67.92460000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Salisbury",
-                            Latitude = "46.03905000",
-                            Longitude = "-65.04628000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Shediac",
-                            Latitude = "46.21981000",
-                            Longitude = "-64.54107000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Shediac Bridge-Shediac River",
-                            Latitude = "46.26886000",
-                            Longitude = "-64.60047000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Shippagan",
-                            Latitude = "47.74424000",
-                            Longitude = "-64.70804000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Starlight Village",
-                            Latitude = "45.88308000",
-                            Longitude = "-66.76905000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Sussex",
-                            Latitude = "45.72266000",
-                            Longitude = "-65.50663000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Tracadie-Sheila",
-                            Latitude = "47.51444000",
-                            Longitude = "-64.91806000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Wells",
-                            Latitude = "45.39274000",
-                            Longitude = "-65.92313000"
-                        }
+                        new() { Id = 1, Name = "Baie Ste. Anne", Latitude = "47.05231000", Longitude = "-64.95355000" },
+                        new() { Id = 2, Name = "Bathurst", Latitude = "47.61814000", Longitude = "-65.65112000" },
+                        new() { Id = 3, Name = "Bouctouche", Latitude = "46.46844000", Longitude = "-64.73905000" },
+                        new() { Id = 4, Name = "Campbellton", Latitude = "48.00751000", Longitude = "-66.67272000" },
+                        new() { Id = 5, Name = "Dieppe", Latitude = "46.07844000", Longitude = "-64.68735000" },
+                        new() { Id = 6, Name = "Edmundston", Latitude = "47.37370000", Longitude = "-68.32512000" },
+                        new() { Id = 7, Name = "Florenceville-Bristol", Latitude = "46.44353000", Longitude = "-67.61536000" },
+                        new() { Id = 8, Name = "Fredericton", Latitude = "45.94541000", Longitude = "-66.66558000" },
+                        new() { Id = 9, Name = "Fundy Bay", Latitude = "44.74100000", Longitude = "-66.76041000" },
+                        new() { Id = 10, Name = "Grande-Digue", Latitude = "46.30014000", Longitude = "-64.56546000" },
+                        new() { Id = 11, Name = "Greater Lakeburn", Latitude = "46.07651000", Longitude = "-64.66818000" },
+                        new() { Id = 12, Name = "Hampton", Latitude = "45.52876000", Longitude = "-65.85354000" },
+                        new() { Id = 13, Name = "Harrison Brook", Latitude = "47.21304000", Longitude = "-67.92847000" },
+                        new() { Id = 14, Name = "Keswick Ridge", Latitude = "46.00011000", Longitude = "-66.88218000" },
+                        new() { Id = 15, Name = "Lincoln", Latitude = "45.90012000", Longitude = "-66.58218000" },
+                        new() { Id = 16, Name = "Lutes Mountain", Latitude = "46.13544000", Longitude = "-64.90504000" },
+                        new() { Id = 17, Name = "McEwen", Latitude = "46.14520000", Longitude = "-64.78615000" },
+                        new() { Id = 18, Name = "Miramichi", Latitude = "47.02895000", Longitude = "-65.50186000" },
+                        new() { Id = 19, Name = "Moncton", Latitude = "46.09454000", Longitude = "-64.79650000" },
+                        new() { Id = 20, Name = "Nackawic", Latitude = "45.99666000", Longitude = "-67.24028000" },
+                        new() { Id = 21, Name = "New Maryland", Latitude = "45.87932000", Longitude = "-66.66828000" },
+                        new() { Id = 22, Name = "Noonan", Latitude = "45.96682000", Longitude = "-66.53218000" },
+                        new() { Id = 23, Name = "Oromocto", Latitude = "45.83512000", Longitude = "-66.47917000" },
+                        new() { Id = 24, Name = "Richibucto", Latitude = "46.68073000", Longitude = "-64.88044000" },
+                        new() { Id = 25, Name = "Sackville", Latitude = "45.91875000", Longitude = "-64.38455000" },
+                        new() { Id = 26, Name = "Saint Andrews", Latitude = "45.07370000", Longitude = "-67.05312000" },
+                        new() { Id = 27, Name = "Saint John", Latitude = "45.27271000", Longitude = "-66.06766000" },
+                        new() { Id = 28, Name = "Saint-Antoine", Latitude = "46.36294000", Longitude = "-64.74985000" },
+                        new() { Id = 29, Name = "Saint-Léonard", Latitude = "47.16317000", Longitude = "-67.92460000" },
+                        new() { Id = 30, Name = "Salisbury", Latitude = "46.03905000", Longitude = "-65.04628000" },
+                        new() { Id = 31, Name = "Shediac", Latitude = "46.21981000", Longitude = "-64.54107000" },
+                        new() { Id = 32, Name = "Shediac Bridge-Shediac River", Latitude = "46.26886000", Longitude = "-64.60047000" },
+                        new() { Id = 33, Name = "Shippagan", Latitude = "47.74424000", Longitude = "-64.70804000" },
+                        new() { Id = 34, Name = "Starlight Village", Latitude = "45.88308000", Longitude = "-66.76905000" },
+                        new() { Id = 35, Name = "Sussex", Latitude = "45.72266000", Longitude = "-65.50663000" },
+                        new() { Id = 36, Name = "Tracadie-Sheila", Latitude = "47.51444000", Longitude = "-64.91806000" },
+                        new() { Id = 37, Name = "Wells", Latitude = "45.39274000", Longitude = "-65.92313000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 5,
                     Name = "Newfoundland and Labrador",
@@ -3013,268 +479,44 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.13550910",
                     Longitude = "-57.66043640",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Bay Roberts",
-                            Latitude = "47.59989000",
-                            Longitude = "-53.26478000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Bay St. George South",
-                            Latitude = "48.22781000",
-                            Longitude = "-58.84162000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Bonavista",
-                            Latitude = "48.64989000",
-                            Longitude = "-53.11474000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Botwood",
-                            Latitude = "49.14994000",
-                            Longitude = "-55.34819000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Burgeo",
-                            Latitude = "47.61668000",
-                            Longitude = "-57.61516000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Carbonear",
-                            Latitude = "47.73319000",
-                            Longitude = "-53.21478000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Catalina",
-                            Latitude = "48.51659000",
-                            Longitude = "-53.08135000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Channel-Port aux Basques",
-                            Latitude = "47.57286000",
-                            Longitude = "-59.13808000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Clarenville-Shoal Harbour",
-                            Latitude = "48.18050000",
-                            Longitude = "-53.96982000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Conception Bay South",
-                            Latitude = "47.49989000",
-                            Longitude = "-52.99806000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Corner Brook",
-                            Latitude = "48.95001000",
-                            Longitude = "-57.95202000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Deer Lake",
-                            Latitude = "49.16671000",
-                            Longitude = "-57.43163000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Fogo Island",
-                            Latitude = "49.71649000",
-                            Longitude = "-54.16981000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Gambo",
-                            Latitude = "48.78320000",
-                            Longitude = "-54.21482000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Goulds",
-                            Latitude = "47.45532000",
-                            Longitude = "-52.77552000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Grand Bank",
-                            Latitude = "47.09995000",
-                            Longitude = "-55.76504000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Grand Falls-Windsor",
-                            Latitude = "48.93324000",
-                            Longitude = "-55.66492000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Happy Valley-Goose Bay",
-                            Latitude = "53.30380000",
-                            Longitude = "-60.32576000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Harbour Breton",
-                            Latitude = "47.48325000",
-                            Longitude = "-55.79833000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Labrador City",
-                            Latitude = "52.94626000",
-                            Longitude = "-66.91137000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Lewisporte",
-                            Latitude = "49.24993000",
-                            Longitude = "-55.04816000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Marystown",
-                            Latitude = "47.16663000",
-                            Longitude = "-55.14829000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Mount Pearl",
-                            Latitude = "47.51659000",
-                            Longitude = "-52.78135000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Pasadena",
-                            Latitude = "49.01671000",
-                            Longitude = "-57.59837000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Springdale",
-                            Latitude = "49.49995000",
-                            Longitude = "-56.06492000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "St. Anthony",
-                            Latitude = "51.37039000",
-                            Longitude = "-55.59743000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "St. John's",
-                            Latitude = "47.56494000",
-                            Longitude = "-52.70931000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Stephenville",
-                            Latitude = "48.55001000",
-                            Longitude = "-58.58180000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Stephenville Crossing",
-                            Latitude = "48.50001000",
-                            Longitude = "-58.43180000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Torbay",
-                            Latitude = "47.66659000",
-                            Longitude = "-52.73135000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Upper Island Cove",
-                            Latitude = "47.64989000",
-                            Longitude = "-53.21478000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Wabana",
-                            Latitude = "47.63319000",
-                            Longitude = "-52.94806000"
-                        }
+                        new() { Id = 1, Name = "Bay Roberts", Latitude = "47.59989000", Longitude = "-53.26478000" },
+                        new() { Id = 2, Name = "Bay St. George South", Latitude = "48.22781000", Longitude = "-58.84162000" },
+                        new() { Id = 3, Name = "Bonavista", Latitude = "48.64989000", Longitude = "-53.11474000" },
+                        new() { Id = 4, Name = "Botwood", Latitude = "49.14994000", Longitude = "-55.34819000" },
+                        new() { Id = 5, Name = "Burgeo", Latitude = "47.61668000", Longitude = "-57.61516000" },
+                        new() { Id = 6, Name = "Carbonear", Latitude = "47.73319000", Longitude = "-53.21478000" },
+                        new() { Id = 7, Name = "Catalina", Latitude = "48.51659000", Longitude = "-53.08135000" },
+                        new() { Id = 8, Name = "Channel-Port aux Basques", Latitude = "47.57286000", Longitude = "-59.13808000" },
+                        new() { Id = 9, Name = "Clarenville-Shoal Harbour", Latitude = "48.18050000", Longitude = "-53.96982000" },
+                        new() { Id = 10, Name = "Conception Bay South", Latitude = "47.49989000", Longitude = "-52.99806000" },
+                        new() { Id = 11, Name = "Corner Brook", Latitude = "48.95001000", Longitude = "-57.95202000" },
+                        new() { Id = 12, Name = "Deer Lake", Latitude = "49.16671000", Longitude = "-57.43163000" },
+                        new() { Id = 13, Name = "Fogo Island", Latitude = "49.71649000", Longitude = "-54.16981000" },
+                        new() { Id = 14, Name = "Gambo", Latitude = "48.78320000", Longitude = "-54.21482000" },
+                        new() { Id = 15, Name = "Goulds", Latitude = "47.45532000", Longitude = "-52.77552000" },
+                        new() { Id = 16, Name = "Grand Bank", Latitude = "47.09995000", Longitude = "-55.76504000" },
+                        new() { Id = 17, Name = "Grand Falls-Windsor", Latitude = "48.93324000", Longitude = "-55.66492000" },
+                        new() { Id = 18, Name = "Happy Valley-Goose Bay", Latitude = "53.30380000", Longitude = "-60.32576000" },
+                        new() { Id = 19, Name = "Harbour Breton", Latitude = "47.48325000", Longitude = "-55.79833000" },
+                        new() { Id = 20, Name = "Labrador City", Latitude = "52.94626000", Longitude = "-66.91137000" },
+                        new() { Id = 21, Name = "Lewisporte", Latitude = "49.24993000", Longitude = "-55.04816000" },
+                        new() { Id = 22, Name = "Marystown", Latitude = "47.16663000", Longitude = "-55.14829000" },
+                        new() { Id = 23, Name = "Mount Pearl", Latitude = "47.51659000", Longitude = "-52.78135000" },
+                        new() { Id = 24, Name = "Pasadena", Latitude = "49.01671000", Longitude = "-57.59837000" },
+                        new() { Id = 25, Name = "Springdale", Latitude = "49.49995000", Longitude = "-56.06492000" },
+                        new() { Id = 26, Name = "St. Anthony", Latitude = "51.37039000", Longitude = "-55.59743000" },
+                        new() { Id = 27, Name = "St. John's", Latitude = "47.56494000", Longitude = "-52.70931000" },
+                        new() { Id = 28, Name = "Stephenville", Latitude = "48.55001000", Longitude = "-58.58180000" },
+                        new() { Id = 29, Name = "Stephenville Crossing", Latitude = "48.50001000", Longitude = "-58.43180000" },
+                        new() { Id = 30, Name = "Torbay", Latitude = "47.66659000", Longitude = "-52.73135000" },
+                        new() { Id = 31, Name = "Upper Island Cove", Latitude = "47.64989000", Longitude = "-53.21478000" },
+                        new() { Id = 32, Name = "Wabana", Latitude = "47.63319000", Longitude = "-52.94806000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 6,
                     Name = "Northwest Territories",
@@ -3282,68 +524,19 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "64.82554410",
                     Longitude = "-124.84573340",
                     Type = "territory",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Behchokǫ̀",
-                            Latitude = "62.80250000",
-                            Longitude = "-116.04639000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Fort McPherson",
-                            Latitude = "67.43863000",
-                            Longitude = "-134.88543000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Fort Smith",
-                            Latitude = "60.00439000",
-                            Longitude = "-111.88871000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Hay River",
-                            Latitude = "60.81555000",
-                            Longitude = "-115.79993000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Inuvik",
-                            Latitude = "68.34986000",
-                            Longitude = "-133.72181000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Norman Wells",
-                            Latitude = "65.28201000",
-                            Longitude = "-126.83290000"
-                        },
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Yellowknife",
-                            Latitude = "62.45411000",
-                            Longitude = "-114.37248000"
-                        }
+                        new() { Id = 1, Name = "Behchokǫ̀", Latitude = "62.80250000", Longitude = "-116.04639000" },
+                        new() { Id = 2, Name = "Fort McPherson", Latitude = "67.43863000", Longitude = "-134.88543000" },
+                        new() { Id = 3, Name = "Fort Smith", Latitude = "60.00439000", Longitude = "-111.88871000" },
+                        new() { Id = 4, Name = "Hay River", Latitude = "60.81555000", Longitude = "-115.79993000" },
+                        new() { Id = 5, Name = "Inuvik", Latitude = "68.34986000", Longitude = "-133.72181000" },
+                        new() { Id = 6, Name = "Norman Wells", Latitude = "65.28201000", Longitude = "-126.83290000" },
+                        new() { Id = 7, Name = "Yellowknife", Latitude = "62.45411000", Longitude = "-114.37248000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 7,
                     Name = "Nova Scotia",
@@ -3351,356 +544,55 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "44.68198660",
                     Longitude = "-63.74431100",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Amherst",
-                            Latitude = "45.83345000",
-                            Longitude = "-64.19874000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Annapolis County",
-                            Latitude = "44.58345000",
-                            Longitude = "-65.16551000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Antigonish",
-                            Latitude = "45.61685000",
-                            Longitude = "-61.99858000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Berwick",
-                            Latitude = "45.05015000",
-                            Longitude = "-64.73208000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Bridgewater",
-                            Latitude = "44.37856000",
-                            Longitude = "-64.51882000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Cape Breton County",
-                            Latitude = "46.00014000",
-                            Longitude = "-60.31516000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Chester",
-                            Latitude = "44.54225000",
-                            Longitude = "-64.23891000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Colchester",
-                            Latitude = "45.33345000",
-                            Longitude = "-63.24868000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Cole Harbour",
-                            Latitude = "44.67244000",
-                            Longitude = "-63.47506000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Cow Bay",
-                            Latitude = "44.63141000",
-                            Longitude = "-63.43218000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Dartmouth",
-                            Latitude = "44.67134000",
-                            Longitude = "-63.57719000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Digby",
-                            Latitude = "44.62188000",
-                            Longitude = "-65.75860000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Digby County",
-                            Latitude = "44.36685000",
-                            Longitude = "-65.69884000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "English Corner",
-                            Latitude = "44.73345000",
-                            Longitude = "-63.78201000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Eskasoni 3",
-                            Latitude = "45.94522000",
-                            Longitude = "-60.61617000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Fall River",
-                            Latitude = "44.81685000",
-                            Longitude = "-63.61540000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Glace Bay",
-                            Latitude = "46.19695000",
-                            Longitude = "-59.95698000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Greenwood",
-                            Latitude = "44.97413000",
-                            Longitude = "-64.93169000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Halifax",
-                            Latitude = "44.64533000",
-                            Longitude = "-63.57239000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Hantsport",
-                            Latitude = "45.06685000",
-                            Longitude = "-64.16544000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Hayes Subdivision",
-                            Latitude = "45.05519000",
-                            Longitude = "-64.58795000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Kentville",
-                            Latitude = "45.07710000",
-                            Longitude = "-64.49605000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Lake Echo",
-                            Latitude = "44.73345000",
-                            Longitude = "-63.38198000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Lantz",
-                            Latitude = "44.98345000",
-                            Longitude = "-63.48199000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Lower Sackville",
-                            Latitude = "44.77599000",
-                            Longitude = "-63.67865000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Lunenburg",
-                            Latitude = "44.37847000",
-                            Longitude = "-64.31658000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Middleton",
-                            Latitude = "44.94284000",
-                            Longitude = "-65.07022000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "New Glasgow",
-                            Latitude = "45.58344000",
-                            Longitude = "-62.64863000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Oxford",
-                            Latitude = "45.73345000",
-                            Longitude = "-63.86542000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Parrsboro",
-                            Latitude = "45.40567000",
-                            Longitude = "-64.32585000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Pictou",
-                            Latitude = "45.67875000",
-                            Longitude = "-62.70936000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Pictou County",
-                            Latitude = "45.50015000",
-                            Longitude = "-62.58193000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Port Hawkesbury",
-                            Latitude = "45.61685000",
-                            Longitude = "-61.34853000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Port Williams",
-                            Latitude = "45.10015000",
-                            Longitude = "-64.41546000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Princeville",
-                            Latitude = "45.76684000",
-                            Longitude = "-61.29853000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Shelburne",
-                            Latitude = "43.76325000",
-                            Longitude = "-65.32355000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Springhill",
-                            Latitude = "45.65015000",
-                            Longitude = "-64.04873000"
-                        },
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Sydney",
-                            Latitude = "46.13510000",
-                            Longitude = "-60.18310000"
-                        },
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Sydney Mines",
-                            Latitude = "46.23669000",
-                            Longitude = "-60.21767000"
-                        },
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Truro",
-                            Latitude = "45.36685000",
-                            Longitude = "-63.26538000"
-                        },
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Windsor",
-                            Latitude = "44.98345000",
-                            Longitude = "-64.13204000"
-                        },
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Wolfville",
-                            Latitude = "45.08345000",
-                            Longitude = "-64.36546000"
-                        },
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Yarmouth",
-                            Latitude = "43.83345000",
-                            Longitude = "-66.11557000"
-                        }
+                        new() { Id = 1, Name = "Amherst", Latitude = "45.83345000", Longitude = "-64.19874000" },
+                        new() { Id = 2, Name = "Annapolis County", Latitude = "44.58345000", Longitude = "-65.16551000" },
+                        new() { Id = 3, Name = "Antigonish", Latitude = "45.61685000", Longitude = "-61.99858000" },
+                        new() { Id = 4, Name = "Berwick", Latitude = "45.05015000", Longitude = "-64.73208000" },
+                        new() { Id = 5, Name = "Bridgewater", Latitude = "44.37856000", Longitude = "-64.51882000" },
+                        new() { Id = 6, Name = "Cape Breton County", Latitude = "46.00014000", Longitude = "-60.31516000" },
+                        new() { Id = 7, Name = "Chester", Latitude = "44.54225000", Longitude = "-64.23891000" },
+                        new() { Id = 8, Name = "Colchester", Latitude = "45.33345000", Longitude = "-63.24868000" },
+                        new() { Id = 9, Name = "Cole Harbour", Latitude = "44.67244000", Longitude = "-63.47506000" },
+                        new() { Id = 10, Name = "Cow Bay", Latitude = "44.63141000", Longitude = "-63.43218000" },
+                        new() { Id = 11, Name = "Dartmouth", Latitude = "44.67134000", Longitude = "-63.57719000" },
+                        new() { Id = 12, Name = "Digby", Latitude = "44.62188000", Longitude = "-65.75860000" },
+                        new() { Id = 13, Name = "Digby County", Latitude = "44.36685000", Longitude = "-65.69884000" },
+                        new() { Id = 14, Name = "English Corner", Latitude = "44.73345000", Longitude = "-63.78201000" },
+                        new() { Id = 15, Name = "Eskasoni 3", Latitude = "45.94522000", Longitude = "-60.61617000" },
+                        new() { Id = 16, Name = "Fall River", Latitude = "44.81685000", Longitude = "-63.61540000" },
+                        new() { Id = 17, Name = "Glace Bay", Latitude = "46.19695000", Longitude = "-59.95698000" },
+                        new() { Id = 18, Name = "Greenwood", Latitude = "44.97413000", Longitude = "-64.93169000" },
+                        new() { Id = 19, Name = "Halifax", Latitude = "44.64533000", Longitude = "-63.57239000" },
+                        new() { Id = 20, Name = "Hantsport", Latitude = "45.06685000", Longitude = "-64.16544000" },
+                        new() { Id = 21, Name = "Hayes Subdivision", Latitude = "45.05519000", Longitude = "-64.58795000" },
+                        new() { Id = 22, Name = "Kentville", Latitude = "45.07710000", Longitude = "-64.49605000" },
+                        new() { Id = 23, Name = "Lake Echo", Latitude = "44.73345000", Longitude = "-63.38198000" },
+                        new() { Id = 24, Name = "Lantz", Latitude = "44.98345000", Longitude = "-63.48199000" },
+                        new() { Id = 25, Name = "Lower Sackville", Latitude = "44.77599000", Longitude = "-63.67865000" },
+                        new() { Id = 26, Name = "Lunenburg", Latitude = "44.37847000", Longitude = "-64.31658000" },
+                        new() { Id = 27, Name = "Middleton", Latitude = "44.94284000", Longitude = "-65.07022000" },
+                        new() { Id = 28, Name = "New Glasgow", Latitude = "45.58344000", Longitude = "-62.64863000" },
+                        new() { Id = 29, Name = "Oxford", Latitude = "45.73345000", Longitude = "-63.86542000" },
+                        new() { Id = 30, Name = "Parrsboro", Latitude = "45.40567000", Longitude = "-64.32585000" },
+                        new() { Id = 31, Name = "Pictou", Latitude = "45.67875000", Longitude = "-62.70936000" },
+                        new() { Id = 32, Name = "Pictou County", Latitude = "45.50015000", Longitude = "-62.58193000" },
+                        new() { Id = 33, Name = "Port Hawkesbury", Latitude = "45.61685000", Longitude = "-61.34853000" },
+                        new() { Id = 34, Name = "Port Williams", Latitude = "45.10015000", Longitude = "-64.41546000" },
+                        new() { Id = 35, Name = "Princeville", Latitude = "45.76684000", Longitude = "-61.29853000" },
+                        new() { Id = 36, Name = "Shelburne", Latitude = "43.76325000", Longitude = "-65.32355000" },
+                        new() { Id = 37, Name = "Springhill", Latitude = "45.65015000", Longitude = "-64.04873000" },
+                        new() { Id = 38, Name = "Sydney", Latitude = "46.13510000", Longitude = "-60.18310000" },
+                        new() { Id = 39, Name = "Sydney Mines", Latitude = "46.23669000", Longitude = "-60.21767000" },
+                        new() { Id = 40, Name = "Truro", Latitude = "45.36685000", Longitude = "-63.26538000" },
+                        new() { Id = 41, Name = "Windsor", Latitude = "44.98345000", Longitude = "-64.13204000" },
+                        new() { Id = 42, Name = "Wolfville", Latitude = "45.08345000", Longitude = "-64.36546000" },
+                        new() { Id = 43, Name = "Yarmouth", Latitude = "43.83345000", Longitude = "-66.11557000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 8,
                     Name = "Nunavut",
@@ -3708,60 +600,18 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "70.29977110",
                     Longitude = "-83.10757700",
                     Type = "territory",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Clyde River",
-                            Latitude = "70.47233000",
-                            Longitude = "-68.58987000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Gjoa Haven",
-                            Latitude = "68.62602000",
-                            Longitude = "-95.87836000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Iqaluit",
-                            Latitude = "63.74697000",
-                            Longitude = "-68.51727000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Kugluktuk",
-                            Latitude = "67.82743000",
-                            Longitude = "-115.09649000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Pangnirtung",
-                            Latitude = "66.14642000",
-                            Longitude = "-65.69996000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Rankin Inlet",
-                            Latitude = "62.80906000",
-                            Longitude = "-92.08534000"
-                        }
+                        new() { Id = 1, Name = "Clyde River", Latitude = "70.47233000", Longitude = "-68.58987000" },
+                        new() { Id = 2, Name = "Gjoa Haven", Latitude = "68.62602000", Longitude = "-95.87836000" },
+                        new() { Id = 3, Name = "Iqaluit", Latitude = "63.74697000", Longitude = "-68.51727000" },
+                        new() { Id = 4, Name = "Kugluktuk", Latitude = "67.82743000", Longitude = "-115.09649000" },
+                        new() { Id = 5, Name = "Pangnirtung", Latitude = "66.14642000", Longitude = "-65.69996000" },
+                        new() { Id = 6, Name = "Rankin Inlet", Latitude = "62.80906000", Longitude = "-92.08534000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 9,
                     Name = "Ontario",
@@ -3769,1940 +619,253 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.25377500",
                     Longitude = "-85.32321400",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Ajax",
-                            Latitude = "43.85012000",
-                            Longitude = "-79.03288000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Algoma",
-                            Latitude = "47.88364000",
-                            Longitude = "-84.42406000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Alliston",
-                            Latitude = "44.15011000",
-                            Longitude = "-79.86635000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Amherstburg",
-                            Latitude = "42.10009000",
-                            Longitude = "-83.09985000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Amigo Beach",
-                            Latitude = "44.70011000",
-                            Longitude = "-79.39963000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Ancaster",
-                            Latitude = "43.21806000",
-                            Longitude = "-79.98716000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Angus",
-                            Latitude = "44.31681000",
-                            Longitude = "-79.88295000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Arnprior",
-                            Latitude = "45.43341000",
-                            Longitude = "-76.34939000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Atikokan",
-                            Latitude = "48.75667000",
-                            Longitude = "-91.62409000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Attawapiskat",
-                            Latitude = "52.92774000",
-                            Longitude = "-82.41669000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Aurora",
-                            Latitude = "44.00011000",
-                            Longitude = "-79.46632000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Aylmer",
-                            Latitude = "42.76679000",
-                            Longitude = "-80.98302000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Azilda",
-                            Latitude = "46.55008000",
-                            Longitude = "-81.09975000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Ballantrae",
-                            Latitude = "44.03342000",
-                            Longitude = "-79.29960000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Bancroft",
-                            Latitude = "45.05752000",
-                            Longitude = "-77.85702000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Barrie",
-                            Latitude = "44.40011000",
-                            Longitude = "-79.66634000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Bath",
-                            Latitude = "44.18342000",
-                            Longitude = "-76.78273000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Belleville",
-                            Latitude = "44.16682000",
-                            Longitude = "-77.38277000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Bells Corners",
-                            Latitude = "45.31588000",
-                            Longitude = "-75.83012000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Belmont",
-                            Latitude = "42.88339000",
-                            Longitude = "-81.08303000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Binbrook",
-                            Latitude = "43.12135000",
-                            Longitude = "-79.81104000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Bluewater",
-                            Latitude = "43.46679000",
-                            Longitude = "-81.59977000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Bourget",
-                            Latitude = "45.43340000",
-                            Longitude = "-75.14930000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Bracebridge",
-                            Latitude = "45.03341000",
-                            Longitude = "-79.31633000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Brampton",
-                            Latitude = "43.68341000",
-                            Longitude = "-79.76633000"
-                        }
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Brant",
-                            Latitude = "43.13340000",
-                            Longitude = "-80.34967000"
-                        }
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Brantford",
-                            Latitude = "43.13340000",
-                            Longitude = "-80.26636000"
-                        }
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Brockville",
-                            Latitude = "44.59132000",
-                            Longitude = "-75.68705000"
-                        }
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Brussels",
-                            Latitude = "43.73339000",
-                            Longitude = "-81.24975000"
-                        }
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Burford",
-                            Latitude = "43.10292000",
-                            Longitude = "-80.42869000"
-                        }
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Burlington",
-                            Latitude = "43.38621000",
-                            Longitude = "-79.83713000"
-                        }
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Cambridge",
-                            Latitude = "43.36010000",
-                            Longitude = "-80.31269000"
-                        }
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Camlachie",
-                            Latitude = "43.03596000",
-                            Longitude = "-82.16160000"
-                        }
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Capreol",
-                            Latitude = "46.70626000",
-                            Longitude = "-80.92109000"
-                        }
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Carleton Place",
-                            Latitude = "45.13341000",
-                            Longitude = "-76.14938000"
-                        }
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Casselman",
-                            Latitude = "45.31680000",
-                            Longitude = "-75.08260000"
-                        }
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Chatham",
-                            Latitude = "42.41224000",
-                            Longitude = "-82.18494000"
-                        }
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Chatham-Kent",
-                            Latitude = "42.40009000",
-                            Longitude = "-82.18310000"
-                        }
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Clarence-Rockland",
-                            Latitude = "45.55010000",
-                            Longitude = "-75.29101000"
-                        }
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Cobourg",
-                            Latitude = "43.95977000",
-                            Longitude = "-78.16515000"
-                        }
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Cochrane District",
-                            Latitude = "50.00022000",
-                            Longitude = "-82.99979000"
-                        }
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Collingwood",
-                            Latitude = "44.48340000",
-                            Longitude = "-80.21638000"
-                        }
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Concord",
-                            Latitude = "43.80011000",
-                            Longitude = "-79.48291000"
-                        }
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "Constance Bay",
-                            Latitude = "45.50011000",
-                            Longitude = "-76.08267000"
-                        }
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "Cookstown",
-                            Latitude = "44.18341000",
-                            Longitude = "-79.69964000"
-                        }
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "Cornwall",
-                            Latitude = "45.01809000",
-                            Longitude = "-74.72815000"
-                        }
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "Corunna",
-                            Latitude = "42.88338000",
-                            Longitude = "-82.43313000"
-                        }
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "Deep River",
-                            Latitude = "46.10012000",
-                            Longitude = "-77.49949000"
-                        }
-
-                        new City
-                        {
-                            Id = 49,
-                            Name = "Delaware",
-                            Latitude = "42.91679000",
-                            Longitude = "-81.41646000"
-                        }
-
-                        new City
-                        {
-                            Id = 50,
-                            Name = "Deseronto",
-                            Latitude = "44.20012000",
-                            Longitude = "-77.04944000"
-                        }
-
-                        new City
-                        {
-                            Id = 51,
-                            Name = "Dorchester",
-                            Latitude = "42.98339000",
-                            Longitude = "-81.06643000"
-                        }
-
-                        new City
-                        {
-                            Id = 52,
-                            Name = "Dowling",
-                            Latitude = "46.59111000",
-                            Longitude = "-81.33917000"
-                        }
-
-                        new City
-                        {
-                            Id = 53,
-                            Name = "Dryden",
-                            Latitude = "49.78334000",
-                            Longitude = "-92.75032000"
-                        }
-
-                        new City
-                        {
-                            Id = 54,
-                            Name = "Durham",
-                            Latitude = "44.20012000",
-                            Longitude = "-78.99957000"
-                        }
-
-                        new City
-                        {
-                            Id = 55,
-                            Name = "Ear Falls",
-                            Latitude = "50.63955000",
-                            Longitude = "-93.23526000"
-                        }
-
-                        new City
-                        {
-                            Id = 56,
-                            Name = "East Gwillimbury",
-                            Latitude = "44.10087000",
-                            Longitude = "-79.43785000"
-                        }
-
-                        new City
-                        {
-                            Id = 57,
-                            Name = "East York",
-                            Latitude = "43.69053000",
-                            Longitude = "-79.32794000"
-                        }
-
-                        new City
-                        {
-                            Id = 58,
-                            Name = "Elliot Lake",
-                            Latitude = "46.38336000",
-                            Longitude = "-82.63315000"
-                        }
-
-                        new City
-                        {
-                            Id = 59,
-                            Name = "Elmvale",
-                            Latitude = "44.58340000",
-                            Longitude = "-79.86636000"
-                        }
-
-                        new City
-                        {
-                            Id = 60,
-                            Name = "Englehart",
-                            Latitude = "47.81686000",
-                            Longitude = "-79.86640000"
-                        }
-
-                        new City
-                        {
-                            Id = 61,
-                            Name = "Espanola",
-                            Latitude = "46.25837000",
-                            Longitude = "-81.76649000"
-                        }
-
-                        new City
-                        {
-                            Id = 62,
-                            Name = "Essex",
-                            Latitude = "42.17509000",
-                            Longitude = "-82.82483000"
-                        }
-
-                        new City
-                        {
-                            Id = 63,
-                            Name = "Etobicoke",
-                            Latitude = "43.65421000",
-                            Longitude = "-79.56711000"
-                        }
-
-                        new City
-                        {
-                            Id = 64,
-                            Name = "Exeter",
-                            Latitude = "43.34358630",
-                            Longitude = "-81.49726020"
-                        }
-
-                        new City
-                        {
-                            Id = 65,
-                            Name = "Fort Erie",
-                            Latitude = "42.90012000",
-                            Longitude = "-78.93286000"
-                        }
-
-                        new City
-                        {
-                            Id = 66,
-                            Name = "Fort Frances",
-                            Latitude = "48.61667000",
-                            Longitude = "-93.40030000"
-                        }
-
-                        new City
-                        {
-                            Id = 67,
-                            Name = "Gananoque",
-                            Latitude = "44.33342000",
-                            Longitude = "-76.16607000"
-                        }
-
-                        new City
-                        {
-                            Id = 68,
-                            Name = "Glencoe",
-                            Latitude = "42.75009000",
-                            Longitude = "-81.71648000"
-                        }
-
-                        new City
-                        {
-                            Id = 69,
-                            Name = "Goderich",
-                            Latitude = "43.74171000",
-                            Longitude = "-81.71339000"
-                        }
-
-                        new City
-                        {
-                            Id = 70,
-                            Name = "Golden",
-                            Latitude = "51.05917000",
-                            Longitude = "-93.73568000"
-                        }
-
-                        new City
-                        {
-                            Id = 71,
-                            Name = "Gravenhurst",
-                            Latitude = "44.91681000",
-                            Longitude = "-79.36633000"
-                        }
-
-                        new City
-                        {
-                            Id = 72,
-                            Name = "Greater Napanee",
-                            Latitude = "44.25012000",
-                            Longitude = "-76.94944000"
-                        }
-
-                        new City
-                        {
-                            Id = 73,
-                            Name = "Greater Sudbury",
-                            Latitude = "46.49000000",
-                            Longitude = "-80.99001000"
-                        }
-
-                        new City
-                        {
-                            Id = 74,
-                            Name = "Greenstone",
-                            Latitude = "49.73343000",
-                            Longitude = "-87.16668000"
-                        }
-
-                        new City
-                        {
-                            Id = 75,
-                            Name = "Guelph",
-                            Latitude = "43.54594000",
-                            Longitude = "-80.25599000"
-                        }
-
-                        new City
-                        {
-                            Id = 76,
-                            Name = "Haldimand County",
-                            Latitude = "42.98341000",
-                            Longitude = "-79.86633000"
-                        }
-
-                        new City
-                        {
-                            Id = 77,
-                            Name = "Haliburton Village",
-                            Latitude = "45.05154000",
-                            Longitude = "-78.52245000"
-                        }
-
-                        new City
-                        {
-                            Id = 78,
-                            Name = "Halton",
-                            Latitude = "43.50011000",
-                            Longitude = "-79.88294000"
-                        }
-
-                        new City
-                        {
-                            Id = 79,
-                            Name = "Hamilton",
-                            Latitude = "43.25011000",
-                            Longitude = "-79.84963000"
-                        }
-
-                        new City
-                        {
-                            Id = 80,
-                            Name = "Hanover",
-                            Latitude = "44.15009000",
-                            Longitude = "-81.03303000"
-                        }
-
-                        new City
-                        {
-                            Id = 81,
-                            Name = "Harriston",
-                            Latitude = "43.90009000",
-                            Longitude = "-80.88302000"
-                        }
-
-                        new City
-                        {
-                            Id = 82,
-                            Name = "Hawkesbury",
-                            Latitude = "45.60009000",
-                            Longitude = "-74.61595000"
-                        }
-
-                        new City
-                        {
-                            Id = 83,
-                            Name = "Hearst",
-                            Latitude = "49.68351000",
-                            Longitude = "-83.66654000"
-                        }
-
-                        new City
-                        {
-                            Id = 84,
-                            Name = "Hornepayne",
-                            Latitude = "49.21451000",
-                            Longitude = "-84.77617000"
-                        }
-
-                        new City
-                        {
-                            Id = 85,
-                            Name = "Huntsville",
-                            Latitude = "45.33341000",
-                            Longitude = "-79.21632000"
-                        }
-
-                        new City
-                        {
-                            Id = 86,
-                            Name = "Huron East",
-                            Latitude = "43.61679000",
-                            Longitude = "-81.29975000"
-                        }
-
-                        new City
-                        {
-                            Id = 87,
-                            Name = "Ingersoll",
-                            Latitude = "43.03339000",
-                            Longitude = "-80.88302000"
-                        }
-
-                        new City
-                        {
-                            Id = 88,
-                            Name = "Innisfil",
-                            Latitude = "44.30011000",
-                            Longitude = "-79.64964000"
-                        }
-
-                        new City
-                        {
-                            Id = 89,
-                            Name = "Iroquois Falls",
-                            Latitude = "48.76688000",
-                            Longitude = "-80.68307000"
-                        }
-
-                        new City
-                        {
-                            Id = 90,
-                            Name = "Jarvis",
-                            Latitude = "42.88341000",
-                            Longitude = "-80.09965000"
-                        }
-
-                        new City
-                        {
-                            Id = 91,
-                            Name = "Kanata",
-                            Latitude = "45.30010000",
-                            Longitude = "-75.91606000"
-                        }
-
-                        new City
-                        {
-                            Id = 92,
-                            Name = "Kapuskasing",
-                            Latitude = "49.41694000",
-                            Longitude = "-82.43308000"
-                        }
-
-                        new City
-                        {
-                            Id = 93,
-                            Name = "Kawartha Lakes",
-                            Latitude = "44.58342000",
-                            Longitude = "-78.83288000"
-                        }
-
-                        new City
-                        {
-                            Id = 94,
-                            Name = "Kenora",
-                            Latitude = "49.76741000",
-                            Longitude = "-94.48985000"
-                        }
-
-                        new City
-                        {
-                            Id = 95,
-                            Name = "Keswick",
-                            Latitude = "44.25011000",
-                            Longitude = "-79.46632000"
-                        }
-
-                        new City
-                        {
-                            Id = 96,
-                            Name = "Kincardine",
-                            Latitude = "44.18339000",
-                            Longitude = "-81.63307000"
-                        }
-
-                        new City
-                        {
-                            Id = 97,
-                            Name = "King",
-                            Latitude = "43.96514000",
-                            Longitude = "-79.59011000"
-                        }
-
-                        new City
-                        {
-                            Id = 98,
-                            Name = "Kingston",
-                            Latitude = "44.22976000",
-                            Longitude = "-76.48098000"
-                        }
-
-                        new City
-                        {
-                            Id = 99,
-                            Name = "Kirkland Lake",
-                            Latitude = "48.14461000",
-                            Longitude = "-80.03767000"
-                        }
-
-                        new City
-                        {
-                            Id = 100,
-                            Name = "Kitchener",
-                            Latitude = "43.42537000",
-                            Longitude = "-80.51120000"
-                        },
-
-                        new City
-                        {
-                            Id = 101,
-                            Name = "L'Orignal",
-                            Latitude = "45.61980000",
-                            Longitude = "-74.69150000"
-                        },
-
-                        new City
-                        {
-                            Id = 102,
-                            Name = "Lakefield",
-                            Latitude = "44.43342000",
-                            Longitude = "-78.26623000"
-                        },
-
-                        new City
-                        {
-                            Id = 103,
-                            Name = "Lambton Shores",
-                            Latitude = "43.16678000",
-                            Longitude = "-81.93309000"
-                        },
-
-                        new City
-                        {
-                            Id = 104,
-                            Name = "Lappe",
-                            Latitude = "48.56680000",
-                            Longitude = "-89.35013000"
-                        },
-
-                        new City
-                        {
-                            Id = 105,
-                            Name = "Leamington",
-                            Latitude = "42.05009000",
-                            Longitude = "-82.59981000"
-                        },
-
-                        new City
-                        {
-                            Id = 106,
-                            Name = "Limoges",
-                            Latitude = "45.33340000",
-                            Longitude = "-75.24931000"
-                        },
-
-                        new City
-                        {
-                            Id = 107,
-                            Name = "Lindsay",
-                            Latitude = "44.35012000",
-                            Longitude = "-78.73286000"
-                        },
-
-                        new City
-                        {
-                            Id = 108,
-                            Name = "Listowel",
-                            Latitude = "43.73340000",
-                            Longitude = "-80.94973000"
-                        },
-
-                        new City
-                        {
-                            Id = 109,
-                            Name = "Little Current",
-                            Latitude = "45.97927000",
-                            Longitude = "-81.92480000"
-                        },
-
-                        new City
-                        {
-                            Id = 110,
-                            Name = "Lively",
-                            Latitude = "46.43338000",
-                            Longitude = "-81.14975000"
-                        },
-
-                        new City
-                        {
-                            Id = 111,
-                            Name = "London",
-                            Latitude = "42.98339000",
-                            Longitude = "-81.23304000"
-                        },
-
-                        new City
-                        {
-                            Id = 112,
-                            Name = "Lucan",
-                            Latitude = "43.18339000",
-                            Longitude = "-81.39976000"
-                        },
-
-                        new City
-                        {
-                            Id = 113,
-                            Name = "Madoc",
-                            Latitude = "44.50842000",
-                            Longitude = "-77.47448000"
-                        },
-
-                        new City
-                        {
-                            Id = 114,
-                            Name = "Manitoulin District",
-                            Latitude = "45.75007000",
-                            Longitude = "-82.49985000"
-                        },
-
-                        new City
-                        {
-                            Id = 115,
-                            Name = "Manitouwadge",
-                            Latitude = "49.12152000",
-                            Longitude = "-85.84030000"
-                        },
-
-                        new City
-                        {
-                            Id = 116,
-                            Name = "Marathon",
-                            Latitude = "48.75010000",
-                            Longitude = "-86.43322000"
-                        },
-
-                        new City
-                        {
-                            Id = 117,
-                            Name = "Markdale",
-                            Latitude = "44.31680000",
-                            Longitude = "-80.64971000"
-                        },
-
-                        new City
-                        {
-                            Id = 118,
-                            Name = "Markham",
-                            Latitude = "43.86682000",
-                            Longitude = "-79.26630000"
-                        },
-
-                        new City
-                        {
-                            Id = 119,
-                            Name = "Mattawa",
-                            Latitude = "46.31681000",
-                            Longitude = "-78.69957000"
-                        },
-
-                        new City
-                        {
-                            Id = 120,
-                            Name = "Meaford",
-                            Latitude = "44.60725000",
-                            Longitude = "-80.61081000"
-                        },
-
-                        new City
-                        {
-                            Id = 121,
-                            Name = "Metcalfe",
-                            Latitude = "45.23340000",
-                            Longitude = "-75.46603000"
-                        },
-
-                        new City
-                        {
-                            Id = 122,
-                            Name = "Midland",
-                            Latitude = "44.75010000",
-                            Longitude = "-79.88296000"
-                        },
-
-                        new City
-                        {
-                            Id = 123,
-                            Name = "Mildmay",
-                            Latitude = "44.05009000",
-                            Longitude = "-81.11644000"
-                        },
-
-                        new City
-                        {
-                            Id = 124,
-                            Name = "Millbrook",
-                            Latitude = "44.15012000",
-                            Longitude = "-78.44954000"
-                        },
-
-                        new City
-                        {
-                            Id = 125,
-                            Name = "Milton",
-                            Latitude = "43.51681000",
-                            Longitude = "-79.88294000"
-                        },
-
-                        new City
-                        {
-                            Id = 126,
-                            Name = "Mississauga",
-                            Latitude = "43.57890000",
-                            Longitude = "-79.65830000"
-                        },
-
-                        new City
-                        {
-                            Id = 127,
-                            Name = "Mississauga Beach",
-                            Latitude = "43.26682000",
-                            Longitude = "-79.08287000"
-                        },
-
-                        new City
-                        {
-                            Id = 128,
-                            Name = "Moose Factory",
-                            Latitude = "51.26689000",
-                            Longitude = "-80.61624000"
-                        },
-
-                        new City
-                        {
-                            Id = 129,
-                            Name = "Moosonee",
-                            Latitude = "51.27931000",
-                            Longitude = "-80.63450000"
-                        },
-
-                        new City
-                        {
-                            Id = 130,
-                            Name = "Morrisburg",
-                            Latitude = "44.90010000",
-                            Longitude = "-75.18261000"
-                        },
-
-                        new City
-                        {
-                            Id = 131,
-                            Name = "Mount Albert",
-                            Latitude = "44.13341000",
-                            Longitude = "-79.31630000"
-                        },
-
-                        new City
-                        {
-                            Id = 132,
-                            Name = "Mount Brydges",
-                            Latitude = "42.90009000",
-                            Longitude = "-81.48306000"
-                        },
-
-                        new City
-                        {
-                            Id = 133,
-                            Name = "Napanee",
-                            Latitude = "44.25012000",
-                            Longitude = "-76.94944000"
-                        },
-
-                        new City
-                        {
-                            Id = 134,
-                            Name = "Napanee Downtown",
-                            Latitude = "44.24832000",
-                            Longitude = "-76.95069000"
-                        },
-
-                        new City
-                        {
-                            Id = 135,
-                            Name = "Neebing",
-                            Latitude = "48.16680000",
-                            Longitude = "-89.41683000"
-                        },
-
-                        new City
-                        {
-                            Id = 136,
-                            Name = "Nepean",
-                            Latitude = "45.35215000",
-                            Longitude = "-75.73975000"
-                        },
-
-                        new City
-                        {
-                            Id = 137,
-                            Name = "New Hamburg",
-                            Latitude = "43.38339000",
-                            Longitude = "-80.69970000"
-                        },
-
-                        new City
-                        {
-                            Id = 138,
-                            Name = "Newmarket",
-                            Latitude = "44.05011000",
-                            Longitude = "-79.46631000"
-                        },
-
-                        new City
-                        {
-                            Id = 139,
-                            Name = "Niagara Falls",
-                            Latitude = "43.10012000",
-                            Longitude = "-79.06627000"
-                        },
-
-                        new City
-                        {
-                            Id = 140,
-                            Name = "Nipissing District",
-                            Latitude = "46.00010000",
-                            Longitude = "-78.99959000"
-                        },
-
-                        new City
-                        {
-                            Id = 141,
-                            Name = "Norfolk County",
-                            Latitude = "42.83340000",
-                            Longitude = "-80.38297000"
-                        },
-
-                        new City
-                        {
-                            Id = 142,
-                            Name = "North Bay",
-                            Latitude = "46.31680000",
-                            Longitude = "-79.46633000"
-                        },
-
-                        new City
-                        {
-                            Id = 143,
-                            Name = "North Perth",
-                            Latitude = "43.72510000",
-                            Longitude = "-80.96723000"
-                        },
-
-                        new City
-                        {
-                            Id = 144,
-                            Name = "North York",
-                            Latitude = "43.76681000",
-                            Longitude = "-79.41630000"
-                        },
-
-                        new City
-                        {
-                            Id = 145,
-                            Name = "Norwood",
-                            Latitude = "44.38342000",
-                            Longitude = "-77.98281000"
-                        },
-
-                        new City
-                        {
-                            Id = 146,
-                            Name = "Oakville",
-                            Latitude = "43.45011000",
-                            Longitude = "-79.68292000"
-                        },
-
-                        new City
-                        {
-                            Id = 147,
-                            Name = "Omemee",
-                            Latitude = "44.29897000",
-                            Longitude = "-78.55989000"
-                        },
-
-                        new City
-                        {
-                            Id = 148,
-                            Name = "Orangeville",
-                            Latitude = "43.91680000",
-                            Longitude = "-80.09967000"
-                        },
-
-                        new City
-                        {
-                            Id = 149,
-                            Name = "Orillia",
-                            Latitude = "44.60868000",
-                            Longitude = "-79.42068000"
-                        },
-
-                        new City
-                        {
-                            Id = 150,
-                            Name = "Osgoode",
-                            Latitude = "45.14887000",
-                            Longitude = "-75.59778000"
-                        },
-
-                        new City
-                        {
-                            Id = 151,
-                            Name = "Oshawa",
-                            Latitude = "43.90012000",
-                            Longitude = "-78.84957000"
-                        },
-
-                        new City
-                        {
-                            Id = 152,
-                            Name = "Ottawa",
-                            Latitude = "45.41117000",
-                            Longitude = "-75.69812000"
-                        },
-
-                        new City
-                        {
-                            Id = 153,
-                            Name = "Owen Sound",
-                            Latitude = "44.56717000",
-                            Longitude = "-80.94349000"
-                        },
-
-                        new City
-                        {
-                            Id = 154,
-                            Name = "Paisley",
-                            Latitude = "44.30641000",
-                            Longitude = "-81.27265000"
-                        },
-
-                        new City
-                        {
-                            Id = 155,
-                            Name = "Paris",
-                            Latitude = "43.20000000",
-                            Longitude = "-80.38333000"
-                        },
-
-                        new City
-                        {
-                            Id = 156,
-                            Name = "Parkhill",
-                            Latitude = "43.15993000",
-                            Longitude = "-81.68464000"
-                        },
-
-                        new City
-                        {
-                            Id = 157,
-                            Name = "Parry Sound",
-                            Latitude = "45.34732000",
-                            Longitude = "-80.03527000"
-                        },
-
-                        new City
-                        {
-                            Id = 158,
-                            Name = "Parry Sound District",
-                            Latitude = "45.75011000",
-                            Longitude = "-79.83297000"
-                        },
-
-                        new City
-                        {
-                            Id = 159,
-                            Name = "Peel",
-                            Latitude = "43.75011000",
-                            Longitude = "-79.78293000"
-                        },
-
-                        new City
-                        {
-                            Id = 160,
-                            Name = "Pembroke",
-                            Latitude = "45.81681000",
-                            Longitude = "-77.11616000"
-                        },
-
-                        new City
-                        {
-                            Id = 161,
-                            Name = "Perth",
-                            Latitude = "44.90011000",
-                            Longitude = "-76.24939000"
-                        },
-
-                        new City
-                        {
-                            Id = 162,
-                            Name = "Petawawa",
-                            Latitude = "45.89452000",
-                            Longitude = "-77.28007000"
-                        },
-
-                        new City
-                        {
-                            Id = 163,
-                            Name = "Peterborough",
-                            Latitude = "44.30012000",
-                            Longitude = "-78.31623000"
-                        },
-
-                        new City
-                        {
-                            Id = 164,
-                            Name = "Petrolia",
-                            Latitude = "42.86678000",
-                            Longitude = "-82.14981000"
-                        },
-
-                        new City
-                        {
-                            Id = 165,
-                            Name = "Pickering",
-                            Latitude = "43.90012000",
-                            Longitude = "-79.13289000"
-                        },
-
-                        new City
-                        {
-                            Id = 166,
-                            Name = "Picton",
-                            Latitude = "44.00012000",
-                            Longitude = "-77.13275000"
-                        },
-
-                        new City
-                        {
-                            Id = 167,
-                            Name = "Plantagenet",
-                            Latitude = "45.53260000",
-                            Longitude = "-74.99369000"
-                        },
-
-                        new City
-                        {
-                            Id = 168,
-                            Name = "Plattsville",
-                            Latitude = "43.30010000",
-                            Longitude = "-80.61639000"
-                        },
-
-                        new City
-                        {
-                            Id = 169,
-                            Name = "Port Colborne",
-                            Latitude = "42.90012000",
-                            Longitude = "-79.23288000"
-                        },
-
-                        new City
-                        {
-                            Id = 170,
-                            Name = "Port Hope",
-                            Latitude = "44.01682000",
-                            Longitude = "-78.39953000"
-                        },
-
-                        new City
-                        {
-                            Id = 171,
-                            Name = "Port Rowan",
-                            Latitude = "42.61680000",
-                            Longitude = "-80.46638000"
-                        },
-
-                        new City
-                        {
-                            Id = 172,
-                            Name = "Port Stanley",
-                            Latitude = "42.66679000",
-                            Longitude = "-81.21644000"
-                        },
-
-                        new City
-                        {
-                            Id = 173,
-                            Name = "Powassan",
-                            Latitude = "46.03340000",
-                            Longitude = "-79.34961000"
-                        },
-
-                        new City
-                        {
-                            Id = 174,
-                            Name = "Prescott",
-                            Latitude = "44.71681000",
-                            Longitude = "-75.51604000"
-                        },
-
-                        new City
-                        {
-                            Id = 175,
-                            Name = "Prince Edward",
-                            Latitude = "44.00012000",
-                            Longitude = "-77.24946000"
-                        },
-
-                        new City
-                        {
-                            Id = 176,
-                            Name = "Queenswood Heights",
-                            Latitude = "45.47083000",
-                            Longitude = "-75.50556000"
-                        },
-
-                        new City
-                        {
-                            Id = 177,
-                            Name = "Quinte West",
-                            Latitude = "44.18342000",
-                            Longitude = "-77.56618000"
-                        },
-
-                        new City
-                        {
-                            Id = 178,
-                            Name = "Rainy River District",
-                            Latitude = "48.49981000",
-                            Longitude = "-92.50031000"
-                        },
-
-                        new City
-                        {
-                            Id = 179,
-                            Name = "Rayside-Balfour",
-                            Latitude = "46.60873000",
-                            Longitude = "-81.20763000"
-                        },
-
-                        new City
-                        {
-                            Id = 180,
-                            Name = "Red Lake",
-                            Latitude = "51.01678000",
-                            Longitude = "-93.82736000"
-                        },
-
-                        new City
-                        {
-                            Id = 181,
-                            Name = "Regional Municipality of Waterloo",
-                            Latitude = "43.50010000",
-                            Longitude = "-80.49969000"
-                        },
-
-                        new City
-                        {
-                            Id = 182,
-                            Name = "Renfrew",
-                            Latitude = "45.46681000",
-                            Longitude = "-76.68272000"
-                        },
-
-                        new City
-                        {
-                            Id = 183,
-                            Name = "Richmond",
-                            Latitude = "45.18340000",
-                            Longitude = "-75.83266000"
-                        },
-
-                        new City
-                        {
-                            Id = 184,
-                            Name = "Richmond Hill",
-                            Latitude = "43.87111000",
-                            Longitude = "-79.43725000"
-                        },
-
-                        new City
-                        {
-                            Id = 185,
-                            Name = "Ridgetown",
-                            Latitude = "42.43339000",
-                            Longitude = "-81.89978000"
-                        },
-
-                        new City
-                        {
-                            Id = 186,
-                            Name = "Rockwood",
-                            Latitude = "43.61899000",
-                            Longitude = "-80.14441000"
-                        },
-
-                        new City
-                        {
-                            Id = 187,
-                            Name = "Russell",
-                            Latitude = "45.25010000",
-                            Longitude = "-75.36602000"
-                        },
-
-                        new City
-                        {
-                            Id = 188,
-                            Name = "Sarnia",
-                            Latitude = "42.97866000",
-                            Longitude = "-82.40407000"
-                        },
-
-                        new City
-                        {
-                            Id = 189,
-                            Name = "Sault Ste. Marie",
-                            Latitude = "46.51677000",
-                            Longitude = "-84.33325000"
-                        },
-
-                        new City
-                        {
-                            Id = 190,
-                            Name = "Scarborough",
-                            Latitude = "43.77223000",
-                            Longitude = "-79.25666000"
-                        },
-
-                        new City
-                        {
-                            Id = 191,
-                            Name = "Seaforth",
-                            Latitude = "43.55009000",
-                            Longitude = "-81.39976000"
-                        },
-
-                        new City
-                        {
-                            Id = 192,
-                            Name = "Shelburne",
-                            Latitude = "44.07870000",
-                            Longitude = "-80.20408000"
-                        },
-
-                        new City
-                        {
-                            Id = 193,
-                            Name = "Simcoe",
-                            Latitude = "42.83340000",
-                            Longitude = "-80.29967000"
-                        },
-
-                        new City
-                        {
-                            Id = 194,
-                            Name = "Sioux Lookout",
-                            Latitude = "50.06676000",
-                            Longitude = "-91.98358000"
-                        },
-
-                        new City
-                        {
-                            Id = 195,
-                            Name = "Skatepark",
-                            Latitude = "44.25122000",
-                            Longitude = "-76.94424000"
-                        },
-
-                        new City
-                        {
-                            Id = 196,
-                            Name = "Smiths Falls",
-                            Latitude = "44.90452000",
-                            Longitude = "-76.02333000"
-                        },
-
-                        new City
-                        {
-                            Id = 197,
-                            Name = "South Huron",
-                            Latitude = "43.31679000",
-                            Longitude = "-81.51647000"
-                        },
-
-                        new City
-                        {
-                            Id = 198,
-                            Name = "South River",
-                            Latitude = "45.83340000",
-                            Longitude = "-79.38293000"
-                        },
-
-                        new City
-                        {
-                            Id = 199,
-                            Name = "St. Catharines",
-                            Latitude = "43.17126000",
-                            Longitude = "-79.24267000"
-                        },
-
-                        new City
-                        {
-                            Id = 200,
-                            Name = "St. George",
-                            Latitude = "43.24495000",
-                            Longitude = "-80.25144000"
-                        },
-
-                        new City
-                        {
-                            Id = 201,
-                            Name = "St. Thomas",
-                            Latitude = "42.77361000",
-                            Longitude = "-81.18038000"
-                        },
-
-                        new City
-                        {
-                            Id = 202,
-                            Name = "Stirling",
-                            Latitude = "44.30012000",
-                            Longitude = "-77.54948000"
-                        },
-
-                        new City
-                        {
-                            Id = 203,
-                            Name = "Stoney Point",
-                            Latitude = "44.26681000",
-                            Longitude = "-79.53292000"
-                        },
-
-                        new City
-                        {
-                            Id = 204,
-                            Name = "Stratford",
-                            Latitude = "43.36679000",
-                            Longitude = "-80.94972000"
-                        },
-
-                        new City
-                        {
-                            Id = 205,
-                            Name = "Sudbury",
-                            Latitude = "47.16679000",
-                            Longitude = "-81.99980000"
-                        },
-
-                        new City
-                        {
-                            Id = 206,
-                            Name = "Tavistock",
-                            Latitude = "43.31679000",
-                            Longitude = "-80.83302000"
-                        },
-
-                        new City
-                        {
-                            Id = 207,
-                            Name = "Temiskaming Shores",
-                            Latitude = "47.49376000",
-                            Longitude = "-79.71529000"
-                        },
-
-                        new City
-                        {
-                            Id = 208,
-                            Name = "Thessalon",
-                            Latitude = "46.25006000",
-                            Longitude = "-83.56660000"
-                        },
-
-                        new City
-                        {
-                            Id = 209,
-                            Name = "Thornhill",
-                            Latitude = "43.81708480",
-                            Longitude = "-79.45011940"
-                        },
-
-                        new City
-                        {
-                            Id = 210,
-                            Name = "Thorold",
-                            Latitude = "43.11682000",
-                            Longitude = "-79.19958000"
-                        },
-
-                        new City
-                        {
-                            Id = 211,
-                            Name = "Thunder Bay",
-                            Latitude = "48.38202000",
-                            Longitude = "-89.25018000"
-                        },
-
-                        new City
-                        {
-                            Id = 212,
-                            Name = "Thunder Bay District",
-                            Latitude = "49.50011000",
-                            Longitude = "-88.50004000"
-                        },
-
-                        new City
-                        {
-                            Id = 213,
-                            Name = "Timiskaming District",
-                            Latitude = "47.75016000",
-                            Longitude = "-80.33303000"
-                        },
-
-                        new City
-                        {
-                            Id = 214,
-                            Name = "Timmins",
-                            Latitude = "48.46686000",
-                            Longitude = "-81.33312000"
-                        },
-
-                        new City
-                        {
-                            Id = 215,
-                            Name = "Tobermory",
-                            Latitude = "45.25007000",
-                            Longitude = "-81.66647000"
-                        },
-
-                        new City
-                        {
-                            Id = 216,
-                            Name = "Toronto",
-                            Latitude = "43.70011000",
-                            Longitude = "-79.41630000"
-                        },
-
-                        new City
-                        {
-                            Id = 217,
-                            Name = "Toronto county",
-                            Latitude = "43.69655000",
-                            Longitude = "-79.42909000"
-                        },
-
-                        new City
-                        {
-                            Id = 218,
-                            Name = "Tottenham",
-                            Latitude = "44.02437000",
-                            Longitude = "-79.80553000"
-                        },
-
-                        new City
-                        {
-                            Id = 219,
-                            Name = "Tweed",
-                            Latitude = "44.47512000",
-                            Longitude = "-77.31616000"
-                        },
-
-                        new City
-                        {
-                            Id = 220,
-                            Name = "Uxbridge",
-                            Latitude = "44.10012000",
-                            Longitude = "-79.11628000"
-                        },
-
-                        new City
-                        {
-                            Id = 221,
-                            Name = "Valley East",
-                            Latitude = "46.66773000",
-                            Longitude = "-81.00028000"
-                        },
-
-                        new City
-                        {
-                            Id = 222,
-                            Name = "Vanier",
-                            Latitude = "45.43990000",
-                            Longitude = "-75.66498000"
-                        },
-
-                        new City
-                        {
-                            Id = 223,
-                            Name = "Vaughan",
-                            Latitude = "43.83610000",
-                            Longitude = "-79.49827000"
-                        },
-
-                        new City
-                        {
-                            Id = 224,
-                            Name = "Vineland",
-                            Latitude = "43.15012000",
-                            Longitude = "-79.39960000"
-                        },
-
-                        new City
-                        {
-                            Id = 225,
-                            Name = "Virgil",
-                            Latitude = "43.21682000",
-                            Longitude = "-79.13288000"
-                        },
-
-                        new City
-                        {
-                            Id = 226,
-                            Name = "Walpole Island",
-                            Latitude = "42.61520000",
-                            Longitude = "-82.51398000"
-                        },
-
-                        new City
-                        {
-                            Id = 227,
-                            Name = "Wasaga Beach",
-                            Latitude = "44.51680000",
-                            Longitude = "-80.01637000"
-                        },
-
-                        new City
-                        {
-                            Id = 228,
-                            Name = "Waterford",
-                            Latitude = "42.93340000",
-                            Longitude = "-80.28296000"
-                        },
-
-                        new City
-                        {
-                            Id = 229,
-                            Name = "Waterloo",
-                            Latitude = "43.46680000",
-                            Longitude = "-80.51639000"
-                        },
-
-                        new City
-                        {
-                            Id = 230,
-                            Name = "Watford",
-                            Latitude = "42.95008000",
-                            Longitude = "-81.88309000"
-                        },
-
-                        new City
-                        {
-                            Id = 231,
-                            Name = "Wawa",
-                            Latitude = "47.98877000",
-                            Longitude = "-84.77411000"
-                        },
-
-                        new City
-                        {
-                            Id = 232,
-                            Name = "Welland",
-                            Latitude = "42.98342000",
-                            Longitude = "-79.24958000"
-                        },
-
-                        new City
-                        {
-                            Id = 233,
-                            Name = "Wellesley",
-                            Latitude = "43.47691000",
-                            Longitude = "-80.76209000"
-                        },
-
-                        new City
-                        {
-                            Id = 234,
-                            Name = "Wendover",
-                            Latitude = "45.57275000",
-                            Longitude = "-75.12757000"
-                        },
-
-                        new City
-                        {
-                            Id = 235,
-                            Name = "West Lorne",
-                            Latitude = "42.60009000",
-                            Longitude = "-81.59976000"
-                        },
-
-                        new City
-                        {
-                            Id = 236,
-                            Name = "Willowdale",
-                            Latitude = "43.76672000",
-                            Longitude = "-79.39909000"
-                        },
-
-                        new City
-                        {
-                            Id = 237,
-                            Name = "Winchester",
-                            Latitude = "45.08340000",
-                            Longitude = "-75.34933000"
-                        },
-
-                        new City
-                        {
-                            Id = 238,
-                            Name = "Windsor",
-                            Latitude = "42.30008000",
-                            Longitude = "-83.01654000"
-                        },
-
-                        new City
-                        {
-                            Id = 239,
-                            Name = "Wingham",
-                            Latitude = "43.88793000",
-                            Longitude = "-81.31145000"
-                        },
-
-                        new City
-                        {
-                            Id = 240,
-                            Name = "Woodstock",
-                            Latitude = "43.13339000",
-                            Longitude = "-80.74970000"
-                        },
-
-                        new City
-                        {
-                            Id = 241,
-                            Name = "York",
-                            Latitude = "44.00011000",
-                            Longitude = "-79.46632000"
-                        }
+                        new() { Id = 1, Name = "Ajax", Latitude = "43.85012000", Longitude = "-79.03288000" },
+                        new() { Id = 2, Name = "Algoma", Latitude = "47.88364000", Longitude = "-84.42406000" },
+                        new() { Id = 3, Name = "Alliston", Latitude = "44.15011000", Longitude = "-79.86635000" },
+                        new() { Id = 4, Name = "Amherstburg", Latitude = "42.10009000", Longitude = "-83.09985000" },
+                        new() { Id = 5, Name = "Amigo Beach", Latitude = "44.70011000", Longitude = "-79.39963000" },
+                        new() { Id = 6, Name = "Ancaster", Latitude = "43.21806000", Longitude = "-79.98716000" },
+                        new() { Id = 7, Name = "Angus", Latitude = "44.31681000", Longitude = "-79.88295000" },
+                        new() { Id = 8, Name = "Arnprior", Latitude = "45.43341000", Longitude = "-76.34939000" },
+                        new() { Id = 9, Name = "Atikokan", Latitude = "48.75667000", Longitude = "-91.62409000" },
+                        new() { Id = 10, Name = "Attawapiskat", Latitude = "52.92774000", Longitude = "-82.41669000" },
+                        new() { Id = 11, Name = "Aurora", Latitude = "44.00011000", Longitude = "-79.46632000" },
+                        new() { Id = 12, Name = "Aylmer", Latitude = "42.76679000", Longitude = "-80.98302000" },
+                        new() { Id = 13, Name = "Azilda", Latitude = "46.55008000", Longitude = "-81.09975000" },
+                        new() { Id = 14, Name = "Ballantrae", Latitude = "44.03342000", Longitude = "-79.29960000" },
+                        new() { Id = 15, Name = "Bancroft", Latitude = "45.05752000", Longitude = "-77.85702000" },
+                        new() { Id = 16, Name = "Barrie", Latitude = "44.40011000", Longitude = "-79.66634000" },
+                        new() { Id = 17, Name = "Bath", Latitude = "44.18342000", Longitude = "-76.78273000" },
+                        new() { Id = 18, Name = "Belleville", Latitude = "44.16682000", Longitude = "-77.38277000" },
+                        new() { Id = 19, Name = "Bells Corners", Latitude = "45.31588000", Longitude = "-75.83012000" },
+                        new() { Id = 20, Name = "Belmont", Latitude = "42.88339000", Longitude = "-81.08303000" },
+                        new() { Id = 21, Name = "Binbrook", Latitude = "43.12135000", Longitude = "-79.81104000" },
+                        new() { Id = 22, Name = "Bluewater", Latitude = "43.46679000", Longitude = "-81.59977000" },
+                        new() { Id = 23, Name = "Bourget", Latitude = "45.43340000", Longitude = "-75.14930000" },
+                        new() { Id = 24, Name = "Bracebridge", Latitude = "45.03341000", Longitude = "-79.31633000" },
+                        new() { Id = 25, Name = "Brampton", Latitude = "43.68341000", Longitude = "-79.76633000" },
+                        new() { Id = 26, Name = "Brant", Latitude = "43.13340000", Longitude = "-80.34967000" },
+                        new() { Id = 27, Name = "Brantford", Latitude = "43.13340000", Longitude = "-80.26636000" },
+                        new() { Id = 28, Name = "Brockville", Latitude = "44.59132000", Longitude = "-75.68705000" },
+                        new() { Id = 29, Name = "Brussels", Latitude = "43.73339000", Longitude = "-81.24975000" },
+                        new() { Id = 30, Name = "Burford", Latitude = "43.10292000", Longitude = "-80.42869000" },
+                        new() { Id = 31, Name = "Burlington", Latitude = "43.38621000", Longitude = "-79.83713000" },
+                        new() { Id = 32, Name = "Cambridge", Latitude = "43.36010000", Longitude = "-80.31269000" },
+                        new() { Id = 33, Name = "Camlachie", Latitude = "43.03596000", Longitude = "-82.16160000" },
+                        new() { Id = 34, Name = "Capreol", Latitude = "46.70626000", Longitude = "-80.92109000" },
+                        new() { Id = 35, Name = "Carleton Place", Latitude = "45.13341000", Longitude = "-76.14938000" },
+                        new() { Id = 36, Name = "Casselman", Latitude = "45.31680000", Longitude = "-75.08260000" },
+                        new() { Id = 37, Name = "Chatham", Latitude = "42.41224000", Longitude = "-82.18494000" },
+                        new() { Id = 38, Name = "Chatham-Kent", Latitude = "42.40009000", Longitude = "-82.18310000" },
+                        new() { Id = 39, Name = "Clarence-Rockland", Latitude = "45.55010000", Longitude = "-75.29101000" },
+                        new() { Id = 40, Name = "Cobourg", Latitude = "43.95977000", Longitude = "-78.16515000" },
+                        new() { Id = 41, Name = "Cochrane District", Latitude = "50.00022000", Longitude = "-82.99979000" },
+                        new() { Id = 42, Name = "Collingwood", Latitude = "44.48340000", Longitude = "-80.21638000" },
+                        new() { Id = 43, Name = "Concord", Latitude = "43.80011000", Longitude = "-79.48291000" },
+                        new() { Id = 44, Name = "Constance Bay", Latitude = "45.50011000", Longitude = "-76.08267000" },
+                        new() { Id = 45, Name = "Cookstown", Latitude = "44.18341000", Longitude = "-79.69964000" },
+                        new() { Id = 46, Name = "Cornwall", Latitude = "45.01809000", Longitude = "-74.72815000" },
+                        new() { Id = 47, Name = "Corunna", Latitude = "42.88338000", Longitude = "-82.43313000" },
+                        new() { Id = 48, Name = "Deep River", Latitude = "46.10012000", Longitude = "-77.49949000" },
+                        new() { Id = 49, Name = "Delaware", Latitude = "42.91679000", Longitude = "-81.41646000" },
+                        new() { Id = 50, Name = "Deseronto", Latitude = "44.20012000", Longitude = "-77.04944000" },
+                        new() { Id = 51, Name = "Dorchester", Latitude = "42.98339000", Longitude = "-81.06643000" },
+                        new() { Id = 52, Name = "Dowling", Latitude = "46.59111000", Longitude = "-81.33917000" },
+                        new() { Id = 53, Name = "Dryden", Latitude = "49.78334000", Longitude = "-92.75032000" },
+                        new() { Id = 54, Name = "Durham", Latitude = "44.20012000", Longitude = "-78.99957000" },
+                        new() { Id = 55, Name = "Ear Falls", Latitude = "50.63955000", Longitude = "-93.23526000" },
+                        new() { Id = 56, Name = "East Gwillimbury", Latitude = "44.10087000", Longitude = "-79.43785000" },
+                        new() { Id = 57, Name = "East York", Latitude = "43.69053000", Longitude = "-79.32794000" },
+                        new() { Id = 58, Name = "Elliot Lake", Latitude = "46.38336000", Longitude = "-82.63315000" },
+                        new() { Id = 59, Name = "Elmvale", Latitude = "44.58340000", Longitude = "-79.86636000" },
+                        new() { Id = 60, Name = "Englehart", Latitude = "47.81686000", Longitude = "-79.86640000" },
+                        new() { Id = 61, Name = "Espanola", Latitude = "46.25837000", Longitude = "-81.76649000" },
+                        new() { Id = 62, Name = "Essex", Latitude = "42.17509000", Longitude = "-82.82483000" },
+                        new() { Id = 63, Name = "Etobicoke", Latitude = "43.65421000", Longitude = "-79.56711000" },
+                        new() { Id = 64, Name = "Exeter", Latitude = "43.34358630", Longitude = "-81.49726020" },
+                        new() { Id = 65, Name = "Fort Erie", Latitude = "42.90012000", Longitude = "-78.93286000" },
+                        new() { Id = 66, Name = "Fort Frances", Latitude = "48.61667000", Longitude = "-93.40030000" },
+                        new() { Id = 67, Name = "Gananoque", Latitude = "44.33342000", Longitude = "-76.16607000" },
+                        new() { Id = 68, Name = "Glencoe", Latitude = "42.75009000", Longitude = "-81.71648000" },
+                        new() { Id = 69, Name = "Goderich", Latitude = "43.74171000", Longitude = "-81.71339000" },
+                        new() { Id = 70, Name = "Golden", Latitude = "51.05917000", Longitude = "-93.73568000" },
+                        new() { Id = 71, Name = "Gravenhurst", Latitude = "44.91681000", Longitude = "-79.36633000" },
+                        new() { Id = 72, Name = "Greater Napanee", Latitude = "44.25012000", Longitude = "-76.94944000" },
+                        new() { Id = 73, Name = "Greater Sudbury", Latitude = "46.49000000", Longitude = "-80.99001000" },
+                        new() { Id = 74, Name = "Greenstone", Latitude = "49.73343000", Longitude = "-87.16668000" },
+                        new() { Id = 75, Name = "Guelph", Latitude = "43.54594000", Longitude = "-80.25599000" },
+                        new() { Id = 76, Name = "Haldimand County", Latitude = "42.98341000", Longitude = "-79.86633000" },
+                        new() { Id = 77, Name = "Haliburton Village", Latitude = "45.05154000", Longitude = "-78.52245000" },
+                        new() { Id = 78, Name = "Halton", Latitude = "43.50011000", Longitude = "-79.88294000" },
+                        new() { Id = 79, Name = "Hamilton", Latitude = "43.25011000", Longitude = "-79.84963000" },
+                        new() { Id = 80, Name = "Hanover", Latitude = "44.15009000", Longitude = "-81.03303000" },
+                        new() { Id = 81, Name = "Harriston", Latitude = "43.90009000", Longitude = "-80.88302000" },
+                        new() { Id = 82, Name = "Hawkesbury", Latitude = "45.60009000", Longitude = "-74.61595000" },
+                        new() { Id = 83, Name = "Hearst", Latitude = "49.68351000", Longitude = "-83.66654000" },
+                        new() { Id = 84, Name = "Hornepayne", Latitude = "49.21451000", Longitude = "-84.77617000" },
+                        new() { Id = 85, Name = "Huntsville", Latitude = "45.33341000", Longitude = "-79.21632000" },
+                        new() { Id = 86, Name = "Huron East", Latitude = "43.61679000", Longitude = "-81.29975000" },
+                        new() { Id = 87, Name = "Ingersoll", Latitude = "43.03339000", Longitude = "-80.88302000" },
+                        new() { Id = 88, Name = "Innisfil", Latitude = "44.30011000", Longitude = "-79.64964000" },
+                        new() { Id = 89, Name = "Iroquois Falls", Latitude = "48.76688000", Longitude = "-80.68307000" },
+                        new() { Id = 90, Name = "Jarvis", Latitude = "42.88341000", Longitude = "-80.09965000" },
+                        new() { Id = 91, Name = "Kanata", Latitude = "45.30010000", Longitude = "-75.91606000" },
+                        new() { Id = 92, Name = "Kapuskasing", Latitude = "49.41694000", Longitude = "-82.43308000" },
+                        new() { Id = 93, Name = "Kawartha Lakes", Latitude = "44.58342000", Longitude = "-78.83288000" },
+                        new() { Id = 94, Name = "Kenora", Latitude = "49.76741000", Longitude = "-94.48985000" },
+                        new() { Id = 95, Name = "Keswick", Latitude = "44.25011000", Longitude = "-79.46632000" },
+                        new() { Id = 96, Name = "Kincardine", Latitude = "44.18339000", Longitude = "-81.63307000" },
+                        new() { Id = 97, Name = "King", Latitude = "43.96514000", Longitude = "-79.59011000" },
+                        new() { Id = 98, Name = "Kingston", Latitude = "44.22976000", Longitude = "-76.48098000" },
+                        new() { Id = 99, Name = "Kirkland Lake", Latitude = "48.14461000", Longitude = "-80.03767000" },
+                        new() { Id = 100, Name = "Kitchener", Latitude = "43.42537000", Longitude = "-80.51120000" },
+                        new() { Id = 101, Name = "L'Orignal", Latitude = "45.61980000", Longitude = "-74.69150000" },
+                        new() { Id = 102, Name = "Lakefield", Latitude = "44.43342000", Longitude = "-78.26623000" },
+                        new() { Id = 103, Name = "Lambton Shores", Latitude = "43.16678000", Longitude = "-81.93309000" },
+                        new() { Id = 104, Name = "Lappe", Latitude = "48.56680000", Longitude = "-89.35013000" },
+                        new() { Id = 105, Name = "Leamington", Latitude = "42.05009000", Longitude = "-82.59981000" },
+                        new() { Id = 106, Name = "Limoges", Latitude = "45.33340000", Longitude = "-75.24931000" },
+                        new() { Id = 107, Name = "Lindsay", Latitude = "44.35012000", Longitude = "-78.73286000" },
+                        new() { Id = 108, Name = "Listowel", Latitude = "43.73340000", Longitude = "-80.94973000" },
+                        new() { Id = 109, Name = "Little Current", Latitude = "45.97927000", Longitude = "-81.92480000" },
+                        new() { Id = 110, Name = "Lively", Latitude = "46.43338000", Longitude = "-81.14975000" },
+                        new() { Id = 111, Name = "London", Latitude = "42.98339000", Longitude = "-81.23304000" },
+                        new() { Id = 112, Name = "Lucan", Latitude = "43.18339000", Longitude = "-81.39976000" },
+                        new() { Id = 113, Name = "Madoc", Latitude = "44.50842000", Longitude = "-77.47448000" },
+                        new() { Id = 114, Name = "Manitoulin District", Latitude = "45.75007000", Longitude = "-82.49985000" },
+                        new() { Id = 115, Name = "Manitouwadge", Latitude = "49.12152000", Longitude = "-85.84030000" },
+                        new() { Id = 116, Name = "Marathon", Latitude = "48.75010000", Longitude = "-86.43322000" },
+                        new() { Id = 117, Name = "Markdale", Latitude = "44.31680000", Longitude = "-80.64971000" },
+                        new() { Id = 118, Name = "Markham", Latitude = "43.86682000", Longitude = "-79.26630000" },
+                        new() { Id = 119, Name = "Mattawa", Latitude = "46.31681000", Longitude = "-78.69957000" },
+                        new() { Id = 120, Name = "Meaford", Latitude = "44.60725000", Longitude = "-80.61081000" },
+                        new() { Id = 121, Name = "Metcalfe", Latitude = "45.23340000", Longitude = "-75.46603000" },
+                        new() { Id = 122, Name = "Midland", Latitude = "44.75010000", Longitude = "-79.88296000" },
+                        new() { Id = 123, Name = "Mildmay", Latitude = "44.05009000", Longitude = "-81.11644000" },
+                        new() { Id = 124, Name = "Millbrook", Latitude = "44.15012000", Longitude = "-78.44954000" },
+                        new() { Id = 125, Name = "Milton", Latitude = "43.51681000", Longitude = "-79.88294000" },
+                        new() { Id = 126, Name = "Mississauga", Latitude = "43.57890000", Longitude = "-79.65830000" },
+                        new() { Id = 127, Name = "Mississauga Beach", Latitude = "43.26682000", Longitude = "-79.08287000" },
+                        new() { Id = 128, Name = "Moose Factory", Latitude = "51.26689000", Longitude = "-80.61624000" },
+                        new() { Id = 129, Name = "Moosonee", Latitude = "51.27931000", Longitude = "-80.63450000" },
+                        new() { Id = 130, Name = "Morrisburg", Latitude = "44.90010000", Longitude = "-75.18261000" },
+                        new() { Id = 131, Name = "Mount Albert", Latitude = "44.13341000", Longitude = "-79.31630000" },
+                        new() { Id = 132, Name = "Mount Brydges", Latitude = "42.90009000", Longitude = "-81.48306000" },
+                        new() { Id = 133, Name = "Napanee", Latitude = "44.25012000", Longitude = "-76.94944000" },
+                        new() { Id = 134, Name = "Napanee Downtown", Latitude = "44.24832000", Longitude = "-76.95069000" },
+                        new() { Id = 135, Name = "Neebing", Latitude = "48.16680000", Longitude = "-89.41683000" },
+                        new() { Id = 136, Name = "Nepean", Latitude = "45.35215000", Longitude = "-75.73975000" },
+                        new() { Id = 137, Name = "New Hamburg", Latitude = "43.38339000", Longitude = "-80.69970000" },
+                        new() { Id = 138, Name = "Newmarket", Latitude = "44.05011000", Longitude = "-79.46631000" },
+                        new() { Id = 139, Name = "Niagara Falls", Latitude = "43.10012000", Longitude = "-79.06627000" },
+                        new() { Id = 140, Name = "Nipissing District", Latitude = "46.00010000", Longitude = "-78.99959000" },
+                        new() { Id = 141, Name = "Norfolk County", Latitude = "42.83340000", Longitude = "-80.38297000" },
+                        new() { Id = 142, Name = "North Bay", Latitude = "46.31680000", Longitude = "-79.46633000" },
+                        new() { Id = 143, Name = "North Perth", Latitude = "43.72510000", Longitude = "-80.96723000" },
+                        new() { Id = 144, Name = "North York", Latitude = "43.76681000", Longitude = "-79.41630000" },
+                        new() { Id = 145, Name = "Norwood", Latitude = "44.38342000", Longitude = "-77.98281000" },
+                        new() { Id = 146, Name = "Oakville", Latitude = "43.45011000", Longitude = "-79.68292000" },
+                        new() { Id = 147, Name = "Omemee", Latitude = "44.29897000", Longitude = "-78.55989000" },
+                        new() { Id = 148, Name = "Orangeville", Latitude = "43.91680000", Longitude = "-80.09967000" },
+                        new() { Id = 149, Name = "Orillia", Latitude = "44.60868000", Longitude = "-79.42068000" },
+                        new() { Id = 150, Name = "Osgoode", Latitude = "45.14887000", Longitude = "-75.59778000" },
+                        new() { Id = 151, Name = "Oshawa", Latitude = "43.90012000", Longitude = "-78.84957000" },
+                        new() { Id = 152, Name = "Ottawa", Latitude = "45.41117000", Longitude = "-75.69812000" },
+                        new() { Id = 153, Name = "Owen Sound", Latitude = "44.56717000", Longitude = "-80.94349000" },
+                        new() { Id = 154, Name = "Paisley", Latitude = "44.30641000", Longitude = "-81.27265000" },
+                        new() { Id = 155, Name = "Paris", Latitude = "43.20000000", Longitude = "-80.38333000" },
+                        new() { Id = 156, Name = "Parkhill", Latitude = "43.15993000", Longitude = "-81.68464000" },
+                        new() { Id = 157, Name = "Parry Sound", Latitude = "45.34732000", Longitude = "-80.03527000" },
+                        new() { Id = 158, Name = "Parry Sound District", Latitude = "45.75011000", Longitude = "-79.83297000" },
+                        new() { Id = 159, Name = "Peel", Latitude = "43.75011000", Longitude = "-79.78293000" },
+                        new() { Id = 160, Name = "Pembroke", Latitude = "45.81681000", Longitude = "-77.11616000" },
+                        new() { Id = 161, Name = "Perth", Latitude = "44.90011000", Longitude = "-76.24939000" },
+                        new() { Id = 162, Name = "Petawawa", Latitude = "45.89452000", Longitude = "-77.28007000" },
+                        new() { Id = 163, Name = "Peterborough", Latitude = "44.30012000", Longitude = "-78.31623000" },
+                        new() { Id = 164, Name = "Petrolia", Latitude = "42.86678000", Longitude = "-82.14981000" },
+                        new() { Id = 165, Name = "Pickering", Latitude = "43.90012000", Longitude = "-79.13289000" },
+                        new() { Id = 166, Name = "Picton", Latitude = "44.00012000", Longitude = "-77.13275000" },
+                        new() { Id = 167, Name = "Plantagenet", Latitude = "45.53260000", Longitude = "-74.99369000" },
+                        new() { Id = 168, Name = "Plattsville", Latitude = "43.30010000", Longitude = "-80.61639000" },
+                        new() { Id = 169, Name = "Port Colborne", Latitude = "42.90012000", Longitude = "-79.23288000" },
+                        new() { Id = 170, Name = "Port Hope", Latitude = "44.01682000", Longitude = "-78.39953000" },
+                        new() { Id = 171, Name = "Port Rowan", Latitude = "42.61680000", Longitude = "-80.46638000" },
+                        new() { Id = 172, Name = "Port Stanley", Latitude = "42.66679000", Longitude = "-81.21644000" },
+                        new() { Id = 173, Name = "Powassan", Latitude = "46.03340000", Longitude = "-79.34961000" },
+                        new() { Id = 174, Name = "Prescott", Latitude = "44.71681000", Longitude = "-75.51604000" },
+                        new() { Id = 175, Name = "Prince Edward", Latitude = "44.00012000", Longitude = "-77.24946000" },
+                        new() { Id = 176, Name = "Queenswood Heights", Latitude = "45.47083000", Longitude = "-75.50556000" },
+                        new() { Id = 177, Name = "Quinte West", Latitude = "44.18342000", Longitude = "-77.56618000" },
+                        new() { Id = 178, Name = "Rainy River District", Latitude = "48.49981000", Longitude = "-92.50031000" },
+                        new() { Id = 179, Name = "Rayside-Balfour", Latitude = "46.60873000", Longitude = "-81.20763000" },
+                        new() { Id = 180, Name = "Red Lake", Latitude = "51.01678000", Longitude = "-93.82736000" },
+                        new() { Id = 181, Name = "Regional Municipality of Waterloo", Latitude = "43.50010000", Longitude = "-80.49969000" },
+                        new() { Id = 182, Name = "Renfrew", Latitude = "45.46681000", Longitude = "-76.68272000" },
+                        new() { Id = 183, Name = "Richmond", Latitude = "45.18340000", Longitude = "-75.83266000" },
+                        new() { Id = 184, Name = "Richmond Hill", Latitude = "43.87111000", Longitude = "-79.43725000" },
+                        new() { Id = 185, Name = "Ridgetown", Latitude = "42.43339000", Longitude = "-81.89978000" },
+                        new() { Id = 186, Name = "Rockwood", Latitude = "43.61899000", Longitude = "-80.14441000" },
+                        new() { Id = 187, Name = "Russell", Latitude = "45.25010000", Longitude = "-75.36602000" },
+                        new() { Id = 188, Name = "Sarnia", Latitude = "42.97866000", Longitude = "-82.40407000" },
+                        new() { Id = 189, Name = "Sault Ste. Marie", Latitude = "46.51677000", Longitude = "-84.33325000" },
+                        new() { Id = 190, Name = "Scarborough", Latitude = "43.77223000", Longitude = "-79.25666000" },
+                        new() { Id = 191, Name = "Seaforth", Latitude = "43.55009000", Longitude = "-81.39976000" },
+                        new() { Id = 192, Name = "Shelburne", Latitude = "44.07870000", Longitude = "-80.20408000" },
+                        new() { Id = 193, Name = "Simcoe", Latitude = "42.83340000", Longitude = "-80.29967000" },
+                        new() { Id = 194, Name = "Sioux Lookout", Latitude = "50.06676000", Longitude = "-91.98358000" },
+                        new() { Id = 195, Name = "Skatepark", Latitude = "44.25122000", Longitude = "-76.94424000" },
+                        new() { Id = 196, Name = "Smiths Falls", Latitude = "44.90452000", Longitude = "-76.02333000" },
+                        new() { Id = 197, Name = "South Huron", Latitude = "43.31679000", Longitude = "-81.51647000" },
+                        new() { Id = 198, Name = "South River", Latitude = "45.83340000", Longitude = "-79.38293000" },
+                        new() { Id = 199, Name = "St. Catharines", Latitude = "43.17126000", Longitude = "-79.24267000" },
+                        new() { Id = 200, Name = "St. George", Latitude = "43.24495000", Longitude = "-80.25144000" },
+                        new() { Id = 201, Name = "St. Thomas", Latitude = "42.77361000", Longitude = "-81.18038000" },
+                        new() { Id = 202, Name = "Stirling", Latitude = "44.30012000", Longitude = "-77.54948000" },
+                        new() { Id = 203, Name = "Stoney Point", Latitude = "44.26681000", Longitude = "-79.53292000" },
+                        new() { Id = 204, Name = "Stratford", Latitude = "43.36679000", Longitude = "-80.94972000" },
+                        new() { Id = 205, Name = "Sudbury", Latitude = "47.16679000", Longitude = "-81.99980000" },
+                        new() { Id = 206, Name = "Tavistock", Latitude = "43.31679000", Longitude = "-80.83302000" },
+                        new() { Id = 207, Name = "Temiskaming Shores", Latitude = "47.49376000", Longitude = "-79.71529000" },
+                        new() { Id = 208, Name = "Thessalon", Latitude = "46.25006000", Longitude = "-83.56660000" },
+                        new() { Id = 209, Name = "Thornhill", Latitude = "43.81708480", Longitude = "-79.45011940" },
+                        new() { Id = 210, Name = "Thorold", Latitude = "43.11682000", Longitude = "-79.19958000" },
+                        new() { Id = 211, Name = "Thunder Bay", Latitude = "48.38202000", Longitude = "-89.25018000" },
+                        new() { Id = 212, Name = "Thunder Bay District", Latitude = "49.50011000", Longitude = "-88.50004000" },
+                        new() { Id = 213, Name = "Timiskaming District", Latitude = "47.75016000", Longitude = "-80.33303000" },
+                        new() { Id = 214, Name = "Timmins", Latitude = "48.46686000", Longitude = "-81.33312000" },
+                        new() { Id = 215, Name = "Tobermory", Latitude = "45.25007000", Longitude = "-81.66647000" },
+                        new() { Id = 216, Name = "Toronto", Latitude = "43.70011000", Longitude = "-79.41630000" },
+                        new() { Id = 217, Name = "Toronto county", Latitude = "43.69655000", Longitude = "-79.42909000" },
+                        new() { Id = 218, Name = "Tottenham", Latitude = "44.02437000", Longitude = "-79.80553000" },
+                        new() { Id = 219, Name = "Tweed", Latitude = "44.47512000", Longitude = "-77.31616000" },
+                        new() { Id = 220, Name = "Uxbridge", Latitude = "44.10012000", Longitude = "-79.11628000" },
+                        new() { Id = 221, Name = "Valley East", Latitude = "46.66773000", Longitude = "-81.00028000" },
+                        new() { Id = 222, Name = "Vanier", Latitude = "45.43990000", Longitude = "-75.66498000" },
+                        new() { Id = 223, Name = "Vaughan", Latitude = "43.83610000", Longitude = "-79.49827000" },
+                        new() { Id = 224, Name = "Vineland", Latitude = "43.15012000", Longitude = "-79.39960000" },
+                        new() { Id = 225, Name = "Virgil", Latitude = "43.21682000", Longitude = "-79.13288000" },
+                        new() { Id = 226, Name = "Walpole Island", Latitude = "42.61520000", Longitude = "-82.51398000" },
+                        new() { Id = 227, Name = "Wasaga Beach", Latitude = "44.51680000", Longitude = "-80.01637000" },
+                        new() { Id = 228, Name = "Waterford", Latitude = "42.93340000", Longitude = "-80.28296000" },
+                        new() { Id = 229, Name = "Waterloo", Latitude = "43.46680000", Longitude = "-80.51639000" },
+                        new() { Id = 230, Name = "Watford", Latitude = "42.95008000", Longitude = "-81.88309000" },
+                        new() { Id = 231, Name = "Wawa", Latitude = "47.98877000", Longitude = "-84.77411000" },
+                        new() { Id = 232, Name = "Welland", Latitude = "42.98342000", Longitude = "-79.24958000" },
+                        new() { Id = 233, Name = "Wellesley", Latitude = "43.47691000", Longitude = "-80.76209000" },
+                        new() { Id = 234, Name = "Wendover", Latitude = "45.57275000", Longitude = "-75.12757000" },
+                        new() { Id = 235, Name = "West Lorne", Latitude = "42.60009000", Longitude = "-81.59976000" },
+                        new() { Id = 236, Name = "Willowdale", Latitude = "43.76672000", Longitude = "-79.39909000" },
+                        new() { Id = 237, Name = "Winchester", Latitude = "45.08340000", Longitude = "-75.34933000" },
+                        new() { Id = 238, Name = "Windsor", Latitude = "42.30008000", Longitude = "-83.01654000" },
+                        new() { Id = 239, Name = "Wingham", Latitude = "43.88793000", Longitude = "-81.31145000" },
+                        new() { Id = 240, Name = "Woodstock", Latitude = "43.13339000", Longitude = "-80.74970000" },
+                        new() { Id = 241, Name = "York", Latitude = "44.00011000", Longitude = "-79.46632000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 10,
                     Name = "Prince Edward Island",
@@ -5710,84 +873,21 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.51071200",
                     Longitude = "-63.41681360",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Alberton",
-                            Latitude = "46.81685000",
-                            Longitude = "-64.06542000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Belfast",
-                            Latitude = "46.08341000",
-                            Longitude = "-62.88197000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Charlottetown",
-                            Latitude = "46.23899000",
-                            Longitude = "-63.13414000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Cornwall",
-                            Latitude = "46.22652000",
-                            Longitude = "-63.21809000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Fallingbrook",
-                            Latitude = "45.47558000",
-                            Longitude = "-75.48401000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Kensington",
-                            Latitude = "46.43343000",
-                            Longitude = "-63.64871000"
-                        },
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Montague",
-                            Latitude = "46.16681000",
-                            Longitude = "-62.64866000"
-                        },
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Souris",
-                            Latitude = "46.35010000",
-                            Longitude = "-62.24862000"
-                        },
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Summerside",
-                            Latitude = "46.39593000",
-                            Longitude = "-63.78762000"
-                        }
+                        new() { Id = 1, Name = "Alberton", Latitude = "46.81685000", Longitude = "-64.06542000" },
+                        new() { Id = 2, Name = "Belfast", Latitude = "46.08341000", Longitude = "-62.88197000" },
+                        new() { Id = 3, Name = "Charlottetown", Latitude = "46.23899000", Longitude = "-63.13414000" },
+                        new() { Id = 4, Name = "Cornwall", Latitude = "46.22652000", Longitude = "-63.21809000" },
+                        new() { Id = 5, Name = "Fallingbrook", Latitude = "45.47558000", Longitude = "-75.48401000" },
+                        new() { Id = 6, Name = "Kensington", Latitude = "46.43343000", Longitude = "-63.64871000" },
+                        new() { Id = 7, Name = "Montague", Latitude = "46.16681000", Longitude = "-62.64866000" },
+                        new() { Id = 8, Name = "Souris", Latitude = "46.35010000", Longitude = "-62.24862000" },
+                        new() { Id = 9, Name = "Summerside", Latitude = "46.39593000", Longitude = "-63.78762000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 11,
                     Name = "Quebec",
@@ -5795,2820 +895,363 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.93991590",
                     Longitude = "-73.54913610",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Abitibi-Témiscamingue",
-                            Latitude = "48.10018000",
-                            Longitude = "-77.78280000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Acton Vale",
-                            Latitude = "45.65007000",
-                            Longitude = "-72.56582000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Adstock",
-                            Latitude = "46.05007000",
-                            Longitude = "-71.08235000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Albanel",
-                            Latitude = "48.88324000",
-                            Longitude = "-72.44867000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Alma",
-                            Latitude = "48.55009000",
-                            Longitude = "-71.64910000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Amos",
-                            Latitude = "48.56688000",
-                            Longitude = "-78.11624000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Amqui",
-                            Latitude = "48.46382000",
-                            Longitude = "-67.43134000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Ange-Gardien",
-                            Latitude = "45.35008000",
-                            Longitude = "-72.93244000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Asbestos",
-                            Latitude = "45.76678000",
-                            Longitude = "-71.93240000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Baie-Comeau",
-                            Latitude = "49.21679000",
-                            Longitude = "-68.14894000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Baie-D'Urfé",
-                            Latitude = "45.41397000",
-                            Longitude = "-73.91586000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Baie-Saint-Paul",
-                            Latitude = "47.44109000",
-                            Longitude = "-70.49858000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Barraute",
-                            Latitude = "48.43349000",
-                            Longitude = "-77.63279000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Bas-Saint-Laurent",
-                            Latitude = "48.05030000",
-                            Longitude = "-68.02266000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Beaconsfield",
-                            Latitude = "45.43341000",
-                            Longitude = "-73.86586000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Beauceville",
-                            Latitude = "46.21785000",
-                            Longitude = "-70.77873000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Beauharnois",
-                            Latitude = "45.31341000",
-                            Longitude = "-73.87250000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Beaupré",
-                            Latitude = "47.04428000",
-                            Longitude = "-70.89529000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Bécancour",
-                            Latitude = "46.34106000",
-                            Longitude = "-72.43224000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Bedford",
-                            Latitude = "45.11678000",
-                            Longitude = "-72.98244000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Beloeil",
-                            Latitude = "45.56839000",
-                            Longitude = "-73.20568000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Berthierville",
-                            Latitude = "46.08336000",
-                            Longitude = "-73.18245000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Blainville",
-                            Latitude = "45.66678000",
-                            Longitude = "-73.88249000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Bois-des-Filion",
-                            Latitude = "45.66678000",
-                            Longitude = "-73.74918000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Boisbriand",
-                            Latitude = "45.61678000",
-                            Longitude = "-73.83249000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Bonaventure",
-                            Latitude = "48.04573000",
-                            Longitude = "-65.49259000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Boucherville",
-                            Latitude = "45.59104000",
-                            Longitude = "-73.43605000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Breakeyville",
-                            Latitude = "46.68037000",
-                            Longitude = "-71.22327000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Bromont",
-                            Latitude = "45.31678000",
-                            Longitude = "-72.64912000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Brossard",
-                            Latitude = "45.45008000",
-                            Longitude = "-73.46583000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Brownsburg-Chatham",
-                            Latitude = "45.68342000",
-                            Longitude = "-74.41590000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Buckingham",
-                            Latitude = "45.58563000",
-                            Longitude = "-75.42080000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Cabano",
-                            Latitude = "47.68065000",
-                            Longitude = "-68.87810000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Cacouna",
-                            Latitude = "47.91657000",
-                            Longitude = "-69.50054000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Candiac",
-                            Latitude = "45.38338000",
-                            Longitude = "-73.51587000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Cantley",
-                            Latitude = "45.56680000",
-                            Longitude = "-75.78265000"
-                        }
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Cap-Chat",
-                            Latitude = "49.10009000",
-                            Longitude = "-66.68212000"
-                        }
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Cap-Santé",
-                            Latitude = "46.67159000",
-                            Longitude = "-71.78812000"
-                        }
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Capitale-Nationale",
-                            Latitude = "47.37600000",
-                            Longitude = "-71.12337000"
-                        }
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Carignan",
-                            Latitude = "45.45008000",
-                            Longitude = "-73.29916000"
-                        }
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Carleton",
-                            Latitude = "48.09838000",
-                            Longitude = "-66.10036000"
-                        }
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Carleton-sur-Mer",
-                            Latitude = "48.10749000",
-                            Longitude = "-66.12800000"
-                        }
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Centre-du-Québec",
-                            Latitude = "46.01985000",
-                            Longitude = "-71.98242000"
-                        }
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "Chambly",
-                            Latitude = "45.45008000",
-                            Longitude = "-73.28246000"
-                        }
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "Chambord",
-                            Latitude = "48.43339000",
-                            Longitude = "-72.06583000"
-                        }
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "Chandler",
-                            Latitude = "48.34935000",
-                            Longitude = "-64.67926000"
-                        }
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "Chapais",
-                            Latitude = "49.78344000",
-                            Longitude = "-74.84919000"
-                        }
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "Charlemagne",
-                            Latitude = "45.71678000",
-                            Longitude = "-73.48247000"
-                        }
-
-                        new City
-                        {
-                            Id = 49,
-                            Name = "Château-Richer",
-                            Latitude = "46.96031000",
-                            Longitude = "-71.03219000"
-                        }
-
-                        new City
-                        {
-                            Id = 50,
-                            Name = "Châteauguay",
-                            Latitude = "45.38338000",
-                            Longitude = "-73.74919000"
-                        }
-
-                        new City
-                        {
-                            Id = 51,
-                            Name = "Chaudière-Appalaches",
-                            Latitude = "46.55500000",
-                            Longitude = "-70.83080000"
-                        }
-
-                        new City
-                        {
-                            Id = 52,
-                            Name = "Chertsey",
-                            Latitude = "46.07109000",
-                            Longitude = "-73.89095000"
-                        }
-
-                        new City
-                        {
-                            Id = 53,
-                            Name = "Chibougamau",
-                            Latitude = "49.91684000",
-                            Longitude = "-74.36586000"
-                        }
-
-                        new City
-                        {
-                            Id = 54,
-                            Name = "Chute-aux-Outardes",
-                            Latitude = "49.11679000",
-                            Longitude = "-68.39896000"
-                        }
-
-                        new City
-                        {
-                            Id = 55,
-                            Name = "Coaticook",
-                            Latitude = "45.13339000",
-                            Longitude = "-71.79907000"
-                        }
-
-                        new City
-                        {
-                            Id = 56,
-                            Name = "Contrecoeur",
-                            Latitude = "45.85008000",
-                            Longitude = "-73.23245000"
-                        }
-
-                        new City
-                        {
-                            Id = 57,
-                            Name = "Cookshire",
-                            Latitude = "45.41536000",
-                            Longitude = "-71.62962000"
-                        }
-
-                        new City
-                        {
-                            Id = 58,
-                            Name = "Cookshire-Eaton",
-                            Latitude = "45.41675000",
-                            Longitude = "-71.63240000"
-                        }
-
-                        new City
-                        {
-                            Id = 59,
-                            Name = "Côte-Nord",
-                            Latitude = "50.86683000",
-                            Longitude = "-65.81541000"
-                        }
-
-                        new City
-                        {
-                            Id = 60,
-                            Name = "Côte-Saint-Luc",
-                            Latitude = "45.46536000",
-                            Longitude = "-73.66585000"
-                        }
-
-                        new City
-                        {
-                            Id = 61,
-                            Name = "Coteau-du-Lac",
-                            Latitude = "45.30008000",
-                            Longitude = "-74.18253000"
-                        }
-
-                        new City
-                        {
-                            Id = 62,
-                            Name = "Cowansville",
-                            Latitude = "45.20008000",
-                            Longitude = "-72.74913000"
-                        }
-
-                        new City
-                        {
-                            Id = 63,
-                            Name = "Crabtree",
-                            Latitude = "45.96677000",
-                            Longitude = "-73.46586000"
-                        }
-
-                        new City
-                        {
-                            Id = 64,
-                            Name = "Danville",
-                            Latitude = "45.78337000",
-                            Longitude = "-72.01580000"
-                        }
-
-                        new City
-                        {
-                            Id = 65,
-                            Name = "Daveluyville",
-                            Latitude = "46.20006000",
-                            Longitude = "-72.13239000"
-                        }
-
-                        new City
-                        {
-                            Id = 66,
-                            Name = "Delson",
-                            Latitude = "45.36678000",
-                            Longitude = "-73.54917000"
-                        }
-
-                        new City
-                        {
-                            Id = 67,
-                            Name = "Deux-Montagnes",
-                            Latitude = "45.53455000",
-                            Longitude = "-73.90168000"
-                        }
-
-                        new City
-                        {
-                            Id = 68,
-                            Name = "Disraeli",
-                            Latitude = "45.90007000",
-                            Longitude = "-71.34907000"
-                        }
-
-                        new City
-                        {
-                            Id = 69,
-                            Name = "Dolbeau-Mistassini",
-                            Latitude = "48.87860000",
-                            Longitude = "-72.23142000"
-                        }
-
-                        new City
-                        {
-                            Id = 70,
-                            Name = "Dollard-Des Ormeaux",
-                            Latitude = "45.49452000",
-                            Longitude = "-73.82419000"
-                        }
-
-                        new City
-                        {
-                            Id = 71,
-                            Name = "Donnacona",
-                            Latitude = "46.68042000",
-                            Longitude = "-71.72390000"
-                        }
-
-                        new City
-                        {
-                            Id = 72,
-                            Name = "Dorval",
-                            Latitude = "45.44730000",
-                            Longitude = "-73.75335000"
-                        }
-
-                        new City
-                        {
-                            Id = 73,
-                            Name = "Drummondville",
-                            Latitude = "45.88336000",
-                            Longitude = "-72.48241000"
-                        }
-
-                        new City
-                        {
-                            Id = 74,
-                            Name = "Dunham",
-                            Latitude = "45.13338000",
-                            Longitude = "-72.79913000"
-                        }
-
-                        new City
-                        {
-                            Id = 75,
-                            Name = "East Angus",
-                            Latitude = "45.48338000",
-                            Longitude = "-71.66577000"
-                        }
-
-                        new City
-                        {
-                            Id = 76,
-                            Name = "East Broughton",
-                            Latitude = "46.21358000",
-                            Longitude = "-71.07674000"
-                        }
-
-                        new City
-                        {
-                            Id = 77,
-                            Name = "Farnham",
-                            Latitude = "45.28338000",
-                            Longitude = "-72.98244000"
-                        }
-
-                        new City
-                        {
-                            Id = 78,
-                            Name = "Ferme-Neuve",
-                            Latitude = "46.70011000",
-                            Longitude = "-75.44929000"
-                        }
-
-                        new City
-                        {
-                            Id = 79,
-                            Name = "Fermont",
-                            Latitude = "52.78345000",
-                            Longitude = "-67.08204000"
-                        }
-
-                        new City
-                        {
-                            Id = 80,
-                            Name = "Forestville",
-                            Latitude = "48.73808000",
-                            Longitude = "-69.08478000"
-                        }
-
-                        new City
-                        {
-                            Id = 81,
-                            Name = "Fort-Coulonge",
-                            Latitude = "45.85011000",
-                            Longitude = "-76.73272000"
-                        }
-
-                        new City
-                        {
-                            Id = 82,
-                            Name = "Fossambault-sur-le-Lac",
-                            Latitude = "46.87662000",
-                            Longitude = "-71.61541000"
-                        }
-
-                        new City
-                        {
-                            Id = 83,
-                            Name = "Franklin",
-                            Latitude = "45.03338000",
-                            Longitude = "-73.91591000"
-                        }
-
-                        new City
-                        {
-                            Id = 84,
-                            Name = "Gaspé",
-                            Latitude = "48.83341000",
-                            Longitude = "-64.48194000"
-                        }
-
-                        new City
-                        {
-                            Id = 85,
-                            Name = "Gaspésie-Îles-de-la-Madeleine",
-                            Latitude = "48.87555000",
-                            Longitude = "-65.40710000"
-                        }
-
-                        new City
-                        {
-                            Id = 86,
-                            Name = "Gatineau",
-                            Latitude = "45.47723000",
-                            Longitude = "-75.70164000"
-                        }
-
-                        new City
-                        {
-                            Id = 87,
-                            Name = "Godefroy",
-                            Latitude = "51.75012000",
-                            Longitude = "-68.08213000"
-                        }
-
-                        new City
-                        {
-                            Id = 88,
-                            Name = "Granby",
-                            Latitude = "45.40008000",
-                            Longitude = "-72.73243000"
-                        }
-
-                        new City
-                        {
-                            Id = 89,
-                            Name = "Hampstead",
-                            Latitude = "45.48064000",
-                            Longitude = "-73.66307000"
-                        }
-
-                        new City
-                        {
-                            Id = 90,
-                            Name = "Hauterive",
-                            Latitude = "49.19572000",
-                            Longitude = "-68.25813000"
-                        }
-
-                        new City
-                        {
-                            Id = 91,
-                            Name = "Havre-Saint-Pierre",
-                            Latitude = "50.24342000",
-                            Longitude = "-63.60264000"
-                        }
-
-                        new City
-                        {
-                            Id = 92,
-                            Name = "Hérouxville",
-                            Latitude = "46.66617000",
-                            Longitude = "-72.62512000"
-                        }
-
-                        new City
-                        {
-                            Id = 93,
-                            Name = "Hudson",
-                            Latitude = "45.45008000",
-                            Longitude = "-74.14922000"
-                        }
-
-                        new City
-                        {
-                            Id = 94,
-                            Name = "Huntingdon",
-                            Latitude = "45.08339000",
-                            Longitude = "-74.16593000"
-                        }
-
-                        new City
-                        {
-                            Id = 95,
-                            Name = "Joliette",
-                            Latitude = "46.01640000",
-                            Longitude = "-73.42360000"
-                        }
-
-                        new City
-                        {
-                            Id = 96,
-                            Name = "Jonquière",
-                            Latitude = "48.41648000",
-                            Longitude = "-71.24884000"
-                        }
-
-                        new City
-                        {
-                            Id = 97,
-                            Name = "Kingsey Falls",
-                            Latitude = "45.85007000",
-                            Longitude = "-72.06580000"
-                        }
-
-                        new City
-                        {
-                            Id = 98,
-                            Name = "Kirkland",
-                            Latitude = "45.45008000",
-                            Longitude = "-73.86586000"
-                        }
-
-                        new City
-                        {
-                            Id = 99,
-                            Name = "L'Ancienne-Lorette",
-                            Latitude = "46.79392000",
-                            Longitude = "-71.35191000"
-                        }
-
-                        new City
-                        {
-                            Id = 100,
-                            Name = "L'Ange-Gardien",
-                            Latitude = "46.91976000",
-                            Longitude = "-71.08253000"
-                        },
-
-                        new City
-                        {
-                            Id = 101,
-                            Name = "L'Ascension-de-Notre-Seigneur",
-                            Latitude = "48.68339000",
-                            Longitude = "-71.66580000"
-                        },
-
-                        new City
-                        {
-                            Id = 102,
-                            Name = "L'Assomption",
-                            Latitude = "45.82318000",
-                            Longitude = "-73.42940000"
-                        },
-
-                        new City
-                        {
-                            Id = 103,
-                            Name = "L'Épiphanie",
-                            Latitude = "45.85008000",
-                            Longitude = "-73.48246000"
-                        },
-
-                        new City
-                        {
-                            Id = 104,
-                            Name = "L'Île-Perrot",
-                            Latitude = "45.38338000",
-                            Longitude = "-73.94920000"
-                        },
-
-                        new City
-                        {
-                            Id = 105,
-                            Name = "La Conception",
-                            Latitude = "46.15009000",
-                            Longitude = "-74.69925000"
-                        },
-
-                        new City
-                        {
-                            Id = 106,
-                            Name = "La Haute-Saint-Charles",
-                            Latitude = "46.89028000",
-                            Longitude = "-71.37222000"
-                        },
-
-                        new City
-                        {
-                            Id = 107,
-                            Name = "La Malbaie",
-                            Latitude = "47.65400000",
-                            Longitude = "-70.15268000"
-                        },
-
-                        new City
-                        {
-                            Id = 108,
-                            Name = "La Minerve",
-                            Latitude = "46.25009000",
-                            Longitude = "-74.93257000"
-                        },
-
-                        new City
-                        {
-                            Id = 109,
-                            Name = "La Pocatière",
-                            Latitude = "47.36733000",
-                            Longitude = "-70.03484000"
-                        },
-
-                        new City
-                        {
-                            Id = 110,
-                            Name = "La Prairie",
-                            Latitude = "45.41678000",
-                            Longitude = "-73.49917000"
-                        },
-
-                        new City
-                        {
-                            Id = 111,
-                            Name = "La Sarre",
-                            Latitude = "48.80019000",
-                            Longitude = "-79.19964000"
-                        },
-
-                        new City
-                        {
-                            Id = 112,
-                            Name = "La Tuque",
-                            Latitude = "47.43337000",
-                            Longitude = "-72.78240000"
-                        },
-
-                        new City
-                        {
-                            Id = 113,
-                            Name = "Labelle",
-                            Latitude = "46.28339000",
-                            Longitude = "-74.73255000"
-                        },
-
-                        new City
-                        {
-                            Id = 114,
-                            Name = "Lac-Alouette",
-                            Latitude = "45.81698000",
-                            Longitude = "-73.95920000"
-                        },
-
-                        new City
-                        {
-                            Id = 115,
-                            Name = "Lac-Brome",
-                            Latitude = "45.21678000",
-                            Longitude = "-72.51581000"
-                        },
-
-                        new City
-                        {
-                            Id = 116,
-                            Name = "Lac-Connelly",
-                            Latitude = "45.89788000",
-                            Longitude = "-73.97230000"
-                        },
-
-                        new City
-                        {
-                            Id = 117,
-                            Name = "Lac-Lapierre",
-                            Latitude = "45.89837000",
-                            Longitude = "-73.77308000"
-                        },
-
-                        new City
-                        {
-                            Id = 118,
-                            Name = "Lac-Mégantic",
-                            Latitude = "45.58338000",
-                            Longitude = "-70.88234000"
-                        },
-
-                        new City
-                        {
-                            Id = 119,
-                            Name = "Lac-Simon",
-                            Latitude = "46.15699000",
-                            Longitude = "-74.74129000"
-                        },
-
-                        new City
-                        {
-                            Id = 120,
-                            Name = "Lachute",
-                            Latitude = "45.65008000",
-                            Longitude = "-74.33253000"
-                        },
-
-                        new City
-                        {
-                            Id = 121,
-                            Name = "Lacolle",
-                            Latitude = "45.08338000",
-                            Longitude = "-73.36585000"
-                        },
-
-                        new City
-                        {
-                            Id = 122,
-                            Name = "Lanoraie",
-                            Latitude = "45.96677000",
-                            Longitude = "-73.21585000"
-                        },
-
-                        new City
-                        {
-                            Id = 123,
-                            Name = "Laval",
-                            Latitude = "45.56995000",
-                            Longitude = "-73.69200000"
-                        },
-
-                        new City
-                        {
-                            Id = 124,
-                            Name = "Lavaltrie",
-                            Latitude = "45.88338000",
-                            Longitude = "-73.28245000"
-                        },
-
-                        new City
-                        {
-                            Id = 125,
-                            Name = "Le Bic",
-                            Latitude = "48.37549000",
-                            Longitude = "-68.69415000"
-                        },
-
-                        new City
-                        {
-                            Id = 126,
-                            Name = "le Plateau",
-                            Latitude = "45.43514000",
-                            Longitude = "-75.78030000"
-                        },
-
-                        new City
-                        {
-                            Id = 127,
-                            Name = "Lebel-sur-Quévillon",
-                            Latitude = "49.05018000",
-                            Longitude = "-76.98273000"
-                        },
-
-                        new City
-                        {
-                            Id = 128,
-                            Name = "Leblanc",
-                            Latitude = "48.26683000",
-                            Longitude = "-74.34914000"
-                        },
-
-                        new City
-                        {
-                            Id = 129,
-                            Name = "Les Cèdres",
-                            Latitude = "45.30008000",
-                            Longitude = "-74.04922000"
-                        },
-
-                        new City
-                        {
-                            Id = 130,
-                            Name = "Les Coteaux",
-                            Latitude = "45.28338000",
-                            Longitude = "-74.23254000"
-                        },
-
-                        new City
-                        {
-                            Id = 131,
-                            Name = "Les Escoumins",
-                            Latitude = "48.35191000",
-                            Longitude = "-69.40724000"
-                        },
-
-                        new City
-                        {
-                            Id = 132,
-                            Name = "Lévis",
-                            Latitude = "46.80326000",
-                            Longitude = "-71.17793000"
-                        },
-
-                        new City
-                        {
-                            Id = 133,
-                            Name = "Linière",
-                            Latitude = "46.00007000",
-                            Longitude = "-70.41572000"
-                        },
-
-                        new City
-                        {
-                            Id = 134,
-                            Name = "Longueuil",
-                            Latitude = "45.53121000",
-                            Longitude = "-73.51806000"
-                        },
-
-                        new City
-                        {
-                            Id = 135,
-                            Name = "Lorraine",
-                            Latitude = "45.68338000",
-                            Longitude = "-73.78249000"
-                        },
-
-                        new City
-                        {
-                            Id = 136,
-                            Name = "Louiseville",
-                            Latitude = "46.25594000",
-                            Longitude = "-72.94145000"
-                        },
-
-                        new City
-                        {
-                            Id = 137,
-                            Name = "Luceville",
-                            Latitude = "48.54498000",
-                            Longitude = "-68.39658000"
-                        },
-
-                        new City
-                        {
-                            Id = 138,
-                            Name = "Macamic",
-                            Latitude = "48.75018000",
-                            Longitude = "-78.99962000"
-                        },
-
-                        new City
-                        {
-                            Id = 139,
-                            Name = "Magog",
-                            Latitude = "45.26678000",
-                            Longitude = "-72.14909000"
-                        },
-
-                        new City
-                        {
-                            Id = 140,
-                            Name = "Malartic",
-                            Latitude = "48.13348000",
-                            Longitude = "-78.13283000"
-                        },
-
-                        new City
-                        {
-                            Id = 141,
-                            Name = "Maliotenam",
-                            Latitude = "50.21119000",
-                            Longitude = "-66.18164000"
-                        },
-
-                        new City
-                        {
-                            Id = 142,
-                            Name = "Manawan",
-                            Latitude = "47.22029000",
-                            Longitude = "-74.38606000"
-                        },
-
-                        new City
-                        {
-                            Id = 143,
-                            Name = "Mandeville",
-                            Latitude = "46.36677000",
-                            Longitude = "-73.34915000"
-                        },
-
-                        new City
-                        {
-                            Id = 144,
-                            Name = "Maniwaki",
-                            Latitude = "46.38341000",
-                            Longitude = "-75.96605000"
-                        },
-
-                        new City
-                        {
-                            Id = 145,
-                            Name = "Maria",
-                            Latitude = "48.17490000",
-                            Longitude = "-65.98595000"
-                        },
-
-                        new City
-                        {
-                            Id = 146,
-                            Name = "Marieville",
-                            Latitude = "45.43338000",
-                            Longitude = "-73.16585000"
-                        },
-
-                        new City
-                        {
-                            Id = 147,
-                            Name = "Mascouche",
-                            Latitude = "45.74965000",
-                            Longitude = "-73.59956000"
-                        },
-
-                        new City
-                        {
-                            Id = 148,
-                            Name = "Maskinongé",
-                            Latitude = "46.22860000",
-                            Longitude = "-73.01917000"
-                        },
-
-                        new City
-                        {
-                            Id = 149,
-                            Name = "Matagami",
-                            Latitude = "49.75018000",
-                            Longitude = "-77.63277000"
-                        },
-
-                        new City
-                        {
-                            Id = 150,
-                            Name = "Matane",
-                            Latitude = "48.82857000",
-                            Longitude = "-67.52197000"
-                        },
-
-                        new City
-                        {
-                            Id = 151,
-                            Name = "Mauricie",
-                            Latitude = "47.55009000",
-                            Longitude = "-73.41583000"
-                        },
-
-                        new City
-                        {
-                            Id = 152,
-                            Name = "Melocheville",
-                            Latitude = "45.31726000",
-                            Longitude = "-73.93710000"
-                        },
-
-                        new City
-                        {
-                            Id = 153,
-                            Name = "Mercier",
-                            Latitude = "45.31678000",
-                            Longitude = "-73.74919000"
-                        },
-
-                        new City
-                        {
-                            Id = 154,
-                            Name = "Métabetchouan",
-                            Latitude = "48.36679000",
-                            Longitude = "-72.01583000"
-                        },
-
-                        new City
-                        {
-                            Id = 155,
-                            Name = "Metabetchouan-Lac-a-la-Croix",
-                            Latitude = "48.41000000",
-                            Longitude = "-71.78000000"
-                        },
-
-                        new City
-                        {
-                            Id = 156,
-                            Name = "Mirabel",
-                            Latitude = "45.65008000",
-                            Longitude = "-74.08251000"
-                        },
-
-                        new City
-                        {
-                            Id = 157,
-                            Name = "Mistissini",
-                            Latitude = "50.41667000",
-                            Longitude = "-73.88333000"
-                        },
-
-                        new City
-                        {
-                            Id = 158,
-                            Name = "Mont-Joli",
-                            Latitude = "48.58388000",
-                            Longitude = "-68.19214000"
-                        },
-
-                        new City
-                        {
-                            Id = 159,
-                            Name = "Mont-Laurier",
-                            Latitude = "46.55011000",
-                            Longitude = "-75.49930000"
-                        },
-
-                        new City
-                        {
-                            Id = 160,
-                            Name = "Mont-Royal",
-                            Latitude = "45.51675000",
-                            Longitude = "-73.64918000"
-                        },
-
-                        new City
-                        {
-                            Id = 161,
-                            Name = "Mont-Saint-Grégoire",
-                            Latitude = "45.33338000",
-                            Longitude = "-73.16585000"
-                        },
-
-                        new City
-                        {
-                            Id = 162,
-                            Name = "Mont-Saint-Hilaire",
-                            Latitude = "45.56515000",
-                            Longitude = "-73.18680000"
-                        },
-
-                        new City
-                        {
-                            Id = 163,
-                            Name = "Mont-Tremblant",
-                            Latitude = "46.21274000",
-                            Longitude = "-74.58438000"
-                        },
-
-                        new City
-                        {
-                            Id = 164,
-                            Name = "Montmagny",
-                            Latitude = "46.98043000",
-                            Longitude = "-70.55493000"
-                        },
-
-                        new City
-                        {
-                            Id = 165,
-                            Name = "Montréal",
-                            Latitude = "45.50008000",
-                            Longitude = "-73.68248000"
-                        },
-
-                        new City
-                        {
-                            Id = 166,
-                            Name = "Montréal-Est",
-                            Latitude = "45.63202000",
-                            Longitude = "-73.50750000"
-                        },
-
-                        new City
-                        {
-                            Id = 167,
-                            Name = "Montréal-Ouest",
-                            Latitude = "45.45286000",
-                            Longitude = "-73.64918000"
-                        },
-
-                        new City
-                        {
-                            Id = 168,
-                            Name = "Morin-Heights",
-                            Latitude = "45.90009000",
-                            Longitude = "-74.24922000"
-                        },
-
-                        new City
-                        {
-                            Id = 169,
-                            Name = "Napierville",
-                            Latitude = "45.18648000",
-                            Longitude = "-73.40468000"
-                        },
-
-                        new City
-                        {
-                            Id = 170,
-                            Name = "Neuville",
-                            Latitude = "46.69823000",
-                            Longitude = "-71.58275000"
-                        },
-
-                        new City
-                        {
-                            Id = 171,
-                            Name = "New Carlisle",
-                            Latitude = "48.00956000",
-                            Longitude = "-65.33621000"
-                        },
-
-                        new City
-                        {
-                            Id = 172,
-                            Name = "New-Richmond",
-                            Latitude = "48.16059000",
-                            Longitude = "-65.85823000"
-                        },
-
-                        new City
-                        {
-                            Id = 173,
-                            Name = "Nicolet",
-                            Latitude = "46.21676000",
-                            Longitude = "-72.61582000"
-                        },
-
-                        new City
-                        {
-                            Id = 174,
-                            Name = "Nord-du-Québec",
-                            Latitude = "51.96200000",
-                            Longitude = "-74.89610000"
-                        },
-
-                        new City
-                        {
-                            Id = 175,
-                            Name = "Normandin",
-                            Latitude = "48.83328000",
-                            Longitude = "-72.53209000"
-                        },
-
-                        new City
-                        {
-                            Id = 176,
-                            Name = "Notre-Dame-de-Grâce",
-                            Latitude = "45.47675000",
-                            Longitude = "-73.61432000"
-                        },
-
-                        new City
-                        {
-                            Id = 177,
-                            Name = "Notre-Dame-de-l'Île-Perrot",
-                            Latitude = "45.36678000",
-                            Longitude = "-73.93250000"
-                        },
-
-                        new City
-                        {
-                            Id = 178,
-                            Name = "Notre-Dame-des-Prairies",
-                            Latitude = "46.05007000",
-                            Longitude = "-73.43245000"
-                        },
-
-                        new City
-                        {
-                            Id = 179,
-                            Name = "Notre-Dame-du-Lac",
-                            Latitude = "46.75012000",
-                            Longitude = "-79.04961000"
-                        },
-
-                        new City
-                        {
-                            Id = 180,
-                            Name = "Notre-Dame-du-Mont-Carmel",
-                            Latitude = "46.01680000",
-                            Longitude = "-75.08259000"
-                        },
-
-                        new City
-                        {
-                            Id = 181,
-                            Name = "Oka",
-                            Latitude = "45.46489000",
-                            Longitude = "-74.08892000"
-                        },
-
-                        new City
-                        {
-                            Id = 182,
-                            Name = "Ormstown",
-                            Latitude = "45.13338000",
-                            Longitude = "-73.99922000"
-                        },
-
-                        new City
-                        {
-                            Id = 183,
-                            Name = "Otterburn Park",
-                            Latitude = "45.53338000",
-                            Longitude = "-73.21585000"
-                        },
-
-                        new City
-                        {
-                            Id = 184,
-                            Name = "Outaouais",
-                            Latitude = "46.26681000",
-                            Longitude = "-76.31606000"
-                        },
-
-                        new City
-                        {
-                            Id = 185,
-                            Name = "Papineauville",
-                            Latitude = "45.61680000",
-                            Longitude = "-75.01599000"
-                        },
-
-                        new City
-                        {
-                            Id = 186,
-                            Name = "Parc-Boutin",
-                            Latitude = "45.29209000",
-                            Longitude = "-73.26154000"
-                        },
-
-                        new City
-                        {
-                            Id = 187,
-                            Name = "Piedmont",
-                            Latitude = "45.90008000",
-                            Longitude = "-74.13251000"
-                        },
-
-                        new City
-                        {
-                            Id = 188,
-                            Name = "Pierreville",
-                            Latitude = "46.07034000",
-                            Longitude = "-72.81125000"
-                        },
-
-                        new City
-                        {
-                            Id = 189,
-                            Name = "Pincourt",
-                            Latitude = "45.38338000",
-                            Longitude = "-73.98250000"
-                        },
-
-                        new City
-                        {
-                            Id = 190,
-                            Name = "Plessisville",
-                            Latitude = "46.21856000",
-                            Longitude = "-71.76201000"
-                        },
-
-                        new City
-                        {
-                            Id = 191,
-                            Name = "Pohénégamook",
-                            Latitude = "47.46315000",
-                            Longitude = "-69.22666000"
-                        },
-
-                        new City
-                        {
-                            Id = 192,
-                            Name = "Pointe-Calumet",
-                            Latitude = "45.50008000",
-                            Longitude = "-73.96590000"
-                        },
-
-                        new City
-                        {
-                            Id = 193,
-                            Name = "Pointe-Claire",
-                            Latitude = "45.44868000",
-                            Longitude = "-73.81669000"
-                        },
-
-                        new City
-                        {
-                            Id = 194,
-                            Name = "Pointe-du-Lac",
-                            Latitude = "48.50009000",
-                            Longitude = "-71.78241000"
-                        },
-
-                        new City
-                        {
-                            Id = 195,
-                            Name = "Pont Rouge",
-                            Latitude = "48.88332000",
-                            Longitude = "-72.08247000"
-                        },
-
-                        new City
-                        {
-                            Id = 196,
-                            Name = "Pont-Rouge",
-                            Latitude = "46.75468000",
-                            Longitude = "-71.69566000"
-                        },
-
-                        new City
-                        {
-                            Id = 197,
-                            Name = "Port-Cartier",
-                            Latitude = "50.03339000",
-                            Longitude = "-66.86545000"
-                        },
-
-                        new City
-                        {
-                            Id = 198,
-                            Name = "Portneuf",
-                            Latitude = "46.69058000",
-                            Longitude = "-71.89011000"
-                        },
-
-                        new City
-                        {
-                            Id = 199,
-                            Name = "Prévost",
-                            Latitude = "45.86678000",
-                            Longitude = "-74.08251000"
-                        },
-
-                        new City
-                        {
-                            Id = 200,
-                            Name = "Princeville",
-                            Latitude = "46.17163000",
-                            Longitude = "-71.87462000"
-                        },
-
-                        new City
-                        {
-                            Id = 201,
-                            Name = "Québec",
-                            Latitude = "46.81228000",
-                            Longitude = "-71.21454000"
-                        },
-
-                        new City
-                        {
-                            Id = 202,
-                            Name = "Rawdon",
-                            Latitude = "46.05007000",
-                            Longitude = "-73.71587000"
-                        },
-
-                        new City
-                        {
-                            Id = 203,
-                            Name = "Repentigny",
-                            Latitude = "45.74222000",
-                            Longitude = "-73.45008000"
-                        },
-
-                        new City
-                        {
-                            Id = 204,
-                            Name = "Richelieu",
-                            Latitude = "45.44336000",
-                            Longitude = "-73.24602000"
-                        },
-
-                        new City
-                        {
-                            Id = 205,
-                            Name = "Richmond",
-                            Latitude = "45.66677000",
-                            Longitude = "-72.14910000"
-                        },
-
-                        new City
-                        {
-                            Id = 206,
-                            Name = "Rigaud",
-                            Latitude = "45.47927000",
-                            Longitude = "-74.30238000"
-                        },
-
-                        new City
-                        {
-                            Id = 207,
-                            Name = "Rimouski",
-                            Latitude = "48.44879000",
-                            Longitude = "-68.52396000"
-                        },
-
-                        new City
-                        {
-                            Id = 208,
-                            Name = "Rivière-du-Loup",
-                            Latitude = "47.82699000",
-                            Longitude = "-69.54243000"
-                        },
-
-                        new City
-                        {
-                            Id = 209,
-                            Name = "Rivière-Rouge",
-                            Latitude = "46.41679000",
-                            Longitude = "-74.86596000"
-                        },
-
-                        new City
-                        {
-                            Id = 210,
-                            Name = "Roberval",
-                            Latitude = "48.51680000",
-                            Longitude = "-72.23244000"
-                        },
-
-                        new City
-                        {
-                            Id = 211,
-                            Name = "Rock Forest",
-                            Latitude = "45.35699000",
-                            Longitude = "-71.99676000"
-                        },
-
-                        new City
-                        {
-                            Id = 212,
-                            Name = "Rosemère",
-                            Latitude = "45.63338000",
-                            Longitude = "-73.79919000"
-                        },
-
-                        new City
-                        {
-                            Id = 213,
-                            Name = "Rougemont",
-                            Latitude = "45.43338000",
-                            Longitude = "-73.04914000"
-                        },
-
-                        new City
-                        {
-                            Id = 214,
-                            Name = "Rouyn-Noranda",
-                            Latitude = "48.23656000",
-                            Longitude = "-79.02311000"
-                        },
-
-                        new City
-                        {
-                            Id = 215,
-                            Name = "Sacré-Coeur",
-                            Latitude = "48.22970000",
-                            Longitude = "-69.80061000"
-                        },
-
-                        new City
-                        {
-                            Id = 216,
-                            Name = "Saguenay",
-                            Latitude = "48.41675000",
-                            Longitude = "-71.06573000"
-                        },
-
-                        new City
-                        {
-                            Id = 217,
-                            Name = "Saint-Adolphe-d'Howard",
-                            Latitude = "45.96679000",
-                            Longitude = "-74.33253000"
-                        },
-
-                        new City
-                        {
-                            Id = 218,
-                            Name = "Saint-Alexandre",
-                            Latitude = "45.50010000",
-                            Longitude = "-75.74935000"
-                        },
-
-                        new City
-                        {
-                            Id = 219,
-                            Name = "Saint-Amable",
-                            Latitude = "45.65008000",
-                            Longitude = "-73.29916000"
-                        },
-
-                        new City
-                        {
-                            Id = 220,
-                            Name = "Saint-Ambroise",
-                            Latitude = "48.55009000",
-                            Longitude = "-71.33238000"
-                        },
-
-                        new City
-                        {
-                            Id = 221,
-                            Name = "Saint-André-Avellin",
-                            Latitude = "45.71680000",
-                            Longitude = "-75.06599000"
-                        },
-
-                        new City
-                        {
-                            Id = 222,
-                            Name = "Saint-Anselme",
-                            Latitude = "46.62922000",
-                            Longitude = "-70.97340000"
-                        },
-
-                        new City
-                        {
-                            Id = 223,
-                            Name = "Saint-Antoine-de-Tilly",
-                            Latitude = "46.66346000",
-                            Longitude = "-71.57335000"
-                        },
-
-                        new City
-                        {
-                            Id = 224,
-                            Name = "Saint-Augustin",
-                            Latitude = "51.22602000",
-                            Longitude = "-58.65017000"
-                        },
-
-                        new City
-                        {
-                            Id = 225,
-                            Name = "Saint-Augustin-de-Desmaures",
-                            Latitude = "46.74064000",
-                            Longitude = "-71.45131000"
-                        },
-
-                        new City
-                        {
-                            Id = 226,
-                            Name = "Saint-Barnabé-Sud",
-                            Latitude = "45.72977000",
-                            Longitude = "-72.92244000"
-                        },
-
-                        new City
-                        {
-                            Id = 227,
-                            Name = "Saint-Basile-le-Grand",
-                            Latitude = "45.53338000",
-                            Longitude = "-73.28246000"
-                        },
-
-                        new City
-                        {
-                            Id = 228,
-                            Name = "Saint-Boniface",
-                            Latitude = "46.50011000",
-                            Longitude = "-75.98264000"
-                        },
-
-                        new City
-                        {
-                            Id = 229,
-                            Name = "Saint-Bruno",
-                            Latitude = "48.46679000",
-                            Longitude = "-71.64910000"
-                        },
-
-                        new City
-                        {
-                            Id = 230,
-                            Name = "Saint-Bruno-de-Guigues",
-                            Latitude = "47.46685000",
-                            Longitude = "-79.43296000"
-                        },
-
-                        new City
-                        {
-                            Id = 231,
-                            Name = "Saint-Bruno-de-Montarville",
-                            Latitude = "45.53341000",
-                            Longitude = "-73.34916000"
-                        },
-
-                        new City
-                        {
-                            Id = 232,
-                            Name = "Saint-Canut",
-                            Latitude = "45.71502000",
-                            Longitude = "-74.08376000"
-                        },
-
-                        new City
-                        {
-                            Id = 233,
-                            Name = "Saint-Césaire",
-                            Latitude = "45.41678000",
-                            Longitude = "-72.99914000"
-                        },
-
-                        new City
-                        {
-                            Id = 234,
-                            Name = "Saint-Charles",
-                            Latitude = "45.70288000",
-                            Longitude = "-73.55417000"
-                        },
-
-                        new City
-                        {
-                            Id = 235,
-                            Name = "Saint-Côme-Linière",
-                            Latitude = "46.06677000",
-                            Longitude = "-70.51573000"
-                        },
-
-                        new City
-                        {
-                            Id = 236,
-                            Name = "Saint-Constant",
-                            Latitude = "45.36678000",
-                            Longitude = "-73.56588000"
-                        },
-
-                        new City
-                        {
-                            Id = 237,
-                            Name = "Saint-Cyrille-de-Wendover",
-                            Latitude = "45.93336000",
-                            Longitude = "-72.43241000"
-                        },
-
-                        new City
-                        {
-                            Id = 238,
-                            Name = "Saint-Damase",
-                            Latitude = "45.53341000",
-                            Longitude = "-72.99914000"
-                        },
-
-                        new City
-                        {
-                            Id = 239,
-                            Name = "Saint-Denis-sur-Richelieu",
-                            Latitude = "45.78338000",
-                            Longitude = "-73.14915000"
-                        },
-
-                        new City
-                        {
-                            Id = 240,
-                            Name = "Saint-Donat-de-Montcalm",
-                            Latitude = "46.31868000",
-                            Longitude = "-74.22171000"
-                        },
-
-                        new City
-                        {
-                            Id = 241,
-                            Name = "Saint-Édouard",
-                            Latitude = "45.23338000",
-                            Longitude = "-73.51588000"
-                        },
-
-                        new City
-                        {
-                            Id = 242,
-                            Name = "Saint-Elzéar",
-                            Latitude = "45.60338000",
-                            Longitude = "-73.72698000"
-                        },
-
-                        new City
-                        {
-                            Id = 243,
-                            Name = "Saint-Éphrem-de-Beauce",
-                            Latitude = "46.06677000",
-                            Longitude = "-70.94905000"
-                        },
-
-                        new City
-                        {
-                            Id = 244,
-                            Name = "Saint-Eustache",
-                            Latitude = "45.56500000",
-                            Longitude = "-73.90554000"
-                        },
-
-                        new City
-                        {
-                            Id = 245,
-                            Name = "Saint-Félicien",
-                            Latitude = "48.65007000",
-                            Longitude = "-72.44906000"
-                        },
-
-                        new City
-                        {
-                            Id = 246,
-                            Name = "Saint-Félix-de-Valois",
-                            Latitude = "46.16977000",
-                            Longitude = "-73.42525000"
-                        },
-
-                        new City
-                        {
-                            Id = 247,
-                            Name = "Saint-Gabriel",
-                            Latitude = "46.30007000",
-                            Longitude = "-73.38245000"
-                        },
-
-                        new City
-                        {
-                            Id = 248,
-                            Name = "Saint-Gédéon",
-                            Latitude = "48.50009000",
-                            Longitude = "-71.76581000"
-                        },
-
-                        new City
-                        {
-                            Id = 249,
-                            Name = "Saint-Georges",
-                            Latitude = "46.11353000",
-                            Longitude = "-70.66526000"
-                        },
-
-                        new City
-                        {
-                            Id = 250,
-                            Name = "Saint-Germain-de-Grantham",
-                            Latitude = "45.83337000",
-                            Longitude = "-72.56582000"
-                        },
-
-                        new City
-                        {
-                            Id = 251,
-                            Name = "Saint-Henri",
-                            Latitude = "46.69314000",
-                            Longitude = "-71.06927000"
-                        },
-
-                        new City
-                        {
-                            Id = 252,
-                            Name = "Saint-Hippolyte",
-                            Latitude = "45.93338000",
-                            Longitude = "-74.01590000"
-                        },
-
-                        new City
-                        {
-                            Id = 253,
-                            Name = "Saint-Honoré",
-                            Latitude = "48.53338000",
-                            Longitude = "-71.08236000"
-                        },
-
-                        new City
-                        {
-                            Id = 254,
-                            Name = "Saint-Hyacinthe",
-                            Latitude = "45.63076000",
-                            Longitude = "-72.95699000"
-                        },
-
-                        new City
-                        {
-                            Id = 255,
-                            Name = "Saint-Isidore",
-                            Latitude = "47.43345000",
-                            Longitude = "-79.29965000"
-                        },
-
-                        new City
-                        {
-                            Id = 256,
-                            Name = "Saint-Jacques-le-Mineur",
-                            Latitude = "45.28338000",
-                            Longitude = "-73.41587000"
-                        },
-
-                        new City
-                        {
-                            Id = 257,
-                            Name = "Saint-Jean-Baptiste",
-                            Latitude = "45.38060000",
-                            Longitude = "-74.01210000"
-                        },
-
-                        new City
-                        {
-                            Id = 258,
-                            Name = "Saint-Jean-sur-Richelieu",
-                            Latitude = "45.30713000",
-                            Longitude = "-73.26259000"
-                        },
-
-                        new City
-                        {
-                            Id = 259,
-                            Name = "Saint-Jérôme",
-                            Latitude = "45.78036000",
-                            Longitude = "-74.00365000"
-                        },
-
-                        new City
-                        {
-                            Id = 260,
-                            Name = "Saint-Joseph",
-                            Latitude = "45.95817000",
-                            Longitude = "-73.22025000"
-                        },
-
-                        new City
-                        {
-                            Id = 261,
-                            Name = "Saint-Joseph-de-Beauce",
-                            Latitude = "46.30000000",
-                            Longitude = "-70.86667000"
-                        },
-
-                        new City
-                        {
-                            Id = 262,
-                            Name = "Saint-Joseph-de-Coleraine",
-                            Latitude = "45.96677000",
-                            Longitude = "-71.36577000"
-                        },
-
-                        new City
-                        {
-                            Id = 263,
-                            Name = "Saint-Joseph-du-Lac",
-                            Latitude = "45.53338000",
-                            Longitude = "-73.99920000"
-                        },
-
-                        new City
-                        {
-                            Id = 264,
-                            Name = "Saint-Lambert-de-Lauzon",
-                            Latitude = "46.58624000",
-                            Longitude = "-71.20892000"
-                        },
-
-                        new City
-                        {
-                            Id = 265,
-                            Name = "Saint-Laurent",
-                            Latitude = "45.50008000",
-                            Longitude = "-73.66585000"
-                        },
-
-                        new City
-                        {
-                            Id = 266,
-                            Name = "Saint-Lazare",
-                            Latitude = "45.40008000",
-                            Longitude = "-74.13256000"
-                        },
-
-                        new City
-                        {
-                            Id = 267,
-                            Name = "Saint-Léonard",
-                            Latitude = "45.58773000",
-                            Longitude = "-73.59501000"
-                        },
-
-                        new City
-                        {
-                            Id = 268,
-                            Name = "Saint-Léonard-d'Aston",
-                            Latitude = "46.10006000",
-                            Longitude = "-72.36580000"
-                        },
-
-                        new City
-                        {
-                            Id = 269,
-                            Name = "Saint-Liboire",
-                            Latitude = "45.65068000",
-                            Longitude = "-72.76348000"
-                        },
-
-                        new City
-                        {
-                            Id = 270,
-                            Name = "Saint-Lin-Laurentides",
-                            Latitude = "45.85008000",
-                            Longitude = "-73.76588000"
-                        },
-
-                        new City
-                        {
-                            Id = 271,
-                            Name = "Saint-Marc-des-Carrières",
-                            Latitude = "46.68335000",
-                            Longitude = "-72.04910000"
-                        },
-
-                        new City
-                        {
-                            Id = 272,
-                            Name = "Saint-Mathieu",
-                            Latitude = "45.31678000",
-                            Longitude = "-73.51587000"
-                        },
-
-                        new City
-                        {
-                            Id = 273,
-                            Name = "Saint-Michel",
-                            Latitude = "45.56758000",
-                            Longitude = "-73.62168000"
-                        },
-
-                        new City
-                        {
-                            Id = 274,
-                            Name = "Saint-Michel-des-Saints",
-                            Latitude = "46.67702000",
-                            Longitude = "-73.91881000"
-                        },
-
-                        new City
-                        {
-                            Id = 275,
-                            Name = "Saint-Nazaire",
-                            Latitude = "48.58944000",
-                            Longitude = "-71.55247000"
-                        },
-
-                        new City
-                        {
-                            Id = 276,
-                            Name = "Saint-Norbert",
-                            Latitude = "46.16949000",
-                            Longitude = "-73.31494000"
-                        },
-
-                        new City
-                        {
-                            Id = 277,
-                            Name = "Saint-Pacôme",
-                            Latitude = "47.40457000",
-                            Longitude = "-69.95025000"
-                        },
-
-                        new City
-                        {
-                            Id = 278,
-                            Name = "Saint-Pascal",
-                            Latitude = "47.51813000",
-                            Longitude = "-69.80301000"
-                        },
-
-                        new City
-                        {
-                            Id = 279,
-                            Name = "Saint-Philippe-de-La Prairie",
-                            Latitude = "45.35723000",
-                            Longitude = "-73.47706000"
-                        },
-
-                        new City
-                        {
-                            Id = 280,
-                            Name = "Saint-Pie",
-                            Latitude = "45.50277000",
-                            Longitude = "-72.90890000"
-                        },
-
-                        new City
-                        {
-                            Id = 281,
-                            Name = "Saint-Pierre-les-Becquets",
-                            Latitude = "46.50005000",
-                            Longitude = "-72.19910000"
-                        },
-
-                        new City
-                        {
-                            Id = 282,
-                            Name = "Saint-Prime",
-                            Latitude = "48.58339000",
-                            Longitude = "-72.33244000"
-                        },
-
-                        new City
-                        {
-                            Id = 283,
-                            Name = "Saint-Raphaël",
-                            Latitude = "46.25011000",
-                            Longitude = "-76.01605000"
-                        },
-
-                        new City
-                        {
-                            Id = 284,
-                            Name = "Saint-Raymond",
-                            Latitude = "45.46698000",
-                            Longitude = "-73.60948000"
-                        },
-
-                        new City
-                        {
-                            Id = 285,
-                            Name = "Saint-Rémi",
-                            Latitude = "45.26678000",
-                            Longitude = "-73.61588000"
-                        },
-
-                        new City
-                        {
-                            Id = 286,
-                            Name = "Saint-Rémi-de-Tingwick",
-                            Latitude = "45.86677000",
-                            Longitude = "-71.81581000"
-                        },
-
-                        new City
-                        {
-                            Id = 287,
-                            Name = "Saint-Sauveur",
-                            Latitude = "45.88686000",
-                            Longitude = "-74.17943000"
-                        },
-
-                        new City
-                        {
-                            Id = 288,
-                            Name = "Saint-Sauveur-des-Monts",
-                            Latitude = "45.90008000",
-                            Longitude = "-74.16591000"
-                        },
-
-                        new City
-                        {
-                            Id = 289,
-                            Name = "Saint-Siméon",
-                            Latitude = "47.84431000",
-                            Longitude = "-69.87837000"
-                        },
-
-                        new City
-                        {
-                            Id = 290,
-                            Name = "Saint-Thomas",
-                            Latitude = "46.01677000",
-                            Longitude = "-73.34915000"
-                        },
-
-                        new City
-                        {
-                            Id = 291,
-                            Name = "Saint-Tite",
-                            Latitude = "46.73336000",
-                            Longitude = "-72.56581000"
-                        },
-
-                        new City
-                        {
-                            Id = 292,
-                            Name = "Saint-Victor",
-                            Latitude = "45.61118000",
-                            Longitude = "-73.51527000"
-                        },
-
-                        new City
-                        {
-                            Id = 293,
-                            Name = "Saint-Zotique",
-                            Latitude = "45.25009000",
-                            Longitude = "-74.24924000"
-                        },
-
-                        new City
-                        {
-                            Id = 294,
-                            Name = "Sainte Catherine de la Jacques Cartier",
-                            Latitude = "46.85244000",
-                            Longitude = "-71.62056000"
-                        },
-
-                        new City
-                        {
-                            Id = 295,
-                            Name = "Sainte-Adèle",
-                            Latitude = "45.95008000",
-                            Longitude = "-74.13251000"
-                        },
-
-                        new City
-                        {
-                            Id = 296,
-                            Name = "Sainte-Agathe-des-Monts",
-                            Latitude = "46.05009000",
-                            Longitude = "-74.28252000"
-                        },
-
-                        new City
-                        {
-                            Id = 297,
-                            Name = "Sainte-Anne-de-Bellevue",
-                            Latitude = "45.40618000",
-                            Longitude = "-73.94560000"
-                        },
-
-                        new City
-                        {
-                            Id = 298,
-                            Name = "Sainte-Anne-des-Monts",
-                            Latitude = "49.12402000",
-                            Longitude = "-66.49243000"
-                        },
-
-                        new City
-                        {
-                            Id = 299,
-                            Name = "Sainte-Anne-des-Plaines",
-                            Latitude = "45.76468000",
-                            Longitude = "-73.81156000"
-                        },
-
-                        new City
-                        {
-                            Id = 300,
-                            Name = "Sainte-Béatrix",
-                            Latitude = "46.20007000",
-                            Longitude = "-73.61587000"
-                        },
-
-                        new City
-                        {
-                            Id = 301,
-                            Name = "Sainte-Catherine",
-                            Latitude = "45.40008000",
-                            Longitude = "-73.58248000"
-                        },
-
-                        new City
-                        {
-                            Id = 302,
-                            Name = "Sainte-Croix",
-                            Latitude = "45.13368000",
-                            Longitude = "-72.80083000"
-                        },
-
-                        new City
-                        {
-                            Id = 303,
-                            Name = "Sainte-Élisabeth",
-                            Latitude = "46.09502000",
-                            Longitude = "-73.35176000"
-                        },
-
-                        new City
-                        {
-                            Id = 304,
-                            Name = "Sainte-Julie",
-                            Latitude = "45.58338000",
-                            Longitude = "-73.33246000"
-                        },
-
-                        new City
-                        {
-                            Id = 305,
-                            Name = "Sainte-Julienne",
-                            Latitude = "45.96677000",
-                            Longitude = "-73.71587000"
-                        },
-
-                        new City
-                        {
-                            Id = 306,
-                            Name = "Sainte-Madeleine",
-                            Latitude = "45.60008000",
-                            Longitude = "-73.09914000"
-                        },
-
-                        new City
-                        {
-                            Id = 307,
-                            Name = "Sainte-Marie",
-                            Latitude = "46.43401000",
-                            Longitude = "-71.01168000"
-                        },
-
-                        new City
-                        {
-                            Id = 308,
-                            Name = "Sainte-Marthe-sur-le-Lac",
-                            Latitude = "45.53338000",
-                            Longitude = "-73.93250000"
-                        },
-
-                        new City
-                        {
-                            Id = 309,
-                            Name = "Sainte-Martine",
-                            Latitude = "45.25008000",
-                            Longitude = "-73.79919000"
-                        },
-
-                        new City
-                        {
-                            Id = 310,
-                            Name = "Sainte-Sophie",
-                            Latitude = "45.81678000",
-                            Longitude = "-73.89919000"
-                        },
-
-                        new City
-                        {
-                            Id = 311,
-                            Name = "Sainte-Thècle",
-                            Latitude = "46.81676000",
-                            Longitude = "-72.49911000"
-                        },
-
-                        new City
-                        {
-                            Id = 312,
-                            Name = "Sainte-Thérèse",
-                            Latitude = "45.63922000",
-                            Longitude = "-73.82757000"
-                        },
-
-                        new City
-                        {
-                            Id = 313,
-                            Name = "Salaberry-de-Valleyfield",
-                            Latitude = "45.25008000",
-                            Longitude = "-74.13253000"
-                        },
-
-                        new City
-                        {
-                            Id = 314,
-                            Name = "Salluit",
-                            Latitude = "62.20411000",
-                            Longitude = "-75.64344000"
-                        },
-
-                        new City
-                        {
-                            Id = 315,
-                            Name = "Senneterre",
-                            Latitude = "48.39302000",
-                            Longitude = "-77.23951000"
-                        },
-
-                        new City
-                        {
-                            Id = 316,
-                            Name = "Sept-Îles",
-                            Latitude = "50.20011000",
-                            Longitude = "-66.38208000"
-                        },
-
-                        new City
-                        {
-                            Id = 317,
-                            Name = "Shannon",
-                            Latitude = "46.88026000",
-                            Longitude = "-71.51464000"
-                        },
-
-                        new City
-                        {
-                            Id = 318,
-                            Name = "Shawinigan",
-                            Latitude = "46.56675000",
-                            Longitude = "-72.74913000"
-                        },
-
-                        new City
-                        {
-                            Id = 319,
-                            Name = "Shawville",
-                            Latitude = "45.60011000",
-                            Longitude = "-76.48270000"
-                        },
-
-                        new City
-                        {
-                            Id = 320,
-                            Name = "Sherbrooke",
-                            Latitude = "45.40008000",
-                            Longitude = "-71.89908000"
-                        },
-
-                        new City
-                        {
-                            Id = 321,
-                            Name = "Sorel-Tracy",
-                            Latitude = "46.04178000",
-                            Longitude = "-73.11358000"
-                        },
-
-                        new City
-                        {
-                            Id = 322,
-                            Name = "St-Jean-Port-Joli",
-                            Latitude = "47.21418000",
-                            Longitude = "-70.26969000"
-                        },
-
-                        new City
-                        {
-                            Id = 323,
-                            Name = "Sutton",
-                            Latitude = "45.10008000",
-                            Longitude = "-72.61582000"
-                        },
-
-                        new City
-                        {
-                            Id = 324,
-                            Name = "Témiscaming",
-                            Latitude = "46.72122000",
-                            Longitude = "-79.09712000"
-                        },
-
-                        new City
-                        {
-                            Id = 325,
-                            Name = "Terrasse-des-Pins",
-                            Latitude = "45.86449000",
-                            Longitude = "-74.06627000"
-                        },
-
-                        new City
-                        {
-                            Id = 326,
-                            Name = "Terrebonne",
-                            Latitude = "45.70004000",
-                            Longitude = "-73.64732000"
-                        },
-
-                        new City
-                        {
-                            Id = 327,
-                            Name = "Thetford-Mines",
-                            Latitude = "46.09371000",
-                            Longitude = "-71.30539000"
-                        },
-
-                        new City
-                        {
-                            Id = 328,
-                            Name = "Thurso",
-                            Latitude = "45.60010000",
-                            Longitude = "-75.24931000"
-                        },
-
-                        new City
-                        {
-                            Id = 329,
-                            Name = "Trois-Rivières",
-                            Latitude = "46.34515000",
-                            Longitude = "-72.54770000"
-                        },
-
-                        new City
-                        {
-                            Id = 330,
-                            Name = "Val-d'Or",
-                            Latitude = "48.09740000",
-                            Longitude = "-77.79737000"
-                        },
-
-                        new City
-                        {
-                            Id = 331,
-                            Name = "Val-David",
-                            Latitude = "46.03338000",
-                            Longitude = "-74.21592000"
-                        },
-
-                        new City
-                        {
-                            Id = 332,
-                            Name = "Val-des-Monts",
-                            Latitude = "45.65010000",
-                            Longitude = "-75.66604000"
-                        },
-
-                        new City
-                        {
-                            Id = 333,
-                            Name = "Val-Morin",
-                            Latitude = "46.00008000",
-                            Longitude = "-74.18251000"
-                        },
-
-                        new City
-                        {
-                            Id = 334,
-                            Name = "Valcourt",
-                            Latitude = "45.50008000",
-                            Longitude = "-72.31581000"
-                        },
-
-                        new City
-                        {
-                            Id = 335,
-                            Name = "Vallée-Jonction",
-                            Latitude = "46.37441000",
-                            Longitude = "-70.91881000"
-                        },
-
-                        new City
-                        {
-                            Id = 336,
-                            Name = "Varennes",
-                            Latitude = "45.68338000",
-                            Longitude = "-73.43246000"
-                        },
-
-                        new City
-                        {
-                            Id = 337,
-                            Name = "Vaudreuil-Dorion",
-                            Latitude = "45.40008000",
-                            Longitude = "-74.03251000"
-                        },
-
-                        new City
-                        {
-                            Id = 338,
-                            Name = "Venise-en-Québec",
-                            Latitude = "45.08338000",
-                            Longitude = "-73.13245000"
-                        },
-
-                        new City
-                        {
-                            Id = 339,
-                            Name = "Verchères",
-                            Latitude = "45.78338000",
-                            Longitude = "-73.34916000"
-                        },
-
-                        new City
-                        {
-                            Id = 340,
-                            Name = "Victoriaville",
-                            Latitude = "46.05007000",
-                            Longitude = "-71.96579000"
-                        },
-
-                        new City
-                        {
-                            Id = 341,
-                            Name = "Ville-Marie",
-                            Latitude = "47.33345000",
-                            Longitude = "-79.43297000"
-                        },
-
-                        new City
-                        {
-                            Id = 342,
-                            Name = "Wakefield",
-                            Latitude = "45.66680000",
-                            Longitude = "-75.83265000"
-                        },
-
-                        new City
-                        {
-                            Id = 343,
-                            Name = "Warwick",
-                            Latitude = "45.95007000",
-                            Longitude = "-71.98240000"
-                        },
-
-                        new City
-                        {
-                            Id = 344,
-                            Name = "Waskaganish",
-                            Latitude = "51.48333000",
-                            Longitude = "-78.75000000"
-                        },
-
-                        new City
-                        {
-                            Id = 345,
-                            Name = "Waswanipi",
-                            Latitude = "49.73346000",
-                            Longitude = "-76.16604000"
-                        },
-
-                        new City
-                        {
-                            Id = 346,
-                            Name = "Waterloo",
-                            Latitude = "45.35008000",
-                            Longitude = "-72.51582000"
-                        },
-
-                        new City
-                        {
-                            Id = 347,
-                            Name = "Weedon Centre",
-                            Latitude = "45.70802000",
-                            Longitude = "-71.45986000"
-                        },
-
-                        new City
-                        {
-                            Id = 348,
-                            Name = "Westmount",
-                            Latitude = "45.48341000",
-                            Longitude = "-73.59918000"
-                        },
-
-                        new City
-                        {
-                            Id = 349,
-                            Name = "Weymontachie",
-                            Latitude = "47.89940000",
-                            Longitude = "-73.77720000"
-                        },
-
-                        new City
-                        {
-                            Id = 350,
-                            Name = "Windsor",
-                            Latitude = "45.56678000",
-                            Longitude = "-71.99909000"
-                        },
-
-                        new City
-                        {
-                            Id = 351,
-                            Name = "Yamachiche",
-                            Latitude = "46.26676000",
-                            Longitude = "-72.83243000"
-                        }
+                        new() { Id = 1, Name = "Abitibi-Témiscamingue", Latitude = "48.10018000", Longitude = "-77.78280000" },
+                        new() { Id = 2, Name = "Acton Vale", Latitude = "45.65007000", Longitude = "-72.56582000" },
+                        new() { Id = 3, Name = "Adstock", Latitude = "46.05007000", Longitude = "-71.08235000" },
+                        new() { Id = 4, Name = "Albanel", Latitude = "48.88324000", Longitude = "-72.44867000" },
+                        new() { Id = 5, Name = "Alma", Latitude = "48.55009000", Longitude = "-71.64910000" },
+                        new() { Id = 6, Name = "Amos", Latitude = "48.56688000", Longitude = "-78.11624000" },
+                        new() { Id = 7, Name = "Amqui", Latitude = "48.46382000", Longitude = "-67.43134000" },
+                        new() { Id = 8, Name = "Ange-Gardien", Latitude = "45.35008000", Longitude = "-72.93244000" },
+                        new() { Id = 9, Name = "Asbestos", Latitude = "45.76678000", Longitude = "-71.93240000" },
+                        new() { Id = 10, Name = "Baie-Comeau", Latitude = "49.21679000", Longitude = "-68.14894000" },
+                        new() { Id = 11, Name = "Baie-D'Urfé", Latitude = "45.41397000", Longitude = "-73.91586000" },
+                        new() { Id = 12, Name = "Baie-Saint-Paul", Latitude = "47.44109000", Longitude = "-70.49858000" },
+                        new() { Id = 13, Name = "Barraute", Latitude = "48.43349000", Longitude = "-77.63279000" },
+                        new() { Id = 14, Name = "Bas-Saint-Laurent", Latitude = "48.05030000", Longitude = "-68.02266000" },
+                        new() { Id = 15, Name = "Beaconsfield", Latitude = "45.43341000", Longitude = "-73.86586000" },
+                        new() { Id = 16, Name = "Beauceville", Latitude = "46.21785000", Longitude = "-70.77873000" },
+                        new() { Id = 17, Name = "Beauharnois", Latitude = "45.31341000", Longitude = "-73.87250000" },
+                        new() { Id = 18, Name = "Beaupré", Latitude = "47.04428000", Longitude = "-70.89529000" },
+                        new() { Id = 19, Name = "Bécancour", Latitude = "46.34106000", Longitude = "-72.43224000" },
+                        new() { Id = 20, Name = "Bedford", Latitude = "45.11678000", Longitude = "-72.98244000" },
+                        new() { Id = 21, Name = "Beloeil", Latitude = "45.56839000", Longitude = "-73.20568000" },
+                        new() { Id = 22, Name = "Berthierville", Latitude = "46.08336000", Longitude = "-73.18245000" },
+                        new() { Id = 23, Name = "Blainville", Latitude = "45.66678000", Longitude = "-73.88249000" },
+                        new() { Id = 24, Name = "Bois-des-Filion", Latitude = "45.66678000", Longitude = "-73.74918000" },
+                        new() { Id = 25, Name = "Boisbriand", Latitude = "45.61678000", Longitude = "-73.83249000" },
+                        new() { Id = 26, Name = "Bonaventure", Latitude = "48.04573000", Longitude = "-65.49259000" },
+                        new() { Id = 27, Name = "Boucherville", Latitude = "45.59104000", Longitude = "-73.43605000" },
+                        new() { Id = 28, Name = "Breakeyville", Latitude = "46.68037000", Longitude = "-71.22327000" },
+                        new() { Id = 29, Name = "Bromont", Latitude = "45.31678000", Longitude = "-72.64912000" },
+                        new() { Id = 30, Name = "Brossard", Latitude = "45.45008000", Longitude = "-73.46583000" },
+                        new() { Id = 31, Name = "Brownsburg-Chatham", Latitude = "45.68342000", Longitude = "-74.41590000" },
+                        new() { Id = 32, Name = "Buckingham", Latitude = "45.58563000", Longitude = "-75.42080000" },
+                        new() { Id = 33, Name = "Cabano", Latitude = "47.68065000", Longitude = "-68.87810000" },
+                        new() { Id = 34, Name = "Cacouna", Latitude = "47.91657000", Longitude = "-69.50054000" },
+                        new() { Id = 35, Name = "Candiac", Latitude = "45.38338000", Longitude = "-73.51587000" },
+                        new() { Id = 36, Name = "Cantley", Latitude = "45.56680000", Longitude = "-75.78265000" },
+                        new() { Id = 37, Name = "Cap-Chat", Latitude = "49.10009000", Longitude = "-66.68212000" },
+                        new() { Id = 38, Name = "Cap-Santé", Latitude = "46.67159000", Longitude = "-71.78812000" },
+                        new() { Id = 39, Name = "Capitale-Nationale", Latitude = "47.37600000", Longitude = "-71.12337000" },
+                        new() { Id = 40, Name = "Carignan", Latitude = "45.45008000", Longitude = "-73.29916000" },
+                        new() { Id = 41, Name = "Carleton", Latitude = "48.09838000", Longitude = "-66.10036000" },
+                        new() { Id = 42, Name = "Carleton-sur-Mer", Latitude = "48.10749000", Longitude = "-66.12800000" },
+                        new() { Id = 43, Name = "Centre-du-Québec", Latitude = "46.01985000", Longitude = "-71.98242000" },
+                        new() { Id = 44, Name = "Chambly", Latitude = "45.45008000", Longitude = "-73.28246000" },
+                        new() { Id = 45, Name = "Chambord", Latitude = "48.43339000", Longitude = "-72.06583000" },
+                        new() { Id = 46, Name = "Chandler", Latitude = "48.34935000", Longitude = "-64.67926000" },
+                        new() { Id = 47, Name = "Chapais", Latitude = "49.78344000", Longitude = "-74.84919000" },
+                        new() { Id = 48, Name = "Charlemagne", Latitude = "45.71678000", Longitude = "-73.48247000" },
+                        new() { Id = 49, Name = "Château-Richer", Latitude = "46.96031000", Longitude = "-71.03219000" },
+                        new() { Id = 50, Name = "Châteauguay", Latitude = "45.38338000", Longitude = "-73.74919000" },
+                        new() { Id = 51, Name = "Chaudière-Appalaches", Latitude = "46.55500000", Longitude = "-70.83080000" },
+                        new() { Id = 52, Name = "Chertsey", Latitude = "46.07109000", Longitude = "-73.89095000" },
+                        new() { Id = 53, Name = "Chibougamau", Latitude = "49.91684000", Longitude = "-74.36586000" },
+                        new() { Id = 54, Name = "Chute-aux-Outardes", Latitude = "49.11679000", Longitude = "-68.39896000" },
+                        new() { Id = 55, Name = "Coaticook", Latitude = "45.13339000", Longitude = "-71.79907000" },
+                        new() { Id = 56, Name = "Contrecoeur", Latitude = "45.85008000", Longitude = "-73.23245000" },
+                        new() { Id = 57, Name = "Cookshire", Latitude = "45.41536000", Longitude = "-71.62962000" },
+                        new() { Id = 58, Name = "Cookshire-Eaton", Latitude = "45.41675000", Longitude = "-71.63240000" },
+                        new() { Id = 59, Name = "Côte-Nord", Latitude = "50.86683000", Longitude = "-65.81541000" },
+                        new() { Id = 60, Name = "Côte-Saint-Luc", Latitude = "45.46536000", Longitude = "-73.66585000" },
+                        new() { Id = 61, Name = "Coteau-du-Lac", Latitude = "45.30008000", Longitude = "-74.18253000" },
+                        new() { Id = 62, Name = "Cowansville", Latitude = "45.20008000", Longitude = "-72.74913000" },
+                        new() { Id = 63, Name = "Crabtree", Latitude = "45.96677000", Longitude = "-73.46586000" },
+                        new() { Id = 64, Name = "Danville", Latitude = "45.78337000", Longitude = "-72.01580000" },
+                        new() { Id = 65, Name = "Daveluyville", Latitude = "46.20006000", Longitude = "-72.13239000" },
+                        new() { Id = 66, Name = "Delson", Latitude = "45.36678000", Longitude = "-73.54917000" },
+                        new() { Id = 67, Name = "Deux-Montagnes", Latitude = "45.53455000", Longitude = "-73.90168000" },
+                        new() { Id = 68, Name = "Disraeli", Latitude = "45.90007000", Longitude = "-71.34907000" },
+                        new() { Id = 69, Name = "Dolbeau-Mistassini", Latitude = "48.87860000", Longitude = "-72.23142000" },
+                        new() { Id = 70, Name = "Dollard-Des Ormeaux", Latitude = "45.49452000", Longitude = "-73.82419000" },
+                        new() { Id = 71, Name = "Donnacona", Latitude = "46.68042000", Longitude = "-71.72390000" },
+                        new() { Id = 72, Name = "Dorval", Latitude = "45.44730000", Longitude = "-73.75335000" },
+                        new() { Id = 73, Name = "Drummondville", Latitude = "45.88336000", Longitude = "-72.48241000" },
+                        new() { Id = 74, Name = "Dunham", Latitude = "45.13338000", Longitude = "-72.79913000" },
+                        new() { Id = 75, Name = "East Angus", Latitude = "45.48338000", Longitude = "-71.66577000" },
+                        new() { Id = 76, Name = "East Broughton", Latitude = "46.21358000", Longitude = "-71.07674000" },
+                        new() { Id = 77, Name = "Farnham", Latitude = "45.28338000", Longitude = "-72.98244000" },
+                        new() { Id = 78, Name = "Ferme-Neuve", Latitude = "46.70011000", Longitude = "-75.44929000" },
+                        new() { Id = 79, Name = "Fermont", Latitude = "52.78345000", Longitude = "-67.08204000" },
+                        new() { Id = 80, Name = "Forestville", Latitude = "48.73808000", Longitude = "-69.08478000" },
+                        new() { Id = 81, Name = "Fort-Coulonge", Latitude = "45.85011000", Longitude = "-76.73272000" },
+                        new() { Id = 82, Name = "Fossambault-sur-le-Lac", Latitude = "46.87662000", Longitude = "-71.61541000" },
+                        new() { Id = 83, Name = "Franklin", Latitude = "45.03338000", Longitude = "-73.91591000" },
+                        new() { Id = 84, Name = "Gaspé", Latitude = "48.83341000", Longitude = "-64.48194000" },
+                        new() { Id = 85, Name = "Gaspésie-Îles-de-la-Madeleine", Latitude = "48.87555000", Longitude = "-65.40710000" },
+                        new() { Id = 86, Name = "Gatineau", Latitude = "45.47723000", Longitude = "-75.70164000" },
+                        new() { Id = 87, Name = "Godefroy", Latitude = "51.75012000", Longitude = "-68.08213000" },
+                        new() { Id = 88, Name = "Granby", Latitude = "45.40008000", Longitude = "-72.73243000" },
+                        new() { Id = 89, Name = "Hampstead", Latitude = "45.48064000", Longitude = "-73.66307000" },
+                        new() { Id = 90, Name = "Hauterive", Latitude = "49.19572000", Longitude = "-68.25813000" },
+                        new() { Id = 91, Name = "Havre-Saint-Pierre", Latitude = "50.24342000", Longitude = "-63.60264000" },
+                        new() { Id = 92, Name = "Hérouxville", Latitude = "46.66617000", Longitude = "-72.62512000" },
+                        new() { Id = 93, Name = "Hudson", Latitude = "45.45008000", Longitude = "-74.14922000" },
+                        new() { Id = 94, Name = "Huntingdon", Latitude = "45.08339000", Longitude = "-74.16593000" },
+                        new() { Id = 95, Name = "Joliette", Latitude = "46.01640000", Longitude = "-73.42360000" },
+                        new() { Id = 96, Name = "Jonquière", Latitude = "48.41648000", Longitude = "-71.24884000" },
+                        new() { Id = 97, Name = "Kingsey Falls", Latitude = "45.85007000", Longitude = "-72.06580000" },
+                        new() { Id = 98, Name = "Kirkland", Latitude = "45.45008000", Longitude = "-73.86586000" },
+                        new() { Id = 99, Name = "L'Ancienne-Lorette", Latitude = "46.79392000", Longitude = "-71.35191000" },
+                        new() { Id = 100, Name = "L'Ange-Gardien", Latitude = "46.91976000", Longitude = "-71.08253000" },
+                        new() { Id = 101, Name = "L'Ascension-de-Notre-Seigneur", Latitude = "48.68339000", Longitude = "-71.66580000" },
+                        new() { Id = 102, Name = "L'Assomption", Latitude = "45.82318000", Longitude = "-73.42940000" },
+                        new() { Id = 103, Name = "L'Épiphanie", Latitude = "45.85008000", Longitude = "-73.48246000" },
+                        new() { Id = 104, Name = "L'Île-Perrot", Latitude = "45.38338000", Longitude = "-73.94920000" },
+                        new() { Id = 105, Name = "La Conception", Latitude = "46.15009000", Longitude = "-74.69925000" },
+                        new() { Id = 106, Name = "La Haute-Saint-Charles", Latitude = "46.89028000", Longitude = "-71.37222000" },
+                        new() { Id = 107, Name = "La Malbaie", Latitude = "47.65400000", Longitude = "-70.15268000" },
+                        new() { Id = 108, Name = "La Minerve", Latitude = "46.25009000", Longitude = "-74.93257000" },
+                        new() { Id = 109, Name = "La Pocatière", Latitude = "47.36733000", Longitude = "-70.03484000" },
+                        new() { Id = 110, Name = "La Prairie", Latitude = "45.41678000", Longitude = "-73.49917000" },
+                        new() { Id = 111, Name = "La Sarre", Latitude = "48.80019000", Longitude = "-79.19964000" },
+                        new() { Id = 112, Name = "La Tuque", Latitude = "47.43337000", Longitude = "-72.78240000" },
+                        new() { Id = 113, Name = "Labelle", Latitude = "46.28339000", Longitude = "-74.73255000" },
+                        new() { Id = 114, Name = "Lac-Alouette", Latitude = "45.81698000", Longitude = "-73.95920000" },
+                        new() { Id = 115, Name = "Lac-Brome", Latitude = "45.21678000", Longitude = "-72.51581000" },
+                        new() { Id = 116, Name = "Lac-Connelly", Latitude = "45.89788000", Longitude = "-73.97230000" },
+                        new() { Id = 117, Name = "Lac-Lapierre", Latitude = "45.89837000", Longitude = "-73.77308000" },
+                        new() { Id = 118, Name = "Lac-Mégantic", Latitude = "45.58338000", Longitude = "-70.88234000" },
+                        new() { Id = 119, Name = "Lac-Simon", Latitude = "46.15699000", Longitude = "-74.74129000" },
+                        new() { Id = 120, Name = "Lachute", Latitude = "45.65008000", Longitude = "-74.33253000" },
+                        new() { Id = 121, Name = "Lacolle", Latitude = "45.08338000", Longitude = "-73.36585000" },
+                        new() { Id = 122, Name = "Lanoraie", Latitude = "45.96677000", Longitude = "-73.21585000" },
+                        new() { Id = 123, Name = "Laval", Latitude = "45.56995000", Longitude = "-73.69200000" },
+                        new() { Id = 124, Name = "Lavaltrie", Latitude = "45.88338000", Longitude = "-73.28245000" },
+                        new() { Id = 125, Name = "Le Bic", Latitude = "48.37549000", Longitude = "-68.69415000" },
+                        new() { Id = 126, Name = "le Plateau", Latitude = "45.43514000", Longitude = "-75.78030000" },
+                        new() { Id = 127, Name = "Lebel-sur-Quévillon", Latitude = "49.05018000", Longitude = "-76.98273000" },
+                        new() { Id = 128, Name = "Leblanc", Latitude = "48.26683000", Longitude = "-74.34914000" },
+                        new() { Id = 129, Name = "Les Cèdres", Latitude = "45.30008000", Longitude = "-74.04922000" },
+                        new() { Id = 130, Name = "Les Coteaux", Latitude = "45.28338000", Longitude = "-74.23254000" },
+                        new() { Id = 131, Name = "Les Escoumins", Latitude = "48.35191000", Longitude = "-69.40724000" },
+                        new() { Id = 132, Name = "Lévis", Latitude = "46.80326000", Longitude = "-71.17793000" },
+                        new() { Id = 133, Name = "Linière", Latitude = "46.00007000", Longitude = "-70.41572000" },
+                        new() { Id = 134, Name = "Longueuil", Latitude = "45.53121000", Longitude = "-73.51806000" },
+                        new() { Id = 135, Name = "Lorraine", Latitude = "45.68338000", Longitude = "-73.78249000" },
+                        new() { Id = 136, Name = "Louiseville", Latitude = "46.25594000", Longitude = "-72.94145000" },
+                        new() { Id = 137, Name = "Luceville", Latitude = "48.54498000", Longitude = "-68.39658000" },
+                        new() { Id = 138, Name = "Macamic", Latitude = "48.75018000", Longitude = "-78.99962000" },
+                        new() { Id = 139, Name = "Magog", Latitude = "45.26678000", Longitude = "-72.14909000" },
+                        new() { Id = 140, Name = "Malartic", Latitude = "48.13348000", Longitude = "-78.13283000" },
+                        new() { Id = 141, Name = "Maliotenam", Latitude = "50.21119000", Longitude = "-66.18164000" },
+                        new() { Id = 142, Name = "Manawan", Latitude = "47.22029000", Longitude = "-74.38606000" },
+                        new() { Id = 143, Name = "Mandeville", Latitude = "46.36677000", Longitude = "-73.34915000" },
+                        new() { Id = 144, Name = "Maniwaki", Latitude = "46.38341000", Longitude = "-75.96605000" },
+                        new() { Id = 145, Name = "Maria", Latitude = "48.17490000", Longitude = "-65.98595000" },
+                        new() { Id = 146, Name = "Marieville", Latitude = "45.43338000", Longitude = "-73.16585000" },
+                        new() { Id = 147, Name = "Mascouche", Latitude = "45.74965000", Longitude = "-73.59956000" },
+                        new() { Id = 148, Name = "Maskinongé", Latitude = "46.22860000", Longitude = "-73.01917000" },
+                        new() { Id = 149, Name = "Matagami", Latitude = "49.75018000", Longitude = "-77.63277000" },
+                        new() { Id = 150, Name = "Matane", Latitude = "48.82857000", Longitude = "-67.52197000" },
+                        new() { Id = 151, Name = "Mauricie", Latitude = "47.55009000", Longitude = "-73.41583000" },
+                        new() { Id = 152, Name = "Melocheville", Latitude = "45.31726000", Longitude = "-73.93710000" },
+                        new() { Id = 153, Name = "Mercier", Latitude = "45.31678000", Longitude = "-73.74919000" },
+                        new() { Id = 154, Name = "Métabetchouan", Latitude = "48.36679000", Longitude = "-72.01583000" },
+                        new() { Id = 155, Name = "Metabetchouan-Lac-a-la-Croix", Latitude = "48.41000000", Longitude = "-71.78000000" },
+                        new() { Id = 156, Name = "Mirabel", Latitude = "45.65008000", Longitude = "-74.08251000" },
+                        new() { Id = 157, Name = "Mistissini", Latitude = "50.41667000", Longitude = "-73.88333000" },
+                        new() { Id = 158, Name = "Mont-Joli", Latitude = "48.58388000", Longitude = "-68.19214000" },
+                        new() { Id = 159, Name = "Mont-Laurier", Latitude = "46.55011000", Longitude = "-75.49930000" },
+                        new() { Id = 160, Name = "Mont-Royal", Latitude = "45.51675000", Longitude = "-73.64918000" },
+                        new() { Id = 161, Name = "Mont-Saint-Grégoire", Latitude = "45.33338000", Longitude = "-73.16585000" },
+                        new() { Id = 162, Name = "Mont-Saint-Hilaire", Latitude = "45.56515000", Longitude = "-73.18680000" },
+                        new() { Id = 163, Name = "Mont-Tremblant", Latitude = "46.21274000", Longitude = "-74.58438000" },
+                        new() { Id = 164, Name = "Montmagny", Latitude = "46.98043000", Longitude = "-70.55493000" },
+                        new() { Id = 165, Name = "Montréal", Latitude = "45.50008000", Longitude = "-73.68248000" },
+                        new() { Id = 166, Name = "Montréal-Est", Latitude = "45.63202000", Longitude = "-73.50750000" },
+                        new() { Id = 167, Name = "Montréal-Ouest", Latitude = "45.45286000", Longitude = "-73.64918000" },
+                        new() { Id = 168, Name = "Morin-Heights", Latitude = "45.90009000", Longitude = "-74.24922000" },
+                        new() { Id = 169, Name = "Napierville", Latitude = "45.18648000", Longitude = "-73.40468000" },
+                        new() { Id = 170, Name = "Neuville", Latitude = "46.69823000", Longitude = "-71.58275000" },
+                        new() { Id = 171, Name = "New Carlisle", Latitude = "48.00956000", Longitude = "-65.33621000" },
+                        new() { Id = 172, Name = "New-Richmond", Latitude = "48.16059000", Longitude = "-65.85823000" },
+                        new() { Id = 173, Name = "Nicolet", Latitude = "46.21676000", Longitude = "-72.61582000" },
+                        new() { Id = 174, Name = "Nord-du-Québec", Latitude = "51.96200000", Longitude = "-74.89610000" },
+                        new() { Id = 175, Name = "Normandin", Latitude = "48.83328000", Longitude = "-72.53209000" },
+                        new() { Id = 176, Name = "Notre-Dame-de-Grâce", Latitude = "45.47675000", Longitude = "-73.61432000" },
+                        new() { Id = 177, Name = "Notre-Dame-de-l'Île-Perrot", Latitude = "45.36678000", Longitude = "-73.93250000" },
+                        new() { Id = 178, Name = "Notre-Dame-des-Prairies", Latitude = "46.05007000", Longitude = "-73.43245000" },
+                        new() { Id = 179, Name = "Notre-Dame-du-Lac", Latitude = "46.75012000", Longitude = "-79.04961000" },
+                        new() { Id = 180, Name = "Notre-Dame-du-Mont-Carmel", Latitude = "46.01680000", Longitude = "-75.08259000" },
+                        new() { Id = 181, Name = "Oka", Latitude = "45.46489000", Longitude = "-74.08892000" },
+                        new() { Id = 182, Name = "Ormstown", Latitude = "45.13338000", Longitude = "-73.99922000" },
+                        new() { Id = 183, Name = "Otterburn Park", Latitude = "45.53338000", Longitude = "-73.21585000" },
+                        new() { Id = 184, Name = "Outaouais", Latitude = "46.26681000", Longitude = "-76.31606000" },
+                        new() { Id = 185, Name = "Papineauville", Latitude = "45.61680000", Longitude = "-75.01599000" },
+                        new() { Id = 186, Name = "Parc-Boutin", Latitude = "45.29209000", Longitude = "-73.26154000" },
+                        new() { Id = 187, Name = "Piedmont", Latitude = "45.90008000", Longitude = "-74.13251000" },
+                        new() { Id = 188, Name = "Pierreville", Latitude = "46.07034000", Longitude = "-72.81125000" },
+                        new() { Id = 189, Name = "Pincourt", Latitude = "45.38338000", Longitude = "-73.98250000" },
+                        new() { Id = 190, Name = "Plessisville", Latitude = "46.21856000", Longitude = "-71.76201000" },
+                        new() { Id = 191, Name = "Pohénégamook", Latitude = "47.46315000", Longitude = "-69.22666000" },
+                        new() { Id = 192, Name = "Pointe-Calumet", Latitude = "45.50008000", Longitude = "-73.96590000" },
+                        new() { Id = 193, Name = "Pointe-Claire", Latitude = "45.44868000", Longitude = "-73.81669000" },
+                        new() { Id = 194, Name = "Pointe-du-Lac", Latitude = "48.50009000", Longitude = "-71.78241000" },
+                        new() { Id = 195, Name = "Pont Rouge", Latitude = "48.88332000", Longitude = "-72.08247000" },
+                        new() { Id = 196, Name = "Pont-Rouge", Latitude = "46.75468000", Longitude = "-71.69566000" },
+                        new() { Id = 197, Name = "Port-Cartier", Latitude = "50.03339000", Longitude = "-66.86545000" },
+                        new() { Id = 198, Name = "Portneuf", Latitude = "46.69058000", Longitude = "-71.89011000" },
+                        new() { Id = 199, Name = "Prévost", Latitude = "45.86678000", Longitude = "-74.08251000" },
+                        new() { Id = 200, Name = "Princeville", Latitude = "46.17163000", Longitude = "-71.87462000" },
+                        new() { Id = 201, Name = "Québec", Latitude = "46.81228000", Longitude = "-71.21454000" },
+                        new() { Id = 202, Name = "Rawdon", Latitude = "46.05007000", Longitude = "-73.71587000" },
+                        new() { Id = 203, Name = "Repentigny", Latitude = "45.74222000", Longitude = "-73.45008000" },
+                        new() { Id = 204, Name = "Richelieu", Latitude = "45.44336000", Longitude = "-73.24602000" },
+                        new() { Id = 205, Name = "Richmond", Latitude = "45.66677000", Longitude = "-72.14910000" },
+                        new() { Id = 206, Name = "Rigaud", Latitude = "45.47927000", Longitude = "-74.30238000" },
+                        new() { Id = 207, Name = "Rimouski", Latitude = "48.44879000", Longitude = "-68.52396000" },
+                        new() { Id = 208, Name = "Rivière-du-Loup", Latitude = "47.82699000", Longitude = "-69.54243000" },
+                        new() { Id = 209, Name = "Rivière-Rouge", Latitude = "46.41679000", Longitude = "-74.86596000" },
+                        new() { Id = 210, Name = "Roberval", Latitude = "48.51680000", Longitude = "-72.23244000" },
+                        new() { Id = 211, Name = "Rock Forest", Latitude = "45.35699000", Longitude = "-71.99676000" },
+                        new() { Id = 212, Name = "Rosemère", Latitude = "45.63338000", Longitude = "-73.79919000" },
+                        new() { Id = 213, Name = "Rougemont", Latitude = "45.43338000", Longitude = "-73.04914000" },
+                        new() { Id = 214, Name = "Rouyn-Noranda", Latitude = "48.23656000", Longitude = "-79.02311000" },
+                        new() { Id = 215, Name = "Sacré-Coeur", Latitude = "48.22970000", Longitude = "-69.80061000" },
+                        new() { Id = 216, Name = "Saguenay", Latitude = "48.41675000", Longitude = "-71.06573000" },
+                        new() { Id = 217, Name = "Saint-Adolphe-d'Howard", Latitude = "45.96679000", Longitude = "-74.33253000" },
+                        new() { Id = 218, Name = "Saint-Alexandre", Latitude = "45.50010000", Longitude = "-75.74935000" },
+                        new() { Id = 219, Name = "Saint-Amable", Latitude = "45.65008000", Longitude = "-73.29916000" },
+                        new() { Id = 220, Name = "Saint-Ambroise", Latitude = "48.55009000", Longitude = "-71.33238000" },
+                        new() { Id = 221, Name = "Saint-André-Avellin", Latitude = "45.71680000", Longitude = "-75.06599000" },
+                        new() { Id = 222, Name = "Saint-Anselme", Latitude = "46.62922000", Longitude = "-70.97340000" },
+                        new() { Id = 223, Name = "Saint-Antoine-de-Tilly", Latitude = "46.66346000", Longitude = "-71.57335000" },
+                        new() { Id = 224, Name = "Saint-Augustin", Latitude = "51.22602000", Longitude = "-58.65017000" },
+                        new() { Id = 225, Name = "Saint-Augustin-de-Desmaures", Latitude = "46.74064000", Longitude = "-71.45131000" },
+                        new() { Id = 226, Name = "Saint-Barnabé-Sud", Latitude = "45.72977000", Longitude = "-72.92244000" },
+                        new() { Id = 227, Name = "Saint-Basile-le-Grand", Latitude = "45.53338000", Longitude = "-73.28246000" },
+                        new() { Id = 228, Name = "Saint-Boniface", Latitude = "46.50011000", Longitude = "-75.98264000" },
+                        new() { Id = 229, Name = "Saint-Bruno", Latitude = "48.46679000", Longitude = "-71.64910000" },
+                        new() { Id = 230, Name = "Saint-Bruno-de-Guigues", Latitude = "47.46685000", Longitude = "-79.43296000" },
+                        new() { Id = 231, Name = "Saint-Bruno-de-Montarville", Latitude = "45.53341000", Longitude = "-73.34916000" },
+                        new() { Id = 232, Name = "Saint-Canut", Latitude = "45.71502000", Longitude = "-74.08376000" },
+                        new() { Id = 233, Name = "Saint-Césaire", Latitude = "45.41678000", Longitude = "-72.99914000" },
+                        new() { Id = 234, Name = "Saint-Charles", Latitude = "45.70288000", Longitude = "-73.55417000" },
+                        new() { Id = 235, Name = "Saint-Côme-Linière", Latitude = "46.06677000", Longitude = "-70.51573000" },
+                        new() { Id = 236, Name = "Saint-Constant", Latitude = "45.36678000", Longitude = "-73.56588000" },
+                        new() { Id = 237, Name = "Saint-Cyrille-de-Wendover", Latitude = "45.93336000", Longitude = "-72.43241000" },
+                        new() { Id = 238, Name = "Saint-Damase", Latitude = "45.53341000", Longitude = "-72.99914000" },
+                        new() { Id = 239, Name = "Saint-Denis-sur-Richelieu", Latitude = "45.78338000", Longitude = "-73.14915000" },
+                        new() { Id = 240, Name = "Saint-Donat-de-Montcalm", Latitude = "46.31868000", Longitude = "-74.22171000" },
+                        new() { Id = 241, Name = "Saint-Édouard", Latitude = "45.23338000", Longitude = "-73.51588000" },
+                        new() { Id = 242, Name = "Saint-Elzéar", Latitude = "45.60338000", Longitude = "-73.72698000" },
+                        new() { Id = 243, Name = "Saint-Éphrem-de-Beauce", Latitude = "46.06677000", Longitude = "-70.94905000" },
+                        new() { Id = 244, Name = "Saint-Eustache", Latitude = "45.56500000", Longitude = "-73.90554000" },
+                        new() { Id = 245, Name = "Saint-Félicien", Latitude = "48.65007000", Longitude = "-72.44906000" },
+                        new() { Id = 246, Name = "Saint-Félix-de-Valois", Latitude = "46.16977000", Longitude = "-73.42525000" },
+                        new() { Id = 247, Name = "Saint-Gabriel", Latitude = "46.30007000", Longitude = "-73.38245000" },
+                        new() { Id = 248, Name = "Saint-Gédéon", Latitude = "48.50009000", Longitude = "-71.76581000" },
+                        new() { Id = 249, Name = "Saint-Georges", Latitude = "46.11353000", Longitude = "-70.66526000" },
+                        new() { Id = 250, Name = "Saint-Germain-de-Grantham", Latitude = "45.83337000", Longitude = "-72.56582000" },
+                        new() { Id = 251, Name = "Saint-Henri", Latitude = "46.69314000", Longitude = "-71.06927000" },
+                        new() { Id = 252, Name = "Saint-Hippolyte", Latitude = "45.93338000", Longitude = "-74.01590000" },
+                        new() { Id = 253, Name = "Saint-Honoré", Latitude = "48.53338000", Longitude = "-71.08236000" },
+                        new() { Id = 254, Name = "Saint-Hyacinthe", Latitude = "45.63076000", Longitude = "-72.95699000" },
+                        new() { Id = 255, Name = "Saint-Isidore", Latitude = "47.43345000", Longitude = "-79.29965000" },
+                        new() { Id = 256, Name = "Saint-Jacques-le-Mineur", Latitude = "45.28338000", Longitude = "-73.41587000" },
+                        new() { Id = 257, Name = "Saint-Jean-Baptiste", Latitude = "45.38060000", Longitude = "-74.01210000" },
+                        new() { Id = 258, Name = "Saint-Jean-sur-Richelieu", Latitude = "45.30713000", Longitude = "-73.26259000" },
+                        new() { Id = 259, Name = "Saint-Jérôme", Latitude = "45.78036000", Longitude = "-74.00365000" },
+                        new() { Id = 260, Name = "Saint-Joseph", Latitude = "45.95817000", Longitude = "-73.22025000" },
+                        new() { Id = 261, Name = "Saint-Joseph-de-Beauce", Latitude = "46.30000000", Longitude = "-70.86667000" },
+                        new() { Id = 262, Name = "Saint-Joseph-de-Coleraine", Latitude = "45.96677000", Longitude = "-71.36577000" },
+                        new() { Id = 263, Name = "Saint-Joseph-du-Lac", Latitude = "45.53338000", Longitude = "-73.99920000" },
+                        new() { Id = 264, Name = "Saint-Lambert-de-Lauzon", Latitude = "46.58624000", Longitude = "-71.20892000" },
+                        new() { Id = 265, Name = "Saint-Laurent", Latitude = "45.50008000", Longitude = "-73.66585000" },
+                        new() { Id = 266, Name = "Saint-Lazare", Latitude = "45.40008000", Longitude = "-74.13256000" },
+                        new() { Id = 267, Name = "Saint-Léonard", Latitude = "45.58773000", Longitude = "-73.59501000" },
+                        new() { Id = 268, Name = "Saint-Léonard-d'Aston", Latitude = "46.10006000", Longitude = "-72.36580000" },
+                        new() { Id = 269, Name = "Saint-Liboire", Latitude = "45.65068000", Longitude = "-72.76348000" },
+                        new() { Id = 270, Name = "Saint-Lin-Laurentides", Latitude = "45.85008000", Longitude = "-73.76588000" },
+                        new() { Id = 271, Name = "Saint-Marc-des-Carrières", Latitude = "46.68335000", Longitude = "-72.04910000" },
+                        new() { Id = 272, Name = "Saint-Mathieu", Latitude = "45.31678000", Longitude = "-73.51587000" },
+                        new() { Id = 273, Name = "Saint-Michel", Latitude = "45.56758000", Longitude = "-73.62168000" },
+                        new() { Id = 274, Name = "Saint-Michel-des-Saints", Latitude = "46.67702000", Longitude = "-73.91881000" },
+                        new() { Id = 275, Name = "Saint-Nazaire", Latitude = "48.58944000", Longitude = "-71.55247000" },
+                        new() { Id = 276, Name = "Saint-Norbert", Latitude = "46.16949000", Longitude = "-73.31494000" },
+                        new() { Id = 277, Name = "Saint-Pacôme", Latitude = "47.40457000", Longitude = "-69.95025000" },
+                        new() { Id = 278, Name = "Saint-Pascal", Latitude = "47.51813000", Longitude = "-69.80301000" },
+                        new() { Id = 279, Name = "Saint-Philippe-de-La Prairie", Latitude = "45.35723000", Longitude = "-73.47706000" },
+                        new() { Id = 280, Name = "Saint-Pie", Latitude = "45.50277000", Longitude = "-72.90890000" },
+                        new() { Id = 281, Name = "Saint-Pierre-les-Becquets", Latitude = "46.50005000", Longitude = "-72.19910000" },
+                        new() { Id = 282, Name = "Saint-Prime", Latitude = "48.58339000", Longitude = "-72.33244000" },
+                        new() { Id = 283, Name = "Saint-Raphaël", Latitude = "46.25011000", Longitude = "-76.01605000" },
+                        new() { Id = 284, Name = "Saint-Raymond", Latitude = "45.46698000", Longitude = "-73.60948000" },
+                        new() { Id = 285, Name = "Saint-Rémi", Latitude = "45.26678000", Longitude = "-73.61588000" },
+                        new() { Id = 286, Name = "Saint-Rémi-de-Tingwick", Latitude = "45.86677000", Longitude = "-71.81581000" },
+                        new() { Id = 287, Name = "Saint-Sauveur", Latitude = "45.88686000", Longitude = "-74.17943000" },
+                        new() { Id = 288, Name = "Saint-Sauveur-des-Monts", Latitude = "45.90008000", Longitude = "-74.16591000" },
+                        new() { Id = 289, Name = "Saint-Siméon", Latitude = "47.84431000", Longitude = "-69.87837000" },
+                        new() { Id = 290, Name = "Saint-Thomas", Latitude = "46.01677000", Longitude = "-73.34915000" },
+                        new() { Id = 291, Name = "Saint-Tite", Latitude = "46.73336000", Longitude = "-72.56581000" },
+                        new() { Id = 292, Name = "Saint-Victor", Latitude = "45.61118000", Longitude = "-73.51527000" },
+                        new() { Id = 293, Name = "Saint-Zotique", Latitude = "45.25009000", Longitude = "-74.24924000" },
+                        new() { Id = 294, Name = "Sainte Catherine de la Jacques Cartier", Latitude = "46.85244000", Longitude = "-71.62056000" },
+                        new() { Id = 295, Name = "Sainte-Adèle", Latitude = "45.95008000", Longitude = "-74.13251000" },
+                        new() { Id = 296, Name = "Sainte-Agathe-des-Monts", Latitude = "46.05009000", Longitude = "-74.28252000" },
+                        new() { Id = 297, Name = "Sainte-Anne-de-Bellevue", Latitude = "45.40618000", Longitude = "-73.94560000" },
+                        new() { Id = 298, Name = "Sainte-Anne-des-Monts", Latitude = "49.12402000", Longitude = "-66.49243000" },
+                        new() { Id = 299, Name = "Sainte-Anne-des-Plaines", Latitude = "45.76468000", Longitude = "-73.81156000" },
+                        new() { Id = 300, Name = "Sainte-Béatrix", Latitude = "46.20007000", Longitude = "-73.61587000" },
+                        new() { Id = 301, Name = "Sainte-Catherine", Latitude = "45.40008000", Longitude = "-73.58248000" },
+                        new() { Id = 302, Name = "Sainte-Croix", Latitude = "45.13368000", Longitude = "-72.80083000" },
+                        new() { Id = 303, Name = "Sainte-Élisabeth", Latitude = "46.09502000", Longitude = "-73.35176000" },
+                        new() { Id = 304, Name = "Sainte-Julie", Latitude = "45.58338000", Longitude = "-73.33246000" },
+                        new() { Id = 305, Name = "Sainte-Julienne", Latitude = "45.96677000", Longitude = "-73.71587000" },
+                        new() { Id = 306, Name = "Sainte-Madeleine", Latitude = "45.60008000", Longitude = "-73.09914000" },
+                        new() { Id = 307, Name = "Sainte-Marie", Latitude = "46.43401000", Longitude = "-71.01168000" },
+                        new() { Id = 308, Name = "Sainte-Marthe-sur-le-Lac", Latitude = "45.53338000", Longitude = "-73.93250000" },
+                        new() { Id = 309, Name = "Sainte-Martine", Latitude = "45.25008000", Longitude = "-73.79919000" },
+                        new() { Id = 310, Name = "Sainte-Sophie", Latitude = "45.81678000", Longitude = "-73.89919000" },
+                        new() { Id = 311, Name = "Sainte-Thècle", Latitude = "46.81676000", Longitude = "-72.49911000" },
+                        new() { Id = 312, Name = "Sainte-Thérèse", Latitude = "45.63922000", Longitude = "-73.82757000" },
+                        new() { Id = 313, Name = "Salaberry-de-Valleyfield", Latitude = "45.25008000", Longitude = "-74.13253000" },
+                        new() { Id = 314, Name = "Salluit", Latitude = "62.20411000", Longitude = "-75.64344000" },
+                        new() { Id = 315, Name = "Senneterre", Latitude = "48.39302000", Longitude = "-77.23951000" },
+                        new() { Id = 316, Name = "Sept-Îles", Latitude = "50.20011000", Longitude = "-66.38208000" },
+                        new() { Id = 317, Name = "Shannon", Latitude = "46.88026000", Longitude = "-71.51464000" },
+                        new() { Id = 318, Name = "Shawinigan", Latitude = "46.56675000", Longitude = "-72.74913000" },
+                        new() { Id = 319, Name = "Shawville", Latitude = "45.60011000", Longitude = "-76.48270000" },
+                        new() { Id = 320, Name = "Sherbrooke", Latitude = "45.40008000", Longitude = "-71.89908000" },
+                        new() { Id = 321, Name = "Sorel-Tracy", Latitude = "46.04178000", Longitude = "-73.11358000" },
+                        new() { Id = 322, Name = "St-Jean-Port-Joli", Latitude = "47.21418000", Longitude = "-70.26969000" },
+                        new() { Id = 323, Name = "Sutton", Latitude = "45.10008000", Longitude = "-72.61582000" },
+                        new() { Id = 324, Name = "Témiscaming", Latitude = "46.72122000", Longitude = "-79.09712000" },
+                        new() { Id = 325, Name = "Terrasse-des-Pins", Latitude = "45.86449000", Longitude = "-74.06627000" },
+                        new() { Id = 326, Name = "Terrebonne", Latitude = "45.70004000", Longitude = "-73.64732000" },
+                        new() { Id = 327, Name = "Thetford-Mines", Latitude = "46.09371000", Longitude = "-71.30539000" },
+                        new() { Id = 328, Name = "Thurso", Latitude = "45.60010000", Longitude = "-75.24931000" },
+                        new() { Id = 329, Name = "Trois-Rivières", Latitude = "46.34515000", Longitude = "-72.54770000" },
+                        new() { Id = 330, Name = "Val-d'Or", Latitude = "48.09740000", Longitude = "-77.79737000" },
+                        new() { Id = 331, Name = "Val-David", Latitude = "46.03338000", Longitude = "-74.21592000" },
+                        new() { Id = 332, Name = "Val-des-Monts", Latitude = "45.65010000", Longitude = "-75.66604000" },
+                        new() { Id = 333, Name = "Val-Morin", Latitude = "46.00008000", Longitude = "-74.18251000" },
+                        new() { Id = 334, Name = "Valcourt", Latitude = "45.50008000", Longitude = "-72.31581000" },
+                        new() { Id = 335, Name = "Vallée-Jonction", Latitude = "46.37441000", Longitude = "-70.91881000" },
+                        new() { Id = 336, Name = "Varennes", Latitude = "45.68338000", Longitude = "-73.43246000" },
+                        new() { Id = 337, Name = "Vaudreuil-Dorion", Latitude = "45.40008000", Longitude = "-74.03251000" },
+                        new() { Id = 338, Name = "Venise-en-Québec", Latitude = "45.08338000", Longitude = "-73.13245000" },
+                        new() { Id = 339, Name = "Verchères", Latitude = "45.78338000", Longitude = "-73.34916000" },
+                        new() { Id = 340, Name = "Victoriaville", Latitude = "46.05007000", Longitude = "-71.96579000" },
+                        new() { Id = 341, Name = "Ville-Marie", Latitude = "47.33345000", Longitude = "-79.43297000" },
+                        new() { Id = 342, Name = "Wakefield", Latitude = "45.66680000", Longitude = "-75.83265000" },
+                        new() { Id = 343, Name = "Warwick", Latitude = "45.95007000", Longitude = "-71.98240000" },
+                        new() { Id = 344, Name = "Waskaganish", Latitude = "51.48333000", Longitude = "-78.75000000" },
+                        new() { Id = 345, Name = "Waswanipi", Latitude = "49.73346000", Longitude = "-76.16604000" },
+                        new() { Id = 346, Name = "Waterloo", Latitude = "45.35008000", Longitude = "-72.51582000" },
+                        new() { Id = 347, Name = "Weedon Centre", Latitude = "45.70802000", Longitude = "-71.45986000" },
+                        new() { Id = 348, Name = "Westmount", Latitude = "45.48341000", Longitude = "-73.59918000" },
+                        new() { Id = 349, Name = "Weymontachie", Latitude = "47.89940000", Longitude = "-73.77720000" },
+                        new() { Id = 350, Name = "Windsor", Latitude = "45.56678000", Longitude = "-71.99909000" },
+                        new() { Id = 351, Name = "Yamachiche", Latitude = "46.26676000", Longitude = "-72.83243000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 12,
                     Name = "Saskatchewan",
@@ -8616,444 +1259,66 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.93991590",
                     Longitude = "-106.45086390",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Assiniboia",
-                            Latitude = "49.63336000",
-                            Longitude = "-105.98446000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Biggar",
-                            Latitude = "52.06680000",
-                            Longitude = "-108.00135000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Canora",
-                            Latitude = "51.63328000",
-                            Longitude = "-102.43425000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Carlyle",
-                            Latitude = "49.63334000",
-                            Longitude = "-102.26765000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Dalmeny",
-                            Latitude = "52.33339000",
-                            Longitude = "-106.76792000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Esterhazy",
-                            Latitude = "50.65001000",
-                            Longitude = "-102.08426000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Estevan",
-                            Latitude = "49.13337000",
-                            Longitude = "-102.98422000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Foam Lake",
-                            Latitude = "51.65001000",
-                            Longitude = "-103.53431000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Gravelbourg",
-                            Latitude = "49.88336000",
-                            Longitude = "-106.55122000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Hudson Bay",
-                            Latitude = "52.85003000",
-                            Longitude = "-102.38425000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Humboldt",
-                            Latitude = "52.20005000",
-                            Longitude = "-105.12550000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Indian Head",
-                            Latitude = "50.53336000",
-                            Longitude = "-103.66775000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Kamsack",
-                            Latitude = "51.56668000",
-                            Longitude = "-101.90093000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Kerrobert",
-                            Latitude = "51.91682000",
-                            Longitude = "-109.13479000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Kindersley",
-                            Latitude = "51.46681000",
-                            Longitude = "-109.16818000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "La Ronge",
-                            Latitude = "55.10013000",
-                            Longitude = "-105.28422000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Langenburg",
-                            Latitude = "50.84999000",
-                            Longitude = "-101.71763000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Langham",
-                            Latitude = "52.36680000",
-                            Longitude = "-106.96793000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Lanigan",
-                            Latitude = "51.85006000",
-                            Longitude = "-105.03443000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Lumsden",
-                            Latitude = "50.65009000",
-                            Longitude = "-104.86783000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Macklin",
-                            Latitude = "52.33344000",
-                            Longitude = "-109.93484000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Maple Creek",
-                            Latitude = "49.91678000",
-                            Longitude = "-109.48481000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Martensville",
-                            Latitude = "52.28339000",
-                            Longitude = "-106.66792000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Meadow Lake",
-                            Latitude = "54.13348000",
-                            Longitude = "-108.43471000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Melfort",
-                            Latitude = "52.86673000",
-                            Longitude = "-104.61768000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Melville",
-                            Latitude = "50.91671000",
-                            Longitude = "-102.80099000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Moose Jaw",
-                            Latitude = "50.40005000",
-                            Longitude = "-105.53445000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Moosomin",
-                            Latitude = "50.13332000",
-                            Longitude = "-101.66766000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Nipawin",
-                            Latitude = "53.36678000",
-                            Longitude = "-104.00092000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "North Battleford",
-                            Latitude = "52.77972000",
-                            Longitude = "-108.29670000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Outlook",
-                            Latitude = "51.50008000",
-                            Longitude = "-107.05128000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Oxbow",
-                            Latitude = "49.23335000",
-                            Longitude = "-102.16760000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Pelican Narrows",
-                            Latitude = "55.16685000",
-                            Longitude = "-102.93410000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Pilot Butte",
-                            Latitude = "50.46678000",
-                            Longitude = "-104.41778000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Preeceville",
-                            Latitude = "51.94998000",
-                            Longitude = "-102.66766000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Prince Albert",
-                            Latitude = "53.20008000",
-                            Longitude = "-105.76772000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Regina",
-                            Latitude = "50.45008000",
-                            Longitude = "-104.61780000"
-                        },
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Regina Beach",
-                            Latitude = "50.78338000",
-                            Longitude = "-105.00112000"
-                        },
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Rosetown",
-                            Latitude = "51.55010000",
-                            Longitude = "-108.00136000"
-                        },
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Rosthern",
-                            Latitude = "52.66679000",
-                            Longitude = "-106.33446000"
-                        },
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Saskatoon",
-                            Latitude = "52.13238000",
-                            Longitude = "-106.66892000"
-                        },
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Shaunavon",
-                            Latitude = "49.65005000",
-                            Longitude = "-108.41810000"
-                        },
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Shellbrook",
-                            Latitude = "53.21679000",
-                            Longitude = "-106.40109000"
-                        },
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "Swift Current",
-                            Latitude = "50.28337000",
-                            Longitude = "-107.80135000"
-                        },
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "Tisdale",
-                            Latitude = "52.85002000",
-                            Longitude = "-104.05096000"
-                        },
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "Unity",
-                            Latitude = "52.45014000",
-                            Longitude = "-109.16816000"
-                        },
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "Wadena",
-                            Latitude = "51.94999000",
-                            Longitude = "-103.80102000"
-                        },
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "Warman",
-                            Latitude = "52.31679000",
-                            Longitude = "-106.56791000"
-                        },
-
-                        new City
-                        {
-                            Id = 49,
-                            Name = "Watrous",
-                            Latitude = "51.66677000",
-                            Longitude = "-105.46788000"
-                        },
-
-                        new City
-                        {
-                            Id = 50,
-                            Name = "Weyburn",
-                            Latitude = "49.66675000",
-                            Longitude = "-103.85109000"
-                        },
-
-                        new City
-                        {
-                            Id = 51,
-                            Name = "White City",
-                            Latitude = "50.43338000",
-                            Longitude = "-104.36778000"
-                        },
-
-                        new City
-                        {
-                            Id = 52,
-                            Name = "Wilkie",
-                            Latitude = "52.41683000",
-                            Longitude = "-108.70142000"
-                        },
-
-                        new City
-                        {
-                            Id = 53,
-                            Name = "Wynyard",
-                            Latitude = "51.76674000",
-                            Longitude = "-104.18436000"
-                        },
-
-                        new City
-                        {
-                            Id = 54,
-                            Name = "Yorkton",
-                            Latitude = "51.21670000",
-                            Longitude = "-102.46766000"
-                        }
+                        new() { Id = 1, Name = "Assiniboia", Latitude = "49.63336000", Longitude = "-105.98446000" },
+                        new() { Id = 2, Name = "Biggar", Latitude = "52.06680000", Longitude = "-108.00135000" },
+                        new() { Id = 3, Name = "Canora", Latitude = "51.63328000", Longitude = "-102.43425000" },
+                        new() { Id = 4, Name = "Carlyle", Latitude = "49.63334000", Longitude = "-102.26765000" },
+                        new() { Id = 5, Name = "Dalmeny", Latitude = "52.33339000", Longitude = "-106.76792000" },
+                        new() { Id = 6, Name = "Esterhazy", Latitude = "50.65001000", Longitude = "-102.08426000" },
+                        new() { Id = 7, Name = "Estevan", Latitude = "49.13337000", Longitude = "-102.98422000" },
+                        new() { Id = 8, Name = "Foam Lake", Latitude = "51.65001000", Longitude = "-103.53431000" },
+                        new() { Id = 9, Name = "Gravelbourg", Latitude = "49.88336000", Longitude = "-106.55122000" },
+                        new() { Id = 10, Name = "Hudson Bay", Latitude = "52.85003000", Longitude = "-102.38425000" },
+                        new() { Id = 11, Name = "Humboldt", Latitude = "52.20005000", Longitude = "-105.12550000" },
+                        new() { Id = 12, Name = "Indian Head", Latitude = "50.53336000", Longitude = "-103.66775000" },
+                        new() { Id = 13, Name = "Kamsack", Latitude = "51.56668000", Longitude = "-101.90093000" },
+                        new() { Id = 14, Name = "Kerrobert", Latitude = "51.91682000", Longitude = "-109.13479000" },
+                        new() { Id = 15, Name = "Kindersley", Latitude = "51.46681000", Longitude = "-109.16818000" },
+                        new() { Id = 16, Name = "La Ronge", Latitude = "55.10013000", Longitude = "-105.28422000" },
+                        new() { Id = 17, Name = "Langenburg", Latitude = "50.84999000", Longitude = "-101.71763000" },
+                        new() { Id = 18, Name = "Langham", Latitude = "52.36680000", Longitude = "-106.96793000" },
+                        new() { Id = 19, Name = "Lanigan", Latitude = "51.85006000", Longitude = "-105.03443000" },
+                        new() { Id = 20, Name = "Lumsden", Latitude = "50.65009000", Longitude = "-104.86783000" },
+                        new() { Id = 21, Name = "Macklin", Latitude = "52.33344000", Longitude = "-109.93484000" },
+                        new() { Id = 22, Name = "Maple Creek", Latitude = "49.91678000", Longitude = "-109.48481000" },
+                        new() { Id = 23, Name = "Martensville", Latitude = "52.28339000", Longitude = "-106.66792000" },
+                        new() { Id = 24, Name = "Meadow Lake", Latitude = "54.13348000", Longitude = "-108.43471000" },
+                        new() { Id = 25, Name = "Melfort", Latitude = "52.86673000", Longitude = "-104.61768000" },
+                        new() { Id = 26, Name = "Melville", Latitude = "50.91671000", Longitude = "-102.80099000" },
+                        new() { Id = 27, Name = "Moose Jaw", Latitude = "50.40005000", Longitude = "-105.53445000" },
+                        new() { Id = 28, Name = "Moosomin", Latitude = "50.13332000", Longitude = "-101.66766000" },
+                        new() { Id = 29, Name = "Nipawin", Latitude = "53.36678000", Longitude = "-104.00092000" },
+                        new() { Id = 30, Name = "North Battleford", Latitude = "52.77972000", Longitude = "-108.29670000" },
+                        new() { Id = 31, Name = "Outlook", Latitude = "51.50008000", Longitude = "-107.05128000" },
+                        new() { Id = 32, Name = "Oxbow", Latitude = "49.23335000", Longitude = "-102.16760000" },
+                        new() { Id = 33, Name = "Pelican Narrows", Latitude = "55.16685000", Longitude = "-102.93410000" },
+                        new() { Id = 34, Name = "Pilot Butte", Latitude = "50.46678000", Longitude = "-104.41778000" },
+                        new() { Id = 35, Name = "Preeceville", Latitude = "51.94998000", Longitude = "-102.66766000" },
+                        new() { Id = 36, Name = "Prince Albert", Latitude = "53.20008000", Longitude = "-105.76772000" },
+                        new() { Id = 37, Name = "Regina", Latitude = "50.45008000", Longitude = "-104.61780000" },
+                        new() { Id = 38, Name = "Regina Beach", Latitude = "50.78338000", Longitude = "-105.00112000" },
+                        new() { Id = 39, Name = "Rosetown", Latitude = "51.55010000", Longitude = "-108.00136000" },
+                        new() { Id = 40, Name = "Rosthern", Latitude = "52.66679000", Longitude = "-106.33446000" },
+                        new() { Id = 41, Name = "Saskatoon", Latitude = "52.13238000", Longitude = "-106.66892000" },
+                        new() { Id = 42, Name = "Shaunavon", Latitude = "49.65005000", Longitude = "-108.41810000" },
+                        new() { Id = 43, Name = "Shellbrook", Latitude = "53.21679000", Longitude = "-106.40109000" },
+                        new() { Id = 44, Name = "Swift Current", Latitude = "50.28337000", Longitude = "-107.80135000" },
+                        new() { Id = 45, Name = "Tisdale", Latitude = "52.85002000", Longitude = "-104.05096000" },
+                        new() { Id = 46, Name = "Unity", Latitude = "52.45014000", Longitude = "-109.16816000" },
+                        new() { Id = 47, Name = "Wadena", Latitude = "51.94999000", Longitude = "-103.80102000" },
+                        new() { Id = 48, Name = "Warman", Latitude = "52.31679000", Longitude = "-106.56791000" },
+                        new() { Id = 49, Name = "Watrous", Latitude = "51.66677000", Longitude = "-105.46788000" },
+                        new() { Id = 50, Name = "Weyburn", Latitude = "49.66675000", Longitude = "-103.85109000" },
+                        new() { Id = 51, Name = "White City", Latitude = "50.43338000", Longitude = "-104.36778000" },
+                        new() { Id = 52, Name = "Wilkie", Latitude = "52.41683000", Longitude = "-108.70142000" },
+                        new() { Id = 53, Name = "Wynyard", Latitude = "51.76674000", Longitude = "-104.18436000" },
+                        new() { Id = 54, Name = "Yorkton", Latitude = "51.21670000", Longitude = "-102.46766000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 13,
                     Name = "Yukon",
@@ -9061,40 +1326,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "35.50672150",
                     Longitude = "-97.76254410",
                     Type = "territory",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Dawson City",
-                            Latitude = "64.06013000",
-                            Longitude = "-139.43328000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Haines Junction",
-                            Latitude = "60.75216000",
-                            Longitude = "-137.51082000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Watson Lake",
-                            Latitude = "60.06349000",
-                            Longitude = "-128.70893000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Whitehorse",
-                            Latitude = "60.71611000",
-                            Longitude = "-135.05375000"
-                        }
+                        new() { Id = 1, Name = "Dawson City", Latitude = "64.06013000", Longitude = "-139.43328000" },
+                        new() { Id = 2, Name = "Haines Junction", Latitude = "60.75216000", Longitude = "-137.51082000" },
+                        new() { Id = 3, Name = "Watson Lake", Latitude = "60.06349000", Longitude = "-128.70893000" },
+                        new() { Id = 4, Name = "Whitehorse", Latitude = "60.71611000", Longitude = "-135.05375000" }
                     }
                 }
             }

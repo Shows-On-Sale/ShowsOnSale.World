@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data
     {
         public static partial class Generated
         {
-            public static List<Country> All { get; } = new List<Country>
+            public static List<Country> All { get; } = new()
             {
 
             Countries.Afghanistan.Data,
@@ -163,3 +163,357 @@ namespace ShowsOnSale.World.Data
             Countries.FijiIslands.Data
 
             Countries.Finland.Data
+
+            Countries.France.Data
+
+            Countries.FrenchGuiana.Data
+
+            Countries.FrenchPolynesia.Data
+
+            Countries.FrenchSouthernTerritories.Data
+
+            Countries.Gabon.Data
+
+            Countries.Georgia.Data
+
+            Countries.Germany.Data
+
+            Countries.Ghana.Data
+
+            Countries.Gibraltar.Data
+
+            Countries.Greece.Data
+
+            Countries.Greenland.Data
+
+            Countries.Grenada.Data
+
+            Countries.Guadeloupe.Data
+
+            Countries.Guam.Data
+
+            Countries.Guatemala.Data
+
+            Countries.Guernsey.Data
+
+            Countries.Guinea.Data
+
+            Countries.Guineabissau.Data
+
+            Countries.Guyana.Data
+
+            Countries.Haiti.Data
+
+            Countries.HeardIslandAndMcdonaldIslands.Data
+
+            Countries.Honduras.Data
+
+            Countries.HongKongSar.Data
+
+            Countries.Hungary.Data
+
+            Countries.Iceland.Data,
+
+            Countries.India.Data,
+
+            Countries.Indonesia.Data,
+
+            Countries.Iran.Data,
+
+            Countries.Iraq.Data,
+
+            Countries.Ireland.Data,
+
+            Countries.Israel.Data,
+
+            Countries.Italy.Data,
+
+            Countries.Jamaica.Data,
+
+            Countries.Japan.Data,
+
+            Countries.Jersey.Data,
+
+            Countries.Jordan.Data,
+
+            Countries.Kazakhstan.Data,
+
+            Countries.Kenya.Data,
+
+            Countries.Kiribati.Data,
+
+            Countries.Kosovo.Data,
+
+            Countries.Kuwait.Data,
+
+            Countries.Kyrgyzstan.Data,
+
+            Countries.Laos.Data,
+
+            Countries.Latvia.Data,
+
+            Countries.Lebanon.Data,
+
+            Countries.Lesotho.Data,
+
+            Countries.Liberia.Data,
+
+            Countries.Libya.Data,
+
+            Countries.Liechtenstein.Data,
+
+            Countries.Lithuania.Data,
+
+            Countries.Luxembourg.Data,
+
+            Countries.MacauSar.Data,
+
+            Countries.Madagascar.Data,
+
+            Countries.Malawi.Data,
+
+            Countries.Malaysia.Data,
+
+            Countries.Maldives.Data,
+
+            Countries.Mali.Data,
+
+            Countries.Malta.Data,
+
+            Countries.ManIsleOf.Data,
+
+            Countries.MarshallIslands.Data,
+
+            Countries.Martinique.Data,
+
+            Countries.Mauritania.Data,
+
+            Countries.Mauritius.Data,
+
+            Countries.Mayotte.Data,
+
+            Countries.Mexico.Data,
+
+            Countries.Micronesia.Data,
+
+            Countries.Moldova.Data,
+
+            Countries.Monaco.Data,
+
+            Countries.Mongolia.Data,
+
+            Countries.Montenegro.Data,
+
+            Countries.Montserrat.Data,
+
+            Countries.Morocco.Data,
+
+            Countries.Mozambique.Data,
+
+            Countries.Myanmar.Data,
+
+            Countries.Namibia.Data,
+
+            Countries.Nauru.Data,
+
+            Countries.Nepal.Data,
+
+            Countries.Netherlands.Data,
+
+            Countries.NewCaledonia.Data,
+
+            Countries.NewZealand.Data,
+
+            Countries.Nicaragua.Data,
+
+            Countries.Niger.Data,
+
+            Countries.Nigeria.Data,
+
+            Countries.Niue.Data,
+
+            Countries.NorfolkIsland.Data,
+
+            Countries.NorthKorea.Data,
+
+            Countries.NorthMacedonia.Data,
+
+            Countries.NorthernMarianaIslands.Data,
+
+            Countries.Norway.Data,
+
+            Countries.Oman.Data,
+
+            Countries.Pakistan.Data,
+
+            Countries.Palau.Data,
+
+            Countries.PalestinianTerritoryOccupied.Data,
+
+            Countries.Panama.Data,
+
+            Countries.PapuaNewGuinea.Data,
+
+            Countries.Paraguay.Data,
+
+            Countries.Peru.Data,
+
+            Countries.Philippines.Data,
+
+            Countries.PitcairnIsland.Data,
+
+            Countries.Poland.Data,
+
+            Countries.Portugal.Data,
+
+            Countries.PuertoRico.Data,
+
+            Countries.Qatar.Data,
+
+            Countries.Reunion.Data,
+
+            Countries.Romania.Data,
+
+            Countries.Russia.Data,
+
+            Countries.Rwanda.Data,
+
+            Countries.SaintHelena.Data,
+
+            Countries.SaintKittsAndNevis.Data,
+
+            Countries.SaintLucia.Data,
+
+            Countries.SaintPierreAndMiquelon.Data,
+
+            Countries.SaintVincentAndTheGrenadines.Data,
+
+            Countries.Saintbarthelemy.Data,
+
+            Countries.SaintmartinFrenchPart.Data,
+
+            Countries.Samoa.Data,
+
+            Countries.SanMarino.Data,
+
+            Countries.SaoTomeAndPrincipe.Data,
+
+            Countries.SaudiArabia.Data,
+
+            Countries.Senegal.Data,
+
+            Countries.Serbia.Data,
+
+            Countries.Seychelles.Data,
+
+            Countries.SierraLeone.Data,
+
+            Countries.Singapore.Data,
+
+            Countries.SintMaartenDutchPart.Data,
+
+            Countries.Slovakia.Data,
+
+            Countries.Slovenia.Data,
+
+            Countries.SolomonIslands.Data,
+
+            Countries.Somalia.Data,
+
+            Countries.SouthAfrica.Data,
+
+            Countries.SouthGeorgia.Data,
+
+            Countries.SouthKorea.Data,
+
+            Countries.SouthSudan.Data,
+
+            Countries.Spain.Data,
+
+            Countries.SriLanka.Data,
+
+            Countries.Sudan.Data,
+
+            Countries.Suriname.Data,
+
+            Countries.SvalbardAndJanMayenIslands.Data,
+
+            Countries.Sweden.Data,
+
+            Countries.Switzerland.Data,
+
+            Countries.Syria.Data,
+
+            Countries.Taiwan.Data,
+
+            Countries.Tajikistan.Data,
+
+            Countries.Tanzania.Data,
+
+            Countries.Thailand.Data,
+
+            Countries.TheBahamas.Data,
+
+            Countries.TheGambia.Data,
+
+            Countries.Timorleste.Data,
+
+            Countries.Togo.Data,
+
+            Countries.Tokelau.Data,
+
+            Countries.Tonga.Data,
+
+            Countries.TrinidadAndTobago.Data,
+
+            Countries.Tunisia.Data,
+
+            Countries.Turkey.Data,
+
+            Countries.Turkmenistan.Data,
+
+            Countries.TurksAndCaicosIslands.Data,
+
+            Countries.Tuvalu.Data,
+
+            Countries.Uganda.Data,
+
+            Countries.Ukraine.Data,
+
+            Countries.UnitedArabEmirates.Data,
+
+            Countries.UnitedKingdom.Data,
+
+            Countries.UnitedStates.Data,
+
+            Countries.UnitedStatesMinorOutlyingIslands.Data,
+
+            Countries.Uruguay.Data,
+
+            Countries.Uzbekistan.Data,
+
+            Countries.Vanuatu.Data,
+
+            Countries.VaticanCityStateHolySee.Data,
+
+            Countries.Venezuela.Data,
+
+            Countries.Vietnam.Data,
+
+            Countries.VirginIslandsBritish.Data,
+
+            Countries.VirginIslandsUs.Data,
+
+            Countries.WallisAndFutunaIslands.Data,
+
+            Countries.WesternSahara.Data,
+
+            Countries.Yemen.Data,
+
+            Countries.Zambia.Data,
+
+            Countries.Zimbabwe.Data
+            };
+        }
+    }
+}

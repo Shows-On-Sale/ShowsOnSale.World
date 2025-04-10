@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class EquatorialGuinea
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 67,
             Name = "Equatorial Guinea",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "10.00000000",
             Emoji = "🇬🇶",
             EmojiU = "U+1F1EC U+1F1F6",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "Africa/Malabo",
-                    GmtOffset = 3600,
-                    GmtOffsetName = "UTC+01:00",
-                    Abbreviation = "WAT",
-                    TzName = "West Africa Time"
-                }
+                new() { ZoneName = "Africa/Malabo", GmtOffset = 3600, GmtOffsetName = "UTC+01:00", Abbreviation = "WAT", TzName = "West Africa Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "적도 기니" },
                 { "pt-BR" = "Guiné Equatorial" }
@@ -62,10 +55,10 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Екваторіальна Гвінея" }
                 { "pl" = "Gwinea Równikowa" }
             },
-            States = new List<State>
+            States = new()
             {
 
-                new State
+                new()
                 {
                     Id = 1,
                     Name = "Annobón",
@@ -73,20 +66,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-1.42687820",
                     Longitude = "5.63528010",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "San Antonio de Palé",
-                            Latitude = "-1.40680000",
-                            Longitude = "5.63178000"
-                        }
+                        new() { Id = 1, Name = "San Antonio de Palé", Latitude = "-1.40680000", Longitude = "5.63178000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 2,
                     Name = "Bioko Norte",
@@ -94,36 +80,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "3.65950720",
                     Longitude = "8.79218360",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Malabo",
-                            Latitude = "3.75578000",
-                            Longitude = "8.78166000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Rebola",
-                            Latitude = "3.71667000",
-                            Longitude = "8.83333000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Santiago de Baney",
-                            Latitude = "3.69920000",
-                            Longitude = "8.90840000"
-                        }
+                        new() { Id = 1, Name = "Malabo", Latitude = "3.75578000", Longitude = "8.78166000" },
+                        new() { Id = 2, Name = "Rebola", Latitude = "3.71667000", Longitude = "8.83333000" },
+                        new() { Id = 3, Name = "Santiago de Baney", Latitude = "3.69920000", Longitude = "8.90840000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 3,
                     Name = "Bioko Sur",
@@ -131,20 +96,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "3.42097850",
                     Longitude = "8.61606740",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Luba",
-                            Latitude = "3.45683000",
-                            Longitude = "8.55465000"
-                        }
+                        new() { Id = 1, Name = "Luba", Latitude = "3.45683000", Longitude = "8.55465000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 4,
                     Name = "Centro Sur",
@@ -152,36 +110,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "1.34360840",
                     Longitude = "10.43965600",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Acurenam",
-                            Latitude = "1.03225000",
-                            Longitude = "10.64882000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Bicurga",
-                            Latitude = "1.58113000",
-                            Longitude = "10.46716000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Evinayong",
-                            Latitude = "1.43677000",
-                            Longitude = "10.55124000"
-                        }
+                        new() { Id = 1, Name = "Acurenam", Latitude = "1.03225000", Longitude = "10.64882000" },
+                        new() { Id = 2, Name = "Bicurga", Latitude = "1.58113000", Longitude = "10.46716000" },
+                        new() { Id = 3, Name = "Evinayong", Latitude = "1.43677000", Longitude = "10.55124000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 5,
                     Name = "Insular",
@@ -189,12 +126,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "37.09024000",
                     Longitude = "-95.71289100",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 6,
                     Name = "Kié-Ntem",
@@ -202,44 +139,16 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "2.02809300",
                     Longitude = "11.07117580",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Ebebiyin",
-                            Latitude = "2.15106000",
-                            Longitude = "11.33528000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Mikomeseng",
-                            Latitude = "2.13609000",
-                            Longitude = "10.61322000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Ncue",
-                            Latitude = "2.01643000",
-                            Longitude = "10.47066000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Nsang",
-                            Latitude = "2.02475000",
-                            Longitude = "10.94599000"
-                        }
+                        new() { Id = 1, Name = "Ebebiyin", Latitude = "2.15106000", Longitude = "11.33528000" },
+                        new() { Id = 2, Name = "Mikomeseng", Latitude = "2.13609000", Longitude = "10.61322000" },
+                        new() { Id = 3, Name = "Ncue", Latitude = "2.01643000", Longitude = "10.47066000" },
+                        new() { Id = 4, Name = "Nsang", Latitude = "2.02475000", Longitude = "10.94599000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 7,
                     Name = "Litoral",
@@ -247,60 +156,18 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "1.57502440",
                     Longitude = "9.81249350",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Bata",
-                            Latitude = "1.86391000",
-                            Longitude = "9.76582000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Bitica",
-                            Latitude = "1.42610000",
-                            Longitude = "9.62316000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Cogo",
-                            Latitude = "1.08425000",
-                            Longitude = "9.69300000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Machinda",
-                            Latitude = "1.88262000",
-                            Longitude = "9.95133000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Mbini",
-                            Latitude = "1.58267000",
-                            Longitude = "9.61478000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Río Campo",
-                            Latitude = "2.33812000",
-                            Longitude = "9.82212000"
-                        }
+                        new() { Id = 1, Name = "Bata", Latitude = "1.86391000", Longitude = "9.76582000" },
+                        new() { Id = 2, Name = "Bitica", Latitude = "1.42610000", Longitude = "9.62316000" },
+                        new() { Id = 3, Name = "Cogo", Latitude = "1.08425000", Longitude = "9.69300000" },
+                        new() { Id = 4, Name = "Machinda", Latitude = "1.88262000", Longitude = "9.95133000" },
+                        new() { Id = 5, Name = "Mbini", Latitude = "1.58267000", Longitude = "9.61478000" },
+                        new() { Id = 6, Name = "Río Campo", Latitude = "2.33812000", Longitude = "9.82212000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 8,
                     Name = "Río Muni",
@@ -308,12 +175,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "1.46106060",
                     Longitude = "9.67868940",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 9,
                     Name = "Wele-Nzas",
@@ -321,56 +188,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "1.41661620",
                     Longitude = "11.07117580",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Aconibe",
-                            Latitude = "1.29683000",
-                            Longitude = "10.93691000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Añisoc",
-                            Latitude = "1.86580000",
-                            Longitude = "10.76892000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Ayene",
-                            Latitude = "1.85592000",
-                            Longitude = "10.68994000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Mengomeyén",
-                            Latitude = "1.69439000",
-                            Longitude = "11.03422000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Mongomo",
-                            Latitude = "1.62742000",
-                            Longitude = "11.31346000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Nsok",
-                            Latitude = "1.12985000",
-                            Longitude = "11.26603000"
-                        }
+                        new() { Id = 1, Name = "Aconibe", Latitude = "1.29683000", Longitude = "10.93691000" },
+                        new() { Id = 2, Name = "Añisoc", Latitude = "1.86580000", Longitude = "10.76892000" },
+                        new() { Id = 3, Name = "Ayene", Latitude = "1.85592000", Longitude = "10.68994000" },
+                        new() { Id = 4, Name = "Mengomeyén", Latitude = "1.69439000", Longitude = "11.03422000" },
+                        new() { Id = 5, Name = "Mongomo", Latitude = "1.62742000", Longitude = "11.31346000" },
+                        new() { Id = 6, Name = "Nsok", Latitude = "1.12985000", Longitude = "11.26603000" }
                     }
                 }
             }

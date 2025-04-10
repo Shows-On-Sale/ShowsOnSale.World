@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class Gabon
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 80,
             Name = "Gabon",
@@ -32,380 +32,177 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "11.75000000",
             Emoji = "🇬🇦",
             EmojiU = "U+1F1EC U+1F1E6",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {{
-                    ZoneName = "Africa/Libreville",
-                    GmtOffset = 3600,
-                    GmtOffsetName = "UTC+01:00",
-                    Abbreviation = "WAT",
-                    TzName = "West Africa Time"
-                }},
-            }},
-            Translations = new Dictionary<string, string>
-            {{
-                {{ "ko" = "가봉" }},
-                {{ "pt-BR" = "Gabão" }},
-                {{ "pt" = "Gabão" }},
-                {{ "nl" = "Gabon" }},
-                {{ "hr" = "Gabon" }},
-                {{ "fa" = "گابن" }},
-                {{ "de" = "Gabun" }},
-                {{ "es" = "Gabón" }},
-                {{ "fr" = "Gabon" }},
-                {{ "ja" = "ガボン" }},
-                {{ "it" = "Gabon" }},
-                {{ "zh-CN" = "加蓬" }},
-                {{ "tr" = "Gabon" }},
-                {{ "ru" = "Габон" }},
-                {{ "uk" = "Габон" }},
-                {{ "pl" = "Gabon" }},
-            }},
-            States = new List<State>
-            {{
+                new() { ZoneName = "Africa/Libreville", GmtOffset = 3600, GmtOffsetName = "UTC+01:00", Abbreviation = "WAT", TzName = "West Africa Time" }
+            },
+            Translations = new()
+            {
+                { "ko" = "가봉" },
+                { "pt-BR" = "Gabão" }
+                { "pt" = "Gabão" }
+                { "nl" = "Gabon" }
+                { "hr" = "Gabon" }
+                { "fa" = "گابن" }
+                { "de" = "Gabun" }
+                { "es" = "Gabón" }
+                { "fr" = "Gabon" }
+                { "ja" = "ガボン" }
+                { "it" = "Gabon" }
+                { "zh-CN" = "加蓬" }
+                { "tr" = "Gabon" }
+                { "ru" = "Габон" }
+                { "uk" = "Габон" }
+                { "pl" = "Gabon" }
+            },
+            States = new()
+            {
 
-                new State
-                {{
+                new()
+                {
                     Id = 1,
                     Name = "Estuaire",
                     StateCode = "1",
                     Latitude = "0.44328640",
                     Longitude = "10.08072980",
                     Type = "province",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Cocobeach", Latitude = "1.00019000", Longitude = "9.58229000" },
+                        new() { Id = 2, Name = "Libreville", Latitude = "0.39241000", Longitude = "9.45356000" },
+                        new() { Id = 3, Name = "Ntoum", Latitude = "0.39051000", Longitude = "9.76096000" }
+                    }
+                },
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Cocobeach",
-                            Latitude = "1.00019000",
-                            Longitude = "9.58229000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Libreville",
-                            Latitude = "0.39241000",
-                            Longitude = "9.45356000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Ntoum",
-                            Latitude = "0.39051000",
-                            Longitude = "9.76096000"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 2,
                     Name = "Haut-Ogooué",
                     StateCode = "2",
                     Latitude = "-1.47625440",
                     Longitude = "13.91439900",
                     Type = "province",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Franceville", Latitude = "-1.63333000", Longitude = "13.58357000" },
+                        new() { Id = 2, Name = "Lékoni", Latitude = "-1.58431000", Longitude = "14.25905000" },
+                        new() { Id = 3, Name = "Moanda", Latitude = "-1.56652000", Longitude = "13.19870000" },
+                        new() { Id = 4, Name = "Mounana", Latitude = "-1.40850000", Longitude = "13.15857000" },
+                        new() { Id = 5, Name = "Okondja", Latitude = "-0.65487000", Longitude = "13.67533000" }
+                    }
+                },
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Franceville",
-                            Latitude = "-1.63333000",
-                            Longitude = "13.58357000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Lékoni",
-                            Latitude = "-1.58431000",
-                            Longitude = "14.25905000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Moanda",
-                            Latitude = "-1.56652000",
-                            Longitude = "13.19870000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 4,
-                            Name = "Mounana",
-                            Latitude = "-1.40850000",
-                            Longitude = "13.15857000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 5,
-                            Name = "Okondja",
-                            Latitude = "-0.65487000",
-                            Longitude = "13.67533000"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 3,
                     Name = "Moyen-Ogooué",
                     StateCode = "3",
                     Latitude = "-0.44278400",
                     Longitude = "10.43965600",
                     Type = "province",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Lambaréné", Latitude = "-0.70010000", Longitude = "10.24055000" },
+                        new() { Id = 2, Name = "Ndjolé", Latitude = "-0.17827000", Longitude = "10.76488000" }
+                    }
+                },
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Lambaréné",
-                            Latitude = "-0.70010000",
-                            Longitude = "10.24055000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Ndjolé",
-                            Latitude = "-0.17827000",
-                            Longitude = "10.76488000"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 4,
                     Name = "Ngounié",
                     StateCode = "4",
                     Latitude = "-1.49303030",
                     Longitude = "10.98070030",
                     Type = "province",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Fougamou", Latitude = "-1.21544000", Longitude = "10.58378000" },
+                        new() { Id = 2, Name = "Mbigou", Latitude = "-1.90046000", Longitude = "11.90600000" },
+                        new() { Id = 3, Name = "Mimongo", Latitude = "-1.61952000", Longitude = "11.60675000" },
+                        new() { Id = 4, Name = "Mouila", Latitude = "-1.86846000", Longitude = "11.05594000" },
+                        new() { Id = 5, Name = "Ndendé", Latitude = "-2.40077000", Longitude = "11.35813000" }
+                    }
+                },
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Fougamou",
-                            Latitude = "-1.21544000",
-                            Longitude = "10.58378000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Mbigou",
-                            Latitude = "-1.90046000",
-                            Longitude = "11.90600000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Mimongo",
-                            Latitude = "-1.61952000",
-                            Longitude = "11.60675000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 4,
-                            Name = "Mouila",
-                            Latitude = "-1.86846000",
-                            Longitude = "11.05594000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 5,
-                            Name = "Ndendé",
-                            Latitude = "-2.40077000",
-                            Longitude = "11.35813000"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 5,
                     Name = "Nyanga",
                     StateCode = "5",
                     Latitude = "-2.88210330",
                     Longitude = "11.16173560",
                     Type = "province",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Mayumba", Latitude = "-3.43198000", Longitude = "10.65540000" },
+                        new() { Id = 2, Name = "Tchibanga", Latitude = "-2.93323000", Longitude = "10.98178000" }
+                    }
+                },
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Mayumba",
-                            Latitude = "-3.43198000",
-                            Longitude = "10.65540000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Tchibanga",
-                            Latitude = "-2.93323000",
-                            Longitude = "10.98178000"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 6,
                     Name = "Ogooué-Ivindo",
                     StateCode = "6",
                     Latitude = "0.88183110",
                     Longitude = "13.17403480",
                     Type = "province",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Booué", Latitude = "-0.09207000", Longitude = "11.93846000" },
+                        new() { Id = 2, Name = "Makokou", Latitude = "0.57381000", Longitude = "12.86419000" },
+                        new() { Id = 3, Name = "Zadie", Latitude = "0.92582000", Longitude = "13.90813000" }
+                    }
+                },
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Booué",
-                            Latitude = "-0.09207000",
-                            Longitude = "11.93846000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Makokou",
-                            Latitude = "0.57381000",
-                            Longitude = "12.86419000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Zadie",
-                            Latitude = "0.92582000",
-                            Longitude = "13.90813000"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 7,
                     Name = "Ogooué-Lolo",
                     StateCode = "7",
                     Latitude = "-0.88440930",
                     Longitude = "12.43805810",
                     Type = "province",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Koulamoutou", Latitude = "-1.13667000", Longitude = "12.46399000" },
+                        new() { Id = 2, Name = "Lastoursville", Latitude = "-0.81742000", Longitude = "12.70818000" }
+                    }
+                },
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Koulamoutou",
-                            Latitude = "-1.13667000",
-                            Longitude = "12.46399000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Lastoursville",
-                            Latitude = "-0.81742000",
-                            Longitude = "12.70818000"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 8,
                     Name = "Ogooué-Maritime",
                     StateCode = "8",
                     Latitude = "-1.34659750",
                     Longitude = "9.72326730",
                     Type = "province",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Gamba", Latitude = "-2.65000000", Longitude = "10.00000000" },
+                        new() { Id = 2, Name = "Omboué", Latitude = "-1.57464000", Longitude = "9.26184000" },
+                        new() { Id = 3, Name = "Port-Gentil", Latitude = "-0.71933000", Longitude = "8.78151000" }
+                    }
+                },
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Gamba",
-                            Latitude = "-2.65000000",
-                            Longitude = "10.00000000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Omboué",
-                            Latitude = "-1.57464000",
-                            Longitude = "9.26184000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Port-Gentil",
-                            Latitude = "-0.71933000",
-                            Longitude = "8.78151000"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 9,
                     Name = "Woleu-Ntem",
                     StateCode = "9",
                     Latitude = "2.29898270",
                     Longitude = "11.44669140",
                     Type = "province",
-                    Cities = new List<City>
-                    {{
-
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Bitam",
-                            Latitude = "2.07597000",
-                            Longitude = "11.50065000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Mitzic",
-                            Latitude = "0.78205000",
-                            Longitude = "11.54904000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Oyem",
-                            Latitude = "1.59950000",
-                            Longitude = "11.57933000"
-                        }},
-                    }}
-                }},
-            }}
-        }};
-    }}
-}}
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Bitam", Latitude = "2.07597000", Longitude = "11.50065000" },
+                        new() { Id = 2, Name = "Mitzic", Latitude = "0.78205000", Longitude = "11.54904000" },
+                        new() { Id = 3, Name = "Oyem", Latitude = "1.59950000", Longitude = "11.57933000" }
+                    }
+                }
+            }
+        };
+    }
+}

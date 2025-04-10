@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class CaymanIslands
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 41,
             Name = "Cayman Islands",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "-80.50000000",
             Emoji = "🇰🇾",
             EmojiU = "U+1F1F0 U+1F1FE",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "America/Cayman",
-                    GmtOffset = -18000,
-                    GmtOffsetName = "UTC-05:00",
-                    Abbreviation = "EST",
-                    TzName = "Eastern Standard Time (North America"
-                }
+                new() { ZoneName = "America/Cayman", GmtOffset = -18000, GmtOffsetName = "UTC-05:00", Abbreviation = "EST", TzName = "Eastern Standard Time (North America" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "케이먼 제도" },
                 { "pt-BR" = "Ilhas Cayman" }
@@ -62,10 +55,10 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Кайманові острови" }
                 { "pl" = "Kajmany" }
             },
-            States = new List<State>
+            States = new()
             {
 
-                new State
+                new()
                 {
                     Id = 1,
                     Name = "Cayman Brac",
@@ -73,20 +66,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "19.71999700",
                     Longitude = "-79.89072660",
                     Type = "NULL",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Cayman Brac",
-                            Latitude = "19.71999700",
-                            Longitude = "-79.89072660"
-                        }
+                        new() { Id = 1, Name = "Cayman Brac", Latitude = "19.71999700", Longitude = "-79.89072660" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 2,
                     Name = "Grand Cayman",
@@ -94,52 +80,17 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "19.33012710",
                     Longitude = "-81.41724510",
                     Type = "NULL",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Bodden Town",
-                            Latitude = "19.27966930",
-                            Longitude = "-81.27779990"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "East End",
-                            Latitude = "19.29958980",
-                            Longitude = "-81.11961380"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "George Town",
-                            Latitude = "19.29023260",
-                            Longitude = "-81.44333720"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "North Side",
-                            Latitude = "19.33620470",
-                            Longitude = "-81.51398130"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "West Bay",
-                            Latitude = "19.36651530",
-                            Longitude = "-81.43170260"
-                        }
+                        new() { Id = 1, Name = "Bodden Town", Latitude = "19.27966930", Longitude = "-81.27779990" },
+                        new() { Id = 2, Name = "East End", Latitude = "19.29958980", Longitude = "-81.11961380" },
+                        new() { Id = 3, Name = "George Town", Latitude = "19.29023260", Longitude = "-81.44333720" },
+                        new() { Id = 4, Name = "North Side", Latitude = "19.33620470", Longitude = "-81.51398130" },
+                        new() { Id = 5, Name = "West Bay", Latitude = "19.36651530", Longitude = "-81.43170260" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 3,
                     Name = "Little Cayman",
@@ -147,16 +98,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "19.68567390",
                     Longitude = "-80.11830190",
                     Type = "NULL",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Little Cayman",
-                            Latitude = "19.68567390",
-                            Longitude = "-80.11830190"
-                        }
+                        new() { Id = 1, Name = "Little Cayman", Latitude = "19.68567390", Longitude = "-80.11830190" }
                     }
                 }
             }

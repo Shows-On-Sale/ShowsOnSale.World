@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class Argentina
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 11,
             Name = "Argentina",
@@ -32,106 +32,22 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "-64.00000000",
             Emoji = "🇦🇷",
             EmojiU = "U+1F1E6 U+1F1F7",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "America/Argentina/Buenos_Aires",
-                    GmtOffset = -10800,
-                    GmtOffsetName = "UTC-03:00",
-                    Abbreviation = "ART",
-                    TzName = "Argentina Time"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Argentina/Catamarca",
-                    GmtOffset = -10800,
-                    GmtOffsetName = "UTC-03:00",
-                    Abbreviation = "ART",
-                    TzName = "Argentina Time"
-                }
-                new Timezone
-                {
-                    ZoneName = "America/Argentina/Cordoba",
-                    GmtOffset = -10800,
-                    GmtOffsetName = "UTC-03:00",
-                    Abbreviation = "ART",
-                    TzName = "Argentina Time"
-                }
-                new Timezone
-                {
-                    ZoneName = "America/Argentina/Jujuy",
-                    GmtOffset = -10800,
-                    GmtOffsetName = "UTC-03:00",
-                    Abbreviation = "ART",
-                    TzName = "Argentina Time"
-                }
-                new Timezone
-                {
-                    ZoneName = "America/Argentina/La_Rioja",
-                    GmtOffset = -10800,
-                    GmtOffsetName = "UTC-03:00",
-                    Abbreviation = "ART",
-                    TzName = "Argentina Time"
-                }
-                new Timezone
-                {
-                    ZoneName = "America/Argentina/Mendoza",
-                    GmtOffset = -10800,
-                    GmtOffsetName = "UTC-03:00",
-                    Abbreviation = "ART",
-                    TzName = "Argentina Time"
-                }
-                new Timezone
-                {
-                    ZoneName = "America/Argentina/Rio_Gallegos",
-                    GmtOffset = -10800,
-                    GmtOffsetName = "UTC-03:00",
-                    Abbreviation = "ART",
-                    TzName = "Argentina Time"
-                }
-                new Timezone
-                {
-                    ZoneName = "America/Argentina/Salta",
-                    GmtOffset = -10800,
-                    GmtOffsetName = "UTC-03:00",
-                    Abbreviation = "ART",
-                    TzName = "Argentina Time"
-                }
-                new Timezone
-                {
-                    ZoneName = "America/Argentina/San_Juan",
-                    GmtOffset = -10800,
-                    GmtOffsetName = "UTC-03:00",
-                    Abbreviation = "ART",
-                    TzName = "Argentina Time"
-                }
-                new Timezone
-                {
-                    ZoneName = "America/Argentina/San_Luis",
-                    GmtOffset = -10800,
-                    GmtOffsetName = "UTC-03:00",
-                    Abbreviation = "ART",
-                    TzName = "Argentina Time"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Argentina/Tucuman",
-                    GmtOffset = -10800,
-                    GmtOffsetName = "UTC-03:00",
-                    Abbreviation = "ART",
-                    TzName = "Argentina Time"
-                },
-                new Timezone
-                {
-                    ZoneName = "America/Argentina/Ushuaia",
-                    GmtOffset = -10800,
-                    GmtOffsetName = "UTC-03:00",
-                    Abbreviation = "ART",
-                    TzName = "Argentina Time"
-                }
+                new() { ZoneName = "America/Argentina/Buenos_Aires", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" },
+                new() { ZoneName = "America/Argentina/Catamarca", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" }
+                new() { ZoneName = "America/Argentina/Cordoba", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" }
+                new() { ZoneName = "America/Argentina/Jujuy", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" }
+                new() { ZoneName = "America/Argentina/La_Rioja", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" }
+                new() { ZoneName = "America/Argentina/Mendoza", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" }
+                new() { ZoneName = "America/Argentina/Rio_Gallegos", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" }
+                new() { ZoneName = "America/Argentina/Salta", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" }
+                new() { ZoneName = "America/Argentina/San_Juan", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" }
+                new() { ZoneName = "America/Argentina/San_Luis", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" },
+                new() { ZoneName = "America/Argentina/Tucuman", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" },
+                new() { ZoneName = "America/Argentina/Ushuaia", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ART", TzName = "Argentina Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "아르헨티나" },
                 { "pt-BR" = "Argentina" }
@@ -150,10 +66,10 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Аргентина" }
                 { "pl" = "Argentyna" }
             },
-            States = new List<State>
+            States = new()
             {
 
-                new State
+                new()
                 {
                     Id = 1,
                     Name = "Autonomous City of Buenos Aires",
@@ -161,396 +77,60 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-34.60368440",
                     Longitude = "-58.38155910",
                     Type = "city",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Agronomía",
-                            Latitude = "-34.59222640",
-                            Longitude = "-58.49997640"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Almagro",
-                            Latitude = "-34.60985140",
-                            Longitude = "-58.44322610"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Balvanera",
-                            Latitude = "-34.60928550",
-                            Longitude = "-58.42375890"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Barracas",
-                            Latitude = "-34.64448730",
-                            Longitude = "-58.40516880"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Belgrano",
-                            Latitude = "-34.55543270",
-                            Longitude = "-58.47138570"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Boedo",
-                            Latitude = "-34.63038420",
-                            Longitude = "-58.43974170"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Caballito",
-                            Latitude = "-34.61661920",
-                            Longitude = "-58.46532990"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Chacarita",
-                            Latitude = "-34.58802750",
-                            Longitude = "-58.47332730"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Coghlan",
-                            Latitude = "-34.56017320",
-                            Longitude = "-58.48536760"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Colegiales",
-                            Latitude = "-34.57463180",
-                            Longitude = "-58.46194700"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Constitución",
-                            Latitude = "-34.62577020",
-                            Longitude = "-58.39393470"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Flores",
-                            Latitude = "-34.63528600",
-                            Longitude = "-58.49881470"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Floresta",
-                            Latitude = "-34.62778190",
-                            Longitude = "-58.50535160"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "La Boca",
-                            Latitude = "-34.63755140",
-                            Longitude = "-58.38229510"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "La Paternal",
-                            Latitude = "-34.59636130",
-                            Longitude = "-58.47783340"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Liniers",
-                            Latitude = "-34.64494830",
-                            Longitude = "-58.53670290"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Mataderos",
-                            Latitude = "-34.65888530",
-                            Longitude = "-58.52288120"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Monserrat",
-                            Latitude = "-34.61254060",
-                            Longitude = "-58.38964190"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Monte Castro",
-                            Latitude = "-34.61876990",
-                            Longitude = "-58.51743230"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Nueva Pompeya",
-                            Latitude = "-34.65005810",
-                            Longitude = "-58.44252610"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Núñez",
-                            Latitude = "-34.54270030",
-                            Longitude = "-58.48169430"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Palermo",
-                            Latitude = "-34.57335580",
-                            Longitude = "-58.46221540"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Parque Avellaneda",
-                            Latitude = "-34.65075370",
-                            Longitude = "-58.49842840"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Parque Chacabuco",
-                            Latitude = "-34.63713830",
-                            Longitude = "-58.45953460"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Parque Chas",
-                            Latitude = "-34.58486150",
-                            Longitude = "-58.49010630"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Parque Patricios",
-                            Latitude = "-34.63788690",
-                            Longitude = "-58.42225860"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Puerto Madero",
-                            Latitude = "-34.61358660",
-                            Longitude = "-58.37286850"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Recoleta",
-                            Latitude = "-34.58479060",
-                            Longitude = "-58.41694250"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Retiro",
-                            Latitude = "-34.58936080",
-                            Longitude = "-58.39738800"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Saavedra",
-                            Latitude = "-34.55431210",
-                            Longitude = "-58.50975950"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "San Cristóbal",
-                            Latitude = "-34.62423930",
-                            Longitude = "-58.41215650"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "San Nicolás",
-                            Latitude = "-34.60390370",
-                            Longitude = "-58.39059120"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "San Telmo",
-                            Latitude = "-34.62254210",
-                            Longitude = "-58.38055780"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Vélez Sársfield",
-                            Latitude = "-34.63129820",
-                            Longitude = "-58.51351920"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Versalles",
-                            Latitude = "-34.62915440",
-                            Longitude = "-58.52963820"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Villa Crespo",
-                            Latitude = "-34.59811590",
-                            Longitude = "-58.46174830"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Villa del Parque",
-                            Latitude = "-34.60587650",
-                            Longitude = "-58.51064410"
-                        },
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Villa Devoto",
-                            Latitude = "-34.60046930",
-                            Longitude = "-58.55443260"
-                        },
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Villa General Mitre",
-                            Latitude = "-34.61048970",
-                            Longitude = "-58.47974190"
-                        },
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Villa Lugano",
-                            Latitude = "-34.67485910",
-                            Longitude = "-58.49704580"
-                        },
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Villa Luro",
-                            Latitude = "-34.63500670",
-                            Longitude = "-58.52269370"
-                        },
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Villa Ortúzar",
-                            Latitude = "-34.58148740",
-                            Longitude = "-58.47898750"
-                        },
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Villa Pueyrredón",
-                            Latitude = "-34.58182550",
-                            Longitude = "-58.52264930"
-                        },
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "Villa Real",
-                            Latitude = "-34.61909340",
-                            Longitude = "-58.53453420"
-                        },
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "Villa Riachuelo",
-                            Latitude = "-34.69266220",
-                            Longitude = "-58.48434810"
-                        },
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "Villa Santa Rita",
-                            Latitude = "-34.61636020",
-                            Longitude = "-58.49350310"
-                        },
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "Villa Soldati",
-                            Latitude = "-34.66789240",
-                            Longitude = "-58.46756510"
-                        },
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "Villa Urquiza",
-                            Latitude = "-34.57192410",
-                            Longitude = "-58.50934640"
-                        }
+                        new() { Id = 1, Name = "Agronomía", Latitude = "-34.59222640", Longitude = "-58.49997640" },
+                        new() { Id = 2, Name = "Almagro", Latitude = "-34.60985140", Longitude = "-58.44322610" },
+                        new() { Id = 3, Name = "Balvanera", Latitude = "-34.60928550", Longitude = "-58.42375890" },
+                        new() { Id = 4, Name = "Barracas", Latitude = "-34.64448730", Longitude = "-58.40516880" },
+                        new() { Id = 5, Name = "Belgrano", Latitude = "-34.55543270", Longitude = "-58.47138570" },
+                        new() { Id = 6, Name = "Boedo", Latitude = "-34.63038420", Longitude = "-58.43974170" },
+                        new() { Id = 7, Name = "Caballito", Latitude = "-34.61661920", Longitude = "-58.46532990" },
+                        new() { Id = 8, Name = "Chacarita", Latitude = "-34.58802750", Longitude = "-58.47332730" },
+                        new() { Id = 9, Name = "Coghlan", Latitude = "-34.56017320", Longitude = "-58.48536760" },
+                        new() { Id = 10, Name = "Colegiales", Latitude = "-34.57463180", Longitude = "-58.46194700" },
+                        new() { Id = 11, Name = "Constitución", Latitude = "-34.62577020", Longitude = "-58.39393470" },
+                        new() { Id = 12, Name = "Flores", Latitude = "-34.63528600", Longitude = "-58.49881470" },
+                        new() { Id = 13, Name = "Floresta", Latitude = "-34.62778190", Longitude = "-58.50535160" },
+                        new() { Id = 14, Name = "La Boca", Latitude = "-34.63755140", Longitude = "-58.38229510" },
+                        new() { Id = 15, Name = "La Paternal", Latitude = "-34.59636130", Longitude = "-58.47783340" },
+                        new() { Id = 16, Name = "Liniers", Latitude = "-34.64494830", Longitude = "-58.53670290" },
+                        new() { Id = 17, Name = "Mataderos", Latitude = "-34.65888530", Longitude = "-58.52288120" },
+                        new() { Id = 18, Name = "Monserrat", Latitude = "-34.61254060", Longitude = "-58.38964190" },
+                        new() { Id = 19, Name = "Monte Castro", Latitude = "-34.61876990", Longitude = "-58.51743230" },
+                        new() { Id = 20, Name = "Nueva Pompeya", Latitude = "-34.65005810", Longitude = "-58.44252610" },
+                        new() { Id = 21, Name = "Núñez", Latitude = "-34.54270030", Longitude = "-58.48169430" },
+                        new() { Id = 22, Name = "Palermo", Latitude = "-34.57335580", Longitude = "-58.46221540" },
+                        new() { Id = 23, Name = "Parque Avellaneda", Latitude = "-34.65075370", Longitude = "-58.49842840" },
+                        new() { Id = 24, Name = "Parque Chacabuco", Latitude = "-34.63713830", Longitude = "-58.45953460" },
+                        new() { Id = 25, Name = "Parque Chas", Latitude = "-34.58486150", Longitude = "-58.49010630" },
+                        new() { Id = 26, Name = "Parque Patricios", Latitude = "-34.63788690", Longitude = "-58.42225860" },
+                        new() { Id = 27, Name = "Puerto Madero", Latitude = "-34.61358660", Longitude = "-58.37286850" },
+                        new() { Id = 28, Name = "Recoleta", Latitude = "-34.58479060", Longitude = "-58.41694250" },
+                        new() { Id = 29, Name = "Retiro", Latitude = "-34.58936080", Longitude = "-58.39738800" },
+                        new() { Id = 30, Name = "Saavedra", Latitude = "-34.55431210", Longitude = "-58.50975950" },
+                        new() { Id = 31, Name = "San Cristóbal", Latitude = "-34.62423930", Longitude = "-58.41215650" },
+                        new() { Id = 32, Name = "San Nicolás", Latitude = "-34.60390370", Longitude = "-58.39059120" },
+                        new() { Id = 33, Name = "San Telmo", Latitude = "-34.62254210", Longitude = "-58.38055780" },
+                        new() { Id = 34, Name = "Vélez Sársfield", Latitude = "-34.63129820", Longitude = "-58.51351920" },
+                        new() { Id = 35, Name = "Versalles", Latitude = "-34.62915440", Longitude = "-58.52963820" },
+                        new() { Id = 36, Name = "Villa Crespo", Latitude = "-34.59811590", Longitude = "-58.46174830" },
+                        new() { Id = 37, Name = "Villa del Parque", Latitude = "-34.60587650", Longitude = "-58.51064410" },
+                        new() { Id = 38, Name = "Villa Devoto", Latitude = "-34.60046930", Longitude = "-58.55443260" },
+                        new() { Id = 39, Name = "Villa General Mitre", Latitude = "-34.61048970", Longitude = "-58.47974190" },
+                        new() { Id = 40, Name = "Villa Lugano", Latitude = "-34.67485910", Longitude = "-58.49704580" },
+                        new() { Id = 41, Name = "Villa Luro", Latitude = "-34.63500670", Longitude = "-58.52269370" },
+                        new() { Id = 42, Name = "Villa Ortúzar", Latitude = "-34.58148740", Longitude = "-58.47898750" },
+                        new() { Id = 43, Name = "Villa Pueyrredón", Latitude = "-34.58182550", Longitude = "-58.52264930" },
+                        new() { Id = 44, Name = "Villa Real", Latitude = "-34.61909340", Longitude = "-58.53453420" },
+                        new() { Id = 45, Name = "Villa Riachuelo", Latitude = "-34.69266220", Longitude = "-58.48434810" },
+                        new() { Id = 46, Name = "Villa Santa Rita", Latitude = "-34.61636020", Longitude = "-58.49350310" },
+                        new() { Id = 47, Name = "Villa Soldati", Latitude = "-34.66789240", Longitude = "-58.46756510" },
+                        new() { Id = 48, Name = "Villa Urquiza", Latitude = "-34.57192410", Longitude = "-58.50934640" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 2,
                     Name = "Buenos Aires",
@@ -558,1092 +138,147 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-37.20172850",
                     Longitude = "-59.84106970",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Adolfo Alsina",
-                            Latitude = "-37.16054780",
-                            Longitude = "-64.22506020"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Adolfo Gonzáles Chaves",
-                            Latitude = "-37.93801600",
-                            Longitude = "-60.90296530"
-                        }
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Alberti",
-                            Latitude = "-35.02768320",
-                            Longitude = "-60.58411980"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Almirante Brown",
-                            Latitude = "-34.83197240",
-                            Longitude = "-58.45251410"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Arrecifes",
-                            Latitude = "-34.00603330",
-                            Longitude = "-60.33782350"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Avellaneda",
-                            Latitude = "-34.66134140",
-                            Longitude = "-58.38802660"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Ayacucho",
-                            Latitude = "-36.97372280",
-                            Longitude = "-59.08902220"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Azul",
-                            Latitude = "-36.82779090",
-                            Longitude = "-60.99253580"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Bahía Blanca",
-                            Latitude = "-38.58796980",
-                            Longitude = "-62.50794130"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Balcarce",
-                            Latitude = "-37.75449560",
-                            Longitude = "-58.93081520"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Baradero",
-                            Latitude = "-33.90652010",
-                            Longitude = "-59.81822290"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Benito Juárez",
-                            Latitude = "-37.58593960",
-                            Longitude = "-60.52379500"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Berazategui",
-                            Latitude = "-34.84334610",
-                            Longitude = "-58.30738810"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Berisso",
-                            Latitude = "-34.89821320",
-                            Longitude = "-57.90243650"
-                        }
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Bolívar",
-                            Latitude = "-36.28911980",
-                            Longitude = "-61.78736580"
-                        }
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Bragado",
-                            Latitude = "-35.02574040",
-                            Longitude = "-61.25370530"
-                        }
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Brandsen",
-                            Latitude = "-35.19510090",
-                            Longitude = "-58.49818770"
-                        }
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Campana",
-                            Latitude = "-34.16079930",
-                            Longitude = "-59.22022530"
-                        }
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Cañuelas",
-                            Latitude = "-35.15525400",
-                            Longitude = "-59.03069800"
-                        }
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Capitán Sarmiento",
-                            Latitude = "-34.14170660",
-                            Longitude = "-60.02221190"
-                        }
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Carlos Casares",
-                            Latitude = "-35.72219790",
-                            Longitude = "-62.03779560"
-                        }
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Carlos Tejedor",
-                            Latitude = "-35.39445380",
-                            Longitude = "-63.06241220"
-                        }
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Carmen de Areco",
-                            Latitude = "-34.41836420",
-                            Longitude = "-60.23786820"
-                        }
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Castelli",
-                            Latitude = "-36.01838980",
-                            Longitude = "-57.98088650"
-                        }
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Chacabuco",
-                            Latitude = "-34.63340080",
-                            Longitude = "-60.65114680"
-                        }
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Chascomús",
-                            Latitude = "-35.59543280",
-                            Longitude = "-58.56002660"
-                        }
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Chivilcoy",
-                            Latitude = "-34.90790700",
-                            Longitude = "-60.28432600"
-                        }
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Colón",
-                            Latitude = "-33.85225870",
-                            Longitude = "-61.40124400"
-                        }
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Coronel Dorrego",
-                            Latitude = "-38.64031010",
-                            Longitude = "-61.77287250"
-                        }
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Coronel Pringles",
-                            Latitude = "-38.16604130",
-                            Longitude = "-61.89518000"
-                        }
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Coronel Rosales",
-                            Latitude = "-38.81492060",
-                            Longitude = "-62.14727610"
-                        }
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Coronel Suárez",
-                            Latitude = "-37.53029820",
-                            Longitude = "-63.25323390"
-                        }
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Daireaux",
-                            Latitude = "-36.61930860",
-                            Longitude = "-62.52352980"
-                        }
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Dolores",
-                            Latitude = "-36.41467360",
-                            Longitude = "-58.32462490"
-                        }
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Ensenada",
-                            Latitude = "-34.84156190",
-                            Longitude = "-58.06269460"
-                        }
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Escobar",
-                            Latitude = "-34.34251230",
-                            Longitude = "-58.93997620"
-                        }
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Esteban Echeverríar",
-                            Latitude = "-34.82406180",
-                            Longitude = "-58.63358570"
-                        }
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Exaltación de la Cruz",
-                            Latitude = "-34.31228650",
-                            Longitude = "-59.31295630"
-                        }
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Ezeiza",
-                            Latitude = "-34.87357520",
-                            Longitude = "-58.73505670"
-                        }
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Florencio Varela",
-                            Latitude = "-34.88873210",
-                            Longitude = "-58.42115210"
-                        }
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Florentino Ameghino",
-                            Latitude = "-34.88624610",
-                            Longitude = "-62.70302560"
-                        }
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "General Alvarado",
-                            Latitude = "-38.19975330",
-                            Longitude = "-58.38977980"
-                        }
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "General Alvear",
-                            Latitude = "-36.03836820",
-                            Longitude = "-60.76716020"
-                        }
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "General Arenales",
-                            Latitude = "-34.23810350",
-                            Longitude = "-61.61258250"
-                        }
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "General Belgrano",
-                            Latitude = "-35.84190100",
-                            Longitude = "-59.04535800"
-                        }
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "General Guido",
-                            Latitude = "-36.67376360",
-                            Longitude = "-58.63303620"
-                        }
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "General La Madrid",
-                            Latitude = "-37.39889560",
-                            Longitude = "-61.97377640"
-                        }
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "General Las Heras",
-                            Latitude = "-34.90931560",
-                            Longitude = "-59.32777060"
-                        }
-
-                        new City
-                        {
-                            Id = 49,
-                            Name = "General Lavalle",
-                            Latitude = "-36.67005230",
-                            Longitude = "-57.67282310"
-                        }
-
-                        new City
-                        {
-                            Id = 50,
-                            Name = "General Madariaga",
-                            Latitude = "-37.15579700",
-                            Longitude = "-57.90662040"
-                        }
-
-                        new City
-                        {
-                            Id = 51,
-                            Name = "General Paz",
-                            Latitude = "-35.47363710",
-                            Longitude = "-58.69690130"
-                        }
-
-                        new City
-                        {
-                            Id = 52,
-                            Name = "General Pinto",
-                            Latitude = "-34.68311120",
-                            Longitude = "-62.34048360"
-                        }
-
-                        new City
-                        {
-                            Id = 53,
-                            Name = "General Pueyrredón",
-                            Latitude = "-37.97153260",
-                            Longitude = "-58.11219280"
-                        }
-
-                        new City
-                        {
-                            Id = 54,
-                            Name = "General Rodríguez",
-                            Latitude = "-34.63970400",
-                            Longitude = "-59.16470220"
-                        }
-
-                        new City
-                        {
-                            Id = 55,
-                            Name = "General San Martín",
-                            Latitude = "-34.54379540",
-                            Longitude = "-58.64700250"
-                        }
-
-                        new City
-                        {
-                            Id = 56,
-                            Name = "General Viamonte",
-                            Latitude = "-34.97753020",
-                            Longitude = "-61.40151400"
-                        }
-
-                        new City
-                        {
-                            Id = 57,
-                            Name = "General Villegas",
-                            Latitude = "-34.87360000",
-                            Longitude = "-63.48656420"
-                        }
-
-                        new City
-                        {
-                            Id = 58,
-                            Name = "Guaminí",
-                            Latitude = "-36.89982740",
-                            Longitude = "-63.07273400"
-                        }
-
-                        new City
-                        {
-                            Id = 59,
-                            Name = "Hipólito Yrigoyen",
-                            Latitude = "-36.27101580",
-                            Longitude = "-61.98866530"
-                        }
-
-                        new City
-                        {
-                            Id = 60,
-                            Name = "Hurlingham",
-                            Latitude = "-34.59796270",
-                            Longitude = "-58.69618060"
-                        }
-
-                        new City
-                        {
-                            Id = 61,
-                            Name = "Ituzaingó",
-                            Latitude = "-34.63969570",
-                            Longitude = "-58.77365750"
-                        }
-
-                        new City
-                        {
-                            Id = 62,
-                            Name = "José C. Paz",
-                            Latitude = "-34.50433760",
-                            Longitude = "-58.85464360"
-                        }
-
-                        new City
-                        {
-                            Id = 63,
-                            Name = "Junín",
-                            Latitude = "-34.54605770",
-                            Longitude = "-61.33077050"
-                        }
-
-                        new City
-                        {
-                            Id = 64,
-                            Name = "La Costa",
-                            Latitude = "-36.66068710",
-                            Longitude = "-57.40162530"
-                        }
-
-                        new City
-                        {
-                            Id = 65,
-                            Name = "La Matanza",
-                            Latitude = "-34.77307590",
-                            Longitude = "-58.78266180"
-                        }
-
-                        new City
-                        {
-                            Id = 66,
-                            Name = "La Plata",
-                            Latitude = "-34.70297680",
-                            Longitude = "-58.67985840"
-                        }
-
-                        new City
-                        {
-                            Id = 67,
-                            Name = "Lanús",
-                            Latitude = "-34.70198040",
-                            Longitude = "-58.47261230"
-                        }
-
-                        new City
-                        {
-                            Id = 68,
-                            Name = "Laprida",
-                            Latitude = "-37.49309250",
-                            Longitude = "-61.42308300"
-                        }
-
-                        new City
-                        {
-                            Id = 69,
-                            Name = "Las Flores",
-                            Latitude = "-36.01628740",
-                            Longitude = "-59.86327060"
-                        }
-
-                        new City
-                        {
-                            Id = 70,
-                            Name = "Leandro N. Alem",
-                            Latitude = "-34.49251120",
-                            Longitude = "-61.95923550"
-                        }
-
-                        new City
-                        {
-                            Id = 71,
-                            Name = "Lezama",
-                            Latitude = "-35.86369450",
-                            Longitude = "-58.15662470"
-                        }
-
-                        new City
-                        {
-                            Id = 72,
-                            Name = "Lincoln",
-                            Latitude = "-35.08589960",
-                            Longitude = "-62.35863070"
-                        }
-
-                        new City
-                        {
-                            Id = 73,
-                            Name = "Lobería",
-                            Latitude = "-38.06737520",
-                            Longitude = "-59.36333310"
-                        }
-
-                        new City
-                        {
-                            Id = 74,
-                            Name = "Lobos",
-                            Latitude = "-35.19779080",
-                            Longitude = "-59.51022420"
-                        }
-
-                        new City
-                        {
-                            Id = 75,
-                            Name = "Lomas de Zamora",
-                            Latitude = "-34.75284350",
-                            Longitude = "-58.50112000"
-                        }
-
-                        new City
-                        {
-                            Id = 76,
-                            Name = "Luján",
-                            Latitude = "-34.58755280",
-                            Longitude = "-59.47602840"
-                        }
-
-                        new City
-                        {
-                            Id = 77,
-                            Name = "Magdalena",
-                            Latitude = "-35.18662720",
-                            Longitude = "-57.99943530"
-                        }
-
-                        new City
-                        {
-                            Id = 78,
-                            Name = "Maipú",
-                            Latitude = "-36.88401400",
-                            Longitude = "-58.25271870"
-                        }
-
-                        new City
-                        {
-                            Id = 79,
-                            Name = "Malvinas Argentinas",
-                            Latitude = "-34.48586020",
-                            Longitude = "-58.79796800"
-                        }
-
-                        new City
-                        {
-                            Id = 80,
-                            Name = "Mar Chiquita",
-                            Latitude = "-37.50980390",
-                            Longitude = "-58.30054500"
-                        }
-
-                        new City
-                        {
-                            Id = 81,
-                            Name = "Marcos Paz",
-                            Latitude = "-34.82080690",
-                            Longitude = "-59.02873170"
-                        }
-
-                        new City
-                        {
-                            Id = 82,
-                            Name = "Mercedes",
-                            Latitude = "-34.69878490",
-                            Longitude = "-59.77191470"
-                        }
-
-                        new City
-                        {
-                            Id = 83,
-                            Name = "Merlo",
-                            Latitude = "-34.70657840",
-                            Longitude = "-58.83276710"
-                        }
-
-                        new City
-                        {
-                            Id = 84,
-                            Name = "Monte",
-                            Latitude = "-35.49862290",
-                            Longitude = "-59.12519800"
-                        }
-
-                        new City
-                        {
-                            Id = 85,
-                            Name = "Monte Hermoso",
-                            Latitude = "-38.95737360",
-                            Longitude = "-61.44530580"
-                        }
-
-                        new City
-                        {
-                            Id = 86,
-                            Name = "Moreno",
-                            Latitude = "-34.59681430",
-                            Longitude = "-58.96697620"
-                        }
-
-                        new City
-                        {
-                            Id = 87,
-                            Name = "Morón",
-                            Latitude = "-34.64640300",
-                            Longitude = "-58.69414610"
-                        }
-
-                        new City
-                        {
-                            Id = 88,
-                            Name = "Navarro",
-                            Latitude = "-35.02457590",
-                            Longitude = "-59.77633880"
-                        }
-
-                        new City
-                        {
-                            Id = 89,
-                            Name = "Necochea",
-                            Latitude = "-38.17378930",
-                            Longitude = "-59.80770580"
-                        }
-
-                        new City
-                        {
-                            Id = 90,
-                            Name = "Nueve de Julio",
-                            Latitude = "-35.45690360",
-                            Longitude = "-60.92393850"
-                        }
-
-                        new City
-                        {
-                            Id = 91,
-                            Name = "Olavarría",
-                            Latitude = "-36.85692910",
-                            Longitude = "-61.37189000"
-                        }
-
-                        new City
-                        {
-                            Id = 92,
-                            Name = "Patagones",
-                            Latitude = "-40.17288440",
-                            Longitude = "-64.09569830"
-                        }
-
-                        new City
-                        {
-                            Id = 93,
-                            Name = "Pehuajó",
-                            Latitude = "-35.90670570",
-                            Longitude = "-62.59308720"
-                        }
-
-                        new City
-                        {
-                            Id = 94,
-                            Name = "Pellegrini",
-                            Latitude = "-36.24270170",
-                            Longitude = "-63.82182700"
-                        }
-
-                        new City
-                        {
-                            Id = 95,
-                            Name = "Pergamino",
-                            Latitude = "-33.85555800",
-                            Longitude = "-61.20026950"
-                        }
-
-                        new City
-                        {
-                            Id = 96,
-                            Name = "Pila",
-                            Latitude = "-36.21422440",
-                            Longitude = "-59.05999650"
-                        }
-
-                        new City
-                        {
-                            Id = 97,
-                            Name = "Pilar",
-                            Latitude = "-34.44243960",
-                            Longitude = "-59.06160640"
-                        }
-
-                        new City
-                        {
-                            Id = 98,
-                            Name = "Pinamar",
-                            Latitude = "-37.10658290",
-                            Longitude = "-57.03470380"
-                        }
-
-                        new City
-                        {
-                            Id = 99,
-                            Name = "Presidente Perón",
-                            Latitude = "-34.94225680",
-                            Longitude = "-58.46566260"
-                        }
-
-                        new City
-                        {
-                            Id = 100,
-                            Name = "Puan",
-                            Latitude = "-38.09189020",
-                            Longitude = "-64.30307990"
-                        },
-
-                        new City
-                        {
-                            Id = 101,
-                            Name = "Punta Indio",
-                            Latitude = "-35.45569760",
-                            Longitude = "-57.79169470"
-                        },
-
-                        new City
-                        {
-                            Id = 102,
-                            Name = "Quilmes",
-                            Latitude = "-34.73973430",
-                            Longitude = "-58.35320560"
-                        },
-
-                        new City
-                        {
-                            Id = 103,
-                            Name = "Ramallo",
-                            Latitude = "-33.58813140",
-                            Longitude = "-60.38975740"
-                        },
-
-                        new City
-                        {
-                            Id = 104,
-                            Name = "Rauch",
-                            Latitude = "-36.59916740",
-                            Longitude = "-59.55774850"
-                        },
-
-                        new City
-                        {
-                            Id = 105,
-                            Name = "Rivadavia",
-                            Latitude = "-35.57782590",
-                            Longitude = "-63.66436280"
-                        },
-
-                        new City
-                        {
-                            Id = 106,
-                            Name = "Rojas",
-                            Latitude = "-34.19513250",
-                            Longitude = "-61.12565120"
-                        },
-
-                        new City
-                        {
-                            Id = 107,
-                            Name = "Roque Pérez",
-                            Latitude = "-35.52006040",
-                            Longitude = "-59.74705690"
-                        },
-
-                        new City
-                        {
-                            Id = 108,
-                            Name = "Saavedra",
-                            Latitude = "-37.73956430",
-                            Longitude = "-63.12959180"
-                        },
-
-                        new City
-                        {
-                            Id = 109,
-                            Name = "Saladillo",
-                            Latitude = "-35.67906870",
-                            Longitude = "-60.35942330"
-                        },
-
-                        new City
-                        {
-                            Id = 110,
-                            Name = "Salliqueló",
-                            Latitude = "-36.67026330",
-                            Longitude = "-63.37763790"
-                        },
-
-                        new City
-                        {
-                            Id = 111,
-                            Name = "Salto",
-                            Latitude = "-34.24698560",
-                            Longitude = "-60.61305280"
-                        },
-
-                        new City
-                        {
-                            Id = 112,
-                            Name = "San Andrés de Giles",
-                            Latitude = "-34.42586240",
-                            Longitude = "-59.81017060"
-                        },
-
-                        new City
-                        {
-                            Id = 113,
-                            Name = "San Antonio de Areco",
-                            Latitude = "-34.20590450",
-                            Longitude = "-59.85355590"
-                        },
-
-                        new City
-                        {
-                            Id = 114,
-                            Name = "San Cayetano",
-                            Latitude = "-38.40262680",
-                            Longitude = "-60.27756580"
-                        },
-
-                        new City
-                        {
-                            Id = 115,
-                            Name = "San Fernando",
-                            Latitude = "-34.24511400",
-                            Longitude = "-58.90071950"
-                        },
-
-                        new City
-                        {
-                            Id = 116,
-                            Name = "San Isidro",
-                            Latitude = "-34.48659380",
-                            Longitude = "-58.62225340"
-                        },
-
-                        new City
-                        {
-                            Id = 117,
-                            Name = "San Miguel",
-                            Latitude = "-34.55334190",
-                            Longitude = "-58.77405090"
-                        },
-
-                        new City
-                        {
-                            Id = 118,
-                            Name = "San Nicolás",
-                            Latitude = "-33.47155080",
-                            Longitude = "-60.63886600"
-                        },
-
-                        new City
-                        {
-                            Id = 119,
-                            Name = "San Pedro",
-                            Latitude = "-33.79559030",
-                            Longitude = "-60.11056980"
-                        },
-
-                        new City
-                        {
-                            Id = 120,
-                            Name = "San Vicente",
-                            Latitude = "-35.08097070",
-                            Longitude = "-58.74801840"
-                        },
-
-                        new City
-                        {
-                            Id = 121,
-                            Name = "Suipacha",
-                            Latitude = "-34.73712310",
-                            Longitude = "-60.03526020"
-                        },
-
-                        new City
-                        {
-                            Id = 122,
-                            Name = "Tandil",
-                            Latitude = "-37.33286290",
-                            Longitude = "-59.85479050"
-                        },
-
-                        new City
-                        {
-                            Id = 123,
-                            Name = "Tapalqué",
-                            Latitude = "-36.36637830",
-                            Longitude = "-60.81551140"
-                        },
-
-                        new City
-                        {
-                            Id = 124,
-                            Name = "Tigre",
-                            Latitude = "-34.40017610",
-                            Longitude = "-58.75939520"
-                        },
-
-                        new City
-                        {
-                            Id = 125,
-                            Name = "Tordillo",
-                            Latitude = "-36.41238410",
-                            Longitude = "-57.57341650"
-                        },
-
-                        new City
-                        {
-                            Id = 126,
-                            Name = "Tornquist",
-                            Latitude = "-38.26024950",
-                            Longitude = "-62.95775910"
-                        },
-
-                        new City
-                        {
-                            Id = 127,
-                            Name = "Trenque Lauquen",
-                            Latitude = "-36.05316630",
-                            Longitude = "-63.30255910"
-                        },
-
-                        new City
-                        {
-                            Id = 128,
-                            Name = "Tres Arroyos",
-                            Latitude = "-38.46994170",
-                            Longitude = "-60.84561550"
-                        },
-
-                        new City
-                        {
-                            Id = 129,
-                            Name = "Tres de Febrero",
-                            Latitude = "-34.59999320",
-                            Longitude = "-58.66706300"
-                        },
-
-                        new City
-                        {
-                            Id = 130,
-                            Name = "Tres Lomas",
-                            Latitude = "-36.48938820",
-                            Longitude = "-63.19723280"
-                        },
-
-                        new City
-                        {
-                            Id = 131,
-                            Name = "Veinticinco de Mayo",
-                            Latitude = "-35.55138480",
-                            Longitude = "-60.84646650"
-                        },
-
-                        new City
-                        {
-                            Id = 132,
-                            Name = "Vicente López",
-                            Latitude = "-34.52931400",
-                            Longitude = "-58.58906610"
-                        },
-
-                        new City
-                        {
-                            Id = 133,
-                            Name = "Villa Gesell",
-                            Latitude = "-37.36616190",
-                            Longitude = "-57.38978580"
-                        },
-
-                        new City
-                        {
-                            Id = 134,
-                            Name = "Villarino",
-                            Latitude = "-39.14254170",
-                            Longitude = "-64.01619890"
-                        },
-
-                        new City
-                        {
-                            Id = 135,
-                            Name = "Zárate",
-                            Latitude = "-34.00225010",
-                            Longitude = "-59.42188710"
-                        }
+                        new() { Id = 1, Name = "Adolfo Alsina", Latitude = "-37.16054780", Longitude = "-64.22506020" },
+                        new() { Id = 2, Name = "Adolfo Gonzáles Chaves", Latitude = "-37.93801600", Longitude = "-60.90296530" },
+                        new() { Id = 3, Name = "Alberti", Latitude = "-35.02768320", Longitude = "-60.58411980" },
+                        new() { Id = 4, Name = "Almirante Brown", Latitude = "-34.83197240", Longitude = "-58.45251410" },
+                        new() { Id = 5, Name = "Arrecifes", Latitude = "-34.00603330", Longitude = "-60.33782350" },
+                        new() { Id = 6, Name = "Avellaneda", Latitude = "-34.66134140", Longitude = "-58.38802660" },
+                        new() { Id = 7, Name = "Ayacucho", Latitude = "-36.97372280", Longitude = "-59.08902220" },
+                        new() { Id = 8, Name = "Azul", Latitude = "-36.82779090", Longitude = "-60.99253580" },
+                        new() { Id = 9, Name = "Bahía Blanca", Latitude = "-38.58796980", Longitude = "-62.50794130" },
+                        new() { Id = 10, Name = "Balcarce", Latitude = "-37.75449560", Longitude = "-58.93081520" },
+                        new() { Id = 11, Name = "Baradero", Latitude = "-33.90652010", Longitude = "-59.81822290" },
+                        new() { Id = 12, Name = "Benito Juárez", Latitude = "-37.58593960", Longitude = "-60.52379500" },
+                        new() { Id = 13, Name = "Berazategui", Latitude = "-34.84334610", Longitude = "-58.30738810" },
+                        new() { Id = 14, Name = "Berisso", Latitude = "-34.89821320", Longitude = "-57.90243650" },
+                        new() { Id = 15, Name = "Bolívar", Latitude = "-36.28911980", Longitude = "-61.78736580" },
+                        new() { Id = 16, Name = "Bragado", Latitude = "-35.02574040", Longitude = "-61.25370530" },
+                        new() { Id = 17, Name = "Brandsen", Latitude = "-35.19510090", Longitude = "-58.49818770" },
+                        new() { Id = 18, Name = "Campana", Latitude = "-34.16079930", Longitude = "-59.22022530" },
+                        new() { Id = 19, Name = "Cañuelas", Latitude = "-35.15525400", Longitude = "-59.03069800" },
+                        new() { Id = 20, Name = "Capitán Sarmiento", Latitude = "-34.14170660", Longitude = "-60.02221190" },
+                        new() { Id = 21, Name = "Carlos Casares", Latitude = "-35.72219790", Longitude = "-62.03779560" },
+                        new() { Id = 22, Name = "Carlos Tejedor", Latitude = "-35.39445380", Longitude = "-63.06241220" },
+                        new() { Id = 23, Name = "Carmen de Areco", Latitude = "-34.41836420", Longitude = "-60.23786820" },
+                        new() { Id = 24, Name = "Castelli", Latitude = "-36.01838980", Longitude = "-57.98088650" },
+                        new() { Id = 25, Name = "Chacabuco", Latitude = "-34.63340080", Longitude = "-60.65114680" },
+                        new() { Id = 26, Name = "Chascomús", Latitude = "-35.59543280", Longitude = "-58.56002660" },
+                        new() { Id = 27, Name = "Chivilcoy", Latitude = "-34.90790700", Longitude = "-60.28432600" },
+                        new() { Id = 28, Name = "Colón", Latitude = "-33.85225870", Longitude = "-61.40124400" },
+                        new() { Id = 29, Name = "Coronel Dorrego", Latitude = "-38.64031010", Longitude = "-61.77287250" },
+                        new() { Id = 30, Name = "Coronel Pringles", Latitude = "-38.16604130", Longitude = "-61.89518000" },
+                        new() { Id = 31, Name = "Coronel Rosales", Latitude = "-38.81492060", Longitude = "-62.14727610" },
+                        new() { Id = 32, Name = "Coronel Suárez", Latitude = "-37.53029820", Longitude = "-63.25323390" },
+                        new() { Id = 33, Name = "Daireaux", Latitude = "-36.61930860", Longitude = "-62.52352980" },
+                        new() { Id = 34, Name = "Dolores", Latitude = "-36.41467360", Longitude = "-58.32462490" },
+                        new() { Id = 35, Name = "Ensenada", Latitude = "-34.84156190", Longitude = "-58.06269460" },
+                        new() { Id = 36, Name = "Escobar", Latitude = "-34.34251230", Longitude = "-58.93997620" },
+                        new() { Id = 37, Name = "Esteban Echeverríar", Latitude = "-34.82406180", Longitude = "-58.63358570" },
+                        new() { Id = 38, Name = "Exaltación de la Cruz", Latitude = "-34.31228650", Longitude = "-59.31295630" },
+                        new() { Id = 39, Name = "Ezeiza", Latitude = "-34.87357520", Longitude = "-58.73505670" },
+                        new() { Id = 40, Name = "Florencio Varela", Latitude = "-34.88873210", Longitude = "-58.42115210" },
+                        new() { Id = 41, Name = "Florentino Ameghino", Latitude = "-34.88624610", Longitude = "-62.70302560" },
+                        new() { Id = 42, Name = "General Alvarado", Latitude = "-38.19975330", Longitude = "-58.38977980" },
+                        new() { Id = 43, Name = "General Alvear", Latitude = "-36.03836820", Longitude = "-60.76716020" },
+                        new() { Id = 44, Name = "General Arenales", Latitude = "-34.23810350", Longitude = "-61.61258250" },
+                        new() { Id = 45, Name = "General Belgrano", Latitude = "-35.84190100", Longitude = "-59.04535800" },
+                        new() { Id = 46, Name = "General Guido", Latitude = "-36.67376360", Longitude = "-58.63303620" },
+                        new() { Id = 47, Name = "General La Madrid", Latitude = "-37.39889560", Longitude = "-61.97377640" },
+                        new() { Id = 48, Name = "General Las Heras", Latitude = "-34.90931560", Longitude = "-59.32777060" },
+                        new() { Id = 49, Name = "General Lavalle", Latitude = "-36.67005230", Longitude = "-57.67282310" },
+                        new() { Id = 50, Name = "General Madariaga", Latitude = "-37.15579700", Longitude = "-57.90662040" },
+                        new() { Id = 51, Name = "General Paz", Latitude = "-35.47363710", Longitude = "-58.69690130" },
+                        new() { Id = 52, Name = "General Pinto", Latitude = "-34.68311120", Longitude = "-62.34048360" },
+                        new() { Id = 53, Name = "General Pueyrredón", Latitude = "-37.97153260", Longitude = "-58.11219280" },
+                        new() { Id = 54, Name = "General Rodríguez", Latitude = "-34.63970400", Longitude = "-59.16470220" },
+                        new() { Id = 55, Name = "General San Martín", Latitude = "-34.54379540", Longitude = "-58.64700250" },
+                        new() { Id = 56, Name = "General Viamonte", Latitude = "-34.97753020", Longitude = "-61.40151400" },
+                        new() { Id = 57, Name = "General Villegas", Latitude = "-34.87360000", Longitude = "-63.48656420" },
+                        new() { Id = 58, Name = "Guaminí", Latitude = "-36.89982740", Longitude = "-63.07273400" },
+                        new() { Id = 59, Name = "Hipólito Yrigoyen", Latitude = "-36.27101580", Longitude = "-61.98866530" },
+                        new() { Id = 60, Name = "Hurlingham", Latitude = "-34.59796270", Longitude = "-58.69618060" },
+                        new() { Id = 61, Name = "Ituzaingó", Latitude = "-34.63969570", Longitude = "-58.77365750" },
+                        new() { Id = 62, Name = "José C. Paz", Latitude = "-34.50433760", Longitude = "-58.85464360" },
+                        new() { Id = 63, Name = "Junín", Latitude = "-34.54605770", Longitude = "-61.33077050" },
+                        new() { Id = 64, Name = "La Costa", Latitude = "-36.66068710", Longitude = "-57.40162530" },
+                        new() { Id = 65, Name = "La Matanza", Latitude = "-34.77307590", Longitude = "-58.78266180" },
+                        new() { Id = 66, Name = "La Plata", Latitude = "-34.70297680", Longitude = "-58.67985840" },
+                        new() { Id = 67, Name = "Lanús", Latitude = "-34.70198040", Longitude = "-58.47261230" },
+                        new() { Id = 68, Name = "Laprida", Latitude = "-37.49309250", Longitude = "-61.42308300" },
+                        new() { Id = 69, Name = "Las Flores", Latitude = "-36.01628740", Longitude = "-59.86327060" },
+                        new() { Id = 70, Name = "Leandro N. Alem", Latitude = "-34.49251120", Longitude = "-61.95923550" },
+                        new() { Id = 71, Name = "Lezama", Latitude = "-35.86369450", Longitude = "-58.15662470" },
+                        new() { Id = 72, Name = "Lincoln", Latitude = "-35.08589960", Longitude = "-62.35863070" },
+                        new() { Id = 73, Name = "Lobería", Latitude = "-38.06737520", Longitude = "-59.36333310" },
+                        new() { Id = 74, Name = "Lobos", Latitude = "-35.19779080", Longitude = "-59.51022420" },
+                        new() { Id = 75, Name = "Lomas de Zamora", Latitude = "-34.75284350", Longitude = "-58.50112000" },
+                        new() { Id = 76, Name = "Luján", Latitude = "-34.58755280", Longitude = "-59.47602840" },
+                        new() { Id = 77, Name = "Magdalena", Latitude = "-35.18662720", Longitude = "-57.99943530" },
+                        new() { Id = 78, Name = "Maipú", Latitude = "-36.88401400", Longitude = "-58.25271870" },
+                        new() { Id = 79, Name = "Malvinas Argentinas", Latitude = "-34.48586020", Longitude = "-58.79796800" },
+                        new() { Id = 80, Name = "Mar Chiquita", Latitude = "-37.50980390", Longitude = "-58.30054500" },
+                        new() { Id = 81, Name = "Marcos Paz", Latitude = "-34.82080690", Longitude = "-59.02873170" },
+                        new() { Id = 82, Name = "Mercedes", Latitude = "-34.69878490", Longitude = "-59.77191470" },
+                        new() { Id = 83, Name = "Merlo", Latitude = "-34.70657840", Longitude = "-58.83276710" },
+                        new() { Id = 84, Name = "Monte", Latitude = "-35.49862290", Longitude = "-59.12519800" },
+                        new() { Id = 85, Name = "Monte Hermoso", Latitude = "-38.95737360", Longitude = "-61.44530580" },
+                        new() { Id = 86, Name = "Moreno", Latitude = "-34.59681430", Longitude = "-58.96697620" },
+                        new() { Id = 87, Name = "Morón", Latitude = "-34.64640300", Longitude = "-58.69414610" },
+                        new() { Id = 88, Name = "Navarro", Latitude = "-35.02457590", Longitude = "-59.77633880" },
+                        new() { Id = 89, Name = "Necochea", Latitude = "-38.17378930", Longitude = "-59.80770580" },
+                        new() { Id = 90, Name = "Nueve de Julio", Latitude = "-35.45690360", Longitude = "-60.92393850" },
+                        new() { Id = 91, Name = "Olavarría", Latitude = "-36.85692910", Longitude = "-61.37189000" },
+                        new() { Id = 92, Name = "Patagones", Latitude = "-40.17288440", Longitude = "-64.09569830" },
+                        new() { Id = 93, Name = "Pehuajó", Latitude = "-35.90670570", Longitude = "-62.59308720" },
+                        new() { Id = 94, Name = "Pellegrini", Latitude = "-36.24270170", Longitude = "-63.82182700" },
+                        new() { Id = 95, Name = "Pergamino", Latitude = "-33.85555800", Longitude = "-61.20026950" },
+                        new() { Id = 96, Name = "Pila", Latitude = "-36.21422440", Longitude = "-59.05999650" },
+                        new() { Id = 97, Name = "Pilar", Latitude = "-34.44243960", Longitude = "-59.06160640" },
+                        new() { Id = 98, Name = "Pinamar", Latitude = "-37.10658290", Longitude = "-57.03470380" },
+                        new() { Id = 99, Name = "Presidente Perón", Latitude = "-34.94225680", Longitude = "-58.46566260" },
+                        new() { Id = 100, Name = "Puan", Latitude = "-38.09189020", Longitude = "-64.30307990" },
+                        new() { Id = 101, Name = "Punta Indio", Latitude = "-35.45569760", Longitude = "-57.79169470" },
+                        new() { Id = 102, Name = "Quilmes", Latitude = "-34.73973430", Longitude = "-58.35320560" },
+                        new() { Id = 103, Name = "Ramallo", Latitude = "-33.58813140", Longitude = "-60.38975740" },
+                        new() { Id = 104, Name = "Rauch", Latitude = "-36.59916740", Longitude = "-59.55774850" },
+                        new() { Id = 105, Name = "Rivadavia", Latitude = "-35.57782590", Longitude = "-63.66436280" },
+                        new() { Id = 106, Name = "Rojas", Latitude = "-34.19513250", Longitude = "-61.12565120" },
+                        new() { Id = 107, Name = "Roque Pérez", Latitude = "-35.52006040", Longitude = "-59.74705690" },
+                        new() { Id = 108, Name = "Saavedra", Latitude = "-37.73956430", Longitude = "-63.12959180" },
+                        new() { Id = 109, Name = "Saladillo", Latitude = "-35.67906870", Longitude = "-60.35942330" },
+                        new() { Id = 110, Name = "Salliqueló", Latitude = "-36.67026330", Longitude = "-63.37763790" },
+                        new() { Id = 111, Name = "Salto", Latitude = "-34.24698560", Longitude = "-60.61305280" },
+                        new() { Id = 112, Name = "San Andrés de Giles", Latitude = "-34.42586240", Longitude = "-59.81017060" },
+                        new() { Id = 113, Name = "San Antonio de Areco", Latitude = "-34.20590450", Longitude = "-59.85355590" },
+                        new() { Id = 114, Name = "San Cayetano", Latitude = "-38.40262680", Longitude = "-60.27756580" },
+                        new() { Id = 115, Name = "San Fernando", Latitude = "-34.24511400", Longitude = "-58.90071950" },
+                        new() { Id = 116, Name = "San Isidro", Latitude = "-34.48659380", Longitude = "-58.62225340" },
+                        new() { Id = 117, Name = "San Miguel", Latitude = "-34.55334190", Longitude = "-58.77405090" },
+                        new() { Id = 118, Name = "San Nicolás", Latitude = "-33.47155080", Longitude = "-60.63886600" },
+                        new() { Id = 119, Name = "San Pedro", Latitude = "-33.79559030", Longitude = "-60.11056980" },
+                        new() { Id = 120, Name = "San Vicente", Latitude = "-35.08097070", Longitude = "-58.74801840" },
+                        new() { Id = 121, Name = "Suipacha", Latitude = "-34.73712310", Longitude = "-60.03526020" },
+                        new() { Id = 122, Name = "Tandil", Latitude = "-37.33286290", Longitude = "-59.85479050" },
+                        new() { Id = 123, Name = "Tapalqué", Latitude = "-36.36637830", Longitude = "-60.81551140" },
+                        new() { Id = 124, Name = "Tigre", Latitude = "-34.40017610", Longitude = "-58.75939520" },
+                        new() { Id = 125, Name = "Tordillo", Latitude = "-36.41238410", Longitude = "-57.57341650" },
+                        new() { Id = 126, Name = "Tornquist", Latitude = "-38.26024950", Longitude = "-62.95775910" },
+                        new() { Id = 127, Name = "Trenque Lauquen", Latitude = "-36.05316630", Longitude = "-63.30255910" },
+                        new() { Id = 128, Name = "Tres Arroyos", Latitude = "-38.46994170", Longitude = "-60.84561550" },
+                        new() { Id = 129, Name = "Tres de Febrero", Latitude = "-34.59999320", Longitude = "-58.66706300" },
+                        new() { Id = 130, Name = "Tres Lomas", Latitude = "-36.48938820", Longitude = "-63.19723280" },
+                        new() { Id = 131, Name = "Veinticinco de Mayo", Latitude = "-35.55138480", Longitude = "-60.84646650" },
+                        new() { Id = 132, Name = "Vicente López", Latitude = "-34.52931400", Longitude = "-58.58906610" },
+                        new() { Id = 133, Name = "Villa Gesell", Latitude = "-37.36616190", Longitude = "-57.38978580" },
+                        new() { Id = 134, Name = "Villarino", Latitude = "-39.14254170", Longitude = "-64.01619890" },
+                        new() { Id = 135, Name = "Zárate", Latitude = "-34.00225010", Longitude = "-59.42188710" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 3,
                     Name = "Catamarca",
@@ -1651,292 +286,47 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-28.47158770",
                     Longitude = "-65.78772090",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Ancasti",
-                            Latitude = "-28.81247000",
-                            Longitude = "-65.50145000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Andalgalá",
-                            Latitude = "-27.58185000",
-                            Longitude = "-66.31626000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Antofagasta de la Sierra",
-                            Latitude = "-26.05940000",
-                            Longitude = "-67.40636000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Capayán",
-                            Latitude = "-28.77436000",
-                            Longitude = "-66.04749000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Departamento de Ambato",
-                            Latitude = "-28.00000000",
-                            Longitude = "-65.91667000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Departamento de Ancasti",
-                            Latitude = "-29.00000000",
-                            Longitude = "-65.50000000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Departamento de Andalgalá",
-                            Latitude = "-27.58333000",
-                            Longitude = "-66.46667000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Departamento de Antofagasta de la Sierra",
-                            Latitude = "-26.00000000",
-                            Longitude = "-67.58333000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Departamento de Capayán",
-                            Latitude = "-28.83333000",
-                            Longitude = "-66.00000000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Departamento de Capital",
-                            Latitude = "-28.41667000",
-                            Longitude = "-65.80000000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Departamento de El Alto",
-                            Latitude = "-28.41667000",
-                            Longitude = "-65.41667000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Departamento de Fray Mamerto Esquiú",
-                            Latitude = "-28.30000000",
-                            Longitude = "-65.75000000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Departamento de La Paz",
-                            Latitude = "-29.25000000",
-                            Longitude = "-65.25000000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Departamento de Pomán",
-                            Latitude = "-28.25000000",
-                            Longitude = "-66.41667000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Departamento de Santa María",
-                            Latitude = "-26.66667000",
-                            Longitude = "-66.41667000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Departamento de Santa Rosa",
-                            Latitude = "-28.08333000",
-                            Longitude = "-65.25000000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Departamento de Tinogasta",
-                            Latitude = "-27.50000000",
-                            Longitude = "-68.00000000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Departamento de Valle Viejo",
-                            Latitude = "-28.58333000",
-                            Longitude = "-65.75000000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "El Rodeo",
-                            Latitude = "-28.21518000",
-                            Longitude = "-65.87420000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Fiambalá",
-                            Latitude = "-27.67225000",
-                            Longitude = "-67.61870000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Hualfín",
-                            Latitude = "-27.22896000",
-                            Longitude = "-66.83131000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Huillapima",
-                            Latitude = "-28.72533000",
-                            Longitude = "-65.97870000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Icaño",
-                            Latitude = "-28.91934000",
-                            Longitude = "-65.32817000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "La Puerta de San José",
-                            Latitude = "-27.55000000",
-                            Longitude = "-67.01667000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Londres",
-                            Latitude = "-27.71439000",
-                            Longitude = "-67.13349000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Los Altos",
-                            Latitude = "-28.04845000",
-                            Longitude = "-65.49945000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Los Varela",
-                            Latitude = "-27.93003000",
-                            Longitude = "-65.87153000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Mutquín",
-                            Latitude = "-28.32104000",
-                            Longitude = "-66.14253000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Pomán",
-                            Latitude = "-28.39455000",
-                            Longitude = "-66.22052000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Puerta de Corral Quemado",
-                            Latitude = "-27.23000000",
-                            Longitude = "-66.93635000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Recreo",
-                            Latitude = "-29.28184000",
-                            Longitude = "-65.06096000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "San Antonio",
-                            Latitude = "-28.01009000",
-                            Longitude = "-65.70874000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "San Fernando del Valle de Catamarca",
-                            Latitude = "-28.46957000",
-                            Longitude = "-65.78524000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Santa María",
-                            Latitude = "-26.69547000",
-                            Longitude = "-66.04732000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Tinogasta",
-                            Latitude = "-28.06319000",
-                            Longitude = "-67.56488000"
-                        }
+                        new() { Id = 1, Name = "Ancasti", Latitude = "-28.81247000", Longitude = "-65.50145000" },
+                        new() { Id = 2, Name = "Andalgalá", Latitude = "-27.58185000", Longitude = "-66.31626000" },
+                        new() { Id = 3, Name = "Antofagasta de la Sierra", Latitude = "-26.05940000", Longitude = "-67.40636000" },
+                        new() { Id = 4, Name = "Capayán", Latitude = "-28.77436000", Longitude = "-66.04749000" },
+                        new() { Id = 5, Name = "Departamento de Ambato", Latitude = "-28.00000000", Longitude = "-65.91667000" },
+                        new() { Id = 6, Name = "Departamento de Ancasti", Latitude = "-29.00000000", Longitude = "-65.50000000" },
+                        new() { Id = 7, Name = "Departamento de Andalgalá", Latitude = "-27.58333000", Longitude = "-66.46667000" },
+                        new() { Id = 8, Name = "Departamento de Antofagasta de la Sierra", Latitude = "-26.00000000", Longitude = "-67.58333000" },
+                        new() { Id = 9, Name = "Departamento de Capayán", Latitude = "-28.83333000", Longitude = "-66.00000000" },
+                        new() { Id = 10, Name = "Departamento de Capital", Latitude = "-28.41667000", Longitude = "-65.80000000" },
+                        new() { Id = 11, Name = "Departamento de El Alto", Latitude = "-28.41667000", Longitude = "-65.41667000" },
+                        new() { Id = 12, Name = "Departamento de Fray Mamerto Esquiú", Latitude = "-28.30000000", Longitude = "-65.75000000" },
+                        new() { Id = 13, Name = "Departamento de La Paz", Latitude = "-29.25000000", Longitude = "-65.25000000" },
+                        new() { Id = 14, Name = "Departamento de Pomán", Latitude = "-28.25000000", Longitude = "-66.41667000" },
+                        new() { Id = 15, Name = "Departamento de Santa María", Latitude = "-26.66667000", Longitude = "-66.41667000" },
+                        new() { Id = 16, Name = "Departamento de Santa Rosa", Latitude = "-28.08333000", Longitude = "-65.25000000" },
+                        new() { Id = 17, Name = "Departamento de Tinogasta", Latitude = "-27.50000000", Longitude = "-68.00000000" },
+                        new() { Id = 18, Name = "Departamento de Valle Viejo", Latitude = "-28.58333000", Longitude = "-65.75000000" },
+                        new() { Id = 19, Name = "El Rodeo", Latitude = "-28.21518000", Longitude = "-65.87420000" },
+                        new() { Id = 20, Name = "Fiambalá", Latitude = "-27.67225000", Longitude = "-67.61870000" },
+                        new() { Id = 21, Name = "Hualfín", Latitude = "-27.22896000", Longitude = "-66.83131000" },
+                        new() { Id = 22, Name = "Huillapima", Latitude = "-28.72533000", Longitude = "-65.97870000" },
+                        new() { Id = 23, Name = "Icaño", Latitude = "-28.91934000", Longitude = "-65.32817000" },
+                        new() { Id = 24, Name = "La Puerta de San José", Latitude = "-27.55000000", Longitude = "-67.01667000" },
+                        new() { Id = 25, Name = "Londres", Latitude = "-27.71439000", Longitude = "-67.13349000" },
+                        new() { Id = 26, Name = "Los Altos", Latitude = "-28.04845000", Longitude = "-65.49945000" },
+                        new() { Id = 27, Name = "Los Varela", Latitude = "-27.93003000", Longitude = "-65.87153000" },
+                        new() { Id = 28, Name = "Mutquín", Latitude = "-28.32104000", Longitude = "-66.14253000" },
+                        new() { Id = 29, Name = "Pomán", Latitude = "-28.39455000", Longitude = "-66.22052000" },
+                        new() { Id = 30, Name = "Puerta de Corral Quemado", Latitude = "-27.23000000", Longitude = "-66.93635000" },
+                        new() { Id = 31, Name = "Recreo", Latitude = "-29.28184000", Longitude = "-65.06096000" },
+                        new() { Id = 32, Name = "San Antonio", Latitude = "-28.01009000", Longitude = "-65.70874000" },
+                        new() { Id = 33, Name = "San Fernando del Valle de Catamarca", Latitude = "-28.46957000", Longitude = "-65.78524000" },
+                        new() { Id = 34, Name = "Santa María", Latitude = "-26.69547000", Longitude = "-66.04732000" },
+                        new() { Id = 35, Name = "Tinogasta", Latitude = "-28.06319000", Longitude = "-67.56488000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 4,
                     Name = "Chaco",
@@ -1944,604 +334,86 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-27.42571750",
                     Longitude = "-59.02437840",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Aviá Terai",
-                            Latitude = "-26.68532000",
-                            Longitude = "-60.72920000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Barranqueras",
-                            Latitude = "-27.48132000",
-                            Longitude = "-58.93925000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Basail",
-                            Latitude = "-27.88539000",
-                            Longitude = "-59.28245000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Campo Largo",
-                            Latitude = "-26.80077000",
-                            Longitude = "-60.84215000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Capitán Solari",
-                            Latitude = "-26.80215000",
-                            Longitude = "-59.56089000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Castelli",
-                            Latitude = "-25.94679000",
-                            Longitude = "-60.61947000"
-                        },
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Charadai",
-                            Latitude = "-27.65503000",
-                            Longitude = "-59.86291000"
-                        },
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Charata",
-                            Latitude = "-27.21438000",
-                            Longitude = "-61.18795000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Chorotis",
-                            Latitude = "-27.91578000",
-                            Longitude = "-61.39982000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Ciervo Petiso",
-                            Latitude = "-26.58041000",
-                            Longitude = "-59.63094000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Colonia Benítez",
-                            Latitude = "-27.33099000",
-                            Longitude = "-58.94622000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Colonia Elisa",
-                            Latitude = "-26.93041000",
-                            Longitude = "-59.51861000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Colonias Unidas",
-                            Latitude = "-26.69825000",
-                            Longitude = "-59.63154000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Concepción del Bermejo",
-                            Latitude = "-26.59926000",
-                            Longitude = "-60.94617000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Coronel Du Graty",
-                            Latitude = "-27.68038000",
-                            Longitude = "-60.91462000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Corzuela",
-                            Latitude = "-26.95374000",
-                            Longitude = "-60.96928000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Coté-Lai",
-                            Latitude = "-27.50000000",
-                            Longitude = "-59.60000000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Departamento de Almirante Brown",
-                            Latitude = "-25.81662000",
-                            Longitude = "-61.45576000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Departamento de Bermejo",
-                            Latitude = "-27.00000000",
-                            Longitude = "-58.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Departamento de Comandante Fernández",
-                            Latitude = "-26.83333000",
-                            Longitude = "-60.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Departamento de Doce de Octubre",
-                            Latitude = "-27.41667000",
-                            Longitude = "-61.33333000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Departamento de Dos de Abril",
-                            Latitude = "-27.60932000",
-                            Longitude = "-61.34473000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Departamento de General Donovan",
-                            Latitude = "-27.16667000",
-                            Longitude = "-59.33333000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Departamento de General Güemes",
-                            Latitude = "-25.16667000",
-                            Longitude = "-61.41667000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Departamento de Independencia",
-                            Latitude = "-26.66667000",
-                            Longitude = "-60.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Departamento de Libertad",
-                            Latitude = "-27.33333000",
-                            Longitude = "-59.33333000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Departamento de Maipú",
-                            Latitude = "-26.33333000",
-                            Longitude = "-60.41667000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Departamento de Nueve de Julio",
-                            Latitude = "-26.95331000",
-                            Longitude = "-61.27627000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Departamento de O’Higgins",
-                            Latitude = "-27.25000000",
-                            Longitude = "-60.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Departamento de Presidencia de la Plaza",
-                            Latitude = "-27.00000000",
-                            Longitude = "-59.75000000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Departamento de Quitilipi",
-                            Latitude = "-26.66667000",
-                            Longitude = "-60.16667000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Departamento de San Fernando",
-                            Latitude = "-27.66667000",
-                            Longitude = "-59.16667000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Departamento de San Lorenzo",
-                            Latitude = "-27.33333000",
-                            Longitude = "-60.41667000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Departamento de Sargento Cabral",
-                            Latitude = "-26.83333000",
-                            Longitude = "-59.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Departamento de Tapenagá",
-                            Latitude = "-27.50000000",
-                            Longitude = "-59.75000000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Fontana",
-                            Latitude = "-27.41813000",
-                            Longitude = "-59.02392000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Gancedo",
-                            Latitude = "-27.49038000",
-                            Longitude = "-61.67571000"
-                        },
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "General José de San Martín",
-                            Latitude = "-26.53743000",
-                            Longitude = "-59.34158000"
-                        },
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "General Pinedo",
-                            Latitude = "-27.31667000",
-                            Longitude = "-61.28333000"
-                        },
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "General Vedia",
-                            Latitude = "-26.93382000",
-                            Longitude = "-58.66040000"
-                        },
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Hermoso Campo",
-                            Latitude = "-27.60816000",
-                            Longitude = "-61.34441000"
-                        },
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "La Clotilde",
-                            Latitude = "-27.13333000",
-                            Longitude = "-60.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "La Eduvigis",
-                            Latitude = "-26.83607000",
-                            Longitude = "-59.06211000"
-                        },
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "La Escondida",
-                            Latitude = "-27.10724000",
-                            Longitude = "-59.44784000"
-                        },
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "La Leonesa",
-                            Latitude = "-27.03786000",
-                            Longitude = "-58.70347000"
-                        },
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "La Tigra",
-                            Latitude = "-27.10996000",
-                            Longitude = "-60.58719000"
-                        },
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "La Verde",
-                            Latitude = "-27.12634000",
-                            Longitude = "-59.37352000"
-                        },
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "Laguna Limpia",
-                            Latitude = "-26.49565000",
-                            Longitude = "-59.68083000"
-                        },
-
-                        new City
-                        {
-                            Id = 49,
-                            Name = "Lapachito",
-                            Latitude = "-27.15997000",
-                            Longitude = "-59.38605000"
-                        },
-
-                        new City
-                        {
-                            Id = 50,
-                            Name = "Las Breñas",
-                            Latitude = "-27.08966000",
-                            Longitude = "-61.08161000"
-                        },
-
-                        new City
-                        {
-                            Id = 51,
-                            Name = "Las Garcitas",
-                            Latitude = "-26.61802000",
-                            Longitude = "-59.80135000"
-                        },
-
-                        new City
-                        {
-                            Id = 52,
-                            Name = "Los Frentones",
-                            Latitude = "-26.40770000",
-                            Longitude = "-61.41367000"
-                        },
-
-                        new City
-                        {
-                            Id = 53,
-                            Name = "Machagai",
-                            Latitude = "-26.92614000",
-                            Longitude = "-60.04955000"
-                        },
-
-                        new City
-                        {
-                            Id = 54,
-                            Name = "Makallé",
-                            Latitude = "-27.20687000",
-                            Longitude = "-59.28696000"
-                        },
-
-                        new City
-                        {
-                            Id = 55,
-                            Name = "Margarita Belén",
-                            Latitude = "-27.26160000",
-                            Longitude = "-58.97219000"
-                        },
-
-                        new City
-                        {
-                            Id = 56,
-                            Name = "Napenay",
-                            Latitude = "-26.73333000",
-                            Longitude = "-60.61667000"
-                        },
-
-                        new City
-                        {
-                            Id = 57,
-                            Name = "Pampa Almirón",
-                            Latitude = "-26.70039000",
-                            Longitude = "-59.12331000"
-                        },
-
-                        new City
-                        {
-                            Id = 58,
-                            Name = "Pampa del Indio",
-                            Latitude = "-26.04982000",
-                            Longitude = "-59.93728000"
-                        },
-
-                        new City
-                        {
-                            Id = 59,
-                            Name = "Pampa del Infierno",
-                            Latitude = "-26.50517000",
-                            Longitude = "-61.17436000"
-                        },
-
-                        new City
-                        {
-                            Id = 60,
-                            Name = "Presidencia de la Plaza",
-                            Latitude = "-27.00147000",
-                            Longitude = "-59.84243000"
-                        },
-
-                        new City
-                        {
-                            Id = 61,
-                            Name = "Presidencia Roca",
-                            Latitude = "-26.14090000",
-                            Longitude = "-59.59541000"
-                        },
-
-                        new City
-                        {
-                            Id = 62,
-                            Name = "Presidencia Roque Sáenz Peña",
-                            Latitude = "-26.78522000",
-                            Longitude = "-60.43876000"
-                        },
-
-                        new City
-                        {
-                            Id = 63,
-                            Name = "Puerto Bermejo",
-                            Latitude = "-26.92739000",
-                            Longitude = "-58.50917000"
-                        },
-
-                        new City
-                        {
-                            Id = 64,
-                            Name = "Puerto Tirol",
-                            Latitude = "-27.37218000",
-                            Longitude = "-59.08206000"
-                        },
-
-                        new City
-                        {
-                            Id = 65,
-                            Name = "Puerto Vilelas",
-                            Latitude = "-27.51414000",
-                            Longitude = "-58.93906000"
-                        },
-
-                        new City
-                        {
-                            Id = 66,
-                            Name = "Quitilipi",
-                            Latitude = "-26.86913000",
-                            Longitude = "-60.21683000"
-                        },
-
-                        new City
-                        {
-                            Id = 67,
-                            Name = "Resistencia",
-                            Latitude = "-27.46056000",
-                            Longitude = "-58.98389000"
-                        },
-
-                        new City
-                        {
-                            Id = 68,
-                            Name = "Samuhú",
-                            Latitude = "-27.52116000",
-                            Longitude = "-60.39167000"
-                        },
-
-                        new City
-                        {
-                            Id = 69,
-                            Name = "San Bernardo",
-                            Latitude = "-27.28782000",
-                            Longitude = "-60.71252000"
-                        },
-
-                        new City
-                        {
-                            Id = 70,
-                            Name = "Santa Sylvina",
-                            Latitude = "-27.83261000",
-                            Longitude = "-61.13747000"
-                        },
-
-                        new City
-                        {
-                            Id = 71,
-                            Name = "Taco Pozo",
-                            Latitude = "-25.61557000",
-                            Longitude = "-63.26708000"
-                        },
-
-                        new City
-                        {
-                            Id = 72,
-                            Name = "Tres Isletas",
-                            Latitude = "-26.34067000",
-                            Longitude = "-60.43207000"
-                        },
-
-                        new City
-                        {
-                            Id = 73,
-                            Name = "Villa Ángela",
-                            Latitude = "-27.57383000",
-                            Longitude = "-60.71526000"
-                        },
-
-                        new City
-                        {
-                            Id = 74,
-                            Name = "Villa Berthet",
-                            Latitude = "-27.29174000",
-                            Longitude = "-60.41263000"
-                        }
+                        new() { Id = 1, Name = "Aviá Terai", Latitude = "-26.68532000", Longitude = "-60.72920000" },
+                        new() { Id = 2, Name = "Barranqueras", Latitude = "-27.48132000", Longitude = "-58.93925000" },
+                        new() { Id = 3, Name = "Basail", Latitude = "-27.88539000", Longitude = "-59.28245000" },
+                        new() { Id = 4, Name = "Campo Largo", Latitude = "-26.80077000", Longitude = "-60.84215000" },
+                        new() { Id = 5, Name = "Capitán Solari", Latitude = "-26.80215000", Longitude = "-59.56089000" },
+                        new() { Id = 6, Name = "Castelli", Latitude = "-25.94679000", Longitude = "-60.61947000" },
+                        new() { Id = 7, Name = "Charadai", Latitude = "-27.65503000", Longitude = "-59.86291000" },
+                        new() { Id = 8, Name = "Charata", Latitude = "-27.21438000", Longitude = "-61.18795000" },
+                        new() { Id = 9, Name = "Chorotis", Latitude = "-27.91578000", Longitude = "-61.39982000" },
+                        new() { Id = 10, Name = "Ciervo Petiso", Latitude = "-26.58041000", Longitude = "-59.63094000" },
+                        new() { Id = 11, Name = "Colonia Benítez", Latitude = "-27.33099000", Longitude = "-58.94622000" },
+                        new() { Id = 12, Name = "Colonia Elisa", Latitude = "-26.93041000", Longitude = "-59.51861000" },
+                        new() { Id = 13, Name = "Colonias Unidas", Latitude = "-26.69825000", Longitude = "-59.63154000" },
+                        new() { Id = 14, Name = "Concepción del Bermejo", Latitude = "-26.59926000", Longitude = "-60.94617000" },
+                        new() { Id = 15, Name = "Coronel Du Graty", Latitude = "-27.68038000", Longitude = "-60.91462000" },
+                        new() { Id = 16, Name = "Corzuela", Latitude = "-26.95374000", Longitude = "-60.96928000" },
+                        new() { Id = 17, Name = "Coté-Lai", Latitude = "-27.50000000", Longitude = "-59.60000000" },
+                        new() { Id = 18, Name = "Departamento de Almirante Brown", Latitude = "-25.81662000", Longitude = "-61.45576000" },
+                        new() { Id = 19, Name = "Departamento de Bermejo", Latitude = "-27.00000000", Longitude = "-58.66667000" },
+                        new() { Id = 20, Name = "Departamento de Comandante Fernández", Latitude = "-26.83333000", Longitude = "-60.50000000" },
+                        new() { Id = 21, Name = "Departamento de Doce de Octubre", Latitude = "-27.41667000", Longitude = "-61.33333000" },
+                        new() { Id = 22, Name = "Departamento de Dos de Abril", Latitude = "-27.60932000", Longitude = "-61.34473000" },
+                        new() { Id = 23, Name = "Departamento de General Donovan", Latitude = "-27.16667000", Longitude = "-59.33333000" },
+                        new() { Id = 24, Name = "Departamento de General Güemes", Latitude = "-25.16667000", Longitude = "-61.41667000" },
+                        new() { Id = 25, Name = "Departamento de Independencia", Latitude = "-26.66667000", Longitude = "-60.66667000" },
+                        new() { Id = 26, Name = "Departamento de Libertad", Latitude = "-27.33333000", Longitude = "-59.33333000" },
+                        new() { Id = 27, Name = "Departamento de Maipú", Latitude = "-26.33333000", Longitude = "-60.41667000" },
+                        new() { Id = 28, Name = "Departamento de Nueve de Julio", Latitude = "-26.95331000", Longitude = "-61.27627000" },
+                        new() { Id = 29, Name = "Departamento de O’Higgins", Latitude = "-27.25000000", Longitude = "-60.66667000" },
+                        new() { Id = 30, Name = "Departamento de Presidencia de la Plaza", Latitude = "-27.00000000", Longitude = "-59.75000000" },
+                        new() { Id = 31, Name = "Departamento de Quitilipi", Latitude = "-26.66667000", Longitude = "-60.16667000" },
+                        new() { Id = 32, Name = "Departamento de San Fernando", Latitude = "-27.66667000", Longitude = "-59.16667000" },
+                        new() { Id = 33, Name = "Departamento de San Lorenzo", Latitude = "-27.33333000", Longitude = "-60.41667000" },
+                        new() { Id = 34, Name = "Departamento de Sargento Cabral", Latitude = "-26.83333000", Longitude = "-59.50000000" },
+                        new() { Id = 35, Name = "Departamento de Tapenagá", Latitude = "-27.50000000", Longitude = "-59.75000000" },
+                        new() { Id = 36, Name = "Fontana", Latitude = "-27.41813000", Longitude = "-59.02392000" },
+                        new() { Id = 37, Name = "Gancedo", Latitude = "-27.49038000", Longitude = "-61.67571000" },
+                        new() { Id = 38, Name = "General José de San Martín", Latitude = "-26.53743000", Longitude = "-59.34158000" },
+                        new() { Id = 39, Name = "General Pinedo", Latitude = "-27.31667000", Longitude = "-61.28333000" },
+                        new() { Id = 40, Name = "General Vedia", Latitude = "-26.93382000", Longitude = "-58.66040000" },
+                        new() { Id = 41, Name = "Hermoso Campo", Latitude = "-27.60816000", Longitude = "-61.34441000" },
+                        new() { Id = 42, Name = "La Clotilde", Latitude = "-27.13333000", Longitude = "-60.66667000" },
+                        new() { Id = 43, Name = "La Eduvigis", Latitude = "-26.83607000", Longitude = "-59.06211000" },
+                        new() { Id = 44, Name = "La Escondida", Latitude = "-27.10724000", Longitude = "-59.44784000" },
+                        new() { Id = 45, Name = "La Leonesa", Latitude = "-27.03786000", Longitude = "-58.70347000" },
+                        new() { Id = 46, Name = "La Tigra", Latitude = "-27.10996000", Longitude = "-60.58719000" },
+                        new() { Id = 47, Name = "La Verde", Latitude = "-27.12634000", Longitude = "-59.37352000" },
+                        new() { Id = 48, Name = "Laguna Limpia", Latitude = "-26.49565000", Longitude = "-59.68083000" },
+                        new() { Id = 49, Name = "Lapachito", Latitude = "-27.15997000", Longitude = "-59.38605000" },
+                        new() { Id = 50, Name = "Las Breñas", Latitude = "-27.08966000", Longitude = "-61.08161000" },
+                        new() { Id = 51, Name = "Las Garcitas", Latitude = "-26.61802000", Longitude = "-59.80135000" },
+                        new() { Id = 52, Name = "Los Frentones", Latitude = "-26.40770000", Longitude = "-61.41367000" },
+                        new() { Id = 53, Name = "Machagai", Latitude = "-26.92614000", Longitude = "-60.04955000" },
+                        new() { Id = 54, Name = "Makallé", Latitude = "-27.20687000", Longitude = "-59.28696000" },
+                        new() { Id = 55, Name = "Margarita Belén", Latitude = "-27.26160000", Longitude = "-58.97219000" },
+                        new() { Id = 56, Name = "Napenay", Latitude = "-26.73333000", Longitude = "-60.61667000" },
+                        new() { Id = 57, Name = "Pampa Almirón", Latitude = "-26.70039000", Longitude = "-59.12331000" },
+                        new() { Id = 58, Name = "Pampa del Indio", Latitude = "-26.04982000", Longitude = "-59.93728000" },
+                        new() { Id = 59, Name = "Pampa del Infierno", Latitude = "-26.50517000", Longitude = "-61.17436000" },
+                        new() { Id = 60, Name = "Presidencia de la Plaza", Latitude = "-27.00147000", Longitude = "-59.84243000" },
+                        new() { Id = 61, Name = "Presidencia Roca", Latitude = "-26.14090000", Longitude = "-59.59541000" },
+                        new() { Id = 62, Name = "Presidencia Roque Sáenz Peña", Latitude = "-26.78522000", Longitude = "-60.43876000" },
+                        new() { Id = 63, Name = "Puerto Bermejo", Latitude = "-26.92739000", Longitude = "-58.50917000" },
+                        new() { Id = 64, Name = "Puerto Tirol", Latitude = "-27.37218000", Longitude = "-59.08206000" },
+                        new() { Id = 65, Name = "Puerto Vilelas", Latitude = "-27.51414000", Longitude = "-58.93906000" },
+                        new() { Id = 66, Name = "Quitilipi", Latitude = "-26.86913000", Longitude = "-60.21683000" },
+                        new() { Id = 67, Name = "Resistencia", Latitude = "-27.46056000", Longitude = "-58.98389000" },
+                        new() { Id = 68, Name = "Samuhú", Latitude = "-27.52116000", Longitude = "-60.39167000" },
+                        new() { Id = 69, Name = "San Bernardo", Latitude = "-27.28782000", Longitude = "-60.71252000" },
+                        new() { Id = 70, Name = "Santa Sylvina", Latitude = "-27.83261000", Longitude = "-61.13747000" },
+                        new() { Id = 71, Name = "Taco Pozo", Latitude = "-25.61557000", Longitude = "-63.26708000" },
+                        new() { Id = 72, Name = "Tres Isletas", Latitude = "-26.34067000", Longitude = "-60.43207000" },
+                        new() { Id = 73, Name = "Villa Ángela", Latitude = "-27.57383000", Longitude = "-60.71526000" },
+                        new() { Id = 74, Name = "Villa Berthet", Latitude = "-27.29174000", Longitude = "-60.41263000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 5,
                     Name = "Chubut",
@@ -2549,308 +421,49 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-43.29342460",
                     Longitude = "-65.11148180",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Alto Río Senguer",
-                            Latitude = "-45.04105000",
-                            Longitude = "-70.81982000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Camarones",
-                            Latitude = "-44.79709000",
-                            Longitude = "-65.70994000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Comodoro Rivadavia",
-                            Latitude = "-45.86413000",
-                            Longitude = "-67.49656000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Departamento de Biedma",
-                            Latitude = "-42.41667000",
-                            Longitude = "-65.00000000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Departamento de Cushamen",
-                            Latitude = "-42.50000000",
-                            Longitude = "-70.83333000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Departamento de Escalante",
-                            Latitude = "-45.33333000",
-                            Longitude = "-67.33333000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Departamento de Florentino Ameghino",
-                            Latitude = "-44.41667000",
-                            Longitude = "-66.16667000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Departamento de Futaleufú",
-                            Latitude = "-43.08333000",
-                            Longitude = "-71.41667000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Departamento de Gaimán",
-                            Latitude = "-43.33333000",
-                            Longitude = "-66.33333000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Departamento de Gastre",
-                            Latitude = "-42.83333000",
-                            Longitude = "-68.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Departamento de Languiñeo",
-                            Latitude = "-43.33333000",
-                            Longitude = "-70.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Departamento de Mártires",
-                            Latitude = "-43.83333000",
-                            Longitude = "-67.16667000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Departamento de Paso de Indios",
-                            Latitude = "-44.00000000",
-                            Longitude = "-68.83333000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Departamento de Rawson",
-                            Latitude = "-43.12342000",
-                            Longitude = "-65.10179000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Departamento de Río Senguerr",
-                            Latitude = "-45.33333000",
-                            Longitude = "-70.83333000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Departamento de Sarmiento",
-                            Latitude = "-45.33333000",
-                            Longitude = "-69.00000000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Departamento de Tehuelches",
-                            Latitude = "-44.22132000",
-                            Longitude = "-70.25260000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Departamento de Telsen",
-                            Latitude = "-42.41667000",
-                            Longitude = "-67.16667000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Dolavón",
-                            Latitude = "-43.30684000",
-                            Longitude = "-65.70651000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "El Maitén",
-                            Latitude = "-42.04924000",
-                            Longitude = "-71.16693000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Esquel",
-                            Latitude = "-42.91147000",
-                            Longitude = "-71.31947000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Gaimán",
-                            Latitude = "-43.28970000",
-                            Longitude = "-65.49290000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Gastre",
-                            Latitude = "-42.26186000",
-                            Longitude = "-69.22112000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Gobernador Costa",
-                            Latitude = "-44.04992000",
-                            Longitude = "-70.59798000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Hoyo de Epuyén",
-                            Latitude = "-42.07189000",
-                            Longitude = "-71.50811000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "José de San Martín",
-                            Latitude = "-44.05032000",
-                            Longitude = "-70.46967000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Lago Puelo",
-                            Latitude = "-42.06684000",
-                            Longitude = "-71.60384000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Las Plumas",
-                            Latitude = "-43.72058000",
-                            Longitude = "-67.28319000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Puerto Madryn",
-                            Latitude = "-42.76920000",
-                            Longitude = "-65.03851000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Rada Tilly",
-                            Latitude = "-45.92462000",
-                            Longitude = "-67.55424000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Rawson",
-                            Latitude = "-43.30016000",
-                            Longitude = "-65.10228000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Río Mayo",
-                            Latitude = "-45.68573000",
-                            Longitude = "-70.25797000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Río Pico",
-                            Latitude = "-44.17905000",
-                            Longitude = "-71.36847000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Sarmiento",
-                            Latitude = "-45.58815000",
-                            Longitude = "-69.06996000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Tecka",
-                            Latitude = "-43.49489000",
-                            Longitude = "-70.81020000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Trelew",
-                            Latitude = "-43.24895000",
-                            Longitude = "-65.30505000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Trevelin",
-                            Latitude = "-43.08580000",
-                            Longitude = "-71.46386000"
-                        }
+                        new() { Id = 1, Name = "Alto Río Senguer", Latitude = "-45.04105000", Longitude = "-70.81982000" },
+                        new() { Id = 2, Name = "Camarones", Latitude = "-44.79709000", Longitude = "-65.70994000" },
+                        new() { Id = 3, Name = "Comodoro Rivadavia", Latitude = "-45.86413000", Longitude = "-67.49656000" },
+                        new() { Id = 4, Name = "Departamento de Biedma", Latitude = "-42.41667000", Longitude = "-65.00000000" },
+                        new() { Id = 5, Name = "Departamento de Cushamen", Latitude = "-42.50000000", Longitude = "-70.83333000" },
+                        new() { Id = 6, Name = "Departamento de Escalante", Latitude = "-45.33333000", Longitude = "-67.33333000" },
+                        new() { Id = 7, Name = "Departamento de Florentino Ameghino", Latitude = "-44.41667000", Longitude = "-66.16667000" },
+                        new() { Id = 8, Name = "Departamento de Futaleufú", Latitude = "-43.08333000", Longitude = "-71.41667000" },
+                        new() { Id = 9, Name = "Departamento de Gaimán", Latitude = "-43.33333000", Longitude = "-66.33333000" },
+                        new() { Id = 10, Name = "Departamento de Gastre", Latitude = "-42.83333000", Longitude = "-68.66667000" },
+                        new() { Id = 11, Name = "Departamento de Languiñeo", Latitude = "-43.33333000", Longitude = "-70.66667000" },
+                        new() { Id = 12, Name = "Departamento de Mártires", Latitude = "-43.83333000", Longitude = "-67.16667000" },
+                        new() { Id = 13, Name = "Departamento de Paso de Indios", Latitude = "-44.00000000", Longitude = "-68.83333000" },
+                        new() { Id = 14, Name = "Departamento de Rawson", Latitude = "-43.12342000", Longitude = "-65.10179000" },
+                        new() { Id = 15, Name = "Departamento de Río Senguerr", Latitude = "-45.33333000", Longitude = "-70.83333000" },
+                        new() { Id = 16, Name = "Departamento de Sarmiento", Latitude = "-45.33333000", Longitude = "-69.00000000" },
+                        new() { Id = 17, Name = "Departamento de Tehuelches", Latitude = "-44.22132000", Longitude = "-70.25260000" },
+                        new() { Id = 18, Name = "Departamento de Telsen", Latitude = "-42.41667000", Longitude = "-67.16667000" },
+                        new() { Id = 19, Name = "Dolavón", Latitude = "-43.30684000", Longitude = "-65.70651000" },
+                        new() { Id = 20, Name = "El Maitén", Latitude = "-42.04924000", Longitude = "-71.16693000" },
+                        new() { Id = 21, Name = "Esquel", Latitude = "-42.91147000", Longitude = "-71.31947000" },
+                        new() { Id = 22, Name = "Gaimán", Latitude = "-43.28970000", Longitude = "-65.49290000" },
+                        new() { Id = 23, Name = "Gastre", Latitude = "-42.26186000", Longitude = "-69.22112000" },
+                        new() { Id = 24, Name = "Gobernador Costa", Latitude = "-44.04992000", Longitude = "-70.59798000" },
+                        new() { Id = 25, Name = "Hoyo de Epuyén", Latitude = "-42.07189000", Longitude = "-71.50811000" },
+                        new() { Id = 26, Name = "José de San Martín", Latitude = "-44.05032000", Longitude = "-70.46967000" },
+                        new() { Id = 27, Name = "Lago Puelo", Latitude = "-42.06684000", Longitude = "-71.60384000" },
+                        new() { Id = 28, Name = "Las Plumas", Latitude = "-43.72058000", Longitude = "-67.28319000" },
+                        new() { Id = 29, Name = "Puerto Madryn", Latitude = "-42.76920000", Longitude = "-65.03851000" },
+                        new() { Id = 30, Name = "Rada Tilly", Latitude = "-45.92462000", Longitude = "-67.55424000" },
+                        new() { Id = 31, Name = "Rawson", Latitude = "-43.30016000", Longitude = "-65.10228000" },
+                        new() { Id = 32, Name = "Río Mayo", Latitude = "-45.68573000", Longitude = "-70.25797000" },
+                        new() { Id = 33, Name = "Río Pico", Latitude = "-44.17905000", Longitude = "-71.36847000" },
+                        new() { Id = 34, Name = "Sarmiento", Latitude = "-45.58815000", Longitude = "-69.06996000" },
+                        new() { Id = 35, Name = "Tecka", Latitude = "-43.49489000", Longitude = "-70.81020000" },
+                        new() { Id = 36, Name = "Trelew", Latitude = "-43.24895000", Longitude = "-65.30505000" },
+                        new() { Id = 37, Name = "Trevelin", Latitude = "-43.08580000", Longitude = "-71.46386000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 6,
                     Name = "Córdoba",
@@ -2858,1508 +471,199 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-31.39928760",
                     Longitude = "-64.26438420",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Achiras",
-                            Latitude = "-33.17538000",
-                            Longitude = "-64.99331000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Adelia María",
-                            Latitude = "-33.63152000",
-                            Longitude = "-64.02097000"
-                        }
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Agua de Oro",
-                            Latitude = "-31.06661000",
-                            Longitude = "-64.30017000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Alejandro Roca",
-                            Latitude = "-33.35369000",
-                            Longitude = "-63.71849000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Alejo Ledesma",
-                            Latitude = "-33.60643000",
-                            Longitude = "-62.62304000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Almafuerte",
-                            Latitude = "-32.19296000",
-                            Longitude = "-64.25559000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Alta Gracia",
-                            Latitude = "-31.65292000",
-                            Longitude = "-64.42826000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Altos de Chipión",
-                            Latitude = "-30.95590000",
-                            Longitude = "-62.33727000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Arias",
-                            Latitude = "-33.64411000",
-                            Longitude = "-62.40272000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Arroyito",
-                            Latitude = "-31.42022000",
-                            Longitude = "-63.05002000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Arroyo Cabral",
-                            Latitude = "-32.49119000",
-                            Longitude = "-63.40126000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Balnearia",
-                            Latitude = "-31.00880000",
-                            Longitude = "-62.66733000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Bell Ville",
-                            Latitude = "-32.62591000",
-                            Longitude = "-62.68873000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Berrotarán",
-                            Latitude = "-32.45100000",
-                            Longitude = "-64.38867000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Brinkmann",
-                            Latitude = "-30.86589000",
-                            Longitude = "-62.03742000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Buchardo",
-                            Latitude = "-34.72263000",
-                            Longitude = "-63.50920000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Camilo Aldao",
-                            Latitude = "-33.12745000",
-                            Longitude = "-62.09453000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Cañada de Luque",
-                            Latitude = "-30.73341000",
-                            Longitude = "-63.72375000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Canals",
-                            Latitude = "-33.56542000",
-                            Longitude = "-62.88927000"
-                        }
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Capilla del Monte",
-                            Latitude = "-30.86088000",
-                            Longitude = "-64.52515000"
-                        }
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Carnerillo",
-                            Latitude = "-32.91371000",
-                            Longitude = "-64.02175000"
-                        }
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Carrilobo",
-                            Latitude = "-31.87296000",
-                            Longitude = "-63.11715000"
-                        }
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Cavanagh",
-                            Latitude = "-33.47606000",
-                            Longitude = "-62.33888000"
-                        }
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Charras",
-                            Latitude = "-33.02400000",
-                            Longitude = "-64.04719000"
-                        }
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Chazón",
-                            Latitude = "-33.07872000",
-                            Longitude = "-63.27657000"
-                        }
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Cintra",
-                            Latitude = "-32.30673000",
-                            Longitude = "-62.65214000"
-                        }
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Colonia La Tordilla",
-                            Latitude = "-31.23746000",
-                            Longitude = "-63.06134000"
-                        }
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Colonia San Bartolomé",
-                            Latitude = "-31.52780000",
-                            Longitude = "-62.72436000"
-                        }
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Córdoba",
-                            Latitude = "-31.41350000",
-                            Longitude = "-64.18105000"
-                        }
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Coronel Baigorria",
-                            Latitude = "-32.84770000",
-                            Longitude = "-64.36107000"
-                        }
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Coronel Moldes",
-                            Latitude = "-33.62270000",
-                            Longitude = "-64.59711000"
-                        }
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Corral de Bustos",
-                            Latitude = "-33.28205000",
-                            Longitude = "-62.18463000"
-                        }
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Corralito",
-                            Latitude = "-32.02462000",
-                            Longitude = "-64.19216000"
-                        }
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Cosquín",
-                            Latitude = "-31.24508000",
-                            Longitude = "-64.46563000"
-                        }
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Costa Sacate",
-                            Latitude = "-31.64770000",
-                            Longitude = "-63.75935000"
-                        }
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Cruz Alta",
-                            Latitude = "-33.00887000",
-                            Longitude = "-61.80746000"
-                        }
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Cruz del Eje",
-                            Latitude = "-30.72644000",
-                            Longitude = "-64.80387000"
-                        }
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Cuesta Blanca",
-                            Latitude = "-31.48658000",
-                            Longitude = "-64.57150000"
-                        }
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Dalmacio Vélez Sársfield",
-                            Latitude = "-32.61072000",
-                            Longitude = "-63.58038000"
-                        }
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Deán Funes",
-                            Latitude = "-30.42036000",
-                            Longitude = "-64.34984000"
-                        }
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Del Campillo",
-                            Latitude = "-34.37659000",
-                            Longitude = "-64.49504000"
-                        }
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Departamento de Calamuchita",
-                            Latitude = "-32.25000000",
-                            Longitude = "-64.58333000"
-                        }
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Departamento de Colón",
-                            Latitude = "-31.16667000",
-                            Longitude = "-64.16667000"
-                        }
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "Departamento de Cruz del Eje",
-                            Latitude = "-30.75000000",
-                            Longitude = "-65.00000000"
-                        }
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "Departamento de General Roca",
-                            Latitude = "-34.66667000",
-                            Longitude = "-64.25000000"
-                        }
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "Departamento de General San Martín",
-                            Latitude = "-32.50000000",
-                            Longitude = "-63.33333000"
-                        }
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "Departamento de Juárez Celman",
-                            Latitude = "-33.33333000",
-                            Longitude = "-63.66667000"
-                        }
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "Departamento de Marcos Juárez",
-                            Latitude = "-33.00000000",
-                            Longitude = "-62.25000000"
-                        }
-
-                        new City
-                        {
-                            Id = 49,
-                            Name = "Departamento de Minas",
-                            Latitude = "-31.00000000",
-                            Longitude = "-65.33333000"
-                        }
-
-                        new City
-                        {
-                            Id = 50,
-                            Name = "Departamento de Presidente Roque Sáenz Peña",
-                            Latitude = "-34.25000000",
-                            Longitude = "-63.50000000"
-                        }
-
-                        new City
-                        {
-                            Id = 51,
-                            Name = "Departamento de Río Cuarto",
-                            Latitude = "-33.33333000",
-                            Longitude = "-64.50000000"
-                        }
-
-                        new City
-                        {
-                            Id = 52,
-                            Name = "Departamento de Río Primero",
-                            Latitude = "-31.08333000",
-                            Longitude = "-63.50000000"
-                        }
-
-                        new City
-                        {
-                            Id = 53,
-                            Name = "Departamento de Río Seco",
-                            Latitude = "-30.08333000",
-                            Longitude = "-63.00000000"
-                        }
-
-                        new City
-                        {
-                            Id = 54,
-                            Name = "Departamento de Río Segundo",
-                            Latitude = "-31.75000000",
-                            Longitude = "-63.50000000"
-                        }
-
-                        new City
-                        {
-                            Id = 55,
-                            Name = "Departamento de San Alberto",
-                            Latitude = "-31.75000000",
-                            Longitude = "-65.25000000"
-                        }
-
-                        new City
-                        {
-                            Id = 56,
-                            Name = "Departamento de San Javier",
-                            Latitude = "-32.08333000",
-                            Longitude = "-65.16667000"
-                        }
-
-                        new City
-                        {
-                            Id = 57,
-                            Name = "Departamento de San Justo",
-                            Latitude = "-31.33333000",
-                            Longitude = "-62.66667000"
-                        }
-
-                        new City
-                        {
-                            Id = 58,
-                            Name = "Departamento de Sobremonte",
-                            Latitude = "-29.66667000",
-                            Longitude = "-64.08333000"
-                        }
-
-                        new City
-                        {
-                            Id = 59,
-                            Name = "Departamento de Totoral",
-                            Latitude = "-30.83333000",
-                            Longitude = "-63.91667000"
-                        }
-
-                        new City
-                        {
-                            Id = 60,
-                            Name = "Departamento de Tulumba",
-                            Latitude = "-30.25000000",
-                            Longitude = "-63.91667000"
-                        }
-
-                        new City
-                        {
-                            Id = 61,
-                            Name = "Departamento de Unión",
-                            Latitude = "-32.83333000",
-                            Longitude = "-62.75000000"
-                        }
-
-                        new City
-                        {
-                            Id = 62,
-                            Name = "Despeñaderos",
-                            Latitude = "-31.81626000",
-                            Longitude = "-64.28989000"
-                        }
-
-                        new City
-                        {
-                            Id = 63,
-                            Name = "Devoto",
-                            Latitude = "-31.40431000",
-                            Longitude = "-62.30634000"
-                        }
-
-                        new City
-                        {
-                            Id = 64,
-                            Name = "El Arañado",
-                            Latitude = "-31.74120000",
-                            Longitude = "-62.89322000"
-                        }
-
-                        new City
-                        {
-                            Id = 65,
-                            Name = "El Tío",
-                            Latitude = "-31.38357000",
-                            Longitude = "-62.82938000"
-                        }
-
-                        new City
-                        {
-                            Id = 66,
-                            Name = "Elena",
-                            Latitude = "-32.57205000",
-                            Longitude = "-64.39481000"
-                        }
-
-                        new City
-                        {
-                            Id = 67,
-                            Name = "Embalse",
-                            Latitude = "-32.18000000",
-                            Longitude = "-64.41809000"
-                        }
-
-                        new City
-                        {
-                            Id = 68,
-                            Name = "Etruria",
-                            Latitude = "-32.94008000",
-                            Longitude = "-63.24660000"
-                        }
-
-                        new City
-                        {
-                            Id = 69,
-                            Name = "General Baldissera",
-                            Latitude = "-33.12246000",
-                            Longitude = "-62.30630000"
-                        }
-
-                        new City
-                        {
-                            Id = 70,
-                            Name = "General Cabrera",
-                            Latitude = "-32.81313000",
-                            Longitude = "-63.87243000"
-                        }
-
-                        new City
-                        {
-                            Id = 71,
-                            Name = "General Levalle",
-                            Latitude = "-34.01472000",
-                            Longitude = "-63.92413000"
-                        }
-
-                        new City
-                        {
-                            Id = 72,
-                            Name = "General Roca",
-                            Latitude = "-32.73196000",
-                            Longitude = "-61.91599000"
-                        }
-
-                        new City
-                        {
-                            Id = 73,
-                            Name = "Guatimozín",
-                            Latitude = "-33.46149000",
-                            Longitude = "-62.43844000"
-                        }
-
-                        new City
-                        {
-                            Id = 74,
-                            Name = "Hernando",
-                            Latitude = "-32.42657000",
-                            Longitude = "-63.73333000"
-                        }
-
-                        new City
-                        {
-                            Id = 75,
-                            Name = "Huanchillas",
-                            Latitude = "-33.66653000",
-                            Longitude = "-63.63701000"
-                        }
-
-                        new City
-                        {
-                            Id = 76,
-                            Name = "Huerta Grande",
-                            Latitude = "-31.07524000",
-                            Longitude = "-64.49063000"
-                        }
-
-                        new City
-                        {
-                            Id = 77,
-                            Name = "Huinca Renancó",
-                            Latitude = "-34.84038000",
-                            Longitude = "-64.37580000"
-                        }
-
-                        new City
-                        {
-                            Id = 78,
-                            Name = "Idiazábal",
-                            Latitude = "-32.81411000",
-                            Longitude = "-63.03252000"
-                        }
-
-                        new City
-                        {
-                            Id = 79,
-                            Name = "Inriville",
-                            Latitude = "-32.94424000",
-                            Longitude = "-62.23028000"
-                        }
-
-                        new City
-                        {
-                            Id = 80,
-                            Name = "Isla Verde",
-                            Latitude = "-33.24104000",
-                            Longitude = "-62.40297000"
-                        }
-
-                        new City
-                        {
-                            Id = 81,
-                            Name = "Italó",
-                            Latitude = "-34.79237000",
-                            Longitude = "-63.78199000"
-                        }
-
-                        new City
-                        {
-                            Id = 82,
-                            Name = "James Craik",
-                            Latitude = "-32.16120000",
-                            Longitude = "-63.46688000"
-                        }
-
-                        new City
-                        {
-                            Id = 83,
-                            Name = "Jesús María",
-                            Latitude = "-30.98153000",
-                            Longitude = "-64.09424000"
-                        }
-
-                        new City
-                        {
-                            Id = 84,
-                            Name = "Justiniano Posse",
-                            Latitude = "-32.88411000",
-                            Longitude = "-62.67788000"
-                        }
-
-                        new City
-                        {
-                            Id = 85,
-                            Name = "La Calera",
-                            Latitude = "-31.34377000",
-                            Longitude = "-64.33529000"
-                        }
-
-                        new City
-                        {
-                            Id = 86,
-                            Name = "La Carlota",
-                            Latitude = "-33.41993000",
-                            Longitude = "-63.29769000"
-                        }
-
-                        new City
-                        {
-                            Id = 87,
-                            Name = "La Cesira",
-                            Latitude = "-33.95115000",
-                            Longitude = "-62.97238000"
-                        }
-
-                        new City
-                        {
-                            Id = 88,
-                            Name = "La Cumbre",
-                            Latitude = "-30.98201000",
-                            Longitude = "-64.49139000"
-                        }
-
-                        new City
-                        {
-                            Id = 89,
-                            Name = "La Falda",
-                            Latitude = "-31.08841000",
-                            Longitude = "-64.48987000"
-                        }
-
-                        new City
-                        {
-                            Id = 90,
-                            Name = "La Francia",
-                            Latitude = "-31.40675000",
-                            Longitude = "-62.63396000"
-                        }
-
-                        new City
-                        {
-                            Id = 91,
-                            Name = "La Granja",
-                            Latitude = "-31.00919000",
-                            Longitude = "-64.26869000"
-                        }
-
-                        new City
-                        {
-                            Id = 92,
-                            Name = "La Para",
-                            Latitude = "-30.89416000",
-                            Longitude = "-63.00107000"
-                        }
-
-                        new City
-                        {
-                            Id = 93,
-                            Name = "La Playosa",
-                            Latitude = "-32.10002000",
-                            Longitude = "-63.03088000"
-                        }
-
-                        new City
-                        {
-                            Id = 94,
-                            Name = "Laborde",
-                            Latitude = "-33.15319000",
-                            Longitude = "-62.85661000"
-                        }
-
-                        new City
-                        {
-                            Id = 95,
-                            Name = "Laboulaye",
-                            Latitude = "-34.12662000",
-                            Longitude = "-63.39119000"
-                        }
-
-                        new City
-                        {
-                            Id = 96,
-                            Name = "Laguna Larga",
-                            Latitude = "-31.77652000",
-                            Longitude = "-63.80104000"
-                        }
-
-                        new City
-                        {
-                            Id = 97,
-                            Name = "Las Acequias",
-                            Latitude = "-33.28155000",
-                            Longitude = "-63.97610000"
-                        }
-
-                        new City
-                        {
-                            Id = 98,
-                            Name = "Las Higueras",
-                            Latitude = "-33.09231000",
-                            Longitude = "-64.28899000"
-                        }
-
-                        new City
-                        {
-                            Id = 99,
-                            Name = "Las Junturas",
-                            Latitude = "-31.83125000",
-                            Longitude = "-63.45016000"
-                        }
-
-                        new City
-                        {
-                            Id = 100,
-                            Name = "Las Perdices",
-                            Latitude = "-32.69794000",
-                            Longitude = "-63.70634000"
-                        },
-
-                        new City
-                        {
-                            Id = 101,
-                            Name = "Las Varas",
-                            Latitude = "-31.80260000",
-                            Longitude = "-62.61655000"
-                        },
-
-                        new City
-                        {
-                            Id = 102,
-                            Name = "Las Varillas",
-                            Latitude = "-31.87208000",
-                            Longitude = "-62.71946000"
-                        },
-
-                        new City
-                        {
-                            Id = 103,
-                            Name = "Leones",
-                            Latitude = "-32.66174000",
-                            Longitude = "-62.29678000"
-                        },
-
-                        new City
-                        {
-                            Id = 104,
-                            Name = "Los Cocos",
-                            Latitude = "-30.92497000",
-                            Longitude = "-64.50207000"
-                        },
-
-                        new City
-                        {
-                            Id = 105,
-                            Name = "Los Cóndores",
-                            Latitude = "-32.31983000",
-                            Longitude = "-64.27751000"
-                        },
-
-                        new City
-                        {
-                            Id = 106,
-                            Name = "Los Surgentes",
-                            Latitude = "-32.98454000",
-                            Longitude = "-62.02191000"
-                        },
-
-                        new City
-                        {
-                            Id = 107,
-                            Name = "Malagueño",
-                            Latitude = "-31.46467000",
-                            Longitude = "-64.35840000"
-                        },
-
-                        new City
-                        {
-                            Id = 108,
-                            Name = "Malvinas Argentinas",
-                            Latitude = "-31.38194000",
-                            Longitude = "-64.05545000"
-                        },
-
-                        new City
-                        {
-                            Id = 109,
-                            Name = "Marcos Juárez",
-                            Latitude = "-32.69780000",
-                            Longitude = "-62.10672000"
-                        },
-
-                        new City
-                        {
-                            Id = 110,
-                            Name = "Marull",
-                            Latitude = "-30.99471000",
-                            Longitude = "-62.82576000"
-                        },
-
-                        new City
-                        {
-                            Id = 111,
-                            Name = "Mattaldi",
-                            Latitude = "-34.48194000",
-                            Longitude = "-64.17255000"
-                        },
-
-                        new City
-                        {
-                            Id = 112,
-                            Name = "Mendiolaza",
-                            Latitude = "-31.26738000",
-                            Longitude = "-64.30087000"
-                        },
-
-                        new City
-                        {
-                            Id = 113,
-                            Name = "Mina Clavero",
-                            Latitude = "-31.72101000",
-                            Longitude = "-65.00619000"
-                        },
-
-                        new City
-                        {
-                            Id = 114,
-                            Name = "Miramar",
-                            Latitude = "-30.91859000",
-                            Longitude = "-62.67814000"
-                        },
-
-                        new City
-                        {
-                            Id = 115,
-                            Name = "Monte Buey",
-                            Latitude = "-32.91642000",
-                            Longitude = "-62.45669000"
-                        },
-
-                        new City
-                        {
-                            Id = 116,
-                            Name = "Monte Cristo",
-                            Latitude = "-31.34312000",
-                            Longitude = "-63.94437000"
-                        },
-
-                        new City
-                        {
-                            Id = 117,
-                            Name = "Monte Maíz",
-                            Latitude = "-33.20462000",
-                            Longitude = "-62.60085000"
-                        },
-
-                        new City
-                        {
-                            Id = 118,
-                            Name = "Morrison",
-                            Latitude = "-32.59480000",
-                            Longitude = "-62.83455000"
-                        },
-
-                        new City
-                        {
-                            Id = 119,
-                            Name = "Morteros",
-                            Latitude = "-30.71164000",
-                            Longitude = "-61.99862000"
-                        },
-
-                        new City
-                        {
-                            Id = 120,
-                            Name = "Noetinger",
-                            Latitude = "-32.36597000",
-                            Longitude = "-62.31126000"
-                        },
-
-                        new City
-                        {
-                            Id = 121,
-                            Name = "Obispo Trejo",
-                            Latitude = "-30.78128000",
-                            Longitude = "-63.41349000"
-                        },
-
-                        new City
-                        {
-                            Id = 122,
-                            Name = "Oliva",
-                            Latitude = "-32.04158000",
-                            Longitude = "-63.56978000"
-                        },
-
-                        new City
-                        {
-                            Id = 123,
-                            Name = "Oncativo",
-                            Latitude = "-31.91353000",
-                            Longitude = "-63.68201000"
-                        },
-
-                        new City
-                        {
-                            Id = 124,
-                            Name = "Ordóñez",
-                            Latitude = "-32.84057000",
-                            Longitude = "-62.86552000"
-                        },
-
-                        new City
-                        {
-                            Id = 125,
-                            Name = "Pascanas",
-                            Latitude = "-33.12550000",
-                            Longitude = "-63.04084000"
-                        },
-
-                        new City
-                        {
-                            Id = 126,
-                            Name = "Pasco",
-                            Latitude = "-32.74733000",
-                            Longitude = "-63.34232000"
-                        },
-
-                        new City
-                        {
-                            Id = 127,
-                            Name = "Pilar",
-                            Latitude = "-31.67890000",
-                            Longitude = "-63.87964000"
-                        },
-
-                        new City
-                        {
-                            Id = 128,
-                            Name = "Piquillín",
-                            Latitude = "-31.30158000",
-                            Longitude = "-63.75788000"
-                        },
-
-                        new City
-                        {
-                            Id = 129,
-                            Name = "Porteña",
-                            Latitude = "-31.01391000",
-                            Longitude = "-62.06650000"
-                        },
-
-                        new City
-                        {
-                            Id = 130,
-                            Name = "Pozo del Molle",
-                            Latitude = "-32.01860000",
-                            Longitude = "-62.91984000"
-                        },
-
-                        new City
-                        {
-                            Id = 131,
-                            Name = "Quilino",
-                            Latitude = "-30.21397000",
-                            Longitude = "-64.50063000"
-                        },
-
-                        new City
-                        {
-                            Id = 132,
-                            Name = "Río Ceballos",
-                            Latitude = "-31.16486000",
-                            Longitude = "-64.32241000"
-                        },
-
-                        new City
-                        {
-                            Id = 133,
-                            Name = "Río Cuarto",
-                            Latitude = "-33.13067000",
-                            Longitude = "-64.34992000"
-                        },
-
-                        new City
-                        {
-                            Id = 134,
-                            Name = "Río Segundo",
-                            Latitude = "-31.65260000",
-                            Longitude = "-63.90990000"
-                        },
-
-                        new City
-                        {
-                            Id = 135,
-                            Name = "Río Tercero",
-                            Latitude = "-32.17301000",
-                            Longitude = "-64.11405000"
-                        },
-
-                        new City
-                        {
-                            Id = 136,
-                            Name = "Sacanta",
-                            Latitude = "-31.66300000",
-                            Longitude = "-63.04505000"
-                        },
-
-                        new City
-                        {
-                            Id = 137,
-                            Name = "Saldán",
-                            Latitude = "-31.30262000",
-                            Longitude = "-64.30700000"
-                        },
-
-                        new City
-                        {
-                            Id = 138,
-                            Name = "Salsacate",
-                            Latitude = "-31.31842000",
-                            Longitude = "-65.09003000"
-                        },
-
-                        new City
-                        {
-                            Id = 139,
-                            Name = "Salsipuedes",
-                            Latitude = "-31.13725000",
-                            Longitude = "-64.29589000"
-                        },
-
-                        new City
-                        {
-                            Id = 140,
-                            Name = "Sampacho",
-                            Latitude = "-33.38390000",
-                            Longitude = "-64.72211000"
-                        },
-
-                        new City
-                        {
-                            Id = 141,
-                            Name = "San Agustín",
-                            Latitude = "-31.97681000",
-                            Longitude = "-64.37400000"
-                        },
-
-                        new City
-                        {
-                            Id = 142,
-                            Name = "San Antonio de Litín",
-                            Latitude = "-32.21377000",
-                            Longitude = "-62.63237000"
-                        },
-
-                        new City
-                        {
-                            Id = 143,
-                            Name = "San Basilio",
-                            Latitude = "-33.49763000",
-                            Longitude = "-64.31495000"
-                        },
-
-                        new City
-                        {
-                            Id = 144,
-                            Name = "San Carlos",
-                            Latitude = "-31.17761000",
-                            Longitude = "-65.10245000"
-                        },
-
-                        new City
-                        {
-                            Id = 145,
-                            Name = "San Francisco",
-                            Latitude = "-31.42797000",
-                            Longitude = "-62.08266000"
-                        },
-
-                        new City
-                        {
-                            Id = 146,
-                            Name = "San Francisco del Chañar",
-                            Latitude = "-29.78830000",
-                            Longitude = "-63.94411000"
-                        },
-
-                        new City
-                        {
-                            Id = 147,
-                            Name = "San José de la Dormida",
-                            Latitude = "-30.35440000",
-                            Longitude = "-63.94871000"
-                        },
-
-                        new City
-                        {
-                            Id = 148,
-                            Name = "Santa Eufemia",
-                            Latitude = "-33.17659000",
-                            Longitude = "-63.28281000"
-                        },
-
-                        new City
-                        {
-                            Id = 149,
-                            Name = "Santa Magdalena",
-                            Latitude = "-34.51776000",
-                            Longitude = "-63.94409000"
-                        },
-
-                        new City
-                        {
-                            Id = 150,
-                            Name = "Santa Rosa de Calamuchita",
-                            Latitude = "-32.06905000",
-                            Longitude = "-64.53631000"
-                        },
-
-                        new City
-                        {
-                            Id = 151,
-                            Name = "Santa Rosa de Río Primero",
-                            Latitude = "-31.15231000",
-                            Longitude = "-63.40191000"
-                        },
-
-                        new City
-                        {
-                            Id = 152,
-                            Name = "Santiago Temple",
-                            Latitude = "-31.38731000",
-                            Longitude = "-63.41821000"
-                        },
-
-                        new City
-                        {
-                            Id = 153,
-                            Name = "Saturnino M. Laspiur",
-                            Latitude = "-31.70287000",
-                            Longitude = "-62.48202000"
-                        },
-
-                        new City
-                        {
-                            Id = 154,
-                            Name = "Sebastián Elcano",
-                            Latitude = "-30.16105000",
-                            Longitude = "-63.59360000"
-                        },
-
-                        new City
-                        {
-                            Id = 155,
-                            Name = "Serrano",
-                            Latitude = "-34.46971000",
-                            Longitude = "-63.53842000"
-                        },
-
-                        new City
-                        {
-                            Id = 156,
-                            Name = "Serrezuela",
-                            Latitude = "-30.63761000",
-                            Longitude = "-65.38692000"
-                        },
-
-                        new City
-                        {
-                            Id = 157,
-                            Name = "Tancacha",
-                            Latitude = "-32.24309000",
-                            Longitude = "-63.98070000"
-                        },
-
-                        new City
-                        {
-                            Id = 158,
-                            Name = "Ticino",
-                            Latitude = "-32.69350000",
-                            Longitude = "-63.43606000"
-                        },
-
-                        new City
-                        {
-                            Id = 159,
-                            Name = "Tío Pujio",
-                            Latitude = "-32.28790000",
-                            Longitude = "-63.35598000"
-                        },
-
-                        new City
-                        {
-                            Id = 160,
-                            Name = "Toledo",
-                            Latitude = "-31.55574000",
-                            Longitude = "-64.00947000"
-                        },
-
-                        new City
-                        {
-                            Id = 161,
-                            Name = "Ucacha",
-                            Latitude = "-33.03203000",
-                            Longitude = "-63.50666000"
-                        },
-
-                        new City
-                        {
-                            Id = 162,
-                            Name = "Unquillo",
-                            Latitude = "-31.23073000",
-                            Longitude = "-64.31615000"
-                        },
-
-                        new City
-                        {
-                            Id = 163,
-                            Name = "Valle Hermoso",
-                            Latitude = "-31.11732000",
-                            Longitude = "-64.48084000"
-                        },
-
-                        new City
-                        {
-                            Id = 164,
-                            Name = "Viamonte",
-                            Latitude = "-33.74647000",
-                            Longitude = "-63.09764000"
-                        },
-
-                        new City
-                        {
-                            Id = 165,
-                            Name = "Vicuña Mackenna",
-                            Latitude = "-33.91965000",
-                            Longitude = "-64.39215000"
-                        },
-
-                        new City
-                        {
-                            Id = 166,
-                            Name = "Villa Allende",
-                            Latitude = "-31.29458000",
-                            Longitude = "-64.29538000"
-                        },
-
-                        new City
-                        {
-                            Id = 167,
-                            Name = "Villa Ascasubi",
-                            Latitude = "-32.16351000",
-                            Longitude = "-63.89157000"
-                        },
-
-                        new City
-                        {
-                            Id = 168,
-                            Name = "Villa Berna",
-                            Latitude = "-31.91419000",
-                            Longitude = "-64.73249000"
-                        },
-
-                        new City
-                        {
-                            Id = 169,
-                            Name = "Villa Carlos Paz",
-                            Latitude = "-31.42414000",
-                            Longitude = "-64.49778000"
-                        },
-
-                        new City
-                        {
-                            Id = 170,
-                            Name = "Villa Concepción del Tío",
-                            Latitude = "-31.32259000",
-                            Longitude = "-62.81354000"
-                        },
-
-                        new City
-                        {
-                            Id = 171,
-                            Name = "Villa Cura Brochero",
-                            Latitude = "-31.70578000",
-                            Longitude = "-65.01796000"
-                        },
-
-                        new City
-                        {
-                            Id = 172,
-                            Name = "Villa de Soto",
-                            Latitude = "-30.85523000",
-                            Longitude = "-64.99947000"
-                        },
-
-                        new City
-                        {
-                            Id = 173,
-                            Name = "Villa del Dique",
-                            Latitude = "-32.17667000",
-                            Longitude = "-64.45543000"
-                        },
-
-                        new City
-                        {
-                            Id = 174,
-                            Name = "Villa del Rosario",
-                            Latitude = "-31.55660000",
-                            Longitude = "-63.53452000"
-                        },
-
-                        new City
-                        {
-                            Id = 175,
-                            Name = "Villa del Totoral",
-                            Latitude = "-30.81667000",
-                            Longitude = "-63.71667000"
-                        },
-
-                        new City
-                        {
-                            Id = 176,
-                            Name = "Villa Dolores",
-                            Latitude = "-31.94585000",
-                            Longitude = "-65.18958000"
-                        },
-
-                        new City
-                        {
-                            Id = 177,
-                            Name = "Villa General Belgrano",
-                            Latitude = "-31.97828000",
-                            Longitude = "-64.55627000"
-                        },
-
-                        new City
-                        {
-                            Id = 178,
-                            Name = "Villa Giardino",
-                            Latitude = "-31.03333000",
-                            Longitude = "-64.48333000"
-                        },
-
-                        new City
-                        {
-                            Id = 179,
-                            Name = "Villa Huidobro",
-                            Latitude = "-34.83826000",
-                            Longitude = "-64.58686000"
-                        },
-
-                        new City
-                        {
-                            Id = 180,
-                            Name = "Villa Las Rosas",
-                            Latitude = "-31.95021000",
-                            Longitude = "-65.05354000"
-                        },
-
-                        new City
-                        {
-                            Id = 181,
-                            Name = "Villa María",
-                            Latitude = "-32.40751000",
-                            Longitude = "-63.24016000"
-                        },
-
-                        new City
-                        {
-                            Id = 182,
-                            Name = "Villa Nueva",
-                            Latitude = "-32.43293000",
-                            Longitude = "-63.24763000"
-                        },
-
-                        new City
-                        {
-                            Id = 183,
-                            Name = "Villa Reducción",
-                            Latitude = "-33.20105000",
-                            Longitude = "-63.86234000"
-                        },
-
-                        new City
-                        {
-                            Id = 184,
-                            Name = "Villa Rumipal",
-                            Latitude = "-32.18790000",
-                            Longitude = "-64.48027000"
-                        },
-
-                        new City
-                        {
-                            Id = 185,
-                            Name = "Villa Tulumba",
-                            Latitude = "-30.39552000",
-                            Longitude = "-64.12241000"
-                        },
-
-                        new City
-                        {
-                            Id = 186,
-                            Name = "Villa Valeria",
-                            Latitude = "-34.34093000",
-                            Longitude = "-64.92030000"
-                        },
-
-                        new City
-                        {
-                            Id = 187,
-                            Name = "Wenceslao Escalante",
-                            Latitude = "-33.17303000",
-                            Longitude = "-62.77078000"
-                        }
+                        new() { Id = 1, Name = "Achiras", Latitude = "-33.17538000", Longitude = "-64.99331000" },
+                        new() { Id = 2, Name = "Adelia María", Latitude = "-33.63152000", Longitude = "-64.02097000" },
+                        new() { Id = 3, Name = "Agua de Oro", Latitude = "-31.06661000", Longitude = "-64.30017000" },
+                        new() { Id = 4, Name = "Alejandro Roca", Latitude = "-33.35369000", Longitude = "-63.71849000" },
+                        new() { Id = 5, Name = "Alejo Ledesma", Latitude = "-33.60643000", Longitude = "-62.62304000" },
+                        new() { Id = 6, Name = "Almafuerte", Latitude = "-32.19296000", Longitude = "-64.25559000" },
+                        new() { Id = 7, Name = "Alta Gracia", Latitude = "-31.65292000", Longitude = "-64.42826000" },
+                        new() { Id = 8, Name = "Altos de Chipión", Latitude = "-30.95590000", Longitude = "-62.33727000" },
+                        new() { Id = 9, Name = "Arias", Latitude = "-33.64411000", Longitude = "-62.40272000" },
+                        new() { Id = 10, Name = "Arroyito", Latitude = "-31.42022000", Longitude = "-63.05002000" },
+                        new() { Id = 11, Name = "Arroyo Cabral", Latitude = "-32.49119000", Longitude = "-63.40126000" },
+                        new() { Id = 12, Name = "Balnearia", Latitude = "-31.00880000", Longitude = "-62.66733000" },
+                        new() { Id = 13, Name = "Bell Ville", Latitude = "-32.62591000", Longitude = "-62.68873000" },
+                        new() { Id = 14, Name = "Berrotarán", Latitude = "-32.45100000", Longitude = "-64.38867000" },
+                        new() { Id = 15, Name = "Brinkmann", Latitude = "-30.86589000", Longitude = "-62.03742000" },
+                        new() { Id = 16, Name = "Buchardo", Latitude = "-34.72263000", Longitude = "-63.50920000" },
+                        new() { Id = 17, Name = "Camilo Aldao", Latitude = "-33.12745000", Longitude = "-62.09453000" },
+                        new() { Id = 18, Name = "Cañada de Luque", Latitude = "-30.73341000", Longitude = "-63.72375000" },
+                        new() { Id = 19, Name = "Canals", Latitude = "-33.56542000", Longitude = "-62.88927000" },
+                        new() { Id = 20, Name = "Capilla del Monte", Latitude = "-30.86088000", Longitude = "-64.52515000" },
+                        new() { Id = 21, Name = "Carnerillo", Latitude = "-32.91371000", Longitude = "-64.02175000" },
+                        new() { Id = 22, Name = "Carrilobo", Latitude = "-31.87296000", Longitude = "-63.11715000" },
+                        new() { Id = 23, Name = "Cavanagh", Latitude = "-33.47606000", Longitude = "-62.33888000" },
+                        new() { Id = 24, Name = "Charras", Latitude = "-33.02400000", Longitude = "-64.04719000" },
+                        new() { Id = 25, Name = "Chazón", Latitude = "-33.07872000", Longitude = "-63.27657000" },
+                        new() { Id = 26, Name = "Cintra", Latitude = "-32.30673000", Longitude = "-62.65214000" },
+                        new() { Id = 27, Name = "Colonia La Tordilla", Latitude = "-31.23746000", Longitude = "-63.06134000" },
+                        new() { Id = 28, Name = "Colonia San Bartolomé", Latitude = "-31.52780000", Longitude = "-62.72436000" },
+                        new() { Id = 29, Name = "Córdoba", Latitude = "-31.41350000", Longitude = "-64.18105000" },
+                        new() { Id = 30, Name = "Coronel Baigorria", Latitude = "-32.84770000", Longitude = "-64.36107000" },
+                        new() { Id = 31, Name = "Coronel Moldes", Latitude = "-33.62270000", Longitude = "-64.59711000" },
+                        new() { Id = 32, Name = "Corral de Bustos", Latitude = "-33.28205000", Longitude = "-62.18463000" },
+                        new() { Id = 33, Name = "Corralito", Latitude = "-32.02462000", Longitude = "-64.19216000" },
+                        new() { Id = 34, Name = "Cosquín", Latitude = "-31.24508000", Longitude = "-64.46563000" },
+                        new() { Id = 35, Name = "Costa Sacate", Latitude = "-31.64770000", Longitude = "-63.75935000" },
+                        new() { Id = 36, Name = "Cruz Alta", Latitude = "-33.00887000", Longitude = "-61.80746000" },
+                        new() { Id = 37, Name = "Cruz del Eje", Latitude = "-30.72644000", Longitude = "-64.80387000" },
+                        new() { Id = 38, Name = "Cuesta Blanca", Latitude = "-31.48658000", Longitude = "-64.57150000" },
+                        new() { Id = 39, Name = "Dalmacio Vélez Sársfield", Latitude = "-32.61072000", Longitude = "-63.58038000" },
+                        new() { Id = 40, Name = "Deán Funes", Latitude = "-30.42036000", Longitude = "-64.34984000" },
+                        new() { Id = 41, Name = "Del Campillo", Latitude = "-34.37659000", Longitude = "-64.49504000" },
+                        new() { Id = 42, Name = "Departamento de Calamuchita", Latitude = "-32.25000000", Longitude = "-64.58333000" },
+                        new() { Id = 43, Name = "Departamento de Colón", Latitude = "-31.16667000", Longitude = "-64.16667000" },
+                        new() { Id = 44, Name = "Departamento de Cruz del Eje", Latitude = "-30.75000000", Longitude = "-65.00000000" },
+                        new() { Id = 45, Name = "Departamento de General Roca", Latitude = "-34.66667000", Longitude = "-64.25000000" },
+                        new() { Id = 46, Name = "Departamento de General San Martín", Latitude = "-32.50000000", Longitude = "-63.33333000" },
+                        new() { Id = 47, Name = "Departamento de Juárez Celman", Latitude = "-33.33333000", Longitude = "-63.66667000" },
+                        new() { Id = 48, Name = "Departamento de Marcos Juárez", Latitude = "-33.00000000", Longitude = "-62.25000000" },
+                        new() { Id = 49, Name = "Departamento de Minas", Latitude = "-31.00000000", Longitude = "-65.33333000" },
+                        new() { Id = 50, Name = "Departamento de Presidente Roque Sáenz Peña", Latitude = "-34.25000000", Longitude = "-63.50000000" },
+                        new() { Id = 51, Name = "Departamento de Río Cuarto", Latitude = "-33.33333000", Longitude = "-64.50000000" },
+                        new() { Id = 52, Name = "Departamento de Río Primero", Latitude = "-31.08333000", Longitude = "-63.50000000" },
+                        new() { Id = 53, Name = "Departamento de Río Seco", Latitude = "-30.08333000", Longitude = "-63.00000000" },
+                        new() { Id = 54, Name = "Departamento de Río Segundo", Latitude = "-31.75000000", Longitude = "-63.50000000" },
+                        new() { Id = 55, Name = "Departamento de San Alberto", Latitude = "-31.75000000", Longitude = "-65.25000000" },
+                        new() { Id = 56, Name = "Departamento de San Javier", Latitude = "-32.08333000", Longitude = "-65.16667000" },
+                        new() { Id = 57, Name = "Departamento de San Justo", Latitude = "-31.33333000", Longitude = "-62.66667000" },
+                        new() { Id = 58, Name = "Departamento de Sobremonte", Latitude = "-29.66667000", Longitude = "-64.08333000" },
+                        new() { Id = 59, Name = "Departamento de Totoral", Latitude = "-30.83333000", Longitude = "-63.91667000" },
+                        new() { Id = 60, Name = "Departamento de Tulumba", Latitude = "-30.25000000", Longitude = "-63.91667000" },
+                        new() { Id = 61, Name = "Departamento de Unión", Latitude = "-32.83333000", Longitude = "-62.75000000" },
+                        new() { Id = 62, Name = "Despeñaderos", Latitude = "-31.81626000", Longitude = "-64.28989000" },
+                        new() { Id = 63, Name = "Devoto", Latitude = "-31.40431000", Longitude = "-62.30634000" },
+                        new() { Id = 64, Name = "El Arañado", Latitude = "-31.74120000", Longitude = "-62.89322000" },
+                        new() { Id = 65, Name = "El Tío", Latitude = "-31.38357000", Longitude = "-62.82938000" },
+                        new() { Id = 66, Name = "Elena", Latitude = "-32.57205000", Longitude = "-64.39481000" },
+                        new() { Id = 67, Name = "Embalse", Latitude = "-32.18000000", Longitude = "-64.41809000" },
+                        new() { Id = 68, Name = "Etruria", Latitude = "-32.94008000", Longitude = "-63.24660000" },
+                        new() { Id = 69, Name = "General Baldissera", Latitude = "-33.12246000", Longitude = "-62.30630000" },
+                        new() { Id = 70, Name = "General Cabrera", Latitude = "-32.81313000", Longitude = "-63.87243000" },
+                        new() { Id = 71, Name = "General Levalle", Latitude = "-34.01472000", Longitude = "-63.92413000" },
+                        new() { Id = 72, Name = "General Roca", Latitude = "-32.73196000", Longitude = "-61.91599000" },
+                        new() { Id = 73, Name = "Guatimozín", Latitude = "-33.46149000", Longitude = "-62.43844000" },
+                        new() { Id = 74, Name = "Hernando", Latitude = "-32.42657000", Longitude = "-63.73333000" },
+                        new() { Id = 75, Name = "Huanchillas", Latitude = "-33.66653000", Longitude = "-63.63701000" },
+                        new() { Id = 76, Name = "Huerta Grande", Latitude = "-31.07524000", Longitude = "-64.49063000" },
+                        new() { Id = 77, Name = "Huinca Renancó", Latitude = "-34.84038000", Longitude = "-64.37580000" },
+                        new() { Id = 78, Name = "Idiazábal", Latitude = "-32.81411000", Longitude = "-63.03252000" },
+                        new() { Id = 79, Name = "Inriville", Latitude = "-32.94424000", Longitude = "-62.23028000" },
+                        new() { Id = 80, Name = "Isla Verde", Latitude = "-33.24104000", Longitude = "-62.40297000" },
+                        new() { Id = 81, Name = "Italó", Latitude = "-34.79237000", Longitude = "-63.78199000" },
+                        new() { Id = 82, Name = "James Craik", Latitude = "-32.16120000", Longitude = "-63.46688000" },
+                        new() { Id = 83, Name = "Jesús María", Latitude = "-30.98153000", Longitude = "-64.09424000" },
+                        new() { Id = 84, Name = "Justiniano Posse", Latitude = "-32.88411000", Longitude = "-62.67788000" },
+                        new() { Id = 85, Name = "La Calera", Latitude = "-31.34377000", Longitude = "-64.33529000" },
+                        new() { Id = 86, Name = "La Carlota", Latitude = "-33.41993000", Longitude = "-63.29769000" },
+                        new() { Id = 87, Name = "La Cesira", Latitude = "-33.95115000", Longitude = "-62.97238000" },
+                        new() { Id = 88, Name = "La Cumbre", Latitude = "-30.98201000", Longitude = "-64.49139000" },
+                        new() { Id = 89, Name = "La Falda", Latitude = "-31.08841000", Longitude = "-64.48987000" },
+                        new() { Id = 90, Name = "La Francia", Latitude = "-31.40675000", Longitude = "-62.63396000" },
+                        new() { Id = 91, Name = "La Granja", Latitude = "-31.00919000", Longitude = "-64.26869000" },
+                        new() { Id = 92, Name = "La Para", Latitude = "-30.89416000", Longitude = "-63.00107000" },
+                        new() { Id = 93, Name = "La Playosa", Latitude = "-32.10002000", Longitude = "-63.03088000" },
+                        new() { Id = 94, Name = "Laborde", Latitude = "-33.15319000", Longitude = "-62.85661000" },
+                        new() { Id = 95, Name = "Laboulaye", Latitude = "-34.12662000", Longitude = "-63.39119000" },
+                        new() { Id = 96, Name = "Laguna Larga", Latitude = "-31.77652000", Longitude = "-63.80104000" },
+                        new() { Id = 97, Name = "Las Acequias", Latitude = "-33.28155000", Longitude = "-63.97610000" },
+                        new() { Id = 98, Name = "Las Higueras", Latitude = "-33.09231000", Longitude = "-64.28899000" },
+                        new() { Id = 99, Name = "Las Junturas", Latitude = "-31.83125000", Longitude = "-63.45016000" },
+                        new() { Id = 100, Name = "Las Perdices", Latitude = "-32.69794000", Longitude = "-63.70634000" },
+                        new() { Id = 101, Name = "Las Varas", Latitude = "-31.80260000", Longitude = "-62.61655000" },
+                        new() { Id = 102, Name = "Las Varillas", Latitude = "-31.87208000", Longitude = "-62.71946000" },
+                        new() { Id = 103, Name = "Leones", Latitude = "-32.66174000", Longitude = "-62.29678000" },
+                        new() { Id = 104, Name = "Los Cocos", Latitude = "-30.92497000", Longitude = "-64.50207000" },
+                        new() { Id = 105, Name = "Los Cóndores", Latitude = "-32.31983000", Longitude = "-64.27751000" },
+                        new() { Id = 106, Name = "Los Surgentes", Latitude = "-32.98454000", Longitude = "-62.02191000" },
+                        new() { Id = 107, Name = "Malagueño", Latitude = "-31.46467000", Longitude = "-64.35840000" },
+                        new() { Id = 108, Name = "Malvinas Argentinas", Latitude = "-31.38194000", Longitude = "-64.05545000" },
+                        new() { Id = 109, Name = "Marcos Juárez", Latitude = "-32.69780000", Longitude = "-62.10672000" },
+                        new() { Id = 110, Name = "Marull", Latitude = "-30.99471000", Longitude = "-62.82576000" },
+                        new() { Id = 111, Name = "Mattaldi", Latitude = "-34.48194000", Longitude = "-64.17255000" },
+                        new() { Id = 112, Name = "Mendiolaza", Latitude = "-31.26738000", Longitude = "-64.30087000" },
+                        new() { Id = 113, Name = "Mina Clavero", Latitude = "-31.72101000", Longitude = "-65.00619000" },
+                        new() { Id = 114, Name = "Miramar", Latitude = "-30.91859000", Longitude = "-62.67814000" },
+                        new() { Id = 115, Name = "Monte Buey", Latitude = "-32.91642000", Longitude = "-62.45669000" },
+                        new() { Id = 116, Name = "Monte Cristo", Latitude = "-31.34312000", Longitude = "-63.94437000" },
+                        new() { Id = 117, Name = "Monte Maíz", Latitude = "-33.20462000", Longitude = "-62.60085000" },
+                        new() { Id = 118, Name = "Morrison", Latitude = "-32.59480000", Longitude = "-62.83455000" },
+                        new() { Id = 119, Name = "Morteros", Latitude = "-30.71164000", Longitude = "-61.99862000" },
+                        new() { Id = 120, Name = "Noetinger", Latitude = "-32.36597000", Longitude = "-62.31126000" },
+                        new() { Id = 121, Name = "Obispo Trejo", Latitude = "-30.78128000", Longitude = "-63.41349000" },
+                        new() { Id = 122, Name = "Oliva", Latitude = "-32.04158000", Longitude = "-63.56978000" },
+                        new() { Id = 123, Name = "Oncativo", Latitude = "-31.91353000", Longitude = "-63.68201000" },
+                        new() { Id = 124, Name = "Ordóñez", Latitude = "-32.84057000", Longitude = "-62.86552000" },
+                        new() { Id = 125, Name = "Pascanas", Latitude = "-33.12550000", Longitude = "-63.04084000" },
+                        new() { Id = 126, Name = "Pasco", Latitude = "-32.74733000", Longitude = "-63.34232000" },
+                        new() { Id = 127, Name = "Pilar", Latitude = "-31.67890000", Longitude = "-63.87964000" },
+                        new() { Id = 128, Name = "Piquillín", Latitude = "-31.30158000", Longitude = "-63.75788000" },
+                        new() { Id = 129, Name = "Porteña", Latitude = "-31.01391000", Longitude = "-62.06650000" },
+                        new() { Id = 130, Name = "Pozo del Molle", Latitude = "-32.01860000", Longitude = "-62.91984000" },
+                        new() { Id = 131, Name = "Quilino", Latitude = "-30.21397000", Longitude = "-64.50063000" },
+                        new() { Id = 132, Name = "Río Ceballos", Latitude = "-31.16486000", Longitude = "-64.32241000" },
+                        new() { Id = 133, Name = "Río Cuarto", Latitude = "-33.13067000", Longitude = "-64.34992000" },
+                        new() { Id = 134, Name = "Río Segundo", Latitude = "-31.65260000", Longitude = "-63.90990000" },
+                        new() { Id = 135, Name = "Río Tercero", Latitude = "-32.17301000", Longitude = "-64.11405000" },
+                        new() { Id = 136, Name = "Sacanta", Latitude = "-31.66300000", Longitude = "-63.04505000" },
+                        new() { Id = 137, Name = "Saldán", Latitude = "-31.30262000", Longitude = "-64.30700000" },
+                        new() { Id = 138, Name = "Salsacate", Latitude = "-31.31842000", Longitude = "-65.09003000" },
+                        new() { Id = 139, Name = "Salsipuedes", Latitude = "-31.13725000", Longitude = "-64.29589000" },
+                        new() { Id = 140, Name = "Sampacho", Latitude = "-33.38390000", Longitude = "-64.72211000" },
+                        new() { Id = 141, Name = "San Agustín", Latitude = "-31.97681000", Longitude = "-64.37400000" },
+                        new() { Id = 142, Name = "San Antonio de Litín", Latitude = "-32.21377000", Longitude = "-62.63237000" },
+                        new() { Id = 143, Name = "San Basilio", Latitude = "-33.49763000", Longitude = "-64.31495000" },
+                        new() { Id = 144, Name = "San Carlos", Latitude = "-31.17761000", Longitude = "-65.10245000" },
+                        new() { Id = 145, Name = "San Francisco", Latitude = "-31.42797000", Longitude = "-62.08266000" },
+                        new() { Id = 146, Name = "San Francisco del Chañar", Latitude = "-29.78830000", Longitude = "-63.94411000" },
+                        new() { Id = 147, Name = "San José de la Dormida", Latitude = "-30.35440000", Longitude = "-63.94871000" },
+                        new() { Id = 148, Name = "Santa Eufemia", Latitude = "-33.17659000", Longitude = "-63.28281000" },
+                        new() { Id = 149, Name = "Santa Magdalena", Latitude = "-34.51776000", Longitude = "-63.94409000" },
+                        new() { Id = 150, Name = "Santa Rosa de Calamuchita", Latitude = "-32.06905000", Longitude = "-64.53631000" },
+                        new() { Id = 151, Name = "Santa Rosa de Río Primero", Latitude = "-31.15231000", Longitude = "-63.40191000" },
+                        new() { Id = 152, Name = "Santiago Temple", Latitude = "-31.38731000", Longitude = "-63.41821000" },
+                        new() { Id = 153, Name = "Saturnino M. Laspiur", Latitude = "-31.70287000", Longitude = "-62.48202000" },
+                        new() { Id = 154, Name = "Sebastián Elcano", Latitude = "-30.16105000", Longitude = "-63.59360000" },
+                        new() { Id = 155, Name = "Serrano", Latitude = "-34.46971000", Longitude = "-63.53842000" },
+                        new() { Id = 156, Name = "Serrezuela", Latitude = "-30.63761000", Longitude = "-65.38692000" },
+                        new() { Id = 157, Name = "Tancacha", Latitude = "-32.24309000", Longitude = "-63.98070000" },
+                        new() { Id = 158, Name = "Ticino", Latitude = "-32.69350000", Longitude = "-63.43606000" },
+                        new() { Id = 159, Name = "Tío Pujio", Latitude = "-32.28790000", Longitude = "-63.35598000" },
+                        new() { Id = 160, Name = "Toledo", Latitude = "-31.55574000", Longitude = "-64.00947000" },
+                        new() { Id = 161, Name = "Ucacha", Latitude = "-33.03203000", Longitude = "-63.50666000" },
+                        new() { Id = 162, Name = "Unquillo", Latitude = "-31.23073000", Longitude = "-64.31615000" },
+                        new() { Id = 163, Name = "Valle Hermoso", Latitude = "-31.11732000", Longitude = "-64.48084000" },
+                        new() { Id = 164, Name = "Viamonte", Latitude = "-33.74647000", Longitude = "-63.09764000" },
+                        new() { Id = 165, Name = "Vicuña Mackenna", Latitude = "-33.91965000", Longitude = "-64.39215000" },
+                        new() { Id = 166, Name = "Villa Allende", Latitude = "-31.29458000", Longitude = "-64.29538000" },
+                        new() { Id = 167, Name = "Villa Ascasubi", Latitude = "-32.16351000", Longitude = "-63.89157000" },
+                        new() { Id = 168, Name = "Villa Berna", Latitude = "-31.91419000", Longitude = "-64.73249000" },
+                        new() { Id = 169, Name = "Villa Carlos Paz", Latitude = "-31.42414000", Longitude = "-64.49778000" },
+                        new() { Id = 170, Name = "Villa Concepción del Tío", Latitude = "-31.32259000", Longitude = "-62.81354000" },
+                        new() { Id = 171, Name = "Villa Cura Brochero", Latitude = "-31.70578000", Longitude = "-65.01796000" },
+                        new() { Id = 172, Name = "Villa de Soto", Latitude = "-30.85523000", Longitude = "-64.99947000" },
+                        new() { Id = 173, Name = "Villa del Dique", Latitude = "-32.17667000", Longitude = "-64.45543000" },
+                        new() { Id = 174, Name = "Villa del Rosario", Latitude = "-31.55660000", Longitude = "-63.53452000" },
+                        new() { Id = 175, Name = "Villa del Totoral", Latitude = "-30.81667000", Longitude = "-63.71667000" },
+                        new() { Id = 176, Name = "Villa Dolores", Latitude = "-31.94585000", Longitude = "-65.18958000" },
+                        new() { Id = 177, Name = "Villa General Belgrano", Latitude = "-31.97828000", Longitude = "-64.55627000" },
+                        new() { Id = 178, Name = "Villa Giardino", Latitude = "-31.03333000", Longitude = "-64.48333000" },
+                        new() { Id = 179, Name = "Villa Huidobro", Latitude = "-34.83826000", Longitude = "-64.58686000" },
+                        new() { Id = 180, Name = "Villa Las Rosas", Latitude = "-31.95021000", Longitude = "-65.05354000" },
+                        new() { Id = 181, Name = "Villa María", Latitude = "-32.40751000", Longitude = "-63.24016000" },
+                        new() { Id = 182, Name = "Villa Nueva", Latitude = "-32.43293000", Longitude = "-63.24763000" },
+                        new() { Id = 183, Name = "Villa Reducción", Latitude = "-33.20105000", Longitude = "-63.86234000" },
+                        new() { Id = 184, Name = "Villa Rumipal", Latitude = "-32.18790000", Longitude = "-64.48027000" },
+                        new() { Id = 185, Name = "Villa Tulumba", Latitude = "-30.39552000", Longitude = "-64.12241000" },
+                        new() { Id = 186, Name = "Villa Valeria", Latitude = "-34.34093000", Longitude = "-64.92030000" },
+                        new() { Id = 187, Name = "Wenceslao Escalante", Latitude = "-33.17303000", Longitude = "-62.77078000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 7,
                     Name = "Corrientes",
@@ -4367,604 +671,86 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-27.46921310",
                     Longitude = "-58.83063490",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Alvear",
-                            Latitude = "-29.09683000",
-                            Longitude = "-56.55043000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Berón de Astrada",
-                            Latitude = "-27.55067000",
-                            Longitude = "-57.53460000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Bonpland",
-                            Latitude = "-29.81708000",
-                            Longitude = "-57.42974000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Chavarría",
-                            Latitude = "-28.95489000",
-                            Longitude = "-58.57277000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Concepción",
-                            Latitude = "-28.39175000",
-                            Longitude = "-57.88777000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Corrientes",
-                            Latitude = "-27.46784000",
-                            Longitude = "-58.83440000"
-                        },
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Cruz de los Milagros",
-                            Latitude = "-28.83646000",
-                            Longitude = "-59.00476000"
-                        },
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Curuzú Cuatiá",
-                            Latitude = "-29.79171000",
-                            Longitude = "-58.05460000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Departamento de Bella Vista",
-                            Latitude = "-28.50000000",
-                            Longitude = "-58.83333000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Departamento de Berón de Astrada",
-                            Latitude = "-27.50000000",
-                            Longitude = "-57.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Departamento de Capital",
-                            Latitude = "-27.50000000",
-                            Longitude = "-58.75000000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Departamento de Concepción",
-                            Latitude = "-28.33333000",
-                            Longitude = "-58.00000000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Departamento de Curuzú Cuatiá",
-                            Latitude = "-29.50000000",
-                            Longitude = "-58.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Departamento de Empedrado",
-                            Latitude = "-27.83333000",
-                            Longitude = "-58.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Departamento de Esquina",
-                            Latitude = "-30.00000000",
-                            Longitude = "-59.33333000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Departamento de General Alvear",
-                            Latitude = "-28.83333000",
-                            Longitude = "-56.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Departamento de General Paz",
-                            Latitude = "-27.75000000",
-                            Longitude = "-57.83333000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Departamento de Goya",
-                            Latitude = "-29.50000000",
-                            Longitude = "-59.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Departamento de Itatí",
-                            Latitude = "-27.33333000",
-                            Longitude = "-58.00000000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Departamento de Ituzaingó",
-                            Latitude = "-27.90085000",
-                            Longitude = "-56.86604000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Departamento de Lavalle",
-                            Latitude = "-29.00000000",
-                            Longitude = "-58.91667000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Departamento de Mburucuyá",
-                            Latitude = "-28.00000000",
-                            Longitude = "-58.25000000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Departamento de Mercedes",
-                            Latitude = "-29.00000000",
-                            Longitude = "-57.83333000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Departamento de Monte Caseros",
-                            Latitude = "-30.25000000",
-                            Longitude = "-57.83333000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Departamento de Paso de los Libres",
-                            Latitude = "-29.66667000",
-                            Longitude = "-57.25000000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Departamento de Saladas",
-                            Latitude = "-28.25000000",
-                            Longitude = "-58.75000000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Departamento de San Cosme",
-                            Latitude = "-27.33333000",
-                            Longitude = "-58.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Departamento de San Luis del Palmar",
-                            Latitude = "-27.50000000",
-                            Longitude = "-58.25000000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Departamento de San Martín",
-                            Latitude = "-28.83333000",
-                            Longitude = "-56.91667000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Departamento de San Miguel",
-                            Latitude = "-27.91667000",
-                            Longitude = "-57.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Departamento de San Roque",
-                            Latitude = "-28.66667000",
-                            Longitude = "-58.75000000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Departamento de Santo Tomé",
-                            Latitude = "-28.25000000",
-                            Longitude = "-56.25000000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Departamento de Sauce",
-                            Latitude = "-30.00000000",
-                            Longitude = "-58.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Empedrado",
-                            Latitude = "-27.95178000",
-                            Longitude = "-58.80584000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Esquina",
-                            Latitude = "-30.01476000",
-                            Longitude = "-59.52890000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Felipe Yofré",
-                            Latitude = "-29.10226000",
-                            Longitude = "-58.33772000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Garruchos",
-                            Latitude = "-28.17208000",
-                            Longitude = "-55.65406000"
-                        },
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Gobernador Juan E. Martínez",
-                            Latitude = "-28.91161000",
-                            Longitude = "-58.93594000"
-                        },
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Gobernador Virasora",
-                            Latitude = "-28.05000000",
-                            Longitude = "-56.03333000"
-                        },
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Goya",
-                            Latitude = "-29.13995000",
-                            Longitude = "-59.26343000"
-                        },
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Herlitzka",
-                            Latitude = "-27.56516000",
-                            Longitude = "-58.25557000"
-                        },
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Itá Ibaté",
-                            Latitude = "-27.42573000",
-                            Longitude = "-57.33758000"
-                        },
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Itatí",
-                            Latitude = "-27.27043000",
-                            Longitude = "-58.24458000"
-                        },
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "Ituzaingó",
-                            Latitude = "-27.58162000",
-                            Longitude = "-56.68231000"
-                        },
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "Juan Pujol",
-                            Latitude = "-30.41873000",
-                            Longitude = "-57.85612000"
-                        },
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "La Cruz",
-                            Latitude = "-29.17443000",
-                            Longitude = "-56.64326000"
-                        },
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "Libertad",
-                            Latitude = "-30.04300000",
-                            Longitude = "-57.82020000"
-                        },
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "Lomas de Vallejos",
-                            Latitude = "-27.73501000",
-                            Longitude = "-57.91850000"
-                        },
-
-                        new City
-                        {
-                            Id = 49,
-                            Name = "Loreto",
-                            Latitude = "-27.76834000",
-                            Longitude = "-57.27531000"
-                        },
-
-                        new City
-                        {
-                            Id = 50,
-                            Name = "Mariano I. Loza",
-                            Latitude = "-29.37667000",
-                            Longitude = "-58.19436000"
-                        },
-
-                        new City
-                        {
-                            Id = 51,
-                            Name = "Mburucuyá",
-                            Latitude = "-28.04532000",
-                            Longitude = "-58.22835000"
-                        },
-
-                        new City
-                        {
-                            Id = 52,
-                            Name = "Mercedes",
-                            Latitude = "-29.18416000",
-                            Longitude = "-58.07519000"
-                        },
-
-                        new City
-                        {
-                            Id = 53,
-                            Name = "Mocoretá",
-                            Latitude = "-30.61891000",
-                            Longitude = "-57.96344000"
-                        },
-
-                        new City
-                        {
-                            Id = 54,
-                            Name = "Monte Caseros",
-                            Latitude = "-30.25359000",
-                            Longitude = "-57.63626000"
-                        },
-
-                        new City
-                        {
-                            Id = 55,
-                            Name = "Nuestra Señora del Rosario de Caa Catí",
-                            Latitude = "-27.75072000",
-                            Longitude = "-57.62073000"
-                        },
-
-                        new City
-                        {
-                            Id = 56,
-                            Name = "Nueve de Julio",
-                            Latitude = "-28.84051000",
-                            Longitude = "-58.82650000"
-                        },
-
-                        new City
-                        {
-                            Id = 57,
-                            Name = "Palmar Grande",
-                            Latitude = "-27.94195000",
-                            Longitude = "-57.90057000"
-                        },
-
-                        new City
-                        {
-                            Id = 58,
-                            Name = "Paso de la Patria",
-                            Latitude = "-27.31676000",
-                            Longitude = "-58.57197000"
-                        },
-
-                        new City
-                        {
-                            Id = 59,
-                            Name = "Paso de los Libres",
-                            Latitude = "-29.71251000",
-                            Longitude = "-57.08771000"
-                        },
-
-                        new City
-                        {
-                            Id = 60,
-                            Name = "Pedro R. Fernández",
-                            Latitude = "-28.75097000",
-                            Longitude = "-58.65583000"
-                        },
-
-                        new City
-                        {
-                            Id = 61,
-                            Name = "Perugorría",
-                            Latitude = "-29.34132000",
-                            Longitude = "-58.61059000"
-                        },
-
-                        new City
-                        {
-                            Id = 62,
-                            Name = "Pueblo Libertador",
-                            Latitude = "-30.22087000",
-                            Longitude = "-59.38981000"
-                        },
-
-                        new City
-                        {
-                            Id = 63,
-                            Name = "Riachuelo",
-                            Latitude = "-27.58191000",
-                            Longitude = "-58.74497000"
-                        },
-
-                        new City
-                        {
-                            Id = 64,
-                            Name = "Saladas",
-                            Latitude = "-28.25384000",
-                            Longitude = "-58.62591000"
-                        },
-
-                        new City
-                        {
-                            Id = 65,
-                            Name = "San Carlos",
-                            Latitude = "-27.74586000",
-                            Longitude = "-55.89731000"
-                        },
-
-                        new City
-                        {
-                            Id = 66,
-                            Name = "San Cosme",
-                            Latitude = "-27.37123000",
-                            Longitude = "-58.51214000"
-                        },
-
-                        new City
-                        {
-                            Id = 67,
-                            Name = "San Lorenzo",
-                            Latitude = "-28.13306000",
-                            Longitude = "-58.76733000"
-                        },
-
-                        new City
-                        {
-                            Id = 68,
-                            Name = "San Luis del Palmar",
-                            Latitude = "-27.50790000",
-                            Longitude = "-58.55454000"
-                        },
-
-                        new City
-                        {
-                            Id = 69,
-                            Name = "San Miguel",
-                            Latitude = "-27.99585000",
-                            Longitude = "-57.58964000"
-                        },
-
-                        new City
-                        {
-                            Id = 70,
-                            Name = "Santa Lucía",
-                            Latitude = "-28.98746000",
-                            Longitude = "-59.10287000"
-                        },
-
-                        new City
-                        {
-                            Id = 71,
-                            Name = "Santa Rosa",
-                            Latitude = "-28.26318000",
-                            Longitude = "-58.11891000"
-                        },
-
-                        new City
-                        {
-                            Id = 72,
-                            Name = "Santo Tomé",
-                            Latitude = "-28.54939000",
-                            Longitude = "-56.04077000"
-                        },
-
-                        new City
-                        {
-                            Id = 73,
-                            Name = "Yapeyú",
-                            Latitude = "-29.46914000",
-                            Longitude = "-56.81841000"
-                        },
-
-                        new City
-                        {
-                            Id = 74,
-                            Name = "Yataity Calle",
-                            Latitude = "-29.01913000",
-                            Longitude = "-58.90846000"
-                        }
+                        new() { Id = 1, Name = "Alvear", Latitude = "-29.09683000", Longitude = "-56.55043000" },
+                        new() { Id = 2, Name = "Berón de Astrada", Latitude = "-27.55067000", Longitude = "-57.53460000" },
+                        new() { Id = 3, Name = "Bonpland", Latitude = "-29.81708000", Longitude = "-57.42974000" },
+                        new() { Id = 4, Name = "Chavarría", Latitude = "-28.95489000", Longitude = "-58.57277000" },
+                        new() { Id = 5, Name = "Concepción", Latitude = "-28.39175000", Longitude = "-57.88777000" },
+                        new() { Id = 6, Name = "Corrientes", Latitude = "-27.46784000", Longitude = "-58.83440000" },
+                        new() { Id = 7, Name = "Cruz de los Milagros", Latitude = "-28.83646000", Longitude = "-59.00476000" },
+                        new() { Id = 8, Name = "Curuzú Cuatiá", Latitude = "-29.79171000", Longitude = "-58.05460000" },
+                        new() { Id = 9, Name = "Departamento de Bella Vista", Latitude = "-28.50000000", Longitude = "-58.83333000" },
+                        new() { Id = 10, Name = "Departamento de Berón de Astrada", Latitude = "-27.50000000", Longitude = "-57.66667000" },
+                        new() { Id = 11, Name = "Departamento de Capital", Latitude = "-27.50000000", Longitude = "-58.75000000" },
+                        new() { Id = 12, Name = "Departamento de Concepción", Latitude = "-28.33333000", Longitude = "-58.00000000" },
+                        new() { Id = 13, Name = "Departamento de Curuzú Cuatiá", Latitude = "-29.50000000", Longitude = "-58.50000000" },
+                        new() { Id = 14, Name = "Departamento de Empedrado", Latitude = "-27.83333000", Longitude = "-58.66667000" },
+                        new() { Id = 15, Name = "Departamento de Esquina", Latitude = "-30.00000000", Longitude = "-59.33333000" },
+                        new() { Id = 16, Name = "Departamento de General Alvear", Latitude = "-28.83333000", Longitude = "-56.50000000" },
+                        new() { Id = 17, Name = "Departamento de General Paz", Latitude = "-27.75000000", Longitude = "-57.83333000" },
+                        new() { Id = 18, Name = "Departamento de Goya", Latitude = "-29.50000000", Longitude = "-59.50000000" },
+                        new() { Id = 19, Name = "Departamento de Itatí", Latitude = "-27.33333000", Longitude = "-58.00000000" },
+                        new() { Id = 20, Name = "Departamento de Ituzaingó", Latitude = "-27.90085000", Longitude = "-56.86604000" },
+                        new() { Id = 21, Name = "Departamento de Lavalle", Latitude = "-29.00000000", Longitude = "-58.91667000" },
+                        new() { Id = 22, Name = "Departamento de Mburucuyá", Latitude = "-28.00000000", Longitude = "-58.25000000" },
+                        new() { Id = 23, Name = "Departamento de Mercedes", Latitude = "-29.00000000", Longitude = "-57.83333000" },
+                        new() { Id = 24, Name = "Departamento de Monte Caseros", Latitude = "-30.25000000", Longitude = "-57.83333000" },
+                        new() { Id = 25, Name = "Departamento de Paso de los Libres", Latitude = "-29.66667000", Longitude = "-57.25000000" },
+                        new() { Id = 26, Name = "Departamento de Saladas", Latitude = "-28.25000000", Longitude = "-58.75000000" },
+                        new() { Id = 27, Name = "Departamento de San Cosme", Latitude = "-27.33333000", Longitude = "-58.50000000" },
+                        new() { Id = 28, Name = "Departamento de San Luis del Palmar", Latitude = "-27.50000000", Longitude = "-58.25000000" },
+                        new() { Id = 29, Name = "Departamento de San Martín", Latitude = "-28.83333000", Longitude = "-56.91667000" },
+                        new() { Id = 30, Name = "Departamento de San Miguel", Latitude = "-27.91667000", Longitude = "-57.50000000" },
+                        new() { Id = 31, Name = "Departamento de San Roque", Latitude = "-28.66667000", Longitude = "-58.75000000" },
+                        new() { Id = 32, Name = "Departamento de Santo Tomé", Latitude = "-28.25000000", Longitude = "-56.25000000" },
+                        new() { Id = 33, Name = "Departamento de Sauce", Latitude = "-30.00000000", Longitude = "-58.66667000" },
+                        new() { Id = 34, Name = "Empedrado", Latitude = "-27.95178000", Longitude = "-58.80584000" },
+                        new() { Id = 35, Name = "Esquina", Latitude = "-30.01476000", Longitude = "-59.52890000" },
+                        new() { Id = 36, Name = "Felipe Yofré", Latitude = "-29.10226000", Longitude = "-58.33772000" },
+                        new() { Id = 37, Name = "Garruchos", Latitude = "-28.17208000", Longitude = "-55.65406000" },
+                        new() { Id = 38, Name = "Gobernador Juan E. Martínez", Latitude = "-28.91161000", Longitude = "-58.93594000" },
+                        new() { Id = 39, Name = "Gobernador Virasora", Latitude = "-28.05000000", Longitude = "-56.03333000" },
+                        new() { Id = 40, Name = "Goya", Latitude = "-29.13995000", Longitude = "-59.26343000" },
+                        new() { Id = 41, Name = "Herlitzka", Latitude = "-27.56516000", Longitude = "-58.25557000" },
+                        new() { Id = 42, Name = "Itá Ibaté", Latitude = "-27.42573000", Longitude = "-57.33758000" },
+                        new() { Id = 43, Name = "Itatí", Latitude = "-27.27043000", Longitude = "-58.24458000" },
+                        new() { Id = 44, Name = "Ituzaingó", Latitude = "-27.58162000", Longitude = "-56.68231000" },
+                        new() { Id = 45, Name = "Juan Pujol", Latitude = "-30.41873000", Longitude = "-57.85612000" },
+                        new() { Id = 46, Name = "La Cruz", Latitude = "-29.17443000", Longitude = "-56.64326000" },
+                        new() { Id = 47, Name = "Libertad", Latitude = "-30.04300000", Longitude = "-57.82020000" },
+                        new() { Id = 48, Name = "Lomas de Vallejos", Latitude = "-27.73501000", Longitude = "-57.91850000" },
+                        new() { Id = 49, Name = "Loreto", Latitude = "-27.76834000", Longitude = "-57.27531000" },
+                        new() { Id = 50, Name = "Mariano I. Loza", Latitude = "-29.37667000", Longitude = "-58.19436000" },
+                        new() { Id = 51, Name = "Mburucuyá", Latitude = "-28.04532000", Longitude = "-58.22835000" },
+                        new() { Id = 52, Name = "Mercedes", Latitude = "-29.18416000", Longitude = "-58.07519000" },
+                        new() { Id = 53, Name = "Mocoretá", Latitude = "-30.61891000", Longitude = "-57.96344000" },
+                        new() { Id = 54, Name = "Monte Caseros", Latitude = "-30.25359000", Longitude = "-57.63626000" },
+                        new() { Id = 55, Name = "Nuestra Señora del Rosario de Caa Catí", Latitude = "-27.75072000", Longitude = "-57.62073000" },
+                        new() { Id = 56, Name = "Nueve de Julio", Latitude = "-28.84051000", Longitude = "-58.82650000" },
+                        new() { Id = 57, Name = "Palmar Grande", Latitude = "-27.94195000", Longitude = "-57.90057000" },
+                        new() { Id = 58, Name = "Paso de la Patria", Latitude = "-27.31676000", Longitude = "-58.57197000" },
+                        new() { Id = 59, Name = "Paso de los Libres", Latitude = "-29.71251000", Longitude = "-57.08771000" },
+                        new() { Id = 60, Name = "Pedro R. Fernández", Latitude = "-28.75097000", Longitude = "-58.65583000" },
+                        new() { Id = 61, Name = "Perugorría", Latitude = "-29.34132000", Longitude = "-58.61059000" },
+                        new() { Id = 62, Name = "Pueblo Libertador", Latitude = "-30.22087000", Longitude = "-59.38981000" },
+                        new() { Id = 63, Name = "Riachuelo", Latitude = "-27.58191000", Longitude = "-58.74497000" },
+                        new() { Id = 64, Name = "Saladas", Latitude = "-28.25384000", Longitude = "-58.62591000" },
+                        new() { Id = 65, Name = "San Carlos", Latitude = "-27.74586000", Longitude = "-55.89731000" },
+                        new() { Id = 66, Name = "San Cosme", Latitude = "-27.37123000", Longitude = "-58.51214000" },
+                        new() { Id = 67, Name = "San Lorenzo", Latitude = "-28.13306000", Longitude = "-58.76733000" },
+                        new() { Id = 68, Name = "San Luis del Palmar", Latitude = "-27.50790000", Longitude = "-58.55454000" },
+                        new() { Id = 69, Name = "San Miguel", Latitude = "-27.99585000", Longitude = "-57.58964000" },
+                        new() { Id = 70, Name = "Santa Lucía", Latitude = "-28.98746000", Longitude = "-59.10287000" },
+                        new() { Id = 71, Name = "Santa Rosa", Latitude = "-28.26318000", Longitude = "-58.11891000" },
+                        new() { Id = 72, Name = "Santo Tomé", Latitude = "-28.54939000", Longitude = "-56.04077000" },
+                        new() { Id = 73, Name = "Yapeyú", Latitude = "-29.46914000", Longitude = "-56.81841000" },
+                        new() { Id = 74, Name = "Yataity Calle", Latitude = "-29.01913000", Longitude = "-58.90846000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 8,
                     Name = "Entre Ríos",
@@ -4972,532 +758,77 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-31.77466540",
                     Longitude = "-60.49564610",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Aldea San Antonio",
-                            Latitude = "-32.62317000",
-                            Longitude = "-58.70512000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Aranguren",
-                            Latitude = "-32.24252000",
-                            Longitude = "-60.16107000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Bovril",
-                            Latitude = "-31.34311000",
-                            Longitude = "-59.44512000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Caseros",
-                            Latitude = "-32.46325000",
-                            Longitude = "-58.47872000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Ceibas",
-                            Latitude = "-33.43333000",
-                            Longitude = "-58.75000000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Chajarí",
-                            Latitude = "-30.75048000",
-                            Longitude = "-57.97962000"
-                        },
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Colón",
-                            Latitude = "-32.22312000",
-                            Longitude = "-58.14426000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Colonia Elía",
-                            Latitude = "-32.67144000",
-                            Longitude = "-58.32538000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Concepción del Uruguay",
-                            Latitude = "-32.48463000",
-                            Longitude = "-58.23217000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Concordia",
-                            Latitude = "-31.39296000",
-                            Longitude = "-58.02089000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Conscripto Bernardi",
-                            Latitude = "-31.04837000",
-                            Longitude = "-59.08435000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Crespo",
-                            Latitude = "-32.02873000",
-                            Longitude = "-60.30658000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Departamento de Gualeguaychú",
-                            Latitude = "-33.25000000",
-                            Longitude = "-59.00000000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Departamento de Paraná",
-                            Latitude = "-31.66667000",
-                            Longitude = "-60.00000000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Diamante",
-                            Latitude = "-32.06641000",
-                            Longitude = "-60.63837000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Domínguez",
-                            Latitude = "-31.98710000",
-                            Longitude = "-58.96197000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Federación",
-                            Latitude = "-31.00621000",
-                            Longitude = "-57.89962000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Federal",
-                            Latitude = "-30.95465000",
-                            Longitude = "-58.78326000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "General Campos",
-                            Latitude = "-31.52311000",
-                            Longitude = "-58.40490000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "General Galarza",
-                            Latitude = "-32.72034000",
-                            Longitude = "-59.39615000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "General Ramírez",
-                            Latitude = "-32.17601000",
-                            Longitude = "-60.20079000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Gobernador Mansilla",
-                            Latitude = "-32.54453000",
-                            Longitude = "-59.35480000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Gualeguay",
-                            Latitude = "-33.14156000",
-                            Longitude = "-59.30966000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Gualeguaychú",
-                            Latitude = "-33.00937000",
-                            Longitude = "-58.51722000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Hasenkamp",
-                            Latitude = "-31.51226000",
-                            Longitude = "-59.83545000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Hernández",
-                            Latitude = "-32.33730000",
-                            Longitude = "-60.02160000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Herrera",
-                            Latitude = "-32.43401000",
-                            Longitude = "-58.63177000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "La Criolla",
-                            Latitude = "-31.26904000",
-                            Longitude = "-58.10558000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "La Paz",
-                            Latitude = "-30.74179000",
-                            Longitude = "-59.64517000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Larroque",
-                            Latitude = "-33.03595000",
-                            Longitude = "-59.00125000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Los Charrúas",
-                            Latitude = "-31.17548000",
-                            Longitude = "-58.18774000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Los Conquistadores",
-                            Latitude = "-30.59080000",
-                            Longitude = "-58.46773000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Lucas González",
-                            Latitude = "-32.38430000",
-                            Longitude = "-59.53013000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Maciá",
-                            Latitude = "-32.17220000",
-                            Longitude = "-59.39947000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Nogoyá",
-                            Latitude = "-32.39387000",
-                            Longitude = "-59.78953000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Oro Verde",
-                            Latitude = "-31.82508000",
-                            Longitude = "-60.51749000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Paraná",
-                            Latitude = "-31.73271000",
-                            Longitude = "-60.52897000"
-                        },
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Piedras Blancas",
-                            Latitude = "-31.18592000",
-                            Longitude = "-59.95181000"
-                        },
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Pronunciamiento",
-                            Latitude = "-32.34480000",
-                            Longitude = "-58.44268000"
-                        },
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Puerto Ibicuy",
-                            Latitude = "-33.75305000",
-                            Longitude = "-59.17762000"
-                        },
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Puerto Yeruá",
-                            Latitude = "-31.53713000",
-                            Longitude = "-58.01527000"
-                        },
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Rosario del Tala",
-                            Latitude = "-32.30286000",
-                            Longitude = "-59.14545000"
-                        },
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "San Benito",
-                            Latitude = "-31.78371000",
-                            Longitude = "-60.44156000"
-                        },
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "San Gustavo",
-                            Latitude = "-30.68961000",
-                            Longitude = "-59.39840000"
-                        },
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "San José de Feliciano",
-                            Latitude = "-30.38452000",
-                            Longitude = "-58.75167000"
-                        },
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "San Justo",
-                            Latitude = "-32.44654000",
-                            Longitude = "-58.43569000"
-                        },
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "San Salvador",
-                            Latitude = "-31.62487000",
-                            Longitude = "-58.50524000"
-                        },
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "Santa Ana",
-                            Latitude = "-30.90004000",
-                            Longitude = "-57.93162000"
-                        },
-
-                        new City
-                        {
-                            Id = 49,
-                            Name = "Santa Anita",
-                            Latitude = "-32.17476000",
-                            Longitude = "-58.78622000"
-                        },
-
-                        new City
-                        {
-                            Id = 50,
-                            Name = "Santa Elena",
-                            Latitude = "-30.94432000",
-                            Longitude = "-59.78832000"
-                        },
-
-                        new City
-                        {
-                            Id = 51,
-                            Name = "Sauce de Luna",
-                            Latitude = "-31.23794000",
-                            Longitude = "-59.21872000"
-                        },
-
-                        new City
-                        {
-                            Id = 52,
-                            Name = "Seguí",
-                            Latitude = "-31.95642000",
-                            Longitude = "-60.12488000"
-                        },
-
-                        new City
-                        {
-                            Id = 53,
-                            Name = "Tabossi",
-                            Latitude = "-31.80135000",
-                            Longitude = "-59.93477000"
-                        },
-
-                        new City
-                        {
-                            Id = 54,
-                            Name = "Ubajay",
-                            Latitude = "-31.79358000",
-                            Longitude = "-58.31350000"
-                        },
-
-                        new City
-                        {
-                            Id = 55,
-                            Name = "Urdinarrain",
-                            Latitude = "-32.68573000",
-                            Longitude = "-58.89323000"
-                        },
-
-                        new City
-                        {
-                            Id = 56,
-                            Name = "Viale",
-                            Latitude = "-31.86782000",
-                            Longitude = "-60.00722000"
-                        },
-
-                        new City
-                        {
-                            Id = 57,
-                            Name = "Victoria",
-                            Latitude = "-32.61841000",
-                            Longitude = "-60.15478000"
-                        },
-
-                        new City
-                        {
-                            Id = 58,
-                            Name = "Villa del Rosario",
-                            Latitude = "-30.79567000",
-                            Longitude = "-57.91257000"
-                        },
-
-                        new City
-                        {
-                            Id = 59,
-                            Name = "Villa Elisa",
-                            Latitude = "-32.16320000",
-                            Longitude = "-58.40082000"
-                        },
-
-                        new City
-                        {
-                            Id = 60,
-                            Name = "Villa Hernandarias",
-                            Latitude = "-31.23097000",
-                            Longitude = "-59.98464000"
-                        },
-
-                        new City
-                        {
-                            Id = 61,
-                            Name = "Villa Mantero",
-                            Latitude = "-32.39727000",
-                            Longitude = "-58.74596000"
-                        },
-
-                        new City
-                        {
-                            Id = 62,
-                            Name = "Villa María Grande",
-                            Latitude = "-31.66565000",
-                            Longitude = "-59.90182000"
-                        },
-
-                        new City
-                        {
-                            Id = 63,
-                            Name = "Villa Paranacito",
-                            Latitude = "-33.71381000",
-                            Longitude = "-58.65844000"
-                        },
-
-                        new City
-                        {
-                            Id = 64,
-                            Name = "Villa Urquiza",
-                            Latitude = "-31.64757000",
-                            Longitude = "-60.37516000"
-                        },
-
-                        new City
-                        {
-                            Id = 65,
-                            Name = "Villaguay",
-                            Latitude = "-31.86530000",
-                            Longitude = "-59.02689000"
-                        }
+                        new() { Id = 1, Name = "Aldea San Antonio", Latitude = "-32.62317000", Longitude = "-58.70512000" },
+                        new() { Id = 2, Name = "Aranguren", Latitude = "-32.24252000", Longitude = "-60.16107000" },
+                        new() { Id = 3, Name = "Bovril", Latitude = "-31.34311000", Longitude = "-59.44512000" },
+                        new() { Id = 4, Name = "Caseros", Latitude = "-32.46325000", Longitude = "-58.47872000" },
+                        new() { Id = 5, Name = "Ceibas", Latitude = "-33.43333000", Longitude = "-58.75000000" },
+                        new() { Id = 6, Name = "Chajarí", Latitude = "-30.75048000", Longitude = "-57.97962000" },
+                        new() { Id = 7, Name = "Colón", Latitude = "-32.22312000", Longitude = "-58.14426000" },
+                        new() { Id = 8, Name = "Colonia Elía", Latitude = "-32.67144000", Longitude = "-58.32538000" },
+                        new() { Id = 9, Name = "Concepción del Uruguay", Latitude = "-32.48463000", Longitude = "-58.23217000" },
+                        new() { Id = 10, Name = "Concordia", Latitude = "-31.39296000", Longitude = "-58.02089000" },
+                        new() { Id = 11, Name = "Conscripto Bernardi", Latitude = "-31.04837000", Longitude = "-59.08435000" },
+                        new() { Id = 12, Name = "Crespo", Latitude = "-32.02873000", Longitude = "-60.30658000" },
+                        new() { Id = 13, Name = "Departamento de Gualeguaychú", Latitude = "-33.25000000", Longitude = "-59.00000000" },
+                        new() { Id = 14, Name = "Departamento de Paraná", Latitude = "-31.66667000", Longitude = "-60.00000000" },
+                        new() { Id = 15, Name = "Diamante", Latitude = "-32.06641000", Longitude = "-60.63837000" },
+                        new() { Id = 16, Name = "Domínguez", Latitude = "-31.98710000", Longitude = "-58.96197000" },
+                        new() { Id = 17, Name = "Federación", Latitude = "-31.00621000", Longitude = "-57.89962000" },
+                        new() { Id = 18, Name = "Federal", Latitude = "-30.95465000", Longitude = "-58.78326000" },
+                        new() { Id = 19, Name = "General Campos", Latitude = "-31.52311000", Longitude = "-58.40490000" },
+                        new() { Id = 20, Name = "General Galarza", Latitude = "-32.72034000", Longitude = "-59.39615000" },
+                        new() { Id = 21, Name = "General Ramírez", Latitude = "-32.17601000", Longitude = "-60.20079000" },
+                        new() { Id = 22, Name = "Gobernador Mansilla", Latitude = "-32.54453000", Longitude = "-59.35480000" },
+                        new() { Id = 23, Name = "Gualeguay", Latitude = "-33.14156000", Longitude = "-59.30966000" },
+                        new() { Id = 24, Name = "Gualeguaychú", Latitude = "-33.00937000", Longitude = "-58.51722000" },
+                        new() { Id = 25, Name = "Hasenkamp", Latitude = "-31.51226000", Longitude = "-59.83545000" },
+                        new() { Id = 26, Name = "Hernández", Latitude = "-32.33730000", Longitude = "-60.02160000" },
+                        new() { Id = 27, Name = "Herrera", Latitude = "-32.43401000", Longitude = "-58.63177000" },
+                        new() { Id = 28, Name = "La Criolla", Latitude = "-31.26904000", Longitude = "-58.10558000" },
+                        new() { Id = 29, Name = "La Paz", Latitude = "-30.74179000", Longitude = "-59.64517000" },
+                        new() { Id = 30, Name = "Larroque", Latitude = "-33.03595000", Longitude = "-59.00125000" },
+                        new() { Id = 31, Name = "Los Charrúas", Latitude = "-31.17548000", Longitude = "-58.18774000" },
+                        new() { Id = 32, Name = "Los Conquistadores", Latitude = "-30.59080000", Longitude = "-58.46773000" },
+                        new() { Id = 33, Name = "Lucas González", Latitude = "-32.38430000", Longitude = "-59.53013000" },
+                        new() { Id = 34, Name = "Maciá", Latitude = "-32.17220000", Longitude = "-59.39947000" },
+                        new() { Id = 35, Name = "Nogoyá", Latitude = "-32.39387000", Longitude = "-59.78953000" },
+                        new() { Id = 36, Name = "Oro Verde", Latitude = "-31.82508000", Longitude = "-60.51749000" },
+                        new() { Id = 37, Name = "Paraná", Latitude = "-31.73271000", Longitude = "-60.52897000" },
+                        new() { Id = 38, Name = "Piedras Blancas", Latitude = "-31.18592000", Longitude = "-59.95181000" },
+                        new() { Id = 39, Name = "Pronunciamiento", Latitude = "-32.34480000", Longitude = "-58.44268000" },
+                        new() { Id = 40, Name = "Puerto Ibicuy", Latitude = "-33.75305000", Longitude = "-59.17762000" },
+                        new() { Id = 41, Name = "Puerto Yeruá", Latitude = "-31.53713000", Longitude = "-58.01527000" },
+                        new() { Id = 42, Name = "Rosario del Tala", Latitude = "-32.30286000", Longitude = "-59.14545000" },
+                        new() { Id = 43, Name = "San Benito", Latitude = "-31.78371000", Longitude = "-60.44156000" },
+                        new() { Id = 44, Name = "San Gustavo", Latitude = "-30.68961000", Longitude = "-59.39840000" },
+                        new() { Id = 45, Name = "San José de Feliciano", Latitude = "-30.38452000", Longitude = "-58.75167000" },
+                        new() { Id = 46, Name = "San Justo", Latitude = "-32.44654000", Longitude = "-58.43569000" },
+                        new() { Id = 47, Name = "San Salvador", Latitude = "-31.62487000", Longitude = "-58.50524000" },
+                        new() { Id = 48, Name = "Santa Ana", Latitude = "-30.90004000", Longitude = "-57.93162000" },
+                        new() { Id = 49, Name = "Santa Anita", Latitude = "-32.17476000", Longitude = "-58.78622000" },
+                        new() { Id = 50, Name = "Santa Elena", Latitude = "-30.94432000", Longitude = "-59.78832000" },
+                        new() { Id = 51, Name = "Sauce de Luna", Latitude = "-31.23794000", Longitude = "-59.21872000" },
+                        new() { Id = 52, Name = "Seguí", Latitude = "-31.95642000", Longitude = "-60.12488000" },
+                        new() { Id = 53, Name = "Tabossi", Latitude = "-31.80135000", Longitude = "-59.93477000" },
+                        new() { Id = 54, Name = "Ubajay", Latitude = "-31.79358000", Longitude = "-58.31350000" },
+                        new() { Id = 55, Name = "Urdinarrain", Latitude = "-32.68573000", Longitude = "-58.89323000" },
+                        new() { Id = 56, Name = "Viale", Latitude = "-31.86782000", Longitude = "-60.00722000" },
+                        new() { Id = 57, Name = "Victoria", Latitude = "-32.61841000", Longitude = "-60.15478000" },
+                        new() { Id = 58, Name = "Villa del Rosario", Latitude = "-30.79567000", Longitude = "-57.91257000" },
+                        new() { Id = 59, Name = "Villa Elisa", Latitude = "-32.16320000", Longitude = "-58.40082000" },
+                        new() { Id = 60, Name = "Villa Hernandarias", Latitude = "-31.23097000", Longitude = "-59.98464000" },
+                        new() { Id = 61, Name = "Villa Mantero", Latitude = "-32.39727000", Longitude = "-58.74596000" },
+                        new() { Id = 62, Name = "Villa María Grande", Latitude = "-31.66565000", Longitude = "-59.90182000" },
+                        new() { Id = 63, Name = "Villa Paranacito", Latitude = "-33.71381000", Longitude = "-58.65844000" },
+                        new() { Id = 64, Name = "Villa Urquiza", Latitude = "-31.64757000", Longitude = "-60.37516000" },
+                        new() { Id = 65, Name = "Villaguay", Latitude = "-31.86530000", Longitude = "-59.02689000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 9,
                     Name = "Formosa",
@@ -5505,172 +836,32 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-26.18948040",
                     Longitude = "-58.22428060",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Clorinda",
-                            Latitude = "-25.28481000",
-                            Longitude = "-57.71851000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Comandante Fontana",
-                            Latitude = "-25.33453000",
-                            Longitude = "-59.68212000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Departamento de Pilcomayo",
-                            Latitude = "-25.50000000",
-                            Longitude = "-58.08333000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "El Colorado",
-                            Latitude = "-26.30808000",
-                            Longitude = "-59.37291000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Estanislao del Campo",
-                            Latitude = "-25.05504000",
-                            Longitude = "-60.09218000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Formosa",
-                            Latitude = "-26.18489000",
-                            Longitude = "-58.17313000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "General Enrique Mosconi",
-                            Latitude = "-23.21667000",
-                            Longitude = "-62.30000000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Herradura",
-                            Latitude = "-26.48705000",
-                            Longitude = "-58.31198000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Ibarreta",
-                            Latitude = "-25.21438000",
-                            Longitude = "-59.85851000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Ingeniero Guillermo N. Juárez",
-                            Latitude = "-23.90000000",
-                            Longitude = "-61.85000000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Laguna Naick-Neck",
-                            Latitude = "-25.24769000",
-                            Longitude = "-58.09383000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Laguna Yema",
-                            Latitude = "-24.25391000",
-                            Longitude = "-61.24466000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Las Lomitas",
-                            Latitude = "-24.70955000",
-                            Longitude = "-60.59303000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Palo Santo",
-                            Latitude = "-25.56332000",
-                            Longitude = "-59.33781000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Pirané",
-                            Latitude = "-25.73239000",
-                            Longitude = "-59.10879000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Pozo del Tigre",
-                            Latitude = "-24.89682000",
-                            Longitude = "-60.32359000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Riacho Eh-Eh",
-                            Latitude = "-25.36209000",
-                            Longitude = "-58.27750000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "San Francisco de Laishí",
-                            Latitude = "-26.24262000",
-                            Longitude = "-58.63039000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Villa Escolar",
-                            Latitude = "-26.62209000",
-                            Longitude = "-58.67134000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Villa General Guemes",
-                            Latitude = "-24.75530000",
-                            Longitude = "-59.48940000"
-                        }
+                        new() { Id = 1, Name = "Clorinda", Latitude = "-25.28481000", Longitude = "-57.71851000" },
+                        new() { Id = 2, Name = "Comandante Fontana", Latitude = "-25.33453000", Longitude = "-59.68212000" },
+                        new() { Id = 3, Name = "Departamento de Pilcomayo", Latitude = "-25.50000000", Longitude = "-58.08333000" },
+                        new() { Id = 4, Name = "El Colorado", Latitude = "-26.30808000", Longitude = "-59.37291000" },
+                        new() { Id = 5, Name = "Estanislao del Campo", Latitude = "-25.05504000", Longitude = "-60.09218000" },
+                        new() { Id = 6, Name = "Formosa", Latitude = "-26.18489000", Longitude = "-58.17313000" },
+                        new() { Id = 7, Name = "General Enrique Mosconi", Latitude = "-23.21667000", Longitude = "-62.30000000" },
+                        new() { Id = 8, Name = "Herradura", Latitude = "-26.48705000", Longitude = "-58.31198000" },
+                        new() { Id = 9, Name = "Ibarreta", Latitude = "-25.21438000", Longitude = "-59.85851000" },
+                        new() { Id = 10, Name = "Ingeniero Guillermo N. Juárez", Latitude = "-23.90000000", Longitude = "-61.85000000" },
+                        new() { Id = 11, Name = "Laguna Naick-Neck", Latitude = "-25.24769000", Longitude = "-58.09383000" },
+                        new() { Id = 12, Name = "Laguna Yema", Latitude = "-24.25391000", Longitude = "-61.24466000" },
+                        new() { Id = 13, Name = "Las Lomitas", Latitude = "-24.70955000", Longitude = "-60.59303000" },
+                        new() { Id = 14, Name = "Palo Santo", Latitude = "-25.56332000", Longitude = "-59.33781000" },
+                        new() { Id = 15, Name = "Pirané", Latitude = "-25.73239000", Longitude = "-59.10879000" },
+                        new() { Id = 16, Name = "Pozo del Tigre", Latitude = "-24.89682000", Longitude = "-60.32359000" },
+                        new() { Id = 17, Name = "Riacho Eh-Eh", Latitude = "-25.36209000", Longitude = "-58.27750000" },
+                        new() { Id = 18, Name = "San Francisco de Laishí", Latitude = "-26.24262000", Longitude = "-58.63039000" },
+                        new() { Id = 19, Name = "Villa Escolar", Latitude = "-26.62209000", Longitude = "-58.67134000" },
+                        new() { Id = 20, Name = "Villa General Guemes", Latitude = "-24.75530000", Longitude = "-59.48940000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 10,
                     Name = "Jujuy",
@@ -5678,180 +869,33 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-24.18433970",
                     Longitude = "-65.30217700",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Abra Pampa",
-                            Latitude = "-22.72049000",
-                            Longitude = "-65.69697000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Caimancito",
-                            Latitude = "-23.74069000",
-                            Longitude = "-64.59370000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Calilegua",
-                            Latitude = "-23.77368000",
-                            Longitude = "-64.77002000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Departamento de Cochinoca",
-                            Latitude = "-23.00000000",
-                            Longitude = "-65.83333000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Departamento de Rinconada",
-                            Latitude = "-22.50000000",
-                            Longitude = "-66.50000000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Departamento de Tumbaya",
-                            Latitude = "-23.71667000",
-                            Longitude = "-65.66667000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "El Aguilar",
-                            Latitude = "-23.21572000",
-                            Longitude = "-65.68005000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Fraile Pintado",
-                            Latitude = "-23.94079000",
-                            Longitude = "-64.79943000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Humahuaca",
-                            Latitude = "-23.20544000",
-                            Longitude = "-65.35048000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Ingenio La Esperanza",
-                            Latitude = "-24.22554000",
-                            Longitude = "-64.83896000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "La Mendieta",
-                            Latitude = "-24.31187000",
-                            Longitude = "-64.96377000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "La Quiaca",
-                            Latitude = "-22.10236000",
-                            Longitude = "-65.59299000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Libertador General San Martín",
-                            Latitude = "-23.80644000",
-                            Longitude = "-64.78757000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Maimará",
-                            Latitude = "-23.62392000",
-                            Longitude = "-65.40797000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Palma Sola",
-                            Latitude = "-23.97771000",
-                            Longitude = "-64.30311000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Palpalá",
-                            Latitude = "-24.25647000",
-                            Longitude = "-65.21163000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "San Pedro de Jujuy",
-                            Latitude = "-24.23127000",
-                            Longitude = "-64.86614000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "San Salvador de Jujuy",
-                            Latitude = "-24.19457000",
-                            Longitude = "-65.29712000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Santa Clara",
-                            Latitude = "-24.30921000",
-                            Longitude = "-64.66253000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Tilcara",
-                            Latitude = "-23.57817000",
-                            Longitude = "-65.39516000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Yuto",
-                            Latitude = "-23.64342000",
-                            Longitude = "-64.47194000"
-                        }
+                        new() { Id = 1, Name = "Abra Pampa", Latitude = "-22.72049000", Longitude = "-65.69697000" },
+                        new() { Id = 2, Name = "Caimancito", Latitude = "-23.74069000", Longitude = "-64.59370000" },
+                        new() { Id = 3, Name = "Calilegua", Latitude = "-23.77368000", Longitude = "-64.77002000" },
+                        new() { Id = 4, Name = "Departamento de Cochinoca", Latitude = "-23.00000000", Longitude = "-65.83333000" },
+                        new() { Id = 5, Name = "Departamento de Rinconada", Latitude = "-22.50000000", Longitude = "-66.50000000" },
+                        new() { Id = 6, Name = "Departamento de Tumbaya", Latitude = "-23.71667000", Longitude = "-65.66667000" },
+                        new() { Id = 7, Name = "El Aguilar", Latitude = "-23.21572000", Longitude = "-65.68005000" },
+                        new() { Id = 8, Name = "Fraile Pintado", Latitude = "-23.94079000", Longitude = "-64.79943000" },
+                        new() { Id = 9, Name = "Humahuaca", Latitude = "-23.20544000", Longitude = "-65.35048000" },
+                        new() { Id = 10, Name = "Ingenio La Esperanza", Latitude = "-24.22554000", Longitude = "-64.83896000" },
+                        new() { Id = 11, Name = "La Mendieta", Latitude = "-24.31187000", Longitude = "-64.96377000" },
+                        new() { Id = 12, Name = "La Quiaca", Latitude = "-22.10236000", Longitude = "-65.59299000" },
+                        new() { Id = 13, Name = "Libertador General San Martín", Latitude = "-23.80644000", Longitude = "-64.78757000" },
+                        new() { Id = 14, Name = "Maimará", Latitude = "-23.62392000", Longitude = "-65.40797000" },
+                        new() { Id = 15, Name = "Palma Sola", Latitude = "-23.97771000", Longitude = "-64.30311000" },
+                        new() { Id = 16, Name = "Palpalá", Latitude = "-24.25647000", Longitude = "-65.21163000" },
+                        new() { Id = 17, Name = "San Pedro de Jujuy", Latitude = "-24.23127000", Longitude = "-64.86614000" },
+                        new() { Id = 18, Name = "San Salvador de Jujuy", Latitude = "-24.19457000", Longitude = "-65.29712000" },
+                        new() { Id = 19, Name = "Santa Clara", Latitude = "-24.30921000", Longitude = "-64.66253000" },
+                        new() { Id = 20, Name = "Tilcara", Latitude = "-23.57817000", Longitude = "-65.39516000" },
+                        new() { Id = 21, Name = "Yuto", Latitude = "-23.64342000", Longitude = "-64.47194000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 11,
                     Name = "La Pampa",
@@ -5859,324 +903,51 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-36.61475730",
                     Longitude = "-64.28392090",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Alpachiri",
-                            Latitude = "-37.37704000",
-                            Longitude = "-63.77445000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Alta Italia",
-                            Latitude = "-35.33350000",
-                            Longitude = "-64.11496000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Anguil",
-                            Latitude = "-36.52567000",
-                            Longitude = "-64.01025000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Arata",
-                            Latitude = "-35.63895000",
-                            Longitude = "-64.35621000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Bernardo Larroudé",
-                            Latitude = "-35.02449000",
-                            Longitude = "-63.58253000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Bernasconi",
-                            Latitude = "-37.90459000",
-                            Longitude = "-63.74240000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Caleufú",
-                            Latitude = "-35.59559000",
-                            Longitude = "-64.55778000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Catriló",
-                            Latitude = "-36.40597000",
-                            Longitude = "-63.42168000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Colonia Barón",
-                            Latitude = "-36.15152000",
-                            Longitude = "-63.85404000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Departamento de Caleu-Caleu",
-                            Latitude = "-38.58333000",
-                            Longitude = "-64.00000000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Departamento de Toay",
-                            Latitude = "-36.58333000",
-                            Longitude = "-64.80000000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Doblas",
-                            Latitude = "-37.14967000",
-                            Longitude = "-64.01183000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Eduardo Castex",
-                            Latitude = "-35.91501000",
-                            Longitude = "-64.29448000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Embajador Martini",
-                            Latitude = "-35.38633000",
-                            Longitude = "-64.28092000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "General Acha",
-                            Latitude = "-37.37698000",
-                            Longitude = "-64.60431000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "General Manuel J. Campos",
-                            Latitude = "-37.46025000",
-                            Longitude = "-63.58537000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "General Pico",
-                            Latitude = "-35.65662000",
-                            Longitude = "-63.75682000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "General San Martín",
-                            Latitude = "-37.97904000",
-                            Longitude = "-63.60449000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Guatraché",
-                            Latitude = "-37.66776000",
-                            Longitude = "-63.53021000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Ingeniero Luiggi",
-                            Latitude = "-35.38585000",
-                            Longitude = "-64.46519000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Intendente Alvear",
-                            Latitude = "-35.23383000",
-                            Longitude = "-63.59205000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Jacinto Arauz",
-                            Latitude = "-38.08606000",
-                            Longitude = "-63.43169000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "La Adela",
-                            Latitude = "-38.98333000",
-                            Longitude = "-64.08333000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "La Maruja",
-                            Latitude = "-35.67360000",
-                            Longitude = "-64.93997000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Lonquimay",
-                            Latitude = "-36.46546000",
-                            Longitude = "-63.62429000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Macachín",
-                            Latitude = "-37.13598000",
-                            Longitude = "-63.66650000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Miguel Riglos",
-                            Latitude = "-36.85398000",
-                            Longitude = "-63.68842000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Parera",
-                            Latitude = "-35.14600000",
-                            Longitude = "-64.50089000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Quemú Quemú",
-                            Latitude = "-36.05463000",
-                            Longitude = "-63.56428000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Rancul",
-                            Latitude = "-35.06862000",
-                            Longitude = "-64.68107000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Realicó",
-                            Latitude = "-35.03658000",
-                            Longitude = "-64.24470000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Santa Isabel",
-                            Latitude = "-36.22724000",
-                            Longitude = "-66.94240000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Santa Rosa",
-                            Latitude = "-36.61667000",
-                            Longitude = "-64.28333000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Telén",
-                            Latitude = "-36.26429000",
-                            Longitude = "-65.51018000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Trenel",
-                            Latitude = "-35.69837000",
-                            Longitude = "-64.13218000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Uriburu",
-                            Latitude = "-36.50682000",
-                            Longitude = "-63.86225000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Veinticinco de Mayo",
-                            Latitude = "-37.77410000",
-                            Longitude = "-67.71638000"
-                        },
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Victorica",
-                            Latitude = "-36.21505000",
-                            Longitude = "-65.43586000"
-                        },
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Winifreda",
-                            Latitude = "-36.22643000",
-                            Longitude = "-64.23388000"
-                        }
+                        new() { Id = 1, Name = "Alpachiri", Latitude = "-37.37704000", Longitude = "-63.77445000" },
+                        new() { Id = 2, Name = "Alta Italia", Latitude = "-35.33350000", Longitude = "-64.11496000" },
+                        new() { Id = 3, Name = "Anguil", Latitude = "-36.52567000", Longitude = "-64.01025000" },
+                        new() { Id = 4, Name = "Arata", Latitude = "-35.63895000", Longitude = "-64.35621000" },
+                        new() { Id = 5, Name = "Bernardo Larroudé", Latitude = "-35.02449000", Longitude = "-63.58253000" },
+                        new() { Id = 6, Name = "Bernasconi", Latitude = "-37.90459000", Longitude = "-63.74240000" },
+                        new() { Id = 7, Name = "Caleufú", Latitude = "-35.59559000", Longitude = "-64.55778000" },
+                        new() { Id = 8, Name = "Catriló", Latitude = "-36.40597000", Longitude = "-63.42168000" },
+                        new() { Id = 9, Name = "Colonia Barón", Latitude = "-36.15152000", Longitude = "-63.85404000" },
+                        new() { Id = 10, Name = "Departamento de Caleu-Caleu", Latitude = "-38.58333000", Longitude = "-64.00000000" },
+                        new() { Id = 11, Name = "Departamento de Toay", Latitude = "-36.58333000", Longitude = "-64.80000000" },
+                        new() { Id = 12, Name = "Doblas", Latitude = "-37.14967000", Longitude = "-64.01183000" },
+                        new() { Id = 13, Name = "Eduardo Castex", Latitude = "-35.91501000", Longitude = "-64.29448000" },
+                        new() { Id = 14, Name = "Embajador Martini", Latitude = "-35.38633000", Longitude = "-64.28092000" },
+                        new() { Id = 15, Name = "General Acha", Latitude = "-37.37698000", Longitude = "-64.60431000" },
+                        new() { Id = 16, Name = "General Manuel J. Campos", Latitude = "-37.46025000", Longitude = "-63.58537000" },
+                        new() { Id = 17, Name = "General Pico", Latitude = "-35.65662000", Longitude = "-63.75682000" },
+                        new() { Id = 18, Name = "General San Martín", Latitude = "-37.97904000", Longitude = "-63.60449000" },
+                        new() { Id = 19, Name = "Guatraché", Latitude = "-37.66776000", Longitude = "-63.53021000" },
+                        new() { Id = 20, Name = "Ingeniero Luiggi", Latitude = "-35.38585000", Longitude = "-64.46519000" },
+                        new() { Id = 21, Name = "Intendente Alvear", Latitude = "-35.23383000", Longitude = "-63.59205000" },
+                        new() { Id = 22, Name = "Jacinto Arauz", Latitude = "-38.08606000", Longitude = "-63.43169000" },
+                        new() { Id = 23, Name = "La Adela", Latitude = "-38.98333000", Longitude = "-64.08333000" },
+                        new() { Id = 24, Name = "La Maruja", Latitude = "-35.67360000", Longitude = "-64.93997000" },
+                        new() { Id = 25, Name = "Lonquimay", Latitude = "-36.46546000", Longitude = "-63.62429000" },
+                        new() { Id = 26, Name = "Macachín", Latitude = "-37.13598000", Longitude = "-63.66650000" },
+                        new() { Id = 27, Name = "Miguel Riglos", Latitude = "-36.85398000", Longitude = "-63.68842000" },
+                        new() { Id = 28, Name = "Parera", Latitude = "-35.14600000", Longitude = "-64.50089000" },
+                        new() { Id = 29, Name = "Quemú Quemú", Latitude = "-36.05463000", Longitude = "-63.56428000" },
+                        new() { Id = 30, Name = "Rancul", Latitude = "-35.06862000", Longitude = "-64.68107000" },
+                        new() { Id = 31, Name = "Realicó", Latitude = "-35.03658000", Longitude = "-64.24470000" },
+                        new() { Id = 32, Name = "Santa Isabel", Latitude = "-36.22724000", Longitude = "-66.94240000" },
+                        new() { Id = 33, Name = "Santa Rosa", Latitude = "-36.61667000", Longitude = "-64.28333000" },
+                        new() { Id = 34, Name = "Telén", Latitude = "-36.26429000", Longitude = "-65.51018000" },
+                        new() { Id = 35, Name = "Trenel", Latitude = "-35.69837000", Longitude = "-64.13218000" },
+                        new() { Id = 36, Name = "Uriburu", Latitude = "-36.50682000", Longitude = "-63.86225000" },
+                        new() { Id = 37, Name = "Veinticinco de Mayo", Latitude = "-37.77410000", Longitude = "-67.71638000" },
+                        new() { Id = 38, Name = "Victorica", Latitude = "-36.21505000", Longitude = "-65.43586000" },
+                        new() { Id = 39, Name = "Winifreda", Latitude = "-36.22643000", Longitude = "-64.23388000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 12,
                     Name = "La Rioja",
@@ -6184,92 +955,22 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-29.41937930",
                     Longitude = "-66.85599320",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Arauco",
-                            Latitude = "-28.58071000",
-                            Longitude = "-66.79250000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Castro Barros",
-                            Latitude = "-30.57952000",
-                            Longitude = "-65.72696000"
-                        }
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Chamical",
-                            Latitude = "-30.36002000",
-                            Longitude = "-66.31399000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Chilecito",
-                            Latitude = "-29.16195000",
-                            Longitude = "-67.49740000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Departamento de Arauco",
-                            Latitude = "-28.50000000",
-                            Longitude = "-66.83333000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Departamento de General Lamadrid",
-                            Latitude = "-28.83333000",
-                            Longitude = "-68.66667000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Departamento de Independencia",
-                            Latitude = "-30.16667000",
-                            Longitude = "-67.41667000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "La Rioja",
-                            Latitude = "-29.41105000",
-                            Longitude = "-66.85067000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Villa Bustos",
-                            Latitude = "-29.28636000",
-                            Longitude = "-67.02067000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Vinchina",
-                            Latitude = "-28.75964000",
-                            Longitude = "-68.20692000"
-                        }
+                        new() { Id = 1, Name = "Arauco", Latitude = "-28.58071000", Longitude = "-66.79250000" },
+                        new() { Id = 2, Name = "Castro Barros", Latitude = "-30.57952000", Longitude = "-65.72696000" },
+                        new() { Id = 3, Name = "Chamical", Latitude = "-30.36002000", Longitude = "-66.31399000" },
+                        new() { Id = 4, Name = "Chilecito", Latitude = "-29.16195000", Longitude = "-67.49740000" },
+                        new() { Id = 5, Name = "Departamento de Arauco", Latitude = "-28.50000000", Longitude = "-66.83333000" },
+                        new() { Id = 6, Name = "Departamento de General Lamadrid", Latitude = "-28.83333000", Longitude = "-68.66667000" },
+                        new() { Id = 7, Name = "Departamento de Independencia", Latitude = "-30.16667000", Longitude = "-67.41667000" },
+                        new() { Id = 8, Name = "La Rioja", Latitude = "-29.41105000", Longitude = "-66.85067000" },
+                        new() { Id = 9, Name = "Villa Bustos", Latitude = "-29.28636000", Longitude = "-67.02067000" },
+                        new() { Id = 10, Name = "Vinchina", Latitude = "-28.75964000", Longitude = "-68.20692000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 13,
                     Name = "Mendoza",
@@ -6277,188 +978,34 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-32.88945870",
                     Longitude = "-68.84583860",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Departamento de Capital",
-                            Latitude = "-32.88469000",
-                            Longitude = "-68.85826000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Departamento de General Alvear",
-                            Latitude = "-35.16667000",
-                            Longitude = "-67.33333000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Departamento de Godoy Cruz",
-                            Latitude = "-32.93333000",
-                            Longitude = "-68.86667000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Departamento de Guaymallén",
-                            Latitude = "-32.88333000",
-                            Longitude = "-68.70000000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Departamento de La Paz",
-                            Latitude = "-33.66667000",
-                            Longitude = "-67.25000000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Departamento de Las Heras",
-                            Latitude = "-32.50000000",
-                            Longitude = "-69.50000000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Departamento de Lavalle",
-                            Latitude = "-32.50000000",
-                            Longitude = "-68.00000000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Departamento de Luján",
-                            Latitude = "-33.00000000",
-                            Longitude = "-69.33333000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Departamento de Maipú",
-                            Latitude = "-33.00000000",
-                            Longitude = "-68.58333000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Departamento de Malargüe",
-                            Latitude = "-36.25000000",
-                            Longitude = "-69.25000000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Departamento de Rivadavia",
-                            Latitude = "-33.18000000",
-                            Longitude = "-68.46600000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Departamento de San Carlos",
-                            Latitude = "-34.00000000",
-                            Longitude = "-69.00000000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Departamento de San Martín",
-                            Latitude = "-32.83730000",
-                            Longitude = "-68.24922000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Departamento de San Rafael",
-                            Latitude = "-35.00000000",
-                            Longitude = "-68.83333000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Departamento de Santa Rosa",
-                            Latitude = "-33.50000000",
-                            Longitude = "-68.00000000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Departamento de Tunuyán",
-                            Latitude = "-33.66667000",
-                            Longitude = "-69.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Departamento de Tupungato",
-                            Latitude = "-33.25000000",
-                            Longitude = "-69.25000000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Godoy Cruz",
-                            Latitude = "-32.92863000",
-                            Longitude = "-68.83510000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Las Heras",
-                            Latitude = "-32.85273000",
-                            Longitude = "-68.82837000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Mendoza",
-                            Latitude = "-32.89084000",
-                            Longitude = "-68.82717000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "San Martín",
-                            Latitude = "-33.08103000",
-                            Longitude = "-68.46814000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "San Rafael",
-                            Latitude = "-34.61772000",
-                            Longitude = "-68.33007000"
-                        }
+                        new() { Id = 1, Name = "Departamento de Capital", Latitude = "-32.88469000", Longitude = "-68.85826000" },
+                        new() { Id = 2, Name = "Departamento de General Alvear", Latitude = "-35.16667000", Longitude = "-67.33333000" },
+                        new() { Id = 3, Name = "Departamento de Godoy Cruz", Latitude = "-32.93333000", Longitude = "-68.86667000" },
+                        new() { Id = 4, Name = "Departamento de Guaymallén", Latitude = "-32.88333000", Longitude = "-68.70000000" },
+                        new() { Id = 5, Name = "Departamento de La Paz", Latitude = "-33.66667000", Longitude = "-67.25000000" },
+                        new() { Id = 6, Name = "Departamento de Las Heras", Latitude = "-32.50000000", Longitude = "-69.50000000" },
+                        new() { Id = 7, Name = "Departamento de Lavalle", Latitude = "-32.50000000", Longitude = "-68.00000000" },
+                        new() { Id = 8, Name = "Departamento de Luján", Latitude = "-33.00000000", Longitude = "-69.33333000" },
+                        new() { Id = 9, Name = "Departamento de Maipú", Latitude = "-33.00000000", Longitude = "-68.58333000" },
+                        new() { Id = 10, Name = "Departamento de Malargüe", Latitude = "-36.25000000", Longitude = "-69.25000000" },
+                        new() { Id = 11, Name = "Departamento de Rivadavia", Latitude = "-33.18000000", Longitude = "-68.46600000" },
+                        new() { Id = 12, Name = "Departamento de San Carlos", Latitude = "-34.00000000", Longitude = "-69.00000000" },
+                        new() { Id = 13, Name = "Departamento de San Martín", Latitude = "-32.83730000", Longitude = "-68.24922000" },
+                        new() { Id = 14, Name = "Departamento de San Rafael", Latitude = "-35.00000000", Longitude = "-68.83333000" },
+                        new() { Id = 15, Name = "Departamento de Santa Rosa", Latitude = "-33.50000000", Longitude = "-68.00000000" },
+                        new() { Id = 16, Name = "Departamento de Tunuyán", Latitude = "-33.66667000", Longitude = "-69.50000000" },
+                        new() { Id = 17, Name = "Departamento de Tupungato", Latitude = "-33.25000000", Longitude = "-69.25000000" },
+                        new() { Id = 18, Name = "Godoy Cruz", Latitude = "-32.92863000", Longitude = "-68.83510000" },
+                        new() { Id = 19, Name = "Las Heras", Latitude = "-32.85273000", Longitude = "-68.82837000" },
+                        new() { Id = 20, Name = "Mendoza", Latitude = "-32.89084000", Longitude = "-68.82717000" },
+                        new() { Id = 21, Name = "San Martín", Latitude = "-33.08103000", Longitude = "-68.46814000" },
+                        new() { Id = 22, Name = "San Rafael", Latitude = "-34.61772000", Longitude = "-68.33007000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 14,
                     Name = "Misiones",
@@ -6466,572 +1013,82 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-27.42692550",
                     Longitude = "-55.94670760",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Alba Posse",
-                            Latitude = "-27.56978000",
-                            Longitude = "-54.68262000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Almafuerte",
-                            Latitude = "-27.50825000",
-                            Longitude = "-55.40258000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Aristóbulo del Valle",
-                            Latitude = "-27.09625000",
-                            Longitude = "-54.89626000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Arroyo del Medio",
-                            Latitude = "-27.69748000",
-                            Longitude = "-55.40376000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Azara",
-                            Latitude = "-28.06160000",
-                            Longitude = "-55.67797000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Bernardo de Irigoyen",
-                            Latitude = "-26.25520000",
-                            Longitude = "-53.64581000"
-                        },
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Bonpland",
-                            Latitude = "-27.48218000",
-                            Longitude = "-55.47756000"
-                        },
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Campo Grande",
-                            Latitude = "-27.20770000",
-                            Longitude = "-54.97977000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Campo Ramón",
-                            Latitude = "-27.45490000",
-                            Longitude = "-55.02122000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Campo Viera",
-                            Latitude = "-27.33271000",
-                            Longitude = "-55.05651000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Candelaria",
-                            Latitude = "-27.45950000",
-                            Longitude = "-55.74536000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Capioví",
-                            Latitude = "-26.92998000",
-                            Longitude = "-55.06084000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Caraguatay",
-                            Latitude = "-26.60587000",
-                            Longitude = "-54.78093000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Cerro Azul",
-                            Latitude = "-27.63310000",
-                            Longitude = "-55.49620000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Cerro Corá",
-                            Latitude = "-27.51310000",
-                            Longitude = "-55.60896000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Colonia Aurora",
-                            Latitude = "-27.47428000",
-                            Longitude = "-54.52498000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Concepción de la Sierra",
-                            Latitude = "-27.98311000",
-                            Longitude = "-55.52031000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Departamento de Apóstoles",
-                            Latitude = "-27.91667000",
-                            Longitude = "-55.75000000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Departamento de Cainguás",
-                            Latitude = "-27.16667000",
-                            Longitude = "-54.83333000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Departamento de Candelaria",
-                            Latitude = "-27.50000000",
-                            Longitude = "-55.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Departamento de Capital",
-                            Latitude = "-27.50000000",
-                            Longitude = "-55.83333000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Departamento de Concepción de la Sierra",
-                            Latitude = "-27.83333000",
-                            Longitude = "-55.41667000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Departamento de Eldorado",
-                            Latitude = "-26.25000000",
-                            Longitude = "-54.41667000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Departamento de General Manuel Belgrano",
-                            Latitude = "-26.16667000",
-                            Longitude = "-53.91667000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Departamento de Guaraní",
-                            Latitude = "-27.16667000",
-                            Longitude = "-54.16667000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Departamento de Iguazú",
-                            Latitude = "-25.86667000",
-                            Longitude = "-54.36667000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Departamento de Leandro N. Alem",
-                            Latitude = "-27.56667000",
-                            Longitude = "-55.33333000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Departamento de Libertador General San Martín",
-                            Latitude = "-26.91667000",
-                            Longitude = "-54.91667000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Departamento de Montecarlo",
-                            Latitude = "-26.71667000",
-                            Longitude = "-54.58333000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Departamento de Oberá",
-                            Latitude = "-27.55000000",
-                            Longitude = "-55.08333000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Departamento de San Ignacio",
-                            Latitude = "-27.25000000",
-                            Longitude = "-55.33333000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Departamento de San Javier",
-                            Latitude = "-27.77806000",
-                            Longitude = "-55.13004000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Departamento de San Pedro",
-                            Latitude = "-26.66667000",
-                            Longitude = "-54.00000000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Departamento de Veinticinco de Mayo",
-                            Latitude = "-27.41667000",
-                            Longitude = "-54.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Dos Arroyos",
-                            Latitude = "-27.69946000",
-                            Longitude = "-55.25207000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Dos de Mayo",
-                            Latitude = "-27.02277000",
-                            Longitude = "-54.68669000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "El Alcázar",
-                            Latitude = "-26.71459000",
-                            Longitude = "-54.81523000"
-                        },
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "El Soberbio",
-                            Latitude = "-27.29847000",
-                            Longitude = "-54.19877000"
-                        },
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Florentino Ameghino",
-                            Latitude = "-27.56667000",
-                            Longitude = "-55.13333000"
-                        },
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Garuhapé",
-                            Latitude = "-26.81768000",
-                            Longitude = "-54.95665000"
-                        },
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Garupá",
-                            Latitude = "-27.48171000",
-                            Longitude = "-55.82921000"
-                        },
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "General Alvear",
-                            Latitude = "-27.42611000",
-                            Longitude = "-55.16916000"
-                        },
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Gobernador Roca",
-                            Latitude = "-27.18636000",
-                            Longitude = "-55.46433000"
-                        },
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "Guaraní",
-                            Latitude = "-27.52323000",
-                            Longitude = "-55.16077000"
-                        },
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "Jardín América",
-                            Latitude = "-27.04346000",
-                            Longitude = "-55.22698000"
-                        },
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "Loreto",
-                            Latitude = "-27.33177000",
-                            Longitude = "-55.52499000"
-                        },
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "Los Helechos",
-                            Latitude = "-27.55051000",
-                            Longitude = "-55.07908000"
-                        },
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "Mártires",
-                            Latitude = "-27.42265000",
-                            Longitude = "-55.37659000"
-                        },
-
-                        new City
-                        {
-                            Id = 49,
-                            Name = "Mojón Grande",
-                            Latitude = "-27.71165000",
-                            Longitude = "-55.15631000"
-                        },
-
-                        new City
-                        {
-                            Id = 50,
-                            Name = "Montecarlo",
-                            Latitude = "-26.56620000",
-                            Longitude = "-54.75700000"
-                        },
-
-                        new City
-                        {
-                            Id = 51,
-                            Name = "Oberá",
-                            Latitude = "-27.48706000",
-                            Longitude = "-55.11994000"
-                        },
-
-                        new City
-                        {
-                            Id = 52,
-                            Name = "Panambí",
-                            Latitude = "-27.72369000",
-                            Longitude = "-54.91515000"
-                        },
-
-                        new City
-                        {
-                            Id = 53,
-                            Name = "Picada Gobernador López",
-                            Latitude = "-27.67069000",
-                            Longitude = "-55.24585000"
-                        },
-
-                        new City
-                        {
-                            Id = 54,
-                            Name = "Posadas",
-                            Latitude = "-27.36708000",
-                            Longitude = "-55.89608000"
-                        },
-
-                        new City
-                        {
-                            Id = 55,
-                            Name = "Puerto Eldorado",
-                            Latitude = "-26.40843000",
-                            Longitude = "-54.69463000"
-                        },
-
-                        new City
-                        {
-                            Id = 56,
-                            Name = "Puerto Esperanza",
-                            Latitude = "-26.02267000",
-                            Longitude = "-54.61356000"
-                        },
-
-                        new City
-                        {
-                            Id = 57,
-                            Name = "Puerto Iguazú",
-                            Latitude = "-25.59912000",
-                            Longitude = "-54.57355000"
-                        },
-
-                        new City
-                        {
-                            Id = 58,
-                            Name = "Puerto Leoni",
-                            Latitude = "-26.98762000",
-                            Longitude = "-55.16569000"
-                        },
-
-                        new City
-                        {
-                            Id = 59,
-                            Name = "Puerto Libertad",
-                            Latitude = "-25.91958000",
-                            Longitude = "-54.58229000"
-                        },
-
-                        new City
-                        {
-                            Id = 60,
-                            Name = "Puerto Piray",
-                            Latitude = "-26.46937000",
-                            Longitude = "-54.70736000"
-                        },
-
-                        new City
-                        {
-                            Id = 61,
-                            Name = "Puerto Rico",
-                            Latitude = "-26.79598000",
-                            Longitude = "-55.02402000"
-                        },
-
-                        new City
-                        {
-                            Id = 62,
-                            Name = "Ruiz de Montoya",
-                            Latitude = "-26.98333000",
-                            Longitude = "-55.05000000"
-                        },
-
-                        new City
-                        {
-                            Id = 63,
-                            Name = "San José",
-                            Latitude = "-27.76979000",
-                            Longitude = "-55.78260000"
-                        },
-
-                        new City
-                        {
-                            Id = 64,
-                            Name = "San Pedro",
-                            Latitude = "-26.62207000",
-                            Longitude = "-54.10842000"
-                        },
-
-                        new City
-                        {
-                            Id = 65,
-                            Name = "San Vicente",
-                            Latitude = "-26.61667000",
-                            Longitude = "-54.13333000"
-                        },
-
-                        new City
-                        {
-                            Id = 66,
-                            Name = "Santa María",
-                            Latitude = "-27.93490000",
-                            Longitude = "-55.40742000"
-                        },
-
-                        new City
-                        {
-                            Id = 67,
-                            Name = "Santo Pipó",
-                            Latitude = "-27.14132000",
-                            Longitude = "-55.40867000"
-                        },
-
-                        new City
-                        {
-                            Id = 68,
-                            Name = "Tres Capones",
-                            Latitude = "-28.00641000",
-                            Longitude = "-55.60471000"
-                        },
-
-                        new City
-                        {
-                            Id = 69,
-                            Name = "Veinticinco de Mayo",
-                            Latitude = "-27.37679000",
-                            Longitude = "-54.74312000"
-                        },
-
-                        new City
-                        {
-                            Id = 70,
-                            Name = "Wanda",
-                            Latitude = "-25.96879000",
-                            Longitude = "-54.56285000"
-                        }
+                        new() { Id = 1, Name = "Alba Posse", Latitude = "-27.56978000", Longitude = "-54.68262000" },
+                        new() { Id = 2, Name = "Almafuerte", Latitude = "-27.50825000", Longitude = "-55.40258000" },
+                        new() { Id = 3, Name = "Aristóbulo del Valle", Latitude = "-27.09625000", Longitude = "-54.89626000" },
+                        new() { Id = 4, Name = "Arroyo del Medio", Latitude = "-27.69748000", Longitude = "-55.40376000" },
+                        new() { Id = 5, Name = "Azara", Latitude = "-28.06160000", Longitude = "-55.67797000" },
+                        new() { Id = 6, Name = "Bernardo de Irigoyen", Latitude = "-26.25520000", Longitude = "-53.64581000" },
+                        new() { Id = 7, Name = "Bonpland", Latitude = "-27.48218000", Longitude = "-55.47756000" },
+                        new() { Id = 8, Name = "Campo Grande", Latitude = "-27.20770000", Longitude = "-54.97977000" },
+                        new() { Id = 9, Name = "Campo Ramón", Latitude = "-27.45490000", Longitude = "-55.02122000" },
+                        new() { Id = 10, Name = "Campo Viera", Latitude = "-27.33271000", Longitude = "-55.05651000" },
+                        new() { Id = 11, Name = "Candelaria", Latitude = "-27.45950000", Longitude = "-55.74536000" },
+                        new() { Id = 12, Name = "Capioví", Latitude = "-26.92998000", Longitude = "-55.06084000" },
+                        new() { Id = 13, Name = "Caraguatay", Latitude = "-26.60587000", Longitude = "-54.78093000" },
+                        new() { Id = 14, Name = "Cerro Azul", Latitude = "-27.63310000", Longitude = "-55.49620000" },
+                        new() { Id = 15, Name = "Cerro Corá", Latitude = "-27.51310000", Longitude = "-55.60896000" },
+                        new() { Id = 16, Name = "Colonia Aurora", Latitude = "-27.47428000", Longitude = "-54.52498000" },
+                        new() { Id = 17, Name = "Concepción de la Sierra", Latitude = "-27.98311000", Longitude = "-55.52031000" },
+                        new() { Id = 18, Name = "Departamento de Apóstoles", Latitude = "-27.91667000", Longitude = "-55.75000000" },
+                        new() { Id = 19, Name = "Departamento de Cainguás", Latitude = "-27.16667000", Longitude = "-54.83333000" },
+                        new() { Id = 20, Name = "Departamento de Candelaria", Latitude = "-27.50000000", Longitude = "-55.50000000" },
+                        new() { Id = 21, Name = "Departamento de Capital", Latitude = "-27.50000000", Longitude = "-55.83333000" },
+                        new() { Id = 22, Name = "Departamento de Concepción de la Sierra", Latitude = "-27.83333000", Longitude = "-55.41667000" },
+                        new() { Id = 23, Name = "Departamento de Eldorado", Latitude = "-26.25000000", Longitude = "-54.41667000" },
+                        new() { Id = 24, Name = "Departamento de General Manuel Belgrano", Latitude = "-26.16667000", Longitude = "-53.91667000" },
+                        new() { Id = 25, Name = "Departamento de Guaraní", Latitude = "-27.16667000", Longitude = "-54.16667000" },
+                        new() { Id = 26, Name = "Departamento de Iguazú", Latitude = "-25.86667000", Longitude = "-54.36667000" },
+                        new() { Id = 27, Name = "Departamento de Leandro N. Alem", Latitude = "-27.56667000", Longitude = "-55.33333000" },
+                        new() { Id = 28, Name = "Departamento de Libertador General San Martín", Latitude = "-26.91667000", Longitude = "-54.91667000" },
+                        new() { Id = 29, Name = "Departamento de Montecarlo", Latitude = "-26.71667000", Longitude = "-54.58333000" },
+                        new() { Id = 30, Name = "Departamento de Oberá", Latitude = "-27.55000000", Longitude = "-55.08333000" },
+                        new() { Id = 31, Name = "Departamento de San Ignacio", Latitude = "-27.25000000", Longitude = "-55.33333000" },
+                        new() { Id = 32, Name = "Departamento de San Javier", Latitude = "-27.77806000", Longitude = "-55.13004000" },
+                        new() { Id = 33, Name = "Departamento de San Pedro", Latitude = "-26.66667000", Longitude = "-54.00000000" },
+                        new() { Id = 34, Name = "Departamento de Veinticinco de Mayo", Latitude = "-27.41667000", Longitude = "-54.66667000" },
+                        new() { Id = 35, Name = "Dos Arroyos", Latitude = "-27.69946000", Longitude = "-55.25207000" },
+                        new() { Id = 36, Name = "Dos de Mayo", Latitude = "-27.02277000", Longitude = "-54.68669000" },
+                        new() { Id = 37, Name = "El Alcázar", Latitude = "-26.71459000", Longitude = "-54.81523000" },
+                        new() { Id = 38, Name = "El Soberbio", Latitude = "-27.29847000", Longitude = "-54.19877000" },
+                        new() { Id = 39, Name = "Florentino Ameghino", Latitude = "-27.56667000", Longitude = "-55.13333000" },
+                        new() { Id = 40, Name = "Garuhapé", Latitude = "-26.81768000", Longitude = "-54.95665000" },
+                        new() { Id = 41, Name = "Garupá", Latitude = "-27.48171000", Longitude = "-55.82921000" },
+                        new() { Id = 42, Name = "General Alvear", Latitude = "-27.42611000", Longitude = "-55.16916000" },
+                        new() { Id = 43, Name = "Gobernador Roca", Latitude = "-27.18636000", Longitude = "-55.46433000" },
+                        new() { Id = 44, Name = "Guaraní", Latitude = "-27.52323000", Longitude = "-55.16077000" },
+                        new() { Id = 45, Name = "Jardín América", Latitude = "-27.04346000", Longitude = "-55.22698000" },
+                        new() { Id = 46, Name = "Loreto", Latitude = "-27.33177000", Longitude = "-55.52499000" },
+                        new() { Id = 47, Name = "Los Helechos", Latitude = "-27.55051000", Longitude = "-55.07908000" },
+                        new() { Id = 48, Name = "Mártires", Latitude = "-27.42265000", Longitude = "-55.37659000" },
+                        new() { Id = 49, Name = "Mojón Grande", Latitude = "-27.71165000", Longitude = "-55.15631000" },
+                        new() { Id = 50, Name = "Montecarlo", Latitude = "-26.56620000", Longitude = "-54.75700000" },
+                        new() { Id = 51, Name = "Oberá", Latitude = "-27.48706000", Longitude = "-55.11994000" },
+                        new() { Id = 52, Name = "Panambí", Latitude = "-27.72369000", Longitude = "-54.91515000" },
+                        new() { Id = 53, Name = "Picada Gobernador López", Latitude = "-27.67069000", Longitude = "-55.24585000" },
+                        new() { Id = 54, Name = "Posadas", Latitude = "-27.36708000", Longitude = "-55.89608000" },
+                        new() { Id = 55, Name = "Puerto Eldorado", Latitude = "-26.40843000", Longitude = "-54.69463000" },
+                        new() { Id = 56, Name = "Puerto Esperanza", Latitude = "-26.02267000", Longitude = "-54.61356000" },
+                        new() { Id = 57, Name = "Puerto Iguazú", Latitude = "-25.59912000", Longitude = "-54.57355000" },
+                        new() { Id = 58, Name = "Puerto Leoni", Latitude = "-26.98762000", Longitude = "-55.16569000" },
+                        new() { Id = 59, Name = "Puerto Libertad", Latitude = "-25.91958000", Longitude = "-54.58229000" },
+                        new() { Id = 60, Name = "Puerto Piray", Latitude = "-26.46937000", Longitude = "-54.70736000" },
+                        new() { Id = 61, Name = "Puerto Rico", Latitude = "-26.79598000", Longitude = "-55.02402000" },
+                        new() { Id = 62, Name = "Ruiz de Montoya", Latitude = "-26.98333000", Longitude = "-55.05000000" },
+                        new() { Id = 63, Name = "San José", Latitude = "-27.76979000", Longitude = "-55.78260000" },
+                        new() { Id = 64, Name = "San Pedro", Latitude = "-26.62207000", Longitude = "-54.10842000" },
+                        new() { Id = 65, Name = "San Vicente", Latitude = "-26.61667000", Longitude = "-54.13333000" },
+                        new() { Id = 66, Name = "Santa María", Latitude = "-27.93490000", Longitude = "-55.40742000" },
+                        new() { Id = 67, Name = "Santo Pipó", Latitude = "-27.14132000", Longitude = "-55.40867000" },
+                        new() { Id = 68, Name = "Tres Capones", Latitude = "-28.00641000", Longitude = "-55.60471000" },
+                        new() { Id = 69, Name = "Veinticinco de Mayo", Latitude = "-27.37679000", Longitude = "-54.74312000" },
+                        new() { Id = 70, Name = "Wanda", Latitude = "-25.96879000", Longitude = "-54.56285000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 15,
                     Name = "Neuquén",
@@ -7039,284 +1096,46 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-38.94587000",
                     Longitude = "-68.07309250",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Aluminé",
-                            Latitude = "-39.23686000",
-                            Longitude = "-70.91970000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Andacollo",
-                            Latitude = "-37.17945000",
-                            Longitude = "-70.66912000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Añelo",
-                            Latitude = "-38.35441000",
-                            Longitude = "-68.78840000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Barrancas",
-                            Latitude = "-36.82344000",
-                            Longitude = "-69.91564000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Buta Ranquil",
-                            Latitude = "-37.05222000",
-                            Longitude = "-69.87713000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Centenario",
-                            Latitude = "-38.82955000",
-                            Longitude = "-68.13180000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Chos Malal",
-                            Latitude = "-37.37809000",
-                            Longitude = "-70.27085000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Cutral-Có",
-                            Latitude = "-38.93424000",
-                            Longitude = "-69.23052000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Departamento de Aluminé",
-                            Latitude = "-39.16667000",
-                            Longitude = "-71.00000000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Departamento de Añelo",
-                            Latitude = "-38.16667000",
-                            Longitude = "-69.00000000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Departamento de Catán-Lil",
-                            Latitude = "-39.50000000",
-                            Longitude = "-70.33333000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Departamento de Chos-Malal",
-                            Latitude = "-36.91667000",
-                            Longitude = "-70.16667000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Departamento de Collón-Curá",
-                            Latitude = "-40.08333000",
-                            Longitude = "-70.16667000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Departamento de Confluencia",
-                            Latitude = "-38.83333000",
-                            Longitude = "-68.83333000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Departamento de Lácar",
-                            Latitude = "-40.25000000",
-                            Longitude = "-71.20000000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Departamento de Minas",
-                            Latitude = "-36.83333000",
-                            Longitude = "-70.83333000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Departamento de Zapala",
-                            Latitude = "-39.00000000",
-                            Longitude = "-69.83333000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "El Huecú",
-                            Latitude = "-37.64522000",
-                            Longitude = "-70.58006000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Junín de los Andes",
-                            Latitude = "-39.95043000",
-                            Longitude = "-71.06936000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Las Coloradas",
-                            Latitude = "-39.55534000",
-                            Longitude = "-70.59491000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Las Lajas",
-                            Latitude = "-38.52322000",
-                            Longitude = "-70.36745000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Las Ovejas",
-                            Latitude = "-36.98881000",
-                            Longitude = "-70.74991000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Loncopué",
-                            Latitude = "-38.07284000",
-                            Longitude = "-70.61609000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Mariano Moreno",
-                            Latitude = "-38.75029000",
-                            Longitude = "-70.02367000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Neuquén",
-                            Latitude = "-38.95161000",
-                            Longitude = "-68.05910000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Picún Leufú",
-                            Latitude = "-39.51614000",
-                            Longitude = "-69.28765000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Piedra del Águila",
-                            Latitude = "-40.04811000",
-                            Longitude = "-70.07410000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Plaza Huincul",
-                            Latitude = "-38.92598000",
-                            Longitude = "-69.20863000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Plottier",
-                            Latitude = "-38.96667000",
-                            Longitude = "-68.23333000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "San Martín de los Andes",
-                            Latitude = "-40.15789000",
-                            Longitude = "-71.35337000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Senillosa",
-                            Latitude = "-39.01412000",
-                            Longitude = "-68.43281000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Villa La Angostura",
-                            Latitude = "-40.76173000",
-                            Longitude = "-71.64631000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Vista Alegre",
-                            Latitude = "-38.75000000",
-                            Longitude = "-68.18333000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Zapala",
-                            Latitude = "-38.89916000",
-                            Longitude = "-70.05442000"
-                        }
+                        new() { Id = 1, Name = "Aluminé", Latitude = "-39.23686000", Longitude = "-70.91970000" },
+                        new() { Id = 2, Name = "Andacollo", Latitude = "-37.17945000", Longitude = "-70.66912000" },
+                        new() { Id = 3, Name = "Añelo", Latitude = "-38.35441000", Longitude = "-68.78840000" },
+                        new() { Id = 4, Name = "Barrancas", Latitude = "-36.82344000", Longitude = "-69.91564000" },
+                        new() { Id = 5, Name = "Buta Ranquil", Latitude = "-37.05222000", Longitude = "-69.87713000" },
+                        new() { Id = 6, Name = "Centenario", Latitude = "-38.82955000", Longitude = "-68.13180000" },
+                        new() { Id = 7, Name = "Chos Malal", Latitude = "-37.37809000", Longitude = "-70.27085000" },
+                        new() { Id = 8, Name = "Cutral-Có", Latitude = "-38.93424000", Longitude = "-69.23052000" },
+                        new() { Id = 9, Name = "Departamento de Aluminé", Latitude = "-39.16667000", Longitude = "-71.00000000" },
+                        new() { Id = 10, Name = "Departamento de Añelo", Latitude = "-38.16667000", Longitude = "-69.00000000" },
+                        new() { Id = 11, Name = "Departamento de Catán-Lil", Latitude = "-39.50000000", Longitude = "-70.33333000" },
+                        new() { Id = 12, Name = "Departamento de Chos-Malal", Latitude = "-36.91667000", Longitude = "-70.16667000" },
+                        new() { Id = 13, Name = "Departamento de Collón-Curá", Latitude = "-40.08333000", Longitude = "-70.16667000" },
+                        new() { Id = 14, Name = "Departamento de Confluencia", Latitude = "-38.83333000", Longitude = "-68.83333000" },
+                        new() { Id = 15, Name = "Departamento de Lácar", Latitude = "-40.25000000", Longitude = "-71.20000000" },
+                        new() { Id = 16, Name = "Departamento de Minas", Latitude = "-36.83333000", Longitude = "-70.83333000" },
+                        new() { Id = 17, Name = "Departamento de Zapala", Latitude = "-39.00000000", Longitude = "-69.83333000" },
+                        new() { Id = 18, Name = "El Huecú", Latitude = "-37.64522000", Longitude = "-70.58006000" },
+                        new() { Id = 19, Name = "Junín de los Andes", Latitude = "-39.95043000", Longitude = "-71.06936000" },
+                        new() { Id = 20, Name = "Las Coloradas", Latitude = "-39.55534000", Longitude = "-70.59491000" },
+                        new() { Id = 21, Name = "Las Lajas", Latitude = "-38.52322000", Longitude = "-70.36745000" },
+                        new() { Id = 22, Name = "Las Ovejas", Latitude = "-36.98881000", Longitude = "-70.74991000" },
+                        new() { Id = 23, Name = "Loncopué", Latitude = "-38.07284000", Longitude = "-70.61609000" },
+                        new() { Id = 24, Name = "Mariano Moreno", Latitude = "-38.75029000", Longitude = "-70.02367000" },
+                        new() { Id = 25, Name = "Neuquén", Latitude = "-38.95161000", Longitude = "-68.05910000" },
+                        new() { Id = 26, Name = "Picún Leufú", Latitude = "-39.51614000", Longitude = "-69.28765000" },
+                        new() { Id = 27, Name = "Piedra del Águila", Latitude = "-40.04811000", Longitude = "-70.07410000" },
+                        new() { Id = 28, Name = "Plaza Huincul", Latitude = "-38.92598000", Longitude = "-69.20863000" },
+                        new() { Id = 29, Name = "Plottier", Latitude = "-38.96667000", Longitude = "-68.23333000" },
+                        new() { Id = 30, Name = "San Martín de los Andes", Latitude = "-40.15789000", Longitude = "-71.35337000" },
+                        new() { Id = 31, Name = "Senillosa", Latitude = "-39.01412000", Longitude = "-68.43281000" },
+                        new() { Id = 32, Name = "Villa La Angostura", Latitude = "-40.76173000", Longitude = "-71.64631000" },
+                        new() { Id = 33, Name = "Vista Alegre", Latitude = "-38.75000000", Longitude = "-68.18333000" },
+                        new() { Id = 34, Name = "Zapala", Latitude = "-38.89916000", Longitude = "-70.05442000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 16,
                     Name = "Río Negro",
@@ -7324,308 +1143,49 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-40.82614340",
                     Longitude = "-63.02663390",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Allen",
-                            Latitude = "-38.97736000",
-                            Longitude = "-67.82714000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Catriel",
-                            Latitude = "-37.87907000",
-                            Longitude = "-67.79560000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Cervantes",
-                            Latitude = "-39.05444000",
-                            Longitude = "-67.39426000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Chichinales",
-                            Latitude = "-39.11505000",
-                            Longitude = "-66.92714000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Chimpay",
-                            Latitude = "-39.16482000",
-                            Longitude = "-66.14236000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Choele Choel",
-                            Latitude = "-39.28941000",
-                            Longitude = "-65.66060000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Cinco Saltos",
-                            Latitude = "-38.82225000",
-                            Longitude = "-68.06293000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Cipolletti",
-                            Latitude = "-38.93392000",
-                            Longitude = "-67.99032000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Comallo",
-                            Latitude = "-41.02993000",
-                            Longitude = "-70.26784000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Contraalmirante Cordero",
-                            Latitude = "-38.72423000",
-                            Longitude = "-68.15284000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Coronel Belisle",
-                            Latitude = "-39.18688000",
-                            Longitude = "-65.95422000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Darwin",
-                            Latitude = "-39.20334000",
-                            Longitude = "-65.73952000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Departamento de Avellaneda",
-                            Latitude = "-39.50000000",
-                            Longitude = "-66.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Departamento de Veinticinco de Mayo",
-                            Latitude = "-41.25000000",
-                            Longitude = "-69.00000000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "El Bolsón",
-                            Latitude = "-41.96051000",
-                            Longitude = "-71.53336000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "El Cuy",
-                            Latitude = "-39.92685000",
-                            Longitude = "-68.34208000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Fray Luis Beltrán",
-                            Latitude = "-39.31369000",
-                            Longitude = "-65.76002000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "General Conesa",
-                            Latitude = "-40.10408000",
-                            Longitude = "-64.45592000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "General Enrique Godoy",
-                            Latitude = "-39.07891000",
-                            Longitude = "-67.15807000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "General Fernández Oro",
-                            Latitude = "-38.95297000",
-                            Longitude = "-67.92489000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "General Roca",
-                            Latitude = "-39.03333000",
-                            Longitude = "-67.58333000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Ingeniero Jacobacci",
-                            Latitude = "-41.32920000",
-                            Longitude = "-69.55015000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Ingeniero Luis A. Huergo",
-                            Latitude = "-39.07146000",
-                            Longitude = "-67.23790000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Lamarque",
-                            Latitude = "-39.42304000",
-                            Longitude = "-65.70208000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Los Menucos",
-                            Latitude = "-40.84402000",
-                            Longitude = "-68.08718000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Mainque",
-                            Latitude = "-39.06667000",
-                            Longitude = "-67.30000000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Maquinchao",
-                            Latitude = "-41.24912000",
-                            Longitude = "-68.70321000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Ñorquinco",
-                            Latitude = "-41.85072000",
-                            Longitude = "-70.90173000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Pilcaniyeu",
-                            Latitude = "-41.12288000",
-                            Longitude = "-70.72152000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Río Colorado",
-                            Latitude = "-38.99397000",
-                            Longitude = "-64.09295000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "San Antonio Oeste",
-                            Latitude = "-40.73193000",
-                            Longitude = "-64.94769000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "San Carlos de Bariloche",
-                            Latitude = "-41.14557000",
-                            Longitude = "-71.30822000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Sierra Colorada",
-                            Latitude = "-40.58487000",
-                            Longitude = "-67.75674000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Sierra Grande",
-                            Latitude = "-41.60603000",
-                            Longitude = "-65.35574000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Valcheta",
-                            Latitude = "-40.67989000",
-                            Longitude = "-66.16283000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Viedma",
-                            Latitude = "-40.81345000",
-                            Longitude = "-62.99668000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Villa Regina",
-                            Latitude = "-39.10000000",
-                            Longitude = "-67.06667000"
-                        }
+                        new() { Id = 1, Name = "Allen", Latitude = "-38.97736000", Longitude = "-67.82714000" },
+                        new() { Id = 2, Name = "Catriel", Latitude = "-37.87907000", Longitude = "-67.79560000" },
+                        new() { Id = 3, Name = "Cervantes", Latitude = "-39.05444000", Longitude = "-67.39426000" },
+                        new() { Id = 4, Name = "Chichinales", Latitude = "-39.11505000", Longitude = "-66.92714000" },
+                        new() { Id = 5, Name = "Chimpay", Latitude = "-39.16482000", Longitude = "-66.14236000" },
+                        new() { Id = 6, Name = "Choele Choel", Latitude = "-39.28941000", Longitude = "-65.66060000" },
+                        new() { Id = 7, Name = "Cinco Saltos", Latitude = "-38.82225000", Longitude = "-68.06293000" },
+                        new() { Id = 8, Name = "Cipolletti", Latitude = "-38.93392000", Longitude = "-67.99032000" },
+                        new() { Id = 9, Name = "Comallo", Latitude = "-41.02993000", Longitude = "-70.26784000" },
+                        new() { Id = 10, Name = "Contraalmirante Cordero", Latitude = "-38.72423000", Longitude = "-68.15284000" },
+                        new() { Id = 11, Name = "Coronel Belisle", Latitude = "-39.18688000", Longitude = "-65.95422000" },
+                        new() { Id = 12, Name = "Darwin", Latitude = "-39.20334000", Longitude = "-65.73952000" },
+                        new() { Id = 13, Name = "Departamento de Avellaneda", Latitude = "-39.50000000", Longitude = "-66.50000000" },
+                        new() { Id = 14, Name = "Departamento de Veinticinco de Mayo", Latitude = "-41.25000000", Longitude = "-69.00000000" },
+                        new() { Id = 15, Name = "El Bolsón", Latitude = "-41.96051000", Longitude = "-71.53336000" },
+                        new() { Id = 16, Name = "El Cuy", Latitude = "-39.92685000", Longitude = "-68.34208000" },
+                        new() { Id = 17, Name = "Fray Luis Beltrán", Latitude = "-39.31369000", Longitude = "-65.76002000" },
+                        new() { Id = 18, Name = "General Conesa", Latitude = "-40.10408000", Longitude = "-64.45592000" },
+                        new() { Id = 19, Name = "General Enrique Godoy", Latitude = "-39.07891000", Longitude = "-67.15807000" },
+                        new() { Id = 20, Name = "General Fernández Oro", Latitude = "-38.95297000", Longitude = "-67.92489000" },
+                        new() { Id = 21, Name = "General Roca", Latitude = "-39.03333000", Longitude = "-67.58333000" },
+                        new() { Id = 22, Name = "Ingeniero Jacobacci", Latitude = "-41.32920000", Longitude = "-69.55015000" },
+                        new() { Id = 23, Name = "Ingeniero Luis A. Huergo", Latitude = "-39.07146000", Longitude = "-67.23790000" },
+                        new() { Id = 24, Name = "Lamarque", Latitude = "-39.42304000", Longitude = "-65.70208000" },
+                        new() { Id = 25, Name = "Los Menucos", Latitude = "-40.84402000", Longitude = "-68.08718000" },
+                        new() { Id = 26, Name = "Mainque", Latitude = "-39.06667000", Longitude = "-67.30000000" },
+                        new() { Id = 27, Name = "Maquinchao", Latitude = "-41.24912000", Longitude = "-68.70321000" },
+                        new() { Id = 28, Name = "Ñorquinco", Latitude = "-41.85072000", Longitude = "-70.90173000" },
+                        new() { Id = 29, Name = "Pilcaniyeu", Latitude = "-41.12288000", Longitude = "-70.72152000" },
+                        new() { Id = 30, Name = "Río Colorado", Latitude = "-38.99397000", Longitude = "-64.09295000" },
+                        new() { Id = 31, Name = "San Antonio Oeste", Latitude = "-40.73193000", Longitude = "-64.94769000" },
+                        new() { Id = 32, Name = "San Carlos de Bariloche", Latitude = "-41.14557000", Longitude = "-71.30822000" },
+                        new() { Id = 33, Name = "Sierra Colorada", Latitude = "-40.58487000", Longitude = "-67.75674000" },
+                        new() { Id = 34, Name = "Sierra Grande", Latitude = "-41.60603000", Longitude = "-65.35574000" },
+                        new() { Id = 35, Name = "Valcheta", Latitude = "-40.67989000", Longitude = "-66.16283000" },
+                        new() { Id = 36, Name = "Viedma", Latitude = "-40.81345000", Longitude = "-62.99668000" },
+                        new() { Id = 37, Name = "Villa Regina", Latitude = "-39.10000000", Longitude = "-67.06667000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 17,
                     Name = "Salta",
@@ -7633,276 +1193,45 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-24.79976880",
                     Longitude = "-65.41503670",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Apolinario Saravia",
-                            Latitude = "-24.43276000",
-                            Longitude = "-63.99535000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Cachí",
-                            Latitude = "-25.12033000",
-                            Longitude = "-66.16519000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Cafayate",
-                            Latitude = "-26.08333000",
-                            Longitude = "-65.83333000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Campo Quijano",
-                            Latitude = "-24.90982000",
-                            Longitude = "-65.63656000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Chicoana",
-                            Latitude = "-25.10502000",
-                            Longitude = "-65.53473000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Departamento Capital",
-                            Latitude = "-24.83333000",
-                            Longitude = "-65.33333000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Departamento de Anta",
-                            Latitude = "-24.91667000",
-                            Longitude = "-64.00000000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Departamento de Cerrillos",
-                            Latitude = "-25.00000000",
-                            Longitude = "-65.41667000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Departamento de Chicoana",
-                            Latitude = "-25.11583000",
-                            Longitude = "-65.59466000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Departamento de General Güemes",
-                            Latitude = "-24.79464000",
-                            Longitude = "-64.94393000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Departamento de Guachipas",
-                            Latitude = "-25.66667000",
-                            Longitude = "-65.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Departamento de Iruya",
-                            Latitude = "-22.80000000",
-                            Longitude = "-64.91667000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Departamento de La Poma",
-                            Latitude = "-24.16667000",
-                            Longitude = "-66.16667000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Departamento de La Viña",
-                            Latitude = "-25.50000000",
-                            Longitude = "-65.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Departamento de Los Andes",
-                            Latitude = "-24.50000000",
-                            Longitude = "-67.33333000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Departamento de Metán",
-                            Latitude = "-25.50000000",
-                            Longitude = "-64.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Departamento de Rivadavia",
-                            Latitude = "-23.66667000",
-                            Longitude = "-62.91667000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Departamento de Rosario de la Frontera",
-                            Latitude = "-25.91667000",
-                            Longitude = "-64.83333000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Departamento de Rosario de Lerma",
-                            Latitude = "-24.58333000",
-                            Longitude = "-65.83333000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Departamento de San Carlos",
-                            Latitude = "-25.75000000",
-                            Longitude = "-66.08333000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "El Carril",
-                            Latitude = "-25.07410000",
-                            Longitude = "-65.49174000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "El Galpón",
-                            Latitude = "-25.38069000",
-                            Longitude = "-64.65259000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "El Quebrachal",
-                            Latitude = "-25.28333000",
-                            Longitude = "-64.06667000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Embarcación",
-                            Latitude = "-23.21003000",
-                            Longitude = "-64.09965000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "General Enrique Mosconi",
-                            Latitude = "-22.59588000",
-                            Longitude = "-63.81255000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Joaquín V. González",
-                            Latitude = "-25.11364000",
-                            Longitude = "-64.12628000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "La Caldera",
-                            Latitude = "-24.58333000",
-                            Longitude = "-65.41667000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Las Lajitas",
-                            Latitude = "-24.72762000",
-                            Longitude = "-64.19335000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Salta",
-                            Latitude = "-24.78590000",
-                            Longitude = "-65.41166000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "San Antonio de los Cobres",
-                            Latitude = "-24.21804000",
-                            Longitude = "-66.31877000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "San Ramón de la Nueva Orán",
-                            Latitude = "-23.13705000",
-                            Longitude = "-64.32426000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Santa Rosa de Tastil",
-                            Latitude = "-24.45166000",
-                            Longitude = "-65.97452000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Tartagal",
-                            Latitude = "-22.51637000",
-                            Longitude = "-63.80131000"
-                        }
+                        new() { Id = 1, Name = "Apolinario Saravia", Latitude = "-24.43276000", Longitude = "-63.99535000" },
+                        new() { Id = 2, Name = "Cachí", Latitude = "-25.12033000", Longitude = "-66.16519000" },
+                        new() { Id = 3, Name = "Cafayate", Latitude = "-26.08333000", Longitude = "-65.83333000" },
+                        new() { Id = 4, Name = "Campo Quijano", Latitude = "-24.90982000", Longitude = "-65.63656000" },
+                        new() { Id = 5, Name = "Chicoana", Latitude = "-25.10502000", Longitude = "-65.53473000" },
+                        new() { Id = 6, Name = "Departamento Capital", Latitude = "-24.83333000", Longitude = "-65.33333000" },
+                        new() { Id = 7, Name = "Departamento de Anta", Latitude = "-24.91667000", Longitude = "-64.00000000" },
+                        new() { Id = 8, Name = "Departamento de Cerrillos", Latitude = "-25.00000000", Longitude = "-65.41667000" },
+                        new() { Id = 9, Name = "Departamento de Chicoana", Latitude = "-25.11583000", Longitude = "-65.59466000" },
+                        new() { Id = 10, Name = "Departamento de General Güemes", Latitude = "-24.79464000", Longitude = "-64.94393000" },
+                        new() { Id = 11, Name = "Departamento de Guachipas", Latitude = "-25.66667000", Longitude = "-65.50000000" },
+                        new() { Id = 12, Name = "Departamento de Iruya", Latitude = "-22.80000000", Longitude = "-64.91667000" },
+                        new() { Id = 13, Name = "Departamento de La Poma", Latitude = "-24.16667000", Longitude = "-66.16667000" },
+                        new() { Id = 14, Name = "Departamento de La Viña", Latitude = "-25.50000000", Longitude = "-65.66667000" },
+                        new() { Id = 15, Name = "Departamento de Los Andes", Latitude = "-24.50000000", Longitude = "-67.33333000" },
+                        new() { Id = 16, Name = "Departamento de Metán", Latitude = "-25.50000000", Longitude = "-64.66667000" },
+                        new() { Id = 17, Name = "Departamento de Rivadavia", Latitude = "-23.66667000", Longitude = "-62.91667000" },
+                        new() { Id = 18, Name = "Departamento de Rosario de la Frontera", Latitude = "-25.91667000", Longitude = "-64.83333000" },
+                        new() { Id = 19, Name = "Departamento de Rosario de Lerma", Latitude = "-24.58333000", Longitude = "-65.83333000" },
+                        new() { Id = 20, Name = "Departamento de San Carlos", Latitude = "-25.75000000", Longitude = "-66.08333000" },
+                        new() { Id = 21, Name = "El Carril", Latitude = "-25.07410000", Longitude = "-65.49174000" },
+                        new() { Id = 22, Name = "El Galpón", Latitude = "-25.38069000", Longitude = "-64.65259000" },
+                        new() { Id = 23, Name = "El Quebrachal", Latitude = "-25.28333000", Longitude = "-64.06667000" },
+                        new() { Id = 24, Name = "Embarcación", Latitude = "-23.21003000", Longitude = "-64.09965000" },
+                        new() { Id = 25, Name = "General Enrique Mosconi", Latitude = "-22.59588000", Longitude = "-63.81255000" },
+                        new() { Id = 26, Name = "Joaquín V. González", Latitude = "-25.11364000", Longitude = "-64.12628000" },
+                        new() { Id = 27, Name = "La Caldera", Latitude = "-24.58333000", Longitude = "-65.41667000" },
+                        new() { Id = 28, Name = "Las Lajitas", Latitude = "-24.72762000", Longitude = "-64.19335000" },
+                        new() { Id = 29, Name = "Salta", Latitude = "-24.78590000", Longitude = "-65.41166000" },
+                        new() { Id = 30, Name = "San Antonio de los Cobres", Latitude = "-24.21804000", Longitude = "-66.31877000" },
+                        new() { Id = 31, Name = "San Ramón de la Nueva Orán", Latitude = "-23.13705000", Longitude = "-64.32426000" },
+                        new() { Id = 32, Name = "Santa Rosa de Tastil", Latitude = "-24.45166000", Longitude = "-65.97452000" },
+                        new() { Id = 33, Name = "Tartagal", Latitude = "-22.51637000", Longitude = "-63.80131000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 18,
                     Name = "San Juan",
@@ -7910,244 +1239,41 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-31.53169760",
                     Longitude = "-68.56769620",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Albardón",
-                            Latitude = "-31.43722000",
-                            Longitude = "-68.52556000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Calingasta",
-                            Latitude = "-31.33394000",
-                            Longitude = "-69.42080000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Caucete",
-                            Latitude = "-31.65179000",
-                            Longitude = "-68.28105000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Chimbas",
-                            Latitude = "-31.48333000",
-                            Longitude = "-68.53333000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Departamento de Albardón",
-                            Latitude = "-31.28333000",
-                            Longitude = "-68.41667000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Departamento de Angaco",
-                            Latitude = "-31.20000000",
-                            Longitude = "-68.13333000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Departamento de Calingasta",
-                            Latitude = "-31.50000000",
-                            Longitude = "-69.75000000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Departamento de Capital",
-                            Latitude = "-31.53333000",
-                            Longitude = "-68.53333000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Departamento de Caucete",
-                            Latitude = "-31.45000000",
-                            Longitude = "-67.66667000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Departamento de Chimbas",
-                            Latitude = "-31.48738000",
-                            Longitude = "-68.52691000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Departamento de Iglesia",
-                            Latitude = "-29.33333000",
-                            Longitude = "-69.58333000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Departamento de Jáchal",
-                            Latitude = "-30.50000000",
-                            Longitude = "-68.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Departamento de Nueve de Julio",
-                            Latitude = "-31.65072000",
-                            Longitude = "-68.38925000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Departamento de Rawson",
-                            Latitude = "-31.70000000",
-                            Longitude = "-68.46667000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Departamento de Rivadavia",
-                            Latitude = "-31.56450000",
-                            Longitude = "-68.65219000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Departamento de San Martín",
-                            Latitude = "-31.50000000",
-                            Longitude = "-68.25000000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Departamento de Santa Lucía",
-                            Latitude = "-31.53333000",
-                            Longitude = "-68.46667000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Departamento de Sarmiento",
-                            Latitude = "-32.00000000",
-                            Longitude = "-68.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Departamento de Ullúm",
-                            Latitude = "-31.00000000",
-                            Longitude = "-68.91667000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Departamento de Zonda",
-                            Latitude = "-31.68260000",
-                            Longitude = "-68.89938000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Nueve de Julio",
-                            Latitude = "-31.66914000",
-                            Longitude = "-68.39023000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Pocito",
-                            Latitude = "-31.68333000",
-                            Longitude = "-68.58333000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "San Agustín de Valle Fértil",
-                            Latitude = "-30.63353000",
-                            Longitude = "-67.46821000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "San José de Jáchal",
-                            Latitude = "-30.24057000",
-                            Longitude = "-68.74693000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "San Juan",
-                            Latitude = "-31.53750000",
-                            Longitude = "-68.53639000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "San Martín",
-                            Latitude = "-31.42957000",
-                            Longitude = "-68.50065000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Santa Lucía",
-                            Latitude = "-31.53987000",
-                            Longitude = "-68.49503000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Villa Basilio Nievas",
-                            Latitude = "-31.55000000",
-                            Longitude = "-68.73333000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Villa Paula de Sarmiento",
-                            Latitude = "-31.49330000",
-                            Longitude = "-68.53838000"
-                        }
+                        new() { Id = 1, Name = "Albardón", Latitude = "-31.43722000", Longitude = "-68.52556000" },
+                        new() { Id = 2, Name = "Calingasta", Latitude = "-31.33394000", Longitude = "-69.42080000" },
+                        new() { Id = 3, Name = "Caucete", Latitude = "-31.65179000", Longitude = "-68.28105000" },
+                        new() { Id = 4, Name = "Chimbas", Latitude = "-31.48333000", Longitude = "-68.53333000" },
+                        new() { Id = 5, Name = "Departamento de Albardón", Latitude = "-31.28333000", Longitude = "-68.41667000" },
+                        new() { Id = 6, Name = "Departamento de Angaco", Latitude = "-31.20000000", Longitude = "-68.13333000" },
+                        new() { Id = 7, Name = "Departamento de Calingasta", Latitude = "-31.50000000", Longitude = "-69.75000000" },
+                        new() { Id = 8, Name = "Departamento de Capital", Latitude = "-31.53333000", Longitude = "-68.53333000" },
+                        new() { Id = 9, Name = "Departamento de Caucete", Latitude = "-31.45000000", Longitude = "-67.66667000" },
+                        new() { Id = 10, Name = "Departamento de Chimbas", Latitude = "-31.48738000", Longitude = "-68.52691000" },
+                        new() { Id = 11, Name = "Departamento de Iglesia", Latitude = "-29.33333000", Longitude = "-69.58333000" },
+                        new() { Id = 12, Name = "Departamento de Jáchal", Latitude = "-30.50000000", Longitude = "-68.50000000" },
+                        new() { Id = 13, Name = "Departamento de Nueve de Julio", Latitude = "-31.65072000", Longitude = "-68.38925000" },
+                        new() { Id = 14, Name = "Departamento de Rawson", Latitude = "-31.70000000", Longitude = "-68.46667000" },
+                        new() { Id = 15, Name = "Departamento de Rivadavia", Latitude = "-31.56450000", Longitude = "-68.65219000" },
+                        new() { Id = 16, Name = "Departamento de San Martín", Latitude = "-31.50000000", Longitude = "-68.25000000" },
+                        new() { Id = 17, Name = "Departamento de Santa Lucía", Latitude = "-31.53333000", Longitude = "-68.46667000" },
+                        new() { Id = 18, Name = "Departamento de Sarmiento", Latitude = "-32.00000000", Longitude = "-68.66667000" },
+                        new() { Id = 19, Name = "Departamento de Ullúm", Latitude = "-31.00000000", Longitude = "-68.91667000" },
+                        new() { Id = 20, Name = "Departamento de Zonda", Latitude = "-31.68260000", Longitude = "-68.89938000" },
+                        new() { Id = 21, Name = "Nueve de Julio", Latitude = "-31.66914000", Longitude = "-68.39023000" },
+                        new() { Id = 22, Name = "Pocito", Latitude = "-31.68333000", Longitude = "-68.58333000" },
+                        new() { Id = 23, Name = "San Agustín de Valle Fértil", Latitude = "-30.63353000", Longitude = "-67.46821000" },
+                        new() { Id = 24, Name = "San José de Jáchal", Latitude = "-30.24057000", Longitude = "-68.74693000" },
+                        new() { Id = 25, Name = "San Juan", Latitude = "-31.53750000", Longitude = "-68.53639000" },
+                        new() { Id = 26, Name = "San Martín", Latitude = "-31.42957000", Longitude = "-68.50065000" },
+                        new() { Id = 27, Name = "Santa Lucía", Latitude = "-31.53987000", Longitude = "-68.49503000" },
+                        new() { Id = 28, Name = "Villa Basilio Nievas", Latitude = "-31.55000000", Longitude = "-68.73333000" },
+                        new() { Id = 29, Name = "Villa Paula de Sarmiento", Latitude = "-31.49330000", Longitude = "-68.53838000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 19,
                     Name = "San Luis",
@@ -8155,148 +1281,29 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-33.29620420",
                     Longitude = "-66.32949480",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Buena Esperanza",
-                            Latitude = "-34.75647000",
-                            Longitude = "-65.25379000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Candelaria",
-                            Latitude = "-32.06036000",
-                            Longitude = "-65.82477000"
-                        }
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Concarán",
-                            Latitude = "-32.56009000",
-                            Longitude = "-65.24270000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Juan Martín de Pueyrredón",
-                            Latitude = "-33.27544000",
-                            Longitude = "-66.32017000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Justo Daract",
-                            Latitude = "-33.85940000",
-                            Longitude = "-65.18277000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "La Punta",
-                            Latitude = "-33.18368000",
-                            Longitude = "-66.31270000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "La Toma",
-                            Latitude = "-33.05258000",
-                            Longitude = "-65.62385000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Luján",
-                            Latitude = "-32.36674000",
-                            Longitude = "-65.93642000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Merlo",
-                            Latitude = "-32.34288000",
-                            Longitude = "-65.01396000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Naschel",
-                            Latitude = "-32.91656000",
-                            Longitude = "-65.37535000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "San Francisco del Monte de Oro",
-                            Latitude = "-32.59825000",
-                            Longitude = "-66.12539000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "San Luis",
-                            Latitude = "-33.29501000",
-                            Longitude = "-66.33563000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Santa Rosa del Conlara",
-                            Latitude = "-32.34286000",
-                            Longitude = "-65.20323000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Tilisarao",
-                            Latitude = "-32.73292000",
-                            Longitude = "-65.29109000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Unión",
-                            Latitude = "-35.15282000",
-                            Longitude = "-65.94602000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Villa General Roca",
-                            Latitude = "-32.66535000",
-                            Longitude = "-66.45052000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Villa Mercedes",
-                            Latitude = "-33.67571000",
-                            Longitude = "-65.45783000"
-                        }
+                        new() { Id = 1, Name = "Buena Esperanza", Latitude = "-34.75647000", Longitude = "-65.25379000" },
+                        new() { Id = 2, Name = "Candelaria", Latitude = "-32.06036000", Longitude = "-65.82477000" },
+                        new() { Id = 3, Name = "Concarán", Latitude = "-32.56009000", Longitude = "-65.24270000" },
+                        new() { Id = 4, Name = "Juan Martín de Pueyrredón", Latitude = "-33.27544000", Longitude = "-66.32017000" },
+                        new() { Id = 5, Name = "Justo Daract", Latitude = "-33.85940000", Longitude = "-65.18277000" },
+                        new() { Id = 6, Name = "La Punta", Latitude = "-33.18368000", Longitude = "-66.31270000" },
+                        new() { Id = 7, Name = "La Toma", Latitude = "-33.05258000", Longitude = "-65.62385000" },
+                        new() { Id = 8, Name = "Luján", Latitude = "-32.36674000", Longitude = "-65.93642000" },
+                        new() { Id = 9, Name = "Merlo", Latitude = "-32.34288000", Longitude = "-65.01396000" },
+                        new() { Id = 10, Name = "Naschel", Latitude = "-32.91656000", Longitude = "-65.37535000" },
+                        new() { Id = 11, Name = "San Francisco del Monte de Oro", Latitude = "-32.59825000", Longitude = "-66.12539000" },
+                        new() { Id = 12, Name = "San Luis", Latitude = "-33.29501000", Longitude = "-66.33563000" },
+                        new() { Id = 13, Name = "Santa Rosa del Conlara", Latitude = "-32.34286000", Longitude = "-65.20323000" },
+                        new() { Id = 14, Name = "Tilisarao", Latitude = "-32.73292000", Longitude = "-65.29109000" },
+                        new() { Id = 15, Name = "Unión", Latitude = "-35.15282000", Longitude = "-65.94602000" },
+                        new() { Id = 16, Name = "Villa General Roca", Latitude = "-32.66535000", Longitude = "-66.45052000" },
+                        new() { Id = 17, Name = "Villa Mercedes", Latitude = "-33.67571000", Longitude = "-65.45783000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 20,
                     Name = "Santa Cruz",
@@ -8304,172 +1311,32 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-51.63528210",
                     Longitude = "-69.24743530",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "28 de Noviembre",
-                            Latitude = "-51.58390000",
-                            Longitude = "-72.21382000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Caleta Olivia",
-                            Latitude = "-46.43929000",
-                            Longitude = "-67.52814000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Comandante Luis Piedra Buena",
-                            Latitude = "-49.98513000",
-                            Longitude = "-68.91467000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Departamento de Deseado",
-                            Latitude = "-47.33333000",
-                            Longitude = "-67.83333000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Departamento de Güer Aike",
-                            Latitude = "-51.33333000",
-                            Longitude = "-70.33333000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Departamento de Lago Argentino",
-                            Latitude = "-49.75000000",
-                            Longitude = "-72.00000000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Departamento de Magallanes",
-                            Latitude = "-48.75000000",
-                            Longitude = "-68.50000000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Departamento de Río Chico",
-                            Latitude = "-48.25000000",
-                            Longitude = "-71.00000000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "El Calafate",
-                            Latitude = "-50.34075000",
-                            Longitude = "-72.27682000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Gobernador Gregores",
-                            Latitude = "-48.75057000",
-                            Longitude = "-70.24741000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Las Heras",
-                            Latitude = "-46.54186000",
-                            Longitude = "-68.93593000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Los Antiguos",
-                            Latitude = "-46.54972000",
-                            Longitude = "-71.63086000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Perito Moreno",
-                            Latitude = "-46.58995000",
-                            Longitude = "-70.92975000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Pico Truncado",
-                            Latitude = "-46.79490000",
-                            Longitude = "-67.95731000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Puerto Deseado",
-                            Latitude = "-47.75034000",
-                            Longitude = "-65.89382000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Puerto Santa Cruz",
-                            Latitude = "-50.01910000",
-                            Longitude = "-68.52321000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Río Gallegos",
-                            Latitude = "-51.62261000",
-                            Longitude = "-69.21813000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Río Turbio",
-                            Latitude = "-51.53587000",
-                            Longitude = "-72.33673000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "San Julián",
-                            Latitude = "-49.30554000",
-                            Longitude = "-67.72743000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Yacimiento Río Turbio",
-                            Latitude = "-51.57321000",
-                            Longitude = "-72.35080000"
-                        }
+                        new() { Id = 1, Name = "28 de Noviembre", Latitude = "-51.58390000", Longitude = "-72.21382000" },
+                        new() { Id = 2, Name = "Caleta Olivia", Latitude = "-46.43929000", Longitude = "-67.52814000" },
+                        new() { Id = 3, Name = "Comandante Luis Piedra Buena", Latitude = "-49.98513000", Longitude = "-68.91467000" },
+                        new() { Id = 4, Name = "Departamento de Deseado", Latitude = "-47.33333000", Longitude = "-67.83333000" },
+                        new() { Id = 5, Name = "Departamento de Güer Aike", Latitude = "-51.33333000", Longitude = "-70.33333000" },
+                        new() { Id = 6, Name = "Departamento de Lago Argentino", Latitude = "-49.75000000", Longitude = "-72.00000000" },
+                        new() { Id = 7, Name = "Departamento de Magallanes", Latitude = "-48.75000000", Longitude = "-68.50000000" },
+                        new() { Id = 8, Name = "Departamento de Río Chico", Latitude = "-48.25000000", Longitude = "-71.00000000" },
+                        new() { Id = 9, Name = "El Calafate", Latitude = "-50.34075000", Longitude = "-72.27682000" },
+                        new() { Id = 10, Name = "Gobernador Gregores", Latitude = "-48.75057000", Longitude = "-70.24741000" },
+                        new() { Id = 11, Name = "Las Heras", Latitude = "-46.54186000", Longitude = "-68.93593000" },
+                        new() { Id = 12, Name = "Los Antiguos", Latitude = "-46.54972000", Longitude = "-71.63086000" },
+                        new() { Id = 13, Name = "Perito Moreno", Latitude = "-46.58995000", Longitude = "-70.92975000" },
+                        new() { Id = 14, Name = "Pico Truncado", Latitude = "-46.79490000", Longitude = "-67.95731000" },
+                        new() { Id = 15, Name = "Puerto Deseado", Latitude = "-47.75034000", Longitude = "-65.89382000" },
+                        new() { Id = 16, Name = "Puerto Santa Cruz", Latitude = "-50.01910000", Longitude = "-68.52321000" },
+                        new() { Id = 17, Name = "Río Gallegos", Latitude = "-51.62261000", Longitude = "-69.21813000" },
+                        new() { Id = 18, Name = "Río Turbio", Latitude = "-51.53587000", Longitude = "-72.33673000" },
+                        new() { Id = 19, Name = "San Julián", Latitude = "-49.30554000", Longitude = "-67.72743000" },
+                        new() { Id = 20, Name = "Yacimiento Río Turbio", Latitude = "-51.57321000", Longitude = "-72.35080000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 21,
                     Name = "Santa Fe",
@@ -8477,572 +1344,82 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-31.58551090",
                     Longitude = "-60.72380160",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Armstrong",
-                            Latitude = "-32.78215000",
-                            Longitude = "-61.60222000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Arroyo Seco",
-                            Latitude = "-33.15489000",
-                            Longitude = "-60.50863000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Arrufó",
-                            Latitude = "-30.23281000",
-                            Longitude = "-61.72862000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Avellaneda",
-                            Latitude = "-29.11761000",
-                            Longitude = "-59.65834000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Bella Italia",
-                            Latitude = "-31.28182000",
-                            Longitude = "-61.41092000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Calchaquí",
-                            Latitude = "-29.88767000",
-                            Longitude = "-60.28697000"
-                        },
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Cañada de Gómez",
-                            Latitude = "-32.81636000",
-                            Longitude = "-61.39493000"
-                        },
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Capitán Bermúdez",
-                            Latitude = "-32.82262000",
-                            Longitude = "-60.71852000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Carcarañá",
-                            Latitude = "-32.85679000",
-                            Longitude = "-61.15331000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Casilda",
-                            Latitude = "-33.04417000",
-                            Longitude = "-61.16806000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Ceres",
-                            Latitude = "-29.88100000",
-                            Longitude = "-61.94504000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Chañar Ladeado",
-                            Latitude = "-33.32524000",
-                            Longitude = "-62.03831000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Coronda",
-                            Latitude = "-31.97263000",
-                            Longitude = "-60.91983000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Departamento de Belgrano",
-                            Latitude = "-32.50000000",
-                            Longitude = "-61.75000000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Departamento de Caseros",
-                            Latitude = "-33.25000000",
-                            Longitude = "-61.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Departamento de Castellanos",
-                            Latitude = "-31.16667000",
-                            Longitude = "-61.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Departamento de Constitución",
-                            Latitude = "-33.50000000",
-                            Longitude = "-60.91667000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Departamento de La Capital",
-                            Latitude = "-31.50000000",
-                            Longitude = "-60.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Departamento de Nueve de Julio",
-                            Latitude = "-28.83333000",
-                            Longitude = "-61.33333000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Departamento de San Cristóbal",
-                            Latitude = "-30.33333000",
-                            Longitude = "-61.33333000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Departamento de San Javier",
-                            Latitude = "-30.33333000",
-                            Longitude = "-59.91667000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Departamento de San Justo",
-                            Latitude = "-30.66667000",
-                            Longitude = "-60.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Departamento de San Lorenzo",
-                            Latitude = "-33.00000000",
-                            Longitude = "-61.00000000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Departamento de San Martín",
-                            Latitude = "-32.00000000",
-                            Longitude = "-61.83333000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Departamento de Vera",
-                            Latitude = "-29.00000000",
-                            Longitude = "-60.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "El Trébol",
-                            Latitude = "-32.20080000",
-                            Longitude = "-61.70140000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Esperanza",
-                            Latitude = "-31.44880000",
-                            Longitude = "-60.93173000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Firmat",
-                            Latitude = "-33.45937000",
-                            Longitude = "-61.48320000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Fray Luis A. Beltrán",
-                            Latitude = "-32.79122000",
-                            Longitude = "-60.72819000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Funes",
-                            Latitude = "-32.91568000",
-                            Longitude = "-60.80995000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Gálvez",
-                            Latitude = "-32.02927000",
-                            Longitude = "-61.22103000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Gato Colorado",
-                            Latitude = "-28.02219000",
-                            Longitude = "-61.18663000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Gobernador Gálvez",
-                            Latitude = "-33.03016000",
-                            Longitude = "-60.64045000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Granadero Baigorria",
-                            Latitude = "-32.85683000",
-                            Longitude = "-60.71754000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Helvecia",
-                            Latitude = "-31.09834000",
-                            Longitude = "-60.08830000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Hersilia",
-                            Latitude = "-30.00447000",
-                            Longitude = "-61.84080000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Iriondo Department",
-                            Latitude = "-32.63333000",
-                            Longitude = "-61.33333000"
-                        },
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Laguna Paiva",
-                            Latitude = "-31.30391000",
-                            Longitude = "-60.65894000"
-                        },
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Las Parejas",
-                            Latitude = "-32.68478000",
-                            Longitude = "-61.51637000"
-                        },
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Las Rosas",
-                            Latitude = "-32.47661000",
-                            Longitude = "-61.58041000"
-                        },
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Las Toscas",
-                            Latitude = "-28.35290000",
-                            Longitude = "-59.25795000"
-                        },
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Los Laureles",
-                            Latitude = "-29.36847000",
-                            Longitude = "-59.73634000"
-                        },
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Malabrigo",
-                            Latitude = "-29.34636000",
-                            Longitude = "-59.96957000"
-                        },
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "Melincué",
-                            Latitude = "-33.65847000",
-                            Longitude = "-61.45459000"
-                        },
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "Pérez",
-                            Latitude = "-32.99835000",
-                            Longitude = "-60.76791000"
-                        },
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "Rafaela",
-                            Latitude = "-31.25033000",
-                            Longitude = "-61.48670000"
-                        },
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "Reconquista",
-                            Latitude = "-29.15000000",
-                            Longitude = "-59.65000000"
-                        },
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "Recreo",
-                            Latitude = "-31.49076000",
-                            Longitude = "-60.73299000"
-                        },
-
-                        new City
-                        {
-                            Id = 49,
-                            Name = "Roldán",
-                            Latitude = "-32.89846000",
-                            Longitude = "-60.90681000"
-                        },
-
-                        new City
-                        {
-                            Id = 50,
-                            Name = "Rosario",
-                            Latitude = "-32.94682000",
-                            Longitude = "-60.63932000"
-                        },
-
-                        new City
-                        {
-                            Id = 51,
-                            Name = "Rufino",
-                            Latitude = "-34.26827000",
-                            Longitude = "-62.71262000"
-                        },
-
-                        new City
-                        {
-                            Id = 52,
-                            Name = "San Carlos Centro",
-                            Latitude = "-31.72864000",
-                            Longitude = "-61.09192000"
-                        },
-
-                        new City
-                        {
-                            Id = 53,
-                            Name = "San Cristóbal",
-                            Latitude = "-30.31053000",
-                            Longitude = "-61.23724000"
-                        },
-
-                        new City
-                        {
-                            Id = 54,
-                            Name = "San Javier",
-                            Latitude = "-30.57781000",
-                            Longitude = "-59.93170000"
-                        },
-
-                        new City
-                        {
-                            Id = 55,
-                            Name = "San Jorge",
-                            Latitude = "-31.89618000",
-                            Longitude = "-61.85984000"
-                        },
-
-                        new City
-                        {
-                            Id = 56,
-                            Name = "San Justo",
-                            Latitude = "-30.78913000",
-                            Longitude = "-60.59189000"
-                        },
-
-                        new City
-                        {
-                            Id = 57,
-                            Name = "Santa Fe",
-                            Latitude = "-31.64881000",
-                            Longitude = "-60.70868000"
-                        },
-
-                        new City
-                        {
-                            Id = 58,
-                            Name = "Santo Tomé",
-                            Latitude = "-31.66274000",
-                            Longitude = "-60.76530000"
-                        },
-
-                        new City
-                        {
-                            Id = 59,
-                            Name = "Sastre",
-                            Latitude = "-31.76762000",
-                            Longitude = "-61.82887000"
-                        },
-
-                        new City
-                        {
-                            Id = 60,
-                            Name = "Sunchales",
-                            Latitude = "-30.94404000",
-                            Longitude = "-61.56148000"
-                        },
-
-                        new City
-                        {
-                            Id = 61,
-                            Name = "Tacuarendí",
-                            Latitude = "-28.41265000",
-                            Longitude = "-59.26000000"
-                        },
-
-                        new City
-                        {
-                            Id = 62,
-                            Name = "Tostado",
-                            Latitude = "-29.23202000",
-                            Longitude = "-61.76917000"
-                        },
-
-                        new City
-                        {
-                            Id = 63,
-                            Name = "Totoras",
-                            Latitude = "-32.58440000",
-                            Longitude = "-61.16852000"
-                        },
-
-                        new City
-                        {
-                            Id = 64,
-                            Name = "Venado Tuerto",
-                            Latitude = "-33.74556000",
-                            Longitude = "-61.96885000"
-                        },
-
-                        new City
-                        {
-                            Id = 65,
-                            Name = "Vera",
-                            Latitude = "-29.45930000",
-                            Longitude = "-60.21261000"
-                        },
-
-                        new City
-                        {
-                            Id = 66,
-                            Name = "Villa Cañás",
-                            Latitude = "-34.00565000",
-                            Longitude = "-61.60757000"
-                        },
-
-                        new City
-                        {
-                            Id = 67,
-                            Name = "Villa Constitución",
-                            Latitude = "-33.22778000",
-                            Longitude = "-60.32970000"
-                        },
-
-                        new City
-                        {
-                            Id = 68,
-                            Name = "Villa Mugueta",
-                            Latitude = "-33.31129000",
-                            Longitude = "-61.05515000"
-                        },
-
-                        new City
-                        {
-                            Id = 69,
-                            Name = "Villa Ocampo",
-                            Latitude = "-28.48752000",
-                            Longitude = "-59.35515000"
-                        },
-
-                        new City
-                        {
-                            Id = 70,
-                            Name = "Villa Trinidad",
-                            Latitude = "-30.21329000",
-                            Longitude = "-61.87597000"
-                        }
+                        new() { Id = 1, Name = "Armstrong", Latitude = "-32.78215000", Longitude = "-61.60222000" },
+                        new() { Id = 2, Name = "Arroyo Seco", Latitude = "-33.15489000", Longitude = "-60.50863000" },
+                        new() { Id = 3, Name = "Arrufó", Latitude = "-30.23281000", Longitude = "-61.72862000" },
+                        new() { Id = 4, Name = "Avellaneda", Latitude = "-29.11761000", Longitude = "-59.65834000" },
+                        new() { Id = 5, Name = "Bella Italia", Latitude = "-31.28182000", Longitude = "-61.41092000" },
+                        new() { Id = 6, Name = "Calchaquí", Latitude = "-29.88767000", Longitude = "-60.28697000" },
+                        new() { Id = 7, Name = "Cañada de Gómez", Latitude = "-32.81636000", Longitude = "-61.39493000" },
+                        new() { Id = 8, Name = "Capitán Bermúdez", Latitude = "-32.82262000", Longitude = "-60.71852000" },
+                        new() { Id = 9, Name = "Carcarañá", Latitude = "-32.85679000", Longitude = "-61.15331000" },
+                        new() { Id = 10, Name = "Casilda", Latitude = "-33.04417000", Longitude = "-61.16806000" },
+                        new() { Id = 11, Name = "Ceres", Latitude = "-29.88100000", Longitude = "-61.94504000" },
+                        new() { Id = 12, Name = "Chañar Ladeado", Latitude = "-33.32524000", Longitude = "-62.03831000" },
+                        new() { Id = 13, Name = "Coronda", Latitude = "-31.97263000", Longitude = "-60.91983000" },
+                        new() { Id = 14, Name = "Departamento de Belgrano", Latitude = "-32.50000000", Longitude = "-61.75000000" },
+                        new() { Id = 15, Name = "Departamento de Caseros", Latitude = "-33.25000000", Longitude = "-61.66667000" },
+                        new() { Id = 16, Name = "Departamento de Castellanos", Latitude = "-31.16667000", Longitude = "-61.66667000" },
+                        new() { Id = 17, Name = "Departamento de Constitución", Latitude = "-33.50000000", Longitude = "-60.91667000" },
+                        new() { Id = 18, Name = "Departamento de La Capital", Latitude = "-31.50000000", Longitude = "-60.66667000" },
+                        new() { Id = 19, Name = "Departamento de Nueve de Julio", Latitude = "-28.83333000", Longitude = "-61.33333000" },
+                        new() { Id = 20, Name = "Departamento de San Cristóbal", Latitude = "-30.33333000", Longitude = "-61.33333000" },
+                        new() { Id = 21, Name = "Departamento de San Javier", Latitude = "-30.33333000", Longitude = "-59.91667000" },
+                        new() { Id = 22, Name = "Departamento de San Justo", Latitude = "-30.66667000", Longitude = "-60.50000000" },
+                        new() { Id = 23, Name = "Departamento de San Lorenzo", Latitude = "-33.00000000", Longitude = "-61.00000000" },
+                        new() { Id = 24, Name = "Departamento de San Martín", Latitude = "-32.00000000", Longitude = "-61.83333000" },
+                        new() { Id = 25, Name = "Departamento de Vera", Latitude = "-29.00000000", Longitude = "-60.50000000" },
+                        new() { Id = 26, Name = "El Trébol", Latitude = "-32.20080000", Longitude = "-61.70140000" },
+                        new() { Id = 27, Name = "Esperanza", Latitude = "-31.44880000", Longitude = "-60.93173000" },
+                        new() { Id = 28, Name = "Firmat", Latitude = "-33.45937000", Longitude = "-61.48320000" },
+                        new() { Id = 29, Name = "Fray Luis A. Beltrán", Latitude = "-32.79122000", Longitude = "-60.72819000" },
+                        new() { Id = 30, Name = "Funes", Latitude = "-32.91568000", Longitude = "-60.80995000" },
+                        new() { Id = 31, Name = "Gálvez", Latitude = "-32.02927000", Longitude = "-61.22103000" },
+                        new() { Id = 32, Name = "Gato Colorado", Latitude = "-28.02219000", Longitude = "-61.18663000" },
+                        new() { Id = 33, Name = "Gobernador Gálvez", Latitude = "-33.03016000", Longitude = "-60.64045000" },
+                        new() { Id = 34, Name = "Granadero Baigorria", Latitude = "-32.85683000", Longitude = "-60.71754000" },
+                        new() { Id = 35, Name = "Helvecia", Latitude = "-31.09834000", Longitude = "-60.08830000" },
+                        new() { Id = 36, Name = "Hersilia", Latitude = "-30.00447000", Longitude = "-61.84080000" },
+                        new() { Id = 37, Name = "Iriondo Department", Latitude = "-32.63333000", Longitude = "-61.33333000" },
+                        new() { Id = 38, Name = "Laguna Paiva", Latitude = "-31.30391000", Longitude = "-60.65894000" },
+                        new() { Id = 39, Name = "Las Parejas", Latitude = "-32.68478000", Longitude = "-61.51637000" },
+                        new() { Id = 40, Name = "Las Rosas", Latitude = "-32.47661000", Longitude = "-61.58041000" },
+                        new() { Id = 41, Name = "Las Toscas", Latitude = "-28.35290000", Longitude = "-59.25795000" },
+                        new() { Id = 42, Name = "Los Laureles", Latitude = "-29.36847000", Longitude = "-59.73634000" },
+                        new() { Id = 43, Name = "Malabrigo", Latitude = "-29.34636000", Longitude = "-59.96957000" },
+                        new() { Id = 44, Name = "Melincué", Latitude = "-33.65847000", Longitude = "-61.45459000" },
+                        new() { Id = 45, Name = "Pérez", Latitude = "-32.99835000", Longitude = "-60.76791000" },
+                        new() { Id = 46, Name = "Rafaela", Latitude = "-31.25033000", Longitude = "-61.48670000" },
+                        new() { Id = 47, Name = "Reconquista", Latitude = "-29.15000000", Longitude = "-59.65000000" },
+                        new() { Id = 48, Name = "Recreo", Latitude = "-31.49076000", Longitude = "-60.73299000" },
+                        new() { Id = 49, Name = "Roldán", Latitude = "-32.89846000", Longitude = "-60.90681000" },
+                        new() { Id = 50, Name = "Rosario", Latitude = "-32.94682000", Longitude = "-60.63932000" },
+                        new() { Id = 51, Name = "Rufino", Latitude = "-34.26827000", Longitude = "-62.71262000" },
+                        new() { Id = 52, Name = "San Carlos Centro", Latitude = "-31.72864000", Longitude = "-61.09192000" },
+                        new() { Id = 53, Name = "San Cristóbal", Latitude = "-30.31053000", Longitude = "-61.23724000" },
+                        new() { Id = 54, Name = "San Javier", Latitude = "-30.57781000", Longitude = "-59.93170000" },
+                        new() { Id = 55, Name = "San Jorge", Latitude = "-31.89618000", Longitude = "-61.85984000" },
+                        new() { Id = 56, Name = "San Justo", Latitude = "-30.78913000", Longitude = "-60.59189000" },
+                        new() { Id = 57, Name = "Santa Fe", Latitude = "-31.64881000", Longitude = "-60.70868000" },
+                        new() { Id = 58, Name = "Santo Tomé", Latitude = "-31.66274000", Longitude = "-60.76530000" },
+                        new() { Id = 59, Name = "Sastre", Latitude = "-31.76762000", Longitude = "-61.82887000" },
+                        new() { Id = 60, Name = "Sunchales", Latitude = "-30.94404000", Longitude = "-61.56148000" },
+                        new() { Id = 61, Name = "Tacuarendí", Latitude = "-28.41265000", Longitude = "-59.26000000" },
+                        new() { Id = 62, Name = "Tostado", Latitude = "-29.23202000", Longitude = "-61.76917000" },
+                        new() { Id = 63, Name = "Totoras", Latitude = "-32.58440000", Longitude = "-61.16852000" },
+                        new() { Id = 64, Name = "Venado Tuerto", Latitude = "-33.74556000", Longitude = "-61.96885000" },
+                        new() { Id = 65, Name = "Vera", Latitude = "-29.45930000", Longitude = "-60.21261000" },
+                        new() { Id = 66, Name = "Villa Cañás", Latitude = "-34.00565000", Longitude = "-61.60757000" },
+                        new() { Id = 67, Name = "Villa Constitución", Latitude = "-33.22778000", Longitude = "-60.32970000" },
+                        new() { Id = 68, Name = "Villa Mugueta", Latitude = "-33.31129000", Longitude = "-61.05515000" },
+                        new() { Id = 69, Name = "Villa Ocampo", Latitude = "-28.48752000", Longitude = "-59.35515000" },
+                        new() { Id = 70, Name = "Villa Trinidad", Latitude = "-30.21329000", Longitude = "-61.87597000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 22,
                     Name = "Santiago del Estero",
@@ -9050,252 +1427,42 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-27.78335740",
                     Longitude = "-64.26416700",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Añatuya",
-                            Latitude = "-28.46064000",
-                            Longitude = "-62.83472000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Beltrán",
-                            Latitude = "-27.82913000",
-                            Longitude = "-64.06098000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Campo Gallo",
-                            Latitude = "-26.58333000",
-                            Longitude = "-62.85000000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Clodomira",
-                            Latitude = "-27.57440000",
-                            Longitude = "-64.13108000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Colonia Dora",
-                            Latitude = "-28.60000000",
-                            Longitude = "-62.95000000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Departamento de Aguirre",
-                            Latitude = "-29.33333000",
-                            Longitude = "-62.50000000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Departamento de Banda",
-                            Latitude = "-27.50000000",
-                            Longitude = "-64.33333000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Departamento de Choya",
-                            Latitude = "-28.75000000",
-                            Longitude = "-64.75000000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Departamento de Guasayán",
-                            Latitude = "-28.00000000",
-                            Longitude = "-64.83333000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Departamento de Loreto",
-                            Latitude = "-28.55000000",
-                            Longitude = "-64.33333000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Departamento de Moreno",
-                            Latitude = "-27.33333000",
-                            Longitude = "-62.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Departamento de Río Hondo",
-                            Latitude = "-27.58333000",
-                            Longitude = "-64.75000000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Departamento de Robles",
-                            Latitude = "-27.83333000",
-                            Longitude = "-63.91667000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Departamento de San Martín",
-                            Latitude = "-28.16667000",
-                            Longitude = "-63.83333000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Departamento de Sarmiento",
-                            Latitude = "-28.08333000",
-                            Longitude = "-63.41667000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "El Hoyo",
-                            Latitude = "-27.02872000",
-                            Longitude = "-63.23197000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "La Banda",
-                            Latitude = "-27.73348000",
-                            Longitude = "-64.24278000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Los Juríes",
-                            Latitude = "-28.46539000",
-                            Longitude = "-62.10862000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Los Telares",
-                            Latitude = "-28.98479000",
-                            Longitude = "-63.44889000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Pampa de los Guanacos",
-                            Latitude = "-26.23002000",
-                            Longitude = "-61.83774000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Quimilí",
-                            Latitude = "-27.64615000",
-                            Longitude = "-62.41655000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "San Pedro",
-                            Latitude = "-27.95386000",
-                            Longitude = "-65.16651000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Santiago del Estero",
-                            Latitude = "-27.79511000",
-                            Longitude = "-64.26149000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Sumampa",
-                            Latitude = "-29.38470000",
-                            Longitude = "-63.46907000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Suncho Corral",
-                            Latitude = "-27.93357000",
-                            Longitude = "-63.42938000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Termas de Río Hondo",
-                            Latitude = "-27.49362000",
-                            Longitude = "-64.85972000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Tintina",
-                            Latitude = "-27.02687000",
-                            Longitude = "-62.70643000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Villa Atamisqui",
-                            Latitude = "-28.49609000",
-                            Longitude = "-63.81609000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Villa General Mitre",
-                            Latitude = "-29.14310000",
-                            Longitude = "-62.65248000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Villa Ojo de Agua",
-                            Latitude = "-29.50003000",
-                            Longitude = "-63.69377000"
-                        }
+                        new() { Id = 1, Name = "Añatuya", Latitude = "-28.46064000", Longitude = "-62.83472000" },
+                        new() { Id = 2, Name = "Beltrán", Latitude = "-27.82913000", Longitude = "-64.06098000" },
+                        new() { Id = 3, Name = "Campo Gallo", Latitude = "-26.58333000", Longitude = "-62.85000000" },
+                        new() { Id = 4, Name = "Clodomira", Latitude = "-27.57440000", Longitude = "-64.13108000" },
+                        new() { Id = 5, Name = "Colonia Dora", Latitude = "-28.60000000", Longitude = "-62.95000000" },
+                        new() { Id = 6, Name = "Departamento de Aguirre", Latitude = "-29.33333000", Longitude = "-62.50000000" },
+                        new() { Id = 7, Name = "Departamento de Banda", Latitude = "-27.50000000", Longitude = "-64.33333000" },
+                        new() { Id = 8, Name = "Departamento de Choya", Latitude = "-28.75000000", Longitude = "-64.75000000" },
+                        new() { Id = 9, Name = "Departamento de Guasayán", Latitude = "-28.00000000", Longitude = "-64.83333000" },
+                        new() { Id = 10, Name = "Departamento de Loreto", Latitude = "-28.55000000", Longitude = "-64.33333000" },
+                        new() { Id = 11, Name = "Departamento de Moreno", Latitude = "-27.33333000", Longitude = "-62.50000000" },
+                        new() { Id = 12, Name = "Departamento de Río Hondo", Latitude = "-27.58333000", Longitude = "-64.75000000" },
+                        new() { Id = 13, Name = "Departamento de Robles", Latitude = "-27.83333000", Longitude = "-63.91667000" },
+                        new() { Id = 14, Name = "Departamento de San Martín", Latitude = "-28.16667000", Longitude = "-63.83333000" },
+                        new() { Id = 15, Name = "Departamento de Sarmiento", Latitude = "-28.08333000", Longitude = "-63.41667000" },
+                        new() { Id = 16, Name = "El Hoyo", Latitude = "-27.02872000", Longitude = "-63.23197000" },
+                        new() { Id = 17, Name = "La Banda", Latitude = "-27.73348000", Longitude = "-64.24278000" },
+                        new() { Id = 18, Name = "Los Juríes", Latitude = "-28.46539000", Longitude = "-62.10862000" },
+                        new() { Id = 19, Name = "Los Telares", Latitude = "-28.98479000", Longitude = "-63.44889000" },
+                        new() { Id = 20, Name = "Pampa de los Guanacos", Latitude = "-26.23002000", Longitude = "-61.83774000" },
+                        new() { Id = 21, Name = "Quimilí", Latitude = "-27.64615000", Longitude = "-62.41655000" },
+                        new() { Id = 22, Name = "San Pedro", Latitude = "-27.95386000", Longitude = "-65.16651000" },
+                        new() { Id = 23, Name = "Santiago del Estero", Latitude = "-27.79511000", Longitude = "-64.26149000" },
+                        new() { Id = 24, Name = "Sumampa", Latitude = "-29.38470000", Longitude = "-63.46907000" },
+                        new() { Id = 25, Name = "Suncho Corral", Latitude = "-27.93357000", Longitude = "-63.42938000" },
+                        new() { Id = 26, Name = "Termas de Río Hondo", Latitude = "-27.49362000", Longitude = "-64.85972000" },
+                        new() { Id = 27, Name = "Tintina", Latitude = "-27.02687000", Longitude = "-62.70643000" },
+                        new() { Id = 28, Name = "Villa Atamisqui", Latitude = "-28.49609000", Longitude = "-63.81609000" },
+                        new() { Id = 29, Name = "Villa General Mitre", Latitude = "-29.14310000", Longitude = "-62.65248000" },
+                        new() { Id = 30, Name = "Villa Ojo de Agua", Latitude = "-29.50003000", Longitude = "-63.69377000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 23,
                     Name = "Tierra del Fuego",
@@ -9303,36 +1470,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-54.80539980",
                     Longitude = "-68.32420610",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Río Grande",
-                            Latitude = "-53.78769000",
-                            Longitude = "-67.70946000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Tolhuin",
-                            Latitude = "-54.51083000",
-                            Longitude = "-67.19550000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Ushuaia",
-                            Latitude = "-54.81084000",
-                            Longitude = "-68.31591000"
-                        }
+                        new() { Id = 1, Name = "Río Grande", Latitude = "-53.78769000", Longitude = "-67.70946000" },
+                        new() { Id = 2, Name = "Tolhuin", Latitude = "-54.51083000", Longitude = "-67.19550000" },
+                        new() { Id = 3, Name = "Ushuaia", Latitude = "-54.81084000", Longitude = "-68.31591000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 24,
                     Name = "Tucumán",
@@ -9340,216 +1486,34 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-26.82211270",
                     Longitude = "-65.21929030",
                     Type = "province",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Aguilares",
-                            Latitude = "-27.43380000",
-                            Longitude = "-65.61427000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Alderetes",
-                            Latitude = "-26.81667000",
-                            Longitude = "-65.13333000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Bella Vista",
-                            Latitude = "-27.03424000",
-                            Longitude = "-65.30196000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Burruyacú",
-                            Latitude = "-26.49918000",
-                            Longitude = "-64.74206000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Departamento de Burruyacú",
-                            Latitude = "-26.50000000",
-                            Longitude = "-64.91667000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Departamento de Capital",
-                            Latitude = "-26.82825000",
-                            Longitude = "-65.21126000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Departamento de Cruz Alta",
-                            Latitude = "-26.91667000",
-                            Longitude = "-64.91667000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Departamento de Famaillá",
-                            Latitude = "-26.91667000",
-                            Longitude = "-65.50000000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Departamento de Graneros",
-                            Latitude = "-27.75000000",
-                            Longitude = "-65.33333000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Departamento de La Cocha",
-                            Latitude = "-27.77784000",
-                            Longitude = "-65.57109000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Departamento de Lules",
-                            Latitude = "-26.92886000",
-                            Longitude = "-65.33848000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Departamento de Monteros",
-                            Latitude = "-27.16667000",
-                            Longitude = "-65.58333000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Departamento de Río Chico",
-                            Latitude = "-27.43368000",
-                            Longitude = "-65.76671000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Departamento de Simoca",
-                            Latitude = "-27.26360000",
-                            Longitude = "-65.35612000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Departamento de Trancas",
-                            Latitude = "-26.41667000",
-                            Longitude = "-65.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Departamento de Yerba Buena",
-                            Latitude = "-26.81826000",
-                            Longitude = "-65.31733000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Famaillá",
-                            Latitude = "-27.05413000",
-                            Longitude = "-65.40329000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Graneros",
-                            Latitude = "-27.64934000",
-                            Longitude = "-65.43830000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "La Cocha",
-                            Latitude = "-27.76927000",
-                            Longitude = "-65.58711000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Monteros",
-                            Latitude = "-27.16741000",
-                            Longitude = "-65.49832000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "San Miguel de Tucumán",
-                            Latitude = "-26.82414000",
-                            Longitude = "-65.22260000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Simoca",
-                            Latitude = "-27.26272000",
-                            Longitude = "-65.35647000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Tafí del Valle",
-                            Latitude = "-26.85275000",
-                            Longitude = "-65.70983000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Tafí Viejo",
-                            Latitude = "-26.73201000",
-                            Longitude = "-65.25921000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Trancas",
-                            Latitude = "-26.23136000",
-                            Longitude = "-65.28093000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Yerba Buena",
-                            Latitude = "-26.81667000",
-                            Longitude = "-65.31667000"
-                        }
+                        new() { Id = 1, Name = "Aguilares", Latitude = "-27.43380000", Longitude = "-65.61427000" },
+                        new() { Id = 2, Name = "Alderetes", Latitude = "-26.81667000", Longitude = "-65.13333000" },
+                        new() { Id = 3, Name = "Bella Vista", Latitude = "-27.03424000", Longitude = "-65.30196000" },
+                        new() { Id = 4, Name = "Burruyacú", Latitude = "-26.49918000", Longitude = "-64.74206000" },
+                        new() { Id = 5, Name = "Departamento de Burruyacú", Latitude = "-26.50000000", Longitude = "-64.91667000" },
+                        new() { Id = 6, Name = "Departamento de Capital", Latitude = "-26.82825000", Longitude = "-65.21126000" },
+                        new() { Id = 7, Name = "Departamento de Cruz Alta", Latitude = "-26.91667000", Longitude = "-64.91667000" },
+                        new() { Id = 8, Name = "Departamento de Famaillá", Latitude = "-26.91667000", Longitude = "-65.50000000" },
+                        new() { Id = 9, Name = "Departamento de Graneros", Latitude = "-27.75000000", Longitude = "-65.33333000" },
+                        new() { Id = 10, Name = "Departamento de La Cocha", Latitude = "-27.77784000", Longitude = "-65.57109000" },
+                        new() { Id = 11, Name = "Departamento de Lules", Latitude = "-26.92886000", Longitude = "-65.33848000" },
+                        new() { Id = 12, Name = "Departamento de Monteros", Latitude = "-27.16667000", Longitude = "-65.58333000" },
+                        new() { Id = 13, Name = "Departamento de Río Chico", Latitude = "-27.43368000", Longitude = "-65.76671000" },
+                        new() { Id = 14, Name = "Departamento de Simoca", Latitude = "-27.26360000", Longitude = "-65.35612000" },
+                        new() { Id = 15, Name = "Departamento de Trancas", Latitude = "-26.41667000", Longitude = "-65.50000000" },
+                        new() { Id = 16, Name = "Departamento de Yerba Buena", Latitude = "-26.81826000", Longitude = "-65.31733000" },
+                        new() { Id = 17, Name = "Famaillá", Latitude = "-27.05413000", Longitude = "-65.40329000" },
+                        new() { Id = 18, Name = "Graneros", Latitude = "-27.64934000", Longitude = "-65.43830000" },
+                        new() { Id = 19, Name = "La Cocha", Latitude = "-27.76927000", Longitude = "-65.58711000" },
+                        new() { Id = 20, Name = "Monteros", Latitude = "-27.16741000", Longitude = "-65.49832000" },
+                        new() { Id = 21, Name = "San Miguel de Tucumán", Latitude = "-26.82414000", Longitude = "-65.22260000" },
+                        new() { Id = 22, Name = "Simoca", Latitude = "-27.26272000", Longitude = "-65.35647000" },
+                        new() { Id = 23, Name = "Tafí del Valle", Latitude = "-26.85275000", Longitude = "-65.70983000" },
+                        new() { Id = 24, Name = "Tafí Viejo", Latitude = "-26.73201000", Longitude = "-65.25921000" },
+                        new() { Id = 25, Name = "Trancas", Latitude = "-26.23136000", Longitude = "-65.28093000" },
+                        new() { Id = 26, Name = "Yerba Buena", Latitude = "-26.81667000", Longitude = "-65.31667000" }
                     }
                 }
             }

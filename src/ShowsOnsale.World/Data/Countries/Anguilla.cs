@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class Anguilla
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 8,
             Name = "Anguilla",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "-63.16666666",
             Emoji = "🇦🇮",
             EmojiU = "U+1F1E6 U+1F1EE",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "America/Anguilla",
-                    GmtOffset = -14400,
-                    GmtOffsetName = "UTC-04:00",
-                    Abbreviation = "AST",
-                    TzName = "Atlantic Standard Time"
-                }
+                new() { ZoneName = "America/Anguilla", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "앵귈라" },
                 { "pt-BR" = "Anguila" }
@@ -62,10 +55,10 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Ангілья" }
                 { "pl" = "Anguilla" }
             },
-            States = new List<State>
+            States = new()
             {
 
-                new State
+                new()
                 {
                     Id = 1,
                     Name = "Blowing Point",
@@ -73,12 +66,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "18.17655530",
                     Longitude = "-63.10212960",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 2,
                     Name = "East End",
@@ -86,12 +79,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "18.23561730",
                     Longitude = "-63.01497150",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 3,
                     Name = "George Hill",
@@ -99,12 +92,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "18.19978110",
                     Longitude = "-63.07761140",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 4,
                     Name = "Island Harbour",
@@ -112,12 +105,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "18.25521250",
                     Longitude = "-63.01405900",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 5,
                     Name = "North Hill",
@@ -125,12 +118,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "18.20508630",
                     Longitude = "-63.08584570",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 6,
                     Name = "North Side",
@@ -138,12 +131,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "18.23005440",
                     Longitude = "-63.05188900",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 7,
                     Name = "Sandy Ground",
@@ -151,12 +144,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "18.20185510",
                     Longitude = "-63.09734710",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 8,
                     Name = "Sandy Hill",
@@ -164,12 +157,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "18.21892100",
                     Longitude = "-63.01299160",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 9,
                     Name = "South Hill",
@@ -177,12 +170,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "18.18924750",
                     Longitude = "-63.09763670",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 10,
                     Name = "Stoney Ground",
@@ -190,12 +183,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "18.21791010",
                     Longitude = "-63.04969860",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 11,
                     Name = "The Farrington",
@@ -203,12 +196,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "18.21347010",
                     Longitude = "-63.02721620",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 12,
                     Name = "The Quarter",
@@ -216,12 +209,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "18.21453340",
                     Longitude = "-63.05644890",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 13,
                     Name = "The Valley",
@@ -229,12 +222,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "18.21521660",
                     Longitude = "-63.07006280",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 14,
                     Name = "West End",
@@ -242,7 +235,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "18.17153940",
                     Longitude = "-63.17191270",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 }

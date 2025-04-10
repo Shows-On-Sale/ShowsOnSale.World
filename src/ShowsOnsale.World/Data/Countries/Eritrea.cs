@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class Eritrea
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 68,
             Name = "Eritrea",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "39.00000000",
             Emoji = "🇪🇷",
             EmojiU = "U+1F1EA U+1F1F7",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "Africa/Asmara",
-                    GmtOffset = 10800,
-                    GmtOffsetName = "UTC+03:00",
-                    Abbreviation = "EAT",
-                    TzName = "East Africa Time"
-                }
+                new() { ZoneName = "Africa/Asmara", GmtOffset = 10800, GmtOffsetName = "UTC+03:00", Abbreviation = "EAT", TzName = "East Africa Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "에리트레아" },
                 { "pt-BR" = "Eritreia" }
@@ -62,10 +55,10 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Еритрея" }
                 { "pl" = "Erytrea" }
             },
-            States = new List<State>
+            States = new()
             {
 
-                new State
+                new()
                 {
                     Id = 1,
                     Name = "Anseba",
@@ -73,20 +66,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "16.47455310",
                     Longitude = "37.80876930",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Keren",
-                            Latitude = "15.77792000",
-                            Longitude = "38.45107000"
-                        }
+                        new() { Id = 1, Name = "Keren", Latitude = "15.77792000", Longitude = "38.45107000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 2,
                     Name = "Debub",
@@ -94,36 +80,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "14.94786920",
                     Longitude = "39.15436770",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Adi Keyh",
-                            Latitude = "14.84444000",
-                            Longitude = "39.37722000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Dek’emhāre",
-                            Latitude = "15.07000000",
-                            Longitude = "39.04750000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Mendefera",
-                            Latitude = "14.88722000",
-                            Longitude = "38.81528000"
-                        }
+                        new() { Id = 1, Name = "Adi Keyh", Latitude = "14.84444000", Longitude = "39.37722000" },
+                        new() { Id = 2, Name = "Dek’emhāre", Latitude = "15.07000000", Longitude = "39.04750000" },
+                        new() { Id = 3, Name = "Mendefera", Latitude = "14.88722000", Longitude = "38.81528000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 3,
                     Name = "Gash-Barka",
@@ -131,36 +96,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "15.40688250",
                     Longitude = "37.63866220",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Ak’ordat",
-                            Latitude = "15.54798000",
-                            Longitude = "37.88291000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Barentu",
-                            Latitude = "15.10582000",
-                            Longitude = "37.59067000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Teseney",
-                            Latitude = "15.11000000",
-                            Longitude = "36.65750000"
-                        }
+                        new() { Id = 1, Name = "Ak’ordat", Latitude = "15.54798000", Longitude = "37.88291000" },
+                        new() { Id = 2, Name = "Barentu", Latitude = "15.10582000", Longitude = "37.59067000" },
+                        new() { Id = 3, Name = "Teseney", Latitude = "15.11000000", Longitude = "36.65750000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 4,
                     Name = "Maekel",
@@ -168,20 +112,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "15.35514090",
                     Longitude = "38.86236830",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Asmara",
-                            Latitude = "15.33805000",
-                            Longitude = "38.93184000"
-                        }
+                        new() { Id = 1, Name = "Asmara", Latitude = "15.33805000", Longitude = "38.93184000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 5,
                     Name = "Northern Red Sea",
@@ -189,20 +126,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "16.25839970",
                     Longitude = "38.82054540",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Massawa",
-                            Latitude = "15.60811000",
-                            Longitude = "39.47455000"
-                        }
+                        new() { Id = 1, Name = "Massawa", Latitude = "15.60811000", Longitude = "39.47455000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 6,
                     Name = "Southern Red Sea",
@@ -210,24 +140,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "13.51371030",
                     Longitude = "41.76064720",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Assab",
-                            Latitude = "13.00917000",
-                            Longitude = "42.73944000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Edd",
-                            Latitude = "13.93088000",
-                            Longitude = "41.69380000"
-                        }
+                        new() { Id = 1, Name = "Assab", Latitude = "13.00917000", Longitude = "42.73944000" },
+                        new() { Id = 2, Name = "Edd", Latitude = "13.93088000", Longitude = "41.69380000" }
                     }
                 }
             }

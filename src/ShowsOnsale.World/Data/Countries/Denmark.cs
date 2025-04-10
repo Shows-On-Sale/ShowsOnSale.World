@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class Denmark
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 60,
             Name = "Denmark",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "10.00000000",
             Emoji = "🇩🇰",
             EmojiU = "U+1F1E9 U+1F1F0",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "Europe/Copenhagen",
-                    GmtOffset = 3600,
-                    GmtOffsetName = "UTC+01:00",
-                    Abbreviation = "CET",
-                    TzName = "Central European Time"
-                }
+                new() { ZoneName = "Europe/Copenhagen", GmtOffset = 3600, GmtOffsetName = "UTC+01:00", Abbreviation = "CET", TzName = "Central European Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "덴마크" },
                 { "pt-BR" = "Dinamarca" }
@@ -62,10 +55,10 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Данія" }
                 { "pl" = "Dania" }
             },
-            States = new List<State>
+            States = new()
             {
 
-                new State
+                new()
                 {
                     Id = 1,
                     Name = "Central Denmark",
@@ -73,772 +66,107 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "56.30213900",
                     Longitude = "9.30277700",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Aarhus",
-                            Latitude = "56.15674000",
-                            Longitude = "10.21076000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Aarhus Kommune",
-                            Latitude = "56.16317000",
-                            Longitude = "10.16897000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Allingåbro",
-                            Latitude = "56.46432000",
-                            Longitude = "10.31957000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Assentoft",
-                            Latitude = "56.44210000",
-                            Longitude = "10.15170000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Auning",
-                            Latitude = "56.43079000",
-                            Longitude = "10.37818000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Avlum",
-                            Latitude = "56.26539000",
-                            Longitude = "8.79256000"
-                        },
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Beder",
-                            Latitude = "56.06025000",
-                            Longitude = "10.21179000"
-                        },
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Bjerringbro",
-                            Latitude = "56.37797000",
-                            Longitude = "9.66065000"
-                        },
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Bording Kirkeby",
-                            Latitude = "56.16871000",
-                            Longitude = "9.24384000"
-                        },
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Brande",
-                            Latitude = "55.94316000",
-                            Longitude = "9.12798000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Brædstrup",
-                            Latitude = "55.97153000",
-                            Longitude = "9.61129000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Ebeltoft",
-                            Latitude = "56.19442000",
-                            Longitude = "10.68210000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Favrskov Kommune",
-                            Latitude = "56.31667000",
-                            Longitude = "9.94000000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Framlev",
-                            Latitude = "56.15664000",
-                            Longitude = "10.01318000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Galten",
-                            Latitude = "56.15902000",
-                            Longitude = "9.91691000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Gjellerup",
-                            Latitude = "56.14616000",
-                            Longitude = "9.05467000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Grenaa",
-                            Latitude = "56.41578000",
-                            Longitude = "10.87825000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Hadsten",
-                            Latitude = "56.32819000",
-                            Longitude = "10.04931000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Hammel",
-                            Latitude = "56.25762000",
-                            Longitude = "9.86316000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Hammerum",
-                            Latitude = "56.13361000",
-                            Longitude = "9.06121000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Harboøre",
-                            Latitude = "56.61752000",
-                            Longitude = "8.18069000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Hedensted",
-                            Latitude = "55.77043000",
-                            Longitude = "9.70110000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Hedensted Kommune",
-                            Latitude = "55.79680000",
-                            Longitude = "9.74400000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Herning",
-                            Latitude = "56.13615000",
-                            Longitude = "8.97662000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Herning Kommune",
-                            Latitude = "56.14997000",
-                            Longitude = "8.89712000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Hinnerup",
-                            Latitude = "56.26608000",
-                            Longitude = "10.06299000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Hjortshøj",
-                            Latitude = "56.24811000",
-                            Longitude = "10.26533000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Holstebro",
-                            Latitude = "56.36009000",
-                            Longitude = "8.61607000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Holstebro Kommune",
-                            Latitude = "56.35916000",
-                            Longitude = "8.59631000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Hornslet",
-                            Latitude = "56.31550000",
-                            Longitude = "10.32041000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Hornsyld",
-                            Latitude = "55.75621000",
-                            Longitude = "9.85643000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Horsens",
-                            Latitude = "55.86066000",
-                            Longitude = "9.85034000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Horsens Kommune",
-                            Latitude = "55.92740000",
-                            Longitude = "9.77377000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Hørning",
-                            Latitude = "56.08701000",
-                            Longitude = "10.03716000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Hvide Sande",
-                            Latitude = "55.99866000",
-                            Longitude = "8.12605000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Ikast",
-                            Latitude = "56.13883000",
-                            Longitude = "9.15768000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Ikast-Brande Kommune",
-                            Latitude = "55.98333000",
-                            Longitude = "9.21667000"
-                        },
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Juelsminde",
-                            Latitude = "55.70876000",
-                            Longitude = "10.01668000"
-                        },
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Karup",
-                            Latitude = "56.30673000",
-                            Longitude = "9.16835000"
-                        },
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Kibæk",
-                            Latitude = "56.03170000",
-                            Longitude = "8.85697000"
-                        },
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Kjellerup",
-                            Latitude = "56.28581000",
-                            Longitude = "9.43528000"
-                        },
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Kolt",
-                            Latitude = "56.10845000",
-                            Longitude = "10.06986000"
-                        },
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Langå",
-                            Latitude = "56.39026000",
-                            Longitude = "9.89486000"
-                        },
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "Lemvig",
-                            Latitude = "56.54856000",
-                            Longitude = "8.31019000"
-                        },
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "Lemvig Kommune",
-                            Latitude = "56.49136000",
-                            Longitude = "8.29927000"
-                        },
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "Lind",
-                            Latitude = "56.10600000",
-                            Longitude = "8.97915000"
-                        },
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "Løgten",
-                            Latitude = "56.27459000",
-                            Longitude = "10.31181000"
-                        },
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "Lystrup",
-                            Latitude = "56.23750000",
-                            Longitude = "10.23778000"
-                        },
-
-                        new City
-                        {
-                            Id = 49,
-                            Name = "Malling",
-                            Latitude = "56.03632000",
-                            Longitude = "10.19632000"
-                        },
-
-                        new City
-                        {
-                            Id = 50,
-                            Name = "Mårslet",
-                            Latitude = "56.06690000",
-                            Longitude = "10.16112000"
-                        },
-
-                        new City
-                        {
-                            Id = 51,
-                            Name = "Norddjurs Kommune",
-                            Latitude = "56.44124000",
-                            Longitude = "10.76660000"
-                        },
-
-                        new City
-                        {
-                            Id = 52,
-                            Name = "Odder",
-                            Latitude = "55.97313000",
-                            Longitude = "10.15300000"
-                        },
-
-                        new City
-                        {
-                            Id = 53,
-                            Name = "Odder Kommune",
-                            Latitude = "55.92967000",
-                            Longitude = "10.15304000"
-                        },
-
-                        new City
-                        {
-                            Id = 54,
-                            Name = "Randers",
-                            Latitude = "56.46070000",
-                            Longitude = "10.03639000"
-                        },
-
-                        new City
-                        {
-                            Id = 55,
-                            Name = "Randers Kommune",
-                            Latitude = "56.51561000",
-                            Longitude = "10.06901000"
-                        },
-
-                        new City
-                        {
-                            Id = 56,
-                            Name = "Ringkøbing",
-                            Latitude = "56.09006000",
-                            Longitude = "8.24402000"
-                        },
-
-                        new City
-                        {
-                            Id = 57,
-                            Name = "Ringkøbing-Skjern Kommune",
-                            Latitude = "56.01000000",
-                            Longitude = "8.39667000"
-                        },
-
-                        new City
-                        {
-                            Id = 58,
-                            Name = "Rønde",
-                            Latitude = "56.30145000",
-                            Longitude = "10.47505000"
-                        },
-
-                        new City
-                        {
-                            Id = 59,
-                            Name = "Ry",
-                            Latitude = "56.09038000",
-                            Longitude = "9.76505000"
-                        },
-
-                        new City
-                        {
-                            Id = 60,
-                            Name = "Ryomgård",
-                            Latitude = "56.38430000",
-                            Longitude = "10.50295000"
-                        },
-
-                        new City
-                        {
-                            Id = 61,
-                            Name = "Sabro",
-                            Latitude = "56.21333000",
-                            Longitude = "10.03441000"
-                        },
-
-                        new City
-                        {
-                            Id = 62,
-                            Name = "Samsø Kommune",
-                            Latitude = "55.85245000",
-                            Longitude = "10.60045000"
-                        },
-
-                        new City
-                        {
-                            Id = 63,
-                            Name = "Silkeborg",
-                            Latitude = "56.16970000",
-                            Longitude = "9.54508000"
-                        },
-
-                        new City
-                        {
-                            Id = 64,
-                            Name = "Silkeborg Kommune",
-                            Latitude = "56.17495000",
-                            Longitude = "9.54666000"
-                        },
-
-                        new City
-                        {
-                            Id = 65,
-                            Name = "Skanderborg",
-                            Latitude = "56.03434000",
-                            Longitude = "9.93177000"
-                        },
-
-                        new City
-                        {
-                            Id = 66,
-                            Name = "Skanderborg Kommune",
-                            Latitude = "56.07956000",
-                            Longitude = "9.89868000"
-                        },
-
-                        new City
-                        {
-                            Id = 67,
-                            Name = "Skive",
-                            Latitude = "56.56699000",
-                            Longitude = "9.02707000"
-                        },
-
-                        new City
-                        {
-                            Id = 68,
-                            Name = "Skive Kommune",
-                            Latitude = "56.64478000",
-                            Longitude = "8.97660000"
-                        },
-
-                        new City
-                        {
-                            Id = 69,
-                            Name = "Skjern",
-                            Latitude = "55.95000000",
-                            Longitude = "8.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 70,
-                            Name = "Skovby",
-                            Latitude = "56.15672000",
-                            Longitude = "9.94523000"
-                        },
-
-                        new City
-                        {
-                            Id = 71,
-                            Name = "Snejbjerg",
-                            Latitude = "56.13291000",
-                            Longitude = "8.90353000"
-                        },
-
-                        new City
-                        {
-                            Id = 72,
-                            Name = "Solbjerg",
-                            Latitude = "56.04271000",
-                            Longitude = "10.08631000"
-                        },
-
-                        new City
-                        {
-                            Id = 73,
-                            Name = "Søften",
-                            Latitude = "56.23801000",
-                            Longitude = "10.08510000"
-                        },
-
-                        new City
-                        {
-                            Id = 74,
-                            Name = "Spentrup",
-                            Latitude = "56.53703000",
-                            Longitude = "10.03792000"
-                        },
-
-                        new City
-                        {
-                            Id = 75,
-                            Name = "Stavtrup",
-                            Latitude = "56.13124000",
-                            Longitude = "10.11987000"
-                        },
-
-                        new City
-                        {
-                            Id = 76,
-                            Name = "Stilling",
-                            Latitude = "56.06224000",
-                            Longitude = "9.98822000"
-                        },
-
-                        new City
-                        {
-                            Id = 77,
-                            Name = "Stoholm",
-                            Latitude = "56.48454000",
-                            Longitude = "9.14617000"
-                        },
-
-                        new City
-                        {
-                            Id = 78,
-                            Name = "Struer",
-                            Latitude = "56.49205000",
-                            Longitude = "8.59397000"
-                        },
-
-                        new City
-                        {
-                            Id = 79,
-                            Name = "Struer Kommune",
-                            Latitude = "56.46667000",
-                            Longitude = "8.58333000"
-                        },
-
-                        new City
-                        {
-                            Id = 80,
-                            Name = "Sunds",
-                            Latitude = "56.20743000",
-                            Longitude = "9.01386000"
-                        },
-
-                        new City
-                        {
-                            Id = 81,
-                            Name = "Svejbæk",
-                            Latitude = "56.13255000",
-                            Longitude = "9.63289000"
-                        },
-
-                        new City
-                        {
-                            Id = 82,
-                            Name = "Syddjurs Kommune",
-                            Latitude = "56.31250000",
-                            Longitude = "10.52083000"
-                        },
-
-                        new City
-                        {
-                            Id = 83,
-                            Name = "Tarm",
-                            Latitude = "55.90861000",
-                            Longitude = "8.53041000"
-                        },
-
-                        new City
-                        {
-                            Id = 84,
-                            Name = "Thyborøn",
-                            Latitude = "56.69846000",
-                            Longitude = "8.21238000"
-                        },
-
-                        new City
-                        {
-                            Id = 85,
-                            Name = "Tørring",
-                            Latitude = "55.85000000",
-                            Longitude = "9.48333000"
-                        },
-
-                        new City
-                        {
-                            Id = 86,
-                            Name = "Tranbjerg",
-                            Latitude = "56.09519000",
-                            Longitude = "10.13605000"
-                        },
-
-                        new City
-                        {
-                            Id = 87,
-                            Name = "Trige",
-                            Latitude = "56.25291000",
-                            Longitude = "10.14840000"
-                        },
-
-                        new City
-                        {
-                            Id = 88,
-                            Name = "Ulfborg",
-                            Latitude = "56.26725000",
-                            Longitude = "8.32167000"
-                        },
-
-                        new City
-                        {
-                            Id = 89,
-                            Name = "Ulstrup",
-                            Latitude = "56.38994000",
-                            Longitude = "9.79354000"
-                        },
-
-                        new City
-                        {
-                            Id = 90,
-                            Name = "Viborg",
-                            Latitude = "56.45319000",
-                            Longitude = "9.40201000"
-                        },
-
-                        new City
-                        {
-                            Id = 91,
-                            Name = "Viborg Kommune",
-                            Latitude = "56.45000000",
-                            Longitude = "9.36667000"
-                        },
-
-                        new City
-                        {
-                            Id = 92,
-                            Name = "Videbæk",
-                            Latitude = "56.08760000",
-                            Longitude = "8.62852000"
-                        },
-
-                        new City
-                        {
-                            Id = 93,
-                            Name = "Vildbjerg",
-                            Latitude = "56.20000000",
-                            Longitude = "8.76667000"
-                        },
-
-                        new City
-                        {
-                            Id = 94,
-                            Name = "Vinderup",
-                            Latitude = "56.48176000",
-                            Longitude = "8.77991000"
-                        },
-
-                        new City
-                        {
-                            Id = 95,
-                            Name = "Virklund",
-                            Latitude = "56.13218000",
-                            Longitude = "9.55582000"
-                        }
+                        new() { Id = 1, Name = "Aarhus", Latitude = "56.15674000", Longitude = "10.21076000" },
+                        new() { Id = 2, Name = "Aarhus Kommune", Latitude = "56.16317000", Longitude = "10.16897000" },
+                        new() { Id = 3, Name = "Allingåbro", Latitude = "56.46432000", Longitude = "10.31957000" },
+                        new() { Id = 4, Name = "Assentoft", Latitude = "56.44210000", Longitude = "10.15170000" },
+                        new() { Id = 5, Name = "Auning", Latitude = "56.43079000", Longitude = "10.37818000" },
+                        new() { Id = 6, Name = "Avlum", Latitude = "56.26539000", Longitude = "8.79256000" },
+                        new() { Id = 7, Name = "Beder", Latitude = "56.06025000", Longitude = "10.21179000" },
+                        new() { Id = 8, Name = "Bjerringbro", Latitude = "56.37797000", Longitude = "9.66065000" },
+                        new() { Id = 9, Name = "Bording Kirkeby", Latitude = "56.16871000", Longitude = "9.24384000" },
+                        new() { Id = 10, Name = "Brande", Latitude = "55.94316000", Longitude = "9.12798000" },
+                        new() { Id = 11, Name = "Brædstrup", Latitude = "55.97153000", Longitude = "9.61129000" },
+                        new() { Id = 12, Name = "Ebeltoft", Latitude = "56.19442000", Longitude = "10.68210000" },
+                        new() { Id = 13, Name = "Favrskov Kommune", Latitude = "56.31667000", Longitude = "9.94000000" },
+                        new() { Id = 14, Name = "Framlev", Latitude = "56.15664000", Longitude = "10.01318000" },
+                        new() { Id = 15, Name = "Galten", Latitude = "56.15902000", Longitude = "9.91691000" },
+                        new() { Id = 16, Name = "Gjellerup", Latitude = "56.14616000", Longitude = "9.05467000" },
+                        new() { Id = 17, Name = "Grenaa", Latitude = "56.41578000", Longitude = "10.87825000" },
+                        new() { Id = 18, Name = "Hadsten", Latitude = "56.32819000", Longitude = "10.04931000" },
+                        new() { Id = 19, Name = "Hammel", Latitude = "56.25762000", Longitude = "9.86316000" },
+                        new() { Id = 20, Name = "Hammerum", Latitude = "56.13361000", Longitude = "9.06121000" },
+                        new() { Id = 21, Name = "Harboøre", Latitude = "56.61752000", Longitude = "8.18069000" },
+                        new() { Id = 22, Name = "Hedensted", Latitude = "55.77043000", Longitude = "9.70110000" },
+                        new() { Id = 23, Name = "Hedensted Kommune", Latitude = "55.79680000", Longitude = "9.74400000" },
+                        new() { Id = 24, Name = "Herning", Latitude = "56.13615000", Longitude = "8.97662000" },
+                        new() { Id = 25, Name = "Herning Kommune", Latitude = "56.14997000", Longitude = "8.89712000" },
+                        new() { Id = 26, Name = "Hinnerup", Latitude = "56.26608000", Longitude = "10.06299000" },
+                        new() { Id = 27, Name = "Hjortshøj", Latitude = "56.24811000", Longitude = "10.26533000" },
+                        new() { Id = 28, Name = "Holstebro", Latitude = "56.36009000", Longitude = "8.61607000" },
+                        new() { Id = 29, Name = "Holstebro Kommune", Latitude = "56.35916000", Longitude = "8.59631000" },
+                        new() { Id = 30, Name = "Hornslet", Latitude = "56.31550000", Longitude = "10.32041000" },
+                        new() { Id = 31, Name = "Hornsyld", Latitude = "55.75621000", Longitude = "9.85643000" },
+                        new() { Id = 32, Name = "Horsens", Latitude = "55.86066000", Longitude = "9.85034000" },
+                        new() { Id = 33, Name = "Horsens Kommune", Latitude = "55.92740000", Longitude = "9.77377000" },
+                        new() { Id = 34, Name = "Hørning", Latitude = "56.08701000", Longitude = "10.03716000" },
+                        new() { Id = 35, Name = "Hvide Sande", Latitude = "55.99866000", Longitude = "8.12605000" },
+                        new() { Id = 36, Name = "Ikast", Latitude = "56.13883000", Longitude = "9.15768000" },
+                        new() { Id = 37, Name = "Ikast-Brande Kommune", Latitude = "55.98333000", Longitude = "9.21667000" },
+                        new() { Id = 38, Name = "Juelsminde", Latitude = "55.70876000", Longitude = "10.01668000" },
+                        new() { Id = 39, Name = "Karup", Latitude = "56.30673000", Longitude = "9.16835000" },
+                        new() { Id = 40, Name = "Kibæk", Latitude = "56.03170000", Longitude = "8.85697000" },
+                        new() { Id = 41, Name = "Kjellerup", Latitude = "56.28581000", Longitude = "9.43528000" },
+                        new() { Id = 42, Name = "Kolt", Latitude = "56.10845000", Longitude = "10.06986000" },
+                        new() { Id = 43, Name = "Langå", Latitude = "56.39026000", Longitude = "9.89486000" },
+                        new() { Id = 44, Name = "Lemvig", Latitude = "56.54856000", Longitude = "8.31019000" },
+                        new() { Id = 45, Name = "Lemvig Kommune", Latitude = "56.49136000", Longitude = "8.29927000" },
+                        new() { Id = 46, Name = "Lind", Latitude = "56.10600000", Longitude = "8.97915000" },
+                        new() { Id = 47, Name = "Løgten", Latitude = "56.27459000", Longitude = "10.31181000" },
+                        new() { Id = 48, Name = "Lystrup", Latitude = "56.23750000", Longitude = "10.23778000" },
+                        new() { Id = 49, Name = "Malling", Latitude = "56.03632000", Longitude = "10.19632000" },
+                        new() { Id = 50, Name = "Mårslet", Latitude = "56.06690000", Longitude = "10.16112000" },
+                        new() { Id = 51, Name = "Norddjurs Kommune", Latitude = "56.44124000", Longitude = "10.76660000" },
+                        new() { Id = 52, Name = "Odder", Latitude = "55.97313000", Longitude = "10.15300000" },
+                        new() { Id = 53, Name = "Odder Kommune", Latitude = "55.92967000", Longitude = "10.15304000" },
+                        new() { Id = 54, Name = "Randers", Latitude = "56.46070000", Longitude = "10.03639000" },
+                        new() { Id = 55, Name = "Randers Kommune", Latitude = "56.51561000", Longitude = "10.06901000" },
+                        new() { Id = 56, Name = "Ringkøbing", Latitude = "56.09006000", Longitude = "8.24402000" },
+                        new() { Id = 57, Name = "Ringkøbing-Skjern Kommune", Latitude = "56.01000000", Longitude = "8.39667000" },
+                        new() { Id = 58, Name = "Rønde", Latitude = "56.30145000", Longitude = "10.47505000" },
+                        new() { Id = 59, Name = "Ry", Latitude = "56.09038000", Longitude = "9.76505000" },
+                        new() { Id = 60, Name = "Ryomgård", Latitude = "56.38430000", Longitude = "10.50295000" },
+                        new() { Id = 61, Name = "Sabro", Latitude = "56.21333000", Longitude = "10.03441000" },
+                        new() { Id = 62, Name = "Samsø Kommune", Latitude = "55.85245000", Longitude = "10.60045000" },
+                        new() { Id = 63, Name = "Silkeborg", Latitude = "56.16970000", Longitude = "9.54508000" },
+                        new() { Id = 64, Name = "Silkeborg Kommune", Latitude = "56.17495000", Longitude = "9.54666000" },
+                        new() { Id = 65, Name = "Skanderborg", Latitude = "56.03434000", Longitude = "9.93177000" },
+                        new() { Id = 66, Name = "Skanderborg Kommune", Latitude = "56.07956000", Longitude = "9.89868000" },
+                        new() { Id = 67, Name = "Skive", Latitude = "56.56699000", Longitude = "9.02707000" },
+                        new() { Id = 68, Name = "Skive Kommune", Latitude = "56.64478000", Longitude = "8.97660000" },
+                        new() { Id = 69, Name = "Skjern", Latitude = "55.95000000", Longitude = "8.50000000" },
+                        new() { Id = 70, Name = "Skovby", Latitude = "56.15672000", Longitude = "9.94523000" },
+                        new() { Id = 71, Name = "Snejbjerg", Latitude = "56.13291000", Longitude = "8.90353000" },
+                        new() { Id = 72, Name = "Solbjerg", Latitude = "56.04271000", Longitude = "10.08631000" },
+                        new() { Id = 73, Name = "Søften", Latitude = "56.23801000", Longitude = "10.08510000" },
+                        new() { Id = 74, Name = "Spentrup", Latitude = "56.53703000", Longitude = "10.03792000" },
+                        new() { Id = 75, Name = "Stavtrup", Latitude = "56.13124000", Longitude = "10.11987000" },
+                        new() { Id = 76, Name = "Stilling", Latitude = "56.06224000", Longitude = "9.98822000" },
+                        new() { Id = 77, Name = "Stoholm", Latitude = "56.48454000", Longitude = "9.14617000" },
+                        new() { Id = 78, Name = "Struer", Latitude = "56.49205000", Longitude = "8.59397000" },
+                        new() { Id = 79, Name = "Struer Kommune", Latitude = "56.46667000", Longitude = "8.58333000" },
+                        new() { Id = 80, Name = "Sunds", Latitude = "56.20743000", Longitude = "9.01386000" },
+                        new() { Id = 81, Name = "Svejbæk", Latitude = "56.13255000", Longitude = "9.63289000" },
+                        new() { Id = 82, Name = "Syddjurs Kommune", Latitude = "56.31250000", Longitude = "10.52083000" },
+                        new() { Id = 83, Name = "Tarm", Latitude = "55.90861000", Longitude = "8.53041000" },
+                        new() { Id = 84, Name = "Thyborøn", Latitude = "56.69846000", Longitude = "8.21238000" },
+                        new() { Id = 85, Name = "Tørring", Latitude = "55.85000000", Longitude = "9.48333000" },
+                        new() { Id = 86, Name = "Tranbjerg", Latitude = "56.09519000", Longitude = "10.13605000" },
+                        new() { Id = 87, Name = "Trige", Latitude = "56.25291000", Longitude = "10.14840000" },
+                        new() { Id = 88, Name = "Ulfborg", Latitude = "56.26725000", Longitude = "8.32167000" },
+                        new() { Id = 89, Name = "Ulstrup", Latitude = "56.38994000", Longitude = "9.79354000" },
+                        new() { Id = 90, Name = "Viborg", Latitude = "56.45319000", Longitude = "9.40201000" },
+                        new() { Id = 91, Name = "Viborg Kommune", Latitude = "56.45000000", Longitude = "9.36667000" },
+                        new() { Id = 92, Name = "Videbæk", Latitude = "56.08760000", Longitude = "8.62852000" },
+                        new() { Id = 93, Name = "Vildbjerg", Latitude = "56.20000000", Longitude = "8.76667000" },
+                        new() { Id = 94, Name = "Vinderup", Latitude = "56.48176000", Longitude = "8.77991000" },
+                        new() { Id = 95, Name = "Virklund", Latitude = "56.13218000", Longitude = "9.55582000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 2,
                     Name = "Denmark",
@@ -846,708 +174,99 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.67518120",
                     Longitude = "12.54932610",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Åkirkeby",
-                            Latitude = "55.07080000",
-                            Longitude = "14.91978000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Albertslund",
-                            Latitude = "55.65691000",
-                            Longitude = "12.36381000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Albertslund Kommune",
-                            Latitude = "55.68022000",
-                            Longitude = "12.34797000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Allerød Kommune",
-                            Latitude = "55.85856000",
-                            Longitude = "12.32558000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Ballerup",
-                            Latitude = "55.73165000",
-                            Longitude = "12.36328000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Ballerup Kommune",
-                            Latitude = "55.73248000",
-                            Longitude = "12.35793000"
-                        },
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Birkerød",
-                            Latitude = "55.84759000",
-                            Longitude = "12.42791000"
-                        },
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Blovstrød",
-                            Latitude = "55.87038000",
-                            Longitude = "12.38640000"
-                        },
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Bornholm Kommune",
-                            Latitude = "55.12386000",
-                            Longitude = "14.91115000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Brøndby Kommune",
-                            Latitude = "55.64290000",
-                            Longitude = "12.41101000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Charlottenlund",
-                            Latitude = "55.75238000",
-                            Longitude = "12.57450000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Christianshavn",
-                            Latitude = "55.67383000",
-                            Longitude = "12.59541000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Christiansø",
-                            Latitude = "55.31982000",
-                            Longitude = "15.18783000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Copenhagen",
-                            Latitude = "55.67594000",
-                            Longitude = "12.56553000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Dragør",
-                            Latitude = "55.59280000",
-                            Longitude = "12.67221000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Dragør Kommune",
-                            Latitude = "55.58233000",
-                            Longitude = "12.62756000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Egedal Kommune",
-                            Latitude = "55.75556000",
-                            Longitude = "12.22778000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Espergærde",
-                            Latitude = "55.99464000",
-                            Longitude = "12.54733000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Farum",
-                            Latitude = "55.80858000",
-                            Longitude = "12.36066000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Fløng",
-                            Latitude = "55.66212000",
-                            Longitude = "12.18698000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Fredensborg",
-                            Latitude = "55.97558000",
-                            Longitude = "12.40314000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Fredensborg Kommune",
-                            Latitude = "55.95000000",
-                            Longitude = "12.45000000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Frederiksberg",
-                            Latitude = "55.67938000",
-                            Longitude = "12.53463000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Frederiksberg Kommune",
-                            Latitude = "55.67856000",
-                            Longitude = "12.52216000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Frederikssund",
-                            Latitude = "55.83956000",
-                            Longitude = "12.06896000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Frederikssund Kommune",
-                            Latitude = "55.80957000",
-                            Longitude = "12.04038000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Frederiksværk",
-                            Latitude = "55.97073000",
-                            Longitude = "12.02250000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Furesø Kommune",
-                            Latitude = "55.78333000",
-                            Longitude = "12.34167000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Ganløse",
-                            Latitude = "55.79124000",
-                            Longitude = "12.26421000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Gentofte Kommune",
-                            Latitude = "55.75000000",
-                            Longitude = "12.55000000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Gilleleje",
-                            Latitude = "56.12196000",
-                            Longitude = "12.31056000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Gladsaxe Municipality",
-                            Latitude = "55.76667000",
-                            Longitude = "12.43333000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Glostrup",
-                            Latitude = "55.66660000",
-                            Longitude = "12.40377000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Glostrup Kommune",
-                            Latitude = "55.68188000",
-                            Longitude = "12.41018000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Græsted",
-                            Latitude = "56.06558000",
-                            Longitude = "12.28512000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Gribskov Kommune",
-                            Latitude = "56.05833000",
-                            Longitude = "12.24167000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Halsnæs Kommune",
-                            Latitude = "55.96765000",
-                            Longitude = "11.94214000"
-                        },
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Hedehusene",
-                            Latitude = "55.67594000",
-                            Longitude = "12.56553000"
-                        },
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Hellebæk",
-                            Latitude = "56.06823000",
-                            Longitude = "12.55782000"
-                        },
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Helsinge",
-                            Latitude = "56.02283000",
-                            Longitude = "12.19752000"
-                        },
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Helsingør",
-                            Latitude = "56.03606000",
-                            Longitude = "12.61360000"
-                        },
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Helsingør Kommune",
-                            Latitude = "56.05000000",
-                            Longitude = "12.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Herlev Kommune",
-                            Latitude = "55.73317000",
-                            Longitude = "12.43106000"
-                        },
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "Hillerød",
-                            Latitude = "55.92791000",
-                            Longitude = "12.30081000"
-                        },
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "Hillerød Kommune",
-                            Latitude = "55.92319000",
-                            Longitude = "12.23794000"
-                        },
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "Hornbæk",
-                            Latitude = "56.09027000",
-                            Longitude = "12.45693000"
-                        },
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "Høje-Taastrup Kommune",
-                            Latitude = "55.65643000",
-                            Longitude = "12.24854000"
-                        },
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "Hørsholm",
-                            Latitude = "55.88098000",
-                            Longitude = "12.50111000"
-                        },
-
-                        new City
-                        {
-                            Id = 49,
-                            Name = "Hørsholm Kommune",
-                            Latitude = "55.88759000",
-                            Longitude = "12.48566000"
-                        },
-
-                        new City
-                        {
-                            Id = 50,
-                            Name = "Humlebæk",
-                            Latitude = "55.96180000",
-                            Longitude = "12.53410000"
-                        },
-
-                        new City
-                        {
-                            Id = 51,
-                            Name = "Hundested",
-                            Latitude = "55.96397000",
-                            Longitude = "11.85044000"
-                        },
-
-                        new City
-                        {
-                            Id = 52,
-                            Name = "Hvidovre",
-                            Latitude = "55.65719000",
-                            Longitude = "12.47364000"
-                        },
-
-                        new City
-                        {
-                            Id = 53,
-                            Name = "Hvidovre Kommune",
-                            Latitude = "55.63166000",
-                            Longitude = "12.46615000"
-                        },
-
-                        new City
-                        {
-                            Id = 54,
-                            Name = "Ishøj",
-                            Latitude = "55.61543000",
-                            Longitude = "12.35182000"
-                        },
-
-                        new City
-                        {
-                            Id = 55,
-                            Name = "Ishøj Kommune",
-                            Latitude = "55.62299000",
-                            Longitude = "12.30567000"
-                        },
-
-                        new City
-                        {
-                            Id = 56,
-                            Name = "Jægerspris",
-                            Latitude = "55.85248000",
-                            Longitude = "11.98565000"
-                        },
-
-                        new City
-                        {
-                            Id = 57,
-                            Name = "Kokkedal",
-                            Latitude = "55.91179000",
-                            Longitude = "12.49952000"
-                        },
-
-                        new City
-                        {
-                            Id = 58,
-                            Name = "Kongens Lyngby",
-                            Latitude = "55.77044000",
-                            Longitude = "12.50378000"
-                        },
-
-                        new City
-                        {
-                            Id = 59,
-                            Name = "København",
-                            Latitude = "55.67110000",
-                            Longitude = "12.56529000"
-                        },
-
-                        new City
-                        {
-                            Id = 60,
-                            Name = "Lillerød",
-                            Latitude = "55.87496000",
-                            Longitude = "12.34579000"
-                        },
-
-                        new City
-                        {
-                            Id = 61,
-                            Name = "Liseleje",
-                            Latitude = "56.01295000",
-                            Longitude = "11.96544000"
-                        },
-
-                        new City
-                        {
-                            Id = 62,
-                            Name = "Lyngby-Tårbæk Kommune",
-                            Latitude = "55.78456000",
-                            Longitude = "12.50508000"
-                        },
-
-                        new City
-                        {
-                            Id = 63,
-                            Name = "Lynge",
-                            Latitude = "55.83941000",
-                            Longitude = "12.27725000"
-                        },
-
-                        new City
-                        {
-                            Id = 64,
-                            Name = "Måløv",
-                            Latitude = "55.75528000",
-                            Longitude = "12.32327000"
-                        },
-
-                        new City
-                        {
-                            Id = 65,
-                            Name = "Nexø",
-                            Latitude = "55.06067000",
-                            Longitude = "15.13058000"
-                        },
-
-                        new City
-                        {
-                            Id = 66,
-                            Name = "Nivå",
-                            Latitude = "55.93405000",
-                            Longitude = "12.50485000"
-                        },
-
-                        new City
-                        {
-                            Id = 67,
-                            Name = "Nødebo",
-                            Latitude = "55.97877000",
-                            Longitude = "12.34685000"
-                        },
-
-                        new City
-                        {
-                            Id = 68,
-                            Name = "Ølstykke",
-                            Latitude = "55.79567000",
-                            Longitude = "12.15509000"
-                        },
-
-                        new City
-                        {
-                            Id = 69,
-                            Name = "Rødovre",
-                            Latitude = "55.68062000",
-                            Longitude = "12.45373000"
-                        },
-
-                        new City
-                        {
-                            Id = 70,
-                            Name = "Rødovre Kommune",
-                            Latitude = "55.68852000",
-                            Longitude = "12.44834000"
-                        },
-
-                        new City
-                        {
-                            Id = 71,
-                            Name = "Rønne",
-                            Latitude = "55.10091000",
-                            Longitude = "14.70664000"
-                        },
-
-                        new City
-                        {
-                            Id = 72,
-                            Name = "Rudersdal Kommune",
-                            Latitude = "55.82500000",
-                            Longitude = "12.49167000"
-                        },
-
-                        new City
-                        {
-                            Id = 73,
-                            Name = "Skævinge",
-                            Latitude = "55.90785000",
-                            Longitude = "12.15036000"
-                        },
-
-                        new City
-                        {
-                            Id = 74,
-                            Name = "Skibby",
-                            Latitude = "55.75122000",
-                            Longitude = "11.96083000"
-                        },
-
-                        new City
-                        {
-                            Id = 75,
-                            Name = "Slangerup",
-                            Latitude = "55.85000000",
-                            Longitude = "12.18333000"
-                        },
-
-                        new City
-                        {
-                            Id = 76,
-                            Name = "Smørumnedre",
-                            Latitude = "55.74232000",
-                            Longitude = "12.30276000"
-                        },
-
-                        new City
-                        {
-                            Id = 77,
-                            Name = "Stavnsholt",
-                            Latitude = "55.81479000",
-                            Longitude = "12.40545000"
-                        },
-
-                        new City
-                        {
-                            Id = 78,
-                            Name = "Stenløse",
-                            Latitude = "55.76828000",
-                            Longitude = "12.19723000"
-                        },
-
-                        new City
-                        {
-                            Id = 79,
-                            Name = "Taastrup",
-                            Latitude = "55.65006000",
-                            Longitude = "12.30160000"
-                        },
-
-                        new City
-                        {
-                            Id = 80,
-                            Name = "Tårnby",
-                            Latitude = "55.63030000",
-                            Longitude = "12.60035000"
-                        },
-
-                        new City
-                        {
-                            Id = 81,
-                            Name = "Tårnby Kommune",
-                            Latitude = "55.60391000",
-                            Longitude = "12.59599000"
-                        },
-
-                        new City
-                        {
-                            Id = 82,
-                            Name = "Trørød",
-                            Latitude = "55.83946000",
-                            Longitude = "12.54432000"
-                        },
-
-                        new City
-                        {
-                            Id = 83,
-                            Name = "Vallensbæk Kommune",
-                            Latitude = "55.63128000",
-                            Longitude = "12.37369000"
-                        },
-
-                        new City
-                        {
-                            Id = 84,
-                            Name = "Vallensbæk Strand",
-                            Latitude = "55.62199000",
-                            Longitude = "12.38511000"
-                        },
-
-                        new City
-                        {
-                            Id = 85,
-                            Name = "Vanløse",
-                            Latitude = "55.68361000",
-                            Longitude = "12.48713000"
-                        },
-
-                        new City
-                        {
-                            Id = 86,
-                            Name = "Værløse",
-                            Latitude = "55.78251000",
-                            Longitude = "12.36856000"
-                        },
-
-                        new City
-                        {
-                            Id = 87,
-                            Name = "Veksø",
-                            Latitude = "55.75473000",
-                            Longitude = "12.23837000"
-                        }
+                        new() { Id = 1, Name = "Åkirkeby", Latitude = "55.07080000", Longitude = "14.91978000" },
+                        new() { Id = 2, Name = "Albertslund", Latitude = "55.65691000", Longitude = "12.36381000" },
+                        new() { Id = 3, Name = "Albertslund Kommune", Latitude = "55.68022000", Longitude = "12.34797000" },
+                        new() { Id = 4, Name = "Allerød Kommune", Latitude = "55.85856000", Longitude = "12.32558000" },
+                        new() { Id = 5, Name = "Ballerup", Latitude = "55.73165000", Longitude = "12.36328000" },
+                        new() { Id = 6, Name = "Ballerup Kommune", Latitude = "55.73248000", Longitude = "12.35793000" },
+                        new() { Id = 7, Name = "Birkerød", Latitude = "55.84759000", Longitude = "12.42791000" },
+                        new() { Id = 8, Name = "Blovstrød", Latitude = "55.87038000", Longitude = "12.38640000" },
+                        new() { Id = 9, Name = "Bornholm Kommune", Latitude = "55.12386000", Longitude = "14.91115000" },
+                        new() { Id = 10, Name = "Brøndby Kommune", Latitude = "55.64290000", Longitude = "12.41101000" },
+                        new() { Id = 11, Name = "Charlottenlund", Latitude = "55.75238000", Longitude = "12.57450000" },
+                        new() { Id = 12, Name = "Christianshavn", Latitude = "55.67383000", Longitude = "12.59541000" },
+                        new() { Id = 13, Name = "Christiansø", Latitude = "55.31982000", Longitude = "15.18783000" },
+                        new() { Id = 14, Name = "Copenhagen", Latitude = "55.67594000", Longitude = "12.56553000" },
+                        new() { Id = 15, Name = "Dragør", Latitude = "55.59280000", Longitude = "12.67221000" },
+                        new() { Id = 16, Name = "Dragør Kommune", Latitude = "55.58233000", Longitude = "12.62756000" },
+                        new() { Id = 17, Name = "Egedal Kommune", Latitude = "55.75556000", Longitude = "12.22778000" },
+                        new() { Id = 18, Name = "Espergærde", Latitude = "55.99464000", Longitude = "12.54733000" },
+                        new() { Id = 19, Name = "Farum", Latitude = "55.80858000", Longitude = "12.36066000" },
+                        new() { Id = 20, Name = "Fløng", Latitude = "55.66212000", Longitude = "12.18698000" },
+                        new() { Id = 21, Name = "Fredensborg", Latitude = "55.97558000", Longitude = "12.40314000" },
+                        new() { Id = 22, Name = "Fredensborg Kommune", Latitude = "55.95000000", Longitude = "12.45000000" },
+                        new() { Id = 23, Name = "Frederiksberg", Latitude = "55.67938000", Longitude = "12.53463000" },
+                        new() { Id = 24, Name = "Frederiksberg Kommune", Latitude = "55.67856000", Longitude = "12.52216000" },
+                        new() { Id = 25, Name = "Frederikssund", Latitude = "55.83956000", Longitude = "12.06896000" },
+                        new() { Id = 26, Name = "Frederikssund Kommune", Latitude = "55.80957000", Longitude = "12.04038000" },
+                        new() { Id = 27, Name = "Frederiksværk", Latitude = "55.97073000", Longitude = "12.02250000" },
+                        new() { Id = 28, Name = "Furesø Kommune", Latitude = "55.78333000", Longitude = "12.34167000" },
+                        new() { Id = 29, Name = "Ganløse", Latitude = "55.79124000", Longitude = "12.26421000" },
+                        new() { Id = 30, Name = "Gentofte Kommune", Latitude = "55.75000000", Longitude = "12.55000000" },
+                        new() { Id = 31, Name = "Gilleleje", Latitude = "56.12196000", Longitude = "12.31056000" },
+                        new() { Id = 32, Name = "Gladsaxe Municipality", Latitude = "55.76667000", Longitude = "12.43333000" },
+                        new() { Id = 33, Name = "Glostrup", Latitude = "55.66660000", Longitude = "12.40377000" },
+                        new() { Id = 34, Name = "Glostrup Kommune", Latitude = "55.68188000", Longitude = "12.41018000" },
+                        new() { Id = 35, Name = "Græsted", Latitude = "56.06558000", Longitude = "12.28512000" },
+                        new() { Id = 36, Name = "Gribskov Kommune", Latitude = "56.05833000", Longitude = "12.24167000" },
+                        new() { Id = 37, Name = "Halsnæs Kommune", Latitude = "55.96765000", Longitude = "11.94214000" },
+                        new() { Id = 38, Name = "Hedehusene", Latitude = "55.67594000", Longitude = "12.56553000" },
+                        new() { Id = 39, Name = "Hellebæk", Latitude = "56.06823000", Longitude = "12.55782000" },
+                        new() { Id = 40, Name = "Helsinge", Latitude = "56.02283000", Longitude = "12.19752000" },
+                        new() { Id = 41, Name = "Helsingør", Latitude = "56.03606000", Longitude = "12.61360000" },
+                        new() { Id = 42, Name = "Helsingør Kommune", Latitude = "56.05000000", Longitude = "12.50000000" },
+                        new() { Id = 43, Name = "Herlev Kommune", Latitude = "55.73317000", Longitude = "12.43106000" },
+                        new() { Id = 44, Name = "Hillerød", Latitude = "55.92791000", Longitude = "12.30081000" },
+                        new() { Id = 45, Name = "Hillerød Kommune", Latitude = "55.92319000", Longitude = "12.23794000" },
+                        new() { Id = 46, Name = "Hornbæk", Latitude = "56.09027000", Longitude = "12.45693000" },
+                        new() { Id = 47, Name = "Høje-Taastrup Kommune", Latitude = "55.65643000", Longitude = "12.24854000" },
+                        new() { Id = 48, Name = "Hørsholm", Latitude = "55.88098000", Longitude = "12.50111000" },
+                        new() { Id = 49, Name = "Hørsholm Kommune", Latitude = "55.88759000", Longitude = "12.48566000" },
+                        new() { Id = 50, Name = "Humlebæk", Latitude = "55.96180000", Longitude = "12.53410000" },
+                        new() { Id = 51, Name = "Hundested", Latitude = "55.96397000", Longitude = "11.85044000" },
+                        new() { Id = 52, Name = "Hvidovre", Latitude = "55.65719000", Longitude = "12.47364000" },
+                        new() { Id = 53, Name = "Hvidovre Kommune", Latitude = "55.63166000", Longitude = "12.46615000" },
+                        new() { Id = 54, Name = "Ishøj", Latitude = "55.61543000", Longitude = "12.35182000" },
+                        new() { Id = 55, Name = "Ishøj Kommune", Latitude = "55.62299000", Longitude = "12.30567000" },
+                        new() { Id = 56, Name = "Jægerspris", Latitude = "55.85248000", Longitude = "11.98565000" },
+                        new() { Id = 57, Name = "Kokkedal", Latitude = "55.91179000", Longitude = "12.49952000" },
+                        new() { Id = 58, Name = "Kongens Lyngby", Latitude = "55.77044000", Longitude = "12.50378000" },
+                        new() { Id = 59, Name = "København", Latitude = "55.67110000", Longitude = "12.56529000" },
+                        new() { Id = 60, Name = "Lillerød", Latitude = "55.87496000", Longitude = "12.34579000" },
+                        new() { Id = 61, Name = "Liseleje", Latitude = "56.01295000", Longitude = "11.96544000" },
+                        new() { Id = 62, Name = "Lyngby-Tårbæk Kommune", Latitude = "55.78456000", Longitude = "12.50508000" },
+                        new() { Id = 63, Name = "Lynge", Latitude = "55.83941000", Longitude = "12.27725000" },
+                        new() { Id = 64, Name = "Måløv", Latitude = "55.75528000", Longitude = "12.32327000" },
+                        new() { Id = 65, Name = "Nexø", Latitude = "55.06067000", Longitude = "15.13058000" },
+                        new() { Id = 66, Name = "Nivå", Latitude = "55.93405000", Longitude = "12.50485000" },
+                        new() { Id = 67, Name = "Nødebo", Latitude = "55.97877000", Longitude = "12.34685000" },
+                        new() { Id = 68, Name = "Ølstykke", Latitude = "55.79567000", Longitude = "12.15509000" },
+                        new() { Id = 69, Name = "Rødovre", Latitude = "55.68062000", Longitude = "12.45373000" },
+                        new() { Id = 70, Name = "Rødovre Kommune", Latitude = "55.68852000", Longitude = "12.44834000" },
+                        new() { Id = 71, Name = "Rønne", Latitude = "55.10091000", Longitude = "14.70664000" },
+                        new() { Id = 72, Name = "Rudersdal Kommune", Latitude = "55.82500000", Longitude = "12.49167000" },
+                        new() { Id = 73, Name = "Skævinge", Latitude = "55.90785000", Longitude = "12.15036000" },
+                        new() { Id = 74, Name = "Skibby", Latitude = "55.75122000", Longitude = "11.96083000" },
+                        new() { Id = 75, Name = "Slangerup", Latitude = "55.85000000", Longitude = "12.18333000" },
+                        new() { Id = 76, Name = "Smørumnedre", Latitude = "55.74232000", Longitude = "12.30276000" },
+                        new() { Id = 77, Name = "Stavnsholt", Latitude = "55.81479000", Longitude = "12.40545000" },
+                        new() { Id = 78, Name = "Stenløse", Latitude = "55.76828000", Longitude = "12.19723000" },
+                        new() { Id = 79, Name = "Taastrup", Latitude = "55.65006000", Longitude = "12.30160000" },
+                        new() { Id = 80, Name = "Tårnby", Latitude = "55.63030000", Longitude = "12.60035000" },
+                        new() { Id = 81, Name = "Tårnby Kommune", Latitude = "55.60391000", Longitude = "12.59599000" },
+                        new() { Id = 82, Name = "Trørød", Latitude = "55.83946000", Longitude = "12.54432000" },
+                        new() { Id = 83, Name = "Vallensbæk Kommune", Latitude = "55.63128000", Longitude = "12.37369000" },
+                        new() { Id = 84, Name = "Vallensbæk Strand", Latitude = "55.62199000", Longitude = "12.38511000" },
+                        new() { Id = 85, Name = "Vanløse", Latitude = "55.68361000", Longitude = "12.48713000" },
+                        new() { Id = 86, Name = "Værløse", Latitude = "55.78251000", Longitude = "12.36856000" },
+                        new() { Id = 87, Name = "Veksø", Latitude = "55.75473000", Longitude = "12.23837000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 3,
                     Name = "North Denmark",
@@ -1555,460 +274,68 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "56.83074160",
                     Longitude = "9.49305270",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Aalborg",
-                            Latitude = "57.04800000",
-                            Longitude = "9.91870000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Aars",
-                            Latitude = "56.80399000",
-                            Longitude = "9.51441000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Åbybro",
-                            Latitude = "57.16249000",
-                            Longitude = "9.72996000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Ålborg Kommune",
-                            Latitude = "57.00000000",
-                            Longitude = "9.95000000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Ålestrup",
-                            Latitude = "56.69470000",
-                            Longitude = "9.49336000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Arden",
-                            Latitude = "56.76899000",
-                            Longitude = "9.86184000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Brovst",
-                            Latitude = "57.09750000",
-                            Longitude = "9.52264000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Brønderslev",
-                            Latitude = "57.27021000",
-                            Longitude = "9.94102000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Brønderslev Kommune",
-                            Latitude = "57.23506000",
-                            Longitude = "10.10061000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Dronninglund",
-                            Latitude = "57.16035000",
-                            Longitude = "10.29287000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Farsø",
-                            Latitude = "56.77276000",
-                            Longitude = "9.33925000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Fjerritslev",
-                            Latitude = "57.08822000",
-                            Longitude = "9.26622000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Frederikshavn",
-                            Latitude = "57.44073000",
-                            Longitude = "10.53661000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Frederikshavn Kommune",
-                            Latitude = "57.43347000",
-                            Longitude = "10.42507000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Frejlev",
-                            Latitude = "57.00623000",
-                            Longitude = "9.81711000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Gistrup",
-                            Latitude = "56.99430000",
-                            Longitude = "9.99085000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Hadsund",
-                            Latitude = "56.71482000",
-                            Longitude = "10.11682000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Hals",
-                            Latitude = "56.99609000",
-                            Longitude = "10.30807000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Hanstholm",
-                            Latitude = "57.11667000",
-                            Longitude = "8.61667000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Hirtshals",
-                            Latitude = "57.58812000",
-                            Longitude = "9.95922000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Hjallerup",
-                            Latitude = "57.16466000",
-                            Longitude = "10.14571000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Hjørring",
-                            Latitude = "57.46417000",
-                            Longitude = "9.98229000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Hjørring Kommune",
-                            Latitude = "57.45682000",
-                            Longitude = "10.05859000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Hobro",
-                            Latitude = "56.64306000",
-                            Longitude = "9.79029000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Hurup",
-                            Latitude = "56.74944000",
-                            Longitude = "8.41953000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Jammerbugt Kommune",
-                            Latitude = "57.14583000",
-                            Longitude = "9.56250000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Kås",
-                            Latitude = "57.19774000",
-                            Longitude = "9.67173000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Klarup",
-                            Latitude = "57.01194000",
-                            Longitude = "10.05617000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Læso Kommune",
-                            Latitude = "57.26774000",
-                            Longitude = "11.02265000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Løgstør",
-                            Latitude = "56.96245000",
-                            Longitude = "9.25830000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Løkken",
-                            Latitude = "57.37047000",
-                            Longitude = "9.71466000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Mariager",
-                            Latitude = "56.64985000",
-                            Longitude = "9.97515000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Mariagerfjord Kommune",
-                            Latitude = "56.69722000",
-                            Longitude = "9.84722000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Morsø Kommune",
-                            Latitude = "56.79622000",
-                            Longitude = "8.73272000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Nibe",
-                            Latitude = "56.98150000",
-                            Longitude = "9.63917000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Nørresundby",
-                            Latitude = "57.05877000",
-                            Longitude = "9.92284000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Nykøbing Mors",
-                            Latitude = "56.79334000",
-                            Longitude = "8.85282000"
-                        },
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Pandrup",
-                            Latitude = "57.22147000",
-                            Longitude = "9.67569000"
-                        },
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Rebild Kommune",
-                            Latitude = "56.80556000",
-                            Longitude = "9.77778000"
-                        },
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Sæby",
-                            Latitude = "57.33188000",
-                            Longitude = "10.52251000"
-                        },
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Sindal",
-                            Latitude = "57.47117000",
-                            Longitude = "10.20312000"
-                        },
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Skagen",
-                            Latitude = "57.72093000",
-                            Longitude = "10.58394000"
-                        },
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Skørping",
-                            Latitude = "56.83626000",
-                            Longitude = "9.89255000"
-                        },
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "Storvorde",
-                            Latitude = "57.00392000",
-                            Longitude = "10.10125000"
-                        },
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "Støvring",
-                            Latitude = "56.88536000",
-                            Longitude = "9.83839000"
-                        },
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "Strandby",
-                            Latitude = "57.49150000",
-                            Longitude = "10.49609000"
-                        },
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "Svenstrup",
-                            Latitude = "56.97230000",
-                            Longitude = "9.84806000"
-                        },
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "Tårs",
-                            Latitude = "57.38333000",
-                            Longitude = "10.11667000"
-                        },
-
-                        new City
-                        {
-                            Id = 49,
-                            Name = "Thisted",
-                            Latitude = "56.95523000",
-                            Longitude = "8.69491000"
-                        },
-
-                        new City
-                        {
-                            Id = 50,
-                            Name = "Thisted Kommune",
-                            Latitude = "57.00397000",
-                            Longitude = "8.61834000"
-                        },
-
-                        new City
-                        {
-                            Id = 51,
-                            Name = "Vadum",
-                            Latitude = "57.11790000",
-                            Longitude = "9.85700000"
-                        },
-
-                        new City
-                        {
-                            Id = 52,
-                            Name = "Vestbjerg",
-                            Latitude = "57.13166000",
-                            Longitude = "9.95942000"
-                        },
-
-                        new City
-                        {
-                            Id = 53,
-                            Name = "Vester Hassing",
-                            Latitude = "57.06767000",
-                            Longitude = "10.12558000"
-                        },
-
-                        new City
-                        {
-                            Id = 54,
-                            Name = "Vesthimmerland Kommune",
-                            Latitude = "56.80000000",
-                            Longitude = "9.37083000"
-                        },
-
-                        new City
-                        {
-                            Id = 55,
-                            Name = "Vodskov",
-                            Latitude = "57.10854000",
-                            Longitude = "10.02215000"
-                        },
-
-                        new City
-                        {
-                            Id = 56,
-                            Name = "Vrå",
-                            Latitude = "57.35370000",
-                            Longitude = "9.94176000"
-                        }
+                        new() { Id = 1, Name = "Aalborg", Latitude = "57.04800000", Longitude = "9.91870000" },
+                        new() { Id = 2, Name = "Aars", Latitude = "56.80399000", Longitude = "9.51441000" },
+                        new() { Id = 3, Name = "Åbybro", Latitude = "57.16249000", Longitude = "9.72996000" },
+                        new() { Id = 4, Name = "Ålborg Kommune", Latitude = "57.00000000", Longitude = "9.95000000" },
+                        new() { Id = 5, Name = "Ålestrup", Latitude = "56.69470000", Longitude = "9.49336000" },
+                        new() { Id = 6, Name = "Arden", Latitude = "56.76899000", Longitude = "9.86184000" },
+                        new() { Id = 7, Name = "Brovst", Latitude = "57.09750000", Longitude = "9.52264000" },
+                        new() { Id = 8, Name = "Brønderslev", Latitude = "57.27021000", Longitude = "9.94102000" },
+                        new() { Id = 9, Name = "Brønderslev Kommune", Latitude = "57.23506000", Longitude = "10.10061000" },
+                        new() { Id = 10, Name = "Dronninglund", Latitude = "57.16035000", Longitude = "10.29287000" },
+                        new() { Id = 11, Name = "Farsø", Latitude = "56.77276000", Longitude = "9.33925000" },
+                        new() { Id = 12, Name = "Fjerritslev", Latitude = "57.08822000", Longitude = "9.26622000" },
+                        new() { Id = 13, Name = "Frederikshavn", Latitude = "57.44073000", Longitude = "10.53661000" },
+                        new() { Id = 14, Name = "Frederikshavn Kommune", Latitude = "57.43347000", Longitude = "10.42507000" },
+                        new() { Id = 15, Name = "Frejlev", Latitude = "57.00623000", Longitude = "9.81711000" },
+                        new() { Id = 16, Name = "Gistrup", Latitude = "56.99430000", Longitude = "9.99085000" },
+                        new() { Id = 17, Name = "Hadsund", Latitude = "56.71482000", Longitude = "10.11682000" },
+                        new() { Id = 18, Name = "Hals", Latitude = "56.99609000", Longitude = "10.30807000" },
+                        new() { Id = 19, Name = "Hanstholm", Latitude = "57.11667000", Longitude = "8.61667000" },
+                        new() { Id = 20, Name = "Hirtshals", Latitude = "57.58812000", Longitude = "9.95922000" },
+                        new() { Id = 21, Name = "Hjallerup", Latitude = "57.16466000", Longitude = "10.14571000" },
+                        new() { Id = 22, Name = "Hjørring", Latitude = "57.46417000", Longitude = "9.98229000" },
+                        new() { Id = 23, Name = "Hjørring Kommune", Latitude = "57.45682000", Longitude = "10.05859000" },
+                        new() { Id = 24, Name = "Hobro", Latitude = "56.64306000", Longitude = "9.79029000" },
+                        new() { Id = 25, Name = "Hurup", Latitude = "56.74944000", Longitude = "8.41953000" },
+                        new() { Id = 26, Name = "Jammerbugt Kommune", Latitude = "57.14583000", Longitude = "9.56250000" },
+                        new() { Id = 27, Name = "Kås", Latitude = "57.19774000", Longitude = "9.67173000" },
+                        new() { Id = 28, Name = "Klarup", Latitude = "57.01194000", Longitude = "10.05617000" },
+                        new() { Id = 29, Name = "Læso Kommune", Latitude = "57.26774000", Longitude = "11.02265000" },
+                        new() { Id = 30, Name = "Løgstør", Latitude = "56.96245000", Longitude = "9.25830000" },
+                        new() { Id = 31, Name = "Løkken", Latitude = "57.37047000", Longitude = "9.71466000" },
+                        new() { Id = 32, Name = "Mariager", Latitude = "56.64985000", Longitude = "9.97515000" },
+                        new() { Id = 33, Name = "Mariagerfjord Kommune", Latitude = "56.69722000", Longitude = "9.84722000" },
+                        new() { Id = 34, Name = "Morsø Kommune", Latitude = "56.79622000", Longitude = "8.73272000" },
+                        new() { Id = 35, Name = "Nibe", Latitude = "56.98150000", Longitude = "9.63917000" },
+                        new() { Id = 36, Name = "Nørresundby", Latitude = "57.05877000", Longitude = "9.92284000" },
+                        new() { Id = 37, Name = "Nykøbing Mors", Latitude = "56.79334000", Longitude = "8.85282000" },
+                        new() { Id = 38, Name = "Pandrup", Latitude = "57.22147000", Longitude = "9.67569000" },
+                        new() { Id = 39, Name = "Rebild Kommune", Latitude = "56.80556000", Longitude = "9.77778000" },
+                        new() { Id = 40, Name = "Sæby", Latitude = "57.33188000", Longitude = "10.52251000" },
+                        new() { Id = 41, Name = "Sindal", Latitude = "57.47117000", Longitude = "10.20312000" },
+                        new() { Id = 42, Name = "Skagen", Latitude = "57.72093000", Longitude = "10.58394000" },
+                        new() { Id = 43, Name = "Skørping", Latitude = "56.83626000", Longitude = "9.89255000" },
+                        new() { Id = 44, Name = "Storvorde", Latitude = "57.00392000", Longitude = "10.10125000" },
+                        new() { Id = 45, Name = "Støvring", Latitude = "56.88536000", Longitude = "9.83839000" },
+                        new() { Id = 46, Name = "Strandby", Latitude = "57.49150000", Longitude = "10.49609000" },
+                        new() { Id = 47, Name = "Svenstrup", Latitude = "56.97230000", Longitude = "9.84806000" },
+                        new() { Id = 48, Name = "Tårs", Latitude = "57.38333000", Longitude = "10.11667000" },
+                        new() { Id = 49, Name = "Thisted", Latitude = "56.95523000", Longitude = "8.69491000" },
+                        new() { Id = 50, Name = "Thisted Kommune", Latitude = "57.00397000", Longitude = "8.61834000" },
+                        new() { Id = 51, Name = "Vadum", Latitude = "57.11790000", Longitude = "9.85700000" },
+                        new() { Id = 52, Name = "Vestbjerg", Latitude = "57.13166000", Longitude = "9.95942000" },
+                        new() { Id = 53, Name = "Vester Hassing", Latitude = "57.06767000", Longitude = "10.12558000" },
+                        new() { Id = 54, Name = "Vesthimmerland Kommune", Latitude = "56.80000000", Longitude = "9.37083000" },
+                        new() { Id = 55, Name = "Vodskov", Latitude = "57.10854000", Longitude = "10.02215000" },
+                        new() { Id = 56, Name = "Vrå", Latitude = "57.35370000", Longitude = "9.94176000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 4,
                     Name = "Southern Denmark",
@@ -2016,884 +343,121 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.33077140",
                     Longitude = "9.09249030",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Aabenraa",
-                            Latitude = "55.04434000",
-                            Longitude = "9.41741000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Aabenraa Kommune",
-                            Latitude = "54.98980000",
-                            Longitude = "9.31282000"
-                        }
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Årslev",
-                            Latitude = "55.30353000",
-                            Longitude = "10.46428000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Årup",
-                            Latitude = "55.37315000",
-                            Longitude = "10.04131000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Assens",
-                            Latitude = "55.27023000",
-                            Longitude = "9.90081000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Assens Kommune",
-                            Latitude = "55.29958000",
-                            Longitude = "10.07952000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Augustenborg",
-                            Latitude = "54.95201000",
-                            Longitude = "9.87216000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Ærø Kommune",
-                            Latitude = "54.85833000",
-                            Longitude = "10.43333000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Ærøskøbing",
-                            Latitude = "54.88803000",
-                            Longitude = "10.41117000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Bellinge",
-                            Latitude = "55.33535000",
-                            Longitude = "10.32045000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Billund",
-                            Latitude = "55.73349000",
-                            Longitude = "9.10785000"
-                        }
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Billund Kommune",
-                            Latitude = "55.73079000",
-                            Longitude = "8.96844000"
-                        }
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Bogense",
-                            Latitude = "55.56691000",
-                            Longitude = "10.08863000"
-                        }
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Børkop",
-                            Latitude = "55.64195000",
-                            Longitude = "9.64958000"
-                        }
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Bramming",
-                            Latitude = "55.46946000",
-                            Longitude = "8.70007000"
-                        }
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Brejning",
-                            Latitude = "55.66594000",
-                            Longitude = "9.67217000"
-                        }
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Brenderup",
-                            Latitude = "55.48407000",
-                            Longitude = "9.97908000"
-                        }
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Broager",
-                            Latitude = "54.88940000",
-                            Longitude = "9.67465000"
-                        }
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Brørup",
-                            Latitude = "55.48194000",
-                            Longitude = "9.01756000"
-                        }
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Bullerup",
-                            Latitude = "55.42686000",
-                            Longitude = "10.47137000"
-                        }
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Christiansfeld",
-                            Latitude = "55.35817000",
-                            Longitude = "9.48701000"
-                        }
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Dybbøl",
-                            Latitude = "54.91079000",
-                            Longitude = "9.73601000"
-                        }
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Egtved",
-                            Latitude = "55.61613000",
-                            Longitude = "9.30763000"
-                        }
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Ejby",
-                            Latitude = "55.43010000",
-                            Longitude = "9.92973000"
-                        }
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Esbjerg",
-                            Latitude = "55.47028000",
-                            Longitude = "8.45187000"
-                        }
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Esbjerg Kommune",
-                            Latitude = "55.46893000",
-                            Longitude = "8.46222000"
-                        }
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Faaborg",
-                            Latitude = "55.09510000",
-                            Longitude = "10.24226000"
-                        }
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Faaborg-Midtfyn Kommune",
-                            Latitude = "55.22667000",
-                            Longitude = "10.40667000"
-                        }
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Fanø Kommune",
-                            Latitude = "55.41667000",
-                            Longitude = "8.41667000"
-                        }
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Fredericia",
-                            Latitude = "55.56568000",
-                            Longitude = "9.75257000"
-                        }
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Fredericia Kommune",
-                            Latitude = "55.57271000",
-                            Longitude = "9.69489000"
-                        }
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Give",
-                            Latitude = "55.84523000",
-                            Longitude = "9.23769000"
-                        }
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Glamsbjerg",
-                            Latitude = "55.27237000",
-                            Longitude = "10.10483000"
-                        }
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Gram",
-                            Latitude = "55.28948000",
-                            Longitude = "9.04913000"
-                        }
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Gråsten",
-                            Latitude = "54.91918000",
-                            Longitude = "9.59523000"
-                        }
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Grindsted",
-                            Latitude = "55.75726000",
-                            Longitude = "8.92750000"
-                        }
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Guderup",
-                            Latitude = "54.98978000",
-                            Longitude = "9.87174000"
-                        }
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Haderslev",
-                            Latitude = "55.24943000",
-                            Longitude = "9.48771000"
-                        }
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Haderslev Kommune",
-                            Latitude = "55.24441000",
-                            Longitude = "9.32261000"
-                        }
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Hårby",
-                            Latitude = "55.22357000",
-                            Longitude = "10.12268000"
-                        }
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Holsted",
-                            Latitude = "55.51086000",
-                            Longitude = "8.91872000"
-                        }
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Højby",
-                            Latitude = "55.33177000",
-                            Longitude = "10.43725000"
-                        }
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Høruphav",
-                            Latitude = "54.91017000",
-                            Longitude = "9.89872000"
-                        }
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "Jelling",
-                            Latitude = "55.75588000",
-                            Longitude = "9.42580000"
-                        }
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "Kerteminde",
-                            Latitude = "55.44903000",
-                            Longitude = "10.65769000"
-                        }
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "Kerteminde Kommune",
-                            Latitude = "55.45498000",
-                            Longitude = "10.62220000"
-                        }
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "Kolding",
-                            Latitude = "55.49040000",
-                            Longitude = "9.47216000"
-                        }
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "Kolding Kommune",
-                            Latitude = "55.45006000",
-                            Longitude = "9.45807000"
-                        }
-
-                        new City
-                        {
-                            Id = 49,
-                            Name = "Kruså",
-                            Latitude = "54.85097000",
-                            Longitude = "9.40129000"
-                        }
-
-                        new City
-                        {
-                            Id = 50,
-                            Name = "Langeland Kommune",
-                            Latitude = "54.90000000",
-                            Longitude = "10.77222000"
-                        }
-
-                        new City
-                        {
-                            Id = 51,
-                            Name = "Langeskov",
-                            Latitude = "55.35655000",
-                            Longitude = "10.58447000"
-                        }
-
-                        new City
-                        {
-                            Id = 52,
-                            Name = "Løgumkloster",
-                            Latitude = "55.05941000",
-                            Longitude = "8.95508000"
-                        }
-
-                        new City
-                        {
-                            Id = 53,
-                            Name = "Løjt Kirkeby",
-                            Latitude = "55.08959000",
-                            Longitude = "9.46084000"
-                        }
-
-                        new City
-                        {
-                            Id = 54,
-                            Name = "Lunderskov",
-                            Latitude = "55.48375000",
-                            Longitude = "9.29917000"
-                        }
-
-                        new City
-                        {
-                            Id = 55,
-                            Name = "Marstal",
-                            Latitude = "54.85621000",
-                            Longitude = "10.51726000"
-                        }
-
-                        new City
-                        {
-                            Id = 56,
-                            Name = "Middelfart",
-                            Latitude = "55.50591000",
-                            Longitude = "9.73054000"
-                        }
-
-                        new City
-                        {
-                            Id = 57,
-                            Name = "Middelfart Kommune",
-                            Latitude = "55.45782000",
-                            Longitude = "9.88100000"
-                        }
-
-                        new City
-                        {
-                            Id = 58,
-                            Name = "Munkebo",
-                            Latitude = "55.45553000",
-                            Longitude = "10.55433000"
-                        }
-
-                        new City
-                        {
-                            Id = 59,
-                            Name = "Neder Holluf",
-                            Latitude = "55.36451000",
-                            Longitude = "10.44824000"
-                        }
-
-                        new City
-                        {
-                            Id = 60,
-                            Name = "Nordborg",
-                            Latitude = "55.05732000",
-                            Longitude = "9.74080000"
-                        }
-
-                        new City
-                        {
-                            Id = 61,
-                            Name = "Nordby",
-                            Latitude = "55.44603000",
-                            Longitude = "8.39786000"
-                        }
-
-                        new City
-                        {
-                            Id = 62,
-                            Name = "Nordfyns Kommune",
-                            Latitude = "55.52222000",
-                            Longitude = "10.22222000"
-                        }
-
-                        new City
-                        {
-                            Id = 63,
-                            Name = "Nørre Åby",
-                            Latitude = "55.46107000",
-                            Longitude = "9.87940000"
-                        }
-
-                        new City
-                        {
-                            Id = 64,
-                            Name = "Nyborg",
-                            Latitude = "55.31274000",
-                            Longitude = "10.78964000"
-                        }
-
-                        new City
-                        {
-                            Id = 65,
-                            Name = "Nyborg Kommune",
-                            Latitude = "55.29473000",
-                            Longitude = "10.70310000"
-                        }
-
-                        new City
-                        {
-                            Id = 66,
-                            Name = "Odense",
-                            Latitude = "55.39594000",
-                            Longitude = "10.38831000"
-                        }
-
-                        new City
-                        {
-                            Id = 67,
-                            Name = "Odense Kommune",
-                            Latitude = "55.39570000",
-                            Longitude = "10.37761000"
-                        }
-
-                        new City
-                        {
-                            Id = 68,
-                            Name = "Oksbøl",
-                            Latitude = "55.62680000",
-                            Longitude = "8.28757000"
-                        }
-
-                        new City
-                        {
-                            Id = 69,
-                            Name = "Otterup",
-                            Latitude = "55.51527000",
-                            Longitude = "10.39756000"
-                        }
-
-                        new City
-                        {
-                            Id = 70,
-                            Name = "Ølgod",
-                            Latitude = "55.80682000",
-                            Longitude = "8.62859000"
-                        }
-
-                        new City
-                        {
-                            Id = 71,
-                            Name = "Padborg",
-                            Latitude = "54.82657000",
-                            Longitude = "9.36247000"
-                        }
-
-                        new City
-                        {
-                            Id = 72,
-                            Name = "Ribe",
-                            Latitude = "55.33051000",
-                            Longitude = "8.76966000"
-                        }
-
-                        new City
-                        {
-                            Id = 73,
-                            Name = "Ringe",
-                            Latitude = "55.23828000",
-                            Longitude = "10.47860000"
-                        }
-
-                        new City
-                        {
-                            Id = 74,
-                            Name = "Rødding",
-                            Latitude = "55.36569000",
-                            Longitude = "9.06316000"
-                        }
-
-                        new City
-                        {
-                            Id = 75,
-                            Name = "Rødekro",
-                            Latitude = "55.07076000",
-                            Longitude = "9.33531000"
-                        }
-
-                        new City
-                        {
-                            Id = 76,
-                            Name = "Rudkøbing",
-                            Latitude = "54.93639000",
-                            Longitude = "10.71019000"
-                        }
-
-                        new City
-                        {
-                            Id = 77,
-                            Name = "Seden",
-                            Latitude = "55.42648000",
-                            Longitude = "10.44265000"
-                        }
-
-                        new City
-                        {
-                            Id = 78,
-                            Name = "Skaerbaek",
-                            Latitude = "55.15735000",
-                            Longitude = "8.76901000"
-                        }
-
-                        new City
-                        {
-                            Id = 79,
-                            Name = "Snoghøj",
-                            Latitude = "55.52253000",
-                            Longitude = "9.72125000"
-                        }
-
-                        new City
-                        {
-                            Id = 80,
-                            Name = "Sønder Bjert",
-                            Latitude = "55.45272000",
-                            Longitude = "9.56741000"
-                        }
-
-                        new City
-                        {
-                            Id = 81,
-                            Name = "Sønderborg",
-                            Latitude = "54.90896000",
-                            Longitude = "9.78917000"
-                        }
-
-                        new City
-                        {
-                            Id = 82,
-                            Name = "Sønderborg Kommune",
-                            Latitude = "54.91667000",
-                            Longitude = "9.80000000"
-                        }
-
-                        new City
-                        {
-                            Id = 83,
-                            Name = "Søndersø",
-                            Latitude = "55.48526000",
-                            Longitude = "10.25540000"
-                        }
-
-                        new City
-                        {
-                            Id = 84,
-                            Name = "Starup",
-                            Latitude = "55.24097000",
-                            Longitude = "9.53503000"
-                        }
-
-                        new City
-                        {
-                            Id = 85,
-                            Name = "Stige",
-                            Latitude = "55.43941000",
-                            Longitude = "10.40940000"
-                        }
-
-                        new City
-                        {
-                            Id = 86,
-                            Name = "Strib",
-                            Latitude = "55.54021000",
-                            Longitude = "9.76748000"
-                        }
-
-                        new City
-                        {
-                            Id = 87,
-                            Name = "Svendborg",
-                            Latitude = "55.05982000",
-                            Longitude = "10.60677000"
-                        }
-
-                        new City
-                        {
-                            Id = 88,
-                            Name = "Svendborg Kommune",
-                            Latitude = "55.08410000",
-                            Longitude = "10.61391000"
-                        }
-
-                        new City
-                        {
-                            Id = 89,
-                            Name = "Taulov",
-                            Latitude = "55.54582000",
-                            Longitude = "9.61553000"
-                        }
-
-                        new City
-                        {
-                            Id = 90,
-                            Name = "Thurø By",
-                            Latitude = "55.04740000",
-                            Longitude = "10.66385000"
-                        }
-
-                        new City
-                        {
-                            Id = 91,
-                            Name = "Tinglev",
-                            Latitude = "54.93788000",
-                            Longitude = "9.25547000"
-                        }
-
-                        new City
-                        {
-                            Id = 92,
-                            Name = "Tjæreborg",
-                            Latitude = "55.46457000",
-                            Longitude = "8.57968000"
-                        }
-
-                        new City
-                        {
-                            Id = 93,
-                            Name = "Toftlund",
-                            Latitude = "55.18858000",
-                            Longitude = "9.06925000"
-                        }
-
-                        new City
-                        {
-                            Id = 94,
-                            Name = "Tommerup",
-                            Latitude = "55.31952000",
-                            Longitude = "10.20659000"
-                        }
-
-                        new City
-                        {
-                            Id = 95,
-                            Name = "Tommerup Stationsby",
-                            Latitude = "55.34535000",
-                            Longitude = "10.17594000"
-                        }
-
-                        new City
-                        {
-                            Id = 96,
-                            Name = "Tønder",
-                            Latitude = "54.93306000",
-                            Longitude = "8.86674000"
-                        }
-
-                        new City
-                        {
-                            Id = 97,
-                            Name = "Tønder Kommune",
-                            Latitude = "55.07304000",
-                            Longitude = "8.87214000"
-                        }
-
-                        new City
-                        {
-                            Id = 98,
-                            Name = "Ullerslev",
-                            Latitude = "55.36172000",
-                            Longitude = "10.65190000"
-                        }
-
-                        new City
-                        {
-                            Id = 99,
-                            Name = "Vamdrup",
-                            Latitude = "55.42764000",
-                            Longitude = "9.28435000"
-                        }
-
-                        new City
-                        {
-                            Id = 100,
-                            Name = "Varde",
-                            Latitude = "55.62112000",
-                            Longitude = "8.48069000"
-                        },
-
-                        new City
-                        {
-                            Id = 101,
-                            Name = "Varde Kommune",
-                            Latitude = "55.61667000",
-                            Longitude = "8.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 102,
-                            Name = "Vejen",
-                            Latitude = "55.48117000",
-                            Longitude = "9.13795000"
-                        },
-
-                        new City
-                        {
-                            Id = 103,
-                            Name = "Vejen Kommune",
-                            Latitude = "55.46312000",
-                            Longitude = "9.05004000"
-                        },
-
-                        new City
-                        {
-                            Id = 104,
-                            Name = "Vejle",
-                            Latitude = "55.70927000",
-                            Longitude = "9.53570000"
-                        },
-
-                        new City
-                        {
-                            Id = 105,
-                            Name = "Vejle Kommune",
-                            Latitude = "55.74874000",
-                            Longitude = "9.40421000"
-                        },
-
-                        new City
-                        {
-                            Id = 106,
-                            Name = "Vester-Skerninge",
-                            Latitude = "55.07322000",
-                            Longitude = "10.45536000"
-                        },
-
-                        new City
-                        {
-                            Id = 107,
-                            Name = "Vindeby",
-                            Latitude = "55.04489000",
-                            Longitude = "10.61309000"
-                        },
-
-                        new City
-                        {
-                            Id = 108,
-                            Name = "Vissenbjerg",
-                            Latitude = "55.38482000",
-                            Longitude = "10.13784000"
-                        },
-
-                        new City
-                        {
-                            Id = 109,
-                            Name = "Vojens",
-                            Latitude = "55.24639000",
-                            Longitude = "9.30603000"
-                        }
+                        new() { Id = 1, Name = "Aabenraa", Latitude = "55.04434000", Longitude = "9.41741000" },
+                        new() { Id = 2, Name = "Aabenraa Kommune", Latitude = "54.98980000", Longitude = "9.31282000" },
+                        new() { Id = 3, Name = "Årslev", Latitude = "55.30353000", Longitude = "10.46428000" },
+                        new() { Id = 4, Name = "Årup", Latitude = "55.37315000", Longitude = "10.04131000" },
+                        new() { Id = 5, Name = "Assens", Latitude = "55.27023000", Longitude = "9.90081000" },
+                        new() { Id = 6, Name = "Assens Kommune", Latitude = "55.29958000", Longitude = "10.07952000" },
+                        new() { Id = 7, Name = "Augustenborg", Latitude = "54.95201000", Longitude = "9.87216000" },
+                        new() { Id = 8, Name = "Ærø Kommune", Latitude = "54.85833000", Longitude = "10.43333000" },
+                        new() { Id = 9, Name = "Ærøskøbing", Latitude = "54.88803000", Longitude = "10.41117000" },
+                        new() { Id = 10, Name = "Bellinge", Latitude = "55.33535000", Longitude = "10.32045000" },
+                        new() { Id = 11, Name = "Billund", Latitude = "55.73349000", Longitude = "9.10785000" },
+                        new() { Id = 12, Name = "Billund Kommune", Latitude = "55.73079000", Longitude = "8.96844000" },
+                        new() { Id = 13, Name = "Bogense", Latitude = "55.56691000", Longitude = "10.08863000" },
+                        new() { Id = 14, Name = "Børkop", Latitude = "55.64195000", Longitude = "9.64958000" },
+                        new() { Id = 15, Name = "Bramming", Latitude = "55.46946000", Longitude = "8.70007000" },
+                        new() { Id = 16, Name = "Brejning", Latitude = "55.66594000", Longitude = "9.67217000" },
+                        new() { Id = 17, Name = "Brenderup", Latitude = "55.48407000", Longitude = "9.97908000" },
+                        new() { Id = 18, Name = "Broager", Latitude = "54.88940000", Longitude = "9.67465000" },
+                        new() { Id = 19, Name = "Brørup", Latitude = "55.48194000", Longitude = "9.01756000" },
+                        new() { Id = 20, Name = "Bullerup", Latitude = "55.42686000", Longitude = "10.47137000" },
+                        new() { Id = 21, Name = "Christiansfeld", Latitude = "55.35817000", Longitude = "9.48701000" },
+                        new() { Id = 22, Name = "Dybbøl", Latitude = "54.91079000", Longitude = "9.73601000" },
+                        new() { Id = 23, Name = "Egtved", Latitude = "55.61613000", Longitude = "9.30763000" },
+                        new() { Id = 24, Name = "Ejby", Latitude = "55.43010000", Longitude = "9.92973000" },
+                        new() { Id = 25, Name = "Esbjerg", Latitude = "55.47028000", Longitude = "8.45187000" },
+                        new() { Id = 26, Name = "Esbjerg Kommune", Latitude = "55.46893000", Longitude = "8.46222000" },
+                        new() { Id = 27, Name = "Faaborg", Latitude = "55.09510000", Longitude = "10.24226000" },
+                        new() { Id = 28, Name = "Faaborg-Midtfyn Kommune", Latitude = "55.22667000", Longitude = "10.40667000" },
+                        new() { Id = 29, Name = "Fanø Kommune", Latitude = "55.41667000", Longitude = "8.41667000" },
+                        new() { Id = 30, Name = "Fredericia", Latitude = "55.56568000", Longitude = "9.75257000" },
+                        new() { Id = 31, Name = "Fredericia Kommune", Latitude = "55.57271000", Longitude = "9.69489000" },
+                        new() { Id = 32, Name = "Give", Latitude = "55.84523000", Longitude = "9.23769000" },
+                        new() { Id = 33, Name = "Glamsbjerg", Latitude = "55.27237000", Longitude = "10.10483000" },
+                        new() { Id = 34, Name = "Gram", Latitude = "55.28948000", Longitude = "9.04913000" },
+                        new() { Id = 35, Name = "Gråsten", Latitude = "54.91918000", Longitude = "9.59523000" },
+                        new() { Id = 36, Name = "Grindsted", Latitude = "55.75726000", Longitude = "8.92750000" },
+                        new() { Id = 37, Name = "Guderup", Latitude = "54.98978000", Longitude = "9.87174000" },
+                        new() { Id = 38, Name = "Haderslev", Latitude = "55.24943000", Longitude = "9.48771000" },
+                        new() { Id = 39, Name = "Haderslev Kommune", Latitude = "55.24441000", Longitude = "9.32261000" },
+                        new() { Id = 40, Name = "Hårby", Latitude = "55.22357000", Longitude = "10.12268000" },
+                        new() { Id = 41, Name = "Holsted", Latitude = "55.51086000", Longitude = "8.91872000" },
+                        new() { Id = 42, Name = "Højby", Latitude = "55.33177000", Longitude = "10.43725000" },
+                        new() { Id = 43, Name = "Høruphav", Latitude = "54.91017000", Longitude = "9.89872000" },
+                        new() { Id = 44, Name = "Jelling", Latitude = "55.75588000", Longitude = "9.42580000" },
+                        new() { Id = 45, Name = "Kerteminde", Latitude = "55.44903000", Longitude = "10.65769000" },
+                        new() { Id = 46, Name = "Kerteminde Kommune", Latitude = "55.45498000", Longitude = "10.62220000" },
+                        new() { Id = 47, Name = "Kolding", Latitude = "55.49040000", Longitude = "9.47216000" },
+                        new() { Id = 48, Name = "Kolding Kommune", Latitude = "55.45006000", Longitude = "9.45807000" },
+                        new() { Id = 49, Name = "Kruså", Latitude = "54.85097000", Longitude = "9.40129000" },
+                        new() { Id = 50, Name = "Langeland Kommune", Latitude = "54.90000000", Longitude = "10.77222000" },
+                        new() { Id = 51, Name = "Langeskov", Latitude = "55.35655000", Longitude = "10.58447000" },
+                        new() { Id = 52, Name = "Løgumkloster", Latitude = "55.05941000", Longitude = "8.95508000" },
+                        new() { Id = 53, Name = "Løjt Kirkeby", Latitude = "55.08959000", Longitude = "9.46084000" },
+                        new() { Id = 54, Name = "Lunderskov", Latitude = "55.48375000", Longitude = "9.29917000" },
+                        new() { Id = 55, Name = "Marstal", Latitude = "54.85621000", Longitude = "10.51726000" },
+                        new() { Id = 56, Name = "Middelfart", Latitude = "55.50591000", Longitude = "9.73054000" },
+                        new() { Id = 57, Name = "Middelfart Kommune", Latitude = "55.45782000", Longitude = "9.88100000" },
+                        new() { Id = 58, Name = "Munkebo", Latitude = "55.45553000", Longitude = "10.55433000" },
+                        new() { Id = 59, Name = "Neder Holluf", Latitude = "55.36451000", Longitude = "10.44824000" },
+                        new() { Id = 60, Name = "Nordborg", Latitude = "55.05732000", Longitude = "9.74080000" },
+                        new() { Id = 61, Name = "Nordby", Latitude = "55.44603000", Longitude = "8.39786000" },
+                        new() { Id = 62, Name = "Nordfyns Kommune", Latitude = "55.52222000", Longitude = "10.22222000" },
+                        new() { Id = 63, Name = "Nørre Åby", Latitude = "55.46107000", Longitude = "9.87940000" },
+                        new() { Id = 64, Name = "Nyborg", Latitude = "55.31274000", Longitude = "10.78964000" },
+                        new() { Id = 65, Name = "Nyborg Kommune", Latitude = "55.29473000", Longitude = "10.70310000" },
+                        new() { Id = 66, Name = "Odense", Latitude = "55.39594000", Longitude = "10.38831000" },
+                        new() { Id = 67, Name = "Odense Kommune", Latitude = "55.39570000", Longitude = "10.37761000" },
+                        new() { Id = 68, Name = "Oksbøl", Latitude = "55.62680000", Longitude = "8.28757000" },
+                        new() { Id = 69, Name = "Otterup", Latitude = "55.51527000", Longitude = "10.39756000" },
+                        new() { Id = 70, Name = "Ølgod", Latitude = "55.80682000", Longitude = "8.62859000" },
+                        new() { Id = 71, Name = "Padborg", Latitude = "54.82657000", Longitude = "9.36247000" },
+                        new() { Id = 72, Name = "Ribe", Latitude = "55.33051000", Longitude = "8.76966000" },
+                        new() { Id = 73, Name = "Ringe", Latitude = "55.23828000", Longitude = "10.47860000" },
+                        new() { Id = 74, Name = "Rødding", Latitude = "55.36569000", Longitude = "9.06316000" },
+                        new() { Id = 75, Name = "Rødekro", Latitude = "55.07076000", Longitude = "9.33531000" },
+                        new() { Id = 76, Name = "Rudkøbing", Latitude = "54.93639000", Longitude = "10.71019000" },
+                        new() { Id = 77, Name = "Seden", Latitude = "55.42648000", Longitude = "10.44265000" },
+                        new() { Id = 78, Name = "Skaerbaek", Latitude = "55.15735000", Longitude = "8.76901000" },
+                        new() { Id = 79, Name = "Snoghøj", Latitude = "55.52253000", Longitude = "9.72125000" },
+                        new() { Id = 80, Name = "Sønder Bjert", Latitude = "55.45272000", Longitude = "9.56741000" },
+                        new() { Id = 81, Name = "Sønderborg", Latitude = "54.90896000", Longitude = "9.78917000" },
+                        new() { Id = 82, Name = "Sønderborg Kommune", Latitude = "54.91667000", Longitude = "9.80000000" },
+                        new() { Id = 83, Name = "Søndersø", Latitude = "55.48526000", Longitude = "10.25540000" },
+                        new() { Id = 84, Name = "Starup", Latitude = "55.24097000", Longitude = "9.53503000" },
+                        new() { Id = 85, Name = "Stige", Latitude = "55.43941000", Longitude = "10.40940000" },
+                        new() { Id = 86, Name = "Strib", Latitude = "55.54021000", Longitude = "9.76748000" },
+                        new() { Id = 87, Name = "Svendborg", Latitude = "55.05982000", Longitude = "10.60677000" },
+                        new() { Id = 88, Name = "Svendborg Kommune", Latitude = "55.08410000", Longitude = "10.61391000" },
+                        new() { Id = 89, Name = "Taulov", Latitude = "55.54582000", Longitude = "9.61553000" },
+                        new() { Id = 90, Name = "Thurø By", Latitude = "55.04740000", Longitude = "10.66385000" },
+                        new() { Id = 91, Name = "Tinglev", Latitude = "54.93788000", Longitude = "9.25547000" },
+                        new() { Id = 92, Name = "Tjæreborg", Latitude = "55.46457000", Longitude = "8.57968000" },
+                        new() { Id = 93, Name = "Toftlund", Latitude = "55.18858000", Longitude = "9.06925000" },
+                        new() { Id = 94, Name = "Tommerup", Latitude = "55.31952000", Longitude = "10.20659000" },
+                        new() { Id = 95, Name = "Tommerup Stationsby", Latitude = "55.34535000", Longitude = "10.17594000" },
+                        new() { Id = 96, Name = "Tønder", Latitude = "54.93306000", Longitude = "8.86674000" },
+                        new() { Id = 97, Name = "Tønder Kommune", Latitude = "55.07304000", Longitude = "8.87214000" },
+                        new() { Id = 98, Name = "Ullerslev", Latitude = "55.36172000", Longitude = "10.65190000" },
+                        new() { Id = 99, Name = "Vamdrup", Latitude = "55.42764000", Longitude = "9.28435000" },
+                        new() { Id = 100, Name = "Varde", Latitude = "55.62112000", Longitude = "8.48069000" },
+                        new() { Id = 101, Name = "Varde Kommune", Latitude = "55.61667000", Longitude = "8.50000000" },
+                        new() { Id = 102, Name = "Vejen", Latitude = "55.48117000", Longitude = "9.13795000" },
+                        new() { Id = 103, Name = "Vejen Kommune", Latitude = "55.46312000", Longitude = "9.05004000" },
+                        new() { Id = 104, Name = "Vejle", Latitude = "55.70927000", Longitude = "9.53570000" },
+                        new() { Id = 105, Name = "Vejle Kommune", Latitude = "55.74874000", Longitude = "9.40421000" },
+                        new() { Id = 106, Name = "Vester-Skerninge", Latitude = "55.07322000", Longitude = "10.45536000" },
+                        new() { Id = 107, Name = "Vindeby", Latitude = "55.04489000", Longitude = "10.61309000" },
+                        new() { Id = 108, Name = "Vissenbjerg", Latitude = "55.38482000", Longitude = "10.13784000" },
+                        new() { Id = 109, Name = "Vojens", Latitude = "55.24639000", Longitude = "9.30603000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 5,
                     Name = "Zealand",
@@ -2901,672 +465,91 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.46325180",
                     Longitude = "11.72149790",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Asnæs",
-                            Latitude = "55.81229000",
-                            Longitude = "11.50129000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Bjæverskov",
-                            Latitude = "55.45756000",
-                            Longitude = "12.03651000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Borup",
-                            Latitude = "55.49472000",
-                            Longitude = "11.97584000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Dianalund",
-                            Latitude = "55.53133000",
-                            Longitude = "11.49250000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Ejby",
-                            Latitude = "55.48580000",
-                            Longitude = "12.08171000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Faxe",
-                            Latitude = "55.25561000",
-                            Longitude = "12.11926000"
-                        },
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Faxe Kommune",
-                            Latitude = "55.29444000",
-                            Longitude = "12.06111000"
-                        },
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Faxe Ladeplads",
-                            Latitude = "55.21981000",
-                            Longitude = "12.17013000"
-                        },
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Fensmark",
-                            Latitude = "55.27919000",
-                            Longitude = "11.80382000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Forlev",
-                            Latitude = "55.37445000",
-                            Longitude = "11.25966000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Frederiksberg",
-                            Latitude = "55.41618000",
-                            Longitude = "11.56934000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Fuglebjerg",
-                            Latitude = "55.30604000",
-                            Longitude = "11.54766000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Gørlev",
-                            Latitude = "55.53926000",
-                            Longitude = "11.22708000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Greve",
-                            Latitude = "55.58333000",
-                            Longitude = "12.30000000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Greve Kommune",
-                            Latitude = "55.58770000",
-                            Longitude = "12.25060000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Guldborgsund Kommune",
-                            Latitude = "54.76944000",
-                            Longitude = "11.83611000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Gundsømagle",
-                            Latitude = "55.73565000",
-                            Longitude = "12.15158000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Hårlev",
-                            Latitude = "55.34936000",
-                            Longitude = "12.23382000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Haslev",
-                            Latitude = "55.32346000",
-                            Longitude = "11.96389000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Havdrup",
-                            Latitude = "55.54481000",
-                            Longitude = "12.12392000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Holbæk",
-                            Latitude = "55.71750000",
-                            Longitude = "11.71279000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Holbæk Kommune",
-                            Latitude = "55.65919000",
-                            Longitude = "11.62049000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Holeby",
-                            Latitude = "54.71148000",
-                            Longitude = "11.46416000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Høng",
-                            Latitude = "55.50736000",
-                            Longitude = "11.28873000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Hørve",
-                            Latitude = "55.75292000",
-                            Longitude = "11.45298000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Jyderup",
-                            Latitude = "55.66399000",
-                            Longitude = "11.42029000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Jyllinge",
-                            Latitude = "55.75295000",
-                            Longitude = "12.10315000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Kalundborg",
-                            Latitude = "55.67954000",
-                            Longitude = "11.08864000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Kalundborg Kommune",
-                            Latitude = "55.63545000",
-                            Longitude = "11.19993000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Kirke Hvalsø",
-                            Latitude = "55.59170000",
-                            Longitude = "11.86253000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Korsør",
-                            Latitude = "55.32993000",
-                            Longitude = "11.13857000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Køge",
-                            Latitude = "55.45802000",
-                            Longitude = "12.18214000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Køge Kommune",
-                            Latitude = "55.45668000",
-                            Longitude = "12.07332000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Lejre",
-                            Latitude = "55.60461000",
-                            Longitude = "11.97477000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Lejre Kommune",
-                            Latitude = "55.63375000",
-                            Longitude = "11.92234000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Lolland Kommune",
-                            Latitude = "54.80238000",
-                            Longitude = "11.29524000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Maribo",
-                            Latitude = "54.77662000",
-                            Longitude = "11.50017000"
-                        },
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Nakskov",
-                            Latitude = "54.83038000",
-                            Longitude = "11.13567000"
-                        },
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Næstved",
-                            Latitude = "55.22992000",
-                            Longitude = "11.76092000"
-                        },
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Næstved Kommune",
-                            Latitude = "55.25855000",
-                            Longitude = "11.74615000"
-                        },
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Neder Vindinge",
-                            Latitude = "55.03211000",
-                            Longitude = "11.88356000"
-                        },
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Nørre Alslev",
-                            Latitude = "54.89784000",
-                            Longitude = "11.88414000"
-                        },
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Nykøbing Falster",
-                            Latitude = "54.76906000",
-                            Longitude = "11.87425000"
-                        },
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "Nykøbing Sjælland",
-                            Latitude = "55.92491000",
-                            Longitude = "11.67109000"
-                        },
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "Nyråd",
-                            Latitude = "55.00511000",
-                            Longitude = "11.96060000"
-                        },
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "Odsherred Kommune",
-                            Latitude = "55.88333000",
-                            Longitude = "11.59444000"
-                        },
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "Osted",
-                            Latitude = "55.56228000",
-                            Longitude = "11.95786000"
-                        },
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "Ørslev",
-                            Latitude = "55.04356000",
-                            Longitude = "11.96792000"
-                        },
-
-                        new City
-                        {
-                            Id = 49,
-                            Name = "Præstø",
-                            Latitude = "55.12374000",
-                            Longitude = "12.04477000"
-                        },
-
-                        new City
-                        {
-                            Id = 50,
-                            Name = "Ringsted",
-                            Latitude = "55.44260000",
-                            Longitude = "11.79011000"
-                        },
-
-                        new City
-                        {
-                            Id = 51,
-                            Name = "Ringsted Kommune",
-                            Latitude = "55.44721000",
-                            Longitude = "11.81720000"
-                        },
-
-                        new City
-                        {
-                            Id = 52,
-                            Name = "Roskilde",
-                            Latitude = "55.64152000",
-                            Longitude = "12.08035000"
-                        },
-
-                        new City
-                        {
-                            Id = 53,
-                            Name = "Roskilde Kommune",
-                            Latitude = "55.65000000",
-                            Longitude = "12.10000000"
-                        },
-
-                        new City
-                        {
-                            Id = 54,
-                            Name = "Rødby",
-                            Latitude = "54.69495000",
-                            Longitude = "11.38885000"
-                        },
-
-                        new City
-                        {
-                            Id = 55,
-                            Name = "Rødbyhavn",
-                            Latitude = "54.65944000",
-                            Longitude = "11.35504000"
-                        },
-
-                        new City
-                        {
-                            Id = 56,
-                            Name = "Rødvig",
-                            Latitude = "55.25540000",
-                            Longitude = "12.37936000"
-                        },
-
-                        new City
-                        {
-                            Id = 57,
-                            Name = "Rønnede",
-                            Latitude = "55.25710000",
-                            Longitude = "12.02125000"
-                        },
-
-                        new City
-                        {
-                            Id = 58,
-                            Name = "Sakskøbing",
-                            Latitude = "54.79970000",
-                            Longitude = "11.62599000"
-                        },
-
-                        new City
-                        {
-                            Id = 59,
-                            Name = "Skælskør",
-                            Latitude = "55.25058000",
-                            Longitude = "11.29352000"
-                        },
-
-                        new City
-                        {
-                            Id = 60,
-                            Name = "Slagelse",
-                            Latitude = "55.40276000",
-                            Longitude = "11.35459000"
-                        },
-
-                        new City
-                        {
-                            Id = 61,
-                            Name = "Slagelse Kommune",
-                            Latitude = "55.34546000",
-                            Longitude = "11.33390000"
-                        },
-
-                        new City
-                        {
-                            Id = 62,
-                            Name = "Solrød",
-                            Latitude = "55.53628000",
-                            Longitude = "12.18270000"
-                        },
-
-                        new City
-                        {
-                            Id = 63,
-                            Name = "Solrød Kommune",
-                            Latitude = "55.53553000",
-                            Longitude = "12.17337000"
-                        },
-
-                        new City
-                        {
-                            Id = 64,
-                            Name = "Solrød Strand",
-                            Latitude = "55.53285000",
-                            Longitude = "12.22227000"
-                        },
-
-                        new City
-                        {
-                            Id = 65,
-                            Name = "Sorø",
-                            Latitude = "55.43184000",
-                            Longitude = "11.55547000"
-                        },
-
-                        new City
-                        {
-                            Id = 66,
-                            Name = "Sorø Kommune",
-                            Latitude = "55.48268000",
-                            Longitude = "11.55693000"
-                        },
-
-                        new City
-                        {
-                            Id = 67,
-                            Name = "Stege",
-                            Latitude = "54.98704000",
-                            Longitude = "12.28461000"
-                        },
-
-                        new City
-                        {
-                            Id = 68,
-                            Name = "Stenlille",
-                            Latitude = "55.53888000",
-                            Longitude = "11.59120000"
-                        },
-
-                        new City
-                        {
-                            Id = 69,
-                            Name = "Stevns Kommune",
-                            Latitude = "55.33373000",
-                            Longitude = "12.30692000"
-                        },
-
-                        new City
-                        {
-                            Id = 70,
-                            Name = "Store Heddinge",
-                            Latitude = "55.30965000",
-                            Longitude = "12.38885000"
-                        },
-
-                        new City
-                        {
-                            Id = 71,
-                            Name = "Strøby Egede",
-                            Latitude = "55.41382000",
-                            Longitude = "12.24502000"
-                        },
-
-                        new City
-                        {
-                            Id = 72,
-                            Name = "Stubbekøbing",
-                            Latitude = "54.88875000",
-                            Longitude = "12.04102000"
-                        },
-
-                        new City
-                        {
-                            Id = 73,
-                            Name = "Sundby",
-                            Latitude = "54.76711000",
-                            Longitude = "11.84979000"
-                        },
-
-                        new City
-                        {
-                            Id = 74,
-                            Name = "Svebølle",
-                            Latitude = "55.65183000",
-                            Longitude = "11.28658000"
-                        },
-
-                        new City
-                        {
-                            Id = 75,
-                            Name = "Svinninge",
-                            Latitude = "55.72111000",
-                            Longitude = "11.46547000"
-                        },
-
-                        new City
-                        {
-                            Id = 76,
-                            Name = "Svogerslev",
-                            Latitude = "55.63423000",
-                            Longitude = "12.01465000"
-                        },
-
-                        new City
-                        {
-                            Id = 77,
-                            Name = "Tølløse",
-                            Latitude = "55.61250000",
-                            Longitude = "11.77034000"
-                        },
-
-                        new City
-                        {
-                            Id = 78,
-                            Name = "Tune",
-                            Latitude = "55.59287000",
-                            Longitude = "12.16968000"
-                        },
-
-                        new City
-                        {
-                            Id = 79,
-                            Name = "Viby",
-                            Latitude = "55.54872000",
-                            Longitude = "12.02391000"
-                        },
-
-                        new City
-                        {
-                            Id = 80,
-                            Name = "Vindinge",
-                            Latitude = "55.62298000",
-                            Longitude = "12.13870000"
-                        },
-
-                        new City
-                        {
-                            Id = 81,
-                            Name = "Vipperød",
-                            Latitude = "55.66768000",
-                            Longitude = "11.73967000"
-                        },
-
-                        new City
-                        {
-                            Id = 82,
-                            Name = "Vordingborg",
-                            Latitude = "55.00801000",
-                            Longitude = "11.91057000"
-                        },
-
-                        new City
-                        {
-                            Id = 83,
-                            Name = "Vordingborg Kommune",
-                            Latitude = "55.01383000",
-                            Longitude = "12.10008000"
-                        }
+                        new() { Id = 1, Name = "Asnæs", Latitude = "55.81229000", Longitude = "11.50129000" },
+                        new() { Id = 2, Name = "Bjæverskov", Latitude = "55.45756000", Longitude = "12.03651000" },
+                        new() { Id = 3, Name = "Borup", Latitude = "55.49472000", Longitude = "11.97584000" },
+                        new() { Id = 4, Name = "Dianalund", Latitude = "55.53133000", Longitude = "11.49250000" },
+                        new() { Id = 5, Name = "Ejby", Latitude = "55.48580000", Longitude = "12.08171000" },
+                        new() { Id = 6, Name = "Faxe", Latitude = "55.25561000", Longitude = "12.11926000" },
+                        new() { Id = 7, Name = "Faxe Kommune", Latitude = "55.29444000", Longitude = "12.06111000" },
+                        new() { Id = 8, Name = "Faxe Ladeplads", Latitude = "55.21981000", Longitude = "12.17013000" },
+                        new() { Id = 9, Name = "Fensmark", Latitude = "55.27919000", Longitude = "11.80382000" },
+                        new() { Id = 10, Name = "Forlev", Latitude = "55.37445000", Longitude = "11.25966000" },
+                        new() { Id = 11, Name = "Frederiksberg", Latitude = "55.41618000", Longitude = "11.56934000" },
+                        new() { Id = 12, Name = "Fuglebjerg", Latitude = "55.30604000", Longitude = "11.54766000" },
+                        new() { Id = 13, Name = "Gørlev", Latitude = "55.53926000", Longitude = "11.22708000" },
+                        new() { Id = 14, Name = "Greve", Latitude = "55.58333000", Longitude = "12.30000000" },
+                        new() { Id = 15, Name = "Greve Kommune", Latitude = "55.58770000", Longitude = "12.25060000" },
+                        new() { Id = 16, Name = "Guldborgsund Kommune", Latitude = "54.76944000", Longitude = "11.83611000" },
+                        new() { Id = 17, Name = "Gundsømagle", Latitude = "55.73565000", Longitude = "12.15158000" },
+                        new() { Id = 18, Name = "Hårlev", Latitude = "55.34936000", Longitude = "12.23382000" },
+                        new() { Id = 19, Name = "Haslev", Latitude = "55.32346000", Longitude = "11.96389000" },
+                        new() { Id = 20, Name = "Havdrup", Latitude = "55.54481000", Longitude = "12.12392000" },
+                        new() { Id = 21, Name = "Holbæk", Latitude = "55.71750000", Longitude = "11.71279000" },
+                        new() { Id = 22, Name = "Holbæk Kommune", Latitude = "55.65919000", Longitude = "11.62049000" },
+                        new() { Id = 23, Name = "Holeby", Latitude = "54.71148000", Longitude = "11.46416000" },
+                        new() { Id = 24, Name = "Høng", Latitude = "55.50736000", Longitude = "11.28873000" },
+                        new() { Id = 25, Name = "Hørve", Latitude = "55.75292000", Longitude = "11.45298000" },
+                        new() { Id = 26, Name = "Jyderup", Latitude = "55.66399000", Longitude = "11.42029000" },
+                        new() { Id = 27, Name = "Jyllinge", Latitude = "55.75295000", Longitude = "12.10315000" },
+                        new() { Id = 28, Name = "Kalundborg", Latitude = "55.67954000", Longitude = "11.08864000" },
+                        new() { Id = 29, Name = "Kalundborg Kommune", Latitude = "55.63545000", Longitude = "11.19993000" },
+                        new() { Id = 30, Name = "Kirke Hvalsø", Latitude = "55.59170000", Longitude = "11.86253000" },
+                        new() { Id = 31, Name = "Korsør", Latitude = "55.32993000", Longitude = "11.13857000" },
+                        new() { Id = 32, Name = "Køge", Latitude = "55.45802000", Longitude = "12.18214000" },
+                        new() { Id = 33, Name = "Køge Kommune", Latitude = "55.45668000", Longitude = "12.07332000" },
+                        new() { Id = 34, Name = "Lejre", Latitude = "55.60461000", Longitude = "11.97477000" },
+                        new() { Id = 35, Name = "Lejre Kommune", Latitude = "55.63375000", Longitude = "11.92234000" },
+                        new() { Id = 36, Name = "Lolland Kommune", Latitude = "54.80238000", Longitude = "11.29524000" },
+                        new() { Id = 37, Name = "Maribo", Latitude = "54.77662000", Longitude = "11.50017000" },
+                        new() { Id = 38, Name = "Nakskov", Latitude = "54.83038000", Longitude = "11.13567000" },
+                        new() { Id = 39, Name = "Næstved", Latitude = "55.22992000", Longitude = "11.76092000" },
+                        new() { Id = 40, Name = "Næstved Kommune", Latitude = "55.25855000", Longitude = "11.74615000" },
+                        new() { Id = 41, Name = "Neder Vindinge", Latitude = "55.03211000", Longitude = "11.88356000" },
+                        new() { Id = 42, Name = "Nørre Alslev", Latitude = "54.89784000", Longitude = "11.88414000" },
+                        new() { Id = 43, Name = "Nykøbing Falster", Latitude = "54.76906000", Longitude = "11.87425000" },
+                        new() { Id = 44, Name = "Nykøbing Sjælland", Latitude = "55.92491000", Longitude = "11.67109000" },
+                        new() { Id = 45, Name = "Nyråd", Latitude = "55.00511000", Longitude = "11.96060000" },
+                        new() { Id = 46, Name = "Odsherred Kommune", Latitude = "55.88333000", Longitude = "11.59444000" },
+                        new() { Id = 47, Name = "Osted", Latitude = "55.56228000", Longitude = "11.95786000" },
+                        new() { Id = 48, Name = "Ørslev", Latitude = "55.04356000", Longitude = "11.96792000" },
+                        new() { Id = 49, Name = "Præstø", Latitude = "55.12374000", Longitude = "12.04477000" },
+                        new() { Id = 50, Name = "Ringsted", Latitude = "55.44260000", Longitude = "11.79011000" },
+                        new() { Id = 51, Name = "Ringsted Kommune", Latitude = "55.44721000", Longitude = "11.81720000" },
+                        new() { Id = 52, Name = "Roskilde", Latitude = "55.64152000", Longitude = "12.08035000" },
+                        new() { Id = 53, Name = "Roskilde Kommune", Latitude = "55.65000000", Longitude = "12.10000000" },
+                        new() { Id = 54, Name = "Rødby", Latitude = "54.69495000", Longitude = "11.38885000" },
+                        new() { Id = 55, Name = "Rødbyhavn", Latitude = "54.65944000", Longitude = "11.35504000" },
+                        new() { Id = 56, Name = "Rødvig", Latitude = "55.25540000", Longitude = "12.37936000" },
+                        new() { Id = 57, Name = "Rønnede", Latitude = "55.25710000", Longitude = "12.02125000" },
+                        new() { Id = 58, Name = "Sakskøbing", Latitude = "54.79970000", Longitude = "11.62599000" },
+                        new() { Id = 59, Name = "Skælskør", Latitude = "55.25058000", Longitude = "11.29352000" },
+                        new() { Id = 60, Name = "Slagelse", Latitude = "55.40276000", Longitude = "11.35459000" },
+                        new() { Id = 61, Name = "Slagelse Kommune", Latitude = "55.34546000", Longitude = "11.33390000" },
+                        new() { Id = 62, Name = "Solrød", Latitude = "55.53628000", Longitude = "12.18270000" },
+                        new() { Id = 63, Name = "Solrød Kommune", Latitude = "55.53553000", Longitude = "12.17337000" },
+                        new() { Id = 64, Name = "Solrød Strand", Latitude = "55.53285000", Longitude = "12.22227000" },
+                        new() { Id = 65, Name = "Sorø", Latitude = "55.43184000", Longitude = "11.55547000" },
+                        new() { Id = 66, Name = "Sorø Kommune", Latitude = "55.48268000", Longitude = "11.55693000" },
+                        new() { Id = 67, Name = "Stege", Latitude = "54.98704000", Longitude = "12.28461000" },
+                        new() { Id = 68, Name = "Stenlille", Latitude = "55.53888000", Longitude = "11.59120000" },
+                        new() { Id = 69, Name = "Stevns Kommune", Latitude = "55.33373000", Longitude = "12.30692000" },
+                        new() { Id = 70, Name = "Store Heddinge", Latitude = "55.30965000", Longitude = "12.38885000" },
+                        new() { Id = 71, Name = "Strøby Egede", Latitude = "55.41382000", Longitude = "12.24502000" },
+                        new() { Id = 72, Name = "Stubbekøbing", Latitude = "54.88875000", Longitude = "12.04102000" },
+                        new() { Id = 73, Name = "Sundby", Latitude = "54.76711000", Longitude = "11.84979000" },
+                        new() { Id = 74, Name = "Svebølle", Latitude = "55.65183000", Longitude = "11.28658000" },
+                        new() { Id = 75, Name = "Svinninge", Latitude = "55.72111000", Longitude = "11.46547000" },
+                        new() { Id = 76, Name = "Svogerslev", Latitude = "55.63423000", Longitude = "12.01465000" },
+                        new() { Id = 77, Name = "Tølløse", Latitude = "55.61250000", Longitude = "11.77034000" },
+                        new() { Id = 78, Name = "Tune", Latitude = "55.59287000", Longitude = "12.16968000" },
+                        new() { Id = 79, Name = "Viby", Latitude = "55.54872000", Longitude = "12.02391000" },
+                        new() { Id = 80, Name = "Vindinge", Latitude = "55.62298000", Longitude = "12.13870000" },
+                        new() { Id = 81, Name = "Vipperød", Latitude = "55.66768000", Longitude = "11.73967000" },
+                        new() { Id = 82, Name = "Vordingborg", Latitude = "55.00801000", Longitude = "11.91057000" },
+                        new() { Id = 83, Name = "Vordingborg Kommune", Latitude = "55.01383000", Longitude = "12.10008000" }
                     }
                 }
             }

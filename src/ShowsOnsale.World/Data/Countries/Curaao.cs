@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class Curaao
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 56,
             Name = "Curaçao",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "-68.93333300",
             Emoji = "🇨🇼",
             EmojiU = "U+1F1E8 U+1F1FC",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "America/Curacao",
-                    GmtOffset = -14400,
-                    GmtOffsetName = "UTC-04:00",
-                    Abbreviation = "AST",
-                    TzName = "Atlantic Standard Time"
-                }
+                new() { ZoneName = "America/Curacao", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "퀴라소" },
                 { "pt-BR" = "Curaçao" }
@@ -59,7 +52,7 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Кюрасао" }
                 { "pl" = "Curaçao" }
             },
-            States = new List<State>
+            States = new()
             {
             }
         };

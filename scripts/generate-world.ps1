@@ -90,7 +90,7 @@ namespace ShowsOnSale.World.Data
     {
         public static partial class Generated
         {
-            public static List<Country> All { get; } = new List<Country>
+            public static List<Country> All { get; } = new()
             {
 "@
     
@@ -119,7 +119,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class $($countryName)
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = $($currentCountry),
             Name = "$($country.name -replace '"', '\"')",
@@ -142,33 +142,35 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "$($country.longitude -eq $null ? "" : $country.longitude)",
             Emoji = "$($country.emoji -eq $null ? "" : $country.emoji)",
             EmojiU = "$($country.emojiU -eq $null ? "" : $country.emojiU)",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
 "@
         
         Set-Content $countryFilePath $countryCode -Encoding UTF8
         
-        # Add timezones
+        # Add timezones as single-line entries
         $timezoneCount = $country.timezones.Count
         $currentTimezone = 0
+        $timezoneEntries = @()
+        
         foreach ($timezone in $country.timezones) {
             $currentTimezone++
-            $timezoneCode = @"
-                new Timezone
-                {
-                    ZoneName = "$($timezone.zoneName -eq $null ? "" : ($timezone.zoneName -replace '"', '\"'))",
-                    GmtOffset = $($timezone.gmtOffset -eq $null ? 0 : $timezone.gmtOffset),
-                    GmtOffsetName = "$($timezone.gmtOffsetName -eq $null ? "" : ($timezone.gmtOffsetName -replace '"', '\"'))",
-                    Abbreviation = "$($timezone.abbreviation -eq $null ? "" : $timezone.abbreviation)",
-                    TzName = "$($timezone.tzName -eq $null ? "" : ($timezone.tzName -replace '"', '\"'))"
-                }$(if ([string]$currentTimezone -lt [string]$timezoneCount) { "," })
-"@
-            Add-Content $countryFilePath $timezoneCode -Encoding UTF8
+            $zoneName = $timezone.zoneName -eq $null ? "" : ($timezone.zoneName -replace '"', '\"')
+            $gmtOffset = $timezone.gmtOffset -eq $null ? 0 : $timezone.gmtOffset
+            $gmtOffsetName = $timezone.gmtOffsetName -eq $null ? "" : ($timezone.gmtOffsetName -replace '"', '\"')
+            $abbreviation = $timezone.abbreviation -eq $null ? "" : $timezone.abbreviation
+            $tzName = $timezone.tzName -eq $null ? "" : ($timezone.tzName -replace '"', '\"')
+            
+            $timezoneEntry = "                new() { ZoneName = `"$zoneName`", GmtOffset = $gmtOffset, GmtOffsetName = `"$gmtOffsetName`", Abbreviation = `"$abbreviation`", TzName = `"$tzName`" }$(if ([string]$currentTimezone -lt [string]$timezoneCount) { "," })"
+            $timezoneEntries += $timezoneEntry
         }
+        
+        # Write all timezone entries at once
+        Add-Content $countryFilePath $timezoneEntries -Encoding UTF8
         
         $translationsCode = @"
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
 "@
         Add-Content $countryFilePath $translationsCode -Encoding UTF8
@@ -186,7 +188,7 @@ namespace ShowsOnSale.World.Data.Countries
         
         $statesStartCode = @"
             },
-            States = new List<State>
+            States = new()
             {
 "@
         Add-Content $countryFilePath $statesStartCode -Encoding UTF8
@@ -201,7 +203,7 @@ namespace ShowsOnSale.World.Data.Countries
             
             $stateCode = @"
 
-                new State
+                new()
                 {
                     Id = $($currentState),
                     Name = "$($state.name -eq $null ? "" : ($state.name -replace '"', '\"'))",
@@ -209,7 +211,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "$($state.latitude -eq $null ? "" : $state.latitude)",
                     Longitude = "$($state.longitude -eq $null ? "" : $state.longitude)",
                     Type = "$($state.type -eq $null ? "" : $state.type)",
-                    Cities = new List<City>
+                    Cities = new()
                     {
 "@
             
@@ -219,24 +221,34 @@ namespace ShowsOnSale.World.Data.Countries
             $totalCities = $state.cities.Count
             $currentCity = 0
             
-            foreach ($city in $state.cities) {
-                $currentCity++
-                if ($currentCity % 1000 -eq 0) {
-                    Write-Host "    Processing city $currentCity of $totalCities : $($city.name)"
+            # Process cities in batches for better performance
+            $cityBatchSize = 1000
+            $cityBatches = [Math]::Ceiling($totalCities / $cityBatchSize)
+            
+            for ($batch = 0; $batch -lt $cityBatches; $batch++) {
+                $startIndex = $batch * $cityBatchSize
+                $endIndex = [Math]::Min(($batch + 1) * $cityBatchSize, $totalCities)
+                
+                Write-Host "    Processing cities batch $($batch + 1) of $cityBatches ($startIndex to $endIndex)"
+                
+                # Collect city entries for this batch
+                $cityEntries = @()
+                
+                for ($i = $startIndex; $i -lt $endIndex; $i++) {
+                    $city = $state.cities[$i]
+                    $currentCity = $i + 1
+                    
+                    # Create single-line city entry with proper escaping
+                    $cityName = $city.name -eq $null ? "" : ($city.name -replace '"', '\"')
+                    $cityLatitude = $city.latitude -eq $null ? "" : $city.latitude
+                    $cityLongitude = $city.longitude -eq $null ? "" : $city.longitude
+                    
+                    $cityEntry = "                        new() { Id = $($currentCity), Name = `"$cityName`", Latitude = `"$cityLatitude`", Longitude = `"$cityLongitude`" }$(if ($currentCity -lt $totalCities) { "," })"
+                    $cityEntries += $cityEntry
                 }
                 
-                $cityCode = @"
-
-                        new City
-                        {
-                            Id = $($currentCity),
-                            Name = "$($city.name -eq $null ? "" : ($city.name -replace '"', '\"'))",
-                            Latitude = "$($city.latitude -eq $null ? "" : $city.latitude)",
-                            Longitude = "$($city.longitude -eq $null ? "" : $city.longitude)"
-                        }$(if ([string]$currentCity -lt [string]$totalCities) { "," })
-"@
-                
-                Add-Content $countryFilePath $cityCode -Encoding UTF8
+                # Write all city entries for this batch at once
+                Add-Content $countryFilePath $cityEntries -Encoding UTF8
             }
             
             $stateEndCode = @"

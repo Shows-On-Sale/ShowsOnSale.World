@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class Georgia
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 81,
             Name = "Georgia",
@@ -32,1091 +32,300 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "43.50000000",
             Emoji = "🇬🇪",
             EmojiU = "U+1F1EC U+1F1EA",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {{
-                    ZoneName = "Asia/Tbilisi",
-                    GmtOffset = 14400,
-                    GmtOffsetName = "UTC+04:00",
-                    Abbreviation = "GET",
-                    TzName = "Georgia Standard Time"
-                }},
-            }},
-            Translations = new Dictionary<string, string>
-            {{
-                {{ "ko" = "조지아" }},
-                {{ "pt-BR" = "Geórgia" }},
-                {{ "pt" = "Geórgia" }},
-                {{ "nl" = "Georgië" }},
-                {{ "hr" = "Gruzija" }},
-                {{ "fa" = "گرجستان" }},
-                {{ "de" = "Georgien" }},
-                {{ "es" = "Georgia" }},
-                {{ "fr" = "Géorgie" }},
-                {{ "ja" = "グルジア" }},
-                {{ "it" = "Georgia" }},
-                {{ "zh-CN" = "格鲁吉亚" }},
-                {{ "tr" = "Gürcistan" }},
-                {{ "ru" = "Джорджия" }},
-                {{ "uk" = "Грузія" }},
-                {{ "pl" = "Gruzja" }},
-            }},
-            States = new List<State>
-            {{
+                new() { ZoneName = "Asia/Tbilisi", GmtOffset = 14400, GmtOffsetName = "UTC+04:00", Abbreviation = "GET", TzName = "Georgia Standard Time" }
+            },
+            Translations = new()
+            {
+                { "ko" = "조지아" },
+                { "pt-BR" = "Geórgia" }
+                { "pt" = "Geórgia" }
+                { "nl" = "Georgië" }
+                { "hr" = "Gruzija" }
+                { "fa" = "گرجستان" }
+                { "de" = "Georgien" }
+                { "es" = "Georgia" }
+                { "fr" = "Géorgie" }
+                { "ja" = "グルジア" }
+                { "it" = "Georgia" }
+                { "zh-CN" = "格鲁吉亚" }
+                { "tr" = "Gürcistan" }
+                { "ru" = "Джорджия" }
+                { "uk" = "Грузія" }
+                { "pl" = "Gruzja" }
+            },
+            States = new()
+            {
 
-                new State
-                {{
+                new()
+                {
                     Id = 1,
                     Name = "Abkhazia",
                     StateCode = "AB",
                     Latitude = "43.00155440",
                     Longitude = "41.02340700",
                     Type = "autonomous republic",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Bich’vinta", Latitude = "43.16197000", Longitude = "40.34102000" },
+                        new() { Id = 2, Name = "Dranda", Latitude = "42.87167000", Longitude = "41.15333000" },
+                        new() { Id = 3, Name = "Gagra", Latitude = "43.27858000", Longitude = "40.27124000" },
+                        new() { Id = 4, Name = "Gali", Latitude = "42.62655000", Longitude = "41.73808000" },
+                        new() { Id = 5, Name = "Gantiadi", Latitude = "43.38111000", Longitude = "40.07944000" },
+                        new() { Id = 6, Name = "Gudauta", Latitude = "43.10547000", Longitude = "40.62067000" },
+                        new() { Id = 7, Name = "Kelasuri", Latitude = "42.97877000", Longitude = "41.07067000" },
+                        new() { Id = 8, Name = "Och’amch’ire", Latitude = "42.71232000", Longitude = "41.46863000" },
+                        new() { Id = 9, Name = "P’rimorsk’oe", Latitude = "43.09236000", Longitude = "40.69650000" },
+                        new() { Id = 10, Name = "Sokhumi", Latitude = "43.00697000", Longitude = "40.98930000" },
+                        new() { Id = 11, Name = "Stantsiya Novyy Afon", Latitude = "43.08056000", Longitude = "40.83833000" },
+                        new() { Id = 12, Name = "Tqvarch'eli", Latitude = "42.84035000", Longitude = "41.68007000" }
+                    }
+                },
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Bich’vinta",
-                            Latitude = "43.16197000",
-                            Longitude = "40.34102000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Dranda",
-                            Latitude = "42.87167000",
-                            Longitude = "41.15333000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Gagra",
-                            Latitude = "43.27858000",
-                            Longitude = "40.27124000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 4,
-                            Name = "Gali",
-                            Latitude = "42.62655000",
-                            Longitude = "41.73808000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 5,
-                            Name = "Gantiadi",
-                            Latitude = "43.38111000",
-                            Longitude = "40.07944000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 6,
-                            Name = "Gudauta",
-                            Latitude = "43.10547000",
-                            Longitude = "40.62067000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 7,
-                            Name = "Kelasuri",
-                            Latitude = "42.97877000",
-                            Longitude = "41.07067000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 8,
-                            Name = "Och’amch’ire",
-                            Latitude = "42.71232000",
-                            Longitude = "41.46863000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 9,
-                            Name = "P’rimorsk’oe",
-                            Latitude = "43.09236000",
-                            Longitude = "40.69650000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 10,
-                            Name = "Sokhumi",
-                            Latitude = "43.00697000",
-                            Longitude = "40.98930000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 11,
-                            Name = "Stantsiya Novyy Afon",
-                            Latitude = "43.08056000",
-                            Longitude = "40.83833000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 12,
-                            Name = "Tqvarch'eli",
-                            Latitude = "42.84035000",
-                            Longitude = "41.68007000"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 2,
                     Name = "Adjara",
                     StateCode = "AJ",
                     Latitude = "41.60056260",
                     Longitude = "42.06883830",
                     Type = "autonomous republic",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Akhaldaba", Latitude = "41.65395000", Longitude = "42.15163000" },
+                        new() { Id = 2, Name = "Batumi", Latitude = "41.64228000", Longitude = "41.63392000" },
+                        new() { Id = 3, Name = "Chakvi", Latitude = "41.72528000", Longitude = "41.73278000" },
+                        new() { Id = 4, Name = "Dioknisi", Latitude = "41.62933000", Longitude = "42.39171000" },
+                        new() { Id = 5, Name = "Khelvachauri", Latitude = "41.58556000", Longitude = "41.66889000" },
+                        new() { Id = 6, Name = "Khulo", Latitude = "41.64353000", Longitude = "42.30397000" },
+                        new() { Id = 7, Name = "Kobuleti", Latitude = "41.82143000", Longitude = "41.77921000" },
+                        new() { Id = 8, Name = "Makhinjauri", Latitude = "41.67385000", Longitude = "41.69401000" },
+                        new() { Id = 9, Name = "Ochkhamuri", Latitude = "41.85975000", Longitude = "41.85309000" },
+                        new() { Id = 10, Name = "Shuakhevi", Latitude = "41.63000000", Longitude = "42.19083000" },
+                        new() { Id = 11, Name = "Tsikhisdziri", Latitude = "41.76659000", Longitude = "41.75517000" }
+                    }
+                }
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Akhaldaba",
-                            Latitude = "41.65395000",
-                            Longitude = "42.15163000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Batumi",
-                            Latitude = "41.64228000",
-                            Longitude = "41.63392000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Chakvi",
-                            Latitude = "41.72528000",
-                            Longitude = "41.73278000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 4,
-                            Name = "Dioknisi",
-                            Latitude = "41.62933000",
-                            Longitude = "42.39171000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 5,
-                            Name = "Khelvachauri",
-                            Latitude = "41.58556000",
-                            Longitude = "41.66889000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 6,
-                            Name = "Khulo",
-                            Latitude = "41.64353000",
-                            Longitude = "42.30397000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 7,
-                            Name = "Kobuleti",
-                            Latitude = "41.82143000",
-                            Longitude = "41.77921000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 8,
-                            Name = "Makhinjauri",
-                            Latitude = "41.67385000",
-                            Longitude = "41.69401000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 9,
-                            Name = "Ochkhamuri",
-                            Latitude = "41.85975000",
-                            Longitude = "41.85309000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 10,
-                            Name = "Shuakhevi",
-                            Latitude = "41.63000000",
-                            Longitude = "42.19083000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 11,
-                            Name = "Tsikhisdziri",
-                            Latitude = "41.76659000",
-                            Longitude = "41.75517000"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 3,
                     Name = "Guria",
                     StateCode = "GU",
                     Latitude = "41.94427360",
                     Longitude = "42.04580910",
                     Type = "region",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Lanchkhuti", Latitude = "42.09027000", Longitude = "42.03239000" },
+                        new() { Id = 2, Name = "Naruja", Latitude = "41.90694000", Longitude = "41.95417000" },
+                        new() { Id = 3, Name = "Ozurgeti", Latitude = "41.92442000", Longitude = "42.00682000" },
+                        new() { Id = 4, Name = "Urek’i", Latitude = "41.99556000", Longitude = "41.77861000" }
+                    }
+                }
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Lanchkhuti",
-                            Latitude = "42.09027000",
-                            Longitude = "42.03239000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Naruja",
-                            Latitude = "41.90694000",
-                            Longitude = "41.95417000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Ozurgeti",
-                            Latitude = "41.92442000",
-                            Longitude = "42.00682000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 4,
-                            Name = "Urek’i",
-                            Latitude = "41.99556000",
-                            Longitude = "41.77861000"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 4,
                     Name = "Imereti",
                     StateCode = "IM",
                     Latitude = "42.23010800",
                     Longitude = "42.90086640",
                     Type = "region",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Baghdatis Munitsip’alit’et’i", Latitude = "42.00000000", Longitude = "42.90000000" },
+                        new() { Id = 2, Name = "Chiat’ura", Latitude = "42.29806000", Longitude = "43.29889000" },
+                        new() { Id = 3, Name = "K’alak’i Chiat’ura", Latitude = "42.28333000", Longitude = "43.25000000" },
+                        new() { Id = 4, Name = "K’ulashi", Latitude = "42.20405000", Longitude = "42.34289000" },
+                        new() { Id = 5, Name = "Kharagauli", Latitude = "42.02137000", Longitude = "43.19773000" },
+                        new() { Id = 6, Name = "Khoni", Latitude = "42.32260000", Longitude = "42.42061000" },
+                        new() { Id = 7, Name = "Kutaisi", Latitude = "42.26791000", Longitude = "42.69459000" },
+                        new() { Id = 8, Name = "Sach’khere", Latitude = "42.34528000", Longitude = "43.41944000" },
+                        new() { Id = 9, Name = "Samtredia", Latitude = "42.15370000", Longitude = "42.33517000" },
+                        new() { Id = 10, Name = "Shorapani", Latitude = "42.08980000", Longitude = "43.08662000" },
+                        new() { Id = 11, Name = "Tqibuli", Latitude = "42.35121000", Longitude = "42.99874000" },
+                        new() { Id = 12, Name = "Tsqaltubo", Latitude = "42.34129000", Longitude = "42.59760000" },
+                        new() { Id = 13, Name = "Vani", Latitude = "42.08320000", Longitude = "42.52163000" },
+                        new() { Id = 14, Name = "Zestap’oni", Latitude = "42.11000000", Longitude = "43.05250000" }
+                    }
+                }
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Baghdatis Munitsip’alit’et’i",
-                            Latitude = "42.00000000",
-                            Longitude = "42.90000000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Chiat’ura",
-                            Latitude = "42.29806000",
-                            Longitude = "43.29889000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "K’alak’i Chiat’ura",
-                            Latitude = "42.28333000",
-                            Longitude = "43.25000000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 4,
-                            Name = "K’ulashi",
-                            Latitude = "42.20405000",
-                            Longitude = "42.34289000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 5,
-                            Name = "Kharagauli",
-                            Latitude = "42.02137000",
-                            Longitude = "43.19773000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 6,
-                            Name = "Khoni",
-                            Latitude = "42.32260000",
-                            Longitude = "42.42061000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 7,
-                            Name = "Kutaisi",
-                            Latitude = "42.26791000",
-                            Longitude = "42.69459000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 8,
-                            Name = "Sach’khere",
-                            Latitude = "42.34528000",
-                            Longitude = "43.41944000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 9,
-                            Name = "Samtredia",
-                            Latitude = "42.15370000",
-                            Longitude = "42.33517000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 10,
-                            Name = "Shorapani",
-                            Latitude = "42.08980000",
-                            Longitude = "43.08662000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 11,
-                            Name = "Tqibuli",
-                            Latitude = "42.35121000",
-                            Longitude = "42.99874000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 12,
-                            Name = "Tsqaltubo",
-                            Latitude = "42.34129000",
-                            Longitude = "42.59760000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 13,
-                            Name = "Vani",
-                            Latitude = "42.08320000",
-                            Longitude = "42.52163000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 14,
-                            Name = "Zestap’oni",
-                            Latitude = "42.11000000",
-                            Longitude = "43.05250000"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 5,
                     Name = "Kakheti",
                     StateCode = "KA",
                     Latitude = "41.64816020",
                     Longitude = "45.69055540",
                     Type = "region",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Akhmet’a", Latitude = "42.03111000", Longitude = "45.20750000" },
+                        new() { Id = 2, Name = "Akhmet’is Munitsip’alit’et’i", Latitude = "42.25000000", Longitude = "45.33333000" },
+                        new() { Id = 3, Name = "Gurjaani", Latitude = "41.74292000", Longitude = "45.80111000" },
+                        new() { Id = 4, Name = "Lagodekhi", Latitude = "41.82681000", Longitude = "46.27667000" },
+                        new() { Id = 5, Name = "Qvareli", Latitude = "41.95493000", Longitude = "45.81716000" },
+                        new() { Id = 6, Name = "Sagarejo", Latitude = "41.73397000", Longitude = "45.33149000" },
+                        new() { Id = 7, Name = "Sighnaghi", Latitude = "41.62046000", Longitude = "45.92198000" },
+                        new() { Id = 8, Name = "Sighnaghis Munitsip’alit’et’i", Latitude = "41.56667000", Longitude = "45.85000000" },
+                        new() { Id = 9, Name = "Telavi", Latitude = "41.91978000", Longitude = "45.47315000" },
+                        new() { Id = 10, Name = "Tsinandali", Latitude = "41.89315000", Longitude = "45.57129000" },
+                        new() { Id = 11, Name = "Tsnori", Latitude = "41.62088000", Longitude = "45.96943000" }
+                    }
+                }
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Akhmet’a",
-                            Latitude = "42.03111000",
-                            Longitude = "45.20750000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Akhmet’is Munitsip’alit’et’i",
-                            Latitude = "42.25000000",
-                            Longitude = "45.33333000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Gurjaani",
-                            Latitude = "41.74292000",
-                            Longitude = "45.80111000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 4,
-                            Name = "Lagodekhi",
-                            Latitude = "41.82681000",
-                            Longitude = "46.27667000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 5,
-                            Name = "Qvareli",
-                            Latitude = "41.95493000",
-                            Longitude = "45.81716000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 6,
-                            Name = "Sagarejo",
-                            Latitude = "41.73397000",
-                            Longitude = "45.33149000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 7,
-                            Name = "Sighnaghi",
-                            Latitude = "41.62046000",
-                            Longitude = "45.92198000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 8,
-                            Name = "Sighnaghis Munitsip’alit’et’i",
-                            Latitude = "41.56667000",
-                            Longitude = "45.85000000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 9,
-                            Name = "Telavi",
-                            Latitude = "41.91978000",
-                            Longitude = "45.47315000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 10,
-                            Name = "Tsinandali",
-                            Latitude = "41.89315000",
-                            Longitude = "45.57129000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 11,
-                            Name = "Tsnori",
-                            Latitude = "41.62088000",
-                            Longitude = "45.96943000"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 6,
                     Name = "Kvemo Kartli",
                     StateCode = "KK",
                     Latitude = "41.47918330",
                     Longitude = "44.65604510",
                     Type = "region",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Bolnisi", Latitude = "41.44794000", Longitude = "44.53838000" },
+                        new() { Id = 2, Name = "Bolnisis Munitsip’alit’et’i", Latitude = "41.36667000", Longitude = "44.51667000" },
+                        new() { Id = 3, Name = "Didi Lilo", Latitude = "41.73611000", Longitude = "44.96472000" },
+                        new() { Id = 4, Name = "Dmanisis Munitsip’alit’et’i", Latitude = "41.35000000", Longitude = "44.13333000" },
+                        new() { Id = 5, Name = "Gardabani", Latitude = "41.46054000", Longitude = "45.09283000" },
+                        new() { Id = 6, Name = "Gardabnis Munitsip’alit’et’i", Latitude = "41.61667000", Longitude = "45.00000000" },
+                        new() { Id = 7, Name = "Manglisi", Latitude = "41.69698000", Longitude = "44.38448000" },
+                        new() { Id = 8, Name = "Marneuli", Latitude = "41.47588000", Longitude = "44.80895000" },
+                        new() { Id = 9, Name = "Marneulis Munitsip’alit’et’i", Latitude = "41.38333000", Longitude = "44.85000000" },
+                        new() { Id = 10, Name = "Naghvarevi", Latitude = "41.35272000", Longitude = "44.76178000" },
+                        new() { Id = 11, Name = "Rust’avi", Latitude = "41.54949000", Longitude = "44.99323000" },
+                        new() { Id = 12, Name = "T’et’ri Tsqaro", Latitude = "41.54448000", Longitude = "44.46153000" },
+                        new() { Id = 13, Name = "Tetrits’q’alos Munitsip’alit’et’i", Latitude = "41.60000000", Longitude = "44.50000000" },
+                        new() { Id = 14, Name = "Ts’alk’is Munitsip’alit’et’i", Latitude = "41.63333000", Longitude = "43.96667000" },
+                        new() { Id = 15, Name = "Tsalka", Latitude = "41.59460000", Longitude = "44.08909000" }
+                    }
+                }
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Bolnisi",
-                            Latitude = "41.44794000",
-                            Longitude = "44.53838000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Bolnisis Munitsip’alit’et’i",
-                            Latitude = "41.36667000",
-                            Longitude = "44.51667000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Didi Lilo",
-                            Latitude = "41.73611000",
-                            Longitude = "44.96472000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 4,
-                            Name = "Dmanisis Munitsip’alit’et’i",
-                            Latitude = "41.35000000",
-                            Longitude = "44.13333000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 5,
-                            Name = "Gardabani",
-                            Latitude = "41.46054000",
-                            Longitude = "45.09283000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 6,
-                            Name = "Gardabnis Munitsip’alit’et’i",
-                            Latitude = "41.61667000",
-                            Longitude = "45.00000000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 7,
-                            Name = "Manglisi",
-                            Latitude = "41.69698000",
-                            Longitude = "44.38448000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 8,
-                            Name = "Marneuli",
-                            Latitude = "41.47588000",
-                            Longitude = "44.80895000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 9,
-                            Name = "Marneulis Munitsip’alit’et’i",
-                            Latitude = "41.38333000",
-                            Longitude = "44.85000000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 10,
-                            Name = "Naghvarevi",
-                            Latitude = "41.35272000",
-                            Longitude = "44.76178000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 11,
-                            Name = "Rust’avi",
-                            Latitude = "41.54949000",
-                            Longitude = "44.99323000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 12,
-                            Name = "T’et’ri Tsqaro",
-                            Latitude = "41.54448000",
-                            Longitude = "44.46153000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 13,
-                            Name = "Tetrits’q’alos Munitsip’alit’et’i",
-                            Latitude = "41.60000000",
-                            Longitude = "44.50000000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 14,
-                            Name = "Ts’alk’is Munitsip’alit’et’i",
-                            Latitude = "41.63333000",
-                            Longitude = "43.96667000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 15,
-                            Name = "Tsalka",
-                            Latitude = "41.59460000",
-                            Longitude = "44.08909000"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 7,
                     Name = "Mtskheta-Mtianeti",
                     StateCode = "MM",
                     Latitude = "42.16821850",
                     Longitude = "44.65060580",
                     Type = "region",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Akhalgori", Latitude = "42.12597000", Longitude = "44.48333000" },
+                        new() { Id = 2, Name = "Dzegvi", Latitude = "41.84569000", Longitude = "44.60097000" },
+                        new() { Id = 3, Name = "Gudauri", Latitude = "42.47797000", Longitude = "44.47616000" },
+                        new() { Id = 4, Name = "Java", Latitude = "42.39972000", Longitude = "43.93667000" },
+                        new() { Id = 5, Name = "Mtskheta", Latitude = "41.84514000", Longitude = "44.71875000" },
+                        new() { Id = 6, Name = "P’asanauri", Latitude = "42.35060000", Longitude = "44.68912000" },
+                        new() { Id = 7, Name = "Step’antsminda", Latitude = "42.65667000", Longitude = "44.64333000" },
+                        new() { Id = 8, Name = "Zhinvali", Latitude = "42.13181000", Longitude = "44.77264000" }
+                    }
+                }
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Akhalgori",
-                            Latitude = "42.12597000",
-                            Longitude = "44.48333000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Dzegvi",
-                            Latitude = "41.84569000",
-                            Longitude = "44.60097000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Gudauri",
-                            Latitude = "42.47797000",
-                            Longitude = "44.47616000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 4,
-                            Name = "Java",
-                            Latitude = "42.39972000",
-                            Longitude = "43.93667000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 5,
-                            Name = "Mtskheta",
-                            Latitude = "41.84514000",
-                            Longitude = "44.71875000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 6,
-                            Name = "P’asanauri",
-                            Latitude = "42.35060000",
-                            Longitude = "44.68912000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 7,
-                            Name = "Step’antsminda",
-                            Latitude = "42.65667000",
-                            Longitude = "44.64333000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 8,
-                            Name = "Zhinvali",
-                            Latitude = "42.13181000",
-                            Longitude = "44.77264000"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 8,
                     Name = "Racha-Lechkhumi and Kvemo Svaneti",
                     StateCode = "RL",
                     Latitude = "42.67188730",
                     Longitude = "43.05628360",
                     Type = "region",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Ambrolauri", Latitude = "42.52111000", Longitude = "43.16222000" },
+                        new() { Id = 2, Name = "Ambrolauris Munitsip’alit’et’i", Latitude = "42.56667000", Longitude = "43.10000000" },
+                        new() { Id = 3, Name = "Lent’ekhi", Latitude = "42.78893000", Longitude = "42.72226000" },
+                        new() { Id = 4, Name = "Oni", Latitude = "42.57944000", Longitude = "43.44250000" }
+                    }
+                }
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Ambrolauri",
-                            Latitude = "42.52111000",
-                            Longitude = "43.16222000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Ambrolauris Munitsip’alit’et’i",
-                            Latitude = "42.56667000",
-                            Longitude = "43.10000000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Lent’ekhi",
-                            Latitude = "42.78893000",
-                            Longitude = "42.72226000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 4,
-                            Name = "Oni",
-                            Latitude = "42.57944000",
-                            Longitude = "43.44250000"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 9,
                     Name = "Samegrelo-Zemo Svaneti",
                     StateCode = "SZ",
                     Latitude = "42.73522470",
                     Longitude = "42.16893620",
                     Type = "region",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Abasha", Latitude = "42.20000000", Longitude = "42.20000000" },
+                        new() { Id = 2, Name = "Jvari", Latitude = "42.71693000", Longitude = "42.05200000" },
+                        new() { Id = 3, Name = "Khobi", Latitude = "42.31558000", Longitude = "41.89871000" },
+                        new() { Id = 4, Name = "Kveda Chkhorots’q’u", Latitude = "42.48103000", Longitude = "42.09661000" },
+                        new() { Id = 5, Name = "Mart’vili", Latitude = "42.41436000", Longitude = "42.37924000" },
+                        new() { Id = 6, Name = "Mest’ia", Latitude = "43.04581000", Longitude = "42.72780000" },
+                        new() { Id = 7, Name = "Mest’iis Munitsip’alit’et’i", Latitude = "43.05000000", Longitude = "42.55000000" },
+                        new() { Id = 8, Name = "Orsant’ia", Latitude = "42.46777000", Longitude = "41.67377000" },
+                        new() { Id = 9, Name = "P’ot’i", Latitude = "42.14616000", Longitude = "41.67197000" },
+                        new() { Id = 10, Name = "Senak’i", Latitude = "42.27042000", Longitude = "42.06750000" },
+                        new() { Id = 11, Name = "Tsalenjikha", Latitude = "42.60444000", Longitude = "42.06825000" },
+                        new() { Id = 12, Name = "Zugdidi", Latitude = "42.50880000", Longitude = "41.87088000" }
+                    }
+                }
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Abasha",
-                            Latitude = "42.20000000",
-                            Longitude = "42.20000000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Jvari",
-                            Latitude = "42.71693000",
-                            Longitude = "42.05200000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Khobi",
-                            Latitude = "42.31558000",
-                            Longitude = "41.89871000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 4,
-                            Name = "Kveda Chkhorots’q’u",
-                            Latitude = "42.48103000",
-                            Longitude = "42.09661000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 5,
-                            Name = "Mart’vili",
-                            Latitude = "42.41436000",
-                            Longitude = "42.37924000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 6,
-                            Name = "Mest’ia",
-                            Latitude = "43.04581000",
-                            Longitude = "42.72780000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 7,
-                            Name = "Mest’iis Munitsip’alit’et’i",
-                            Latitude = "43.05000000",
-                            Longitude = "42.55000000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 8,
-                            Name = "Orsant’ia",
-                            Latitude = "42.46777000",
-                            Longitude = "41.67377000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 9,
-                            Name = "P’ot’i",
-                            Latitude = "42.14616000",
-                            Longitude = "41.67197000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 10,
-                            Name = "Senak’i",
-                            Latitude = "42.27042000",
-                            Longitude = "42.06750000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 11,
-                            Name = "Tsalenjikha",
-                            Latitude = "42.60444000",
-                            Longitude = "42.06825000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 12,
-                            Name = "Zugdidi",
-                            Latitude = "42.50880000",
-                            Longitude = "41.87088000"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 10,
                     Name = "Samtskhe-Javakheti",
                     StateCode = "SJ",
                     Latitude = "41.54792960",
                     Longitude = "43.27764000",
                     Type = "region",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Adigeni", Latitude = "41.68191000", Longitude = "42.69867000" },
+                        new() { Id = 2, Name = "Adigeni Municipality", Latitude = "41.71667000", Longitude = "42.73333000" },
+                        new() { Id = 3, Name = "Akhaldaba", Latitude = "41.92945000", Longitude = "43.48762000" },
+                        new() { Id = 4, Name = "Akhalk’alak’i", Latitude = "41.40514000", Longitude = "43.48629000" },
+                        new() { Id = 5, Name = "Akhaltsikhe", Latitude = "41.63901000", Longitude = "42.98262000" },
+                        new() { Id = 6, Name = "Akhaltsikhis Munitsip’alit’et’i", Latitude = "41.63333000", Longitude = "43.00000000" },
+                        new() { Id = 7, Name = "Asp’indzis Munitsip’alit’et’i", Latitude = "41.50000000", Longitude = "43.25000000" },
+                        new() { Id = 8, Name = "Aspindza", Latitude = "41.57389000", Longitude = "43.24826000" },
+                        new() { Id = 9, Name = "Bakuriani", Latitude = "41.74972000", Longitude = "43.53250000" },
+                        new() { Id = 10, Name = "Borjomi", Latitude = "41.85272000", Longitude = "43.41284000" },
+                        new() { Id = 11, Name = "Ninotsminda", Latitude = "41.26458000", Longitude = "43.59161000" },
+                        new() { Id = 12, Name = "Tsaghveri", Latitude = "41.80365000", Longitude = "43.48194000" },
+                        new() { Id = 13, Name = "Vale", Latitude = "41.61558000", Longitude = "42.87224000" }
+                    }
+                },
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Adigeni",
-                            Latitude = "41.68191000",
-                            Longitude = "42.69867000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Adigeni Municipality",
-                            Latitude = "41.71667000",
-                            Longitude = "42.73333000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Akhaldaba",
-                            Latitude = "41.92945000",
-                            Longitude = "43.48762000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 4,
-                            Name = "Akhalk’alak’i",
-                            Latitude = "41.40514000",
-                            Longitude = "43.48629000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 5,
-                            Name = "Akhaltsikhe",
-                            Latitude = "41.63901000",
-                            Longitude = "42.98262000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 6,
-                            Name = "Akhaltsikhis Munitsip’alit’et’i",
-                            Latitude = "41.63333000",
-                            Longitude = "43.00000000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 7,
-                            Name = "Asp’indzis Munitsip’alit’et’i",
-                            Latitude = "41.50000000",
-                            Longitude = "43.25000000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 8,
-                            Name = "Aspindza",
-                            Latitude = "41.57389000",
-                            Longitude = "43.24826000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 9,
-                            Name = "Bakuriani",
-                            Latitude = "41.74972000",
-                            Longitude = "43.53250000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 10,
-                            Name = "Borjomi",
-                            Latitude = "41.85272000",
-                            Longitude = "43.41284000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 11,
-                            Name = "Ninotsminda",
-                            Latitude = "41.26458000",
-                            Longitude = "43.59161000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 12,
-                            Name = "Tsaghveri",
-                            Latitude = "41.80365000",
-                            Longitude = "43.48194000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 13,
-                            Name = "Vale",
-                            Latitude = "41.61558000",
-                            Longitude = "42.87224000"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 11,
                     Name = "Shida Kartli",
                     StateCode = "SK",
                     Latitude = "42.07569440",
                     Longitude = "43.95404620",
                     Type = "region",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Agara", Latitude = "42.03761000", Longitude = "43.82382000" },
+                        new() { Id = 2, Name = "Gori", Latitude = "41.98422000", Longitude = "44.11578000" },
+                        new() { Id = 3, Name = "Goris Munitsip’alit’et’i", Latitude = "42.06667000", Longitude = "44.11667000" },
+                        new() { Id = 4, Name = "Kaspi", Latitude = "41.92520000", Longitude = "44.42568000" },
+                        new() { Id = 5, Name = "Khashuri", Latitude = "41.99414000", Longitude = "43.59994000" },
+                        new() { Id = 6, Name = "Surami", Latitude = "42.02431000", Longitude = "43.55556000" },
+                        new() { Id = 7, Name = "Ts’khinvali", Latitude = "42.22764000", Longitude = "43.96861000" }
+                    }
+                },
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Agara",
-                            Latitude = "42.03761000",
-                            Longitude = "43.82382000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Gori",
-                            Latitude = "41.98422000",
-                            Longitude = "44.11578000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Goris Munitsip’alit’et’i",
-                            Latitude = "42.06667000",
-                            Longitude = "44.11667000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 4,
-                            Name = "Kaspi",
-                            Latitude = "41.92520000",
-                            Longitude = "44.42568000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 5,
-                            Name = "Khashuri",
-                            Latitude = "41.99414000",
-                            Longitude = "43.59994000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 6,
-                            Name = "Surami",
-                            Latitude = "42.02431000",
-                            Longitude = "43.55556000"
-                        }},
-
-                        new City
-                        {{
-                            Id = 7,
-                            Name = "Ts’khinvali",
-                            Latitude = "42.22764000",
-                            Longitude = "43.96861000"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 12,
                     Name = "Tbilisi",
                     StateCode = "TB",
                     Latitude = "41.71513770",
                     Longitude = "44.82709600",
                     Type = "city",
-                    Cities = new List<City>
-                    {{
-
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Tbilisi",
-                            Latitude = "41.69411000",
-                            Longitude = "44.83368000"
-                        }},
-                    }}
-                }},
-            }}
-        }};
-    }}
-}}
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Tbilisi", Latitude = "41.69411000", Longitude = "44.83368000" }
+                    }
+                }
+            }
+        };
+    }
+}

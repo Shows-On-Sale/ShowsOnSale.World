@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class Bahrain
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 17,
             Name = "Bahrain",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "50.55000000",
             Emoji = "🇧🇭",
             EmojiU = "U+1F1E7 U+1F1ED",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "Asia/Bahrain",
-                    GmtOffset = 10800,
-                    GmtOffsetName = "UTC+03:00",
-                    Abbreviation = "AST",
-                    TzName = "Arabia Standard Time"
-                }
+                new() { ZoneName = "Asia/Bahrain", GmtOffset = 10800, GmtOffsetName = "UTC+03:00", Abbreviation = "AST", TzName = "Arabia Standard Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "바레인" },
                 { "pt-BR" = "Bahrein" }
@@ -62,10 +55,10 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Бахрейн" }
                 { "pl" = "Bahrajn" }
             },
-            States = new List<State>
+            States = new()
             {
 
-                new State
+                new()
                 {
                     Id = 1,
                     Name = "Capital",
@@ -73,36 +66,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "",
                     Longitude = "",
                     Type = "governorate",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Jidd Ḩafş",
-                            Latitude = "26.21861000",
-                            Longitude = "50.54778000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Manama",
-                            Latitude = "26.22787000",
-                            Longitude = "50.58565000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Sitrah",
-                            Latitude = "26.15472000",
-                            Longitude = "50.62056000"
-                        }
+                        new() { Id = 1, Name = "Jidd Ḩafş", Latitude = "26.21861000", Longitude = "50.54778000" },
+                        new() { Id = 2, Name = "Manama", Latitude = "26.22787000", Longitude = "50.58565000" },
+                        new() { Id = 3, Name = "Sitrah", Latitude = "26.15472000", Longitude = "50.62056000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 2,
                     Name = "Central",
@@ -110,20 +82,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "26.14260930",
                     Longitude = "50.56532940",
                     Type = "governorate",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Madīnat Ḩamad",
-                            Latitude = "26.11528000",
-                            Longitude = "50.50694000"
-                        }
+                        new() { Id = 1, Name = "Madīnat Ḩamad", Latitude = "26.11528000", Longitude = "50.50694000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 3,
                     Name = "Muharraq",
@@ -131,28 +96,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "26.26856530",
                     Longitude = "50.64825170",
                     Type = "governorate",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Al Ḩadd",
-                            Latitude = "26.24556000",
-                            Longitude = "50.65417000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Al Muharraq",
-                            Latitude = "26.25722000",
-                            Longitude = "50.61194000"
-                        }
+                        new() { Id = 1, Name = "Al Ḩadd", Latitude = "26.24556000", Longitude = "50.65417000" },
+                        new() { Id = 2, Name = "Al Muharraq", Latitude = "26.25722000", Longitude = "50.61194000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 4,
                     Name = "Northern",
@@ -160,12 +111,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "26.15519140",
                     Longitude = "50.48251730",
                     Type = "governorate",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 5,
                     Name = "Southern",
@@ -173,32 +124,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "25.93810180",
                     Longitude = "50.57568870",
                     Type = "governorate",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Ar Rifā‘",
-                            Latitude = "26.13000000",
-                            Longitude = "50.55500000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Dār Kulayb",
-                            Latitude = "26.06861000",
-                            Longitude = "50.50389000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Madīnat ‘Īsá",
-                            Latitude = "26.17361000",
-                            Longitude = "50.54778000"
-                        }
+                        new() { Id = 1, Name = "Ar Rifā‘", Latitude = "26.13000000", Longitude = "50.55500000" },
+                        new() { Id = 2, Name = "Dār Kulayb", Latitude = "26.06861000", Longitude = "50.50389000" },
+                        new() { Id = 3, Name = "Madīnat ‘Īsá", Latitude = "26.17361000", Longitude = "50.54778000" }
                     }
                 }
             }

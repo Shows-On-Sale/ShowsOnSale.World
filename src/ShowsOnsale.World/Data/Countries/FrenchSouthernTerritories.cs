@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class FrenchSouthernTerritories
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 79,
             Name = "French Southern Territories",
@@ -32,39 +32,32 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "69.16700000",
             Emoji = "🇹🇫",
             EmojiU = "U+1F1F9 U+1F1EB",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {{
-                    ZoneName = "Indian/Kerguelen",
-                    GmtOffset = 18000,
-                    GmtOffsetName = "UTC+05:00",
-                    Abbreviation = "TFT",
-                    TzName = "French Southern and Antarctic Time"
-                }},
-            }},
-            Translations = new Dictionary<string, string>
-            {{
-                {{ "ko" = "프랑스령 남방 및 남극" }},
-                {{ "pt-BR" = "Terras Austrais e Antárticas Francesas" }},
-                {{ "pt" = "Terras Austrais e Antárticas Francesas" }},
-                {{ "nl" = "Franse Gebieden in de zuidelijke Indische Oceaan" }},
-                {{ "hr" = "Francuski južni i antarktički teritoriji" }},
-                {{ "fa" = "سرزمین‌های جنوبی و جنوبگانی فرانسه" }},
-                {{ "de" = "Französische Süd- und Antarktisgebiete" }},
-                {{ "es" = "Tierras Australes y Antárticas Francesas" }},
-                {{ "fr" = "Terres australes et antarctiques françaises" }},
-                {{ "ja" = "フランス領南方・南極地域" }},
-                {{ "it" = "Territori Francesi del Sud" }},
-                {{ "zh-CN" = "法属南部领地" }},
-                {{ "tr" = "Fransiz Güney Topraklari" }},
-                {{ "ru" = "Французские южные территории" }},
-                {{ "uk" = "Французькі південні території" }},
-                {{ "pl" = "Francuskie terytoria południowe" }},
-            }},
-            States = new List<State>
-            {{
-            }}
-        }};
-    }}
-}}
+                new() { ZoneName = "Indian/Kerguelen", GmtOffset = 18000, GmtOffsetName = "UTC+05:00", Abbreviation = "TFT", TzName = "French Southern and Antarctic Time" }
+            },
+            Translations = new()
+            {
+                { "ko" = "프랑스령 남방 및 남극" },
+                { "pt-BR" = "Terras Austrais e Antárticas Francesas" }
+                { "pt" = "Terras Austrais e Antárticas Francesas" }
+                { "nl" = "Franse Gebieden in de zuidelijke Indische Oceaan" }
+                { "hr" = "Francuski južni i antarktički teritoriji" }
+                { "fa" = "سرزمین‌های جنوبی و جنوبگانی فرانسه" }
+                { "de" = "Französische Süd- und Antarktisgebiete" }
+                { "es" = "Tierras Australes y Antárticas Francesas" }
+                { "fr" = "Terres australes et antarctiques françaises" }
+                { "ja" = "フランス領南方・南極地域" }
+                { "it" = "Territori Francesi del Sud" }
+                { "zh-CN" = "法属南部领地" }
+                { "tr" = "Fransiz Güney Topraklari" }
+                { "ru" = "Французские южные территории" }
+                { "uk" = "Французькі південні території" }
+                { "pl" = "Francuskie terytoria południowe" }
+            },
+            States = new()
+            {
+            }
+        };
+    }
+}

@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class AntiguaAndBarbuda
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 10,
             Name = "Antigua and Barbuda",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "-61.80000000",
             Emoji = "🇦🇬",
             EmojiU = "U+1F1E6 U+1F1EC",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "America/Antigua",
-                    GmtOffset = -14400,
-                    GmtOffsetName = "UTC-04:00",
-                    Abbreviation = "AST",
-                    TzName = "Atlantic Standard Time"
-                }
+                new() { ZoneName = "America/Antigua", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "앤티가 바부다" },
                 { "pt-BR" = "Antígua e Barbuda" }
@@ -62,10 +55,10 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Антигуа і Барбуда" }
                 { "pl" = "Antigua i Barbuda" }
             },
-            States = new List<State>
+            States = new()
             {
 
-                new State
+                new()
                 {
                     Id = 1,
                     Name = "Barbuda",
@@ -73,20 +66,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "17.62662420",
                     Longitude = "-61.77130280",
                     Type = "dependency",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Codrington",
-                            Latitude = "17.63333000",
-                            Longitude = "-61.83333000"
-                        }
+                        new() { Id = 1, Name = "Codrington", Latitude = "17.63333000", Longitude = "-61.83333000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 2,
                     Name = "Redonda",
@@ -94,12 +80,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "16.93841600",
                     Longitude = "-62.34551480",
                     Type = "dependency",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 3,
                     Name = "Saint George",
@@ -107,20 +93,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "",
                     Longitude = "",
                     Type = "parish",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Piggotts",
-                            Latitude = "17.11667000",
-                            Longitude = "-61.80000000"
-                        }
+                        new() { Id = 1, Name = "Piggotts", Latitude = "17.11667000", Longitude = "-61.80000000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 4,
                     Name = "Saint John",
@@ -128,28 +107,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "",
                     Longitude = "",
                     Type = "parish",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Potters Village",
-                            Latitude = "17.11337000",
-                            Longitude = "-61.81962000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Saint John’s",
-                            Latitude = "17.12096000",
-                            Longitude = "-61.84329000"
-                        }
+                        new() { Id = 1, Name = "Potters Village", Latitude = "17.11337000", Longitude = "-61.81962000" },
+                        new() { Id = 2, Name = "Saint John’s", Latitude = "17.12096000", Longitude = "-61.84329000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 5,
                     Name = "Saint Mary",
@@ -157,20 +122,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "",
                     Longitude = "",
                     Type = "parish",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Bolands",
-                            Latitude = "17.06565000",
-                            Longitude = "-61.87466000"
-                        }
+                        new() { Id = 1, Name = "Bolands", Latitude = "17.06565000", Longitude = "-61.87466000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 6,
                     Name = "Saint Paul",
@@ -178,28 +136,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "",
                     Longitude = "",
                     Type = "parish",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Falmouth",
-                            Latitude = "17.02741000",
-                            Longitude = "-61.78136000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Liberta",
-                            Latitude = "17.04141000",
-                            Longitude = "-61.79052000"
-                        }
+                        new() { Id = 1, Name = "Falmouth", Latitude = "17.02741000", Longitude = "-61.78136000" },
+                        new() { Id = 2, Name = "Liberta", Latitude = "17.04141000", Longitude = "-61.79052000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 7,
                     Name = "Saint Peter",
@@ -207,28 +151,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "",
                     Longitude = "",
                     Type = "parish",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "All Saints",
-                            Latitude = "17.06671000",
-                            Longitude = "-61.79303000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Parham",
-                            Latitude = "17.09682000",
-                            Longitude = "-61.77046000"
-                        }
+                        new() { Id = 1, Name = "All Saints", Latitude = "17.06671000", Longitude = "-61.79303000" },
+                        new() { Id = 2, Name = "Parham", Latitude = "17.09682000", Longitude = "-61.77046000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 8,
                     Name = "Saint Philip",
@@ -236,7 +166,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "40.43682580",
                     Longitude = "-80.06855320",
                     Type = "parish",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 }

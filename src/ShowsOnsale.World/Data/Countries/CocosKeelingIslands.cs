@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class CocosKeelingIslands
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 47,
             Name = "Cocos (Keeling) Islands",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "96.83333333",
             Emoji = "🇨🇨",
             EmojiU = "U+1F1E8 U+1F1E8",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "Indian/Cocos",
-                    GmtOffset = 23400,
-                    GmtOffsetName = "UTC+06:30",
-                    Abbreviation = "CCT",
-                    TzName = "Cocos Islands Time"
-                }
+                new() { ZoneName = "Indian/Cocos", GmtOffset = 23400, GmtOffsetName = "UTC+06:30", Abbreviation = "CCT", TzName = "Cocos Islands Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "코코스 제도" },
                 { "pt-BR" = "Ilhas Cocos" }
@@ -62,7 +55,7 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Кокосові (Кілінг) острови" }
                 { "pl" = "Wyspy Kokosowe (Keelinga)" }
             },
-            States = new List<State>
+            States = new()
             {
             }
         };

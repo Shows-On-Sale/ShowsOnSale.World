@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class AmericanSamoa
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 5,
             Name = "American Samoa",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "-170.00000000",
             Emoji = "🇦🇸",
             EmojiU = "U+1F1E6 U+1F1F8",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "Pacific/Pago_Pago",
-                    GmtOffset = -39600,
-                    GmtOffsetName = "UTC-11:00",
-                    Abbreviation = "SST",
-                    TzName = "Samoa Standard Time"
-                }
+                new() { ZoneName = "Pacific/Pago_Pago", GmtOffset = -39600, GmtOffsetName = "UTC-11:00", Abbreviation = "SST", TzName = "Samoa Standard Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "아메리칸사모아" },
                 { "pt-BR" = "Samoa Americana" }
@@ -62,10 +55,10 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Американське Самоа" }
                 { "pl" = "Samoa Amerykańskie" }
             },
-            States = new List<State>
+            States = new()
             {
 
-                new State
+                new()
                 {
                     Id = 1,
                     Name = "Eastern",
@@ -73,52 +66,17 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-14.27560390",
                     Longitude = "-170.80855920",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Ituʻau",
-                            Latitude = "-14.30616430",
-                            Longitude = "-170.80691440"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Maʻoputasi",
-                            Latitude = "-14.25216850",
-                            Longitude = "-170.74187670"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Saʻole",
-                            Latitude = "-14.29995700",
-                            Longitude = "-170.61763370"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Sua",
-                            Latitude = "-14.27710880",
-                            Longitude = "-170.71442630"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Vaifanua",
-                            Latitude = "-14.25578040",
-                            Longitude = "-170.76301810"
-                        }
+                        new() { Id = 1, Name = "Ituʻau", Latitude = "-14.30616430", Longitude = "-170.80691440" },
+                        new() { Id = 2, Name = "Maʻoputasi", Latitude = "-14.25216850", Longitude = "-170.74187670" },
+                        new() { Id = 3, Name = "Saʻole", Latitude = "-14.29995700", Longitude = "-170.61763370" },
+                        new() { Id = 4, Name = "Sua", Latitude = "-14.27710880", Longitude = "-170.71442630" },
+                        new() { Id = 5, Name = "Vaifanua", Latitude = "-14.25578040", Longitude = "-170.76301810" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 2,
                     Name = "Manuʻa",
@@ -126,52 +84,17 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-14.21126410",
                     Longitude = "-169.71118920",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Faleasao",
-                            Latitude = "-14.20385490",
-                            Longitude = "-169.54907370"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Fitiuta",
-                            Latitude = "-14.20386340",
-                            Longitude = "-169.51690440"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Ofu",
-                            Latitude = "-14.17135950",
-                            Longitude = "-169.71939120"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Olosega",
-                            Latitude = "-14.17422270",
-                            Longitude = "-169.63981240"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Tau",
-                            Latitude = "-14.24215010",
-                            Longitude = "-169.55101650"
-                        }
+                        new() { Id = 1, Name = "Faleasao", Latitude = "-14.20385490", Longitude = "-169.54907370" },
+                        new() { Id = 2, Name = "Fitiuta", Latitude = "-14.20386340", Longitude = "-169.51690440" },
+                        new() { Id = 3, Name = "Ofu", Latitude = "-14.17135950", Longitude = "-169.71939120" },
+                        new() { Id = 4, Name = "Olosega", Latitude = "-14.17422270", Longitude = "-169.63981240" },
+                        new() { Id = 5, Name = "Tau", Latitude = "-14.24215010", Longitude = "-169.55101650" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 3,
                     Name = "Rose",
@@ -179,12 +102,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-14.54491610",
                     Longitude = "-168.17632920",
                     Type = "atoll",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 4,
                     Name = "Swains",
@@ -192,12 +115,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-11.05658780",
                     Longitude = "-171.08829090",
                     Type = "atoll",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 5,
                     Name = "Western",
@@ -205,40 +128,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-14.33307510",
                     Longitude = "-170.94315020",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Lealataua",
-                            Latitude = "-14.32261520",
-                            Longitude = "-170.90849930"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Leasina",
-                            Latitude = "-14.29581640",
-                            Longitude = "-170.80459320"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Tualatai",
-                            Latitude = "-14.37923540",
-                            Longitude = "-170.81033120"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Tualauta",
-                            Latitude = "-14.35876890",
-                            Longitude = "-170.75583320"
-                        }
+                        new() { Id = 1, Name = "Lealataua", Latitude = "-14.32261520", Longitude = "-170.90849930" },
+                        new() { Id = 2, Name = "Leasina", Latitude = "-14.29581640", Longitude = "-170.80459320" },
+                        new() { Id = 3, Name = "Tualatai", Latitude = "-14.37923540", Longitude = "-170.81033120" },
+                        new() { Id = 4, Name = "Tualauta", Latitude = "-14.35876890", Longitude = "-170.75583320" }
                     }
                 }
             }

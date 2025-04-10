@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class Finland
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 75,
             Name = "Finland",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "26.00000000",
             Emoji = "🇫🇮",
             EmojiU = "U+1F1EB U+1F1EE",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "Europe/Helsinki",
-                    GmtOffset = 7200,
-                    GmtOffsetName = "UTC+02:00",
-                    Abbreviation = "EET",
-                    TzName = "Eastern European Time"
-                }
+                new() { ZoneName = "Europe/Helsinki", GmtOffset = 7200, GmtOffsetName = "UTC+02:00", Abbreviation = "EET", TzName = "Eastern European Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "핀란드" },
                 { "pt-BR" = "Finlândia" }
@@ -62,10 +55,10 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Фінляндія" }
                 { "pl" = "Finlandia" }
             },
-            States = new List<State>
+            States = new()
             {
 
-                new State
+                new()
                 {
                     Id = 1,
                     Name = "Åland Islands",
@@ -73,108 +66,24 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "60.17852470",
                     Longitude = "19.91561050",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Brändö",
-                            Latitude = "60.40750000",
-                            Longitude = "21.07860000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Eckerö",
-                            Latitude = "60.22080000",
-                            Longitude = "19.55890000"
-                        }
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Finström",
-                            Latitude = "60.23420000",
-                            Longitude = "20.11390000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Föglö",
-                            Latitude = "60.09890000",
-                            Longitude = "20.37280000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Geta",
-                            Latitude = "60.41830000",
-                            Longitude = "19.71670000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Hammarland",
-                            Latitude = "60.24470000",
-                            Longitude = "19.68920000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Jomala",
-                            Latitude = "60.11810000",
-                            Longitude = "19.89890000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Kumlinge",
-                            Latitude = "60.39920000",
-                            Longitude = "20.76920000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Lemland",
-                            Latitude = "60.09250000",
-                            Longitude = "20.15440000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Mariehamn",
-                            Latitude = "60.10260000",
-                            Longitude = "19.93480000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Saltvik",
-                            Latitude = "60.35750000",
-                            Longitude = "20.15470000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Sund",
-                            Latitude = "60.23610000",
-                            Longitude = "20.21560000"
-                        }
+                        new() { Id = 1, Name = "Brändö", Latitude = "60.40750000", Longitude = "21.07860000" },
+                        new() { Id = 2, Name = "Eckerö", Latitude = "60.22080000", Longitude = "19.55890000" },
+                        new() { Id = 3, Name = "Finström", Latitude = "60.23420000", Longitude = "20.11390000" },
+                        new() { Id = 4, Name = "Föglö", Latitude = "60.09890000", Longitude = "20.37280000" },
+                        new() { Id = 5, Name = "Geta", Latitude = "60.41830000", Longitude = "19.71670000" },
+                        new() { Id = 6, Name = "Hammarland", Latitude = "60.24470000", Longitude = "19.68920000" },
+                        new() { Id = 7, Name = "Jomala", Latitude = "60.11810000", Longitude = "19.89890000" },
+                        new() { Id = 8, Name = "Kumlinge", Latitude = "60.39920000", Longitude = "20.76920000" },
+                        new() { Id = 9, Name = "Lemland", Latitude = "60.09250000", Longitude = "20.15440000" },
+                        new() { Id = 10, Name = "Mariehamn", Latitude = "60.10260000", Longitude = "19.93480000" },
+                        new() { Id = 11, Name = "Saltvik", Latitude = "60.35750000", Longitude = "20.15470000" },
+                        new() { Id = 12, Name = "Sund", Latitude = "60.23610000", Longitude = "20.21560000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 2,
                     Name = "Central Finland",
@@ -182,252 +91,42 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "62.56667430",
                     Longitude = "25.55494450",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Äänekoski",
-                            Latitude = "62.60000000",
-                            Longitude = "25.73333000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Hankasalmi",
-                            Latitude = "62.38333000",
-                            Longitude = "26.43333000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Jämsä",
-                            Latitude = "61.86420000",
-                            Longitude = "25.19002000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Jämsänkoski",
-                            Latitude = "61.91900000",
-                            Longitude = "25.17011000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Joutsa",
-                            Latitude = "61.73333000",
-                            Longitude = "26.11667000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Jyväskylä",
-                            Latitude = "62.24147000",
-                            Longitude = "25.72088000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Kannonkoski",
-                            Latitude = "62.96667000",
-                            Longitude = "25.25000000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Karstula",
-                            Latitude = "62.86667000",
-                            Longitude = "24.78333000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Keuruu",
-                            Latitude = "62.26667000",
-                            Longitude = "24.70000000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Kinnula",
-                            Latitude = "63.38333000",
-                            Longitude = "24.95000000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Kivijärvi",
-                            Latitude = "63.11984000",
-                            Longitude = "25.07835000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Konnevesi",
-                            Latitude = "62.61667000",
-                            Longitude = "26.31667000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Korpilahti",
-                            Latitude = "62.01667000",
-                            Longitude = "25.55000000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Kuhmoinen",
-                            Latitude = "61.56667000",
-                            Longitude = "25.18333000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Kyyjärvi",
-                            Latitude = "63.03333000",
-                            Longitude = "24.56667000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Laukaa",
-                            Latitude = "62.41407000",
-                            Longitude = "25.95194000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Leivonmäki",
-                            Latitude = "61.91198000",
-                            Longitude = "26.12796000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Luhanka",
-                            Latitude = "61.79682000",
-                            Longitude = "25.70457000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Multia",
-                            Latitude = "62.41667000",
-                            Longitude = "24.78333000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Muurame",
-                            Latitude = "62.13333000",
-                            Longitude = "25.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Petäjävesi",
-                            Latitude = "62.25000000",
-                            Longitude = "25.20000000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Pihtipudas",
-                            Latitude = "63.38333000",
-                            Longitude = "25.56667000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Pylkönmäki",
-                            Latitude = "62.66667000",
-                            Longitude = "24.80000000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Saarijärvi",
-                            Latitude = "62.70486000",
-                            Longitude = "25.25396000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Säynätsalo",
-                            Latitude = "62.14025000",
-                            Longitude = "25.76948000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Sumiainen",
-                            Latitude = "62.65736000",
-                            Longitude = "26.04642000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Suolahti",
-                            Latitude = "62.56421000",
-                            Longitude = "25.85363000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Toivakka",
-                            Latitude = "62.10000000",
-                            Longitude = "26.08333000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Uurainen",
-                            Latitude = "62.50000000",
-                            Longitude = "25.45000000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Viitasaari",
-                            Latitude = "63.06667000",
-                            Longitude = "25.86667000"
-                        }
+                        new() { Id = 1, Name = "Äänekoski", Latitude = "62.60000000", Longitude = "25.73333000" },
+                        new() { Id = 2, Name = "Hankasalmi", Latitude = "62.38333000", Longitude = "26.43333000" },
+                        new() { Id = 3, Name = "Jämsä", Latitude = "61.86420000", Longitude = "25.19002000" },
+                        new() { Id = 4, Name = "Jämsänkoski", Latitude = "61.91900000", Longitude = "25.17011000" },
+                        new() { Id = 5, Name = "Joutsa", Latitude = "61.73333000", Longitude = "26.11667000" },
+                        new() { Id = 6, Name = "Jyväskylä", Latitude = "62.24147000", Longitude = "25.72088000" },
+                        new() { Id = 7, Name = "Kannonkoski", Latitude = "62.96667000", Longitude = "25.25000000" },
+                        new() { Id = 8, Name = "Karstula", Latitude = "62.86667000", Longitude = "24.78333000" },
+                        new() { Id = 9, Name = "Keuruu", Latitude = "62.26667000", Longitude = "24.70000000" },
+                        new() { Id = 10, Name = "Kinnula", Latitude = "63.38333000", Longitude = "24.95000000" },
+                        new() { Id = 11, Name = "Kivijärvi", Latitude = "63.11984000", Longitude = "25.07835000" },
+                        new() { Id = 12, Name = "Konnevesi", Latitude = "62.61667000", Longitude = "26.31667000" },
+                        new() { Id = 13, Name = "Korpilahti", Latitude = "62.01667000", Longitude = "25.55000000" },
+                        new() { Id = 14, Name = "Kuhmoinen", Latitude = "61.56667000", Longitude = "25.18333000" },
+                        new() { Id = 15, Name = "Kyyjärvi", Latitude = "63.03333000", Longitude = "24.56667000" },
+                        new() { Id = 16, Name = "Laukaa", Latitude = "62.41407000", Longitude = "25.95194000" },
+                        new() { Id = 17, Name = "Leivonmäki", Latitude = "61.91198000", Longitude = "26.12796000" },
+                        new() { Id = 18, Name = "Luhanka", Latitude = "61.79682000", Longitude = "25.70457000" },
+                        new() { Id = 19, Name = "Multia", Latitude = "62.41667000", Longitude = "24.78333000" },
+                        new() { Id = 20, Name = "Muurame", Latitude = "62.13333000", Longitude = "25.66667000" },
+                        new() { Id = 21, Name = "Petäjävesi", Latitude = "62.25000000", Longitude = "25.20000000" },
+                        new() { Id = 22, Name = "Pihtipudas", Latitude = "63.38333000", Longitude = "25.56667000" },
+                        new() { Id = 23, Name = "Pylkönmäki", Latitude = "62.66667000", Longitude = "24.80000000" },
+                        new() { Id = 24, Name = "Saarijärvi", Latitude = "62.70486000", Longitude = "25.25396000" },
+                        new() { Id = 25, Name = "Säynätsalo", Latitude = "62.14025000", Longitude = "25.76948000" },
+                        new() { Id = 26, Name = "Sumiainen", Latitude = "62.65736000", Longitude = "26.04642000" },
+                        new() { Id = 27, Name = "Suolahti", Latitude = "62.56421000", Longitude = "25.85363000" },
+                        new() { Id = 28, Name = "Toivakka", Latitude = "62.10000000", Longitude = "26.08333000" },
+                        new() { Id = 29, Name = "Uurainen", Latitude = "62.50000000", Longitude = "25.45000000" },
+                        new() { Id = 30, Name = "Viitasaari", Latitude = "63.06667000", Longitude = "25.86667000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 3,
                     Name = "Central Ostrobothnia",
@@ -435,100 +134,23 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "63.56217350",
                     Longitude = "24.00136310",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Halsua",
-                            Latitude = "63.46667000",
-                            Longitude = "24.16667000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Kälviä",
-                            Latitude = "63.86067000",
-                            Longitude = "23.45289000"
-                        }
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Kannus",
-                            Latitude = "63.90000000",
-                            Longitude = "23.90000000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Kaustinen",
-                            Latitude = "63.54878000",
-                            Longitude = "23.68845000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Kokkola",
-                            Latitude = "63.85414000",
-                            Longitude = "23.58562000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Lestijärvi",
-                            Latitude = "63.53333000",
-                            Longitude = "24.65000000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Lohtaja",
-                            Latitude = "64.02472000",
-                            Longitude = "23.50482000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Perho",
-                            Latitude = "63.21667000",
-                            Longitude = "24.41667000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Toholampi",
-                            Latitude = "63.76667000",
-                            Longitude = "24.25000000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Ullava",
-                            Latitude = "63.60000000",
-                            Longitude = "24.08333000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Veteli",
-                            Latitude = "63.47839000",
-                            Longitude = "23.78285000"
-                        }
+                        new() { Id = 1, Name = "Halsua", Latitude = "63.46667000", Longitude = "24.16667000" },
+                        new() { Id = 2, Name = "Kälviä", Latitude = "63.86067000", Longitude = "23.45289000" },
+                        new() { Id = 3, Name = "Kannus", Latitude = "63.90000000", Longitude = "23.90000000" },
+                        new() { Id = 4, Name = "Kaustinen", Latitude = "63.54878000", Longitude = "23.68845000" },
+                        new() { Id = 5, Name = "Kokkola", Latitude = "63.85414000", Longitude = "23.58562000" },
+                        new() { Id = 6, Name = "Lestijärvi", Latitude = "63.53333000", Longitude = "24.65000000" },
+                        new() { Id = 7, Name = "Lohtaja", Latitude = "64.02472000", Longitude = "23.50482000" },
+                        new() { Id = 8, Name = "Perho", Latitude = "63.21667000", Longitude = "24.41667000" },
+                        new() { Id = 9, Name = "Toholampi", Latitude = "63.76667000", Longitude = "24.25000000" },
+                        new() { Id = 10, Name = "Ullava", Latitude = "63.60000000", Longitude = "24.08333000" },
+                        new() { Id = 11, Name = "Veteli", Latitude = "63.47839000", Longitude = "23.78285000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 4,
                     Name = "Finland Proper",
@@ -536,436 +158,65 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "60.36279140",
                     Longitude = "22.44393690",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Alastaro",
-                            Latitude = "60.95000000",
-                            Longitude = "22.85000000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Askainen",
-                            Latitude = "60.56667000",
-                            Longitude = "21.86667000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Aura",
-                            Latitude = "60.64710000",
-                            Longitude = "22.58755000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Dragsfjärd",
-                            Latitude = "60.06667000",
-                            Longitude = "22.48333000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Halikko",
-                            Latitude = "60.40000000",
-                            Longitude = "23.08333000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Houtskär",
-                            Latitude = "60.22284000",
-                            Longitude = "21.37218000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Iniö",
-                            Latitude = "60.40000000",
-                            Longitude = "21.40000000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Kaarina",
-                            Latitude = "60.40724000",
-                            Longitude = "22.36904000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Karinainen",
-                            Latitude = "60.66667000",
-                            Longitude = "22.76667000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Kiikala",
-                            Latitude = "60.46667000",
-                            Longitude = "23.56667000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Kimito",
-                            Latitude = "60.16047000",
-                            Longitude = "22.72900000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Kisko",
-                            Latitude = "60.23333000",
-                            Longitude = "23.48333000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Kustavi",
-                            Latitude = "60.54529000",
-                            Longitude = "21.35880000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Kuusjoki",
-                            Latitude = "60.51667000",
-                            Longitude = "23.20000000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Laitila",
-                            Latitude = "60.87575000",
-                            Longitude = "21.69765000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Lemu",
-                            Latitude = "60.56667000",
-                            Longitude = "21.96667000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Lieto",
-                            Latitude = "60.51032000",
-                            Longitude = "22.46176000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Marttila",
-                            Latitude = "60.58333000",
-                            Longitude = "22.90000000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Masku",
-                            Latitude = "60.57082000",
-                            Longitude = "22.09883000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Mellilä",
-                            Latitude = "60.76667000",
-                            Longitude = "22.95000000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Merimasku",
-                            Latitude = "60.48333000",
-                            Longitude = "21.86667000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Mietoinen",
-                            Latitude = "60.63333000",
-                            Longitude = "21.93333000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Muurla",
-                            Latitude = "60.35000000",
-                            Longitude = "23.28333000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Mynämäki",
-                            Latitude = "60.67915000",
-                            Longitude = "21.99274000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Naantali",
-                            Latitude = "60.46744000",
-                            Longitude = "22.02428000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Nagu",
-                            Latitude = "60.19375000",
-                            Longitude = "21.90972000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Nousiainen",
-                            Latitude = "60.60416000",
-                            Longitude = "22.07926000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Oripää",
-                            Latitude = "60.85000000",
-                            Longitude = "22.68333000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Paimio",
-                            Latitude = "60.45671000",
-                            Longitude = "22.68694000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Pargas",
-                            Latitude = "60.30672000",
-                            Longitude = "22.30097000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Perniö",
-                            Latitude = "60.20000000",
-                            Longitude = "23.13333000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Pertteli",
-                            Latitude = "60.43333000",
-                            Longitude = "23.26667000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Piikkiö",
-                            Latitude = "60.42481000",
-                            Longitude = "22.51601000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Pöytyä",
-                            Latitude = "60.76667000",
-                            Longitude = "22.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Pyhäranta",
-                            Latitude = "60.95000000",
-                            Longitude = "21.45000000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Raisio",
-                            Latitude = "60.48592000",
-                            Longitude = "22.16895000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Rusko",
-                            Latitude = "60.53333000",
-                            Longitude = "22.21667000"
-                        },
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Rymättylä",
-                            Latitude = "60.37658000",
-                            Longitude = "21.94184000"
-                        },
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Salo",
-                            Latitude = "60.38333000",
-                            Longitude = "23.13333000"
-                        },
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Särkisalo",
-                            Latitude = "60.11389000",
-                            Longitude = "22.95000000"
-                        },
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Sauvo",
-                            Latitude = "60.34306000",
-                            Longitude = "22.69642000"
-                        },
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Somero",
-                            Latitude = "60.61667000",
-                            Longitude = "23.53333000"
-                        },
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Suomusjärvi",
-                            Latitude = "60.35000000",
-                            Longitude = "23.65000000"
-                        },
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "Taivassalo",
-                            Latitude = "60.56085000",
-                            Longitude = "21.61639000"
-                        },
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "Tarvasjoki",
-                            Latitude = "60.58333000",
-                            Longitude = "22.73333000"
-                        },
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "Turku",
-                            Latitude = "60.45148000",
-                            Longitude = "22.26869000"
-                        },
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "Uusikaupunki",
-                            Latitude = "60.80043000",
-                            Longitude = "21.40841000"
-                        },
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "Vahto",
-                            Latitude = "60.60000000",
-                            Longitude = "22.30000000"
-                        },
-
-                        new City
-                        {
-                            Id = 49,
-                            Name = "Väståboland",
-                            Latitude = "60.29972000",
-                            Longitude = "22.30040000"
-                        },
-
-                        new City
-                        {
-                            Id = 50,
-                            Name = "Västanfjärd",
-                            Latitude = "60.05000000",
-                            Longitude = "22.68333000"
-                        },
-
-                        new City
-                        {
-                            Id = 51,
-                            Name = "Vehmaa",
-                            Latitude = "60.68333000",
-                            Longitude = "21.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 52,
-                            Name = "Velkua",
-                            Latitude = "60.46667000",
-                            Longitude = "21.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 53,
-                            Name = "Yläne",
-                            Latitude = "60.88333000",
-                            Longitude = "22.41667000"
-                        }
+                        new() { Id = 1, Name = "Alastaro", Latitude = "60.95000000", Longitude = "22.85000000" },
+                        new() { Id = 2, Name = "Askainen", Latitude = "60.56667000", Longitude = "21.86667000" },
+                        new() { Id = 3, Name = "Aura", Latitude = "60.64710000", Longitude = "22.58755000" },
+                        new() { Id = 4, Name = "Dragsfjärd", Latitude = "60.06667000", Longitude = "22.48333000" },
+                        new() { Id = 5, Name = "Halikko", Latitude = "60.40000000", Longitude = "23.08333000" },
+                        new() { Id = 6, Name = "Houtskär", Latitude = "60.22284000", Longitude = "21.37218000" },
+                        new() { Id = 7, Name = "Iniö", Latitude = "60.40000000", Longitude = "21.40000000" },
+                        new() { Id = 8, Name = "Kaarina", Latitude = "60.40724000", Longitude = "22.36904000" },
+                        new() { Id = 9, Name = "Karinainen", Latitude = "60.66667000", Longitude = "22.76667000" },
+                        new() { Id = 10, Name = "Kiikala", Latitude = "60.46667000", Longitude = "23.56667000" },
+                        new() { Id = 11, Name = "Kimito", Latitude = "60.16047000", Longitude = "22.72900000" },
+                        new() { Id = 12, Name = "Kisko", Latitude = "60.23333000", Longitude = "23.48333000" },
+                        new() { Id = 13, Name = "Kustavi", Latitude = "60.54529000", Longitude = "21.35880000" },
+                        new() { Id = 14, Name = "Kuusjoki", Latitude = "60.51667000", Longitude = "23.20000000" },
+                        new() { Id = 15, Name = "Laitila", Latitude = "60.87575000", Longitude = "21.69765000" },
+                        new() { Id = 16, Name = "Lemu", Latitude = "60.56667000", Longitude = "21.96667000" },
+                        new() { Id = 17, Name = "Lieto", Latitude = "60.51032000", Longitude = "22.46176000" },
+                        new() { Id = 18, Name = "Marttila", Latitude = "60.58333000", Longitude = "22.90000000" },
+                        new() { Id = 19, Name = "Masku", Latitude = "60.57082000", Longitude = "22.09883000" },
+                        new() { Id = 20, Name = "Mellilä", Latitude = "60.76667000", Longitude = "22.95000000" },
+                        new() { Id = 21, Name = "Merimasku", Latitude = "60.48333000", Longitude = "21.86667000" },
+                        new() { Id = 22, Name = "Mietoinen", Latitude = "60.63333000", Longitude = "21.93333000" },
+                        new() { Id = 23, Name = "Muurla", Latitude = "60.35000000", Longitude = "23.28333000" },
+                        new() { Id = 24, Name = "Mynämäki", Latitude = "60.67915000", Longitude = "21.99274000" },
+                        new() { Id = 25, Name = "Naantali", Latitude = "60.46744000", Longitude = "22.02428000" },
+                        new() { Id = 26, Name = "Nagu", Latitude = "60.19375000", Longitude = "21.90972000" },
+                        new() { Id = 27, Name = "Nousiainen", Latitude = "60.60416000", Longitude = "22.07926000" },
+                        new() { Id = 28, Name = "Oripää", Latitude = "60.85000000", Longitude = "22.68333000" },
+                        new() { Id = 29, Name = "Paimio", Latitude = "60.45671000", Longitude = "22.68694000" },
+                        new() { Id = 30, Name = "Pargas", Latitude = "60.30672000", Longitude = "22.30097000" },
+                        new() { Id = 31, Name = "Perniö", Latitude = "60.20000000", Longitude = "23.13333000" },
+                        new() { Id = 32, Name = "Pertteli", Latitude = "60.43333000", Longitude = "23.26667000" },
+                        new() { Id = 33, Name = "Piikkiö", Latitude = "60.42481000", Longitude = "22.51601000" },
+                        new() { Id = 34, Name = "Pöytyä", Latitude = "60.76667000", Longitude = "22.66667000" },
+                        new() { Id = 35, Name = "Pyhäranta", Latitude = "60.95000000", Longitude = "21.45000000" },
+                        new() { Id = 36, Name = "Raisio", Latitude = "60.48592000", Longitude = "22.16895000" },
+                        new() { Id = 37, Name = "Rusko", Latitude = "60.53333000", Longitude = "22.21667000" },
+                        new() { Id = 38, Name = "Rymättylä", Latitude = "60.37658000", Longitude = "21.94184000" },
+                        new() { Id = 39, Name = "Salo", Latitude = "60.38333000", Longitude = "23.13333000" },
+                        new() { Id = 40, Name = "Särkisalo", Latitude = "60.11389000", Longitude = "22.95000000" },
+                        new() { Id = 41, Name = "Sauvo", Latitude = "60.34306000", Longitude = "22.69642000" },
+                        new() { Id = 42, Name = "Somero", Latitude = "60.61667000", Longitude = "23.53333000" },
+                        new() { Id = 43, Name = "Suomusjärvi", Latitude = "60.35000000", Longitude = "23.65000000" },
+                        new() { Id = 44, Name = "Taivassalo", Latitude = "60.56085000", Longitude = "21.61639000" },
+                        new() { Id = 45, Name = "Tarvasjoki", Latitude = "60.58333000", Longitude = "22.73333000" },
+                        new() { Id = 46, Name = "Turku", Latitude = "60.45148000", Longitude = "22.26869000" },
+                        new() { Id = 47, Name = "Uusikaupunki", Latitude = "60.80043000", Longitude = "21.40841000" },
+                        new() { Id = 48, Name = "Vahto", Latitude = "60.60000000", Longitude = "22.30000000" },
+                        new() { Id = 49, Name = "Väståboland", Latitude = "60.29972000", Longitude = "22.30040000" },
+                        new() { Id = 50, Name = "Västanfjärd", Latitude = "60.05000000", Longitude = "22.68333000" },
+                        new() { Id = 51, Name = "Vehmaa", Latitude = "60.68333000", Longitude = "21.66667000" },
+                        new() { Id = 52, Name = "Velkua", Latitude = "60.46667000", Longitude = "21.66667000" },
+                        new() { Id = 53, Name = "Yläne", Latitude = "60.88333000", Longitude = "22.41667000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 5,
                     Name = "Kainuu",
@@ -973,100 +224,23 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "64.37365640",
                     Longitude = "28.74374750",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Hyrynsalmi",
-                            Latitude = "64.66667000",
-                            Longitude = "28.53333000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Kajaani",
-                            Latitude = "64.22728000",
-                            Longitude = "27.72846000"
-                        }
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Kuhmo",
-                            Latitude = "64.13333000",
-                            Longitude = "29.51667000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Paltamo",
-                            Latitude = "64.41667000",
-                            Longitude = "27.83333000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Puolanka",
-                            Latitude = "64.86667000",
-                            Longitude = "27.66667000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Ristijärvi",
-                            Latitude = "64.50000000",
-                            Longitude = "28.21667000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Sotkamo",
-                            Latitude = "64.13333000",
-                            Longitude = "28.41667000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Suomussalmi",
-                            Latitude = "64.88685000",
-                            Longitude = "28.90778000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Vaala",
-                            Latitude = "64.56667000",
-                            Longitude = "26.83333000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Vuokatti",
-                            Latitude = "64.14466000",
-                            Longitude = "28.28196000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Vuolijoki",
-                            Latitude = "64.18538000",
-                            Longitude = "26.99547000"
-                        }
+                        new() { Id = 1, Name = "Hyrynsalmi", Latitude = "64.66667000", Longitude = "28.53333000" },
+                        new() { Id = 2, Name = "Kajaani", Latitude = "64.22728000", Longitude = "27.72846000" },
+                        new() { Id = 3, Name = "Kuhmo", Latitude = "64.13333000", Longitude = "29.51667000" },
+                        new() { Id = 4, Name = "Paltamo", Latitude = "64.41667000", Longitude = "27.83333000" },
+                        new() { Id = 5, Name = "Puolanka", Latitude = "64.86667000", Longitude = "27.66667000" },
+                        new() { Id = 6, Name = "Ristijärvi", Latitude = "64.50000000", Longitude = "28.21667000" },
+                        new() { Id = 7, Name = "Sotkamo", Latitude = "64.13333000", Longitude = "28.41667000" },
+                        new() { Id = 8, Name = "Suomussalmi", Latitude = "64.88685000", Longitude = "28.90778000" },
+                        new() { Id = 9, Name = "Vaala", Latitude = "64.56667000", Longitude = "26.83333000" },
+                        new() { Id = 10, Name = "Vuokatti", Latitude = "64.14466000", Longitude = "28.28196000" },
+                        new() { Id = 11, Name = "Vuolijoki", Latitude = "64.18538000", Longitude = "26.99547000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 6,
                     Name = "Kymenlaakso",
@@ -1074,100 +248,23 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "60.78051200",
                     Longitude = "26.88293360",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Anjala",
-                            Latitude = "60.68333000",
-                            Longitude = "26.83333000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Elimäki",
-                            Latitude = "60.71667000",
-                            Longitude = "26.46667000"
-                        }
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Hamina",
-                            Latitude = "60.56974000",
-                            Longitude = "27.19794000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Iitti",
-                            Latitude = "60.89488000",
-                            Longitude = "26.33869000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Jaala",
-                            Latitude = "61.05251000",
-                            Longitude = "26.48117000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Karhula",
-                            Latitude = "60.52156000",
-                            Longitude = "26.93125000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Kotka",
-                            Latitude = "60.46640000",
-                            Longitude = "26.94582000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Kouvola",
-                            Latitude = "60.86667000",
-                            Longitude = "26.70000000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Miehikkälä",
-                            Latitude = "60.66667000",
-                            Longitude = "27.70000000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Pyhtää",
-                            Latitude = "60.49349000",
-                            Longitude = "26.54346000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Virojoki",
-                            Latitude = "60.57940000",
-                            Longitude = "27.70354000"
-                        }
+                        new() { Id = 1, Name = "Anjala", Latitude = "60.68333000", Longitude = "26.83333000" },
+                        new() { Id = 2, Name = "Elimäki", Latitude = "60.71667000", Longitude = "26.46667000" },
+                        new() { Id = 3, Name = "Hamina", Latitude = "60.56974000", Longitude = "27.19794000" },
+                        new() { Id = 4, Name = "Iitti", Latitude = "60.89488000", Longitude = "26.33869000" },
+                        new() { Id = 5, Name = "Jaala", Latitude = "61.05251000", Longitude = "26.48117000" },
+                        new() { Id = 6, Name = "Karhula", Latitude = "60.52156000", Longitude = "26.93125000" },
+                        new() { Id = 7, Name = "Kotka", Latitude = "60.46640000", Longitude = "26.94582000" },
+                        new() { Id = 8, Name = "Kouvola", Latitude = "60.86667000", Longitude = "26.70000000" },
+                        new() { Id = 9, Name = "Miehikkälä", Latitude = "60.66667000", Longitude = "27.70000000" },
+                        new() { Id = 10, Name = "Pyhtää", Latitude = "60.49349000", Longitude = "26.54346000" },
+                        new() { Id = 11, Name = "Virojoki", Latitude = "60.57940000", Longitude = "27.70354000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 7,
                     Name = "Lapland",
@@ -1175,196 +272,35 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "67.92223040",
                     Longitude = "26.50464380",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Enontekiö",
-                            Latitude = "68.38573000",
-                            Longitude = "23.63215000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Inari",
-                            Latitude = "68.90596000",
-                            Longitude = "27.02881000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Ivalo",
-                            Latitude = "68.65986000",
-                            Longitude = "27.53891000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Kemi",
-                            Latitude = "65.73641000",
-                            Longitude = "24.56371000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Kemijärvi",
-                            Latitude = "66.71309000",
-                            Longitude = "27.43056000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Keminmaa",
-                            Latitude = "65.80158000",
-                            Longitude = "24.54483000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Kittilä",
-                            Latitude = "67.66474000",
-                            Longitude = "24.89356000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Kolari",
-                            Latitude = "67.33047000",
-                            Longitude = "23.77785000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Muonio",
-                            Latitude = "67.95000000",
-                            Longitude = "23.70000000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Pelkosenniemi",
-                            Latitude = "67.11083000",
-                            Longitude = "27.51056000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Pello",
-                            Latitude = "66.77364000",
-                            Longitude = "23.96255000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Posio",
-                            Latitude = "66.10856000",
-                            Longitude = "28.17186000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Pyhäjärvi",
-                            Latitude = "67.07010000",
-                            Longitude = "27.21763000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Ranua",
-                            Latitude = "65.91667000",
-                            Longitude = "26.53333000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Rovaniemi",
-                            Latitude = "66.50000000",
-                            Longitude = "25.71667000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Salla",
-                            Latitude = "66.83333000",
-                            Longitude = "28.66667000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Savukoski",
-                            Latitude = "67.29250000",
-                            Longitude = "28.15806000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Simo",
-                            Latitude = "65.66667000",
-                            Longitude = "25.05000000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Sodankylä",
-                            Latitude = "67.41667000",
-                            Longitude = "26.60000000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Tervola",
-                            Latitude = "66.08333000",
-                            Longitude = "24.80000000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Tornio",
-                            Latitude = "65.84811000",
-                            Longitude = "24.14662000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Utsjoki",
-                            Latitude = "69.90864000",
-                            Longitude = "27.02843000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Ylitornio",
-                            Latitude = "66.30893000",
-                            Longitude = "23.67734000"
-                        }
+                        new() { Id = 1, Name = "Enontekiö", Latitude = "68.38573000", Longitude = "23.63215000" },
+                        new() { Id = 2, Name = "Inari", Latitude = "68.90596000", Longitude = "27.02881000" },
+                        new() { Id = 3, Name = "Ivalo", Latitude = "68.65986000", Longitude = "27.53891000" },
+                        new() { Id = 4, Name = "Kemi", Latitude = "65.73641000", Longitude = "24.56371000" },
+                        new() { Id = 5, Name = "Kemijärvi", Latitude = "66.71309000", Longitude = "27.43056000" },
+                        new() { Id = 6, Name = "Keminmaa", Latitude = "65.80158000", Longitude = "24.54483000" },
+                        new() { Id = 7, Name = "Kittilä", Latitude = "67.66474000", Longitude = "24.89356000" },
+                        new() { Id = 8, Name = "Kolari", Latitude = "67.33047000", Longitude = "23.77785000" },
+                        new() { Id = 9, Name = "Muonio", Latitude = "67.95000000", Longitude = "23.70000000" },
+                        new() { Id = 10, Name = "Pelkosenniemi", Latitude = "67.11083000", Longitude = "27.51056000" },
+                        new() { Id = 11, Name = "Pello", Latitude = "66.77364000", Longitude = "23.96255000" },
+                        new() { Id = 12, Name = "Posio", Latitude = "66.10856000", Longitude = "28.17186000" },
+                        new() { Id = 13, Name = "Pyhäjärvi", Latitude = "67.07010000", Longitude = "27.21763000" },
+                        new() { Id = 14, Name = "Ranua", Latitude = "65.91667000", Longitude = "26.53333000" },
+                        new() { Id = 15, Name = "Rovaniemi", Latitude = "66.50000000", Longitude = "25.71667000" },
+                        new() { Id = 16, Name = "Salla", Latitude = "66.83333000", Longitude = "28.66667000" },
+                        new() { Id = 17, Name = "Savukoski", Latitude = "67.29250000", Longitude = "28.15806000" },
+                        new() { Id = 18, Name = "Simo", Latitude = "65.66667000", Longitude = "25.05000000" },
+                        new() { Id = 19, Name = "Sodankylä", Latitude = "67.41667000", Longitude = "26.60000000" },
+                        new() { Id = 20, Name = "Tervola", Latitude = "66.08333000", Longitude = "24.80000000" },
+                        new() { Id = 21, Name = "Tornio", Latitude = "65.84811000", Longitude = "24.14662000" },
+                        new() { Id = 22, Name = "Utsjoki", Latitude = "69.90864000", Longitude = "27.02843000" },
+                        new() { Id = 23, Name = "Ylitornio", Latitude = "66.30893000", Longitude = "23.67734000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 8,
                     Name = "North Karelia",
@@ -1372,156 +308,30 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "62.80620780",
                     Longitude = "30.15538870",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Eno",
-                            Latitude = "62.80511000",
-                            Longitude = "30.15422000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Ilomantsi",
-                            Latitude = "62.67162000",
-                            Longitude = "30.93276000"
-                        }
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Joensuu",
-                            Latitude = "62.60118000",
-                            Longitude = "29.76316000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Juuka",
-                            Latitude = "63.23333000",
-                            Longitude = "29.25000000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Kesälahti",
-                            Latitude = "61.89752000",
-                            Longitude = "29.83494000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Kiihtelysvaara",
-                            Latitude = "62.49525000",
-                            Longitude = "30.25081000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Kitee",
-                            Latitude = "62.10000000",
-                            Longitude = "30.15000000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Kontiolahti",
-                            Latitude = "62.76023000",
-                            Longitude = "29.84711000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Lieksa",
-                            Latitude = "63.31667000",
-                            Longitude = "30.01667000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Liperi",
-                            Latitude = "62.53333000",
-                            Longitude = "29.36667000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Nurmes",
-                            Latitude = "63.54205000",
-                            Longitude = "29.13965000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Outokumpu",
-                            Latitude = "62.72685000",
-                            Longitude = "29.01592000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Polvijärvi",
-                            Latitude = "62.85000000",
-                            Longitude = "29.36667000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Pyhäselkä",
-                            Latitude = "62.43333000",
-                            Longitude = "29.96667000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Rääkkylä",
-                            Latitude = "62.31667000",
-                            Longitude = "29.61667000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Tohmajärvi",
-                            Latitude = "62.18333000",
-                            Longitude = "30.38333000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Tuupovaara",
-                            Latitude = "62.48372000",
-                            Longitude = "30.62731000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Valtimo",
-                            Latitude = "63.66667000",
-                            Longitude = "28.80000000"
-                        }
+                        new() { Id = 1, Name = "Eno", Latitude = "62.80511000", Longitude = "30.15422000" },
+                        new() { Id = 2, Name = "Ilomantsi", Latitude = "62.67162000", Longitude = "30.93276000" },
+                        new() { Id = 3, Name = "Joensuu", Latitude = "62.60118000", Longitude = "29.76316000" },
+                        new() { Id = 4, Name = "Juuka", Latitude = "63.23333000", Longitude = "29.25000000" },
+                        new() { Id = 5, Name = "Kesälahti", Latitude = "61.89752000", Longitude = "29.83494000" },
+                        new() { Id = 6, Name = "Kiihtelysvaara", Latitude = "62.49525000", Longitude = "30.25081000" },
+                        new() { Id = 7, Name = "Kitee", Latitude = "62.10000000", Longitude = "30.15000000" },
+                        new() { Id = 8, Name = "Kontiolahti", Latitude = "62.76023000", Longitude = "29.84711000" },
+                        new() { Id = 9, Name = "Lieksa", Latitude = "63.31667000", Longitude = "30.01667000" },
+                        new() { Id = 10, Name = "Liperi", Latitude = "62.53333000", Longitude = "29.36667000" },
+                        new() { Id = 11, Name = "Nurmes", Latitude = "63.54205000", Longitude = "29.13965000" },
+                        new() { Id = 12, Name = "Outokumpu", Latitude = "62.72685000", Longitude = "29.01592000" },
+                        new() { Id = 13, Name = "Polvijärvi", Latitude = "62.85000000", Longitude = "29.36667000" },
+                        new() { Id = 14, Name = "Pyhäselkä", Latitude = "62.43333000", Longitude = "29.96667000" },
+                        new() { Id = 15, Name = "Rääkkylä", Latitude = "62.31667000", Longitude = "29.61667000" },
+                        new() { Id = 16, Name = "Tohmajärvi", Latitude = "62.18333000", Longitude = "30.38333000" },
+                        new() { Id = 17, Name = "Tuupovaara", Latitude = "62.48372000", Longitude = "30.62731000" },
+                        new() { Id = 18, Name = "Valtimo", Latitude = "63.66667000", Longitude = "28.80000000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 9,
                     Name = "Northern Ostrobothnia",
@@ -1529,340 +339,53 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "65.27949300",
                     Longitude = "26.28904170",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Alavieska",
-                            Latitude = "64.16667000",
-                            Longitude = "24.30000000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Haapajärvi",
-                            Latitude = "63.75000000",
-                            Longitude = "25.33333000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Haapavesi",
-                            Latitude = "64.13333000",
-                            Longitude = "25.36667000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Hailuoto",
-                            Latitude = "65.00900000",
-                            Longitude = "24.71385000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Haukipudas",
-                            Latitude = "65.17654000",
-                            Longitude = "25.35233000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Himanka",
-                            Latitude = "64.06218000",
-                            Longitude = "23.65447000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Ii",
-                            Latitude = "65.31735000",
-                            Longitude = "25.37310000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Kalajoki",
-                            Latitude = "64.25000000",
-                            Longitude = "23.95000000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Kärsämäki",
-                            Latitude = "63.96667000",
-                            Longitude = "25.76667000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Kempele",
-                            Latitude = "64.91314000",
-                            Longitude = "25.50339000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Kestilä",
-                            Latitude = "64.35002000",
-                            Longitude = "26.27921000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Kiiminki",
-                            Latitude = "65.13139000",
-                            Longitude = "25.79744000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Kuivaniemi",
-                            Latitude = "65.57847000",
-                            Longitude = "25.18814000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Kuusamo",
-                            Latitude = "65.96667000",
-                            Longitude = "29.18333000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Liminka",
-                            Latitude = "64.80985000",
-                            Longitude = "25.41545000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Lumijoki",
-                            Latitude = "64.83744000",
-                            Longitude = "25.18607000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Merijärvi",
-                            Latitude = "64.30000000",
-                            Longitude = "24.45000000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Muhos",
-                            Latitude = "64.80798000",
-                            Longitude = "25.99314000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Nivala",
-                            Latitude = "63.91667000",
-                            Longitude = "24.96667000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Oulainen",
-                            Latitude = "64.26667000",
-                            Longitude = "24.80000000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Oulu",
-                            Latitude = "65.01236000",
-                            Longitude = "25.46816000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Oulunsalo",
-                            Latitude = "64.93456000",
-                            Longitude = "25.41121000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Piippola",
-                            Latitude = "64.16667000",
-                            Longitude = "25.96667000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Pudasjärvi",
-                            Latitude = "65.38333000",
-                            Longitude = "26.91667000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Pulkkila",
-                            Latitude = "64.26667000",
-                            Longitude = "25.86667000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Pyhäjärvi",
-                            Latitude = "63.66667000",
-                            Longitude = "25.90000000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Pyhäjoki",
-                            Latitude = "64.46667000",
-                            Longitude = "24.23333000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Pyhäntä",
-                            Latitude = "64.10000000",
-                            Longitude = "26.31667000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Raahe",
-                            Latitude = "64.68333000",
-                            Longitude = "24.48333000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Rantsila",
-                            Latitude = "64.50613000",
-                            Longitude = "25.66449000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Reisjärvi",
-                            Latitude = "63.61667000",
-                            Longitude = "24.90000000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Ruukki",
-                            Latitude = "64.66667000",
-                            Longitude = "25.10000000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Sievi",
-                            Latitude = "63.90000000",
-                            Longitude = "24.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Siikajoki",
-                            Latitude = "64.81455000",
-                            Longitude = "24.75924000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Taivalkoski",
-                            Latitude = "65.56667000",
-                            Longitude = "28.25000000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Tyrnävä",
-                            Latitude = "64.76469000",
-                            Longitude = "25.65230000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Utajärvi",
-                            Latitude = "64.75000000",
-                            Longitude = "26.38333000"
-                        },
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Vihanti",
-                            Latitude = "64.48472000",
-                            Longitude = "24.99157000"
-                        },
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Yli-Ii",
-                            Latitude = "65.37181000",
-                            Longitude = "25.84580000"
-                        },
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Ylikiiminki",
-                            Latitude = "65.08333000",
-                            Longitude = "26.25000000"
-                        },
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Ylivieska",
-                            Latitude = "64.08333000",
-                            Longitude = "24.55000000"
-                        }
+                        new() { Id = 1, Name = "Alavieska", Latitude = "64.16667000", Longitude = "24.30000000" },
+                        new() { Id = 2, Name = "Haapajärvi", Latitude = "63.75000000", Longitude = "25.33333000" },
+                        new() { Id = 3, Name = "Haapavesi", Latitude = "64.13333000", Longitude = "25.36667000" },
+                        new() { Id = 4, Name = "Hailuoto", Latitude = "65.00900000", Longitude = "24.71385000" },
+                        new() { Id = 5, Name = "Haukipudas", Latitude = "65.17654000", Longitude = "25.35233000" },
+                        new() { Id = 6, Name = "Himanka", Latitude = "64.06218000", Longitude = "23.65447000" },
+                        new() { Id = 7, Name = "Ii", Latitude = "65.31735000", Longitude = "25.37310000" },
+                        new() { Id = 8, Name = "Kalajoki", Latitude = "64.25000000", Longitude = "23.95000000" },
+                        new() { Id = 9, Name = "Kärsämäki", Latitude = "63.96667000", Longitude = "25.76667000" },
+                        new() { Id = 10, Name = "Kempele", Latitude = "64.91314000", Longitude = "25.50339000" },
+                        new() { Id = 11, Name = "Kestilä", Latitude = "64.35002000", Longitude = "26.27921000" },
+                        new() { Id = 12, Name = "Kiiminki", Latitude = "65.13139000", Longitude = "25.79744000" },
+                        new() { Id = 13, Name = "Kuivaniemi", Latitude = "65.57847000", Longitude = "25.18814000" },
+                        new() { Id = 14, Name = "Kuusamo", Latitude = "65.96667000", Longitude = "29.18333000" },
+                        new() { Id = 15, Name = "Liminka", Latitude = "64.80985000", Longitude = "25.41545000" },
+                        new() { Id = 16, Name = "Lumijoki", Latitude = "64.83744000", Longitude = "25.18607000" },
+                        new() { Id = 17, Name = "Merijärvi", Latitude = "64.30000000", Longitude = "24.45000000" },
+                        new() { Id = 18, Name = "Muhos", Latitude = "64.80798000", Longitude = "25.99314000" },
+                        new() { Id = 19, Name = "Nivala", Latitude = "63.91667000", Longitude = "24.96667000" },
+                        new() { Id = 20, Name = "Oulainen", Latitude = "64.26667000", Longitude = "24.80000000" },
+                        new() { Id = 21, Name = "Oulu", Latitude = "65.01236000", Longitude = "25.46816000" },
+                        new() { Id = 22, Name = "Oulunsalo", Latitude = "64.93456000", Longitude = "25.41121000" },
+                        new() { Id = 23, Name = "Piippola", Latitude = "64.16667000", Longitude = "25.96667000" },
+                        new() { Id = 24, Name = "Pudasjärvi", Latitude = "65.38333000", Longitude = "26.91667000" },
+                        new() { Id = 25, Name = "Pulkkila", Latitude = "64.26667000", Longitude = "25.86667000" },
+                        new() { Id = 26, Name = "Pyhäjärvi", Latitude = "63.66667000", Longitude = "25.90000000" },
+                        new() { Id = 27, Name = "Pyhäjoki", Latitude = "64.46667000", Longitude = "24.23333000" },
+                        new() { Id = 28, Name = "Pyhäntä", Latitude = "64.10000000", Longitude = "26.31667000" },
+                        new() { Id = 29, Name = "Raahe", Latitude = "64.68333000", Longitude = "24.48333000" },
+                        new() { Id = 30, Name = "Rantsila", Latitude = "64.50613000", Longitude = "25.66449000" },
+                        new() { Id = 31, Name = "Reisjärvi", Latitude = "63.61667000", Longitude = "24.90000000" },
+                        new() { Id = 32, Name = "Ruukki", Latitude = "64.66667000", Longitude = "25.10000000" },
+                        new() { Id = 33, Name = "Sievi", Latitude = "63.90000000", Longitude = "24.50000000" },
+                        new() { Id = 34, Name = "Siikajoki", Latitude = "64.81455000", Longitude = "24.75924000" },
+                        new() { Id = 35, Name = "Taivalkoski", Latitude = "65.56667000", Longitude = "28.25000000" },
+                        new() { Id = 36, Name = "Tyrnävä", Latitude = "64.76469000", Longitude = "25.65230000" },
+                        new() { Id = 37, Name = "Utajärvi", Latitude = "64.75000000", Longitude = "26.38333000" },
+                        new() { Id = 38, Name = "Vihanti", Latitude = "64.48472000", Longitude = "24.99157000" },
+                        new() { Id = 39, Name = "Yli-Ii", Latitude = "65.37181000", Longitude = "25.84580000" },
+                        new() { Id = 40, Name = "Ylikiiminki", Latitude = "65.08333000", Longitude = "26.25000000" },
+                        new() { Id = 41, Name = "Ylivieska", Latitude = "64.08333000", Longitude = "24.55000000" }
                     }
                 }
 
-                new State
+                new()
                 {
                     Id = 10,
                     Name = "Northern Savonia",
@@ -1870,12 +393,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "63.08448000",
                     Longitude = "27.02535040",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 11,
                     Name = "Ostrobothnia",
@@ -1883,172 +406,32 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "63.11817570",
                     Longitude = "21.90610620",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Hietalahti",
-                            Latitude = "63.08480000",
-                            Longitude = "21.61716000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Isokyrö",
-                            Latitude = "63.01172000",
-                            Longitude = "22.33332000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Jakobstad",
-                            Latitude = "63.67486000",
-                            Longitude = "22.70256000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Kaskinen",
-                            Latitude = "62.38444000",
-                            Longitude = "21.22331000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Korsholm",
-                            Latitude = "63.11418000",
-                            Longitude = "21.68216000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Korsnäs",
-                            Latitude = "62.78333000",
-                            Longitude = "21.20000000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Kristinestad",
-                            Latitude = "62.27429000",
-                            Longitude = "21.37596000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Kronoby",
-                            Latitude = "63.72859000",
-                            Longitude = "23.03387000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Laihia",
-                            Latitude = "62.97609000",
-                            Longitude = "22.01143000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Larsmo",
-                            Latitude = "63.75388000",
-                            Longitude = "22.74728000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Malax",
-                            Latitude = "62.94225000",
-                            Longitude = "21.57311000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Nykarleby",
-                            Latitude = "63.52277000",
-                            Longitude = "22.53073000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Oravais",
-                            Latitude = "63.30135000",
-                            Longitude = "22.37821000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Pedersöre",
-                            Latitude = "63.65000000",
-                            Longitude = "22.68333000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Replot",
-                            Latitude = "63.22882000",
-                            Longitude = "21.41691000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Ristinummi",
-                            Latitude = "63.09192000",
-                            Longitude = "21.72297000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Teeriniemi",
-                            Latitude = "63.09705000",
-                            Longitude = "21.69590000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Vaasa",
-                            Latitude = "63.09600000",
-                            Longitude = "21.61577000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Vähäkyrö",
-                            Latitude = "63.05635000",
-                            Longitude = "22.10584000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Vörå",
-                            Latitude = "63.13607000",
-                            Longitude = "22.25223000"
-                        }
+                        new() { Id = 1, Name = "Hietalahti", Latitude = "63.08480000", Longitude = "21.61716000" },
+                        new() { Id = 2, Name = "Isokyrö", Latitude = "63.01172000", Longitude = "22.33332000" },
+                        new() { Id = 3, Name = "Jakobstad", Latitude = "63.67486000", Longitude = "22.70256000" },
+                        new() { Id = 4, Name = "Kaskinen", Latitude = "62.38444000", Longitude = "21.22331000" },
+                        new() { Id = 5, Name = "Korsholm", Latitude = "63.11418000", Longitude = "21.68216000" },
+                        new() { Id = 6, Name = "Korsnäs", Latitude = "62.78333000", Longitude = "21.20000000" },
+                        new() { Id = 7, Name = "Kristinestad", Latitude = "62.27429000", Longitude = "21.37596000" },
+                        new() { Id = 8, Name = "Kronoby", Latitude = "63.72859000", Longitude = "23.03387000" },
+                        new() { Id = 9, Name = "Laihia", Latitude = "62.97609000", Longitude = "22.01143000" },
+                        new() { Id = 10, Name = "Larsmo", Latitude = "63.75388000", Longitude = "22.74728000" },
+                        new() { Id = 11, Name = "Malax", Latitude = "62.94225000", Longitude = "21.57311000" },
+                        new() { Id = 12, Name = "Nykarleby", Latitude = "63.52277000", Longitude = "22.53073000" },
+                        new() { Id = 13, Name = "Oravais", Latitude = "63.30135000", Longitude = "22.37821000" },
+                        new() { Id = 14, Name = "Pedersöre", Latitude = "63.65000000", Longitude = "22.68333000" },
+                        new() { Id = 15, Name = "Replot", Latitude = "63.22882000", Longitude = "21.41691000" },
+                        new() { Id = 16, Name = "Ristinummi", Latitude = "63.09192000", Longitude = "21.72297000" },
+                        new() { Id = 17, Name = "Teeriniemi", Latitude = "63.09705000", Longitude = "21.69590000" },
+                        new() { Id = 18, Name = "Vaasa", Latitude = "63.09600000", Longitude = "21.61577000" },
+                        new() { Id = 19, Name = "Vähäkyrö", Latitude = "63.05635000", Longitude = "22.10584000" },
+                        new() { Id = 20, Name = "Vörå", Latitude = "63.13607000", Longitude = "22.25223000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 12,
                     Name = "Päijänne Tavastia",
@@ -2056,108 +439,24 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "61.32300410",
                     Longitude = "25.73224960",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Artjärvi",
-                            Latitude = "60.74544000",
-                            Longitude = "26.07084000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Asikkala",
-                            Latitude = "61.21667000",
-                            Longitude = "25.50000000"
-                        }
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Auttoinen",
-                            Latitude = "61.29901000",
-                            Longitude = "25.08887000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Hämeenkoski",
-                            Latitude = "61.02222000",
-                            Longitude = "25.15417000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Hartola",
-                            Latitude = "61.58333000",
-                            Longitude = "26.01667000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Heinola",
-                            Latitude = "61.20564000",
-                            Longitude = "26.03811000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Hollola",
-                            Latitude = "61.05000000",
-                            Longitude = "25.43333000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Lahti",
-                            Latitude = "60.98267000",
-                            Longitude = "25.66151000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Nastola",
-                            Latitude = "60.95000000",
-                            Longitude = "25.93333000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Orimattila",
-                            Latitude = "60.80487000",
-                            Longitude = "25.72964000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Padasjoki",
-                            Latitude = "61.35000000",
-                            Longitude = "25.28333000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Sysmä",
-                            Latitude = "61.50000000",
-                            Longitude = "25.68333000"
-                        }
+                        new() { Id = 1, Name = "Artjärvi", Latitude = "60.74544000", Longitude = "26.07084000" },
+                        new() { Id = 2, Name = "Asikkala", Latitude = "61.21667000", Longitude = "25.50000000" },
+                        new() { Id = 3, Name = "Auttoinen", Latitude = "61.29901000", Longitude = "25.08887000" },
+                        new() { Id = 4, Name = "Hämeenkoski", Latitude = "61.02222000", Longitude = "25.15417000" },
+                        new() { Id = 5, Name = "Hartola", Latitude = "61.58333000", Longitude = "26.01667000" },
+                        new() { Id = 6, Name = "Heinola", Latitude = "61.20564000", Longitude = "26.03811000" },
+                        new() { Id = 7, Name = "Hollola", Latitude = "61.05000000", Longitude = "25.43333000" },
+                        new() { Id = 8, Name = "Lahti", Latitude = "60.98267000", Longitude = "25.66151000" },
+                        new() { Id = 9, Name = "Nastola", Latitude = "60.95000000", Longitude = "25.93333000" },
+                        new() { Id = 10, Name = "Orimattila", Latitude = "60.80487000", Longitude = "25.72964000" },
+                        new() { Id = 11, Name = "Padasjoki", Latitude = "61.35000000", Longitude = "25.28333000" },
+                        new() { Id = 12, Name = "Sysmä", Latitude = "61.50000000", Longitude = "25.68333000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 13,
                     Name = "Pirkanmaa",
@@ -2165,492 +464,72 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "61.69869180",
                     Longitude = "23.78955980",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Äetsä",
-                            Latitude = "61.28333000",
-                            Longitude = "22.68333000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Aimala",
-                            Latitude = "61.33000000",
-                            Longitude = "23.69000000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Aitoo",
-                            Latitude = "61.33897400",
-                            Longitude = "24.49431900"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Akaa",
-                            Latitude = "61.16666667",
-                            Longitude = "23.86805556"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Amuri",
-                            Latitude = "61.50000000",
-                            Longitude = "23.74500000"
-                        },
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Haihara",
-                            Latitude = "61.47630000",
-                            Longitude = "23.87711000"
-                        },
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Hallila",
-                            Latitude = "61.46250000",
-                            Longitude = "23.82916667"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Hämeenkyrö",
-                            Latitude = "61.63333333",
-                            Longitude = "23.20000000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Hervanta",
-                            Latitude = "61.44810000",
-                            Longitude = "23.85210000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Ikaalinen",
-                            Latitude = "61.76944444",
-                            Longitude = "23.06805556"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Juupajoki",
-                            Latitude = "61.79666667",
-                            Longitude = "24.37000000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Kangasala",
-                            Latitude = "61.46388900",
-                            Longitude = "24.06500000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Kihniö",
-                            Latitude = "62.20833333",
-                            Longitude = "23.17916667"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Kiikka",
-                            Latitude = "61.32077778",
-                            Longitude = "22.77538889"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Kiikoinen",
-                            Latitude = "61.45000000",
-                            Longitude = "22.57500000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Kolho",
-                            Latitude = "62.13333333",
-                            Longitude = "24.51666667"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Kuhmalahti",
-                            Latitude = "61.50500000",
-                            Longitude = "24.56666667"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Kuru",
-                            Latitude = "61.87558000",
-                            Longitude = "23.71948000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Kylmäkoski",
-                            Latitude = "61.15000000",
-                            Longitude = "23.69166667"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Längelmäki",
-                            Latitude = "61.68890000",
-                            Longitude = "24.69194000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Lempäälä",
-                            Latitude = "61.31388889",
-                            Longitude = "23.75277778"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Lentävänniemi",
-                            Latitude = "61.52801000",
-                            Longitude = "23.70575000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Lielahti",
-                            Latitude = "61.51666667",
-                            Longitude = "23.66666667"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Luopioinen",
-                            Latitude = "61.36293000",
-                            Longitude = "24.66781000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Mänttä",
-                            Latitude = "62.03014000",
-                            Longitude = "24.62791000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Messukylä",
-                            Latitude = "61.48527778",
-                            Longitude = "23.84472222"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Mouhijärvi",
-                            Latitude = "61.50000000",
-                            Longitude = "23.01667000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Naistenmatka",
-                            Latitude = "61.46518000",
-                            Longitude = "23.65253000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Nekala",
-                            Latitude = "61.48333333",
-                            Longitude = "23.79055556"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Nokia",
-                            Latitude = "61.47666667",
-                            Longitude = "23.50527778"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Nurmi",
-                            Latitude = "61.53779000",
-                            Longitude = "23.94178000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Nuutajärvi",
-                            Latitude = "61.04000000",
-                            Longitude = "23.43000000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Orivesi",
-                            Latitude = "61.67777778",
-                            Longitude = "24.35694444"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Osara",
-                            Latitude = "61.70866000",
-                            Longitude = "23.15871000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Pälkäne",
-                            Latitude = "61.35403000",
-                            Longitude = "24.51912000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Parkano",
-                            Latitude = "62.00972222",
-                            Longitude = "23.02500000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Pirkkala",
-                            Latitude = "61.46666667",
-                            Longitude = "23.65000000"
-                        },
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Pispala",
-                            Latitude = "61.50611111",
-                            Longitude = "23.70250000"
-                        },
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Pohjaslahti",
-                            Latitude = "62.15631000",
-                            Longitude = "24.13190000"
-                        },
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Punkalaidun",
-                            Latitude = "61.11166667",
-                            Longitude = "23.10500000"
-                        },
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Ruovesi",
-                            Latitude = "61.98333300",
-                            Longitude = "24.08333300"
-                        },
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Sääksmäki",
-                            Latitude = "61.20000000",
-                            Longitude = "24.06666667"
-                        },
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Sahalahti",
-                            Latitude = "61.46666667",
-                            Longitude = "24.31666667"
-                        },
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "Sastamala",
-                            Latitude = "61.34166667",
-                            Longitude = "22.90833333"
-                        },
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "Suodenniemi",
-                            Latitude = "61.55810000",
-                            Longitude = "22.78526000"
-                        },
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "Suoniemi",
-                            Latitude = "61.44111111",
-                            Longitude = "23.21500000"
-                        },
-
-                        new City
-                        {
-                            Id = 47,
-                            Name = "Tampere",
-                            Latitude = "61.49805556",
-                            Longitude = "23.76000000"
-                        },
-
-                        new City
-                        {
-                            Id = 48,
-                            Name = "Teisko",
-                            Latitude = "61.67336111",
-                            Longitude = "23.84766944"
-                        },
-
-                        new City
-                        {
-                            Id = 49,
-                            Name = "Toijala",
-                            Latitude = "61.16780000",
-                            Longitude = "23.83819000"
-                        },
-
-                        new City
-                        {
-                            Id = 50,
-                            Name = "Tottijärvi",
-                            Latitude = "61.39777778",
-                            Longitude = "23.34277778"
-                        },
-
-                        new City
-                        {
-                            Id = 51,
-                            Name = "Urjala",
-                            Latitude = "61.08333333",
-                            Longitude = "23.55000000"
-                        },
-
-                        new City
-                        {
-                            Id = 52,
-                            Name = "Valkeakoski",
-                            Latitude = "61.26666667",
-                            Longitude = "24.03055556"
-                        },
-
-                        new City
-                        {
-                            Id = 53,
-                            Name = "Vammala",
-                            Latitude = "61.34027778",
-                            Longitude = "22.90972222"
-                        },
-
-                        new City
-                        {
-                            Id = 54,
-                            Name = "Vesilahti",
-                            Latitude = "61.31666700",
-                            Longitude = "23.61666700"
-                        },
-
-                        new City
-                        {
-                            Id = 55,
-                            Name = "Viiala",
-                            Latitude = "61.21023000",
-                            Longitude = "23.76738000"
-                        },
-
-                        new City
-                        {
-                            Id = 56,
-                            Name = "Viljakkala",
-                            Latitude = "61.70601000",
-                            Longitude = "23.26688000"
-                        },
-
-                        new City
-                        {
-                            Id = 57,
-                            Name = "Vilppula",
-                            Latitude = "62.02121000",
-                            Longitude = "24.50483000"
-                        },
-
-                        new City
-                        {
-                            Id = 58,
-                            Name = "Virrat",
-                            Latitude = "62.24027778",
-                            Longitude = "23.77083333"
-                        },
-
-                        new City
-                        {
-                            Id = 59,
-                            Name = "Vuores",
-                            Latitude = "61.43100000",
-                            Longitude = "23.81184000"
-                        },
-
-                        new City
-                        {
-                            Id = 60,
-                            Name = "Ylöjärvi",
-                            Latitude = "61.55000000",
-                            Longitude = "23.58333333"
-                        }
+                        new() { Id = 1, Name = "Äetsä", Latitude = "61.28333000", Longitude = "22.68333000" },
+                        new() { Id = 2, Name = "Aimala", Latitude = "61.33000000", Longitude = "23.69000000" },
+                        new() { Id = 3, Name = "Aitoo", Latitude = "61.33897400", Longitude = "24.49431900" },
+                        new() { Id = 4, Name = "Akaa", Latitude = "61.16666667", Longitude = "23.86805556" },
+                        new() { Id = 5, Name = "Amuri", Latitude = "61.50000000", Longitude = "23.74500000" },
+                        new() { Id = 6, Name = "Haihara", Latitude = "61.47630000", Longitude = "23.87711000" },
+                        new() { Id = 7, Name = "Hallila", Latitude = "61.46250000", Longitude = "23.82916667" },
+                        new() { Id = 8, Name = "Hämeenkyrö", Latitude = "61.63333333", Longitude = "23.20000000" },
+                        new() { Id = 9, Name = "Hervanta", Latitude = "61.44810000", Longitude = "23.85210000" },
+                        new() { Id = 10, Name = "Ikaalinen", Latitude = "61.76944444", Longitude = "23.06805556" },
+                        new() { Id = 11, Name = "Juupajoki", Latitude = "61.79666667", Longitude = "24.37000000" },
+                        new() { Id = 12, Name = "Kangasala", Latitude = "61.46388900", Longitude = "24.06500000" },
+                        new() { Id = 13, Name = "Kihniö", Latitude = "62.20833333", Longitude = "23.17916667" },
+                        new() { Id = 14, Name = "Kiikka", Latitude = "61.32077778", Longitude = "22.77538889" },
+                        new() { Id = 15, Name = "Kiikoinen", Latitude = "61.45000000", Longitude = "22.57500000" },
+                        new() { Id = 16, Name = "Kolho", Latitude = "62.13333333", Longitude = "24.51666667" },
+                        new() { Id = 17, Name = "Kuhmalahti", Latitude = "61.50500000", Longitude = "24.56666667" },
+                        new() { Id = 18, Name = "Kuru", Latitude = "61.87558000", Longitude = "23.71948000" },
+                        new() { Id = 19, Name = "Kylmäkoski", Latitude = "61.15000000", Longitude = "23.69166667" },
+                        new() { Id = 20, Name = "Längelmäki", Latitude = "61.68890000", Longitude = "24.69194000" },
+                        new() { Id = 21, Name = "Lempäälä", Latitude = "61.31388889", Longitude = "23.75277778" },
+                        new() { Id = 22, Name = "Lentävänniemi", Latitude = "61.52801000", Longitude = "23.70575000" },
+                        new() { Id = 23, Name = "Lielahti", Latitude = "61.51666667", Longitude = "23.66666667" },
+                        new() { Id = 24, Name = "Luopioinen", Latitude = "61.36293000", Longitude = "24.66781000" },
+                        new() { Id = 25, Name = "Mänttä", Latitude = "62.03014000", Longitude = "24.62791000" },
+                        new() { Id = 26, Name = "Messukylä", Latitude = "61.48527778", Longitude = "23.84472222" },
+                        new() { Id = 27, Name = "Mouhijärvi", Latitude = "61.50000000", Longitude = "23.01667000" },
+                        new() { Id = 28, Name = "Naistenmatka", Latitude = "61.46518000", Longitude = "23.65253000" },
+                        new() { Id = 29, Name = "Nekala", Latitude = "61.48333333", Longitude = "23.79055556" },
+                        new() { Id = 30, Name = "Nokia", Latitude = "61.47666667", Longitude = "23.50527778" },
+                        new() { Id = 31, Name = "Nurmi", Latitude = "61.53779000", Longitude = "23.94178000" },
+                        new() { Id = 32, Name = "Nuutajärvi", Latitude = "61.04000000", Longitude = "23.43000000" },
+                        new() { Id = 33, Name = "Orivesi", Latitude = "61.67777778", Longitude = "24.35694444" },
+                        new() { Id = 34, Name = "Osara", Latitude = "61.70866000", Longitude = "23.15871000" },
+                        new() { Id = 35, Name = "Pälkäne", Latitude = "61.35403000", Longitude = "24.51912000" },
+                        new() { Id = 36, Name = "Parkano", Latitude = "62.00972222", Longitude = "23.02500000" },
+                        new() { Id = 37, Name = "Pirkkala", Latitude = "61.46666667", Longitude = "23.65000000" },
+                        new() { Id = 38, Name = "Pispala", Latitude = "61.50611111", Longitude = "23.70250000" },
+                        new() { Id = 39, Name = "Pohjaslahti", Latitude = "62.15631000", Longitude = "24.13190000" },
+                        new() { Id = 40, Name = "Punkalaidun", Latitude = "61.11166667", Longitude = "23.10500000" },
+                        new() { Id = 41, Name = "Ruovesi", Latitude = "61.98333300", Longitude = "24.08333300" },
+                        new() { Id = 42, Name = "Sääksmäki", Latitude = "61.20000000", Longitude = "24.06666667" },
+                        new() { Id = 43, Name = "Sahalahti", Latitude = "61.46666667", Longitude = "24.31666667" },
+                        new() { Id = 44, Name = "Sastamala", Latitude = "61.34166667", Longitude = "22.90833333" },
+                        new() { Id = 45, Name = "Suodenniemi", Latitude = "61.55810000", Longitude = "22.78526000" },
+                        new() { Id = 46, Name = "Suoniemi", Latitude = "61.44111111", Longitude = "23.21500000" },
+                        new() { Id = 47, Name = "Tampere", Latitude = "61.49805556", Longitude = "23.76000000" },
+                        new() { Id = 48, Name = "Teisko", Latitude = "61.67336111", Longitude = "23.84766944" },
+                        new() { Id = 49, Name = "Toijala", Latitude = "61.16780000", Longitude = "23.83819000" },
+                        new() { Id = 50, Name = "Tottijärvi", Latitude = "61.39777778", Longitude = "23.34277778" },
+                        new() { Id = 51, Name = "Urjala", Latitude = "61.08333333", Longitude = "23.55000000" },
+                        new() { Id = 52, Name = "Valkeakoski", Latitude = "61.26666667", Longitude = "24.03055556" },
+                        new() { Id = 53, Name = "Vammala", Latitude = "61.34027778", Longitude = "22.90972222" },
+                        new() { Id = 54, Name = "Vesilahti", Latitude = "61.31666700", Longitude = "23.61666700" },
+                        new() { Id = 55, Name = "Viiala", Latitude = "61.21023000", Longitude = "23.76738000" },
+                        new() { Id = 56, Name = "Viljakkala", Latitude = "61.70601000", Longitude = "23.26688000" },
+                        new() { Id = 57, Name = "Vilppula", Latitude = "62.02121000", Longitude = "24.50483000" },
+                        new() { Id = 58, Name = "Virrat", Latitude = "62.24027778", Longitude = "23.77083333" },
+                        new() { Id = 59, Name = "Vuores", Latitude = "61.43100000", Longitude = "23.81184000" },
+                        new() { Id = 60, Name = "Ylöjärvi", Latitude = "61.55000000", Longitude = "23.58333333" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 14,
                     Name = "Satakunta",
@@ -2658,212 +537,37 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "61.59327580",
                     Longitude = "22.14830810",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Eura",
-                            Latitude = "61.13333000",
-                            Longitude = "22.13333000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Eurajoki",
-                            Latitude = "61.20000000",
-                            Longitude = "21.73333000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Harjavalta",
-                            Latitude = "61.31667000",
-                            Longitude = "22.13333000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Huittinen",
-                            Latitude = "61.18333000",
-                            Longitude = "22.70000000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Jämijärvi",
-                            Latitude = "61.81667000",
-                            Longitude = "22.70000000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Kankaanpää",
-                            Latitude = "61.80000000",
-                            Longitude = "22.41667000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Karvia",
-                            Latitude = "62.13333000",
-                            Longitude = "22.56667000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Kiukainen",
-                            Latitude = "61.21667000",
-                            Longitude = "22.08333000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Kokemäki",
-                            Latitude = "61.25647000",
-                            Longitude = "22.35643000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Köyliö",
-                            Latitude = "61.11910000",
-                            Longitude = "22.30976000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Kullaa",
-                            Latitude = "61.46998000",
-                            Longitude = "22.16145000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Längelmäki",
-                            Latitude = "61.65000000",
-                            Longitude = "22.10000000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Lappi",
-                            Latitude = "61.10000000",
-                            Longitude = "21.83333000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Lavia",
-                            Latitude = "61.60000000",
-                            Longitude = "22.60000000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Luvia",
-                            Latitude = "61.36375000",
-                            Longitude = "21.62556000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Merikarvia",
-                            Latitude = "61.85839000",
-                            Longitude = "21.50035000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Nakkila",
-                            Latitude = "61.36667000",
-                            Longitude = "22.00000000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Noormarkku",
-                            Latitude = "61.59274000",
-                            Longitude = "21.86846000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Pomarkku",
-                            Latitude = "61.69348000",
-                            Longitude = "22.00862000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Pori",
-                            Latitude = "61.48333000",
-                            Longitude = "21.78333000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Rauma",
-                            Latitude = "61.12724000",
-                            Longitude = "21.51127000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Säkylä",
-                            Latitude = "61.03333000",
-                            Longitude = "22.33333000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Siikainen",
-                            Latitude = "61.87703000",
-                            Longitude = "21.81945000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Ulvila",
-                            Latitude = "61.42844000",
-                            Longitude = "21.87103000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Vampula",
-                            Latitude = "61.01667000",
-                            Longitude = "22.70000000"
-                        }
+                        new() { Id = 1, Name = "Eura", Latitude = "61.13333000", Longitude = "22.13333000" },
+                        new() { Id = 2, Name = "Eurajoki", Latitude = "61.20000000", Longitude = "21.73333000" },
+                        new() { Id = 3, Name = "Harjavalta", Latitude = "61.31667000", Longitude = "22.13333000" },
+                        new() { Id = 4, Name = "Huittinen", Latitude = "61.18333000", Longitude = "22.70000000" },
+                        new() { Id = 5, Name = "Jämijärvi", Latitude = "61.81667000", Longitude = "22.70000000" },
+                        new() { Id = 6, Name = "Kankaanpää", Latitude = "61.80000000", Longitude = "22.41667000" },
+                        new() { Id = 7, Name = "Karvia", Latitude = "62.13333000", Longitude = "22.56667000" },
+                        new() { Id = 8, Name = "Kiukainen", Latitude = "61.21667000", Longitude = "22.08333000" },
+                        new() { Id = 9, Name = "Kokemäki", Latitude = "61.25647000", Longitude = "22.35643000" },
+                        new() { Id = 10, Name = "Köyliö", Latitude = "61.11910000", Longitude = "22.30976000" },
+                        new() { Id = 11, Name = "Kullaa", Latitude = "61.46998000", Longitude = "22.16145000" },
+                        new() { Id = 12, Name = "Längelmäki", Latitude = "61.65000000", Longitude = "22.10000000" },
+                        new() { Id = 13, Name = "Lappi", Latitude = "61.10000000", Longitude = "21.83333000" },
+                        new() { Id = 14, Name = "Lavia", Latitude = "61.60000000", Longitude = "22.60000000" },
+                        new() { Id = 15, Name = "Luvia", Latitude = "61.36375000", Longitude = "21.62556000" },
+                        new() { Id = 16, Name = "Merikarvia", Latitude = "61.85839000", Longitude = "21.50035000" },
+                        new() { Id = 17, Name = "Nakkila", Latitude = "61.36667000", Longitude = "22.00000000" },
+                        new() { Id = 18, Name = "Noormarkku", Latitude = "61.59274000", Longitude = "21.86846000" },
+                        new() { Id = 19, Name = "Pomarkku", Latitude = "61.69348000", Longitude = "22.00862000" },
+                        new() { Id = 20, Name = "Pori", Latitude = "61.48333000", Longitude = "21.78333000" },
+                        new() { Id = 21, Name = "Rauma", Latitude = "61.12724000", Longitude = "21.51127000" },
+                        new() { Id = 22, Name = "Säkylä", Latitude = "61.03333000", Longitude = "22.33333000" },
+                        new() { Id = 23, Name = "Siikainen", Latitude = "61.87703000", Longitude = "21.81945000" },
+                        new() { Id = 24, Name = "Ulvila", Latitude = "61.42844000", Longitude = "21.87103000" },
+                        new() { Id = 25, Name = "Vampula", Latitude = "61.01667000", Longitude = "22.70000000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 15,
                     Name = "South Karelia",
@@ -2871,116 +575,25 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "61.11819490",
                     Longitude = "28.10243720",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Imatra",
-                            Latitude = "61.17185000",
-                            Longitude = "28.75242000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Joutseno",
-                            Latitude = "61.11796000",
-                            Longitude = "28.50763000"
-                        }
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Lappeenranta",
-                            Latitude = "61.05871000",
-                            Longitude = "28.18871000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Lemi",
-                            Latitude = "61.06244000",
-                            Longitude = "27.80571000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Luumäki",
-                            Latitude = "60.92618000",
-                            Longitude = "27.58135000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Nuijamaa",
-                            Latitude = "60.96011000",
-                            Longitude = "28.55104000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Parikkala",
-                            Latitude = "61.55000000",
-                            Longitude = "29.50000000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Rautjärvi",
-                            Latitude = "61.43333000",
-                            Longitude = "29.35000000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Ruokolahti",
-                            Latitude = "61.28333000",
-                            Longitude = "28.83333000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Saari",
-                            Latitude = "61.65000000",
-                            Longitude = "29.75000000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Savitaipale",
-                            Latitude = "61.20000000",
-                            Longitude = "27.70000000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Taipalsaari",
-                            Latitude = "61.15000000",
-                            Longitude = "28.05000000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Ylämaa",
-                            Latitude = "60.80000000",
-                            Longitude = "28.00000000"
-                        }
+                        new() { Id = 1, Name = "Imatra", Latitude = "61.17185000", Longitude = "28.75242000" },
+                        new() { Id = 2, Name = "Joutseno", Latitude = "61.11796000", Longitude = "28.50763000" },
+                        new() { Id = 3, Name = "Lappeenranta", Latitude = "61.05871000", Longitude = "28.18871000" },
+                        new() { Id = 4, Name = "Lemi", Latitude = "61.06244000", Longitude = "27.80571000" },
+                        new() { Id = 5, Name = "Luumäki", Latitude = "60.92618000", Longitude = "27.58135000" },
+                        new() { Id = 6, Name = "Nuijamaa", Latitude = "60.96011000", Longitude = "28.55104000" },
+                        new() { Id = 7, Name = "Parikkala", Latitude = "61.55000000", Longitude = "29.50000000" },
+                        new() { Id = 8, Name = "Rautjärvi", Latitude = "61.43333000", Longitude = "29.35000000" },
+                        new() { Id = 9, Name = "Ruokolahti", Latitude = "61.28333000", Longitude = "28.83333000" },
+                        new() { Id = 10, Name = "Saari", Latitude = "61.65000000", Longitude = "29.75000000" },
+                        new() { Id = 11, Name = "Savitaipale", Latitude = "61.20000000", Longitude = "27.70000000" },
+                        new() { Id = 12, Name = "Taipalsaari", Latitude = "61.15000000", Longitude = "28.05000000" },
+                        new() { Id = 13, Name = "Ylämaa", Latitude = "60.80000000", Longitude = "28.00000000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 16,
                     Name = "Southern Ostrobothnia",
@@ -2988,220 +601,38 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "62.94330990",
                     Longitude = "23.52852670",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Ähtäri",
-                            Latitude = "62.55403000",
-                            Longitude = "24.06186000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Alahärmä",
-                            Latitude = "63.23333000",
-                            Longitude = "22.85000000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Alajärvi",
-                            Latitude = "63.00000000",
-                            Longitude = "23.81667000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Alavus",
-                            Latitude = "62.58333000",
-                            Longitude = "23.61667000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Evijärvi",
-                            Latitude = "63.36667000",
-                            Longitude = "23.48333000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Ilmajoki",
-                            Latitude = "62.73333000",
-                            Longitude = "22.56667000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Isojoki",
-                            Latitude = "62.11319000",
-                            Longitude = "21.95884000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Jalasjärvi",
-                            Latitude = "62.50000000",
-                            Longitude = "22.75000000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Jurva",
-                            Latitude = "62.68333000",
-                            Longitude = "21.98333000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Karijoki",
-                            Latitude = "62.30851000",
-                            Longitude = "21.70856000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Kauhajoki",
-                            Latitude = "62.43333000",
-                            Longitude = "22.18333000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Kauhava",
-                            Latitude = "63.10299000",
-                            Longitude = "23.07129000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Kortesjärvi",
-                            Latitude = "63.30000000",
-                            Longitude = "23.16667000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Kuortane",
-                            Latitude = "62.80000000",
-                            Longitude = "23.50000000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Kurikka",
-                            Latitude = "62.61667000",
-                            Longitude = "22.41667000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Lappajärvi",
-                            Latitude = "63.20000000",
-                            Longitude = "23.63333000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Lapua",
-                            Latitude = "62.96927000",
-                            Longitude = "23.00880000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Lehtimäki",
-                            Latitude = "62.78333000",
-                            Longitude = "23.91667000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Nurmo",
-                            Latitude = "62.82870000",
-                            Longitude = "22.90990000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Seinäjoki",
-                            Latitude = "62.79446000",
-                            Longitude = "22.82822000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Soini",
-                            Latitude = "62.86667000",
-                            Longitude = "24.21667000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Teuva",
-                            Latitude = "62.48190000",
-                            Longitude = "21.74156000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Töysä",
-                            Latitude = "62.62803000",
-                            Longitude = "23.81828000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Vimpeli",
-                            Latitude = "63.16187000",
-                            Longitude = "23.81922000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Ylihärmä",
-                            Latitude = "63.15000000",
-                            Longitude = "22.78333000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Ylistaro",
-                            Latitude = "62.93958000",
-                            Longitude = "22.51306000"
-                        }
+                        new() { Id = 1, Name = "Ähtäri", Latitude = "62.55403000", Longitude = "24.06186000" },
+                        new() { Id = 2, Name = "Alahärmä", Latitude = "63.23333000", Longitude = "22.85000000" },
+                        new() { Id = 3, Name = "Alajärvi", Latitude = "63.00000000", Longitude = "23.81667000" },
+                        new() { Id = 4, Name = "Alavus", Latitude = "62.58333000", Longitude = "23.61667000" },
+                        new() { Id = 5, Name = "Evijärvi", Latitude = "63.36667000", Longitude = "23.48333000" },
+                        new() { Id = 6, Name = "Ilmajoki", Latitude = "62.73333000", Longitude = "22.56667000" },
+                        new() { Id = 7, Name = "Isojoki", Latitude = "62.11319000", Longitude = "21.95884000" },
+                        new() { Id = 8, Name = "Jalasjärvi", Latitude = "62.50000000", Longitude = "22.75000000" },
+                        new() { Id = 9, Name = "Jurva", Latitude = "62.68333000", Longitude = "21.98333000" },
+                        new() { Id = 10, Name = "Karijoki", Latitude = "62.30851000", Longitude = "21.70856000" },
+                        new() { Id = 11, Name = "Kauhajoki", Latitude = "62.43333000", Longitude = "22.18333000" },
+                        new() { Id = 12, Name = "Kauhava", Latitude = "63.10299000", Longitude = "23.07129000" },
+                        new() { Id = 13, Name = "Kortesjärvi", Latitude = "63.30000000", Longitude = "23.16667000" },
+                        new() { Id = 14, Name = "Kuortane", Latitude = "62.80000000", Longitude = "23.50000000" },
+                        new() { Id = 15, Name = "Kurikka", Latitude = "62.61667000", Longitude = "22.41667000" },
+                        new() { Id = 16, Name = "Lappajärvi", Latitude = "63.20000000", Longitude = "23.63333000" },
+                        new() { Id = 17, Name = "Lapua", Latitude = "62.96927000", Longitude = "23.00880000" },
+                        new() { Id = 18, Name = "Lehtimäki", Latitude = "62.78333000", Longitude = "23.91667000" },
+                        new() { Id = 19, Name = "Nurmo", Latitude = "62.82870000", Longitude = "22.90990000" },
+                        new() { Id = 20, Name = "Seinäjoki", Latitude = "62.79446000", Longitude = "22.82822000" },
+                        new() { Id = 21, Name = "Soini", Latitude = "62.86667000", Longitude = "24.21667000" },
+                        new() { Id = 22, Name = "Teuva", Latitude = "62.48190000", Longitude = "21.74156000" },
+                        new() { Id = 23, Name = "Töysä", Latitude = "62.62803000", Longitude = "23.81828000" },
+                        new() { Id = 24, Name = "Vimpeli", Latitude = "63.16187000", Longitude = "23.81922000" },
+                        new() { Id = 25, Name = "Ylihärmä", Latitude = "63.15000000", Longitude = "22.78333000" },
+                        new() { Id = 26, Name = "Ylistaro", Latitude = "62.93958000", Longitude = "22.51306000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 17,
                     Name = "Southern Savonia",
@@ -3209,180 +640,33 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "61.69451480",
                     Longitude = "27.80050150",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Enonkoski",
-                            Latitude = "62.08333000",
-                            Longitude = "28.93333000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Haukivuori",
-                            Latitude = "62.01753000",
-                            Longitude = "27.21906000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Heinävesi",
-                            Latitude = "62.43333000",
-                            Longitude = "28.60000000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Hirvensalmi",
-                            Latitude = "61.63333000",
-                            Longitude = "26.80000000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Jäppilä",
-                            Latitude = "62.37899000",
-                            Longitude = "27.43372000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Joroinen",
-                            Latitude = "62.17823000",
-                            Longitude = "27.83165000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Juva",
-                            Latitude = "61.90000000",
-                            Longitude = "27.85000000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Kangasniemi",
-                            Latitude = "61.99357000",
-                            Longitude = "26.64785000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Kerimäki",
-                            Latitude = "61.91069000",
-                            Longitude = "29.28228000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Mäntyharju",
-                            Latitude = "61.41667000",
-                            Longitude = "26.88333000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Mikkeli",
-                            Latitude = "61.68857000",
-                            Longitude = "27.27227000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Pertunmaa",
-                            Latitude = "61.50000000",
-                            Longitude = "26.48333000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Pieksämäki",
-                            Latitude = "62.30000000",
-                            Longitude = "27.13333000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Punkaharju",
-                            Latitude = "61.75883000",
-                            Longitude = "29.38843000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Puumala",
-                            Latitude = "61.52728000",
-                            Longitude = "28.17495000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Rantasalmi",
-                            Latitude = "62.06667000",
-                            Longitude = "28.30000000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Ristiina",
-                            Latitude = "61.50579000",
-                            Longitude = "27.24643000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Savonlinna",
-                            Latitude = "61.86990000",
-                            Longitude = "28.87999000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Savonranta",
-                            Latitude = "62.18333000",
-                            Longitude = "29.20000000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Sulkava",
-                            Latitude = "61.78691000",
-                            Longitude = "28.37299000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Virtasalmi",
-                            Latitude = "62.12695000",
-                            Longitude = "27.46276000"
-                        }
+                        new() { Id = 1, Name = "Enonkoski", Latitude = "62.08333000", Longitude = "28.93333000" },
+                        new() { Id = 2, Name = "Haukivuori", Latitude = "62.01753000", Longitude = "27.21906000" },
+                        new() { Id = 3, Name = "Heinävesi", Latitude = "62.43333000", Longitude = "28.60000000" },
+                        new() { Id = 4, Name = "Hirvensalmi", Latitude = "61.63333000", Longitude = "26.80000000" },
+                        new() { Id = 5, Name = "Jäppilä", Latitude = "62.37899000", Longitude = "27.43372000" },
+                        new() { Id = 6, Name = "Joroinen", Latitude = "62.17823000", Longitude = "27.83165000" },
+                        new() { Id = 7, Name = "Juva", Latitude = "61.90000000", Longitude = "27.85000000" },
+                        new() { Id = 8, Name = "Kangasniemi", Latitude = "61.99357000", Longitude = "26.64785000" },
+                        new() { Id = 9, Name = "Kerimäki", Latitude = "61.91069000", Longitude = "29.28228000" },
+                        new() { Id = 10, Name = "Mäntyharju", Latitude = "61.41667000", Longitude = "26.88333000" },
+                        new() { Id = 11, Name = "Mikkeli", Latitude = "61.68857000", Longitude = "27.27227000" },
+                        new() { Id = 12, Name = "Pertunmaa", Latitude = "61.50000000", Longitude = "26.48333000" },
+                        new() { Id = 13, Name = "Pieksämäki", Latitude = "62.30000000", Longitude = "27.13333000" },
+                        new() { Id = 14, Name = "Punkaharju", Latitude = "61.75883000", Longitude = "29.38843000" },
+                        new() { Id = 15, Name = "Puumala", Latitude = "61.52728000", Longitude = "28.17495000" },
+                        new() { Id = 16, Name = "Rantasalmi", Latitude = "62.06667000", Longitude = "28.30000000" },
+                        new() { Id = 17, Name = "Ristiina", Latitude = "61.50579000", Longitude = "27.24643000" },
+                        new() { Id = 18, Name = "Savonlinna", Latitude = "61.86990000", Longitude = "28.87999000" },
+                        new() { Id = 19, Name = "Savonranta", Latitude = "62.18333000", Longitude = "29.20000000" },
+                        new() { Id = 20, Name = "Sulkava", Latitude = "61.78691000", Longitude = "28.37299000" },
+                        new() { Id = 21, Name = "Virtasalmi", Latitude = "62.12695000", Longitude = "27.46276000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 18,
                     Name = "Tavastia Proper",
@@ -3390,140 +674,28 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "60.90701500",
                     Longitude = "24.30054980",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Forssa",
-                            Latitude = "60.81462000",
-                            Longitude = "23.62146000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Hämeenlinna",
-                            Latitude = "60.99596000",
-                            Longitude = "24.46434000"
-                        }
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Hauho",
-                            Latitude = "61.17255000",
-                            Longitude = "24.56303000"
-                        }
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Hausjärvi",
-                            Latitude = "60.78333000",
-                            Longitude = "24.93333000"
-                        }
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Humppila",
-                            Latitude = "60.93333000",
-                            Longitude = "23.36667000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Janakkala",
-                            Latitude = "60.90000000",
-                            Longitude = "24.60000000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Jokioinen",
-                            Latitude = "60.80162000",
-                            Longitude = "23.48004000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Kalvola",
-                            Latitude = "61.10081000",
-                            Longitude = "24.12177000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Lammi",
-                            Latitude = "61.08333000",
-                            Longitude = "25.01667000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Loppi",
-                            Latitude = "60.71667000",
-                            Longitude = "24.45000000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Renko",
-                            Latitude = "60.89563000",
-                            Longitude = "24.28785000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Riihimäki",
-                            Latitude = "60.73769000",
-                            Longitude = "24.77726000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Tammela",
-                            Latitude = "60.81035000",
-                            Longitude = "23.76823000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Tervakoski",
-                            Latitude = "60.81412000",
-                            Longitude = "24.62594000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Tuulos",
-                            Latitude = "61.15000000",
-                            Longitude = "24.80000000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Ypäjä",
-                            Latitude = "60.80000000",
-                            Longitude = "23.28333000"
-                        }
+                        new() { Id = 1, Name = "Forssa", Latitude = "60.81462000", Longitude = "23.62146000" },
+                        new() { Id = 2, Name = "Hämeenlinna", Latitude = "60.99596000", Longitude = "24.46434000" },
+                        new() { Id = 3, Name = "Hauho", Latitude = "61.17255000", Longitude = "24.56303000" },
+                        new() { Id = 4, Name = "Hausjärvi", Latitude = "60.78333000", Longitude = "24.93333000" },
+                        new() { Id = 5, Name = "Humppila", Latitude = "60.93333000", Longitude = "23.36667000" },
+                        new() { Id = 6, Name = "Janakkala", Latitude = "60.90000000", Longitude = "24.60000000" },
+                        new() { Id = 7, Name = "Jokioinen", Latitude = "60.80162000", Longitude = "23.48004000" },
+                        new() { Id = 8, Name = "Kalvola", Latitude = "61.10081000", Longitude = "24.12177000" },
+                        new() { Id = 9, Name = "Lammi", Latitude = "61.08333000", Longitude = "25.01667000" },
+                        new() { Id = 10, Name = "Loppi", Latitude = "60.71667000", Longitude = "24.45000000" },
+                        new() { Id = 11, Name = "Renko", Latitude = "60.89563000", Longitude = "24.28785000" },
+                        new() { Id = 12, Name = "Riihimäki", Latitude = "60.73769000", Longitude = "24.77726000" },
+                        new() { Id = 13, Name = "Tammela", Latitude = "60.81035000", Longitude = "23.76823000" },
+                        new() { Id = 14, Name = "Tervakoski", Latitude = "60.81412000", Longitude = "24.62594000" },
+                        new() { Id = 15, Name = "Tuulos", Latitude = "61.15000000", Longitude = "24.80000000" },
+                        new() { Id = 16, Name = "Ypäjä", Latitude = "60.80000000", Longitude = "23.28333000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 19,
                     Name = "Uusimaa",
@@ -3531,376 +703,54 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "60.21872000",
                     Longitude = "25.27162100",
                     Type = "region",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Askola",
-                            Latitude = "60.53333000",
-                            Longitude = "25.60000000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Ekenäs",
-                            Latitude = "59.97359000",
-                            Longitude = "23.43389000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Espoo",
-                            Latitude = "60.20520000",
-                            Longitude = "24.65220000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Gumböle",
-                            Latitude = "60.21948000",
-                            Longitude = "24.61684000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Hanko",
-                            Latitude = "59.83333000",
-                            Longitude = "22.95000000"
-                        }
-
-                        new City
-                        {
-                            Id = 6,
-                            Name = "Helsinki",
-                            Latitude = "60.16952000",
-                            Longitude = "24.93545000"
-                        }
-
-                        new City
-                        {
-                            Id = 7,
-                            Name = "Hyvinge",
-                            Latitude = "60.63333000",
-                            Longitude = "24.86667000"
-                        }
-
-                        new City
-                        {
-                            Id = 8,
-                            Name = "Ingå",
-                            Latitude = "60.04587000",
-                            Longitude = "24.00459000"
-                        }
-
-                        new City
-                        {
-                            Id = 9,
-                            Name = "Järvenpää",
-                            Latitude = "60.47369000",
-                            Longitude = "25.08992000"
-                        }
-
-                        new City
-                        {
-                            Id = 10,
-                            Name = "Kaarela",
-                            Latitude = "60.25174000",
-                            Longitude = "24.88111000"
-                        },
-
-                        new City
-                        {
-                            Id = 11,
-                            Name = "Kallio",
-                            Latitude = "60.18427000",
-                            Longitude = "24.95034000"
-                        },
-
-                        new City
-                        {
-                            Id = 12,
-                            Name = "Karis",
-                            Latitude = "60.07178000",
-                            Longitude = "23.66163000"
-                        },
-
-                        new City
-                        {
-                            Id = 13,
-                            Name = "Karjalohja",
-                            Latitude = "60.24015000",
-                            Longitude = "23.71789000"
-                        },
-
-                        new City
-                        {
-                            Id = 14,
-                            Name = "Karkkila",
-                            Latitude = "60.53418000",
-                            Longitude = "24.20977000"
-                        },
-
-                        new City
-                        {
-                            Id = 15,
-                            Name = "Kärkölä",
-                            Latitude = "60.61292000",
-                            Longitude = "23.94196000"
-                        },
-
-                        new City
-                        {
-                            Id = 16,
-                            Name = "Kauniainen",
-                            Latitude = "60.21209000",
-                            Longitude = "24.72756000"
-                        },
-
-                        new City
-                        {
-                            Id = 17,
-                            Name = "Kellokoski",
-                            Latitude = "60.53271000",
-                            Longitude = "25.10917000"
-                        },
-
-                        new City
-                        {
-                            Id = 18,
-                            Name = "Kerava",
-                            Latitude = "60.40338000",
-                            Longitude = "25.10500000"
-                        },
-
-                        new City
-                        {
-                            Id = 19,
-                            Name = "Kilo",
-                            Latitude = "60.21746000",
-                            Longitude = "24.78151000"
-                        },
-
-                        new City
-                        {
-                            Id = 20,
-                            Name = "Kirkkonummi",
-                            Latitude = "60.12381000",
-                            Longitude = "24.43853000"
-                        },
-
-                        new City
-                        {
-                            Id = 21,
-                            Name = "Koukkuniemi",
-                            Latitude = "60.15261000",
-                            Longitude = "24.76467000"
-                        },
-
-                        new City
-                        {
-                            Id = 22,
-                            Name = "Lapinjärvi",
-                            Latitude = "60.62443000",
-                            Longitude = "26.19720000"
-                        },
-
-                        new City
-                        {
-                            Id = 23,
-                            Name = "Lauttasaari",
-                            Latitude = "60.15896000",
-                            Longitude = "24.86797000"
-                        },
-
-                        new City
-                        {
-                            Id = 24,
-                            Name = "Liljendal",
-                            Latitude = "60.57346000",
-                            Longitude = "26.05257000"
-                        },
-
-                        new City
-                        {
-                            Id = 25,
-                            Name = "Lohja",
-                            Latitude = "60.24859000",
-                            Longitude = "24.06534000"
-                        },
-
-                        new City
-                        {
-                            Id = 26,
-                            Name = "Lovisa",
-                            Latitude = "60.45659000",
-                            Longitude = "26.22505000"
-                        },
-
-                        new City
-                        {
-                            Id = 27,
-                            Name = "Mäntsälä",
-                            Latitude = "60.63333000",
-                            Longitude = "25.31667000"
-                        },
-
-                        new City
-                        {
-                            Id = 28,
-                            Name = "Mellunkylä",
-                            Latitude = "60.23355000",
-                            Longitude = "25.09947000"
-                        },
-
-                        new City
-                        {
-                            Id = 29,
-                            Name = "Munkkiniemi",
-                            Latitude = "60.19861000",
-                            Longitude = "24.87772000"
-                        },
-
-                        new City
-                        {
-                            Id = 30,
-                            Name = "Myrskylä",
-                            Latitude = "60.66965000",
-                            Longitude = "25.84750000"
-                        },
-
-                        new City
-                        {
-                            Id = 31,
-                            Name = "Nurmijärvi",
-                            Latitude = "60.46407000",
-                            Longitude = "24.80730000"
-                        },
-
-                        new City
-                        {
-                            Id = 32,
-                            Name = "Otaniemi",
-                            Latitude = "60.18395000",
-                            Longitude = "24.82786000"
-                        },
-
-                        new City
-                        {
-                            Id = 33,
-                            Name = "Pernå",
-                            Latitude = "60.44869000",
-                            Longitude = "26.03187000"
-                        },
-
-                        new City
-                        {
-                            Id = 34,
-                            Name = "Pohja",
-                            Latitude = "60.09626000",
-                            Longitude = "23.52757000"
-                        },
-
-                        new City
-                        {
-                            Id = 35,
-                            Name = "Pornainen",
-                            Latitude = "60.47581000",
-                            Longitude = "25.37490000"
-                        },
-
-                        new City
-                        {
-                            Id = 36,
-                            Name = "Porvoo",
-                            Latitude = "60.39233000",
-                            Longitude = "25.66507000"
-                        },
-
-                        new City
-                        {
-                            Id = 37,
-                            Name = "Pukkila",
-                            Latitude = "60.65000000",
-                            Longitude = "25.56667000"
-                        },
-
-                        new City
-                        {
-                            Id = 38,
-                            Name = "Raaseporin",
-                            Latitude = "60.00273000",
-                            Longitude = "23.55499000"
-                        },
-
-                        new City
-                        {
-                            Id = 39,
-                            Name = "Ruotsinpyhtää",
-                            Latitude = "60.52680000",
-                            Longitude = "26.46203000"
-                        },
-
-                        new City
-                        {
-                            Id = 40,
-                            Name = "Sammatti",
-                            Latitude = "60.31991000",
-                            Longitude = "23.82085000"
-                        },
-
-                        new City
-                        {
-                            Id = 41,
-                            Name = "Sibbo",
-                            Latitude = "60.37752000",
-                            Longitude = "25.26906000"
-                        },
-
-                        new City
-                        {
-                            Id = 42,
-                            Name = "Siuntio",
-                            Latitude = "60.13862000",
-                            Longitude = "24.22715000"
-                        },
-
-                        new City
-                        {
-                            Id = 43,
-                            Name = "Tuusula",
-                            Latitude = "60.40368000",
-                            Longitude = "25.02638000"
-                        },
-
-                        new City
-                        {
-                            Id = 44,
-                            Name = "Vantaa",
-                            Latitude = "60.29414000",
-                            Longitude = "25.04099000"
-                        },
-
-                        new City
-                        {
-                            Id = 45,
-                            Name = "Vihti",
-                            Latitude = "60.41699000",
-                            Longitude = "24.31965000"
-                        },
-
-                        new City
-                        {
-                            Id = 46,
-                            Name = "Vuosaari",
-                            Latitude = "60.20963000",
-                            Longitude = "25.14195000"
-                        }
+                        new() { Id = 1, Name = "Askola", Latitude = "60.53333000", Longitude = "25.60000000" },
+                        new() { Id = 2, Name = "Ekenäs", Latitude = "59.97359000", Longitude = "23.43389000" },
+                        new() { Id = 3, Name = "Espoo", Latitude = "60.20520000", Longitude = "24.65220000" },
+                        new() { Id = 4, Name = "Gumböle", Latitude = "60.21948000", Longitude = "24.61684000" },
+                        new() { Id = 5, Name = "Hanko", Latitude = "59.83333000", Longitude = "22.95000000" },
+                        new() { Id = 6, Name = "Helsinki", Latitude = "60.16952000", Longitude = "24.93545000" },
+                        new() { Id = 7, Name = "Hyvinge", Latitude = "60.63333000", Longitude = "24.86667000" },
+                        new() { Id = 8, Name = "Ingå", Latitude = "60.04587000", Longitude = "24.00459000" },
+                        new() { Id = 9, Name = "Järvenpää", Latitude = "60.47369000", Longitude = "25.08992000" },
+                        new() { Id = 10, Name = "Kaarela", Latitude = "60.25174000", Longitude = "24.88111000" },
+                        new() { Id = 11, Name = "Kallio", Latitude = "60.18427000", Longitude = "24.95034000" },
+                        new() { Id = 12, Name = "Karis", Latitude = "60.07178000", Longitude = "23.66163000" },
+                        new() { Id = 13, Name = "Karjalohja", Latitude = "60.24015000", Longitude = "23.71789000" },
+                        new() { Id = 14, Name = "Karkkila", Latitude = "60.53418000", Longitude = "24.20977000" },
+                        new() { Id = 15, Name = "Kärkölä", Latitude = "60.61292000", Longitude = "23.94196000" },
+                        new() { Id = 16, Name = "Kauniainen", Latitude = "60.21209000", Longitude = "24.72756000" },
+                        new() { Id = 17, Name = "Kellokoski", Latitude = "60.53271000", Longitude = "25.10917000" },
+                        new() { Id = 18, Name = "Kerava", Latitude = "60.40338000", Longitude = "25.10500000" },
+                        new() { Id = 19, Name = "Kilo", Latitude = "60.21746000", Longitude = "24.78151000" },
+                        new() { Id = 20, Name = "Kirkkonummi", Latitude = "60.12381000", Longitude = "24.43853000" },
+                        new() { Id = 21, Name = "Koukkuniemi", Latitude = "60.15261000", Longitude = "24.76467000" },
+                        new() { Id = 22, Name = "Lapinjärvi", Latitude = "60.62443000", Longitude = "26.19720000" },
+                        new() { Id = 23, Name = "Lauttasaari", Latitude = "60.15896000", Longitude = "24.86797000" },
+                        new() { Id = 24, Name = "Liljendal", Latitude = "60.57346000", Longitude = "26.05257000" },
+                        new() { Id = 25, Name = "Lohja", Latitude = "60.24859000", Longitude = "24.06534000" },
+                        new() { Id = 26, Name = "Lovisa", Latitude = "60.45659000", Longitude = "26.22505000" },
+                        new() { Id = 27, Name = "Mäntsälä", Latitude = "60.63333000", Longitude = "25.31667000" },
+                        new() { Id = 28, Name = "Mellunkylä", Latitude = "60.23355000", Longitude = "25.09947000" },
+                        new() { Id = 29, Name = "Munkkiniemi", Latitude = "60.19861000", Longitude = "24.87772000" },
+                        new() { Id = 30, Name = "Myrskylä", Latitude = "60.66965000", Longitude = "25.84750000" },
+                        new() { Id = 31, Name = "Nurmijärvi", Latitude = "60.46407000", Longitude = "24.80730000" },
+                        new() { Id = 32, Name = "Otaniemi", Latitude = "60.18395000", Longitude = "24.82786000" },
+                        new() { Id = 33, Name = "Pernå", Latitude = "60.44869000", Longitude = "26.03187000" },
+                        new() { Id = 34, Name = "Pohja", Latitude = "60.09626000", Longitude = "23.52757000" },
+                        new() { Id = 35, Name = "Pornainen", Latitude = "60.47581000", Longitude = "25.37490000" },
+                        new() { Id = 36, Name = "Porvoo", Latitude = "60.39233000", Longitude = "25.66507000" },
+                        new() { Id = 37, Name = "Pukkila", Latitude = "60.65000000", Longitude = "25.56667000" },
+                        new() { Id = 38, Name = "Raaseporin", Latitude = "60.00273000", Longitude = "23.55499000" },
+                        new() { Id = 39, Name = "Ruotsinpyhtää", Latitude = "60.52680000", Longitude = "26.46203000" },
+                        new() { Id = 40, Name = "Sammatti", Latitude = "60.31991000", Longitude = "23.82085000" },
+                        new() { Id = 41, Name = "Sibbo", Latitude = "60.37752000", Longitude = "25.26906000" },
+                        new() { Id = 42, Name = "Siuntio", Latitude = "60.13862000", Longitude = "24.22715000" },
+                        new() { Id = 43, Name = "Tuusula", Latitude = "60.40368000", Longitude = "25.02638000" },
+                        new() { Id = 44, Name = "Vantaa", Latitude = "60.29414000", Longitude = "25.04099000" },
+                        new() { Id = 45, Name = "Vihti", Latitude = "60.41699000", Longitude = "24.31965000" },
+                        new() { Id = 46, Name = "Vuosaari", Latitude = "60.20963000", Longitude = "25.14195000" }
                     }
                 }
             }

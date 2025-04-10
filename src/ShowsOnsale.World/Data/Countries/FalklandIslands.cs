@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class FalklandIslands
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 72,
             Name = "Falkland Islands",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "-59.00000000",
             Emoji = "🇫🇰",
             EmojiU = "U+1F1EB U+1F1F0",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "Atlantic/Stanley",
-                    GmtOffset = -10800,
-                    GmtOffsetName = "UTC-03:00",
-                    Abbreviation = "FKST",
-                    TzName = "Falkland Islands Summer Time"
-                }
+                new() { ZoneName = "Atlantic/Stanley", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "FKST", TzName = "Falkland Islands Summer Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "포클랜드 제도" },
                 { "pt-BR" = "Ilhas Malvinas" }
@@ -62,7 +55,7 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Фолклендські острови" }
                 { "pl" = "Falklandy" }
             },
-            States = new List<State>
+            States = new()
             {
             }
         };

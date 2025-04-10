@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class FrenchPolynesia
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 78,
             Name = "French Polynesia",
@@ -32,504 +32,147 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "-140.00000000",
             Emoji = "🇵🇫",
             EmojiU = "U+1F1F5 U+1F1EB",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {{
-                    ZoneName = "Pacific/Gambier",
-                    GmtOffset = -32400,
-                    GmtOffsetName = "UTC-09:00",
-                    Abbreviation = "GAMT",
-                    TzName = "Gambier Islands Time"
-                }},
-                new Timezone
-                {{
-                    ZoneName = "Pacific/Marquesas",
-                    GmtOffset = -34200,
-                    GmtOffsetName = "UTC-09:30",
-                    Abbreviation = "MART",
-                    TzName = "Marquesas Islands Time"
-                }},
-                new Timezone
-                {{
-                    ZoneName = "Pacific/Tahiti",
-                    GmtOffset = -36000,
-                    GmtOffsetName = "UTC-10:00",
-                    Abbreviation = "TAHT",
-                    TzName = "Tahiti Time"
-                }},
-            }},
-            Translations = new Dictionary<string, string>
-            {{
-                {{ "ko" = "프랑스령 폴리네시아" }},
-                {{ "pt-BR" = "Polinésia Francesa" }},
-                {{ "pt" = "Polinésia Francesa" }},
-                {{ "nl" = "Frans-Polynesië" }},
-                {{ "hr" = "Francuska Polinezija" }},
-                {{ "fa" = "پلی‌نزی فرانسه" }},
-                {{ "de" = "Französisch-Polynesien" }},
-                {{ "es" = "Polinesia Francesa" }},
-                {{ "fr" = "Polynésie française" }},
-                {{ "ja" = "フランス領ポリネシア" }},
-                {{ "it" = "Polinesia Francese" }},
-                {{ "zh-CN" = "法属波利尼西亚" }},
-                {{ "tr" = "Fransiz Polinezyasi" }},
-                {{ "ru" = "Французская Полинезия" }},
-                {{ "uk" = "Французька Полінезія" }},
-                {{ "pl" = "Polinezja Francuska" }},
-            }},
-            States = new List<State>
-            {{
+                new() { ZoneName = "Pacific/Gambier", GmtOffset = -32400, GmtOffsetName = "UTC-09:00", Abbreviation = "GAMT", TzName = "Gambier Islands Time" },
+                new() { ZoneName = "Pacific/Marquesas", GmtOffset = -34200, GmtOffsetName = "UTC-09:30", Abbreviation = "MART", TzName = "Marquesas Islands Time" },
+                new() { ZoneName = "Pacific/Tahiti", GmtOffset = -36000, GmtOffsetName = "UTC-10:00", Abbreviation = "TAHT", TzName = "Tahiti Time" }
+            },
+            Translations = new()
+            {
+                { "ko" = "프랑스령 폴리네시아" },
+                { "pt-BR" = "Polinésia Francesa" }
+                { "pt" = "Polinésia Francesa" }
+                { "nl" = "Frans-Polynesië" }
+                { "hr" = "Francuska Polinezija" }
+                { "fa" = "پلی‌نزی فرانسه" }
+                { "de" = "Französisch-Polynesien" }
+                { "es" = "Polinesia Francesa" }
+                { "fr" = "Polynésie française" }
+                { "ja" = "フランス領ポリネシア" }
+                { "it" = "Polinesia Francese" }
+                { "zh-CN" = "法属波利尼西亚" }
+                { "tr" = "Fransiz Polinezyasi" }
+                { "ru" = "Французская Полинезия" }
+                { "uk" = "Французька Полінезія" }
+                { "pl" = "Polinezja Francuska" }
+            },
+            States = new()
+            {
 
-                new State
-                {{
+                new()
+                {
                     Id = 1,
                     Name = "Austral Islands",
                     StateCode = "01",
                     Latitude = "-24.62108770",
                     Longitude = "-154.79155860",
                     Type = "division",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Raivavae", Latitude = "-23.86946330", Longitude = "-147.73244720" },
+                        new() { Id = 2, Name = "Rapa", Latitude = "-27.60822390", Longitude = "-144.38427770" },
+                        new() { Id = 3, Name = "Rimatara", Latitude = "-22.64382540", Longitude = "-152.83120520" },
+                        new() { Id = 4, Name = "Rurutu", Latitude = "-22.46958690", Longitude = "-151.39113710" },
+                        new() { Id = 5, Name = "Tubuai", Latitude = "-23.36850430", Longitude = "-149.54496480" }
+                    }
+                },
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Raivavae",
-                            Latitude = "-23.86946330",
-                            Longitude = "-147.73244720"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Rapa",
-                            Latitude = "-27.60822390",
-                            Longitude = "-144.38427770"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Rimatara",
-                            Latitude = "-22.64382540",
-                            Longitude = "-152.83120520"
-                        }},
-
-                        new City
-                        {{
-                            Id = 4,
-                            Name = "Rurutu",
-                            Latitude = "-22.46958690",
-                            Longitude = "-151.39113710"
-                        }},
-
-                        new City
-                        {{
-                            Id = 5,
-                            Name = "Tubuai",
-                            Latitude = "-23.36850430",
-                            Longitude = "-149.54496480"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 2,
                     Name = "Leeward Islands",
                     StateCode = "02",
                     Latitude = "-16.33144420",
                     Longitude = "-155.45770620",
                     Type = "division",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Bora-Bora", Latitude = "-16.39169250", Longitude = "-151.93003350" },
+                        new() { Id = 2, Name = "Huahine", Latitude = "-16.75212330", Longitude = "-151.07889500" },
+                        new() { Id = 3, Name = "Maupiti", Latitude = "-16.31438490", Longitude = "-154.79908630" },
+                        new() { Id = 4, Name = "Tahaa", Latitude = "-16.61957120", Longitude = "-151.57215390" },
+                        new() { Id = 5, Name = "Taputapuatea", Latitude = "-16.82062470", Longitude = "-151.47741330" },
+                        new() { Id = 6, Name = "Tumaraa", Latitude = "-16.82985330", Longitude = "-151.53381840" },
+                        new() { Id = 7, Name = "Uturoa", Latitude = "-16.73858290", Longitude = "-151.49549020" }
+                    }
+                },
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Bora-Bora",
-                            Latitude = "-16.39169250",
-                            Longitude = "-151.93003350"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Huahine",
-                            Latitude = "-16.75212330",
-                            Longitude = "-151.07889500"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Maupiti",
-                            Latitude = "-16.31438490",
-                            Longitude = "-154.79908630"
-                        }},
-
-                        new City
-                        {{
-                            Id = 4,
-                            Name = "Tahaa",
-                            Latitude = "-16.61957120",
-                            Longitude = "-151.57215390"
-                        }},
-
-                        new City
-                        {{
-                            Id = 5,
-                            Name = "Taputapuatea",
-                            Latitude = "-16.82062470",
-                            Longitude = "-151.47741330"
-                        }},
-
-                        new City
-                        {{
-                            Id = 6,
-                            Name = "Tumaraa",
-                            Latitude = "-16.82985330",
-                            Longitude = "-151.53381840"
-                        }},
-
-                        new City
-                        {{
-                            Id = 7,
-                            Name = "Uturoa",
-                            Latitude = "-16.73858290",
-                            Longitude = "-151.49549020"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 3,
                     Name = "Marquesas Islands",
                     StateCode = "03",
                     Latitude = "-9.17852990",
                     Longitude = "-140.97670260",
                     Type = "division",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Fatu-Hiva", Latitude = "-10.48604740", Longitude = "-138.69188860" },
+                        new() { Id = 2, Name = "Hiva-Oa", Latitude = "-9.72631690", Longitude = "-139.30998880" },
+                        new() { Id = 3, Name = "Nuku-Hiva", Latitude = "-8.41030010", Longitude = "-141.02327110" },
+                        new() { Id = 4, Name = "Tahuata", Latitude = "-9.95732410", Longitude = "-139.16563470" },
+                        new() { Id = 5, Name = "Ua-Huka", Latitude = "-8.90967990", Longitude = "-139.63171970" },
+                        new() { Id = 6, Name = "Ua-Pou", Latitude = "-9.40892440", Longitude = "-140.15553770" }
+                    }
+                },
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Fatu-Hiva",
-                            Latitude = "-10.48604740",
-                            Longitude = "-138.69188860"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Hiva-Oa",
-                            Latitude = "-9.72631690",
-                            Longitude = "-139.30998880"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Nuku-Hiva",
-                            Latitude = "-8.41030010",
-                            Longitude = "-141.02327110"
-                        }},
-
-                        new City
-                        {{
-                            Id = 4,
-                            Name = "Tahuata",
-                            Latitude = "-9.95732410",
-                            Longitude = "-139.16563470"
-                        }},
-
-                        new City
-                        {{
-                            Id = 5,
-                            Name = "Ua-Huka",
-                            Latitude = "-8.90967990",
-                            Longitude = "-139.63171970"
-                        }},
-
-                        new City
-                        {{
-                            Id = 6,
-                            Name = "Ua-Pou",
-                            Latitude = "-9.40892440",
-                            Longitude = "-140.15553770"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 4,
                     Name = "Tuamotu-Gambier",
                     StateCode = "04",
                     Latitude = "-18.32071570",
                     Longitude = "-152.44871660",
                     Type = "division",
-                    Cities = new List<City>
-                    {{
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Anaa", Latitude = "-17.41194390", Longitude = "-145.66284990" },
+                        new() { Id = 2, Name = "Arutua", Latitude = "-15.31203340", Longitude = "-146.91262850" },
+                        new() { Id = 3, Name = "Fakarava", Latitude = "-16.29845160", Longitude = "-145.92218890" },
+                        new() { Id = 4, Name = "Fangatau", Latitude = "-15.82097880", Longitude = "-140.90810600" },
+                        new() { Id = 5, Name = "Gambier", Latitude = "-23.10088440", Longitude = "-135.07922550" },
+                        new() { Id = 6, Name = "Hao", Latitude = "-18.74532930", Longitude = "-145.33383850" },
+                        new() { Id = 7, Name = "Hikueru", Latitude = "-17.58767480", Longitude = "-142.69120590" },
+                        new() { Id = 8, Name = "Makemo", Latitude = "-16.59334420", Longitude = "-144.01756280" },
+                        new() { Id = 9, Name = "Manihi", Latitude = "-14.39757810", Longitude = "-146.12217070" },
+                        new() { Id = 10, Name = "Napuka", Latitude = "-14.17342310", Longitude = "-141.30676690" },
+                        new() { Id = 11, Name = "Nukutavake", Latitude = "-18.97808660", Longitude = "-139.29284520" },
+                        new() { Id = 12, Name = "Puka-Puka", Latitude = "-14.81902510", Longitude = "-138.86100870" },
+                        new() { Id = 13, Name = "Rangiroa", Latitude = "-15.12282920", Longitude = "-147.91140150" },
+                        new() { Id = 14, Name = "Reao", Latitude = "-18.51946500", Longitude = "-136.46088500" },
+                        new() { Id = 15, Name = "Takaroa", Latitude = "-14.67263940", Longitude = "-145.22680410" },
+                        new() { Id = 16, Name = "Tatakoto", Latitude = "-17.34173160", Longitude = "-138.47584630" },
+                        new() { Id = 17, Name = "Tureia", Latitude = "-20.82803180", Longitude = "-138.58163900" }
+                    }
+                },
 
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Anaa",
-                            Latitude = "-17.41194390",
-                            Longitude = "-145.66284990"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Arutua",
-                            Latitude = "-15.31203340",
-                            Longitude = "-146.91262850"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Fakarava",
-                            Latitude = "-16.29845160",
-                            Longitude = "-145.92218890"
-                        }},
-
-                        new City
-                        {{
-                            Id = 4,
-                            Name = "Fangatau",
-                            Latitude = "-15.82097880",
-                            Longitude = "-140.90810600"
-                        }},
-
-                        new City
-                        {{
-                            Id = 5,
-                            Name = "Gambier",
-                            Latitude = "-23.10088440",
-                            Longitude = "-135.07922550"
-                        }},
-
-                        new City
-                        {{
-                            Id = 6,
-                            Name = "Hao",
-                            Latitude = "-18.74532930",
-                            Longitude = "-145.33383850"
-                        }},
-
-                        new City
-                        {{
-                            Id = 7,
-                            Name = "Hikueru",
-                            Latitude = "-17.58767480",
-                            Longitude = "-142.69120590"
-                        }},
-
-                        new City
-                        {{
-                            Id = 8,
-                            Name = "Makemo",
-                            Latitude = "-16.59334420",
-                            Longitude = "-144.01756280"
-                        }},
-
-                        new City
-                        {{
-                            Id = 9,
-                            Name = "Manihi",
-                            Latitude = "-14.39757810",
-                            Longitude = "-146.12217070"
-                        }},
-
-                        new City
-                        {{
-                            Id = 10,
-                            Name = "Napuka",
-                            Latitude = "-14.17342310",
-                            Longitude = "-141.30676690"
-                        }},
-
-                        new City
-                        {{
-                            Id = 11,
-                            Name = "Nukutavake",
-                            Latitude = "-18.97808660",
-                            Longitude = "-139.29284520"
-                        }},
-
-                        new City
-                        {{
-                            Id = 12,
-                            Name = "Puka-Puka",
-                            Latitude = "-14.81902510",
-                            Longitude = "-138.86100870"
-                        }},
-
-                        new City
-                        {{
-                            Id = 13,
-                            Name = "Rangiroa",
-                            Latitude = "-15.12282920",
-                            Longitude = "-147.91140150"
-                        }},
-
-                        new City
-                        {{
-                            Id = 14,
-                            Name = "Reao",
-                            Latitude = "-18.51946500",
-                            Longitude = "-136.46088500"
-                        }},
-
-                        new City
-                        {{
-                            Id = 15,
-                            Name = "Takaroa",
-                            Latitude = "-14.67263940",
-                            Longitude = "-145.22680410"
-                        }},
-
-                        new City
-                        {{
-                            Id = 16,
-                            Name = "Tatakoto",
-                            Latitude = "-17.34173160",
-                            Longitude = "-138.47584630"
-                        }},
-
-                        new City
-                        {{
-                            Id = 17,
-                            Name = "Tureia",
-                            Latitude = "-20.82803180",
-                            Longitude = "-138.58163900"
-                        }},
-                    }}
-                }},
-
-                new State
-                {{
+                new()
+                {
                     Id = 5,
                     Name = "Windward Islands",
                     StateCode = "05",
                     Latitude = "-17.42539670",
                     Longitude = "-150.67802270",
                     Type = "division",
-                    Cities = new List<City>
-                    {{
-
-                        new City
-                        {{
-                            Id = 1,
-                            Name = "Arue",
-                            Latitude = "-17.27738940",
-                            Longitude = "-149.87199430"
-                        }},
-
-                        new City
-                        {{
-                            Id = 2,
-                            Name = "Faaa",
-                            Latitude = "-17.58391940",
-                            Longitude = "-149.64609260"
-                        }},
-
-                        new City
-                        {{
-                            Id = 3,
-                            Name = "Hitiaa O Te Ra",
-                            Latitude = "-17.59142580",
-                            Longitude = "-149.47324810"
-                        }},
-
-                        new City
-                        {{
-                            Id = 4,
-                            Name = "Mahina",
-                            Latitude = "-17.55747420",
-                            Longitude = "-149.51647820"
-                        }},
-
-                        new City
-                        {{
-                            Id = 5,
-                            Name = "Moorea-Maiao",
-                            Latitude = "-17.57566530",
-                            Longitude = "-150.86188770"
-                        }},
-
-                        new City
-                        {{
-                            Id = 6,
-                            Name = "Paea",
-                            Latitude = "-17.69616980",
-                            Longitude = "-149.58969660"
-                        }},
-
-                        new City
-                        {{
-                            Id = 7,
-                            Name = "Papara",
-                            Latitude = "-17.71187630",
-                            Longitude = "-149.59042950"
-                        }},
-
-                        new City
-                        {{
-                            Id = 8,
-                            Name = "Papeete",
-                            Latitude = "-17.55713870",
-                            Longitude = "-149.59660090"
-                        }},
-
-                        new City
-                        {{
-                            Id = 9,
-                            Name = "Pirae",
-                            Latitude = "-17.56986380",
-                            Longitude = "-149.56352800"
-                        }},
-
-                        new City
-                        {{
-                            Id = 10,
-                            Name = "Punaauia",
-                            Latitude = "-17.61796960",
-                            Longitude = "-149.63102240"
-                        }},
-
-                        new City
-                        {{
-                            Id = 11,
-                            Name = "Taiarapu-Est",
-                            Latitude = "-17.75551280",
-                            Longitude = "-149.39533960"
-                        }},
-
-                        new City
-                        {{
-                            Id = 12,
-                            Name = "Taiarapu-Ouest",
-                            Latitude = "-17.81004520",
-                            Longitude = "-149.32700520"
-                        }},
-
-                        new City
-                        {{
-                            Id = 13,
-                            Name = "Teva I Uta",
-                            Latitude = "-17.72250080",
-                            Longitude = "-149.48196150"
-                        }},
-                    }}
-                }},
-            }}
-        }};
-    }}
-}}
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Arue", Latitude = "-17.27738940", Longitude = "-149.87199430" },
+                        new() { Id = 2, Name = "Faaa", Latitude = "-17.58391940", Longitude = "-149.64609260" },
+                        new() { Id = 3, Name = "Hitiaa O Te Ra", Latitude = "-17.59142580", Longitude = "-149.47324810" },
+                        new() { Id = 4, Name = "Mahina", Latitude = "-17.55747420", Longitude = "-149.51647820" },
+                        new() { Id = 5, Name = "Moorea-Maiao", Latitude = "-17.57566530", Longitude = "-150.86188770" },
+                        new() { Id = 6, Name = "Paea", Latitude = "-17.69616980", Longitude = "-149.58969660" },
+                        new() { Id = 7, Name = "Papara", Latitude = "-17.71187630", Longitude = "-149.59042950" },
+                        new() { Id = 8, Name = "Papeete", Latitude = "-17.55713870", Longitude = "-149.59660090" },
+                        new() { Id = 9, Name = "Pirae", Latitude = "-17.56986380", Longitude = "-149.56352800" },
+                        new() { Id = 10, Name = "Punaauia", Latitude = "-17.61796960", Longitude = "-149.63102240" },
+                        new() { Id = 11, Name = "Taiarapu-Est", Latitude = "-17.75551280", Longitude = "-149.39533960" },
+                        new() { Id = 12, Name = "Taiarapu-Ouest", Latitude = "-17.81004520", Longitude = "-149.32700520" },
+                        new() { Id = 13, Name = "Teva I Uta", Latitude = "-17.72250080", Longitude = "-149.48196150" }
+                    }
+                }
+            }
+        };
+    }
+}

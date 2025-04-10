@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class Brunei
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 33,
             Name = "Brunei",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "114.66666666",
             Emoji = "🇧🇳",
             EmojiU = "U+1F1E7 U+1F1F3",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "Asia/Brunei",
-                    GmtOffset = 28800,
-                    GmtOffsetName = "UTC+08:00",
-                    Abbreviation = "BNT",
-                    TzName = "Brunei Darussalam Time"
-                }
+                new() { ZoneName = "Asia/Brunei", GmtOffset = 28800, GmtOffsetName = "UTC+08:00", Abbreviation = "BNT", TzName = "Brunei Darussalam Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "브루나이" },
                 { "pt-BR" = "Brunei" }
@@ -62,10 +55,10 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Бруней" }
                 { "pl" = "Brunei" }
             },
-            States = new List<State>
+            States = new()
             {
 
-                new State
+                new()
                 {
                     Id = 1,
                     Name = "Belait",
@@ -73,28 +66,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "4.37507490",
                     Longitude = "114.61928990",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Kuala Belait",
-                            Latitude = "4.58361000",
-                            Longitude = "114.23120000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Seria",
-                            Latitude = "4.60637000",
-                            Longitude = "114.32476000"
-                        }
+                        new() { Id = 1, Name = "Kuala Belait", Latitude = "4.58361000", Longitude = "114.23120000" },
+                        new() { Id = 2, Name = "Seria", Latitude = "4.60637000", Longitude = "114.32476000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 2,
                     Name = "Brunei-Muara",
@@ -102,52 +81,17 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "4.93112060",
                     Longitude = "114.95168690",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Bandar Seri Begawan",
-                            Latitude = "4.89035000",
-                            Longitude = "114.94006000"
-                        },
-
-                        new City
-                        {
-                            Id = 2,
-                            Name = "Berakas A",
-                            Latitude = "4.97032000",
-                            Longitude = "114.92989000"
-                        },
-
-                        new City
-                        {
-                            Id = 3,
-                            Name = "Kapok",
-                            Latitude = "5.02447000",
-                            Longitude = "115.04664000"
-                        },
-
-                        new City
-                        {
-                            Id = 4,
-                            Name = "Mentiri",
-                            Latitude = "4.97058000",
-                            Longitude = "115.02078000"
-                        },
-
-                        new City
-                        {
-                            Id = 5,
-                            Name = "Serasa",
-                            Latitude = "5.01718000",
-                            Longitude = "115.05841000"
-                        }
+                        new() { Id = 1, Name = "Bandar Seri Begawan", Latitude = "4.89035000", Longitude = "114.94006000" },
+                        new() { Id = 2, Name = "Berakas A", Latitude = "4.97032000", Longitude = "114.92989000" },
+                        new() { Id = 3, Name = "Kapok", Latitude = "5.02447000", Longitude = "115.04664000" },
+                        new() { Id = 4, Name = "Mentiri", Latitude = "4.97058000", Longitude = "115.02078000" },
+                        new() { Id = 5, Name = "Serasa", Latitude = "5.01718000", Longitude = "115.05841000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 3,
                     Name = "Temburong",
@@ -155,20 +99,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "4.62041280",
                     Longitude = "115.14148400",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Bangar",
-                            Latitude = "4.70861000",
-                            Longitude = "115.07167000"
-                        }
+                        new() { Id = 1, Name = "Bangar", Latitude = "4.70861000", Longitude = "115.07167000" }
                     }
                 },
 
-                new State
+                new()
                 {
                     Id = 4,
                     Name = "Tutong",
@@ -176,16 +113,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "4.71403730",
                     Longitude = "114.66679390",
                     Type = "district",
-                    Cities = new List<City>
+                    Cities = new()
                     {
-
-                        new City
-                        {
-                            Id = 1,
-                            Name = "Tutong",
-                            Latitude = "4.80278000",
-                            Longitude = "114.64917000"
-                        }
+                        new() { Id = 1, Name = "Tutong", Latitude = "4.80278000", Longitude = "114.64917000" }
                     }
                 }
             }

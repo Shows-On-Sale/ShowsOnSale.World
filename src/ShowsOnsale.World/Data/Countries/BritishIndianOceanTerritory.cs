@@ -9,7 +9,7 @@ namespace ShowsOnSale.World.Data.Countries
 {
     public static class BritishIndianOceanTerritory
     {
-        public static Country Data { get; } = new Country
+        public static Country Data { get; } = new()
         {
             Id = 32,
             Name = "British Indian Ocean Territory",
@@ -32,18 +32,11 @@ namespace ShowsOnSale.World.Data.Countries
             Longitude = "71.50000000",
             Emoji = "🇮🇴",
             EmojiU = "U+1F1EE U+1F1F4",
-            Timezones = new List<Timezone>
+            Timezones = new()
             {
-                new Timezone
-                {
-                    ZoneName = "Indian/Chagos",
-                    GmtOffset = 21600,
-                    GmtOffsetName = "UTC+06:00",
-                    Abbreviation = "IOT",
-                    TzName = "Indian Ocean Time"
-                }
+                new() { ZoneName = "Indian/Chagos", GmtOffset = 21600, GmtOffsetName = "UTC+06:00", Abbreviation = "IOT", TzName = "Indian Ocean Time" }
             },
-            Translations = new Dictionary<string, string>
+            Translations = new()
             {
                 { "ko" = "영국령 인도양 지역" },
                 { "pt-BR" = "Território Britânico do Oceano íÍdico" }
@@ -62,7 +55,7 @@ namespace ShowsOnSale.World.Data.Countries
                 { "uk" = "Британська територія в Індійському океані" }
                 { "pl" = "Brytyjskie Terytorium Oceanu Indyjskiego" }
             },
-            States = new List<State>
+            States = new()
             {
             }
         };
