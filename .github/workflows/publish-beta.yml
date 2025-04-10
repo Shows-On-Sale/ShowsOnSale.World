@@ -23,10 +23,30 @@ jobs:
       with:
         fetch-depth: 0
 
+    - name: List directory structure
+      run: |
+        echo "Current directory:"
+        pwd
+        echo "Directory contents:"
+        ls -la
+        echo "Src directory contents:"
+        ls -la src
+        echo "ShowsOnSale.World directory contents:"
+        ls -la src/ShowsOnSale.World
+
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: ${{ env.DOTNET_VERSIONS }}
+
+    - name: Check .NET SDK
+      run: |
+        echo "Dotnet version:"
+        dotnet --version
+        echo "Dotnet info:"
+        dotnet --info
+        echo "Dotnet location:"
+        which dotnet
 
     - name: Get version
       id: get_version
@@ -47,8 +67,8 @@ jobs:
 
     - name: Build and pack
       run: |
-        dotnet build src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration Release
-        dotnet pack src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration Release --no-build -p:Version=${{ env.BETA_VERSION }}
+        dotnet build --project src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration Release
+        dotnet pack --project src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration Release --no-build -p:Version=${{ env.BETA_VERSION }}
 
     - name: Push to NuGet
       if: github.event_name == 'push'
