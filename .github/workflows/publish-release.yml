@@ -57,8 +57,8 @@ jobs:
 
     - name: Build and pack
       run: |
-        dotnet build --project src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration Release
-        dotnet pack --project src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration Release --no-build -p:Version=${{ env.VERSION }}
+        dotnet build src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration Release
+        dotnet pack src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration Release --no-build -p:Version=${{ env.VERSION }}
 
     - name: Push to NuGet
       run: |
