@@ -1,0 +1,4 @@
+[submodule "countries-states-cities-database"]
+	path = countries-states-cities-database
+	url = https://github.com/dr5hn/countries-states-cities-database
+	branch = master
