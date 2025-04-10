@@ -29,9 +29,19 @@ jobs:
     - name: Get version
       id: get_version
       run: |
-        echo "VERSION=$(git describe --tags --abbrev=0 2>/dev/null || echo '0.0.0')" >> $GITHUB_ENV
+        # Get the latest tag or default to 0.0.0
+        LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "0.0.0")
+        # Remove 'v' prefix if it exists
+        LATEST_TAG=${LATEST_TAG#v}
+        # Split version into major.minor.patch
+        IFS='.' read -r major minor patch <<< "$LATEST_TAG"
+        # Increment patch version
+        patch=$((patch + 1))
+        # Construct new version
+        NEW_VERSION="${major}.${minor}.${patch}"
+        echo "VERSION=${NEW_VERSION}" >> $GITHUB_ENV
         echo "BUILD_NUMBER=${{ github.run_number }}" >> $GITHUB_ENV
-        echo "BETA_VERSION=${VERSION}-beta.${BUILD_NUMBER}" >> $GITHUB_ENV
+        echo "BETA_VERSION=${NEW_VERSION}-beta.${{ github.run_number }}" >> $GITHUB_ENV
 
     - name: Build and pack
       run: |
