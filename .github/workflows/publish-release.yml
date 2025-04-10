@@ -1,0 +1,37 @@
+name: Publish Release Package
+
+on:
+  release:
+    types: [published]
+
+env:
+  DOTNET_VERSION: '9.0.x'
+  NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: ${{ env.DOTNET_VERSION }}
+
+    - name: Get version
+      id: get_version
+      run: |
+        echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
+
+    - name: Build and pack
+      run: |
+        dotnet build src/ShowsOnSale.World.csproj --configuration Release
+        dotnet pack src/ShowsOnSale.World.csproj --configuration Release --no-build -p:Version=${{ env.VERSION }}
+
+    - name: Push to NuGet
+      run: |
+        dotnet nuget push "src/bin/Release/ShowsOnSale.World.${{ env.VERSION }}.nupkg" --api-key ${{ env.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate 
