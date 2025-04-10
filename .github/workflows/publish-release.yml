@@ -25,7 +25,11 @@ jobs:
     - name: Get version
       id: get_version
       run: |
-        echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
+        # Get the tag from the release
+        VERSION=${GITHUB_REF#refs/tags/}
+        # Remove 'v' prefix if it exists
+        VERSION=${VERSION#v}
+        echo "VERSION=${VERSION}" >> $GITHUB_ENV
 
     - name: Build and pack
       run: |
