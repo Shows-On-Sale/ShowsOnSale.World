@@ -60,4 +60,4 @@ jobs:
             Please review the changes and merge if appropriate.
           commit-message: 'Update world data'
           delete-branch: true
-          base: main 
+          base: master 
