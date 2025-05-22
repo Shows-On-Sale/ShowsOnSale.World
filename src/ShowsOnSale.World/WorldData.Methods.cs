@@ -51,4 +51,26 @@ public partial class WorldData
                 .OrderBy(t => t.ZoneName);
         }
     }
+    
+    /// <summary>
+    /// Gets a state by its code.
+    /// </summary>
+    /// <param name="countryCode">The ISO2 or ISO3 code of the country.</param>
+    /// <param name="stateCode">The ISO2 code of the state.</param>
+    /// <returns>The state if found; otherwise, null.</returns>
+    public static Models.State? GetStateByCode(string countryCode, string stateCode)
+    {
+        if (string.IsNullOrWhiteSpace(countryCode) || string.IsNullOrWhiteSpace(stateCode))
+            return null;
+
+        countryCode = countryCode.Trim().ToUpperInvariant();
+        stateCode = stateCode.Trim().ToUpperInvariant();
+
+        var country = WorldData.GetCountryByCode(countryCode);
+        if (country == null)
+            return null;
+
+        return country.States.FirstOrDefault(s =>
+            string.Equals(s.StateCode, stateCode, StringComparison.OrdinalIgnoreCase));
+    }
 }
