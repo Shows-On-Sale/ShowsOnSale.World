@@ -53,7 +53,8 @@ public partial class WorldData
     }
     
     /// <summary>
-    /// Gets a state by its code.
+    /// Gets a state by its code. This method accepts an ISO2 or ISO3 country code and an ISO2 state code.
+    /// Returns null if the state is not found.
     /// </summary>
     /// <param name="countryCode">The ISO2 or ISO3 code of the country.</param>
     /// <param name="stateCode">The ISO2 code of the state.</param>
