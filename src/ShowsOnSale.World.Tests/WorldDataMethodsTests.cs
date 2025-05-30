@@ -30,17 +30,48 @@ public class WorldDataMethodsTests
         Assert.Null(result);
     }
 
-    [Fact]
-    public void GetStateByName_ReturnsNull_WhenStateNameIsNotFound()
+    [Theory]
+    [InlineData("US", "Not a state")]
+    [InlineData("XX", "New York")] 
+    public void GetStateByName_ReturnsNull_WhenStateOrCountryCodeIsInvalid(string countryCode, string stateName)
     {
-        var result = WorldData.GetStateByName("US", "Not a state");
+        var result = WorldData.GetStateByName(countryCode, stateName);
         Assert.Null(result);
     }
     
-    [Fact]
-    public void GetStateByName_ReturnsNull_WhenCountryCodeIsNotFound()
+    [Theory]
+    [InlineData("US", "NY")]
+    [InlineData("us", "ny")] 
+    [InlineData("Us", "Ny")] 
+    [InlineData("USA", "NY")] 
+    public void GetStateByCode_ReturnsMatchingState_WhenValidCountryCodeAndStateNameProvided(string countryCode, string stateCode)
     {
-        var result = WorldData.GetStateByName("XX", "New York");
+        var result = WorldData.GetStateByCode(countryCode, stateCode);
+        
+        Assert.NotNull(result);
+        Assert.Equal("New York", result.Name);
+        Assert.Equal("NY", result.StateCode);
+    }
+    
+    [Theory]
+    [InlineData("US", "")]
+    [InlineData("US", null)]
+    [InlineData("US", " ")]
+    [InlineData("", "NY")]
+    [InlineData(null, "NY")]
+    public void GetStateByCode_ReturnsNull_WhenCountryCodeOrStateNameIsNullOrWhitespace(string countryCode, string stateCode)
+    {
+        var result = WorldData.GetStateByCode(countryCode, stateCode);;
+        
+        Assert.Null(result);
+    }
+    
+    [Theory]
+    [InlineData("US", "XX")] 
+    [InlineData("XX", "NY")] 
+    public void GetStateByCode_ReturnsNull_WhenStateOrCountryCodeIsInvalid(string countryCode, string stateCode)
+    {
+        var result = WorldData.GetStateByCode(countryCode, stateCode);
         Assert.Null(result);
     }
 }
