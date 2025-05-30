@@ -74,4 +74,25 @@ public partial class WorldData
         return country.States.FirstOrDefault(s =>
             string.Equals(s.StateCode, stateCode, StringComparison.OrdinalIgnoreCase));
     }
+    
+    /// <summary>
+    /// Gets a state by its code. This method accepts an ISO2 or ISO3 country code and an ISO2 state code.
+    /// Returns null if the state is not found.
+    /// </summary>
+    /// <param name="countryCode">The ISO2 or ISO3 code of the country.</param>
+    /// <param name="stateCode">The ISO2 code of the state.</param>
+    /// <returns>The state if found; otherwise, null.</returns>
+    public static Models.State? GetStateByName(string countryCode, string stateName)
+    {
+        if (string.IsNullOrWhiteSpace(countryCode) || string.IsNullOrWhiteSpace(stateName))
+            return null;
+
+        countryCode = countryCode.Trim().ToUpperInvariant();
+        stateName = stateName.Trim().ToUpperInvariant();
+
+        var country = GetCountryByCode(countryCode);
+
+        return country?.States.FirstOrDefault(s =>
+            string.Equals(s.Name, stateName, StringComparison.OrdinalIgnoreCase));
+    }
 }
