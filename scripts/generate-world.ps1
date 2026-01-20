@@ -13,17 +13,18 @@ function Write-DebugMessage {
     }
 }
 
-# Function to ensure submodules are up to date
+# Function to ensure submodules are updated to latest upstream
 function Update-Submodules {
-    Write-Host "Checking submodules status..."
-    $submoduleStatus = git submodule status
-    
-    if ($submoduleStatus -match "^[+-]") {
-        Write-Host "Submodules need to be updated. Running git submodule update..."
-        git submodule update --init --recursive
-    } else {
-        Write-Host "Submodules are up to date."
-    }
+    Write-Host "Initializing submodules..."
+    git submodule update --init --recursive
+
+    Write-Host "Fetching latest from submodule upstream..."
+    Push-Location "countries-states-cities-database"
+    git fetch origin
+    git checkout origin/master
+    Pop-Location
+
+    Write-Host "Submodule updated to latest upstream."
 }
 
 # Function to sanitize names to be alphanumeric and Pascal case
