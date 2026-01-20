@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Svalbard ha Enez Jan Mayen",
                 ["ko"] = "스발바르 얀마옌 제도",
                 ["pt-BR"] = "Svalbard",
                 ["pt"] = "Svalbard",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Svalbard Ve Jan Mayen",
                 ["ru"] = "Шпицберген и острова Ян-Майен",
                 ["uk"] = "Шпіцберген та острови Ян-Майєн",
-                ["pl"] = "Wyspy Svalbard i Jan Mayen"
+                ["pl"] = "Wyspy Svalbard i Jan Mayen",
+                ["hi"] = "स्वालबार्ड और जन मायेन द्वीप समूह",
+                ["ar"] = "جزر سفالبارد وجان ماين"
             },
             States = new()
             {

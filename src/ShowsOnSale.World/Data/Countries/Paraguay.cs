@@ -17,7 +17,7 @@ namespace ShowsOnSale.World.Data.Countries
             Iso2 = "PY",
             NumericCode = "600",
             PhoneCode = "595",
-            Capital = "Asuncion",
+            Capital = "Asunción",
             Currency = "PYG",
             CurrencyName = "Paraguayan guarani",
             CurrencySymbol = "₲",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Paraguay",
                 ["ko"] = "파라과이",
                 ["pt-BR"] = "Paraguai",
                 ["pt"] = "Paraguai",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Paraguay",
                 ["ru"] = "Парагвай",
                 ["uk"] = "Парагвай",
-                ["pl"] = "Paragwaj"
+                ["pl"] = "Paragwaj",
+                ["hi"] = "परागुआ",
+                ["ar"] = "باراجواي"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Alto Paraguay",
-                    StateCode = "16",
-                    Latitude = "-20.08525080",
-                    Longitude = "-59.47209040",
+                    StateCode = "",
+                    Latitude = "-20.50000000",
+                    Longitude = "-59.16666700",
                     Type = "department",
                     Cities = new()
                     {
@@ -77,9 +80,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Alto Paraná",
-                    StateCode = "10",
-                    Latitude = "-25.60755460",
-                    Longitude = "-54.96118360",
+                    StateCode = "",
+                    Latitude = "-25.50000000",
+                    Longitude = "-54.83333300",
                     Type = "department",
                     Cities = new()
                     {
@@ -100,9 +103,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Amambay",
-                    StateCode = "13",
-                    Latitude = "-22.55902720",
-                    Longitude = "-56.02499820",
+                    StateCode = "",
+                    Latitude = "-23.00000000",
+                    Longitude = "-56.00000000",
                     Type = "department",
                     Cities = new()
                     {
@@ -116,10 +119,10 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Asuncion",
-                    StateCode = "ASU",
-                    Latitude = "-25.29682970",
-                    Longitude = "-57.68066230",
-                    Type = "capital",
+                    StateCode = "",
+                    Latitude = "-25.28004590",
+                    Longitude = "-57.63438140",
+                    Type = "department",
                     Cities = new()
                     {
                     }
@@ -129,9 +132,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Boquerón",
-                    StateCode = "19",
-                    Latitude = "-21.74492540",
-                    Longitude = "-60.95400730",
+                    StateCode = "",
+                    Latitude = "-22.66430640",
+                    Longitude = "-61.00158770",
                     Type = "department",
                     Cities = new()
                     {
@@ -145,7 +148,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Caaguazú",
-                    StateCode = "5",
+                    StateCode = "",
                     Latitude = "-25.46458180",
                     Longitude = "-56.01385100",
                     Type = "department",
@@ -169,9 +172,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Caazapá",
-                    StateCode = "6",
-                    Latitude = "-26.18277130",
-                    Longitude = "-56.37123270",
+                    StateCode = "",
+                    Latitude = "-26.19733020",
+                    Longitude = "-56.36664220",
                     Type = "department",
                     Cities = new()
                     {
@@ -189,9 +192,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Canindeyú",
-                    StateCode = "14",
-                    Latitude = "-24.13787350",
-                    Longitude = "-55.66896360",
+                    StateCode = "",
+                    Latitude = "-24.25000000",
+                    Longitude = "-55.25000000",
                     Type = "department",
                     Cities = new()
                     {
@@ -209,9 +212,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Central",
-                    StateCode = "11",
-                    Latitude = "36.15592290",
-                    Longitude = "-95.96620750",
+                    StateCode = "",
+                    Latitude = "-25.50000000",
+                    Longitude = "-57.50000000",
                     Type = "department",
                     Cities = new()
                     {
@@ -221,15 +224,19 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Guarambaré", Latitude = "-25.49096000", Longitude = "-57.45567000" },
                         new() { Id = 5, Name = "Itá", Latitude = "-25.50054000", Longitude = "-57.36717000" },
                         new() { Id = 6, Name = "Itauguá", Latitude = "-25.39258000", Longitude = "-57.35421000" },
-                        new() { Id = 7, Name = "Lambaré", Latitude = "-25.34682000", Longitude = "-57.60647000" },
-                        new() { Id = 8, Name = "Limpio", Latitude = "-25.16611000", Longitude = "-57.48562000" },
-                        new() { Id = 9, Name = "Mariano Roque Alonso", Latitude = "-25.20791000", Longitude = "-57.53202000" },
-                        new() { Id = 10, Name = "Nemby", Latitude = "-25.39490000", Longitude = "-57.53574000" },
-                        new() { Id = 11, Name = "Nueva Italia", Latitude = "-25.61080000", Longitude = "-57.46563000" },
-                        new() { Id = 12, Name = "San Antonio", Latitude = "-25.42126000", Longitude = "-57.54725000" },
-                        new() { Id = 13, Name = "San Lorenzo", Latitude = "-25.33968000", Longitude = "-57.50879000" },
-                        new() { Id = 14, Name = "Villa Elisa", Latitude = "-25.36760000", Longitude = "-57.59274000" },
-                        new() { Id = 15, Name = "Ypacarai", Latitude = "-25.40777000", Longitude = "-57.28889000" }
+                        new() { Id = 7, Name = "Julián Augusto Saldívar", Latitude = "-25.44390000", Longitude = "-57.44304610" },
+                        new() { Id = 8, Name = "Lambaré", Latitude = "-25.34682000", Longitude = "-57.60647000" },
+                        new() { Id = 9, Name = "Limpio", Latitude = "-25.16611000", Longitude = "-57.48562000" },
+                        new() { Id = 10, Name = "Luque", Latitude = "-25.26654170", Longitude = "-57.49269280" },
+                        new() { Id = 11, Name = "Mariano Roque Alonso", Latitude = "-25.20791000", Longitude = "-57.53202000" },
+                        new() { Id = 12, Name = "Nemby", Latitude = "-25.39490000", Longitude = "-57.53574000" },
+                        new() { Id = 13, Name = "Nueva Italia", Latitude = "-25.61080000", Longitude = "-57.46563000" },
+                        new() { Id = 14, Name = "San Antonio", Latitude = "-25.42126000", Longitude = "-57.54725000" },
+                        new() { Id = 15, Name = "San Lorenzo", Latitude = "-25.33968000", Longitude = "-57.50879000" },
+                        new() { Id = 16, Name = "Villa Elisa", Latitude = "-25.36760000", Longitude = "-57.59274000" },
+                        new() { Id = 17, Name = "Villeta", Latitude = "-25.50451920", Longitude = "-57.56937890" },
+                        new() { Id = 18, Name = "Ypacarai", Latitude = "-25.40777000", Longitude = "-57.28889000" },
+                        new() { Id = 19, Name = "Ypané", Latitude = "-25.45735190", Longitude = "-57.50925750" }
                     }
                 },
 
@@ -237,9 +244,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Concepción",
-                    StateCode = "1",
-                    Latitude = "-23.42142640",
-                    Longitude = "-57.43444510",
+                    StateCode = "",
+                    Latitude = "-23.40682810",
+                    Longitude = "-57.44278020",
                     Type = "department",
                     Cities = new()
                     {
@@ -253,9 +260,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Cordillera",
-                    StateCode = "3",
-                    Latitude = "-25.22894910",
-                    Longitude = "-57.01116810",
+                    StateCode = "",
+                    Latitude = "-25.25000000",
+                    Longitude = "-57.00000000",
                     Type = "department",
                     Cities = new()
                     {
@@ -279,9 +286,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Guairá",
-                    StateCode = "4",
-                    Latitude = "-25.88109320",
-                    Longitude = "-56.29293810",
+                    StateCode = "",
+                    Latitude = "-25.75000000",
+                    Longitude = "-56.50000000",
                     Type = "department",
                     Cities = new()
                     {
@@ -300,9 +307,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Itapúa",
-                    StateCode = "7",
-                    Latitude = "-26.79236230",
-                    Longitude = "-55.66896360",
+                    StateCode = "",
+                    Latitude = "-26.83333300",
+                    Longitude = "-55.83333300",
                     Type = "department",
                     Cities = new()
                     {
@@ -334,9 +341,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Misiones",
-                    StateCode = "8",
-                    Latitude = "-26.84335120",
-                    Longitude = "-57.10131880",
+                    StateCode = "",
+                    Latitude = "-27.00000000",
+                    Longitude = "-57.00000000",
                     Type = "department",
                     Cities = new()
                     {
@@ -355,9 +362,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Ñeembucú",
-                    StateCode = "12",
-                    Latitude = "-27.02991140",
-                    Longitude = "-57.82539500",
+                    StateCode = "",
+                    Latitude = "-27.00000000",
+                    Longitude = "-58.00000000",
                     Type = "department",
                     Cities = new()
                     {
@@ -371,7 +378,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Paraguarí",
-                    StateCode = "9",
+                    StateCode = "",
                     Latitude = "-25.62621740",
                     Longitude = "-57.15206420",
                     Type = "department",
@@ -395,9 +402,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Presidente Hayes",
-                    StateCode = "15",
-                    Latitude = "-23.35126050",
-                    Longitude = "-58.73736340",
+                    StateCode = "",
+                    Latitude = "-23.50000000",
+                    Longitude = "-58.83333300",
                     Type = "department",
                     Cities = new()
                     {
@@ -411,9 +418,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "San Pedro",
-                    StateCode = "2",
-                    Latitude = "-24.19486680",
-                    Longitude = "-56.56164700",
+                    StateCode = "",
+                    Latitude = "-24.25000000",
+                    Longitude = "-56.50000000",
                     Type = "department",
                     Cities = new()
                     {

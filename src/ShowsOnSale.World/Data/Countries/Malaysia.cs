@@ -39,6 +39,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Malaysia",
                 ["ko"] = "말레이시아",
                 ["pt-BR"] = "Malásia",
                 ["pt"] = "Malásia",
@@ -54,7 +55,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Malezya",
                 ["ru"] = "Малайзия",
                 ["uk"] = "Малайзія",
-                ["pl"] = "Malezja"
+                ["pl"] = "Malezja",
+                ["hi"] = "मलेशिया",
+                ["ar"] = "ماليزيا"
             },
             States = new()
             {
@@ -63,9 +66,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Johor",
-                    StateCode = "01",
-                    Latitude = "1.48536820",
-                    Longitude = "103.76181540",
+                    StateCode = "",
+                    Latitude = "2.02288210",
+                    Longitude = "103.31145640",
                     Type = "state",
                     Cities = new()
                     {
@@ -107,9 +110,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Kedah",
-                    StateCode = "02",
-                    Latitude = "6.11839640",
-                    Longitude = "100.36845950",
+                    StateCode = "",
+                    Latitude = "5.80982650",
+                    Longitude = "100.67150350",
                     Type = "state",
                     Cities = new()
                     {
@@ -134,9 +137,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Kelantan",
-                    StateCode = "03",
-                    Latitude = "6.12539690",
-                    Longitude = "102.23807100",
+                    StateCode = "",
+                    Latitude = "5.40213020",
+                    Longitude = "102.06359720",
                     Type = "state",
                     Cities = new()
                     {
@@ -154,9 +157,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Kuala Lumpur",
-                    StateCode = "14",
-                    Latitude = "3.13900300",
-                    Longitude = "101.68685500",
+                    StateCode = "",
+                    Latitude = "3.15169640",
+                    Longitude = "101.69423710",
                     Type = "federal territory",
                     Cities = new()
                     {
@@ -168,9 +171,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Labuan",
-                    StateCode = "15",
-                    Latitude = "5.28314560",
-                    Longitude = "115.23082500",
+                    StateCode = "",
+                    Latitude = "5.31683360",
+                    Longitude = "115.21986130",
                     Type = "federal territory",
                     Cities = new()
                     {
@@ -182,7 +185,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Malacca",
-                    StateCode = "04",
+                    StateCode = "",
                     Latitude = "2.18959400",
                     Longitude = "102.25008680",
                     Type = "state",
@@ -208,9 +211,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Negeri Sembilan",
-                    StateCode = "05",
-                    Latitude = "2.72580580",
-                    Longitude = "101.94237820",
+                    StateCode = "",
+                    Latitude = "2.78318950",
+                    Longitude = "102.19253190",
                     Type = "state",
                     Cities = new()
                     {
@@ -227,9 +230,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Pahang",
-                    StateCode = "06",
-                    Latitude = "3.81263180",
-                    Longitude = "103.32562040",
+                    StateCode = "",
+                    Latitude = "3.61688220",
+                    Longitude = "102.59945470",
                     Type = "state",
                     Cities = new()
                     {
@@ -251,9 +254,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Penang",
-                    StateCode = "07",
-                    Latitude = "5.41639350",
-                    Longitude = "100.33267860",
+                    StateCode = "",
+                    Latitude = "5.40650130",
+                    Longitude = "100.25590770",
                     Type = "state",
                     Cities = new()
                     {
@@ -279,9 +282,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Perak",
-                    StateCode = "08",
-                    Latitude = "4.59211260",
-                    Longitude = "101.09010900",
+                    StateCode = "",
+                    Latitude = "4.81218100",
+                    Longitude = "100.97979080",
                     Type = "state",
                     Cities = new()
                     {
@@ -306,9 +309,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Perlis",
-                    StateCode = "09",
-                    Latitude = "29.92270940",
-                    Longitude = "-90.12285590",
+                    StateCode = "",
+                    Latitude = "6.48683920",
+                    Longitude = "100.25776230",
                     Type = "state",
                     Cities = new()
                     {
@@ -322,9 +325,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Putrajaya",
-                    StateCode = "16",
-                    Latitude = "2.92636100",
-                    Longitude = "101.69644500",
+                    StateCode = "",
+                    Latitude = "2.93843810",
+                    Longitude = "101.69223000",
                     Type = "federal territory",
                     Cities = new()
                     {
@@ -336,9 +339,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Sabah",
-                    StateCode = "12",
-                    Latitude = "5.97883980",
-                    Longitude = "116.07531990",
+                    StateCode = "",
+                    Latitude = "5.42573590",
+                    Longitude = "117.03263920",
                     Type = "state",
                     Cities = new()
                     {
@@ -365,9 +368,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Sarawak",
-                    StateCode = "13",
-                    Latitude = "1.55327830",
-                    Longitude = "110.35921270",
+                    StateCode = "",
+                    Latitude = "2.50238550",
+                    Longitude = "112.95472830",
                     Type = "state",
                     Cities = new()
                     {
@@ -392,9 +395,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Selangor",
-                    StateCode = "10",
-                    Latitude = "3.07383790",
-                    Longitude = "101.51834690",
+                    StateCode = "",
+                    Latitude = "3.20833040",
+                    Longitude = "101.30414600",
                     Type = "state",
                     Cities = new()
                     {
@@ -430,9 +433,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Terengganu",
-                    StateCode = "11",
-                    Latitude = "5.31169160",
-                    Longitude = "103.13241540",
+                    StateCode = "",
+                    Latitude = "4.86307430",
+                    Longitude = "102.99492970",
                     Type = "state",
                     Cities = new()
                     {

@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 106,
+            Id = 105,
             Name = "Israel",
             Iso3 = "ISR",
             Iso2 = "IL",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Israel",
                 ["ko"] = "이스라엘",
                 ["pt-BR"] = "Israel",
                 ["pt"] = "Israel",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "İsrail",
                 ["ru"] = "Израиль",
                 ["uk"] = "Ізраїль",
-                ["pl"] = "Izrael"
+                ["pl"] = "Izrael",
+                ["hi"] = "इज़राइल",
+                ["ar"] = "إسرائيل"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Central",
-                    StateCode = "M",
-                    Latitude = "47.60875830",
-                    Longitude = "-122.29642350",
+                    StateCode = "",
+                    Latitude = "-25.34820600",
+                    Longitude = "-57.56961500",
                     Type = "district",
                     Cities = new()
                     {
@@ -115,9 +118,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Haifa",
-                    StateCode = "HA",
-                    Latitude = "32.48141110",
-                    Longitude = "34.99475100",
+                    StateCode = "",
+                    Latitude = "32.63042970",
+                    Longitude = "34.98009920",
                     Type = "district",
                     Cities = new()
                     {
@@ -143,9 +146,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Jerusalem",
-                    StateCode = "JM",
-                    Latitude = "31.76482430",
-                    Longitude = "34.99475100",
+                    StateCode = "",
+                    Latitude = "31.74282530",
+                    Longitude = "35.06406900",
                     Type = "district",
                     Cities = new()
                     {
@@ -164,9 +167,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Northern",
-                    StateCode = "Z",
-                    Latitude = "36.15118640",
-                    Longitude = "-95.99517630",
+                    StateCode = "",
+                    Latitude = "33.06018330",
+                    Longitude = "35.24481950",
                     Type = "district",
                     Cities = new()
                     {
@@ -233,9 +236,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Southern",
-                    StateCode = "D",
-                    Latitude = "40.71375860",
-                    Longitude = "-74.00090590",
+                    StateCode = "",
+                    Latitude = "30.68233340",
+                    Longitude = "34.88242290",
                     Type = "district",
                     Cities = new()
                     {
@@ -262,7 +265,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Tel Aviv",
-                    StateCode = "TA",
+                    StateCode = "",
                     Latitude = "32.09290750",
                     Longitude = "34.80721650",
                     Type = "district",

@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Belarus",
                 ["ko"] = "벨라루스",
                 ["pt-BR"] = "Bielorrússia",
                 ["pt"] = "Bielorrússia",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Belarus",
                 ["ru"] = "Беларусь",
                 ["uk"] = "Білорусь",
-                ["pl"] = "Białoruś"
+                ["pl"] = "Białoruś",
+                ["hi"] = "बेलोरूस",
+                ["ar"] = "بيلاروسيا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Brest",
-                    StateCode = "BR",
-                    Latitude = "52.52966410",
-                    Longitude = "25.46064800",
+                    StateCode = "",
+                    Latitude = "52.09375100",
+                    Longitude = "23.68518510",
                     Type = "oblast",
                     Cities = new()
                     {
@@ -120,9 +123,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Gomel",
-                    StateCode = "HO",
-                    Latitude = "52.16487540",
-                    Longitude = "29.13332510",
+                    StateCode = "",
+                    Latitude = "52.42389360",
+                    Longitude = "31.01316980",
                     Type = "oblast",
                     Cities = new()
                     {
@@ -172,9 +175,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Grodno",
-                    StateCode = "HR",
-                    Latitude = "53.65999450",
-                    Longitude = "25.34485710",
+                    StateCode = "",
+                    Latitude = "53.68345990",
+                    Longitude = "23.83426480",
                     Type = "oblast",
                     Cities = new()
                     {
@@ -225,9 +228,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Minsk",
-                    StateCode = "MI",
-                    Latitude = "54.10678890",
-                    Longitude = "27.41292450",
+                    StateCode = "",
+                    Latitude = "53.90247160",
+                    Longitude = "27.56182250",
                     Type = "oblast",
                     Cities = new()
                     {
@@ -339,9 +342,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Minsk",
-                    StateCode = "HM",
-                    Latitude = "53.90060110",
-                    Longitude = "27.55897200",
+                    StateCode = "",
+                    Latitude = "53.90247160",
+                    Longitude = "27.56182250",
                     Type = "city",
                     Cities = new()
                     {
@@ -361,9 +364,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Mogilev",
-                    StateCode = "MA",
-                    Latitude = "53.51017910",
-                    Longitude = "30.40064440",
+                    StateCode = "",
+                    Latitude = "53.90902450",
+                    Longitude = "30.34298380",
                     Type = "oblast",
                     Cities = new()
                     {
@@ -421,9 +424,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Vitebsk",
-                    StateCode = "VI",
-                    Latitude = "55.29598330",
-                    Longitude = "28.75836270",
+                    StateCode = "",
+                    Latitude = "55.23819720",
+                    Longitude = "28.77422030",
                     Type = "oblast",
                     Cities = new()
                     {

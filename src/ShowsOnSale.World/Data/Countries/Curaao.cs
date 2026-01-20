@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 56,
+            Id = 55,
             Name = "Curaçao",
             Iso3 = "CUW",
             Iso2 = "CW",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Curaçao",
                 ["ko"] = "퀴라소",
                 ["pt-BR"] = "Curaçao",
                 ["pt"] = "Curaçao",
@@ -50,7 +51,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Curaçao",
                 ["ru"] = "Кюрасао",
                 ["uk"] = "Кюрасао",
-                ["pl"] = "Curaçao"
+                ["pl"] = "Curaçao",
+                ["hi"] = "कुराकाओ",
+                ["ar"] = "كوراساو"
             },
             States = new()
             {

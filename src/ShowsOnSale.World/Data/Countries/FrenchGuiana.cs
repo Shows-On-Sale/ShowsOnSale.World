@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 77,
+            Id = 76,
             Name = "French Guiana",
             Iso3 = "GUF",
             Iso2 = "GF",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Gwiana",
                 ["ko"] = "프랑스령 기아나",
                 ["pt-BR"] = "Guiana Francesa",
                 ["pt"] = "Guiana Francesa",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Fransiz Guyanasi",
                 ["ru"] = "Французская Гвиана",
                 ["uk"] = "Французька Гвіана",
-                ["pl"] = "Gujana Francuska"
+                ["pl"] = "Gujana Francuska",
+                ["hi"] = "फ्रेंच गुआना",
+                ["ar"] = "غويانا الفرنسية"
             },
             States = new()
             {

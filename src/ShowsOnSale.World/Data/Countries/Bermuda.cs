@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Bermuda",
                 ["ko"] = "버뮤다",
                 ["pt-BR"] = "Bermudas",
                 ["pt"] = "Bermudas",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Bermuda",
                 ["ru"] = "Бермуды",
                 ["uk"] = "Бермудські острови",
-                ["pl"] = "Bermudy"
+                ["pl"] = "Bermudy",
+                ["hi"] = "बरमूडा",
+                ["ar"] = "برمودا"
             },
             States = new()
             {
@@ -62,7 +65,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Devonshire",
-                    StateCode = "DEV",
+                    StateCode = "",
                     Latitude = "32.30380620",
                     Longitude = "-64.76069540",
                     Type = "municipality",
@@ -76,9 +79,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Hamilton",
-                    StateCode = "HA",
-                    Latitude = "32.34494320",
-                    Longitude = "-64.72365000",
+                    StateCode = "",
+                    Latitude = "32.33799060",
+                    Longitude = "-64.73575560",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -90,7 +93,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Paget",
-                    StateCode = "PAG",
+                    StateCode = "",
                     Latitude = "32.28107400",
                     Longitude = "-64.77847870",
                     Type = "municipality",
@@ -104,7 +107,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Pembroke",
-                    StateCode = "PEM",
+                    StateCode = "",
                     Latitude = "32.30076720",
                     Longitude = "-64.79626300",
                     Type = "municipality",
@@ -117,14 +120,14 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Saint George's",
-                    StateCode = "SGE",
-                    Latitude = "17.12577590",
-                    Longitude = "-62.56198110",
+                    StateCode = "",
+                    Latitude = "32.37226890",
+                    Longitude = "-64.69850200",
                     Type = "municipality",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "St. George's", Latitude = "32.38100000", Longitude = "-64.67400000" },
-                        new() { Id = 2, Name = "Tucker’s Town", Latitude = "32.33280000", Longitude = "64.68810000" }
+                        new() { Id = 2, Name = "Tucker’s Town", Latitude = "32.33280000", Longitude = "-64.68810000" }
                     }
                 },
 
@@ -132,7 +135,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Sandys",
-                    StateCode = "SAN",
+                    StateCode = "",
                     Latitude = "32.29995280",
                     Longitude = "-64.86741030",
                     Type = "municipality",
@@ -146,7 +149,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Smith's",
-                    StateCode = "SMI",
+                    StateCode = "",
                     Latitude = "32.31339660",
                     Longitude = "-64.73105880",
                     Type = "municipality",
@@ -160,9 +163,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Southampton",
-                    StateCode = "SOU",
-                    Latitude = "32.25400950",
-                    Longitude = "-64.82590580",
+                    StateCode = "",
+                    Latitude = "32.25179590",
+                    Longitude = "-64.84969890",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -174,7 +177,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Warwick",
-                    StateCode = "WAR",
+                    StateCode = "",
                     Latitude = "32.26615340",
                     Longitude = "-64.80811980",
                     Type = "municipality",

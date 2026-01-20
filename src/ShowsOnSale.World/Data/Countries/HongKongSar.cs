@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 98,
+            Id = 97,
             Name = "Hong Kong S.A.R.",
             Iso3 = "HKG",
             Iso2 = "HK",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Hong Kong",
                 ["ko"] = "홍콩",
                 ["pt-BR"] = "Hong Kong",
                 ["pt"] = "Hong Kong",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Hong Kong",
                 ["ru"] = "Гонконг С.А.Р.",
                 ["uk"] = "Гонконг САР.",
-                ["pl"] = "Hongkong S.A.R."
+                ["pl"] = "Hongkong S.A.R.",
+                ["hi"] = "हांगकांग एस.ए.आर.",
+                ["ar"] = "هونغ كونغ س."
             },
             States = new()
             {
@@ -62,7 +65,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Central and Western",
-                    StateCode = "HCW",
+                    StateCode = "",
                     Latitude = "22.28666000",
                     Longitude = "114.15497000",
                     Type = "district",
@@ -77,7 +80,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Eastern",
-                    StateCode = "HEA",
+                    StateCode = "",
                     Latitude = "22.28411000",
                     Longitude = "114.22414000",
                     Type = "district",
@@ -90,7 +93,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Islands",
-                    StateCode = "NIS",
+                    StateCode = "",
                     Latitude = "22.26114000",
                     Longitude = "113.94608000",
                     Type = "district",
@@ -104,7 +107,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Kowloon City",
-                    StateCode = "KKC",
+                    StateCode = "",
                     Latitude = "22.32820000",
                     Longitude = "114.19155000",
                     Type = "district",
@@ -118,9 +121,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Kwai Tsing",
-                    StateCode = "NKT",
-                    Latitude = "22.35488000",
-                    Longitude = "114.08401000",
+                    StateCode = "",
+                    Latitude = "22.36343030",
+                    Longitude = "114.12298250",
                     Type = "district",
                     Cities = new()
                     {
@@ -131,7 +134,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Kwun Tong",
-                    StateCode = "KKT",
+                    StateCode = "",
                     Latitude = "22.31326000",
                     Longitude = "114.22581000",
                     Type = "district",
@@ -146,7 +149,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "North",
-                    StateCode = "NNO",
+                    StateCode = "",
                     Latitude = "22.49471000",
                     Longitude = "114.13812000",
                     Type = "district",
@@ -160,9 +163,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Sai Kung",
-                    StateCode = "NSK",
-                    Latitude = "22.38143000",
-                    Longitude = "114.27052000",
+                    StateCode = "",
+                    Latitude = "21.67305190",
+                    Longitude = "108.39543130",
                     Type = "district",
                     Cities = new()
                     {
@@ -175,7 +178,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Sha Tin",
-                    StateCode = "NST",
+                    StateCode = "",
                     Latitude = "22.38715000",
                     Longitude = "114.19534000",
                     Type = "district",
@@ -191,9 +194,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Sham Shui Po",
-                    StateCode = "KSS",
-                    Latitude = "22.33074000",
-                    Longitude = "114.16220000",
+                    StateCode = "",
+                    Latitude = "22.23573830",
+                    Longitude = "114.16981620",
                     Type = "district",
                     Cities = new()
                     {
@@ -206,7 +209,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Southern",
-                    StateCode = "HSO",
+                    StateCode = "",
                     Latitude = "22.24725000",
                     Longitude = "114.15884000",
                     Type = "district",
@@ -222,7 +225,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Tai Po",
-                    StateCode = "NTP",
+                    StateCode = "",
                     Latitude = "22.45085000",
                     Longitude = "114.16422000",
                     Type = "district",
@@ -237,14 +240,14 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Tsuen Wan",
-                    StateCode = "NTW",
+                    StateCode = "",
                     Latitude = "22.36281000",
                     Longitude = "114.12907000",
                     Type = "district",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Tsuen Wan", Latitude = "22.37100000", Longitude = "114.11400000" },
-                        new() { Id = 2, Name = "Tuen Mun	", Latitude = "22.39500000", Longitude = "113.97300000" }
+                        new() { Id = 2, Name = "Tuen Mun", Latitude = "22.39500000", Longitude = "113.97300000" }
                     }
                 },
 
@@ -252,7 +255,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Tuen Mun",
-                    StateCode = "NTM",
+                    StateCode = "",
                     Latitude = "22.39163000",
                     Longitude = "113.97708850",
                     Type = "district",
@@ -265,9 +268,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Wan Chai",
-                    StateCode = "HWC",
-                    Latitude = "22.27968000",
-                    Longitude = "114.17168000",
+                    StateCode = "",
+                    Latitude = "22.26449900",
+                    Longitude = "114.18982160",
                     Type = "district",
                     Cities = new()
                     {
@@ -280,7 +283,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Wong Tai Sin",
-                    StateCode = "KWT",
+                    StateCode = "",
                     Latitude = "22.33353000",
                     Longitude = "114.19686000",
                     Type = "district",
@@ -294,7 +297,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Yau Tsim Mong",
-                    StateCode = "KYT",
+                    StateCode = "",
                     Latitude = "22.32138000",
                     Longitude = "114.17260000",
                     Type = "district",
@@ -309,9 +312,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Yuen Long",
-                    StateCode = "NYL",
-                    Latitude = "22.44559000",
-                    Longitude = "114.02218000",
+                    StateCode = "",
+                    Latitude = "22.44870510",
+                    Longitude = "114.09587040",
                     Type = "district",
                     Cities = new()
                     {

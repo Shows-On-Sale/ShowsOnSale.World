@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 107,
+            Id = 106,
             Name = "Italy",
             Iso3 = "ITA",
             Iso2 = "IT",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Italia",
                 ["ko"] = "이탈리아",
                 ["pt-BR"] = "Itália",
                 ["pt"] = "Itália",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "İtalya",
                 ["ru"] = "Италия",
                 ["uk"] = "Італія",
-                ["pl"] = "Włochy"
+                ["pl"] = "Włochy",
+                ["hi"] = "इटली",
+                ["ar"] = "إيطاليا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Abruzzo",
-                    StateCode = "65",
-                    Latitude = "42.19201190",
-                    Longitude = "13.72891670",
+                    StateCode = "",
+                    Latitude = "42.22768100",
+                    Longitude = "13.85498300",
                     Type = "region",
                     Cities = new()
                     {
@@ -426,9 +429,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Agrigento",
-                    StateCode = "AG",
-                    Latitude = "37.31052020",
-                    Longitude = "13.58579780",
+                    StateCode = "",
+                    Latitude = "37.31229910",
+                    Longitude = "13.57465000",
                     Type = "free municipal consortium",
                     Cities = new()
                     {
@@ -439,9 +442,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Alessandria",
-                    StateCode = "AL",
-                    Latitude = "44.81755870",
-                    Longitude = "8.70466270",
+                    StateCode = "",
+                    Latitude = "44.83495330",
+                    Longitude = "8.74503040",
                     Type = "province",
                     Cities = new()
                     {
@@ -452,9 +455,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Ancona",
-                    StateCode = "AN",
-                    Latitude = "43.54932450",
-                    Longitude = "13.26634790",
+                    StateCode = "",
+                    Latitude = "43.48011890",
+                    Longitude = "13.21872790",
                     Type = "province",
                     Cities = new()
                     {
@@ -465,9 +468,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Aosta Valley",
-                    StateCode = "23",
-                    Latitude = "45.73888780",
-                    Longitude = "7.42618660",
+                    StateCode = "",
+                    Latitude = "45.73009900",
+                    Longitude = "7.38742600",
                     Type = "autonomous region",
                     Cities = new()
                     {
@@ -569,9 +572,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Apulia",
-                    StateCode = "75",
-                    Latitude = "40.79283930",
-                    Longitude = "17.10119310",
+                    StateCode = "",
+                    Latitude = "40.98425390",
+                    Longitude = "16.62100270",
                     Type = "region",
                     Cities = new()
                     {
@@ -880,9 +883,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Arezzo",
-                    StateCode = "AR",
-                    Latitude = "43.51625330",
-                    Longitude = "11.22368720",
+                    StateCode = "",
+                    Latitude = "43.51714420",
+                    Longitude = "11.76392820",
                     Type = "province",
                     Cities = new()
                     {
@@ -893,9 +896,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Ascoli Piceno",
-                    StateCode = "AP",
-                    Latitude = "42.86389330",
-                    Longitude = "13.58997330",
+                    StateCode = "",
+                    Latitude = "42.85461850",
+                    Longitude = "13.57550380",
                     Type = "province",
                     Cities = new()
                     {
@@ -906,7 +909,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Asti",
-                    StateCode = "AT",
+                    StateCode = "",
                     Latitude = "44.90076520",
                     Longitude = "8.20643150",
                     Type = "province",
@@ -919,9 +922,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Avellino",
-                    StateCode = "AV",
-                    Latitude = "40.99645100",
-                    Longitude = "15.12589550",
+                    StateCode = "",
+                    Latitude = "40.99654460",
+                    Longitude = "15.14056900",
                     Type = "province",
                     Cities = new()
                     {
@@ -931,10 +934,23 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 11,
+                    Name = "Bari",
+                    StateCode = "",
+                    Latitude = "41.11714300",
+                    Longitude = "16.87187200",
+                    Type = "metropolitan city",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 12,
                     Name = "Barletta-Andria-Trani",
-                    StateCode = "BT",
-                    Latitude = "41.20045430",
-                    Longitude = "16.20514840",
+                    StateCode = "",
+                    Latitude = "41.18017200",
+                    Longitude = "16.14664080",
                     Type = "province",
                     Cities = new()
                     {
@@ -953,11 +969,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 12,
+                    Id = 13,
                     Name = "Basilicata",
-                    StateCode = "77",
-                    Latitude = "40.64307660",
-                    Longitude = "15.96998780",
+                    StateCode = "",
+                    Latitude = "40.50057100",
+                    Longitude = "16.08195300",
                     Type = "region",
                     Cities = new()
                     {
@@ -1107,24 +1123,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 13,
-                    Name = "Belluno",
-                    StateCode = "BL",
-                    Latitude = "46.24976590",
-                    Longitude = "12.19695650",
-                    Type = "province",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
                     Id = 14,
-                    Name = "Benevento",
-                    StateCode = "BN",
-                    Latitude = "41.20350930",
-                    Longitude = "14.75209390",
+                    Name = "Belluno",
+                    StateCode = "",
+                    Latitude = "46.28054070",
+                    Longitude = "12.07891370",
                     Type = "province",
                     Cities = new()
                     {
@@ -1134,8 +1137,21 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 15,
+                    Name = "Benevento",
+                    StateCode = "",
+                    Latitude = "41.24763070",
+                    Longitude = "14.70570540",
+                    Type = "province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 16,
                     Name = "Bergamo",
-                    StateCode = "BG",
+                    StateCode = "",
                     Latitude = "45.69826420",
                     Longitude = "9.67726980",
                     Type = "province",
@@ -1146,9 +1162,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 16,
+                    Id = 17,
                     Name = "Biella",
-                    StateCode = "BI",
+                    StateCode = "",
                     Latitude = "45.56281760",
                     Longitude = "8.05827170",
                     Type = "province",
@@ -1159,9 +1175,22 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 17,
+                    Id = 18,
+                    Name = "Bologna",
+                    StateCode = "",
+                    Latitude = "44.49488700",
+                    Longitude = "11.34262100",
+                    Type = "metropolitan city",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 19,
                     Name = "Brescia",
-                    StateCode = "BS",
+                    StateCode = "",
                     Latitude = "45.54155260",
                     Longitude = "10.21180190",
                     Type = "province",
@@ -1172,11 +1201,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 18,
+                    Id = 20,
                     Name = "Brindisi",
-                    StateCode = "BR",
-                    Latitude = "40.61126630",
-                    Longitude = "17.76362100",
+                    StateCode = "",
+                    Latitude = "40.63585990",
+                    Longitude = "17.68849750",
                     Type = "province",
                     Cities = new()
                     {
@@ -1185,11 +1214,24 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 19,
+                    Id = 21,
+                    Name = "Cagliari",
+                    StateCode = "",
+                    Latitude = "39.22380400",
+                    Longitude = "9.12166700",
+                    Type = "metropolitan city",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 22,
                     Name = "Calabria",
-                    StateCode = "78",
-                    Latitude = "39.30877140",
-                    Longitude = "16.34637910",
+                    StateCode = "",
+                    Latitude = "39.05659740",
+                    Longitude = "16.52498640",
                     Type = "region",
                     Cities = new()
                     {
@@ -1705,9 +1747,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 20,
+                    Id = 23,
                     Name = "Caltanissetta",
-                    StateCode = "CL",
+                    StateCode = "",
                     Latitude = "37.48601300",
                     Longitude = "14.06149820",
                     Type = "free municipal consortium",
@@ -1718,11 +1760,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 21,
+                    Id = 24,
                     Name = "Campania",
-                    StateCode = "72",
-                    Latitude = "40.66708870",
-                    Longitude = "15.10681130",
+                    StateCode = "",
+                    Latitude = "40.86067200",
+                    Longitude = "14.84398400",
                     Type = "region",
                     Cities = new()
                     {
@@ -2423,50 +2465,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 22,
-                    Name = "Campobasso",
-                    StateCode = "CB",
-                    Latitude = "41.67388650",
-                    Longitude = "14.75209390",
-                    Type = "province",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 23,
-                    Name = "Caserta",
-                    StateCode = "CE",
-                    Latitude = "41.20783540",
-                    Longitude = "14.10013260",
-                    Type = "province",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 24,
-                    Name = "Catanzaro",
-                    StateCode = "CZ",
-                    Latitude = "38.88963480",
-                    Longitude = "16.44058720",
-                    Type = "province",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
                     Id = 25,
-                    Name = "Chieti",
-                    StateCode = "CH",
-                    Latitude = "42.03344280",
-                    Longitude = "14.37919120",
+                    Name = "Campobasso",
+                    StateCode = "",
+                    Latitude = "41.71726480",
+                    Longitude = "14.82622670",
                     Type = "province",
                     Cities = new()
                     {
@@ -2476,8 +2479,60 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 26,
+                    Name = "Caserta",
+                    StateCode = "",
+                    Latitude = "41.20351920",
+                    Longitude = "14.11686240",
+                    Type = "province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 27,
+                    Name = "Catania",
+                    StateCode = "",
+                    Latitude = "37.50287800",
+                    Longitude = "15.08704200",
+                    Type = "metropolitan city",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 28,
+                    Name = "Catanzaro",
+                    StateCode = "",
+                    Latitude = "38.82996030",
+                    Longitude = "16.43155690",
+                    Type = "province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 29,
+                    Name = "Chieti",
+                    StateCode = "",
+                    Latitude = "42.10269280",
+                    Longitude = "14.41590530",
+                    Type = "province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 30,
                     Name = "Como",
-                    StateCode = "CO",
+                    StateCode = "",
                     Latitude = "45.80804160",
                     Longitude = "9.08517930",
                     Type = "province",
@@ -2488,63 +2543,63 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 27,
-                    Name = "Cosenza",
-                    StateCode = "CS",
-                    Latitude = "39.56441050",
-                    Longitude = "16.25221430",
-                    Type = "province",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 28,
-                    Name = "Cremona",
-                    StateCode = "CR",
-                    Latitude = "45.20143750",
-                    Longitude = "9.98365820",
-                    Type = "province",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 29,
-                    Name = "Crotone",
-                    StateCode = "KR",
-                    Latitude = "39.13098560",
-                    Longitude = "17.00670310",
-                    Type = "province",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 30,
-                    Name = "Cuneo",
-                    StateCode = "CN",
-                    Latitude = "44.59703140",
-                    Longitude = "7.61142170",
-                    Type = "province",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
                     Id = 31,
+                    Name = "Cosenza",
+                    StateCode = "",
+                    Latitude = "39.59668530",
+                    Longitude = "16.33305560",
+                    Type = "province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 32,
+                    Name = "Cremona",
+                    StateCode = "",
+                    Latitude = "45.22086410",
+                    Longitude = "10.03703800",
+                    Type = "province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 33,
+                    Name = "Crotone",
+                    StateCode = "",
+                    Latitude = "39.08062230",
+                    Longitude = "17.12719600",
+                    Type = "province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 34,
+                    Name = "Cuneo",
+                    StateCode = "",
+                    Latitude = "44.45807030",
+                    Longitude = "7.55813670",
+                    Type = "province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 35,
                     Name = "Emilia-Romagna",
-                    StateCode = "45",
-                    Latitude = "44.59676070",
-                    Longitude = "11.21863960",
+                    StateCode = "",
+                    Latitude = "44.52569600",
+                    Longitude = "11.03943700",
                     Type = "region",
                     Cities = new()
                     {
@@ -3091,9 +3146,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 32,
+                    Id = 36,
                     Name = "Enna",
-                    StateCode = "EN",
+                    StateCode = "",
                     Latitude = "37.56762160",
                     Longitude = "14.27953490",
                     Type = "free municipal consortium",
@@ -3104,63 +3159,76 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 33,
-                    Name = "Fermo",
-                    StateCode = "FM",
-                    Latitude = "43.09313670",
-                    Longitude = "13.58997330",
-                    Type = "province",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 34,
-                    Name = "Ferrara",
-                    StateCode = "FE",
-                    Latitude = "44.76636800",
-                    Longitude = "11.76440680",
-                    Type = "province",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 35,
-                    Name = "Foggia",
-                    StateCode = "FG",
-                    Latitude = "41.63844800",
-                    Longitude = "15.59433880",
-                    Type = "province",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 36,
-                    Name = "Forlì-Cesena",
-                    StateCode = "FC",
-                    Latitude = "43.99476810",
-                    Longitude = "11.98046130",
-                    Type = "province",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
                     Id = 37,
+                    Name = "Fermo",
+                    StateCode = "",
+                    Latitude = "43.09224890",
+                    Longitude = "13.63876810",
+                    Type = "province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 38,
+                    Name = "Ferrara",
+                    StateCode = "",
+                    Latitude = "44.76676420",
+                    Longitude = "11.82793900",
+                    Type = "province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 39,
+                    Name = "Florence",
+                    StateCode = "",
+                    Latitude = "43.76923100",
+                    Longitude = "11.25588400",
+                    Type = "metropolitan city",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 40,
+                    Name = "Foggia",
+                    StateCode = "",
+                    Latitude = "41.50281050",
+                    Longitude = "15.45289390",
+                    Type = "province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 41,
+                    Name = "Forlì-Cesena",
+                    StateCode = "",
+                    Latitude = "44.02271930",
+                    Longitude = "12.01410360",
+                    Type = "province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 42,
                     Name = "Friuli–Venezia Giulia",
-                    StateCode = "36",
-                    Latitude = "46.22591770",
-                    Longitude = "13.10336460",
+                    StateCode = "",
+                    Latitude = "46.15104200",
+                    Longitude = "13.05590400",
                     Type = "autonomous region",
                     Cities = new()
                     {
@@ -3440,76 +3508,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 38,
-                    Name = "Frosinone",
-                    StateCode = "FR",
-                    Latitude = "41.65765280",
-                    Longitude = "13.63627150",
-                    Type = "province",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 39,
-                    Name = "Gorizia",
-                    StateCode = "GO",
-                    Latitude = "45.90538990",
-                    Longitude = "13.51637250",
-                    Type = "decentralized regional entity",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 40,
-                    Name = "Grosseto",
-                    StateCode = "GR",
-                    Latitude = "42.85180070",
-                    Longitude = "11.25237920",
-                    Type = "province",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 41,
-                    Name = "Imperia",
-                    StateCode = "IM",
-                    Latitude = "43.94186600",
-                    Longitude = "7.82863680",
-                    Type = "province",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 42,
-                    Name = "Isernia",
-                    StateCode = "IS",
-                    Latitude = "41.58915550",
-                    Longitude = "14.19309180",
-                    Type = "province",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
                     Id = 43,
-                    Name = "L'Aquila",
-                    StateCode = "AQ",
-                    Latitude = "42.12563170",
-                    Longitude = "13.63627150",
+                    Name = "Frosinone",
+                    StateCode = "",
+                    Latitude = "41.62854680",
+                    Longitude = "13.57584980",
                     Type = "province",
                     Cities = new()
                     {
@@ -3519,11 +3522,11 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 44,
-                    Name = "La Spezia",
-                    StateCode = "SP",
-                    Latitude = "44.24479130",
-                    Longitude = "9.76786870",
-                    Type = "province",
+                    Name = "Genoa",
+                    StateCode = "",
+                    Latitude = "44.41149100",
+                    Longitude = "8.93285900",
+                    Type = "metropolitan city",
                     Cities = new()
                     {
                     }
@@ -3532,11 +3535,11 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 45,
-                    Name = "Latina",
-                    StateCode = "LT",
-                    Latitude = "41.40874760",
-                    Longitude = "13.08179030",
-                    Type = "province",
+                    Name = "Gorizia",
+                    StateCode = "",
+                    Latitude = "45.86252100",
+                    Longitude = "13.49792590",
+                    Type = "decentralized regional entity",
                     Cities = new()
                     {
                     }
@@ -3545,10 +3548,88 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 46,
+                    Name = "Grosseto",
+                    StateCode = "",
+                    Latitude = "42.77511020",
+                    Longitude = "11.28780440",
+                    Type = "province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 47,
+                    Name = "Imperia",
+                    StateCode = "",
+                    Latitude = "43.95837530",
+                    Longitude = "7.86674270",
+                    Type = "province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 48,
+                    Name = "Isernia",
+                    StateCode = "",
+                    Latitude = "41.60017500",
+                    Longitude = "14.23830170",
+                    Type = "province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 49,
+                    Name = "L'Aquila",
+                    StateCode = "",
+                    Latitude = "42.13688530",
+                    Longitude = "13.61034100",
+                    Type = "province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 50,
+                    Name = "La Spezia",
+                    StateCode = "",
+                    Latitude = "44.23836600",
+                    Longitude = "9.69123260",
+                    Type = "province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 51,
+                    Name = "Latina",
+                    StateCode = "",
+                    Latitude = "41.45952610",
+                    Longitude = "13.01259120",
+                    Type = "province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 52,
                     Name = "Lazio",
-                    StateCode = "62",
-                    Latitude = "41.81224100",
-                    Longitude = "12.73851000",
+                    StateCode = "",
+                    Latitude = "41.98080380",
+                    Longitude = "12.76623120",
                     Type = "region",
                     Cities = new()
                     {
@@ -4062,11 +4143,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 47,
+                    Id = 53,
                     Name = "Lecce",
-                    StateCode = "LE",
-                    Latitude = "40.23473930",
-                    Longitude = "18.14286690",
+                    StateCode = "",
+                    Latitude = "40.15221730",
+                    Longitude = "18.22606280",
                     Type = "province",
                     Cities = new()
                     {
@@ -4075,11 +4156,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 48,
+                    Id = 54,
                     Name = "Lecco",
-                    StateCode = "LC",
-                    Latitude = "45.93829410",
-                    Longitude = "9.38572900",
+                    StateCode = "",
+                    Latitude = "45.90054850",
+                    Longitude = "9.41202480",
                     Type = "province",
                     Cities = new()
                     {
@@ -4088,11 +4169,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 49,
+                    Id = 55,
                     Name = "Liguria",
-                    StateCode = "42",
-                    Latitude = "44.31679170",
-                    Longitude = "8.39649380",
+                    StateCode = "",
+                    Latitude = "44.47776170",
+                    Longitude = "8.70262960",
                     Type = "region",
                     Cities = new()
                     {
@@ -4378,11 +4459,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 50,
+                    Id = 56,
                     Name = "Livorno",
-                    StateCode = "LI",
-                    Latitude = "43.02398480",
-                    Longitude = "10.66471010",
+                    StateCode = "",
+                    Latitude = "42.79023790",
+                    Longitude = "10.34022390",
                     Type = "province",
                     Cities = new()
                     {
@@ -4391,11 +4472,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 51,
+                    Id = 57,
                     Name = "Lodi",
-                    StateCode = "LO",
-                    Latitude = "45.24050360",
-                    Longitude = "9.52925120",
+                    StateCode = "",
+                    Latitude = "45.26131040",
+                    Longitude = "9.49167810",
                     Type = "province",
                     Cities = new()
                     {
@@ -4404,11 +4485,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 52,
+                    Id = 58,
                     Name = "Lombardy",
-                    StateCode = "25",
-                    Latitude = "45.47906710",
-                    Longitude = "9.84524330",
+                    StateCode = "",
+                    Latitude = "45.57036940",
+                    Longitude = "9.77325240",
                     Type = "region",
                     Cities = new()
                     {
@@ -6204,9 +6285,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 53,
+                    Id = 59,
                     Name = "Lucca",
-                    StateCode = "LU",
+                    StateCode = "",
                     Latitude = "43.83767360",
                     Longitude = "10.49505300",
                     Type = "province",
@@ -6217,11 +6298,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 54,
+                    Id = 60,
                     Name = "Macerata",
-                    StateCode = "MC",
-                    Latitude = "43.24593220",
-                    Longitude = "13.26634790",
+                    StateCode = "",
+                    Latitude = "43.15297810",
+                    Longitude = "13.15088220",
                     Type = "province",
                     Cities = new()
                     {
@@ -6230,11 +6311,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 55,
+                    Id = 61,
                     Name = "Mantua",
-                    StateCode = "MN",
-                    Latitude = "45.16677280",
-                    Longitude = "10.77536130",
+                    StateCode = "",
+                    Latitude = "45.15666830",
+                    Longitude = "10.79171910",
                     Type = "province",
                     Cities = new()
                     {
@@ -6243,11 +6324,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 56,
+                    Id = 62,
                     Name = "Marche",
-                    StateCode = "57",
-                    Latitude = "43.30456200",
-                    Longitude = "13.71947000",
+                    StateCode = "",
+                    Latitude = "43.34583880",
+                    Longitude = "13.14158720",
                     Type = "region",
                     Cities = new()
                     {
@@ -6571,11 +6652,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 57,
+                    Id = 63,
                     Name = "Massa and Carrara",
-                    StateCode = "MS",
-                    Latitude = "44.22139980",
-                    Longitude = "10.03596610",
+                    StateCode = "",
+                    Latitude = "44.04101620",
+                    Longitude = "10.15549220",
                     Type = "province",
                     Cities = new()
                     {
@@ -6584,9 +6665,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 58,
+                    Id = 64,
                     Name = "Matera",
-                    StateCode = "MT",
+                    StateCode = "",
                     Latitude = "40.66634960",
                     Longitude = "16.60436360",
                     Type = "province",
@@ -6597,11 +6678,37 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 59,
+                    Id = 65,
+                    Name = "Messina",
+                    StateCode = "",
+                    Latitude = "38.19395000",
+                    Longitude = "15.55256200",
+                    Type = "metropolitan city",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 66,
+                    Name = "Milan",
+                    StateCode = "",
+                    Latitude = "45.46679400",
+                    Longitude = "9.19007200",
+                    Type = "metropolitan city",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 67,
                     Name = "Modena",
-                    StateCode = "MO",
-                    Latitude = "44.55137990",
-                    Longitude = "10.91804800",
+                    StateCode = "",
+                    Latitude = "44.53847280",
+                    Longitude = "10.93596090",
                     Type = "province",
                     Cities = new()
                     {
@@ -6610,11 +6717,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 60,
+                    Id = 68,
                     Name = "Molise",
-                    StateCode = "67",
-                    Latitude = "41.67388650",
-                    Longitude = "14.75209390",
+                    StateCode = "",
+                    Latitude = "41.63082800",
+                    Longitude = "14.49292500",
                     Type = "region",
                     Cities = new()
                     {
@@ -6764,11 +6871,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 61,
+                    Id = 69,
                     Name = "Monza and Brianza",
-                    StateCode = "MB",
-                    Latitude = "45.62359900",
-                    Longitude = "9.25880150",
+                    StateCode = "",
+                    Latitude = "45.63954180",
+                    Longitude = "9.27883040",
                     Type = "province",
                     Cities = new()
                     {
@@ -6777,11 +6884,24 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 62,
+                    Id = 70,
+                    Name = "Naples",
+                    StateCode = "",
+                    Latitude = "40.85177700",
+                    Longitude = "14.26811700",
+                    Type = "metropolitan city",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 71,
                     Name = "Novara",
-                    StateCode = "NO",
-                    Latitude = "45.54851330",
-                    Longitude = "8.51507930",
+                    StateCode = "",
+                    Latitude = "45.58425000",
+                    Longitude = "8.54599700",
                     Type = "province",
                     Cities = new()
                     {
@@ -6790,11 +6910,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 63,
+                    Id = 72,
                     Name = "Nuoro",
-                    StateCode = "NU",
-                    Latitude = "40.32869040",
-                    Longitude = "9.45615500",
+                    StateCode = "",
+                    Latitude = "40.32106010",
+                    Longitude = "9.32973390",
                     Type = "province",
                     Cities = new()
                     {
@@ -6803,11 +6923,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 64,
+                    Id = 73,
                     Name = "Oristano",
-                    StateCode = "OR",
-                    Latitude = "40.05990680",
-                    Longitude = "8.74811670",
+                    StateCode = "",
+                    Latitude = "40.02656760",
+                    Longitude = "8.67964160",
                     Type = "province",
                     Cities = new()
                     {
@@ -6816,11 +6936,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 65,
+                    Id = 74,
                     Name = "Padua",
-                    StateCode = "PD",
-                    Latitude = "45.36618640",
-                    Longitude = "11.82091390",
+                    StateCode = "",
+                    Latitude = "45.39140800",
+                    Longitude = "11.80584870",
                     Type = "province",
                     Cities = new()
                     {
@@ -6829,9 +6949,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 66,
+                    Id = 75,
                     Name = "Palermo",
-                    StateCode = "PA",
+                    StateCode = "",
                     Latitude = "38.11569000",
                     Longitude = "13.36148680",
                     Type = "metropolitan city",
@@ -6842,9 +6962,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 67,
+                    Id = 76,
                     Name = "Parma",
-                    StateCode = "PR",
+                    StateCode = "",
                     Latitude = "44.80153220",
                     Longitude = "10.32793540",
                     Type = "province",
@@ -6855,11 +6975,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 68,
+                    Id = 77,
                     Name = "Pavia",
-                    StateCode = "PV",
-                    Latitude = "45.32181660",
-                    Longitude = "8.84662360",
+                    StateCode = "",
+                    Latitude = "45.18600430",
+                    Longitude = "9.15463750",
                     Type = "province",
                     Cities = new()
                     {
@@ -6868,11 +6988,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 69,
+                    Id = 78,
                     Name = "Perugia",
-                    StateCode = "PG",
-                    Latitude = "42.93800400",
-                    Longitude = "12.62162110",
+                    StateCode = "",
+                    Latitude = "43.11196130",
+                    Longitude = "12.38901040",
                     Type = "province",
                     Cities = new()
                     {
@@ -6881,9 +7001,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 70,
+                    Id = 79,
                     Name = "Pesaro and Urbino",
-                    StateCode = "PU",
+                    StateCode = "",
                     Latitude = "43.61301180",
                     Longitude = "12.71351210",
                     Type = "province",
@@ -6894,11 +7014,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 71,
+                    Id = 80,
                     Name = "Pescara",
-                    StateCode = "PE",
-                    Latitude = "42.35706550",
-                    Longitude = "13.96080910",
+                    StateCode = "",
+                    Latitude = "42.31026190",
+                    Longitude = "13.95759010",
                     Type = "province",
                     Cities = new()
                     {
@@ -6907,11 +7027,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 72,
+                    Id = 81,
                     Name = "Piacenza",
-                    StateCode = "PC",
-                    Latitude = "44.82631120",
-                    Longitude = "9.52914470",
+                    StateCode = "",
+                    Latitude = "44.84763520",
+                    Longitude = "9.66653130",
                     Type = "province",
                     Cities = new()
                     {
@@ -6920,11 +7040,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 73,
+                    Id = 82,
                     Name = "Piedmont",
-                    StateCode = "21",
-                    Latitude = "45.05223660",
-                    Longitude = "7.51538850",
+                    StateCode = "",
+                    Latitude = "45.06073500",
+                    Longitude = "7.92354900",
                     Type = "region",
                     Cities = new()
                     {
@@ -8222,9 +8342,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 74,
+                    Id = 83,
                     Name = "Pisa",
-                    StateCode = "PI",
+                    StateCode = "",
                     Latitude = "43.72283150",
                     Longitude = "10.40171940",
                     Type = "province",
@@ -8235,11 +8355,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 75,
+                    Id = 84,
                     Name = "Pistoia",
-                    StateCode = "PT",
-                    Latitude = "43.95437330",
-                    Longitude = "10.89030990",
+                    StateCode = "",
+                    Latitude = "43.97409570",
+                    Longitude = "10.86870810",
                     Type = "province",
                     Cities = new()
                     {
@@ -8248,11 +8368,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 76,
+                    Id = 85,
                     Name = "Pordenone",
-                    StateCode = "PN",
-                    Latitude = "46.03788620",
-                    Longitude = "12.71083500",
+                    StateCode = "",
+                    Latitude = "46.10173670",
+                    Longitude = "12.70390280",
                     Type = "decentralized regional entity",
                     Cities = new()
                     {
@@ -8261,11 +8381,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 77,
+                    Id = 86,
                     Name = "Potenza",
-                    StateCode = "PZ",
-                    Latitude = "40.41821940",
-                    Longitude = "15.87600400",
+                    StateCode = "",
+                    Latitude = "40.51731190",
+                    Longitude = "15.82160880",
                     Type = "province",
                     Cities = new()
                     {
@@ -8274,11 +8394,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 78,
+                    Id = 87,
                     Name = "Prato",
-                    StateCode = "PO",
-                    Latitude = "44.04539000",
-                    Longitude = "11.11644520",
+                    StateCode = "",
+                    Latitude = "43.93571810",
+                    Longitude = "11.09414730",
                     Type = "province",
                     Cities = new()
                     {
@@ -8287,9 +8407,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 79,
+                    Id = 88,
                     Name = "Ragusa",
-                    StateCode = "RG",
+                    StateCode = "",
                     Latitude = "36.92692730",
                     Longitude = "14.72551290",
                     Type = "free municipal consortium",
@@ -8300,9 +8420,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 80,
+                    Id = 89,
                     Name = "Ravenna",
-                    StateCode = "RA",
+                    StateCode = "",
                     Latitude = "44.41844430",
                     Longitude = "12.20359980",
                     Type = "province",
@@ -8331,11 +8451,24 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 81,
+                    Id = 90,
+                    Name = "Reggio Calabria",
+                    StateCode = "",
+                    Latitude = "38.10882200",
+                    Longitude = "15.64392200",
+                    Type = "metropolitan city",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 91,
                     Name = "Reggio Emilia",
-                    StateCode = "RE",
-                    Latitude = "44.58565800",
-                    Longitude = "10.55647360",
+                    StateCode = "",
+                    Latitude = "44.60866740",
+                    Longitude = "10.59406670",
                     Type = "province",
                     Cities = new()
                     {
@@ -8344,11 +8477,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 82,
+                    Id = 92,
                     Name = "Rieti",
-                    StateCode = "RI",
-                    Latitude = "42.36744050",
-                    Longitude = "12.89750980",
+                    StateCode = "",
+                    Latitude = "42.40265690",
+                    Longitude = "12.86081300",
                     Type = "province",
                     Cities = new()
                     {
@@ -8357,9 +8490,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 83,
+                    Id = 93,
                     Name = "Rimini",
-                    StateCode = "RN",
+                    StateCode = "",
                     Latitude = "44.06782880",
                     Longitude = "12.56951580",
                     Type = "province",
@@ -8370,11 +8503,24 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 84,
+                    Id = 94,
+                    Name = "Rome",
+                    StateCode = "",
+                    Latitude = "41.89277000",
+                    Longitude = "12.48366000",
+                    Type = "metropolitan city",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 95,
                     Name = "Rovigo",
-                    StateCode = "RO",
-                    Latitude = "45.02418180",
-                    Longitude = "11.82381620",
+                    StateCode = "",
+                    Latitude = "45.06981660",
+                    Longitude = "11.78882000",
                     Type = "province",
                     Cities = new()
                     {
@@ -8383,11 +8529,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 85,
+                    Id = 96,
                     Name = "Salerno",
-                    StateCode = "SA",
-                    Latitude = "40.42878320",
-                    Longitude = "15.21948080",
+                    StateCode = "",
+                    Latitude = "40.41944160",
+                    Longitude = "15.31060850",
                     Type = "province",
                     Cities = new()
                     {
@@ -8396,11 +8542,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 86,
+                    Id = 97,
                     Name = "Sardinia",
-                    StateCode = "88",
-                    Latitude = "40.12087520",
-                    Longitude = "9.01289260",
+                    StateCode = "",
+                    Latitude = "40.09128130",
+                    Longitude = "9.03057730",
                     Type = "autonomous region",
                     Cities = new()
                     {
@@ -8811,11 +8957,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 87,
+                    Id = 98,
                     Name = "Sassari",
-                    StateCode = "SS",
-                    Latitude = "40.79679070",
-                    Longitude = "8.57504070",
+                    StateCode = "",
+                    Latitude = "40.72347460",
+                    Longitude = "8.56126740",
                     Type = "province",
                     Cities = new()
                     {
@@ -8824,11 +8970,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 88,
+                    Id = 99,
                     Name = "Savona",
-                    StateCode = "SV",
-                    Latitude = "44.28879950",
-                    Longitude = "8.26505800",
+                    StateCode = "",
+                    Latitude = "44.23342380",
+                    Longitude = "8.25257270",
                     Type = "province",
                     Cities = new()
                     {
@@ -8837,11 +8983,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 89,
+                    Id = 100,
                     Name = "Sicily",
-                    StateCode = "82",
-                    Latitude = "37.59999380",
-                    Longitude = "14.01535570",
+                    StateCode = "",
+                    Latitude = "37.58779400",
+                    Longitude = "14.15504800",
                     Type = "autonomous region",
                     Cities = new()
                     {
@@ -8852,483 +8998,482 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Aci Sant'Antonio", Latitude = "37.60499000", Longitude = "15.12294000" },
                         new() { Id = 6, Name = "Aci Trezza", Latitude = "37.56385000", Longitude = "15.16136000" },
                         new() { Id = 7, Name = "Acireale", Latitude = "37.60886000", Longitude = "15.16577000" },
-                        new() { Id = 8, Name = "Acitrezza", Latitude = "37.55960000", Longitude = "15.15990000" },
-                        new() { Id = 9, Name = "Acquaviva Platani", Latitude = "37.57174000", Longitude = "13.70156000" },
-                        new() { Id = 10, Name = "Acquedolci", Latitude = "38.05708000", Longitude = "14.58550000" },
-                        new() { Id = 11, Name = "Adrano", Latitude = "37.66358000", Longitude = "14.83283000" },
-                        new() { Id = 12, Name = "Agira", Latitude = "37.65580000", Longitude = "14.51972000" },
-                        new() { Id = 13, Name = "Agliandroni-Paternella", Latitude = "38.13280000", Longitude = "13.06884000" },
-                        new() { Id = 14, Name = "Agrigento", Latitude = "37.45000000", Longitude = "13.50000000" },
-                        new() { Id = 15, Name = "Aidone", Latitude = "37.41468000", Longitude = "14.44542000" },
-                        new() { Id = 16, Name = "Alcamo", Latitude = "37.97790000", Longitude = "12.96473000" },
-                        new() { Id = 17, Name = "Alcara Li Fusi", Latitude = "38.02143000", Longitude = "14.70142000" },
-                        new() { Id = 18, Name = "Alessandria della Rocca", Latitude = "37.56767000", Longitude = "13.45343000" },
-                        new() { Id = 19, Name = "Alì", Latitude = "38.02678000", Longitude = "15.41910000" },
-                        new() { Id = 20, Name = "Alì Terme", Latitude = "38.00506000", Longitude = "15.42269000" },
-                        new() { Id = 21, Name = "Alia", Latitude = "37.77867000", Longitude = "13.71391000" },
-                        new() { Id = 22, Name = "Alimena", Latitude = "37.69310000", Longitude = "14.11369000" },
-                        new() { Id = 23, Name = "Aliminusa", Latitude = "37.86395000", Longitude = "13.78126000" },
-                        new() { Id = 24, Name = "Altavilla Milicia", Latitude = "38.03800000", Longitude = "13.54947000" },
-                        new() { Id = 25, Name = "Altofonte", Latitude = "38.04298000", Longitude = "13.29434000" },
-                        new() { Id = 26, Name = "Antillo", Latitude = "37.97937000", Longitude = "15.24029000" },
-                        new() { Id = 27, Name = "Aragona", Latitude = "37.39904000", Longitude = "13.61974000" },
-                        new() { Id = 28, Name = "Assoro", Latitude = "37.62210000", Longitude = "14.41810000" },
-                        new() { Id = 29, Name = "Augusta", Latitude = "37.24065000", Longitude = "15.22121000" },
-                        new() { Id = 30, Name = "Avola", Latitude = "36.90840000", Longitude = "15.13937000" },
-                        new() { Id = 31, Name = "Bagheria", Latitude = "38.07892000", Longitude = "13.51237000" },
-                        new() { Id = 32, Name = "Balestrate", Latitude = "38.05125000", Longitude = "13.00724000" },
-                        new() { Id = 33, Name = "Barcellona Pozzo di Gotto", Latitude = "38.14772000", Longitude = "15.21469000" },
-                        new() { Id = 34, Name = "Barrafranca", Latitude = "37.37850000", Longitude = "14.20270000" },
-                        new() { Id = 35, Name = "Basicò", Latitude = "38.06077000", Longitude = "15.06263000" },
-                        new() { Id = 36, Name = "Baucina", Latitude = "37.92521000", Longitude = "13.53636000" },
-                        new() { Id = 37, Name = "Belmonte Mezzagno", Latitude = "38.04653000", Longitude = "13.39207000" },
-                        new() { Id = 38, Name = "Belpasso", Latitude = "37.59192000", Longitude = "14.97985000" },
-                        new() { Id = 39, Name = "Belvedere", Latitude = "37.08839000", Longitude = "15.21314000" },
-                        new() { Id = 40, Name = "Belvedere-Piano Tavola", Latitude = "37.52955000", Longitude = "14.98786000" },
-                        new() { Id = 41, Name = "Biancavilla", Latitude = "37.64442000", Longitude = "14.86685000" },
-                        new() { Id = 42, Name = "Bisacquino", Latitude = "37.70352000", Longitude = "13.26051000" },
-                        new() { Id = 43, Name = "Bivona", Latitude = "37.61797000", Longitude = "13.43895000" },
-                        new() { Id = 44, Name = "Blufi", Latitude = "37.75205000", Longitude = "14.07296000" },
-                        new() { Id = 45, Name = "Bolognetta", Latitude = "37.97120000", Longitude = "13.45627000" },
-                        new() { Id = 46, Name = "Bompensiere", Latitude = "37.47240000", Longitude = "13.78140000" },
-                        new() { Id = 47, Name = "Bompietro", Latitude = "37.74394000", Longitude = "14.09470000" },
-                        new() { Id = 48, Name = "Borgetto", Latitude = "38.04664000", Longitude = "13.14071000" },
-                        new() { Id = 49, Name = "Brolo", Latitude = "38.15623000", Longitude = "14.82799000" },
-                        new() { Id = 50, Name = "Bronte", Latitude = "37.78863000", Longitude = "14.83377000" },
-                        new() { Id = 51, Name = "Brucoli", Latitude = "37.28191000", Longitude = "15.18836000" },
-                        new() { Id = 52, Name = "Buccheri", Latitude = "37.12494000", Longitude = "14.85222000" },
-                        new() { Id = 53, Name = "Burgio", Latitude = "37.60094000", Longitude = "13.28826000" },
-                        new() { Id = 54, Name = "Buscemi", Latitude = "37.08604000", Longitude = "14.88499000" },
-                        new() { Id = 55, Name = "Buseto Palizzolo", Latitude = "38.00339000", Longitude = "12.70911000" },
-                        new() { Id = 56, Name = "Butera", Latitude = "37.19100000", Longitude = "14.18232000" },
-                        new() { Id = 57, Name = "Caccamo", Latitude = "37.93357000", Longitude = "13.66808000" },
-                        new() { Id = 58, Name = "Calamonaci", Latitude = "37.52566000", Longitude = "13.29053000" },
-                        new() { Id = 59, Name = "Calascibetta", Latitude = "37.59024000", Longitude = "14.27180000" },
-                        new() { Id = 60, Name = "Calatabiano", Latitude = "37.82049000", Longitude = "15.23069000" },
-                        new() { Id = 61, Name = "Calatafimi", Latitude = "37.91440000", Longitude = "12.86364000" },
-                        new() { Id = 62, Name = "Caltabellotta", Latitude = "37.57543000", Longitude = "13.21632000" },
-                        new() { Id = 63, Name = "Caltagirone", Latitude = "37.23785000", Longitude = "14.51551000" },
-                        new() { Id = 64, Name = "Caltanissetta", Latitude = "37.49025000", Longitude = "14.06216000" },
-                        new() { Id = 65, Name = "Caltavuturo", Latitude = "37.82040000", Longitude = "13.89158000" },
-                        new() { Id = 66, Name = "Camastra", Latitude = "37.25380000", Longitude = "13.79211000" },
-                        new() { Id = 67, Name = "Cammarata", Latitude = "37.63361000", Longitude = "13.62722000" },
-                        new() { Id = 68, Name = "Campanella-Gianforma", Latitude = "36.92630000", Longitude = "14.83360000" },
-                        new() { Id = 69, Name = "Campobello di Licata", Latitude = "37.25759000", Longitude = "13.91811000" },
-                        new() { Id = 70, Name = "Campobello di Mazara", Latitude = "37.63464000", Longitude = "12.74946000" },
-                        new() { Id = 71, Name = "Campofelice di Fitalia", Latitude = "37.82686000", Longitude = "13.48572000" },
-                        new() { Id = 72, Name = "Campofelice di Roccella", Latitude = "37.99270000", Longitude = "13.87648000" },
-                        new() { Id = 73, Name = "Campofiorito", Latitude = "37.75374000", Longitude = "13.26875000" },
-                        new() { Id = 74, Name = "Campofranco", Latitude = "37.51208000", Longitude = "13.71213000" },
-                        new() { Id = 75, Name = "Camporeale", Latitude = "37.88612000", Longitude = "13.10107000" },
-                        new() { Id = 76, Name = "Camporotondo Etneo", Latitude = "37.56565000", Longitude = "15.00319000" },
-                        new() { Id = 77, Name = "Canalicchio", Latitude = "37.54097000", Longitude = "15.09645000" },
-                        new() { Id = 78, Name = "Canicattì", Latitude = "37.35842000", Longitude = "13.84786000" },
-                        new() { Id = 79, Name = "Canicattini Bagni", Latitude = "37.03171000", Longitude = "15.06388000" },
-                        new() { Id = 80, Name = "Canneto", Latitude = "38.49505000", Longitude = "14.96037000" },
-                        new() { Id = 81, Name = "Cannizzaro-Favara", Latitude = "38.06163000", Longitude = "13.27167000" },
-                        new() { Id = 82, Name = "Capaci", Latitude = "38.17107000", Longitude = "13.23930000" },
-                        new() { Id = 83, Name = "Capizzi", Latitude = "37.84788000", Longitude = "14.47976000" },
-                        new() { Id = 84, Name = "Capo d'Orlando", Latitude = "38.14262000", Longitude = "14.73292000" },
-                        new() { Id = 85, Name = "Capri Leone", Latitude = "38.08682000", Longitude = "14.72959000" },
-                        new() { Id = 86, Name = "Carini", Latitude = "38.13240000", Longitude = "13.18274000" },
-                        new() { Id = 87, Name = "Carlentini", Latitude = "37.28071000", Longitude = "15.01020000" },
-                        new() { Id = 88, Name = "Caronia", Latitude = "38.02381000", Longitude = "14.44142000" },
-                        new() { Id = 89, Name = "Carrozziere", Latitude = "37.03760000", Longitude = "15.27195000" },
-                        new() { Id = 90, Name = "Carruba", Latitude = "37.69062000", Longitude = "15.18815000" },
-                        new() { Id = 91, Name = "Carrubazza-Motta", Latitude = "37.55323000", Longitude = "15.10819000" },
-                        new() { Id = 92, Name = "Casa Santa", Latitude = "38.02514000", Longitude = "12.54840000" },
-                        new() { Id = 93, Name = "Casalvecchio Siculo", Latitude = "37.95850000", Longitude = "15.32371000" },
-                        new() { Id = 94, Name = "Cassaro", Latitude = "37.10571000", Longitude = "14.94697000" },
-                        new() { Id = 95, Name = "Cassibile", Latitude = "36.97862000", Longitude = "15.20061000" },
-                        new() { Id = 96, Name = "Castanea delle Furie", Latitude = "38.26165000", Longitude = "15.52178000" },
-                        new() { Id = 97, Name = "Castel di Judica", Latitude = "37.49475000", Longitude = "14.64744000" },
-                        new() { Id = 98, Name = "Castel di Lucio", Latitude = "37.88698000", Longitude = "14.31116000" },
-                        new() { Id = 99, Name = "Castelbuono", Latitude = "37.92530000", Longitude = "14.08665000" },
-                        new() { Id = 100, Name = "Casteldaccia", Latitude = "38.05121000", Longitude = "13.53041000" },
-                        new() { Id = 101, Name = "Castell'Umberto", Latitude = "38.08626000", Longitude = "14.80686000" },
-                        new() { Id = 102, Name = "Castellammare del Golfo", Latitude = "38.02653000", Longitude = "12.88183000" },
-                        new() { Id = 103, Name = "Castellana Sicula", Latitude = "37.78686000", Longitude = "14.03906000" },
-                        new() { Id = 104, Name = "Castelluzzo", Latitude = "38.10096000", Longitude = "12.73599000" },
-                        new() { Id = 105, Name = "Castelmola", Latitude = "37.85829000", Longitude = "15.27713000" },
-                        new() { Id = 106, Name = "Casteltermini", Latitude = "37.53874000", Longitude = "13.64601000" },
-                        new() { Id = 107, Name = "Castelvetrano", Latitude = "37.68081000", Longitude = "12.79194000" },
-                        new() { Id = 108, Name = "Castiglione di Sicilia", Latitude = "37.88150000", Longitude = "15.12156000" },
-                        new() { Id = 109, Name = "Castrofilippo", Latitude = "37.35046000", Longitude = "13.75001000" },
-                        new() { Id = 110, Name = "Castronuovo di Sicilia", Latitude = "37.67894000", Longitude = "13.60346000" },
-                        new() { Id = 111, Name = "Castroreale", Latitude = "38.09857000", Longitude = "15.21012000" },
-                        new() { Id = 112, Name = "Catania", Latitude = "37.47169000", Longitude = "14.84731000" },
-                        new() { Id = 113, Name = "Catenanuova", Latitude = "37.56876000", Longitude = "14.69076000" },
-                        new() { Id = 114, Name = "Cattolica Eraclea", Latitude = "37.44069000", Longitude = "13.39265000" },
-                        new() { Id = 115, Name = "Cava d'Aliga", Latitude = "36.72964000", Longitude = "14.69031000" },
-                        new() { Id = 116, Name = "Cefalà Diana", Latitude = "37.91565000", Longitude = "13.46325000" },
-                        new() { Id = 117, Name = "Cefalù", Latitude = "38.03856000", Longitude = "14.02285000" },
-                        new() { Id = 118, Name = "Centuripe", Latitude = "37.62336000", Longitude = "14.74049000" },
-                        new() { Id = 119, Name = "Cerami", Latitude = "37.80953000", Longitude = "14.50660000" },
-                        new() { Id = 120, Name = "Cerda", Latitude = "37.90578000", Longitude = "13.81496000" },
-                        new() { Id = 121, Name = "Cerza", Latitude = "37.54297000", Longitude = "15.10510000" },
-                        new() { Id = 122, Name = "Cesarò", Latitude = "37.84476000", Longitude = "14.71308000" },
-                        new() { Id = 123, Name = "Chianchitta-Pallio", Latitude = "37.82108000", Longitude = "15.25317000" },
-                        new() { Id = 124, Name = "Chianchitta-Trappitello", Latitude = "37.82984000", Longitude = "15.25077000" },
-                        new() { Id = 125, Name = "Chiaramonte Gulfi", Latitude = "37.03050000", Longitude = "14.70302000" },
-                        new() { Id = 126, Name = "Chiusa Sclafani", Latitude = "37.67692000", Longitude = "13.27074000" },
-                        new() { Id = 127, Name = "Ciaculli", Latitude = "38.07530000", Longitude = "13.40719000" },
-                        new() { Id = 128, Name = "Cianciana", Latitude = "37.51896000", Longitude = "13.43349000" },
-                        new() { Id = 129, Name = "Ciavolo", Latitude = "37.77943000", Longitude = "12.53774000" },
-                        new() { Id = 130, Name = "Ciminna", Latitude = "37.89765000", Longitude = "13.55966000" },
-                        new() { Id = 131, Name = "Cinisi", Latitude = "38.16082000", Longitude = "13.10099000" },
-                        new() { Id = 132, Name = "Città Giardino", Latitude = "37.10444000", Longitude = "15.21172000" },
-                        new() { Id = 133, Name = "Collesano", Latitude = "37.91809000", Longitude = "13.93702000" },
-                        new() { Id = 134, Name = "Comiso", Latitude = "36.94893000", Longitude = "14.60731000" },
-                        new() { Id = 135, Name = "Comitini", Latitude = "37.40735000", Longitude = "13.64530000" },
-                        new() { Id = 136, Name = "Condrò", Latitude = "38.17375000", Longitude = "15.32660000" },
-                        new() { Id = 137, Name = "Contessa Entellina", Latitude = "37.73005000", Longitude = "13.18425000" },
-                        new() { Id = 138, Name = "Corleone", Latitude = "37.81338000", Longitude = "13.30170000" },
-                        new() { Id = 139, Name = "Custonaci", Latitude = "38.07931000", Longitude = "12.68571000" },
-                        new() { Id = 140, Name = "Delia", Latitude = "37.35796000", Longitude = "13.92867000" },
-                        new() { Id = 141, Name = "Donnalucata", Latitude = "36.76117000", Longitude = "14.64022000" },
-                        new() { Id = 142, Name = "Enna", Latitude = "37.58333000", Longitude = "14.43333000" },
-                        new() { Id = 143, Name = "Erice", Latitude = "38.03785000", Longitude = "12.58778000" },
-                        new() { Id = 144, Name = "Evangelisti-Rubino", Latitude = "37.98412000", Longitude = "15.17324000" },
-                        new() { Id = 145, Name = "Falcone", Latitude = "38.11698000", Longitude = "15.07965000" },
-                        new() { Id = 146, Name = "Faro Superiore", Latitude = "38.26794000", Longitude = "15.58268000" },
-                        new() { Id = 147, Name = "Favara", Latitude = "37.31754000", Longitude = "13.66226000" },
-                        new() { Id = 148, Name = "Favignana", Latitude = "37.92951000", Longitude = "12.32958000" },
-                        new() { Id = 149, Name = "Ferla", Latitude = "37.11978000", Longitude = "14.93881000" },
-                        new() { Id = 150, Name = "Ficarazzi", Latitude = "38.09229000", Longitude = "13.46390000" },
-                        new() { Id = 151, Name = "Ficarra", Latitude = "38.10849000", Longitude = "14.82990000" },
-                        new() { Id = 152, Name = "Finale", Latitude = "38.01891000", Longitude = "14.16151000" },
-                        new() { Id = 153, Name = "Fiumedinisi", Latitude = "38.02596000", Longitude = "15.38099000" },
-                        new() { Id = 154, Name = "Fiumefreddo Sicilia", Latitude = "37.79146000", Longitude = "15.20919000" },
-                        new() { Id = 155, Name = "Floresta", Latitude = "37.98779000", Longitude = "14.91096000" },
-                        new() { Id = 156, Name = "Floridia", Latitude = "37.08343000", Longitude = "15.15332000" },
-                        new() { Id = 157, Name = "Fondachelli-Fantina", Latitude = "37.98476000", Longitude = "15.17519000" },
-                        new() { Id = 158, Name = "Forza d'Agrò", Latitude = "37.91539000", Longitude = "15.33409000" },
-                        new() { Id = 159, Name = "Francavilla di Sicilia", Latitude = "37.90197000", Longitude = "15.13821000" },
-                        new() { Id = 160, Name = "Francofonte", Latitude = "37.22477000", Longitude = "14.87488000" },
-                        new() { Id = 161, Name = "Frazzanò", Latitude = "38.07202000", Longitude = "14.74407000" },
-                        new() { Id = 162, Name = "Fulgatore-Torretta", Latitude = "37.94977000", Longitude = "12.69303000" },
-                        new() { Id = 163, Name = "Furci Siculo", Latitude = "37.96159000", Longitude = "15.37763000" },
-                        new() { Id = 164, Name = "Furnari", Latitude = "38.10436000", Longitude = "15.12358000" },
-                        new() { Id = 165, Name = "Gaggi", Latitude = "37.85995000", Longitude = "15.22126000" },
-                        new() { Id = 166, Name = "Gagliano Castelferrato", Latitude = "37.70967000", Longitude = "14.53524000" },
-                        new() { Id = 167, Name = "Galati Mamertino", Latitude = "38.03176000", Longitude = "14.77145000" },
-                        new() { Id = 168, Name = "Gallodoro", Latitude = "37.90206000", Longitude = "15.29359000" },
-                        new() { Id = 169, Name = "Gangi", Latitude = "37.79565000", Longitude = "14.20437000" },
-                        new() { Id = 170, Name = "Gela", Latitude = "37.07381000", Longitude = "14.24038000" },
-                        new() { Id = 171, Name = "Geraci Siculo", Latitude = "37.85901000", Longitude = "14.15333000" },
-                        new() { Id = 172, Name = "Giacalone", Latitude = "38.03276000", Longitude = "13.23695000" },
-                        new() { Id = 173, Name = "Giammoro", Latitude = "38.20372000", Longitude = "15.30666000" },
-                        new() { Id = 174, Name = "Giardina Gallotti", Latitude = "37.35073000", Longitude = "13.52272000" },
-                        new() { Id = 175, Name = "Giardinello", Latitude = "38.08706000", Longitude = "13.15648000" },
-                        new() { Id = 176, Name = "Giardini-Naxos", Latitude = "37.82755000", Longitude = "15.26713000" },
-                        new() { Id = 177, Name = "Giarratana", Latitude = "37.04741000", Longitude = "14.79454000" },
-                        new() { Id = 178, Name = "Giarre", Latitude = "37.72440000", Longitude = "15.18165000" },
-                        new() { Id = 179, Name = "Gioiosa Marea", Latitude = "38.17373000", Longitude = "14.89932000" },
-                        new() { Id = 180, Name = "Giuliana", Latitude = "37.67280000", Longitude = "13.23737000" },
-                        new() { Id = 181, Name = "Gliaca", Latitude = "38.16317000", Longitude = "14.84768000" },
-                        new() { Id = 182, Name = "Godrano", Latitude = "37.90310000", Longitude = "13.42823000" },
-                        new() { Id = 183, Name = "Grammichele", Latitude = "37.21326000", Longitude = "14.63311000" },
-                        new() { Id = 184, Name = "Graniti", Latitude = "37.88986000", Longitude = "15.22459000" },
-                        new() { Id = 185, Name = "Gratteri", Latitude = "37.96607000", Longitude = "13.97314000" },
-                        new() { Id = 186, Name = "Gravina di Catania", Latitude = "37.56085000", Longitude = "15.06292000" },
-                        new() { Id = 187, Name = "Grotte", Latitude = "37.40346000", Longitude = "13.69889000" },
-                        new() { Id = 188, Name = "Gualtieri Sicaminò", Latitude = "38.16267000", Longitude = "15.31699000" },
-                        new() { Id = 189, Name = "Guidomandri Marina", Latitude = "38.04528000", Longitude = "15.46303000" },
-                        new() { Id = 190, Name = "Isnello", Latitude = "37.94324000", Longitude = "14.00724000" },
-                        new() { Id = 191, Name = "Isola delle Femmine", Latitude = "38.19123000", Longitude = "13.24691000" },
-                        new() { Id = 192, Name = "Ispica", Latitude = "36.78622000", Longitude = "14.90530000" },
-                        new() { Id = 193, Name = "Itala", Latitude = "38.05144000", Longitude = "15.43706000" },
-                        new() { Id = 194, Name = "Joppolo Giancaxio", Latitude = "37.38681000", Longitude = "13.55586000" },
-                        new() { Id = 195, Name = "Kamma", Latitude = "36.79701000", Longitude = "12.03617000" },
-                        new() { Id = 196, Name = "Lampedusa", Latitude = "35.50142000", Longitude = "12.60964000" },
-                        new() { Id = 197, Name = "Larderia", Latitude = "38.14101000", Longitude = "15.50287000" },
-                        new() { Id = 198, Name = "Lascari", Latitude = "38.00067000", Longitude = "13.94053000" },
-                        new() { Id = 199, Name = "Lavinaio-Monterosso", Latitude = "37.64097000", Longitude = "15.10462000" },
-                        new() { Id = 200, Name = "Leni", Latitude = "38.55534000", Longitude = "14.82497000" },
-                        new() { Id = 201, Name = "Lentini", Latitude = "37.28556000", Longitude = "14.99737000" },
-                        new() { Id = 202, Name = "Leonforte", Latitude = "37.64197000", Longitude = "14.39766000" },
-                        new() { Id = 203, Name = "Lercara Friddi", Latitude = "37.74657000", Longitude = "13.60391000" },
-                        new() { Id = 204, Name = "Letojanni", Latitude = "37.88050000", Longitude = "15.30735000" },
-                        new() { Id = 205, Name = "Librizzi", Latitude = "38.09719000", Longitude = "14.95909000" },
-                        new() { Id = 206, Name = "Licata", Latitude = "37.10267000", Longitude = "13.93972000" },
-                        new() { Id = 207, Name = "Licodia Eubea", Latitude = "37.15674000", Longitude = "14.70555000" },
-                        new() { Id = 208, Name = "Limina", Latitude = "37.94076000", Longitude = "15.27119000" },
-                        new() { Id = 209, Name = "Linera", Latitude = "37.66380000", Longitude = "15.13653000" },
-                        new() { Id = 210, Name = "Linguaglossa", Latitude = "37.84243000", Longitude = "15.13774000" },
-                        new() { Id = 211, Name = "Lipari", Latitude = "38.46743000", Longitude = "14.95398000" },
-                        new() { Id = 212, Name = "Longi", Latitude = "38.02617000", Longitude = "14.75306000" },
-                        new() { Id = 213, Name = "Lucca Sicula", Latitude = "37.57783000", Longitude = "13.30579000" },
-                        new() { Id = 214, Name = "Maletto", Latitude = "37.82914000", Longitude = "14.86403000" },
-                        new() { Id = 215, Name = "Malfa", Latitude = "38.57730000", Longitude = "14.83598000" },
-                        new() { Id = 216, Name = "Malvagna", Latitude = "37.91752000", Longitude = "15.05548000" },
-                        new() { Id = 217, Name = "Mandanici", Latitude = "38.00356000", Longitude = "15.31669000" },
-                        new() { Id = 218, Name = "Maniace", Latitude = "37.88306000", Longitude = "14.79808000" },
-                        new() { Id = 219, Name = "Marausa", Latitude = "37.94166000", Longitude = "12.50948000" },
-                        new() { Id = 220, Name = "Marianopoli", Latitude = "37.59840000", Longitude = "13.91520000" },
-                        new() { Id = 221, Name = "Marina di Caronia", Latitude = "38.03545000", Longitude = "14.44182000" },
-                        new() { Id = 222, Name = "Marina di Ragusa", Latitude = "36.78575000", Longitude = "14.55474000" },
-                        new() { Id = 223, Name = "Marinella", Latitude = "37.59475000", Longitude = "12.84434000" },
-                        new() { Id = 224, Name = "Marineo", Latitude = "37.95185000", Longitude = "13.41781000" },
-                        new() { Id = 225, Name = "Marsala", Latitude = "37.79920000", Longitude = "12.43670000" },
-                        new() { Id = 226, Name = "Mascali", Latitude = "37.75794000", Longitude = "15.19662000" },
-                        new() { Id = 227, Name = "Mascalucia", Latitude = "37.57465000", Longitude = "15.04964000" },
-                        new() { Id = 228, Name = "Maugeri", Latitude = "37.58608000", Longitude = "15.11785000" },
-                        new() { Id = 229, Name = "Mazara del Vallo", Latitude = "37.65535000", Longitude = "12.58986000" },
-                        new() { Id = 230, Name = "Mazara II", Latitude = "37.68146000", Longitude = "12.60074000" },
-                        new() { Id = 231, Name = "Mazzarino", Latitude = "37.30188000", Longitude = "14.20959000" },
-                        new() { Id = 232, Name = "Mazzarrà Sant'Andrea", Latitude = "38.08969000", Longitude = "15.13535000" },
-                        new() { Id = 233, Name = "Mazzarrone", Latitude = "37.08834000", Longitude = "14.56128000" },
-                        new() { Id = 234, Name = "Melia", Latitude = "37.90384000", Longitude = "15.27499000" },
-                        new() { Id = 235, Name = "Melilli", Latitude = "37.17821000", Longitude = "15.13020000" },
-                        new() { Id = 236, Name = "Menfi", Latitude = "37.60409000", Longitude = "12.96889000" },
-                        new() { Id = 237, Name = "Merì", Latitude = "38.16630000", Longitude = "15.24970000" },
-                        new() { Id = 238, Name = "Messina", Latitude = "38.05000000", Longitude = "14.86667000" },
-                        new() { Id = 239, Name = "Mezzojuso", Latitude = "37.86509000", Longitude = "13.46509000" },
-                        new() { Id = 240, Name = "Milazzo", Latitude = "38.22008000", Longitude = "15.24023000" },
-                        new() { Id = 241, Name = "Milena", Latitude = "37.47133000", Longitude = "13.73613000" },
-                        new() { Id = 242, Name = "Militello in Val di Catania", Latitude = "37.27594000", Longitude = "14.79342000" },
-                        new() { Id = 243, Name = "Militello Rosmarino", Latitude = "38.04575000", Longitude = "14.67584000" },
-                        new() { Id = 244, Name = "Milo", Latitude = "37.72450000", Longitude = "15.11554000" },
-                        new() { Id = 245, Name = "Mineo", Latitude = "37.26494000", Longitude = "14.69381000" },
-                        new() { Id = 246, Name = "Mirabella Imbaccari", Latitude = "37.32702000", Longitude = "14.44605000" },
-                        new() { Id = 247, Name = "Mirto", Latitude = "38.08439000", Longitude = "14.74609000" },
-                        new() { Id = 248, Name = "Misilmeri", Latitude = "38.03183000", Longitude = "13.44795000" },
-                        new() { Id = 249, Name = "Misterbianco", Latitude = "37.51803000", Longitude = "15.00913000" },
-                        new() { Id = 250, Name = "Mistretta", Latitude = "37.92823000", Longitude = "14.35780000" },
-                        new() { Id = 251, Name = "Modica", Latitude = "36.85868000", Longitude = "14.75966000" },
-                        new() { Id = 252, Name = "Moio Alcantara", Latitude = "37.90056000", Longitude = "15.05072000" },
-                        new() { Id = 253, Name = "Monforte San Giorgio", Latitude = "38.15733000", Longitude = "15.38132000" },
-                        new() { Id = 254, Name = "Mongiuffi Melia", Latitude = "37.90336000", Longitude = "15.27539000" },
-                        new() { Id = 255, Name = "Monreale", Latitude = "38.08125000", Longitude = "13.28947000" },
-                        new() { Id = 256, Name = "Montagnareale", Latitude = "38.13216000", Longitude = "14.94658000" },
-                        new() { Id = 257, Name = "Montalbano Elicona", Latitude = "38.02360000", Longitude = "15.01393000" },
-                        new() { Id = 258, Name = "Montallegro", Latitude = "37.39121000", Longitude = "13.35179000" },
-                        new() { Id = 259, Name = "Montedoro", Latitude = "37.45431000", Longitude = "13.81684000" },
-                        new() { Id = 260, Name = "Montelepre", Latitude = "38.09026000", Longitude = "13.17518000" },
-                        new() { Id = 261, Name = "Montemaggiore Belsito", Latitude = "37.84818000", Longitude = "13.76206000" },
-                        new() { Id = 262, Name = "Monterosso Almo", Latitude = "37.08884000", Longitude = "14.76498000" },
-                        new() { Id = 263, Name = "Montevago", Latitude = "37.70224000", Longitude = "12.98584000" },
-                        new() { Id = 264, Name = "Motta Camastra", Latitude = "37.89431000", Longitude = "15.17008000" },
-                        new() { Id = 265, Name = "Motta d'Affermo", Latitude = "37.98096000", Longitude = "14.30337000" },
-                        new() { Id = 266, Name = "Motta Sant'Anastasia", Latitude = "37.51205000", Longitude = "14.96628000" },
-                        new() { Id = 267, Name = "Mussomeli", Latitude = "37.58067000", Longitude = "13.75214000" },
-                        new() { Id = 268, Name = "Naro", Latitude = "37.29248000", Longitude = "13.79337000" },
-                        new() { Id = 269, Name = "Naso", Latitude = "38.12215000", Longitude = "14.78702000" },
-                        new() { Id = 270, Name = "Nicolosi", Latitude = "37.62148000", Longitude = "15.02785000" },
-                        new() { Id = 271, Name = "Nicosia", Latitude = "37.74747000", Longitude = "14.39218000" },
-                        new() { Id = 272, Name = "Niscemi", Latitude = "37.14649000", Longitude = "14.39381000" },
-                        new() { Id = 273, Name = "Nissoria", Latitude = "37.65410000", Longitude = "14.44810000" },
-                        new() { Id = 274, Name = "Nizza di Sicilia", Latitude = "37.99081000", Longitude = "15.40956000" },
-                        new() { Id = 275, Name = "Noto", Latitude = "36.89244000", Longitude = "15.06977000" },
-                        new() { Id = 276, Name = "Novara di Sicilia", Latitude = "38.01538000", Longitude = "15.13134000" },
-                        new() { Id = 277, Name = "Nunziata", Latitude = "37.75858000", Longitude = "15.17058000" },
-                        new() { Id = 278, Name = "Nuova Gibellina", Latitude = "37.80704000", Longitude = "12.86954000" },
-                        new() { Id = 279, Name = "Nuovo Centro Urbano Poggioreale", Latitude = "37.76404000", Longitude = "13.03594000" },
-                        new() { Id = 280, Name = "Oliveri", Latitude = "38.12515000", Longitude = "15.06068000" },
-                        new() { Id = 281, Name = "Pace del Mela", Latitude = "38.17997000", Longitude = "15.30629000" },
-                        new() { Id = 282, Name = "Paceco", Latitude = "37.98026000", Longitude = "12.55766000" },
-                        new() { Id = 283, Name = "Pachino", Latitude = "36.71522000", Longitude = "15.09019000" },
-                        new() { Id = 284, Name = "Pagliara", Latitude = "37.98546000", Longitude = "15.35969000" },
-                        new() { Id = 285, Name = "Palagonia", Latitude = "37.32955000", Longitude = "14.74474000" },
-                        new() { Id = 286, Name = "Palazzo Adriano", Latitude = "37.68066000", Longitude = "13.37941000" },
-                        new() { Id = 287, Name = "Palazzolo", Latitude = "37.56224000", Longitude = "14.92987000" },
-                        new() { Id = 288, Name = "Palazzolo Acreide", Latitude = "37.06261000", Longitude = "14.90593000" },
-                        new() { Id = 289, Name = "Palermo", Latitude = "37.81667000", Longitude = "13.58333000" },
-                        new() { Id = 290, Name = "Palma di Montechiaro", Latitude = "37.19066000", Longitude = "13.76603000" },
-                        new() { Id = 291, Name = "Pantelleria", Latitude = "36.82836000", Longitude = "11.94611000" },
-                        new() { Id = 292, Name = "Partanna", Latitude = "37.72680000", Longitude = "12.88917000" },
-                        new() { Id = 293, Name = "Partinico", Latitude = "38.04657000", Longitude = "13.11785000" },
-                        new() { Id = 294, Name = "Pasteria-Lapide", Latitude = "37.81012000", Longitude = "15.22818000" },
-                        new() { Id = 295, Name = "Paternò", Latitude = "37.56675000", Longitude = "14.90254000" },
-                        new() { Id = 296, Name = "Patti", Latitude = "38.14736000", Longitude = "14.96409000" },
-                        new() { Id = 297, Name = "Pedagaggi", Latitude = "37.19182000", Longitude = "14.93654000" },
-                        new() { Id = 298, Name = "Pedalino", Latitude = "37.02320000", Longitude = "14.58116000" },
-                        new() { Id = 299, Name = "Pedara", Latitude = "37.62386000", Longitude = "15.05672000" },
-                        new() { Id = 300, Name = "Pennisi", Latitude = "37.64945000", Longitude = "15.12385000" },
-                        new() { Id = 301, Name = "Petralia Soprana", Latitude = "37.80064000", Longitude = "14.10813000" },
-                        new() { Id = 302, Name = "Petralia Sottana", Latitude = "37.80919000", Longitude = "14.09293000" },
-                        new() { Id = 303, Name = "Petrosino", Latitude = "37.71271000", Longitude = "12.49964000" },
-                        new() { Id = 304, Name = "Pettineo", Latitude = "37.96793000", Longitude = "14.29118000" },
-                        new() { Id = 305, Name = "Piana degli Albanesi", Latitude = "37.99372000", Longitude = "13.28464000" },
-                        new() { Id = 306, Name = "Piano dei Geli", Latitude = "38.09919000", Longitude = "13.27478000" },
-                        new() { Id = 307, Name = "Piano Maglio-Blandino", Latitude = "38.05793000", Longitude = "13.30909000" },
-                        new() { Id = 308, Name = "Pianoconte", Latitude = "38.47432000", Longitude = "14.92857000" },
-                        new() { Id = 309, Name = "Piazza Armerina", Latitude = "37.38417000", Longitude = "14.36921000" },
-                        new() { Id = 310, Name = "Piedimonte Etneo", Latitude = "37.80677000", Longitude = "15.17516000" },
-                        new() { Id = 311, Name = "Pietraperzia", Latitude = "37.41852000", Longitude = "14.13739000" },
-                        new() { Id = 312, Name = "Pioppo", Latitude = "38.05000000", Longitude = "13.23333000" },
-                        new() { Id = 313, Name = "Piraino", Latitude = "38.16127000", Longitude = "14.86100000" },
-                        new() { Id = 314, Name = "Polizzi Generosa", Latitude = "37.81159000", Longitude = "14.00268000" },
-                        new() { Id = 315, Name = "Pollina", Latitude = "37.99309000", Longitude = "14.14586000" },
-                        new() { Id = 316, Name = "Portella di Mare", Latitude = "38.07304000", Longitude = "13.46199000" },
-                        new() { Id = 317, Name = "Porto Empedocle", Latitude = "37.28942000", Longitude = "13.52494000" },
-                        new() { Id = 318, Name = "Portopalo di Capo Passero", Latitude = "36.68219000", Longitude = "15.13378000" },
-                        new() { Id = 319, Name = "Pozzallo", Latitude = "36.73028000", Longitude = "14.84672000" },
-                        new() { Id = 320, Name = "Priolo Gargallo", Latitude = "37.15512000", Longitude = "15.18248000" },
-                        new() { Id = 321, Name = "Prizzi", Latitude = "37.72088000", Longitude = "13.43435000" },
-                        new() { Id = 322, Name = "Provincia di Caltanissetta", Latitude = "37.37448000", Longitude = "14.06421000" },
-                        new() { Id = 323, Name = "Provincia di Siracusa", Latitude = "37.08805000", Longitude = "15.27924000" },
-                        new() { Id = 324, Name = "Racalmuto", Latitude = "37.40498000", Longitude = "13.72995000" },
-                        new() { Id = 325, Name = "Raccuja", Latitude = "38.05583000", Longitude = "14.91044000" },
-                        new() { Id = 326, Name = "Raddusa", Latitude = "37.47529000", Longitude = "14.53521000" },
-                        new() { Id = 327, Name = "Raffadali", Latitude = "37.40214000", Longitude = "13.53175000" },
-                        new() { Id = 328, Name = "Ragalna", Latitude = "37.63455000", Longitude = "14.94698000" },
-                        new() { Id = 329, Name = "Ragusa", Latitude = "36.91667000", Longitude = "14.60000000" },
-                        new() { Id = 330, Name = "Ramacca", Latitude = "37.38616000", Longitude = "14.69241000" },
-                        new() { Id = 331, Name = "Randazzo", Latitude = "37.87736000", Longitude = "14.95012000" },
-                        new() { Id = 332, Name = "Ravanusa", Latitude = "37.26659000", Longitude = "13.96834000" },
-                        new() { Id = 333, Name = "Realmonte", Latitude = "37.30847000", Longitude = "13.46429000" },
-                        new() { Id = 334, Name = "Regalbuto", Latitude = "37.65195000", Longitude = "14.63915000" },
-                        new() { Id = 335, Name = "Reitano", Latitude = "37.97198000", Longitude = "14.34418000" },
-                        new() { Id = 336, Name = "Resuttano", Latitude = "37.67865000", Longitude = "14.02946000" },
-                        new() { Id = 337, Name = "Ribera", Latitude = "37.49773000", Longitude = "13.26676000" },
-                        new() { Id = 338, Name = "Riesi", Latitude = "37.28079000", Longitude = "14.08317000" },
-                        new() { Id = 339, Name = "Rilievo", Latitude = "37.91638000", Longitude = "12.54058000" },
-                        new() { Id = 340, Name = "Riposto", Latitude = "37.73183000", Longitude = "15.20576000" },
-                        new() { Id = 341, Name = "Rocca di Capri Leone", Latitude = "38.10677000", Longitude = "14.71032000" },
-                        new() { Id = 342, Name = "Roccafiorita", Latitude = "37.93086000", Longitude = "15.26739000" },
-                        new() { Id = 343, Name = "Roccalumera", Latitude = "37.97554000", Longitude = "15.39439000" },
-                        new() { Id = 344, Name = "Roccamena", Latitude = "37.83824000", Longitude = "13.15513000" },
-                        new() { Id = 345, Name = "Roccapalumba", Latitude = "37.80825000", Longitude = "13.63671000" },
-                        new() { Id = 346, Name = "Roccavaldina", Latitude = "38.18296000", Longitude = "15.37402000" },
-                        new() { Id = 347, Name = "Roccella Valdemone", Latitude = "37.93289000", Longitude = "15.00997000" },
-                        new() { Id = 348, Name = "Rodì", Latitude = "38.10823000", Longitude = "15.16933000" },
-                        new() { Id = 349, Name = "Rometta", Latitude = "38.17007000", Longitude = "15.41429000" },
-                        new() { Id = 350, Name = "Rometta Marea", Latitude = "38.23264000", Longitude = "15.40955000" },
-                        new() { Id = 351, Name = "Rosolini", Latitude = "36.82145000", Longitude = "14.95132000" },
-                        new() { Id = 352, Name = "Salaparuta", Latitude = "37.75694000", Longitude = "13.00981000" },
-                        new() { Id = 353, Name = "Salemi", Latitude = "37.82199000", Longitude = "12.80506000" },
-                        new() { Id = 354, Name = "Sambuca di Sicilia", Latitude = "37.65294000", Longitude = "13.11462000" },
-                        new() { Id = 355, Name = "San Biagio Platani", Latitude = "37.50927000", Longitude = "13.52844000" },
-                        new() { Id = 356, Name = "San Cataldo", Latitude = "37.48412000", Longitude = "13.98542000" },
-                        new() { Id = 357, Name = "San Cipirello", Latitude = "37.96067000", Longitude = "13.17732000" },
-                        new() { Id = 358, Name = "San Ciro-Ulmi-Filci", Latitude = "37.83328000", Longitude = "12.78229000" },
-                        new() { Id = 359, Name = "San Cono", Latitude = "37.28992000", Longitude = "14.36709000" },
-                        new() { Id = 360, Name = "San Filippo del Mela", Latitude = "38.17007000", Longitude = "15.27338000" },
-                        new() { Id = 361, Name = "San Fratello", Latitude = "38.01556000", Longitude = "14.59818000" },
-                        new() { Id = 362, Name = "San Giorgio", Latitude = "38.16834000", Longitude = "14.94825000" },
-                        new() { Id = 363, Name = "San Giovanni", Latitude = "37.73538000", Longitude = "15.15887000" },
-                        new() { Id = 364, Name = "San Giovanni Gemini", Latitude = "37.62785000", Longitude = "13.64357000" },
-                        new() { Id = 365, Name = "San Giovanni la Punta", Latitude = "37.57690000", Longitude = "15.09371000" },
-                        new() { Id = 366, Name = "San Giuseppe Jato", Latitude = "37.97331000", Longitude = "13.18889000" },
-                        new() { Id = 367, Name = "San Gregorio di Catania", Latitude = "37.56764000", Longitude = "15.11120000" },
-                        new() { Id = 368, Name = "San Leone Mosè", Latitude = "37.26497000", Longitude = "13.58434000" },
-                        new() { Id = 369, Name = "San Marco d'Alunzio", Latitude = "38.07261000", Longitude = "14.70093000" },
-                        new() { Id = 370, Name = "San Mauro Castelverde", Latitude = "37.91478000", Longitude = "14.18961000" },
-                        new() { Id = 371, Name = "San Michele di Ganzaria", Latitude = "37.28042000", Longitude = "14.42633000" },
-                        new() { Id = 372, Name = "San Pier Niceto", Latitude = "38.16050000", Longitude = "15.34982000" },
-                        new() { Id = 373, Name = "San Piero Patti", Latitude = "38.05214000", Longitude = "14.96816000" },
-                        new() { Id = 374, Name = "San Pietro Clarenza", Latitude = "37.56885000", Longitude = "15.02289000" },
-                        new() { Id = 375, Name = "San Salvatore di Fitalia", Latitude = "38.06841000", Longitude = "14.77799000" },
-                        new() { Id = 376, Name = "San Teodoro", Latitude = "37.84797000", Longitude = "14.69878000" },
-                        new() { Id = 377, Name = "San Vito Lo Capo", Latitude = "38.17395000", Longitude = "12.73599000" },
-                        new() { Id = 378, Name = "Sant'Agata di Militello", Latitude = "38.06838000", Longitude = "14.63600000" },
-                        new() { Id = 379, Name = "Sant'Agata Li Battiati", Latitude = "37.55745000", Longitude = "15.07999000" },
-                        new() { Id = 380, Name = "Sant'Alessio Siculo", Latitude = "37.92516000", Longitude = "15.34968000" },
-                        new() { Id = 381, Name = "Sant'Alfio", Latitude = "37.74393000", Longitude = "15.13952000" },
-                        new() { Id = 382, Name = "Sant'Angelo di Brolo", Latitude = "38.11518000", Longitude = "14.88403000" },
-                        new() { Id = 383, Name = "Sant'Angelo Muxaro", Latitude = "37.48014000", Longitude = "13.54554000" },
-                        new() { Id = 384, Name = "Santa Caterina Villarmosa", Latitude = "37.59034000", Longitude = "14.03554000" },
-                        new() { Id = 385, Name = "Santa Cristina Gela", Latitude = "37.98514000", Longitude = "13.32747000" },
-                        new() { Id = 386, Name = "Santa Croce Camerina", Latitude = "36.82842000", Longitude = "14.52538000" },
-                        new() { Id = 387, Name = "Santa Domenica Vittoria", Latitude = "37.91624000", Longitude = "14.96288000" },
-                        new() { Id = 388, Name = "Santa Elisabetta", Latitude = "37.43171000", Longitude = "13.55386000" },
-                        new() { Id = 389, Name = "Santa Flavia", Latitude = "38.10448000", Longitude = "13.53340000" },
-                        new() { Id = 390, Name = "Santa Lucia del Mela", Latitude = "38.14408000", Longitude = "15.28055000" },
-                        new() { Id = 391, Name = "Santa Margherita di Belice", Latitude = "37.69281000", Longitude = "13.01584000" },
-                        new() { Id = 392, Name = "Santa Maria di Licodia", Latitude = "37.61684000", Longitude = "14.89337000" },
-                        new() { Id = 393, Name = "Santa Maria la Stella", Latitude = "37.62349000", Longitude = "15.12071000" },
-                        new() { Id = 394, Name = "Santa Marina Salina", Latitude = "38.56117000", Longitude = "14.87077000" },
-                        new() { Id = 395, Name = "Santa Ninfa", Latitude = "37.77042000", Longitude = "12.87744000" },
-                        new() { Id = 396, Name = "Santa Teresa di Riva", Latitude = "37.94635000", Longitude = "15.36671000" },
-                        new() { Id = 397, Name = "Santa Venerina", Latitude = "37.69103000", Longitude = "15.13880000" },
-                        new() { Id = 398, Name = "Santo Stefano di Camastra", Latitude = "38.01295000", Longitude = "14.35142000" },
-                        new() { Id = 399, Name = "Santo Stefano Quisquina", Latitude = "37.62606000", Longitude = "13.48976000" },
-                        new() { Id = 400, Name = "Saponara", Latitude = "38.19241000", Longitude = "15.43442000" },
-                        new() { Id = 401, Name = "Saponara Marittima", Latitude = "38.23121000", Longitude = "15.42621000" },
-                        new() { Id = 402, Name = "Sasi", Latitude = "37.90217000", Longitude = "12.88788000" },
-                        new() { Id = 403, Name = "Savoca", Latitude = "37.95326000", Longitude = "15.34009000" },
-                        new() { Id = 404, Name = "Scaletta Zanclea", Latitude = "38.04796000", Longitude = "15.46769000" },
-                        new() { Id = 405, Name = "Sciacca", Latitude = "37.50693000", Longitude = "13.08399000" },
-                        new() { Id = 406, Name = "Sciara", Latitude = "37.91511000", Longitude = "13.76177000" },
-                        new() { Id = 407, Name = "Scicli", Latitude = "36.79014000", Longitude = "14.70280000" },
-                        new() { Id = 408, Name = "Scillato", Latitude = "37.85778000", Longitude = "13.90632000" },
-                        new() { Id = 409, Name = "Sclafani Bagni", Latitude = "37.82175000", Longitude = "13.85476000" },
-                        new() { Id = 410, Name = "Scoglitti", Latitude = "36.89424000", Longitude = "14.43355000" },
-                        new() { Id = 411, Name = "Scordia", Latitude = "37.29548000", Longitude = "14.84058000" },
-                        new() { Id = 412, Name = "Serradifalco", Latitude = "37.45384000", Longitude = "13.88046000" },
-                        new() { Id = 413, Name = "Sfaranda", Latitude = "38.05815000", Longitude = "14.83147000" },
-                        new() { Id = 414, Name = "Sferracavallo", Latitude = "38.20000000", Longitude = "13.28333000" },
-                        new() { Id = 415, Name = "Siculiana", Latitude = "37.33515000", Longitude = "13.42432000" },
-                        new() { Id = 416, Name = "Sinagra", Latitude = "38.08191000", Longitude = "14.85009000" },
-                        new() { Id = 417, Name = "Siracusa", Latitude = "37.07542000", Longitude = "15.28664000" },
-                        new() { Id = 418, Name = "Solarino", Latitude = "37.10136000", Longitude = "15.11988000" },
-                        new() { Id = 419, Name = "Sommatino", Latitude = "37.33471000", Longitude = "13.99739000" },
-                        new() { Id = 420, Name = "Sortino", Latitude = "37.15881000", Longitude = "15.02998000" },
-                        new() { Id = 421, Name = "Spadafora", Latitude = "38.22349000", Longitude = "15.38178000" },
-                        new() { Id = 422, Name = "Sparta'", Latitude = "38.29371000", Longitude = "15.53503000" },
-                        new() { Id = 423, Name = "Sperlinga", Latitude = "37.76653000", Longitude = "14.35075000" },
-                        new() { Id = 424, Name = "Sutera", Latitude = "37.52493000", Longitude = "13.73274000" },
-                        new() { Id = 425, Name = "Taormina", Latitude = "37.85358000", Longitude = "15.28851000" },
-                        new() { Id = 426, Name = "Terme", Latitude = "38.13586000", Longitude = "15.15658000" },
-                        new() { Id = 427, Name = "Termini Imerese", Latitude = "37.98225000", Longitude = "13.69729000" },
-                        new() { Id = 428, Name = "Terrasini", Latitude = "38.14621000", Longitude = "13.08319000" },
-                        new() { Id = 429, Name = "Tonnara di Bonagia", Latitude = "38.06309000", Longitude = "12.59434000" },
-                        new() { Id = 430, Name = "Tonnarella", Latitude = "38.12539000", Longitude = "15.11348000" },
-                        new() { Id = 431, Name = "Torre Colonna-Sperone", Latitude = "38.02986000", Longitude = "13.57377000" },
-                        new() { Id = 432, Name = "Torregrotta", Latitude = "38.20262000", Longitude = "15.35010000" },
-                        new() { Id = 433, Name = "Torrenova", Latitude = "38.09246000", Longitude = "14.67917000" },
-                        new() { Id = 434, Name = "Torretta", Latitude = "38.13036000", Longitude = "13.23549000" },
-                        new() { Id = 435, Name = "Tortorici", Latitude = "38.02973000", Longitude = "14.82212000" },
-                        new() { Id = 436, Name = "Trabia", Latitude = "38.00420000", Longitude = "13.63393000" },
-                        new() { Id = 437, Name = "Trapani", Latitude = "37.83333000", Longitude = "12.66667000" },
-                        new() { Id = 438, Name = "Trappeto", Latitude = "38.06875000", Longitude = "13.03794000" },
-                        new() { Id = 439, Name = "Tre Fontane", Latitude = "37.56989000", Longitude = "12.72423000" },
-                        new() { Id = 440, Name = "Trecastagni", Latitude = "37.61543000", Longitude = "15.07796000" },
-                        new() { Id = 441, Name = "Tremestieri Etneo", Latitude = "37.56494000", Longitude = "15.07863000" },
-                        new() { Id = 442, Name = "Tripi", Latitude = "38.04673000", Longitude = "15.09670000" },
-                        new() { Id = 443, Name = "Triscina", Latitude = "37.58717000", Longitude = "12.78912000" },
-                        new() { Id = 444, Name = "Troina", Latitude = "37.78437000", Longitude = "14.59605000" },
-                        new() { Id = 445, Name = "Tusa", Latitude = "37.98385000", Longitude = "14.23606000" },
-                        new() { Id = 446, Name = "Ucria", Latitude = "38.04624000", Longitude = "14.88087000" },
-                        new() { Id = 447, Name = "Ustica", Latitude = "38.70985000", Longitude = "13.19293000" },
-                        new() { Id = 448, Name = "Valderice", Latitude = "38.04005000", Longitude = "12.61505000" },
-                        new() { Id = 449, Name = "Valdina", Latitude = "38.19351000", Longitude = "15.36980000" },
-                        new() { Id = 450, Name = "Valguarnera Caropepe", Latitude = "37.49527000", Longitude = "14.39025000" },
-                        new() { Id = 451, Name = "Valledolmo", Latitude = "37.74703000", Longitude = "13.82811000" },
-                        new() { Id = 452, Name = "Vallelunga Pratameno", Latitude = "37.68205000", Longitude = "13.83156000" },
-                        new() { Id = 453, Name = "Valverde", Latitude = "37.57695000", Longitude = "15.12419000" },
-                        new() { Id = 454, Name = "Vambolieri", Latitude = "37.57417000", Longitude = "15.16019000" },
-                        new() { Id = 455, Name = "Venetico Marina", Latitude = "38.21928000", Longitude = "15.36648000" },
-                        new() { Id = 456, Name = "Venetico Superiore", Latitude = "38.19307000", Longitude = "15.38119000" },
-                        new() { Id = 457, Name = "Ventimiglia di Sicilia", Latitude = "37.92361000", Longitude = "13.56768000" },
-                        new() { Id = 458, Name = "Viagrande", Latitude = "37.61032000", Longitude = "15.09794000" },
-                        new() { Id = 459, Name = "Vicari", Latitude = "37.82371000", Longitude = "13.56889000" },
-                        new() { Id = 460, Name = "Vigliatore 2", Latitude = "38.12221000", Longitude = "15.13066000" },
-                        new() { Id = 461, Name = "Villa Ciambra", Latitude = "38.06129000", Longitude = "13.32000000" },
-                        new() { Id = 462, Name = "Villabate", Latitude = "38.07789000", Longitude = "13.44275000" },
-                        new() { Id = 463, Name = "Villafranca Sicula", Latitude = "37.58761000", Longitude = "13.29048000" },
-                        new() { Id = 464, Name = "Villafranca Tirrena", Latitude = "38.23952000", Longitude = "15.43885000" },
-                        new() { Id = 465, Name = "Villafrati", Latitude = "37.90646000", Longitude = "13.48486000" },
-                        new() { Id = 466, Name = "Villaggio del Pino-Le Ginestre", Latitude = "37.58292000", Longitude = "15.00377000" },
-                        new() { Id = 467, Name = "Villalba", Latitude = "37.65457000", Longitude = "13.84452000" },
-                        new() { Id = 468, Name = "Villarosa", Latitude = "37.58753000", Longitude = "14.17089000" },
-                        new() { Id = 469, Name = "Villaseta", Latitude = "37.29877000", Longitude = "13.55919000" },
-                        new() { Id = 470, Name = "Villasmundo", Latitude = "37.25132000", Longitude = "15.09087000" },
-                        new() { Id = 471, Name = "Vita", Latitude = "37.86886000", Longitude = "12.82755000" },
-                        new() { Id = 472, Name = "Vittoria", Latitude = "36.95151000", Longitude = "14.52788000" },
-                        new() { Id = 473, Name = "Vizzini", Latitude = "37.16188000", Longitude = "14.75712000" },
-                        new() { Id = 474, Name = "Zafferana Etnea", Latitude = "37.67895000", Longitude = "15.10432000" }
+                        new() { Id = 8, Name = "Acquaviva Platani", Latitude = "37.57174000", Longitude = "13.70156000" },
+                        new() { Id = 9, Name = "Acquedolci", Latitude = "38.05708000", Longitude = "14.58550000" },
+                        new() { Id = 10, Name = "Adrano", Latitude = "37.66358000", Longitude = "14.83283000" },
+                        new() { Id = 11, Name = "Agira", Latitude = "37.65580000", Longitude = "14.51972000" },
+                        new() { Id = 12, Name = "Agliandroni-Paternella", Latitude = "38.13280000", Longitude = "13.06884000" },
+                        new() { Id = 13, Name = "Agrigento", Latitude = "37.45000000", Longitude = "13.50000000" },
+                        new() { Id = 14, Name = "Aidone", Latitude = "37.41468000", Longitude = "14.44542000" },
+                        new() { Id = 15, Name = "Alcamo", Latitude = "37.97790000", Longitude = "12.96473000" },
+                        new() { Id = 16, Name = "Alcara Li Fusi", Latitude = "38.02143000", Longitude = "14.70142000" },
+                        new() { Id = 17, Name = "Alessandria della Rocca", Latitude = "37.56767000", Longitude = "13.45343000" },
+                        new() { Id = 18, Name = "Alì", Latitude = "38.02678000", Longitude = "15.41910000" },
+                        new() { Id = 19, Name = "Alì Terme", Latitude = "38.00506000", Longitude = "15.42269000" },
+                        new() { Id = 20, Name = "Alia", Latitude = "37.77867000", Longitude = "13.71391000" },
+                        new() { Id = 21, Name = "Alimena", Latitude = "37.69310000", Longitude = "14.11369000" },
+                        new() { Id = 22, Name = "Aliminusa", Latitude = "37.86395000", Longitude = "13.78126000" },
+                        new() { Id = 23, Name = "Altavilla Milicia", Latitude = "38.03800000", Longitude = "13.54947000" },
+                        new() { Id = 24, Name = "Altofonte", Latitude = "38.04298000", Longitude = "13.29434000" },
+                        new() { Id = 25, Name = "Antillo", Latitude = "37.97937000", Longitude = "15.24029000" },
+                        new() { Id = 26, Name = "Aragona", Latitude = "37.39904000", Longitude = "13.61974000" },
+                        new() { Id = 27, Name = "Assoro", Latitude = "37.62210000", Longitude = "14.41810000" },
+                        new() { Id = 28, Name = "Augusta", Latitude = "37.24065000", Longitude = "15.22121000" },
+                        new() { Id = 29, Name = "Avola", Latitude = "36.90840000", Longitude = "15.13937000" },
+                        new() { Id = 30, Name = "Bagheria", Latitude = "38.07892000", Longitude = "13.51237000" },
+                        new() { Id = 31, Name = "Balestrate", Latitude = "38.05125000", Longitude = "13.00724000" },
+                        new() { Id = 32, Name = "Barcellona Pozzo di Gotto", Latitude = "38.14772000", Longitude = "15.21469000" },
+                        new() { Id = 33, Name = "Barrafranca", Latitude = "37.37850000", Longitude = "14.20270000" },
+                        new() { Id = 34, Name = "Basicò", Latitude = "38.06077000", Longitude = "15.06263000" },
+                        new() { Id = 35, Name = "Baucina", Latitude = "37.92521000", Longitude = "13.53636000" },
+                        new() { Id = 36, Name = "Belmonte Mezzagno", Latitude = "38.04653000", Longitude = "13.39207000" },
+                        new() { Id = 37, Name = "Belpasso", Latitude = "37.59192000", Longitude = "14.97985000" },
+                        new() { Id = 38, Name = "Belvedere", Latitude = "37.08839000", Longitude = "15.21314000" },
+                        new() { Id = 39, Name = "Belvedere-Piano Tavola", Latitude = "37.52955000", Longitude = "14.98786000" },
+                        new() { Id = 40, Name = "Biancavilla", Latitude = "37.64442000", Longitude = "14.86685000" },
+                        new() { Id = 41, Name = "Bisacquino", Latitude = "37.70352000", Longitude = "13.26051000" },
+                        new() { Id = 42, Name = "Bivona", Latitude = "37.61797000", Longitude = "13.43895000" },
+                        new() { Id = 43, Name = "Blufi", Latitude = "37.75205000", Longitude = "14.07296000" },
+                        new() { Id = 44, Name = "Bolognetta", Latitude = "37.97120000", Longitude = "13.45627000" },
+                        new() { Id = 45, Name = "Bompensiere", Latitude = "37.47240000", Longitude = "13.78140000" },
+                        new() { Id = 46, Name = "Bompietro", Latitude = "37.74394000", Longitude = "14.09470000" },
+                        new() { Id = 47, Name = "Borgetto", Latitude = "38.04664000", Longitude = "13.14071000" },
+                        new() { Id = 48, Name = "Brolo", Latitude = "38.15623000", Longitude = "14.82799000" },
+                        new() { Id = 49, Name = "Bronte", Latitude = "37.78863000", Longitude = "14.83377000" },
+                        new() { Id = 50, Name = "Brucoli", Latitude = "37.28191000", Longitude = "15.18836000" },
+                        new() { Id = 51, Name = "Buccheri", Latitude = "37.12494000", Longitude = "14.85222000" },
+                        new() { Id = 52, Name = "Burgio", Latitude = "37.60094000", Longitude = "13.28826000" },
+                        new() { Id = 53, Name = "Buscemi", Latitude = "37.08604000", Longitude = "14.88499000" },
+                        new() { Id = 54, Name = "Buseto Palizzolo", Latitude = "38.00339000", Longitude = "12.70911000" },
+                        new() { Id = 55, Name = "Butera", Latitude = "37.19100000", Longitude = "14.18232000" },
+                        new() { Id = 56, Name = "Caccamo", Latitude = "37.93357000", Longitude = "13.66808000" },
+                        new() { Id = 57, Name = "Calamonaci", Latitude = "37.52566000", Longitude = "13.29053000" },
+                        new() { Id = 58, Name = "Calascibetta", Latitude = "37.59024000", Longitude = "14.27180000" },
+                        new() { Id = 59, Name = "Calatabiano", Latitude = "37.82049000", Longitude = "15.23069000" },
+                        new() { Id = 60, Name = "Calatafimi", Latitude = "37.91440000", Longitude = "12.86364000" },
+                        new() { Id = 61, Name = "Caltabellotta", Latitude = "37.57543000", Longitude = "13.21632000" },
+                        new() { Id = 62, Name = "Caltagirone", Latitude = "37.23785000", Longitude = "14.51551000" },
+                        new() { Id = 63, Name = "Caltanissetta", Latitude = "37.49025000", Longitude = "14.06216000" },
+                        new() { Id = 64, Name = "Caltavuturo", Latitude = "37.82040000", Longitude = "13.89158000" },
+                        new() { Id = 65, Name = "Camastra", Latitude = "37.25380000", Longitude = "13.79211000" },
+                        new() { Id = 66, Name = "Cammarata", Latitude = "37.63361000", Longitude = "13.62722000" },
+                        new() { Id = 67, Name = "Campanella-Gianforma", Latitude = "36.92630000", Longitude = "14.83360000" },
+                        new() { Id = 68, Name = "Campobello di Licata", Latitude = "37.25759000", Longitude = "13.91811000" },
+                        new() { Id = 69, Name = "Campobello di Mazara", Latitude = "37.63464000", Longitude = "12.74946000" },
+                        new() { Id = 70, Name = "Campofelice di Fitalia", Latitude = "37.82686000", Longitude = "13.48572000" },
+                        new() { Id = 71, Name = "Campofelice di Roccella", Latitude = "37.99270000", Longitude = "13.87648000" },
+                        new() { Id = 72, Name = "Campofiorito", Latitude = "37.75374000", Longitude = "13.26875000" },
+                        new() { Id = 73, Name = "Campofranco", Latitude = "37.51208000", Longitude = "13.71213000" },
+                        new() { Id = 74, Name = "Camporeale", Latitude = "37.88612000", Longitude = "13.10107000" },
+                        new() { Id = 75, Name = "Camporotondo Etneo", Latitude = "37.56565000", Longitude = "15.00319000" },
+                        new() { Id = 76, Name = "Canalicchio", Latitude = "37.54097000", Longitude = "15.09645000" },
+                        new() { Id = 77, Name = "Canicattì", Latitude = "37.35842000", Longitude = "13.84786000" },
+                        new() { Id = 78, Name = "Canicattini Bagni", Latitude = "37.03171000", Longitude = "15.06388000" },
+                        new() { Id = 79, Name = "Canneto", Latitude = "38.49505000", Longitude = "14.96037000" },
+                        new() { Id = 80, Name = "Cannizzaro-Favara", Latitude = "38.06163000", Longitude = "13.27167000" },
+                        new() { Id = 81, Name = "Capaci", Latitude = "38.17107000", Longitude = "13.23930000" },
+                        new() { Id = 82, Name = "Capizzi", Latitude = "37.84788000", Longitude = "14.47976000" },
+                        new() { Id = 83, Name = "Capo d'Orlando", Latitude = "38.14262000", Longitude = "14.73292000" },
+                        new() { Id = 84, Name = "Capri Leone", Latitude = "38.08682000", Longitude = "14.72959000" },
+                        new() { Id = 85, Name = "Carini", Latitude = "38.13240000", Longitude = "13.18274000" },
+                        new() { Id = 86, Name = "Carlentini", Latitude = "37.28071000", Longitude = "15.01020000" },
+                        new() { Id = 87, Name = "Caronia", Latitude = "38.02381000", Longitude = "14.44142000" },
+                        new() { Id = 88, Name = "Carrozziere", Latitude = "37.03760000", Longitude = "15.27195000" },
+                        new() { Id = 89, Name = "Carruba", Latitude = "37.69062000", Longitude = "15.18815000" },
+                        new() { Id = 90, Name = "Carrubazza-Motta", Latitude = "37.55323000", Longitude = "15.10819000" },
+                        new() { Id = 91, Name = "Casa Santa", Latitude = "38.02514000", Longitude = "12.54840000" },
+                        new() { Id = 92, Name = "Casalvecchio Siculo", Latitude = "37.95850000", Longitude = "15.32371000" },
+                        new() { Id = 93, Name = "Cassaro", Latitude = "37.10571000", Longitude = "14.94697000" },
+                        new() { Id = 94, Name = "Cassibile", Latitude = "36.97862000", Longitude = "15.20061000" },
+                        new() { Id = 95, Name = "Castanea delle Furie", Latitude = "38.26165000", Longitude = "15.52178000" },
+                        new() { Id = 96, Name = "Castel di Judica", Latitude = "37.49475000", Longitude = "14.64744000" },
+                        new() { Id = 97, Name = "Castel di Lucio", Latitude = "37.88698000", Longitude = "14.31116000" },
+                        new() { Id = 98, Name = "Castelbuono", Latitude = "37.92530000", Longitude = "14.08665000" },
+                        new() { Id = 99, Name = "Casteldaccia", Latitude = "38.05121000", Longitude = "13.53041000" },
+                        new() { Id = 100, Name = "Castell'Umberto", Latitude = "38.08626000", Longitude = "14.80686000" },
+                        new() { Id = 101, Name = "Castellammare del Golfo", Latitude = "38.02653000", Longitude = "12.88183000" },
+                        new() { Id = 102, Name = "Castellana Sicula", Latitude = "37.78686000", Longitude = "14.03906000" },
+                        new() { Id = 103, Name = "Castelluzzo", Latitude = "38.10096000", Longitude = "12.73599000" },
+                        new() { Id = 104, Name = "Castelmola", Latitude = "37.85829000", Longitude = "15.27713000" },
+                        new() { Id = 105, Name = "Casteltermini", Latitude = "37.53874000", Longitude = "13.64601000" },
+                        new() { Id = 106, Name = "Castelvetrano", Latitude = "37.68081000", Longitude = "12.79194000" },
+                        new() { Id = 107, Name = "Castiglione di Sicilia", Latitude = "37.88150000", Longitude = "15.12156000" },
+                        new() { Id = 108, Name = "Castrofilippo", Latitude = "37.35046000", Longitude = "13.75001000" },
+                        new() { Id = 109, Name = "Castronuovo di Sicilia", Latitude = "37.67894000", Longitude = "13.60346000" },
+                        new() { Id = 110, Name = "Castroreale", Latitude = "38.09857000", Longitude = "15.21012000" },
+                        new() { Id = 111, Name = "Catania", Latitude = "37.47169000", Longitude = "14.84731000" },
+                        new() { Id = 112, Name = "Catenanuova", Latitude = "37.56876000", Longitude = "14.69076000" },
+                        new() { Id = 113, Name = "Cattolica Eraclea", Latitude = "37.44069000", Longitude = "13.39265000" },
+                        new() { Id = 114, Name = "Cava d'Aliga", Latitude = "36.72964000", Longitude = "14.69031000" },
+                        new() { Id = 115, Name = "Cefalà Diana", Latitude = "37.91565000", Longitude = "13.46325000" },
+                        new() { Id = 116, Name = "Cefalù", Latitude = "38.03856000", Longitude = "14.02285000" },
+                        new() { Id = 117, Name = "Centuripe", Latitude = "37.62336000", Longitude = "14.74049000" },
+                        new() { Id = 118, Name = "Cerami", Latitude = "37.80953000", Longitude = "14.50660000" },
+                        new() { Id = 119, Name = "Cerda", Latitude = "37.90578000", Longitude = "13.81496000" },
+                        new() { Id = 120, Name = "Cerza", Latitude = "37.54297000", Longitude = "15.10510000" },
+                        new() { Id = 121, Name = "Cesarò", Latitude = "37.84476000", Longitude = "14.71308000" },
+                        new() { Id = 122, Name = "Chianchitta-Pallio", Latitude = "37.82108000", Longitude = "15.25317000" },
+                        new() { Id = 123, Name = "Chianchitta-Trappitello", Latitude = "37.82984000", Longitude = "15.25077000" },
+                        new() { Id = 124, Name = "Chiaramonte Gulfi", Latitude = "37.03050000", Longitude = "14.70302000" },
+                        new() { Id = 125, Name = "Chiusa Sclafani", Latitude = "37.67692000", Longitude = "13.27074000" },
+                        new() { Id = 126, Name = "Ciaculli", Latitude = "38.07530000", Longitude = "13.40719000" },
+                        new() { Id = 127, Name = "Cianciana", Latitude = "37.51896000", Longitude = "13.43349000" },
+                        new() { Id = 128, Name = "Ciavolo", Latitude = "37.77943000", Longitude = "12.53774000" },
+                        new() { Id = 129, Name = "Ciminna", Latitude = "37.89765000", Longitude = "13.55966000" },
+                        new() { Id = 130, Name = "Cinisi", Latitude = "38.16082000", Longitude = "13.10099000" },
+                        new() { Id = 131, Name = "Città Giardino", Latitude = "37.10444000", Longitude = "15.21172000" },
+                        new() { Id = 132, Name = "Collesano", Latitude = "37.91809000", Longitude = "13.93702000" },
+                        new() { Id = 133, Name = "Comiso", Latitude = "36.94893000", Longitude = "14.60731000" },
+                        new() { Id = 134, Name = "Comitini", Latitude = "37.40735000", Longitude = "13.64530000" },
+                        new() { Id = 135, Name = "Condrò", Latitude = "38.17375000", Longitude = "15.32660000" },
+                        new() { Id = 136, Name = "Contessa Entellina", Latitude = "37.73005000", Longitude = "13.18425000" },
+                        new() { Id = 137, Name = "Corleone", Latitude = "37.81338000", Longitude = "13.30170000" },
+                        new() { Id = 138, Name = "Custonaci", Latitude = "38.07931000", Longitude = "12.68571000" },
+                        new() { Id = 139, Name = "Delia", Latitude = "37.35796000", Longitude = "13.92867000" },
+                        new() { Id = 140, Name = "Donnalucata", Latitude = "36.76117000", Longitude = "14.64022000" },
+                        new() { Id = 141, Name = "Enna", Latitude = "37.58333000", Longitude = "14.43333000" },
+                        new() { Id = 142, Name = "Erice", Latitude = "38.03785000", Longitude = "12.58778000" },
+                        new() { Id = 143, Name = "Evangelisti-Rubino", Latitude = "37.98412000", Longitude = "15.17324000" },
+                        new() { Id = 144, Name = "Falcone", Latitude = "38.11698000", Longitude = "15.07965000" },
+                        new() { Id = 145, Name = "Faro Superiore", Latitude = "38.26794000", Longitude = "15.58268000" },
+                        new() { Id = 146, Name = "Favara", Latitude = "37.31754000", Longitude = "13.66226000" },
+                        new() { Id = 147, Name = "Favignana", Latitude = "37.92951000", Longitude = "12.32958000" },
+                        new() { Id = 148, Name = "Ferla", Latitude = "37.11978000", Longitude = "14.93881000" },
+                        new() { Id = 149, Name = "Ficarazzi", Latitude = "38.09229000", Longitude = "13.46390000" },
+                        new() { Id = 150, Name = "Ficarra", Latitude = "38.10849000", Longitude = "14.82990000" },
+                        new() { Id = 151, Name = "Finale", Latitude = "38.01891000", Longitude = "14.16151000" },
+                        new() { Id = 152, Name = "Fiumedinisi", Latitude = "38.02596000", Longitude = "15.38099000" },
+                        new() { Id = 153, Name = "Fiumefreddo Sicilia", Latitude = "37.79146000", Longitude = "15.20919000" },
+                        new() { Id = 154, Name = "Floresta", Latitude = "37.98779000", Longitude = "14.91096000" },
+                        new() { Id = 155, Name = "Floridia", Latitude = "37.08343000", Longitude = "15.15332000" },
+                        new() { Id = 156, Name = "Fondachelli-Fantina", Latitude = "37.98476000", Longitude = "15.17519000" },
+                        new() { Id = 157, Name = "Forza d'Agrò", Latitude = "37.91539000", Longitude = "15.33409000" },
+                        new() { Id = 158, Name = "Francavilla di Sicilia", Latitude = "37.90197000", Longitude = "15.13821000" },
+                        new() { Id = 159, Name = "Francofonte", Latitude = "37.22477000", Longitude = "14.87488000" },
+                        new() { Id = 160, Name = "Frazzanò", Latitude = "38.07202000", Longitude = "14.74407000" },
+                        new() { Id = 161, Name = "Fulgatore-Torretta", Latitude = "37.94977000", Longitude = "12.69303000" },
+                        new() { Id = 162, Name = "Furci Siculo", Latitude = "37.96159000", Longitude = "15.37763000" },
+                        new() { Id = 163, Name = "Furnari", Latitude = "38.10436000", Longitude = "15.12358000" },
+                        new() { Id = 164, Name = "Gaggi", Latitude = "37.85995000", Longitude = "15.22126000" },
+                        new() { Id = 165, Name = "Gagliano Castelferrato", Latitude = "37.70967000", Longitude = "14.53524000" },
+                        new() { Id = 166, Name = "Galati Mamertino", Latitude = "38.03176000", Longitude = "14.77145000" },
+                        new() { Id = 167, Name = "Gallodoro", Latitude = "37.90206000", Longitude = "15.29359000" },
+                        new() { Id = 168, Name = "Gangi", Latitude = "37.79565000", Longitude = "14.20437000" },
+                        new() { Id = 169, Name = "Gela", Latitude = "37.07381000", Longitude = "14.24038000" },
+                        new() { Id = 170, Name = "Geraci Siculo", Latitude = "37.85901000", Longitude = "14.15333000" },
+                        new() { Id = 171, Name = "Giacalone", Latitude = "38.03276000", Longitude = "13.23695000" },
+                        new() { Id = 172, Name = "Giammoro", Latitude = "38.20372000", Longitude = "15.30666000" },
+                        new() { Id = 173, Name = "Giardina Gallotti", Latitude = "37.35073000", Longitude = "13.52272000" },
+                        new() { Id = 174, Name = "Giardinello", Latitude = "38.08706000", Longitude = "13.15648000" },
+                        new() { Id = 175, Name = "Giardini-Naxos", Latitude = "37.82755000", Longitude = "15.26713000" },
+                        new() { Id = 176, Name = "Giarratana", Latitude = "37.04741000", Longitude = "14.79454000" },
+                        new() { Id = 177, Name = "Giarre", Latitude = "37.72440000", Longitude = "15.18165000" },
+                        new() { Id = 178, Name = "Gioiosa Marea", Latitude = "38.17373000", Longitude = "14.89932000" },
+                        new() { Id = 179, Name = "Giuliana", Latitude = "37.67280000", Longitude = "13.23737000" },
+                        new() { Id = 180, Name = "Gliaca", Latitude = "38.16317000", Longitude = "14.84768000" },
+                        new() { Id = 181, Name = "Godrano", Latitude = "37.90310000", Longitude = "13.42823000" },
+                        new() { Id = 182, Name = "Grammichele", Latitude = "37.21326000", Longitude = "14.63311000" },
+                        new() { Id = 183, Name = "Graniti", Latitude = "37.88986000", Longitude = "15.22459000" },
+                        new() { Id = 184, Name = "Gratteri", Latitude = "37.96607000", Longitude = "13.97314000" },
+                        new() { Id = 185, Name = "Gravina di Catania", Latitude = "37.56085000", Longitude = "15.06292000" },
+                        new() { Id = 186, Name = "Grotte", Latitude = "37.40346000", Longitude = "13.69889000" },
+                        new() { Id = 187, Name = "Gualtieri Sicaminò", Latitude = "38.16267000", Longitude = "15.31699000" },
+                        new() { Id = 188, Name = "Guidomandri Marina", Latitude = "38.04528000", Longitude = "15.46303000" },
+                        new() { Id = 189, Name = "Isnello", Latitude = "37.94324000", Longitude = "14.00724000" },
+                        new() { Id = 190, Name = "Isola delle Femmine", Latitude = "38.19123000", Longitude = "13.24691000" },
+                        new() { Id = 191, Name = "Ispica", Latitude = "36.78622000", Longitude = "14.90530000" },
+                        new() { Id = 192, Name = "Itala", Latitude = "38.05144000", Longitude = "15.43706000" },
+                        new() { Id = 193, Name = "Joppolo Giancaxio", Latitude = "37.38681000", Longitude = "13.55586000" },
+                        new() { Id = 194, Name = "Kamma", Latitude = "36.79701000", Longitude = "12.03617000" },
+                        new() { Id = 195, Name = "Lampedusa", Latitude = "35.50142000", Longitude = "12.60964000" },
+                        new() { Id = 196, Name = "Larderia", Latitude = "38.14101000", Longitude = "15.50287000" },
+                        new() { Id = 197, Name = "Lascari", Latitude = "38.00067000", Longitude = "13.94053000" },
+                        new() { Id = 198, Name = "Lavinaio-Monterosso", Latitude = "37.64097000", Longitude = "15.10462000" },
+                        new() { Id = 199, Name = "Leni", Latitude = "38.55534000", Longitude = "14.82497000" },
+                        new() { Id = 200, Name = "Lentini", Latitude = "37.28556000", Longitude = "14.99737000" },
+                        new() { Id = 201, Name = "Leonforte", Latitude = "37.64197000", Longitude = "14.39766000" },
+                        new() { Id = 202, Name = "Lercara Friddi", Latitude = "37.74657000", Longitude = "13.60391000" },
+                        new() { Id = 203, Name = "Letojanni", Latitude = "37.88050000", Longitude = "15.30735000" },
+                        new() { Id = 204, Name = "Librizzi", Latitude = "38.09719000", Longitude = "14.95909000" },
+                        new() { Id = 205, Name = "Licata", Latitude = "37.10267000", Longitude = "13.93972000" },
+                        new() { Id = 206, Name = "Licodia Eubea", Latitude = "37.15674000", Longitude = "14.70555000" },
+                        new() { Id = 207, Name = "Limina", Latitude = "37.94076000", Longitude = "15.27119000" },
+                        new() { Id = 208, Name = "Linera", Latitude = "37.66380000", Longitude = "15.13653000" },
+                        new() { Id = 209, Name = "Linguaglossa", Latitude = "37.84243000", Longitude = "15.13774000" },
+                        new() { Id = 210, Name = "Lipari", Latitude = "38.46743000", Longitude = "14.95398000" },
+                        new() { Id = 211, Name = "Longi", Latitude = "38.02617000", Longitude = "14.75306000" },
+                        new() { Id = 212, Name = "Lucca Sicula", Latitude = "37.57783000", Longitude = "13.30579000" },
+                        new() { Id = 213, Name = "Maletto", Latitude = "37.82914000", Longitude = "14.86403000" },
+                        new() { Id = 214, Name = "Malfa", Latitude = "38.57730000", Longitude = "14.83598000" },
+                        new() { Id = 215, Name = "Malvagna", Latitude = "37.91752000", Longitude = "15.05548000" },
+                        new() { Id = 216, Name = "Mandanici", Latitude = "38.00356000", Longitude = "15.31669000" },
+                        new() { Id = 217, Name = "Maniace", Latitude = "37.88306000", Longitude = "14.79808000" },
+                        new() { Id = 218, Name = "Marausa", Latitude = "37.94166000", Longitude = "12.50948000" },
+                        new() { Id = 219, Name = "Marianopoli", Latitude = "37.59840000", Longitude = "13.91520000" },
+                        new() { Id = 220, Name = "Marina di Caronia", Latitude = "38.03545000", Longitude = "14.44182000" },
+                        new() { Id = 221, Name = "Marina di Ragusa", Latitude = "36.78575000", Longitude = "14.55474000" },
+                        new() { Id = 222, Name = "Marinella", Latitude = "37.59475000", Longitude = "12.84434000" },
+                        new() { Id = 223, Name = "Marineo", Latitude = "37.95185000", Longitude = "13.41781000" },
+                        new() { Id = 224, Name = "Marsala", Latitude = "37.79920000", Longitude = "12.43670000" },
+                        new() { Id = 225, Name = "Mascali", Latitude = "37.75794000", Longitude = "15.19662000" },
+                        new() { Id = 226, Name = "Mascalucia", Latitude = "37.57465000", Longitude = "15.04964000" },
+                        new() { Id = 227, Name = "Maugeri", Latitude = "37.58608000", Longitude = "15.11785000" },
+                        new() { Id = 228, Name = "Mazara del Vallo", Latitude = "37.65535000", Longitude = "12.58986000" },
+                        new() { Id = 229, Name = "Mazara II", Latitude = "37.68146000", Longitude = "12.60074000" },
+                        new() { Id = 230, Name = "Mazzarino", Latitude = "37.30188000", Longitude = "14.20959000" },
+                        new() { Id = 231, Name = "Mazzarrà Sant'Andrea", Latitude = "38.08969000", Longitude = "15.13535000" },
+                        new() { Id = 232, Name = "Mazzarrone", Latitude = "37.08834000", Longitude = "14.56128000" },
+                        new() { Id = 233, Name = "Melia", Latitude = "37.90384000", Longitude = "15.27499000" },
+                        new() { Id = 234, Name = "Melilli", Latitude = "37.17821000", Longitude = "15.13020000" },
+                        new() { Id = 235, Name = "Menfi", Latitude = "37.60409000", Longitude = "12.96889000" },
+                        new() { Id = 236, Name = "Merì", Latitude = "38.16630000", Longitude = "15.24970000" },
+                        new() { Id = 237, Name = "Messina", Latitude = "38.05000000", Longitude = "14.86667000" },
+                        new() { Id = 238, Name = "Mezzojuso", Latitude = "37.86509000", Longitude = "13.46509000" },
+                        new() { Id = 239, Name = "Milazzo", Latitude = "38.22008000", Longitude = "15.24023000" },
+                        new() { Id = 240, Name = "Milena", Latitude = "37.47133000", Longitude = "13.73613000" },
+                        new() { Id = 241, Name = "Militello in Val di Catania", Latitude = "37.27594000", Longitude = "14.79342000" },
+                        new() { Id = 242, Name = "Militello Rosmarino", Latitude = "38.04575000", Longitude = "14.67584000" },
+                        new() { Id = 243, Name = "Milo", Latitude = "37.72450000", Longitude = "15.11554000" },
+                        new() { Id = 244, Name = "Mineo", Latitude = "37.26494000", Longitude = "14.69381000" },
+                        new() { Id = 245, Name = "Mirabella Imbaccari", Latitude = "37.32702000", Longitude = "14.44605000" },
+                        new() { Id = 246, Name = "Mirto", Latitude = "38.08439000", Longitude = "14.74609000" },
+                        new() { Id = 247, Name = "Misilmeri", Latitude = "38.03183000", Longitude = "13.44795000" },
+                        new() { Id = 248, Name = "Misterbianco", Latitude = "37.51803000", Longitude = "15.00913000" },
+                        new() { Id = 249, Name = "Mistretta", Latitude = "37.92823000", Longitude = "14.35780000" },
+                        new() { Id = 250, Name = "Modica", Latitude = "36.85868000", Longitude = "14.75966000" },
+                        new() { Id = 251, Name = "Moio Alcantara", Latitude = "37.90056000", Longitude = "15.05072000" },
+                        new() { Id = 252, Name = "Monforte San Giorgio", Latitude = "38.15733000", Longitude = "15.38132000" },
+                        new() { Id = 253, Name = "Mongiuffi Melia", Latitude = "37.90336000", Longitude = "15.27539000" },
+                        new() { Id = 254, Name = "Monreale", Latitude = "38.08125000", Longitude = "13.28947000" },
+                        new() { Id = 255, Name = "Montagnareale", Latitude = "38.13216000", Longitude = "14.94658000" },
+                        new() { Id = 256, Name = "Montalbano Elicona", Latitude = "38.02360000", Longitude = "15.01393000" },
+                        new() { Id = 257, Name = "Montallegro", Latitude = "37.39121000", Longitude = "13.35179000" },
+                        new() { Id = 258, Name = "Montedoro", Latitude = "37.45431000", Longitude = "13.81684000" },
+                        new() { Id = 259, Name = "Montelepre", Latitude = "38.09026000", Longitude = "13.17518000" },
+                        new() { Id = 260, Name = "Montemaggiore Belsito", Latitude = "37.84818000", Longitude = "13.76206000" },
+                        new() { Id = 261, Name = "Monterosso Almo", Latitude = "37.08884000", Longitude = "14.76498000" },
+                        new() { Id = 262, Name = "Montevago", Latitude = "37.70224000", Longitude = "12.98584000" },
+                        new() { Id = 263, Name = "Motta Camastra", Latitude = "37.89431000", Longitude = "15.17008000" },
+                        new() { Id = 264, Name = "Motta d'Affermo", Latitude = "37.98096000", Longitude = "14.30337000" },
+                        new() { Id = 265, Name = "Motta Sant'Anastasia", Latitude = "37.51205000", Longitude = "14.96628000" },
+                        new() { Id = 266, Name = "Mussomeli", Latitude = "37.58067000", Longitude = "13.75214000" },
+                        new() { Id = 267, Name = "Naro", Latitude = "37.29248000", Longitude = "13.79337000" },
+                        new() { Id = 268, Name = "Naso", Latitude = "38.12215000", Longitude = "14.78702000" },
+                        new() { Id = 269, Name = "Nicolosi", Latitude = "37.62148000", Longitude = "15.02785000" },
+                        new() { Id = 270, Name = "Nicosia", Latitude = "37.74747000", Longitude = "14.39218000" },
+                        new() { Id = 271, Name = "Niscemi", Latitude = "37.14649000", Longitude = "14.39381000" },
+                        new() { Id = 272, Name = "Nissoria", Latitude = "37.65410000", Longitude = "14.44810000" },
+                        new() { Id = 273, Name = "Nizza di Sicilia", Latitude = "37.99081000", Longitude = "15.40956000" },
+                        new() { Id = 274, Name = "Noto", Latitude = "36.89244000", Longitude = "15.06977000" },
+                        new() { Id = 275, Name = "Novara di Sicilia", Latitude = "38.01538000", Longitude = "15.13134000" },
+                        new() { Id = 276, Name = "Nunziata", Latitude = "37.75858000", Longitude = "15.17058000" },
+                        new() { Id = 277, Name = "Nuova Gibellina", Latitude = "37.80704000", Longitude = "12.86954000" },
+                        new() { Id = 278, Name = "Nuovo Centro Urbano Poggioreale", Latitude = "37.76404000", Longitude = "13.03594000" },
+                        new() { Id = 279, Name = "Oliveri", Latitude = "38.12515000", Longitude = "15.06068000" },
+                        new() { Id = 280, Name = "Pace del Mela", Latitude = "38.17997000", Longitude = "15.30629000" },
+                        new() { Id = 281, Name = "Paceco", Latitude = "37.98026000", Longitude = "12.55766000" },
+                        new() { Id = 282, Name = "Pachino", Latitude = "36.71522000", Longitude = "15.09019000" },
+                        new() { Id = 283, Name = "Pagliara", Latitude = "37.98546000", Longitude = "15.35969000" },
+                        new() { Id = 284, Name = "Palagonia", Latitude = "37.32955000", Longitude = "14.74474000" },
+                        new() { Id = 285, Name = "Palazzo Adriano", Latitude = "37.68066000", Longitude = "13.37941000" },
+                        new() { Id = 286, Name = "Palazzolo", Latitude = "37.56224000", Longitude = "14.92987000" },
+                        new() { Id = 287, Name = "Palazzolo Acreide", Latitude = "37.06261000", Longitude = "14.90593000" },
+                        new() { Id = 288, Name = "Palermo", Latitude = "37.81667000", Longitude = "13.58333000" },
+                        new() { Id = 289, Name = "Palma di Montechiaro", Latitude = "37.19066000", Longitude = "13.76603000" },
+                        new() { Id = 290, Name = "Pantelleria", Latitude = "36.82836000", Longitude = "11.94611000" },
+                        new() { Id = 291, Name = "Partanna", Latitude = "37.72680000", Longitude = "12.88917000" },
+                        new() { Id = 292, Name = "Partinico", Latitude = "38.04657000", Longitude = "13.11785000" },
+                        new() { Id = 293, Name = "Pasteria-Lapide", Latitude = "37.81012000", Longitude = "15.22818000" },
+                        new() { Id = 294, Name = "Paternò", Latitude = "37.56675000", Longitude = "14.90254000" },
+                        new() { Id = 295, Name = "Patti", Latitude = "38.14736000", Longitude = "14.96409000" },
+                        new() { Id = 296, Name = "Pedagaggi", Latitude = "37.19182000", Longitude = "14.93654000" },
+                        new() { Id = 297, Name = "Pedalino", Latitude = "37.02320000", Longitude = "14.58116000" },
+                        new() { Id = 298, Name = "Pedara", Latitude = "37.62386000", Longitude = "15.05672000" },
+                        new() { Id = 299, Name = "Pennisi", Latitude = "37.64945000", Longitude = "15.12385000" },
+                        new() { Id = 300, Name = "Petralia Soprana", Latitude = "37.80064000", Longitude = "14.10813000" },
+                        new() { Id = 301, Name = "Petralia Sottana", Latitude = "37.80919000", Longitude = "14.09293000" },
+                        new() { Id = 302, Name = "Petrosino", Latitude = "37.71271000", Longitude = "12.49964000" },
+                        new() { Id = 303, Name = "Pettineo", Latitude = "37.96793000", Longitude = "14.29118000" },
+                        new() { Id = 304, Name = "Piana degli Albanesi", Latitude = "37.99372000", Longitude = "13.28464000" },
+                        new() { Id = 305, Name = "Piano dei Geli", Latitude = "38.09919000", Longitude = "13.27478000" },
+                        new() { Id = 306, Name = "Piano Maglio-Blandino", Latitude = "38.05793000", Longitude = "13.30909000" },
+                        new() { Id = 307, Name = "Pianoconte", Latitude = "38.47432000", Longitude = "14.92857000" },
+                        new() { Id = 308, Name = "Piazza Armerina", Latitude = "37.38417000", Longitude = "14.36921000" },
+                        new() { Id = 309, Name = "Piedimonte Etneo", Latitude = "37.80677000", Longitude = "15.17516000" },
+                        new() { Id = 310, Name = "Pietraperzia", Latitude = "37.41852000", Longitude = "14.13739000" },
+                        new() { Id = 311, Name = "Pioppo", Latitude = "38.05000000", Longitude = "13.23333000" },
+                        new() { Id = 312, Name = "Piraino", Latitude = "38.16127000", Longitude = "14.86100000" },
+                        new() { Id = 313, Name = "Polizzi Generosa", Latitude = "37.81159000", Longitude = "14.00268000" },
+                        new() { Id = 314, Name = "Pollina", Latitude = "37.99309000", Longitude = "14.14586000" },
+                        new() { Id = 315, Name = "Portella di Mare", Latitude = "38.07304000", Longitude = "13.46199000" },
+                        new() { Id = 316, Name = "Porto Empedocle", Latitude = "37.28942000", Longitude = "13.52494000" },
+                        new() { Id = 317, Name = "Portopalo di Capo Passero", Latitude = "36.68219000", Longitude = "15.13378000" },
+                        new() { Id = 318, Name = "Pozzallo", Latitude = "36.73028000", Longitude = "14.84672000" },
+                        new() { Id = 319, Name = "Priolo Gargallo", Latitude = "37.15512000", Longitude = "15.18248000" },
+                        new() { Id = 320, Name = "Prizzi", Latitude = "37.72088000", Longitude = "13.43435000" },
+                        new() { Id = 321, Name = "Provincia di Caltanissetta", Latitude = "37.37448000", Longitude = "14.06421000" },
+                        new() { Id = 322, Name = "Provincia di Siracusa", Latitude = "37.08805000", Longitude = "15.27924000" },
+                        new() { Id = 323, Name = "Racalmuto", Latitude = "37.40498000", Longitude = "13.72995000" },
+                        new() { Id = 324, Name = "Raccuja", Latitude = "38.05583000", Longitude = "14.91044000" },
+                        new() { Id = 325, Name = "Raddusa", Latitude = "37.47529000", Longitude = "14.53521000" },
+                        new() { Id = 326, Name = "Raffadali", Latitude = "37.40214000", Longitude = "13.53175000" },
+                        new() { Id = 327, Name = "Ragalna", Latitude = "37.63455000", Longitude = "14.94698000" },
+                        new() { Id = 328, Name = "Ragusa", Latitude = "36.91667000", Longitude = "14.60000000" },
+                        new() { Id = 329, Name = "Ramacca", Latitude = "37.38616000", Longitude = "14.69241000" },
+                        new() { Id = 330, Name = "Randazzo", Latitude = "37.87736000", Longitude = "14.95012000" },
+                        new() { Id = 331, Name = "Ravanusa", Latitude = "37.26659000", Longitude = "13.96834000" },
+                        new() { Id = 332, Name = "Realmonte", Latitude = "37.30847000", Longitude = "13.46429000" },
+                        new() { Id = 333, Name = "Regalbuto", Latitude = "37.65195000", Longitude = "14.63915000" },
+                        new() { Id = 334, Name = "Reitano", Latitude = "37.97198000", Longitude = "14.34418000" },
+                        new() { Id = 335, Name = "Resuttano", Latitude = "37.67865000", Longitude = "14.02946000" },
+                        new() { Id = 336, Name = "Ribera", Latitude = "37.49773000", Longitude = "13.26676000" },
+                        new() { Id = 337, Name = "Riesi", Latitude = "37.28079000", Longitude = "14.08317000" },
+                        new() { Id = 338, Name = "Rilievo", Latitude = "37.91638000", Longitude = "12.54058000" },
+                        new() { Id = 339, Name = "Riposto", Latitude = "37.73183000", Longitude = "15.20576000" },
+                        new() { Id = 340, Name = "Rocca di Capri Leone", Latitude = "38.10677000", Longitude = "14.71032000" },
+                        new() { Id = 341, Name = "Roccafiorita", Latitude = "37.93086000", Longitude = "15.26739000" },
+                        new() { Id = 342, Name = "Roccalumera", Latitude = "37.97554000", Longitude = "15.39439000" },
+                        new() { Id = 343, Name = "Roccamena", Latitude = "37.83824000", Longitude = "13.15513000" },
+                        new() { Id = 344, Name = "Roccapalumba", Latitude = "37.80825000", Longitude = "13.63671000" },
+                        new() { Id = 345, Name = "Roccavaldina", Latitude = "38.18296000", Longitude = "15.37402000" },
+                        new() { Id = 346, Name = "Roccella Valdemone", Latitude = "37.93289000", Longitude = "15.00997000" },
+                        new() { Id = 347, Name = "Rodì", Latitude = "38.10823000", Longitude = "15.16933000" },
+                        new() { Id = 348, Name = "Rometta", Latitude = "38.17007000", Longitude = "15.41429000" },
+                        new() { Id = 349, Name = "Rometta Marea", Latitude = "38.23264000", Longitude = "15.40955000" },
+                        new() { Id = 350, Name = "Rosolini", Latitude = "36.82145000", Longitude = "14.95132000" },
+                        new() { Id = 351, Name = "Salaparuta", Latitude = "37.75694000", Longitude = "13.00981000" },
+                        new() { Id = 352, Name = "Salemi", Latitude = "37.82199000", Longitude = "12.80506000" },
+                        new() { Id = 353, Name = "Sambuca di Sicilia", Latitude = "37.65294000", Longitude = "13.11462000" },
+                        new() { Id = 354, Name = "San Biagio Platani", Latitude = "37.50927000", Longitude = "13.52844000" },
+                        new() { Id = 355, Name = "San Cataldo", Latitude = "37.48412000", Longitude = "13.98542000" },
+                        new() { Id = 356, Name = "San Cipirello", Latitude = "37.96067000", Longitude = "13.17732000" },
+                        new() { Id = 357, Name = "San Ciro-Ulmi-Filci", Latitude = "37.83328000", Longitude = "12.78229000" },
+                        new() { Id = 358, Name = "San Cono", Latitude = "37.28992000", Longitude = "14.36709000" },
+                        new() { Id = 359, Name = "San Filippo del Mela", Latitude = "38.17007000", Longitude = "15.27338000" },
+                        new() { Id = 360, Name = "San Fratello", Latitude = "38.01556000", Longitude = "14.59818000" },
+                        new() { Id = 361, Name = "San Giorgio", Latitude = "38.16834000", Longitude = "14.94825000" },
+                        new() { Id = 362, Name = "San Giovanni", Latitude = "37.73538000", Longitude = "15.15887000" },
+                        new() { Id = 363, Name = "San Giovanni Gemini", Latitude = "37.62785000", Longitude = "13.64357000" },
+                        new() { Id = 364, Name = "San Giovanni la Punta", Latitude = "37.57690000", Longitude = "15.09371000" },
+                        new() { Id = 365, Name = "San Giuseppe Jato", Latitude = "37.97331000", Longitude = "13.18889000" },
+                        new() { Id = 366, Name = "San Gregorio di Catania", Latitude = "37.56764000", Longitude = "15.11120000" },
+                        new() { Id = 367, Name = "San Leone Mosè", Latitude = "37.26497000", Longitude = "13.58434000" },
+                        new() { Id = 368, Name = "San Marco d'Alunzio", Latitude = "38.07261000", Longitude = "14.70093000" },
+                        new() { Id = 369, Name = "San Mauro Castelverde", Latitude = "37.91478000", Longitude = "14.18961000" },
+                        new() { Id = 370, Name = "San Michele di Ganzaria", Latitude = "37.28042000", Longitude = "14.42633000" },
+                        new() { Id = 371, Name = "San Pier Niceto", Latitude = "38.16050000", Longitude = "15.34982000" },
+                        new() { Id = 372, Name = "San Piero Patti", Latitude = "38.05214000", Longitude = "14.96816000" },
+                        new() { Id = 373, Name = "San Pietro Clarenza", Latitude = "37.56885000", Longitude = "15.02289000" },
+                        new() { Id = 374, Name = "San Salvatore di Fitalia", Latitude = "38.06841000", Longitude = "14.77799000" },
+                        new() { Id = 375, Name = "San Teodoro", Latitude = "37.84797000", Longitude = "14.69878000" },
+                        new() { Id = 376, Name = "San Vito Lo Capo", Latitude = "38.17395000", Longitude = "12.73599000" },
+                        new() { Id = 377, Name = "Sant'Agata di Militello", Latitude = "38.06838000", Longitude = "14.63600000" },
+                        new() { Id = 378, Name = "Sant'Agata Li Battiati", Latitude = "37.55745000", Longitude = "15.07999000" },
+                        new() { Id = 379, Name = "Sant'Alessio Siculo", Latitude = "37.92516000", Longitude = "15.34968000" },
+                        new() { Id = 380, Name = "Sant'Alfio", Latitude = "37.74393000", Longitude = "15.13952000" },
+                        new() { Id = 381, Name = "Sant'Angelo di Brolo", Latitude = "38.11518000", Longitude = "14.88403000" },
+                        new() { Id = 382, Name = "Sant'Angelo Muxaro", Latitude = "37.48014000", Longitude = "13.54554000" },
+                        new() { Id = 383, Name = "Santa Caterina Villarmosa", Latitude = "37.59034000", Longitude = "14.03554000" },
+                        new() { Id = 384, Name = "Santa Cristina Gela", Latitude = "37.98514000", Longitude = "13.32747000" },
+                        new() { Id = 385, Name = "Santa Croce Camerina", Latitude = "36.82842000", Longitude = "14.52538000" },
+                        new() { Id = 386, Name = "Santa Domenica Vittoria", Latitude = "37.91624000", Longitude = "14.96288000" },
+                        new() { Id = 387, Name = "Santa Elisabetta", Latitude = "37.43171000", Longitude = "13.55386000" },
+                        new() { Id = 388, Name = "Santa Flavia", Latitude = "38.10448000", Longitude = "13.53340000" },
+                        new() { Id = 389, Name = "Santa Lucia del Mela", Latitude = "38.14408000", Longitude = "15.28055000" },
+                        new() { Id = 390, Name = "Santa Margherita di Belice", Latitude = "37.69281000", Longitude = "13.01584000" },
+                        new() { Id = 391, Name = "Santa Maria di Licodia", Latitude = "37.61684000", Longitude = "14.89337000" },
+                        new() { Id = 392, Name = "Santa Maria la Stella", Latitude = "37.62349000", Longitude = "15.12071000" },
+                        new() { Id = 393, Name = "Santa Marina Salina", Latitude = "38.56117000", Longitude = "14.87077000" },
+                        new() { Id = 394, Name = "Santa Ninfa", Latitude = "37.77042000", Longitude = "12.87744000" },
+                        new() { Id = 395, Name = "Santa Teresa di Riva", Latitude = "37.94635000", Longitude = "15.36671000" },
+                        new() { Id = 396, Name = "Santa Venerina", Latitude = "37.69103000", Longitude = "15.13880000" },
+                        new() { Id = 397, Name = "Santo Stefano di Camastra", Latitude = "38.01295000", Longitude = "14.35142000" },
+                        new() { Id = 398, Name = "Santo Stefano Quisquina", Latitude = "37.62606000", Longitude = "13.48976000" },
+                        new() { Id = 399, Name = "Saponara", Latitude = "38.19241000", Longitude = "15.43442000" },
+                        new() { Id = 400, Name = "Saponara Marittima", Latitude = "38.23121000", Longitude = "15.42621000" },
+                        new() { Id = 401, Name = "Sasi", Latitude = "37.90217000", Longitude = "12.88788000" },
+                        new() { Id = 402, Name = "Savoca", Latitude = "37.95326000", Longitude = "15.34009000" },
+                        new() { Id = 403, Name = "Scaletta Zanclea", Latitude = "38.04796000", Longitude = "15.46769000" },
+                        new() { Id = 404, Name = "Sciacca", Latitude = "37.50693000", Longitude = "13.08399000" },
+                        new() { Id = 405, Name = "Sciara", Latitude = "37.91511000", Longitude = "13.76177000" },
+                        new() { Id = 406, Name = "Scicli", Latitude = "36.79014000", Longitude = "14.70280000" },
+                        new() { Id = 407, Name = "Scillato", Latitude = "37.85778000", Longitude = "13.90632000" },
+                        new() { Id = 408, Name = "Sclafani Bagni", Latitude = "37.82175000", Longitude = "13.85476000" },
+                        new() { Id = 409, Name = "Scoglitti", Latitude = "36.89424000", Longitude = "14.43355000" },
+                        new() { Id = 410, Name = "Scordia", Latitude = "37.29548000", Longitude = "14.84058000" },
+                        new() { Id = 411, Name = "Serradifalco", Latitude = "37.45384000", Longitude = "13.88046000" },
+                        new() { Id = 412, Name = "Sfaranda", Latitude = "38.05815000", Longitude = "14.83147000" },
+                        new() { Id = 413, Name = "Sferracavallo", Latitude = "38.20000000", Longitude = "13.28333000" },
+                        new() { Id = 414, Name = "Siculiana", Latitude = "37.33515000", Longitude = "13.42432000" },
+                        new() { Id = 415, Name = "Sinagra", Latitude = "38.08191000", Longitude = "14.85009000" },
+                        new() { Id = 416, Name = "Siracusa", Latitude = "37.07542000", Longitude = "15.28664000" },
+                        new() { Id = 417, Name = "Solarino", Latitude = "37.10136000", Longitude = "15.11988000" },
+                        new() { Id = 418, Name = "Sommatino", Latitude = "37.33471000", Longitude = "13.99739000" },
+                        new() { Id = 419, Name = "Sortino", Latitude = "37.15881000", Longitude = "15.02998000" },
+                        new() { Id = 420, Name = "Spadafora", Latitude = "38.22349000", Longitude = "15.38178000" },
+                        new() { Id = 421, Name = "Sparta'", Latitude = "38.29371000", Longitude = "15.53503000" },
+                        new() { Id = 422, Name = "Sperlinga", Latitude = "37.76653000", Longitude = "14.35075000" },
+                        new() { Id = 423, Name = "Sutera", Latitude = "37.52493000", Longitude = "13.73274000" },
+                        new() { Id = 424, Name = "Taormina", Latitude = "37.85358000", Longitude = "15.28851000" },
+                        new() { Id = 425, Name = "Terme", Latitude = "38.13586000", Longitude = "15.15658000" },
+                        new() { Id = 426, Name = "Termini Imerese", Latitude = "37.98225000", Longitude = "13.69729000" },
+                        new() { Id = 427, Name = "Terrasini", Latitude = "38.14621000", Longitude = "13.08319000" },
+                        new() { Id = 428, Name = "Tonnara di Bonagia", Latitude = "38.06309000", Longitude = "12.59434000" },
+                        new() { Id = 429, Name = "Tonnarella", Latitude = "38.12539000", Longitude = "15.11348000" },
+                        new() { Id = 430, Name = "Torre Colonna-Sperone", Latitude = "38.02986000", Longitude = "13.57377000" },
+                        new() { Id = 431, Name = "Torregrotta", Latitude = "38.20262000", Longitude = "15.35010000" },
+                        new() { Id = 432, Name = "Torrenova", Latitude = "38.09246000", Longitude = "14.67917000" },
+                        new() { Id = 433, Name = "Torretta", Latitude = "38.13036000", Longitude = "13.23549000" },
+                        new() { Id = 434, Name = "Tortorici", Latitude = "38.02973000", Longitude = "14.82212000" },
+                        new() { Id = 435, Name = "Trabia", Latitude = "38.00420000", Longitude = "13.63393000" },
+                        new() { Id = 436, Name = "Trapani", Latitude = "37.83333000", Longitude = "12.66667000" },
+                        new() { Id = 437, Name = "Trappeto", Latitude = "38.06875000", Longitude = "13.03794000" },
+                        new() { Id = 438, Name = "Tre Fontane", Latitude = "37.56989000", Longitude = "12.72423000" },
+                        new() { Id = 439, Name = "Trecastagni", Latitude = "37.61543000", Longitude = "15.07796000" },
+                        new() { Id = 440, Name = "Tremestieri Etneo", Latitude = "37.56494000", Longitude = "15.07863000" },
+                        new() { Id = 441, Name = "Tripi", Latitude = "38.04673000", Longitude = "15.09670000" },
+                        new() { Id = 442, Name = "Triscina", Latitude = "37.58717000", Longitude = "12.78912000" },
+                        new() { Id = 443, Name = "Troina", Latitude = "37.78437000", Longitude = "14.59605000" },
+                        new() { Id = 444, Name = "Tusa", Latitude = "37.98385000", Longitude = "14.23606000" },
+                        new() { Id = 445, Name = "Ucria", Latitude = "38.04624000", Longitude = "14.88087000" },
+                        new() { Id = 446, Name = "Ustica", Latitude = "38.70985000", Longitude = "13.19293000" },
+                        new() { Id = 447, Name = "Valderice", Latitude = "38.04005000", Longitude = "12.61505000" },
+                        new() { Id = 448, Name = "Valdina", Latitude = "38.19351000", Longitude = "15.36980000" },
+                        new() { Id = 449, Name = "Valguarnera Caropepe", Latitude = "37.49527000", Longitude = "14.39025000" },
+                        new() { Id = 450, Name = "Valledolmo", Latitude = "37.74703000", Longitude = "13.82811000" },
+                        new() { Id = 451, Name = "Vallelunga Pratameno", Latitude = "37.68205000", Longitude = "13.83156000" },
+                        new() { Id = 452, Name = "Valverde", Latitude = "37.57695000", Longitude = "15.12419000" },
+                        new() { Id = 453, Name = "Vambolieri", Latitude = "37.57417000", Longitude = "15.16019000" },
+                        new() { Id = 454, Name = "Venetico Marina", Latitude = "38.21928000", Longitude = "15.36648000" },
+                        new() { Id = 455, Name = "Venetico Superiore", Latitude = "38.19307000", Longitude = "15.38119000" },
+                        new() { Id = 456, Name = "Ventimiglia di Sicilia", Latitude = "37.92361000", Longitude = "13.56768000" },
+                        new() { Id = 457, Name = "Viagrande", Latitude = "37.61032000", Longitude = "15.09794000" },
+                        new() { Id = 458, Name = "Vicari", Latitude = "37.82371000", Longitude = "13.56889000" },
+                        new() { Id = 459, Name = "Vigliatore 2", Latitude = "38.12221000", Longitude = "15.13066000" },
+                        new() { Id = 460, Name = "Villa Ciambra", Latitude = "38.06129000", Longitude = "13.32000000" },
+                        new() { Id = 461, Name = "Villabate", Latitude = "38.07789000", Longitude = "13.44275000" },
+                        new() { Id = 462, Name = "Villafranca Sicula", Latitude = "37.58761000", Longitude = "13.29048000" },
+                        new() { Id = 463, Name = "Villafranca Tirrena", Latitude = "38.23952000", Longitude = "15.43885000" },
+                        new() { Id = 464, Name = "Villafrati", Latitude = "37.90646000", Longitude = "13.48486000" },
+                        new() { Id = 465, Name = "Villaggio del Pino-Le Ginestre", Latitude = "37.58292000", Longitude = "15.00377000" },
+                        new() { Id = 466, Name = "Villalba", Latitude = "37.65457000", Longitude = "13.84452000" },
+                        new() { Id = 467, Name = "Villarosa", Latitude = "37.58753000", Longitude = "14.17089000" },
+                        new() { Id = 468, Name = "Villaseta", Latitude = "37.29877000", Longitude = "13.55919000" },
+                        new() { Id = 469, Name = "Villasmundo", Latitude = "37.25132000", Longitude = "15.09087000" },
+                        new() { Id = 470, Name = "Vita", Latitude = "37.86886000", Longitude = "12.82755000" },
+                        new() { Id = 471, Name = "Vittoria", Latitude = "36.95151000", Longitude = "14.52788000" },
+                        new() { Id = 472, Name = "Vizzini", Latitude = "37.16188000", Longitude = "14.75712000" },
+                        new() { Id = 473, Name = "Zafferana Etnea", Latitude = "37.67895000", Longitude = "15.10432000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 90,
+                    Id = 101,
                     Name = "Siena",
-                    StateCode = "SI",
-                    Latitude = "43.29377320",
-                    Longitude = "11.43391480",
+                    StateCode = "",
+                    Latitude = "43.31855360",
+                    Longitude = "11.33165330",
                     Type = "province",
                     Cities = new()
                     {
@@ -9337,9 +9482,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 91,
+                    Id = 102,
                     Name = "Siracusa",
-                    StateCode = "SR",
+                    StateCode = "",
                     Latitude = "37.06569240",
                     Longitude = "15.28571090",
                     Type = "free municipal consortium",
@@ -9350,11 +9495,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 92,
+                    Id = 103,
                     Name = "Sondrio",
-                    StateCode = "SO",
-                    Latitude = "46.17276360",
-                    Longitude = "9.79949170",
+                    StateCode = "",
+                    Latitude = "46.17135530",
+                    Longitude = "9.87342740",
                     Type = "province",
                     Cities = new()
                     {
@@ -9363,9 +9508,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 93,
+                    Id = 104,
                     Name = "South Sardinia",
-                    StateCode = "SU",
+                    StateCode = "",
                     Latitude = "39.38935350",
                     Longitude = "8.93970000",
                     Type = "province",
@@ -9376,11 +9521,24 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 94,
+                    Id = 105,
+                    Name = "South Tyrol",
+                    StateCode = "",
+                    Latitude = "46.49933500",
+                    Longitude = "11.35662200",
+                    Type = "autonomous province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 106,
                     Name = "Taranto",
-                    StateCode = "TA",
-                    Latitude = "40.57409010",
-                    Longitude = "17.24299760",
+                    StateCode = "",
+                    Latitude = "40.47124270",
+                    Longitude = "17.24322780",
                     Type = "province",
                     Cities = new()
                     {
@@ -9389,11 +9547,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 95,
+                    Id = 107,
                     Name = "Teramo",
-                    StateCode = "TE",
-                    Latitude = "42.58956080",
-                    Longitude = "13.63627150",
+                    StateCode = "",
+                    Latitude = "42.65811790",
+                    Longitude = "13.69787460",
                     Type = "province",
                     Cities = new()
                     {
@@ -9402,11 +9560,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 96,
+                    Id = 108,
                     Name = "Terni",
-                    StateCode = "TR",
-                    Latitude = "42.56345340",
-                    Longitude = "12.52980280",
+                    StateCode = "",
+                    Latitude = "42.56414170",
+                    Longitude = "12.64054660",
                     Type = "province",
                     Cities = new()
                     {
@@ -9415,9 +9573,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 97,
+                    Id = 109,
                     Name = "Trapani",
-                    StateCode = "TP",
+                    StateCode = "",
                     Latitude = "38.01831160",
                     Longitude = "12.51482650",
                     Type = "free municipal consortium",
@@ -9428,11 +9586,24 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 98,
+                    Id = 110,
+                    Name = "Trentino",
+                    StateCode = "",
+                    Latitude = "46.06787800",
+                    Longitude = "11.12108300",
+                    Type = "autonomous province",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 111,
                     Name = "Trentino-South Tyrol",
-                    StateCode = "32",
-                    Latitude = "46.43366620",
-                    Longitude = "11.16932960",
+                    StateCode = "",
+                    Latitude = "46.49959340",
+                    Longitude = "11.35530150",
                     Type = "autonomous region",
                     Cities = new()
                     {
@@ -9831,9 +10002,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 99,
+                    Id = 112,
                     Name = "Treviso",
-                    StateCode = "TV",
+                    StateCode = "",
                     Latitude = "45.66685170",
                     Longitude = "12.24306170",
                     Type = "province",
@@ -9844,9 +10015,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 100,
+                    Id = 113,
                     Name = "Trieste",
-                    StateCode = "TS",
+                    StateCode = "",
                     Latitude = "45.68948230",
                     Longitude = "13.78330720",
                     Type = "decentralized regional entity",
@@ -9857,11 +10028,24 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 101,
+                    Id = 114,
+                    Name = "Turin",
+                    StateCode = "",
+                    Latitude = "45.07049600",
+                    Longitude = "7.68682200",
+                    Type = "metropolitan city",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 115,
                     Name = "Tuscany",
-                    StateCode = "52",
-                    Latitude = "43.77105130",
-                    Longitude = "11.24862080",
+                    StateCode = "",
+                    Latitude = "43.45865410",
+                    Longitude = "11.13892040",
                     Type = "region",
                     Cities = new()
                     {
@@ -10340,11 +10524,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 102,
+                    Id = 116,
                     Name = "Udine",
-                    StateCode = "UD",
-                    Latitude = "46.14079720",
-                    Longitude = "13.16628960",
+                    StateCode = "",
+                    Latitude = "46.14594800",
+                    Longitude = "13.29743030",
                     Type = "decentralized regional entity",
                     Cities = new()
                     {
@@ -10353,11 +10537,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 103,
+                    Id = 117,
                     Name = "Umbria",
-                    StateCode = "55",
-                    Latitude = "42.93800400",
-                    Longitude = "12.62162110",
+                    StateCode = "",
+                    Latitude = "42.96591600",
+                    Longitude = "12.49023600",
                     Type = "region",
                     Cities = new()
                     {
@@ -10510,11 +10694,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 104,
+                    Id = 118,
                     Name = "Varese",
-                    StateCode = "VA",
-                    Latitude = "45.79902600",
-                    Longitude = "8.73009450",
+                    StateCode = "",
+                    Latitude = "45.83972030",
+                    Longitude = "8.75413380",
                     Type = "province",
                     Cities = new()
                     {
@@ -10523,11 +10707,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 105,
+                    Id = 119,
                     Name = "Veneto",
-                    StateCode = "34",
-                    Latitude = "45.44146620",
-                    Longitude = "12.31525950",
+                    StateCode = "",
+                    Latitude = "45.64766630",
+                    Longitude = "11.86652540",
                     Type = "region",
                     Cities = new()
                     {
@@ -11373,11 +11557,24 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 106,
+                    Id = 120,
+                    Name = "Venice",
+                    StateCode = "",
+                    Latitude = "45.43409700",
+                    Longitude = "12.33890600",
+                    Type = "metropolitan city",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 121,
                     Name = "Verbano-Cusio-Ossola",
-                    StateCode = "VB",
-                    Latitude = "46.13996880",
-                    Longitude = "8.27246490",
+                    StateCode = "",
+                    Latitude = "46.11557550",
+                    Longitude = "8.38359670",
                     Type = "province",
                     Cities = new()
                     {
@@ -11386,9 +11583,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 107,
+                    Id = 122,
                     Name = "Vercelli",
-                    StateCode = "VC",
+                    StateCode = "",
                     Latitude = "45.32022040",
                     Longitude = "8.41850800",
                     Type = "province",
@@ -11399,11 +11596,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 108,
+                    Id = 123,
                     Name = "Verona",
-                    StateCode = "VR",
-                    Latitude = "45.44184980",
-                    Longitude = "11.07353160",
+                    StateCode = "",
+                    Latitude = "45.43849580",
+                    Longitude = "10.99241220",
                     Type = "province",
                     Cities = new()
                     {
@@ -11412,11 +11609,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 109,
+                    Id = 124,
                     Name = "Vibo Valentia",
-                    StateCode = "VV",
-                    Latitude = "38.63785650",
-                    Longitude = "16.20514840",
+                    StateCode = "",
+                    Latitude = "38.62665560",
+                    Longitude = "16.09869350",
                     Type = "province",
                     Cities = new()
                     {
@@ -11425,11 +11622,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 110,
+                    Id = 125,
                     Name = "Vicenza",
-                    StateCode = "VI",
-                    Latitude = "45.69839950",
-                    Longitude = "11.56614650",
+                    StateCode = "",
+                    Latitude = "45.63485910",
+                    Longitude = "11.40635430",
                     Type = "province",
                     Cities = new()
                     {
@@ -11438,11 +11635,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 111,
+                    Id = 126,
                     Name = "Viterbo",
-                    StateCode = "VT",
-                    Latitude = "42.40024200",
-                    Longitude = "11.88917210",
+                    StateCode = "",
+                    Latitude = "42.49295220",
+                    Longitude = "11.94881360",
                     Type = "province",
                     Cities = new()
                     {

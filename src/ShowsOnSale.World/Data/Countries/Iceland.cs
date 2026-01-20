@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 100,
+            Id = 99,
             Name = "Iceland",
             Iso3 = "ISL",
             Iso2 = "IS",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Island",
                 ["ko"] = "아이슬란드",
                 ["pt-BR"] = "Islândia",
                 ["pt"] = "Islândia",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "İzlanda",
                 ["ru"] = "Исландия",
                 ["uk"] = "Ісландія",
-                ["pl"] = "Islandia"
+                ["pl"] = "Islandia",
+                ["hi"] = "आइसलैंड",
+                ["ar"] = "أيسلندا"
             },
             States = new()
             {
@@ -61,178 +64,1009 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 1,
-                    Name = "Capital",
-                    StateCode = "1",
-                    Latitude = "38.56569570",
-                    Longitude = "-92.18169490",
-                    Type = "region",
+                    Name = "Akranes",
+                    StateCode = "",
+                    Latitude = "64.32000000",
+                    Longitude = "-22.08000000",
+                    Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Álftanes", Latitude = "64.10000000", Longitude = "-22.01667000" },
-                        new() { Id = 2, Name = "Garðabær", Latitude = "64.08865000", Longitude = "-21.92298000" },
-                        new() { Id = 3, Name = "Hafnarfjörður", Latitude = "64.06710000", Longitude = "-21.93774000" },
-                        new() { Id = 4, Name = "Kjósarhreppur", Latitude = "64.30644000", Longitude = "-21.49919000" },
-                        new() { Id = 5, Name = "Kópavogur", Latitude = "64.11234000", Longitude = "-21.91298000" },
-                        new() { Id = 6, Name = "Mosfellsbaer", Latitude = "64.15000000", Longitude = "-21.65000000" },
-                        new() { Id = 7, Name = "Mosfellsbær", Latitude = "64.16667000", Longitude = "-21.70000000" },
-                        new() { Id = 8, Name = "Reykjavík", Latitude = "64.13548000", Longitude = "-21.89541000" },
-                        new() { Id = 9, Name = "Seltjarnarnes", Latitude = "64.15309000", Longitude = "-21.99499000" }
+                        new() { Id = 1, Name = "Akranes", Latitude = "64.32179000", Longitude = "-22.07490000" }
                     }
                 },
 
                 new()
                 {
                     Id = 2,
-                    Name = "Eastern",
-                    StateCode = "7",
-                    Latitude = "",
-                    Longitude = "",
-                    Type = "region",
+                    Name = "Akureyri",
+                    StateCode = "",
+                    Latitude = "65.68000000",
+                    Longitude = "-18.10000000",
+                    Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Borgarfjarðarhreppur", Latitude = "65.43401000", Longitude = "-13.82933000" },
-                        new() { Id = 2, Name = "Breiðdalshreppur", Latitude = "64.83333000", Longitude = "-14.25000000" },
-                        new() { Id = 3, Name = "Egilsstaðir", Latitude = "65.26687000", Longitude = "-14.39485000" },
-                        new() { Id = 4, Name = "Eskifjörður", Latitude = "65.07306000", Longitude = "-14.01525000" },
-                        new() { Id = 5, Name = "Fjarðabyggð", Latitude = "65.08333000", Longitude = "-14.00000000" },
-                        new() { Id = 6, Name = "Fljótsdalshérað", Latitude = "65.25020000", Longitude = "-15.37211000" },
-                        new() { Id = 7, Name = "Fljótsdalshreppur", Latitude = "64.85275000", Longitude = "-15.25680000" },
-                        new() { Id = 8, Name = "Höfn", Latitude = "64.25388000", Longitude = "-15.21212000" },
-                        new() { Id = 9, Name = "Neskaupstaður", Latitude = "65.14819000", Longitude = "-13.68368000" },
-                        new() { Id = 10, Name = "Reyðarfjörður", Latitude = "65.03164000", Longitude = "-14.21832000" }
+                        new() { Id = 1, Name = "Akureyri", Latitude = "65.68353000", Longitude = "-18.08780000" }
                     }
                 },
 
                 new()
                 {
                     Id = 3,
-                    Name = "Northeastern",
-                    StateCode = "6",
-                    Latitude = "43.29942850",
-                    Longitude = "-74.21793260",
-                    Type = "region",
+                    Name = "Árborg",
+                    StateCode = "",
+                    Latitude = "63.90000000",
+                    Longitude = "-20.88000000",
+                    Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Akureyri", Latitude = "65.68353000", Longitude = "-18.08780000" },
-                        new() { Id = 2, Name = "Dalvík", Latitude = "65.97018000", Longitude = "-18.52861000" },
-                        new() { Id = 3, Name = "Dalvíkurbyggð", Latitude = "65.87318000", Longitude = "-18.60844000" },
-                        new() { Id = 4, Name = "Eyjafjarðarsveit", Latitude = "65.33333000", Longitude = "-18.16667000" },
-                        new() { Id = 5, Name = "Fjallabyggð", Latitude = "66.05962000", Longitude = "-18.78220000" },
-                        new() { Id = 6, Name = "Grýtubakkahreppur", Latitude = "65.98333000", Longitude = "-18.11667000" },
-                        new() { Id = 7, Name = "Hörgársveit", Latitude = "65.64828000", Longitude = "-18.49599000" },
-                        new() { Id = 8, Name = "Húsavík", Latitude = "66.04148000", Longitude = "-17.33834000" },
-                        new() { Id = 9, Name = "Langanesbyggð", Latitude = "66.05186000", Longitude = "-15.18969000" },
-                        new() { Id = 10, Name = "Laugar", Latitude = "65.72159000", Longitude = "-17.37352000" },
-                        new() { Id = 11, Name = "Siglufjörður", Latitude = "66.15198000", Longitude = "-18.90815000" },
-                        new() { Id = 12, Name = "Skútustaðahreppur", Latitude = "65.17177000", Longitude = "-16.77890000" },
-                        new() { Id = 13, Name = "Svalbarðsstrandarhreppur", Latitude = "65.74138000", Longitude = "-18.03513000" },
-                        new() { Id = 14, Name = "Tjörneshreppur", Latitude = "66.11667000", Longitude = "-17.20000000" },
-                        new() { Id = 15, Name = "Þingeyjarsveit", Latitude = "65.37229000", Longitude = "-17.59927000" }
+                        new() { Id = 1, Name = "Selfoss", Latitude = "63.93311000", Longitude = "-20.99712000" }
                     }
                 },
 
                 new()
                 {
                     Id = 4,
-                    Name = "Northwestern",
-                    StateCode = "5",
-                    Latitude = "41.91339320",
-                    Longitude = "-73.04716880",
-                    Type = "region",
+                    Name = "Árneshreppur",
+                    StateCode = "",
+                    Latitude = "66.08000000",
+                    Longitude = "-21.50000000",
+                    Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Akrahreppur", Latitude = "65.35505000", Longitude = "-18.79572000" },
-                        new() { Id = 2, Name = "Húnaþing Vestra", Latitude = "65.25000000", Longitude = "-20.91667000" },
-                        new() { Id = 3, Name = "Sauðárkrókur", Latitude = "65.74611000", Longitude = "-19.63944000" },
-                        new() { Id = 4, Name = "Skagabyggð", Latitude = "65.95000000", Longitude = "-20.25000000" },
-                        new() { Id = 5, Name = "Sveitarfélagið Skagafjörður", Latitude = "65.50018000", Longitude = "-19.44566000" }
                     }
                 },
 
                 new()
                 {
                     Id = 5,
-                    Name = "Southern",
-                    StateCode = "8",
-                    Latitude = "",
-                    Longitude = "",
-                    Type = "region",
+                    Name = "Ásahreppur",
+                    StateCode = "",
+                    Latitude = "63.95000000",
+                    Longitude = "-21.50000000",
+                    Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Ásahreppur", Latitude = "63.87589000", Longitude = "-20.59484000" },
-                        new() { Id = 2, Name = "Bláskógabyggð", Latitude = "64.41667000", Longitude = "-20.33333000" },
-                        new() { Id = 3, Name = "Flóahreppur", Latitude = "63.89569000", Longitude = "-20.80159000" },
-                        new() { Id = 4, Name = "Grímsnes- og Grafningshreppur", Latitude = "64.08533000", Longitude = "-20.96710000" },
-                        new() { Id = 5, Name = "Hrunamannahreppur", Latitude = "64.40944000", Longitude = "-19.72237000" },
-                        new() { Id = 6, Name = "Hveragerði", Latitude = "64.00039000", Longitude = "-21.18602000" },
-                        new() { Id = 7, Name = "Mýrdalshreppur", Latitude = "63.50000000", Longitude = "-19.00000000" },
-                        new() { Id = 8, Name = "Selfoss", Latitude = "63.93311000", Longitude = "-20.99712000" },
-                        new() { Id = 9, Name = "Skaftárhreppur", Latitude = "63.95948000", Longitude = "-18.14491000" },
-                        new() { Id = 10, Name = "Skeiða- og Gnúpverjahreppur", Latitude = "64.34738000", Longitude = "-19.37757000" },
-                        new() { Id = 11, Name = "Vestmannaeyjabær", Latitude = "63.43877000", Longitude = "-20.26900000" },
-                        new() { Id = 12, Name = "Vestmannaeyjar", Latitude = "63.44273000", Longitude = "-20.27339000" },
-                        new() { Id = 13, Name = "Þorlákshöfn", Latitude = "63.85591000", Longitude = "-21.38337000" }
+                        new() { Id = 1, Name = "Ásahreppur", Latitude = "63.87589000", Longitude = "-20.59484000" }
                     }
                 },
 
                 new()
                 {
                     Id = 6,
-                    Name = "Southern Peninsula",
-                    StateCode = "2",
-                    Latitude = "63.91548030",
-                    Longitude = "-22.36496670",
-                    Type = "region",
+                    Name = "Bláskógabyggð",
+                    StateCode = "",
+                    Latitude = "64.23000000",
+                    Longitude = "-20.27000000",
+                    Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Garður", Latitude = "64.06558000", Longitude = "-22.64656000" },
-                        new() { Id = 2, Name = "Grindavík", Latitude = "63.83849000", Longitude = "-22.43931000" },
-                        new() { Id = 3, Name = "Keflavík", Latitude = "64.00492000", Longitude = "-22.56242000" },
-                        new() { Id = 4, Name = "Reykjanesbær", Latitude = "63.99813000", Longitude = "-22.56111000" },
-                        new() { Id = 5, Name = "Sandgerði", Latitude = "64.03762000", Longitude = "-22.70799000" },
-                        new() { Id = 6, Name = "Vogar", Latitude = "63.98160000", Longitude = "-22.38473000" }
+                        new() { Id = 1, Name = "Bláskógabyggð", Latitude = "64.41667000", Longitude = "-20.33333000" }
                     }
                 },
 
                 new()
                 {
                     Id = 7,
-                    Name = "Western",
-                    StateCode = "3",
-                    Latitude = "",
-                    Longitude = "",
-                    Type = "region",
+                    Name = "Bolungarvík",
+                    StateCode = "",
+                    Latitude = "66.15000000",
+                    Longitude = "-23.26000000",
+                    Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Akranes", Latitude = "64.32179000", Longitude = "-22.07490000" },
-                        new() { Id = 2, Name = "Borgarbyggð", Latitude = "64.71446000", Longitude = "-21.23788000" },
-                        new() { Id = 3, Name = "Borgarnes", Latitude = "64.53834000", Longitude = "-21.92064000" },
-                        new() { Id = 4, Name = "Dalabyggð", Latitude = "65.10121000", Longitude = "-21.72871000" },
-                        new() { Id = 5, Name = "Eyja- og Miklaholtshreppur", Latitude = "64.85846000", Longitude = "-22.54557000" },
-                        new() { Id = 6, Name = "Helgafellssveit", Latitude = "64.99069000", Longitude = "-22.78948000" },
-                        new() { Id = 7, Name = "Hvalfjarðarsveit", Latitude = "64.44265000", Longitude = "-21.61086000" },
-                        new() { Id = 8, Name = "Ólafsvík", Latitude = "64.89429000", Longitude = "-23.70918000" },
-                        new() { Id = 9, Name = "Skorradalshreppur", Latitude = "64.51667000", Longitude = "-21.50000000" },
-                        new() { Id = 10, Name = "Snæfellsbær", Latitude = "64.86667000", Longitude = "-23.50000000" },
-                        new() { Id = 11, Name = "Stykkishólmur", Latitude = "65.07537000", Longitude = "-22.72977000" }
                     }
                 },
 
                 new()
                 {
                     Id = 8,
-                    Name = "Westfjords",
-                    StateCode = "4",
-                    Latitude = "65.91961500",
-                    Longitude = "-21.88117640",
+                    Name = "Borgarbyggð",
+                    StateCode = "",
+                    Latitude = "64.75000000",
+                    Longitude = "-21.67000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Akrahreppur", Latitude = "65.35505000", Longitude = "-18.79572000" },
+                        new() { Id = 2, Name = "Borgarbyggð", Latitude = "64.71446000", Longitude = "-21.23788000" },
+                        new() { Id = 3, Name = "Borgarfjarðarhreppur", Latitude = "65.43401000", Longitude = "-13.82933000" },
+                        new() { Id = 4, Name = "Borgarnes", Latitude = "64.53834000", Longitude = "-21.92064000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 9,
+                    Name = "Capital",
+                    StateCode = "",
+                    Latitude = "64.17271370",
+                    Longitude = "-21.56675750",
                     Type = "region",
                     Cities = new()
                     {
+                    }
+                },
+
+                new()
+                {
+                    Id = 10,
+                    Name = "Dalabyggð",
+                    StateCode = "",
+                    Latitude = "65.25000000",
+                    Longitude = "-21.83000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Dalabyggð", Latitude = "65.10121000", Longitude = "-21.72871000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 11,
+                    Name = "Dalvíkurbyggð",
+                    StateCode = "",
+                    Latitude = "65.97000000",
+                    Longitude = "-18.53000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Dalvík", Latitude = "65.97018000", Longitude = "-18.52861000" },
+                        new() { Id = 2, Name = "Dalvíkurbyggð", Latitude = "65.87318000", Longitude = "-18.60844000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 12,
+                    Name = "Eastern",
+                    StateCode = "",
+                    Latitude = "65.19406680",
+                    Longitude = "-15.09242090",
+                    Type = "region",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 13,
+                    Name = "Eyja- og Miklaholtshreppur",
+                    StateCode = "",
+                    Latitude = "64.72000000",
+                    Longitude = "-22.65000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Eyja- og Miklaholtshreppur", Latitude = "64.85846000", Longitude = "-22.54557000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 14,
+                    Name = "Eyjafjarðarsveit",
+                    StateCode = "",
+                    Latitude = "65.63000000",
+                    Longitude = "-18.25000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Eyjafjarðarsveit", Latitude = "65.33333000", Longitude = "-18.16667000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 15,
+                    Name = "Fjallabyggð",
+                    StateCode = "",
+                    Latitude = "66.05000000",
+                    Longitude = "-18.90000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Fjallabyggð", Latitude = "66.05962000", Longitude = "-18.78220000" },
+                        new() { Id = 2, Name = "Siglufjörður", Latitude = "66.15198000", Longitude = "-18.90815000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 16,
+                    Name = "Fjarðabyggð",
+                    StateCode = "",
+                    Latitude = "64.93000000",
+                    Longitude = "-14.30000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Breiðdalshreppur", Latitude = "64.83333000", Longitude = "-14.25000000" },
+                        new() { Id = 2, Name = "Egilsstaðir", Latitude = "65.26687000", Longitude = "-14.39485000" },
+                        new() { Id = 3, Name = "Eskifjörður", Latitude = "65.07306000", Longitude = "-14.01525000" },
+                        new() { Id = 4, Name = "Fjarðabyggð", Latitude = "65.08333000", Longitude = "-14.00000000" },
+                        new() { Id = 5, Name = "Neskaupstaður", Latitude = "65.14819000", Longitude = "-13.68368000" },
+                        new() { Id = 6, Name = "Reyðarfjörður", Latitude = "65.03164000", Longitude = "-14.21832000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 17,
+                    Name = "Fljótsdalshreppur",
+                    StateCode = "",
+                    Latitude = "65.25000000",
+                    Longitude = "-14.83000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Fljótsdalshreppur", Latitude = "64.85275000", Longitude = "-15.25680000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 18,
+                    Name = "Flóahreppur",
+                    StateCode = "",
+                    Latitude = "63.93000000",
+                    Longitude = "-20.68000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Flóahreppur", Latitude = "63.89569000", Longitude = "-20.80159000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 19,
+                    Name = "Garðabær",
+                    StateCode = "",
+                    Latitude = "64.09000000",
+                    Longitude = "-21.93000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Álftanes", Latitude = "64.10000000", Longitude = "-22.01667000" },
+                        new() { Id = 2, Name = "Garðabær", Latitude = "64.08865000", Longitude = "-21.92298000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 20,
+                    Name = "Grímsnes- og Grafningshreppur",
+                    StateCode = "",
+                    Latitude = "64.07000000",
+                    Longitude = "-20.88000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Grímsnes- og Grafningshreppur", Latitude = "64.08533000", Longitude = "-20.96710000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 21,
+                    Name = "Grindavík",
+                    StateCode = "",
+                    Latitude = "63.84000000",
+                    Longitude = "-22.43000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Grindavík", Latitude = "63.83849000", Longitude = "-22.43931000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 22,
+                    Name = "Grundarfjörður",
+                    StateCode = "",
+                    Latitude = "64.93000000",
+                    Longitude = "-23.25000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 23,
+                    Name = "Grýtubakkahreppur",
+                    StateCode = "",
+                    Latitude = "65.72000000",
+                    Longitude = "-17.57000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Grýtubakkahreppur", Latitude = "65.98333000", Longitude = "-18.11667000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 24,
+                    Name = "Hafnarfjörður",
+                    StateCode = "",
+                    Latitude = "64.07000000",
+                    Longitude = "-21.95000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Hafnarfjörður", Latitude = "64.06710000", Longitude = "-21.93774000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 25,
+                    Name = "Hörðarsveit",
+                    StateCode = "",
+                    Latitude = "64.60000000",
+                    Longitude = "-21.15000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Hörgársveit", Latitude = "65.64828000", Longitude = "-18.49599000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 26,
+                    Name = "Hornafjörður",
+                    StateCode = "",
+                    Latitude = "64.25000000",
+                    Longitude = "-15.20000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Höfn", Latitude = "64.25388000", Longitude = "-15.21212000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 27,
+                    Name = "Hrunamannahreppur",
+                    StateCode = "",
+                    Latitude = "64.07000000",
+                    Longitude = "-20.35000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Hrunamannahreppur", Latitude = "64.40944000", Longitude = "-19.72237000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 28,
+                    Name = "Húnabyggð",
+                    StateCode = "",
+                    Latitude = "65.75000000",
+                    Longitude = "-20.83000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 29,
+                    Name = "Húnaþing vestra",
+                    StateCode = "",
+                    Latitude = "65.60000000",
+                    Longitude = "-21.25000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Húnaþing Vestra", Latitude = "65.25000000", Longitude = "-20.91667000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 30,
+                    Name = "Hvalfjarðarsveit",
+                    StateCode = "",
+                    Latitude = "64.40000000",
+                    Longitude = "-21.45000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Hvalfjarðarsveit", Latitude = "64.44265000", Longitude = "-21.61086000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 31,
+                    Name = "Hveragerði",
+                    StateCode = "",
+                    Latitude = "64.00000000",
+                    Longitude = "-21.18000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Hveragerði", Latitude = "64.00039000", Longitude = "-21.18602000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 32,
+                    Name = "Ísafjörður",
+                    StateCode = "",
+                    Latitude = "66.07000000",
+                    Longitude = "-23.13000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
                         new() { Id = 1, Name = "Ísafjarðarbær", Latitude = "66.07586000", Longitude = "-23.12794000" },
-                        new() { Id = 2, Name = "Ísafjörður", Latitude = "66.07475000", Longitude = "-23.13498000" },
-                        new() { Id = 3, Name = "Reykhólahreppur", Latitude = "65.60990000", Longitude = "-22.33324000" },
-                        new() { Id = 4, Name = "Strandabyggð", Latitude = "65.77455000", Longitude = "-21.95725000" },
-                        new() { Id = 5, Name = "Tálknafjarðarhreppur", Latitude = "65.61667000", Longitude = "-23.88333000" }
+                        new() { Id = 2, Name = "Ísafjörður", Latitude = "66.07475000", Longitude = "-23.13498000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 33,
+                    Name = "Kaldrananeshreppur",
+                    StateCode = "",
+                    Latitude = "65.97000000",
+                    Longitude = "-23.48000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 34,
+                    Name = "Kjósarhreppur",
+                    StateCode = "",
+                    Latitude = "64.23000000",
+                    Longitude = "-21.47000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Kjósarhreppur", Latitude = "64.30644000", Longitude = "-21.49919000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 35,
+                    Name = "Kópavogur",
+                    StateCode = "",
+                    Latitude = "64.11000000",
+                    Longitude = "-21.91000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Kópavogur", Latitude = "64.11234000", Longitude = "-21.91298000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 36,
+                    Name = "Langanesbyggð",
+                    StateCode = "",
+                    Latitude = "66.30000000",
+                    Longitude = "-14.95000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Langanesbyggð", Latitude = "66.05186000", Longitude = "-15.18969000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 37,
+                    Name = "Mosfellsbær",
+                    StateCode = "",
+                    Latitude = "64.17000000",
+                    Longitude = "-21.40000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Mosfellsbaer", Latitude = "64.15000000", Longitude = "-21.65000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 38,
+                    Name = "Múlaþing",
+                    StateCode = "",
+                    Latitude = "65.25000000",
+                    Longitude = "-14.55000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Fljótsdalshérað", Latitude = "65.25020000", Longitude = "-15.37211000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 39,
+                    Name = "Mýrdalshreppur",
+                    StateCode = "",
+                    Latitude = "63.47000000",
+                    Longitude = "-18.87000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Mýrdalshreppur", Latitude = "63.50000000", Longitude = "-19.00000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 40,
+                    Name = "Norðurþing",
+                    StateCode = "",
+                    Latitude = "66.05000000",
+                    Longitude = "-17.35000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Húsavík", Latitude = "66.04148000", Longitude = "-17.33834000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 41,
+                    Name = "Northeastern",
+                    StateCode = "",
+                    Latitude = "65.47359970",
+                    Longitude = "-17.44333390",
+                    Type = "region",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 42,
+                    Name = "Northwestern",
+                    StateCode = "",
+                    Latitude = "65.46221890",
+                    Longitude = "-19.84710160",
+                    Type = "region",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 43,
+                    Name = "Ölfus",
+                    StateCode = "",
+                    Latitude = "63.93000000",
+                    Longitude = "-21.07000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Þorlákshöfn", Latitude = "63.85591000", Longitude = "-21.38337000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 44,
+                    Name = "Rangárþing eystra",
+                    StateCode = "",
+                    Latitude = "63.88000000",
+                    Longitude = "-20.05000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 45,
+                    Name = "Rangárþing ytra",
+                    StateCode = "",
+                    Latitude = "63.82000000",
+                    Longitude = "-20.42000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 46,
+                    Name = "Reykhólahreppur",
+                    StateCode = "",
+                    Latitude = "65.45000000",
+                    Longitude = "-22.18000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Reykhólahreppur", Latitude = "65.60990000", Longitude = "-22.33324000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 47,
+                    Name = "Reykjanesbær",
+                    StateCode = "",
+                    Latitude = "63.98000000",
+                    Longitude = "-22.55000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Garður", Latitude = "64.06558000", Longitude = "-22.64656000" },
+                        new() { Id = 2, Name = "Keflavík", Latitude = "64.00492000", Longitude = "-22.56242000" },
+                        new() { Id = 3, Name = "Reykjanesbær", Latitude = "63.99813000", Longitude = "-22.56111000" },
+                        new() { Id = 4, Name = "Sandgerði", Latitude = "64.03762000", Longitude = "-22.70799000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 48,
+                    Name = "Reykjavík",
+                    StateCode = "",
+                    Latitude = "64.13000000",
+                    Longitude = "-21.90000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Reykjavík", Latitude = "64.13548000", Longitude = "-21.89541000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 49,
+                    Name = "Seltjarnarnes",
+                    StateCode = "",
+                    Latitude = "64.16000000",
+                    Longitude = "-22.01000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Seltjarnarnes", Latitude = "64.15309000", Longitude = "-21.99499000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 50,
+                    Name = "Skaftárhreppur",
+                    StateCode = "",
+                    Latitude = "63.87000000",
+                    Longitude = "-18.07000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Skaftárhreppur", Latitude = "63.95948000", Longitude = "-18.14491000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 51,
+                    Name = "Skagabyggð",
+                    StateCode = "",
+                    Latitude = "65.85000000",
+                    Longitude = "-20.50000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Skagabyggð", Latitude = "65.95000000", Longitude = "-20.25000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 52,
+                    Name = "Skagafjörður",
+                    StateCode = "",
+                    Latitude = "65.73000000",
+                    Longitude = "-19.50000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Sauðárkrókur", Latitude = "65.74611000", Longitude = "-19.63944000" },
+                        new() { Id = 2, Name = "Sveitarfélagið Skagafjörður", Latitude = "65.50018000", Longitude = "-19.44566000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 53,
+                    Name = "Skagaströnd",
+                    StateCode = "",
+                    Latitude = "65.83000000",
+                    Longitude = "-20.30000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 54,
+                    Name = "Skeiða- og Gnúpverjahreppur",
+                    StateCode = "",
+                    Latitude = "64.03000000",
+                    Longitude = "-20.50000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Skeiða- og Gnúpverjahreppur", Latitude = "64.34738000", Longitude = "-19.37757000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 55,
+                    Name = "Skorradalshreppur",
+                    StateCode = "",
+                    Latitude = "64.70000000",
+                    Longitude = "-21.35000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Skorradalshreppur", Latitude = "64.51667000", Longitude = "-21.50000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 56,
+                    Name = "Snæfellsbær",
+                    StateCode = "",
+                    Latitude = "64.88000000",
+                    Longitude = "-23.73000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Ólafsvík", Latitude = "64.89429000", Longitude = "-23.70918000" },
+                        new() { Id = 2, Name = "Snæfellsbær", Latitude = "64.86667000", Longitude = "-23.50000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 57,
+                    Name = "Southern",
+                    StateCode = "",
+                    Latitude = "63.94150140",
+                    Longitude = "-22.20186270",
+                    Type = "region",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 58,
+                    Name = "Southern Peninsula",
+                    StateCode = "",
+                    Latitude = "63.94150140",
+                    Longitude = "-22.20186270",
+                    Type = "region",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 59,
+                    Name = "Strandabyggð",
+                    StateCode = "",
+                    Latitude = "65.58000000",
+                    Longitude = "-21.63000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Strandabyggð", Latitude = "65.77455000", Longitude = "-21.95725000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 60,
+                    Name = "Stykkishólmur",
+                    StateCode = "",
+                    Latitude = "65.08000000",
+                    Longitude = "-22.73000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Helgafellssveit", Latitude = "64.99069000", Longitude = "-22.78948000" },
+                        new() { Id = 2, Name = "Stykkishólmur", Latitude = "65.07537000", Longitude = "-22.72977000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 61,
+                    Name = "Súðavík",
+                    StateCode = "",
+                    Latitude = "66.05000000",
+                    Longitude = "-23.13000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 62,
+                    Name = "Suðurnesjabær",
+                    StateCode = "",
+                    Latitude = "63.87000000",
+                    Longitude = "-22.08000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 63,
+                    Name = "Svalbardsstrandarhreppur",
+                    StateCode = "",
+                    Latitude = "65.27000000",
+                    Longitude = "-21.17000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Svalbarðsstrandarhreppur", Latitude = "65.74138000", Longitude = "-18.03513000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 64,
+                    Name = "Tálknafjarðarhreppur",
+                    StateCode = "",
+                    Latitude = "65.63000000",
+                    Longitude = "-23.78000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Tálknafjarðarhreppur", Latitude = "65.61667000", Longitude = "-23.88333000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 65,
+                    Name = "Tjörneshreppur",
+                    StateCode = "",
+                    Latitude = "66.20000000",
+                    Longitude = "-17.05000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Tjörneshreppur", Latitude = "66.11667000", Longitude = "-17.20000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 66,
+                    Name = "Vestmannaeyjar",
+                    StateCode = "",
+                    Latitude = "63.44000000",
+                    Longitude = "-20.27000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Vestmannaeyjabær", Latitude = "63.43877000", Longitude = "-20.26900000" },
+                        new() { Id = 2, Name = "Vestmannaeyjar", Latitude = "63.44273000", Longitude = "-20.27339000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 67,
+                    Name = "Vesturbyggð",
+                    StateCode = "",
+                    Latitude = "65.52000000",
+                    Longitude = "-24.02000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 68,
+                    Name = "Vogar",
+                    StateCode = "",
+                    Latitude = "63.98000000",
+                    Longitude = "-22.38000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Vogar", Latitude = "63.98160000", Longitude = "-22.38473000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 69,
+                    Name = "Vopnafjarðarhreppur",
+                    StateCode = "",
+                    Latitude = "65.75000000",
+                    Longitude = "-14.83000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 70,
+                    Name = "Western",
+                    StateCode = "",
+                    Latitude = "52.62414960",
+                    Longitude = "-1.15375600",
+                    Type = "region",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 71,
+                    Name = "Westfjords",
+                    StateCode = "",
+                    Latitude = "65.90820490",
+                    Longitude = "-21.80788830",
+                    Type = "region",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 72,
+                    Name = "Þingeyjarsveit",
+                    StateCode = "",
+                    Latitude = "65.87000000",
+                    Longitude = "-17.08000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Laugar", Latitude = "65.72159000", Longitude = "-17.37352000" },
+                        new() { Id = 2, Name = "Skútustaðahreppur", Latitude = "65.17177000", Longitude = "-16.77890000" },
+                        new() { Id = 3, Name = "Þingeyjarsveit", Latitude = "65.37229000", Longitude = "-17.59927000" }
                     }
                 }
             }

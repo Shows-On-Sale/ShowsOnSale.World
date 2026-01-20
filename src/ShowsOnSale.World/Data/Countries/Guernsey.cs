@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 91,
+            Id = 90,
             Name = "Guernsey",
             Iso3 = "GGY",
             Iso2 = "GG",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Gwernenez",
                 ["ko"] = "건지, 올더니",
                 ["pt-BR"] = "Guernsey",
                 ["pt"] = "Guernsey",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Alderney",
                 ["ru"] = "Гернси и Олдерни",
                 ["uk"] = "Гернсі та Олдерні",
-                ["pl"] = "Guernsey i Alderney"
+                ["pl"] = "Guernsey i Alderney",
+                ["hi"] = "ग्वेर्नसे",
+                ["ar"] = "غيرنسي"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Alderney",
-                    StateCode = "04",
-                    Latitude = "49.71637100",
-                    Longitude = "-2.24033700",
+                    StateCode = "",
+                    Latitude = "49.71689110",
+                    Longitude = "-2.19716940",
                     Type = "parish",
                     Cities = new()
                     {
@@ -75,9 +78,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Castel",
-                    StateCode = "01",
-                    Latitude = "49.46663810",
-                    Longitude = "-2.63785010",
+                    StateCode = "",
+                    Latitude = "49.46774020",
+                    Longitude = "-2.59134590",
                     Type = "parish",
                     Cities = new()
                     {
@@ -88,12 +91,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Forest",
-                    StateCode = "02",
-                    Latitude = "49.42677930",
-                    Longitude = "-2.61700450",
+                    StateCode = "",
+                    Latitude = "49.43129170",
+                    Longitude = "-2.59279680",
                     Type = "parish",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Forest Parish", Latitude = "49.42983000", Longitude = "-2.60168000" }
                     }
                 },
 
@@ -101,9 +105,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Sark",
-                    StateCode = "07",
-                    Latitude = "49.42542520",
-                    Longitude = "-2.40995270",
+                    StateCode = "",
+                    Latitude = "49.42833730",
+                    Longitude = "-2.35993940",
                     Type = "parish",
                     Cities = new()
                     {
@@ -114,9 +118,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "St Andrew",
-                    StateCode = "03",
-                    Latitude = "49.45058530",
-                    Longitude = "-2.60204130",
+                    StateCode = "",
+                    Latitude = "49.44990060",
+                    Longitude = "-2.56882250",
                     Type = "parish",
                     Cities = new()
                     {
@@ -127,9 +131,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "St Martin",
-                    StateCode = "05",
-                    Latitude = "49.43376590",
-                    Longitude = "-2.59799650",
+                    StateCode = "",
+                    Latitude = "49.43734880",
+                    Longitude = "-2.55552400",
                     Type = "parish",
                     Cities = new()
                     {
@@ -140,12 +144,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "St Peter Port",
-                    StateCode = "06",
-                    Latitude = "49.45922770",
-                    Longitude = "-2.58609300",
+                    StateCode = "",
+                    Latitude = "49.45681420",
+                    Longitude = "-2.53899790",
                     Type = "parish",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Saint Peter Port", Latitude = "49.45981000", Longitude = "-2.53527000" }
                     }
                 },
 
@@ -153,12 +158,14 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "St Pierre du Bois",
-                    StateCode = "08",
-                    Latitude = "49.44119220",
-                    Longitude = "-2.68438550",
+                    StateCode = "",
+                    Latitude = "49.43959950",
+                    Longitude = "-2.64089630",
                     Type = "parish",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Saint Pierre du Bois Parish", Latitude = "49.45399000", Longitude = "-2.63808000" },
+                        new() { Id = 2, Name = "Vale Parish", Latitude = "49.49440000", Longitude = "-2.51790000" }
                     }
                 },
 
@@ -166,12 +173,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "St Sampson",
-                    StateCode = "09",
-                    Latitude = "49.48442020",
-                    Longitude = "-2.58103190",
+                    StateCode = "",
+                    Latitude = "49.48172730",
+                    Longitude = "-2.53883950",
                     Type = "parish",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Saint Sampson", Latitude = "49.48389000", Longitude = "-2.52333000" }
                     }
                 },
 
@@ -179,9 +187,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "St Saviour",
-                    StateCode = "10",
-                    Latitude = "49.45114440",
-                    Longitude = "-2.65977520",
+                    StateCode = "",
+                    Latitude = "49.44916480",
+                    Longitude = "-2.62135570",
                     Type = "parish",
                     Cities = new()
                     {
@@ -192,9 +200,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Torteval",
-                    StateCode = "11",
-                    Latitude = "49.42885870",
-                    Longitude = "-2.68990940",
+                    StateCode = "",
+                    Latitude = "49.43023210",
+                    Longitude = "-2.66386210",
                     Type = "parish",
                     Cities = new()
                     {
@@ -205,9 +213,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Vale",
-                    StateCode = "12",
-                    Latitude = "49.48846050",
-                    Longitude = "-2.58075770",
+                    StateCode = "",
+                    Latitude = "49.49545600",
+                    Longitude = "-2.52250870",
                     Type = "parish",
                     Cities = new()
                     {

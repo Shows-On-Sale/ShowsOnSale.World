@@ -20,7 +20,7 @@ namespace ShowsOnSale.World.Data.Countries
             Capital = "El-Aaiun",
             Currency = "MAD",
             CurrencyName = "Moroccan dirham",
-            CurrencySymbol = "MAD",
+            CurrencySymbol = "DH",
             Tld = ".eh",
             Native = "الصحراء الغربية",
             Region = "Africa",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Sahara ar C'hornôg",
                 ["ko"] = "서사하라",
                 ["pt-BR"] = "Saara Ocidental",
                 ["pt"] = "Saara Ocidental",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Bati Sahra",
                 ["ru"] = "Западная Сахара",
                 ["uk"] = "Західна Сахара",
-                ["pl"] = "Sahara Zachodnia"
+                ["pl"] = "Sahara Zachodnia",
+                ["hi"] = "पश्चिमी सहारा",
+                ["ar"] = "الصحراء الغربية"
             },
             States = new()
             {

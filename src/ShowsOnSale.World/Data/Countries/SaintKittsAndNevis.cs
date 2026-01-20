@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Saint Kitts ha Nevis",
                 ["ko"] = "세인트키츠 네비스",
                 ["pt-BR"] = "São Cristóvão e Neves",
                 ["pt"] = "São Cristóvão e Neves",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Saint Kitts Ve Nevis",
                 ["ru"] = "Сент-Китс и Невис",
                 ["uk"] = "Сент-Кітс і Невіс",
-                ["pl"] = "Saint Kitts i Nevis"
+                ["pl"] = "Saint Kitts i Nevis",
+                ["hi"] = "सेंट किट्स एंड नेविस",
+                ["ar"] = "سانت كيتس ونيفيس"
             },
             States = new()
             {
@@ -62,7 +65,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Christ Church Nichola Town",
-                    StateCode = "01",
+                    StateCode = "",
                     Latitude = "17.36048120",
                     Longitude = "-62.76178370",
                     Type = "parish",
@@ -76,7 +79,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Nevis",
-                    StateCode = "N",
+                    StateCode = "",
                     Latitude = "17.15535580",
                     Longitude = "-62.57960260",
                     Type = "state",
@@ -89,7 +92,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Saint Anne Sandy Point",
-                    StateCode = "02",
+                    StateCode = "",
                     Latitude = "17.37253330",
                     Longitude = "-62.84411330",
                     Type = "parish",
@@ -103,9 +106,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Saint George Basseterre",
-                    StateCode = "03",
-                    Latitude = "17.26710110",
-                    Longitude = "-62.76930010",
+                    StateCode = "",
+                    Latitude = "17.23915440",
+                    Longitude = "-62.64240820",
                     Type = "parish",
                     Cities = new()
                     {
@@ -116,7 +119,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Saint George Gingerland",
-                    StateCode = "04",
+                    StateCode = "",
                     Latitude = "17.12577590",
                     Longitude = "-62.56198110",
                     Type = "parish",
@@ -130,7 +133,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Saint James Windward",
-                    StateCode = "05",
+                    StateCode = "",
                     Latitude = "17.17696330",
                     Longitude = "-62.57960260",
                     Type = "parish",
@@ -144,9 +147,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Saint John Capisterre",
-                    StateCode = "06",
-                    Latitude = "17.38103410",
-                    Longitude = "-62.79118330",
+                    StateCode = "",
+                    Latitude = "17.38725670",
+                    Longitude = "-62.79921320",
                     Type = "parish",
                     Cities = new()
                     {
@@ -158,7 +161,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Saint John Figtree",
-                    StateCode = "07",
+                    StateCode = "",
                     Latitude = "17.11557480",
                     Longitude = "-62.60310040",
                     Type = "parish",
@@ -172,9 +175,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Saint Kitts",
-                    StateCode = "K",
-                    Latitude = "17.34337960",
-                    Longitude = "-62.75590430",
+                    StateCode = "",
+                    Latitude = "17.31569290",
+                    Longitude = "-62.74468060",
                     Type = "state",
                     Cities = new()
                     {
@@ -185,7 +188,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Saint Mary Cayon",
-                    StateCode = "08",
+                    StateCode = "",
                     Latitude = "17.34620710",
                     Longitude = "-62.73826710",
                     Type = "parish",
@@ -199,9 +202,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Saint Paul Capisterre",
-                    StateCode = "09",
-                    Latitude = "17.40166830",
-                    Longitude = "-62.82573320",
+                    StateCode = "",
+                    Latitude = "17.39490590",
+                    Longitude = "-62.83582900",
                     Type = "parish",
                     Cities = new()
                     {
@@ -213,7 +216,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Saint Paul Charlestown",
-                    StateCode = "10",
+                    StateCode = "",
                     Latitude = "17.13462970",
                     Longitude = "-62.61338160",
                     Type = "parish",
@@ -227,9 +230,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Saint Peter Basseterre",
-                    StateCode = "11",
-                    Latitude = "17.31029110",
-                    Longitude = "-62.71475330",
+                    StateCode = "",
+                    Latitude = "17.32556530",
+                    Longitude = "-62.72177790",
                     Type = "parish",
                     Cities = new()
                     {
@@ -241,7 +244,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Saint Thomas Lowland",
-                    StateCode = "12",
+                    StateCode = "",
                     Latitude = "17.16505130",
                     Longitude = "-62.60897530",
                     Type = "parish",
@@ -255,7 +258,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Saint Thomas Middle Island",
-                    StateCode = "13",
+                    StateCode = "",
                     Latitude = "17.33488130",
                     Longitude = "-62.80882510",
                     Type = "parish",
@@ -269,9 +272,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Trinity Palmetto Point",
-                    StateCode = "15",
-                    Latitude = "17.30635190",
-                    Longitude = "-62.76178370",
+                    StateCode = "",
+                    Latitude = "17.31451430",
+                    Longitude = "-62.76851450",
                     Type = "parish",
                     Cities = new()
                     {

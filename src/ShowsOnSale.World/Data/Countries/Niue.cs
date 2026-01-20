@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Niue",
                 ["ko"] = "니우에",
                 ["pt-BR"] = "Niue",
                 ["pt"] = "Niue",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Niue",
                 ["ru"] = "Ниуэ",
                 ["uk"] = "Ніуе",
-                ["pl"] = "Niue"
+                ["pl"] = "Niue",
+                ["hi"] = "नियू",
+                ["ar"] = "نيو"
             },
             States = new()
             {
@@ -62,7 +65,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Alofi North",
-                    StateCode = "14",
+                    StateCode = "",
                     Latitude = "-19.04889770",
                     Longitude = "-169.91909050",
                     Type = "village",
@@ -75,9 +78,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Alofi South",
-                    StateCode = "13",
-                    Latitude = "-19.07359680",
-                    Longitude = "-169.94804080",
+                    StateCode = "",
+                    Latitude = "-19.05483600",
+                    Longitude = "-169.91988460",
                     Type = "village",
                     Cities = new()
                     {
@@ -88,7 +91,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Avatele",
-                    StateCode = "11",
+                    StateCode = "",
                     Latitude = "-19.12373020",
                     Longitude = "-169.91656780",
                     Type = "village",
@@ -101,7 +104,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Hakupu",
-                    StateCode = "09",
+                    StateCode = "",
                     Latitude = "-19.12872750",
                     Longitude = "-169.84921230",
                     Type = "village",
@@ -114,9 +117,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Hikutavake",
-                    StateCode = "04",
-                    Latitude = "-18.97755110",
-                    Longitude = "-169.89445360",
+                    StateCode = "",
+                    Latitude = "-18.96563260",
+                    Longitude = "-169.88063600",
                     Type = "village",
                     Cities = new()
                     {
@@ -127,7 +130,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Lakepa",
-                    StateCode = "07",
+                    StateCode = "",
                     Latitude = "-19.00964250",
                     Longitude = "-169.81200460",
                     Type = "village",
@@ -140,7 +143,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Liku",
-                    StateCode = "08",
+                    StateCode = "",
                     Latitude = "-19.05369070",
                     Longitude = "-169.79425910",
                     Type = "village",
@@ -153,7 +156,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Makefu",
-                    StateCode = "01",
+                    StateCode = "",
                     Latitude = "-19.00326180",
                     Longitude = "-169.92047320",
                     Type = "village",
@@ -166,7 +169,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Mutalau",
-                    StateCode = "06",
+                    StateCode = "",
                     Latitude = "-18.96393850",
                     Longitude = "-169.83278630",
                     Type = "village",
@@ -179,7 +182,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Namukulu",
-                    StateCode = "03",
+                    StateCode = "",
                     Latitude = "-18.98122750",
                     Longitude = "-169.90294220",
                     Type = "village",
@@ -192,9 +195,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Tamakautoga",
-                    StateCode = "12",
-                    Latitude = "-19.10198510",
-                    Longitude = "-169.93017210",
+                    StateCode = "",
+                    Latitude = "-19.10452400",
+                    Longitude = "-169.91738200",
                     Type = "village",
                     Cities = new()
                     {
@@ -205,7 +208,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Toi",
-                    StateCode = "05",
+                    StateCode = "",
                     Latitude = "-18.97376000",
                     Longitude = "-169.86297740",
                     Type = "village",
@@ -218,7 +221,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Tuapa",
-                    StateCode = "02",
+                    StateCode = "",
                     Latitude = "-18.99125070",
                     Longitude = "-169.90920780",
                     Type = "village",
@@ -231,7 +234,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Vaiea",
-                    StateCode = "10",
+                    StateCode = "",
                     Latitude = "-19.13083580",
                     Longitude = "-169.89380120",
                     Type = "village",

@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Enez Bouvet",
                 ["ko"] = "부벳 섬",
                 ["pt-BR"] = "Ilha Bouvet",
                 ["pt"] = "Ilha Bouvet",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Bouvet Adasi",
                 ["ru"] = "Остров Буве",
                 ["uk"] = "Острів Буве",
-                ["pl"] = "Wyspa Bouveta"
+                ["pl"] = "Wyspa Bouveta",
+                ["hi"] = "बाउवेट आइलैंड",
+                ["ar"] = "جزيرة بوفيت"
             },
             States = new()
             {

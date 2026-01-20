@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Singapour",
                 ["ko"] = "싱가포르",
                 ["pt-BR"] = "Singapura",
                 ["pt"] = "Singapura",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Singapur",
                 ["ru"] = "Сингапур",
                 ["uk"] = "Сінгапур",
-                ["pl"] = "Singapur"
+                ["pl"] = "Singapur",
+                ["hi"] = "सिंगापुर",
+                ["ar"] = "سنغافورة"
             },
             States = new()
             {
@@ -62,7 +65,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Central Singapore",
-                    StateCode = "01",
+                    StateCode = "",
                     Latitude = "1.28840000",
                     Longitude = "103.85350000",
                     Type = "district",
@@ -87,9 +90,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "North East",
-                    StateCode = "02",
-                    Latitude = "1.38240000",
-                    Longitude = "103.89720000",
+                    StateCode = "",
+                    Latitude = "5.33411860",
+                    Longitude = "100.27610770",
                     Type = "district",
                     Cities = new()
                     {
@@ -105,9 +108,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "North West",
-                    StateCode = "03",
-                    Latitude = "1.41800000",
-                    Longitude = "103.82750000",
+                    StateCode = "",
+                    Latitude = "1.45093820",
+                    Longitude = "103.78495190",
                     Type = "district",
                     Cities = new()
                     {
@@ -121,9 +124,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "South East",
-                    StateCode = "04",
-                    Latitude = "1.35710000",
-                    Longitude = "103.70040000",
+                    StateCode = "",
+                    Latitude = "1.33523290",
+                    Longitude = "103.95989310",
                     Type = "district",
                     Cities = new()
                     {
@@ -137,9 +140,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "South West",
-                    StateCode = "05",
-                    Latitude = "1.35710000",
-                    Longitude = "103.94510000",
+                    StateCode = "",
+                    Latitude = "5.28833890",
+                    Longitude = "100.28150990",
                     Type = "district",
                     Cities = new()
                     {

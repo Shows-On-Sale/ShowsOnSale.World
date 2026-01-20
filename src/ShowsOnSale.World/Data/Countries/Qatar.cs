@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Qatar",
                 ["ko"] = "카타르",
                 ["pt-BR"] = "Catar",
                 ["pt"] = "Catar",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Katar",
                 ["ru"] = "Катар",
                 ["uk"] = "Катар",
-                ["pl"] = "Katar"
+                ["pl"] = "Katar",
+                ["hi"] = "कतर",
+                ["ar"] = "قطر"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Al Daayen",
-                    StateCode = "ZA",
-                    Latitude = "25.57845590",
-                    Longitude = "51.48213870",
+                    StateCode = "",
+                    Latitude = "25.50974190",
+                    Longitude = "51.44226990",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -75,7 +78,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Al Khor",
-                    StateCode = "KH",
+                    StateCode = "",
                     Latitude = "25.68040780",
                     Longitude = "51.49685020",
                     Type = "municipality",
@@ -90,9 +93,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Al Rayyan",
-                    StateCode = "RA",
-                    Latitude = "25.25225510",
-                    Longitude = "51.43887130",
+                    StateCode = "",
+                    Latitude = "24.93047410",
+                    Longitude = "50.97768880",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -105,9 +108,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Al Wakrah",
-                    StateCode = "WA",
-                    Latitude = "25.16593140",
-                    Longitude = "51.59755240",
+                    StateCode = "",
+                    Latitude = "25.15666230",
+                    Longitude = "51.60132120",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -121,9 +124,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Al-Shahaniya",
-                    StateCode = "SH",
-                    Latitude = "25.41063860",
-                    Longitude = "51.18460250",
+                    StateCode = "",
+                    Latitude = "25.37174210",
+                    Longitude = "51.22710900",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -137,7 +140,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Doha",
-                    StateCode = "DA",
+                    StateCode = "",
                     Latitude = "25.28544730",
                     Longitude = "51.53103980",
                     Type = "municipality",
@@ -151,7 +154,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Madinat ash Shamal",
-                    StateCode = "MS",
+                    StateCode = "",
                     Latitude = "26.11827430",
                     Longitude = "51.21572650",
                     Type = "municipality",
@@ -167,9 +170,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Umm Salal",
-                    StateCode = "US",
-                    Latitude = "25.48752420",
-                    Longitude = "51.39656800",
+                    StateCode = "",
+                    Latitude = "25.46476540",
+                    Longitude = "51.33839960",
                     Type = "municipality",
                     Cities = new()
                     {

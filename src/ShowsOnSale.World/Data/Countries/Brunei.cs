@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Brunei",
                 ["ko"] = "브루나이",
                 ["pt-BR"] = "Brunei",
                 ["pt"] = "Brunei",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Brunei",
                 ["ru"] = "Бруней",
                 ["uk"] = "Бруней",
-                ["pl"] = "Brunei"
+                ["pl"] = "Brunei",
+                ["hi"] = "ब्रुनेई",
+                ["ar"] = "بروناي"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Belait",
-                    StateCode = "BE",
-                    Latitude = "4.37507490",
-                    Longitude = "114.61928990",
+                    StateCode = "",
+                    Latitude = "4.43499380",
+                    Longitude = "114.49465240",
                     Type = "district",
                     Cities = new()
                     {
@@ -77,9 +80,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Brunei-Muara",
-                    StateCode = "BM",
-                    Latitude = "4.93112060",
-                    Longitude = "114.95168690",
+                    StateCode = "",
+                    Latitude = "4.97520980",
+                    Longitude = "114.93676630",
                     Type = "district",
                     Cities = new()
                     {
@@ -95,9 +98,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Temburong",
-                    StateCode = "TE",
-                    Latitude = "4.62041280",
-                    Longitude = "115.14148400",
+                    StateCode = "",
+                    Latitude = "4.62918400",
+                    Longitude = "115.16344080",
                     Type = "district",
                     Cities = new()
                     {
@@ -109,9 +112,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Tutong",
-                    StateCode = "TU",
-                    Latitude = "4.71403730",
-                    Longitude = "114.66679390",
+                    StateCode = "",
+                    Latitude = "4.68268100",
+                    Longitude = "114.65627060",
                     Type = "district",
                     Cities = new()
                     {

@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Belize",
                 ["ko"] = "벨리즈",
                 ["pt-BR"] = "Belize",
                 ["pt"] = "Belize",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Belize",
                 ["ru"] = "Белиз",
                 ["uk"] = "Беліз",
-                ["pl"] = "Belize"
+                ["pl"] = "Belize",
+                ["hi"] = "बेलीज़",
+                ["ar"] = "بليز"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Belize",
-                    StateCode = "BZ",
-                    Latitude = "17.56776790",
-                    Longitude = "-88.40160410",
+                    StateCode = "",
+                    Latitude = "17.50027680",
+                    Longitude = "-88.19887370",
                     Type = "district",
                     Cities = new()
                     {
@@ -77,9 +80,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Cayo",
-                    StateCode = "CY",
-                    Latitude = "17.09844450",
-                    Longitude = "-88.94138650",
+                    StateCode = "",
+                    Latitude = "17.15827760",
+                    Longitude = "-89.06816720",
                     Type = "district",
                     Cities = new()
                     {
@@ -94,9 +97,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Corozal",
-                    StateCode = "CZL",
-                    Latitude = "18.13492380",
-                    Longitude = "-88.24611830",
+                    StateCode = "",
+                    Latitude = "18.22763240",
+                    Longitude = "-88.29212570",
                     Type = "district",
                     Cities = new()
                     {
@@ -108,9 +111,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Orange Walk",
-                    StateCode = "OW",
-                    Latitude = "17.76035300",
-                    Longitude = "-88.86469800",
+                    StateCode = "",
+                    Latitude = "17.78318330",
+                    Longitude = "-88.86202830",
                     Type = "district",
                     Cities = new()
                     {
@@ -124,9 +127,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Stann Creek",
-                    StateCode = "SC",
-                    Latitude = "16.81166310",
-                    Longitude = "-88.40160410",
+                    StateCode = "",
+                    Latitude = "16.96665990",
+                    Longitude = "-88.22473680",
                     Type = "district",
                     Cities = new()
                     {
@@ -139,9 +142,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Toledo",
-                    StateCode = "TOL",
-                    Latitude = "16.24919230",
-                    Longitude = "-88.86469800",
+                    StateCode = "",
+                    Latitude = "16.13455720",
+                    Longitude = "-88.82190410",
                     Type = "district",
                     Cities = new()
                     {

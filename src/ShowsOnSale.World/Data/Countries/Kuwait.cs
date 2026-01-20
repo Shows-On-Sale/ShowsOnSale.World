@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Koweit",
                 ["ko"] = "쿠웨이트",
                 ["pt-BR"] = "Kuwait",
                 ["pt"] = "Kuwait",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Kuveyt",
                 ["ru"] = "Кувейт",
                 ["uk"] = "Кувейт",
-                ["pl"] = "Kuwejt"
+                ["pl"] = "Kuwejt",
+                ["hi"] = "कुवैट",
+                ["ar"] = "الكويت"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Al Ahmadi",
-                    StateCode = "AH",
-                    Latitude = "28.57451250",
-                    Longitude = "48.10247430",
+                    StateCode = "",
+                    Latitude = "28.85385710",
+                    Longitude = "48.16523770",
                     Type = "governorate",
                     Cities = new()
                     {
@@ -82,9 +85,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Al Asimah",
-                    StateCode = "KU",
-                    Latitude = "26.22851610",
-                    Longitude = "50.58604970",
+                    StateCode = "",
+                    Latitude = "29.09261280",
+                    Longitude = "48.51335500",
                     Type = "governorate",
                     Cities = new()
                     {
@@ -100,9 +103,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Al Farwaniyah",
-                    StateCode = "FA",
-                    Latitude = "29.27335700",
-                    Longitude = "47.94001540",
+                    StateCode = "",
+                    Latitude = "29.24825390",
+                    Longitude = "47.91367550",
                     Type = "governorate",
                     Cities = new()
                     {
@@ -115,9 +118,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Al Jahra",
-                    StateCode = "JA",
-                    Latitude = "29.99318310",
-                    Longitude = "47.76347310",
+                    StateCode = "",
+                    Latitude = "29.34746360",
+                    Longitude = "47.67220540",
                     Type = "governorate",
                     Cities = new()
                     {
@@ -129,9 +132,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Hawalli",
-                    StateCode = "HA",
-                    Latitude = "29.30567160",
-                    Longitude = "48.03076130",
+                    StateCode = "",
+                    Latitude = "29.32366090",
+                    Longitude = "48.11531480",
                     Type = "governorate",
                     Cities = new()
                     {
@@ -147,9 +150,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Mubarak Al-Kabeer",
-                    StateCode = "MU",
-                    Latitude = "29.21224000",
-                    Longitude = "48.06051080",
+                    StateCode = "",
+                    Latitude = "29.18709560",
+                    Longitude = "48.08275890",
                     Type = "governorate",
                     Cities = new()
                     {

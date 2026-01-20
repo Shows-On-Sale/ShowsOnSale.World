@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 94,
+            Id = 93,
             Name = "Guyana",
             Iso3 = "GUY",
             Iso2 = "GY",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Guyana",
                 ["ko"] = "가이아나",
                 ["pt-BR"] = "Guiana",
                 ["pt"] = "Guiana",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Guyana",
                 ["ru"] = "Гайана",
                 ["uk"] = "Гайана",
-                ["pl"] = "Gujana"
+                ["pl"] = "Gujana",
+                ["hi"] = "गुयाना",
+                ["ar"] = "غيانا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Barima-Waini",
-                    StateCode = "BA",
-                    Latitude = "7.48824190",
-                    Longitude = "-59.65644940",
+                    StateCode = "",
+                    Latitude = "7.75591470",
+                    Longitude = "-59.71790220",
                     Type = "region",
                     Cities = new()
                     {
@@ -76,9 +79,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Cuyuni-Mazaruni",
-                    StateCode = "CU",
-                    Latitude = "6.46421410",
-                    Longitude = "-60.21107520",
+                    StateCode = "",
+                    Latitude = "6.18885400",
+                    Longitude = "-59.84973700",
                     Type = "region",
                     Cities = new()
                     {
@@ -90,9 +93,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Demerara-Mahaica",
-                    StateCode = "DE",
-                    Latitude = "6.54642600",
-                    Longitude = "-58.09820460",
+                    StateCode = "",
+                    Latitude = "6.45478830",
+                    Longitude = "-58.12806760",
                     Type = "region",
                     Cities = new()
                     {
@@ -105,9 +108,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "East Berbice-Corentyne",
-                    StateCode = "EB",
-                    Latitude = "2.74779220",
-                    Longitude = "-57.46272590",
+                    StateCode = "",
+                    Latitude = "3.89726110",
+                    Longitude = "-58.13839250",
                     Type = "region",
                     Cities = new()
                     {
@@ -120,9 +123,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Essequibo Islands-West Demerara",
-                    StateCode = "ES",
-                    Latitude = "6.57201320",
-                    Longitude = "-58.46299970",
+                    StateCode = "",
+                    Latitude = "6.87778480",
+                    Longitude = "-58.31142180",
                     Type = "region",
                     Cities = new()
                     {
@@ -135,9 +138,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Mahaica-Berbice",
-                    StateCode = "MA",
-                    Latitude = "6.23849600",
-                    Longitude = "-57.91625550",
+                    StateCode = "",
+                    Latitude = "6.27668980",
+                    Longitude = "-57.82391000",
                     Type = "region",
                     Cities = new()
                     {
@@ -150,9 +153,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Pomeroon-Supenaam",
-                    StateCode = "PM",
-                    Latitude = "7.12941660",
-                    Longitude = "-58.92062950",
+                    StateCode = "",
+                    Latitude = "7.20495480",
+                    Longitude = "-58.82956410",
                     Type = "region",
                     Cities = new()
                     {
@@ -164,9 +167,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Potaro-Siparuni",
-                    StateCode = "PT",
-                    Latitude = "4.78558530",
-                    Longitude = "-59.28799770",
+                    StateCode = "",
+                    Latitude = "4.86222870",
+                    Longitude = "-59.41936120",
                     Type = "region",
                     Cities = new()
                     {
@@ -178,9 +181,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Upper Demerara-Berbice",
-                    StateCode = "UD",
-                    Latitude = "5.30648790",
-                    Longitude = "-58.18929210",
+                    StateCode = "",
+                    Latitude = "5.56126770",
+                    Longitude = "-58.15415200",
                     Type = "region",
                     Cities = new()
                     {
@@ -192,9 +195,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Upper Takutu-Upper Essequibo",
-                    StateCode = "UT",
-                    Latitude = "2.92395950",
-                    Longitude = "-58.73736340",
+                    StateCode = "",
+                    Latitude = "2.84496280",
+                    Longitude = "-58.97848230",
                     Type = "region",
                     Cities = new()
                     {

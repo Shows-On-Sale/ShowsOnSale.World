@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Saint-Barthélemy",
                 ["ko"] = "생바르텔레미",
                 ["pt-BR"] = "São Bartolomeu",
                 ["pt"] = "São Bartolomeu",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Saint Barthélemy",
                 ["ru"] = "Сен-Бартелеми",
                 ["uk"] = "Сен-Бартелемі",
-                ["pl"] = "Saint-Barthelemy"
+                ["pl"] = "Saint-Barthelemy",
+                ["hi"] = "सेंट बार्थेलेमी",
+                ["ar"] = "سان بارثيليمي"
             },
             States = new()
             {

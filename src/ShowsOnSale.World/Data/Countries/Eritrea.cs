@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 68,
+            Id = 67,
             Name = "Eritrea",
             Iso3 = "ERI",
             Iso2 = "ER",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Eritrea",
                 ["ko"] = "에리트레아",
                 ["pt-BR"] = "Eritreia",
                 ["pt"] = "Eritreia",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Eritre",
                 ["ru"] = "Эритрея",
                 ["uk"] = "Еритрея",
-                ["pl"] = "Erytrea"
+                ["pl"] = "Erytrea",
+                ["hi"] = "इरिट्रिया",
+                ["ar"] = "إريتريا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Anseba",
-                    StateCode = "AN",
-                    Latitude = "16.47455310",
-                    Longitude = "37.80876930",
+                    StateCode = "",
+                    Latitude = "16.50001010",
+                    Longitude = "37.50000480",
                     Type = "region",
                     Cities = new()
                     {
@@ -76,9 +79,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Debub",
-                    StateCode = "DU",
-                    Latitude = "14.94786920",
-                    Longitude = "39.15436770",
+                    StateCode = "",
+                    Latitude = "14.90996670",
+                    Longitude = "38.81506920",
                     Type = "region",
                     Cities = new()
                     {
@@ -92,9 +95,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Gash-Barka",
-                    StateCode = "GB",
-                    Latitude = "15.40688250",
-                    Longitude = "37.63866220",
+                    StateCode = "",
+                    Latitude = "15.25000000",
+                    Longitude = "37.50000000",
                     Type = "region",
                     Cities = new()
                     {
@@ -108,9 +111,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Maekel",
-                    StateCode = "MA",
-                    Latitude = "15.35514090",
-                    Longitude = "38.86236830",
+                    StateCode = "",
+                    Latitude = "15.33333300",
+                    Longitude = "38.91666700",
                     Type = "region",
                     Cities = new()
                     {
@@ -122,9 +125,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Northern Red Sea",
-                    StateCode = "SK",
-                    Latitude = "16.25839970",
-                    Longitude = "38.82054540",
+                    StateCode = "",
+                    Latitude = "16.00000000",
+                    Longitude = "39.00000000",
                     Type = "region",
                     Cities = new()
                     {
@@ -136,9 +139,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Southern Red Sea",
-                    StateCode = "DK",
-                    Latitude = "13.51371030",
-                    Longitude = "41.76064720",
+                    StateCode = "",
+                    Latitude = "13.75000000",
+                    Longitude = "41.50000000",
                     Type = "region",
                     Cities = new()
                     {

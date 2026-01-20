@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Mariana an Norzh",
                 ["ko"] = "북마리아나 제도",
                 ["pt-BR"] = "Ilhas Marianas",
                 ["pt"] = "Ilhas Marianas",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Kuzey Mariana Adalari",
                 ["ru"] = "Северные Марианские острова",
                 ["uk"] = "Північні Маріанські острови",
-                ["pl"] = "Mariany Północne"
+                ["pl"] = "Mariany Północne",
+                ["hi"] = "उत्तरी मारियाना आइलैंड्स",
+                ["ar"] = "جزر ماريانا الشمالية"
             },
             States = new()
             {

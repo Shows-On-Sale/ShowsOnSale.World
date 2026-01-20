@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Slovenia",
                 ["ko"] = "슬로베니아",
                 ["pt-BR"] = "Eslovênia",
                 ["pt"] = "Eslovénia",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Slovenya",
                 ["ru"] = "Словения",
                 ["uk"] = "Словенія",
-                ["pl"] = "Słowenia"
+                ["pl"] = "Słowenia",
+                ["hi"] = "स्लोवेनिया",
+                ["ar"] = "سلوفينيا"
             },
             States = new()
             {
@@ -62,7 +65,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Ajdovščina",
-                    StateCode = "001",
+                    StateCode = "",
                     Latitude = "45.88707760",
                     Longitude = "13.90428180",
                     Type = "municipality",
@@ -78,7 +81,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Ankaran",
-                    StateCode = "213",
+                    StateCode = "",
                     Latitude = "45.57845100",
                     Longitude = "13.73691740",
                     Type = "municipality",
@@ -92,7 +95,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Apače",
-                    StateCode = "195",
+                    StateCode = "",
                     Latitude = "46.69746790",
                     Longitude = "15.91025340",
                     Type = "municipality",
@@ -106,7 +109,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Beltinci",
-                    StateCode = "002",
+                    StateCode = "",
                     Latitude = "46.60791530",
                     Longitude = "16.23651270",
                     Type = "municipality",
@@ -123,7 +126,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Benedikt",
-                    StateCode = "148",
+                    StateCode = "",
                     Latitude = "46.61558410",
                     Longitude = "15.89572810",
                     Type = "municipality",
@@ -137,7 +140,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Bistrica ob Sotli",
-                    StateCode = "149",
+                    StateCode = "",
                     Latitude = "46.05655790",
                     Longitude = "15.66259470",
                     Type = "municipality",
@@ -151,7 +154,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Bled",
-                    StateCode = "003",
+                    StateCode = "",
                     Latitude = "46.36832660",
                     Longitude = "14.11457980",
                     Type = "municipality",
@@ -167,7 +170,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Bloke",
-                    StateCode = "150",
+                    StateCode = "",
                     Latitude = "45.77281410",
                     Longitude = "14.50634590",
                     Type = "municipality",
@@ -181,9 +184,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Bohinj",
-                    StateCode = "004",
-                    Latitude = "46.30056520",
-                    Longitude = "13.94271950",
+                    StateCode = "",
+                    Latitude = "46.30203360",
+                    Longitude = "13.90901550",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -197,7 +200,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Borovnica",
-                    StateCode = "005",
+                    StateCode = "",
                     Latitude = "45.90445250",
                     Longitude = "14.38241890",
                     Type = "municipality",
@@ -212,7 +215,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Bovec",
-                    StateCode = "006",
+                    StateCode = "",
                     Latitude = "46.33804950",
                     Longitude = "13.55241740",
                     Type = "municipality",
@@ -227,7 +230,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Braslovče",
-                    StateCode = "151",
+                    StateCode = "",
                     Latitude = "46.28361920",
                     Longitude = "15.04183200",
                     Type = "municipality",
@@ -241,9 +244,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Brda",
-                    StateCode = "007",
-                    Latitude = "45.99756520",
-                    Longitude = "13.52704740",
+                    StateCode = "",
+                    Latitude = "46.01620190",
+                    Longitude = "13.54891020",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -256,7 +259,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Brežice",
-                    StateCode = "009",
+                    StateCode = "",
                     Latitude = "45.90410960",
                     Longitude = "15.59436390",
                     Type = "municipality",
@@ -271,9 +274,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Brezovica",
-                    StateCode = "008",
-                    Latitude = "45.95593510",
-                    Longitude = "14.43499520",
+                    StateCode = "",
+                    Latitude = "45.94803240",
+                    Longitude = "14.41803360",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -289,7 +292,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Cankova",
-                    StateCode = "152",
+                    StateCode = "",
                     Latitude = "46.71823700",
                     Longitude = "16.01972220",
                     Type = "municipality",
@@ -303,9 +306,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Celje",
-                    StateCode = "011",
-                    Latitude = "46.23974950",
-                    Longitude = "15.26770630",
+                    StateCode = "",
+                    Latitude = "46.22938890",
+                    Longitude = "15.26168280",
                     Type = "urban municipality",
                     Cities = new()
                     {
@@ -319,7 +322,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Cerklje na Gorenjskem",
-                    StateCode = "012",
+                    StateCode = "",
                     Latitude = "46.25170540",
                     Longitude = "14.48579790",
                     Type = "municipality",
@@ -333,9 +336,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 19,
                     Name = "Cerknica",
-                    StateCode = "013",
-                    Latitude = "45.79662550",
-                    Longitude = "14.39217700",
+                    StateCode = "",
+                    Latitude = "45.79365780",
+                    Longitude = "14.36188300",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -348,7 +351,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 20,
                     Name = "Cerkno",
-                    StateCode = "014",
+                    StateCode = "",
                     Latitude = "46.12884140",
                     Longitude = "13.98940270",
                     Type = "municipality",
@@ -362,7 +365,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 21,
                     Name = "Cerkvenjak",
-                    StateCode = "153",
+                    StateCode = "",
                     Latitude = "46.56707110",
                     Longitude = "15.94297530",
                     Type = "municipality",
@@ -376,9 +379,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 22,
                     Name = "Cirkulane",
-                    StateCode = "196",
-                    Latitude = "46.32983220",
-                    Longitude = "15.99806660",
+                    StateCode = "",
+                    Latitude = "46.34380750",
+                    Longitude = "15.99447240",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -389,7 +392,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 23,
                     Name = "Črenšovci",
-                    StateCode = "015",
+                    StateCode = "",
                     Latitude = "46.57200290",
                     Longitude = "16.28773460",
                     Type = "municipality",
@@ -403,7 +406,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 24,
                     Name = "Črna na Koroškem",
-                    StateCode = "016",
+                    StateCode = "",
                     Latitude = "46.47045290",
                     Longitude = "14.84999980",
                     Type = "municipality",
@@ -417,9 +420,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 25,
                     Name = "Črnomelj",
-                    StateCode = "017",
-                    Latitude = "45.53612250",
-                    Longitude = "15.19441430",
+                    StateCode = "",
+                    Latitude = "45.57009650",
+                    Longitude = "15.19233240",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -431,7 +434,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 26,
                     Name = "Destrnik",
-                    StateCode = "018",
+                    StateCode = "",
                     Latitude = "46.49223680",
                     Longitude = "15.87779560",
                     Type = "municipality",
@@ -445,7 +448,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 27,
                     Name = "Divača",
-                    StateCode = "019",
+                    StateCode = "",
                     Latitude = "45.68060690",
                     Longitude = "13.97203120",
                     Type = "municipality",
@@ -459,7 +462,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 28,
                     Name = "Dobje",
-                    StateCode = "154",
+                    StateCode = "",
                     Latitude = "46.13700370",
                     Longitude = "15.39412900",
                     Type = "municipality",
@@ -473,9 +476,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 29,
                     Name = "Dobrepolje",
-                    StateCode = "020",
-                    Latitude = "45.85249510",
-                    Longitude = "14.70831090",
+                    StateCode = "",
+                    Latitude = "45.80975280",
+                    Longitude = "14.74256570",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -487,7 +490,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 30,
                     Name = "Dobrna",
-                    StateCode = "155",
+                    StateCode = "",
                     Latitude = "46.33561410",
                     Longitude = "15.22597320",
                     Type = "municipality",
@@ -501,7 +504,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 31,
                     Name = "Dobrova–Polhov Gradec",
-                    StateCode = "021",
+                    StateCode = "",
                     Latitude = "46.06488960",
                     Longitude = "14.31681950",
                     Type = "municipality",
@@ -515,7 +518,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 32,
                     Name = "Dobrovnik",
-                    StateCode = "156",
+                    StateCode = "",
                     Latitude = "46.65386620",
                     Longitude = "16.35065940",
                     Type = "municipality",
@@ -529,7 +532,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 33,
                     Name = "Dol pri Ljubljani",
-                    StateCode = "022",
+                    StateCode = "",
                     Latitude = "46.08843860",
                     Longitude = "14.64247920",
                     Type = "municipality",
@@ -543,9 +546,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 34,
                     Name = "Dolenjske Toplice",
-                    StateCode = "157",
-                    Latitude = "45.73457110",
-                    Longitude = "15.01294930",
+                    StateCode = "",
+                    Latitude = "45.75726920",
+                    Longitude = "15.05837910",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -557,9 +560,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 35,
                     Name = "Domžale",
-                    StateCode = "023",
-                    Latitude = "46.14382690",
-                    Longitude = "14.63752790",
+                    StateCode = "",
+                    Latitude = "46.13942960",
+                    Longitude = "14.59445530",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -574,9 +577,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 36,
                     Name = "Dornava",
-                    StateCode = "024",
-                    Latitude = "46.44435130",
-                    Longitude = "15.98891590",
+                    StateCode = "",
+                    Latitude = "46.43519130",
+                    Longitude = "15.95520140",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -588,7 +591,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 37,
                     Name = "Dravograd",
-                    StateCode = "025",
+                    StateCode = "",
                     Latitude = "46.58921900",
                     Longitude = "15.02460210",
                     Type = "municipality",
@@ -602,9 +605,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 38,
                     Name = "Duplek",
-                    StateCode = "026",
-                    Latitude = "46.50100160",
-                    Longitude = "15.75463070",
+                    StateCode = "",
+                    Latitude = "46.50913950",
+                    Longitude = "15.76265700",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -617,7 +620,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 39,
                     Name = "Gorenja Vas–Poljane",
-                    StateCode = "027",
+                    StateCode = "",
                     Latitude = "46.11165820",
                     Longitude = "14.11493480",
                     Type = "municipality",
@@ -631,7 +634,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 40,
                     Name = "Gorišnica",
-                    StateCode = "028",
+                    StateCode = "",
                     Latitude = "46.41202710",
                     Longitude = "16.01330890",
                     Type = "municipality",
@@ -645,9 +648,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 41,
                     Name = "Gorje",
-                    StateCode = "207",
-                    Latitude = "46.38024580",
-                    Longitude = "14.06853390",
+                    StateCode = "",
+                    Latitude = "46.39448470",
+                    Longitude = "13.99128810",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -658,7 +661,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 42,
                     Name = "Gornja Radgona",
-                    StateCode = "029",
+                    StateCode = "",
                     Latitude = "46.67670990",
                     Longitude = "15.99108470",
                     Type = "municipality",
@@ -672,7 +675,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 43,
                     Name = "Gornji Grad",
-                    StateCode = "030",
+                    StateCode = "",
                     Latitude = "46.29617120",
                     Longitude = "14.80623470",
                     Type = "municipality",
@@ -686,7 +689,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 44,
                     Name = "Gornji Petrovci",
-                    StateCode = "031",
+                    StateCode = "",
                     Latitude = "46.80371280",
                     Longitude = "16.21913790",
                     Type = "municipality",
@@ -700,9 +703,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 45,
                     Name = "Grad",
-                    StateCode = "158",
-                    Latitude = "46.80873200",
-                    Longitude = "16.10920600",
+                    StateCode = "",
+                    Latitude = "46.80189400",
+                    Longitude = "16.09192160",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -714,7 +717,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 46,
                     Name = "Grosuplje",
-                    StateCode = "032",
+                    StateCode = "",
                     Latitude = "45.95576450",
                     Longitude = "14.65889900",
                     Type = "municipality",
@@ -729,7 +732,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 47,
                     Name = "Hajdina",
-                    StateCode = "159",
+                    StateCode = "",
                     Latitude = "46.41850140",
                     Longitude = "15.82447220",
                     Type = "municipality",
@@ -743,9 +746,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 48,
                     Name = "Hoče–Slivnica",
-                    StateCode = "160",
-                    Latitude = "46.47785800",
-                    Longitude = "15.64760050",
+                    StateCode = "",
+                    Latitude = "46.48987750",
+                    Longitude = "15.61062050",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -760,7 +763,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 49,
                     Name = "Hodoš",
-                    StateCode = "161",
+                    StateCode = "",
                     Latitude = "46.83141340",
                     Longitude = "16.32106800",
                     Type = "municipality",
@@ -774,7 +777,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 50,
                     Name = "Horjul",
-                    StateCode = "162",
+                    StateCode = "",
                     Latitude = "46.02253780",
                     Longitude = "14.29862690",
                     Type = "municipality",
@@ -788,7 +791,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 51,
                     Name = "Hrastnik",
-                    StateCode = "034",
+                    StateCode = "",
                     Latitude = "46.14172880",
                     Longitude = "15.08448940",
                     Type = "municipality",
@@ -803,9 +806,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 52,
                     Name = "Hrpelje–Kozina",
-                    StateCode = "035",
-                    Latitude = "45.60911920",
-                    Longitude = "13.93791480",
+                    StateCode = "",
+                    Latitude = "45.56233180",
+                    Longitude = "14.01256630",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -817,9 +820,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 53,
                     Name = "Idrija",
-                    StateCode = "036",
-                    Latitude = "46.00409390",
-                    Longitude = "13.97754930",
+                    StateCode = "",
+                    Latitude = "46.00239830",
+                    Longitude = "14.02730140",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -832,7 +835,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 54,
                     Name = "Ig",
-                    StateCode = "037",
+                    StateCode = "",
                     Latitude = "45.95888680",
                     Longitude = "14.52705280",
                     Type = "municipality",
@@ -846,9 +849,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 55,
                     Name = "Ilirska Bistrica",
-                    StateCode = "038",
-                    Latitude = "45.57913230",
-                    Longitude = "14.28097290",
+                    StateCode = "",
+                    Latitude = "45.56366180",
+                    Longitude = "14.24533180",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -860,7 +863,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 56,
                     Name = "Ivančna Gorica",
-                    StateCode = "039",
+                    StateCode = "",
                     Latitude = "45.93958410",
                     Longitude = "14.80476260",
                     Type = "municipality",
@@ -875,9 +878,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 57,
                     Name = "Izola",
-                    StateCode = "040",
-                    Latitude = "45.53135570",
-                    Longitude = "13.66646490",
+                    StateCode = "",
+                    Latitude = "45.53989360",
+                    Longitude = "13.65939000",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -890,7 +893,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 58,
                     Name = "Jesenice",
-                    StateCode = "041",
+                    StateCode = "",
                     Latitude = "46.43670470",
                     Longitude = "14.05260570",
                     Type = "municipality",
@@ -907,7 +910,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 59,
                     Name = "Jezersko",
-                    StateCode = "163",
+                    StateCode = "",
                     Latitude = "46.39427940",
                     Longitude = "14.49855590",
                     Type = "municipality",
@@ -921,9 +924,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 60,
                     Name = "Juršinci",
-                    StateCode = "042",
-                    Latitude = "46.48986510",
-                    Longitude = "15.98092300",
+                    StateCode = "",
+                    Latitude = "46.48593020",
+                    Longitude = "15.96819260",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -935,7 +938,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 61,
                     Name = "Kamnik",
-                    StateCode = "043",
+                    StateCode = "",
                     Latitude = "46.22216660",
                     Longitude = "14.60707270",
                     Type = "municipality",
@@ -951,9 +954,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 62,
                     Name = "Kanal ob Soči",
-                    StateCode = "044",
-                    Latitude = "46.06735300",
-                    Longitude = "13.62033500",
+                    StateCode = "",
+                    Latitude = "46.08586870",
+                    Longitude = "13.63392980",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -966,9 +969,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 63,
                     Name = "Kidričevo",
-                    StateCode = "045",
-                    Latitude = "46.39575720",
-                    Longitude = "15.79259060",
+                    StateCode = "",
+                    Latitude = "46.40439480",
+                    Longitude = "15.79653290",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -980,7 +983,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 64,
                     Name = "Kobarid",
-                    StateCode = "046",
+                    StateCode = "",
                     Latitude = "46.24569710",
                     Longitude = "13.57869490",
                     Type = "municipality",
@@ -994,7 +997,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 65,
                     Name = "Kobilje",
-                    StateCode = "047",
+                    StateCode = "",
                     Latitude = "46.68518000",
                     Longitude = "16.39367190",
                     Type = "municipality",
@@ -1008,7 +1011,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 66,
                     Name = "Kočevje",
-                    StateCode = "048",
+                    StateCode = "",
                     Latitude = "45.64280000",
                     Longitude = "14.86158380",
                     Type = "municipality",
@@ -1022,7 +1025,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 67,
                     Name = "Komen",
-                    StateCode = "049",
+                    StateCode = "",
                     Latitude = "45.81752350",
                     Longitude = "13.74827110",
                     Type = "municipality",
@@ -1036,7 +1039,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 68,
                     Name = "Komenda",
-                    StateCode = "164",
+                    StateCode = "",
                     Latitude = "46.20648800",
                     Longitude = "14.53824990",
                     Type = "municipality",
@@ -1051,7 +1054,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 69,
                     Name = "Koper",
-                    StateCode = "050",
+                    StateCode = "",
                     Latitude = "45.54805900",
                     Longitude = "13.73018770",
                     Type = "urban municipality",
@@ -1071,9 +1074,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 70,
                     Name = "Kostanjevica na Krki",
-                    StateCode = "197",
-                    Latitude = "45.83166380",
-                    Longitude = "15.44119060",
+                    StateCode = "",
+                    Latitude = "45.84566740",
+                    Longitude = "15.42022870",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1084,9 +1087,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 71,
                     Name = "Kostel",
-                    StateCode = "165",
-                    Latitude = "45.49282550",
-                    Longitude = "14.87082350",
+                    StateCode = "",
+                    Latitude = "45.50813620",
+                    Longitude = "14.91048710",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1098,7 +1101,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 72,
                     Name = "Kozje",
-                    StateCode = "051",
+                    StateCode = "",
                     Latitude = "46.07332110",
                     Longitude = "15.55967190",
                     Type = "municipality",
@@ -1112,9 +1115,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 73,
                     Name = "Kranj",
-                    StateCode = "052",
-                    Latitude = "46.25850210",
-                    Longitude = "14.35435690",
+                    StateCode = "",
+                    Latitude = "46.24329130",
+                    Longitude = "14.35493530",
                     Type = "urban municipality",
                     Cities = new()
                     {
@@ -1131,7 +1134,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 74,
                     Name = "Kranjska Gora",
-                    StateCode = "053",
+                    StateCode = "",
                     Latitude = "46.48452930",
                     Longitude = "13.78571450",
                     Type = "municipality",
@@ -1146,7 +1149,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 75,
                     Name = "Križevci",
-                    StateCode = "166",
+                    StateCode = "",
                     Latitude = "46.57018210",
                     Longitude = "16.10926530",
                     Type = "municipality",
@@ -1160,7 +1163,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 76,
                     Name = "Krško",
-                    StateCode = "054",
+                    StateCode = "",
                     Latitude = "45.95896090",
                     Longitude = "15.49235550",
                     Type = "urban municipality",
@@ -1176,7 +1179,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 77,
                     Name = "Kungota",
-                    StateCode = "055",
+                    StateCode = "",
                     Latitude = "46.64187930",
                     Longitude = "15.60362880",
                     Type = "municipality",
@@ -1190,7 +1193,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 78,
                     Name = "Kuzma",
-                    StateCode = "056",
+                    StateCode = "",
                     Latitude = "46.83510380",
                     Longitude = "16.08071000",
                     Type = "municipality",
@@ -1204,7 +1207,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 79,
                     Name = "Laško",
-                    StateCode = "057",
+                    StateCode = "",
                     Latitude = "46.15422360",
                     Longitude = "15.23614910",
                     Type = "municipality",
@@ -1218,7 +1221,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 80,
                     Name = "Lenart",
-                    StateCode = "058",
+                    StateCode = "",
                     Latitude = "46.58344240",
                     Longitude = "15.82621250",
                     Type = "municipality",
@@ -1232,9 +1235,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 81,
                     Name = "Lendava",
-                    StateCode = "059",
-                    Latitude = "46.55134830",
-                    Longitude = "16.44198390",
+                    StateCode = "",
+                    Latitude = "46.56396390",
+                    Longitude = "16.45264680",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1246,7 +1249,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 82,
                     Name = "Litija",
-                    StateCode = "060",
+                    StateCode = "",
                     Latitude = "46.05732260",
                     Longitude = "14.83096360",
                     Type = "municipality",
@@ -1260,23 +1263,23 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 83,
                     Name = "Ljubljana",
-                    StateCode = "061",
+                    StateCode = "",
                     Latitude = "46.05694650",
                     Longitude = "14.50575150",
                     Type = "urban municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Dravlje District", Latitude = "46.07290000", Longitude = "14.44741000" },
-                        new() { Id = 2, Name = "Jarše District", Latitude = "46.07345000", Longitude = "14.55431000" },
+                        new() { Id = 1, Name = "Dravlje", Latitude = "46.07290000", Longitude = "14.44741000" },
+                        new() { Id = 2, Name = "Jarše", Latitude = "46.07345000", Longitude = "14.55431000" },
                         new() { Id = 3, Name = "Ljubljana", Latitude = "46.05108000", Longitude = "14.50513000" },
                         new() { Id = 4, Name = "Opčina Ljubljana-Bežigrad", Latitude = "46.08333000", Longitude = "14.53333000" },
                         new() { Id = 5, Name = "Opština Ljubljana-Center", Latitude = "46.05000000", Longitude = "14.53333000" },
                         new() { Id = 6, Name = "Opština Ljubljana-Moste-Polje", Latitude = "46.06667000", Longitude = "14.61667000" },
-                        new() { Id = 7, Name = "Rožnik District", Latitude = "46.05999000", Longitude = "14.46779000" },
-                        new() { Id = 8, Name = "Šentvid District", Latitude = "46.10559000", Longitude = "14.43329000" },
-                        new() { Id = 9, Name = "Sostro District", Latitude = "46.04341000", Longitude = "14.67293000" },
-                        new() { Id = 10, Name = "Trnovo District", Latitude = "46.02412000", Longitude = "14.48891000" },
-                        new() { Id = 11, Name = "Vič District", Latitude = "46.00779000", Longitude = "14.46968000" }
+                        new() { Id = 7, Name = "Rožnik", Latitude = "46.05999000", Longitude = "14.46779000" },
+                        new() { Id = 8, Name = "Šentvid", Latitude = "46.10559000", Longitude = "14.43329000" },
+                        new() { Id = 9, Name = "Sostro", Latitude = "46.04341000", Longitude = "14.67293000" },
+                        new() { Id = 10, Name = "Trnovo", Latitude = "46.02412000", Longitude = "14.48891000" },
+                        new() { Id = 11, Name = "Vič", Latitude = "46.00779000", Longitude = "14.46968000" }
                     }
                 },
 
@@ -1284,9 +1287,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 84,
                     Name = "Ljubno",
-                    StateCode = "062",
-                    Latitude = "46.34431250",
-                    Longitude = "14.83354920",
+                    StateCode = "",
+                    Latitude = "46.36644100",
+                    Longitude = "14.83976510",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1298,7 +1301,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 85,
                     Name = "Ljutomer",
-                    StateCode = "063",
+                    StateCode = "",
                     Latitude = "46.51908480",
                     Longitude = "16.18932160",
                     Type = "municipality",
@@ -1312,7 +1315,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 86,
                     Name = "Log–Dragomer",
-                    StateCode = "208",
+                    StateCode = "",
                     Latitude = "46.01787470",
                     Longitude = "14.36877670",
                     Type = "municipality",
@@ -1325,7 +1328,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 87,
                     Name = "Logatec",
-                    StateCode = "064",
+                    StateCode = "",
                     Latitude = "45.91761100",
                     Longitude = "14.23514510",
                     Type = "municipality",
@@ -1339,9 +1342,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 88,
                     Name = "Loška Dolina",
-                    StateCode = "065",
-                    Latitude = "45.64779080",
-                    Longitude = "14.49731470",
+                    StateCode = "",
+                    Latitude = "45.66451720",
+                    Longitude = "14.49970810",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1353,9 +1356,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 89,
                     Name = "Loški Potok",
-                    StateCode = "066",
-                    Latitude = "45.69096370",
-                    Longitude = "14.59859700",
+                    StateCode = "",
+                    Latitude = "45.66252460",
+                    Longitude = "14.66996540",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1367,7 +1370,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 90,
                     Name = "Lovrenc na Pohorju",
-                    StateCode = "167",
+                    StateCode = "",
                     Latitude = "46.54196380",
                     Longitude = "15.40004430",
                     Type = "municipality",
@@ -1381,7 +1384,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 91,
                     Name = "Luče",
-                    StateCode = "067",
+                    StateCode = "",
                     Latitude = "46.35449250",
                     Longitude = "14.74715040",
                     Type = "municipality",
@@ -1395,7 +1398,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 92,
                     Name = "Lukovica",
-                    StateCode = "068",
+                    StateCode = "",
                     Latitude = "46.16962930",
                     Longitude = "14.69072590",
                     Type = "municipality",
@@ -1409,7 +1412,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 93,
                     Name = "Majšperk",
-                    StateCode = "069",
+                    StateCode = "",
                     Latitude = "46.35030190",
                     Longitude = "15.73405950",
                     Type = "municipality",
@@ -1423,7 +1426,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 94,
                     Name = "Makole",
-                    StateCode = "198",
+                    StateCode = "",
                     Latitude = "46.31686970",
                     Longitude = "15.66641260",
                     Type = "municipality",
@@ -1436,9 +1439,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 95,
                     Name = "Maribor",
-                    StateCode = "070",
-                    Latitude = "46.55064960",
-                    Longitude = "15.62054390",
+                    StateCode = "",
+                    Latitude = "46.55764390",
+                    Longitude = "15.64558540",
                     Type = "urban municipality",
                     Cities = new()
                     {
@@ -1455,9 +1458,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 96,
                     Name = "Markovci",
-                    StateCode = "168",
-                    Latitude = "46.38793090",
-                    Longitude = "15.95860140",
+                    StateCode = "",
+                    Latitude = "46.39477080",
+                    Longitude = "15.92984960",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1469,7 +1472,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 97,
                     Name = "Medvode",
-                    StateCode = "071",
+                    StateCode = "",
                     Latitude = "46.14190800",
                     Longitude = "14.40325960",
                     Type = "municipality",
@@ -1485,7 +1488,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 98,
                     Name = "Mengeš",
-                    StateCode = "072",
+                    StateCode = "",
                     Latitude = "46.16591220",
                     Longitude = "14.57196940",
                     Type = "municipality",
@@ -1500,7 +1503,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 99,
                     Name = "Metlika",
-                    StateCode = "073",
+                    StateCode = "",
                     Latitude = "45.64807150",
                     Longitude = "15.31778380",
                     Type = "municipality",
@@ -1514,7 +1517,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 100,
                     Name = "Mežica",
-                    StateCode = "074",
+                    StateCode = "",
                     Latitude = "46.52150270",
                     Longitude = "14.85213400",
                     Type = "municipality",
@@ -1528,7 +1531,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 101,
                     Name = "Miklavž na Dravskem Polju",
-                    StateCode = "169",
+                    StateCode = "",
                     Latitude = "46.50826280",
                     Longitude = "15.69520650",
                     Type = "municipality",
@@ -1542,9 +1545,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 102,
                     Name = "Miren–Kostanjevica",
-                    StateCode = "075",
-                    Latitude = "45.84360290",
-                    Longitude = "13.62766470",
+                    StateCode = "",
+                    Latitude = "45.85981410",
+                    Longitude = "13.64985400",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1557,7 +1560,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 103,
                     Name = "Mirna",
-                    StateCode = "212",
+                    StateCode = "",
                     Latitude = "45.95156470",
                     Longitude = "15.06209770",
                     Type = "municipality",
@@ -1570,9 +1573,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 104,
                     Name = "Mirna Peč",
-                    StateCode = "170",
-                    Latitude = "45.84815740",
-                    Longitude = "15.08794500",
+                    StateCode = "",
+                    Latitude = "45.86027160",
+                    Longitude = "15.08189960",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1584,7 +1587,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 105,
                     Name = "Mislinja",
-                    StateCode = "076",
+                    StateCode = "",
                     Latitude = "46.44294030",
                     Longitude = "15.19876780",
                     Type = "municipality",
@@ -1598,9 +1601,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 106,
                     Name = "Mokronog–Trebelno",
-                    StateCode = "199",
-                    Latitude = "45.90885290",
-                    Longitude = "15.15967360",
+                    StateCode = "",
+                    Latitude = "45.92367480",
+                    Longitude = "15.16793930",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1611,7 +1614,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 107,
                     Name = "Moravče",
-                    StateCode = "077",
+                    StateCode = "",
                     Latitude = "46.13627810",
                     Longitude = "14.74600100",
                     Type = "municipality",
@@ -1625,7 +1628,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 108,
                     Name = "Moravske Toplice",
-                    StateCode = "078",
+                    StateCode = "",
                     Latitude = "46.68569320",
                     Longitude = "16.22245820",
                     Type = "municipality",
@@ -1639,7 +1642,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 109,
                     Name = "Mozirje",
-                    StateCode = "079",
+                    StateCode = "",
                     Latitude = "46.33943500",
                     Longitude = "14.96024130",
                     Type = "municipality",
@@ -1653,9 +1656,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 110,
                     Name = "Murska Sobota",
-                    StateCode = "080",
-                    Latitude = "46.64321470",
-                    Longitude = "16.15157540",
+                    StateCode = "",
+                    Latitude = "46.66246440",
+                    Longitude = "16.16552560",
                     Type = "urban municipality",
                     Cities = new()
                     {
@@ -1671,7 +1674,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 111,
                     Name = "Muta",
-                    StateCode = "081",
+                    StateCode = "",
                     Latitude = "46.60973660",
                     Longitude = "15.16299950",
                     Type = "municipality",
@@ -1685,7 +1688,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 112,
                     Name = "Naklo",
-                    StateCode = "082",
+                    StateCode = "",
                     Latitude = "46.27186630",
                     Longitude = "14.31569320",
                     Type = "municipality",
@@ -1699,9 +1702,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 113,
                     Name = "Nazarje",
-                    StateCode = "083",
-                    Latitude = "46.28217410",
-                    Longitude = "14.92256290",
+                    StateCode = "",
+                    Latitude = "46.32058650",
+                    Longitude = "14.94871210",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1713,7 +1716,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 114,
                     Name = "Nova Gorica",
-                    StateCode = "084",
+                    StateCode = "",
                     Latitude = "45.97627600",
                     Longitude = "13.73088810",
                     Type = "urban municipality",
@@ -1731,7 +1734,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 115,
                     Name = "Novo Mesto",
-                    StateCode = "085",
+                    StateCode = "",
                     Latitude = "45.80108240",
                     Longitude = "15.17100890",
                     Type = "urban municipality",
@@ -1745,7 +1748,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 116,
                     Name = "Odranci",
-                    StateCode = "086",
+                    StateCode = "",
                     Latitude = "46.59010170",
                     Longitude = "16.27881650",
                     Type = "municipality",
@@ -1759,7 +1762,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 117,
                     Name = "Oplotnica",
-                    StateCode = "171",
+                    StateCode = "",
                     Latitude = "46.38716300",
                     Longitude = "15.44581310",
                     Type = "municipality",
@@ -1773,9 +1776,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 118,
                     Name = "Ormož",
-                    StateCode = "087",
-                    Latitude = "46.43533330",
-                    Longitude = "16.15437400",
+                    StateCode = "",
+                    Latitude = "46.40723830",
+                    Longitude = "16.14892550",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1787,9 +1790,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 119,
                     Name = "Osilnica",
-                    StateCode = "088",
-                    Latitude = "45.54184670",
-                    Longitude = "14.71563030",
+                    StateCode = "",
+                    Latitude = "45.52924180",
+                    Longitude = "14.69886720",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1801,9 +1804,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 120,
                     Name = "Pesnica",
-                    StateCode = "089",
-                    Latitude = "46.60887550",
-                    Longitude = "15.67570510",
+                    StateCode = "",
+                    Latitude = "46.61820530",
+                    Longitude = "15.70615100",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1815,7 +1818,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 121,
                     Name = "Piran",
-                    StateCode = "090",
+                    StateCode = "",
                     Latitude = "45.52888560",
                     Longitude = "13.56807350",
                     Type = "municipality",
@@ -1832,9 +1835,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 122,
                     Name = "Pivka",
-                    StateCode = "091",
-                    Latitude = "45.67892960",
-                    Longitude = "14.25426890",
+                    StateCode = "",
+                    Latitude = "45.68250640",
+                    Longitude = "14.19535180",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1846,9 +1849,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 123,
                     Name = "Podčetrtek",
-                    StateCode = "092",
-                    Latitude = "46.17395420",
-                    Longitude = "15.60138160",
+                    StateCode = "",
+                    Latitude = "46.15180820",
+                    Longitude = "15.59749600",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1860,7 +1863,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 124,
                     Name = "Podlehnik",
-                    StateCode = "172",
+                    StateCode = "",
                     Latitude = "46.33107820",
                     Longitude = "15.87858360",
                     Type = "municipality",
@@ -1874,9 +1877,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 125,
                     Name = "Podvelka",
-                    StateCode = "093",
-                    Latitude = "46.62219520",
-                    Longitude = "15.38899220",
+                    StateCode = "",
+                    Latitude = "46.58898580",
+                    Longitude = "15.32806750",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1888,7 +1891,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 126,
                     Name = "Poljčane",
-                    StateCode = "200",
+                    StateCode = "",
                     Latitude = "46.31398530",
                     Longitude = "15.57847910",
                     Type = "municipality",
@@ -1901,7 +1904,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 127,
                     Name = "Polzela",
-                    StateCode = "173",
+                    StateCode = "",
                     Latitude = "46.28089700",
                     Longitude = "15.07373210",
                     Type = "municipality",
@@ -1915,7 +1918,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 128,
                     Name = "Postojna",
-                    StateCode = "094",
+                    StateCode = "",
                     Latitude = "45.77493900",
                     Longitude = "14.21342630",
                     Type = "municipality",
@@ -1929,7 +1932,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 129,
                     Name = "Prebold",
-                    StateCode = "174",
+                    StateCode = "",
                     Latitude = "46.23591360",
                     Longitude = "15.09369120",
                     Type = "municipality",
@@ -1943,7 +1946,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 130,
                     Name = "Preddvor",
-                    StateCode = "095",
+                    StateCode = "",
                     Latitude = "46.30171390",
                     Longitude = "14.42181650",
                     Type = "municipality",
@@ -1957,9 +1960,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 131,
                     Name = "Prevalje",
-                    StateCode = "175",
-                    Latitude = "46.56211460",
-                    Longitude = "14.88478610",
+                    StateCode = "",
+                    Latitude = "46.54606170",
+                    Longitude = "14.91697960",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1971,7 +1974,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 132,
                     Name = "Ptuj",
-                    StateCode = "096",
+                    StateCode = "",
                     Latitude = "46.41995350",
                     Longitude = "15.86968840",
                     Type = "urban municipality",
@@ -1985,9 +1988,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 133,
                     Name = "Puconci",
-                    StateCode = "097",
-                    Latitude = "46.72004180",
-                    Longitude = "16.09977920",
+                    StateCode = "",
+                    Latitude = "46.70433480",
+                    Longitude = "16.15508520",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1999,7 +2002,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 134,
                     Name = "Rače–Fram",
-                    StateCode = "098",
+                    StateCode = "",
                     Latitude = "46.45420830",
                     Longitude = "15.63294670",
                     Type = "municipality",
@@ -2015,7 +2018,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 135,
                     Name = "Radeče",
-                    StateCode = "099",
+                    StateCode = "",
                     Latitude = "46.06669540",
                     Longitude = "15.18204380",
                     Type = "municipality",
@@ -2029,9 +2032,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 136,
                     Name = "Radenci",
-                    StateCode = "100",
-                    Latitude = "46.62311210",
-                    Longitude = "16.05069030",
+                    StateCode = "",
+                    Latitude = "46.64090280",
+                    Longitude = "16.03998480",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2043,7 +2046,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 137,
                     Name = "Radlje ob Dravi",
-                    StateCode = "101",
+                    StateCode = "",
                     Latitude = "46.61357320",
                     Longitude = "15.23544380",
                     Type = "municipality",
@@ -2057,9 +2060,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 138,
                     Name = "Radovljica",
-                    StateCode = "102",
-                    Latitude = "46.33558270",
-                    Longitude = "14.20945340",
+                    StateCode = "",
+                    Latitude = "46.34350900",
+                    Longitude = "14.17202270",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2072,7 +2075,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 139,
                     Name = "Ravne na Koroškem",
-                    StateCode = "103",
+                    StateCode = "",
                     Latitude = "46.55211940",
                     Longitude = "14.95990840",
                     Type = "municipality",
@@ -2087,7 +2090,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 140,
                     Name = "Razkrižje",
-                    StateCode = "176",
+                    StateCode = "",
                     Latitude = "46.52263390",
                     Longitude = "16.26686380",
                     Type = "municipality",
@@ -2101,7 +2104,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 141,
                     Name = "Rečica ob Savinji",
-                    StateCode = "209",
+                    StateCode = "",
                     Latitude = "46.32337900",
                     Longitude = "14.92236700",
                     Type = "municipality",
@@ -2114,7 +2117,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 142,
                     Name = "Renče–Vogrsko",
-                    StateCode = "201",
+                    StateCode = "",
                     Latitude = "45.89546170",
                     Longitude = "13.67856730",
                     Type = "municipality",
@@ -2129,7 +2132,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 143,
                     Name = "Ribnica",
-                    StateCode = "104",
+                    StateCode = "",
                     Latitude = "45.74003030",
                     Longitude = "14.72657820",
                     Type = "municipality",
@@ -2143,7 +2146,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 144,
                     Name = "Ribnica na Pohorju",
-                    StateCode = "177",
+                    StateCode = "",
                     Latitude = "46.53561450",
                     Longitude = "15.26745380",
                     Type = "municipality",
@@ -2157,9 +2160,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 145,
                     Name = "Rogaška Slatina",
-                    StateCode = "106",
-                    Latitude = "46.24539730",
-                    Longitude = "15.62650140",
+                    StateCode = "",
+                    Latitude = "46.23298980",
+                    Longitude = "15.63843690",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2171,7 +2174,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 146,
                     Name = "Rogašovci",
-                    StateCode = "105",
+                    StateCode = "",
                     Latitude = "46.80557850",
                     Longitude = "16.03452370",
                     Type = "municipality",
@@ -2185,7 +2188,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 147,
                     Name = "Rogatec",
-                    StateCode = "107",
+                    StateCode = "",
                     Latitude = "46.22866260",
                     Longitude = "15.69913380",
                     Type = "municipality",
@@ -2199,9 +2202,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 148,
                     Name = "Ruše",
-                    StateCode = "108",
-                    Latitude = "46.52062650",
-                    Longitude = "15.48178690",
+                    StateCode = "",
+                    Latitude = "46.53866880",
+                    Longitude = "15.51394150",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2214,9 +2217,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 149,
                     Name = "Šalovci",
-                    StateCode = "033",
-                    Latitude = "46.85335680",
-                    Longitude = "16.25917910",
+                    StateCode = "",
+                    Latitude = "46.82442710",
+                    Longitude = "16.28576600",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2228,7 +2231,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 150,
                     Name = "Selnica ob Dravi",
-                    StateCode = "178",
+                    StateCode = "",
                     Latitude = "46.55139180",
                     Longitude = "15.49294100",
                     Type = "municipality",
@@ -2242,7 +2245,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 151,
                     Name = "Semič",
-                    StateCode = "109",
+                    StateCode = "",
                     Latitude = "45.65205340",
                     Longitude = "15.18207010",
                     Type = "municipality",
@@ -2256,9 +2259,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 152,
                     Name = "Šempeter–Vrtojba",
-                    StateCode = "183",
-                    Latitude = "45.92900950",
-                    Longitude = "13.64155940",
+                    StateCode = "",
+                    Latitude = "45.91780930",
+                    Longitude = "13.65170040",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2272,7 +2275,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 153,
                     Name = "Šenčur",
-                    StateCode = "117",
+                    StateCode = "",
                     Latitude = "46.24336990",
                     Longitude = "14.41922230",
                     Type = "municipality",
@@ -2287,9 +2290,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 154,
                     Name = "Šentilj",
-                    StateCode = "118",
-                    Latitude = "46.68628390",
-                    Longitude = "15.71035670",
+                    StateCode = "",
+                    Latitude = "46.66960340",
+                    Longitude = "15.76883060",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2302,7 +2305,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 155,
                     Name = "Šentjernej",
-                    StateCode = "119",
+                    StateCode = "",
                     Latitude = "45.84341300",
                     Longitude = "15.33783120",
                     Type = "municipality",
@@ -2316,9 +2319,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 156,
                     Name = "Šentjur",
-                    StateCode = "120",
-                    Latitude = "46.26543390",
-                    Longitude = "15.40800000",
+                    StateCode = "",
+                    Latitude = "46.21683750",
+                    Longitude = "15.39379050",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2330,9 +2333,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 157,
                     Name = "Šentrupert",
-                    StateCode = "211",
-                    Latitude = "45.98731420",
-                    Longitude = "15.08297830",
+                    StateCode = "",
+                    Latitude = "45.97712890",
+                    Longitude = "15.09140510",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2344,7 +2347,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 158,
                     Name = "Sevnica",
-                    StateCode = "110",
+                    StateCode = "",
                     Latitude = "46.00703170",
                     Longitude = "15.30456790",
                     Type = "municipality",
@@ -2358,9 +2361,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 159,
                     Name = "Sežana",
-                    StateCode = "111",
-                    Latitude = "45.72751090",
-                    Longitude = "13.86619310",
+                    StateCode = "",
+                    Latitude = "45.70917990",
+                    Longitude = "13.87309890",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2372,9 +2375,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 160,
                     Name = "Škocjan",
-                    StateCode = "121",
-                    Latitude = "45.91754540",
-                    Longitude = "15.31017360",
+                    StateCode = "",
+                    Latitude = "45.90778200",
+                    Longitude = "15.29061850",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2386,9 +2389,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 161,
                     Name = "Škofja Loka",
-                    StateCode = "122",
-                    Latitude = "46.14098440",
-                    Longitude = "14.28118730",
+                    StateCode = "",
+                    Latitude = "46.16527400",
+                    Longitude = "14.30674740",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2401,7 +2404,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 162,
                     Name = "Škofljica",
-                    StateCode = "123",
+                    StateCode = "",
                     Latitude = "45.98409620",
                     Longitude = "14.57466260",
                     Type = "municipality",
@@ -2416,9 +2419,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 163,
                     Name = "Slovenj Gradec",
-                    StateCode = "112",
-                    Latitude = "46.48777180",
-                    Longitude = "15.07294780",
+                    StateCode = "",
+                    Latitude = "46.50914400",
+                    Longitude = "15.07906770",
                     Type = "urban municipality",
                     Cities = new()
                     {
@@ -2433,7 +2436,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 164,
                     Name = "Slovenska Bistrica",
-                    StateCode = "113",
+                    StateCode = "",
                     Latitude = "46.39198130",
                     Longitude = "15.57278690",
                     Type = "municipality",
@@ -2449,7 +2452,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 165,
                     Name = "Slovenske Konjice",
-                    StateCode = "114",
+                    StateCode = "",
                     Latitude = "46.33691910",
                     Longitude = "15.42147080",
                     Type = "municipality",
@@ -2463,7 +2466,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 166,
                     Name = "Šmarje pri Jelšah",
-                    StateCode = "124",
+                    StateCode = "",
                     Latitude = "46.22870250",
                     Longitude = "15.51903530",
                     Type = "municipality",
@@ -2477,7 +2480,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 167,
                     Name = "Šmarješke Toplice",
-                    StateCode = "206",
+                    StateCode = "",
                     Latitude = "45.86803770",
                     Longitude = "15.23474220",
                     Type = "municipality",
@@ -2491,7 +2494,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 168,
                     Name = "Šmartno ob Paki",
-                    StateCode = "125",
+                    StateCode = "",
                     Latitude = "46.32903720",
                     Longitude = "15.03339370",
                     Type = "municipality",
@@ -2505,7 +2508,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 169,
                     Name = "Šmartno pri Litiji",
-                    StateCode = "194",
+                    StateCode = "",
                     Latitude = "46.04549710",
                     Longitude = "14.84101330",
                     Type = "municipality",
@@ -2519,7 +2522,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 170,
                     Name = "Sodražica",
-                    StateCode = "179",
+                    StateCode = "",
                     Latitude = "45.76165650",
                     Longitude = "14.63528530",
                     Type = "municipality",
@@ -2533,9 +2536,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 171,
                     Name = "Solčava",
-                    StateCode = "180",
-                    Latitude = "46.40235260",
-                    Longitude = "14.68023040",
+                    StateCode = "",
+                    Latitude = "46.41955690",
+                    Longitude = "14.69202420",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2547,7 +2550,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 172,
                     Name = "Šoštanj",
-                    StateCode = "126",
+                    StateCode = "",
                     Latitude = "46.37828360",
                     Longitude = "15.04613780",
                     Type = "municipality",
@@ -2563,7 +2566,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 173,
                     Name = "Središče ob Dravi",
-                    StateCode = "202",
+                    StateCode = "",
                     Latitude = "46.39592820",
                     Longitude = "16.27049150",
                     Type = "municipality",
@@ -2577,7 +2580,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 174,
                     Name = "Starše",
-                    StateCode = "115",
+                    StateCode = "",
                     Latitude = "46.46743310",
                     Longitude = "15.76405460",
                     Type = "municipality",
@@ -2591,7 +2594,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 175,
                     Name = "Štore",
-                    StateCode = "127",
+                    StateCode = "",
                     Latitude = "46.22225140",
                     Longitude = "15.31261160",
                     Type = "municipality",
@@ -2605,9 +2608,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 176,
                     Name = "Straža",
-                    StateCode = "203",
-                    Latitude = "45.77684280",
-                    Longitude = "15.09486940",
+                    StateCode = "",
+                    Latitude = "45.78368550",
+                    Longitude = "15.07303990",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2619,7 +2622,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 177,
                     Name = "Sveta Ana",
-                    StateCode = "181",
+                    StateCode = "",
                     Latitude = "46.65000000",
                     Longitude = "15.84527800",
                     Type = "municipality",
@@ -2633,7 +2636,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 178,
                     Name = "Sveta Trojica v Slovenskih Goricah",
-                    StateCode = "204",
+                    StateCode = "",
                     Latitude = "46.56808090",
                     Longitude = "15.88230640",
                     Type = "municipality",
@@ -2647,7 +2650,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 179,
                     Name = "Sveti Andraž v Slovenskih Goricah",
-                    StateCode = "182",
+                    StateCode = "",
                     Latitude = "46.51897470",
                     Longitude = "15.94982620",
                     Type = "municipality",
@@ -2661,7 +2664,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 180,
                     Name = "Sveti Jurij ob Ščavnici",
-                    StateCode = "116",
+                    StateCode = "",
                     Latitude = "46.56874520",
                     Longitude = "16.02225280",
                     Type = "municipality",
@@ -2674,9 +2677,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 181,
                     Name = "Sveti Jurij v Slovenskih Goricah",
-                    StateCode = "210",
-                    Latitude = "46.61707910",
-                    Longitude = "15.78046770",
+                    StateCode = "",
+                    Latitude = "46.61333550",
+                    Longitude = "15.79741410",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2688,7 +2691,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 182,
                     Name = "Sveti Tomaž",
-                    StateCode = "205",
+                    StateCode = "",
                     Latitude = "46.48352830",
                     Longitude = "16.07944200",
                     Type = "municipality",
@@ -2702,9 +2705,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 183,
                     Name = "Tabor",
-                    StateCode = "184",
-                    Latitude = "46.21079210",
-                    Longitude = "15.01742490",
+                    StateCode = "",
+                    Latitude = "46.23505400",
+                    Longitude = "15.01530810",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2716,7 +2719,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 184,
                     Name = "Tišina",
-                    StateCode = "010",
+                    StateCode = "",
                     Latitude = "46.65418840",
                     Longitude = "16.07547810",
                     Type = "municipality",
@@ -2730,7 +2733,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 185,
                     Name = "Tolmin",
-                    StateCode = "128",
+                    StateCode = "",
                     Latitude = "46.18571880",
                     Longitude = "13.73198380",
                     Type = "municipality",
@@ -2744,7 +2747,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 186,
                     Name = "Trbovlje",
-                    StateCode = "129",
+                    StateCode = "",
                     Latitude = "46.15035630",
                     Longitude = "15.04531370",
                     Type = "municipality",
@@ -2758,7 +2761,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 187,
                     Name = "Trebnje",
-                    StateCode = "130",
+                    StateCode = "",
                     Latitude = "45.90801630",
                     Longitude = "15.01319050",
                     Type = "municipality",
@@ -2772,9 +2775,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 188,
                     Name = "Trnovska Vas",
-                    StateCode = "185",
-                    Latitude = "46.52940350",
-                    Longitude = "15.88531180",
+                    StateCode = "",
+                    Latitude = "46.51968330",
+                    Longitude = "15.88678840",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2786,7 +2789,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 189,
                     Name = "Tržič",
-                    StateCode = "131",
+                    StateCode = "",
                     Latitude = "46.35935140",
                     Longitude = "14.30066230",
                     Type = "municipality",
@@ -2801,13 +2804,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 190,
                     Name = "Trzin",
-                    StateCode = "186",
+                    StateCode = "",
                     Latitude = "46.12982410",
                     Longitude = "14.55776370",
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Črnuče District", Latitude = "46.11506000", Longitude = "14.55371000" },
+                        new() { Id = 1, Name = "Črnuče", Latitude = "46.11506000", Longitude = "14.55371000" },
                         new() { Id = 2, Name = "Trzin", Latitude = "46.13333000", Longitude = "14.56667000" }
                     }
                 },
@@ -2816,9 +2819,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 191,
                     Name = "Turnišče",
-                    StateCode = "132",
-                    Latitude = "46.61375040",
-                    Longitude = "16.32021000",
+                    StateCode = "",
+                    Latitude = "46.62488850",
+                    Longitude = "16.31651870",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2829,8 +2832,22 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 192,
+                    Name = "Velenje",
+                    StateCode = "",
+                    Latitude = "46.36666667",
+                    Longitude = "15.13333333",
+                    Type = "urban municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Velenje", Latitude = "46.36250000", Longitude = "15.11444444" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 193,
                     Name = "Velika Polana",
-                    StateCode = "187",
+                    StateCode = "",
                     Latitude = "46.57317150",
                     Longitude = "16.34441260",
                     Type = "municipality",
@@ -2842,9 +2859,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 193,
+                    Id = 194,
                     Name = "Velike Lašče",
-                    StateCode = "134",
+                    StateCode = "",
                     Latitude = "45.83365910",
                     Longitude = "14.63623630",
                     Type = "municipality",
@@ -2856,9 +2873,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 194,
+                    Id = 195,
                     Name = "Veržej",
-                    StateCode = "188",
+                    StateCode = "",
                     Latitude = "46.58411350",
                     Longitude = "16.16208000",
                     Type = "municipality",
@@ -2870,11 +2887,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 195,
+                    Id = 196,
                     Name = "Videm",
-                    StateCode = "135",
-                    Latitude = "46.36383300",
-                    Longitude = "15.87812120",
+                    StateCode = "",
+                    Latitude = "46.34295020",
+                    Longitude = "15.93223790",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2884,9 +2901,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 196,
+                    Id = 197,
                     Name = "Vipava",
-                    StateCode = "136",
+                    StateCode = "",
                     Latitude = "45.84126740",
                     Longitude = "13.96096130",
                     Type = "municipality",
@@ -2898,9 +2915,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 197,
+                    Id = 198,
                     Name = "Vitanje",
-                    StateCode = "137",
+                    StateCode = "",
                     Latitude = "46.38153230",
                     Longitude = "15.29506870",
                     Type = "municipality",
@@ -2912,9 +2929,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 198,
+                    Id = 199,
                     Name = "Vodice",
-                    StateCode = "138",
+                    StateCode = "",
                     Latitude = "46.18966430",
                     Longitude = "14.49385390",
                     Type = "municipality",
@@ -2926,9 +2943,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 199,
+                    Id = 200,
                     Name = "Vojnik",
-                    StateCode = "139",
+                    StateCode = "",
                     Latitude = "46.29205810",
                     Longitude = "15.30205800",
                     Type = "municipality",
@@ -2940,9 +2957,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 200,
+                    Id = 201,
                     Name = "Vransko",
-                    StateCode = "189",
+                    StateCode = "",
                     Latitude = "46.23900600",
                     Longitude = "14.95272490",
                     Type = "municipality",
@@ -2954,11 +2971,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 201,
+                    Id = 202,
                     Name = "Vrhnika",
-                    StateCode = "140",
-                    Latitude = "45.95027190",
-                    Longitude = "14.32764220",
+                    StateCode = "",
+                    Latitude = "45.96636070",
+                    Longitude = "14.29807720",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -2969,9 +2986,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 202,
+                    Id = 203,
                     Name = "Vuzenica",
-                    StateCode = "141",
+                    StateCode = "",
                     Latitude = "46.59808360",
                     Longitude = "15.16572370",
                     Type = "municipality",
@@ -2983,9 +3000,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 203,
+                    Id = 204,
                     Name = "Zagorje ob Savi",
-                    StateCode = "142",
+                    StateCode = "",
                     Latitude = "46.13452020",
                     Longitude = "14.99643840",
                     Type = "municipality",
@@ -2999,9 +3016,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 204,
+                    Id = 205,
                     Name = "Žalec",
-                    StateCode = "190",
+                    StateCode = "",
                     Latitude = "46.25197120",
                     Longitude = "15.16500720",
                     Type = "municipality",
@@ -3016,11 +3033,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 205,
+                    Id = 206,
                     Name = "Zavrč",
-                    StateCode = "143",
-                    Latitude = "46.35713000",
-                    Longitude = "16.04777470",
+                    StateCode = "",
+                    Latitude = "46.38602210",
+                    Longitude = "16.04598790",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -3030,9 +3047,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 206,
+                    Id = 207,
                     Name = "Železniki",
-                    StateCode = "146",
+                    StateCode = "",
                     Latitude = "46.22563770",
                     Longitude = "14.16936170",
                     Type = "municipality",
@@ -3044,9 +3061,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 207,
+                    Id = 208,
                     Name = "Žetale",
-                    StateCode = "191",
+                    StateCode = "",
                     Latitude = "46.27428330",
                     Longitude = "15.79133590",
                     Type = "municipality",
@@ -3058,9 +3075,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 208,
+                    Id = 209,
                     Name = "Žiri",
-                    StateCode = "147",
+                    StateCode = "",
                     Latitude = "46.04724990",
                     Longitude = "14.10984510",
                     Type = "municipality",
@@ -3072,11 +3089,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 209,
+                    Id = 210,
                     Name = "Žirovnica",
-                    StateCode = "192",
-                    Latitude = "46.39544030",
-                    Longitude = "14.15396320",
+                    StateCode = "",
+                    Latitude = "46.40460830",
+                    Longitude = "14.13532290",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -3086,11 +3103,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 210,
+                    Id = 211,
                     Name = "Zreče",
-                    StateCode = "144",
-                    Latitude = "46.41777860",
-                    Longitude = "15.37094310",
+                    StateCode = "",
+                    Latitude = "46.37163540",
+                    Longitude = "15.39001850",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -3100,11 +3117,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 211,
+                    Id = 212,
                     Name = "Žužemberk",
-                    StateCode = "193",
-                    Latitude = "45.82003500",
-                    Longitude = "14.95359190",
+                    StateCode = "",
+                    Latitude = "45.83160830",
+                    Longitude = "14.92954910",
                     Type = "municipality",
                     Cities = new()
                     {

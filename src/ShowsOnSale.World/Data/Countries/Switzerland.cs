@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Suis",
                 ["ko"] = "스위스",
                 ["pt-BR"] = "Suíça",
                 ["pt"] = "Suíça",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "İsviçre",
                 ["ru"] = "Швейцария",
                 ["uk"] = "Швейцарія",
-                ["pl"] = "Szwajcaria"
+                ["pl"] = "Szwajcaria",
+                ["hi"] = "स्विट्ज़रलैंड",
+                ["ar"] = "سويسرا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Aargau",
-                    StateCode = "AG",
-                    Latitude = "47.38766640",
-                    Longitude = "8.25542950",
+                    StateCode = "",
+                    Latitude = "47.41239600",
+                    Longitude = "8.19483210",
                     Type = "canton",
                     Cities = new()
                     {
@@ -193,9 +196,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Appenzell Ausserrhoden",
-                    StateCode = "AR",
-                    Latitude = "47.36648100",
-                    Longitude = "9.30009160",
+                    StateCode = "",
+                    Latitude = "47.39600760",
+                    Longitude = "9.37058390",
                     Type = "canton",
                     Cities = new()
                     {
@@ -221,9 +224,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Appenzell Innerrhoden",
-                    StateCode = "AI",
-                    Latitude = "47.31619250",
-                    Longitude = "9.43165730",
+                    StateCode = "",
+                    Latitude = "47.30072620",
+                    Longitude = "9.39915270",
                     Type = "canton",
                     Cities = new()
                     {
@@ -238,9 +241,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Basel-Land",
-                    StateCode = "BL",
-                    Latitude = "47.44181220",
-                    Longitude = "7.76440020",
+                    StateCode = "",
+                    Latitude = "47.50929380",
+                    Longitude = "7.65883330",
                     Type = "canton",
                     Cities = new()
                     {
@@ -297,9 +300,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Basel-Stadt",
-                    StateCode = "BS",
-                    Latitude = "47.56666700",
-                    Longitude = "7.60000000",
+                    StateCode = "",
+                    Latitude = "47.55790970",
+                    Longitude = "7.59277280",
                     Type = "canton",
                     Cities = new()
                     {
@@ -313,9 +316,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Bern",
-                    StateCode = "BE",
-                    Latitude = "46.79886210",
-                    Longitude = "7.70807010",
+                    StateCode = "",
+                    Latitude = "46.83823510",
+                    Longitude = "7.60045020",
                     Type = "canton",
                     Cities = new()
                     {
@@ -331,7 +334,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Bellmund", Latitude = "47.10852000", Longitude = "7.24608000" },
                         new() { Id = 11, Name = "Belp", Latitude = "46.89129000", Longitude = "7.49825000" },
                         new() { Id = 12, Name = "Bern", Latitude = "46.94809000", Longitude = "7.44744000" },
-                        new() { Id = 13, Name = "Bern-Mittelland District", Latitude = "46.92526000", Longitude = "7.49024000" },
+                        new() { Id = 13, Name = "Bern-Mittelland", Latitude = "46.92526000", Longitude = "7.49024000" },
                         new() { Id = 14, Name = "Bévilard", Latitude = "47.23711000", Longitude = "7.28325000" },
                         new() { Id = 15, Name = "Biel/Bienne", Latitude = "47.13713000", Longitude = "7.24608000" },
                         new() { Id = 16, Name = "Biel/Bienne District", Latitude = "47.12725000", Longitude = "7.26174000" },
@@ -353,7 +356,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 32, Name = "Diemtigen", Latitude = "46.64928000", Longitude = "7.56477000" },
                         new() { Id = 33, Name = "Dürrenroth", Latitude = "47.08953000", Longitude = "7.79170000" },
                         new() { Id = 34, Name = "Eggiwil", Latitude = "46.87575000", Longitude = "7.79567000" },
-                        new() { Id = 35, Name = "Emmental District", Latitude = "47.04425000", Longitude = "7.66176000" },
+                        new() { Id = 35, Name = "Emmental", Latitude = "47.04425000", Longitude = "7.66176000" },
                         new() { Id = 36, Name = "Eriswil", Latitude = "47.07816000", Longitude = "7.85149000" },
                         new() { Id = 37, Name = "Erlach", Latitude = "47.04220000", Longitude = "7.09728000" },
                         new() { Id = 38, Name = "Erlenbach im Simmental", Latitude = "46.66021000", Longitude = "7.55445000" },
@@ -363,7 +366,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 42, Name = "Fraubrunnen", Latitude = "47.08620000", Longitude = "7.52727000" },
                         new() { Id = 43, Name = "Frauenkappelen", Latitude = "46.95425000", Longitude = "7.33835000" },
                         new() { Id = 44, Name = "Frutigen", Latitude = "46.58723000", Longitude = "7.64945000" },
-                        new() { Id = 45, Name = "Frutigen-Niedersimmental District", Latitude = "46.60236000", Longitude = "7.62292000" },
+                        new() { Id = 45, Name = "Frutigen-Niedersimmental", Latitude = "46.60236000", Longitude = "7.62292000" },
                         new() { Id = 46, Name = "Grindelwald", Latitude = "46.62396000", Longitude = "8.03601000" },
                         new() { Id = 47, Name = "Grossaffoltern", Latitude = "47.06534000", Longitude = "7.35689000" },
                         new() { Id = 48, Name = "Gstaad", Latitude = "46.47215000", Longitude = "7.28685000" },
@@ -377,7 +380,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 56, Name = "Huttwil", Latitude = "47.11502000", Longitude = "7.86209000" },
                         new() { Id = 57, Name = "Ins", Latitude = "47.00584000", Longitude = "7.10609000" },
                         new() { Id = 58, Name = "Interlaken", Latitude = "46.68387000", Longitude = "7.86638000" },
-                        new() { Id = 59, Name = "Interlaken-Oberhasli District", Latitude = "46.68931000", Longitude = "7.98869000" },
+                        new() { Id = 59, Name = "Interlaken-Oberhasli", Latitude = "46.68931000", Longitude = "7.98869000" },
                         new() { Id = 60, Name = "Jegenstorf", Latitude = "47.04802000", Longitude = "7.50787000" },
                         new() { Id = 61, Name = "Jura bernois", Latitude = "47.21892000", Longitude = "7.21981000" },
                         new() { Id = 62, Name = "Kallnach", Latitude = "47.02032000", Longitude = "7.23545000" },
@@ -399,7 +402,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 78, Name = "Lengnau", Latitude = "47.18155000", Longitude = "7.36814000" },
                         new() { Id = 79, Name = "Lenk", Latitude = "46.45826000", Longitude = "7.44298000" },
                         new() { Id = 80, Name = "Leuzigen", Latitude = "47.17458000", Longitude = "7.45775000" },
-                        new() { Id = 81, Name = "Liebefeld ", Latitude = "46.93335790", Longitude = "7.39606840" },
+                        new() { Id = 81, Name = "Liebefeld", Latitude = "46.93335790", Longitude = "7.39606840" },
                         new() { Id = 82, Name = "Linden", Latitude = "46.84690000", Longitude = "7.67831000" },
                         new() { Id = 83, Name = "Lotzwil", Latitude = "47.19135000", Longitude = "7.79102000" },
                         new() { Id = 84, Name = "Lützelflüh", Latitude = "47.00757000", Longitude = "7.69165000" },
@@ -425,7 +428,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 104, Name = "Oberbipp", Latitude = "47.26070000", Longitude = "7.66359000" },
                         new() { Id = 105, Name = "Oberburg", Latitude = "47.03665000", Longitude = "7.62745000" },
                         new() { Id = 106, Name = "Oberdiessbach", Latitude = "46.84117000", Longitude = "7.61730000" },
-                        new() { Id = 107, Name = "Obersimmental-Saanen District", Latitude = "46.47932000", Longitude = "7.35803000" },
+                        new() { Id = 107, Name = "Obersimmental-Saanen", Latitude = "46.47932000", Longitude = "7.35803000" },
                         new() { Id = 108, Name = "Orpund", Latitude = "47.13891000", Longitude = "7.30775000" },
                         new() { Id = 109, Name = "Orvin", Latitude = "47.16068000", Longitude = "7.21368000" },
                         new() { Id = 110, Name = "Péry", Latitude = "47.19398000", Longitude = "7.24913000" },
@@ -446,7 +449,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 125, Name = "Schüpfen", Latitude = "47.03661000", Longitude = "7.37723000" },
                         new() { Id = 126, Name = "Seeberg", Latitude = "47.15585000", Longitude = "7.66567000" },
                         new() { Id = 127, Name = "Seedorf", Latitude = "47.03445000", Longitude = "7.31249000" },
-                        new() { Id = 128, Name = "Seeland District", Latitude = "47.06635000", Longitude = "7.26333000" },
+                        new() { Id = 128, Name = "Seeland", Latitude = "47.06635000", Longitude = "7.26333000" },
                         new() { Id = 129, Name = "Seftigen", Latitude = "46.78765000", Longitude = "7.53937000" },
                         new() { Id = 130, Name = "Signau", Latitude = "46.91944000", Longitude = "7.72418000" },
                         new() { Id = 131, Name = "Sigriswil", Latitude = "46.71656000", Longitude = "7.71335000" },
@@ -493,9 +496,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Fribourg",
-                    StateCode = "FR",
-                    Latitude = "46.68167480",
-                    Longitude = "7.11726350",
+                    StateCode = "",
+                    Latitude = "46.67891160",
+                    Longitude = "7.10271130",
                     Type = "canton",
                     Cities = new()
                     {
@@ -506,7 +509,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Belfaux", Latitude = "46.82171000", Longitude = "7.10674000" },
                         new() { Id = 6, Name = "Bösingen", Latitude = "46.89229000", Longitude = "7.22770000" },
                         new() { Id = 7, Name = "Broc", Latitude = "46.60513000", Longitude = "7.09891000" },
-                        new() { Id = 8, Name = "Broye District", Latitude = "46.82212000", Longitude = "6.90249000" },
+                        new() { Id = 8, Name = "Broye", Latitude = "46.82212000", Longitude = "6.90249000" },
                         new() { Id = 9, Name = "Bulle", Latitude = "46.61797000", Longitude = "7.05690000" },
                         new() { Id = 10, Name = "Charmey", Latitude = "46.61957000", Longitude = "7.16486000" },
                         new() { Id = 11, Name = "Châtel-Saint-Denis", Latitude = "46.52691000", Longitude = "6.90083000" },
@@ -522,15 +525,15 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 21, Name = "Fribourg", Latitude = "46.80237000", Longitude = "7.15128000" },
                         new() { Id = 22, Name = "Giffers", Latitude = "46.76230000", Longitude = "7.20845000" },
                         new() { Id = 23, Name = "Givisiez", Latitude = "46.81201000", Longitude = "7.12639000" },
-                        new() { Id = 24, Name = "Glâne District", Latitude = "46.66667000", Longitude = "6.91667000" },
+                        new() { Id = 24, Name = "Glâne", Latitude = "46.66667000", Longitude = "6.91667000" },
                         new() { Id = 25, Name = "Grolley", Latitude = "46.83360000", Longitude = "7.07116000" },
-                        new() { Id = 26, Name = "Gruyère District", Latitude = "46.60753000", Longitude = "7.10741000" },
+                        new() { Id = 26, Name = "Gruyère", Latitude = "46.60753000", Longitude = "7.10741000" },
                         new() { Id = 27, Name = "Gruyères", Latitude = "46.58338000", Longitude = "7.08207000" },
                         new() { Id = 28, Name = "Heitenried", Latitude = "46.82762000", Longitude = "7.29944000" },
                         new() { Id = 29, Name = "Kerzers", Latitude = "46.97586000", Longitude = "7.19570000" },
                         new() { Id = 30, Name = "La Roche", Latitude = "46.69620000", Longitude = "7.13721000" },
                         new() { Id = 31, Name = "La Tour-de-Trême", Latitude = "46.61061000", Longitude = "7.06496000" },
-                        new() { Id = 32, Name = "Lake District", Latitude = "46.91016000", Longitude = "7.14088000" },
+                        new() { Id = 32, Name = "Lake", Latitude = "46.91016000", Longitude = "7.14088000" },
                         new() { Id = 33, Name = "Marly", Latitude = "46.77611000", Longitude = "7.16459000" },
                         new() { Id = 34, Name = "Marsens", Latitude = "46.65644000", Longitude = "7.05948000" },
                         new() { Id = 35, Name = "Mézières", Latitude = "46.67958000", Longitude = "6.92630000" },
@@ -544,13 +547,13 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 43, Name = "Rue", Latitude = "46.61916000", Longitude = "6.82225000" },
                         new() { Id = 44, Name = "Sâles", Latitude = "46.63473000", Longitude = "6.97336000" },
                         new() { Id = 45, Name = "Sankt Antoni", Latitude = "46.82207000", Longitude = "7.26091000" },
-                        new() { Id = 46, Name = "Sarine District", Latitude = "46.78435000", Longitude = "7.09993000" },
+                        new() { Id = 46, Name = "Sarine", Latitude = "46.78435000", Longitude = "7.09993000" },
                         new() { Id = 47, Name = "Schmitten", Latitude = "46.85750000", Longitude = "7.25031000" },
-                        new() { Id = 48, Name = "Sense District", Latitude = "46.80132000", Longitude = "7.26028000" },
+                        new() { Id = 48, Name = "Sense", Latitude = "46.80132000", Longitude = "7.26028000" },
                         new() { Id = 49, Name = "Tafers", Latitude = "46.81483000", Longitude = "7.21852000" },
                         new() { Id = 50, Name = "Treyvaux", Latitude = "46.72796000", Longitude = "7.13769000" },
                         new() { Id = 51, Name = "Ueberstorf", Latitude = "46.86587000", Longitude = "7.30998000" },
-                        new() { Id = 52, Name = "Veveyse District", Latitude = "46.55083000", Longitude = "6.91085000" },
+                        new() { Id = 52, Name = "Veveyse", Latitude = "46.55083000", Longitude = "6.91085000" },
                         new() { Id = 53, Name = "Villars-sur-Glâne", Latitude = "46.79054000", Longitude = "7.11717000" },
                         new() { Id = 54, Name = "Villaz-Saint-Pierre", Latitude = "46.72074000", Longitude = "6.95638000" },
                         new() { Id = 55, Name = "Vuadens", Latitude = "46.61545000", Longitude = "7.01732000" }
@@ -561,9 +564,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Geneva",
-                    StateCode = "GE",
-                    Latitude = "46.21800730",
-                    Longitude = "6.12169250",
+                    StateCode = "",
+                    Latitude = "46.22565090",
+                    Longitude = "6.14392090",
                     Type = "canton",
                     Cities = new()
                     {
@@ -602,7 +605,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Glarus",
-                    StateCode = "GL",
+                    StateCode = "",
                     Latitude = "47.04112320",
                     Longitude = "9.06790000",
                     Type = "canton",
@@ -626,9 +629,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Graubünden",
-                    StateCode = "GR",
-                    Latitude = "46.65698710",
-                    Longitude = "9.57802570",
+                    StateCode = "",
+                    Latitude = "46.69606150",
+                    Longitude = "9.60273510",
                     Type = "canton",
                     Cities = new()
                     {
@@ -699,9 +702,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Jura",
-                    StateCode = "JU",
-                    Latitude = "47.34444740",
-                    Longitude = "7.14306080",
+                    StateCode = "",
+                    Latitude = "47.35666990",
+                    Longitude = "7.15988930",
                     Type = "canton",
                     Cities = new()
                     {
@@ -716,7 +719,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Delémont", Latitude = "47.36493000", Longitude = "7.34453000" },
                         new() { Id = 10, Name = "Delémont District", Latitude = "47.35434000", Longitude = "7.33053000" },
                         new() { Id = 11, Name = "Fontenais", Latitude = "47.40292000", Longitude = "7.08108000" },
-                        new() { Id = 12, Name = "Franches-Montagnes District", Latitude = "47.24935000", Longitude = "7.04562000" },
+                        new() { Id = 12, Name = "Franches-Montagnes", Latitude = "47.24935000", Longitude = "7.04562000" },
                         new() { Id = 13, Name = "Glovelier", Latitude = "47.33534000", Longitude = "7.20556000" },
                         new() { Id = 14, Name = "Le Noirmont", Latitude = "47.22464000", Longitude = "6.95784000" },
                         new() { Id = 15, Name = "Les Bois", Latitude = "47.17715000", Longitude = "6.90498000" },
@@ -732,9 +735,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Lucerne",
-                    StateCode = "LU",
-                    Latitude = "47.07956710",
-                    Longitude = "8.16624450",
+                    StateCode = "",
+                    Latitude = "47.09082070",
+                    Longitude = "8.17196110",
                     Type = "canton",
                     Cities = new()
                     {
@@ -768,8 +771,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 28, Name = "Knutwil", Latitude = "47.19953000", Longitude = "8.07315000" },
                         new() { Id = 29, Name = "Kriens", Latitude = "47.03110000", Longitude = "8.28547000" },
                         new() { Id = 30, Name = "Littau", Latitude = "47.05000000", Longitude = "8.26274000" },
-                        new() { Id = 31, Name = "Lucerne-Land District", Latitude = "47.04046000", Longitude = "8.29271000" },
-                        new() { Id = 32, Name = "Lucerne-Stadt District", Latitude = "47.05334000", Longitude = "8.31063000" },
+                        new() { Id = 31, Name = "Lucerne-Land", Latitude = "47.04046000", Longitude = "8.29271000" },
+                        new() { Id = 32, Name = "Lucerne-Stadt", Latitude = "47.05334000", Longitude = "8.31063000" },
                         new() { Id = 33, Name = "Luthern", Latitude = "47.05753000", Longitude = "7.91692000" },
                         new() { Id = 34, Name = "Luzern", Latitude = "47.05048000", Longitude = "8.30635000" },
                         new() { Id = 35, Name = "Malters", Latitude = "47.03628000", Longitude = "8.18193000" },
@@ -812,7 +815,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Neuchâtel",
-                    StateCode = "NE",
+                    StateCode = "",
                     Latitude = "46.98998740",
                     Longitude = "6.92927320",
                     Type = "canton",
@@ -847,8 +850,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 27, Name = "Saint-Aubin-Sauges", Latitude = "46.89419000", Longitude = "6.77251000" },
                         new() { Id = 28, Name = "Saint-Blaise", Latitude = "47.01511000", Longitude = "6.98832000" },
                         new() { Id = 29, Name = "Travers", Latitude = "46.94018000", Longitude = "6.67595000" },
-                        new() { Id = 30, Name = "Val-de-Ruz District", Latitude = "47.04008000", Longitude = "6.90829000" },
-                        new() { Id = 31, Name = "Val-de-Travers District", Latitude = "46.90357000", Longitude = "6.56310000" }
+                        new() { Id = 30, Name = "Val-de-Ruz", Latitude = "47.04008000", Longitude = "6.90829000" },
+                        new() { Id = 31, Name = "Val-de-Travers", Latitude = "46.90357000", Longitude = "6.56310000" }
                     }
                 },
 
@@ -856,9 +859,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Nidwalden",
-                    StateCode = "NW",
-                    Latitude = "46.92670160",
-                    Longitude = "8.38499820",
+                    StateCode = "",
+                    Latitude = "46.94275600",
+                    Longitude = "8.41197730",
                     Type = "canton",
                     Cities = new()
                     {
@@ -878,9 +881,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Obwalden",
-                    StateCode = "OW",
-                    Latitude = "46.87785800",
-                    Longitude = "8.25124900",
+                    StateCode = "",
+                    Latitude = "46.86138570",
+                    Longitude = "8.20678250",
                     Type = "canton",
                     Cities = new()
                     {
@@ -898,9 +901,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Schaffhausen",
-                    StateCode = "SH",
-                    Latitude = "47.70093640",
-                    Longitude = "8.56800400",
+                    StateCode = "",
+                    Latitude = "47.69604910",
+                    Longitude = "8.63451300",
                     Type = "canton",
                     Cities = new()
                     {
@@ -929,7 +932,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Schwyz",
-                    StateCode = "SZ",
+                    StateCode = "",
                     Latitude = "47.02071380",
                     Longitude = "8.65298840",
                     Type = "canton",
@@ -974,9 +977,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Solothurn",
-                    StateCode = "SO",
-                    Latitude = "47.33207170",
-                    Longitude = "7.63883850",
+                    StateCode = "",
+                    Latitude = "47.31874000",
+                    Longitude = "7.66982840",
                     Type = "canton",
                     Cities = new()
                     {
@@ -1040,9 +1043,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 19,
                     Name = "St. Gallen",
-                    StateCode = "SG",
-                    Latitude = "47.14562540",
-                    Longitude = "9.35043320",
+                    StateCode = "",
+                    Latitude = "47.15610470",
+                    Longitude = "9.33832300",
                     Type = "canton",
                     Cities = new()
                     {
@@ -1131,9 +1134,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 20,
                     Name = "Thurgau",
-                    StateCode = "TG",
-                    Latitude = "47.60378560",
-                    Longitude = "9.05573710",
+                    StateCode = "",
+                    Latitude = "47.58596490",
+                    Longitude = "9.14287690",
                     Type = "canton",
                     Cities = new()
                     {
@@ -1193,9 +1196,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 21,
                     Name = "Ticino",
-                    StateCode = "TI",
-                    Latitude = "46.33173400",
-                    Longitude = "8.80045290",
+                    StateCode = "",
+                    Latitude = "46.33519130",
+                    Longitude = "8.75259020",
                     Type = "canton",
                     Cities = new()
                     {
@@ -1209,7 +1212,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Bellinzona District", Latitude = "46.18858000", Longitude = "9.00254000" },
                         new() { Id = 9, Name = "Biasca", Latitude = "46.35972000", Longitude = "8.96965000" },
                         new() { Id = 10, Name = "Bioggio", Latitude = "46.01357000", Longitude = "8.91103000" },
-                        new() { Id = 11, Name = "Blenio District", Latitude = "46.47613000", Longitude = "8.94609000" },
+                        new() { Id = 11, Name = "Blenio", Latitude = "46.47613000", Longitude = "8.94609000" },
                         new() { Id = 12, Name = "Bodio", Latitude = "46.37808000", Longitude = "8.90991000" },
                         new() { Id = 13, Name = "Brissago", Latitude = "46.12013000", Longitude = "8.71181000" },
                         new() { Id = 14, Name = "Cadempino", Latitude = "46.03672000", Longitude = "8.93403000" },
@@ -1229,7 +1232,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 28, Name = "Gordola", Latitude = "46.18256000", Longitude = "8.86657000" },
                         new() { Id = 29, Name = "Gravesano", Latitude = "46.04208000", Longitude = "8.91832000" },
                         new() { Id = 30, Name = "Lavertezzo", Latitude = "46.25893000", Longitude = "8.83756000" },
-                        new() { Id = 31, Name = "Leventina District", Latitude = "46.46912000", Longitude = "8.75539000" },
+                        new() { Id = 31, Name = "Leventina", Latitude = "46.46912000", Longitude = "8.75539000" },
                         new() { Id = 32, Name = "Ligornetto", Latitude = "45.86161000", Longitude = "8.95166000" },
                         new() { Id = 33, Name = "Locarno", Latitude = "46.17086000", Longitude = "8.79953000" },
                         new() { Id = 34, Name = "Locarno District", Latitude = "46.18033000", Longitude = "8.75991000" },
@@ -1254,12 +1257,12 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 53, Name = "Pregassona", Latitude = "46.02021000", Longitude = "8.97429000" },
                         new() { Id = 54, Name = "Pura", Latitude = "45.98647000", Longitude = "8.86877000" },
                         new() { Id = 55, Name = "Riva San Vitale", Latitude = "45.90123000", Longitude = "8.97167000" },
-                        new() { Id = 56, Name = "Riviera District", Latitude = "46.30926000", Longitude = "8.98148000" },
+                        new() { Id = 56, Name = "Riviera", Latitude = "46.30926000", Longitude = "8.98148000" },
                         new() { Id = 57, Name = "Sementina", Latitude = "46.18363000", Longitude = "8.99162000" },
                         new() { Id = 58, Name = "Sorengo", Latitude = "45.99766000", Longitude = "8.93783000" },
                         new() { Id = 59, Name = "Stabio", Latitude = "45.84846000", Longitude = "8.93642000" },
                         new() { Id = 60, Name = "Tesserete", Latitude = "46.06813000", Longitude = "8.96501000" },
-                        new() { Id = 61, Name = "Vallemaggia District", Latitude = "46.35483000", Longitude = "8.60540000" },
+                        new() { Id = 61, Name = "Vallemaggia", Latitude = "46.35483000", Longitude = "8.60540000" },
                         new() { Id = 62, Name = "Verscio", Latitude = "46.18482000", Longitude = "8.73224000" },
                         new() { Id = 63, Name = "Viganello", Latitude = "46.01342000", Longitude = "8.96879000" }
                     }
@@ -1269,9 +1272,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 22,
                     Name = "Uri",
-                    StateCode = "UR",
-                    Latitude = "41.48606470",
-                    Longitude = "-71.53085370",
+                    StateCode = "",
+                    Latitude = "46.78644130",
+                    Longitude = "8.64201590",
                     Type = "canton",
                     Cities = new()
                     {
@@ -1292,9 +1295,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 23,
                     Name = "Valais",
-                    StateCode = "VS",
-                    Latitude = "46.19046140",
-                    Longitude = "7.54492260",
+                    StateCode = "",
+                    Latitude = "46.23030630",
+                    Longitude = "7.66057570",
                     Type = "canton",
                     Cities = new()
                     {
@@ -1314,24 +1317,24 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 14, Name = "Collombey-Muraz", Latitude = "46.27385000", Longitude = "6.94789000" },
                         new() { Id = 15, Name = "Conthey", Latitude = "46.22370000", Longitude = "7.30283000" },
                         new() { Id = 16, Name = "Conthey District", Latitude = "46.20485000", Longitude = "7.27857000" },
-                        new() { Id = 17, Name = "Entremont District", Latitude = "46.02099000", Longitude = "7.21260000" },
+                        new() { Id = 17, Name = "Entremont", Latitude = "46.02099000", Longitude = "7.21260000" },
                         new() { Id = 18, Name = "Evionnaz", Latitude = "46.18096000", Longitude = "7.02232000" },
                         new() { Id = 19, Name = "Evolène", Latitude = "46.11422000", Longitude = "7.49407000" },
                         new() { Id = 20, Name = "Fiesch", Latitude = "46.39981000", Longitude = "8.13533000" },
                         new() { Id = 21, Name = "Fully", Latitude = "46.13851000", Longitude = "7.11468000" },
                         new() { Id = 22, Name = "Gampel", Latitude = "46.31599000", Longitude = "7.74210000" },
-                        new() { Id = 23, Name = "Goms District", Latitude = "46.46161000", Longitude = "8.22190000" },
+                        new() { Id = 23, Name = "Goms", Latitude = "46.46161000", Longitude = "8.22190000" },
                         new() { Id = 24, Name = "Grächen", Latitude = "46.19529000", Longitude = "7.83745000" },
                         new() { Id = 25, Name = "Grimisuat", Latitude = "46.25938000", Longitude = "7.38408000" },
                         new() { Id = 26, Name = "Grône", Latitude = "46.25288000", Longitude = "7.45947000" },
                         new() { Id = 27, Name = "Hérémence", Latitude = "46.18032000", Longitude = "7.40477000" },
-                        new() { Id = 28, Name = "Hérens District", Latitude = "46.19407000", Longitude = "7.42391000" },
+                        new() { Id = 28, Name = "Hérens", Latitude = "46.19407000", Longitude = "7.42391000" },
                         new() { Id = 29, Name = "Lens", Latitude = "46.28298000", Longitude = "7.44976000" },
                         new() { Id = 30, Name = "Leuk", Latitude = "46.31736000", Longitude = "7.63412000" },
                         new() { Id = 31, Name = "Leuk District", Latitude = "46.31439000", Longitude = "7.67291000" },
                         new() { Id = 32, Name = "Leukerbad", Latitude = "46.37943000", Longitude = "7.62687000" },
                         new() { Id = 33, Name = "Leytron", Latitude = "46.18660000", Longitude = "7.20780000" },
-                        new() { Id = 34, Name = "Martigny District", Latitude = "46.12386000", Longitude = "7.10354000" },
+                        new() { Id = 34, Name = "Martigny", Latitude = "46.12386000", Longitude = "7.10354000" },
                         new() { Id = 35, Name = "Martigny-Combe", Latitude = "46.07817000", Longitude = "7.05099000" },
                         new() { Id = 36, Name = "Martigny-Ville", Latitude = "46.10276000", Longitude = "7.07245000" },
                         new() { Id = 37, Name = "Montana", Latitude = "46.31338000", Longitude = "7.48839000" },
@@ -1356,7 +1359,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 56, Name = "Saxon", Latitude = "46.14937000", Longitude = "7.17514000" },
                         new() { Id = 57, Name = "Sierre", Latitude = "46.29192000", Longitude = "7.53559000" },
                         new() { Id = 58, Name = "Sierre District", Latitude = "46.27052000", Longitude = "7.51570000" },
-                        new() { Id = 59, Name = "Sion District", Latitude = "46.23343000", Longitude = "7.34939000" },
+                        new() { Id = 59, Name = "Sion", Latitude = "46.23343000", Longitude = "7.34939000" },
                         new() { Id = 60, Name = "Sitten", Latitude = "46.22739000", Longitude = "7.35559000" },
                         new() { Id = 61, Name = "Stalden", Latitude = "46.23341000", Longitude = "7.87273000" },
                         new() { Id = 62, Name = "Tanay", Latitude = "46.34503000", Longitude = "6.83041000" },
@@ -1380,9 +1383,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 24,
                     Name = "Vaud",
-                    StateCode = "VD",
-                    Latitude = "46.56131350",
-                    Longitude = "6.53676500",
+                    StateCode = "",
+                    Latitude = "46.63569630",
+                    Longitude = "6.53207170",
                     Type = "canton",
                     Cities = new()
                     {
@@ -1402,7 +1405,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 14, Name = "Blécherette", Latitude = "46.53932000", Longitude = "6.62227000" },
                         new() { Id = 15, Name = "Blonay", Latitude = "46.46778000", Longitude = "6.89615000" },
                         new() { Id = 16, Name = "Bottens", Latitude = "46.61596000", Longitude = "6.66149000" },
-                        new() { Id = 17, Name = "Broye-Vully District", Latitude = "46.78082000", Longitude = "6.90161000" },
+                        new() { Id = 17, Name = "Broye-Vully", Latitude = "46.78082000", Longitude = "6.90161000" },
                         new() { Id = 18, Name = "Bussigny", Latitude = "46.55110000", Longitude = "6.55597000" },
                         new() { Id = 19, Name = "Caux", Latitude = "46.43241000", Longitude = "6.93855000" },
                         new() { Id = 20, Name = "Chardonne", Latitude = "46.47676000", Longitude = "6.82680000" },
@@ -1430,15 +1433,15 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 42, Name = "Gland", Latitude = "46.42082000", Longitude = "6.27010000" },
                         new() { Id = 43, Name = "Grancy", Latitude = "46.59214000", Longitude = "6.46391000" },
                         new() { Id = 44, Name = "Grandson", Latitude = "46.80946000", Longitude = "6.64600000" },
-                        new() { Id = 45, Name = "Gros-de-Vaud District", Latitude = "46.65180000", Longitude = "6.65728000" },
+                        new() { Id = 45, Name = "Gros-de-Vaud", Latitude = "46.65180000", Longitude = "6.65728000" },
                         new() { Id = 46, Name = "Gryon", Latitude = "46.27377000", Longitude = "7.05975000" },
                         new() { Id = 47, Name = "Jongny", Latitude = "46.47883000", Longitude = "6.84114000" },
-                        new() { Id = 48, Name = "Jura-Nord vaudois District", Latitude = "46.72981000", Longitude = "6.45429000" },
+                        new() { Id = 48, Name = "Jura-Nord vaudois", Latitude = "46.72981000", Longitude = "6.45429000" },
                         new() { Id = 49, Name = "La Sarraz", Latitude = "46.65863000", Longitude = "6.51077000" },
                         new() { Id = 50, Name = "La Tour-de-Peilz", Latitude = "46.45312000", Longitude = "6.85856000" },
                         new() { Id = 51, Name = "Lausanne", Latitude = "46.51600000", Longitude = "6.63282000" },
                         new() { Id = 52, Name = "Lausanne District", Latitude = "46.52131000", Longitude = "6.63334000" },
-                        new() { Id = 53, Name = "Lavaux-Oron District", Latitude = "46.53618000", Longitude = "6.77086000" },
+                        new() { Id = 53, Name = "Lavaux-Oron", Latitude = "46.53618000", Longitude = "6.77086000" },
                         new() { Id = 54, Name = "Le Chenit", Latitude = "46.60688000", Longitude = "6.23062000" },
                         new() { Id = 55, Name = "Le Mont-sur-Lausanne", Latitude = "46.55815000", Longitude = "6.63145000" },
                         new() { Id = 56, Name = "Le Vaud", Latitude = "46.47753000", Longitude = "6.23603000" },
@@ -1457,7 +1460,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 69, Name = "Ollon", Latitude = "46.29524000", Longitude = "6.99314000" },
                         new() { Id = 70, Name = "Orbe", Latitude = "46.72504000", Longitude = "6.53069000" },
                         new() { Id = 71, Name = "Oron-la-Ville", Latitude = "46.57094000", Longitude = "6.82557000" },
-                        new() { Id = 72, Name = "Ouest Lausannois District", Latitude = "46.54589000", Longitude = "6.56995000" },
+                        new() { Id = 72, Name = "Ouest Lausannois", Latitude = "46.54589000", Longitude = "6.56995000" },
                         new() { Id = 73, Name = "Pailly", Latitude = "46.70123000", Longitude = "6.67540000" },
                         new() { Id = 74, Name = "Palézieux", Latitude = "46.54191000", Longitude = "6.83989000" },
                         new() { Id = 75, Name = "Pampigny", Latitude = "46.58093000", Longitude = "6.42941000" },
@@ -1473,7 +1476,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 85, Name = "Puidoux", Latitude = "46.50093000", Longitude = "6.78249000" },
                         new() { Id = 86, Name = "Pully", Latitude = "46.51027000", Longitude = "6.66183000" },
                         new() { Id = 87, Name = "Renens", Latitude = "46.53989000", Longitude = "6.58810000" },
-                        new() { Id = 88, Name = "Riviera-Pays-d'Enhaut District", Latitude = "46.46459000", Longitude = "6.88499000" },
+                        new() { Id = 88, Name = "Riviera-Pays-d'Enhaut", Latitude = "46.46459000", Longitude = "6.88499000" },
                         new() { Id = 89, Name = "Rolle", Latitude = "46.45820000", Longitude = "6.33499000" },
                         new() { Id = 90, Name = "Romanel-sur-Lausanne", Latitude = "46.56403000", Longitude = "6.60538000" },
                         new() { Id = 91, Name = "Saint-Cergue", Latitude = "46.44590000", Longitude = "6.15737000" },
@@ -1498,7 +1501,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 25,
                     Name = "Zug",
-                    StateCode = "ZG",
+                    StateCode = "",
                     Latitude = "47.16615050",
                     Longitude = "8.51547490",
                     Type = "canton",
@@ -1520,9 +1523,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 26,
                     Name = "Zürich",
-                    StateCode = "ZH",
-                    Latitude = "47.35953600",
-                    Longitude = "8.63564520",
+                    StateCode = "",
+                    Latitude = "47.41330240",
+                    Longitude = "8.65639400",
                     Type = "canton",
                     Cities = new()
                     {

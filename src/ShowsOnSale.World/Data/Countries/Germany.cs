@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 82,
+            Id = 81,
             Name = "Germany",
             Iso3 = "DEU",
             Iso2 = "DE",
@@ -39,6 +39,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Alamagn",
                 ["ko"] = "독일",
                 ["pt-BR"] = "Alemanha",
                 ["pt"] = "Alemanha",
@@ -54,7 +55,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Almanya",
                 ["ru"] = "Германия",
                 ["uk"] = "Німеччина",
-                ["pl"] = "Niemcy"
+                ["pl"] = "Niemcy",
+                ["hi"] = "जर्मनी",
+                ["ar"] = "ألمانيا"
             },
             States = new()
             {
@@ -63,9 +66,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Baden-Württemberg",
-                    StateCode = "BW",
-                    Latitude = "48.66160370",
-                    Longitude = "9.35013360",
+                    StateCode = "",
+                    Latitude = "48.53775000",
+                    Longitude = "9.04116900",
                     Type = "land",
                     Cities = new()
                     {
@@ -204,7 +207,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 133, Name = "Brühl", Latitude = "49.39722000", Longitude = "8.53361000" },
                         new() { Id = 134, Name = "Bubsheim", Latitude = "48.11667000", Longitude = "8.83333000" },
                         new() { Id = 135, Name = "Buch am Ahorn", Latitude = "49.53909000", Longitude = "9.55560000" },
-                        new() { Id = 136, Name = "Buchen in Odenwald", Latitude = "49.52416000", Longitude = "9.32293000" },
+                        new() { Id = 136, Name = "Buchen im Odenwald", Latitude = "49.52416000", Longitude = "9.32293000" },
                         new() { Id = 137, Name = "Buchenbach", Latitude = "47.96138000", Longitude = "8.00909000" },
                         new() { Id = 138, Name = "Buggingen", Latitude = "47.84750000", Longitude = "7.63799000" },
                         new() { Id = 139, Name = "Bühl", Latitude = "48.69676000", Longitude = "8.13523000" },
@@ -1021,9 +1024,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Bavaria",
-                    StateCode = "BY",
-                    Latitude = "48.79044720",
-                    Longitude = "11.49788950",
+                    StateCode = "",
+                    Latitude = "48.94675620",
+                    Longitude = "11.40387170",
                     Type = "land",
                     Cities = new()
                     {
@@ -2791,9 +2794,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Berlin",
-                    StateCode = "BE",
-                    Latitude = "52.52000660",
-                    Longitude = "13.40495400",
+                    StateCode = "",
+                    Latitude = "52.51088500",
+                    Longitude = "13.39893670",
                     Type = "land",
                     Cities = new()
                     {
@@ -2901,9 +2904,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Brandenburg",
-                    StateCode = "BB",
-                    Latitude = "52.41252870",
-                    Longitude = "12.53164440",
+                    StateCode = "",
+                    Latitude = "52.84554920",
+                    Longitude = "13.24612960",
                     Type = "land",
                     Cities = new()
                     {
@@ -3131,7 +3134,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Bremen",
-                    StateCode = "HB",
+                    StateCode = "",
                     Latitude = "53.07929620",
                     Longitude = "8.80169360",
                     Type = "land",
@@ -3140,7 +3143,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Bremen", Latitude = "53.07516000", Longitude = "8.80777000" },
                         new() { Id = 2, Name = "Bremerhaven", Latitude = "53.55021000", Longitude = "8.57673000" },
                         new() { Id = 3, Name = "Burglesum", Latitude = "53.16532000", Longitude = "8.68873000" },
-                        new() { Id = 4, Name = "Vegesack", Latitude = "53.16667000", Longitude = "8.61667000" }
+                        new() { Id = 4, Name = "Vegesack", Latitude = "53.17052490", Longitude = "8.62388030" }
                     }
                 },
 
@@ -3148,7 +3151,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Hamburg",
-                    StateCode = "HH",
+                    StateCode = "",
                     Latitude = "53.55108460",
                     Longitude = "9.99368190",
                     Type = "land",
@@ -3198,9 +3201,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Hessen",
-                    StateCode = "HE",
-                    Latitude = "50.65205150",
-                    Longitude = "9.16243760",
+                    StateCode = "",
+                    Latitude = "50.60806510",
+                    Longitude = "9.02846470",
                     Type = "land",
                     Cities = new()
                     {
@@ -3558,9 +3561,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Lower Saxony",
-                    StateCode = "NI",
-                    Latitude = "52.63670360",
-                    Longitude = "9.84507660",
+                    StateCode = "",
+                    Latitude = "52.83985310",
+                    Longitude = "9.07596200",
                     Type = "land",
                     Cities = new()
                     {
@@ -3994,7 +3997,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 428, Name = "Lehrte", Latitude = "52.37193000", Longitude = "9.97919000" },
                         new() { Id = 429, Name = "Leiferde", Latitude = "52.20445000", Longitude = "10.50842000" },
                         new() { Id = 430, Name = "Lemförde", Latitude = "52.46557000", Longitude = "8.37621000" },
-                        new() { Id = 431, Name = "Lemwerder", Latitude = "53.16667000", Longitude = "8.61667000" },
+                        new() { Id = 431, Name = "Lemwerder", Latitude = "53.16171170", Longitude = "8.60815070" },
                         new() { Id = 432, Name = "Lengede", Latitude = "52.20487000", Longitude = "10.30775000" },
                         new() { Id = 433, Name = "Lengerich", Latitude = "52.55381000", Longitude = "7.53164000" },
                         new() { Id = 434, Name = "Liebenau", Latitude = "52.60362000", Longitude = "9.09719000" },
@@ -4322,9 +4325,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Mecklenburg-Vorpommern",
-                    StateCode = "MV",
-                    Latitude = "53.61265050",
-                    Longitude = "12.42959530",
+                    StateCode = "",
+                    Latitude = "53.77350640",
+                    Longitude = "12.57554710",
                     Type = "land",
                     Cities = new()
                     {
@@ -4588,9 +4591,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "North Rhine-Westphalia",
-                    StateCode = "NW",
-                    Latitude = "51.43323670",
-                    Longitude = "7.66159380",
+                    StateCode = "",
+                    Latitude = "51.47892050",
+                    Longitude = "7.55437510",
                     Type = "land",
                     Cities = new()
                     {
@@ -5029,9 +5032,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Rhineland-Palatinate",
-                    StateCode = "RP",
-                    Latitude = "50.11834600",
-                    Longitude = "7.30895270",
+                    StateCode = "",
+                    Latitude = "49.95315990",
+                    Longitude = "7.31064600",
                     Type = "land",
                     Cities = new()
                     {
@@ -5730,9 +5733,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Saarland",
-                    StateCode = "SL",
-                    Latitude = "49.39642340",
-                    Longitude = "7.02296070",
+                    StateCode = "",
+                    Latitude = "49.38418720",
+                    Longitude = "6.95373690",
                     Type = "land",
                     Cities = new()
                     {
@@ -5803,9 +5806,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Saxony",
-                    StateCode = "SN",
-                    Latitude = "51.10454070",
-                    Longitude = "13.20173840",
+                    StateCode = "",
+                    Latitude = "50.92957980",
+                    Longitude = "13.45850520",
                     Type = "land",
                     Cities = new()
                     {
@@ -6258,9 +6261,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Saxony-Anhalt",
-                    StateCode = "ST",
-                    Latitude = "51.95026490",
-                    Longitude = "11.69227340",
+                    StateCode = "",
+                    Latitude = "51.92809760",
+                    Longitude = "11.68122430",
                     Type = "land",
                     Cities = new()
                     {
@@ -6640,9 +6643,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Schleswig-Holstein",
-                    StateCode = "SH",
-                    Latitude = "54.21936720",
-                    Longitude = "9.69611670",
+                    StateCode = "",
+                    Latitude = "54.18539980",
+                    Longitude = "9.82200890",
                     Type = "land",
                     Cities = new()
                     {
@@ -7039,9 +7042,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Thuringia",
-                    StateCode = "TH",
-                    Latitude = "51.01098920",
-                    Longitude = "10.84534600",
+                    StateCode = "",
+                    Latitude = "50.90147210",
+                    Longitude = "11.03778390",
                     Type = "land",
                     Cities = new()
                     {

@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Tiriad Meurvor Indez Breizh-Veur",
                 ["ko"] = "영국령 인도양 지역",
                 ["pt-BR"] = "Território Britânico do Oceano íÍdico",
                 ["pt"] = "Território Britânico do Oceano Índico",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Britanya Hint Okyanusu Topraklari",
                 ["ru"] = "Британская территория в Индийском океане",
                 ["uk"] = "Британська територія в Індійському океані",
-                ["pl"] = "Brytyjskie Terytorium Oceanu Indyjskiego"
+                ["pl"] = "Brytyjskie Terytorium Oceanu Indyjskiego",
+                ["hi"] = "ब्रिटिश हिंद महासागर क्षेत्र",
+                ["ar"] = "أراضي المحيط الهندي البريطاني"
             },
             States = new()
             {

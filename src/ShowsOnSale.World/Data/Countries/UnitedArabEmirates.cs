@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Emirelezhioù Arab Unanet",
                 ["ko"] = "아랍에미리트",
                 ["pt-BR"] = "Emirados árabes Unidos",
                 ["pt"] = "Emirados árabes Unidos",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Birleşik Arap Emirlikleri",
                 ["ru"] = "Объединенные Арабские Эмираты",
                 ["uk"] = "Об'єднані Арабські Емірати",
-                ["pl"] = "Zjednoczone Emiraty Arabskie"
+                ["pl"] = "Zjednoczone Emiraty Arabskie",
+                ["hi"] = "संयुक्त अरब अमीरात",
+                ["ar"] = "الإمارات العربية المتحدة"
             },
             States = new()
             {
@@ -62,7 +65,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Abu Dhabi",
-                    StateCode = "AZ",
+                    StateCode = "",
                     Latitude = "24.45388400",
                     Longitude = "54.37734380",
                     Type = "emirate",
@@ -86,16 +89,15 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Ajman",
-                    StateCode = "AJ",
-                    Latitude = "25.40521650",
-                    Longitude = "55.51364330",
+                    StateCode = "",
+                    Latitude = "25.39365570",
+                    Longitude = "55.44514320",
                     Type = "emirate",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ajman", Latitude = "25.40328000", Longitude = "55.52341000" },
-                        new() { Id = 2, Name = "Ajman City", Latitude = "25.40177000", Longitude = "55.47878000" },
-                        new() { Id = 3, Name = "Manama", Latitude = "25.32568000", Longitude = "56.00259000" },
-                        new() { Id = 4, Name = "Masfut", Latitude = "24.83982000", Longitude = "56.05158000" }
+                        new() { Id = 2, Name = "Manama", Latitude = "25.32568000", Longitude = "56.00259000" },
+                        new() { Id = 3, Name = "Masfut", Latitude = "24.83982000", Longitude = "56.05158000" }
                     }
                 },
 
@@ -103,9 +105,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Dubai",
-                    StateCode = "DU",
-                    Latitude = "25.20484930",
-                    Longitude = "55.27078280",
+                    StateCode = "",
+                    Latitude = "25.26472270",
+                    Longitude = "55.29241460",
                     Type = "emirate",
                     Cities = new()
                     {
@@ -117,13 +119,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Fujairah",
-                    StateCode = "FU",
-                    Latitude = "25.12880990",
-                    Longitude = "56.32648490",
+                    StateCode = "",
+                    Latitude = "25.12446040",
+                    Longitude = "56.33550850",
                     Type = "emirate",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Dibba Al Fujairah Municipality", Latitude = "25.58580000", Longitude = "56.24792000" },
+                        new() { Id = 1, Name = "Dibba Al Fujairah", Latitude = "25.58580000", Longitude = "56.24792000" },
                         new() { Id = 2, Name = "Dibba Al-Fujairah", Latitude = "25.59246000", Longitude = "56.26176000" },
                         new() { Id = 3, Name = "Dibba Al-Hisn", Latitude = "25.61955000", Longitude = "56.27291000" },
                         new() { Id = 4, Name = "Fujairah", Latitude = "25.11641000", Longitude = "56.34141000" }
@@ -134,9 +136,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Ras Al Khaimah",
-                    StateCode = "RK",
-                    Latitude = "25.67413430",
-                    Longitude = "55.98041730",
+                    StateCode = "",
+                    Latitude = "25.73863490",
+                    Longitude = "55.92492240",
                     Type = "emirate",
                     Cities = new()
                     {
@@ -148,9 +150,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Sharjah",
-                    StateCode = "SH",
-                    Latitude = "25.07539740",
-                    Longitude = "55.75784030",
+                    StateCode = "",
+                    Latitude = "25.34614980",
+                    Longitude = "55.42106330",
                     Type = "emirate",
                     Cities = new()
                     {
@@ -170,14 +172,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Umm Al Quwain",
-                    StateCode = "UQ",
-                    Latitude = "25.54263240",
-                    Longitude = "55.54753480",
+                    StateCode = "",
+                    Latitude = "25.61124880",
+                    Longitude = "55.61746310",
                     Type = "emirate",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Umm AL Quwain", Latitude = "25.49326000", Longitude = "55.73520000" },
-                        new() { Id = 2, Name = "Umm Al Quwain City", Latitude = "25.56473000", Longitude = "55.55517000" }
+                        new() { Id = 1, Name = "Umm AL Quwain", Latitude = "25.49326000", Longitude = "55.73520000" }
                     }
                 }
             }

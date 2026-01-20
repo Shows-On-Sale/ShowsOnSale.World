@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Tonga",
                 ["ko"] = "통가",
                 ["pt-BR"] = "Tonga",
                 ["pt"] = "Tonga",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Tonga",
                 ["ru"] = "Тонга",
                 ["uk"] = "Тонга",
-                ["pl"] = "Tonga"
+                ["pl"] = "Tonga",
+                ["hi"] = "टोंगा",
+                ["ar"] = "تونغا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Haʻapai",
-                    StateCode = "02",
-                    Latitude = "-19.75000000",
-                    Longitude = "-174.36666700",
+                    StateCode = "",
+                    Latitude = "-20.05874040",
+                    Longitude = "-174.62299190",
                     Type = "division",
                     Cities = new()
                     {
@@ -76,9 +79,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "ʻEua",
-                    StateCode = "01",
-                    Latitude = "37.09024000",
-                    Longitude = "-95.71289100",
+                    StateCode = "",
+                    Latitude = "-21.37058280",
+                    Longitude = "-174.93888430",
                     Type = "division",
                     Cities = new()
                     {
@@ -90,7 +93,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Niuas",
-                    StateCode = "03",
+                    StateCode = "",
                     Latitude = "-15.95940000",
                     Longitude = "-173.78300000",
                     Type = "division",
@@ -104,9 +107,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Tongatapu",
-                    StateCode = "04",
-                    Latitude = "-21.14659680",
-                    Longitude = "-175.25154820",
+                    StateCode = "",
+                    Latitude = "-21.16782530",
+                    Longitude = "-175.27386910",
                     Type = "division",
                     Cities = new()
                     {
@@ -121,9 +124,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Vavaʻu",
-                    StateCode = "05",
-                    Latitude = "-18.62275600",
-                    Longitude = "-173.99029820",
+                    StateCode = "",
+                    Latitude = "-18.62314680",
+                    Longitude = "-174.00213800",
                     Type = "division",
                     Cities = new()
                     {

@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Anguilla",
                 ["ko"] = "앵귈라",
                 ["pt-BR"] = "Anguila",
                 ["pt"] = "Anguila",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Anguilla",
                 ["ru"] = "Ангилья",
                 ["uk"] = "Ангілья",
-                ["pl"] = "Anguilla"
+                ["pl"] = "Anguilla",
+                ["hi"] = "एंगुइला",
+                ["ar"] = "أنغيلا"
             },
             States = new()
             {
@@ -76,8 +79,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 2,
                     Name = "East End",
                     StateCode = "",
-                    Latitude = "18.23561730",
-                    Longitude = "-63.01497150",
+                    Latitude = "18.23426290",
+                    Longitude = "-62.99737400",
                     Type = "district",
                     Cities = new()
                     {
@@ -89,8 +92,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 3,
                     Name = "George Hill",
                     StateCode = "",
-                    Latitude = "18.19978110",
-                    Longitude = "-63.07761140",
+                    Latitude = "18.20365990",
+                    Longitude = "-63.06481120",
                     Type = "district",
                     Cities = new()
                     {
@@ -102,8 +105,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 4,
                     Name = "Island Harbour",
                     StateCode = "",
-                    Latitude = "18.25521250",
-                    Longitude = "-63.01405900",
+                    Latitude = "18.25568880",
+                    Longitude = "-63.00128140",
                     Type = "district",
                     Cities = new()
                     {
@@ -180,8 +183,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 10,
                     Name = "Stoney Ground",
                     StateCode = "",
-                    Latitude = "18.21791010",
-                    Longitude = "-63.04969860",
+                    Latitude = "18.21799970",
+                    Longitude = "-63.04007270",
                     Type = "district",
                     Cities = new()
                     {
@@ -219,8 +222,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 13,
                     Name = "The Valley",
                     StateCode = "",
-                    Latitude = "18.21521660",
-                    Longitude = "-63.07006280",
+                    Latitude = "18.21458610",
+                    Longitude = "-63.05177590",
                     Type = "district",
                     Cities = new()
                     {
@@ -232,8 +235,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 14,
                     Name = "West End",
                     StateCode = "",
-                    Latitude = "18.17153940",
-                    Longitude = "-63.17191270",
+                    Latitude = "18.17216660",
+                    Longitude = "-63.15670370",
                     Type = "district",
                     Cities = new()
                     {

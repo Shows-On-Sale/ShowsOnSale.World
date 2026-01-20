@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Martinik",
                 ["ko"] = "마르티니크",
                 ["pt-BR"] = "Martinica",
                 ["pt"] = "Martinica",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Martinik",
                 ["ru"] = "Мартиника",
                 ["uk"] = "Мартініка",
-                ["pl"] = "Martynika"
+                ["pl"] = "Martynika",
+                ["hi"] = "मार्टीनिक",
+                ["ar"] = "مارتينيك"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Fort-de-France",
-                    StateCode = "01",
-                    Latitude = "14.64349950",
-                    Longitude = "-61.11431890",
+                    StateCode = "",
+                    Latitude = "14.60279620",
+                    Longitude = "-61.06767240",
                     Type = "district",
                     Cities = new()
                     {
@@ -79,9 +82,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "La Trinité",
-                    StateCode = "02",
-                    Latitude = "14.75519490",
-                    Longitude = "-61.20281970",
+                    StateCode = "",
+                    Latitude = "14.75531610",
+                    Longitude = "-61.02872260",
                     Type = "district",
                     Cities = new()
                     {
@@ -102,9 +105,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Le Marin",
-                    StateCode = "03",
-                    Latitude = "14.52205810",
-                    Longitude = "-61.12011970",
+                    StateCode = "",
+                    Latitude = "14.52518410",
+                    Longitude = "-60.96241510",
                     Type = "district",
                     Cities = new()
                     {
@@ -127,9 +130,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Saint-Pierre",
-                    StateCode = "04",
-                    Latitude = "14.74505200",
-                    Longitude = "-61.23631840",
+                    StateCode = "",
+                    Latitude = "14.74171830",
+                    Longitude = "-61.17639040",
                     Type = "district",
                     Cities = new()
                     {

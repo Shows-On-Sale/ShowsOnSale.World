@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Komorez",
                 ["ko"] = "코모로",
                 ["pt-BR"] = "Comores",
                 ["pt"] = "Comores",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Komorlar",
                 ["ru"] = "Коморские острова",
                 ["uk"] = "Коморські острови",
-                ["pl"] = "Komory"
+                ["pl"] = "Komory",
+                ["hi"] = "कोमोरोस",
+                ["ar"] = "جزر القمر"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Anjouan",
-                    StateCode = "A",
-                    Latitude = "-12.21381450",
-                    Longitude = "44.43706060",
+                    StateCode = "",
+                    Latitude = "-12.22656810",
+                    Longitude = "44.41070490",
                     Type = "island",
                     Cities = new()
                     {
@@ -116,9 +119,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Grande Comore",
-                    StateCode = "G",
-                    Latitude = "-11.71673380",
-                    Longitude = "43.36807880",
+                    StateCode = "",
+                    Latitude = "-11.65256880",
+                    Longitude = "43.33097060",
                     Type = "island",
                     Cities = new()
                     {
@@ -169,9 +172,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Mohéli",
-                    StateCode = "M",
-                    Latitude = "-12.33773760",
-                    Longitude = "43.73340890",
+                    StateCode = "",
+                    Latitude = "-12.32045730",
+                    Longitude = "43.72043130",
                     Type = "island",
                     Cities = new()
                     {

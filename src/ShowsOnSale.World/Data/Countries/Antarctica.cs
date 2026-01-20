@@ -47,6 +47,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Antarktika",
                 ["ko"] = "남극",
                 ["pt-BR"] = "Antártida",
                 ["pt"] = "Antárctida",
@@ -62,7 +63,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Antartika",
                 ["ru"] = "Антарктида",
                 ["uk"] = "Антарктида",
-                ["pl"] = "Antarktyda"
+                ["pl"] = "Antarktyda",
+                ["hi"] = "अंटार्कटिका",
+                ["ar"] = "أنتاركتيكا"
             },
             States = new()
             {

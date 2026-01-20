@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Maldivez",
                 ["ko"] = "몰디브",
                 ["pt-BR"] = "Maldivas",
                 ["pt"] = "Maldivas",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Maldivler",
                 ["ru"] = "Мальдивы",
                 ["uk"] = "Мальдіви",
-                ["pl"] = "Malediwy"
+                ["pl"] = "Malediwy",
+                ["hi"] = "मालदीव",
+                ["ar"] = "جزر المالديف"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Addu",
-                    StateCode = "01",
-                    Latitude = "-0.63009950",
-                    Longitude = "73.15856260",
+                    StateCode = "",
+                    Latitude = "-0.64149350",
+                    Longitude = "73.16299780",
                     Type = "city",
                     Cities = new()
                     {
@@ -77,9 +80,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Alif Alif",
-                    StateCode = "02",
-                    Latitude = "4.08500000",
-                    Longitude = "72.85154790",
+                    StateCode = "",
+                    Latitude = "4.43892360",
+                    Longitude = "72.87168540",
                     Type = "administrative atoll",
                     Cities = new()
                     {
@@ -90,23 +93,24 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Alif Dhaal",
-                    StateCode = "00",
-                    Latitude = "3.65433020",
-                    Longitude = "72.80427970",
+                    StateCode = "",
+                    Latitude = "3.61230260",
+                    Longitude = "72.85566300",
                     Type = "administrative atoll",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Mahibadhoo", Latitude = "3.75713000", Longitude = "72.96893000" }
                     }
                 },
 
                 new()
                 {
                     Id = 4,
-                    Name = "Central",
-                    StateCode = "CE",
-                    Latitude = "",
-                    Longitude = "",
-                    Type = "province",
+                    Name = "Baa",
+                    StateCode = "",
+                    Latitude = "5.13333333",
+                    Longitude = "72.95000000",
+                    Type = "administrative atoll",
                     Cities = new()
                     {
                     }
@@ -116,9 +120,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Dhaalu",
-                    StateCode = "17",
-                    Latitude = "2.84685020",
-                    Longitude = "72.94605660",
+                    StateCode = "",
+                    Latitude = "2.84734540",
+                    Longitude = "72.90295260",
                     Type = "administrative atoll",
                     Cities = new()
                     {
@@ -130,9 +134,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Faafu",
-                    StateCode = "14",
-                    Latitude = "3.23094090",
-                    Longitude = "72.94605660",
+                    StateCode = "",
+                    Latitude = "3.13149090",
+                    Longitude = "72.88435670",
                     Type = "administrative atoll",
                     Cities = new()
                     {
@@ -143,9 +147,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Gaafu Alif",
-                    StateCode = "27",
-                    Latitude = "0.61248130",
-                    Longitude = "73.32370800",
+                    StateCode = "",
+                    Latitude = "0.98295270",
+                    Longitude = "73.27809390",
                     Type = "administrative atoll",
                     Cities = new()
                     {
@@ -157,9 +161,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Gaafu Dhaalu",
-                    StateCode = "28",
-                    Latitude = "0.35880400",
-                    Longitude = "73.18216230",
+                    StateCode = "",
+                    Latitude = "0.30417830",
+                    Longitude = "73.21247460",
                     Type = "administrative atoll",
                     Cities = new()
                     {
@@ -171,9 +175,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Gnaviyani",
-                    StateCode = "29",
-                    Latitude = "-0.30064250",
-                    Longitude = "73.42391430",
+                    StateCode = "",
+                    Latitude = "-0.20532640",
+                    Longitude = "73.25698680",
                     Type = "administrative atoll",
                     Cities = new()
                     {
@@ -185,9 +189,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Haa Alif",
-                    StateCode = "07",
-                    Latitude = "6.99034880",
-                    Longitude = "72.94605660",
+                    StateCode = "",
+                    Latitude = "7.06072960",
+                    Longitude = "72.98966280",
                     Type = "administrative atoll",
                     Cities = new()
                     {
@@ -199,9 +203,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Haa Dhaalu",
-                    StateCode = "23",
-                    Latitude = "6.57827170",
-                    Longitude = "72.94605660",
+                    StateCode = "",
+                    Latitude = "6.44990100",
+                    Longitude = "72.62648990",
                     Type = "administrative atoll",
                     Cities = new()
                     {
@@ -213,9 +217,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Kaafu",
-                    StateCode = "26",
-                    Latitude = "4.45589790",
-                    Longitude = "73.55941280",
+                    StateCode = "",
+                    Latitude = "4.35429900",
+                    Longitude = "73.57600320",
                     Type = "administrative atoll",
                     Cities = new()
                     {
@@ -230,9 +234,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Laamu",
-                    StateCode = "05",
-                    Latitude = "1.94307370",
-                    Longitude = "73.41802110",
+                    StateCode = "",
+                    Latitude = "1.88994180",
+                    Longitude = "73.31400270",
                     Type = "administrative atoll",
                     Cities = new()
                     {
@@ -244,9 +248,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Lhaviyani",
-                    StateCode = "03",
-                    Latitude = "5.37470210",
-                    Longitude = "73.51229280",
+                    StateCode = "",
+                    Latitude = "5.39925440",
+                    Longitude = "73.52739240",
                     Type = "administrative atoll",
                     Cities = new()
                     {
@@ -258,9 +262,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Malé",
-                    StateCode = "MLE",
-                    Latitude = "46.34888670",
-                    Longitude = "10.90724890",
+                    StateCode = "",
+                    Latitude = "4.17798790",
+                    Longitude = "73.51073870",
                     Type = "administrative atoll",
                     Cities = new()
                     {
@@ -271,9 +275,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Meemu",
-                    StateCode = "12",
-                    Latitude = "3.00903450",
-                    Longitude = "73.51229280",
+                    StateCode = "",
+                    Latitude = "2.78780940",
+                    Longitude = "73.53429870",
                     Type = "administrative atoll",
                     Cities = new()
                     {
@@ -285,9 +289,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Noonu",
-                    StateCode = "25",
-                    Latitude = "5.85512760",
-                    Longitude = "73.32370800",
+                    StateCode = "",
+                    Latitude = "5.78675500",
+                    Longitude = "73.41843360",
                     Type = "administrative atoll",
                     Cities = new()
                     {
@@ -298,23 +302,10 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 18,
-                    Name = "North Central",
-                    StateCode = "NC",
-                    Latitude = "",
-                    Longitude = "",
-                    Type = "province",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 19,
                     Name = "Raa",
-                    StateCode = "13",
-                    Latitude = "5.60064570",
-                    Longitude = "72.94605660",
+                    StateCode = "",
+                    Latitude = "5.66094850",
+                    Longitude = "72.76816450",
                     Type = "administrative atoll",
                     Cities = new()
                     {
@@ -324,11 +315,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 20,
+                    Id = 19,
                     Name = "Shaviyani",
-                    StateCode = "24",
-                    Latitude = "6.17511000",
-                    Longitude = "73.13496050",
+                    StateCode = "",
+                    Latitude = "6.33229970",
+                    Longitude = "73.23246350",
                     Type = "administrative atoll",
                     Cities = new()
                     {
@@ -338,38 +329,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 21,
-                    Name = "South",
-                    StateCode = "SU",
-                    Latitude = "-21.74820060",
-                    Longitude = "166.17837390",
-                    Type = "province",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 22,
-                    Name = "South Central",
-                    StateCode = "SC",
-                    Latitude = "7.25649960",
-                    Longitude = "80.72144170",
-                    Type = "province",
-                    Cities = new()
-                    {
-                        new() { Id = 1, Name = "Mahibadhoo", Latitude = "3.75713000", Longitude = "72.96893000" }
-                    }
-                },
-
-                new()
-                {
-                    Id = 23,
+                    Id = 20,
                     Name = "Thaa",
-                    StateCode = "08",
-                    Latitude = "2.43111610",
-                    Longitude = "73.18216230",
+                    StateCode = "",
+                    Latitude = "2.14616550",
+                    Longitude = "73.02882450",
                     Type = "administrative atoll",
                     Cities = new()
                     {
@@ -379,24 +343,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 24,
-                    Name = "Upper South",
-                    StateCode = "US",
-                    Latitude = "0.23070000",
-                    Longitude = "73.27948460",
-                    Type = "province",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 25,
+                    Id = 21,
                     Name = "Vaavu",
-                    StateCode = "04",
-                    Latitude = "3.39554380",
-                    Longitude = "73.51229280",
+                    StateCode = "",
+                    Latitude = "3.61524920",
+                    Longitude = "73.58699860",
                     Type = "administrative atoll",
                     Cities = new()
                     {

@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Georgia ar Su hag Inizi Sandwich ar Su",
                 ["ko"] = "사우스조지아",
                 ["pt-BR"] = "Ilhas Geórgias do Sul e Sandwich do Sul",
                 ["pt"] = "Ilhas Geórgia do Sul e Sanduíche do Sul",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Güney Georgia",
                 ["ru"] = "Южная Джорджия",
                 ["uk"] = "Південна Джорджія",
-                ["pl"] = "Południowa Georgia"
+                ["pl"] = "Południowa Georgia",
+                ["hi"] = "दक्षिण जॉर्जिया",
+                ["ar"] = "جنوب جورجيا"
             },
             States = new()
             {

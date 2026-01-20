@@ -40,6 +40,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Chile",
                 ["ko"] = "칠리",
                 ["pt-BR"] = "Chile",
                 ["pt"] = "Chile",
@@ -55,7 +56,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Şili",
                 ["ru"] = "Чили",
                 ["uk"] = "Чилі",
-                ["pl"] = "Chile"
+                ["pl"] = "Chile",
+                ["hi"] = "चिली",
+                ["ar"] = "تشيلي"
             },
             States = new()
             {
@@ -64,9 +67,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Aisén del General Carlos Ibañez del Campo",
-                    StateCode = "AI",
-                    Latitude = "-46.37834500",
-                    Longitude = "-72.30076230",
+                    StateCode = "",
+                    Latitude = "-46.45901470",
+                    Longitude = "-72.67183860",
                     Type = "region",
                     Cities = new()
                     {
@@ -87,9 +90,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Antofagasta",
-                    StateCode = "AN",
-                    Latitude = "-23.83691040",
-                    Longitude = "-69.28775350",
+                    StateCode = "",
+                    Latitude = "-23.60413140",
+                    Longitude = "-69.08427830",
                     Type = "region",
                     Cities = new()
                     {
@@ -109,9 +112,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Arica y Parinacota",
-                    StateCode = "AP",
-                    Latitude = "-18.59404850",
-                    Longitude = "-69.47845410",
+                    StateCode = "",
+                    Latitude = "-18.57134960",
+                    Longitude = "-69.78847740",
                     Type = "region",
                     Cities = new()
                     {
@@ -126,9 +129,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Atacama",
-                    StateCode = "AT",
-                    Latitude = "-27.56605580",
-                    Longitude = "-70.05031400",
+                    StateCode = "",
+                    Latitude = "-27.55717830",
+                    Longitude = "-70.01568820",
                     Type = "region",
                     Cities = new()
                     {
@@ -148,9 +151,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Biobío",
-                    StateCode = "BI",
-                    Latitude = "-37.44644280",
-                    Longitude = "-72.14161320",
+                    StateCode = "",
+                    Latitude = "-37.33914070",
+                    Longitude = "-72.41068250",
                     Type = "region",
                     Cities = new()
                     {
@@ -194,9 +197,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Coquimbo",
-                    StateCode = "CO",
-                    Latitude = "-30.54018100",
-                    Longitude = "-70.81199530",
+                    StateCode = "",
+                    Latitude = "-30.75466520",
+                    Longitude = "-70.90055360",
                     Type = "region",
                     Cities = new()
                     {
@@ -222,9 +225,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "La Araucanía",
-                    StateCode = "AR",
-                    Latitude = "-38.94892100",
-                    Longitude = "-72.33111300",
+                    StateCode = "",
+                    Latitude = "-40.90713140",
+                    Longitude = "-73.15732600",
                     Type = "region",
                     Cities = new()
                     {
@@ -267,9 +270,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Libertador General Bernardo O'Higgins",
-                    StateCode = "LI",
-                    Latitude = "-34.57553740",
-                    Longitude = "-71.00223110",
+                    StateCode = "",
+                    Latitude = "-34.53453800",
+                    Longitude = "-71.03548220",
                     Type = "region",
                     Cities = new()
                     {
@@ -313,9 +316,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Los Lagos",
-                    StateCode = "LL",
-                    Latitude = "-41.91977790",
-                    Longitude = "-72.14161320",
+                    StateCode = "",
+                    Latitude = "-42.30084400",
+                    Longitude = "-73.10538700",
                     Type = "region",
                     Cities = new()
                     {
@@ -356,9 +359,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Los Ríos",
-                    StateCode = "LR",
-                    Latitude = "-40.23102170",
-                    Longitude = "-72.33111300",
+                    StateCode = "",
+                    Latitude = "-39.97427470",
+                    Longitude = "-72.66770060",
                     Type = "region",
                     Cities = new()
                     {
@@ -381,13 +384,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Magallanes y de la Antártica Chilena",
-                    StateCode = "MA",
-                    Latitude = "-52.20643160",
-                    Longitude = "-72.16850010",
+                    StateCode = "",
+                    Latitude = "-53.35275180",
+                    Longitude = "-71.55477820",
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Antártica", Latitude = "-75.00000000", Longitude = "-71.50000000" },
+                        new() { Id = 1, Name = "Antártica", Latitude = "-53.14138970", Longitude = "-70.90576650" },
                         new() { Id = 2, Name = "Cabo de Hornos", Latitude = "-54.93333333", Longitude = "-67.61666667" },
                         new() { Id = 3, Name = "Laguna Blanca", Latitude = "-52.25000000", Longitude = "-71.91666667" },
                         new() { Id = 4, Name = "Natales", Latitude = "-51.73333333", Longitude = "-72.51666667" },
@@ -405,9 +408,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Maule",
-                    StateCode = "ML",
-                    Latitude = "-35.51636030",
-                    Longitude = "-71.57239530",
+                    StateCode = "",
+                    Latitude = "-35.52134700",
+                    Longitude = "-71.69188910",
                     Type = "region",
                     Cities = new()
                     {
@@ -448,9 +451,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Ñuble",
-                    StateCode = "NB",
-                    Latitude = "-36.72257430",
-                    Longitude = "-71.76224810",
+                    StateCode = "",
+                    Latitude = "-36.63315770",
+                    Longitude = "-71.93848210",
                     Type = "region",
                     Cities = new()
                     {
@@ -482,64 +485,18 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Región Metropolitana de Santiago",
-                    StateCode = "RM",
-                    Latitude = "-33.43755450",
-                    Longitude = "-70.65048960",
+                    StateCode = "",
+                    Latitude = "-33.57393410",
+                    Longitude = "-70.62055180",
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Alhué", Latitude = "-34.03333333", Longitude = "-71.10000000" },
-                        new() { Id = 2, Name = "Buin", Latitude = "-33.73257000", Longitude = "-70.74281000" },
-                        new() { Id = 3, Name = "Calera de Tango", Latitude = "-33.65000000", Longitude = "-70.81666667" },
-                        new() { Id = 4, Name = "Cerrillos", Latitude = "-33.50229190", Longitude = "-70.73009420" },
-                        new() { Id = 5, Name = "Cerro Navia", Latitude = "-33.42516430", Longitude = "-70.78407540" },
-                        new() { Id = 6, Name = "Colina", Latitude = "-33.20000000", Longitude = "-70.68333333" },
-                        new() { Id = 7, Name = "Conchalí", Latitude = "-33.35000000", Longitude = "-70.61666667" },
-                        new() { Id = 8, Name = "Curacaví", Latitude = "-33.46937830", Longitude = "-70.72612030" },
-                        new() { Id = 9, Name = "El Bosque", Latitude = "-33.56666667", Longitude = "-70.70000000" },
-                        new() { Id = 10, Name = "El Monte", Latitude = "-33.67969000", Longitude = "-70.98482000" },
-                        new() { Id = 11, Name = "Estación Central", Latitude = "-33.45194400", Longitude = "-70.67888900" },
-                        new() { Id = 12, Name = "Huechuraba", Latitude = "-33.36928270", Longitude = "-70.66482650" },
-                        new() { Id = 13, Name = "Independencia", Latitude = "-33.41666667", Longitude = "-70.63333333" },
-                        new() { Id = 14, Name = "Isla de Maipo", Latitude = "-33.75000000", Longitude = "-70.90000000" },
-                        new() { Id = 15, Name = "La Cisterna", Latitude = "-33.55000000", Longitude = "-70.68333000" },
-                        new() { Id = 16, Name = "La Florida", Latitude = "-33.55000000", Longitude = "-70.56666667" },
-                        new() { Id = 17, Name = "La Granja", Latitude = "-33.54305556", Longitude = "-70.63194444" },
-                        new() { Id = 18, Name = "La Pintana", Latitude = "-33.58331000", Longitude = "-70.63419000" },
-                        new() { Id = 19, Name = "La Reina", Latitude = "-33.45000000", Longitude = "-70.55000000" },
-                        new() { Id = 20, Name = "Lampa", Latitude = "-33.28630000", Longitude = "-70.87561000" },
-                        new() { Id = 21, Name = "Las Condes", Latitude = "-33.41666667", Longitude = "-70.58333333" },
-                        new() { Id = 22, Name = "Lo Barnechea", Latitude = "-33.35000000", Longitude = "-70.51666667" },
-                        new() { Id = 23, Name = "Lo Espejo", Latitude = "-33.53333333", Longitude = "-70.71666667" },
-                        new() { Id = 24, Name = "Lo Prado", Latitude = "-33.44430000", Longitude = "-70.72552000" },
-                        new() { Id = 25, Name = "Macul", Latitude = "-33.50000000", Longitude = "-70.56666667" },
-                        new() { Id = 26, Name = "Maipú", Latitude = "-33.51666667", Longitude = "-70.76666667" },
-                        new() { Id = 27, Name = "María Pinto", Latitude = "-33.53333333", Longitude = "-71.13333333" },
-                        new() { Id = 28, Name = "Melipilla", Latitude = "-33.68909000", Longitude = "-71.21528000" },
-                        new() { Id = 29, Name = "Ñuñoa", Latitude = "-33.46666667", Longitude = "-70.60000000" },
-                        new() { Id = 30, Name = "Padre Hurtado", Latitude = "-33.56666667", Longitude = "-70.83333333" },
-                        new() { Id = 31, Name = "Paine", Latitude = "-33.80796000", Longitude = "-70.74109000" },
-                        new() { Id = 32, Name = "Pedro Aguirre Cerda", Latitude = "-33.46666667", Longitude = "-70.63333333" },
-                        new() { Id = 33, Name = "Peñaflor", Latitude = "-33.60627000", Longitude = "-70.87649000" },
-                        new() { Id = 34, Name = "Peñalolén", Latitude = "-33.48333333", Longitude = "-70.53333333" },
-                        new() { Id = 35, Name = "Pirque", Latitude = "-33.71865000", Longitude = "-70.50658000" },
-                        new() { Id = 36, Name = "Providencia", Latitude = "-33.43333333", Longitude = "-70.61666667" },
-                        new() { Id = 37, Name = "Pudahuel", Latitude = "-33.41883590", Longitude = "-70.91463070" },
-                        new() { Id = 38, Name = "Puente Alto", Latitude = "-33.61169000", Longitude = "-70.57577000" },
-                        new() { Id = 39, Name = "Quilicura", Latitude = "-33.36666667", Longitude = "-70.75000000" },
-                        new() { Id = 40, Name = "Quinta Normal", Latitude = "-33.45000000", Longitude = "-70.70000000" },
-                        new() { Id = 41, Name = "Recoleta", Latitude = "-33.41666667", Longitude = "-70.65000000" },
-                        new() { Id = 42, Name = "Renca", Latitude = "-33.40000000", Longitude = "-70.73333333" },
-                        new() { Id = 43, Name = "San Bernardo", Latitude = "-33.59217000", Longitude = "-70.69960000" },
-                        new() { Id = 44, Name = "San Joaquín", Latitude = "-33.50000000", Longitude = "-70.61666667" },
-                        new() { Id = 45, Name = "San José de Maipo", Latitude = "-33.63333333", Longitude = "-70.36666667" },
-                        new() { Id = 46, Name = "San Miguel", Latitude = "-33.50000000", Longitude = "-70.66666667" },
-                        new() { Id = 47, Name = "San Pedro", Latitude = "-33.90000000", Longitude = "-71.46666667" },
-                        new() { Id = 48, Name = "San Ramón", Latitude = "-33.53775950", Longitude = "-70.65176730" },
-                        new() { Id = 49, Name = "Santiago", Latitude = "-33.45694000", Longitude = "-70.64827000" },
-                        new() { Id = 50, Name = "Talagante", Latitude = "-33.66386000", Longitude = "-70.92734000" },
-                        new() { Id = 51, Name = "Tiltil", Latitude = "-33.08333333", Longitude = "-70.93333333" },
-                        new() { Id = 52, Name = "Vitacura", Latitude = "-33.40000000", Longitude = "-70.60000000" }
+                        new() { Id = 1, Name = "Colina", Latitude = "-33.20000000", Longitude = "-70.68333333" },
+                        new() { Id = 2, Name = "Melipilla", Latitude = "-33.68909000", Longitude = "-71.21528000" },
+                        new() { Id = 3, Name = "Puente Alto", Latitude = "-33.61169000", Longitude = "-70.57577000" },
+                        new() { Id = 4, Name = "San Bernardo", Latitude = "-33.59217000", Longitude = "-70.69960000" },
+                        new() { Id = 5, Name = "Santiago", Latitude = "-33.45694000", Longitude = "-70.64827000" },
+                        new() { Id = 6, Name = "Talagante", Latitude = "-33.66386000", Longitude = "-70.92734000" }
                     }
                 },
 
@@ -547,9 +504,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Tarapacá",
-                    StateCode = "TA",
-                    Latitude = "-20.20287990",
-                    Longitude = "-69.28775350",
+                    StateCode = "",
+                    Latitude = "-20.16366720",
+                    Longitude = "-69.54634480",
                     Type = "region",
                     Cities = new()
                     {
@@ -567,7 +524,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Valparaíso",
-                    StateCode = "VS",
+                    StateCode = "",
                     Latitude = "-33.04723800",
                     Longitude = "-71.61268850",
                     Type = "region",

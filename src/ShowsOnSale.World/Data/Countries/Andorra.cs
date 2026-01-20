@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Andorra",
                 ["ko"] = "안도라",
                 ["pt-BR"] = "Andorra",
                 ["pt"] = "Andorra",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Andorra",
                 ["ru"] = "Андорра",
                 ["uk"] = "Андорра",
-                ["pl"] = "Andora"
+                ["pl"] = "Andora",
+                ["hi"] = "एंडोरा",
+                ["ar"] = "أندورا"
             },
             States = new()
             {
@@ -62,7 +65,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Andorra la Vella",
-                    StateCode = "07",
+                    StateCode = "",
                     Latitude = "42.50631740",
                     Longitude = "1.52183550",
                     Type = "parish",
@@ -76,9 +79,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Canillo",
-                    StateCode = "02",
-                    Latitude = "42.59782490",
-                    Longitude = "1.65663770",
+                    StateCode = "",
+                    Latitude = "42.58680920",
+                    Longitude = "1.65744310",
                     Type = "parish",
                     Cities = new()
                     {
@@ -91,7 +94,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Encamp",
-                    StateCode = "03",
+                    StateCode = "",
                     Latitude = "42.53597640",
                     Longitude = "1.58367730",
                     Type = "parish",
@@ -106,9 +109,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Escaldes-Engordany",
-                    StateCode = "08",
-                    Latitude = "42.49093790",
-                    Longitude = "1.58869660",
+                    StateCode = "",
+                    Latitude = "42.48619600",
+                    Longitude = "1.60377110",
                     Type = "parish",
                     Cities = new()
                     {
@@ -120,7 +123,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "La Massana",
-                    StateCode = "04",
+                    StateCode = "",
                     Latitude = "42.54562500",
                     Longitude = "1.51473920",
                     Type = "parish",
@@ -135,7 +138,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Ordino",
-                    StateCode = "05",
+                    StateCode = "",
                     Latitude = "42.59944330",
                     Longitude = "1.54023270",
                     Type = "parish",
@@ -149,9 +152,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Sant Julià de Lòria",
-                    StateCode = "06",
-                    Latitude = "42.45296310",
-                    Longitude = "1.49182350",
+                    StateCode = "",
+                    Latitude = "42.46685410",
+                    Longitude = "1.49232770",
                     Type = "parish",
                     Cities = new()
                     {

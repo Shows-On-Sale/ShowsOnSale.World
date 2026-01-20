@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Oman",
                 ["ko"] = "오만",
                 ["pt-BR"] = "Omã",
                 ["pt"] = "Omã",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Umman",
                 ["ru"] = "Оман",
                 ["uk"] = "Оман",
-                ["pl"] = "Oman"
+                ["pl"] = "Oman",
+                ["hi"] = "ओमान",
+                ["ar"] = "عمان"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Ad Dakhiliyah",
-                    StateCode = "DA",
-                    Latitude = "22.85887580",
-                    Longitude = "57.53943560",
+                    StateCode = "",
+                    Latitude = "22.22597520",
+                    Longitude = "57.36927220",
                     Type = "governorate",
                     Cities = new()
                     {
@@ -81,9 +84,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Ad Dhahirah",
-                    StateCode = "ZA",
-                    Latitude = "23.21616740",
-                    Longitude = "56.49074440",
+                    StateCode = "",
+                    Latitude = "22.65052320",
+                    Longitude = "56.06162950",
                     Type = "governorate",
                     Cities = new()
                     {
@@ -96,9 +99,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Al Batinah North",
-                    StateCode = "BS",
-                    Latitude = "24.34198460",
-                    Longitude = "56.72989040",
+                    StateCode = "",
+                    Latitude = "24.23718790",
+                    Longitude = "56.57011980",
                     Type = "governorate",
                     Cities = new()
                     {
@@ -114,10 +117,10 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 4,
-                    Name = "Al Batinah Region",
-                    StateCode = "BA",
-                    Latitude = "24.34198460",
-                    Longitude = "56.72989040",
+                    Name = "Al Batinah South",
+                    StateCode = "",
+                    Latitude = "23.36739110",
+                    Longitude = "57.47378630",
                     Type = "governorate",
                     Cities = new()
                     {
@@ -131,23 +134,10 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 5,
-                    Name = "Al Batinah South",
-                    StateCode = "BJ",
-                    Latitude = "23.43149030",
-                    Longitude = "57.42397960",
-                    Type = "governorate",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 6,
                     Name = "Al Buraimi",
-                    StateCode = "BU",
-                    Latitude = "24.16714130",
-                    Longitude = "56.11422530",
+                    StateCode = "",
+                    Latitude = "24.16149480",
+                    Longitude = "56.14641020",
                     Type = "governorate",
                     Cities = new()
                     {
@@ -157,11 +147,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 7,
+                    Id = 6,
                     Name = "Al Wusta",
-                    StateCode = "WU",
-                    Latitude = "19.95710780",
-                    Longitude = "56.27568460",
+                    StateCode = "",
+                    Latitude = "19.72503470",
+                    Longitude = "56.43136710",
                     Type = "governorate",
                     Cities = new()
                     {
@@ -171,11 +161,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 8,
+                    Id = 7,
                     Name = "Ash Sharqiyah North",
-                    StateCode = "SS",
-                    Latitude = "22.71411960",
-                    Longitude = "58.53080640",
+                    StateCode = "",
+                    Latitude = "22.20247380",
+                    Longitude = "58.51590720",
                     Type = "governorate",
                     Cities = new()
                     {
@@ -184,11 +174,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 9,
-                    Name = "Ash Sharqiyah Region",
-                    StateCode = "SH",
-                    Latitude = "22.71411960",
-                    Longitude = "58.53080640",
+                    Id = 8,
+                    Name = "Ash Sharqiyah South",
+                    StateCode = "",
+                    Latitude = "21.90987800",
+                    Longitude = "59.30781170",
                     Type = "governorate",
                     Cities = new()
                     {
@@ -198,24 +188,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 10,
-                    Name = "Ash Sharqiyah South",
-                    StateCode = "SJ",
-                    Latitude = "22.01582490",
-                    Longitude = "59.32519220",
-                    Type = "governorate",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 11,
+                    Id = 9,
                     Name = "Dhofar",
-                    StateCode = "ZU",
-                    Latitude = "17.03221210",
-                    Longitude = "54.14252140",
+                    StateCode = "",
+                    Latitude = "18.33688290",
+                    Longitude = "54.20929940",
                     Type = "governorate",
                     Cities = new()
                     {
@@ -225,11 +202,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 12,
+                    Id = 10,
                     Name = "Musandam",
-                    StateCode = "MU",
-                    Latitude = "26.19861440",
-                    Longitude = "56.24609490",
+                    StateCode = "",
+                    Latitude = "26.15232150",
+                    Longitude = "56.32948950",
                     Type = "governorate",
                     Cities = new()
                     {
@@ -241,11 +218,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 13,
+                    Id = 11,
                     Name = "Muscat",
-                    StateCode = "MA",
-                    Latitude = "23.58803070",
-                    Longitude = "58.38287170",
+                    StateCode = "",
+                    Latitude = "23.61236280",
+                    Longitude = "58.59381340",
                     Type = "governorate",
                     Cities = new()
                     {

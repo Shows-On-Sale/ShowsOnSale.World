@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Turkia",
                 ["ko"] = "터키",
                 ["pt-BR"] = "Turquia",
                 ["pt"] = "Turquia",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Türkiye",
                 ["ru"] = "Турция",
                 ["uk"] = "Туреччина",
-                ["pl"] = "Turcja"
+                ["pl"] = "Turcja",
+                ["hi"] = "टर्की",
+                ["ar"] = "ديك رومى"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Adana",
-                    StateCode = "01",
-                    Latitude = "37.26123150",
-                    Longitude = "35.39050460",
+                    StateCode = "",
+                    Latitude = "37.14380010",
+                    Longitude = "35.49840940",
                     Type = "province",
                     Cities = new()
                     {
@@ -91,9 +94,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Adıyaman",
-                    StateCode = "02",
-                    Latitude = "37.90782910",
-                    Longitude = "38.48499230",
+                    StateCode = "",
+                    Latitude = "37.78936000",
+                    Longitude = "38.31411010",
                     Type = "province",
                     Cities = new()
                     {
@@ -113,9 +116,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Afyonkarahisar",
-                    StateCode = "03",
-                    Latitude = "38.73910990",
-                    Longitude = "30.71200230",
+                    StateCode = "",
+                    Latitude = "38.68527290",
+                    Longitude = "30.64274110",
                     Type = "province",
                     Cities = new()
                     {
@@ -144,9 +147,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Ağrı",
-                    StateCode = "04",
-                    Latitude = "39.62692180",
-                    Longitude = "43.02159650",
+                    StateCode = "",
+                    Latitude = "39.71912500",
+                    Longitude = "43.05048940",
                     Type = "province",
                     Cities = new()
                     {
@@ -165,9 +168,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Aksaray",
-                    StateCode = "68",
-                    Latitude = "38.33520430",
-                    Longitude = "33.97500180",
+                    StateCode = "",
+                    Latitude = "38.37054160",
+                    Longitude = "34.02690700",
                     Type = "province",
                     Cities = new()
                     {
@@ -186,9 +189,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Amasya",
-                    StateCode = "05",
-                    Latitude = "40.65166080",
-                    Longitude = "35.90379660",
+                    StateCode = "",
+                    Latitude = "40.65032480",
+                    Longitude = "35.83291480",
                     Type = "province",
                     Cities = new()
                     {
@@ -206,9 +209,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Ankara",
-                    StateCode = "06",
-                    Latitude = "39.78052450",
-                    Longitude = "32.71813750",
+                    StateCode = "",
+                    Latitude = "39.71604220",
+                    Longitude = "32.70591590",
                     Type = "province",
                     Cities = new()
                     {
@@ -245,9 +248,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Antalya",
-                    StateCode = "07",
-                    Latitude = "37.09516720",
-                    Longitude = "31.07937050",
+                    StateCode = "",
+                    Latitude = "36.92796540",
+                    Longitude = "30.72768650",
                     Type = "province",
                     Cities = new()
                     {
@@ -278,9 +281,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Ardahan",
-                    StateCode = "75",
-                    Latitude = "41.11129640",
-                    Longitude = "42.78316740",
+                    StateCode = "",
+                    Latitude = "41.11029660",
+                    Longitude = "42.70355850",
                     Type = "province",
                     Cities = new()
                     {
@@ -297,9 +300,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Artvin",
-                    StateCode = "08",
-                    Latitude = "41.07866400",
-                    Longitude = "41.76282230",
+                    StateCode = "",
+                    Latitude = "41.16050600",
+                    Longitude = "41.83986270",
                     Type = "province",
                     Cities = new()
                     {
@@ -319,9 +322,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Aydın",
-                    StateCode = "09",
-                    Latitude = "37.81170330",
-                    Longitude = "28.48639630",
+                    StateCode = "",
+                    Latitude = "37.74057980",
+                    Longitude = "28.06764040",
                     Type = "province",
                     Cities = new()
                     {
@@ -349,9 +352,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Balıkesir",
-                    StateCode = "10",
-                    Latitude = "39.76167820",
-                    Longitude = "28.11226790",
+                    StateCode = "",
+                    Latitude = "39.64739170",
+                    Longitude = "27.88797870",
                     Type = "province",
                     Cities = new()
                     {
@@ -382,9 +385,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Bartın",
-                    StateCode = "74",
-                    Latitude = "41.58105090",
-                    Longitude = "32.46097940",
+                    StateCode = "",
+                    Latitude = "41.49477150",
+                    Longitude = "32.43542550",
                     Type = "province",
                     Cities = new()
                     {
@@ -399,9 +402,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Batman",
-                    StateCode = "72",
-                    Latitude = "37.83624960",
-                    Longitude = "41.36057390",
+                    StateCode = "",
+                    Latitude = "37.78741040",
+                    Longitude = "41.25739240",
                     Type = "province",
                     Cities = new()
                     {
@@ -418,7 +421,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Bayburt",
-                    StateCode = "69",
+                    StateCode = "",
                     Latitude = "40.26032000",
                     Longitude = "40.22804800",
                     Type = "province",
@@ -434,9 +437,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Bilecik",
-                    StateCode = "11",
-                    Latitude = "40.05665550",
-                    Longitude = "30.06652360",
+                    StateCode = "",
+                    Latitude = "40.14351010",
+                    Longitude = "29.97529110",
                     Type = "province",
                     Cities = new()
                     {
@@ -455,9 +458,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Bingöl",
-                    StateCode = "12",
-                    Latitude = "39.06263540",
-                    Longitude = "40.76960950",
+                    StateCode = "",
+                    Latitude = "39.07380300",
+                    Longitude = "40.72961810",
                     Type = "province",
                     Cities = new()
                     {
@@ -476,9 +479,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Bitlis",
-                    StateCode = "13",
-                    Latitude = "38.65231330",
-                    Longitude = "42.42020280",
+                    StateCode = "",
+                    Latitude = "38.49508670",
+                    Longitude = "42.16783720",
                     Type = "province",
                     Cities = new()
                     {
@@ -496,9 +499,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 19,
                     Name = "Bolu",
-                    StateCode = "14",
-                    Latitude = "40.57597660",
-                    Longitude = "31.57880860",
+                    StateCode = "",
+                    Latitude = "40.62120990",
+                    Longitude = "31.64602590",
                     Type = "province",
                     Cities = new()
                     {
@@ -518,9 +521,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 20,
                     Name = "Burdur",
-                    StateCode = "15",
-                    Latitude = "37.46126690",
-                    Longitude = "30.06652360",
+                    StateCode = "",
+                    Latitude = "37.51834070",
+                    Longitude = "30.16912540",
                     Type = "province",
                     Cities = new()
                     {
@@ -542,9 +545,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 21,
                     Name = "Bursa",
-                    StateCode = "16",
-                    Latitude = "40.06554590",
-                    Longitude = "29.23207840",
+                    StateCode = "",
+                    Latitude = "40.18257340",
+                    Longitude = "29.06750390",
                     Type = "province",
                     Cities = new()
                     {
@@ -572,9 +575,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 22,
                     Name = "Çanakkale",
-                    StateCode = "17",
-                    Latitude = "40.05101040",
-                    Longitude = "26.98524220",
+                    StateCode = "",
+                    Latitude = "40.05498860",
+                    Longitude = "26.92782920",
                     Type = "province",
                     Cities = new()
                     {
@@ -597,9 +600,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 23,
                     Name = "Çankırı",
-                    StateCode = "18",
-                    Latitude = "40.53690730",
-                    Longitude = "33.58838930",
+                    StateCode = "",
+                    Latitude = "40.59719470",
+                    Longitude = "33.62127040",
                     Type = "province",
                     Cities = new()
                     {
@@ -622,9 +625,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 24,
                     Name = "Çorum",
-                    StateCode = "19",
-                    Latitude = "40.49982110",
-                    Longitude = "34.59862630",
+                    StateCode = "",
+                    Latitude = "40.56983890",
+                    Longitude = "34.72692920",
                     Type = "province",
                     Cities = new()
                     {
@@ -649,9 +652,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 25,
                     Name = "Denizli",
-                    StateCode = "20",
-                    Latitude = "37.61283950",
-                    Longitude = "29.23207840",
+                    StateCode = "",
+                    Latitude = "37.78278750",
+                    Longitude = "29.09664760",
                     Type = "province",
                     Cities = new()
                     {
@@ -681,9 +684,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 26,
                     Name = "Diyarbakır",
-                    StateCode = "21",
-                    Latitude = "38.10663720",
-                    Longitude = "40.54268960",
+                    StateCode = "",
+                    Latitude = "38.08147160",
+                    Longitude = "40.42977670",
                     Type = "province",
                     Cities = new()
                     {
@@ -711,9 +714,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 27,
                     Name = "Düzce",
-                    StateCode = "81",
-                    Latitude = "40.87705310",
-                    Longitude = "31.31927130",
+                    StateCode = "",
+                    Latitude = "40.87745450",
+                    Longitude = "31.20096180",
                     Type = "province",
                     Cities = new()
                     {
@@ -732,9 +735,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 28,
                     Name = "Edirne",
-                    StateCode = "22",
-                    Latitude = "41.15172220",
-                    Longitude = "26.51379640",
+                    StateCode = "",
+                    Latitude = "41.18044990",
+                    Longitude = "26.62224420",
                     Type = "province",
                     Cities = new()
                     {
@@ -754,9 +757,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 29,
                     Name = "Elazığ",
-                    StateCode = "23",
-                    Latitude = "38.49648040",
-                    Longitude = "39.21990290",
+                    StateCode = "",
+                    Latitude = "38.58247710",
+                    Longitude = "39.39617900",
                     Type = "province",
                     Cities = new()
                     {
@@ -778,9 +781,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 30,
                     Name = "Erzincan",
-                    StateCode = "24",
-                    Latitude = "39.76819140",
-                    Longitude = "39.05013060",
+                    StateCode = "",
+                    Latitude = "39.60734290",
+                    Longitude = "39.20132090",
                     Type = "province",
                     Cities = new()
                     {
@@ -800,9 +803,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 31,
                     Name = "Erzurum",
-                    StateCode = "25",
-                    Latitude = "40.07467990",
-                    Longitude = "41.66945620",
+                    StateCode = "",
+                    Latitude = "39.90632000",
+                    Longitude = "41.27277150",
                     Type = "province",
                     Cities = new()
                     {
@@ -833,9 +836,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 32,
                     Name = "Eskişehir",
-                    StateCode = "26",
-                    Latitude = "39.63296570",
-                    Longitude = "31.26263660",
+                    StateCode = "",
+                    Latitude = "39.68211560",
+                    Longitude = "31.07234760",
                     Type = "province",
                     Cities = new()
                     {
@@ -860,9 +863,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 33,
                     Name = "Gaziantep",
-                    StateCode = "27",
-                    Latitude = "37.07638820",
-                    Longitude = "37.38272340",
+                    StateCode = "",
+                    Latitude = "37.06283170",
+                    Longitude = "37.37926170",
                     Type = "province",
                     Cities = new()
                     {
@@ -882,9 +885,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 34,
                     Name = "Giresun",
-                    StateCode = "28",
-                    Latitude = "40.64616720",
-                    Longitude = "38.59355110",
+                    StateCode = "",
+                    Latitude = "40.65316170",
+                    Longitude = "38.51720320",
                     Type = "province",
                     Cities = new()
                     {
@@ -911,9 +914,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 35,
                     Name = "Gümüşhane",
-                    StateCode = "29",
-                    Latitude = "40.28036730",
-                    Longitude = "39.31432530",
+                    StateCode = "",
+                    Latitude = "40.25332190",
+                    Longitude = "39.38496800",
                     Type = "province",
                     Cities = new()
                     {
@@ -930,9 +933,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 36,
                     Name = "Hakkâri",
-                    StateCode = "30",
-                    Latitude = "37.44593190",
-                    Longitude = "43.74498410",
+                    StateCode = "",
+                    Latitude = "37.57669590",
+                    Longitude = "43.73778620",
                     Type = "province",
                     Cities = new()
                     {
@@ -948,9 +951,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 37,
                     Name = "Hatay",
-                    StateCode = "31",
-                    Latitude = "36.40184880",
-                    Longitude = "36.34980970",
+                    StateCode = "",
+                    Latitude = "36.34513320",
+                    Longitude = "36.07480220",
                     Type = "province",
                     Cities = new()
                     {
@@ -976,9 +979,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 38,
                     Name = "Iğdır",
-                    StateCode = "76",
-                    Latitude = "39.88798410",
-                    Longitude = "44.00483650",
+                    StateCode = "",
+                    Latitude = "39.92187840",
+                    Longitude = "44.04679570",
                     Type = "province",
                     Cities = new()
                     {
@@ -993,9 +996,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 39,
                     Name = "Isparta",
-                    StateCode = "32",
-                    Latitude = "38.02114640",
-                    Longitude = "31.07937050",
+                    StateCode = "",
+                    Latitude = "37.94654120",
+                    Longitude = "30.96020930",
                     Type = "province",
                     Cities = new()
                     {
@@ -1019,9 +1022,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 40,
                     Name = "İstanbul",
-                    StateCode = "34",
-                    Latitude = "41.16343020",
-                    Longitude = "28.76644080",
+                    StateCode = "",
+                    Latitude = "41.00638100",
+                    Longitude = "28.97587150",
                     Type = "province",
                     Cities = new()
                     {
@@ -1072,9 +1075,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 41,
                     Name = "İzmir",
-                    StateCode = "35",
-                    Latitude = "38.35916930",
-                    Longitude = "27.26761160",
+                    StateCode = "",
+                    Latitude = "38.41925370",
+                    Longitude = "27.12846900",
                     Type = "province",
                     Cities = new()
                     {
@@ -1116,9 +1119,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 42,
                     Name = "Kahramanmaraş",
-                    StateCode = "46",
-                    Latitude = "37.75030360",
-                    Longitude = "36.95410700",
+                    StateCode = "",
+                    Latitude = "37.78303450",
+                    Longitude = "36.83065500",
                     Type = "province",
                     Cities = new()
                     {
@@ -1140,9 +1143,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 43,
                     Name = "Karabük",
-                    StateCode = "78",
-                    Latitude = "41.18748900",
-                    Longitude = "32.74174190",
+                    StateCode = "",
+                    Latitude = "41.19554020",
+                    Longitude = "32.62311540",
                     Type = "province",
                     Cities = new()
                     {
@@ -1159,9 +1162,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 44,
                     Name = "Karaman",
-                    StateCode = "70",
-                    Latitude = "37.24363360",
-                    Longitude = "33.61757700",
+                    StateCode = "",
+                    Latitude = "37.17968480",
+                    Longitude = "33.33836650",
                     Type = "province",
                     Cities = new()
                     {
@@ -1178,9 +1181,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 45,
                     Name = "Kars",
-                    StateCode = "36",
-                    Latitude = "40.28076360",
-                    Longitude = "42.99195270",
+                    StateCode = "",
+                    Latitude = "40.45584350",
+                    Longitude = "42.99795310",
                     Type = "province",
                     Cities = new()
                     {
@@ -1199,9 +1202,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 46,
                     Name = "Kastamonu",
-                    StateCode = "37",
-                    Latitude = "41.41038630",
-                    Longitude = "33.69983340",
+                    StateCode = "",
+                    Latitude = "41.36802170",
+                    Longitude = "33.76191770",
                     Type = "province",
                     Cities = new()
                     {
@@ -1232,9 +1235,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 47,
                     Name = "Kayseri",
-                    StateCode = "38",
-                    Latitude = "38.62568540",
-                    Longitude = "35.74068820",
+                    StateCode = "",
+                    Latitude = "38.65822320",
+                    Longitude = "35.55463740",
                     Type = "province",
                     Cities = new()
                     {
@@ -1262,9 +1265,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 48,
                     Name = "Kilis",
-                    StateCode = "79",
-                    Latitude = "36.82047750",
-                    Longitude = "37.16873390",
+                    StateCode = "",
+                    Latitude = "36.77972310",
+                    Longitude = "37.14168920",
                     Type = "province",
                     Cities = new()
                     {
@@ -1279,9 +1282,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 49,
                     Name = "Kırıkkale",
-                    StateCode = "71",
-                    Latitude = "39.88768780",
-                    Longitude = "33.75552480",
+                    StateCode = "",
+                    Latitude = "39.88601050",
+                    Longitude = "33.82789920",
                     Type = "province",
                     Cities = new()
                     {
@@ -1301,9 +1304,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 50,
                     Name = "Kırklareli",
-                    StateCode = "39",
-                    Latitude = "41.72597950",
-                    Longitude = "27.48383900",
+                    StateCode = "",
+                    Latitude = "41.70780460",
+                    Longitude = "27.60513340",
                     Type = "province",
                     Cities = new()
                     {
@@ -1322,9 +1325,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 51,
                     Name = "Kırşehir",
-                    StateCode = "40",
-                    Latitude = "39.22689050",
-                    Longitude = "33.97500180",
+                    StateCode = "",
+                    Latitude = "39.33030660",
+                    Longitude = "34.12658840",
                     Type = "province",
                     Cities = new()
                     {
@@ -1342,9 +1345,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 52,
                     Name = "Kocaeli",
-                    StateCode = "41",
-                    Latitude = "40.85327040",
-                    Longitude = "29.88152030",
+                    StateCode = "",
+                    Latitude = "40.82165360",
+                    Longitude = "29.95071840",
                     Type = "province",
                     Cities = new()
                     {
@@ -1367,9 +1370,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 53,
                     Name = "Konya",
-                    StateCode = "42",
-                    Latitude = "37.98381340",
-                    Longitude = "32.71813750",
+                    StateCode = "",
+                    Latitude = "38.02119510",
+                    Longitude = "32.52249430",
                     Type = "province",
                     Cities = new()
                     {
@@ -1411,9 +1414,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 54,
                     Name = "Kütahya",
-                    StateCode = "43",
-                    Latitude = "39.35813700",
-                    Longitude = "29.60354950",
+                    StateCode = "",
+                    Latitude = "39.25225080",
+                    Longitude = "29.49377320",
                     Type = "province",
                     Cities = new()
                     {
@@ -1437,9 +1440,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 55,
                     Name = "Malatya",
-                    StateCode = "44",
-                    Latitude = "38.40150570",
-                    Longitude = "37.95362980",
+                    StateCode = "",
+                    Latitude = "38.48201560",
+                    Longitude = "38.10353550",
                     Type = "province",
                     Cities = new()
                     {
@@ -1463,9 +1466,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 56,
                     Name = "Manisa",
-                    StateCode = "45",
-                    Latitude = "38.84193730",
-                    Longitude = "28.11226790",
+                    StateCode = "",
+                    Latitude = "38.85744020",
+                    Longitude = "28.05657110",
                     Type = "province",
                     Cities = new()
                     {
@@ -1493,9 +1496,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 57,
                     Name = "Mardin",
-                    StateCode = "47",
-                    Latitude = "37.34429290",
-                    Longitude = "40.61964870",
+                    StateCode = "",
+                    Latitude = "37.32098020",
+                    Longitude = "40.72512950",
                     Type = "province",
                     Cities = new()
                     {
@@ -1516,9 +1519,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 58,
                     Name = "Mersin",
-                    StateCode = "33",
-                    Latitude = "36.81208580",
-                    Longitude = "34.64147500",
+                    StateCode = "",
+                    Latitude = "36.79783810",
+                    Longitude = "34.62983910",
                     Type = "province",
                     Cities = new()
                     {
@@ -1543,9 +1546,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 59,
                     Name = "Muğla",
-                    StateCode = "48",
-                    Latitude = "37.18358190",
-                    Longitude = "28.48639630",
+                    StateCode = "",
+                    Latitude = "37.21517840",
+                    Longitude = "28.36373300",
                     Type = "province",
                     Cities = new()
                     {
@@ -1569,9 +1572,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 60,
                     Name = "Muş",
-                    StateCode = "49",
-                    Latitude = "38.94618880",
-                    Longitude = "41.75389310",
+                    StateCode = "",
+                    Latitude = "38.97407860",
+                    Longitude = "41.95904330",
                     Type = "province",
                     Cities = new()
                     {
@@ -1588,9 +1591,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 61,
                     Name = "Nevşehir",
-                    StateCode = "50",
-                    Latitude = "38.69393990",
-                    Longitude = "34.68565090",
+                    StateCode = "",
+                    Latitude = "38.72350720",
+                    Longitude = "34.71941680",
                     Type = "province",
                     Cities = new()
                     {
@@ -1609,9 +1612,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 62,
                     Name = "Niğde",
-                    StateCode = "51",
-                    Latitude = "38.09930860",
-                    Longitude = "34.68565090",
+                    StateCode = "",
+                    Latitude = "38.06646910",
+                    Longitude = "34.70514380",
                     Type = "province",
                     Cities = new()
                     {
@@ -1628,9 +1631,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 63,
                     Name = "Ordu",
-                    StateCode = "52",
-                    Latitude = "40.79905800",
-                    Longitude = "37.38990050",
+                    StateCode = "",
+                    Latitude = "40.82925690",
+                    Longitude = "37.40827640",
                     Type = "province",
                     Cities = new()
                     {
@@ -1660,9 +1663,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 64,
                     Name = "Osmaniye",
-                    StateCode = "80",
-                    Latitude = "37.21302580",
-                    Longitude = "36.17626150",
+                    StateCode = "",
+                    Latitude = "37.25178820",
+                    Longitude = "36.29935020",
                     Type = "province",
                     Cities = new()
                     {
@@ -1680,9 +1683,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 65,
                     Name = "Rize",
-                    StateCode = "53",
-                    Latitude = "40.95814970",
-                    Longitude = "40.92269850",
+                    StateCode = "",
+                    Latitude = "40.95696170",
+                    Longitude = "40.88442800",
                     Type = "province",
                     Cities = new()
                     {
@@ -1705,9 +1708,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 66,
                     Name = "Sakarya",
-                    StateCode = "54",
-                    Latitude = "40.78885500",
-                    Longitude = "30.40595400",
+                    StateCode = "",
+                    Latitude = "40.77551880",
+                    Longitude = "30.40208980",
                     Type = "province",
                     Cities = new()
                     {
@@ -1734,9 +1737,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 67,
                     Name = "Samsun",
-                    StateCode = "55",
-                    Latitude = "41.18648590",
-                    Longitude = "36.13226780",
+                    StateCode = "",
+                    Latitude = "41.23035570",
+                    Longitude = "35.96833380",
                     Type = "province",
                     Cities = new()
                     {
@@ -1764,9 +1767,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 68,
                     Name = "Şanlıurfa",
-                    StateCode = "63",
-                    Latitude = "37.35691020",
-                    Longitude = "39.15436770",
+                    StateCode = "",
+                    Latitude = "37.25951980",
+                    Longitude = "39.04081740",
                     Type = "province",
                     Cities = new()
                     {
@@ -1790,9 +1793,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 69,
                     Name = "Siirt",
-                    StateCode = "56",
-                    Latitude = "37.86588620",
-                    Longitude = "42.14945230",
+                    StateCode = "",
+                    Latitude = "37.86469160",
+                    Longitude = "42.05102940",
                     Type = "province",
                     Cities = new()
                     {
@@ -1810,9 +1813,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 70,
                     Name = "Sinop",
-                    StateCode = "57",
-                    Latitude = "41.55947490",
-                    Longitude = "34.85805320",
+                    StateCode = "",
+                    Latitude = "41.64763770",
+                    Longitude = "34.95601370",
                     Type = "province",
                     Cities = new()
                     {
@@ -1832,9 +1835,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 71,
                     Name = "Sivas",
-                    StateCode = "58",
-                    Latitude = "39.44880390",
-                    Longitude = "37.12944970",
+                    StateCode = "",
+                    Latitude = "39.41917170",
+                    Longitude = "37.10123880",
                     Type = "province",
                     Cities = new()
                     {
@@ -1862,9 +1865,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 72,
                     Name = "Şırnak",
-                    StateCode = "73",
-                    Latitude = "37.41874810",
-                    Longitude = "42.49183380",
+                    StateCode = "",
+                    Latitude = "37.45525300",
+                    Longitude = "42.52120490",
                     Type = "province",
                     Cities = new()
                     {
@@ -1882,9 +1885,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 73,
                     Name = "Tekirdağ",
-                    StateCode = "59",
-                    Latitude = "41.11212270",
-                    Longitude = "27.26761160",
+                    StateCode = "",
+                    Latitude = "41.07314030",
+                    Longitude = "27.41020130",
                     Type = "province",
                     Cities = new()
                     {
@@ -1906,7 +1909,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 74,
                     Name = "Tokat",
-                    StateCode = "60",
+                    StateCode = "",
                     Latitude = "40.39027130",
                     Longitude = "36.62518630",
                     Type = "province",
@@ -1931,9 +1934,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 75,
                     Name = "Trabzon",
-                    StateCode = "61",
-                    Latitude = "40.79924100",
-                    Longitude = "39.58479440",
+                    StateCode = "",
+                    Latitude = "40.85264390",
+                    Longitude = "39.78492730",
                     Type = "province",
                     Cities = new()
                     {
@@ -1962,9 +1965,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 76,
                     Name = "Tunceli",
-                    StateCode = "62",
-                    Latitude = "39.30735540",
-                    Longitude = "39.43877780",
+                    StateCode = "",
+                    Latitude = "39.21975530",
+                    Longitude = "39.41396740",
                     Type = "province",
                     Cities = new()
                     {
@@ -1983,9 +1986,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 77,
                     Name = "Uşak",
-                    StateCode = "64",
-                    Latitude = "38.54313190",
-                    Longitude = "29.23207840",
+                    StateCode = "",
+                    Latitude = "38.57689020",
+                    Longitude = "29.37297790",
                     Type = "province",
                     Cities = new()
                     {
@@ -2002,9 +2005,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 78,
                     Name = "Van",
-                    StateCode = "65",
-                    Latitude = "38.36794170",
-                    Longitude = "43.71827870",
+                    StateCode = "",
+                    Latitude = "38.32495990",
+                    Longitude = "43.65898250",
                     Type = "province",
                     Cities = new()
                     {
@@ -2028,9 +2031,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 79,
                     Name = "Yalova",
-                    StateCode = "77",
-                    Latitude = "40.57759860",
-                    Longitude = "29.20883030",
+                    StateCode = "",
+                    Latitude = "40.57954220",
+                    Longitude = "29.16870050",
                     Type = "province",
                     Cities = new()
                     {
@@ -2047,9 +2050,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 80,
                     Name = "Yozgat",
-                    StateCode = "66",
-                    Latitude = "39.72719790",
-                    Longitude = "35.10778580",
+                    StateCode = "",
+                    Latitude = "39.71524220",
+                    Longitude = "35.17099800",
                     Type = "province",
                     Cities = new()
                     {
@@ -2074,9 +2077,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 81,
                     Name = "Zonguldak",
-                    StateCode = "67",
-                    Latitude = "41.31249170",
-                    Longitude = "31.85982510",
+                    StateCode = "",
+                    Latitude = "41.25032400",
+                    Longitude = "31.83897380",
                     Type = "province",
                     Cities = new()
                     {

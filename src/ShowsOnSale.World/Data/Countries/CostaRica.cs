@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Costa Rica",
                 ["ko"] = "코스타리카",
                 ["pt-BR"] = "Costa Rica",
                 ["pt"] = "Costa Rica",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Kosta Rika",
                 ["ru"] = "Коста-Рика",
                 ["uk"] = "Коста-Ріка",
-                ["pl"] = "Kostaryka"
+                ["pl"] = "Kostaryka",
+                ["hi"] = "कोस्टा रिका",
+                ["ar"] = "كوستاريكا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Alajuela",
-                    StateCode = "A",
-                    Latitude = "10.39158300",
-                    Longitude = "-84.43827210",
+                    StateCode = "",
+                    Latitude = "10.45233160",
+                    Longitude = "-84.46632840",
                     Type = "province",
                     Cities = new()
                     {
@@ -104,7 +107,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Cartago",
-                    StateCode = "C",
+                    StateCode = "",
                     Latitude = "9.86223110",
                     Longitude = "-83.92141870",
                     Type = "province",
@@ -135,9 +138,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Guanacaste",
-                    StateCode = "G",
-                    Latitude = "10.62673990",
-                    Longitude = "-85.44367060",
+                    StateCode = "",
+                    Latitude = "10.37884410",
+                    Longitude = "-85.43382870",
                     Type = "province",
                     Cities = new()
                     {
@@ -164,9 +167,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Heredia",
-                    StateCode = "H",
-                    Latitude = "10.47352300",
-                    Longitude = "-84.01674230",
+                    StateCode = "",
+                    Latitude = "10.37678130",
+                    Longitude = "-84.01397210",
                     Type = "province",
                     Cities = new()
                     {
@@ -194,7 +197,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Limón",
-                    StateCode = "L",
+                    StateCode = "",
                     Latitude = "9.98963980",
                     Longitude = "-83.03324170",
                     Type = "province",
@@ -218,9 +221,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Puntarenas",
-                    StateCode = "P",
-                    Latitude = "9.21695310",
-                    Longitude = "-83.33618800",
+                    StateCode = "",
+                    Latitude = "9.09532790",
+                    Longitude = "-84.20030380",
                     Type = "province",
                     Cities = new()
                     {
@@ -250,9 +253,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "San José",
-                    StateCode = "SJ",
-                    Latitude = "9.91297270",
-                    Longitude = "-84.07682940",
+                    StateCode = "",
+                    Latitude = "9.93254270",
+                    Longitude = "-84.07957820",
                     Type = "province",
                     Cities = new()
                     {

@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Senegal",
                 ["ko"] = "세네갈",
                 ["pt-BR"] = "Senegal",
                 ["pt"] = "Senegal",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Senegal",
                 ["ru"] = "Сенегал",
                 ["uk"] = "Сенегал",
-                ["pl"] = "Senegal"
+                ["pl"] = "Senegal",
+                ["hi"] = "सेनेगल",
+                ["ar"] = "السنغال"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Dakar",
-                    StateCode = "DK",
-                    Latitude = "14.71667700",
-                    Longitude = "-17.46768610",
+                    StateCode = "",
+                    Latitude = "14.69342500",
+                    Longitude = "-17.44793800",
                     Type = "region",
                     Cities = new()
                     {
@@ -83,9 +86,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Diourbel Region",
-                    StateCode = "DB",
-                    Latitude = "14.72830850",
-                    Longitude = "-16.25221430",
+                    StateCode = "",
+                    Latitude = "14.78445390",
+                    Longitude = "-16.03164510",
                     Type = "region",
                     Cities = new()
                     {
@@ -100,7 +103,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Fatick",
-                    StateCode = "FK",
+                    StateCode = "",
                     Latitude = "14.33901670",
                     Longitude = "-16.41114250",
                     Type = "region",
@@ -120,7 +123,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Kaffrine",
-                    StateCode = "KA",
+                    StateCode = "",
                     Latitude = "14.10520200",
                     Longitude = "-15.54157550",
                     Type = "region",
@@ -135,9 +138,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Kaolack",
-                    StateCode = "KL",
-                    Latitude = "14.16520830",
-                    Longitude = "-16.07577490",
+                    StateCode = "",
+                    Latitude = "14.13881500",
+                    Longitude = "-16.07639100",
                     Type = "region",
                     Cities = new()
                     {
@@ -152,9 +155,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Kédougou",
-                    StateCode = "KE",
-                    Latitude = "12.56046070",
-                    Longitude = "-12.17470770",
+                    StateCode = "",
+                    Latitude = "12.55707520",
+                    Longitude = "-12.18556550",
                     Type = "region",
                     Cities = new()
                     {
@@ -169,9 +172,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Kolda",
-                    StateCode = "KD",
-                    Latitude = "12.91074950",
-                    Longitude = "-14.95056710",
+                    StateCode = "",
+                    Latitude = "12.89211540",
+                    Longitude = "-14.94009710",
                     Type = "region",
                     Cities = new()
                     {
@@ -186,7 +189,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Louga",
-                    StateCode = "LG",
+                    StateCode = "",
                     Latitude = "15.61417680",
                     Longitude = "-16.22868000",
                     Type = "region",
@@ -204,7 +207,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Matam",
-                    StateCode = "MT",
+                    StateCode = "",
                     Latitude = "15.66002250",
                     Longitude = "-13.25769060",
                     Type = "region",
@@ -225,9 +228,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Saint-Louis",
-                    StateCode = "SL",
-                    Latitude = "38.62700250",
-                    Longitude = "-90.19940420",
+                    StateCode = "",
+                    Latitude = "16.02804450",
+                    Longitude = "-16.50486860",
                     Type = "region",
                     Cities = new()
                     {
@@ -244,7 +247,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Sédhiou",
-                    StateCode = "SE",
+                    StateCode = "",
                     Latitude = "12.70460400",
                     Longitude = "-15.55623040",
                     Type = "region",
@@ -259,9 +262,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Tambacounda Region",
-                    StateCode = "TC",
-                    Latitude = "13.56190110",
-                    Longitude = "-13.17403480",
+                    StateCode = "",
+                    Latitude = "13.86863240",
+                    Longitude = "-13.31903280",
                     Type = "region",
                     Cities = new()
                     {
@@ -274,9 +277,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Thiès Region",
-                    StateCode = "TH",
-                    Latitude = "14.79100520",
-                    Longitude = "-16.93586040",
+                    StateCode = "",
+                    Latitude = "14.75386610",
+                    Longitude = "-16.86378230",
                     Type = "region",
                     Cities = new()
                     {
@@ -299,7 +302,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Ziguinchor",
-                    StateCode = "ZG",
+                    StateCode = "",
                     Latitude = "12.56414790",
                     Longitude = "-16.26398250",
                     Type = "region",

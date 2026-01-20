@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 80,
+            Id = 79,
             Name = "Gabon",
             Iso3 = "GAB",
             Iso2 = "GA",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Gabon",
                 ["ko"] = "가봉",
                 ["pt-BR"] = "Gabão",
                 ["pt"] = "Gabão",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Gabon",
                 ["ru"] = "Габон",
                 ["uk"] = "Габон",
-                ["pl"] = "Gabon"
+                ["pl"] = "Gabon",
+                ["hi"] = "गैबॉन",
+                ["ar"] = "الجابون"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Estuaire",
-                    StateCode = "1",
-                    Latitude = "0.44328640",
-                    Longitude = "10.08072980",
+                    StateCode = "",
+                    Latitude = "0.43026390",
+                    Longitude = "9.46551890",
                     Type = "province",
                     Cities = new()
                     {
@@ -78,9 +81,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Haut-Ogooué",
-                    StateCode = "2",
-                    Latitude = "-1.47625440",
-                    Longitude = "13.91439900",
+                    StateCode = "",
+                    Latitude = "-1.23154400",
+                    Longitude = "13.83097130",
                     Type = "province",
                     Cities = new()
                     {
@@ -96,9 +99,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Moyen-Ogooué",
-                    StateCode = "3",
-                    Latitude = "-0.44278400",
-                    Longitude = "10.43965600",
+                    StateCode = "",
+                    Latitude = "-0.50034950",
+                    Longitude = "10.49910630",
                     Type = "province",
                     Cities = new()
                     {
@@ -111,9 +114,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Ngounié",
-                    StateCode = "4",
-                    Latitude = "-1.49303030",
-                    Longitude = "10.98070030",
+                    StateCode = "",
+                    Latitude = "-1.59107270",
+                    Longitude = "10.97850300",
                     Type = "province",
                     Cities = new()
                     {
@@ -129,9 +132,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Nyanga",
-                    StateCode = "5",
-                    Latitude = "-2.88210330",
-                    Longitude = "11.16173560",
+                    StateCode = "",
+                    Latitude = "-3.00804150",
+                    Longitude = "10.99647460",
                     Type = "province",
                     Cities = new()
                     {
@@ -144,9 +147,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Ogooué-Ivindo",
-                    StateCode = "6",
-                    Latitude = "0.88183110",
-                    Longitude = "13.17403480",
+                    StateCode = "",
+                    Latitude = "0.60082000",
+                    Longitude = "12.68879110",
                     Type = "province",
                     Cities = new()
                     {
@@ -160,9 +163,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Ogooué-Lolo",
-                    StateCode = "7",
-                    Latitude = "-0.88440930",
-                    Longitude = "12.43805810",
+                    StateCode = "",
+                    Latitude = "-1.00029040",
+                    Longitude = "12.49524240",
                     Type = "province",
                     Cities = new()
                     {
@@ -175,9 +178,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Ogooué-Maritime",
-                    StateCode = "8",
-                    Latitude = "-1.34659750",
-                    Longitude = "9.72326730",
+                    StateCode = "",
+                    Latitude = "-1.49581570",
+                    Longitude = "9.50608960",
                     Type = "province",
                     Cities = new()
                     {
@@ -191,9 +194,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Woleu-Ntem",
-                    StateCode = "9",
-                    Latitude = "2.29898270",
-                    Longitude = "11.44669140",
+                    StateCode = "",
+                    Latitude = "1.29501250",
+                    Longitude = "11.82188270",
                     Type = "province",
                     Cities = new()
                     {

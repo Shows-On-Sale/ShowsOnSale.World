@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Perou",
                 ["ko"] = "페루",
                 ["pt-BR"] = "Peru",
                 ["pt"] = "Peru",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Peru",
                 ["ru"] = "Перу",
                 ["uk"] = "Перу",
-                ["pl"] = "Peru"
+                ["pl"] = "Peru",
+                ["hi"] = "पेरू",
+                ["ar"] = "بيرو"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Amazonas",
-                    StateCode = "AMA",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "-5.00000000",
+                    Longitude = "-78.00000000",
                     Type = "region",
                     Cities = new()
                     {
@@ -86,9 +89,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Áncash",
-                    StateCode = "ANC",
-                    Latitude = "-9.32504970",
-                    Longitude = "-77.56194190",
+                    StateCode = "",
+                    Latitude = "-9.50000000",
+                    Longitude = "-77.75000000",
                     Type = "region",
                     Cities = new()
                     {
@@ -128,9 +131,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Apurímac",
-                    StateCode = "APU",
-                    Latitude = "-14.05045330",
-                    Longitude = "-73.08774900",
+                    StateCode = "",
+                    Latitude = "-14.00000000",
+                    Longitude = "-73.00000000",
                     Type = "region",
                     Cities = new()
                     {
@@ -142,8 +145,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Provincia de Aymaraes", Latitude = "-14.41667000", Longitude = "-73.25000000" },
                         new() { Id = 7, Name = "Provincia de Cotabambas", Latitude = "-14.00000000", Longitude = "-72.20000000" },
                         new() { Id = 8, Name = "Provincia de Grau", Latitude = "-14.00000000", Longitude = "-72.58333000" },
-                        new() { Id = 9, Name = "San Jerónimo", Latitude = "-13.65138000", Longitude = "-73.36388000" },
-                        new() { Id = 10, Name = "Talavera", Latitude = "-13.65306000", Longitude = "-73.42917000" }
+                        new() { Id = 9, Name = "Talavera", Latitude = "-13.65306000", Longitude = "-73.42917000" }
                     }
                 },
 
@@ -151,9 +153,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Arequipa",
-                    StateCode = "ARE",
-                    Latitude = "-16.40904740",
-                    Longitude = "-71.53745100",
+                    StateCode = "",
+                    Latitude = "-16.39886670",
+                    Longitude = "-71.53696070",
                     Type = "region",
                     Cities = new()
                     {
@@ -191,7 +193,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Ayacucho",
-                    StateCode = "AYA",
+                    StateCode = "",
                     Latitude = "-13.16387370",
                     Longitude = "-74.22356410",
                     Type = "region",
@@ -222,31 +224,30 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Cajamarca",
-                    StateCode = "CAJ",
+                    StateCode = "",
                     Latitude = "-7.16174650",
                     Longitude = "-78.51278550",
                     Type = "region",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bambamarca", Latitude = "-6.68333000", Longitude = "-78.53333000" },
-                        new() { Id = 2, Name = "Bellavista", Latitude = "-5.66417000", Longitude = "-78.67722000" },
-                        new() { Id = 3, Name = "Cajabamba", Latitude = "-7.61667000", Longitude = "-78.05000000" },
-                        new() { Id = 4, Name = "Cajamarca", Latitude = "-7.16378000", Longitude = "-78.50027000" },
-                        new() { Id = 5, Name = "Celendín", Latitude = "-6.86590000", Longitude = "-78.14585000" },
-                        new() { Id = 6, Name = "Chota", Latitude = "-6.55000000", Longitude = "-78.65000000" },
-                        new() { Id = 7, Name = "Jaén", Latitude = "-5.70729000", Longitude = "-78.80785000" },
-                        new() { Id = 8, Name = "Provincia de Cajabamba", Latitude = "-7.50000000", Longitude = "-78.16667000" },
-                        new() { Id = 9, Name = "Provincia de Cajamarca", Latitude = "-7.33333000", Longitude = "-78.41667000" },
-                        new() { Id = 10, Name = "Provincia de Celendín", Latitude = "-6.83333000", Longitude = "-78.25000000" },
-                        new() { Id = 11, Name = "Provincia de Chota", Latitude = "-6.38332000", Longitude = "-79.18055000" },
-                        new() { Id = 12, Name = "Provincia de Contumazá", Latitude = "-7.33333000", Longitude = "-78.91667000" },
-                        new() { Id = 13, Name = "Provincia de Cutervo", Latitude = "-6.36667000", Longitude = "-78.85000000" },
-                        new() { Id = 14, Name = "Provincia de Hualgayoc", Latitude = "-6.68000000", Longitude = "-78.53000000" },
-                        new() { Id = 15, Name = "Provincia de Jaén", Latitude = "-5.71074000", Longitude = "-79.00438000" },
-                        new() { Id = 16, Name = "Provincia de San Ignacio", Latitude = "-5.08333000", Longitude = "-79.00000000" },
-                        new() { Id = 17, Name = "Provincia de San Miguel", Latitude = "-7.00000000", Longitude = "-79.00000000" },
-                        new() { Id = 18, Name = "Provincia de Santa Cruz", Latitude = "-6.83333000", Longitude = "-79.00000000" },
-                        new() { Id = 19, Name = "San Ignacio", Latitude = "-5.14583000", Longitude = "-79.00139000" }
+                        new() { Id = 2, Name = "Cajabamba", Latitude = "-7.61667000", Longitude = "-78.05000000" },
+                        new() { Id = 3, Name = "Cajamarca", Latitude = "-7.16378000", Longitude = "-78.50027000" },
+                        new() { Id = 4, Name = "Celendín", Latitude = "-6.86590000", Longitude = "-78.14585000" },
+                        new() { Id = 5, Name = "Chota", Latitude = "-6.55000000", Longitude = "-78.65000000" },
+                        new() { Id = 6, Name = "Jaén", Latitude = "-5.70729000", Longitude = "-78.80785000" },
+                        new() { Id = 7, Name = "Provincia de Cajabamba", Latitude = "-7.50000000", Longitude = "-78.16667000" },
+                        new() { Id = 8, Name = "Provincia de Cajamarca", Latitude = "-7.33333000", Longitude = "-78.41667000" },
+                        new() { Id = 9, Name = "Provincia de Celendín", Latitude = "-6.83333000", Longitude = "-78.25000000" },
+                        new() { Id = 10, Name = "Provincia de Chota", Latitude = "-6.38332000", Longitude = "-79.18055000" },
+                        new() { Id = 11, Name = "Provincia de Contumazá", Latitude = "-7.33333000", Longitude = "-78.91667000" },
+                        new() { Id = 12, Name = "Provincia de Cutervo", Latitude = "-6.36667000", Longitude = "-78.85000000" },
+                        new() { Id = 13, Name = "Provincia de Hualgayoc", Latitude = "-6.68000000", Longitude = "-78.53000000" },
+                        new() { Id = 14, Name = "Provincia de Jaén", Latitude = "-5.71074000", Longitude = "-79.00438000" },
+                        new() { Id = 15, Name = "Provincia de San Ignacio", Latitude = "-5.08333000", Longitude = "-79.00000000" },
+                        new() { Id = 16, Name = "Provincia de San Miguel", Latitude = "-7.00000000", Longitude = "-79.00000000" },
+                        new() { Id = 17, Name = "Provincia de Santa Cruz", Latitude = "-6.83333000", Longitude = "-79.00000000" },
+                        new() { Id = 18, Name = "San Ignacio", Latitude = "-5.14583000", Longitude = "-79.00139000" }
                     }
                 },
 
@@ -254,9 +255,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Callao",
-                    StateCode = "CAL",
-                    Latitude = "-12.05084910",
-                    Longitude = "-77.12598430",
+                    StateCode = "",
+                    Latitude = "-12.05226260",
+                    Longitude = "-77.13911330",
                     Type = "region",
                     Cities = new()
                     {
@@ -268,9 +269,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Cusco",
-                    StateCode = "CUS",
-                    Latitude = "-13.53195000",
-                    Longitude = "-71.96746260",
+                    StateCode = "",
+                    Latitude = "-13.51708870",
+                    Longitude = "-71.97853560",
                     Type = "region",
                     Cities = new()
                     {
@@ -301,32 +302,30 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 25, Name = "Oropesa", Latitude = "-13.59278000", Longitude = "-71.77194000" },
                         new() { Id = 26, Name = "Pampamarca", Latitude = "-14.14639000", Longitude = "-71.45944000" },
                         new() { Id = 27, Name = "Pangoa", Latitude = "-12.11667000", Longitude = "-73.00000000" },
-                        new() { Id = 28, Name = "Paucartambo", Latitude = "-13.31522000", Longitude = "-71.59364000" },
-                        new() { Id = 29, Name = "Pisac", Latitude = "-13.42250000", Longitude = "-71.84667000" },
-                        new() { Id = 30, Name = "Provincia de Acomayo", Latitude = "-13.91667000", Longitude = "-71.66667000" },
-                        new() { Id = 31, Name = "Provincia de Anta", Latitude = "-13.50000000", Longitude = "-72.33333000" },
-                        new() { Id = 32, Name = "Provincia de Calca", Latitude = "-13.00000000", Longitude = "-72.16667000" },
-                        new() { Id = 33, Name = "Provincia de Canas", Latitude = "-14.41083000", Longitude = "-71.33694000" },
-                        new() { Id = 34, Name = "Provincia de Canchis", Latitude = "-14.08194000", Longitude = "-71.18556000" },
-                        new() { Id = 35, Name = "Provincia de Chumbivilcas", Latitude = "-14.41667000", Longitude = "-72.00000000" },
-                        new() { Id = 36, Name = "Provincia de Cusco", Latitude = "-13.50000000", Longitude = "-72.00000000" },
-                        new() { Id = 37, Name = "Provincia de Espinar", Latitude = "-14.75000000", Longitude = "-71.41667000" },
-                        new() { Id = 38, Name = "Provincia de La Convención", Latitude = "-12.00000000", Longitude = "-73.00000000" },
-                        new() { Id = 39, Name = "Provincia de Paruro", Latitude = "-13.91667000", Longitude = "-71.91667000" },
-                        new() { Id = 40, Name = "Provincia de Paucartambo", Latitude = "-13.16667000", Longitude = "-71.41667000" },
-                        new() { Id = 41, Name = "Provincia de Quispicanchis", Latitude = "-13.41667000", Longitude = "-71.00000000" },
-                        new() { Id = 42, Name = "Provincia de Urubamba", Latitude = "-13.25000000", Longitude = "-72.33333000" },
-                        new() { Id = 43, Name = "Qquea", Latitude = "-14.05417000", Longitude = "-71.38583000" },
-                        new() { Id = 44, Name = "Queromarca", Latitude = "-14.18391000", Longitude = "-71.38343000" },
-                        new() { Id = 45, Name = "San Pablo", Latitude = "-14.20278000", Longitude = "-71.31556000" },
-                        new() { Id = 46, Name = "Santa Ana", Latitude = "-12.86667000", Longitude = "-72.71667000" },
-                        new() { Id = 47, Name = "Santo Tomas", Latitude = "-14.44556000", Longitude = "-72.08417000" },
-                        new() { Id = 48, Name = "Sicuani", Latitude = "-14.26944000", Longitude = "-71.22611000" },
-                        new() { Id = 49, Name = "Tinta", Latitude = "-14.14500000", Longitude = "-71.40694000" },
-                        new() { Id = 50, Name = "Tungasuca", Latitude = "-14.16389000", Longitude = "-71.47667000" },
-                        new() { Id = 51, Name = "Urcos", Latitude = "-13.68611000", Longitude = "-71.62278000" },
-                        new() { Id = 52, Name = "Urubamba", Latitude = "-13.30472000", Longitude = "-72.11583000" },
-                        new() { Id = 53, Name = "Yanaoca", Latitude = "-14.21806000", Longitude = "-71.43167000" }
+                        new() { Id = 28, Name = "Pisac", Latitude = "-13.42250000", Longitude = "-71.84667000" },
+                        new() { Id = 29, Name = "Provincia de Acomayo", Latitude = "-13.91667000", Longitude = "-71.66667000" },
+                        new() { Id = 30, Name = "Provincia de Anta", Latitude = "-13.50000000", Longitude = "-72.33333000" },
+                        new() { Id = 31, Name = "Provincia de Calca", Latitude = "-13.00000000", Longitude = "-72.16667000" },
+                        new() { Id = 32, Name = "Provincia de Canas", Latitude = "-14.41083000", Longitude = "-71.33694000" },
+                        new() { Id = 33, Name = "Provincia de Canchis", Latitude = "-14.08194000", Longitude = "-71.18556000" },
+                        new() { Id = 34, Name = "Provincia de Chumbivilcas", Latitude = "-14.41667000", Longitude = "-72.00000000" },
+                        new() { Id = 35, Name = "Provincia de Cusco", Latitude = "-13.50000000", Longitude = "-72.00000000" },
+                        new() { Id = 36, Name = "Provincia de Espinar", Latitude = "-14.75000000", Longitude = "-71.41667000" },
+                        new() { Id = 37, Name = "Provincia de La Convención", Latitude = "-12.00000000", Longitude = "-73.00000000" },
+                        new() { Id = 38, Name = "Provincia de Paruro", Latitude = "-13.91667000", Longitude = "-71.91667000" },
+                        new() { Id = 39, Name = "Provincia de Paucartambo", Latitude = "-13.16667000", Longitude = "-71.41667000" },
+                        new() { Id = 40, Name = "Provincia de Quispicanchis", Latitude = "-13.41667000", Longitude = "-71.00000000" },
+                        new() { Id = 41, Name = "Provincia de Urubamba", Latitude = "-13.25000000", Longitude = "-72.33333000" },
+                        new() { Id = 42, Name = "Qquea", Latitude = "-14.05417000", Longitude = "-71.38583000" },
+                        new() { Id = 43, Name = "Queromarca", Latitude = "-14.18391000", Longitude = "-71.38343000" },
+                        new() { Id = 44, Name = "Santa Ana", Latitude = "-12.86667000", Longitude = "-72.71667000" },
+                        new() { Id = 45, Name = "Santo Tomas", Latitude = "-14.44556000", Longitude = "-72.08417000" },
+                        new() { Id = 46, Name = "Sicuani", Latitude = "-14.26944000", Longitude = "-71.22611000" },
+                        new() { Id = 47, Name = "Tinta", Latitude = "-14.14500000", Longitude = "-71.40694000" },
+                        new() { Id = 48, Name = "Tungasuca", Latitude = "-14.16389000", Longitude = "-71.47667000" },
+                        new() { Id = 49, Name = "Urcos", Latitude = "-13.68611000", Longitude = "-71.62278000" },
+                        new() { Id = 50, Name = "Urubamba", Latitude = "-13.30472000", Longitude = "-72.11583000" },
+                        new() { Id = 51, Name = "Yanaoca", Latitude = "-14.21806000", Longitude = "-71.43167000" }
                     }
                 },
 
@@ -334,7 +333,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Huancavelica",
-                    StateCode = "HUV",
+                    StateCode = "",
                     Latitude = "-12.78619780",
                     Longitude = "-74.97640240",
                     Type = "region",
@@ -356,7 +355,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Huanuco",
-                    StateCode = "HUC",
+                    StateCode = "",
                     Latitude = "-9.92076480",
                     Longitude = "-76.24108430",
                     Type = "region",
@@ -365,21 +364,20 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Ambo", Latitude = "-10.13083000", Longitude = "-76.20472000" },
                         new() { Id = 2, Name = "Huacaybamba", Latitude = "-8.99480000", Longitude = "-76.81027000" },
                         new() { Id = 3, Name = "Huánuco", Latitude = "-9.93062000", Longitude = "-76.24223000" },
-                        new() { Id = 4, Name = "La Unión", Latitude = "-9.82702000", Longitude = "-76.80199000" },
-                        new() { Id = 5, Name = "Lauricocha", Latitude = "-10.20055000", Longitude = "-76.70359000" },
-                        new() { Id = 6, Name = "Llata", Latitude = "-9.41667000", Longitude = "-76.78333000" },
-                        new() { Id = 7, Name = "Provincia de Ambo", Latitude = "-10.16667000", Longitude = "-76.16667000" },
-                        new() { Id = 8, Name = "Provincia de Dos de Mayo", Latitude = "-9.91667000", Longitude = "-76.75000000" },
-                        new() { Id = 9, Name = "Provincia de Huamalíes", Latitude = "-9.25000000", Longitude = "-76.50000000" },
-                        new() { Id = 10, Name = "Provincia de Huánuco", Latitude = "-9.66667000", Longitude = "-76.08333000" },
-                        new() { Id = 11, Name = "Provincia de Leoncio Prado", Latitude = "-9.16667000", Longitude = "-76.00000000" },
-                        new() { Id = 12, Name = "Provincia de Marañón", Latitude = "-8.75000000", Longitude = "-76.66667000" },
-                        new() { Id = 13, Name = "Provincia de Pachitea", Latitude = "-9.95262000", Longitude = "-75.81390000" },
-                        new() { Id = 14, Name = "Puerto Inca", Latitude = "-9.36696000", Longitude = "-75.08958000" },
-                        new() { Id = 15, Name = "San Miguel de Cauri", Latitude = "-10.13818000", Longitude = "-76.62288000" },
-                        new() { Id = 16, Name = "Tingo María", Latitude = "-9.29532000", Longitude = "-75.99574000" },
-                        new() { Id = 17, Name = "Yanacancha", Latitude = "-10.24111000", Longitude = "-76.64556000" },
-                        new() { Id = 18, Name = "Yarowilca", Latitude = "-9.80263000", Longitude = "-76.59516000" }
+                        new() { Id = 4, Name = "Lauricocha", Latitude = "-10.20055000", Longitude = "-76.70359000" },
+                        new() { Id = 5, Name = "Llata", Latitude = "-9.41667000", Longitude = "-76.78333000" },
+                        new() { Id = 6, Name = "Provincia de Ambo", Latitude = "-10.16667000", Longitude = "-76.16667000" },
+                        new() { Id = 7, Name = "Provincia de Dos de Mayo", Latitude = "-9.91667000", Longitude = "-76.75000000" },
+                        new() { Id = 8, Name = "Provincia de Huamalíes", Latitude = "-9.25000000", Longitude = "-76.50000000" },
+                        new() { Id = 9, Name = "Provincia de Huánuco", Latitude = "-9.66667000", Longitude = "-76.08333000" },
+                        new() { Id = 10, Name = "Provincia de Leoncio Prado", Latitude = "-9.16667000", Longitude = "-76.00000000" },
+                        new() { Id = 11, Name = "Provincia de Marañón", Latitude = "-8.75000000", Longitude = "-76.66667000" },
+                        new() { Id = 12, Name = "Provincia de Pachitea", Latitude = "-9.95262000", Longitude = "-75.81390000" },
+                        new() { Id = 13, Name = "Puerto Inca", Latitude = "-9.36696000", Longitude = "-75.08958000" },
+                        new() { Id = 14, Name = "San Miguel de Cauri", Latitude = "-10.13818000", Longitude = "-76.62288000" },
+                        new() { Id = 15, Name = "Tingo María", Latitude = "-9.29532000", Longitude = "-75.99574000" },
+                        new() { Id = 16, Name = "Yanacancha", Latitude = "-10.24111000", Longitude = "-76.64556000" },
+                        new() { Id = 17, Name = "Yarowilca", Latitude = "-9.80263000", Longitude = "-76.59516000" }
                     }
                 },
 
@@ -387,9 +385,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Ica",
-                    StateCode = "ICA",
-                    Latitude = "42.35288320",
-                    Longitude = "-71.04300970",
+                    StateCode = "",
+                    Latitude = "-14.06409670",
+                    Longitude = "-75.72909150",
                     Type = "region",
                     Cities = new()
                     {
@@ -419,7 +417,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Junín",
-                    StateCode = "JUN",
+                    StateCode = "",
                     Latitude = "-11.15819250",
                     Longitude = "-75.99263060",
                     Type = "region",
@@ -463,9 +461,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "La Libertad",
-                    StateCode = "LAL",
-                    Latitude = "13.49069700",
-                    Longitude = "-89.30846070",
+                    StateCode = "",
+                    Latitude = "-8.00000000",
+                    Longitude = "-78.50000000",
                     Type = "region",
                     Cities = new()
                     {
@@ -490,15 +488,14 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 19, Name = "Provincia de Pataz", Latitude = "-8.25000000", Longitude = "-77.33333000" },
                         new() { Id = 20, Name = "Provincia de Santiago de Chuco", Latitude = "-8.33333000", Longitude = "-78.25000000" },
                         new() { Id = 21, Name = "Provincia de Trujillo", Latitude = "-8.08333000", Longitude = "-78.91667000" },
-                        new() { Id = 22, Name = "Pueblo Nuevo", Latitude = "-7.18806000", Longitude = "-79.51528000" },
-                        new() { Id = 23, Name = "Quiruvilca", Latitude = "-7.96667000", Longitude = "-78.20000000" },
-                        new() { Id = 24, Name = "Salaverry", Latitude = "-8.22100000", Longitude = "-78.97698000" },
-                        new() { Id = 25, Name = "San Pedro de Lloc", Latitude = "-7.42890000", Longitude = "-79.50416000" },
-                        new() { Id = 26, Name = "Sanchez Carrion", Latitude = "-7.78538000", Longitude = "-77.92586000" },
-                        new() { Id = 27, Name = "Santiago de Cao", Latitude = "-7.95889000", Longitude = "-79.23917000" },
-                        new() { Id = 28, Name = "Santiago de Chuco", Latitude = "-8.14099000", Longitude = "-78.17329000" },
-                        new() { Id = 29, Name = "Trujillo", Latitude = "-8.11599000", Longitude = "-79.02998000" },
-                        new() { Id = 30, Name = "Viru", Latitude = "-8.52199000", Longitude = "-78.60355000" }
+                        new() { Id = 22, Name = "Quiruvilca", Latitude = "-7.96667000", Longitude = "-78.20000000" },
+                        new() { Id = 23, Name = "Salaverry", Latitude = "-8.22100000", Longitude = "-78.97698000" },
+                        new() { Id = 24, Name = "San Pedro de Lloc", Latitude = "-7.42890000", Longitude = "-79.50416000" },
+                        new() { Id = 25, Name = "Sanchez Carrion", Latitude = "-7.78538000", Longitude = "-77.92586000" },
+                        new() { Id = 26, Name = "Santiago de Cao", Latitude = "-7.95889000", Longitude = "-79.23917000" },
+                        new() { Id = 27, Name = "Santiago de Chuco", Latitude = "-8.14099000", Longitude = "-78.17329000" },
+                        new() { Id = 28, Name = "Trujillo", Latitude = "-8.11599000", Longitude = "-79.02998000" },
+                        new() { Id = 29, Name = "Viru", Latitude = "-8.52199000", Longitude = "-78.60355000" }
                     }
                 },
 
@@ -506,9 +503,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Lambayeque",
-                    StateCode = "LAM",
-                    Latitude = "-6.71976660",
-                    Longitude = "-79.90807570",
+                    StateCode = "",
+                    Latitude = "-6.70302700",
+                    Longitude = "-79.90650860",
                     Type = "region",
                     Cities = new()
                     {
@@ -542,9 +539,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Lima",
-                    StateCode = "LIM",
-                    Latitude = "-12.04637310",
-                    Longitude = "-77.04275400",
+                    StateCode = "",
+                    Latitude = "-12.06210650",
+                    Longitude = "-77.03652560",
                     Type = "region",
                     Cities = new()
                     {
@@ -577,15 +574,13 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 27, Name = "Quilmaná", Latitude = "-12.94860000", Longitude = "-76.38112000" },
                         new() { Id = 28, Name = "Ricardo Palma", Latitude = "-11.91978000", Longitude = "-76.65610000" },
                         new() { Id = 29, Name = "San Bartolo", Latitude = "-12.38333000", Longitude = "-76.78333000" },
-                        new() { Id = 30, Name = "San Isidro", Latitude = "-12.11667000", Longitude = "-77.05000000" },
-                        new() { Id = 31, Name = "San Luis", Latitude = "-12.07674000", Longitude = "-76.99435000" },
-                        new() { Id = 32, Name = "San Vicente de Cañete", Latitude = "-13.07556000", Longitude = "-76.38528000" },
-                        new() { Id = 33, Name = "Santa María", Latitude = "-12.00538000", Longitude = "-76.89329000" },
-                        new() { Id = 34, Name = "Santiago de Surco", Latitude = "-12.13588000", Longitude = "-77.00742000" },
-                        new() { Id = 35, Name = "Sayán", Latitude = "-11.13333000", Longitude = "-77.19460000" },
-                        new() { Id = 36, Name = "Supe", Latitude = "-10.79750000", Longitude = "-77.71306000" },
-                        new() { Id = 37, Name = "Urb. Santo Domingo", Latitude = "-11.87655000", Longitude = "-77.03345000" },
-                        new() { Id = 38, Name = "Végueta", Latitude = "-11.02253000", Longitude = "-77.64378000" }
+                        new() { Id = 30, Name = "San Luis", Latitude = "-12.07674000", Longitude = "-76.99435000" },
+                        new() { Id = 31, Name = "San Vicente de Cañete", Latitude = "-13.07556000", Longitude = "-76.38528000" },
+                        new() { Id = 32, Name = "Santa María", Latitude = "-12.00538000", Longitude = "-76.89329000" },
+                        new() { Id = 33, Name = "Sayán", Latitude = "-11.13333000", Longitude = "-77.19460000" },
+                        new() { Id = 34, Name = "Supe", Latitude = "-10.79750000", Longitude = "-77.71306000" },
+                        new() { Id = 35, Name = "Urb. Santo Domingo", Latitude = "-11.87655000", Longitude = "-77.03345000" },
+                        new() { Id = 36, Name = "Végueta", Latitude = "-11.02253000", Longitude = "-77.64378000" }
                     }
                 },
 
@@ -593,9 +588,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Loreto",
-                    StateCode = "LOR",
-                    Latitude = "-4.37416430",
-                    Longitude = "-76.13042640",
+                    StateCode = "",
+                    Latitude = "-4.00000000",
+                    Longitude = "-75.16666700",
                     Type = "region",
                     Cities = new()
                     {
@@ -623,9 +618,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Madre de Dios",
-                    StateCode = "MDD",
-                    Latitude = "-11.76687050",
-                    Longitude = "-70.81199530",
+                    StateCode = "",
+                    Latitude = "-12.00000000",
+                    Longitude = "-70.25000000",
                     Type = "region",
                     Cities = new()
                     {
@@ -643,7 +638,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Moquegua",
-                    StateCode = "MOQ",
+                    StateCode = "",
                     Latitude = "-17.19273610",
                     Longitude = "-70.93281380",
                     Type = "region",
@@ -662,10 +657,33 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 19,
+                    Name = "Municipalidad Metropolitana de Lima",
+                    StateCode = "",
+                    Latitude = "-12.04640000",
+                    Longitude = "-77.04280000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Barranco", Latitude = "-12.14540000", Longitude = "-77.02070000" },
+                        new() { Id = 2, Name = "Jesús María", Latitude = "-12.07290000", Longitude = "-77.04160000" },
+                        new() { Id = 3, Name = "La Molina", Latitude = "-12.08070000", Longitude = "-76.93510000" },
+                        new() { Id = 4, Name = "Lince", Latitude = "-12.08210000", Longitude = "-77.03030000" },
+                        new() { Id = 5, Name = "Magdalena del Mar", Latitude = "-12.09160000", Longitude = "-77.07320000" },
+                        new() { Id = 6, Name = "Miraflores", Latitude = "-12.11940000", Longitude = "-77.02820000" },
+                        new() { Id = 7, Name = "Pueblo Libre", Latitude = "-12.07570000", Longitude = "-77.06340000" },
+                        new() { Id = 8, Name = "San Borja", Latitude = "-12.10150000", Longitude = "-76.99670000" },
+                        new() { Id = 9, Name = "San Isidro", Latitude = "-12.09560000", Longitude = "-77.03490000" },
+                        new() { Id = 10, Name = "Santiago de Surco", Latitude = "-12.14780000", Longitude = "-76.99370000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 20,
                     Name = "Pasco",
-                    StateCode = "PAS",
-                    Latitude = "46.23050490",
-                    Longitude = "-119.09223160",
+                    StateCode = "",
+                    Latitude = "-10.72469260",
+                    Longitude = "-76.16573050",
                     Type = "region",
                     Cities = new()
                     {
@@ -683,11 +701,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 20,
+                    Id = 21,
                     Name = "Piura",
-                    StateCode = "PIU",
-                    Latitude = "-5.17828840",
-                    Longitude = "-80.65488820",
+                    StateCode = "",
+                    Latitude = "-5.19713760",
+                    Longitude = "-80.62672370",
                     Type = "region",
                     Cities = new()
                     {
@@ -726,9 +744,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 21,
+                    Id = 22,
                     Name = "Puno",
-                    StateCode = "PUN",
+                    StateCode = "",
                     Latitude = "-15.84022180",
                     Longitude = "-70.02188050",
                     Type = "region",
@@ -766,11 +784,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 22,
+                    Id = 23,
                     Name = "San Martín",
-                    StateCode = "SAM",
-                    Latitude = "37.08494640",
-                    Longitude = "-121.61022160",
+                    StateCode = "",
+                    Latitude = "-6.40951330",
+                    Longitude = "-76.87125810",
                     Type = "region",
                     Cities = new()
                     {
@@ -802,9 +820,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 23,
+                    Id = 24,
                     Name = "Tacna",
-                    StateCode = "TAC",
+                    StateCode = "",
                     Latitude = "-18.00656790",
                     Longitude = "-70.24627410",
                     Type = "region",
@@ -828,11 +846,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 24,
+                    Id = 25,
                     Name = "Tumbes",
-                    StateCode = "TUM",
-                    Latitude = "-3.55649210",
-                    Longitude = "-80.42708850",
+                    StateCode = "",
+                    Latitude = "-3.57078750",
+                    Longitude = "-80.45964540",
                     Type = "region",
                     Cities = new()
                     {
@@ -849,11 +867,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 25,
+                    Id = 26,
                     Name = "Ucayali",
-                    StateCode = "UCA",
-                    Latitude = "-9.82511830",
-                    Longitude = "-73.08774900",
+                    StateCode = "",
+                    Latitude = "-9.00000000",
+                    Longitude = "-73.50000000",
                     Type = "region",
                     Cities = new()
                     {

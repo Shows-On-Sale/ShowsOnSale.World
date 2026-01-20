@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Vatikan",
                 ["ko"] = "바티칸 시국",
                 ["pt-BR"] = "Vaticano",
                 ["pt"] = "Vaticano",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Vatikan",
                 ["ru"] = "Город-государство Ватикан (Святой Престол)",
                 ["uk"] = "Держава-місто Ватикан (Святий Престол)",
-                ["pl"] = "Państwo Watykańskie (Stolica Apostolska)"
+                ["pl"] = "Państwo Watykańskie (Stolica Apostolska)",
+                ["hi"] = "वेटिकन सिटी स्टेट (पवित्र देखें)",
+                ["ar"] = "ولاية مدينة الفاتيكان (الكرسي الرسولي)"
             },
             States = new()
             {

@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Belgia",
                 ["ko"] = "벨기에",
                 ["pt-BR"] = "Bélgica",
                 ["pt"] = "Bélgica",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Belçika",
                 ["ru"] = "Бельгия",
                 ["uk"] = "Бельгія",
-                ["pl"] = "Belgia"
+                ["pl"] = "Belgia",
+                ["hi"] = "बेल्जियम",
+                ["ar"] = "بلجيكا"
             },
             States = new()
             {
@@ -62,7 +65,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Antwerp",
-                    StateCode = "VAN",
+                    StateCode = "",
                     Latitude = "51.21944750",
                     Longitude = "4.40246430",
                     Type = "province",
@@ -75,9 +78,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Brussels-Capital ",
-                    StateCode = "BRU",
-                    Latitude = "50.85034630",
-                    Longitude = "4.35172110",
+                    StateCode = "",
+                    Latitude = "50.83879510",
+                    Longitude = "4.37530410",
                     Type = "region",
                     Cities = new()
                     {
@@ -89,9 +92,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "East Flanders",
-                    StateCode = "VOV",
-                    Latitude = "51.03621010",
-                    Longitude = "3.73731240",
+                    StateCode = "",
+                    Latitude = "51.03754230",
+                    Longitude = "3.81178300",
                     Type = "province",
                     Cities = new()
                     {
@@ -102,9 +105,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Flanders",
-                    StateCode = "VLG",
-                    Latitude = "51.01087060",
-                    Longitude = "3.72646130",
+                    StateCode = "",
+                    Latitude = "51.09624620",
+                    Longitude = "4.17862910",
                     Type = "region",
                     Cities = new()
                     {
@@ -415,9 +418,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Flemish Brabant",
-                    StateCode = "VBR",
-                    Latitude = "50.88154340",
-                    Longitude = "4.56459700",
+                    StateCode = "",
+                    Latitude = "50.86865160",
+                    Longitude = "4.78862380",
                     Type = "province",
                     Cities = new()
                     {
@@ -428,9 +431,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Hainaut",
-                    StateCode = "WHT",
-                    Latitude = "50.52570760",
-                    Longitude = "4.06210170",
+                    StateCode = "",
+                    Latitude = "50.36192000",
+                    Longitude = "4.12521700",
                     Type = "province",
                     Cities = new()
                     {
@@ -441,9 +444,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Liège",
-                    StateCode = "WLG",
-                    Latitude = "50.63255740",
-                    Longitude = "5.57966620",
+                    StateCode = "",
+                    Latitude = "50.64509440",
+                    Longitude = "5.57361120",
                     Type = "province",
                     Cities = new()
                     {
@@ -454,9 +457,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Limburg",
-                    StateCode = "VLI",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "50.99779370",
+                    Longitude = "5.44535750",
                     Type = "province",
                     Cities = new()
                     {
@@ -467,9 +470,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Luxembourg",
-                    StateCode = "WLX",
-                    Latitude = "49.96500000",
-                    Longitude = "5.50100000",
+                    StateCode = "",
+                    Latitude = "49.96380050",
+                    Longitude = "5.43980190",
                     Type = "province",
                     Cities = new()
                     {
@@ -480,7 +483,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Namur",
-                    StateCode = "WNA",
+                    StateCode = "",
                     Latitude = "50.46738830",
                     Longitude = "4.87198540",
                     Type = "province",
@@ -493,9 +496,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Wallonia",
-                    StateCode = "WAL",
-                    Latitude = "50.41756370",
-                    Longitude = "4.45100660",
+                    StateCode = "",
+                    Latitude = "50.15455230",
+                    Longitude = "5.39921190",
                     Type = "region",
                     Cities = new()
                     {
@@ -754,9 +757,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Walloon Brabant",
-                    StateCode = "WBR",
-                    Latitude = "50.63324100",
-                    Longitude = "4.52431500",
+                    StateCode = "",
+                    Latitude = "50.66631060",
+                    Longitude = "4.55000740",
                     Type = "province",
                     Cities = new()
                     {
@@ -767,7 +770,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "West Flanders",
-                    StateCode = "VWV",
+                    StateCode = "",
                     Latitude = "51.04047470",
                     Longitude = "2.99942130",
                     Type = "province",

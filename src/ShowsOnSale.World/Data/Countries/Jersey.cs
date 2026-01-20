@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Jerzenez",
                 ["ko"] = "저지 섬",
                 ["pt-BR"] = "Jersey",
                 ["pt"] = "Jersey",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Jersey",
                 ["ru"] = "Джерси",
                 ["uk"] = "Джерсі",
-                ["pl"] = "Jersey"
+                ["pl"] = "Jersey",
+                ["hi"] = "जर्सी",
+                ["ar"] = "جيرسي"
             },
             States = new()
             {
@@ -62,13 +65,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Grouville",
-                    StateCode = "01",
-                    Latitude = "49.18212570",
-                    Longitude = "-2.09419810",
+                    StateCode = "",
+                    Latitude = "49.18404000",
+                    Longitude = "-2.05168280",
                     Type = "parish",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Vingtaine de la Rocque", Latitude = "49.16708180", Longitude = "-2.05058070" },
+                        new() { Id = 1, Name = "Vingtaine de la Rocque", Latitude = "49.17048880", Longitude = "-2.03389140" },
                         new() { Id = 2, Name = "Vingtaine de la Rue", Latitude = "49.18661230", Longitude = "-2.05316130" },
                         new() { Id = 3, Name = "Vingtaine de Longueville", Latitude = "49.19001830", Longitude = "-2.04917800" },
                         new() { Id = 4, Name = "Vingtaine des Marais", Latitude = "49.18556300", Longitude = "-2.05042200" }
@@ -79,9 +82,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "St Brelade",
-                    StateCode = "02",
-                    Latitude = "49.18488000",
-                    Longitude = "-2.24685080",
+                    StateCode = "",
+                    Latitude = "49.18512550",
+                    Longitude = "-2.20103410",
                     Type = "parish",
                     Cities = new()
                     {
@@ -96,15 +99,15 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "St Clement",
-                    StateCode = "03",
-                    Latitude = "49.16965790",
-                    Longitude = "-2.08839340",
+                    StateCode = "",
+                    Latitude = "49.17363730",
+                    Longitude = "-2.05621240",
                     Type = "parish",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Grande Vingtaine", Latitude = "49.17207130", Longitude = "-2.06199370" },
                         new() { Id = 2, Name = "Vingtaine de Samarès", Latitude = "49.16497580", Longitude = "-2.09880290" },
-                        new() { Id = 3, Name = "Vingtaine du Rocquier", Latitude = "49.16708180", Longitude = "-2.05058070" }
+                        new() { Id = 3, Name = "Vingtaine du Rocquier", Latitude = "49.17250500", Longitude = "-2.06543840" }
                     }
                 },
 
@@ -112,15 +115,15 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "St Helier",
-                    StateCode = "04",
-                    Latitude = "49.18115230",
-                    Longitude = "-2.12574260",
+                    StateCode = "",
+                    Latitude = "49.18566370",
+                    Longitude = "-2.11022770",
                     Type = "parish",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Vingtaine de Bas du Mont au Prêtre", Latitude = "49.19939590", Longitude = "-2.11964080" },
-                        new() { Id = 2, Name = "Vingtaine de Haut du Mont au Prêtre", Latitude = "49.18050190", Longitude = "-2.10323300" },
-                        new() { Id = 3, Name = "Vingtaine de la Ville", Latitude = "49.18050190", Longitude = "-2.10323300" },
+                        new() { Id = 2, Name = "Vingtaine de Haut du Mont au Prêtre", Latitude = "49.20242510", Longitude = "-2.09919230" },
+                        new() { Id = 3, Name = "Vingtaine de la Ville", Latitude = "49.17883320", Longitude = "-2.10357590" },
                         new() { Id = 4, Name = "Vingtaine du Mont à l'Abbé", Latitude = "49.20036330", Longitude = "-2.13384390" },
                         new() { Id = 5, Name = "Vingtaine du Mont Cochon", Latitude = "49.19975370", Longitude = "-2.14757550" },
                         new() { Id = 6, Name = "Vingtaine du Rouge Bouillon", Latitude = "49.19291200", Longitude = "-2.10935300" }
@@ -131,9 +134,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "St John",
-                    StateCode = "05",
-                    Latitude = "49.23912570",
-                    Longitude = "-2.18026840",
+                    StateCode = "",
+                    Latitude = "49.24655350",
+                    Longitude = "-2.13497260",
                     Type = "parish",
                     Cities = new()
                     {
@@ -147,18 +150,17 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "St Lawrence",
-                    StateCode = "06",
-                    Latitude = "49.21527480",
-                    Longitude = "-2.18207700",
+                    StateCode = "",
+                    Latitude = "49.21491240",
+                    Longitude = "-2.14168920",
                     Type = "parish",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Vingtaine Bas de la Vallée", Latitude = "49.21873100", Longitude = "-2.14180450" },
-                        new() { Id = 2, Name = "Vingtaine du Coin Hatain", Latitude = "49.21873100", Longitude = "-2.14180450" },
-                        new() { Id = 3, Name = "Vingtaine du Coin Motier", Latitude = "49.21873100", Longitude = "-2.14180450" },
-                        new() { Id = 4, Name = "Vingtaine du Coin Tourgis Nord", Latitude = "49.21873100", Longitude = "-2.14180450" },
-                        new() { Id = 5, Name = "Vingtaine du Coin Tourgis Sud", Latitude = "49.21873100", Longitude = "-2.14180450" },
-                        new() { Id = 6, Name = "Vingtaine Haut de la Vallée", Latitude = "49.21873100", Longitude = "-2.14180450" }
+                        new() { Id = 1, Name = "Vingtaine Bas de la Vallée", Latitude = "49.19584680", Longitude = "-2.15669220" },
+                        new() { Id = 2, Name = "Vingtaine du Coin Hatain", Latitude = "49.22074360", Longitude = "-2.12697490" },
+                        new() { Id = 3, Name = "Vingtaine du Coin Motier", Latitude = "49.22490170", Longitude = "-2.13965400" },
+                        new() { Id = 4, Name = "Vingtaine du Coin Tourgis Nord", Latitude = "49.22924990", Longitude = "-2.15092570" },
+                        new() { Id = 5, Name = "Vingtaine du Coin Tourgis Sud", Latitude = "49.21059460", Longitude = "-2.15264330" }
                     }
                 },
 
@@ -166,17 +168,16 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "St Martin",
-                    StateCode = "07",
-                    Latitude = "49.21641490",
-                    Longitude = "-2.08133390",
+                    StateCode = "",
+                    Latitude = "49.21772740",
+                    Longitude = "-2.05163140",
                     Type = "parish",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Vingtaine de Faldouet", Latitude = "49.20322040", Longitude = "-2.05269720" },
-                        new() { Id = 2, Name = "Vingtaine de l'Église", Latitude = "0.00000000", Longitude = "0.00000000" },
-                        new() { Id = 3, Name = "Vingtaine de la Quéruée", Latitude = "49.22056780", Longitude = "-2.04008200" },
-                        new() { Id = 4, Name = "Vingtaine de Rozel", Latitude = "49.23569500", Longitude = "-2.05048470" },
-                        new() { Id = 5, Name = "Vingtaine du Fief de la Reine", Latitude = "49.22056780", Longitude = "-2.04008200" }
+                        new() { Id = 2, Name = "Vingtaine de la Quéruée", Latitude = "49.21499100", Longitude = "-2.05603630" },
+                        new() { Id = 3, Name = "Vingtaine de Rozel", Latitude = "49.23569500", Longitude = "-2.05048470" },
+                        new() { Id = 4, Name = "Vingtaine du Fief de la Reine", Latitude = "49.21842770", Longitude = "-2.03518790" }
                     }
                 },
 
@@ -184,14 +185,14 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "St Mary",
-                    StateCode = "08",
-                    Latitude = "49.23781810",
-                    Longitude = "-2.19522130",
+                    StateCode = "",
+                    Latitude = "49.23640290",
+                    Longitude = "-2.17162450",
                     Type = "parish",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Vingtaine du Nord", Latitude = "49.24102700", Longitude = "-2.16900950" },
-                        new() { Id = 2, Name = "Vingtaine du Sud", Latitude = "49.24102700", Longitude = "-2.16900950" }
+                        new() { Id = 1, Name = "Vingtaine du Nord", Latitude = "49.24426390", Longitude = "-2.18082260" },
+                        new() { Id = 2, Name = "Vingtaine du Sud", Latitude = "49.23404250", Longitude = "-2.16730840" }
                     }
                 },
 
@@ -199,9 +200,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "St Ouen",
-                    StateCode = "09",
-                    Latitude = "49.23680760",
-                    Longitude = "-2.25835970",
+                    StateCode = "",
+                    Latitude = "49.23350870",
+                    Longitude = "-2.20204060",
                     Type = "parish",
                     Cities = new()
                     {
@@ -209,8 +210,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Cueillette de Léoville", Latitude = "49.23803240", Longitude = "-2.22634870" },
                         new() { Id = 3, Name = "Cueillette de Millais", Latitude = "49.24085370", Longitude = "-2.24330420" },
                         new() { Id = 4, Name = "Cueillette de Vinchelez", Latitude = "49.24447800", Longitude = "-2.23905430" },
-                        new() { Id = 5, Name = "Grande Cueillette", Latitude = "49.23747580", Longitude = "-2.22264800" },
-                        new() { Id = 6, Name = "Petite Cueillette", Latitude = "49.23747580", Longitude = "-2.22264800" }
+                        new() { Id = 5, Name = "Grande Cueillette", Latitude = "49.22331000", Longitude = "-2.21609880" },
+                        new() { Id = 6, Name = "Petite Cueillette", Latitude = "49.22456770", Longitude = "-2.19656550" }
                     }
                 },
 
@@ -218,16 +219,16 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "St Peter",
-                    StateCode = "10",
-                    Latitude = "49.21442780",
-                    Longitude = "-2.23234310",
+                    StateCode = "",
+                    Latitude = "49.21282880",
+                    Longitude = "-2.18372000",
                     Type = "parish",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Grande Vingtaine", Latitude = "49.21065500", Longitude = "-2.19606360" },
                         new() { Id = 2, Name = "Vingtaine des Augerez", Latitude = "49.20776790", Longitude = "-2.18629780" },
                         new() { Id = 3, Name = "Vingtaine du Coin Varin", Latitude = "49.21451950", Longitude = "-2.18722550" },
-                        new() { Id = 4, Name = "Vingtaine du Douet", Latitude = "0.00000000", Longitude = "0.00000000" }
+                        new() { Id = 4, Name = "Vingtaine du Douet", Latitude = "49.20988070", Longitude = "-2.18453420" }
                     }
                 },
 
@@ -235,18 +236,17 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "St Saviour",
-                    StateCode = "11",
-                    Latitude = "49.20119890",
-                    Longitude = "-2.11257390",
+                    StateCode = "",
+                    Latitude = "49.19489460",
+                    Longitude = "-2.09031830",
                     Type = "parish",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Vingtaine de la Grande Longueville", Latitude = "49.18342350", Longitude = "-2.07844940" },
-                        new() { Id = 2, Name = "Vingtaine de la Petite Longueville", Latitude = "49.18342350", Longitude = "-2.07844940" },
+                        new() { Id = 1, Name = "Vingtaine de la Grande Longueville", Latitude = "49.18786710", Longitude = "-2.07502150" },
+                        new() { Id = 2, Name = "Vingtaine de la Petite Longueville", Latitude = "49.18090340", Longitude = "-2.08121620" },
                         new() { Id = 3, Name = "Vingtaine de Maufant", Latitude = "49.20822960", Longitude = "-2.10060600" },
-                        new() { Id = 4, Name = "Vingtaine de Sous l'Église", Latitude = "0.00000000", Longitude = "0.00000000" },
-                        new() { Id = 5, Name = "Vingtaine de Sous la Hougue", Latitude = "49.21377110", Longitude = "-2.13576620" },
-                        new() { Id = 6, Name = "Vingtaine des Pigneaux", Latitude = "49.20262700", Longitude = "-2.07080670" }
+                        new() { Id = 4, Name = "Vingtaine de Sous la Hougue", Latitude = "49.21377110", Longitude = "-2.13576620" },
+                        new() { Id = 5, Name = "Vingtaine des Pigneaux", Latitude = "49.20262700", Longitude = "-2.07080670" }
                     }
                 },
 
@@ -254,17 +254,17 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Trinity",
-                    StateCode = "12",
-                    Latitude = "49.23059000",
-                    Longitude = "-2.11999360",
+                    StateCode = "",
+                    Latitude = "49.23449200",
+                    Longitude = "-2.09292680",
                     Type = "parish",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Vingtaine de la Croiserie", Latitude = "49.22988270", Longitude = "-2.08601240" },
+                        new() { Id = 1, Name = "Vingtaine de la Croiserie", Latitude = "49.21646930", Longitude = "-2.09164410" },
                         new() { Id = 2, Name = "Vingtaine de la Ville-à-l'Évêque", Latitude = "49.23176480", Longitude = "-2.12236840" },
                         new() { Id = 3, Name = "Vingtaine de Rozel", Latitude = "49.23842870", Longitude = "-2.06704060" },
                         new() { Id = 4, Name = "Vingtaine des Augrès", Latitude = "49.22857290", Longitude = "-2.08235050" },
-                        new() { Id = 5, Name = "Vingtaine du Rondin", Latitude = "49.22988270", Longitude = "-2.08601240" }
+                        new() { Id = 5, Name = "Vingtaine du Rondin", Latitude = "49.23706240", Longitude = "-2.08753310" }
                     }
                 }
             }

@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Rwanda",
                 ["ko"] = "르완다",
                 ["pt-BR"] = "Ruanda",
                 ["pt"] = "Ruanda",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Ruanda",
                 ["ru"] = "Руанда",
                 ["uk"] = "Руанда",
-                ["pl"] = "Rwanda"
+                ["pl"] = "Rwanda",
+                ["hi"] = "रवांडा",
+                ["ar"] = "رواندا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Eastern",
-                    StateCode = "02",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "-1.74151360",
+                    Longitude = "30.54042820",
                     Type = "province",
                     Cities = new()
                     {
@@ -77,9 +80,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Kigali",
-                    StateCode = "01",
-                    Latitude = "-1.94407270",
-                    Longitude = "30.06188510",
+                    StateCode = "",
+                    Latitude = "-1.95085100",
+                    Longitude = "30.06150700",
                     Type = "city",
                     Cities = new()
                     {
@@ -91,9 +94,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Northern",
-                    StateCode = "03",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "-1.58096990",
+                    Longitude = "29.92697760",
                     Type = "province",
                     Cities = new()
                     {
@@ -106,9 +109,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Southern",
-                    StateCode = "05",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "-2.62721370",
+                    Longitude = "29.60630490",
                     Type = "province",
                     Cities = new()
                     {
@@ -123,9 +126,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Western",
-                    StateCode = "04",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "-0.77278910",
+                    Longitude = "30.08843240",
                     Type = "province",
                     Cities = new()
                     {

@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 78,
+            Id = 77,
             Name = "French Polynesia",
             Iso3 = "PYF",
             Iso2 = "PF",
@@ -40,6 +40,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Polinezia C'hall",
                 ["ko"] = "프랑스령 폴리네시아",
                 ["pt-BR"] = "Polinésia Francesa",
                 ["pt"] = "Polinésia Francesa",
@@ -55,7 +56,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Fransiz Polinezyasi",
                 ["ru"] = "Французская Полинезия",
                 ["uk"] = "Французька Полінезія",
-                ["pl"] = "Polinezja Francuska"
+                ["pl"] = "Polinezja Francuska",
+                ["hi"] = "फ़्रेंच पोलिनेशिया",
+                ["ar"] = "بولينيزيا الفرنسية"
             },
             States = new()
             {
@@ -64,9 +67,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Austral Islands",
-                    StateCode = "01",
-                    Latitude = "-24.62108770",
-                    Longitude = "-154.79155860",
+                    StateCode = "",
+                    Latitude = "-23.36556170",
+                    Longitude = "-149.46208160",
                     Type = "division",
                     Cities = new()
                     {
@@ -82,9 +85,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Leeward Islands",
-                    StateCode = "02",
-                    Latitude = "-16.33144420",
-                    Longitude = "-155.45770620",
+                    StateCode = "",
+                    Latitude = "-16.63083480",
+                    Longitude = "-151.50391590",
                     Type = "division",
                     Cities = new()
                     {
@@ -102,9 +105,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Marquesas Islands",
-                    StateCode = "03",
-                    Latitude = "-9.17852990",
-                    Longitude = "-140.97670260",
+                    StateCode = "",
+                    Latitude = "-9.77932550",
+                    Longitude = "-139.00678350",
                     Type = "division",
                     Cities = new()
                     {
@@ -121,9 +124,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Tuamotu-Gambier",
-                    StateCode = "04",
-                    Latitude = "-18.32071570",
-                    Longitude = "-152.44871660",
+                    StateCode = "",
+                    Latitude = "-18.80276870",
+                    Longitude = "-141.90549290",
                     Type = "division",
                     Cities = new()
                     {
@@ -151,9 +154,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Windward Islands",
-                    StateCode = "05",
-                    Latitude = "-17.42539670",
-                    Longitude = "-150.67802270",
+                    StateCode = "",
+                    Latitude = "-17.68734390",
+                    Longitude = "-149.44516810",
                     Type = "division",
                     Cities = new()
                     {

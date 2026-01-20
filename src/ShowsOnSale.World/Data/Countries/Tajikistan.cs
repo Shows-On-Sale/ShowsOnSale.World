@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Tadjikistan",
                 ["ko"] = "타지키스탄",
                 ["pt-BR"] = "Tajiquistão",
                 ["pt"] = "Tajiquistão",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Tacikistan",
                 ["ru"] = "Таджикистан",
                 ["uk"] = "Таджикистан",
-                ["pl"] = "Tadżykistan"
+                ["pl"] = "Tadżykistan",
+                ["hi"] = "तजाकिस्तान",
+                ["ar"] = "طاجيكستان"
             },
             States = new()
             {
@@ -61,10 +64,24 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 1,
+                    Name = "Dushanbe",
+                    StateCode = "",
+                    Latitude = "38.53666667",
+                    Longitude = "68.78000000",
+                    Type = "capital territory",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Dushanbe", Latitude = "38.53666667", Longitude = "68.78000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 2,
                     Name = "Gorno-Badakhshan",
-                    StateCode = "GB",
-                    Latitude = "38.41273200",
-                    Longitude = "73.08774900",
+                    StateCode = "",
+                    Latitude = "38.34924570",
+                    Longitude = "72.99881680",
                     Type = "autonomous region",
                     Cities = new()
                     {
@@ -77,11 +94,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 2,
+                    Id = 3,
                     Name = "Khatlon",
-                    StateCode = "KT",
-                    Latitude = "37.91135620",
-                    Longitude = "69.09702300",
+                    StateCode = "",
+                    Latitude = "37.88047340",
+                    Longitude = "69.26369230",
                     Type = "region",
                     Cities = new()
                     {
@@ -117,9 +134,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 3,
+                    Id = 4,
                     Name = "Nohiyahoi Tobei Jumhurí ",
-                    StateCode = "RA",
+                    StateCode = "",
                     Latitude = "39.08579020",
                     Longitude = "70.24083250",
                     Type = "districts under republic administration",
@@ -145,11 +162,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 4,
+                    Id = 5,
                     Name = "Sughd ",
-                    StateCode = "SU",
-                    Latitude = "39.51553260",
-                    Longitude = "69.09702300",
+                    StateCode = "",
+                    Latitude = "39.35486020",
+                    Longitude = "68.82680120",
                     Type = "region",
                     Cities = new()
                     {

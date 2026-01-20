@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Saint-Martin",
                 ["ko"] = "세인트마틴 섬",
                 ["pt-BR"] = "Saint Martin",
                 ["pt"] = "Ilha São Martinho",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Saint Martin",
                 ["ru"] = "Сен-Мартен (французская часть)",
                 ["uk"] = "Сен-Мартен (французька частина)",
-                ["pl"] = "Saint-Martin (część francuska)"
+                ["pl"] = "Saint-Martin (część francuska)",
+                ["hi"] = "सेंट-मार्टिन (फ्रांसीसी भाग)",
+                ["ar"] = "سان مارتن (الجزء الفرنسي)"
             },
             States = new()
             {

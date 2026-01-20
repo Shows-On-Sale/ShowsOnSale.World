@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 88,
+            Id = 87,
             Name = "Guadeloupe",
             Iso3 = "GLP",
             Iso2 = "GP",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Gwadloup",
                 ["ko"] = "과들루프",
                 ["pt-BR"] = "Guadalupe",
                 ["pt"] = "Guadalupe",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Guadeloupe",
                 ["ru"] = "Гваделупа",
                 ["uk"] = "Гваделупа",
-                ["pl"] = "Gwadelupa"
+                ["pl"] = "Gwadelupa",
+                ["hi"] = "ग्वाडेलोप",
+                ["ar"] = "غواديلوب"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Basse-Terre",
-                    StateCode = "01",
-                    Latitude = "16.10110190",
-                    Longitude = "-62.00545460",
+                    StateCode = "",
+                    Latitude = "16.00007780",
+                    Longitude = "-61.73333730",
                     Type = "district",
                     Cities = new()
                     {
@@ -93,9 +96,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Pointe-à-Pitre",
-                    StateCode = "02",
-                    Latitude = "16.19024380",
-                    Longitude = "-61.62917130",
+                    StateCode = "",
+                    Latitude = "16.24086360",
+                    Longitude = "-61.53340770",
                     Type = "district",
                     Cities = new()
                     {

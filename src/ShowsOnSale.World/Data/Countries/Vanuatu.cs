@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Vanuatu",
                 ["ko"] = "바누아투",
                 ["pt-BR"] = "Vanuatu",
                 ["pt"] = "Vanuatu",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Vanuatu",
                 ["ru"] = "Вануату",
                 ["uk"] = "Вануату",
-                ["pl"] = "Vanuatu"
+                ["pl"] = "Vanuatu",
+                ["hi"] = "वानुअतु",
+                ["ar"] = "فانواتو"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Malampa",
-                    StateCode = "MAP",
-                    Latitude = "-16.40114050",
-                    Longitude = "167.60778650",
+                    StateCode = "",
+                    Latitude = "-16.29750000",
+                    Longitude = "167.81037160",
                     Type = "province",
                     Cities = new()
                     {
@@ -77,9 +80,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Penama",
-                    StateCode = "PAM",
-                    Latitude = "-15.37957580",
-                    Longitude = "167.90531820",
+                    StateCode = "",
+                    Latitude = "-15.21166660",
+                    Longitude = "167.93603190",
                     Type = "province",
                     Cities = new()
                     {
@@ -90,9 +93,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Sanma",
-                    StateCode = "SAM",
-                    Latitude = "-15.48400170",
-                    Longitude = "166.91820970",
+                    StateCode = "",
+                    Latitude = "-15.15813400",
+                    Longitude = "166.93938650",
                     Type = "province",
                     Cities = new()
                     {
@@ -105,9 +108,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Shefa",
-                    StateCode = "SEE",
-                    Latitude = "32.80576500",
-                    Longitude = "35.16997100",
+                    StateCode = "",
+                    Latitude = "-17.32839670",
+                    Longitude = "168.25473160",
                     Type = "province",
                     Cities = new()
                     {
@@ -119,9 +122,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Tafea",
-                    StateCode = "TAE",
-                    Latitude = "-18.72378270",
-                    Longitude = "169.06450560",
+                    StateCode = "",
+                    Latitude = "-19.37060340",
+                    Longitude = "169.67524280",
                     Type = "province",
                     Cities = new()
                     {
@@ -133,9 +136,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Torba",
-                    StateCode = "TOB",
-                    Latitude = "37.07653000",
-                    Longitude = "27.45657300",
+                    StateCode = "",
+                    Latitude = "-13.66441350",
+                    Longitude = "167.17416360",
                     Type = "province",
                     Cities = new()
                     {

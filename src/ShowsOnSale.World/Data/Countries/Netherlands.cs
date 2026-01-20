@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Izelvroioù",
                 ["ko"] = "네덜란드 ",
                 ["pt-BR"] = "Holanda",
                 ["pt"] = "Países Baixos",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Hollanda",
                 ["ru"] = "Нидерланды",
                 ["uk"] = "Нідерланди",
-                ["pl"] = "Holandia"
+                ["pl"] = "Holandia",
+                ["hi"] = "नीदरलैंड",
+                ["ar"] = "هولندا"
             },
             States = new()
             {
@@ -61,31 +64,10 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 1,
-                    Name = "Bonaire",
-                    StateCode = "BQ1",
-                    Latitude = "12.20189020",
-                    Longitude = "-68.26238220",
-                    Type = "special municipality",
-                    Cities = new()
-                    {
-                        new() { Id = 1, Name = "Boven Bolivia", Latitude = "12.18190000", Longitude = "-68.21810000" },
-                        new() { Id = 2, Name = "Dorp Tera Kora", Latitude = "12.13333000", Longitude = "-68.26667000" },
-                        new() { Id = 3, Name = "Oranjestad", Latitude = "17.48333333", Longitude = "-62.98333333" },
-                        new() { Id = 4, Name = "Rincon", Latitude = "12.23833333", Longitude = "-68.33250000" },
-                        new() { Id = 5, Name = "St. Johns", Latitude = "17.62100750", Longitude = "-63.24316830" },
-                        new() { Id = 6, Name = "The Bottom", Latitude = "17.62611111", Longitude = "-63.24916667" },
-                        new() { Id = 7, Name = "Windwardside", Latitude = "17.62864000", Longitude = "-63.23136000" },
-                        new() { Id = 8, Name = "Zion's Hill", Latitude = "17.64300000", Longitude = "-63.22649000" }
-                    }
-                },
-
-                new()
-                {
-                    Id = 2,
                     Name = "Drenthe",
-                    StateCode = "DR",
-                    Latitude = "52.94760120",
-                    Longitude = "6.62305860",
+                    StateCode = "",
+                    Latitude = "52.90679220",
+                    Longitude = "6.63684230",
                     Type = "province",
                     Cities = new()
                     {
@@ -158,11 +140,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 3,
+                    Id = 2,
                     Name = "Flevoland",
-                    StateCode = "FL",
-                    Latitude = "52.52797810",
-                    Longitude = "5.59535080",
+                    StateCode = "",
+                    Latitude = "52.44843750",
+                    Longitude = "5.42353970",
                     Type = "province",
                     Cities = new()
                     {
@@ -179,11 +161,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 4,
+                    Id = 3,
                     Name = "Friesland",
-                    StateCode = "FR",
-                    Latitude = "53.16416420",
-                    Longitude = "5.78175420",
+                    StateCode = "",
+                    Latitude = "53.09236890",
+                    Longitude = "5.77704300",
                     Type = "province",
                     Cities = new()
                     {
@@ -310,11 +292,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 5,
+                    Id = 4,
                     Name = "Gelderland",
-                    StateCode = "GE",
-                    Latitude = "52.04515500",
-                    Longitude = "5.87182350",
+                    StateCode = "",
+                    Latitude = "52.10140410",
+                    Longitude = "5.95157010",
                     Type = "province",
                     Cities = new()
                     {
@@ -547,9 +529,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 6,
+                    Id = 5,
                     Name = "Groningen",
-                    StateCode = "GR",
+                    StateCode = "",
                     Latitude = "53.21938350",
                     Longitude = "6.56650170",
                     Type = "province",
@@ -639,11 +621,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 7,
+                    Id = 6,
                     Name = "Limburg",
-                    StateCode = "LI",
-                    Latitude = "51.44272380",
-                    Longitude = "6.06087260",
+                    StateCode = "",
+                    Latitude = "51.20151960",
+                    Longitude = "5.90463020",
                     Type = "province",
                     Cities = new()
                     {
@@ -831,11 +813,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 8,
+                    Id = 7,
                     Name = "North Brabant",
-                    StateCode = "NB",
-                    Latitude = "51.48265370",
-                    Longitude = "5.23216870",
+                    StateCode = "",
+                    Latitude = "51.60177230",
+                    Longitude = "5.44413910",
                     Type = "province",
                     Cities = new()
                     {
@@ -1102,11 +1084,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 9,
+                    Id = 8,
                     Name = "North Holland",
-                    StateCode = "NH",
-                    Latitude = "52.52058690",
-                    Longitude = "4.78847400",
+                    StateCode = "",
+                    Latitude = "52.72128250",
+                    Longitude = "4.82066500",
                     Type = "province",
                     Cities = new()
                     {
@@ -1463,11 +1445,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 10,
+                    Id = 9,
                     Name = "Overijssel",
-                    StateCode = "OV",
-                    Latitude = "52.43878140",
-                    Longitude = "6.50164110",
+                    StateCode = "",
+                    Latitude = "52.42541430",
+                    Longitude = "6.46106110",
                     Type = "province",
                     Cities = new()
                     {
@@ -1541,35 +1523,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 11,
-                    Name = "Saba",
-                    StateCode = "BQ2",
-                    Latitude = "17.63546420",
-                    Longitude = "-63.23267630",
-                    Type = "special municipality",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 12,
-                    Name = "Sint Eustatius",
-                    StateCode = "BQ3",
-                    Latitude = "17.48903060",
-                    Longitude = "-62.97355500",
-                    Type = "special municipality",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 13,
+                    Id = 10,
                     Name = "South Holland",
-                    StateCode = "ZH",
+                    StateCode = "",
                     Latitude = "51.99667920",
                     Longitude = "4.55973970",
                     Type = "province",
@@ -1757,9 +1713,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 14,
+                    Id = 11,
                     Name = "Utrecht",
-                    StateCode = "UT",
+                    StateCode = "",
                     Latitude = "52.09073740",
                     Longitude = "5.12142010",
                     Type = "province",
@@ -1832,11 +1788,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 15,
+                    Id = 12,
                     Name = "Zeeland",
-                    StateCode = "ZE",
-                    Latitude = "51.49403090",
-                    Longitude = "3.84968150",
+                    StateCode = "",
+                    Latitude = "51.41629750",
+                    Longitude = "3.70280610",
                     Type = "province",
                     Cities = new()
                     {

@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Armenia",
                 ["ko"] = "아르메니아",
                 ["pt-BR"] = "Armênia",
                 ["pt"] = "Arménia",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Ermenistan",
                 ["ru"] = "Армения",
                 ["uk"] = "Вірменія",
-                ["pl"] = "Armenia"
+                ["pl"] = "Armenia",
+                ["hi"] = "आर्मीनिया",
+                ["ar"] = "أرمينيا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Aragatsotn",
-                    StateCode = "AG",
-                    Latitude = "40.33473010",
-                    Longitude = "44.37482960",
+                    StateCode = "",
+                    Latitude = "40.25803490",
+                    Longitude = "44.17950890",
                     Type = "region",
                     Cities = new()
                     {
@@ -95,9 +98,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Ararat",
-                    StateCode = "AR",
-                    Latitude = "39.91394150",
-                    Longitude = "44.72000040",
+                    StateCode = "",
+                    Latitude = "39.85533290",
+                    Longitude = "44.69437930",
                     Type = "region",
                     Cities = new()
                     {
@@ -161,7 +164,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Armavir",
-                    StateCode = "AV",
+                    StateCode = "",
                     Latitude = "40.15546310",
                     Longitude = "44.03724460",
                     Type = "region",
@@ -228,9 +231,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Gegharkunik",
-                    StateCode = "GR",
-                    Latitude = "40.35264260",
-                    Longitude = "45.12604140",
+                    StateCode = "",
+                    Latitude = "40.24832990",
+                    Longitude = "45.14551260",
                     Type = "region",
                     Cities = new()
                     {
@@ -277,9 +280,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Kotayk",
-                    StateCode = "KT",
-                    Latitude = "40.54102140",
-                    Longitude = "44.76901480",
+                    StateCode = "",
+                    Latitude = "40.40332750",
+                    Longitude = "44.69599230",
                     Type = "region",
                     Cities = new()
                     {
@@ -322,9 +325,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Lori",
-                    StateCode = "LO",
-                    Latitude = "40.96984520",
-                    Longitude = "44.49001380",
+                    StateCode = "",
+                    Latitude = "41.00727100",
+                    Longitude = "44.49001130",
                     Type = "region",
                     Cities = new()
                     {
@@ -371,9 +374,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Shirak",
-                    StateCode = "SH",
-                    Latitude = "40.96308140",
-                    Longitude = "43.81024610",
+                    StateCode = "",
+                    Latitude = "40.91859400",
+                    Longitude = "43.84035360",
                     Type = "region",
                     Cities = new()
                     {
@@ -410,9 +413,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Syunik",
-                    StateCode = "SU",
-                    Latitude = "39.51331120",
-                    Longitude = "46.33932340",
+                    StateCode = "",
+                    Latitude = "39.32814080",
+                    Longitude = "46.15302960",
                     Type = "region",
                     Cities = new()
                     {
@@ -437,9 +440,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Tavush",
-                    StateCode = "TV",
-                    Latitude = "40.88662960",
-                    Longitude = "45.33934900",
+                    StateCode = "",
+                    Latitude = "40.91764240",
+                    Longitude = "45.40506810",
                     Type = "region",
                     Cities = new()
                     {
@@ -467,9 +470,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Vayots Dzor",
-                    StateCode = "VD",
-                    Latitude = "39.76419960",
-                    Longitude = "45.33375280",
+                    StateCode = "",
+                    Latitude = "39.80198490",
+                    Longitude = "45.45575910",
                     Type = "region",
                     Cities = new()
                     {
@@ -494,9 +497,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Yerevan",
-                    StateCode = "ER",
-                    Latitude = "40.18720230",
-                    Longitude = "44.51520900",
+                    StateCode = "",
+                    Latitude = "40.17771120",
+                    Longitude = "44.51262330",
                     Type = "city",
                     Cities = new()
                     {

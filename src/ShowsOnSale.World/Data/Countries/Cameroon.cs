@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Kameroun",
                 ["ko"] = "카메룬",
                 ["pt-BR"] = "Camarões",
                 ["pt"] = "Camarões",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Kamerun",
                 ["ru"] = "Камерун",
                 ["uk"] = "Камерун",
-                ["pl"] = "Kamerun"
+                ["pl"] = "Kamerun",
+                ["hi"] = "कैमरून",
+                ["ar"] = " "
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Adamawa",
-                    StateCode = "AD",
-                    Latitude = "9.32647510",
-                    Longitude = "12.39838530",
+                    StateCode = "",
+                    Latitude = "6.84967080",
+                    Longitude = "13.21632220",
                     Type = "region",
                     Cities = new()
                     {
@@ -87,9 +90,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Centre",
-                    StateCode = "CE",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "4.68626700",
+                    Longitude = "11.94145120",
                     Type = "region",
                     Cities = new()
                     {
@@ -126,9 +129,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "East",
-                    StateCode = "ES",
-                    Latitude = "39.01853360",
-                    Longitude = "-94.27924110",
+                    StateCode = "",
+                    Latitude = "3.98943930",
+                    Longitude = "14.17837300",
                     Type = "region",
                     Cities = new()
                     {
@@ -150,9 +153,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Far North",
-                    StateCode = "EN",
-                    Latitude = "66.76134510",
-                    Longitude = "124.12375300",
+                    StateCode = "",
+                    Latitude = "10.63771860",
+                    Longitude = "14.27381560",
                     Type = "region",
                     Cities = new()
                     {
@@ -175,9 +178,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Littoral",
-                    StateCode = "LT",
-                    Latitude = "48.46227570",
-                    Longitude = "-68.51780710",
+                    StateCode = "",
+                    Latitude = "4.20303300",
+                    Longitude = "10.05630570",
                     Type = "region",
                     Cities = new()
                     {
@@ -204,9 +207,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "North",
-                    StateCode = "NO",
-                    Latitude = "37.09024000",
-                    Longitude = "-95.71289100",
+                    StateCode = "",
+                    Latitude = "8.77127940",
+                    Longitude = "13.78036270",
                     Type = "region",
                     Cities = new()
                     {
@@ -227,9 +230,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Northwest",
-                    StateCode = "NW",
-                    Latitude = "36.37118570",
-                    Longitude = "-94.19346060",
+                    StateCode = "",
+                    Latitude = "6.37752550",
+                    Longitude = "10.38641710",
                     Type = "region",
                     Cities = new()
                     {
@@ -253,9 +256,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "South",
-                    StateCode = "SU",
-                    Latitude = "37.63159500",
-                    Longitude = "-97.34584090",
+                    StateCode = "",
+                    Latitude = "2.73123740",
+                    Longitude = "11.62546220",
                     Type = "region",
                     Cities = new()
                     {
@@ -274,9 +277,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Southwest",
-                    StateCode = "SW",
-                    Latitude = "36.19088130",
-                    Longitude = "-95.88974480",
+                    StateCode = "",
+                    Latitude = "5.05776060",
+                    Longitude = "9.22894070",
                     Type = "region",
                     Cities = new()
                     {
@@ -301,9 +304,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "West",
-                    StateCode = "OU",
-                    Latitude = "37.03649890",
-                    Longitude = "-95.67059870",
+                    StateCode = "",
+                    Latitude = "5.53563820",
+                    Longitude = "10.58288260",
                     Type = "region",
                     Cities = new()
                     {

@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Inizi Salomon",
                 ["ko"] = "솔로몬 제도",
                 ["pt-BR"] = "Ilhas Salomão",
                 ["pt"] = "Ilhas Salomão",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Solomon Adalari",
                 ["ru"] = "Соломоновы острова",
                 ["uk"] = "Соломонові острови",
-                ["pl"] = "Wyspy Salomona"
+                ["pl"] = "Wyspy Salomona",
+                ["hi"] = "सोलोमन आइलैंड्स",
+                ["ar"] = "جزر سليمان"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Central",
-                    StateCode = "CE",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "-8.98333350",
+                    Longitude = "159.75000000",
                     Type = "province",
                     Cities = new()
                     {
@@ -76,9 +79,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Choiseul",
-                    StateCode = "CH",
-                    Latitude = "-7.05014940",
-                    Longitude = "156.95114590",
+                    StateCode = "",
+                    Latitude = "-7.00917560",
+                    Longitude = "156.92395320",
                     Type = "province",
                     Cities = new()
                     {
@@ -89,9 +92,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Guadalcanal",
-                    StateCode = "GU",
-                    Latitude = "-9.57732840",
-                    Longitude = "160.14558050",
+                    StateCode = "",
+                    Latitude = "-9.59842090",
+                    Longitude = "160.14851170",
                     Type = "province",
                     Cities = new()
                     {
@@ -103,9 +106,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Honiara",
-                    StateCode = "CT",
-                    Latitude = "-9.44563810",
-                    Longitude = "159.97289990",
+                    StateCode = "",
+                    Latitude = "-9.43779750",
+                    Longitude = "159.96241750",
                     Type = "capital territory",
                     Cities = new()
                     {
@@ -116,9 +119,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Isabel",
-                    StateCode = "IS",
-                    Latitude = "-8.05923530",
-                    Longitude = "159.14470810",
+                    StateCode = "",
+                    Latitude = "-7.99999990",
+                    Longitude = "158.99999990",
                     Type = "province",
                     Cities = new()
                     {
@@ -130,9 +133,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Makira-Ulawa",
-                    StateCode = "MK",
-                    Latitude = "-10.57374470",
-                    Longitude = "161.80969410",
+                    StateCode = "",
+                    Latitude = "-10.28352570",
+                    Longitude = "161.72807310",
                     Type = "province",
                     Cities = new()
                     {
@@ -144,9 +147,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Malaita",
-                    StateCode = "ML",
-                    Latitude = "-8.94461680",
-                    Longitude = "160.90712360",
+                    StateCode = "",
+                    Latitude = "-8.95516870",
+                    Longitude = "160.95144130",
                     Type = "province",
                     Cities = new()
                     {
@@ -158,9 +161,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Rennell and Bellona",
-                    StateCode = "RB",
-                    Latitude = "-11.61314350",
-                    Longitude = "160.16939490",
+                    StateCode = "",
+                    Latitude = "-12.11342660",
+                    Longitude = "160.31705230",
                     Type = "province",
                     Cities = new()
                     {
@@ -171,9 +174,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Temotu",
-                    StateCode = "TE",
-                    Latitude = "-10.68692900",
-                    Longitude = "166.06239790",
+                    StateCode = "",
+                    Latitude = "-10.88913220",
+                    Longitude = "166.23103500",
                     Type = "province",
                     Cities = new()
                     {
@@ -185,9 +188,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Western",
-                    StateCode = "WE",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "-7.81666670",
+                    Longitude = "156.68398800",
                     Type = "province",
                     Cities = new()
                     {

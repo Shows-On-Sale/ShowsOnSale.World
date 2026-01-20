@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Trinidad ha Tobago",
                 ["ko"] = "트리니다드 토바고",
                 ["pt-BR"] = "Trinidad e Tobago",
                 ["pt"] = "Trindade e Tobago",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Trinidad Ve Tobago",
                 ["ru"] = "Тринидад и Тобаго",
                 ["uk"] = "Тринідад і Тобаго",
-                ["pl"] = "Trynidad i Tobago"
+                ["pl"] = "Trynidad i Tobago",
+                ["hi"] = "त्रिनिदाद और टोबैगो",
+                ["ar"] = "ترينيداد وتوباغو"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Arima",
-                    StateCode = "ARI",
-                    Latitude = "46.79316040",
-                    Longitude = "-71.25843110",
+                    StateCode = "",
+                    Latitude = "10.63720570",
+                    Longitude = "-61.28297620",
                     Type = "borough",
                     Cities = new()
                     {
@@ -76,7 +79,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Chaguanas",
-                    StateCode = "CHA",
+                    StateCode = "",
                     Latitude = "10.51683870",
                     Longitude = "-61.41144820",
                     Type = "borough",
@@ -91,9 +94,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Couva-Tabaquite-Talparo",
-                    StateCode = "CTT",
-                    Latitude = "10.42971450",
-                    Longitude = "-61.37352100",
+                    StateCode = "",
+                    Latitude = "10.44976690",
+                    Longitude = "-61.34438810",
                     Type = "region",
                     Cities = new()
                     {
@@ -106,9 +109,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Diego Martin",
-                    StateCode = "DMN",
-                    Latitude = "10.73622860",
-                    Longitude = "-61.55448360",
+                    StateCode = "",
+                    Latitude = "10.71385960",
+                    Longitude = "-61.57935550",
                     Type = "region",
                     Cities = new()
                     {
@@ -121,13 +124,12 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Eastern Tobago",
-                    StateCode = "ETO",
-                    Latitude = "11.29793480",
-                    Longitude = "-60.55885240",
+                    StateCode = "",
+                    Latitude = "11.28322320",
+                    Longitude = "-60.69250660",
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Scarborough", Latitude = "11.18229000", Longitude = "-60.73525000" }
                     }
                 },
 
@@ -135,9 +137,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Penal-Debe",
-                    StateCode = "PED",
-                    Latitude = "10.13374020",
-                    Longitude = "-61.44354740",
+                    StateCode = "",
+                    Latitude = "10.16491870",
+                    Longitude = "-61.42863250",
                     Type = "region",
                     Cities = new()
                     {
@@ -150,9 +152,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Point Fortin",
-                    StateCode = "PTF",
-                    Latitude = "10.17027370",
-                    Longitude = "-61.67133860",
+                    StateCode = "",
+                    Latitude = "10.17592830",
+                    Longitude = "-61.68272860",
                     Type = "borough",
                     Cities = new()
                     {
@@ -164,9 +166,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Port of Spain",
-                    StateCode = "POS",
-                    Latitude = "10.66031960",
-                    Longitude = "-61.50856250",
+                    StateCode = "",
+                    Latitude = "10.65726780",
+                    Longitude = "-61.51801730",
                     Type = "city",
                     Cities = new()
                     {
@@ -179,9 +181,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Princes Town",
-                    StateCode = "PRT",
-                    Latitude = "10.17867460",
-                    Longitude = "-61.28019960",
+                    StateCode = "",
+                    Latitude = "10.20480030",
+                    Longitude = "-61.28061860",
                     Type = "region",
                     Cities = new()
                     {
@@ -193,12 +195,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Rio Claro-Mayaro",
-                    StateCode = "MRC",
-                    Latitude = "10.24128320",
-                    Longitude = "-61.09372060",
+                    StateCode = "",
+                    Latitude = "10.25970160",
+                    Longitude = "-61.09235030",
                     Type = "region",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Rio Claro", Latitude = "10.30594000", Longitude = "-61.17556000" }
                     }
                 },
 
@@ -206,9 +209,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "San Fernando",
-                    StateCode = "SFO",
-                    Latitude = "34.28194610",
-                    Longitude = "-118.43897190",
+                    StateCode = "",
+                    Latitude = "10.28070690",
+                    Longitude = "-61.46458960",
                     Type = "region",
                     Cities = new()
                     {
@@ -222,9 +225,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "San Juan-Laventille",
-                    StateCode = "SJL",
-                    Latitude = "10.69085780",
-                    Longitude = "-61.45522130",
+                    StateCode = "",
+                    Latitude = "10.67560660",
+                    Longitude = "-61.47101540",
                     Type = "region",
                     Cities = new()
                     {
@@ -236,9 +239,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Sangre Grande",
-                    StateCode = "SGE",
-                    Latitude = "10.58529390",
-                    Longitude = "-61.13158130",
+                    StateCode = "",
+                    Latitude = "10.63754020",
+                    Longitude = "-61.11774990",
                     Type = "region",
                     Cities = new()
                     {
@@ -250,9 +253,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Siparia",
-                    StateCode = "SIP",
-                    Latitude = "10.12456260",
-                    Longitude = "-61.56032440",
+                    StateCode = "",
+                    Latitude = "10.14716070",
+                    Longitude = "-61.57870320",
                     Type = "region",
                     Cities = new()
                     {
@@ -264,10 +267,24 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 15,
+                    Name = "Tobago",
+                    StateCode = "",
+                    Latitude = "11.25000000",
+                    Longitude = "-60.68333330",
+                    Type = "ward",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Scarborough", Latitude = "11.18229000", Longitude = "-60.73525000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 16,
                     Name = "Tunapuna-Piarco",
-                    StateCode = "TUP",
-                    Latitude = "10.68590960",
-                    Longitude = "-61.30352480",
+                    StateCode = "",
+                    Latitude = "10.68543330",
+                    Longitude = "-61.32052740",
                     Type = "region",
                     Cities = new()
                     {
@@ -279,15 +296,14 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 16,
+                    Id = 17,
                     Name = "Western Tobago",
-                    StateCode = "WTO",
-                    Latitude = "11.18970720",
-                    Longitude = "-60.77954520",
+                    StateCode = "",
+                    Latitude = "11.15728850",
+                    Longitude = "-60.81650130",
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Rio Claro", Latitude = "10.30594000", Longitude = "-61.17556000" }
                     }
                 }
             }

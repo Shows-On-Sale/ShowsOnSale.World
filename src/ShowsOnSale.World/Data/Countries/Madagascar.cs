@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Madagaskar",
                 ["ko"] = "마다가스카르",
                 ["pt-BR"] = "Madagascar",
                 ["pt"] = "Madagáscar",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Madagaskar",
                 ["ru"] = "Мадагаскар",
                 ["uk"] = "Мадагаскар",
-                ["pl"] = "Madagaskar"
+                ["pl"] = "Madagaskar",
+                ["hi"] = "मेडागास्कर",
+                ["ar"] = "مدغشقر"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Antananarivo",
-                    StateCode = "T",
-                    Latitude = "-18.70514740",
-                    Longitude = "46.82528380",
+                    StateCode = "",
+                    Latitude = "-18.91001220",
+                    Longitude = "47.52558090",
                     Type = "province",
                     Cities = new()
                     {
@@ -75,9 +78,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Antsiranana",
-                    StateCode = "D",
-                    Latitude = "-13.77153900",
-                    Longitude = "49.52799960",
+                    StateCode = "",
+                    Latitude = "-13.72297220",
+                    Longitude = "49.18018360",
                     Type = "province",
                     Cities = new()
                     {
@@ -97,9 +100,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Fianarantsoa",
-                    StateCode = "F",
-                    Latitude = "-22.35362400",
-                    Longitude = "46.82528380",
+                    StateCode = "",
+                    Latitude = "-21.91742000",
+                    Longitude = "46.87098510",
                     Type = "province",
                     Cities = new()
                     {
@@ -110,9 +113,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Mahajanga",
-                    StateCode = "M",
-                    Latitude = "-16.52388300",
-                    Longitude = "46.51626200",
+                    StateCode = "",
+                    Latitude = "-16.59441040",
+                    Longitude = "46.17197960",
                     Type = "province",
                     Cities = new()
                     {
@@ -123,9 +126,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Toamasina",
-                    StateCode = "A",
-                    Latitude = "-18.14428110",
-                    Longitude = "49.39578360",
+                    StateCode = "",
+                    Latitude = "-18.15539850",
+                    Longitude = "49.40983520",
                     Type = "province",
                     Cities = new()
                     {
@@ -136,9 +139,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Toliara",
-                    StateCode = "U",
-                    Latitude = "-23.35161910",
-                    Longitude = "43.68549360",
+                    StateCode = "",
+                    Latitude = "-23.35417300",
+                    Longitude = "43.66966000",
                     Type = "province",
                     Cities = new()
                     {

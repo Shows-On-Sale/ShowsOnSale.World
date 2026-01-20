@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Inizi Pitcairn",
                 ["ko"] = "핏케언 제도",
                 ["pt-BR"] = "Ilhas Pitcairn",
                 ["pt"] = "Ilhas Picárnia",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Pitcairn Adalari",
                 ["ru"] = "Остров Питкэрн",
                 ["uk"] = "Острів Піткерн",
-                ["pl"] = "Wyspa Pitcairn"
+                ["pl"] = "Wyspa Pitcairn",
+                ["hi"] = "पिटकेर्न द्वीप",
+                ["ar"] = "جزيرة بيتكيرن"
             },
             States = new()
             {

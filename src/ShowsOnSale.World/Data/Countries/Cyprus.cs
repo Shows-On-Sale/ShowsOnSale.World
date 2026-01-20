@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 57,
+            Id = 56,
             Name = "Cyprus",
             Iso3 = "CYP",
             Iso2 = "CY",
@@ -39,6 +39,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Republik Kiprenez",
                 ["ko"] = "키프로스",
                 ["pt-BR"] = "Chipre",
                 ["pt"] = "Chipre",
@@ -54,7 +55,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Kuzey Kıbrıs Türk Cumhuriyeti",
                 ["ru"] = "Кипр",
                 ["uk"] = "Кіпр",
-                ["pl"] = "Cypr"
+                ["pl"] = "Cypr",
+                ["hi"] = "साइप्रस",
+                ["ar"] = "قبرص"
             },
             States = new()
             {
@@ -63,15 +66,15 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Famagusta (Mağusa)",
-                    StateCode = "04",
-                    Latitude = "35.28570230",
-                    Longitude = "33.84112880",
+                    StateCode = "",
+                    Latitude = "35.13521370",
+                    Longitude = "33.92398310",
                     Type = "district",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Acherítou", Latitude = "35.10022000", Longitude = "33.86155000" },
                         new() { Id = 2, Name = "Áchna", Latitude = "35.05515000", Longitude = "33.78388000" },
-                        new() { Id = 3, Name = "Ammochostos Municipality", Latitude = "35.11755000", Longitude = "33.94335000" },
+                        new() { Id = 3, Name = "Ammochostos", Latitude = "35.11755000", Longitude = "33.94335000" },
                         new() { Id = 4, Name = "Avgórou", Latitude = "35.03615000", Longitude = "33.83918000" },
                         new() { Id = 5, Name = "Ayia Napa", Latitude = "34.98213000", Longitude = "34.00183000" },
                         new() { Id = 6, Name = "Derýneia", Latitude = "35.06484000", Longitude = "33.96083000" },
@@ -91,9 +94,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Kyrenia (Keryneia)",
-                    StateCode = "06",
-                    Latitude = "35.29919400",
-                    Longitude = "33.23632460",
+                    StateCode = "",
+                    Latitude = "35.29514810",
+                    Longitude = "33.27691550",
                     Type = "district",
                     Cities = new()
                     {
@@ -107,9 +110,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Larnaca (Larnaka)",
-                    StateCode = "03",
-                    Latitude = "34.85072060",
-                    Longitude = "33.48319060",
+                    StateCode = "",
+                    Latitude = "34.86974840",
+                    Longitude = "33.60920970",
                     Type = "district",
                     Cities = new()
                     {
@@ -140,9 +143,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Limassol (Leymasun)",
-                    StateCode = "02",
-                    Latitude = "34.70713010",
-                    Longitude = "33.02261740",
+                    StateCode = "",
+                    Latitude = "34.69114850",
+                    Longitude = "33.00783840",
                     Type = "district",
                     Cities = new()
                     {
@@ -170,9 +173,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Nicosia (Lefkoşa)",
-                    StateCode = "01",
-                    Latitude = "35.18556590",
-                    Longitude = "33.38227640",
+                    StateCode = "",
+                    Latitude = "35.15654640",
+                    Longitude = "33.37056260",
                     Type = "district",
                     Cities = new()
                     {
@@ -208,9 +211,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Paphos (Pafos)",
-                    StateCode = "05",
-                    Latitude = "34.91645940",
-                    Longitude = "32.49200880",
+                    StateCode = "",
+                    Latitude = "34.78129780",
+                    Longitude = "32.42140970",
                     Type = "district",
                     Cities = new()
                     {

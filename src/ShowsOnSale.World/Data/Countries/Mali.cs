@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Mali",
                 ["ko"] = "말리",
                 ["pt-BR"] = "Mali",
                 ["pt"] = "Mali",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Mali",
                 ["ru"] = "Мали",
                 ["uk"] = "Малі",
-                ["pl"] = "Mali"
+                ["pl"] = "Mali",
+                ["hi"] = "माली",
+                ["ar"] = "مالي"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Bamako",
-                    StateCode = "BKO",
-                    Latitude = "12.63923160",
-                    Longitude = "-8.00288920",
+                    StateCode = "",
+                    Latitude = "12.64931900",
+                    Longitude = "-8.00033700",
                     Type = "district",
                     Cities = new()
                     {
@@ -76,9 +79,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Gao",
-                    StateCode = "7",
-                    Latitude = "16.90663320",
-                    Longitude = "1.52086240",
+                    StateCode = "",
+                    Latitude = "17.00244000",
+                    Longitude = "-0.09911540",
                     Type = "region",
                     Cities = new()
                     {
@@ -94,9 +97,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Kayes",
-                    StateCode = "1",
-                    Latitude = "14.08183080",
-                    Longitude = "-9.90181310",
+                    StateCode = "",
+                    Latitude = "13.80018440",
+                    Longitude = "-10.22455480",
                     Type = "region",
                     Cities = new()
                     {
@@ -112,9 +115,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Kidal",
-                    StateCode = "8",
-                    Latitude = "18.79868320",
-                    Longitude = "1.83183340",
+                    StateCode = "",
+                    Latitude = "18.44083580",
+                    Longitude = "1.40753950",
                     Type = "region",
                     Cities = new()
                     {
@@ -128,9 +131,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Koulikoro",
-                    StateCode = "2",
-                    Latitude = "13.80180740",
-                    Longitude = "-7.43813550",
+                    StateCode = "",
+                    Latitude = "13.48207060",
+                    Longitude = "-7.60960790",
                     Type = "region",
                     Cities = new()
                     {
@@ -146,7 +149,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Ménaka",
-                    StateCode = "9",
+                    StateCode = "",
                     Latitude = "15.91564210",
                     Longitude = "2.39617400",
                     Type = "region",
@@ -159,9 +162,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Mopti",
-                    StateCode = "5",
-                    Latitude = "14.63380390",
-                    Longitude = "-3.41955270",
+                    StateCode = "",
+                    Latitude = "14.51448900",
+                    Longitude = "-3.64645810",
                     Type = "region",
                     Cities = new()
                     {
@@ -178,9 +181,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Ségou",
-                    StateCode = "4",
-                    Latitude = "13.83944560",
-                    Longitude = "-6.06791940",
+                    StateCode = "",
+                    Latitude = "14.04876070",
+                    Longitude = "-6.00470910",
                     Type = "region",
                     Cities = new()
                     {
@@ -199,9 +202,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Sikasso",
-                    StateCode = "3",
-                    Latitude = "10.89051860",
-                    Longitude = "-7.43813550",
+                    StateCode = "",
+                    Latitude = "11.52968400",
+                    Longitude = "-6.86632590",
                     Type = "region",
                     Cities = new()
                     {
@@ -219,9 +222,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Taoudénit",
-                    StateCode = "10",
-                    Latitude = "22.67641320",
-                    Longitude = "-3.97891430",
+                    StateCode = "",
+                    Latitude = "20.85827180",
+                    Longitude = "-3.39819000",
                     Type = "region",
                     Cities = new()
                     {
@@ -232,9 +235,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Tombouctou",
-                    StateCode = "6",
-                    Latitude = "21.05267060",
-                    Longitude = "-3.74350900",
+                    StateCode = "",
+                    Latitude = "16.77190910",
+                    Longitude = "-3.00872720",
                     Type = "region",
                     Cities = new()
                     {

@@ -28,8 +28,8 @@ namespace ShowsOnSale.World.Data.Countries
             Subregion = "Eastern Africa",
             SubregionId = 4,
             Nationality = "Seychellois",
-            Latitude = "-4.58333333",
-            Longitude = "55.66666666",
+            Latitude = "-4.65749770",
+            Longitude = "55.45401460",
             Emoji = "🇸🇨",
             EmojiU = "U+1F1F8 U+1F1E8",
             Timezones = new()
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Sechelez",
                 ["ko"] = "세이셸",
                 ["pt-BR"] = "Seicheles",
                 ["pt"] = "Seicheles",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Seyşeller",
                 ["ru"] = "Сейшельские острова",
                 ["uk"] = "Сейшельські острови",
-                ["pl"] = "Seszele"
+                ["pl"] = "Seszele",
+                ["hi"] = "सेशल्स",
+                ["ar"] = "سيشيل"
             },
             States = new()
             {
@@ -62,7 +65,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Anse Boileau",
-                    StateCode = "02",
+                    StateCode = "",
                     Latitude = "-4.70472680",
                     Longitude = "55.48593630",
                     Type = "district",
@@ -75,10 +78,24 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 2,
+                    Name = "Anse Etoile",
+                    StateCode = "",
+                    Latitude = "-4.59166667",
+                    Longitude = "55.45000000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Anse Etoile", Latitude = "-4.59166667", Longitude = "55.45000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 3,
                     Name = "Anse Royale",
-                    StateCode = "05",
-                    Latitude = "-4.74079880",
-                    Longitude = "55.50810120",
+                    StateCode = "",
+                    Latitude = "-4.73761210",
+                    Longitude = "55.51760650",
                     Type = "district",
                     Cities = new()
                     {
@@ -88,9 +105,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 3,
+                    Id = 4,
                     Name = "Anse-aux-Pins",
-                    StateCode = "01",
+                    StateCode = "",
                     Latitude = "-4.69004430",
                     Longitude = "55.51502890",
                     Type = "district",
@@ -101,9 +118,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 4,
+                    Id = 5,
                     Name = "Au Cap",
-                    StateCode = "04",
+                    StateCode = "",
                     Latitude = "-4.70597230",
                     Longitude = "55.50810120",
                     Type = "district",
@@ -114,9 +131,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 5,
+                    Id = 6,
                     Name = "Baie Lazare",
-                    StateCode = "06",
+                    StateCode = "",
                     Latitude = "-4.74825250",
                     Longitude = "55.48593630",
                     Type = "district",
@@ -127,11 +144,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 6,
+                    Id = 7,
                     Name = "Baie Sainte Anne",
-                    StateCode = "07",
-                    Latitude = "47.05259000",
-                    Longitude = "-64.95245790",
+                    StateCode = "",
+                    Latitude = "-4.34111720",
+                    Longitude = "55.75642330",
                     Type = "district",
                     Cities = new()
                     {
@@ -140,9 +157,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 7,
+                    Id = 8,
                     Name = "Beau Vallon",
-                    StateCode = "08",
+                    StateCode = "",
                     Latitude = "-4.62109670",
                     Longitude = "55.42778020",
                     Type = "district",
@@ -154,11 +171,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 8,
+                    Id = 9,
                     Name = "Bel Air",
-                    StateCode = "09",
-                    Latitude = "34.10024550",
-                    Longitude = "-118.45946300",
+                    StateCode = "",
+                    Latitude = "-4.64162060",
+                    Longitude = "55.45186680",
                     Type = "district",
                     Cities = new()
                     {
@@ -167,11 +184,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 9,
+                    Id = 10,
                     Name = "Bel Ombre",
-                    StateCode = "10",
-                    Latitude = "-20.50100950",
-                    Longitude = "57.42596240",
+                    StateCode = "",
+                    Latitude = "-4.61937160",
+                    Longitude = "55.41129790",
                     Type = "district",
                     Cities = new()
                     {
@@ -181,11 +198,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 10,
+                    Id = 11,
                     Name = "Cascade",
-                    StateCode = "11",
-                    Latitude = "44.51628210",
-                    Longitude = "-116.04179830",
+                    StateCode = "",
+                    Latitude = "-4.66912430",
+                    Longitude = "55.49726930",
                     Type = "district",
                     Cities = new()
                     {
@@ -195,24 +212,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 11,
-                    Name = "Glacis",
-                    StateCode = "12",
-                    Latitude = "47.11573030",
-                    Longitude = "-70.30281830",
-                    Type = "district",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
                     Id = 12,
-                    Name = "Grand'Anse Mahé",
-                    StateCode = "13",
-                    Latitude = "-4.67739200",
-                    Longitude = "55.46377700",
+                    Name = "Glacis",
+                    StateCode = "",
+                    Latitude = "-4.58365400",
+                    Longitude = "55.43455260",
                     Type = "district",
                     Cities = new()
                     {
@@ -222,10 +226,10 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 13,
-                    Name = "Grand'Anse Praslin",
-                    StateCode = "14",
-                    Latitude = "-4.31762190",
-                    Longitude = "55.70783630",
+                    Name = "Grand'Anse Mahé",
+                    StateCode = "",
+                    Latitude = "-4.67501710",
+                    Longitude = "55.45052860",
                     Type = "district",
                     Cities = new()
                     {
@@ -235,10 +239,10 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 14,
-                    Name = "La Digue",
-                    StateCode = "15",
-                    Latitude = "49.76669220",
-                    Longitude = "-97.15466290",
+                    Name = "Grand'Anse Praslin",
+                    StateCode = "",
+                    Latitude = "-4.32697020",
+                    Longitude = "55.71773430",
                     Type = "district",
                     Cities = new()
                     {
@@ -248,24 +252,23 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 15,
-                    Name = "La Rivière Anglaise",
-                    StateCode = "16",
-                    Latitude = "-4.61061500",
-                    Longitude = "55.45408410",
+                    Name = "Ile Perseverance I",
+                    StateCode = "",
+                    Latitude = "-4.63000000",
+                    Longitude = "55.47000000",
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Victoria", Latitude = "-4.62001000", Longitude = "55.45501000" }
                     }
                 },
 
                 new()
                 {
                     Id = 16,
-                    Name = "Les Mamelles",
-                    StateCode = "24",
-                    Latitude = "38.82505050",
-                    Longitude = "-90.48345170",
+                    Name = "Ile Perseverance II",
+                    StateCode = "",
+                    Latitude = "-4.63500000",
+                    Longitude = "55.47500000",
                     Type = "district",
                     Cities = new()
                     {
@@ -275,8 +278,48 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 17,
+                    Name = "La Digue",
+                    StateCode = "",
+                    Latitude = "-4.35622200",
+                    Longitude = "55.83068950",
+                    Type = "district",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 18,
+                    Name = "La Rivière Anglaise",
+                    StateCode = "",
+                    Latitude = "-4.61569090",
+                    Longitude = "55.45115300",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Victoria", Latitude = "-4.62001000", Longitude = "55.45501000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 19,
+                    Name = "Les Mamelles",
+                    StateCode = "",
+                    Latitude = "-4.65704490",
+                    Longitude = "55.48116080",
+                    Type = "district",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 20,
                     Name = "Mont Buxton",
-                    StateCode = "17",
+                    StateCode = "",
                     Latitude = "-4.61666670",
                     Longitude = "55.44577680",
                     Type = "district",
@@ -287,11 +330,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 18,
+                    Id = 21,
                     Name = "Mont Fleuri",
-                    StateCode = "18",
-                    Latitude = "-4.63565430",
-                    Longitude = "55.45546880",
+                    StateCode = "",
+                    Latitude = "-4.63631720",
+                    Longitude = "55.46459410",
                     Type = "district",
                     Cities = new()
                     {
@@ -300,11 +343,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 19,
+                    Id = 22,
                     Name = "Plaisance",
-                    StateCode = "19",
-                    Latitude = "45.60709500",
-                    Longitude = "-75.11427450",
+                    StateCode = "",
+                    Latitude = "-4.65391000",
+                    Longitude = "55.46801750",
                     Type = "district",
                     Cities = new()
                     {
@@ -313,9 +356,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 20,
+                    Id = 23,
                     Name = "Pointe La Rue",
-                    StateCode = "20",
+                    StateCode = "",
                     Latitude = "-4.68048900",
                     Longitude = "55.51918570",
                     Type = "district",
@@ -326,11 +369,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 21,
+                    Id = 24,
                     Name = "Port Glaud",
-                    StateCode = "21",
-                    Latitude = "-4.64885230",
-                    Longitude = "55.41947530",
+                    StateCode = "",
+                    Latitude = "-4.66406000",
+                    Longitude = "55.41776060",
                     Type = "district",
                     Cities = new()
                     {
@@ -340,11 +383,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 22,
+                    Id = 25,
                     Name = "Roche Caiman",
-                    StateCode = "25",
-                    Latitude = "-4.63960280",
-                    Longitude = "55.46793150",
+                    StateCode = "",
+                    Latitude = "-4.64930850",
+                    Longitude = "55.48316560",
                     Type = "district",
                     Cities = new()
                     {
@@ -353,11 +396,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 23,
+                    Id = 26,
                     Name = "Saint Louis",
-                    StateCode = "22",
-                    Latitude = "38.62700250",
-                    Longitude = "-90.19940420",
+                    StateCode = "",
+                    Latitude = "-4.62230000",
+                    Longitude = "55.43906180",
                     Type = "district",
                     Cities = new()
                     {
@@ -366,11 +409,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 24,
+                    Id = 27,
                     Name = "Takamaka",
-                    StateCode = "23",
-                    Latitude = "37.96459170",
-                    Longitude = "-1.22177270",
+                    StateCode = "",
+                    Latitude = "-4.32508850",
+                    Longitude = "55.73120420",
                     Type = "district",
                     Cities = new()
                     {

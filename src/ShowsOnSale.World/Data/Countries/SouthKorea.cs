@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Republik Korea",
                 ["ko"] = "대한민국",
                 ["pt-BR"] = "Coreia do Sul",
                 ["pt"] = "Coreia do Sul",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Güney Kore",
                 ["ru"] = "Южная Корея",
                 ["uk"] = "Південна Корея",
-                ["pl"] = "Korea Południowa"
+                ["pl"] = "Korea Południowa",
+                ["hi"] = "दक्षिण कोरिया",
+                ["ar"] = "كوريا الجنوبية"
             },
             States = new()
             {
@@ -62,7 +65,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Busan",
-                    StateCode = "26",
+                    StateCode = "",
                     Latitude = "35.17955430",
                     Longitude = "129.07564160",
                     Type = "metropolitan city",
@@ -90,7 +93,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Daegu",
-                    StateCode = "27",
+                    StateCode = "",
                     Latitude = "35.87143540",
                     Longitude = "128.60144500",
                     Type = "metropolitan city",
@@ -111,7 +114,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Daejeon",
-                    StateCode = "30",
+                    StateCode = "",
                     Latitude = "36.35041190",
                     Longitude = "127.38454750",
                     Type = "metropolitan city",
@@ -129,9 +132,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Gangwon",
-                    StateCode = "42",
-                    Latitude = "37.82280000",
-                    Longitude = "128.15550000",
+                    StateCode = "",
+                    Latitude = "37.88500000",
+                    Longitude = "127.72970000",
                     Type = "special self-governing province",
                     Cities = new()
                     {
@@ -172,7 +175,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Gwangju",
-                    StateCode = "29",
+                    StateCode = "",
                     Latitude = "35.15954540",
                     Longitude = "126.85260120",
                     Type = "metropolitan city",
@@ -188,9 +191,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Gyeonggi",
-                    StateCode = "41",
-                    Latitude = "37.41380000",
-                    Longitude = "127.51830000",
+                    StateCode = "",
+                    Latitude = "37.28846750",
+                    Longitude = "127.05352310",
                     Type = "province",
                     Cities = new()
                     {
@@ -244,7 +247,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Incheon",
-                    StateCode = "28",
+                    StateCode = "",
                     Latitude = "37.45625570",
                     Longitude = "126.70520620",
                     Type = "metropolitan city",
@@ -261,9 +264,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Jeju",
-                    StateCode = "49",
-                    Latitude = "33.95682780",
-                    Longitude = "-84.13135000",
+                    StateCode = "",
+                    Latitude = "33.49982890",
+                    Longitude = "126.53139020",
                     Type = "special self-governing province",
                     Cities = new()
                     {
@@ -278,9 +281,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "North Chungcheong",
-                    StateCode = "43",
-                    Latitude = "36.80000000",
-                    Longitude = "127.70000000",
+                    StateCode = "",
+                    Latitude = "36.63570000",
+                    Longitude = "127.49150000",
                     Type = "province",
                     Cities = new()
                     {
@@ -306,9 +309,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "North Gyeongsang",
-                    StateCode = "47",
-                    Latitude = "36.49190000",
-                    Longitude = "128.88890000",
+                    StateCode = "",
+                    Latitude = "36.57540000",
+                    Longitude = "128.50580000",
                     Type = "province",
                     Cities = new()
                     {
@@ -317,36 +320,35 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Bonghwa-gun", Latitude = "36.88951000", Longitude = "128.73573000" },
                         new() { Id = 4, Name = "Cheongdo-gun", Latitude = "35.67166000", Longitude = "128.78509000" },
                         new() { Id = 5, Name = "Cheongsong gun", Latitude = "36.43351000", Longitude = "129.05700000" },
-                        new() { Id = 6, Name = "Cheongsong-gun", Latitude = "36.43288000", Longitude = "129.05159000" },
-                        new() { Id = 7, Name = "Chilgok-gun", Latitude = "36.01512000", Longitude = "128.46138000" },
-                        new() { Id = 8, Name = "Eisen", Latitude = "36.82167000", Longitude = "128.63083000" },
-                        new() { Id = 9, Name = "Gimcheon", Latitude = "36.12176000", Longitude = "128.11981000" },
-                        new() { Id = 10, Name = "Gimcheon-si", Latitude = "36.14481000", Longitude = "128.11157000" },
-                        new() { Id = 11, Name = "Goryeong-gun", Latitude = "35.74959000", Longitude = "128.29707000" },
-                        new() { Id = 12, Name = "Gumi-si", Latitude = "36.21009000", Longitude = "128.35442000" },
-                        new() { Id = 13, Name = "Gunwi-gun", Latitude = "36.16995000", Longitude = "128.64705000" },
-                        new() { Id = 14, Name = "Gyeongju", Latitude = "35.84278000", Longitude = "129.21167000" },
-                        new() { Id = 15, Name = "Gyeongsan-si", Latitude = "35.83333000", Longitude = "128.80000000" },
-                        new() { Id = 16, Name = "Hayang", Latitude = "35.91333000", Longitude = "128.82000000" },
-                        new() { Id = 17, Name = "Heunghae", Latitude = "36.10945000", Longitude = "129.34517000" },
-                        new() { Id = 18, Name = "Jenzan", Latitude = "36.24083000", Longitude = "128.29750000" },
-                        new() { Id = 19, Name = "Kunwi", Latitude = "36.23472000", Longitude = "128.57278000" },
-                        new() { Id = 20, Name = "Mungyeong", Latitude = "36.59458000", Longitude = "128.19946000" },
-                        new() { Id = 21, Name = "Mungyeong-si", Latitude = "36.58755000", Longitude = "128.18624000" },
-                        new() { Id = 22, Name = "Pohang", Latitude = "36.02917000", Longitude = "129.36481000" },
-                        new() { Id = 23, Name = "Pohang-si", Latitude = "36.08333000", Longitude = "129.36667000" },
-                        new() { Id = 24, Name = "Sangju", Latitude = "36.41528000", Longitude = "128.16056000" },
-                        new() { Id = 25, Name = "Seongju-gun", Latitude = "35.91888000", Longitude = "128.28838000" },
-                        new() { Id = 26, Name = "Uiseong-gun", Latitude = "36.36122000", Longitude = "128.61517000" },
-                        new() { Id = 27, Name = "Uljin-gun", Latitude = "36.91968000", Longitude = "129.31966000" },
-                        new() { Id = 28, Name = "Ulleung-gun", Latitude = "37.50442000", Longitude = "130.86084000" },
-                        new() { Id = 29, Name = "Waegwan", Latitude = "35.99251000", Longitude = "128.39785000" },
-                        new() { Id = 30, Name = "Yecheon-gun", Latitude = "36.65272000", Longitude = "128.43007000" },
-                        new() { Id = 31, Name = "Yeongcheon-si", Latitude = "36.00000000", Longitude = "129.00000000" },
-                        new() { Id = 32, Name = "Yeongdeok-gun", Latitude = "36.48125000", Longitude = "129.31078000" },
-                        new() { Id = 33, Name = "Yeongju-si", Latitude = "36.87459000", Longitude = "128.58631000" },
-                        new() { Id = 34, Name = "Yeongyang-gun", Latitude = "36.69592000", Longitude = "129.14196000" },
-                        new() { Id = 35, Name = "Yeonil", Latitude = "35.99526000", Longitude = "129.35162000" }
+                        new() { Id = 6, Name = "Chilgok-gun", Latitude = "36.01512000", Longitude = "128.46138000" },
+                        new() { Id = 7, Name = "Eisen", Latitude = "36.82167000", Longitude = "128.63083000" },
+                        new() { Id = 8, Name = "Gimcheon", Latitude = "36.12176000", Longitude = "128.11981000" },
+                        new() { Id = 9, Name = "Gimcheon-si", Latitude = "36.14481000", Longitude = "128.11157000" },
+                        new() { Id = 10, Name = "Goryeong-gun", Latitude = "35.74959000", Longitude = "128.29707000" },
+                        new() { Id = 11, Name = "Gumi-si", Latitude = "36.21009000", Longitude = "128.35442000" },
+                        new() { Id = 12, Name = "Gunwi-gun", Latitude = "36.16995000", Longitude = "128.64705000" },
+                        new() { Id = 13, Name = "Gyeongju", Latitude = "35.84278000", Longitude = "129.21167000" },
+                        new() { Id = 14, Name = "Gyeongsan-si", Latitude = "35.83333000", Longitude = "128.80000000" },
+                        new() { Id = 15, Name = "Hayang", Latitude = "35.91333000", Longitude = "128.82000000" },
+                        new() { Id = 16, Name = "Heunghae", Latitude = "36.10945000", Longitude = "129.34517000" },
+                        new() { Id = 17, Name = "Jenzan", Latitude = "36.24083000", Longitude = "128.29750000" },
+                        new() { Id = 18, Name = "Kunwi", Latitude = "36.23472000", Longitude = "128.57278000" },
+                        new() { Id = 19, Name = "Mungyeong", Latitude = "36.59458000", Longitude = "128.19946000" },
+                        new() { Id = 20, Name = "Mungyeong-si", Latitude = "36.58755000", Longitude = "128.18624000" },
+                        new() { Id = 21, Name = "Pohang", Latitude = "36.02917000", Longitude = "129.36481000" },
+                        new() { Id = 22, Name = "Pohang-si", Latitude = "36.08333000", Longitude = "129.36667000" },
+                        new() { Id = 23, Name = "Sangju", Latitude = "36.41528000", Longitude = "128.16056000" },
+                        new() { Id = 24, Name = "Seongju-gun", Latitude = "35.91888000", Longitude = "128.28838000" },
+                        new() { Id = 25, Name = "Uiseong-gun", Latitude = "36.36122000", Longitude = "128.61517000" },
+                        new() { Id = 26, Name = "Uljin-gun", Latitude = "36.91968000", Longitude = "129.31966000" },
+                        new() { Id = 27, Name = "Ulleung-gun", Latitude = "37.50442000", Longitude = "130.86084000" },
+                        new() { Id = 28, Name = "Waegwan", Latitude = "35.99251000", Longitude = "128.39785000" },
+                        new() { Id = 29, Name = "Yecheon-gun", Latitude = "36.65272000", Longitude = "128.43007000" },
+                        new() { Id = 30, Name = "Yeongcheon-si", Latitude = "36.00000000", Longitude = "129.00000000" },
+                        new() { Id = 31, Name = "Yeongdeok-gun", Latitude = "36.48125000", Longitude = "129.31078000" },
+                        new() { Id = 32, Name = "Yeongju-si", Latitude = "36.87459000", Longitude = "128.58631000" },
+                        new() { Id = 33, Name = "Yeongyang-gun", Latitude = "36.69592000", Longitude = "129.14196000" },
+                        new() { Id = 34, Name = "Yeonil", Latitude = "35.99526000", Longitude = "129.35162000" }
                     }
                 },
 
@@ -354,9 +356,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "North Jeolla",
-                    StateCode = "45",
-                    Latitude = "35.71750000",
-                    Longitude = "127.15300000",
+                    StateCode = "",
+                    Latitude = "35.81989990",
+                    Longitude = "127.10900000",
                     Type = "province",
                     Cities = new()
                     {
@@ -391,9 +393,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Sejong City",
-                    StateCode = "50",
-                    Latitude = "34.05233230",
-                    Longitude = "-118.30848970",
+                    StateCode = "",
+                    Latitude = "36.47999990",
+                    Longitude = "127.28900000",
                     Type = "special self-governing city",
                     Cities = new()
                     {
@@ -405,7 +407,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Seoul",
-                    StateCode = "11",
+                    StateCode = "",
                     Latitude = "37.56653500",
                     Longitude = "126.97796920",
                     Type = "special city",
@@ -445,9 +447,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "South Chungcheong",
-                    StateCode = "44",
-                    Latitude = "36.51840000",
-                    Longitude = "126.80000000",
+                    StateCode = "",
+                    Latitude = "36.65930000",
+                    Longitude = "126.67290000",
                     Type = "province",
                     Cities = new()
                     {
@@ -486,9 +488,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "South Gyeongsang",
-                    StateCode = "48",
-                    Latitude = "35.46060000",
-                    Longitude = "128.21320000",
+                    StateCode = "",
+                    Latitude = "35.23820000",
+                    Longitude = "128.69250000",
                     Type = "province",
                     Cities = new()
                     {
@@ -525,9 +527,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "South Jeolla",
-                    StateCode = "46",
-                    Latitude = "34.86790000",
-                    Longitude = "126.99100000",
+                    StateCode = "",
+                    Latitude = "34.81590000",
+                    Longitude = "126.46290000",
                     Type = "province",
                     Cities = new()
                     {
@@ -573,7 +575,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Ulsan",
-                    StateCode = "31",
+                    StateCode = "",
                     Latitude = "35.53837730",
                     Longitude = "129.31135960",
                     Type = "metropolitan city",

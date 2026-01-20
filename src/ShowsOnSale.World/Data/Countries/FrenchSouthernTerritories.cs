@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 79,
+            Id = 78,
             Name = "French Southern Territories",
             Iso3 = "ATF",
             Iso2 = "TF",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Douaroù Aostral hag Antarktikel Frañs",
                 ["ko"] = "프랑스령 남방 및 남극",
                 ["pt-BR"] = "Terras Austrais e Antárticas Francesas",
                 ["pt"] = "Terras Austrais e Antárticas Francesas",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Fransiz Güney Topraklari",
                 ["ru"] = "Французские южные территории",
                 ["uk"] = "Французькі південні території",
-                ["pl"] = "Francuskie terytoria południowe"
+                ["pl"] = "Francuskie terytoria południowe",
+                ["hi"] = "फ्रांसीसी दक्षिणी क्षेत्र",
+                ["ar"] = "الأقاليم الجنوبية الفرنسية"
             },
             States = new()
             {

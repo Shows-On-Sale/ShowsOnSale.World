@@ -39,6 +39,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Inizi Minor A-bell Stadoù-Unanet",
                 ["ko"] = "미국령 군소 제도",
                 ["pt-BR"] = "Ilhas Menores Distantes dos Estados Unidos",
                 ["pt"] = "Ilhas Menores Distantes dos Estados Unidos",
@@ -54,7 +55,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Abd Küçük Harici Adalari",
                 ["ru"] = "Малые отдаленные острова Соединенных Штатов",
                 ["uk"] = "Малі віддалені острови Сполучених Штатів",
-                ["pl"] = "Mniejsze Wyspy Zewnętrzne Stanów Zjednoczonych"
+                ["pl"] = "Mniejsze Wyspy Zewnętrzne Stanów Zjednoczonych",
+                ["hi"] = "यूनाइटेड स्टेट्स माइनर आउटिंग आइलैंड्स",
+                ["ar"] = "الولايات المتحدة الجزر البعيدة الصغرى"
             },
             States = new()
             {
@@ -63,7 +66,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Baker Island",
-                    StateCode = "81",
+                    StateCode = "",
                     Latitude = "0.19362660",
                     Longitude = "-176.47690800",
                     Type = "island",
@@ -76,7 +79,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Howland Island",
-                    StateCode = "84",
+                    StateCode = "",
                     Latitude = "0.81132190",
                     Longitude = "-176.61827360",
                     Type = "island",
@@ -89,7 +92,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Jarvis Island",
-                    StateCode = "86",
+                    StateCode = "",
                     Latitude = "-0.37435030",
                     Longitude = "-159.99672060",
                     Type = "island",
@@ -102,7 +105,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Johnston Atoll",
-                    StateCode = "67",
+                    StateCode = "",
                     Latitude = "16.72950350",
                     Longitude = "-169.53364770",
                     Type = "island",
@@ -115,7 +118,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Kingman Reef",
-                    StateCode = "89",
+                    StateCode = "",
                     Latitude = "6.38333300",
                     Longitude = "-162.41666700",
                     Type = "island",
@@ -128,7 +131,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Midway Islands",
-                    StateCode = "71",
+                    StateCode = "",
                     Latitude = "28.20721680",
                     Longitude = "-177.37349260",
                     Type = "island",
@@ -141,7 +144,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Navassa Island",
-                    StateCode = "76",
+                    StateCode = "",
                     Latitude = "18.41006890",
                     Longitude = "-75.01146120",
                     Type = "island",
@@ -154,7 +157,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Palmyra Atoll",
-                    StateCode = "95",
+                    StateCode = "",
                     Latitude = "5.88850260",
                     Longitude = "-162.07866560",
                     Type = "island",
@@ -167,7 +170,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Wake Island",
-                    StateCode = "79",
+                    StateCode = "",
                     Latitude = "19.27961900",
                     Longitude = "166.64993480",
                     Type = "island",

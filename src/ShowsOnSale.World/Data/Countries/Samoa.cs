@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Samoa",
                 ["ko"] = "사모아",
                 ["pt-BR"] = "Samoa",
                 ["pt"] = "Samoa",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Samoa",
                 ["ru"] = "Самоа",
                 ["uk"] = "Самоа",
-                ["pl"] = "Samoa"
+                ["pl"] = "Samoa",
+                ["hi"] = "समोआ",
+                ["ar"] = "ساموا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "A'ana",
-                    StateCode = "AA",
-                    Latitude = "-13.89841800",
-                    Longitude = "-171.97529950",
+                    StateCode = "",
+                    Latitude = "-13.83717570",
+                    Longitude = "-171.99508690",
                     Type = "district",
                     Cities = new()
                     {
@@ -79,9 +82,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Aiga-i-le-Tai",
-                    StateCode = "AL",
-                    Latitude = "-13.85137910",
-                    Longitude = "-172.03254010",
+                    StateCode = "",
+                    Latitude = "-13.86203100",
+                    Longitude = "-172.03283710",
                     Type = "district",
                     Cities = new()
                     {
@@ -93,9 +96,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Atua",
-                    StateCode = "AT",
-                    Latitude = "-13.97870530",
-                    Longitude = "-171.62542830",
+                    StateCode = "",
+                    Latitude = "-13.95487800",
+                    Longitude = "-171.65124550",
                     Type = "district",
                     Cities = new()
                     {
@@ -110,7 +113,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Fa'asaleleaga",
-                    StateCode = "FA",
+                    StateCode = "",
                     Latitude = "-13.63076380",
                     Longitude = "-172.23659810",
                     Type = "district",
@@ -123,7 +126,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Gaga'emauga",
-                    StateCode = "GE",
+                    StateCode = "",
                     Latitude = "-13.54286660",
                     Longitude = "-172.36688700",
                     Type = "district",
@@ -136,7 +139,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Gaga'ifomauga",
-                    StateCode = "GI",
+                    StateCode = "",
                     Latitude = "-13.54680070",
                     Longitude = "-172.49693310",
                     Type = "district",
@@ -151,9 +154,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Palauli",
-                    StateCode = "PA",
-                    Latitude = "-13.72945790",
-                    Longitude = "-172.45361150",
+                    StateCode = "",
+                    Latitude = "-13.70635770",
+                    Longitude = "-172.48397010",
                     Type = "district",
                     Cities = new()
                     {
@@ -166,9 +169,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Satupa'itea",
-                    StateCode = "SA",
-                    Latitude = "-13.65382140",
-                    Longitude = "-172.61592710",
+                    StateCode = "",
+                    Latitude = "-13.74143280",
+                    Longitude = "-172.34066830",
                     Type = "district",
                     Cities = new()
                     {
@@ -179,9 +182,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Tuamasaga",
-                    StateCode = "TU",
-                    Latitude = "-13.91635920",
-                    Longitude = "-171.82243620",
+                    StateCode = "",
+                    Latitude = "-13.92188040",
+                    Longitude = "-171.80071960",
                     Type = "district",
                     Cities = new()
                     {
@@ -197,7 +200,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Va'a-o-Fonoti",
-                    StateCode = "VF",
+                    StateCode = "",
                     Latitude = "-13.94709030",
                     Longitude = "-171.54318720",
                     Type = "district",
@@ -211,9 +214,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Vaisigano",
-                    StateCode = "VS",
-                    Latitude = "-13.54138270",
-                    Longitude = "-172.70233830",
+                    StateCode = "",
+                    Latitude = "-13.55956560",
+                    Longitude = "-172.65937980",
                     Type = "district",
                     Cities = new()
                     {

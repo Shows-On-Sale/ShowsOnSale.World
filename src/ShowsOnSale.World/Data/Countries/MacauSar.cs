@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Makao",
                 ["ko"] = "마카오",
                 ["pt-BR"] = "Macau",
                 ["pt"] = "Macau",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Makao",
                 ["ru"] = "Макао С.А.Р.",
                 ["uk"] = "САР Макао.",
-                ["pl"] = "Macau S.A.R."
+                ["pl"] = "Macau S.A.R.",
+                ["hi"] = "मकाऊ एस.ए.आर.",
+                ["ar"] = "ماكاو س."
             },
             States = new()
             {

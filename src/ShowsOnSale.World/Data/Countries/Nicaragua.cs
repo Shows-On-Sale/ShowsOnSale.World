@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Nicaragua",
                 ["ko"] = "니카라과",
                 ["pt-BR"] = "Nicarágua",
                 ["pt"] = "Nicarágua",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Nikaragua",
                 ["ru"] = "Никарагуа",
                 ["uk"] = "Нікарагуа",
-                ["pl"] = "Nikaragua"
+                ["pl"] = "Nikaragua",
+                ["hi"] = "निकारागुआ",
+                ["ar"] = "نيكاراغوا"
             },
             States = new()
             {
@@ -62,7 +65,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Boaco",
-                    StateCode = "BO",
+                    StateCode = "",
                     Latitude = "12.46928400",
                     Longitude = "-85.66146820",
                     Type = "department",
@@ -81,9 +84,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Carazo",
-                    StateCode = "CA",
-                    Latitude = "11.72747290",
-                    Longitude = "-86.21584970",
+                    StateCode = "",
+                    Latitude = "11.66199850",
+                    Longitude = "-86.31256970",
                     Type = "department",
                     Cities = new()
                     {
@@ -103,9 +106,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Chinandega",
-                    StateCode = "CI",
-                    Latitude = "12.88200620",
-                    Longitude = "-87.14228950",
+                    StateCode = "",
+                    Latitude = "12.77779620",
+                    Longitude = "-87.26958400",
                     Type = "department",
                     Cities = new()
                     {
@@ -128,9 +131,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Chontales",
-                    StateCode = "CO",
-                    Latitude = "11.93947170",
-                    Longitude = "-85.18940450",
+                    StateCode = "",
+                    Latitude = "11.98767530",
+                    Longitude = "-85.18607980",
                     Type = "department",
                     Cities = new()
                     {
@@ -150,9 +153,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Estelí",
-                    StateCode = "ES",
-                    Latitude = "13.08511390",
-                    Longitude = "-86.36301970",
+                    StateCode = "",
+                    Latitude = "13.09312410",
+                    Longitude = "-86.35544360",
                     Type = "department",
                     Cities = new()
                     {
@@ -168,7 +171,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Granada",
-                    StateCode = "GR",
+                    StateCode = "",
                     Latitude = "11.93440730",
                     Longitude = "-85.95600050",
                     Type = "department",
@@ -185,7 +188,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Jinotega",
-                    StateCode = "JI",
+                    StateCode = "",
                     Latitude = "13.08839070",
                     Longitude = "-85.99939970",
                     Type = "department",
@@ -206,7 +209,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "León",
-                    StateCode = "LE",
+                    StateCode = "",
                     Latitude = "12.50920370",
                     Longitude = "-86.66110830",
                     Type = "department",
@@ -229,9 +232,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Madriz",
-                    StateCode = "MD",
-                    Latitude = "13.47260050",
-                    Longitude = "-86.45920910",
+                    StateCode = "",
+                    Latitude = "13.42728710",
+                    Longitude = "-86.40162200",
                     Type = "department",
                     Cities = new()
                     {
@@ -251,9 +254,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Managua",
-                    StateCode = "MN",
-                    Latitude = "12.13916990",
-                    Longitude = "-86.33767610",
+                    StateCode = "",
+                    Latitude = "12.10805850",
+                    Longitude = "-86.35058080",
                     Type = "department",
                     Cities = new()
                     {
@@ -273,9 +276,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Masaya",
-                    StateCode = "MS",
-                    Latitude = "11.97593280",
-                    Longitude = "-86.07334980",
+                    StateCode = "",
+                    Latitude = "11.97364740",
+                    Longitude = "-86.09605470",
                     Type = "department",
                     Cities = new()
                     {
@@ -299,9 +302,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Matagalpa",
-                    StateCode = "MT",
-                    Latitude = "12.94984360",
-                    Longitude = "-85.43755740",
+                    StateCode = "",
+                    Latitude = "12.94032300",
+                    Longitude = "-85.69609420",
                     Type = "department",
                     Cities = new()
                     {
@@ -320,9 +323,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "North Caribbean Coast",
-                    StateCode = "AN",
-                    Latitude = "13.83944560",
-                    Longitude = "-83.93208060",
+                    StateCode = "",
+                    Latitude = "14.05574990",
+                    Longitude = "-83.74757650",
                     Type = "autonomous region",
                     Cities = new()
                     {
@@ -339,9 +342,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Nueva Segovia",
-                    StateCode = "NS",
-                    Latitude = "13.76570610",
-                    Longitude = "-86.53700390",
+                    StateCode = "",
+                    Latitude = "13.77190230",
+                    Longitude = "-86.05845420",
                     Type = "department",
                     Cities = new()
                     {
@@ -364,9 +367,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Río San Juan",
-                    StateCode = "SJ",
-                    Latitude = "11.47816100",
-                    Longitude = "-84.77333250",
+                    StateCode = "",
+                    Latitude = "11.30800260",
+                    Longitude = "-84.75506930",
                     Type = "department",
                     Cities = new()
                     {
@@ -382,9 +385,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Rivas",
-                    StateCode = "RI",
-                    Latitude = "11.40234900",
-                    Longitude = "-85.68457800",
+                    StateCode = "",
+                    Latitude = "11.34346870",
+                    Longitude = "-85.71596240",
                     Type = "department",
                     Cities = new()
                     {
@@ -415,9 +418,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "South Caribbean Coast",
-                    StateCode = "AS",
-                    Latitude = "12.19185020",
-                    Longitude = "-84.10128610",
+                    StateCode = "",
+                    Latitude = "12.17932750",
+                    Longitude = "-83.77740510",
                     Type = "autonomous region",
                     Cities = new()
                     {

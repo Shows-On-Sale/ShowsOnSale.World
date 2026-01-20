@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Zimbabwe",
                 ["ko"] = "짐바브웨",
                 ["pt-BR"] = "Zimbabwe",
                 ["pt"] = "Zimbabué",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Zimbabve",
                 ["ru"] = "Зимбабве",
                 ["uk"] = "Зімбабве",
-                ["pl"] = "Zimbabwe"
+                ["pl"] = "Zimbabwe",
+                ["hi"] = "ज़िम्बाब्वे",
+                ["ar"] = "زيمبابوي"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Bulawayo",
-                    StateCode = "BU",
-                    Latitude = "-20.14895050",
-                    Longitude = "28.53310380",
+                    StateCode = "",
+                    Latitude = "-20.11111480",
+                    Longitude = "28.53567810",
                     Type = "province",
                     Cities = new()
                     {
@@ -76,9 +79,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Harare",
-                    StateCode = "HA",
-                    Latitude = "-17.82162880",
-                    Longitude = "31.04922590",
+                    StateCode = "",
+                    Latitude = "-17.83177300",
+                    Longitude = "31.04568600",
                     Type = "province",
                     Cities = new()
                     {
@@ -92,23 +95,23 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Manicaland",
-                    StateCode = "MA",
-                    Latitude = "-18.92163860",
-                    Longitude = "32.17460500",
+                    StateCode = "",
+                    Latitude = "-19.01884220",
+                    Longitude = "32.36888900",
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Buhera District", Latitude = "-19.45658000", Longitude = "31.93156000" },
+                        new() { Id = 1, Name = "Buhera", Latitude = "-19.45658000", Longitude = "31.93156000" },
                         new() { Id = 2, Name = "Chimanimani", Latitude = "-19.80000000", Longitude = "32.86667000" },
                         new() { Id = 3, Name = "Chimanimani District", Latitude = "-19.78295000", Longitude = "32.73338000" },
                         new() { Id = 4, Name = "Chipinge", Latitude = "-20.18833000", Longitude = "32.62365000" },
                         new() { Id = 5, Name = "Chipinge District", Latitude = "-20.54959000", Longitude = "32.43110000" },
                         new() { Id = 6, Name = "Dorowa Mining Lease", Latitude = "-19.06667000", Longitude = "31.75000000" },
                         new() { Id = 7, Name = "Headlands", Latitude = "-18.27733000", Longitude = "32.05150000" },
-                        new() { Id = 8, Name = "Makoni District", Latitude = "-18.33550000", Longitude = "32.14650000" },
+                        new() { Id = 8, Name = "Makoni", Latitude = "-18.33550000", Longitude = "32.14650000" },
                         new() { Id = 9, Name = "Mutare", Latitude = "-18.97070000", Longitude = "32.67086000" },
                         new() { Id = 10, Name = "Mutare District", Latitude = "-19.25512000", Longitude = "32.44327000" },
-                        new() { Id = 11, Name = "Mutasa District", Latitude = "-18.66283000", Longitude = "32.74547000" },
+                        new() { Id = 11, Name = "Mutasa", Latitude = "-18.66283000", Longitude = "32.74547000" },
                         new() { Id = 12, Name = "Nyanga", Latitude = "-18.21667000", Longitude = "32.75000000" },
                         new() { Id = 13, Name = "Nyanga District", Latitude = "-17.92951000", Longitude = "32.76561000" },
                         new() { Id = 14, Name = "Nyazura", Latitude = "-18.70587000", Longitude = "32.16796000" },
@@ -122,9 +125,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Mashonaland Central",
-                    StateCode = "MC",
-                    Latitude = "-16.76442950",
-                    Longitude = "31.07937050",
+                    StateCode = "",
+                    Latitude = "-16.74287200",
+                    Longitude = "31.29520860",
                     Type = "province",
                     Cities = new()
                     {
@@ -134,12 +137,12 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Centenary District", Latitude = "-16.41667000", Longitude = "31.16667000" },
                         new() { Id = 5, Name = "Concession", Latitude = "-17.38333000", Longitude = "30.95000000" },
                         new() { Id = 6, Name = "Glendale", Latitude = "-17.35514000", Longitude = "31.06718000" },
-                        new() { Id = 7, Name = "Guruve District", Latitude = "-16.37206000", Longitude = "30.60607000" },
+                        new() { Id = 7, Name = "Guruve", Latitude = "-16.37206000", Longitude = "30.60607000" },
                         new() { Id = 8, Name = "Mazowe", Latitude = "-17.50404000", Longitude = "30.97388000" },
                         new() { Id = 9, Name = "Mazowe District", Latitude = "-17.28080000", Longitude = "30.93231000" },
                         new() { Id = 10, Name = "Mount Darwin", Latitude = "-16.77251000", Longitude = "31.58381000" },
                         new() { Id = 11, Name = "Mvurwi", Latitude = "-17.03333000", Longitude = "30.85000000" },
-                        new() { Id = 12, Name = "Rushinga District", Latitude = "-16.60792000", Longitude = "32.31434000" },
+                        new() { Id = 12, Name = "Rushinga", Latitude = "-16.60792000", Longitude = "32.31434000" },
                         new() { Id = 13, Name = "Shamva", Latitude = "-17.31159000", Longitude = "31.57561000" },
                         new() { Id = 14, Name = "Shamva District", Latitude = "-17.12366000", Longitude = "31.64146000" }
                     }
@@ -149,19 +152,19 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Mashonaland East",
-                    StateCode = "ME",
-                    Latitude = "-18.58716420",
-                    Longitude = "31.26263660",
+                    StateCode = "",
+                    Latitude = "-17.79273230",
+                    Longitude = "31.76780440",
                     Type = "province",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Beatrice", Latitude = "-18.25283000", Longitude = "30.84730000" },
                         new() { Id = 2, Name = "Chivhu", Latitude = "-19.02112000", Longitude = "30.89218000" },
-                        new() { Id = 3, Name = "Goromonzi District", Latitude = "-17.80695000", Longitude = "31.36372000" },
+                        new() { Id = 3, Name = "Goromonzi", Latitude = "-17.80695000", Longitude = "31.36372000" },
                         new() { Id = 4, Name = "Macheke", Latitude = "-18.13901000", Longitude = "31.84933000" },
                         new() { Id = 5, Name = "Marondera", Latitude = "-18.18527000", Longitude = "31.55193000" },
                         new() { Id = 6, Name = "Marondera District", Latitude = "-18.29214000", Longitude = "31.51252000" },
-                        new() { Id = 7, Name = "Mudzi District", Latitude = "-17.04711000", Longitude = "32.65279000" },
+                        new() { Id = 7, Name = "Mudzi", Latitude = "-17.04711000", Longitude = "32.65279000" },
                         new() { Id = 8, Name = "Murehwa", Latitude = "-17.64322000", Longitude = "31.78400000" },
                         new() { Id = 9, Name = "Murehwa District", Latitude = "-17.80057000", Longitude = "31.83083000" },
                         new() { Id = 10, Name = "Mutoko", Latitude = "-17.39699000", Longitude = "32.22677000" },
@@ -173,7 +176,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Mashonaland West",
-                    StateCode = "MW",
+                    StateCode = "",
                     Latitude = "-17.48510290",
                     Longitude = "29.78892480",
                     Type = "province",
@@ -185,13 +188,13 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Chegutu District", Latitude = "-18.13097000", Longitude = "30.40046000" },
                         new() { Id = 5, Name = "Chinhoyi", Latitude = "-17.36667000", Longitude = "30.20000000" },
                         new() { Id = 6, Name = "Chirundu", Latitude = "-16.03333000", Longitude = "28.85000000" },
-                        new() { Id = 7, Name = "Hurungwe District", Latitude = "-16.41301000", Longitude = "29.58580000" },
+                        new() { Id = 7, Name = "Hurungwe", Latitude = "-16.41301000", Longitude = "29.58580000" },
                         new() { Id = 8, Name = "Kadoma", Latitude = "-18.33328000", Longitude = "29.91534000" },
                         new() { Id = 9, Name = "Kadoma District", Latitude = "-18.34049000", Longitude = "29.82831000" },
                         new() { Id = 10, Name = "Kariba", Latitude = "-16.51667000", Longitude = "28.80000000" },
                         new() { Id = 11, Name = "Kariba District", Latitude = "-16.91011000", Longitude = "28.65983000" },
                         new() { Id = 12, Name = "Karoi", Latitude = "-16.80993000", Longitude = "29.69247000" },
-                        new() { Id = 13, Name = "Makonde District", Latitude = "-17.16667000", Longitude = "30.08333000" },
+                        new() { Id = 13, Name = "Makonde", Latitude = "-17.16667000", Longitude = "30.08333000" },
                         new() { Id = 14, Name = "Mhangura", Latitude = "-16.89387000", Longitude = "30.16828000" },
                         new() { Id = 15, Name = "Norton", Latitude = "-17.88333000", Longitude = "30.70000000" },
                         new() { Id = 16, Name = "Raffingora", Latitude = "-17.03333000", Longitude = "30.43333000" }
@@ -202,21 +205,21 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Masvingo",
-                    StateCode = "MV",
-                    Latitude = "-20.62415090",
-                    Longitude = "31.26263660",
+                    StateCode = "",
+                    Latitude = "-20.74539570",
+                    Longitude = "31.33413800",
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Bikita District", Latitude = "-20.13752000", Longitude = "31.93156000" },
+                        new() { Id = 1, Name = "Bikita", Latitude = "-20.13752000", Longitude = "31.93156000" },
                         new() { Id = 2, Name = "Chiredzi", Latitude = "-21.05000000", Longitude = "31.66667000" },
                         new() { Id = 3, Name = "Chiredzi District", Latitude = "-21.28585000", Longitude = "31.77039000" },
-                        new() { Id = 4, Name = "Chivi District", Latitude = "-20.50000000", Longitude = "30.58333000" },
-                        new() { Id = 5, Name = "Gutu District", Latitude = "-19.60884000", Longitude = "31.25059000" },
+                        new() { Id = 4, Name = "Chivi", Latitude = "-20.50000000", Longitude = "30.58333000" },
+                        new() { Id = 5, Name = "Gutu", Latitude = "-19.60884000", Longitude = "31.25059000" },
                         new() { Id = 6, Name = "Mashava", Latitude = "-20.03665000", Longitude = "30.48225000" },
                         new() { Id = 7, Name = "Masvingo", Latitude = "-20.06373000", Longitude = "30.82766000" },
                         new() { Id = 8, Name = "Masvingo District", Latitude = "-20.31481000", Longitude = "30.90008000" },
-                        new() { Id = 9, Name = "Mwenezi District", Latitude = "-21.35838000", Longitude = "30.70668000" },
+                        new() { Id = 9, Name = "Mwenezi", Latitude = "-21.35838000", Longitude = "30.70668000" },
                         new() { Id = 10, Name = "Zvishavane", Latitude = "-20.32674000", Longitude = "30.06648000" }
                     }
                 },
@@ -225,15 +228,15 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Matabeleland North",
-                    StateCode = "MN",
-                    Latitude = "-18.53315660",
-                    Longitude = "27.54958460",
+                    StateCode = "",
+                    Latitude = "-18.92837150",
+                    Longitude = "27.49922310",
                     Type = "province",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Binga", Latitude = "-17.62027000", Longitude = "27.34139000" },
                         new() { Id = 2, Name = "Binga District", Latitude = "-17.80460000", Longitude = "27.70088000" },
-                        new() { Id = 3, Name = "Bubi District", Latitude = "-19.52508000", Longitude = "28.67998000" },
+                        new() { Id = 3, Name = "Bubi", Latitude = "-19.52508000", Longitude = "28.67998000" },
                         new() { Id = 4, Name = "Dete", Latitude = "-18.61667000", Longitude = "26.86667000" },
                         new() { Id = 5, Name = "Hwange", Latitude = "-18.36446000", Longitude = "26.49877000" },
                         new() { Id = 6, Name = "Hwange District", Latitude = "-18.75000000", Longitude = "26.50000000" },
@@ -241,7 +244,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Kamativi Mine", Latitude = "-18.31563000", Longitude = "27.05729000" },
                         new() { Id = 9, Name = "Lupane", Latitude = "-18.93149000", Longitude = "27.80696000" },
                         new() { Id = 10, Name = "Lupane District", Latitude = "-18.83608000", Longitude = "27.99098000" },
-                        new() { Id = 11, Name = "Nkayi District", Latitude = "-18.92472000", Longitude = "28.71221000" },
+                        new() { Id = 11, Name = "Nkayi", Latitude = "-18.92472000", Longitude = "28.71221000" },
                         new() { Id = 12, Name = "Victoria Falls", Latitude = "-17.93285000", Longitude = "25.83066000" }
                     }
                 },
@@ -250,9 +253,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Matabeleland South",
-                    StateCode = "MS",
-                    Latitude = "-21.05233700",
-                    Longitude = "29.04599270",
+                    StateCode = "",
+                    Latitude = "-20.73648010",
+                    Longitude = "28.93964950",
                     Type = "province",
                     Cities = new()
                     {
@@ -264,10 +267,10 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Gwanda District", Latitude = "-21.20929000", Longitude = "29.17557000" },
                         new() { Id = 7, Name = "Insiza", Latitude = "-19.78333000", Longitude = "29.20000000" },
                         new() { Id = 8, Name = "Insiza District", Latitude = "-20.26431000", Longitude = "29.47392000" },
-                        new() { Id = 9, Name = "Mangwe District", Latitude = "-20.95545000", Longitude = "27.98292000" },
+                        new() { Id = 9, Name = "Mangwe", Latitude = "-20.95545000", Longitude = "27.98292000" },
                         new() { Id = 10, Name = "Matobo", Latitude = "-20.95545000", Longitude = "28.49463000" },
                         new() { Id = 11, Name = "Plumtree", Latitude = "-20.48333000", Longitude = "27.81667000" },
-                        new() { Id = 12, Name = "Umzingwane District", Latitude = "-20.34704000", Longitude = "28.94994000" }
+                        new() { Id = 12, Name = "Umzingwane", Latitude = "-20.34704000", Longitude = "28.94994000" }
                     }
                 },
 
@@ -275,9 +278,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Midlands",
-                    StateCode = "MI",
-                    Latitude = "-19.05520090",
-                    Longitude = "29.60354950",
+                    StateCode = "",
+                    Latitude = "-19.27850430",
+                    Longitude = "29.87908520",
                     Type = "province",
                     Cities = new()
                     {
@@ -287,13 +290,13 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Kwekwe", Latitude = "-18.92809000", Longitude = "29.81486000" },
                         new() { Id = 5, Name = "Kwekwe District", Latitude = "-18.75000000", Longitude = "29.50000000" },
                         new() { Id = 6, Name = "Lalapanzi", Latitude = "-19.33225000", Longitude = "30.17768000" },
-                        new() { Id = 7, Name = "Mberengwa District", Latitude = "-20.72579000", Longitude = "30.00962000" },
+                        new() { Id = 7, Name = "Mberengwa", Latitude = "-20.72579000", Longitude = "30.00962000" },
                         new() { Id = 8, Name = "Mvuma", Latitude = "-19.27924000", Longitude = "30.52828000" },
                         new() { Id = 9, Name = "Redcliff", Latitude = "-19.03333000", Longitude = "29.78333000" },
                         new() { Id = 10, Name = "Shangani", Latitude = "-19.78333000", Longitude = "29.36667000" },
                         new() { Id = 11, Name = "Shurugwi", Latitude = "-19.67016000", Longitude = "30.00589000" },
                         new() { Id = 12, Name = "Shurugwi District", Latitude = "-19.75000000", Longitude = "30.16667000" },
-                        new() { Id = 13, Name = "Zvishavane District", Latitude = "-20.30345000", Longitude = "30.07514000" }
+                        new() { Id = 13, Name = "Zvishavane", Latitude = "-20.30345000", Longitude = "30.07514000" }
                     }
                 }
             }

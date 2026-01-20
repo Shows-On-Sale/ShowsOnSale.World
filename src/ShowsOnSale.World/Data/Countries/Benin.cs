@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Benin",
                 ["ko"] = "베냉",
                 ["pt-BR"] = "Benin",
                 ["pt"] = "Benim",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Benin",
                 ["ru"] = "Бенин",
                 ["uk"] = "Бенін",
-                ["pl"] = "Benin"
+                ["pl"] = "Benin",
+                ["hi"] = "बेनिन",
+                ["ar"] = "بنين"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Alibori",
-                    StateCode = "AL",
-                    Latitude = "10.96810930",
-                    Longitude = "2.77798130",
+                    StateCode = "",
+                    Latitude = "11.46494820",
+                    Longitude = "2.79387980",
                     Type = "department",
                     Cities = new()
                     {
@@ -78,9 +81,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Atakora",
-                    StateCode = "AK",
-                    Latitude = "10.79549310",
-                    Longitude = "1.67606910",
+                    StateCode = "",
+                    Latitude = "10.71605150",
+                    Longitude = "1.53315270",
                     Type = "department",
                     Cities = new()
                     {
@@ -94,9 +97,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Atlantique",
-                    StateCode = "AQ",
-                    Latitude = "6.65883910",
-                    Longitude = "2.22366670",
+                    StateCode = "",
+                    Latitude = "6.54082900",
+                    Longitude = "2.22309500",
                     Type = "department",
                     Cities = new()
                     {
@@ -112,9 +115,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Borgou",
-                    StateCode = "BO",
-                    Latitude = "9.53408640",
-                    Longitude = "2.77798130",
+                    StateCode = "",
+                    Latitude = "9.70974530",
+                    Longitude = "2.74226480",
                     Type = "department",
                     Cities = new()
                     {
@@ -130,9 +133,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Collines",
-                    StateCode = "CO",
-                    Latitude = "8.30222970",
-                    Longitude = "2.30244600",
+                    StateCode = "",
+                    Latitude = "8.10854790",
+                    Longitude = "2.18531010",
                     Type = "department",
                     Cities = new()
                     {
@@ -147,9 +150,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Donga",
-                    StateCode = "DO",
-                    Latitude = "9.71918670",
-                    Longitude = "1.67606910",
+                    StateCode = "",
+                    Latitude = "9.26798060",
+                    Longitude = "1.71706840",
                     Type = "department",
                     Cities = new()
                     {
@@ -163,9 +166,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Kouffo",
-                    StateCode = "KO",
-                    Latitude = "7.00358940",
-                    Longitude = "1.75388170",
+                    StateCode = "",
+                    Latitude = "7.13126620",
+                    Longitude = "1.75673940",
                     Type = "department",
                     Cities = new()
                     {
@@ -178,9 +181,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Littoral",
-                    StateCode = "LI",
-                    Latitude = "6.38069730",
-                    Longitude = "2.44063870",
+                    StateCode = "",
+                    Latitude = "6.36631950",
+                    Longitude = "2.41706080",
                     Type = "department",
                     Cities = new()
                     {
@@ -192,9 +195,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Mono",
-                    StateCode = "MO",
-                    Latitude = "37.92186080",
-                    Longitude = "-118.95286450",
+                    StateCode = "",
+                    Latitude = "6.45762400",
+                    Longitude = "1.86740800",
                     Type = "department",
                     Cities = new()
                     {
@@ -207,9 +210,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Ouémé",
-                    StateCode = "OU",
-                    Latitude = "6.61481520",
-                    Longitude = "2.49999180",
+                    StateCode = "",
+                    Latitude = "6.60135310",
+                    Longitude = "2.55056600",
                     Type = "department",
                     Cities = new()
                     {
@@ -221,9 +224,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Plateau",
-                    StateCode = "PL",
-                    Latitude = "7.34451410",
-                    Longitude = "2.53960300",
+                    StateCode = "",
+                    Latitude = "7.10026020",
+                    Longitude = "2.64091440",
                     Type = "department",
                     Cities = new()
                     {
@@ -237,9 +240,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Zou",
-                    StateCode = "ZO",
-                    Latitude = "7.34692680",
-                    Longitude = "2.06651970",
+                    StateCode = "",
+                    Latitude = "7.28343350",
+                    Longitude = "2.12276040",
                     Type = "department",
                     Cities = new()
                     {

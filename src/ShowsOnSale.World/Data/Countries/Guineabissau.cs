@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 93,
+            Id = 92,
             Name = "Guinea-Bissau",
             Iso3 = "GNB",
             Iso2 = "GW",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Ginea-Bissau",
                 ["ko"] = "기니비사우",
                 ["pt-BR"] = "Guiné-Bissau",
                 ["pt"] = "Guiné-Bissau",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Gine-bissau",
                 ["ru"] = "Гвинея-Бисау",
                 ["uk"] = "Гвінея-Бісау",
-                ["pl"] = "Gwinea Bissau"
+                ["pl"] = "Gwinea Bissau",
+                ["hi"] = "गिनी-बिसाऊ",
+                ["ar"] = "غينيا بيساو"
             },
             States = new()
             {
@@ -62,7 +65,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Bafatá",
-                    StateCode = "BA",
+                    StateCode = "",
                     Latitude = "12.17352430",
                     Longitude = "-14.65295200",
                     Type = "region",
@@ -77,9 +80,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Biombo",
-                    StateCode = "BM",
-                    Latitude = "11.85290610",
-                    Longitude = "-15.73511710",
+                    StateCode = "",
+                    Latitude = "11.88167580",
+                    Longitude = "-15.77844960",
                     Type = "region",
                     Cities = new()
                     {
@@ -90,10 +93,24 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 3,
+                    Name = "Bissau",
+                    StateCode = "",
+                    Latitude = "11.85000000",
+                    Longitude = "-15.56666667",
+                    Type = "autonomous sector",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Bissau", Latitude = "11.85000000", Longitude = "-15.56666667" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 4,
                     Name = "Bolama",
-                    StateCode = "BL",
-                    Latitude = "11.14805910",
-                    Longitude = "-16.13457050",
+                    StateCode = "",
+                    Latitude = "11.27950640",
+                    Longitude = "-16.02944250",
                     Type = "region",
                     Cities = new()
                     {
@@ -104,11 +121,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 4,
+                    Id = 5,
                     Name = "Cacheu",
-                    StateCode = "CA",
-                    Latitude = "12.05514160",
-                    Longitude = "-16.06401790",
+                    StateCode = "",
+                    Latitude = "12.19543310",
+                    Longitude = "-16.09918950",
                     Type = "region",
                     Cities = new()
                     {
@@ -119,11 +136,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 5,
+                    Id = 6,
                     Name = "Gabú",
-                    StateCode = "GA",
-                    Latitude = "11.89624880",
-                    Longitude = "-14.10013260",
+                    StateCode = "",
+                    Latitude = "12.11703510",
+                    Longitude = "-14.17625060",
                     Type = "region",
                     Cities = new()
                     {
@@ -133,11 +150,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 6,
+                    Id = 7,
                     Name = "Leste",
-                    StateCode = "L",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "12.17000000",
+                    Longitude = "-14.37000000",
                     Type = "province",
                     Cities = new()
                     {
@@ -146,9 +163,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 7,
+                    Id = 8,
                     Name = "Norte",
-                    StateCode = "N",
+                    StateCode = "",
                     Latitude = "7.87218110",
                     Longitude = "123.88577470",
                     Type = "province",
@@ -159,11 +176,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 8,
+                    Id = 9,
                     Name = "Oio",
-                    StateCode = "OI",
-                    Latitude = "12.27607090",
-                    Longitude = "-15.31311850",
+                    StateCode = "",
+                    Latitude = "12.28760920",
+                    Longitude = "-15.33876580",
                     Type = "region",
                     Cities = new()
                     {
@@ -175,11 +192,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 9,
+                    Id = 10,
                     Name = "Quinara",
-                    StateCode = "QU",
-                    Latitude = "11.79556200",
-                    Longitude = "-15.17268160",
+                    StateCode = "",
+                    Latitude = "11.63401140",
+                    Longitude = "-15.09526850",
                     Type = "region",
                     Cities = new()
                     {
@@ -189,11 +206,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 10,
+                    Id = 11,
                     Name = "Sul",
-                    StateCode = "S",
-                    Latitude = "-10.28665780",
-                    Longitude = "20.71224650",
+                    StateCode = "",
+                    Latitude = "11.40882130",
+                    Longitude = "-16.00424940",
                     Type = "province",
                     Cities = new()
                     {
@@ -202,11 +219,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 11,
+                    Id = 12,
                     Name = "Tombali",
-                    StateCode = "TO",
-                    Latitude = "11.36326960",
-                    Longitude = "-14.98561760",
+                    StateCode = "",
+                    Latitude = "11.29810820",
+                    Longitude = "-15.11701040",
                     Type = "region",
                     Cities = new()
                     {

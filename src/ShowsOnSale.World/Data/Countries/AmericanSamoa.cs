@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Samoa Amerikan",
                 ["ko"] = "아메리칸사모아",
                 ["pt-BR"] = "Samoa Americana",
                 ["pt"] = "Samoa Americana",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Amerikan Samoasi",
                 ["ru"] = "Американское Самоа",
                 ["uk"] = "Американське Самоа",
-                ["pl"] = "Samoa Amerykańskie"
+                ["pl"] = "Samoa Amerykańskie",
+                ["hi"] = "अमेरिकी समोआ",
+                ["ar"] = "ساموا الأمريكية"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Eastern",
-                    StateCode = "02",
-                    Latitude = "-14.27560390",
-                    Longitude = "-170.80855920",
+                    StateCode = "",
+                    Latitude = "-14.27824020",
+                    Longitude = "-170.62432270",
                     Type = "district",
                     Cities = new()
                     {
@@ -80,9 +83,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Manuʻa",
-                    StateCode = "03",
-                    Latitude = "-14.21126410",
-                    Longitude = "-169.71118920",
+                    StateCode = "",
+                    Latitude = "-14.21460500",
+                    Longitude = "-169.53346500",
                     Type = "district",
                     Cities = new()
                     {
@@ -98,9 +101,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Rose",
-                    StateCode = "05",
-                    Latitude = "-14.54491610",
-                    Longitude = "-168.17632920",
+                    StateCode = "",
+                    Latitude = "-14.54248650",
+                    Longitude = "-168.16374450",
                     Type = "atoll",
                     Cities = new()
                     {
@@ -111,9 +114,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Swains",
-                    StateCode = "04",
-                    Latitude = "-11.05658780",
-                    Longitude = "-171.08829090",
+                    StateCode = "",
+                    Latitude = "-11.05290400",
+                    Longitude = "-171.07673490",
                     Type = "atoll",
                     Cities = new()
                     {
@@ -124,9 +127,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Western",
-                    StateCode = "01",
-                    Latitude = "-14.33307510",
-                    Longitude = "-170.94315020",
+                    StateCode = "",
+                    Latitude = "-14.33230750",
+                    Longitude = "-170.79613340",
                     Type = "district",
                     Cities = new()
                     {

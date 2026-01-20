@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "San Marino",
                 ["ko"] = "산마리노",
                 ["pt-BR"] = "San Marino",
                 ["pt"] = "São Marinho",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "San Marino",
                 ["ru"] = "Сан-Марино",
                 ["uk"] = "Сан-Марино",
-                ["pl"] = "San Marino"
+                ["pl"] = "San Marino",
+                ["hi"] = "सैन मारिनो",
+                ["ar"] = "سان مارينو"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Acquaviva",
-                    StateCode = "01",
-                    Latitude = "41.86715970",
-                    Longitude = "14.74694790",
+                    StateCode = "",
+                    Latitude = "43.94642460",
+                    Longitude = "12.41919090",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -76,9 +79,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Borgo Maggiore",
-                    StateCode = "06",
-                    Latitude = "43.95748820",
-                    Longitude = "12.45525460",
+                    StateCode = "",
+                    Latitude = "43.94118650",
+                    Longitude = "12.44742200",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -90,9 +93,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Chiesanuova",
-                    StateCode = "02",
-                    Latitude = "45.42261720",
-                    Longitude = "7.65038540",
+                    StateCode = "",
+                    Latitude = "43.90533820",
+                    Longitude = "12.42201870",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -104,7 +107,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Domagnano",
-                    StateCode = "03",
+                    StateCode = "",
                     Latitude = "43.95019290",
                     Longitude = "12.46815370",
                     Type = "municipality",
@@ -118,9 +121,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Faetano",
-                    StateCode = "04",
-                    Latitude = "43.93489670",
-                    Longitude = "12.48965540",
+                    StateCode = "",
+                    Latitude = "43.92691220",
+                    Longitude = "12.49746330",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -132,7 +135,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Fiorentino",
-                    StateCode = "05",
+                    StateCode = "",
                     Latitude = "43.90783370",
                     Longitude = "12.45812090",
                     Type = "municipality",
@@ -146,7 +149,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Montegiardino",
-                    StateCode = "08",
+                    StateCode = "",
                     Latitude = "43.90529990",
                     Longitude = "12.48105420",
                     Type = "municipality",
@@ -160,7 +163,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "San Marino",
-                    StateCode = "07",
+                    StateCode = "",
                     Latitude = "43.94236000",
                     Longitude = "12.45777700",
                     Type = "municipality",
@@ -174,9 +177,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Serravalle",
-                    StateCode = "09",
-                    Latitude = "44.72320840",
-                    Longitude = "8.85740050",
+                    StateCode = "",
+                    Latitude = "43.96990260",
+                    Longitude = "12.48029460",
                     Type = "municipality",
                     Cities = new()
                     {

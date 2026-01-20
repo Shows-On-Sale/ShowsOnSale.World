@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 60,
+            Id = 59,
             Name = "Denmark",
             Iso3 = "DNK",
             Iso2 = "DK",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Danmark",
                 ["ko"] = "덴마크",
                 ["pt-BR"] = "Dinamarca",
                 ["pt"] = "Dinamarca",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Danimarka",
                 ["ru"] = "Дания",
                 ["uk"] = "Данія",
-                ["pl"] = "Dania"
+                ["pl"] = "Dania",
+                ["hi"] = "डेनमार्क",
+                ["ar"] = "الدنمارك"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Central Denmark",
-                    StateCode = "82",
-                    Latitude = "56.30213900",
-                    Longitude = "9.30277700",
+                    StateCode = "",
+                    Latitude = "56.23564830",
+                    Longitude = "9.23462500",
                     Type = "region",
                     Cities = new()
                     {
@@ -170,9 +173,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Denmark",
-                    StateCode = "84",
-                    Latitude = "55.67518120",
-                    Longitude = "12.54932610",
+                    StateCode = "",
+                    Latitude = "55.67024900",
+                    Longitude = "10.33332830",
                     Type = "region",
                     Cities = new()
                     {
@@ -189,7 +192,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 11, Name = "Charlottenlund", Latitude = "55.75238000", Longitude = "12.57450000" },
                         new() { Id = 12, Name = "Christianshavn", Latitude = "55.67383000", Longitude = "12.59541000" },
                         new() { Id = 13, Name = "Christiansø", Latitude = "55.31982000", Longitude = "15.18783000" },
-                        new() { Id = 14, Name = "Copenhagen", Latitude = "55.67594000", Longitude = "12.56553000" },
+                        new() { Id = 14, Name = "Copenhagen", Latitude = "43.89343900", Longitude = "-75.67382800" },
                         new() { Id = 15, Name = "Dragør", Latitude = "55.59280000", Longitude = "12.67221000" },
                         new() { Id = 16, Name = "Dragør Kommune", Latitude = "55.58233000", Longitude = "12.62756000" },
                         new() { Id = 17, Name = "Egedal Kommune", Latitude = "55.75556000", Longitude = "12.22778000" },
@@ -207,13 +210,13 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 29, Name = "Ganløse", Latitude = "55.79124000", Longitude = "12.26421000" },
                         new() { Id = 30, Name = "Gentofte Kommune", Latitude = "55.75000000", Longitude = "12.55000000" },
                         new() { Id = 31, Name = "Gilleleje", Latitude = "56.12196000", Longitude = "12.31056000" },
-                        new() { Id = 32, Name = "Gladsaxe Municipality", Latitude = "55.76667000", Longitude = "12.43333000" },
+                        new() { Id = 32, Name = "Gladsaxe", Latitude = "55.76667000", Longitude = "12.43333000" },
                         new() { Id = 33, Name = "Glostrup", Latitude = "55.66660000", Longitude = "12.40377000" },
                         new() { Id = 34, Name = "Glostrup Kommune", Latitude = "55.68188000", Longitude = "12.41018000" },
                         new() { Id = 35, Name = "Græsted", Latitude = "56.06558000", Longitude = "12.28512000" },
                         new() { Id = 36, Name = "Gribskov Kommune", Latitude = "56.05833000", Longitude = "12.24167000" },
                         new() { Id = 37, Name = "Halsnæs Kommune", Latitude = "55.96765000", Longitude = "11.94214000" },
-                        new() { Id = 38, Name = "Hedehusene", Latitude = "55.67594000", Longitude = "12.56553000" },
+                        new() { Id = 38, Name = "Hedehusene", Latitude = "55.64801270", Longitude = "12.19689260" },
                         new() { Id = 39, Name = "Hellebæk", Latitude = "56.06823000", Longitude = "12.55782000" },
                         new() { Id = 40, Name = "Helsinge", Latitude = "56.02283000", Longitude = "12.19752000" },
                         new() { Id = 41, Name = "Helsingør", Latitude = "56.03606000", Longitude = "12.61360000" },
@@ -270,9 +273,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "North Denmark",
-                    StateCode = "81",
-                    Latitude = "56.83074160",
-                    Longitude = "9.49305270",
+                    StateCode = "",
+                    Latitude = "56.81527930",
+                    Longitude = "9.72733080",
                     Type = "region",
                     Cities = new()
                     {
@@ -339,9 +342,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Southern Denmark",
-                    StateCode = "83",
-                    Latitude = "55.33077140",
-                    Longitude = "9.09249030",
+                    StateCode = "",
+                    Latitude = "55.37842630",
+                    Longitude = "9.13180640",
                     Type = "region",
                     Cities = new()
                     {
@@ -461,9 +464,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Zealand",
-                    StateCode = "85",
-                    Latitude = "55.46325180",
-                    Longitude = "11.72149790",
+                    StateCode = "",
+                    Latitude = "55.54559790",
+                    Longitude = "11.69737410",
                     Type = "region",
                     Cities = new()
                     {

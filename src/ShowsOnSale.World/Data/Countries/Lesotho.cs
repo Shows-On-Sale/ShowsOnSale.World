@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Lesotho",
                 ["ko"] = "레소토",
                 ["pt-BR"] = "Lesoto",
                 ["pt"] = "Lesoto",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Lesotho",
                 ["ru"] = "Лесото",
                 ["uk"] = "Лесото",
-                ["pl"] = "Lesotho"
+                ["pl"] = "Lesotho",
+                ["hi"] = "लिसोटो",
+                ["ar"] = "ليسوتو"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Berea",
-                    StateCode = "D",
-                    Latitude = "41.36616140",
-                    Longitude = "-81.85430260",
+                    StateCode = "",
+                    Latitude = "-29.19639710",
+                    Longitude = "27.91755810",
                     Type = "district",
                     Cities = new()
                     {
@@ -76,7 +79,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Butha-Buthe",
-                    StateCode = "B",
+                    StateCode = "",
                     Latitude = "-28.76537540",
                     Longitude = "28.24681480",
                     Type = "district",
@@ -90,9 +93,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Leribe",
-                    StateCode = "C",
-                    Latitude = "-28.86380650",
-                    Longitude = "28.04788260",
+                    StateCode = "",
+                    Latitude = "-28.86689100",
+                    Longitude = "28.05794080",
                     Type = "district",
                     Cities = new()
                     {
@@ -105,9 +108,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Mafeteng",
-                    StateCode = "E",
-                    Latitude = "-29.80410080",
-                    Longitude = "27.50261740",
+                    StateCode = "",
+                    Latitude = "-29.78930490",
+                    Longitude = "27.44231930",
                     Type = "district",
                     Cities = new()
                     {
@@ -119,9 +122,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Maseru",
-                    StateCode = "A",
-                    Latitude = "-29.51656500",
-                    Longitude = "27.83114280",
+                    StateCode = "",
+                    Latitude = "-29.58169420",
+                    Longitude = "27.82432080",
                     Type = "district",
                     Cities = new()
                     {
@@ -134,9 +137,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Mohale's Hoek",
-                    StateCode = "F",
-                    Latitude = "-30.14259170",
-                    Longitude = "27.46738450",
+                    StateCode = "",
+                    Latitude = "-30.15163050",
+                    Longitude = "27.47701130",
                     Type = "district",
                     Cities = new()
                     {
@@ -148,9 +151,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Mokhotlong",
-                    StateCode = "J",
-                    Latitude = "-29.25731930",
-                    Longitude = "28.95286450",
+                    StateCode = "",
+                    Latitude = "-29.21906970",
+                    Longitude = "29.03513690",
                     Type = "district",
                     Cities = new()
                     {
@@ -162,7 +165,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Qacha's Nek",
-                    StateCode = "H",
+                    StateCode = "",
                     Latitude = "-30.11145650",
                     Longitude = "28.67897900",
                     Type = "district",
@@ -176,7 +179,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Quthing",
-                    StateCode = "G",
+                    StateCode = "",
                     Latitude = "-30.40156870",
                     Longitude = "27.70801330",
                     Type = "district",
@@ -190,9 +193,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Thaba-Tseka",
-                    StateCode = "K",
-                    Latitude = "-29.52389750",
-                    Longitude = "28.60897520",
+                    StateCode = "",
+                    Latitude = "-29.51518320",
+                    Longitude = "28.60361790",
                     Type = "district",
                     Cities = new()
                     {

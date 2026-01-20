@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Slovakia",
                 ["ko"] = "슬로바키아",
                 ["pt-BR"] = "Eslováquia",
                 ["pt"] = "Eslováquia",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Slovakya",
                 ["ru"] = "Словакия",
                 ["uk"] = "Словаччина",
-                ["pl"] = "Słowacja"
+                ["pl"] = "Słowacja",
+                ["hi"] = "स्लोवाकिया",
+                ["ar"] = "سلوفاكيا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Banská Bystrica",
-                    StateCode = "BC",
-                    Latitude = "48.53124990",
-                    Longitude = "19.38287400",
+                    StateCode = "",
+                    Latitude = "48.73838950",
+                    Longitude = "19.15858050",
                     Type = "region",
                     Cities = new()
                     {
@@ -110,9 +113,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Bratislava",
-                    StateCode = "BL",
-                    Latitude = "48.31183040",
-                    Longitude = "17.19732990",
+                    StateCode = "",
+                    Latitude = "48.15576690",
+                    Longitude = "17.13142030",
                     Type = "region",
                     Cities = new()
                     {
@@ -143,9 +146,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Košice",
-                    StateCode = "KI",
-                    Latitude = "48.63757370",
-                    Longitude = "21.08342250",
+                    StateCode = "",
+                    Latitude = "48.71722720",
+                    Longitude = "21.24967740",
                     Type = "region",
                     Cities = new()
                     {
@@ -184,9 +187,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Nitra",
-                    StateCode = "NI",
-                    Latitude = "48.01437650",
-                    Longitude = "18.54165040",
+                    StateCode = "",
+                    Latitude = "48.31295000",
+                    Longitude = "18.08945930",
                     Type = "region",
                     Cities = new()
                     {
@@ -220,9 +223,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Prešov",
-                    StateCode = "PV",
-                    Latitude = "49.17167730",
-                    Longitude = "21.37420010",
+                    StateCode = "",
+                    Latitude = "49.11176850",
+                    Longitude = "21.18759780",
                     Type = "region",
                     Cities = new()
                     {
@@ -273,9 +276,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Trenčín",
-                    StateCode = "TC",
-                    Latitude = "48.80867580",
-                    Longitude = "18.23240260",
+                    StateCode = "",
+                    Latitude = "48.91380300",
+                    Longitude = "18.09311970",
                     Type = "region",
                     Cities = new()
                     {
@@ -315,9 +318,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Trnava",
-                    StateCode = "TA",
-                    Latitude = "48.39438980",
-                    Longitude = "17.72162050",
+                    StateCode = "",
+                    Latitude = "48.37676520",
+                    Longitude = "17.58581750",
                     Type = "region",
                     Cities = new()
                     {
@@ -351,9 +354,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Žilina",
-                    StateCode = "ZI",
-                    Latitude = "49.20314350",
-                    Longitude = "19.36457330",
+                    StateCode = "",
+                    Latitude = "49.17754550",
+                    Longitude = "19.20581800",
                     Type = "region",
                     Cities = new()
                     {

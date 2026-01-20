@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Wallis ha Futuna",
                 ["ko"] = "왈리스 푸투나",
                 ["pt-BR"] = "Wallis e Futuna",
                 ["pt"] = "Wallis e Futuna",
@@ -53,10 +54,54 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Wallis Ve Futuna",
                 ["ru"] = "Острова Уоллис и Футуна",
                 ["uk"] = "Острови Уолліс і Футуна",
-                ["pl"] = "Wyspy Wallis i Futuna"
+                ["pl"] = "Wyspy Wallis i Futuna",
+                ["hi"] = "वालिस और फुतुना आइलैंड्स",
+                ["ar"] = "جزر واليس وفوتونا"
             },
             States = new()
             {
+
+                new()
+                {
+                    Id = 1,
+                    Name = "Alo",
+                    StateCode = "",
+                    Latitude = "-14.30938056",
+                    Longitude = "-178.12355000",
+                    Type = "administrative precinct",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Ono", Latitude = "-14.31055556", Longitude = "-178.10500000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 2,
+                    Name = "Sigave",
+                    StateCode = "",
+                    Latitude = "-14.29610000",
+                    Longitude = "-178.15850000",
+                    Type = "administrative precinct",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Leava", Latitude = "-14.29610000", Longitude = "-178.15850000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 3,
+                    Name = "Uvea",
+                    StateCode = "",
+                    Latitude = "-13.28333333",
+                    Longitude = "-176.20000000",
+                    Type = "administrative precinct",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Mata Utu", Latitude = "-13.28333333", Longitude = "-176.18333333" }
+                    }
+                }
             }
         };
     }

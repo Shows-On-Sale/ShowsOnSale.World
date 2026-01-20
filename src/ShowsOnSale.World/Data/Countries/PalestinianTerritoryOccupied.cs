@@ -39,6 +39,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Palestina",
                 ["ko"] = "팔레스타인 영토",
                 ["pt-BR"] = "Palestina",
                 ["pt"] = "Palestina",
@@ -54,7 +55,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Filistin",
                 ["ru"] = "Оккупированная палестинская территория",
                 ["uk"] = "Окупована палестинська територія",
-                ["pl"] = "Okupowane terytorium palestyńskie"
+                ["pl"] = "Okupowane terytorium palestyńskie",
+                ["hi"] = "अधिकृत फ़िलिस्तीन क्षेत्र",
+                ["ar"] = "احتلت الأراضي الفلسطينية"
             },
             States = new()
             {
@@ -63,7 +66,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Bethlehem",
-                    StateCode = "BTH",
+                    StateCode = "",
                     Latitude = "31.70539960",
                     Longitude = "35.19368770",
                     Type = "governorate",
@@ -88,7 +91,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Deir El Balah",
-                    StateCode = "DEB",
+                    StateCode = "",
                     Latitude = "31.42028970",
                     Longitude = "34.28616400",
                     Type = "governorate",
@@ -103,7 +106,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Gaza",
-                    StateCode = "GZA",
+                    StateCode = "",
                     Latitude = "31.48723970",
                     Longitude = "34.14998900",
                     Type = "governorate",
@@ -118,7 +121,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Hebron",
-                    StateCode = "HBN",
+                    StateCode = "",
                     Latitude = "31.53260010",
                     Longitude = "35.06394750",
                     Type = "governorate",
@@ -149,7 +152,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Jenin",
-                    StateCode = "JEN",
+                    StateCode = "",
                     Latitude = "32.42637610",
                     Longitude = "35.08568870",
                     Type = "governorate",
@@ -177,7 +180,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Jericho ",
-                    StateCode = "JRH",
+                    StateCode = "",
                     Latitude = "31.96764250",
                     Longitude = "35.13542790",
                     Type = "governorate",
@@ -193,7 +196,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Jerusalem (Quds)",
-                    StateCode = "JEM",
+                    StateCode = "",
                     Latitude = "31.80203280",
                     Longitude = "34.95996640",
                     Type = "governorate",
@@ -216,7 +219,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Khan Yunis",
-                    StateCode = "KYS",
+                    StateCode = "",
                     Latitude = "31.32987660",
                     Longitude = "34.22548330",
                     Type = "governorate",
@@ -235,7 +238,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Nablus",
-                    StateCode = "NBS",
+                    StateCode = "",
                     Latitude = "32.22437550",
                     Longitude = "35.20647930",
                     Type = "governorate",
@@ -257,7 +260,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "North Gaza",
-                    StateCode = "NGZ",
+                    StateCode = "",
                     Latitude = "31.54750600",
                     Longitude = "34.42814090",
                     Type = "governorate",
@@ -274,7 +277,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Qalqilya",
-                    StateCode = "QQA",
+                    StateCode = "",
                     Latitude = "32.18103230",
                     Longitude = "34.99369990",
                     Type = "governorate",
@@ -291,7 +294,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Rafah",
-                    StateCode = "RFH",
+                    StateCode = "",
                     Latitude = "31.29688990",
                     Longitude = "34.11166850",
                     Type = "governorate",
@@ -300,7 +303,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Al Qarya as Suwaydiya", Latitude = "31.32316550", Longitude = "34.20157530" },
                         new() { Id = 2, Name = "Al-Bayuk", Latitude = "31.26347860", Longitude = "34.26098130" },
                         new() { Id = 3, Name = "Al-Mawasi", Latitude = "31.34844960", Longitude = "34.23553630" },
-                        new() { Id = 4, Name = "Rafah ", Latitude = "31.29681450", Longitude = "34.22288230" },
+                        new() { Id = 4, Name = "Rafah", Latitude = "31.29681450", Longitude = "34.22288230" },
                         new() { Id = 5, Name = "Shokat as-Sufi", Latitude = "31.25091250", Longitude = "34.24516720" }
                     }
                 },
@@ -309,7 +312,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Ramallah",
-                    StateCode = "RBH",
+                    StateCode = "",
                     Latitude = "31.94301450",
                     Longitude = "34.86456510",
                     Type = "governorate",
@@ -337,7 +340,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Salfit",
-                    StateCode = "SLT",
+                    StateCode = "",
                     Latitude = "32.11122720",
                     Longitude = "34.95787690",
                     Type = "governorate",
@@ -367,13 +370,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Tubas",
-                    StateCode = "TBS",
+                    StateCode = "",
                     Latitude = "32.29380430",
                     Longitude = "34.85109800",
                     Type = "governorate",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "'Aqqaba", Latitude = "32.35257060", Longitude = "35.32674760" },
+                        new() { Id = 1, Name = "Al 'Aqaba", Latitude = "32.35257060", Longitude = "35.32674760" },
                         new() { Id = 2, Name = "Tammun", Latitude = "32.28315510", Longitude = "35.36518930" },
                         new() { Id = 3, Name = "Tubas", Latitude = "32.32112010", Longitude = "35.34935330" }
                     }
@@ -383,7 +386,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Tulkarm",
-                    StateCode = "TKM",
+                    StateCode = "",
                     Latitude = "32.32766720",
                     Longitude = "34.92311080",
                     Type = "governorate",

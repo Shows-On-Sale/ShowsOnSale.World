@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Kaledonia-Nevez",
                 ["ko"] = "누벨칼레도니",
                 ["pt-BR"] = "Nova Caledônia",
                 ["pt"] = "Nova Caledónia",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Yeni Kaledonya",
                 ["ru"] = "Новая Каледония",
                 ["uk"] = "Нова Каледонія",
-                ["pl"] = "Nowa Kaledonia"
+                ["pl"] = "Nowa Kaledonia",
+                ["hi"] = "नया केलडोनिया",
+                ["ar"] = "كاليدونيا الجديدة"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Loyalty Islands Province",
-                    StateCode = "03",
-                    Latitude = "-20.96670000",
-                    Longitude = "167.23330000",
+                    StateCode = "",
+                    Latitude = "-20.97296600",
+                    Longitude = "167.28842950",
                     Type = "province",
                     Cities = new()
                     {
@@ -77,9 +80,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "North Province",
-                    StateCode = "02",
-                    Latitude = "-22.27580000",
-                    Longitude = "166.45800000",
+                    StateCode = "",
+                    Latitude = "-20.14725120",
+                    Longitude = "164.12375680",
                     Type = "province",
                     Cities = new()
                     {
@@ -93,9 +96,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "South Province",
-                    StateCode = "01",
-                    Latitude = "-22.27580000",
-                    Longitude = "166.45800000",
+                    StateCode = "",
+                    Latitude = "-22.27584210",
+                    Longitude = "166.64179460",
                     Type = "province",
                     Cities = new()
                     {

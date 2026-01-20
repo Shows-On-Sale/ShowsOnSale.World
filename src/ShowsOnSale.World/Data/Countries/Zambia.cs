@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Zambia",
                 ["ko"] = "잠비아",
                 ["pt-BR"] = "Zâmbia",
                 ["pt"] = "Zâmbia",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Zambiya",
                 ["ru"] = "Замбия",
                 ["uk"] = "Замбія",
-                ["pl"] = "Zambia"
+                ["pl"] = "Zambia",
+                ["hi"] = "जाम्बिया",
+                ["ar"] = "زامبيا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Central",
-                    StateCode = "02",
-                    Latitude = "7.25649960",
-                    Longitude = "80.72144170",
+                    StateCode = "",
+                    Latitude = "-14.18350700",
+                    Longitude = "29.03755430",
                     Type = "province",
                     Cities = new()
                     {
@@ -82,9 +85,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Copperbelt",
-                    StateCode = "08",
-                    Latitude = "-13.05700730",
-                    Longitude = "27.54958460",
+                    StateCode = "",
+                    Latitude = "-13.02141710",
+                    Longitude = "27.88761770",
                     Type = "province",
                     Cities = new()
                     {
@@ -106,9 +109,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Eastern",
-                    StateCode = "03",
-                    Latitude = "23.16696880",
-                    Longitude = "49.36531490",
+                    StateCode = "",
+                    Latitude = "-13.65147370",
+                    Longitude = "31.99585390",
                     Type = "province",
                     Cities = new()
                     {
@@ -124,9 +127,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Luapula",
-                    StateCode = "04",
-                    Latitude = "-11.56483100",
-                    Longitude = "29.04599270",
+                    StateCode = "",
+                    Latitude = "-10.46802440",
+                    Longitude = "29.12756090",
                     Type = "province",
                     Cities = new()
                     {
@@ -142,9 +145,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Lusaka",
-                    StateCode = "09",
-                    Latitude = "-15.36571290",
-                    Longitude = "29.23207840",
+                    StateCode = "",
+                    Latitude = "-15.35760900",
+                    Longitude = "29.16530920",
                     Type = "province",
                     Cities = new()
                     {
@@ -159,9 +162,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Muchinga",
-                    StateCode = "10",
-                    Latitude = "-15.38219300",
-                    Longitude = "28.26158000",
+                    StateCode = "",
+                    Latitude = "-11.10052590",
+                    Longitude = "31.63996400",
                     Type = "province",
                     Cities = new()
                     {
@@ -177,9 +180,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Northern",
-                    StateCode = "05",
-                    Latitude = "8.88550270",
-                    Longitude = "80.27673270",
+                    StateCode = "",
+                    Latitude = "-9.45141650",
+                    Longitude = "30.88810010",
                     Type = "province",
                     Cities = new()
                     {
@@ -197,7 +200,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Northwestern",
-                    StateCode = "06",
+                    StateCode = "",
                     Latitude = "-13.00502580",
                     Longitude = "24.90422080",
                     Type = "province",
@@ -218,15 +221,15 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Southern",
-                    StateCode = "07",
-                    Latitude = "6.23737500",
-                    Longitude = "80.54384500",
+                    StateCode = "",
+                    Latitude = "-16.53817150",
+                    Longitude = "26.73749970",
                     Type = "province",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Choma", Latitude = "-16.80889000", Longitude = "26.98750000" },
                         new() { Id = 2, Name = "Gwembe", Latitude = "-16.49755000", Longitude = "27.60691000" },
-                        new() { Id = 3, Name = "Itezhi-Tezhi District", Latitude = "-15.74092000", Longitude = "26.04146000" },
+                        new() { Id = 3, Name = "Itezhi-Tezhi", Latitude = "-15.74092000", Longitude = "26.04146000" },
                         new() { Id = 4, Name = "Livingstone", Latitude = "-17.84194000", Longitude = "25.85425000" },
                         new() { Id = 5, Name = "Maamba", Latitude = "-17.36667000", Longitude = "27.15000000" },
                         new() { Id = 6, Name = "Mazabuka", Latitude = "-15.85601000", Longitude = "27.74800000" },
@@ -243,7 +246,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Western",
-                    StateCode = "01",
+                    StateCode = "",
                     Latitude = "6.90160860",
                     Longitude = "80.00877460",
                     Type = "province",
