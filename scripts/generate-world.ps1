@@ -245,9 +245,12 @@ namespace ShowsOnSale.World.Data.Countries
         
         # Add translations
         Write-DebugMessage "Processing translations for country $($country.name)"
-        
-        # Get translations count safely
-        $translationsObj = @($country.translations.PSObject.Properties)
+
+        # Get translations count safely (handle null translations)
+        $translationsObj = @()
+        if ($null -ne $country.translations) {
+            $translationsObj = @($country.translations.PSObject.Properties)
+        }
         $translationCount = $translationsObj.Length
         Write-DebugMessage "Found $translationCount translations"
         $currentTranslation = 0
