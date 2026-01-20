@@ -69,8 +69,6 @@ function Get-EscapedString {
 function Get-IntegerValue {
     param($value)
     
-    Write-DebugMessage "Get-IntegerValue called with value: $value (Type: $($value.GetType()))"
-    
     if ($null -eq $value) {
         Write-DebugMessage "Value is null, returning 0"
         return 0
@@ -166,10 +164,12 @@ namespace ShowsOnSale.World
         $countryFilePath = Join-Path $outputDir "$countryName.cs"
         Write-Host "Processing country $currentCountry of $totalCountries : $($country.name)"
         
-        # Debug country data
-        Write-DebugMessage "Country data:"
-        Write-DebugMessage "- region_id: $($country.region_id) (Type: $($country.region_id.GetType()))"
-        Write-DebugMessage "- subregion_id: $($country.subregion_id) (Type: $($country.subregion_id.GetType()))"
+        # Debug country data (only evaluate types if Debug mode is on to avoid null errors)
+        if ($Debug) {
+            Write-Host "DEBUG: Country data:"
+            Write-Host "DEBUG: - region_id: $($country.region_id) (Type: $(if ($null -ne $country.region_id) { $country.region_id.GetType() } else { 'null' }))"
+            Write-Host "DEBUG: - subregion_id: $($country.subregion_id) (Type: $(if ($null -ne $country.subregion_id) { $country.subregion_id.GetType() } else { 'null' }))"
+        }
         
         # Generate country file
         $countryCode = @"
