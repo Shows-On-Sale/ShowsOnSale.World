@@ -281,11 +281,15 @@ namespace ShowsOnSale.World.Data.Countries
 "@
         Add-Content $countryFilePath $statesStartCode -Encoding UTF8
         
-        # Process states for this country
-        $totalStates = [int]$country.states.Count
+        # Process states for this country (handle null states)
+        $states = @()
+        if ($null -ne $country.states) {
+            $states = @($country.states)
+        }
+        $totalStates = $states.Count
         $currentState = [int]0
-        
-        foreach ($state in $country.states) {
+
+        foreach ($state in $states) {
             $currentState++
             Write-Host "  Processing $($country.name) | state $currentState of $totalStates : $($state.name)"
             
@@ -306,17 +310,16 @@ namespace ShowsOnSale.World.Data.Countries
             
             Add-Content $countryFilePath $stateCode -Encoding UTF8
             
-            # Process cities for this state
+            # Process cities for this state (handle null cities)
             Write-DebugMessage "Starting city processing for state: $($state.name)"
-            Write-DebugMessage "Cities collection type: $($state.cities.GetType())"
-            
-            # Get cities count safely
-            $citiesCount = $state.cities.Count
-            if ($citiesCount -is [array]) {
-                Write-DebugMessage "Cities count is an array, using first element"
-                $citiesCount = $citiesCount[0]
+            $cities = @()
+            if ($null -ne $state.cities) {
+                $cities = @($state.cities)
+                Write-DebugMessage "Cities collection type: $($state.cities.GetType())"
             }
-            $totalCities = [int]$citiesCount
+
+            # Get cities count safely
+            $totalCities = $cities.Count
             Write-DebugMessage "Total cities count: $totalCities (Type: $($totalCities.GetType()))"
             $currentCity = [int]0
             
@@ -338,7 +341,7 @@ namespace ShowsOnSale.World.Data.Countries
                 $cityEntries = @()
                 
                 for ($i = $startIndex; $i -lt $endIndex; $i++) {
-                    $city = $state.cities[$i]
+                    $city = $cities[$i]
                     $currentCity = $i + 1
                     
                     Write-DebugMessage "Processing city index $i - Current city: $currentCity"
