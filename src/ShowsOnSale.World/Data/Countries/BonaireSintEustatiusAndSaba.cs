@@ -34,10 +34,11 @@ namespace ShowsOnSale.World.Data.Countries
             EmojiU = "U+1F1E7 U+1F1F6",
             Timezones = new()
             {
-                new() { ZoneName = "America/Anguilla", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" }
+                new() { ZoneName = "America/Curacao", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" }
             },
             Translations = new()
             {
+                ["br"] = "Izelvroioù ar C'harib",
                 ["ko"] = "보네르 섬",
                 ["pt-BR"] = "Bonaire",
                 ["pt"] = "Bonaire",
@@ -49,7 +50,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Karayip Hollandasi",
                 ["ru"] = "Бонайре, Синт-Эстатиус и Саба",
                 ["uk"] = "Бонайре, Сент-Естатіус і Саба",
-                ["pl"] = "Bonaire, Sint Eustatius i Saba"
+                ["pl"] = "Bonaire, Sint Eustatius i Saba",
+                ["hi"] = "बोनेयर, सिंट यूस्टैटियस और सबा",
+                ["ar"] = "بونير، سينت أوستاتيوس وسابا"
             },
             States = new()
             {
@@ -58,7 +61,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Bonaire",
-                    StateCode = "BQ1",
+                    StateCode = "",
                     Latitude = "12.20189020",
                     Longitude = "-68.26238220",
                     Type = "special municipality",
@@ -79,7 +82,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Saba",
-                    StateCode = "BQ2",
+                    StateCode = "",
                     Latitude = "17.63546420",
                     Longitude = "-63.23267630",
                     Type = "special municipality",
@@ -92,7 +95,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Sint Eustatius",
-                    StateCode = "BQ3",
+                    StateCode = "",
                     Latitude = "17.48903060",
                     Longitude = "-62.97355500",
                     Type = "special municipality",

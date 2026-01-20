@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Reünion",
                 ["ko"] = "레위니옹",
                 ["pt-BR"] = "Reunião",
                 ["pt"] = "Reunião",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Réunion",
                 ["ru"] = "Воссоединение",
                 ["uk"] = "Возз'єднання",
-                ["pl"] = "Reunion"
+                ["pl"] = "Reunion",
+                ["hi"] = "रीयूनियन",
+                ["ar"] = "جمع شمل"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Saint-Benoît",
-                    StateCode = "01",
-                    Latitude = "-21.08100290",
-                    Longitude = "55.31052890",
+                    StateCode = "",
+                    Latitude = "-21.08104330",
+                    Longitude = "55.60281270",
                     Type = "district",
                     Cities = new()
                     {
@@ -81,9 +84,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Saint-Denis",
-                    StateCode = "02",
-                    Latitude = "-20.94334700",
-                    Longitude = "55.34628380",
+                    StateCode = "",
+                    Latitude = "-20.87998890",
+                    Longitude = "55.44813700",
                     Type = "district",
                     Cities = new()
                     {
@@ -97,9 +100,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Saint-Paul",
-                    StateCode = "03",
-                    Latitude = "-21.07249890",
-                    Longitude = "55.17584580",
+                    StateCode = "",
+                    Latitude = "-21.00060990",
+                    Longitude = "55.27715850",
                     Type = "district",
                     Cities = new()
                     {
@@ -115,9 +118,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Saint-Pierre",
-                    StateCode = "04",
-                    Latitude = "-21.23731130",
-                    Longitude = "55.23495980",
+                    StateCode = "",
+                    Latitude = "-21.23774370",
+                    Longitude = "55.48997640",
                     Type = "district",
                     Cities = new()
                     {

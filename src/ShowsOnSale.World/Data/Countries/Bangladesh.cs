@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Bangladesh",
                 ["ko"] = "방글라데시",
                 ["pt-BR"] = "Bangladesh",
                 ["pt"] = "Bangladeche",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Bangladeş",
                 ["ru"] = "Бангладеш",
                 ["uk"] = "Бангладеш",
-                ["pl"] = "Bangladesz"
+                ["pl"] = "Bangladesz",
+                ["hi"] = "बांग्लादेश",
+                ["ar"] = "بنغلاديش"
             },
             States = new()
             {
@@ -61,168 +64,1000 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 1,
-                    Name = "Barisal ",
-                    StateCode = "A",
-                    Latitude = "22.38111310",
-                    Longitude = "90.33718890",
-                    Type = "division",
+                    Name = "Bagerhat",
+                    StateCode = "",
+                    Latitude = "22.65833000",
+                    Longitude = "89.78333000",
+                    Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Barguna ", Latitude = "22.17167870", Longitude = "89.79740240" },
-                        new() { Id = 2, Name = "Barisal ", Latitude = "22.42035790", Longitude = "89.78250340" },
-                        new() { Id = 3, Name = "Bhola ", Latitude = "22.32452480", Longitude = "90.10568470" },
-                        new() { Id = 4, Name = "Jhalokati ", Latitude = "22.56303520", Longitude = "89.87191590" },
-                        new() { Id = 5, Name = "Patuakhali ", Latitude = "22.18709170", Longitude = "89.71647060" },
-                        new() { Id = 6, Name = "Pirojpur ", Latitude = "22.50937910", Longitude = "89.36434220" }
+                        new() { Id = 1, Name = "Bagerhat", Latitude = "22.34880590", Longitude = "89.07470250" }
                     }
                 },
 
                 new()
                 {
                     Id = 2,
-                    Name = "Chittagong ",
-                    StateCode = "B",
-                    Latitude = "23.17931570",
-                    Longitude = "91.98815270",
-                    Type = "division",
+                    Name = "Bandarban",
+                    StateCode = "",
+                    Latitude = "22.19534000",
+                    Longitude = "92.21946000",
+                    Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Bandarban", Latitude = "22.00000000", Longitude = "92.33333000" },
-                        new() { Id = 2, Name = "Brahmanbaria", Latitude = "23.98333000", Longitude = "91.16667000" },
-                        new() { Id = 3, Name = "Chandpur", Latitude = "23.25000000", Longitude = "90.83333000" },
-                        new() { Id = 4, Name = "Chittagong", Latitude = "22.48750000", Longitude = "91.96333000" },
-                        new() { Id = 5, Name = "Comilla", Latitude = "23.44170000", Longitude = "91.00987000" },
-                        new() { Id = 6, Name = "Cox's Bazar", Latitude = "21.58389000", Longitude = "92.01528000" },
-                        new() { Id = 7, Name = "Feni", Latitude = "22.96667000", Longitude = "91.31667000" },
-                        new() { Id = 8, Name = "Khagrachhari", Latitude = "23.16667000", Longitude = "91.90000000" },
-                        new() { Id = 9, Name = "Lakshmipur", Latitude = "22.91667000", Longitude = "90.83333000" },
-                        new() { Id = 10, Name = "Noakhali", Latitude = "22.75000000", Longitude = "91.16667000" },
-                        new() { Id = 11, Name = "Rangamati", Latitude = "22.63333000", Longitude = "92.20000000" }
+                        new() { Id = 1, Name = "Bandarban", Latitude = "22.00000000", Longitude = "92.33333000" }
                     }
                 },
 
                 new()
                 {
                     Id = 3,
-                    Name = "Dhaka ",
-                    StateCode = "C",
-                    Latitude = "23.95357420",
-                    Longitude = "90.14949880",
-                    Type = "division",
+                    Name = "Barguna",
+                    StateCode = "",
+                    Latitude = "22.15330000",
+                    Longitude = "90.11997000",
+                    Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Dhaka ", Latitude = "23.78417980", Longitude = "89.92859830" },
-                        new() { Id = 2, Name = "Faridpur ", Latitude = "23.45115240", Longitude = "89.52820380" },
-                        new() { Id = 3, Name = "Gazipur ", Latitude = "24.10914520", Longitude = "90.09596140" },
-                        new() { Id = 4, Name = "Gopalganj ", Latitude = "23.10660120", Longitude = "89.57802710" },
-                        new() { Id = 5, Name = "Kishoreganj ", Latitude = "24.33888030", Longitude = "90.58499800" },
-                        new() { Id = 6, Name = "Madaripur ", Latitude = "23.23455490", Longitude = "89.81089030" },
-                        new() { Id = 7, Name = "Manikganj ", Latitude = "23.83174080", Longitude = "89.64097890" },
-                        new() { Id = 8, Name = "Munshiganj ", Latitude = "23.52615230", Longitude = "90.11590910" },
-                        new() { Id = 9, Name = "Narayanganj ", Latitude = "23.74880130", Longitude = "90.25638500" },
-                        new() { Id = 10, Name = "Narsingdi ", Latitude = "24.00966000", Longitude = "90.44480420" },
-                        new() { Id = 11, Name = "Rajbari ", Latitude = "23.73843000", Longitude = "89.25547000" },
-                        new() { Id = 12, Name = "Shariatpur ", Latitude = "23.23124340", Longitude = "90.08293470" },
-                        new() { Id = 13, Name = "Tangail ", Latitude = "24.37630700", Longitude = "89.35804610" }
+                        new() { Id = 1, Name = "Barguna", Latitude = "22.17167870", Longitude = "89.79740240" }
                     }
                 },
 
                 new()
                 {
                     Id = 4,
-                    Name = "Khulna ",
-                    StateCode = "D",
-                    Latitude = "22.80878160",
-                    Longitude = "89.24671910",
+                    Name = "Barisal ",
+                    StateCode = "",
+                    Latitude = "22.49340350",
+                    Longitude = "90.35480150",
                     Type = "division",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Bagerhat ", Latitude = "22.34880590", Longitude = "89.07470250" },
-                        new() { Id = 2, Name = "Chuadanga ", Latitude = "23.60352730", Longitude = "88.48732400" },
-                        new() { Id = 3, Name = "Jessore ", Latitude = "23.08473560", Longitude = "88.87480080" },
-                        new() { Id = 4, Name = "Jhenaidah ", Latitude = "23.49521270", Longitude = "88.70694930" },
-                        new() { Id = 5, Name = "Khulna ", Latitude = "22.35351390", Longitude = "88.83407090" },
-                        new() { Id = 6, Name = "Kushtia ", Latitude = "23.94595240", Longitude = "88.70179290" },
-                        new() { Id = 7, Name = "Magura ", Latitude = "23.46557740", Longitude = "89.11547300" },
-                        new() { Id = 8, Name = "Meherpur ", Latitude = "23.78972180", Longitude = "88.39319490" },
-                        new() { Id = 9, Name = "Narail ", Latitude = "23.13175700", Longitude = "89.26258440" },
-                        new() { Id = 10, Name = "Satkhira ", Latitude = "22.29898590", Longitude = "88.47540870" }
                     }
                 },
 
                 new()
                 {
                     Id = 5,
-                    Name = "Mymensingh ",
-                    StateCode = "H",
-                    Latitude = "24.71362000",
-                    Longitude = "90.45023680",
-                    Type = "division",
+                    Name = "Barishal",
+                    StateCode = "",
+                    Latitude = "22.70100000",
+                    Longitude = "90.35360000",
+                    Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Jamalpur ", Latitude = "25.00108250", Longitude = "89.26050130" },
-                        new() { Id = 2, Name = "Mymensingh ", Latitude = "24.72309850", Longitude = "89.78411730" },
-                        new() { Id = 3, Name = "Netrokona ", Latitude = "24.87204810", Longitude = "90.52293810" },
-                        new() { Id = 4, Name = "Sherpur ", Latitude = "25.09260380", Longitude = "89.76352070" }
+                        new() { Id = 1, Name = "Barisal", Latitude = "22.42035790", Longitude = "89.78250340" }
                     }
                 },
 
                 new()
                 {
                     Id = 6,
-                    Name = "Rajshahi ",
-                    StateCode = "E",
-                    Latitude = "24.71057760",
-                    Longitude = "88.94138650",
-                    Type = "division",
+                    Name = "Bhola",
+                    StateCode = "",
+                    Latitude = "22.68540000",
+                    Longitude = "90.64820000",
+                    Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Bogra ", Latitude = "24.82966450", Longitude = "89.02598570" },
-                        new() { Id = 2, Name = "Chapai Nawabganj", Latitude = "24.69520750", Longitude = "87.93021310" },
-                        new() { Id = 3, Name = "Joypurhat ", Latitude = "25.06567070", Longitude = "88.76832650" },
-                        new() { Id = 4, Name = "Naogaon ", Latitude = "24.87425080", Longitude = "88.43751910" },
-                        new() { Id = 5, Name = "Natore ", Latitude = "24.38021070", Longitude = "88.76302520" },
-                        new() { Id = 6, Name = "Pabna ", Latitude = "24.08126720", Longitude = "89.03724420" },
-                        new() { Id = 7, Name = "Rajshahi ", Latitude = "24.42073360", Longitude = "88.29602140" },
-                        new() { Id = 8, Name = "Sirajganj ", Latitude = "24.39876240", Longitude = "88.87641810" }
+                        new() { Id = 1, Name = "Bhola", Latitude = "22.32452480", Longitude = "90.10568470" }
                     }
                 },
 
                 new()
                 {
                     Id = 7,
-                    Name = "Rangpur ",
-                    StateCode = "F",
-                    Latitude = "25.84833880",
-                    Longitude = "88.94138650",
-                    Type = "division",
+                    Name = "Bogura",
+                    StateCode = "",
+                    Latitude = "24.84656000",
+                    Longitude = "89.37764000",
+                    Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Dinajpur ", Latitude = "25.64261030", Longitude = "88.18344620" },
-                        new() { Id = 2, Name = "Gaibandha ", Latitude = "25.34315570", Longitude = "89.13978570" },
-                        new() { Id = 3, Name = "Kurigram ", Latitude = "25.80827220", Longitude = "89.00915030" },
-                        new() { Id = 4, Name = "Lalmonirhat ", Latitude = "26.12442390", Longitude = "88.91060900" },
-                        new() { Id = 5, Name = "Nilphamari ", Latitude = "26.02264250", Longitude = "88.63412710" },
-                        new() { Id = 6, Name = "Panchagarh ", Latitude = "26.32032700", Longitude = "26.32032700" },
-                        new() { Id = 7, Name = "Rangpur ", Latitude = "25.62390240", Longitude = "88.90094980" },
-                        new() { Id = 8, Name = "Thakurgaon ", Latitude = "25.93648420", Longitude = "88.03366640" }
+                        new() { Id = 1, Name = "Bogra", Latitude = "24.82966450", Longitude = "89.02598570" }
                     }
                 },
 
                 new()
                 {
                     Id = 8,
-                    Name = "Sylhet ",
-                    StateCode = "G",
-                    Latitude = "24.70498110",
-                    Longitude = "91.67606910",
+                    Name = "Brahmanbaria",
+                    StateCode = "",
+                    Latitude = "23.96090000",
+                    Longitude = "91.11150000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Brahmanbaria", Latitude = "23.98333000", Longitude = "91.16667000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 9,
+                    Name = "Chandpur",
+                    StateCode = "",
+                    Latitude = "23.25130000",
+                    Longitude = "90.85180000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Chandpur", Latitude = "23.25000000", Longitude = "90.83333000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 10,
+                    Name = "Chapai Nawabganj",
+                    StateCode = "",
+                    Latitude = "24.59548000",
+                    Longitude = "88.29125000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Chapai Nawabganj", Latitude = "24.59988690", Longitude = "88.28504660" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 11,
+                    Name = "Chattogram",
+                    StateCode = "",
+                    Latitude = "22.35690000",
+                    Longitude = "91.78320000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Chittagong", Latitude = "22.48750000", Longitude = "91.96333000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 12,
+                    Name = "Chittagong ",
+                    StateCode = "",
+                    Latitude = "22.68004660",
+                    Longitude = "91.88399380",
                     Type = "division",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Habiganj ", Latitude = "24.33481970", Longitude = "90.74899010" },
-                        new() { Id = 2, Name = "Moulvibazar ", Latitude = "24.48617710", Longitude = "91.28742410" },
-                        new() { Id = 3, Name = "Sunamganj ", Latitude = "24.88905540", Longitude = "91.00248270" },
-                        new() { Id = 4, Name = "Sylhet ", Latitude = "24.89189110", Longitude = "91.73554950" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 13,
+                    Name = "Chuadanga",
+                    StateCode = "",
+                    Latitude = "23.64020000",
+                    Longitude = "88.84120000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Chuadanga", Latitude = "23.60352730", Longitude = "88.48732400" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 14,
+                    Name = "Cox's Bazar",
+                    StateCode = "",
+                    Latitude = "21.43940000",
+                    Longitude = "92.00990000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Cox's Bazar", Latitude = "21.58389000", Longitude = "92.01528000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 15,
+                    Name = "Cumilla",
+                    StateCode = "",
+                    Latitude = "23.46050000",
+                    Longitude = "91.18090000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Comilla", Latitude = "23.44170000", Longitude = "91.00987000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 16,
+                    Name = "Dhaka",
+                    StateCode = "",
+                    Latitude = "23.81050000",
+                    Longitude = "90.40720000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Dhaka", Latitude = "23.78417980", Longitude = "89.92859830" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 17,
+                    Name = "Dhaka ",
+                    StateCode = "",
+                    Latitude = "23.94561660",
+                    Longitude = "90.25263820",
+                    Type = "division",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 18,
+                    Name = "Dinajpur",
+                    StateCode = "",
+                    Latitude = "25.62770000",
+                    Longitude = "88.63630000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Dinajpur", Latitude = "25.64261030", Longitude = "88.18344620" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 19,
+                    Name = "Faridpur",
+                    StateCode = "",
+                    Latitude = "23.60720000",
+                    Longitude = "89.84060000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Faridpur", Latitude = "23.45115240", Longitude = "89.52820380" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 20,
+                    Name = "Feni",
+                    StateCode = "",
+                    Latitude = "23.01330000",
+                    Longitude = "91.40390000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Feni", Latitude = "22.96667000", Longitude = "91.31667000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 21,
+                    Name = "Gaibandha",
+                    StateCode = "",
+                    Latitude = "25.32880000",
+                    Longitude = "89.54300000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Gaibandha", Latitude = "25.34315570", Longitude = "89.13978570" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 22,
+                    Name = "Gazipur",
+                    StateCode = "",
+                    Latitude = "24.09580000",
+                    Longitude = "90.41250000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Gazipur", Latitude = "24.10914520", Longitude = "90.09596140" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 23,
+                    Name = "Gopalganj",
+                    StateCode = "",
+                    Latitude = "23.00550000",
+                    Longitude = "89.82660000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Gopalganj", Latitude = "23.10660120", Longitude = "89.57802710" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 24,
+                    Name = "Habiganj",
+                    StateCode = "",
+                    Latitude = "24.37440000",
+                    Longitude = "91.41530000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Habiganj", Latitude = "24.33481970", Longitude = "90.74899010" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 25,
+                    Name = "Jamalpur",
+                    StateCode = "",
+                    Latitude = "25.08330000",
+                    Longitude = "89.93330000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Jamalpur", Latitude = "25.00108250", Longitude = "89.26050130" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 26,
+                    Name = "Jashore",
+                    StateCode = "",
+                    Latitude = "23.16650000",
+                    Longitude = "89.21210000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Jessore", Latitude = "23.08473560", Longitude = "88.87480080" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 27,
+                    Name = "Jhalakathi",
+                    StateCode = "",
+                    Latitude = "22.64020000",
+                    Longitude = "90.19870000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Jhalokati", Latitude = "22.56303520", Longitude = "89.87191590" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 28,
+                    Name = "Jhenaidah",
+                    StateCode = "",
+                    Latitude = "23.54490000",
+                    Longitude = "89.17260000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Jhenaidah", Latitude = "23.49521270", Longitude = "88.70694930" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 29,
+                    Name = "Joypurhat",
+                    StateCode = "",
+                    Latitude = "25.09360000",
+                    Longitude = "89.09450000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Joypurhat", Latitude = "25.06567070", Longitude = "88.76832650" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 30,
+                    Name = "Khagrachhari",
+                    StateCode = "",
+                    Latitude = "23.11910000",
+                    Longitude = "91.97660000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Khagrachhari", Latitude = "23.16667000", Longitude = "91.90000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 31,
+                    Name = "Khulna",
+                    StateCode = "",
+                    Latitude = "22.81570000",
+                    Longitude = "89.56810000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Khulna", Latitude = "22.35351390", Longitude = "88.83407090" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 32,
+                    Name = "Khulna ",
+                    StateCode = "",
+                    Latitude = "22.93720870",
+                    Longitude = "89.28527410",
+                    Type = "division",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 33,
+                    Name = "Kishoreganj",
+                    StateCode = "",
+                    Latitude = "24.44400000",
+                    Longitude = "90.77670000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Kishoreganj", Latitude = "24.33888030", Longitude = "90.58499800" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 34,
+                    Name = "Kurigram",
+                    StateCode = "",
+                    Latitude = "25.80550000",
+                    Longitude = "89.62770000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Kurigram", Latitude = "25.80827220", Longitude = "89.00915030" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 35,
+                    Name = "Kushtia",
+                    StateCode = "",
+                    Latitude = "23.89070000",
+                    Longitude = "89.11890000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Kushtia", Latitude = "23.94595240", Longitude = "88.70179290" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 36,
+                    Name = "Lakshmipur",
+                    StateCode = "",
+                    Latitude = "22.94490000",
+                    Longitude = "90.82820000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Lakshmipur", Latitude = "22.91667000", Longitude = "90.83333000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 37,
+                    Name = "Lalmonirhat",
+                    StateCode = "",
+                    Latitude = "25.91780000",
+                    Longitude = "89.44520000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Lalmonirhat", Latitude = "26.12442390", Longitude = "88.91060900" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 38,
+                    Name = "Madaripur",
+                    StateCode = "",
+                    Latitude = "23.17000000",
+                    Longitude = "90.18770000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Madaripur", Latitude = "23.23455490", Longitude = "89.81089030" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 39,
+                    Name = "Magura",
+                    StateCode = "",
+                    Latitude = "23.48710000",
+                    Longitude = "89.41980000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Magura", Latitude = "23.46557740", Longitude = "89.11547300" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 40,
+                    Name = "Manikganj",
+                    StateCode = "",
+                    Latitude = "23.86140000",
+                    Longitude = "90.00030000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Manikganj", Latitude = "23.83174080", Longitude = "89.64097890" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 41,
+                    Name = "Meherpur",
+                    StateCode = "",
+                    Latitude = "23.76210000",
+                    Longitude = "88.63180000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Meherpur", Latitude = "23.78972180", Longitude = "88.39319490" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 42,
+                    Name = "Moulvibazar",
+                    StateCode = "",
+                    Latitude = "24.30940000",
+                    Longitude = "91.73150000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Moulvibazar", Latitude = "24.48617710", Longitude = "91.28742410" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 43,
+                    Name = "Munshiganj",
+                    StateCode = "",
+                    Latitude = "23.55180000",
+                    Longitude = "90.41220000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Munshiganj", Latitude = "23.52615230", Longitude = "90.11590910" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 44,
+                    Name = "Mymensingh",
+                    StateCode = "",
+                    Latitude = "24.75360000",
+                    Longitude = "90.40720000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Mymensingh", Latitude = "24.72309850", Longitude = "89.78411730" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 45,
+                    Name = "Mymensingh ",
+                    StateCode = "",
+                    Latitude = "24.74821290",
+                    Longitude = "90.40991580",
+                    Type = "division",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 46,
+                    Name = "Naogaon",
+                    StateCode = "",
+                    Latitude = "24.80420000",
+                    Longitude = "88.92540000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Naogaon", Latitude = "24.87425080", Longitude = "88.43751910" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 47,
+                    Name = "Narail",
+                    StateCode = "",
+                    Latitude = "23.11630000",
+                    Longitude = "89.49980000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Narail", Latitude = "23.13175700", Longitude = "89.26258440" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 48,
+                    Name = "Narayanganj",
+                    StateCode = "",
+                    Latitude = "23.63380000",
+                    Longitude = "90.50000000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Narayanganj", Latitude = "23.74880130", Longitude = "90.25638500" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 49,
+                    Name = "Narsingdi",
+                    StateCode = "",
+                    Latitude = "23.92320000",
+                    Longitude = "90.71680000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Narsingdi", Latitude = "24.00966000", Longitude = "90.44480420" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 50,
+                    Name = "Natore",
+                    StateCode = "",
+                    Latitude = "24.42050000",
+                    Longitude = "89.00060000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Natore", Latitude = "24.38021070", Longitude = "88.76302520" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 51,
+                    Name = "Netrakona",
+                    StateCode = "",
+                    Latitude = "24.88090000",
+                    Longitude = "90.72770000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Netrokona", Latitude = "24.87204810", Longitude = "90.52293810" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 52,
+                    Name = "Nilphamari",
+                    StateCode = "",
+                    Latitude = "25.93180000",
+                    Longitude = "88.85600000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Nilphamari", Latitude = "26.02264250", Longitude = "88.63412710" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 53,
+                    Name = "Noakhali",
+                    StateCode = "",
+                    Latitude = "22.86910000",
+                    Longitude = "91.09790000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Noakhali", Latitude = "22.75000000", Longitude = "91.16667000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 54,
+                    Name = "Pabna",
+                    StateCode = "",
+                    Latitude = "24.00640000",
+                    Longitude = "89.23360000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Pabna", Latitude = "24.08126720", Longitude = "89.03724420" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 55,
+                    Name = "Panchagarh",
+                    StateCode = "",
+                    Latitude = "26.33880000",
+                    Longitude = "88.55390000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Panchagarh", Latitude = "26.32094460", Longitude = "88.54711390" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 56,
+                    Name = "Patuakhali",
+                    StateCode = "",
+                    Latitude = "22.35910000",
+                    Longitude = "90.32890000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Patuakhali", Latitude = "22.18709170", Longitude = "89.71647060" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 57,
+                    Name = "Pirojpur",
+                    StateCode = "",
+                    Latitude = "22.57910000",
+                    Longitude = "89.97590000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Pirojpur", Latitude = "22.50937910", Longitude = "89.36434220" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 58,
+                    Name = "Rajbari",
+                    StateCode = "",
+                    Latitude = "23.75740000",
+                    Longitude = "89.64470000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Rajbari", Latitude = "23.73843000", Longitude = "89.25547000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 59,
+                    Name = "Rajshahi",
+                    StateCode = "",
+                    Latitude = "24.37440000",
+                    Longitude = "88.60440000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Rajshahi", Latitude = "24.42073360", Longitude = "88.29602140" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 60,
+                    Name = "Rajshahi ",
+                    StateCode = "",
+                    Latitude = "24.62854320",
+                    Longitude = "89.03768620",
+                    Type = "division",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 61,
+                    Name = "Rangamati",
+                    StateCode = "",
+                    Latitude = "22.65320000",
+                    Longitude = "92.17530000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Rangamati", Latitude = "22.63333000", Longitude = "92.20000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 62,
+                    Name = "Rangpur ",
+                    StateCode = "",
+                    Latitude = "25.63761350",
+                    Longitude = "89.08263810",
+                    Type = "division",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 63,
+                    Name = "Rangpur",
+                    StateCode = "",
+                    Latitude = "25.74660000",
+                    Longitude = "89.25080000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Rangpur", Latitude = "25.62390240", Longitude = "88.90094980" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 64,
+                    Name = "Satkhira",
+                    StateCode = "",
+                    Latitude = "22.71590000",
+                    Longitude = "89.07060000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Satkhira", Latitude = "22.29898590", Longitude = "88.47540870" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 65,
+                    Name = "Shariatpur",
+                    StateCode = "",
+                    Latitude = "23.24230000",
+                    Longitude = "90.43480000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Shariatpur", Latitude = "23.23124340", Longitude = "90.08293470" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 66,
+                    Name = "Sherpur",
+                    StateCode = "",
+                    Latitude = "25.01970000",
+                    Longitude = "90.01510000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Sherpur", Latitude = "25.09260380", Longitude = "89.76352070" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 67,
+                    Name = "Sirajganj",
+                    StateCode = "",
+                    Latitude = "24.45330000",
+                    Longitude = "89.70060000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Sirajganj", Latitude = "24.39876240", Longitude = "88.87641810" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 68,
+                    Name = "Sunamganj",
+                    StateCode = "",
+                    Latitude = "25.06580000",
+                    Longitude = "91.39500000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Sunamganj", Latitude = "24.88905540", Longitude = "91.00248270" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 69,
+                    Name = "Sylhet ",
+                    StateCode = "",
+                    Latitude = "24.73588540",
+                    Longitude = "91.68524760",
+                    Type = "division",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 70,
+                    Name = "Sylhet",
+                    StateCode = "",
+                    Latitude = "24.89940000",
+                    Longitude = "91.86980000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Sylhet", Latitude = "24.89189110", Longitude = "91.73554950" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 71,
+                    Name = "Tangail",
+                    StateCode = "",
+                    Latitude = "24.24980000",
+                    Longitude = "89.91680000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Tangail", Latitude = "24.37630700", Longitude = "89.35804610" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 72,
+                    Name = "Thakurgaon",
+                    StateCode = "",
+                    Latitude = "26.03220000",
+                    Longitude = "88.46100000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Thakurgaon", Latitude = "25.93648420", Longitude = "88.03366640" }
                     }
                 }
             }

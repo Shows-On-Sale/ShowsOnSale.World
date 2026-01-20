@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Bahrein",
                 ["ko"] = "바레인",
                 ["pt-BR"] = "Bahrein",
                 ["pt"] = "Barém",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Bahreyn",
                 ["ru"] = "Бахрейн",
                 ["uk"] = "Бахрейн",
-                ["pl"] = "Bahrajn"
+                ["pl"] = "Bahrajn",
+                ["hi"] = "बहरीन",
+                ["ar"] = "البحرين"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Capital",
-                    StateCode = "13",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "26.42432330",
+                    Longitude = "50.47472510",
                     Type = "governorate",
                     Cities = new()
                     {
@@ -77,24 +80,10 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 2,
-                    Name = "Central",
-                    StateCode = "16",
-                    Latitude = "26.14260930",
-                    Longitude = "50.56532940",
-                    Type = "governorate",
-                    Cities = new()
-                    {
-                        new() { Id = 1, Name = "Madīnat Ḩamad", Latitude = "26.11528000", Longitude = "50.50694000" }
-                    }
-                },
-
-                new()
-                {
-                    Id = 3,
                     Name = "Muharraq",
-                    StateCode = "15",
-                    Latitude = "26.26856530",
-                    Longitude = "50.64825170",
+                    StateCode = "",
+                    Latitude = "26.24659460",
+                    Longitude = "50.61641270",
                     Type = "governorate",
                     Cities = new()
                     {
@@ -105,24 +94,25 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 4,
+                    Id = 3,
                     Name = "Northern",
-                    StateCode = "17",
-                    Latitude = "26.15519140",
-                    Longitude = "50.48251730",
+                    StateCode = "",
+                    Latitude = "26.27784770",
+                    Longitude = "50.41811230",
                     Type = "governorate",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Madīnat Ḩamad", Latitude = "26.11528000", Longitude = "50.50694000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 5,
+                    Id = 4,
                     Name = "Southern",
-                    StateCode = "14",
-                    Latitude = "25.93810180",
-                    Longitude = "50.57568870",
+                    StateCode = "",
+                    Latitude = "25.84000690",
+                    Longitude = "50.59026930",
                     Type = "governorate",
                     Cities = new()
                     {

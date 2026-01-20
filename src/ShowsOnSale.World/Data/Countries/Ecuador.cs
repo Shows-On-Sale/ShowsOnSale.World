@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 64,
+            Id = 63,
             Name = "Ecuador",
             Iso3 = "ECU",
             Iso2 = "EC",
@@ -39,6 +39,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Ecuador",
                 ["ko"] = "에콰도르",
                 ["pt-BR"] = "Equador",
                 ["pt"] = "Equador",
@@ -54,7 +55,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Ekvator",
                 ["ru"] = "Эквадор",
                 ["uk"] = "Еквадор",
-                ["pl"] = "Ekwador"
+                ["pl"] = "Ekwador",
+                ["hi"] = "इक्वेडोर",
+                ["ar"] = "الاكوادور"
             },
             States = new()
             {
@@ -63,9 +66,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Azuay",
-                    StateCode = "A",
-                    Latitude = "-2.89430680",
-                    Longitude = "-78.99683440",
+                    StateCode = "",
+                    Latitude = "-3.05244510",
+                    Longitude = "-79.23951350",
                     Type = "province",
                     Cities = new()
                     {
@@ -82,9 +85,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Bolívar",
-                    StateCode = "B",
-                    Latitude = "-1.70958280",
-                    Longitude = "-79.04504290",
+                    StateCode = "",
+                    Latitude = "-1.53927330",
+                    Longitude = "-79.08165050",
                     Type = "province",
                     Cities = new()
                     {
@@ -97,9 +100,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Cañar",
-                    StateCode = "F",
-                    Latitude = "-2.55893150",
-                    Longitude = "-78.93881910",
+                    StateCode = "",
+                    Latitude = "-2.57448400",
+                    Longitude = "-78.98046780",
                     Type = "province",
                     Cities = new()
                     {
@@ -113,9 +116,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Carchi",
-                    StateCode = "C",
-                    Latitude = "0.50269120",
-                    Longitude = "-77.90425210",
+                    StateCode = "",
+                    Latitude = "0.83751630",
+                    Longitude = "-78.20751540",
                     Type = "province",
                     Cities = new()
                     {
@@ -129,9 +132,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Chimborazo",
-                    StateCode = "H",
-                    Latitude = "-1.66479950",
-                    Longitude = "-78.65432550",
+                    StateCode = "",
+                    Latitude = "-1.46809880",
+                    Longitude = "-78.81555890",
                     Type = "province",
                     Cities = new()
                     {
@@ -145,9 +148,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Cotopaxi",
-                    StateCode = "X",
-                    Latitude = "-0.83842060",
-                    Longitude = "-78.66626780",
+                    StateCode = "",
+                    Latitude = "-0.82685210",
+                    Longitude = "-78.89377570",
                     Type = "province",
                     Cities = new()
                     {
@@ -163,9 +166,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "El Oro",
-                    StateCode = "O",
-                    Latitude = "-3.25924130",
-                    Longitude = "-79.95835410",
+                    StateCode = "",
+                    Latitude = "-3.53110930",
+                    Longitude = "-79.83332340",
                     Type = "province",
                     Cities = new()
                     {
@@ -184,7 +187,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Esmeraldas",
-                    StateCode = "E",
+                    StateCode = "",
                     Latitude = "0.96817890",
                     Longitude = "-79.65172020",
                     Type = "province",
@@ -204,9 +207,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Galápagos",
-                    StateCode = "W",
-                    Latitude = "-0.95376910",
-                    Longitude = "-90.96560190",
+                    StateCode = "",
+                    Latitude = "-0.06068990",
+                    Longitude = "-90.67389800",
                     Type = "province",
                     Cities = new()
                     {
@@ -220,9 +223,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Guayas",
-                    StateCode = "G",
-                    Latitude = "-1.95748390",
-                    Longitude = "-79.91927020",
+                    StateCode = "",
+                    Latitude = "-2.00000000",
+                    Longitude = "-80.00000000",
                     Type = "province",
                     Cities = new()
                     {
@@ -252,9 +255,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Imbabura",
-                    StateCode = "I",
-                    Latitude = "0.34997680",
-                    Longitude = "-78.12601290",
+                    StateCode = "",
+                    Latitude = "0.25429020",
+                    Longitude = "-78.18039130",
                     Type = "province",
                     Cities = new()
                     {
@@ -270,7 +273,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Loja",
-                    StateCode = "L",
+                    StateCode = "",
                     Latitude = "-3.99313000",
                     Longitude = "-79.20422000",
                     Type = "province",
@@ -284,9 +287,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Los Ríos",
-                    StateCode = "R",
-                    Latitude = "-1.02306070",
-                    Longitude = "-79.46088970",
+                    StateCode = "",
+                    Latitude = "-1.49412730",
+                    Longitude = "-79.55424850",
                     Type = "province",
                     Cities = new()
                     {
@@ -304,9 +307,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Manabí",
-                    StateCode = "M",
-                    Latitude = "-1.05434340",
-                    Longitude = "-80.45264400",
+                    StateCode = "",
+                    Latitude = "-0.75880250",
+                    Longitude = "-80.06121310",
                     Type = "province",
                     Cities = new()
                     {
@@ -333,9 +336,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Morona-Santiago",
-                    StateCode = "S",
-                    Latitude = "-2.30510620",
-                    Longitude = "-78.11468660",
+                    StateCode = "",
+                    Latitude = "-2.62329690",
+                    Longitude = "-78.00481060",
                     Type = "province",
                     Cities = new()
                     {
@@ -350,9 +353,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Napo",
-                    StateCode = "N",
-                    Latitude = "-0.99559640",
-                    Longitude = "-77.81296840",
+                    StateCode = "",
+                    Latitude = "-0.60819650",
+                    Longitude = "-77.95203410",
                     Type = "province",
                     Cities = new()
                     {
@@ -365,9 +368,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Orellana",
-                    StateCode = "D",
-                    Latitude = "-0.45451630",
-                    Longitude = "-76.99502860",
+                    StateCode = "",
+                    Latitude = "-0.78618000",
+                    Longitude = "-76.48031840",
                     Type = "province",
                     Cities = new()
                     {
@@ -382,9 +385,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Pastaza",
-                    StateCode = "Y",
-                    Latitude = "-1.48822650",
-                    Longitude = "-78.00310570",
+                    StateCode = "",
+                    Latitude = "-1.91666700",
+                    Longitude = "-77.00000000",
                     Type = "province",
                     Cities = new()
                     {
@@ -396,9 +399,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 19,
                     Name = "Pichincha",
-                    StateCode = "P",
-                    Latitude = "-0.14648470",
-                    Longitude = "-78.47519450",
+                    StateCode = "",
+                    Latitude = "-0.05848930",
+                    Longitude = "-78.32843710",
                     Type = "province",
                     Cities = new()
                     {
@@ -413,7 +416,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 20,
                     Name = "Santa Elena",
-                    StateCode = "SE",
+                    StateCode = "",
                     Latitude = "-2.22671050",
                     Longitude = "-80.85949900",
                     Type = "province",
@@ -429,9 +432,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 21,
                     Name = "Santo Domingo de los Tsáchilas",
-                    StateCode = "SD",
-                    Latitude = "-0.25218820",
-                    Longitude = "-79.18793830",
+                    StateCode = "",
+                    Latitude = "-0.25462120",
+                    Longitude = "-79.16867240",
                     Type = "province",
                     Cities = new()
                     {
@@ -443,9 +446,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 22,
                     Name = "Sucumbíos",
-                    StateCode = "U",
-                    Latitude = "0.08892310",
-                    Longitude = "-76.88975570",
+                    StateCode = "",
+                    Latitude = "-0.03913800",
+                    Longitude = "-76.51196780",
                     Type = "province",
                     Cities = new()
                     {
@@ -457,9 +460,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 23,
                     Name = "Tungurahua",
-                    StateCode = "T",
-                    Latitude = "-1.26352840",
-                    Longitude = "-78.56608520",
+                    StateCode = "",
+                    Latitude = "-1.27658950",
+                    Longitude = "-78.47546670",
                     Type = "province",
                     Cities = new()
                     {
@@ -474,9 +477,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 24,
                     Name = "Zamora Chinchipe",
-                    StateCode = "Z",
-                    Latitude = "-4.06558920",
-                    Longitude = "-78.95035250",
+                    StateCode = "",
+                    Latitude = "-4.06201830",
+                    Longitude = "-78.77515880",
                     Type = "province",
                     Cities = new()
                     {

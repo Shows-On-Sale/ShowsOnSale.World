@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Saint Helena, Ascension ha Tristan da Cunha",
                 ["ko"] = "세인트헬레나",
                 ["pt-BR"] = "Santa Helena",
                 ["pt"] = "Santa Helena",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Saint Helena",
                 ["ru"] = "Святая Елена",
                 ["uk"] = "Свята Єлена",
-                ["pl"] = "Święta Helena"
+                ["pl"] = "Święta Helena",
+                ["hi"] = "सेंट हेलेना",
+                ["ar"] = "سانت هيلانة"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Alarm Forest",
-                    StateCode = "01",
-                    Latitude = "-15.94671440",
-                    Longitude = "-5.72447520",
+                    StateCode = "",
+                    Latitude = "-15.94850430",
+                    Longitude = "-5.70281940",
                     Type = "district",
                     Cities = new()
                     {
@@ -75,9 +78,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Blue Hill",
-                    StateCode = "02",
-                    Latitude = "-15.98354720",
-                    Longitude = "-5.79656520",
+                    StateCode = "",
+                    Latitude = "-15.98013030",
+                    Longitude = "-5.74898560",
                     Type = "district",
                     Cities = new()
                     {
@@ -88,9 +91,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Half Tree Hollow",
-                    StateCode = "03",
-                    Latitude = "-15.93468450",
-                    Longitude = "-5.73134770",
+                    StateCode = "",
+                    Latitude = "-15.93463280",
+                    Longitude = "-5.71947320",
                     Type = "district",
                     Cities = new()
                     {
@@ -101,7 +104,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Jamestown",
-                    StateCode = "04",
+                    StateCode = "",
                     Latitude = "-15.92883080",
                     Longitude = "-5.72033380",
                     Type = "district",
@@ -114,9 +117,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Levelwood",
-                    StateCode = "05",
-                    Latitude = "-15.97475430",
-                    Longitude = "-5.70960800",
+                    StateCode = "",
+                    Latitude = "-15.97431290",
+                    Longitude = "-5.68057850",
                     Type = "district",
                     Cities = new()
                     {
@@ -127,9 +130,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Longwood",
-                    StateCode = "06",
-                    Latitude = "-15.94458630",
-                    Longitude = "-5.69502720",
+                    StateCode = "",
+                    Latitude = "-15.94932880",
+                    Longitude = "-5.68586050",
                     Type = "district",
                     Cities = new()
                     {
@@ -140,9 +143,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Saint Paul's",
-                    StateCode = "08",
-                    Latitude = "-15.98695810",
-                    Longitude = "-5.78096580",
+                    StateCode = "",
+                    Latitude = "-15.98512670",
+                    Longitude = "-5.73809860",
                     Type = "district",
                     Cities = new()
                     {
@@ -153,9 +156,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Sandy Bay",
-                    StateCode = "07",
-                    Latitude = "-15.99187410",
-                    Longitude = "-5.73991510",
+                    StateCode = "",
+                    Latitude = "-16.00606010",
+                    Longitude = "-5.71270750",
                     Type = "district",
                     Cities = new()
                     {

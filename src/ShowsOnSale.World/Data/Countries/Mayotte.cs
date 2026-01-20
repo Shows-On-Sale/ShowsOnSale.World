@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Mayotte",
                 ["ko"] = "마요트",
                 ["pt-BR"] = "Mayotte",
                 ["pt"] = "Mayotte",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Mayotte",
                 ["ru"] = "Майотта",
                 ["uk"] = "Майотта",
-                ["pl"] = "Majotta"
+                ["pl"] = "Majotta",
+                ["hi"] = "मैयट",
+                ["ar"] = "مايوت"
             },
             States = new()
             {
@@ -62,12 +65,14 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Acoua",
-                    StateCode = "14",
-                    Latitude = "-12.72491260",
-                    Longitude = "45.02659610",
+                    StateCode = "",
+                    Latitude = "-12.72432450",
+                    Longitude = "45.05893720",
                     Type = "commune",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Acoua", Latitude = "-12.72391000", Longitude = "45.05819000" },
+                        new() { Id = 2, Name = "Mtsangadoua", Latitude = "-12.71112000", Longitude = "45.05118000" }
                     }
                 },
 
@@ -75,12 +80,17 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Bandraboua",
-                    StateCode = "16",
-                    Latitude = "-12.71756860",
-                    Longitude = "45.08256190",
+                    StateCode = "",
+                    Latitude = "-12.70454820",
+                    Longitude = "45.12219260",
                     Type = "commune",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Bandraboua", Latitude = "-12.70440000", Longitude = "45.12231000" },
+                        new() { Id = 2, Name = "Bouyouni", Latitude = "-12.73462000", Longitude = "45.13914000" },
+                        new() { Id = 3, Name = "Dzumogne", Latitude = "-12.71667000", Longitude = "45.11667000" },
+                        new() { Id = 4, Name = "Handréma", Latitude = "-12.68112000", Longitude = "45.09965000" },
+                        new() { Id = 5, Name = "Mtsangamboua", Latitude = "-12.69033000", Longitude = "45.10926000" }
                     }
                 },
 
@@ -88,12 +98,16 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Bandrélé",
-                    StateCode = "05",
-                    Latitude = "-12.93380490",
-                    Longitude = "45.14634720",
+                    StateCode = "",
+                    Latitude = "-12.91335860",
+                    Longitude = "45.19286770",
                     Type = "commune",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Bandrele", Latitude = "-12.91276000", Longitude = "45.19256000" },
+                        new() { Id = 2, Name = "Hamouro", Latitude = "-12.88130000", Longitude = "45.21494000" },
+                        new() { Id = 3, Name = "Mtsamoudou", Latitude = "-12.96232000", Longitude = "45.17449000" },
+                        new() { Id = 4, Name = "Nyambadao", Latitude = "-12.89346000", Longitude = "45.20214000" }
                     }
                 },
 
@@ -101,12 +115,15 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Boueni",
-                    StateCode = "07",
-                    Latitude = "-12.93035660",
-                    Longitude = "45.05747370",
+                    StateCode = "",
+                    Latitude = "-12.91070860",
+                    Longitude = "45.08012560",
                     Type = "commune",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Bouéni", Latitude = "-12.90250000", Longitude = "45.07611000" },
+                        new() { Id = 2, Name = "Mouanatrindri", Latitude = "-12.89960000", Longitude = "45.09792000" },
+                        new() { Id = 3, Name = "Mzouazia", Latitude = "-12.92717000", Longitude = "45.10336000" }
                     }
                 },
 
@@ -114,12 +131,14 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Chiconi",
-                    StateCode = "11",
-                    Latitude = "-12.83220320",
-                    Longitude = "45.10251220",
+                    StateCode = "",
+                    Latitude = "-12.83234970",
+                    Longitude = "45.11497660",
                     Type = "commune",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Chiconi", Latitude = "-12.83333000", Longitude = "45.11056000" },
+                        new() { Id = 2, Name = "Sohoa", Latitude = "-12.82233000", Longitude = "45.10552000" }
                     }
                 },
 
@@ -127,12 +146,17 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Chirongui",
-                    StateCode = "08",
-                    Latitude = "-12.91752330",
-                    Longitude = "45.10196780",
+                    StateCode = "",
+                    Latitude = "-12.93544000",
+                    Longitude = "45.14921570",
                     Type = "commune",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Chirongui", Latitude = "-12.93194000", Longitude = "45.14833000" },
+                        new() { Id = 2, Name = "Miréréni", Latitude = "-12.90708000", Longitude = "45.15295000" },
+                        new() { Id = 3, Name = "Mramadoudou", Latitude = "-12.92846000", Longitude = "45.15324000" },
+                        new() { Id = 4, Name = "Poroani", Latitude = "-12.89226000", Longitude = "45.14121000" },
+                        new() { Id = 5, Name = "Tsimkoura", Latitude = "-12.93934000", Longitude = "45.13739000" }
                     }
                 },
 
@@ -140,12 +164,17 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Dembeni",
-                    StateCode = "04",
-                    Latitude = "-12.85300290",
-                    Longitude = "45.13925120",
+                    StateCode = "",
+                    Latitude = "-12.84330810",
+                    Longitude = "45.18399540",
                     Type = "commune",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Dembeni", Latitude = "-12.84360000", Longitude = "45.18436000" },
+                        new() { Id = 2, Name = "Hajangoua", Latitude = "-12.86607000", Longitude = "45.19857000" },
+                        new() { Id = 3, Name = "Iloni", Latitude = "-12.84553000", Longitude = "45.19037000" },
+                        new() { Id = 4, Name = "Ongojou", Latitude = "-12.83883000", Longitude = "45.16012000" },
+                        new() { Id = 5, Name = "Tsararano", Latitude = "-12.83528000", Longitude = "45.17355000" }
                     }
                 },
 
@@ -153,12 +182,14 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Dzaoudzi",
-                    StateCode = "01",
+                    StateCode = "",
                     Latitude = "-12.77606510",
                     Longitude = "45.25632460",
                     Type = "commune",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Dzaoudzi", Latitude = "-12.78339000", Longitude = "45.25693000" },
+                        new() { Id = 2, Name = "Labattoir", Latitude = "-12.77698000", Longitude = "45.28234000" }
                     }
                 },
 
@@ -166,12 +197,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Kani Keli",
-                    StateCode = "06",
-                    Latitude = "-12.97464500",
-                    Longitude = "45.07951430",
+                    StateCode = "",
+                    Latitude = "-12.95652220",
+                    Longitude = "45.10526060",
                     Type = "commune",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kani-Kéli", Latitude = "-12.95361000", Longitude = "45.10333000" }
                     }
                 },
 
@@ -179,12 +211,17 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Koungou",
-                    StateCode = "17",
-                    Latitude = "-12.74168230",
-                    Longitude = "45.14998710",
+                    StateCode = "",
+                    Latitude = "-12.73575300",
+                    Longitude = "45.20674590",
                     Type = "commune",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kangani", Latitude = "-12.73186000", Longitude = "45.18694000" },
+                        new() { Id = 2, Name = "Koungou", Latitude = "-12.73361000", Longitude = "45.20417000" },
+                        new() { Id = 3, Name = "Longoni", Latitude = "-12.73426000", Longitude = "45.16298000" },
+                        new() { Id = 4, Name = "Majikavo Koropa", Latitude = "-12.74701000", Longitude = "45.22058000" },
+                        new() { Id = 5, Name = "Trévani", Latitude = "-12.73437000", Longitude = "45.19861000" }
                     }
                 },
 
@@ -192,12 +229,14 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "M'Tsangamouji",
-                    StateCode = "13",
-                    Latitude = "-12.75500880",
-                    Longitude = "45.04327920",
+                    StateCode = "",
+                    Latitude = "-12.76019410",
+                    Longitude = "45.08768920",
                     Type = "commune",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Chembényoumba", Latitude = "-12.76472000", Longitude = "45.07793000" },
+                        new() { Id = 2, Name = "M'Tsangamouji", Latitude = "-12.75944000", Longitude = "45.08361000" }
                     }
                 },
 
@@ -205,12 +244,22 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Mamoudzou",
-                    StateCode = "03",
-                    Latitude = "-12.78750520",
-                    Longitude = "45.15522010",
+                    StateCode = "",
+                    Latitude = "-12.78041360",
+                    Longitude = "45.22797610",
                     Type = "commune",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Combani", Latitude = "-12.80000000", Longitude = "45.16667000" },
+                        new() { Id = 2, Name = "Kaouéni", Latitude = "-12.77121000", Longitude = "45.22419000" },
+                        new() { Id = 3, Name = "Kavani", Latitude = "-12.78447000", Longitude = "45.22299000" },
+                        new() { Id = 4, Name = "Majikavo Lamir", Latitude = "-12.75572000", Longitude = "45.22968000" },
+                        new() { Id = 5, Name = "Mamoudzou", Latitude = "-12.78234000", Longitude = "45.22878000" },
+                        new() { Id = 6, Name = "Mtsapéré", Latitude = "-12.78636000", Longitude = "45.21732000" },
+                        new() { Id = 7, Name = "Passamainty", Latitude = "-12.80201000", Longitude = "45.20818000" },
+                        new() { Id = 8, Name = "Tsoundzou 1", Latitude = "-12.80615000", Longitude = "45.20230000" },
+                        new() { Id = 9, Name = "Tsoundzou 2", Latitude = "-12.81845000", Longitude = "45.19720000" },
+                        new() { Id = 10, Name = "Vahibé", Latitude = "-12.79024000", Longitude = "45.17707000" }
                     }
                 },
 
@@ -218,12 +267,15 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Mtsamboro",
-                    StateCode = "15",
-                    Latitude = "-12.67625800",
-                    Longitude = "45.02152010",
+                    StateCode = "",
+                    Latitude = "-12.69969690",
+                    Longitude = "45.06799040",
                     Type = "commune",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Hamjago", Latitude = "-12.68832000", Longitude = "45.07450000" },
+                        new() { Id = 2, Name = "Mtsahara", Latitude = "-12.68137000", Longitude = "45.08274000" },
+                        new() { Id = 3, Name = "Mtsamboro", Latitude = "-12.69982000", Longitude = "45.06894000" }
                     }
                 },
 
@@ -231,12 +283,15 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Ouangani",
-                    StateCode = "10",
-                    Latitude = "-12.83925080",
-                    Longitude = "45.09716170",
+                    StateCode = "",
+                    Latitude = "-12.84982350",
+                    Longitude = "45.13986640",
                     Type = "commune",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Barakani", Latitude = "-12.83799000", Longitude = "45.13120000" },
+                        new() { Id = 2, Name = "Kahani", Latitude = "-12.82385000", Longitude = "45.13141000" },
+                        new() { Id = 3, Name = "Ouangani", Latitude = "-12.84639000", Longitude = "45.13611000" }
                     }
                 },
 
@@ -244,12 +299,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Pamandzi",
-                    StateCode = "02",
-                    Latitude = "-12.80096930",
-                    Longitude = "45.26361320",
+                    StateCode = "",
+                    Latitude = "-12.79834460",
+                    Longitude = "45.27465150",
                     Type = "commune",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Pamandzi", Latitude = "-12.79674000", Longitude = "45.27938000" }
                     }
                 },
 
@@ -257,12 +313,14 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Sada",
-                    StateCode = "09",
-                    Latitude = "-12.86424390",
-                    Longitude = "45.07224040",
+                    StateCode = "",
+                    Latitude = "-12.85182890",
+                    Longitude = "45.09931690",
                     Type = "commune",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Mangajou", Latitude = "-12.84404000", Longitude = "45.11716000" },
+                        new() { Id = 2, Name = "Sada", Latitude = "-12.85055000", Longitude = "45.10205000" }
                     }
                 },
 
@@ -270,12 +328,14 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Tsingoni",
-                    StateCode = "12",
-                    Latitude = "-12.78236960",
-                    Longitude = "45.09220000",
+                    StateCode = "",
+                    Latitude = "-12.78972520",
+                    Longitude = "45.10380550",
                     Type = "commune",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Miréréni", Latitude = "-12.78867000", Longitude = "45.14113000" },
+                        new() { Id = 2, Name = "Tsingoni", Latitude = "-12.78722000", Longitude = "45.10278000" }
                     }
                 }
             }

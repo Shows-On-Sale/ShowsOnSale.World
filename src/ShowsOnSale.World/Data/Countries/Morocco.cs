@@ -34,7 +34,8 @@ namespace ShowsOnSale.World.Data.Countries
             EmojiU = "U+1F1F2 U+1F1E6",
             Timezones = new()
             {
-                new() { ZoneName = "Africa/Casablanca", GmtOffset = 3600, GmtOffsetName = "UTC+01:00", Abbreviation = "WEST", TzName = "Western European Summer Time" }
+                new() { ZoneName = "Africa/Casablanca", GmtOffset = 3600, GmtOffsetName = "UTC+01:00", Abbreviation = "WEST", TzName = "Western European Summer Time" },
+                new() { ZoneName = "Africa/El_Aaiun", GmtOffset = 3600, GmtOffsetName = "UTC+01:00", Abbreviation = "WEST", TzName = "Western Sahara Time" }
             },
             Translations = new()
             {
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Fas",
                 ["ru"] = "Марокко",
                 ["uk"] = "Марокко",
-                ["pl"] = "Maroko"
+                ["pl"] = "Maroko",
+                ["hi"] = "मोरक्को",
+                ["ar"] = "المغرب"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Agadir-Ida-Ou-Tanane",
-                    StateCode = "AGD",
-                    Latitude = "30.64620910",
-                    Longitude = "-9.83390610",
+                    StateCode = "",
+                    Latitude = "30.42094920",
+                    Longitude = "-9.60442980",
                     Type = "prefecture",
                     Cities = new()
                     {
@@ -75,9 +78,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Al Haouz",
-                    StateCode = "HAO",
-                    Latitude = "31.29567290",
-                    Longitude = "-7.87216000",
+                    StateCode = "",
+                    Latitude = "31.28067150",
+                    Longitude = "-7.92517710",
                     Type = "province",
                     Cities = new()
                     {
@@ -88,7 +91,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Al Hoceïma",
-                    StateCode = "HOC",
+                    StateCode = "",
                     Latitude = "35.24455890",
                     Longitude = "-3.93174680",
                     Type = "province",
@@ -101,7 +104,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Aousserd (EH)",
-                    StateCode = "AOU",
+                    StateCode = "",
                     Latitude = "22.55215380",
                     Longitude = "-14.32973530",
                     Type = "province",
@@ -114,7 +117,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Assa-Zag (EH-partial)",
-                    StateCode = "ASZ",
+                    StateCode = "",
                     Latitude = "28.14023950",
                     Longitude = "-9.72326730",
                     Type = "province",
@@ -153,9 +156,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Azilal",
-                    StateCode = "AZI",
-                    Latitude = "32.00426200",
-                    Longitude = "-6.57833870",
+                    StateCode = "",
+                    Latitude = "31.95929500",
+                    Longitude = "-6.57099100",
                     Type = "province",
                     Cities = new()
                     {
@@ -166,9 +169,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Béni Mellal",
-                    StateCode = "BEM",
-                    Latitude = "32.34244300",
-                    Longitude = "-6.37579900",
+                    StateCode = "",
+                    Latitude = "32.33419300",
+                    Longitude = "-6.35333500",
                     Type = "province",
                     Cities = new()
                     {
@@ -179,9 +182,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Béni Mellal-Khénifra",
-                    StateCode = "05",
-                    Latitude = "32.57191840",
-                    Longitude = "-6.06791940",
+                    StateCode = "",
+                    Latitude = "32.64074980",
+                    Longitude = "-6.20710500",
                     Type = "region",
                     Cities = new()
                     {
@@ -192,7 +195,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Benslimane",
-                    StateCode = "BES",
+                    StateCode = "",
                     Latitude = "33.61896980",
                     Longitude = "-7.13055360",
                     Type = "province",
@@ -205,9 +208,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Berkane",
-                    StateCode = "BER",
-                    Latitude = "34.88408760",
-                    Longitude = "-2.34188700",
+                    StateCode = "",
+                    Latitude = "34.92667550",
+                    Longitude = "-2.32940870",
                     Type = "province",
                     Cities = new()
                     {
@@ -218,9 +221,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Berrechid",
-                    StateCode = "BRR",
-                    Latitude = "33.26025230",
-                    Longitude = "-7.59848370",
+                    StateCode = "",
+                    Latitude = "33.25860350",
+                    Longitude = "-7.61504690",
                     Type = "province",
                     Cities = new()
                     {
@@ -231,7 +234,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Boujdour (EH)",
-                    StateCode = "BOD",
+                    StateCode = "",
                     Latitude = "26.12524930",
                     Longitude = "-14.48473470",
                     Type = "province",
@@ -244,7 +247,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Boulemane",
-                    StateCode = "BOM",
+                    StateCode = "",
                     Latitude = "33.36251590",
                     Longitude = "-4.73033970",
                     Type = "province",
@@ -257,9 +260,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Casablanca",
-                    StateCode = "CAS",
-                    Latitude = "33.57226780",
-                    Longitude = "-7.65703260",
+                    StateCode = "",
+                    Latitude = "33.59451440",
+                    Longitude = "-7.62002840",
                     Type = "prefecture",
                     Cities = new()
                     {
@@ -270,9 +273,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Casablanca-Settat",
-                    StateCode = "06",
-                    Latitude = "33.21608720",
-                    Longitude = "-7.43813550",
+                    StateCode = "",
+                    Latitude = "33.26271280",
+                    Longitude = "-7.96390280",
                     Type = "region",
                     Cities = new()
                     {
@@ -304,9 +307,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Chefchaouen",
-                    StateCode = "CHE",
-                    Latitude = "35.01817200",
-                    Longitude = "-5.14320680",
+                    StateCode = "",
+                    Latitude = "35.16877480",
+                    Longitude = "-5.26834540",
                     Type = "province",
                     Cities = new()
                     {
@@ -317,7 +320,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Chichaoua",
-                    StateCode = "CHI",
+                    StateCode = "",
                     Latitude = "31.53835810",
                     Longitude = "-8.76463880",
                     Type = "province",
@@ -330,9 +333,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Chtouka-Ait Baha",
-                    StateCode = "CHT",
-                    Latitude = "30.10724220",
-                    Longitude = "-9.27855830",
+                    StateCode = "",
+                    Latitude = "30.00806010",
+                    Longitude = "-9.33344130",
                     Type = "province",
                     Cities = new()
                     {
@@ -343,9 +346,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 19,
                     Name = "Dakhla-Oued Ed-Dahab (EH)",
-                    StateCode = "12",
-                    Latitude = "22.73378920",
-                    Longitude = "-14.28611160",
+                    StateCode = "",
+                    Latitude = "22.60439730",
+                    Longitude = "-19.83482410",
                     Type = "region",
                     Cities = new()
                     {
@@ -356,9 +359,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 20,
                     Name = "Drâa-Tafilalet",
-                    StateCode = "08",
-                    Latitude = "31.14995380",
-                    Longitude = "-5.39395510",
+                    StateCode = "",
+                    Latitude = "31.18354320",
+                    Longitude = "-5.13954350",
                     Type = "region",
                     Cities = new()
                     {
@@ -388,7 +391,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 21,
                     Name = "Driouch",
-                    StateCode = "DRI",
+                    StateCode = "",
                     Latitude = "34.97603200",
                     Longitude = "-3.39644930",
                     Type = "province",
@@ -401,7 +404,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 22,
                     Name = "El Hajeb",
-                    StateCode = "HAJ",
+                    StateCode = "",
                     Latitude = "33.68573500",
                     Longitude = "-5.36778440",
                     Type = "province",
@@ -414,7 +417,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 23,
                     Name = "El Jadida",
-                    StateCode = "JDI",
+                    StateCode = "",
                     Latitude = "33.23163260",
                     Longitude = "-8.50071160",
                     Type = "province",
@@ -427,9 +430,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 24,
                     Name = "El Kelâa des Sraghna",
-                    StateCode = "KES",
-                    Latitude = "32.05227670",
-                    Longitude = "-7.35165580",
+                    StateCode = "",
+                    Latitude = "32.05389210",
+                    Longitude = "-7.40686420",
                     Type = "province",
                     Cities = new()
                     {
@@ -440,9 +443,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 25,
                     Name = "Errachidia",
-                    StateCode = "ERR",
-                    Latitude = "31.90512750",
-                    Longitude = "-4.72775280",
+                    StateCode = "",
+                    Latitude = "31.92908900",
+                    Longitude = "-4.43408070",
                     Type = "province",
                     Cities = new()
                     {
@@ -453,7 +456,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 26,
                     Name = "Es-Semara (EH-partial)",
-                    StateCode = "ESM",
+                    StateCode = "",
                     Latitude = "26.74185600",
                     Longitude = "-11.67836710",
                     Type = "province",
@@ -466,7 +469,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 27,
                     Name = "Essaouira",
-                    StateCode = "ESI",
+                    StateCode = "",
                     Latitude = "31.50849260",
                     Longitude = "-9.75950410",
                     Type = "province",
@@ -479,9 +482,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 28,
                     Name = "Fahs-Anjra",
-                    StateCode = "FAH",
-                    Latitude = "35.76019920",
-                    Longitude = "-5.66683060",
+                    StateCode = "",
+                    Latitude = "35.75182350",
+                    Longitude = "-5.58646520",
                     Type = "province",
                     Cities = new()
                     {
@@ -492,9 +495,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 29,
                     Name = "Fès",
-                    StateCode = "FES",
-                    Latitude = "34.02395790",
-                    Longitude = "-5.03675990",
+                    StateCode = "",
+                    Latitude = "34.02619510",
+                    Longitude = "-5.02318490",
                     Type = "prefecture",
                     Cities = new()
                     {
@@ -505,9 +508,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 30,
                     Name = "Fès-Meknès",
-                    StateCode = "03",
-                    Latitude = "34.06252900",
-                    Longitude = "-4.72775280",
+                    StateCode = "",
+                    Latitude = "33.83331360",
+                    Longitude = "-4.85563820",
                     Type = "region",
                     Cities = new()
                     {
@@ -519,26 +522,25 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Bouarouss", Latitude = "34.36000000", Longitude = "-4.81000000" },
                         new() { Id = 7, Name = "Boulemane", Latitude = "33.16667000", Longitude = "-4.00000000" },
                         new() { Id = 8, Name = "El Hajeb", Latitude = "33.68786000", Longitude = "-5.37100000" },
-                        new() { Id = 9, Name = "El-Hajeb", Latitude = "33.72883000", Longitude = "-5.46119000" },
-                        new() { Id = 10, Name = "Fes", Latitude = "34.04000000", Longitude = "-4.87000000" },
-                        new() { Id = 11, Name = "Fès al Bali", Latitude = "34.07010000", Longitude = "-4.95473000" },
-                        new() { Id = 12, Name = "Galaz", Latitude = "34.54424000", Longitude = "-4.80355000" },
-                        new() { Id = 13, Name = "Ghouazi", Latitude = "34.47737000", Longitude = "-5.30235000" },
-                        new() { Id = 14, Name = "Guercif", Latitude = "34.22568000", Longitude = "-3.35361000" },
-                        new() { Id = 15, Name = "Ifrane", Latitude = "33.33333000", Longitude = "-5.25000000" },
-                        new() { Id = 16, Name = "Meknes", Latitude = "33.97761000", Longitude = "-5.52496000" },
-                        new() { Id = 17, Name = "Missour", Latitude = "33.04893000", Longitude = "-3.98947000" },
-                        new() { Id = 18, Name = "Moulay Bouchta", Latitude = "34.48922000", Longitude = "-5.13023000" },
-                        new() { Id = 19, Name = "Moulay-Yacoub", Latitude = "34.14558000", Longitude = "-5.10259000" },
-                        new() { Id = 20, Name = "Oued Amlil", Latitude = "34.20000000", Longitude = "-4.28000000" },
-                        new() { Id = 21, Name = "Oulad Tayeb", Latitude = "33.94633000", Longitude = "-4.99509000" },
-                        new() { Id = 22, Name = "Ourtzagh", Latitude = "34.53477000", Longitude = "-4.96878000" },
-                        new() { Id = 23, Name = "Sefrou", Latitude = "33.79979000", Longitude = "-4.68000000" },
-                        new() { Id = 24, Name = "Tahla", Latitude = "34.04965000", Longitude = "-4.42162000" },
-                        new() { Id = 25, Name = "Talzemt", Latitude = "33.59000000", Longitude = "-4.19000000" },
-                        new() { Id = 26, Name = "Taounate", Latitude = "34.50000000", Longitude = "-4.83333000" },
-                        new() { Id = 27, Name = "Taza", Latitude = "34.25000000", Longitude = "-3.75000000" },
-                        new() { Id = 28, Name = "Tmourghout", Latitude = "33.90650000", Longitude = "-4.02696000" }
+                        new() { Id = 9, Name = "Fes", Latitude = "34.04000000", Longitude = "-4.87000000" },
+                        new() { Id = 10, Name = "Fès al Bali", Latitude = "34.07010000", Longitude = "-4.95473000" },
+                        new() { Id = 11, Name = "Galaz", Latitude = "34.54424000", Longitude = "-4.80355000" },
+                        new() { Id = 12, Name = "Ghouazi", Latitude = "34.47737000", Longitude = "-5.30235000" },
+                        new() { Id = 13, Name = "Guercif", Latitude = "34.22568000", Longitude = "-3.35361000" },
+                        new() { Id = 14, Name = "Ifrane", Latitude = "33.33333000", Longitude = "-5.25000000" },
+                        new() { Id = 15, Name = "Meknes", Latitude = "33.97761000", Longitude = "-5.52496000" },
+                        new() { Id = 16, Name = "Missour", Latitude = "33.04893000", Longitude = "-3.98947000" },
+                        new() { Id = 17, Name = "Moulay Bouchta", Latitude = "34.48922000", Longitude = "-5.13023000" },
+                        new() { Id = 18, Name = "Moulay-Yacoub", Latitude = "34.14558000", Longitude = "-5.10259000" },
+                        new() { Id = 19, Name = "Oued Amlil", Latitude = "34.20000000", Longitude = "-4.28000000" },
+                        new() { Id = 20, Name = "Oulad Tayeb", Latitude = "33.94633000", Longitude = "-4.99509000" },
+                        new() { Id = 21, Name = "Ourtzagh", Latitude = "34.53477000", Longitude = "-4.96878000" },
+                        new() { Id = 22, Name = "Sefrou", Latitude = "33.79979000", Longitude = "-4.68000000" },
+                        new() { Id = 23, Name = "Tahla", Latitude = "34.04965000", Longitude = "-4.42162000" },
+                        new() { Id = 24, Name = "Talzemt", Latitude = "33.59000000", Longitude = "-4.19000000" },
+                        new() { Id = 25, Name = "Taounate", Latitude = "34.50000000", Longitude = "-4.83333000" },
+                        new() { Id = 26, Name = "Taza", Latitude = "34.25000000", Longitude = "-3.75000000" },
+                        new() { Id = 27, Name = "Tmourghout", Latitude = "33.90650000", Longitude = "-4.02696000" }
                     }
                 },
 
@@ -546,7 +548,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 31,
                     Name = "Figuig",
-                    StateCode = "FIG",
+                    StateCode = "",
                     Latitude = "32.10926130",
                     Longitude = "-1.22980600",
                     Type = "province",
@@ -559,9 +561,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 32,
                     Name = "Fquih Ben Salah",
-                    StateCode = "FQH",
-                    Latitude = "32.50016800",
-                    Longitude = "-6.71007170",
+                    StateCode = "",
+                    Latitude = "32.42121480",
+                    Longitude = "-6.74707850",
                     Type = "province",
                     Cities = new()
                     {
@@ -572,7 +574,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 33,
                     Name = "Guelmim",
-                    StateCode = "GUE",
+                    StateCode = "",
                     Latitude = "28.98836590",
                     Longitude = "-10.05274980",
                     Type = "province",
@@ -585,7 +587,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 34,
                     Name = "Guelmim-Oued Noun (EH-partial)",
-                    StateCode = "10",
+                    StateCode = "",
                     Latitude = "28.48442810",
                     Longitude = "-10.08072980",
                     Type = "region",
@@ -602,9 +604,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 35,
                     Name = "Guercif",
-                    StateCode = "GUF",
-                    Latitude = "34.23450360",
-                    Longitude = "-3.38130050",
+                    StateCode = "",
+                    Latitude = "34.22557600",
+                    Longitude = "-3.35234500",
                     Type = "province",
                     Cities = new()
                     {
@@ -615,7 +617,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 36,
                     Name = "Ifrane",
-                    StateCode = "IFR",
+                    StateCode = "",
                     Latitude = "33.52280620",
                     Longitude = "-5.11095520",
                     Type = "province",
@@ -628,9 +630,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 37,
                     Name = "Inezgane-Ait Melloul",
-                    StateCode = "INE",
-                    Latitude = "30.35090980",
-                    Longitude = "-9.38951100",
+                    StateCode = "",
+                    Latitude = "30.34691720",
+                    Longitude = "-9.44084920",
                     Type = "prefecture",
                     Cities = new()
                     {
@@ -641,9 +643,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 38,
                     Name = "Jerada",
-                    StateCode = "JRA",
-                    Latitude = "34.30617910",
-                    Longitude = "-2.17941360",
+                    StateCode = "",
+                    Latitude = "34.31053100",
+                    Longitude = "-2.15997900",
                     Type = "province",
                     Cities = new()
                     {
@@ -654,9 +656,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 39,
                     Name = "Kénitra",
-                    StateCode = "KEN",
-                    Latitude = "34.25405030",
-                    Longitude = "-6.58901660",
+                    StateCode = "",
+                    Latitude = "34.26457000",
+                    Longitude = "-6.57016900",
                     Type = "province",
                     Cities = new()
                     {
@@ -688,9 +690,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 40,
                     Name = "Khémisset",
-                    StateCode = "KHE",
-                    Latitude = "33.81537040",
-                    Longitude = "-6.05733020",
+                    StateCode = "",
+                    Latitude = "33.83028700",
+                    Longitude = "-6.07260500",
                     Type = "province",
                     Cities = new()
                     {
@@ -701,7 +703,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 41,
                     Name = "Khénifra",
-                    StateCode = "KHN",
+                    StateCode = "",
                     Latitude = "32.93404710",
                     Longitude = "-5.66157100",
                     Type = "province",
@@ -712,27 +714,26 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Azilal", Latitude = "31.96156000", Longitude = "-6.57109000" },
                         new() { Id = 4, Name = "Azilal Province", Latitude = "31.91667000", Longitude = "-6.50000000" },
                         new() { Id = 5, Name = "Beni Mellal", Latitude = "32.33725000", Longitude = "-6.34983000" },
-                        new() { Id = 6, Name = "Beni-Mellal", Latitude = "32.50000000", Longitude = "-6.33333000" },
-                        new() { Id = 7, Name = "Boujniba", Latitude = "32.90046000", Longitude = "-6.77464000" },
-                        new() { Id = 8, Name = "Bzou", Latitude = "32.09171000", Longitude = "-7.04786000" },
-                        new() { Id = 9, Name = "Dar Ould Zidouh", Latitude = "32.31247000", Longitude = "-6.90494000" },
-                        new() { Id = 10, Name = "Demnate", Latitude = "31.73443000", Longitude = "-7.00505000" },
-                        new() { Id = 11, Name = "El Ksiba", Latitude = "32.57286000", Longitude = "-6.01947000" },
-                        new() { Id = 12, Name = "Fquih Ben Salah Province", Latitude = "32.50108000", Longitude = "-6.68415000" },
-                        new() { Id = 13, Name = "Ifrane", Latitude = "31.70217000", Longitude = "-6.34940000" },
-                        new() { Id = 14, Name = "Isseksi", Latitude = "32.22981000", Longitude = "-6.27661000" },
-                        new() { Id = 15, Name = "Itzer", Latitude = "32.87830000", Longitude = "-5.05150000" },
-                        new() { Id = 16, Name = "Kasba Tadla", Latitude = "32.59770000", Longitude = "-6.26844000" },
-                        new() { Id = 17, Name = "Kerrouchen", Latitude = "32.79639000", Longitude = "-5.31880000" },
-                        new() { Id = 18, Name = "Khenifra", Latitude = "32.93333000", Longitude = "-5.66667000" },
-                        new() { Id = 19, Name = "Khouribga", Latitude = "32.88108000", Longitude = "-6.90630000" },
-                        new() { Id = 20, Name = "Khouribga Province", Latitude = "32.93333000", Longitude = "-6.60000000" },
-                        new() { Id = 21, Name = "Midelt", Latitude = "32.68520000", Longitude = "-4.74512000" },
-                        new() { Id = 22, Name = "Ouaoula", Latitude = "31.87000000", Longitude = "-6.75000000" },
-                        new() { Id = 23, Name = "Oued Zem", Latitude = "32.86270000", Longitude = "-6.57359000" },
-                        new() { Id = 24, Name = "Sidi Jaber", Latitude = "32.38952000", Longitude = "-6.42095000" },
-                        new() { Id = 25, Name = "Timoulilt", Latitude = "32.20368000", Longitude = "-6.46660000" },
-                        new() { Id = 26, Name = "Zawyat ech Cheïkh", Latitude = "32.64445000", Longitude = "-5.91826000" }
+                        new() { Id = 6, Name = "Boujniba", Latitude = "32.90046000", Longitude = "-6.77464000" },
+                        new() { Id = 7, Name = "Bzou", Latitude = "32.09171000", Longitude = "-7.04786000" },
+                        new() { Id = 8, Name = "Dar Ould Zidouh", Latitude = "32.31247000", Longitude = "-6.90494000" },
+                        new() { Id = 9, Name = "Demnate", Latitude = "31.73443000", Longitude = "-7.00505000" },
+                        new() { Id = 10, Name = "El Ksiba", Latitude = "32.57286000", Longitude = "-6.01947000" },
+                        new() { Id = 11, Name = "Fquih Ben Salah", Latitude = "32.50108000", Longitude = "-6.68415000" },
+                        new() { Id = 12, Name = "Ifrane", Latitude = "31.70217000", Longitude = "-6.34940000" },
+                        new() { Id = 13, Name = "Isseksi", Latitude = "32.22981000", Longitude = "-6.27661000" },
+                        new() { Id = 14, Name = "Itzer", Latitude = "32.87830000", Longitude = "-5.05150000" },
+                        new() { Id = 15, Name = "Kasba Tadla", Latitude = "32.59770000", Longitude = "-6.26844000" },
+                        new() { Id = 16, Name = "Kerrouchen", Latitude = "32.79639000", Longitude = "-5.31880000" },
+                        new() { Id = 17, Name = "Khenifra", Latitude = "32.93333000", Longitude = "-5.66667000" },
+                        new() { Id = 18, Name = "Khouribga", Latitude = "32.88108000", Longitude = "-6.90630000" },
+                        new() { Id = 19, Name = "Khouribga Province", Latitude = "32.93333000", Longitude = "-6.60000000" },
+                        new() { Id = 20, Name = "Midelt", Latitude = "32.68520000", Longitude = "-4.74512000" },
+                        new() { Id = 21, Name = "Ouaoula", Latitude = "31.87000000", Longitude = "-6.75000000" },
+                        new() { Id = 22, Name = "Oued Zem", Latitude = "32.86270000", Longitude = "-6.57359000" },
+                        new() { Id = 23, Name = "Sidi Jaber", Latitude = "32.38952000", Longitude = "-6.42095000" },
+                        new() { Id = 24, Name = "Timoulilt", Latitude = "32.20368000", Longitude = "-6.46660000" },
+                        new() { Id = 25, Name = "Zawyat ech Cheïkh", Latitude = "32.64445000", Longitude = "-5.91826000" }
                     }
                 },
 
@@ -740,9 +741,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 42,
                     Name = "Khouribga",
-                    StateCode = "KHO",
-                    Latitude = "32.88602300",
-                    Longitude = "-6.92086550",
+                    StateCode = "",
+                    Latitude = "32.88564820",
+                    Longitude = "-6.90879800",
                     Type = "province",
                     Cities = new()
                     {
@@ -753,9 +754,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 43,
                     Name = "L'Oriental",
-                    StateCode = "02",
-                    Latitude = "37.06968300",
-                    Longitude = "-94.51227700",
+                    StateCode = "",
+                    Latitude = "34.68089970",
+                    Longitude = "-1.94071960",
                     Type = "region",
                     Cities = new()
                     {
@@ -765,10 +766,10 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Berkane", Latitude = "34.61000000", Longitude = "-2.57000000" },
                         new() { Id = 5, Name = "Bouarfa", Latitude = "32.53379000", Longitude = "-1.96209000" },
                         new() { Id = 6, Name = "Debdou", Latitude = "33.98228000", Longitude = "-3.04263000" },
-                        new() { Id = 7, Name = "Driouch Province", Latitude = "34.97670000", Longitude = "-3.38842000" },
+                        new() { Id = 7, Name = "Driouch", Latitude = "34.97670000", Longitude = "-3.38842000" },
                         new() { Id = 8, Name = "El Aïoun", Latitude = "34.58319000", Longitude = "-2.50612000" },
                         new() { Id = 9, Name = "Figuig", Latitude = "32.83333000", Longitude = "-2.25000000" },
-                        new() { Id = 10, Name = "Guercif Province", Latitude = "34.25041000", Longitude = "-3.32542000" },
+                        new() { Id = 10, Name = "Guercif", Latitude = "34.25041000", Longitude = "-3.32542000" },
                         new() { Id = 11, Name = "Jerada", Latitude = "34.23662000", Longitude = "-2.04284000" },
                         new() { Id = 12, Name = "Madagh", Latitude = "35.01032000", Longitude = "-2.33701000" },
                         new() { Id = 13, Name = "Midar", Latitude = "34.94025000", Longitude = "-3.53311000" },
@@ -786,7 +787,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 44,
                     Name = "Laâyoune (EH)",
-                    StateCode = "LAA",
+                    StateCode = "",
                     Latitude = "27.15003840",
                     Longitude = "-13.19907580",
                     Type = "province",
@@ -799,7 +800,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 45,
                     Name = "Laâyoune-Sakia El Hamra (EH-partial)",
-                    StateCode = "11",
+                    StateCode = "",
                     Latitude = "27.86831940",
                     Longitude = "-11.98046130",
                     Type = "region",
@@ -819,9 +820,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 46,
                     Name = "Larache",
-                    StateCode = "LAR",
-                    Latitude = "35.17442710",
-                    Longitude = "-6.14739640",
+                    StateCode = "",
+                    Latitude = "35.19523270",
+                    Longitude = "-6.15291300",
                     Type = "province",
                     Cities = new()
                     {
@@ -832,9 +833,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 47,
                     Name = "M’diq-Fnideq",
-                    StateCode = "MDF",
-                    Latitude = "35.77330190",
-                    Longitude = "-5.51433000",
+                    StateCode = "",
+                    Latitude = "35.76148060",
+                    Longitude = "-5.39941600",
                     Type = "prefecture",
                     Cities = new()
                     {
@@ -845,9 +846,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 48,
                     Name = "Marrakech",
-                    StateCode = "MAR",
-                    Latitude = "31.63460230",
-                    Longitude = "-8.07789320",
+                    StateCode = "",
+                    Latitude = "31.62651210",
+                    Longitude = "-8.00301950",
                     Type = "prefecture",
                     Cities = new()
                     {
@@ -858,9 +859,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 49,
                     Name = "Marrakesh-Safi",
-                    StateCode = "07",
-                    Latitude = "31.73308330",
-                    Longitude = "-8.13385580",
+                    StateCode = "",
+                    Latitude = "31.62582570",
+                    Longitude = "-7.98916080",
                     Type = "region",
                     Cities = new()
                     {
@@ -871,7 +872,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 50,
                     Name = "Médiouna",
-                    StateCode = "MED",
+                    StateCode = "",
                     Latitude = "33.45409390",
                     Longitude = "-7.51660200",
                     Type = "province",
@@ -884,9 +885,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 51,
                     Name = "Meknès",
-                    StateCode = "MEK",
-                    Latitude = "33.88100000",
-                    Longitude = "-5.57303970",
+                    StateCode = "",
+                    Latitude = "33.89841310",
+                    Longitude = "-5.53215820",
                     Type = "prefecture",
                     Cities = new()
                     {
@@ -897,9 +898,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 52,
                     Name = "Midelt",
-                    StateCode = "MID",
-                    Latitude = "32.68550790",
-                    Longitude = "-4.75017090",
+                    StateCode = "",
+                    Latitude = "32.68034700",
+                    Longitude = "-4.73989700",
                     Type = "province",
                     Cities = new()
                     {
@@ -910,9 +911,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 53,
                     Name = "Mohammadia",
-                    StateCode = "MOH",
-                    Latitude = "33.68737490",
-                    Longitude = "-7.42391420",
+                    StateCode = "",
+                    Latitude = "33.69583830",
+                    Longitude = "-7.38932920",
                     Type = "prefecture",
                     Cities = new()
                     {
@@ -923,7 +924,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 54,
                     Name = "Moulay Yacoub",
-                    StateCode = "MOU",
+                    StateCode = "",
                     Latitude = "34.08744790",
                     Longitude = "-5.17840190",
                     Type = "province",
@@ -936,9 +937,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 55,
                     Name = "Nador",
-                    StateCode = "NAD",
-                    Latitude = "34.91719260",
-                    Longitude = "-2.85771050",
+                    StateCode = "",
+                    Latitude = "35.17399220",
+                    Longitude = "-2.92811980",
                     Type = "province",
                     Cities = new()
                     {
@@ -949,7 +950,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 56,
                     Name = "Nouaceur",
-                    StateCode = "NOU",
+                    StateCode = "",
                     Latitude = "33.36703930",
                     Longitude = "-7.57325370",
                     Type = "province",
@@ -962,9 +963,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 57,
                     Name = "Ouarzazate",
-                    StateCode = "OUA",
-                    Latitude = "30.93354360",
-                    Longitude = "-6.93701600",
+                    StateCode = "",
+                    Latitude = "30.92019300",
+                    Longitude = "-6.91092300",
                     Type = "province",
                     Cities = new()
                     {
@@ -975,7 +976,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 58,
                     Name = "Oued Ed-Dahab (EH)",
-                    StateCode = "OUD",
+                    StateCode = "",
                     Latitude = "22.73378920",
                     Longitude = "-14.28611160",
                     Type = "province",
@@ -991,9 +992,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 59,
                     Name = "Ouezzane",
-                    StateCode = "OUZ",
-                    Latitude = "34.80634500",
-                    Longitude = "-5.59145050",
+                    StateCode = "",
+                    Latitude = "34.80715020",
+                    Longitude = "-5.57609340",
                     Type = "province",
                     Cities = new()
                     {
@@ -1004,9 +1005,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 60,
                     Name = "Oujda-Angad",
-                    StateCode = "OUJ",
-                    Latitude = "34.68375040",
-                    Longitude = "-2.29932390",
+                    StateCode = "",
+                    Latitude = "34.66746800",
+                    Longitude = "-2.03658370",
                     Type = "prefecture",
                     Cities = new()
                     {
@@ -1017,9 +1018,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 61,
                     Name = "Rabat",
-                    StateCode = "RAB",
-                    Latitude = "33.96919900",
-                    Longitude = "-6.92730290",
+                    StateCode = "",
+                    Latitude = "34.02184540",
+                    Longitude = "-6.84089290",
                     Type = "prefecture",
                     Cities = new()
                     {
@@ -1030,9 +1031,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 62,
                     Name = "Rabat-Salé-Kénitra",
-                    StateCode = "04",
-                    Latitude = "34.07686400",
-                    Longitude = "-7.34544760",
+                    StateCode = "",
+                    Latitude = "33.92043320",
+                    Longitude = "-6.36760930",
                     Type = "region",
                     Cities = new()
                     {
@@ -1043,9 +1044,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 63,
                     Name = "Rehamna",
-                    StateCode = "REH",
-                    Latitude = "32.20329050",
-                    Longitude = "-8.56896710",
+                    StateCode = "",
+                    Latitude = "32.46374360",
+                    Longitude = "-7.90878220",
                     Type = "province",
                     Cities = new()
                     {
@@ -1056,9 +1057,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 64,
                     Name = "Safi",
-                    StateCode = "SAF",
-                    Latitude = "32.29898720",
-                    Longitude = "-9.10134980",
+                    StateCode = "",
+                    Latitude = "32.26507760",
+                    Longitude = "-9.23055400",
                     Type = "province",
                     Cities = new()
                     {
@@ -1090,9 +1091,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 65,
                     Name = "Salé",
-                    StateCode = "SAL",
-                    Latitude = "34.03775700",
-                    Longitude = "-6.84270730",
+                    StateCode = "",
+                    Latitude = "34.04488900",
+                    Longitude = "-6.81401700",
                     Type = "prefecture",
                     Cities = new()
                     {
@@ -1103,7 +1104,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 66,
                     Name = "Sefrou",
-                    StateCode = "SEF",
+                    StateCode = "",
                     Latitude = "33.83052440",
                     Longitude = "-4.83531540",
                     Type = "province",
@@ -1116,9 +1117,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 67,
                     Name = "Settat",
-                    StateCode = "SET",
-                    Latitude = "32.99242420",
-                    Longitude = "-7.62226650",
+                    StateCode = "",
+                    Latitude = "33.00239700",
+                    Longitude = "-7.61986700",
                     Type = "province",
                     Cities = new()
                     {
@@ -1129,9 +1130,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 68,
                     Name = "Sidi Bennour",
-                    StateCode = "SIB",
-                    Latitude = "32.64926020",
-                    Longitude = "-8.44714530",
+                    StateCode = "",
+                    Latitude = "32.65077920",
+                    Longitude = "-8.42420870",
                     Type = "province",
                     Cities = new()
                     {
@@ -1142,9 +1143,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 69,
                     Name = "Sidi Ifni",
-                    StateCode = "SIF",
-                    Latitude = "29.36657970",
-                    Longitude = "-10.21084850",
+                    StateCode = "",
+                    Latitude = "29.37912530",
+                    Longitude = "-10.17156320",
                     Type = "province",
                     Cities = new()
                     {
@@ -1155,7 +1156,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 70,
                     Name = "Sidi Kacem",
-                    StateCode = "SIK",
+                    StateCode = "",
                     Latitude = "34.22601720",
                     Longitude = "-5.71291640",
                     Type = "province",
@@ -1168,9 +1169,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 71,
                     Name = "Sidi Slimane",
-                    StateCode = "SIL",
-                    Latitude = "34.27378280",
-                    Longitude = "-5.98059720",
+                    StateCode = "",
+                    Latitude = "34.25987800",
+                    Longitude = "-5.92725300",
                     Type = "province",
                     Cities = new()
                     {
@@ -1181,9 +1182,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 72,
                     Name = "Skhirate-Témara",
-                    StateCode = "SKH",
-                    Latitude = "33.76224250",
-                    Longitude = "-7.04190520",
+                    StateCode = "",
+                    Latitude = "33.75633750",
+                    Longitude = "-6.87994280",
                     Type = "prefecture",
                     Cities = new()
                     {
@@ -1194,9 +1195,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 73,
                     Name = "Souss-Massa",
-                    StateCode = "09",
-                    Latitude = "30.27506110",
-                    Longitude = "-8.13385580",
+                    StateCode = "",
+                    Latitude = "30.18772200",
+                    Longitude = "-8.63224980",
                     Type = "region",
                     Cities = new()
                     {
@@ -1207,7 +1208,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 74,
                     Name = "Tan-Tan (EH-partial)",
-                    StateCode = "TNT",
+                    StateCode = "",
                     Latitude = "28.03012000",
                     Longitude = "-11.16173560",
                     Type = "province",
@@ -1220,9 +1221,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 75,
                     Name = "Tanger-Assilah",
-                    StateCode = "TNG",
-                    Latitude = "35.76325390",
-                    Longitude = "-5.90450980",
+                    StateCode = "",
+                    Latitude = "35.76256810",
+                    Longitude = "-5.82950620",
                     Type = "prefecture",
                     Cities = new()
                     {
@@ -1233,9 +1234,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 76,
                     Name = "Tanger-Tétouan-Al Hoceïma",
-                    StateCode = "01",
-                    Latitude = "35.26295580",
-                    Longitude = "-5.56172790",
+                    StateCode = "",
+                    Latitude = "35.20294100",
+                    Longitude = "-5.55101670",
                     Type = "region",
                     Cities = new()
                     {
@@ -1245,7 +1246,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Bni Bouayach", Latitude = "35.10506000", Longitude = "-3.84028000" },
                         new() { Id = 5, Name = "Brikcha", Latitude = "34.96732000", Longitude = "-5.57295000" },
                         new() { Id = 6, Name = "Cap Negro II", Latitude = "35.65970000", Longitude = "-5.28525000" },
-                        new() { Id = 7, Name = "Chefchaouen Province", Latitude = "35.00000000", Longitude = "-5.08333000" },
+                        new() { Id = 7, Name = "Chefchaouen", Latitude = "35.00000000", Longitude = "-5.08333000" },
                         new() { Id = 8, Name = "Chefchaouene", Latitude = "35.16878000", Longitude = "-5.26360000" },
                         new() { Id = 9, Name = "Derdara", Latitude = "35.11041000", Longitude = "-5.29015000" },
                         new() { Id = 10, Name = "Fahs-Anjra", Latitude = "35.74000000", Longitude = "-5.68000000" },
@@ -1274,7 +1275,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 77,
                     Name = "Taounate",
-                    StateCode = "TAO",
+                    StateCode = "",
                     Latitude = "34.53691700",
                     Longitude = "-4.63986930",
                     Type = "province",
@@ -1287,9 +1288,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 78,
                     Name = "Taourirt",
-                    StateCode = "TAI",
-                    Latitude = "34.21259800",
-                    Longitude = "-2.69838680",
+                    StateCode = "",
+                    Latitude = "34.41343800",
+                    Longitude = "-2.89382500",
                     Type = "province",
                     Cities = new()
                     {
@@ -1300,7 +1301,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 79,
                     Name = "Tarfaya (EH-partial)",
-                    StateCode = "TAF",
+                    StateCode = "",
                     Latitude = "27.93777010",
                     Longitude = "-12.92940630",
                     Type = "province",
@@ -1313,7 +1314,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 80,
                     Name = "Taroudannt",
-                    StateCode = "TAR",
+                    StateCode = "",
                     Latitude = "30.47271260",
                     Longitude = "-8.87487650",
                     Type = "province",
@@ -1326,7 +1327,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 81,
                     Name = "Tata",
-                    StateCode = "TAT",
+                    StateCode = "",
                     Latitude = "29.75087700",
                     Longitude = "-7.97563430",
                     Type = "province",
@@ -1339,9 +1340,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 82,
                     Name = "Taza",
-                    StateCode = "TAZ",
-                    Latitude = "34.27889530",
-                    Longitude = "-3.58126920",
+                    StateCode = "",
+                    Latitude = "34.23015500",
+                    Longitude = "-4.01010400",
                     Type = "province",
                     Cities = new()
                     {
@@ -1352,9 +1353,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 83,
                     Name = "Tétouan",
-                    StateCode = "TET",
-                    Latitude = "35.58889950",
-                    Longitude = "-5.36255160",
+                    StateCode = "",
+                    Latitude = "35.57017500",
+                    Longitude = "-5.37427760",
                     Type = "province",
                     Cities = new()
                     {
@@ -1365,9 +1366,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 84,
                     Name = "Tinghir",
-                    StateCode = "TIN",
-                    Latitude = "31.48507940",
-                    Longitude = "-6.20192980",
+                    StateCode = "",
+                    Latitude = "31.31731240",
+                    Longitude = "-5.74942320",
                     Type = "province",
                     Cities = new()
                     {
@@ -1378,7 +1379,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 85,
                     Name = "Tiznit",
-                    StateCode = "TIZ",
+                    StateCode = "",
                     Latitude = "29.69339200",
                     Longitude = "-9.73215700",
                     Type = "province",
@@ -1391,9 +1392,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 86,
                     Name = "Youssoufia",
-                    StateCode = "YUS",
-                    Latitude = "32.02006790",
-                    Longitude = "-8.86926480",
+                    StateCode = "",
+                    Latitude = "32.24580100",
+                    Longitude = "-8.53243900",
                     Type = "province",
                     Cities = new()
                     {
@@ -1404,9 +1405,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 87,
                     Name = "Zagora",
-                    StateCode = "ZAG",
-                    Latitude = "30.57860930",
-                    Longitude = "-5.89871390",
+                    StateCode = "",
+                    Latitude = "30.32790530",
+                    Longitude = "-5.83699570",
                     Type = "province",
                     Cities = new()
                     {

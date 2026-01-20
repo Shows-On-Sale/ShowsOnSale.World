@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Tuvalu",
                 ["ko"] = "투발루",
                 ["pt-BR"] = "Tuvalu",
                 ["pt"] = "Tuvalu",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Tuvalu",
                 ["ru"] = "Тувалу",
                 ["uk"] = "Тувалу",
-                ["pl"] = "Tuvalu"
+                ["pl"] = "Tuvalu",
+                ["hi"] = "तुवालू",
+                ["ar"] = "توفالو"
             },
             States = new()
             {
@@ -62,7 +65,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Funafuti",
-                    StateCode = "FUN",
+                    StateCode = "",
                     Latitude = "-8.52114710",
                     Longitude = "179.19619260",
                     Type = "town council",
@@ -78,7 +81,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Nanumanga",
-                    StateCode = "NMG",
+                    StateCode = "",
                     Latitude = "-6.28580190",
                     Longitude = "176.31992800",
                     Type = "island council",
@@ -92,9 +95,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Nanumea",
-                    StateCode = "NMA",
-                    Latitude = "-5.68816170",
-                    Longitude = "176.13701480",
+                    StateCode = "",
+                    Latitude = "-5.68173380",
+                    Longitude = "176.12717870",
                     Type = "island council",
                     Cities = new()
                     {
@@ -105,7 +108,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Niutao Island Council",
-                    StateCode = "NIT",
+                    StateCode = "",
                     Latitude = "-6.10642580",
                     Longitude = "177.34384290",
                     Type = "island council",
@@ -120,9 +123,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Nui",
-                    StateCode = "NUI",
-                    Latitude = "-7.23887680",
-                    Longitude = "177.14852320",
+                    StateCode = "",
+                    Latitude = "-7.22075990",
+                    Longitude = "177.14611220",
                     Type = "island council",
                     Cities = new()
                     {
@@ -134,9 +137,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Nukufetau",
-                    StateCode = "NKF",
-                    Latitude = "-8.00000000",
-                    Longitude = "178.50000000",
+                    StateCode = "",
+                    Latitude = "-8.11592640",
+                    Longitude = "178.47981650",
                     Type = "island council",
                     Cities = new()
                     {
@@ -148,9 +151,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Nukulaelae",
-                    StateCode = "NKL",
-                    Latitude = "-9.38111100",
-                    Longitude = "179.85222200",
+                    StateCode = "",
+                    Latitude = "-9.17541730",
+                    Longitude = "179.63677920",
                     Type = "island council",
                     Cities = new()
                     {
@@ -161,7 +164,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Vaitupu",
-                    StateCode = "VAI",
+                    StateCode = "",
                     Latitude = "-7.47673270",
                     Longitude = "178.67476750",
                     Type = "island council",

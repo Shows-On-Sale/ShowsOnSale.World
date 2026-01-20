@@ -53,7 +53,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Monako",
                 ["ru"] = "Монако",
                 ["uk"] = "Монако",
-                ["pl"] = "Monako"
+                ["pl"] = "Monabr",
+                ["hi"] = "मोनाको",
+                ["ar"] = "موناكو"
             },
             States = new()
             {
@@ -61,39 +63,238 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 1,
-                    Name = "La Colle",
-                    StateCode = "CL",
-                    Latitude = "43.73274650",
-                    Longitude = "7.41372760",
+                    Name = "Fontvieille",
+                    StateCode = "",
+                    Latitude = "43.72944444",
+                    Longitude = "7.41500000",
                     Type = "quarter",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Fontvieille", Latitude = "43.72944444", Longitude = "7.41500000" }
                     }
                 },
 
                 new()
                 {
                     Id = 2,
-                    Name = "La Condamine",
-                    StateCode = "CO",
-                    Latitude = "43.73506650",
-                    Longitude = "7.41990600",
+                    Name = "Jardin Exotique",
+                    StateCode = "",
+                    Latitude = "43.73138889",
+                    Longitude = "7.41388889",
                     Type = "quarter",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Jardin Exotique", Latitude = "43.73138889", Longitude = "7.41388889" }
                     }
                 },
 
                 new()
                 {
                     Id = 3,
+                    Name = "La Colle",
+                    StateCode = "",
+                    Latitude = "43.73274650",
+                    Longitude = "7.41372760",
+                    Type = "quarter",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "La Colle", Latitude = "43.73274650", Longitude = "7.41372760" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 4,
+                    Name = "La Condamine",
+                    StateCode = "",
+                    Latitude = "43.73506650",
+                    Longitude = "7.41990600",
+                    Type = "quarter",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "La Condamine", Latitude = "43.73506650", Longitude = "7.41990600" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 5,
+                    Name = "La Gare",
+                    StateCode = "",
+                    Latitude = "43.73190000",
+                    Longitude = "7.41680000",
+                    Type = "quarter",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "La Gare", Latitude = "43.73190000", Longitude = "7.41680000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 6,
+                    Name = "La Source",
+                    StateCode = "",
+                    Latitude = "43.73650000",
+                    Longitude = "7.41950000",
+                    Type = "quarter",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "La Source", Latitude = "43.73650000", Longitude = "7.41950000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 7,
+                    Name = "Larvotto",
+                    StateCode = "",
+                    Latitude = "43.74666667",
+                    Longitude = "7.43333333",
+                    Type = "quarter",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Larvotto", Latitude = "43.74666667", Longitude = "7.43333333" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 8,
+                    Name = "Malbousquet",
+                    StateCode = "",
+                    Latitude = "43.73450000",
+                    Longitude = "7.42150000",
+                    Type = "quarter",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Malbousquet", Latitude = "43.73450000", Longitude = "7.42150000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 9,
+                    Name = "Monaco-Ville",
+                    StateCode = "",
+                    Latitude = "43.73110000",
+                    Longitude = "7.42000000",
+                    Type = "quarter",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Monaco-Ville", Latitude = "43.73110000", Longitude = "7.42000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 10,
                     Name = "Moneghetti",
-                    StateCode = "MG",
+                    StateCode = "",
                     Latitude = "43.73649270",
                     Longitude = "7.41533830",
                     Type = "quarter",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Moneghetti", Latitude = "43.73649270", Longitude = "7.41533830" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 11,
+                    Name = "Monte-Carlo",
+                    StateCode = "",
+                    Latitude = "43.73972222",
+                    Longitude = "7.42722222",
+                    Type = "quarter",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Monte-Carlo", Latitude = "43.73972222", Longitude = "7.42722222" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 12,
+                    Name = "Moulins",
+                    StateCode = "",
+                    Latitude = "43.73890000",
+                    Longitude = "7.41850000",
+                    Type = "quarter",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Moulins", Latitude = "43.73890000", Longitude = "7.41850000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 13,
+                    Name = "Port-Hercule",
+                    StateCode = "",
+                    Latitude = "43.73470000",
+                    Longitude = "7.42530000",
+                    Type = "quarter",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Port-Hercule", Latitude = "43.73470000", Longitude = "7.42530000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 14,
+                    Name = "Saint-Roman",
+                    StateCode = "",
+                    Latitude = "43.74530000",
+                    Longitude = "7.43180000",
+                    Type = "quarter",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Saint-Roman", Latitude = "43.74530000", Longitude = "7.43180000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 15,
+                    Name = "Sainte-Dévote",
+                    StateCode = "",
+                    Latitude = "43.73720000",
+                    Longitude = "7.42080000",
+                    Type = "quarter",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Sainte-Dévote", Latitude = "43.73720000", Longitude = "7.42080000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 16,
+                    Name = "Spélugues",
+                    StateCode = "",
+                    Latitude = "43.73920000",
+                    Longitude = "7.42510000",
+                    Type = "quarter",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Spélugues", Latitude = "43.73920000", Longitude = "7.42510000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 17,
+                    Name = "Vallon de la Rousse",
+                    StateCode = "",
+                    Latitude = "43.74010000",
+                    Longitude = "7.41750000",
+                    Type = "quarter",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Vallon de la Rousse", Latitude = "43.74010000", Longitude = "7.41750000" }
                     }
                 }
             }

@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Soudan ar Su",
                 ["ko"] = "남수단",
                 ["pt-BR"] = "Sudão do Sul",
                 ["pt"] = "Sudão do Sul",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Güney Sudan",
                 ["ru"] = "Южный Судан",
                 ["uk"] = "Південний Судан",
-                ["pl"] = "Sudan Południowy"
+                ["pl"] = "Sudan Południowy",
+                ["hi"] = "दक्षिण सूडान",
+                ["ar"] = "جنوب السودان"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Central Equatoria",
-                    StateCode = "EC",
-                    Latitude = "4.61440630",
-                    Longitude = "31.26263660",
+                    StateCode = "",
+                    Latitude = "5.00000000",
+                    Longitude = "31.50000000",
                     Type = "state",
                     Cities = new()
                     {
@@ -75,9 +78,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Eastern Equatoria",
-                    StateCode = "EE",
-                    Latitude = "5.06929950",
-                    Longitude = "33.43835300",
+                    StateCode = "",
+                    Latitude = "5.28393200",
+                    Longitude = "33.59123290",
                     Type = "state",
                     Cities = new()
                     {
@@ -88,9 +91,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Jonglei State",
-                    StateCode = "JG",
-                    Latitude = "7.18196190",
-                    Longitude = "32.35609520",
+                    StateCode = "",
+                    Latitude = "8.00000000",
+                    Longitude = "32.00000000",
                     Type = "state",
                     Cities = new()
                     {
@@ -101,9 +104,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Lakes",
-                    StateCode = "LK",
-                    Latitude = "37.16282550",
-                    Longitude = "-95.69116230",
+                    StateCode = "",
+                    Latitude = "6.75267160",
+                    Longitude = "30.09484290",
                     Type = "state",
                     Cities = new()
                     {
@@ -115,9 +118,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Northern Bahr el Ghazal",
-                    StateCode = "BN",
-                    Latitude = "8.53604490",
-                    Longitude = "26.79678490",
+                    StateCode = "",
+                    Latitude = "9.00000000",
+                    Longitude = "27.00000000",
                     Type = "state",
                     Cities = new()
                     {
@@ -128,9 +131,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Unity",
-                    StateCode = "UY",
-                    Latitude = "37.78712760",
-                    Longitude = "-122.40340790",
+                    StateCode = "",
+                    Latitude = "8.45825250",
+                    Longitude = "29.95605470",
                     Type = "state",
                     Cities = new()
                     {
@@ -141,9 +144,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Upper Nile",
-                    StateCode = "NU",
-                    Latitude = "9.88942020",
-                    Longitude = "32.71813750",
+                    StateCode = "",
+                    Latitude = "9.00000000",
+                    Longitude = "33.00000000",
                     Type = "state",
                     Cities = new()
                     {
@@ -154,9 +157,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Warrap",
-                    StateCode = "WR",
-                    Latitude = "8.08862380",
-                    Longitude = "28.64106410",
+                    StateCode = "",
+                    Latitude = "7.91326880",
+                    Longitude = "28.95881410",
                     Type = "state",
                     Cities = new()
                     {
@@ -167,9 +170,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Western Bahr el Ghazal",
-                    StateCode = "BW",
-                    Latitude = "8.64523990",
-                    Longitude = "25.28375850",
+                    StateCode = "",
+                    Latitude = "8.54555550",
+                    Longitude = "25.22245040",
                     Type = "state",
                     Cities = new()
                     {
@@ -180,9 +183,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Western Equatoria",
-                    StateCode = "EW",
-                    Latitude = "5.34717990",
-                    Longitude = "28.29943500",
+                    StateCode = "",
+                    Latitude = "5.53812150",
+                    Longitude = "29.14951180",
                     Type = "state",
                     Cities = new()
                     {

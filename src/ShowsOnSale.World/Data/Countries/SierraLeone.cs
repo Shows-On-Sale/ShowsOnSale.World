@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Sierra Leone",
                 ["ko"] = "시에라리온",
                 ["pt-BR"] = "Serra Leoa",
                 ["pt"] = "Serra Leoa",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Sierra Leone",
                 ["ru"] = "Сьерра-Леоне",
                 ["uk"] = "Сьєрра-Леоне",
-                ["pl"] = "Sierra Leone"
+                ["pl"] = "Sierra Leone",
+                ["hi"] = "सेरा लिओन",
+                ["ar"] = "سيراليون"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Eastern",
-                    StateCode = "E",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "8.20509710",
+                    Longitude = "-10.84373830",
                     Type = "province",
                     Cities = new()
                     {
@@ -84,7 +87,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 14, Name = "Kenema", Latitude = "7.87687000", Longitude = "-11.19025000" },
                         new() { Id = 15, Name = "Kenema District", Latitude = "7.95171000", Longitude = "-11.19004000" },
                         new() { Id = 16, Name = "Koidu", Latitude = "8.64387000", Longitude = "-10.97140000" },
-                        new() { Id = 17, Name = "Kono District", Latitude = "8.70687000", Longitude = "-10.93368000" },
+                        new() { Id = 17, Name = "Kono", Latitude = "8.70687000", Longitude = "-10.93368000" },
                         new() { Id = 18, Name = "Koyima", Latitude = "8.70552000", Longitude = "-11.02241000" },
                         new() { Id = 19, Name = "Manowa", Latitude = "8.17392000", Longitude = "-10.74834000" },
                         new() { Id = 20, Name = "Mobai", Latitude = "7.99343000", Longitude = "-10.75355000" },
@@ -104,53 +107,67 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 2,
-                    Name = "Northern",
-                    StateCode = "N",
-                    Latitude = "",
-                    Longitude = "",
+                    Name = "North Western",
+                    StateCode = "",
+                    Latitude = "8.76666667",
+                    Longitude = "-12.78750000",
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Alikalia", Latitude = "9.15356000", Longitude = "-11.38712000" },
-                        new() { Id = 2, Name = "Bindi", Latitude = "9.91376000", Longitude = "-11.44669000" },
-                        new() { Id = 3, Name = "Binkolo", Latitude = "8.95225000", Longitude = "-11.98029000" },
-                        new() { Id = 4, Name = "Bombali District", Latitude = "9.28444000", Longitude = "-12.16449000" },
-                        new() { Id = 5, Name = "Bumbuna", Latitude = "9.04466000", Longitude = "-11.74576000" },
-                        new() { Id = 6, Name = "Gberia Fotombu", Latitude = "9.87852000", Longitude = "-11.16548000" },
-                        new() { Id = 7, Name = "Kabala", Latitude = "9.58893000", Longitude = "-11.55256000" },
-                        new() { Id = 8, Name = "Kamakwie", Latitude = "9.49689000", Longitude = "-12.24061000" },
-                        new() { Id = 9, Name = "Kambia", Latitude = "9.12504000", Longitude = "-12.91816000" },
-                        new() { Id = 10, Name = "Kassiri", Latitude = "8.93814000", Longitude = "-13.11541000" },
-                        new() { Id = 11, Name = "Koinadugu District", Latitude = "9.50991000", Longitude = "-11.34601000" },
-                        new() { Id = 12, Name = "Konakridee", Latitude = "8.69778000", Longitude = "-13.23917000" },
-                        new() { Id = 13, Name = "Kukuna", Latitude = "9.39841000", Longitude = "-12.66476000" },
-                        new() { Id = 14, Name = "Loma", Latitude = "9.75931000", Longitude = "-12.03383000" },
-                        new() { Id = 15, Name = "Lunsar", Latitude = "8.68439000", Longitude = "-12.53499000" },
-                        new() { Id = 16, Name = "Magburaka", Latitude = "8.72306000", Longitude = "-11.94880000" },
-                        new() { Id = 17, Name = "Makali", Latitude = "8.62964000", Longitude = "-11.66168000" },
-                        new() { Id = 18, Name = "Makeni", Latitude = "8.88605000", Longitude = "-12.04417000" },
-                        new() { Id = 19, Name = "Mambolo", Latitude = "8.91860000", Longitude = "-13.03674000" },
-                        new() { Id = 20, Name = "Mange", Latitude = "8.92262000", Longitude = "-12.85688000" },
-                        new() { Id = 21, Name = "Masaka", Latitude = "8.66492000", Longitude = "-11.80260000" },
-                        new() { Id = 22, Name = "Masingbi", Latitude = "8.78197000", Longitude = "-11.95171000" },
-                        new() { Id = 23, Name = "Masoyila", Latitude = "8.61119000", Longitude = "-13.19101000" },
-                        new() { Id = 24, Name = "Pepel", Latitude = "8.58611000", Longitude = "-13.05444000" },
-                        new() { Id = 25, Name = "Rokupr", Latitude = "8.67121000", Longitude = "-12.38497000" },
-                        new() { Id = 26, Name = "Sawkta", Latitude = "8.63230000", Longitude = "-13.20250000" },
-                        new() { Id = 27, Name = "Seidu", Latitude = "9.01801000", Longitude = "-10.59496000" },
-                        new() { Id = 28, Name = "Tintafor", Latitude = "8.62667000", Longitude = "-13.21500000" },
-                        new() { Id = 29, Name = "Tonkolili District", Latitude = "8.61885000", Longitude = "-11.84173000" },
-                        new() { Id = 30, Name = "Yonibana", Latitude = "8.44347000", Longitude = "-12.23929000" }
+                        new() { Id = 1, Name = "Kamakwie", Latitude = "9.49689000", Longitude = "-12.24061000" },
+                        new() { Id = 2, Name = "Kambia", Latitude = "9.12504000", Longitude = "-12.91816000" },
+                        new() { Id = 3, Name = "Lunsar", Latitude = "8.68439000", Longitude = "-12.53499000" },
+                        new() { Id = 4, Name = "Pepel", Latitude = "8.58611000", Longitude = "-13.05444000" },
+                        new() { Id = 5, Name = "Port Loko", Latitude = "8.76666667", Longitude = "-12.78750000" },
+                        new() { Id = 6, Name = "Rokupr", Latitude = "8.67121000", Longitude = "-12.38497000" }
                     }
                 },
 
                 new()
                 {
                     Id = 3,
+                    Name = "Northern",
+                    StateCode = "",
+                    Latitude = "9.11845400",
+                    Longitude = "-11.48564480",
+                    Type = "province",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Alikalia", Latitude = "9.15356000", Longitude = "-11.38712000" },
+                        new() { Id = 2, Name = "Bindi", Latitude = "9.91376000", Longitude = "-11.44669000" },
+                        new() { Id = 3, Name = "Binkolo", Latitude = "8.95225000", Longitude = "-11.98029000" },
+                        new() { Id = 4, Name = "Bombali", Latitude = "9.28444000", Longitude = "-12.16449000" },
+                        new() { Id = 5, Name = "Bumbuna", Latitude = "9.04466000", Longitude = "-11.74576000" },
+                        new() { Id = 6, Name = "Gberia Fotombu", Latitude = "9.87852000", Longitude = "-11.16548000" },
+                        new() { Id = 7, Name = "Kabala", Latitude = "9.58893000", Longitude = "-11.55256000" },
+                        new() { Id = 8, Name = "Kassiri", Latitude = "8.93814000", Longitude = "-13.11541000" },
+                        new() { Id = 9, Name = "Koinadugu", Latitude = "9.50991000", Longitude = "-11.34601000" },
+                        new() { Id = 10, Name = "Konakridee", Latitude = "8.69778000", Longitude = "-13.23917000" },
+                        new() { Id = 11, Name = "Kukuna", Latitude = "9.39841000", Longitude = "-12.66476000" },
+                        new() { Id = 12, Name = "Loma", Latitude = "9.75931000", Longitude = "-12.03383000" },
+                        new() { Id = 13, Name = "Magburaka", Latitude = "8.72306000", Longitude = "-11.94880000" },
+                        new() { Id = 14, Name = "Makali", Latitude = "8.62964000", Longitude = "-11.66168000" },
+                        new() { Id = 15, Name = "Makeni", Latitude = "8.88605000", Longitude = "-12.04417000" },
+                        new() { Id = 16, Name = "Mambolo", Latitude = "8.91860000", Longitude = "-13.03674000" },
+                        new() { Id = 17, Name = "Mange", Latitude = "8.92262000", Longitude = "-12.85688000" },
+                        new() { Id = 18, Name = "Masaka", Latitude = "8.66492000", Longitude = "-11.80260000" },
+                        new() { Id = 19, Name = "Masingbi", Latitude = "8.78197000", Longitude = "-11.95171000" },
+                        new() { Id = 20, Name = "Masoyila", Latitude = "8.61119000", Longitude = "-13.19101000" },
+                        new() { Id = 21, Name = "Sawkta", Latitude = "8.63230000", Longitude = "-13.20250000" },
+                        new() { Id = 22, Name = "Seidu", Latitude = "9.01801000", Longitude = "-10.59496000" },
+                        new() { Id = 23, Name = "Tintafor", Latitude = "8.62667000", Longitude = "-13.21500000" },
+                        new() { Id = 24, Name = "Tonkolili", Latitude = "8.61885000", Longitude = "-11.84173000" },
+                        new() { Id = 25, Name = "Yonibana", Latitude = "8.44347000", Longitude = "-12.23929000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 4,
                     Name = "Southern",
-                    StateCode = "S",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "7.70992220",
+                    Longitude = "-12.00041780",
                     Type = "province",
                     Cities = new()
                     {
@@ -185,11 +202,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 4,
+                    Id = 5,
                     Name = "Western",
-                    StateCode = "W",
-                    Latitude = "40.25459690",
-                    Longitude = "-80.24554440",
+                    StateCode = "",
+                    Latitude = "8.33460330",
+                    Longitude = "-13.06560160",
                     Type = "area",
                     Cities = new()
                     {

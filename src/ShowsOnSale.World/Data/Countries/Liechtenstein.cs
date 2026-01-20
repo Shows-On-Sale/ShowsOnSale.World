@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Liechtenstein",
                 ["ko"] = "리히텐슈타인",
                 ["pt-BR"] = "Liechtenstein",
                 ["pt"] = "Listenstaine",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Lihtenştayn",
                 ["ru"] = "Лихтенштейн",
                 ["uk"] = "Ліхтенштейн",
-                ["pl"] = "Liechtenstein"
+                ["pl"] = "Liechtenstein",
+                ["hi"] = "लिकटेंस्टाइन",
+                ["ar"] = "ليختنشتاين"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Balzers",
-                    StateCode = "01",
-                    Latitude = "42.05283570",
-                    Longitude = "-88.03668480",
+                    StateCode = "",
+                    Latitude = "47.06888220",
+                    Longitude = "9.50615900",
                     Type = "commune",
                     Cities = new()
                     {
@@ -76,9 +79,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Eschen",
-                    StateCode = "02",
-                    Latitude = "40.76695740",
-                    Longitude = "-73.95228210",
+                    StateCode = "",
+                    Latitude = "47.21262740",
+                    Longitude = "9.52332020",
                     Type = "commune",
                     Cities = new()
                     {
@@ -90,7 +93,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Gamprin",
-                    StateCode = "03",
+                    StateCode = "",
                     Latitude = "47.21324900",
                     Longitude = "9.50251950",
                     Type = "commune",
@@ -104,7 +107,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Mauren",
-                    StateCode = "04",
+                    StateCode = "",
                     Latitude = "47.21892850",
                     Longitude = "9.54173500",
                     Type = "commune",
@@ -118,9 +121,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Planken",
-                    StateCode = "05",
-                    Latitude = "40.66505760",
-                    Longitude = "-73.50479800",
+                    StateCode = "",
+                    Latitude = "47.18588480",
+                    Longitude = "9.54522110",
                     Type = "commune",
                     Cities = new()
                     {
@@ -132,9 +135,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Ruggell",
-                    StateCode = "06",
-                    Latitude = "47.25292220",
-                    Longitude = "9.54021270",
+                    StateCode = "",
+                    Latitude = "47.23975750",
+                    Longitude = "9.52628710",
                     Type = "commune",
                     Cities = new()
                     {
@@ -146,9 +149,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Schaan",
-                    StateCode = "07",
-                    Latitude = "47.12043400",
-                    Longitude = "9.59416020",
+                    StateCode = "",
+                    Latitude = "47.16633970",
+                    Longitude = "9.51031200",
                     Type = "commune",
                     Cities = new()
                     {
@@ -160,7 +163,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Schellenberg",
-                    StateCode = "08",
+                    StateCode = "",
                     Latitude = "47.23096600",
                     Longitude = "9.54678430",
                     Type = "commune",
@@ -174,7 +177,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Triesen",
-                    StateCode = "09",
+                    StateCode = "",
                     Latitude = "47.10979880",
                     Longitude = "9.52482960",
                     Type = "commune",
@@ -188,9 +191,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Triesenberg",
-                    StateCode = "10",
-                    Latitude = "47.12245110",
-                    Longitude = "9.57019850",
+                    StateCode = "",
+                    Latitude = "47.11861810",
+                    Longitude = "9.54336630",
                     Type = "commune",
                     Cities = new()
                     {
@@ -202,7 +205,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Vaduz",
-                    StateCode = "11",
+                    StateCode = "",
                     Latitude = "47.14103030",
                     Longitude = "9.52092770",
                     Type = "commune",

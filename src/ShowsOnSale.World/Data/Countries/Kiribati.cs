@@ -40,6 +40,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Kiribati",
                 ["ko"] = "키리바시",
                 ["pt-BR"] = "Kiribati",
                 ["pt"] = "Quiribáti",
@@ -55,7 +56,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Kiribati",
                 ["ru"] = "Кирибати",
                 ["uk"] = "Кірібаті",
-                ["pl"] = "Kiribati"
+                ["pl"] = "Kiribati",
+                ["hi"] = "किरिबाती",
+                ["ar"] = "كيريباتي"
             },
             States = new()
             {
@@ -64,9 +67,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Gilbert",
-                    StateCode = "G",
-                    Latitude = "0.35242620",
-                    Longitude = "174.75526340",
+                    StateCode = "",
+                    Latitude = "-1.23945560",
+                    Longitude = "175.29694550",
                     Type = "island",
                     Cities = new()
                     {
@@ -88,18 +91,17 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 16, Name = "Kuria", Latitude = "0.26522000", Longitude = "173.38881000" },
                         new() { Id = 17, Name = "Maiana", Latitude = "0.91869000", Longitude = "172.99759000" },
                         new() { Id = 18, Name = "Makin", Latitude = "3.38816000", Longitude = "172.99656000" },
-                        new() { Id = 19, Name = "Makin Village", Latitude = "3.36440000", Longitude = "172.98352000" },
-                        new() { Id = 20, Name = "Marakei", Latitude = "2.01077000", Longitude = "173.27637000" },
-                        new() { Id = 21, Name = "Nawerewere Village", Latitude = "1.36362000", Longitude = "173.13935000" },
-                        new() { Id = 22, Name = "Nikunau", Latitude = "-1.36567000", Longitude = "176.46412000" },
-                        new() { Id = 23, Name = "Nonouti", Latitude = "-0.66667000", Longitude = "174.35000000" },
-                        new() { Id = 24, Name = "Onotoa", Latitude = "-1.88587000", Longitude = "175.56393000" },
-                        new() { Id = 25, Name = "Rawannawi Village", Latitude = "2.05379000", Longitude = "173.26354000" },
-                        new() { Id = 26, Name = "Tabiteuea", Latitude = "-1.42241000", Longitude = "174.89805000" },
-                        new() { Id = 27, Name = "Tamana", Latitude = "-2.50113000", Longitude = "175.98621000" },
-                        new() { Id = 28, Name = "Tarawa", Latitude = "1.32780000", Longitude = "172.97696000" },
-                        new() { Id = 29, Name = "Teaoraereke Village", Latitude = "1.33309000", Longitude = "173.01162000" },
-                        new() { Id = 30, Name = "Temaiku Village", Latitude = "1.36292000", Longitude = "173.16226000" }
+                        new() { Id = 19, Name = "Marakei", Latitude = "2.01077000", Longitude = "173.27637000" },
+                        new() { Id = 20, Name = "Nawerewere Village", Latitude = "1.36362000", Longitude = "173.13935000" },
+                        new() { Id = 21, Name = "Nikunau", Latitude = "-1.36567000", Longitude = "176.46412000" },
+                        new() { Id = 22, Name = "Nonouti", Latitude = "-0.66667000", Longitude = "174.35000000" },
+                        new() { Id = 23, Name = "Onotoa", Latitude = "-1.88587000", Longitude = "175.56393000" },
+                        new() { Id = 24, Name = "Rawannawi Village", Latitude = "2.05379000", Longitude = "173.26354000" },
+                        new() { Id = 25, Name = "Tabiteuea", Latitude = "-1.42241000", Longitude = "174.89805000" },
+                        new() { Id = 26, Name = "Tamana", Latitude = "-2.50113000", Longitude = "175.98621000" },
+                        new() { Id = 27, Name = "Tarawa", Latitude = "1.32780000", Longitude = "172.97696000" },
+                        new() { Id = 28, Name = "Teaoraereke Village", Latitude = "1.33309000", Longitude = "173.01162000" },
+                        new() { Id = 29, Name = "Temaiku Village", Latitude = "1.36292000", Longitude = "173.16226000" }
                     }
                 },
 
@@ -107,9 +109,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Line",
-                    StateCode = "L",
-                    Latitude = "1.74294390",
-                    Longitude = "-157.21328260",
+                    StateCode = "",
+                    Latitude = "1.35897790",
+                    Longitude = "172.93112020",
                     Type = "island",
                     Cities = new()
                     {
@@ -127,9 +129,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Phoenix",
-                    StateCode = "P",
-                    Latitude = "33.32843690",
-                    Longitude = "-111.98247740",
+                    StateCode = "",
+                    Latitude = "-3.72134440",
+                    Longitude = "-170.71170520",
                     Type = "island",
                     Cities = new()
                     {

@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Moris",
                 ["ko"] = "모리셔스",
                 ["pt-BR"] = "Maurício",
                 ["pt"] = "Maurícia",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Morityus",
                 ["ru"] = "Маврикий",
                 ["uk"] = "Маврикій",
-                ["pl"] = "Mauritius"
+                ["pl"] = "Mauritius",
+                ["hi"] = "मॉरीशस",
+                ["ar"] = "موريشيوس"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Agalega Islands",
-                    StateCode = "AG",
-                    Latitude = "-10.40000000",
-                    Longitude = "56.61666670",
+                    StateCode = "",
+                    Latitude = "-10.38485780",
+                    Longitude = "56.61235250",
                     Type = "dependency",
                     Cities = new()
                     {
@@ -76,9 +79,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Black River",
-                    StateCode = "BL",
-                    Latitude = "-20.37084920",
-                    Longitude = "57.39486490",
+                    StateCode = "",
+                    Latitude = "-20.32647920",
+                    Longitude = "57.41557850",
                     Type = "district",
                     Cities = new()
                     {
@@ -104,9 +107,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Flacq",
-                    StateCode = "FL",
-                    Latitude = "-20.22578360",
-                    Longitude = "57.71192740",
+                    StateCode = "",
+                    Latitude = "-20.22173120",
+                    Longitude = "57.72232510",
                     Type = "district",
                     Cities = new()
                     {
@@ -142,9 +145,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Grand Port",
-                    StateCode = "GP",
-                    Latitude = "-20.38515460",
-                    Longitude = "57.66657420",
+                    StateCode = "",
+                    Latitude = "-20.38972840",
+                    Longitude = "57.61607620",
                     Type = "district",
                     Cities = new()
                     {
@@ -176,9 +179,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Moka",
-                    StateCode = "MO",
-                    Latitude = "-20.23997820",
-                    Longitude = "57.57592600",
+                    StateCode = "",
+                    Latitude = "-20.25213920",
+                    Longitude = "57.58722450",
                     Type = "district",
                     Cities = new()
                     {
@@ -206,7 +209,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Pamplemousses",
-                    StateCode = "PA",
+                    StateCode = "",
                     Latitude = "-20.11360080",
                     Longitude = "57.57592600",
                     Type = "district",
@@ -237,9 +240,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Plaines Wilhems",
-                    StateCode = "PW",
-                    Latitude = "-20.30548720",
-                    Longitude = "57.48535610",
+                    StateCode = "",
+                    Latitude = "-20.30538960",
+                    Longitude = "57.49596190",
                     Type = "district",
                     Cities = new()
                     {
@@ -270,7 +273,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Port Louis",
-                    StateCode = "PL",
+                    StateCode = "",
                     Latitude = "-20.16089120",
                     Longitude = "57.50122220",
                     Type = "district",
@@ -296,9 +299,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Rivière du Rempart",
-                    StateCode = "RR",
-                    Latitude = "-20.05609830",
-                    Longitude = "57.65523890",
+                    StateCode = "",
+                    Latitude = "-20.06699430",
+                    Longitude = "57.65063000",
                     Type = "district",
                     Cities = new()
                     {
@@ -327,9 +330,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Rodrigues Island",
-                    StateCode = "RO",
-                    Latitude = "-19.72453850",
-                    Longitude = "63.42721850",
+                    StateCode = "",
+                    Latitude = "-19.71951490",
+                    Longitude = "63.41759380",
                     Type = "dependency",
                     Cities = new()
                     {
@@ -342,7 +345,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Saint Brandon Islands",
-                    StateCode = "CC",
+                    StateCode = "",
                     Latitude = "-16.58333300",
                     Longitude = "59.61666700",
                     Type = "dependency",
@@ -356,9 +359,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Savanne",
-                    StateCode = "SA",
-                    Latitude = "-20.47395300",
-                    Longitude = "57.48535610",
+                    StateCode = "",
+                    Latitude = "-20.45838600",
+                    Longitude = "57.48932970",
                     Type = "district",
                     Cities = new()
                     {

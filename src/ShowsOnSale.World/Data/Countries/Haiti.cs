@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 95,
+            Id = 94,
             Name = "Haiti",
             Iso3 = "HTI",
             Iso2 = "HT",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Haiti",
                 ["ko"] = "아이티",
                 ["pt-BR"] = "Haiti",
                 ["pt"] = "Haiti",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Haiti",
                 ["ru"] = "Гаити",
                 ["uk"] = "Гаїті",
-                ["pl"] = "Haiti"
+                ["pl"] = "Haiti",
+                ["hi"] = "हैती",
+                ["ar"] = "هايتي"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Artibonite",
-                    StateCode = "AR",
-                    Latitude = "19.36290200",
-                    Longitude = "-72.42581450",
+                    StateCode = "",
+                    Latitude = "19.33662250",
+                    Longitude = "-72.49243460",
                     Type = "department",
                     Cities = new()
                     {
@@ -86,9 +89,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Centre",
-                    StateCode = "CE",
-                    Latitude = "32.83702510",
-                    Longitude = "-96.77738820",
+                    StateCode = "",
+                    Latitude = "18.99082350",
+                    Longitude = "-71.99439850",
                     Type = "department",
                     Cities = new()
                     {
@@ -107,9 +110,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Grand'Anse",
-                    StateCode = "GA",
-                    Latitude = "12.01666670",
-                    Longitude = "-61.76666670",
+                    StateCode = "",
+                    Latitude = "18.53041440",
+                    Longitude = "-74.15114630",
                     Type = "department",
                     Cities = new()
                     {
@@ -130,9 +133,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Nippes",
-                    StateCode = "NI",
-                    Latitude = "18.39907350",
-                    Longitude = "-73.41802110",
+                    StateCode = "",
+                    Latitude = "18.44204260",
+                    Longitude = "-73.39137820",
                     Type = "department",
                     Cities = new()
                     {
@@ -147,9 +150,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Nord",
-                    StateCode = "ND",
-                    Latitude = "43.19052600",
-                    Longitude = "-89.43792100",
+                    StateCode = "",
+                    Latitude = "19.62582450",
+                    Longitude = "-72.26992860",
                     Type = "department",
                     Cities = new()
                     {
@@ -180,9 +183,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Nord-Est",
-                    StateCode = "NE",
-                    Latitude = "19.48897230",
-                    Longitude = "-71.85713310",
+                    StateCode = "",
+                    Latitude = "19.51784680",
+                    Longitude = "-71.87282250",
                     Type = "department",
                     Cities = new()
                     {
@@ -206,9 +209,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Nord-Ouest",
-                    StateCode = "NO",
-                    Latitude = "19.83740090",
-                    Longitude = "-73.04052770",
+                    StateCode = "",
+                    Latitude = "19.84694340",
+                    Longitude = "-73.05899660",
                     Type = "department",
                     Cities = new()
                     {
@@ -232,9 +235,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Ouest",
-                    StateCode = "OU",
-                    Latitude = "45.45472490",
-                    Longitude = "-73.65023650",
+                    StateCode = "",
+                    Latitude = "18.76686870",
+                    Longitude = "-72.43873150",
                     Type = "department",
                     Cities = new()
                     {
@@ -266,9 +269,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Sud",
-                    StateCode = "SD",
-                    Latitude = "29.92132480",
-                    Longitude = "-90.09737720",
+                    StateCode = "",
+                    Latitude = "18.26128390",
+                    Longitude = "-73.84449850",
                     Type = "department",
                     Cities = new()
                     {
@@ -294,9 +297,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Sud-Est",
-                    StateCode = "SE",
-                    Latitude = "18.27835980",
-                    Longitude = "-72.35479150",
+                    StateCode = "",
+                    Latitude = "18.29735660",
+                    Longitude = "-72.37456980",
                     Type = "department",
                     Cities = new()
                     {

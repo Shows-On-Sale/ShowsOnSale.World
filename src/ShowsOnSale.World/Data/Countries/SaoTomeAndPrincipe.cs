@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "São Tomé ha Príncipe",
                 ["ko"] = "상투메 프린시페",
                 ["pt-BR"] = "São Tomé e Príncipe",
                 ["pt"] = "São Tomé e Príncipe",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Sao Tome Ve Prinsipe",
                 ["ru"] = "Сан-Томе и Принсипи",
                 ["uk"] = "Сан-Томе і Принсіпі",
-                ["pl"] = "Wyspy Świętego Tomasza i Książęca"
+                ["pl"] = "Wyspy Świętego Tomasza i Książęca",
+                ["hi"] = "साओ टोम और प्रिंसिप",
+                ["ar"] = "ساو تومي وبرينسيبي"
             },
             States = new()
             {
@@ -61,31 +64,98 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 1,
-                    Name = "Príncipe",
-                    StateCode = "P",
-                    Latitude = "1.61393810",
-                    Longitude = "7.40569280",
-                    Type = "province",
+                    Name = "Água Grande",
+                    StateCode = "",
+                    Latitude = "0.33019240",
+                    Longitude = "6.73334300",
+                    Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Santo António", Latitude = "1.63943000", Longitude = "7.41951000" }
+                        new() { Id = 1, Name = "São Tomé", Latitude = "0.33654000", Longitude = "6.72732000" }
                     }
                 },
 
                 new()
                 {
                     Id = 2,
-                    Name = "São Tomé",
-                    StateCode = "S",
-                    Latitude = "0.33019240",
-                    Longitude = "6.73334300",
-                    Type = "province",
+                    Name = "Cantagalo",
+                    StateCode = "",
+                    Latitude = "0.21667000",
+                    Longitude = "6.70000000",
+                    Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Cantagalo District", Latitude = "0.21667000", Longitude = "6.70000000" },
-                        new() { Id = 2, Name = "Caué District", Latitude = "0.13415000", Longitude = "6.63825000" },
-                        new() { Id = 3, Name = "São Tomé", Latitude = "0.33654000", Longitude = "6.72732000" },
-                        new() { Id = 4, Name = "Trindade", Latitude = "0.29667000", Longitude = "6.68139000" }
+                        new() { Id = 1, Name = "Santana", Latitude = "0.25389000", Longitude = "6.73444000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 3,
+                    Name = "Caué",
+                    StateCode = "",
+                    Latitude = "0.13415000",
+                    Longitude = "6.63825000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "São João dos Angolares", Latitude = "0.13720000", Longitude = "6.64972000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 4,
+                    Name = "Lemba",
+                    StateCode = "",
+                    Latitude = "0.22000000",
+                    Longitude = "6.58000000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Neves", Latitude = "0.36667000", Longitude = "6.55000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 5,
+                    Name = "Lobata",
+                    StateCode = "",
+                    Latitude = "0.41000000",
+                    Longitude = "6.61000000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Guadalupe", Latitude = "0.38333000", Longitude = "6.61667000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 6,
+                    Name = "Mé-Zóchi",
+                    StateCode = "",
+                    Latitude = "0.30000000",
+                    Longitude = "6.60000000",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Trindade", Latitude = "0.29667000", Longitude = "6.68139000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 7,
+                    Name = "Príncipe",
+                    StateCode = "",
+                    Latitude = "1.61393810",
+                    Longitude = "7.40569280",
+                    Type = "autonomous region",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Santo António", Latitude = "1.63943000", Longitude = "7.41951000" }
                     }
                 }
             }

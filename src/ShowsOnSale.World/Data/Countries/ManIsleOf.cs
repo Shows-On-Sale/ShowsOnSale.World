@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Manav",
                 ["ko"] = "맨 섬",
                 ["pt-BR"] = "Ilha de Man",
                 ["pt"] = "Ilha de Man",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Man Adasi",
                 ["ru"] = "Мэн (остров)",
                 ["uk"] = "Мен (острів Мен)",
-                ["pl"] = "Man (Wyspa)"
+                ["pl"] = "Man (Wyspa)",
+                ["hi"] = "आदमी (आइल)",
+                ["ar"] = "رجل (جزيرة)"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Ayre",
-                    StateCode = "01",
-                    Latitude = "54.32975770",
-                    Longitude = "-4.60258790",
+                    StateCode = "",
+                    Latitude = "54.23592070",
+                    Longitude = "-4.51476690",
                     Type = "sheadings",
                     Cities = new()
                     {
@@ -78,9 +81,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Garff",
-                    StateCode = "02",
-                    Latitude = "54.25687200",
-                    Longitude = "-4.55473070",
+                    StateCode = "",
+                    Latitude = "54.23592070",
+                    Longitude = "-4.51476690",
                     Type = "sheadings",
                     Cities = new()
                     {
@@ -94,9 +97,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Glenfaba",
-                    StateCode = "03",
-                    Latitude = "54.19855340",
-                    Longitude = "-4.81314070",
+                    StateCode = "",
+                    Latitude = "54.23592070",
+                    Longitude = "-4.51476690",
                     Type = "sheadings",
                     Cities = new()
                     {
@@ -108,9 +111,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Michael",
-                    StateCode = "04",
-                    Latitude = "54.27427780",
-                    Longitude = "-4.64273250",
+                    StateCode = "",
+                    Latitude = "54.23592070",
+                    Longitude = "-4.51476690",
                     Type = "sheadings",
                     Cities = new()
                     {
@@ -124,9 +127,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Middle",
-                    StateCode = "05",
-                    Latitude = "54.17770520",
-                    Longitude = "-4.81064360",
+                    StateCode = "",
+                    Latitude = "54.23592070",
+                    Longitude = "-4.51476690",
                     Type = "sheadings",
                     Cities = new()
                     {
@@ -140,9 +143,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Rushen",
-                    StateCode = "06",
-                    Latitude = "54.09574060",
-                    Longitude = "-4.82835170",
+                    StateCode = "",
+                    Latitude = "54.23592070",
+                    Longitude = "-4.51476690",
                     Type = "sheadings",
                     Cities = new()
                     {

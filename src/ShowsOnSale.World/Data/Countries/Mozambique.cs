@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Mozambik",
                 ["ko"] = "모잠비크",
                 ["pt-BR"] = "Moçambique",
                 ["pt"] = "Moçambique",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Mozambik",
                 ["ru"] = "Мозамбик",
                 ["uk"] = "Мозамбік",
-                ["pl"] = "Mozambik"
+                ["pl"] = "Mozambik",
+                ["hi"] = "मोज़ाम्बिक",
+                ["ar"] = "موزمبيق"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Cabo Delgado",
-                    StateCode = "P",
-                    Latitude = "-12.33354740",
-                    Longitude = "39.32062410",
+                    StateCode = "",
+                    Latitude = "-12.42549420",
+                    Longitude = "39.41687430",
                     Type = "province",
                     Cities = new()
                     {
@@ -79,9 +82,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Gaza",
-                    StateCode = "G",
-                    Latitude = "-23.02219280",
-                    Longitude = "32.71813750",
+                    StateCode = "",
+                    Latitude = "-23.32839800",
+                    Longitude = "32.80660570",
                     Type = "province",
                     Cities = new()
                     {
@@ -96,9 +99,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Inhambane",
-                    StateCode = "I",
-                    Latitude = "-22.85279970",
-                    Longitude = "34.55087580",
+                    StateCode = "",
+                    Latitude = "-22.77911600",
+                    Longitude = "34.56617410",
                     Type = "province",
                     Cities = new()
                     {
@@ -111,9 +114,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Manica",
-                    StateCode = "B",
-                    Latitude = "-19.50597870",
-                    Longitude = "33.43835300",
+                    StateCode = "",
+                    Latitude = "-19.04009950",
+                    Longitude = "33.43181370",
                     Type = "province",
                     Cities = new()
                     {
@@ -125,21 +128,21 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Maputo",
-                    StateCode = "L",
-                    Latitude = "-25.25698760",
-                    Longitude = "32.53727410",
+                    StateCode = "",
+                    Latitude = "-25.54451670",
+                    Longitude = "32.45787530",
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Boane District", Latitude = "-26.02900000", Longitude = "32.38900000" },
+                        new() { Id = 1, Name = "Boane", Latitude = "-26.02900000", Longitude = "32.38900000" },
                         new() { Id = 2, Name = "Concelho de Matola", Latitude = "-25.83472000", Longitude = "32.49516000" },
-                        new() { Id = 3, Name = "Magude District", Latitude = "-25.02389000", Longitude = "32.65150000" },
+                        new() { Id = 3, Name = "Magude", Latitude = "-25.02389000", Longitude = "32.65150000" },
                         new() { Id = 4, Name = "Manhica", Latitude = "-25.34035000", Longitude = "32.84234000" },
-                        new() { Id = 5, Name = "Marracuene District", Latitude = "-25.73938000", Longitude = "32.67436000" },
+                        new() { Id = 5, Name = "Marracuene", Latitude = "-25.73938000", Longitude = "32.67436000" },
                         new() { Id = 6, Name = "Matola", Latitude = "-25.96222000", Longitude = "32.45889000" },
-                        new() { Id = 7, Name = "Matutiune District", Latitude = "-26.43418000", Longitude = "32.58820000" },
-                        new() { Id = 8, Name = "Moamba District", Latitude = "-25.60934000", Longitude = "32.24321000" },
-                        new() { Id = 9, Name = "Namaacha District", Latitude = "-26.10900000", Longitude = "32.18000000" },
+                        new() { Id = 7, Name = "Matutiune", Latitude = "-26.43418000", Longitude = "32.58820000" },
+                        new() { Id = 8, Name = "Moamba", Latitude = "-25.60934000", Longitude = "32.24321000" },
+                        new() { Id = 9, Name = "Namaacha", Latitude = "-26.10900000", Longitude = "32.18000000" },
                         new() { Id = 10, Name = "Ressano Garcia", Latitude = "-25.44278000", Longitude = "31.99528000" }
                     }
                 },
@@ -148,9 +151,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Maputo",
-                    StateCode = "MPM",
-                    Latitude = "-25.96924800",
-                    Longitude = "32.57317460",
+                    StateCode = "",
+                    Latitude = "-25.54451670",
+                    Longitude = "32.45787530",
                     Type = "city",
                     Cities = new()
                     {
@@ -163,9 +166,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Nampula",
-                    StateCode = "N",
-                    Latitude = "-14.76049310",
-                    Longitude = "39.32062410",
+                    StateCode = "",
+                    Latitude = "-14.96696900",
+                    Longitude = "39.27077520",
                     Type = "province",
                     Cities = new()
                     {
@@ -181,9 +184,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Niassa",
-                    StateCode = "A",
-                    Latitude = "-12.78262020",
-                    Longitude = "36.60939260",
+                    StateCode = "",
+                    Latitude = "-13.06385770",
+                    Longitude = "36.46699640",
                     Type = "province",
                     Cities = new()
                     {
@@ -197,15 +200,15 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Sofala",
-                    StateCode = "S",
-                    Latitude = "-19.20390730",
-                    Longitude = "34.86241660",
+                    StateCode = "",
+                    Latitude = "-19.07716660",
+                    Longitude = "34.71648040",
                     Type = "province",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Beira", Latitude = "-19.84361000", Longitude = "34.83889000" },
                         new() { Id = 2, Name = "Dondo", Latitude = "-19.60944000", Longitude = "34.74306000" },
-                        new() { Id = 3, Name = "Nhamatanda District", Latitude = "-19.34900000", Longitude = "34.26800000" }
+                        new() { Id = 3, Name = "Nhamatanda", Latitude = "-19.34900000", Longitude = "34.26800000" }
                     }
                 },
 
@@ -213,9 +216,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Tete",
-                    StateCode = "T",
-                    Latitude = "-15.65960560",
-                    Longitude = "32.71813750",
+                    StateCode = "",
+                    Latitude = "-15.52051930",
+                    Longitude = "32.76827420",
                     Type = "province",
                     Cities = new()
                     {
@@ -227,9 +230,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Zambezia",
-                    StateCode = "Q",
-                    Latitude = "-16.56389870",
-                    Longitude = "36.60939260",
+                    StateCode = "",
+                    Latitude = "-16.64601780",
+                    Longitude = "36.99193200",
                     Type = "province",
                     Cities = new()
                     {

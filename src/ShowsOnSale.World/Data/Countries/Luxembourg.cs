@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Luksembourg",
                 ["ko"] = "룩셈부르크",
                 ["pt-BR"] = "Luxemburgo",
                 ["pt"] = "Luxemburgo",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Lüksemburg",
                 ["ru"] = "Люксембург",
                 ["uk"] = "Люксембург",
-                ["pl"] = "Luksemburg"
+                ["pl"] = "Luksemburg",
+                ["hi"] = "लक्समबर्ग",
+                ["ar"] = "لوكسمبورغ"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Capellen",
-                    StateCode = "CA",
-                    Latitude = "49.64039310",
-                    Longitude = "5.95538460",
+                    StateCode = "",
+                    Latitude = "49.64243530",
+                    Longitude = "5.98058930",
                     Type = "canton",
                     Cities = new()
                     {
@@ -92,7 +95,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Clervaux",
-                    StateCode = "CL",
+                    StateCode = "",
                     Latitude = "50.05463130",
                     Longitude = "6.02858750",
                     Type = "canton",
@@ -111,7 +114,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Diekirch",
-                    StateCode = "DI",
+                    StateCode = "",
                     Latitude = "49.86717840",
                     Longitude = "6.15956330",
                     Type = "canton",
@@ -137,7 +140,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Echternach",
-                    StateCode = "EC",
+                    StateCode = "",
                     Latitude = "49.81141330",
                     Longitude = "6.41756350",
                     Type = "canton",
@@ -158,7 +161,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Esch-sur-Alzette",
-                    StateCode = "ES",
+                    StateCode = "",
                     Latitude = "49.50088050",
                     Longitude = "5.98609250",
                     Type = "canton",
@@ -196,7 +199,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Grevenmacher",
-                    StateCode = "G",
+                    StateCode = "",
                     Latitude = "49.68085100",
                     Longitude = "6.44075240",
                     Type = "canton",
@@ -219,9 +222,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Luxembourg ",
-                    StateCode = "L",
-                    Latitude = "49.59537060",
-                    Longitude = "6.13331780",
+                    StateCode = "",
+                    Latitude = "49.61127680",
+                    Longitude = "6.12979900",
                     Type = "canton",
                     Cities = new()
                     {
@@ -254,9 +257,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Mersch",
-                    StateCode = "ME",
-                    Latitude = "49.75429060",
-                    Longitude = "6.12921850",
+                    StateCode = "",
+                    Latitude = "49.75067460",
+                    Longitude = "6.10665910",
                     Type = "canton",
                     Cities = new()
                     {
@@ -279,7 +282,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Redange",
-                    StateCode = "RD",
+                    StateCode = "",
                     Latitude = "49.76455000",
                     Longitude = "5.88948000",
                     Type = "canton",
@@ -303,7 +306,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Remich",
-                    StateCode = "RM",
+                    StateCode = "",
                     Latitude = "49.54501700",
                     Longitude = "6.36742220",
                     Type = "canton",
@@ -324,7 +327,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Vianden",
-                    StateCode = "VD",
+                    StateCode = "",
                     Latitude = "49.93419240",
                     Longitude = "6.20199170",
                     Type = "canton",
@@ -340,7 +343,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Wiltz",
-                    StateCode = "WI",
+                    StateCode = "",
                     Latitude = "49.96622000",
                     Longitude = "5.93243060",
                     Type = "canton",

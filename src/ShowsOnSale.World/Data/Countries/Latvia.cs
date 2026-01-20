@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Latvia",
                 ["ko"] = "라트비아",
                 ["pt-BR"] = "Letônia",
                 ["pt"] = "Letónia",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Letonya",
                 ["ru"] = "Латвия",
                 ["uk"] = "Латвія",
-                ["pl"] = "Łotwa"
+                ["pl"] = "Łotwa",
+                ["hi"] = "लातविया",
+                ["ar"] = "لاتفيا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Ādaži",
-                    StateCode = "011",
-                    Latitude = "57.11124560",
-                    Longitude = "24.14823110",
+                    StateCode = "",
+                    Latitude = "57.08746710",
+                    Longitude = "24.31957970",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -76,9 +79,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Aizkraukle",
-                    StateCode = "002",
-                    Latitude = "56.64610800",
-                    Longitude = "25.23708540",
+                    StateCode = "",
+                    Latitude = "56.61667080",
+                    Longitude = "25.22306430",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -95,7 +98,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Alūksne",
-                    StateCode = "007",
+                    StateCode = "",
                     Latitude = "57.42544850",
                     Longitude = "27.04249680",
                     Type = "municipality",
@@ -109,9 +112,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Augšdaugava",
-                    StateCode = "111",
-                    Latitude = "55.93969780",
-                    Longitude = "25.74317090",
+                    StateCode = "",
+                    Latitude = "55.85613230",
+                    Longitude = "27.04580760",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -124,7 +127,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Balvi",
-                    StateCode = "015",
+                    StateCode = "",
                     Latitude = "57.13262400",
                     Longitude = "27.26466850",
                     Type = "municipality",
@@ -141,7 +144,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Bauska",
-                    StateCode = "016",
+                    StateCode = "",
                     Latitude = "56.41018680",
                     Longitude = "24.20006890",
                     Type = "municipality",
@@ -158,7 +161,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Cēsis",
-                    StateCode = "022",
+                    StateCode = "",
                     Latitude = "57.31028970",
                     Longitude = "25.26761250",
                     Type = "municipality",
@@ -176,9 +179,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Daugavpils",
-                    StateCode = "DGV",
-                    Latitude = "55.87473600",
-                    Longitude = "26.53617900",
+                    StateCode = "",
+                    Latitude = "55.87122670",
+                    Longitude = "26.51593370",
                     Type = "state city",
                     Cities = new()
                     {
@@ -189,9 +192,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Dienvidkurzemes",
-                    StateCode = "112",
-                    Latitude = "56.52063120",
-                    Longitude = "20.83211760",
+                    StateCode = "",
+                    Latitude = "56.52245750",
+                    Longitude = "21.45958940",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -210,7 +213,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Dobele",
-                    StateCode = "026",
+                    StateCode = "",
                     Latitude = "56.62630500",
                     Longitude = "23.28090660",
                     Type = "municipality",
@@ -227,9 +230,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Gulbene",
-                    StateCode = "033",
-                    Latitude = "57.21556450",
-                    Longitude = "26.64529550",
+                    StateCode = "",
+                    Latitude = "57.17597210",
+                    Longitude = "26.75147130",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -241,9 +244,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Jēkabpils",
-                    StateCode = "042",
-                    Latitude = "56.29193200",
-                    Longitude = "25.98120170",
+                    StateCode = "",
+                    Latitude = "56.49586380",
+                    Longitude = "25.86877470",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -258,9 +261,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Jelgava",
-                    StateCode = "041",
-                    Latitude = "56.58956890",
-                    Longitude = "23.66104810",
+                    StateCode = "",
+                    Latitude = "56.65143940",
+                    Longitude = "23.73391430",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -273,9 +276,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Jelgava",
-                    StateCode = "JEL",
-                    Latitude = "56.65110910",
-                    Longitude = "23.72135410",
+                    StateCode = "",
+                    Latitude = "56.65143940",
+                    Longitude = "23.73391430",
                     Type = "state city",
                     Cities = new()
                     {
@@ -287,9 +290,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Jūrmala",
-                    StateCode = "JUR",
-                    Latitude = "56.94707900",
-                    Longitude = "23.61684850",
+                    StateCode = "",
+                    Latitude = "56.97271640",
+                    Longitude = "23.78869790",
                     Type = "state city",
                     Cities = new()
                     {
@@ -301,9 +304,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Ķekava",
-                    StateCode = "052",
-                    Latitude = "56.80643510",
-                    Longitude = "24.19394930",
+                    StateCode = "",
+                    Latitude = "56.82584650",
+                    Longitude = "24.22081280",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -317,9 +320,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Krāslava",
-                    StateCode = "047",
-                    Latitude = "55.89514640",
-                    Longitude = "27.18145770",
+                    StateCode = "",
+                    Latitude = "55.89520600",
+                    Longitude = "27.16193040",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -332,7 +335,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Kuldīga",
-                    StateCode = "050",
+                    StateCode = "",
                     Latitude = "56.96872570",
                     Longitude = "21.96137390",
                     Type = "municipality",
@@ -348,7 +351,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 19,
                     Name = "Liepāja",
-                    StateCode = "LPX",
+                    StateCode = "",
                     Latitude = "56.50466780",
                     Longitude = "21.01080600",
                     Type = "state city",
@@ -363,9 +366,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 20,
                     Name = "Limbaži",
-                    StateCode = "054",
-                    Latitude = "57.54032270",
-                    Longitude = "24.71344510",
+                    StateCode = "",
+                    Latitude = "57.51465860",
+                    Longitude = "24.71315360",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -381,7 +384,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 21,
                     Name = "Līvāni",
-                    StateCode = "056",
+                    StateCode = "",
                     Latitude = "56.35509420",
                     Longitude = "26.17251900",
                     Type = "municipality",
@@ -395,7 +398,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 22,
                     Name = "Ludza",
-                    StateCode = "058",
+                    StateCode = "",
                     Latitude = "56.54595900",
                     Longitude = "27.71431990",
                     Type = "municipality",
@@ -412,9 +415,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 23,
                     Name = "Madona",
-                    StateCode = "059",
-                    Latitude = "56.85989230",
-                    Longitude = "26.22762010",
+                    StateCode = "",
+                    Latitude = "56.85174670",
+                    Longitude = "26.21847690",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -429,7 +432,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 24,
                     Name = "Mārupe",
-                    StateCode = "062",
+                    StateCode = "",
                     Latitude = "56.89657170",
                     Longitude = "24.04600490",
                     Type = "municipality",
@@ -444,7 +447,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 25,
                     Name = "Ogre",
-                    StateCode = "067",
+                    StateCode = "",
                     Latitude = "56.81473550",
                     Longitude = "24.60445550",
                     Type = "municipality",
@@ -462,9 +465,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 26,
                     Name = "Olaine",
-                    StateCode = "068",
-                    Latitude = "56.79523530",
-                    Longitude = "24.01535890",
+                    StateCode = "",
+                    Latitude = "56.79059060",
+                    Longitude = "23.93319810",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -476,9 +479,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 27,
                     Name = "Preiļi",
-                    StateCode = "073",
-                    Latitude = "56.15111570",
-                    Longitude = "26.74397670",
+                    StateCode = "",
+                    Latitude = "56.29373660",
+                    Longitude = "26.72667340",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -494,9 +497,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 28,
                     Name = "Rēzekne",
-                    StateCode = "REZ",
-                    Latitude = "56.50992230",
-                    Longitude = "27.33313570",
+                    StateCode = "",
+                    Latitude = "56.50628100",
+                    Longitude = "27.33066230",
                     Type = "state city",
                     Cities = new()
                     {
@@ -508,9 +511,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 29,
                     Name = "Rēzekne",
-                    StateCode = "077",
-                    Latitude = "56.32736380",
-                    Longitude = "27.32843310",
+                    StateCode = "",
+                    Latitude = "56.50628100",
+                    Longitude = "27.33066230",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -522,7 +525,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 30,
                     Name = "Riga",
-                    StateCode = "RIX",
+                    StateCode = "",
                     Latitude = "56.94964870",
                     Longitude = "24.10518650",
                     Type = "state city",
@@ -540,9 +543,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 31,
                     Name = "Ropaži",
-                    StateCode = "080",
-                    Latitude = "56.96157860",
-                    Longitude = "24.60104760",
+                    StateCode = "",
+                    Latitude = "56.97137710",
+                    Longitude = "24.63072330",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -557,7 +560,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 32,
                     Name = "Salaspils",
-                    StateCode = "087",
+                    StateCode = "",
                     Latitude = "56.86081520",
                     Longitude = "24.34978810",
                     Type = "municipality",
@@ -571,7 +574,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 33,
                     Name = "Saldus",
-                    StateCode = "088",
+                    StateCode = "",
                     Latitude = "56.66650880",
                     Longitude = "22.49354930",
                     Type = "municipality",
@@ -586,7 +589,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 34,
                     Name = "Saulkrasti",
-                    StateCode = "089",
+                    StateCode = "",
                     Latitude = "57.25794180",
                     Longitude = "24.41831460",
                     Type = "municipality",
@@ -600,9 +603,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 35,
                     Name = "Sigulda",
-                    StateCode = "091",
-                    Latitude = "57.10550920",
-                    Longitude = "24.83142590",
+                    StateCode = "",
+                    Latitude = "57.15405610",
+                    Longitude = "24.85671410",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -616,7 +619,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 36,
                     Name = "Smiltene",
-                    StateCode = "094",
+                    StateCode = "",
                     Latitude = "57.42303320",
                     Longitude = "25.90027800",
                     Type = "municipality",
@@ -632,9 +635,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 37,
                     Name = "Talsi",
-                    StateCode = "097",
-                    Latitude = "57.34152080",
-                    Longitude = "22.57131250",
+                    StateCode = "",
+                    Latitude = "57.24519260",
+                    Longitude = "22.59030030",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -651,7 +654,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 38,
                     Name = "Tukums",
-                    StateCode = "099",
+                    StateCode = "",
                     Latitude = "56.96728680",
                     Longitude = "23.15243790",
                     Type = "municipality",
@@ -669,7 +672,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 39,
                     Name = "Valka",
-                    StateCode = "101",
+                    StateCode = "",
                     Latitude = "57.77439000",
                     Longitude = "26.01700500",
                     Type = "municipality",
@@ -683,7 +686,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 40,
                     Name = "Valmiera",
-                    StateCode = "113",
+                    StateCode = "",
                     Latitude = "57.53846590",
                     Longitude = "25.42636180",
                     Type = "municipality",
@@ -704,9 +707,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 41,
                     Name = "Varakļāni",
-                    StateCode = "102",
-                    Latitude = "56.66880060",
-                    Longitude = "26.56364140",
+                    StateCode = "",
+                    Latitude = "56.60887430",
+                    Longitude = "26.75390930",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -718,9 +721,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 42,
                     Name = "Ventspils",
-                    StateCode = "VEN",
-                    Latitude = "57.39372160",
-                    Longitude = "21.56470660",
+                    StateCode = "",
+                    Latitude = "57.39039180",
+                    Longitude = "21.56359910",
                     Type = "state city",
                     Cities = new()
                     {
@@ -732,9 +735,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 43,
                     Name = "Ventspils",
-                    StateCode = "106",
-                    Latitude = "57.28336820",
-                    Longitude = "21.85875580",
+                    StateCode = "",
+                    Latitude = "57.39039180",
+                    Longitude = "21.56359910",
                     Type = "municipality",
                     Cities = new()
                     {

@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Bosnia-ha-Herzegovina",
                 ["ko"] = "보스니아 헤르체고비나",
                 ["pt-BR"] = "Bósnia e Herzegovina",
                 ["pt"] = "Bósnia e Herzegovina",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Bosna Hersek",
                 ["ru"] = "Босния и Герцеговина",
                 ["uk"] = "Боснія і Герцеговина",
-                ["pl"] = "Bośnia i Hercegowina"
+                ["pl"] = "Bośnia i Hercegowina",
+                ["hi"] = "बोस्निया और हर्जेगोविना",
+                ["ar"] = "البوسنة والهرسك"
             },
             States = new()
             {
@@ -61,23 +64,10 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 1,
-                    Name = "Bosnian Podrinje",
-                    StateCode = "05",
-                    Latitude = "43.68749000",
-                    Longitude = "18.82443940",
-                    Type = "canton",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 2,
                     Name = "Brčko",
-                    StateCode = "BRC",
-                    Latitude = "44.84059440",
-                    Longitude = "18.74215300",
+                    StateCode = "",
+                    Latitude = "44.87712220",
+                    Longitude = "18.80950220",
                     Type = "district",
                     Cities = new()
                     {
@@ -88,37 +78,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 3,
-                    Name = "Canton 10",
-                    StateCode = "10",
-                    Latitude = "43.95341550",
-                    Longitude = "16.94251870",
-                    Type = "canton",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 4,
-                    Name = "Central Bosnia",
-                    StateCode = "06",
-                    Latitude = "44.13818560",
-                    Longitude = "17.68667140",
-                    Type = "canton",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 5,
+                    Id = 2,
                     Name = "Federation of Bosnia and Herzegovina",
-                    StateCode = "BIH",
-                    Latitude = "43.88748970",
-                    Longitude = "17.84279300",
+                    StateCode = "",
+                    Latitude = "43.91674100",
+                    Longitude = "17.54820720",
                     Type = "entity",
                     Cities = new()
                     {
@@ -282,37 +246,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 6,
-                    Name = "Herzegovina-Neretva",
-                    StateCode = "07",
-                    Latitude = "43.52651590",
-                    Longitude = "17.76362100",
-                    Type = "canton",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 7,
-                    Name = "Posavina",
-                    StateCode = "02",
-                    Latitude = "45.07520940",
-                    Longitude = "18.37763040",
-                    Type = "canton",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 8,
+                    Id = 3,
                     Name = "Republika Srpska",
-                    StateCode = "SRP",
-                    Latitude = "44.72801860",
-                    Longitude = "17.31481360",
+                    StateCode = "",
+                    Latitude = "44.66961960",
+                    Longitude = "17.36590250",
                     Type = "entity",
                     Cities = new()
                     {
@@ -391,71 +329,6 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 73, Name = "Vlasenica", Latitude = "44.18183000", Longitude = "18.94096000" },
                         new() { Id = 74, Name = "Živinice", Latitude = "44.54765000", Longitude = "17.37357000" },
                         new() { Id = 75, Name = "Zvornik", Latitude = "44.38605000", Longitude = "19.10247000" }
-                    }
-                },
-
-                new()
-                {
-                    Id = 9,
-                    Name = "Sarajevo",
-                    StateCode = "09",
-                    Latitude = "43.85125640",
-                    Longitude = "18.29534420",
-                    Type = "canton",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 10,
-                    Name = "Tuzla",
-                    StateCode = "03",
-                    Latitude = "44.53434630",
-                    Longitude = "18.69727970",
-                    Type = "canton",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 11,
-                    Name = "Una-Sana",
-                    StateCode = "01",
-                    Latitude = "44.65031160",
-                    Longitude = "16.31716290",
-                    Type = "canton",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 12,
-                    Name = "West Herzegovina",
-                    StateCode = "08",
-                    Latitude = "43.43692440",
-                    Longitude = "17.38488310",
-                    Type = "canton",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 13,
-                    Name = "Zenica-Doboj",
-                    StateCode = "04",
-                    Latitude = "44.21271090",
-                    Longitude = "18.16046250",
-                    Type = "canton",
-                    Cities = new()
-                    {
                     }
                 }
             }

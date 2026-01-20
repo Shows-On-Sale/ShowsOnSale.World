@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Inizi Cayman",
                 ["ko"] = "케이먼 제도",
                 ["pt-BR"] = "Ilhas Cayman",
                 ["pt"] = "Ilhas Caimão",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Cayman Adalari",
                 ["ru"] = "Каймановы острова",
                 ["uk"] = "Кайманові острови",
-                ["pl"] = "Kajmany"
+                ["pl"] = "Kajmany",
+                ["hi"] = "केमन द्वीपसमूह",
+                ["ar"] = "جزر كايمان"
             },
             States = new()
             {
@@ -62,10 +65,10 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Cayman Brac",
-                    StateCode = "NULL",
-                    Latitude = "19.71999700",
-                    Longitude = "-79.89072660",
-                    Type = "NULL",
+                    StateCode = "",
+                    Latitude = "19.71988620",
+                    Longitude = "-79.79314000",
+                    Type = "",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Cayman Brac", Latitude = "19.71999700", Longitude = "-79.89072660" }
@@ -76,10 +79,10 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Grand Cayman",
-                    StateCode = "NULL",
-                    Latitude = "19.33012710",
-                    Longitude = "-81.41724510",
-                    Type = "NULL",
+                    StateCode = "",
+                    Latitude = "19.32984710",
+                    Longitude = "-81.17122160",
+                    Type = "",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bodden Town", Latitude = "19.27966930", Longitude = "-81.27779990" },
@@ -94,10 +97,10 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Little Cayman",
-                    StateCode = "NULL",
-                    Latitude = "19.68567390",
-                    Longitude = "-80.11830190",
-                    Type = "NULL",
+                    StateCode = "",
+                    Latitude = "19.68533460",
+                    Longitude = "-80.04778240",
+                    Type = "",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Little Cayman", Latitude = "19.68567390", Longitude = "-80.11830190" }

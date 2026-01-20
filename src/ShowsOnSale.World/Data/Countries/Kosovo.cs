@@ -38,12 +38,15 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Kosovo",
                 ["ko"] = "코소보",
                 ["zh-CN"] = "科索沃",
                 ["tr"] = "Kosova",
                 ["ru"] = "Косово",
                 ["uk"] = "Косово",
-                ["pl"] = "Kosowo"
+                ["pl"] = "Kosowo",
+                ["hi"] = "कोसोवो",
+                ["ar"] = "كوسوفو"
             },
             States = new()
             {
@@ -52,12 +55,17 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Ferizaj",
-                    StateCode = "XUF",
+                    StateCode = "",
                     Latitude = "42.37018440",
                     Longitude = "21.14832810",
                     Type = "district",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Ferizaj", Latitude = "42.37056000", Longitude = "21.15528000" },
+                        new() { Id = 2, Name = "Hani i Elezit", Latitude = "42.15000000", Longitude = "21.29667000" },
+                        new() { Id = 3, Name = "Kačanik", Latitude = "42.23194000", Longitude = "21.25944000" },
+                        new() { Id = 4, Name = "Shtime", Latitude = "42.43306000", Longitude = "21.03972000" },
+                        new() { Id = 5, Name = "Štrpce", Latitude = "42.23944000", Longitude = "21.02722000" }
                     }
                 },
 
@@ -65,12 +73,27 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Gjakove",
-                    StateCode = "XDG",
-                    Latitude = "42.43757560",
-                    Longitude = "20.37854380",
+                    StateCode = "",
+                    Latitude = "42.37987930",
+                    Longitude = "20.43162260",
                     Type = "district",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Deçan", Latitude = "42.54018000", Longitude = "20.28793000" },
+                        new() { Id = 2, Name = "Dranoc", Latitude = "42.51556000", Longitude = "20.29222000" },
+                        new() { Id = 3, Name = "Gjakovë", Latitude = "42.38028000", Longitude = "20.43083000" },
+                        new() { Id = 4, Name = "Gllogjan", Latitude = "42.50722000", Longitude = "20.36278000" },
+                        new() { Id = 5, Name = "Irzniq", Latitude = "42.52000000", Longitude = "20.34722000" },
+                        new() { Id = 6, Name = "Isniq", Latitude = "42.55750000", Longitude = "20.30278000" },
+                        new() { Id = 7, Name = "Lëbushë", Latitude = "42.56306000", Longitude = "20.29083000" },
+                        new() { Id = 8, Name = "Lloqan", Latitude = "42.52444000", Longitude = "20.28083000" },
+                        new() { Id = 9, Name = "Lluka e Eperme", Latitude = "42.54500000", Longitude = "20.30778000" },
+                        new() { Id = 10, Name = "Lumbardhi", Latitude = "42.54667000", Longitude = "20.34667000" },
+                        new() { Id = 11, Name = "Orahovac", Latitude = "42.39944000", Longitude = "20.65472000" },
+                        new() { Id = 12, Name = "Papraqan", Latitude = "42.55278000", Longitude = "20.33111000" },
+                        new() { Id = 13, Name = "Prilep", Latitude = "42.50750000", Longitude = "20.31778000" },
+                        new() { Id = 14, Name = "Strellc i Epërm", Latitude = "42.57843000", Longitude = "20.29398000" },
+                        new() { Id = 15, Name = "Strellc i Ulët", Latitude = "42.58063000", Longitude = "20.31619000" }
                     }
                 },
 
@@ -78,12 +101,19 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Gjilan",
-                    StateCode = "XGJ",
+                    StateCode = "",
                     Latitude = "42.46352060",
                     Longitude = "21.46940110",
                     Type = "district",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Gjilan", Latitude = "42.46045000", Longitude = "21.46986000" },
+                        new() { Id = 2, Name = "Kamenica", Latitude = "42.57806000", Longitude = "21.58028000" },
+                        new() { Id = 3, Name = "Klokot", Latitude = "42.37139000", Longitude = "21.37444000" },
+                        new() { Id = 4, Name = "Partesh", Latitude = "42.40194000", Longitude = "21.43361000" },
+                        new() { Id = 5, Name = "Pasjane", Latitude = "42.40694000", Longitude = "21.49556000" },
+                        new() { Id = 6, Name = "Ranilug", Latitude = "42.49222000", Longitude = "21.59889000" },
+                        new() { Id = 7, Name = "Vitina", Latitude = "42.32139000", Longitude = "21.35833000" }
                     }
                 },
 
@@ -91,12 +121,18 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Mitrovica",
-                    StateCode = "XKM",
-                    Latitude = "42.89139090",
-                    Longitude = "20.86599950",
+                    StateCode = "",
+                    Latitude = "42.87904240",
+                    Longitude = "20.86578620",
                     Type = "district",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Leposaviq", Latitude = "43.10389000", Longitude = "20.80278000" },
+                        new() { Id = 2, Name = "Mitrovicë", Latitude = "42.88333000", Longitude = "20.86667000" },
+                        new() { Id = 3, Name = "Srbica", Latitude = "42.74667000", Longitude = "20.78861000" },
+                        new() { Id = 4, Name = "Vushtrri", Latitude = "42.82306000", Longitude = "20.96750000" },
+                        new() { Id = 5, Name = "Zubin Potok", Latitude = "42.91444000", Longitude = "20.68972000" },
+                        new() { Id = 6, Name = "Zvečan", Latitude = "42.90750000", Longitude = "20.84028000" }
                     }
                 },
 
@@ -104,12 +140,17 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Peja",
-                    StateCode = "PEJ",
-                    Latitude = "42.70317090",
-                    Longitude = "20.06168550",
+                    StateCode = "",
+                    Latitude = "42.65939860",
+                    Longitude = "20.28857570",
                     Type = "district",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Dubova (Driloni)", Latitude = "42.71194000", Longitude = "20.36972000" },
+                        new() { Id = 2, Name = "Istok", Latitude = "42.78083000", Longitude = "20.48750000" },
+                        new() { Id = 3, Name = "Klina", Latitude = "42.62167000", Longitude = "20.57778000" },
+                        new() { Id = 4, Name = "Kosuriq", Latitude = "42.57028000", Longitude = "20.46472000" },
+                        new() { Id = 5, Name = "Pejë", Latitude = "42.65913000", Longitude = "20.28828000" }
                     }
                 },
 
@@ -117,12 +158,21 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Pristina",
-                    StateCode = "XPI",
+                    StateCode = "",
                     Latitude = "42.66291380",
                     Longitude = "21.16550280",
                     Type = "district",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Bradash", Latitude = "42.94028000", Longitude = "21.13806000" },
+                        new() { Id = 2, Name = "Glogovac", Latitude = "42.62833000", Longitude = "20.89389000" },
+                        new() { Id = 3, Name = "Gračanica", Latitude = "42.60111000", Longitude = "21.19583000" },
+                        new() { Id = 4, Name = "Kosovo Polje", Latitude = "42.66394000", Longitude = "21.09611000" },
+                        new() { Id = 5, Name = "Lipljan", Latitude = "42.52167000", Longitude = "21.12583000" },
+                        new() { Id = 6, Name = "Novo Brdo", Latitude = "42.61590000", Longitude = "21.43405000" },
+                        new() { Id = 7, Name = "Obiliq", Latitude = "42.68694000", Longitude = "21.07028000" },
+                        new() { Id = 8, Name = "Podujeva", Latitude = "42.91056000", Longitude = "21.19306000" },
+                        new() { Id = 9, Name = "Pristina", Latitude = "42.67272000", Longitude = "21.16688000" }
                     }
                 },
 
@@ -130,12 +180,24 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Prizren",
-                    StateCode = "PRI",
-                    Latitude = "42.23245650",
-                    Longitude = "20.40393660",
+                    StateCode = "",
+                    Latitude = "42.21301510",
+                    Longitude = "20.73633390",
                     Type = "district",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Budakovo", Latitude = "42.35500000", Longitude = "20.92500000" },
+                        new() { Id = 2, Name = "Dragash", Latitude = "42.02650000", Longitude = "20.65333000" },
+                        new() { Id = 3, Name = "Gjinoc", Latitude = "42.31833000", Longitude = "20.81861000" },
+                        new() { Id = 4, Name = "Leshan", Latitude = "42.32778000", Longitude = "20.78111000" },
+                        new() { Id = 5, Name = "Llazicë", Latitude = "42.55528000", Longitude = "20.76333000" },
+                        new() { Id = 6, Name = "Mališevo", Latitude = "42.48222000", Longitude = "20.74583000" },
+                        new() { Id = 7, Name = "Mamuša", Latitude = "42.33083000", Longitude = "20.72694000" },
+                        new() { Id = 8, Name = "Nishor", Latitude = "42.42389000", Longitude = "20.80167000" },
+                        new() { Id = 9, Name = "Pagaruša", Latitude = "42.42000000", Longitude = "20.74222000" },
+                        new() { Id = 10, Name = "Peqan", Latitude = "42.38361000", Longitude = "20.82194000" },
+                        new() { Id = 11, Name = "Prizren", Latitude = "42.21389000", Longitude = "20.73972000" },
+                        new() { Id = 12, Name = "Suva Reka", Latitude = "42.35861000", Longitude = "20.82500000" }
                     }
                 }
             }

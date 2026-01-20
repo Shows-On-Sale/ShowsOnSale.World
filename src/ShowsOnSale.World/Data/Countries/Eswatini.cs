@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 70,
+            Id = 69,
             Name = "Eswatini",
             Iso3 = "SWZ",
             Iso2 = "SZ",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Eswatini",
                 ["ko"] = "에스와티니",
                 ["pt-BR"] = "Suazilândia",
                 ["pt"] = "Suazilândia",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Esvatini",
                 ["ru"] = "Эсватини",
                 ["uk"] = "Есватіні",
-                ["pl"] = "Eswatini"
+                ["pl"] = "Eswatini",
+                ["hi"] = "एस्वातिन",
+                ["ar"] = "الإسواتين"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Hhohho",
-                    StateCode = "HH",
-                    Latitude = "-26.13656620",
-                    Longitude = "31.35416310",
+                    StateCode = "",
+                    Latitude = "-26.09880120",
+                    Longitude = "31.36308220",
                     Type = "region",
                     Cities = new()
                     {
@@ -81,9 +84,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Lubombo",
-                    StateCode = "LU",
-                    Latitude = "-26.78517730",
-                    Longitude = "31.81070790",
+                    StateCode = "",
+                    Latitude = "-26.55452000",
+                    Longitude = "31.86191160",
                     Type = "region",
                     Cities = new()
                     {
@@ -102,9 +105,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Manzini",
-                    StateCode = "MA",
-                    Latitude = "-26.50819990",
-                    Longitude = "31.37131640",
+                    StateCode = "",
+                    Latitude = "-26.49764440",
+                    Longitude = "31.37508150",
                     Type = "region",
                     Cities = new()
                     {
@@ -125,9 +128,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Shiselweni",
-                    StateCode = "SH",
-                    Latitude = "-26.98275770",
-                    Longitude = "31.35416310",
+                    StateCode = "",
+                    Latitude = "-27.03602200",
+                    Longitude = "31.33212980",
                     Type = "region",
                     Cities = new()
                     {

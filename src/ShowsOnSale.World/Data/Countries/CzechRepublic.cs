@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 58,
+            Id = 57,
             Name = "Czech Republic",
             Iso3 = "CZE",
             Iso2 = "CZ",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Tchekia",
                 ["ko"] = "체코",
                 ["pt-BR"] = "República Tcheca",
                 ["pt"] = "República Checa",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Çekya",
                 ["ru"] = "Чешская Республика",
                 ["uk"] = "Чеська Республіка",
-                ["pl"] = "Republika Czeska"
+                ["pl"] = "Republika Czeska",
+                ["hi"] = "चेक रिपब्लिक",
+                ["ar"] = "الجمهورية التشيكية"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Benešov",
-                    StateCode = "201",
-                    Latitude = "49.69008280",
-                    Longitude = "14.77643990",
+                    StateCode = "",
+                    Latitude = "49.78189210",
+                    Longitude = "14.68691210",
                     Type = "district",
                     Cities = new()
                     {
@@ -75,9 +78,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Beroun",
-                    StateCode = "202",
-                    Latitude = "49.95734280",
-                    Longitude = "13.98407150",
+                    StateCode = "",
+                    Latitude = "49.96402920",
+                    Longitude = "14.07339070",
                     Type = "district",
                     Cities = new()
                     {
@@ -88,7 +91,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Blansko",
-                    StateCode = "641",
+                    StateCode = "",
                     Latitude = "49.36485020",
                     Longitude = "16.64775520",
                     Type = "district",
@@ -101,7 +104,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Břeclav",
-                    StateCode = "644",
+                    StateCode = "",
                     Latitude = "48.75314000",
                     Longitude = "16.88251690",
                     Type = "district",
@@ -114,7 +117,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Brno-město",
-                    StateCode = "642",
+                    StateCode = "",
                     Latitude = "49.19506020",
                     Longitude = "16.60683710",
                     Type = "district",
@@ -127,9 +130,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Brno-venkov",
-                    StateCode = "643",
-                    Latitude = "49.12501380",
-                    Longitude = "16.45588240",
+                    StateCode = "",
+                    Latitude = "49.17618380",
+                    Longitude = "16.38816430",
                     Type = "district",
                     Cities = new()
                     {
@@ -140,7 +143,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Bruntál",
-                    StateCode = "801",
+                    StateCode = "",
                     Latitude = "49.98817670",
                     Longitude = "17.46369410",
                     Type = "district",
@@ -153,7 +156,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Česká Lípa",
-                    StateCode = "511",
+                    StateCode = "",
                     Latitude = "50.67852010",
                     Longitude = "14.53969910",
                     Type = "district",
@@ -166,9 +169,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "České Budějovice",
-                    StateCode = "311",
-                    Latitude = "48.97755530",
-                    Longitude = "14.51507470",
+                    StateCode = "",
+                    Latitude = "48.97473570",
+                    Longitude = "14.47428500",
                     Type = "district",
                     Cities = new()
                     {
@@ -179,7 +182,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Český Krumlov",
-                    StateCode = "312",
+                    StateCode = "",
                     Latitude = "48.81273540",
                     Longitude = "14.31746570",
                     Type = "district",
@@ -192,7 +195,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Cheb",
-                    StateCode = "411",
+                    StateCode = "",
                     Latitude = "50.07953340",
                     Longitude = "12.36986360",
                     Type = "district",
@@ -205,9 +208,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Chomutov",
-                    StateCode = "422",
-                    Latitude = "50.45838720",
-                    Longitude = "13.30179100",
+                    StateCode = "",
+                    Latitude = "50.46064560",
+                    Longitude = "13.41783240",
                     Type = "district",
                     Cities = new()
                     {
@@ -218,9 +221,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Chrudim",
-                    StateCode = "531",
-                    Latitude = "49.88302160",
-                    Longitude = "15.82908660",
+                    StateCode = "",
+                    Latitude = "49.95114580",
+                    Longitude = "15.79475590",
                     Type = "district",
                     Cities = new()
                     {
@@ -231,9 +234,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Děčín",
-                    StateCode = "421",
-                    Latitude = "50.77255630",
-                    Longitude = "14.21276120",
+                    StateCode = "",
+                    Latitude = "50.78241960",
+                    Longitude = "14.21472210",
                     Type = "district",
                     Cities = new()
                     {
@@ -244,7 +247,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Domažlice",
-                    StateCode = "321",
+                    StateCode = "",
                     Latitude = "49.43970270",
                     Longitude = "12.93114350",
                     Type = "district",
@@ -257,9 +260,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Frýdek-Místek",
-                    StateCode = "802",
-                    Latitude = "49.68193050",
-                    Longitude = "18.36732160",
+                    StateCode = "",
+                    Latitude = "49.68563500",
+                    Longitude = "18.34834160",
                     Type = "district",
                     Cities = new()
                     {
@@ -270,7 +273,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Havlíčkův Brod",
-                    StateCode = "631",
+                    StateCode = "",
                     Latitude = "49.60433640",
                     Longitude = "15.57965520",
                     Type = "district",
@@ -283,7 +286,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Hodonín",
-                    StateCode = "645",
+                    StateCode = "",
                     Latitude = "48.85293910",
                     Longitude = "17.12600250",
                     Type = "district",
@@ -296,9 +299,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 19,
                     Name = "Hradec Králové",
-                    StateCode = "521",
-                    Latitude = "50.24148050",
-                    Longitude = "15.67430000",
+                    StateCode = "",
+                    Latitude = "50.20921130",
+                    Longitude = "15.83275120",
                     Type = "district",
                     Cities = new()
                     {
@@ -309,7 +312,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 20,
                     Name = "Jablonec nad Nisou",
-                    StateCode = "512",
+                    StateCode = "",
                     Latitude = "50.72205280",
                     Longitude = "15.17031350",
                     Type = "district",
@@ -322,7 +325,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 21,
                     Name = "Jeseník",
-                    StateCode = "711",
+                    StateCode = "",
                     Latitude = "50.22462490",
                     Longitude = "17.19804710",
                     Type = "district",
@@ -335,7 +338,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 22,
                     Name = "Jičín",
-                    StateCode = "522",
+                    StateCode = "",
                     Latitude = "50.43533250",
                     Longitude = "15.36104400",
                     Type = "district",
@@ -348,7 +351,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 23,
                     Name = "Jihlava",
-                    StateCode = "632",
+                    StateCode = "",
                     Latitude = "49.39837820",
                     Longitude = "15.58704150",
                     Type = "district",
@@ -361,9 +364,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 24,
                     Name = "Jihočeský kraj",
-                    StateCode = "31",
-                    Latitude = "48.94577890",
-                    Longitude = "14.44160550",
+                    StateCode = "",
+                    Latitude = "49.08645480",
+                    Longitude = "14.60017270",
                     Type = "region",
                     Cities = new()
                     {
@@ -476,9 +479,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 25,
                     Name = "Jihomoravský kraj",
-                    StateCode = "64",
-                    Latitude = "48.95445280",
-                    Longitude = "16.76768990",
+                    StateCode = "",
+                    Latitude = "49.12491790",
+                    Longitude = "16.68277160",
                     Type = "region",
                     Cities = new()
                     {
@@ -660,7 +663,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 26,
                     Name = "Jindřichův Hradec",
-                    StateCode = "313",
+                    StateCode = "",
                     Latitude = "49.14448230",
                     Longitude = "15.00613890",
                     Type = "district",
@@ -673,9 +676,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 27,
                     Name = "Karlovarský kraj",
-                    StateCode = "41",
-                    Latitude = "50.14350000",
-                    Longitude = "12.75018990",
+                    StateCode = "",
+                    Latitude = "50.17535320",
+                    Longitude = "12.80608630",
                     Type = "region",
                     Cities = new()
                     {
@@ -732,9 +735,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 28,
                     Name = "Karlovy Vary",
-                    StateCode = "412",
-                    Latitude = "50.14350000",
-                    Longitude = "12.75018990",
+                    StateCode = "",
+                    Latitude = "50.23062160",
+                    Longitude = "12.87014370",
                     Type = "district",
                     Cities = new()
                     {
@@ -745,7 +748,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 29,
                     Name = "Karviná",
-                    StateCode = "803",
+                    StateCode = "",
                     Latitude = "49.85665240",
                     Longitude = "18.54321860",
                     Type = "district",
@@ -758,9 +761,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 30,
                     Name = "Kladno",
-                    StateCode = "203",
-                    Latitude = "50.19402580",
-                    Longitude = "14.10436570",
+                    StateCode = "",
+                    Latitude = "50.14784970",
+                    Longitude = "14.10253790",
                     Type = "district",
                     Cities = new()
                     {
@@ -771,7 +774,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 31,
                     Name = "Klatovy",
-                    StateCode = "322",
+                    StateCode = "",
                     Latitude = "49.39555490",
                     Longitude = "13.29509370",
                     Type = "district",
@@ -784,9 +787,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 32,
                     Name = "Kolín",
-                    StateCode = "204",
-                    Latitude = "49.98832930",
-                    Longitude = "15.05519770",
+                    StateCode = "",
+                    Latitude = "50.02888940",
+                    Longitude = "15.20115710",
                     Type = "district",
                     Cities = new()
                     {
@@ -797,9 +800,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 33,
                     Name = "Kraj Vysočina",
-                    StateCode = "63",
-                    Latitude = "49.44900520",
-                    Longitude = "15.64059340",
+                    StateCode = "",
+                    Latitude = "49.39940980",
+                    Longitude = "15.57046830",
                     Type = "region",
                     Cities = new()
                     {
@@ -877,9 +880,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 34,
                     Name = "Královéhradecký kraj",
-                    StateCode = "52",
-                    Latitude = "50.35124840",
-                    Longitude = "15.79764590",
+                    StateCode = "",
+                    Latitude = "50.40939270",
+                    Longitude = "15.68500540",
                     Type = "region",
                     Cities = new()
                     {
@@ -967,7 +970,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 35,
                     Name = "Kroměříž",
-                    StateCode = "721",
+                    StateCode = "",
                     Latitude = "49.29165820",
                     Longitude = "17.39938000",
                     Type = "district",
@@ -980,9 +983,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 36,
                     Name = "Kutná Hora",
-                    StateCode = "205",
-                    Latitude = "49.94920890",
-                    Longitude = "15.24704400",
+                    StateCode = "",
+                    Latitude = "49.94865610",
+                    Longitude = "15.26811230",
                     Type = "district",
                     Cities = new()
                     {
@@ -993,9 +996,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 37,
                     Name = "Liberec",
-                    StateCode = "513",
-                    Latitude = "50.75641010",
-                    Longitude = "14.99650410",
+                    StateCode = "",
+                    Latitude = "50.77026480",
+                    Longitude = "15.05839470",
                     Type = "district",
                     Cities = new()
                     {
@@ -1006,9 +1009,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 38,
                     Name = "Liberecký kraj",
-                    StateCode = "51",
-                    Latitude = "50.65942400",
-                    Longitude = "14.76324240",
+                    StateCode = "",
+                    Latitude = "50.74760400",
+                    Longitude = "14.99031030",
                     Type = "region",
                     Cities = new()
                     {
@@ -1078,7 +1081,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 39,
                     Name = "Litoměřice",
-                    StateCode = "423",
+                    StateCode = "",
                     Latitude = "50.53841970",
                     Longitude = "14.13054580",
                     Type = "district",
@@ -1091,7 +1094,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 40,
                     Name = "Louny",
-                    StateCode = "424",
+                    StateCode = "",
                     Latitude = "50.35398120",
                     Longitude = "13.80335510",
                     Type = "district",
@@ -1104,9 +1107,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 41,
                     Name = "Mělník",
-                    StateCode = "206",
-                    Latitude = "50.31044150",
-                    Longitude = "14.51792230",
+                    StateCode = "",
+                    Latitude = "50.35207850",
+                    Longitude = "14.47482810",
                     Type = "district",
                     Cities = new()
                     {
@@ -1117,9 +1120,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 42,
                     Name = "Mladá Boleslav",
-                    StateCode = "207",
-                    Latitude = "50.42523170",
-                    Longitude = "14.93624770",
+                    StateCode = "",
+                    Latitude = "50.41161870",
+                    Longitude = "14.90313010",
                     Type = "district",
                     Cities = new()
                     {
@@ -1130,9 +1133,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 43,
                     Name = "Moravskoslezský kraj",
-                    StateCode = "80",
-                    Latitude = "49.73053270",
-                    Longitude = "18.23326370",
+                    StateCode = "",
+                    Latitude = "49.86027500",
+                    Longitude = "18.03865410",
                     Type = "region",
                     Cities = new()
                     {
@@ -1292,9 +1295,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 44,
                     Name = "Most",
-                    StateCode = "425",
-                    Latitude = "37.15540830",
-                    Longitude = "-94.29488840",
+                    StateCode = "",
+                    Latitude = "50.50327370",
+                    Longitude = "13.63611200",
                     Type = "district",
                     Cities = new()
                     {
@@ -1305,7 +1308,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 45,
                     Name = "Náchod",
-                    StateCode = "523",
+                    StateCode = "",
                     Latitude = "50.41457220",
                     Longitude = "16.16563470",
                     Type = "district",
@@ -1318,7 +1321,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 46,
                     Name = "Nový Jičín",
-                    StateCode = "804",
+                    StateCode = "",
                     Latitude = "49.59432510",
                     Longitude = "18.01353560",
                     Type = "district",
@@ -1331,7 +1334,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 47,
                     Name = "Nymburk",
-                    StateCode = "208",
+                    StateCode = "",
                     Latitude = "50.18558160",
                     Longitude = "15.04366040",
                     Type = "district",
@@ -1344,7 +1347,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 48,
                     Name = "Olomouc",
-                    StateCode = "712",
+                    StateCode = "",
                     Latitude = "49.59377800",
                     Longitude = "17.25087870",
                     Type = "district",
@@ -1357,9 +1360,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 49,
                     Name = "Olomoucký kraj",
-                    StateCode = "71",
-                    Latitude = "49.65865490",
-                    Longitude = "17.08114060",
+                    StateCode = "",
+                    Latitude = "49.85910580",
+                    Longitude = "16.95612670",
                     Type = "region",
                     Cities = new()
                     {
@@ -1484,9 +1487,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 50,
                     Name = "Opava",
-                    StateCode = "805",
-                    Latitude = "49.90837570",
-                    Longitude = "17.91633800",
+                    StateCode = "",
+                    Latitude = "49.93890040",
+                    Longitude = "17.90241740",
                     Type = "district",
                     Cities = new()
                     {
@@ -1497,9 +1500,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 51,
                     Name = "Ostrava-město",
-                    StateCode = "806",
-                    Latitude = "49.82092260",
-                    Longitude = "18.26252430",
+                    StateCode = "",
+                    Latitude = "49.83491390",
+                    Longitude = "18.28200840",
                     Type = "district",
                     Cities = new()
                     {
@@ -1510,9 +1513,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 52,
                     Name = "Pardubice",
-                    StateCode = "532",
-                    Latitude = "49.94444790",
-                    Longitude = "16.28569160",
+                    StateCode = "",
+                    Latitude = "50.03858120",
+                    Longitude = "15.77913560",
                     Type = "district",
                     Cities = new()
                     {
@@ -1523,9 +1526,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 53,
                     Name = "Pardubický kraj",
-                    StateCode = "53",
-                    Latitude = "49.94444790",
-                    Longitude = "16.28569160",
+                    StateCode = "",
+                    Latitude = "49.88981900",
+                    Longitude = "16.12832540",
                     Type = "region",
                     Cities = new()
                     {
@@ -1611,7 +1614,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 54,
                     Name = "Pelhřimov",
-                    StateCode = "633",
+                    StateCode = "",
                     Latitude = "49.43062070",
                     Longitude = "15.22298300",
                     Type = "district",
@@ -1624,9 +1627,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 55,
                     Name = "Písek",
-                    StateCode = "314",
-                    Latitude = "49.34199380",
-                    Longitude = "14.24697600",
+                    StateCode = "",
+                    Latitude = "49.30898870",
+                    Longitude = "14.14776900",
                     Type = "district",
                     Cities = new()
                     {
@@ -1637,9 +1640,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 56,
                     Name = "Plzeň-jih",
-                    StateCode = "324",
-                    Latitude = "49.59048850",
-                    Longitude = "13.57158610",
+                    StateCode = "",
+                    Latitude = "49.55224210",
+                    Longitude = "13.43426140",
                     Type = "district",
                     Cities = new()
                     {
@@ -1739,9 +1742,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 57,
                     Name = "Plzeň-město",
-                    StateCode = "323",
-                    Latitude = "49.73843140",
-                    Longitude = "13.37363710",
+                    StateCode = "",
+                    Latitude = "49.74774150",
+                    Longitude = "13.37752490",
                     Type = "district",
                     Cities = new()
                     {
@@ -1752,9 +1755,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 58,
                     Name = "Plzeň-sever",
-                    StateCode = "325",
-                    Latitude = "49.87748930",
-                    Longitude = "13.25374280",
+                    StateCode = "",
+                    Latitude = "49.88142340",
+                    Longitude = "13.28128810",
                     Type = "district",
                     Cities = new()
                     {
@@ -1765,9 +1768,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 59,
                     Name = "Plzeňský kraj",
-                    StateCode = "32",
-                    Latitude = "49.41348120",
-                    Longitude = "13.31572460",
+                    StateCode = "",
+                    Latitude = "49.52281020",
+                    Longitude = "13.20631180",
                     Type = "region",
                     Cities = new()
                     {
@@ -1778,7 +1781,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 60,
                     Name = "Prachatice",
-                    StateCode = "315",
+                    StateCode = "",
                     Latitude = "49.01091000",
                     Longitude = "14.00000050",
                     Type = "district",
@@ -1791,9 +1794,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 61,
                     Name = "Praha-východ",
-                    StateCode = "209",
-                    Latitude = "49.93893070",
-                    Longitude = "14.79244720",
+                    StateCode = "",
+                    Latitude = "50.08281120",
+                    Longitude = "14.71921790",
                     Type = "district",
                     Cities = new()
                     {
@@ -1804,9 +1807,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 62,
                     Name = "Praha-západ",
-                    StateCode = "20A",
-                    Latitude = "49.89352350",
-                    Longitude = "14.32937790",
+                    StateCode = "",
+                    Latitude = "49.99844200",
+                    Longitude = "14.26342830",
                     Type = "district",
                     Cities = new()
                     {
@@ -1817,9 +1820,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 63,
                     Name = "Praha, Hlavní město",
-                    StateCode = "10",
-                    Latitude = "50.07553810",
-                    Longitude = "14.43780050",
+                    StateCode = "",
+                    Latitude = "50.05962880",
+                    Longitude = "14.44645930",
                     Type = "capital city",
                     Cities = new()
                     {
@@ -1853,9 +1856,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 64,
                     Name = "Přerov",
-                    StateCode = "714",
-                    Latitude = "49.46713560",
-                    Longitude = "17.50773320",
+                    StateCode = "",
+                    Latitude = "49.45537750",
+                    Longitude = "17.45086210",
                     Type = "district",
                     Cities = new()
                     {
@@ -1866,9 +1869,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 65,
                     Name = "Příbram",
-                    StateCode = "20B",
-                    Latitude = "49.69479590",
-                    Longitude = "14.08238100",
+                    StateCode = "",
+                    Latitude = "49.69014440",
+                    Longitude = "14.01036630",
                     Type = "district",
                     Cities = new()
                     {
@@ -1879,9 +1882,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 66,
                     Name = "Prostějov",
-                    StateCode = "713",
-                    Latitude = "49.44184010",
-                    Longitude = "17.12779040",
+                    StateCode = "",
+                    Latitude = "49.47214670",
+                    Longitude = "17.11179790",
                     Type = "district",
                     Cities = new()
                     {
@@ -1892,7 +1895,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 67,
                     Name = "Rakovník",
-                    StateCode = "20C",
+                    StateCode = "",
                     Latitude = "50.10612300",
                     Longitude = "13.73966230",
                     Type = "district",
@@ -1905,9 +1908,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 68,
                     Name = "Rokycany",
-                    StateCode = "326",
-                    Latitude = "49.82628270",
-                    Longitude = "13.68749430",
+                    StateCode = "",
+                    Latitude = "49.80024140",
+                    Longitude = "13.64745770",
                     Type = "district",
                     Cities = new()
                     {
@@ -1918,7 +1921,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 69,
                     Name = "Rychnov nad Kněžnou",
-                    StateCode = "524",
+                    StateCode = "",
                     Latitude = "50.16596510",
                     Longitude = "16.27768420",
                     Type = "district",
@@ -1931,7 +1934,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 70,
                     Name = "Semily",
-                    StateCode = "514",
+                    StateCode = "",
                     Latitude = "50.60515760",
                     Longitude = "15.32814090",
                     Type = "district",
@@ -1944,9 +1947,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 71,
                     Name = "Sokolov",
-                    StateCode = "413",
-                    Latitude = "50.20134340",
-                    Longitude = "12.60546360",
+                    StateCode = "",
+                    Latitude = "50.18090970",
+                    Longitude = "12.63949860",
                     Type = "district",
                     Cities = new()
                     {
@@ -1957,7 +1960,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 72,
                     Name = "Strakonice",
-                    StateCode = "316",
+                    StateCode = "",
                     Latitude = "49.26040430",
                     Longitude = "13.91030850",
                     Type = "district",
@@ -1970,9 +1973,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 73,
                     Name = "Středočeský kraj",
-                    StateCode = "20",
-                    Latitude = "49.87822230",
-                    Longitude = "14.93629550",
+                    StateCode = "",
+                    Latitude = "50.06015790",
+                    Longitude = "13.83074790",
                     Type = "region",
                     Cities = new()
                     {
@@ -2174,9 +2177,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 74,
                     Name = "Šumperk",
-                    StateCode = "715",
-                    Latitude = "49.97784070",
-                    Longitude = "16.97177540",
+                    StateCode = "",
+                    Latitude = "49.96555210",
+                    Longitude = "16.97056510",
                     Type = "district",
                     Cities = new()
                     {
@@ -2187,7 +2190,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 75,
                     Name = "Svitavy",
-                    StateCode = "533",
+                    StateCode = "",
                     Latitude = "49.75516290",
                     Longitude = "16.46918610",
                     Type = "district",
@@ -2200,9 +2203,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 76,
                     Name = "Tábor",
-                    StateCode = "317",
-                    Latitude = "49.36462930",
-                    Longitude = "14.71912930",
+                    StateCode = "",
+                    Latitude = "49.41415330",
+                    Longitude = "14.65872340",
                     Type = "district",
                     Cities = new()
                     {
@@ -2213,7 +2216,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 77,
                     Name = "Tachov",
-                    StateCode = "327",
+                    StateCode = "",
                     Latitude = "49.79878030",
                     Longitude = "12.63619210",
                     Type = "district",
@@ -2226,9 +2229,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 78,
                     Name = "Teplice",
-                    StateCode = "426",
-                    Latitude = "50.65846050",
-                    Longitude = "13.75132270",
+                    StateCode = "",
+                    Latitude = "50.64066440",
+                    Longitude = "13.82444610",
                     Type = "district",
                     Cities = new()
                     {
@@ -2239,7 +2242,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 79,
                     Name = "Třebíč",
-                    StateCode = "634",
+                    StateCode = "",
                     Latitude = "49.21478690",
                     Longitude = "15.87955160",
                     Type = "district",
@@ -2252,7 +2255,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 80,
                     Name = "Trutnov",
-                    StateCode = "525",
+                    StateCode = "",
                     Latitude = "50.56538380",
                     Longitude = "15.90909230",
                     Type = "district",
@@ -2265,9 +2268,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 81,
                     Name = "Uherské Hradiště",
-                    StateCode = "722",
-                    Latitude = "49.05979690",
-                    Longitude = "17.49585010",
+                    StateCode = "",
+                    Latitude = "49.06810180",
+                    Longitude = "17.46638990",
                     Type = "district",
                     Cities = new()
                     {
@@ -2278,9 +2281,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 82,
                     Name = "Ústecký kraj",
-                    StateCode = "42",
-                    Latitude = "50.61190370",
-                    Longitude = "13.78700860",
+                    StateCode = "",
+                    Latitude = "50.56632660",
+                    Longitude = "13.82067050",
                     Type = "region",
                     Cities = new()
                     {
@@ -2384,9 +2387,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 83,
                     Name = "Ústí nad Labem",
-                    StateCode = "427",
-                    Latitude = "50.61190370",
-                    Longitude = "13.78700860",
+                    StateCode = "",
+                    Latitude = "50.66033270",
+                    Longitude = "14.03813570",
                     Type = "district",
                     Cities = new()
                     {
@@ -2397,7 +2400,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 84,
                     Name = "Ústí nad Orlicí",
-                    StateCode = "534",
+                    StateCode = "",
                     Latitude = "49.97218010",
                     Longitude = "16.39966170",
                     Type = "district",
@@ -2410,9 +2413,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 85,
                     Name = "Vsetín",
-                    StateCode = "723",
-                    Latitude = "49.37932500",
-                    Longitude = "18.06181620",
+                    StateCode = "",
+                    Latitude = "49.33897750",
+                    Longitude = "17.99615340",
                     Type = "district",
                     Cities = new()
                     {
@@ -2423,9 +2426,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 86,
                     Name = "Vyškov",
-                    StateCode = "646",
-                    Latitude = "49.21274450",
-                    Longitude = "16.98559270",
+                    StateCode = "",
+                    Latitude = "49.27781940",
+                    Longitude = "16.99944460",
                     Type = "district",
                     Cities = new()
                     {
@@ -2436,7 +2439,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 87,
                     Name = "Žďár nad Sázavou",
-                    StateCode = "635",
+                    StateCode = "",
                     Latitude = "49.56430120",
                     Longitude = "15.93910300",
                     Type = "district",
@@ -2449,9 +2452,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 88,
                     Name = "Zlín",
-                    StateCode = "724",
-                    Latitude = "49.16960520",
-                    Longitude = "17.80252200",
+                    StateCode = "",
+                    Latitude = "49.22676600",
+                    Longitude = "17.66674150",
                     Type = "district",
                     Cities = new()
                     {
@@ -2561,9 +2564,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 89,
                     Name = "Zlínský kraj",
-                    StateCode = "72",
-                    Latitude = "49.21622960",
-                    Longitude = "17.77203530",
+                    StateCode = "",
+                    Latitude = "49.19692000",
+                    Longitude = "17.64609160",
                     Type = "region",
                     Cities = new()
                     {
@@ -2574,9 +2577,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 90,
                     Name = "Znojmo",
-                    StateCode = "647",
-                    Latitude = "48.92723270",
-                    Longitude = "16.10378080",
+                    StateCode = "",
+                    Latitude = "48.85543410",
+                    Longitude = "16.04894570",
                     Type = "district",
                     Cities = new()
                     {

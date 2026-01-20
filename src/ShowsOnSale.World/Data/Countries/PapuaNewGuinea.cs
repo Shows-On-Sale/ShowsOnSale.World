@@ -39,6 +39,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Papoua Ginea-Nevez",
                 ["ko"] = "파푸아뉴기니",
                 ["pt-BR"] = "Papua Nova Guiné",
                 ["pt"] = "Papua Nova Guiné",
@@ -54,7 +55,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Papua Yeni Gine",
                 ["ru"] = "Папуа - Новая Гвинея",
                 ["uk"] = "Папуа-Нова Гвінея",
-                ["pl"] = "Papua-Nowa Gwinea"
+                ["pl"] = "Papua-Nowa Gwinea",
+                ["hi"] = "पापुआ न्यू गिनी",
+                ["ar"] = "بابوا غينيا الجديدة"
             },
             States = new()
             {
@@ -63,9 +66,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Bougainville",
-                    StateCode = "NSB",
-                    Latitude = "-6.37539190",
-                    Longitude = "155.38071010",
+                    StateCode = "",
+                    Latitude = "-6.14412830",
+                    Longitude = "155.20593390",
                     Type = "autonomous region",
                     Cities = new()
                     {
@@ -82,9 +85,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Central",
-                    StateCode = "CPM",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "-10.00000000",
+                    Longitude = "148.00000000",
                     Type = "province",
                     Cities = new()
                     {
@@ -99,9 +102,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Chimbu",
-                    StateCode = "CPK",
-                    Latitude = "-6.30876820",
-                    Longitude = "144.87312190",
+                    StateCode = "",
+                    Latitude = "-6.25000000",
+                    Longitude = "144.83333300",
                     Type = "province",
                     Cities = new()
                     {
@@ -118,9 +121,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "East New Britain",
-                    StateCode = "EBR",
-                    Latitude = "-4.61289430",
-                    Longitude = "151.88773210",
+                    StateCode = "",
+                    Latitude = "-5.13862780",
+                    Longitude = "151.90201870",
                     Type = "province",
                     Cities = new()
                     {
@@ -135,9 +138,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "East Sepik",
-                    StateCode = "ESW",
-                    Latitude = "-4.00000000",
-                    Longitude = "143.75000000",
+                    StateCode = "",
+                    Latitude = "-4.35554100",
+                    Longitude = "143.23251620",
                     Type = "province",
                     Cities = new()
                     {
@@ -148,9 +151,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Eastern Highlands",
-                    StateCode = "EHG",
-                    Latitude = "-6.58616740",
-                    Longitude = "145.66896360",
+                    StateCode = "",
+                    Latitude = "-6.50000000",
+                    Longitude = "145.58333300",
                     Type = "province",
                     Cities = new()
                     {
@@ -169,9 +172,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Enga",
-                    StateCode = "EPW",
-                    Latitude = "-5.30058490",
-                    Longitude = "143.56356370",
+                    StateCode = "",
+                    Latitude = "-5.67259370",
+                    Longitude = "143.64369420",
                     Type = "province",
                     Cities = new()
                     {
@@ -188,9 +191,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Gulf",
-                    StateCode = "GPK",
-                    Latitude = "37.05483150",
-                    Longitude = "-94.43704190",
+                    StateCode = "",
+                    Latitude = "-7.55564110",
+                    Longitude = "144.88500360",
                     Type = "province",
                     Cities = new()
                     {
@@ -203,9 +206,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Hela",
-                    StateCode = "HLA",
-                    Latitude = "42.33295160",
-                    Longitude = "-83.04826180",
+                    StateCode = "",
+                    Latitude = "-5.77297760",
+                    Longitude = "142.77924770",
                     Type = "province",
                     Cities = new()
                     {
@@ -220,9 +223,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Jiwaka",
-                    StateCode = "JWK",
-                    Latitude = "-5.86911540",
-                    Longitude = "144.69727740",
+                    StateCode = "",
+                    Latitude = "-5.57976040",
+                    Longitude = "144.61375200",
                     Type = "province",
                     Cities = new()
                     {
@@ -236,9 +239,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Madang",
-                    StateCode = "MPM",
-                    Latitude = "-4.98497330",
-                    Longitude = "145.13758340",
+                    StateCode = "",
+                    Latitude = "-5.00000000",
+                    Longitude = "145.50000000",
                     Type = "province",
                     Cities = new()
                     {
@@ -255,9 +258,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Manus",
-                    StateCode = "MRL",
-                    Latitude = "-2.09411690",
-                    Longitude = "146.87609510",
+                    StateCode = "",
+                    Latitude = "-2.10326450",
+                    Longitude = "146.93254480",
                     Type = "province",
                     Cities = new()
                     {
@@ -270,9 +273,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Milne Bay",
-                    StateCode = "MBA",
-                    Latitude = "-9.52214510",
-                    Longitude = "150.67496530",
+                    StateCode = "",
+                    Latitude = "-10.02264910",
+                    Longitude = "151.58002880",
                     Type = "province",
                     Cities = new()
                     {
@@ -288,9 +291,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Morobe",
-                    StateCode = "MPL",
-                    Latitude = "-6.80137370",
-                    Longitude = "146.56164700",
+                    StateCode = "",
+                    Latitude = "-7.00000000",
+                    Longitude = "147.00000000",
                     Type = "province",
                     Cities = new()
                     {
@@ -311,9 +314,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "New Ireland",
-                    StateCode = "NIK",
-                    Latitude = "-4.28532560",
-                    Longitude = "152.92059180",
+                    StateCode = "",
+                    Latitude = "-3.70214720",
+                    Longitude = "152.43600210",
                     Type = "province",
                     Cities = new()
                     {
@@ -326,9 +329,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Oro",
-                    StateCode = "NPP",
-                    Latitude = "-8.89880630",
-                    Longitude = "148.18929210",
+                    StateCode = "",
+                    Latitude = "-9.00000000",
+                    Longitude = "148.50000000",
                     Type = "province",
                     Cities = new()
                     {
@@ -343,13 +346,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Port Moresby",
-                    StateCode = "NCD",
-                    Latitude = "-9.44380040",
-                    Longitude = "147.18026710",
+                    StateCode = "",
+                    Latitude = "-9.47433010",
+                    Longitude = "147.15995040",
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "National Capital District", Latitude = "-9.42257000", Longitude = "147.16641000" },
+                        new() { Id = 1, Name = "National Capital", Latitude = "-9.42257000", Longitude = "147.16641000" },
                         new() { Id = 2, Name = "Port Moresby", Latitude = "-9.47723000", Longitude = "147.15089000" }
                     }
                 },
@@ -358,9 +361,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Sandaun",
-                    StateCode = "SAN",
-                    Latitude = "-3.71261790",
-                    Longitude = "141.68342750",
+                    StateCode = "",
+                    Latitude = "-3.50000000",
+                    Longitude = "142.00000000",
                     Type = "province",
                     Cities = new()
                     {
@@ -377,18 +380,17 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 19,
                     Name = "Southern Highlands",
-                    StateCode = "SHM",
-                    Latitude = "-6.41790830",
-                    Longitude = "143.56356370",
+                    StateCode = "",
+                    Latitude = "-6.44715220",
+                    Longitude = "143.60066120",
                     Type = "province",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ialibu", Latitude = "-6.28208000", Longitude = "143.99354000" },
-                        new() { Id = 2, Name = "Ialibu Pangia", Latitude = "-6.16667000", Longitude = "144.00000000" },
-                        new() { Id = 3, Name = "Imbonggu", Latitude = "-6.16667000", Longitude = "144.00000000" },
-                        new() { Id = 4, Name = "Kagua Erave", Latitude = "-6.66667000", Longitude = "144.00000000" },
-                        new() { Id = 5, Name = "Mendi", Latitude = "-6.14755000", Longitude = "143.65633000" },
-                        new() { Id = 6, Name = "Nipa Kutubu", Latitude = "-6.33333000", Longitude = "143.33333000" }
+                        new() { Id = 2, Name = "Ialibu Pangia", Latitude = "-6.38401880", Longitude = "144.08381900" },
+                        new() { Id = 3, Name = "Kagua Erave", Latitude = "-6.66667000", Longitude = "144.00000000" },
+                        new() { Id = 4, Name = "Mendi", Latitude = "-6.14755000", Longitude = "143.65633000" },
+                        new() { Id = 5, Name = "Nipa Kutubu", Latitude = "-6.33333000", Longitude = "143.33333000" }
                     }
                 },
 
@@ -396,9 +398,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 20,
                     Name = "West New Britain",
-                    StateCode = "WBK",
-                    Latitude = "-5.70474320",
-                    Longitude = "150.02594660",
+                    StateCode = "",
+                    Latitude = "-5.88914650",
+                    Longitude = "149.69954600",
                     Type = "province",
                     Cities = new()
                     {
@@ -413,9 +415,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 21,
                     Name = "Western",
-                    StateCode = "WPD",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "-7.50000000",
+                    Longitude = "142.00000000",
                     Type = "province",
                     Cities = new()
                     {
@@ -432,9 +434,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 22,
                     Name = "Western Highlands",
-                    StateCode = "WHM",
-                    Latitude = "-5.62681280",
-                    Longitude = "144.25931180",
+                    StateCode = "",
+                    Latitude = "-5.84158600",
+                    Longitude = "144.23553480",
                     Type = "province",
                     Cities = new()
                     {

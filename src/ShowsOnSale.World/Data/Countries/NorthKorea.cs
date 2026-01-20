@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Korea an Norzh",
                 ["ko"] = "조선민주주의인민공화국",
                 ["pt-BR"] = "Coreia do Norte",
                 ["pt"] = "Coreia do Norte",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Kuzey Kore",
                 ["ru"] = "Северная Корея",
                 ["uk"] = "Північна Корея",
-                ["pl"] = "Korea Północna"
+                ["pl"] = "Korea Północna",
+                ["hi"] = "उत्तर कोरिया",
+                ["ar"] = "كوريا الشمالية"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Chagang",
-                    StateCode = "04",
-                    Latitude = "40.72028090",
-                    Longitude = "126.56211370",
+                    StateCode = "",
+                    Latitude = "40.71985360",
+                    Longitude = "126.53905600",
                     Type = "province",
                     Cities = new()
                     {
@@ -78,10 +81,23 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 2,
+                    Name = "Kaesong",
+                    StateCode = "",
+                    Latitude = "37.97166667",
+                    Longitude = "126.55277778",
+                    Type = "metropolitan city",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 3,
                     Name = "Kangwon",
-                    StateCode = "07",
-                    Latitude = "38.84323930",
-                    Longitude = "127.55970670",
+                    StateCode = "",
+                    Latitude = "38.83543490",
+                    Longitude = "127.51465470",
                     Type = "province",
                     Cities = new()
                     {
@@ -95,11 +111,24 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 3,
+                    Id = 4,
+                    Name = "Nampho",
+                    StateCode = "",
+                    Latitude = "38.73555556",
+                    Longitude = "125.40888889",
+                    Type = "metropolitan city",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 5,
                     Name = "North Hamgyong",
-                    StateCode = "09",
-                    Latitude = "41.81487580",
-                    Longitude = "129.45819550",
+                    StateCode = "",
+                    Latitude = "41.90987230",
+                    Longitude = "129.36905600",
                     Type = "province",
                     Cities = new()
                     {
@@ -124,11 +153,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 4,
+                    Id = 6,
                     Name = "North Hwanghae",
-                    StateCode = "06",
-                    Latitude = "38.37860850",
-                    Longitude = "126.43643630",
+                    StateCode = "",
+                    Latitude = "38.57096320",
+                    Longitude = "126.24657230",
                     Type = "province",
                     Cities = new()
                     {
@@ -144,11 +173,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 5,
+                    Id = 7,
                     Name = "North Pyongan",
-                    StateCode = "03",
-                    Latitude = "39.92556180",
-                    Longitude = "125.39280250",
+                    StateCode = "",
+                    Latitude = "40.06428470",
+                    Longitude = "125.23562220",
                     Type = "province",
                     Cities = new()
                     {
@@ -169,11 +198,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 6,
+                    Id = 8,
                     Name = "Pyongyang",
-                    StateCode = "01",
-                    Latitude = "39.03921930",
-                    Longitude = "125.76252410",
+                    StateCode = "",
+                    Latitude = "39.01679790",
+                    Longitude = "125.74736090",
                     Type = "capital city",
                     Cities = new()
                     {
@@ -187,11 +216,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 7,
+                    Id = 9,
                     Name = "Rason",
-                    StateCode = "13",
-                    Latitude = "42.25690630",
-                    Longitude = "130.29771860",
+                    StateCode = "",
+                    Latitude = "42.24973160",
+                    Longitude = "130.31132960",
                     Type = "special city",
                     Cities = new()
                     {
@@ -202,11 +231,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 8,
+                    Id = 10,
                     Name = "Ryanggang",
-                    StateCode = "10",
-                    Latitude = "41.23189210",
-                    Longitude = "128.50763590",
+                    StateCode = "",
+                    Latitude = "41.09978980",
+                    Longitude = "128.16903460",
                     Type = "province",
                     Cities = new()
                     {
@@ -219,11 +248,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 9,
+                    Id = 11,
                     Name = "South Hamgyong",
-                    StateCode = "08",
-                    Latitude = "40.37253390",
-                    Longitude = "128.29888400",
+                    StateCode = "",
+                    Latitude = "40.11991800",
+                    Longitude = "127.59909890",
                     Type = "province",
                     Cities = new()
                     {
@@ -241,11 +270,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 10,
+                    Id = 12,
                     Name = "South Hwanghae",
-                    StateCode = "05",
-                    Latitude = "38.20072150",
-                    Longitude = "125.47819260",
+                    StateCode = "",
+                    Latitude = "38.26282620",
+                    Longitude = "125.47690100",
                     Type = "province",
                     Cities = new()
                     {
@@ -262,11 +291,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 11,
+                    Id = 13,
                     Name = "South Pyongan",
-                    StateCode = "02",
-                    Latitude = "39.35391780",
-                    Longitude = "126.16827100",
+                    StateCode = "",
+                    Latitude = "39.54165050",
+                    Longitude = "126.06476450",
                     Type = "province",
                     Cities = new()
                     {

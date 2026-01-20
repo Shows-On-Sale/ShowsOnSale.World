@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 75,
+            Id = 74,
             Name = "Finland",
             Iso3 = "FIN",
             Iso2 = "FI",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Finland",
                 ["ko"] = "핀란드",
                 ["pt-BR"] = "Finlândia",
                 ["pt"] = "Finlândia",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Finlandiya",
                 ["ru"] = "Финляндия",
                 ["uk"] = "Фінляндія",
-                ["pl"] = "Finlandia"
+                ["pl"] = "Finlandia",
+                ["hi"] = "फिनलैंड",
+                ["ar"] = "فنلندا"
             },
             States = new()
             {
@@ -61,35 +64,10 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 1,
-                    Name = "Åland Islands",
-                    StateCode = "01",
-                    Latitude = "60.17852470",
-                    Longitude = "19.91561050",
-                    Type = "region",
-                    Cities = new()
-                    {
-                        new() { Id = 1, Name = "Brändö", Latitude = "60.40750000", Longitude = "21.07860000" },
-                        new() { Id = 2, Name = "Eckerö", Latitude = "60.22080000", Longitude = "19.55890000" },
-                        new() { Id = 3, Name = "Finström", Latitude = "60.23420000", Longitude = "20.11390000" },
-                        new() { Id = 4, Name = "Föglö", Latitude = "60.09890000", Longitude = "20.37280000" },
-                        new() { Id = 5, Name = "Geta", Latitude = "60.41830000", Longitude = "19.71670000" },
-                        new() { Id = 6, Name = "Hammarland", Latitude = "60.24470000", Longitude = "19.68920000" },
-                        new() { Id = 7, Name = "Jomala", Latitude = "60.11810000", Longitude = "19.89890000" },
-                        new() { Id = 8, Name = "Kumlinge", Latitude = "60.39920000", Longitude = "20.76920000" },
-                        new() { Id = 9, Name = "Lemland", Latitude = "60.09250000", Longitude = "20.15440000" },
-                        new() { Id = 10, Name = "Mariehamn", Latitude = "60.10260000", Longitude = "19.93480000" },
-                        new() { Id = 11, Name = "Saltvik", Latitude = "60.35750000", Longitude = "20.15470000" },
-                        new() { Id = 12, Name = "Sund", Latitude = "60.23610000", Longitude = "20.21560000" }
-                    }
-                },
-
-                new()
-                {
-                    Id = 2,
                     Name = "Central Finland",
-                    StateCode = "08",
-                    Latitude = "62.56667430",
-                    Longitude = "25.55494450",
+                    StateCode = "",
+                    Latitude = "62.60936580",
+                    Longitude = "25.57946100",
                     Type = "region",
                     Cities = new()
                     {
@@ -128,11 +106,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 3,
+                    Id = 2,
                     Name = "Central Ostrobothnia",
-                    StateCode = "07",
-                    Latitude = "63.56217350",
-                    Longitude = "24.00136310",
+                    StateCode = "",
+                    Latitude = "63.64765570",
+                    Longitude = "24.11141130",
                     Type = "region",
                     Cities = new()
                     {
@@ -152,11 +130,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 4,
+                    Id = 3,
                     Name = "Finland Proper",
-                    StateCode = "19",
-                    Latitude = "60.36279140",
-                    Longitude = "22.44393690",
+                    StateCode = "",
+                    Latitude = "60.30361130",
+                    Longitude = "22.41130840",
                     Type = "region",
                     Cities = new()
                     {
@@ -218,11 +196,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 5,
+                    Id = 4,
                     Name = "Kainuu",
-                    StateCode = "05",
-                    Latitude = "64.37365640",
-                    Longitude = "28.74374750",
+                    StateCode = "",
+                    Latitude = "64.59463540",
+                    Longitude = "28.68105240",
                     Type = "region",
                     Cities = new()
                     {
@@ -242,11 +220,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 6,
+                    Id = 5,
                     Name = "Kymenlaakso",
-                    StateCode = "09",
-                    Latitude = "60.78051200",
-                    Longitude = "26.88293360",
+                    StateCode = "",
+                    Latitude = "60.73185290",
+                    Longitude = "27.08287440",
                     Type = "region",
                     Cities = new()
                     {
@@ -266,11 +244,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 7,
+                    Id = 6,
                     Name = "Lapland",
-                    StateCode = "10",
-                    Latitude = "67.92223040",
-                    Longitude = "26.50464380",
+                    StateCode = "",
+                    Latitude = "67.69291040",
+                    Longitude = "26.72821420",
                     Type = "region",
                     Cities = new()
                     {
@@ -302,11 +280,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 8,
+                    Id = 7,
                     Name = "North Karelia",
-                    StateCode = "13",
-                    Latitude = "62.80620780",
-                    Longitude = "30.15538870",
+                    StateCode = "",
+                    Latitude = "62.80105200",
+                    Longitude = "30.21271160",
                     Type = "region",
                     Cities = new()
                     {
@@ -333,11 +311,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 9,
+                    Id = 8,
                     Name = "Northern Ostrobothnia",
-                    StateCode = "14",
-                    Latitude = "65.27949300",
-                    Longitude = "26.28904170",
+                    StateCode = "",
+                    Latitude = "64.95215120",
+                    Longitude = "25.69688120",
                     Type = "region",
                     Cities = new()
                     {
@@ -387,11 +365,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 10,
+                    Id = 9,
                     Name = "Northern Savonia",
-                    StateCode = "15",
-                    Latitude = "63.08448000",
-                    Longitude = "27.02535040",
+                    StateCode = "",
+                    Latitude = "62.93704610",
+                    Longitude = "27.49429950",
                     Type = "region",
                     Cities = new()
                     {
@@ -400,11 +378,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 11,
+                    Id = 10,
                     Name = "Ostrobothnia",
-                    StateCode = "12",
-                    Latitude = "63.11817570",
-                    Longitude = "21.90610620",
+                    StateCode = "",
+                    Latitude = "62.96518570",
+                    Longitude = "21.20993670",
                     Type = "region",
                     Cities = new()
                     {
@@ -433,11 +411,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 12,
+                    Id = 11,
                     Name = "Päijänne Tavastia",
-                    StateCode = "16",
-                    Latitude = "61.32300410",
-                    Longitude = "25.73224960",
+                    StateCode = "",
+                    Latitude = "61.14441960",
+                    Longitude = "25.68725020",
                     Type = "region",
                     Cities = new()
                     {
@@ -458,11 +436,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 13,
+                    Id = 12,
                     Name = "Pirkanmaa",
-                    StateCode = "11",
-                    Latitude = "61.69869180",
-                    Longitude = "23.78955980",
+                    StateCode = "",
+                    Latitude = "61.71743300",
+                    Longitude = "23.71571150",
                     Type = "region",
                     Cities = new()
                     {
@@ -531,11 +509,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 14,
+                    Id = 13,
                     Name = "Satakunta",
-                    StateCode = "17",
-                    Latitude = "61.59327580",
-                    Longitude = "22.14830810",
+                    StateCode = "",
+                    Latitude = "61.59342790",
+                    Longitude = "21.78245120",
                     Type = "region",
                     Cities = new()
                     {
@@ -569,11 +547,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 15,
+                    Id = 14,
                     Name = "South Karelia",
-                    StateCode = "02",
-                    Latitude = "61.11819490",
-                    Longitude = "28.10243720",
+                    StateCode = "",
+                    Latitude = "61.26674430",
+                    Longitude = "28.40548490",
                     Type = "region",
                     Cities = new()
                     {
@@ -595,9 +573,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 16,
+                    Id = 15,
                     Name = "Southern Ostrobothnia",
-                    StateCode = "03",
+                    StateCode = "",
                     Latitude = "62.94330990",
                     Longitude = "23.52852670",
                     Type = "region",
@@ -634,9 +612,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 17,
+                    Id = 16,
                     Name = "Southern Savonia",
-                    StateCode = "04",
+                    StateCode = "",
                     Latitude = "61.69451480",
                     Longitude = "27.80050150",
                     Type = "region",
@@ -668,11 +646,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 18,
+                    Id = 17,
                     Name = "Tavastia Proper",
-                    StateCode = "06",
-                    Latitude = "60.90701500",
-                    Longitude = "24.30054980",
+                    StateCode = "",
+                    Latitude = "60.93769600",
+                    Longitude = "24.15319190",
                     Type = "region",
                     Cities = new()
                     {
@@ -697,11 +675,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 19,
+                    Id = 18,
                     Name = "Uusimaa",
-                    StateCode = "18",
-                    Latitude = "60.21872000",
-                    Longitude = "25.27162100",
+                    StateCode = "",
+                    Latitude = "60.22466840",
+                    Longitude = "25.12726310",
                     Type = "region",
                     Cities = new()
                     {

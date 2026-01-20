@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Tokelau",
                 ["ko"] = "토켈라우",
                 ["pt-BR"] = "Tokelau",
                 ["pt"] = "Toquelau",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Tokelau",
                 ["ru"] = "Токелау",
                 ["uk"] = "Токелау",
-                ["pl"] = "Tokelau"
+                ["pl"] = "Tokelau",
+                ["hi"] = "टोकेलाऊ",
+                ["ar"] = "توكيلاو"
             },
             States = new()
             {

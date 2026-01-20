@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Lituania",
                 ["ko"] = "리투아니아",
                 ["pt-BR"] = "Lituânia",
                 ["pt"] = "Lituânia",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Litvanya",
                 ["ru"] = "Литва",
                 ["uk"] = "Литва",
-                ["pl"] = "Litwa"
+                ["pl"] = "Litwa",
+                ["hi"] = "लिथुआनिया",
+                ["ar"] = "ليتوانيا"
             },
             States = new()
             {
@@ -62,7 +65,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Akmenė",
-                    StateCode = "01",
+                    StateCode = "",
                     Latitude = "56.24550290",
                     Longitude = "22.74711690",
                     Type = "district municipality",
@@ -75,9 +78,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Alytus",
-                    StateCode = "03",
-                    Latitude = "54.32974960",
-                    Longitude = "24.19609310",
+                    StateCode = "",
+                    Latitude = "54.39246770",
+                    Longitude = "24.10876070",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -88,22 +91,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Alytus",
-                    StateCode = "AL",
-                    Latitude = "54.20002140",
-                    Longitude = "24.15126340",
-                    Type = "county",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 4,
-                    Name = "Alytus",
-                    StateCode = "02",
-                    Latitude = "54.39629380",
-                    Longitude = "24.04587610",
+                    StateCode = "",
+                    Latitude = "54.39246770",
+                    Longitude = "24.10876070",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -119,11 +109,24 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
+                    Id = 4,
+                    Name = "Alytus",
+                    StateCode = "",
+                    Latitude = "54.39246770",
+                    Longitude = "24.10876070",
+                    Type = "county",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
                     Id = 5,
                     Name = "Anykščiai",
-                    StateCode = "04",
-                    Latitude = "55.54755510",
-                    Longitude = "24.73181660",
+                    StateCode = "",
+                    Latitude = "55.52579350",
+                    Longitude = "25.10612470",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -134,9 +137,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Birštonas",
-                    StateCode = "05",
-                    Latitude = "54.56696640",
-                    Longitude = "24.00930980",
+                    StateCode = "",
+                    Latitude = "54.58641940",
+                    Longitude = "24.04217360",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -147,7 +150,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Biržai",
-                    StateCode = "06",
+                    StateCode = "",
                     Latitude = "56.20177190",
                     Longitude = "24.75601180",
                     Type = "district municipality",
@@ -160,9 +163,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Druskininkai",
-                    StateCode = "07",
-                    Latitude = "53.99336850",
-                    Longitude = "24.03424380",
+                    StateCode = "",
+                    Latitude = "54.01719320",
+                    Longitude = "23.97722820",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -173,9 +176,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Elektrėnai",
-                    StateCode = "08",
-                    Latitude = "54.76539340",
-                    Longitude = "24.77405830",
+                    StateCode = "",
+                    Latitude = "54.78665700",
+                    Longitude = "24.67083980",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -186,9 +189,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Ignalina",
-                    StateCode = "09",
-                    Latitude = "55.40903420",
-                    Longitude = "26.32848930",
+                    StateCode = "",
+                    Latitude = "55.33989750",
+                    Longitude = "26.16140430",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -199,7 +202,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Jonava",
-                    StateCode = "10",
+                    StateCode = "",
                     Latitude = "55.07272420",
                     Longitude = "24.27933370",
                     Type = "district municipality",
@@ -212,7 +215,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Joniškis",
-                    StateCode = "11",
+                    StateCode = "",
                     Latitude = "56.23607300",
                     Longitude = "23.61365790",
                     Type = "district municipality",
@@ -225,9 +228,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Jurbarkas",
-                    StateCode = "12",
-                    Latitude = "55.07740700",
-                    Longitude = "22.74195690",
+                    StateCode = "",
+                    Latitude = "55.07770770",
+                    Longitude = "22.76469450",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -238,9 +241,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Kaišiadorys",
-                    StateCode = "13",
-                    Latitude = "54.85886690",
-                    Longitude = "24.42779290",
+                    StateCode = "",
+                    Latitude = "54.86023370",
+                    Longitude = "24.45447850",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -251,7 +254,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Kalvarija",
-                    StateCode = "14",
+                    StateCode = "",
                     Latitude = "54.37616740",
                     Longitude = "23.19203210",
                     Type = "municipality",
@@ -264,10 +267,10 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Kaunas",
-                    StateCode = "16",
-                    Latitude = "54.99362360",
-                    Longitude = "23.63249410",
-                    Type = "district municipality",
+                    StateCode = "",
+                    Latitude = "54.89821390",
+                    Longitude = "23.90448170",
+                    Type = "county",
                     Cities = new()
                     {
                     }
@@ -277,10 +280,10 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Kaunas",
-                    StateCode = "KU",
-                    Latitude = "54.98728630",
-                    Longitude = "23.95257360",
-                    Type = "county",
+                    StateCode = "",
+                    Latitude = "54.89821390",
+                    Longitude = "23.90448170",
+                    Type = "district municipality",
                     Cities = new()
                     {
                     }
@@ -290,9 +293,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Kaunas",
-                    StateCode = "15",
-                    Latitude = "54.91453260",
-                    Longitude = "23.90535180",
+                    StateCode = "",
+                    Latitude = "54.89821390",
+                    Longitude = "23.90448170",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -326,9 +329,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 19,
                     Name = "Kazlų Rūda",
-                    StateCode = "17",
-                    Latitude = "54.78075260",
-                    Longitude = "23.48402430",
+                    StateCode = "",
+                    Latitude = "54.75206690",
+                    Longitude = "23.49851410",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -339,9 +342,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 20,
                     Name = "Kėdainiai",
-                    StateCode = "18",
-                    Latitude = "55.35609470",
-                    Longitude = "23.98326830",
+                    StateCode = "",
+                    Latitude = "55.28873220",
+                    Longitude = "23.97583590",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -352,9 +355,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 21,
                     Name = "Kelmė",
-                    StateCode = "19",
-                    Latitude = "55.62663520",
-                    Longitude = "22.87817200",
+                    StateCode = "",
+                    Latitude = "55.62946790",
+                    Longitude = "22.93130950",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -364,11 +367,11 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 22,
-                    Name = "Klaipeda",
-                    StateCode = "20",
-                    Latitude = "55.70329480",
-                    Longitude = "21.14427950",
-                    Type = "district municipality",
+                    Name = "Klaipėda",
+                    StateCode = "",
+                    Latitude = "55.71275290",
+                    Longitude = "21.13504690",
+                    Type = "county",
                     Cities = new()
                     {
                     }
@@ -378,22 +381,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 23,
                     Name = "Klaipėda",
-                    StateCode = "KL",
-                    Latitude = "55.65197440",
-                    Longitude = "21.37439560",
-                    Type = "county",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 24,
-                    Name = "Klaipėda",
-                    StateCode = "21",
-                    Latitude = "55.68416150",
-                    Longitude = "21.44164640",
+                    StateCode = "",
+                    Latitude = "55.71275290",
+                    Longitude = "21.13504690",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -415,9 +405,22 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
+                    Id = 24,
+                    Name = "Klaipėdos miestas",
+                    StateCode = "",
+                    Latitude = "55.70329430",
+                    Longitude = "21.14427950",
+                    Type = "city municipality",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
                     Id = 25,
                     Name = "Kretinga",
-                    StateCode = "22",
+                    StateCode = "",
                     Latitude = "55.88384200",
                     Longitude = "21.23509190",
                     Type = "district municipality",
@@ -430,9 +433,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 26,
                     Name = "Kupiškis",
-                    StateCode = "23",
-                    Latitude = "55.84287410",
-                    Longitude = "25.02958160",
+                    StateCode = "",
+                    Latitude = "55.83889090",
+                    Longitude = "24.97604310",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -443,7 +446,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 27,
                     Name = "Lazdijai",
-                    StateCode = "24",
+                    StateCode = "",
                     Latitude = "54.23432670",
                     Longitude = "23.51565050",
                     Type = "district municipality",
@@ -456,9 +459,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 28,
                     Name = "Marijampolė",
-                    StateCode = "25",
-                    Latitude = "54.57110940",
-                    Longitude = "23.48593710",
+                    StateCode = "",
+                    Latitude = "54.55625360",
+                    Longitude = "23.35036650",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -482,9 +485,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 29,
                     Name = "Marijampolė",
-                    StateCode = "MR",
-                    Latitude = "54.78199710",
-                    Longitude = "23.13413650",
+                    StateCode = "",
+                    Latitude = "54.55625360",
+                    Longitude = "23.35036650",
                     Type = "county",
                     Cities = new()
                     {
@@ -495,7 +498,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 30,
                     Name = "Mažeikiai",
-                    StateCode = "26",
+                    StateCode = "",
                     Latitude = "56.30924390",
                     Longitude = "22.34146800",
                     Type = "district municipality",
@@ -508,7 +511,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 31,
                     Name = "Molėtai",
-                    StateCode = "27",
+                    StateCode = "",
                     Latitude = "55.22653090",
                     Longitude = "25.41800110",
                     Type = "district municipality",
@@ -521,9 +524,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 32,
                     Name = "Neringa",
-                    StateCode = "28",
-                    Latitude = "55.45724030",
-                    Longitude = "21.08390050",
+                    StateCode = "",
+                    Latitude = "55.47568280",
+                    Longitude = "21.09258700",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -534,9 +537,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 33,
                     Name = "Pagėgiai",
-                    StateCode = "29",
-                    Latitude = "55.17213200",
-                    Longitude = "21.96836140",
+                    StateCode = "",
+                    Latitude = "55.13325200",
+                    Longitude = "21.91043980",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -547,9 +550,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 34,
                     Name = "Pakruojis",
-                    StateCode = "30",
-                    Latitude = "56.07326050",
-                    Longitude = "23.93899060",
+                    StateCode = "",
+                    Latitude = "55.97770840",
+                    Longitude = "23.84517970",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -560,7 +563,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 35,
                     Name = "Palanga",
-                    StateCode = "31",
+                    StateCode = "",
                     Latitude = "55.92019800",
                     Longitude = "21.06776140",
                     Type = "district municipality",
@@ -572,11 +575,11 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 36,
-                    Name = "Panevėžys",
-                    StateCode = "32",
-                    Latitude = "55.73479150",
-                    Longitude = "24.35747740",
-                    Type = "district municipality",
+                    Name = "Panevėžio miestas",
+                    StateCode = "",
+                    Latitude = "55.73449850",
+                    Longitude = "24.35780550",
+                    Type = "city municipality",
                     Cities = new()
                     {
                     }
@@ -586,22 +589,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 37,
                     Name = "Panevėžys",
-                    StateCode = "PN",
-                    Latitude = "55.97480490",
-                    Longitude = "25.07947670",
-                    Type = "county",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 38,
-                    Name = "Panevėžys",
-                    StateCode = "33",
-                    Latitude = "55.61667280",
-                    Longitude = "24.31422830",
+                    StateCode = "",
+                    Latitude = "55.73449850",
+                    Longitude = "24.35780550",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -610,12 +600,24 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Kupiskis", Latitude = "55.84027000", Longitude = "24.97976000" },
                         new() { Id = 4, Name = "Obeliai", Latitude = "55.96895000", Longitude = "25.15648000" },
                         new() { Id = 5, Name = "Panevėžys", Latitude = "55.73333000", Longitude = "24.35000000" },
-                        new() { Id = 6, Name = "Panevėžys City", Latitude = "55.73600000", Longitude = "24.34347000" },
-                        new() { Id = 7, Name = "Panevėžys District Municipality", Latitude = "55.73301000", Longitude = "24.37609000" },
-                        new() { Id = 8, Name = "Pasvalys", Latitude = "56.06667000", Longitude = "24.40000000" },
-                        new() { Id = 9, Name = "Ramygala", Latitude = "55.51400000", Longitude = "24.30000000" },
-                        new() { Id = 10, Name = "Rokiškis", Latitude = "55.96667000", Longitude = "25.58333000" },
-                        new() { Id = 11, Name = "Vabalninkas", Latitude = "55.98151000", Longitude = "24.74828000" }
+                        new() { Id = 6, Name = "Panevėžys District Municipality", Latitude = "55.73301000", Longitude = "24.37609000" },
+                        new() { Id = 7, Name = "Pasvalys", Latitude = "56.06667000", Longitude = "24.40000000" },
+                        new() { Id = 8, Name = "Ramygala", Latitude = "55.51400000", Longitude = "24.30000000" },
+                        new() { Id = 9, Name = "Rokiškis", Latitude = "55.96667000", Longitude = "25.58333000" },
+                        new() { Id = 10, Name = "Vabalninkas", Latitude = "55.98151000", Longitude = "24.74828000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 38,
+                    Name = "Panevėžys",
+                    StateCode = "",
+                    Latitude = "55.73449850",
+                    Longitude = "24.35780550",
+                    Type = "county",
+                    Cities = new()
+                    {
                     }
                 },
 
@@ -623,7 +625,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 39,
                     Name = "Pasvalys",
-                    StateCode = "34",
+                    StateCode = "",
                     Latitude = "56.06046190",
                     Longitude = "24.39629100",
                     Type = "district municipality",
@@ -636,7 +638,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 40,
                     Name = "Plungė",
-                    StateCode = "35",
+                    StateCode = "",
                     Latitude = "55.91078400",
                     Longitude = "21.84540690",
                     Type = "district municipality",
@@ -649,7 +651,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 41,
                     Name = "Prienai",
-                    StateCode = "36",
+                    StateCode = "",
                     Latitude = "54.63835800",
                     Longitude = "23.94680090",
                     Type = "district municipality",
@@ -662,7 +664,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 42,
                     Name = "Radviliškis",
-                    StateCode = "37",
+                    StateCode = "",
                     Latitude = "55.81083990",
                     Longitude = "23.54648700",
                     Type = "district municipality",
@@ -675,7 +677,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 43,
                     Name = "Raseiniai",
-                    StateCode = "38",
+                    StateCode = "",
                     Latitude = "55.38194990",
                     Longitude = "23.11561290",
                     Type = "district municipality",
@@ -688,9 +690,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 44,
                     Name = "Rietavas",
-                    StateCode = "39",
-                    Latitude = "55.70217190",
-                    Longitude = "21.99865640",
+                    StateCode = "",
+                    Latitude = "55.72294080",
+                    Longitude = "21.92708040",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -701,7 +703,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 45,
                     Name = "Rokiškis",
-                    StateCode = "40",
+                    StateCode = "",
                     Latitude = "55.95550390",
                     Longitude = "25.58592490",
                     Type = "district municipality",
@@ -714,7 +716,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 46,
                     Name = "Šakiai",
-                    StateCode = "41",
+                    StateCode = "",
                     Latitude = "54.95267100",
                     Longitude = "23.04801990",
                     Type = "district municipality",
@@ -727,7 +729,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 47,
                     Name = "Šalčininkai",
-                    StateCode = "42",
+                    StateCode = "",
                     Latitude = "54.30976700",
                     Longitude = "25.38756400",
                     Type = "district municipality",
@@ -740,10 +742,10 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 48,
                     Name = "Šiauliai",
-                    StateCode = "44",
-                    Latitude = "55.97214560",
-                    Longitude = "23.03323710",
-                    Type = "district municipality",
+                    StateCode = "",
+                    Latitude = "55.93408230",
+                    Longitude = "23.31577750",
+                    Type = "county",
                     Cities = new()
                     {
                     }
@@ -753,9 +755,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 49,
                     Name = "Šiauliai",
-                    StateCode = "43",
-                    Latitude = "55.93490850",
-                    Longitude = "23.31368230",
+                    StateCode = "",
+                    Latitude = "55.93408230",
+                    Longitude = "23.31577750",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -779,10 +781,10 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 50,
                     Name = "Šiauliai",
-                    StateCode = "SA",
-                    Latitude = "55.99857510",
-                    Longitude = "23.13800510",
-                    Type = "county",
+                    StateCode = "",
+                    Latitude = "55.93408230",
+                    Longitude = "23.31577750",
+                    Type = "district municipality",
                     Cities = new()
                     {
                     }
@@ -792,7 +794,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 51,
                     Name = "Šilalė ",
-                    StateCode = "45",
+                    StateCode = "",
                     Latitude = "55.49268000",
                     Longitude = "22.18455590",
                     Type = "district municipality",
@@ -805,9 +807,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 52,
                     Name = "Šilutė",
-                    StateCode = "46",
-                    Latitude = "55.35041400",
-                    Longitude = "21.46598590",
+                    StateCode = "",
+                    Latitude = "55.34137470",
+                    Longitude = "21.46056970",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -818,7 +820,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 53,
                     Name = "Širvintos",
-                    StateCode = "47",
+                    StateCode = "",
                     Latitude = "55.04310200",
                     Longitude = "24.95698100",
                     Type = "district municipality",
@@ -831,7 +833,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 54,
                     Name = "Skuodas",
-                    StateCode = "48",
+                    StateCode = "",
                     Latitude = "56.27021690",
                     Longitude = "21.52143310",
                     Type = "district municipality",
@@ -844,9 +846,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 55,
                     Name = "Švenčionys",
-                    StateCode = "49",
-                    Latitude = "55.10280980",
-                    Longitude = "26.00718550",
+                    StateCode = "",
+                    Latitude = "55.13368650",
+                    Longitude = "26.16301460",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -857,7 +859,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 56,
                     Name = "Tauragė",
-                    StateCode = "TA",
+                    StateCode = "",
                     Latitude = "55.30725860",
                     Longitude = "22.35729390",
                     Type = "county",
@@ -875,7 +877,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 57,
                     Name = "Tauragė",
-                    StateCode = "50",
+                    StateCode = "",
                     Latitude = "55.25036600",
                     Longitude = "22.29095000",
                     Type = "district municipality",
@@ -888,9 +890,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 58,
                     Name = "Telšiai",
-                    StateCode = "51",
-                    Latitude = "55.91752150",
-                    Longitude = "22.34518400",
+                    StateCode = "",
+                    Latitude = "55.98461350",
+                    Longitude = "22.24907530",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -909,9 +911,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 59,
                     Name = "Telšiai",
-                    StateCode = "TE",
-                    Latitude = "56.10266160",
-                    Longitude = "22.11139150",
+                    StateCode = "",
+                    Latitude = "55.98461350",
+                    Longitude = "22.24907530",
                     Type = "county",
                     Cities = new()
                     {
@@ -922,7 +924,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 60,
                     Name = "Trakai",
-                    StateCode = "52",
+                    StateCode = "",
                     Latitude = "54.63791130",
                     Longitude = "24.93468940",
                     Type = "district municipality",
@@ -935,9 +937,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 61,
                     Name = "Ukmergė",
-                    StateCode = "53",
-                    Latitude = "55.24526500",
-                    Longitude = "24.77607490",
+                    StateCode = "",
+                    Latitude = "55.24772930",
+                    Longitude = "24.75997140",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -948,9 +950,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 62,
                     Name = "Utena",
-                    StateCode = "54",
-                    Latitude = "55.50846140",
-                    Longitude = "25.68326420",
+                    StateCode = "",
+                    Latitude = "55.48718330",
+                    Longitude = "25.63862210",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -961,9 +963,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 63,
                     Name = "Utena",
-                    StateCode = "UT",
-                    Latitude = "55.53189690",
-                    Longitude = "25.79046990",
+                    StateCode = "",
+                    Latitude = "55.48718330",
+                    Longitude = "25.63862210",
                     Type = "county",
                     Cities = new()
                     {
@@ -981,9 +983,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 64,
                     Name = "Varėna",
-                    StateCode = "55",
-                    Latitude = "54.22033300",
-                    Longitude = "24.57899700",
+                    StateCode = "",
+                    Latitude = "54.21217640",
+                    Longitude = "24.56737240",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -994,7 +996,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 65,
                     Name = "Vilkaviškis",
-                    StateCode = "56",
+                    StateCode = "",
                     Latitude = "54.65194500",
                     Longitude = "23.03515500",
                     Type = "district municipality",
@@ -1007,10 +1009,10 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 66,
                     Name = "Vilnius",
-                    StateCode = "VL",
-                    Latitude = "54.80865020",
-                    Longitude = "25.21821390",
-                    Type = "county",
+                    StateCode = "",
+                    Latitude = "54.68704580",
+                    Longitude = "25.28291110",
+                    Type = "district municipality",
                     Cities = new()
                     {
                     }
@@ -1020,9 +1022,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 67,
                     Name = "Vilnius",
-                    StateCode = "57",
-                    Latitude = "54.67107610",
-                    Longitude = "25.28787210",
+                    StateCode = "",
+                    Latitude = "54.68704580",
+                    Longitude = "25.28291110",
                     Type = "district municipality",
                     Cities = new()
                     {
@@ -1062,10 +1064,10 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 68,
                     Name = "Vilnius",
-                    StateCode = "58",
-                    Latitude = "54.77325780",
-                    Longitude = "25.58671130",
-                    Type = "district municipality",
+                    StateCode = "",
+                    Latitude = "54.68704580",
+                    Longitude = "25.28291110",
+                    Type = "county",
                     Cities = new()
                     {
                     }
@@ -1075,7 +1077,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 69,
                     Name = "Visaginas",
-                    StateCode = "59",
+                    StateCode = "",
                     Latitude = "55.59411800",
                     Longitude = "26.43079540",
                     Type = "municipality",
@@ -1088,7 +1090,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 70,
                     Name = "Zarasai",
-                    StateCode = "60",
+                    StateCode = "",
                     Latitude = "55.73096090",
                     Longitude = "26.24529500",
                     Type = "district municipality",

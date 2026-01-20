@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 66,
+            Id = 65,
             Name = "El Salvador",
             Iso3 = "SLV",
             Iso2 = "SV",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "El Salvador",
                 ["ko"] = "엘살바도르",
                 ["pt-BR"] = "El Salvador",
                 ["pt"] = "El Salvador",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "El Salvador",
                 ["ru"] = "Сальвадор",
                 ["uk"] = "Сальвадор",
-                ["pl"] = "Salwador"
+                ["pl"] = "Salwador",
+                ["hi"] = "अल साल्वाडोर",
+                ["ar"] = "السلفادور"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Ahuachapán",
-                    StateCode = "AH",
-                    Latitude = "13.82161480",
-                    Longitude = "-89.92532330",
+                    StateCode = "",
+                    Latitude = "13.86349930",
+                    Longitude = "-89.92738610",
                     Type = "department",
                     Cities = new()
                     {
@@ -82,9 +85,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Cabañas",
-                    StateCode = "CA",
-                    Latitude = "13.86482880",
-                    Longitude = "-88.74939980",
+                    StateCode = "",
+                    Latitude = "13.88329140",
+                    Longitude = "-88.73830960",
                     Type = "department",
                     Cities = new()
                     {
@@ -97,9 +100,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Chalatenango",
-                    StateCode = "CH",
-                    Latitude = "14.19166480",
-                    Longitude = "-89.17059980",
+                    StateCode = "",
+                    Latitude = "14.17653110",
+                    Longitude = "-89.09329630",
                     Type = "department",
                     Cities = new()
                     {
@@ -112,9 +115,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Cuscatlán",
-                    StateCode = "CU",
-                    Latitude = "13.86619570",
-                    Longitude = "-89.05615320",
+                    StateCode = "",
+                    Latitude = "13.85869030",
+                    Longitude = "-89.06325920",
                     Type = "department",
                     Cities = new()
                     {
@@ -130,9 +133,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "La Libertad",
-                    StateCode = "LI",
-                    Latitude = "13.68176610",
-                    Longitude = "-89.36062980",
+                    StateCode = "",
+                    Latitude = "13.74496220",
+                    Longitude = "-89.36108190",
                     Type = "department",
                     Cities = new()
                     {
@@ -152,9 +155,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "La Paz",
-                    StateCode = "PA",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "13.46697660",
+                    Longitude = "-88.98506220",
                     Type = "department",
                     Cities = new()
                     {
@@ -170,9 +173,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "La Unión ",
-                    StateCode = "UN",
-                    Latitude = "13.48864430",
-                    Longitude = "-87.89424510",
+                    StateCode = "",
+                    Latitude = "13.53263180",
+                    Longitude = "-87.90258200",
                     Type = "department",
                     Cities = new()
                     {
@@ -191,9 +194,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Morazán",
-                    StateCode = "MO",
-                    Latitude = "13.76820000",
-                    Longitude = "-88.12913870",
+                    StateCode = "",
+                    Latitude = "13.77261760",
+                    Longitude = "-88.09519730",
                     Type = "department",
                     Cities = new()
                     {
@@ -210,9 +213,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "San Miguel",
-                    StateCode = "SM",
-                    Latitude = "13.44510410",
-                    Longitude = "-88.24611830",
+                    StateCode = "",
+                    Latitude = "13.43202240",
+                    Longitude = "-88.27173700",
                     Type = "department",
                     Cities = new()
                     {
@@ -234,9 +237,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "San Salvador",
-                    StateCode = "SS",
-                    Latitude = "13.77399970",
-                    Longitude = "-89.20867730",
+                    StateCode = "",
+                    Latitude = "13.73558800",
+                    Longitude = "-89.20055460",
                     Type = "department",
                     Cities = new()
                     {
@@ -263,9 +266,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "San Vicente",
-                    StateCode = "SV",
-                    Latitude = "13.58685610",
-                    Longitude = "-88.74939980",
+                    StateCode = "",
+                    Latitude = "13.52749350",
+                    Longitude = "-88.73969860",
                     Type = "department",
                     Cities = new()
                     {
@@ -279,9 +282,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Santa Ana",
-                    StateCode = "SA",
-                    Latitude = "14.14611210",
-                    Longitude = "-89.51200840",
+                    StateCode = "",
+                    Latitude = "14.11455850",
+                    Longitude = "-89.56781410",
                     Type = "department",
                     Cities = new()
                     {
@@ -299,9 +302,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Sonsonate",
-                    StateCode = "SO",
-                    Latitude = "13.68235800",
-                    Longitude = "-89.66281110",
+                    StateCode = "",
+                    Latitude = "13.71151050",
+                    Longitude = "-89.66058420",
                     Type = "department",
                     Cities = new()
                     {
@@ -320,9 +323,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Usulután",
-                    StateCode = "US",
-                    Latitude = "13.44706340",
-                    Longitude = "-88.55653100",
+                    StateCode = "",
+                    Latitude = "13.43247020",
+                    Longitude = "-88.53983580",
                     Type = "department",
                     Cities = new()
                     {

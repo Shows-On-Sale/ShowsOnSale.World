@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Inizi Turks ha Caicos",
                 ["ko"] = "터크스 케이커스 제도",
                 ["pt-BR"] = "Ilhas Turcas e Caicos",
                 ["pt"] = "Ilhas Turcas e Caicos",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Turks Ve Caicos Adalari",
                 ["ru"] = "Острова Теркс и Кайкос",
                 ["uk"] = "Острови Теркс і Кайкос",
-                ["pl"] = "Wyspy Turks i Caicos"
+                ["pl"] = "Wyspy Turks i Caicos",
+                ["hi"] = "तुर्क और कैकोस द्वीप समूह",
+                ["ar"] = "جزر الأتراك وكايكوس"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Grand Turk",
-                    StateCode = "05",
-                    Latitude = "21.46808660",
-                    Longitude = "-71.18102580",
+                    StateCode = "",
+                    Latitude = "21.46796400",
+                    Longitude = "-71.13872180",
                     Type = "district",
                     Cities = new()
                     {
@@ -75,9 +78,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Middle Caicos",
-                    StateCode = "03",
-                    Latitude = "21.77850560",
-                    Longitude = "-71.93797700",
+                    StateCode = "",
+                    Latitude = "21.79595500",
+                    Longitude = "-71.76025950",
                     Type = "district",
                     Cities = new()
                     {
@@ -88,9 +91,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "North Caicos",
-                    StateCode = "02",
-                    Latitude = "21.87591620",
-                    Longitude = "-72.03820280",
+                    StateCode = "",
+                    Latitude = "21.89091190",
+                    Longitude = "-71.95057490",
                     Type = "district",
                     Cities = new()
                     {
@@ -101,9 +104,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Providenciales",
-                    StateCode = "01",
-                    Latitude = "21.80156180",
-                    Longitude = "-72.40832920",
+                    StateCode = "",
+                    Latitude = "21.80206140",
+                    Longitude = "-72.30044560",
                     Type = "district",
                     Cities = new()
                     {
@@ -114,9 +117,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Salt Cay",
-                    StateCode = "06",
-                    Latitude = "21.32425360",
-                    Longitude = "-71.22076060",
+                    StateCode = "",
+                    Latitude = "21.32283950",
+                    Longitude = "-71.20779090",
                     Type = "district",
                     Cities = new()
                     {
@@ -127,9 +130,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "South Caicos",
-                    StateCode = "04",
-                    Latitude = "21.53024870",
-                    Longitude = "-71.56044860",
+                    StateCode = "",
+                    Latitude = "21.51446540",
+                    Longitude = "-71.53793440",
                     Type = "district",
                     Cities = new()
                     {

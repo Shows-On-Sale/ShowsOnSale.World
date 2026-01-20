@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Inizi Cook",
                 ["ko"] = "쿡 제도",
                 ["pt-BR"] = "Ilhas Cook",
                 ["pt"] = "Ilhas Cook",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Cook Adalari",
                 ["ru"] = "Острова Кука",
                 ["uk"] = "Острови Кука",
-                ["pl"] = "Wyspy Cooka"
+                ["pl"] = "Wyspy Cooka",
+                ["hi"] = "कुक आइलैंड्स",
+                ["ar"] = "كوك جزر"
             },
             States = new()
             {

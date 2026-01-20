@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Sant-Visant hag ar Grenadinez",
                 ["ko"] = "세인트빈센트 그레나딘",
                 ["pt-BR"] = "São Vicente e Granadinas",
                 ["pt"] = "São Vicente e Granadinas",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Saint Vincent Ve Grenadinler",
                 ["ru"] = "Сент-Винсент и Гренадины",
                 ["uk"] = "Сент-Вінсент і Гренадини",
-                ["pl"] = "Saint Vincent i Grenadyny"
+                ["pl"] = "Saint Vincent i Grenadyny",
+                ["hi"] = "संत विंसेंट अँड थे ग्रेनडीनेस",
+                ["ar"] = "القديس فنسنت وجرينادين"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Charlotte",
-                    StateCode = "01",
-                    Latitude = "13.21754510",
-                    Longitude = "-61.16362440",
+                    StateCode = "",
+                    Latitude = "13.27508720",
+                    Longitude = "-61.14623270",
                     Type = "parish",
                     Cities = new()
                     {
@@ -78,9 +81,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Grenadines",
-                    StateCode = "06",
-                    Latitude = "13.01229650",
-                    Longitude = "-61.22773010",
+                    StateCode = "",
+                    Latitude = "12.90447000",
+                    Longitude = "-61.27655690",
                     Type = "parish",
                     Cities = new()
                     {
@@ -92,9 +95,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Saint Andrew",
-                    StateCode = "02",
-                    Latitude = "43.02429990",
-                    Longitude = "-81.20250000",
+                    StateCode = "",
+                    Latitude = "13.19426950",
+                    Longitude = "-61.23998660",
                     Type = "parish",
                     Cities = new()
                     {
@@ -106,9 +109,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Saint David",
-                    StateCode = "03",
-                    Latitude = "43.85230950",
-                    Longitude = "-79.52366540",
+                    StateCode = "",
+                    Latitude = "13.31836400",
+                    Longitude = "-61.20087860",
                     Type = "parish",
                     Cities = new()
                     {
@@ -120,9 +123,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Saint George",
-                    StateCode = "04",
-                    Latitude = "42.95760900",
-                    Longitude = "-81.32670500",
+                    StateCode = "",
+                    Latitude = "13.16629500",
+                    Longitude = "-61.18785120",
                     Type = "parish",
                     Cities = new()
                     {
@@ -135,9 +138,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Saint Patrick",
-                    StateCode = "05",
-                    Latitude = "39.75091860",
-                    Longitude = "-94.84505560",
+                    StateCode = "",
+                    Latitude = "13.23807930",
+                    Longitude = "-61.23641840",
                     Type = "parish",
                     Cities = new()
                     {

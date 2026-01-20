@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Inizi Cocos",
                 ["ko"] = "코코스 제도",
                 ["pt-BR"] = "Ilhas Cocos",
                 ["pt"] = "Ilhas dos Cocos",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Cocos Adalari",
                 ["ru"] = "Кокосовые (Килинг) острова",
                 ["uk"] = "Кокосові (Кілінг) острови",
-                ["pl"] = "Wyspy Kokosowe (Keelinga)"
+                ["pl"] = "Wyspy Kokosowe (Keelinga)",
+                ["hi"] = "कोकोस (कीलिंग) द्वीप",
+                ["ar"] = "جزر كوكوس (كيلينغ)"
             },
             States = new()
             {

@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 72,
+            Id = 71,
             Name = "Falkland Islands",
             Iso3 = "FLK",
             Iso2 = "FK",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Inizi Maloù",
                 ["ko"] = "포클랜드 제도",
                 ["pt-BR"] = "Ilhas Malvinas",
                 ["pt"] = "Ilhas Falkland",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Falkland Adalari",
                 ["ru"] = "Фолклендские острова",
                 ["uk"] = "Фолклендські острови",
-                ["pl"] = "Falklandy"
+                ["pl"] = "Falklandy",
+                ["hi"] = "फ़ॉकलैंड आइलैंड्स",
+                ["ar"] = "جزر فوكلاند"
             },
             States = new()
             {

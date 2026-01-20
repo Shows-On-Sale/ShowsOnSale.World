@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Bulgaria",
                 ["ko"] = "불가리아",
                 ["pt-BR"] = "Bulgária",
                 ["pt"] = "Bulgária",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Bulgaristan",
                 ["ru"] = "Болгария",
                 ["uk"] = "Болгарія",
-                ["pl"] = "Bułgaria"
+                ["pl"] = "Bułgaria",
+                ["hi"] = "बुल्गारिया",
+                ["ar"] = "بلغاريا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Blagoevgrad",
-                    StateCode = "01",
-                    Latitude = "42.02086140",
-                    Longitude = "23.09433560",
+                    StateCode = "",
+                    Latitude = "42.01110770",
+                    Longitude = "23.09064570",
                     Type = "district",
                     Cities = new()
                     {
@@ -95,7 +98,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 25, Name = "Satovcha", Latitude = "41.61667000", Longitude = "23.98333000" },
                         new() { Id = 26, Name = "Simitli", Latitude = "41.88333000", Longitude = "23.11667000" },
                         new() { Id = 27, Name = "Stara Kresna", Latitude = "41.80000000", Longitude = "23.18333000" },
-                        new() { Id = 28, Name = "Strumyani", Latitude = "41.63333000", Longitude = "23.20000000" },
+                        new() { Id = 28, Name = "Strumyani", Latitude = "41.63846590", Longitude = "23.20219140" },
                         new() { Id = 29, Name = "Yakoruda", Latitude = "42.02528000", Longitude = "23.68417000" }
                     }
                 },
@@ -104,20 +107,20 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Burgas",
-                    StateCode = "02",
-                    Latitude = "42.50480000",
-                    Longitude = "27.46260790",
+                    StateCode = "",
+                    Latitude = "42.49366160",
+                    Longitude = "27.47212760",
                     Type = "district",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aheloy", Latitude = "42.64987000", Longitude = "27.64838000" },
                         new() { Id = 2, Name = "Ahtopol", Latitude = "42.09768000", Longitude = "27.93961000" },
-                        new() { Id = 3, Name = "Aytos", Latitude = "42.70000000", Longitude = "27.25000000" },
+                        new() { Id = 3, Name = "Aytos", Latitude = "42.70188650", Longitude = "27.25203860" },
                         new() { Id = 4, Name = "Bata", Latitude = "42.73802000", Longitude = "27.49643000" },
                         new() { Id = 5, Name = "Burgas", Latitude = "42.50606000", Longitude = "27.46781000" },
                         new() { Id = 6, Name = "Chernomorets", Latitude = "42.44408000", Longitude = "27.63902000" },
                         new() { Id = 7, Name = "Kameno", Latitude = "42.57084000", Longitude = "27.29875000" },
-                        new() { Id = 8, Name = "Karnobat", Latitude = "42.65000000", Longitude = "26.98333000" },
+                        new() { Id = 8, Name = "Karnobat", Latitude = "42.64985540", Longitude = "26.98231250" },
                         new() { Id = 9, Name = "Kiten", Latitude = "42.23424000", Longitude = "27.77490000" },
                         new() { Id = 10, Name = "Malko Tarnovo", Latitude = "41.97958000", Longitude = "27.52477000" },
                         new() { Id = 11, Name = "Nesebar", Latitude = "42.65921000", Longitude = "27.73602000" },
@@ -149,7 +152,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Dobrich",
-                    StateCode = "08",
+                    StateCode = "",
                     Latitude = "43.57278600",
                     Longitude = "27.82728020",
                     Type = "district",
@@ -177,7 +180,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Gabrovo",
-                    StateCode = "07",
+                    StateCode = "",
                     Latitude = "42.86847000",
                     Longitude = "25.31688900",
                     Type = "district",
@@ -198,13 +201,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Haskovo",
-                    StateCode = "26",
+                    StateCode = "",
                     Latitude = "41.93441780",
                     Longitude = "25.55546720",
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Dimitrovgrad", Latitude = "42.05000000", Longitude = "25.60000000" },
+                        new() { Id = 1, Name = "Dimitrovgrad", Latitude = "42.05824930", Longitude = "25.59164660" },
                         new() { Id = 2, Name = "Harmanli", Latitude = "41.93333000", Longitude = "25.90000000" },
                         new() { Id = 3, Name = "Haskovo", Latitude = "41.93415000", Longitude = "25.55557000" },
                         new() { Id = 4, Name = "Ivaylovgrad", Latitude = "41.52672000", Longitude = "26.12490000" },
@@ -222,7 +225,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 16, Name = "Obshtina Topolovgrad", Latitude = "42.08333000", Longitude = "26.33333000" },
                         new() { Id = 17, Name = "Simeonovgrad", Latitude = "42.03333000", Longitude = "25.83333000" },
                         new() { Id = 18, Name = "Svilengrad", Latitude = "41.76667000", Longitude = "26.20000000" },
-                        new() { Id = 19, Name = "Topolovgrad", Latitude = "42.08333000", Longitude = "26.33333000" }
+                        new() { Id = 19, Name = "Topolovgrad", Latitude = "42.08473970", Longitude = "26.33207030" }
                     }
                 },
 
@@ -230,9 +233,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Kardzhali",
-                    StateCode = "09",
-                    Latitude = "41.63384160",
-                    Longitude = "25.37766870",
+                    StateCode = "",
+                    Latitude = "41.64374600",
+                    Longitude = "25.37221560",
                     Type = "district",
                     Cities = new()
                     {
@@ -254,7 +257,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Kyustendil",
-                    StateCode = "10",
+                    StateCode = "",
                     Latitude = "42.28687990",
                     Longitude = "22.69396350",
                     Type = "district",
@@ -284,7 +287,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Lovech",
-                    StateCode = "11",
+                    StateCode = "",
                     Latitude = "43.13677980",
                     Longitude = "24.71393350",
                     Type = "district",
@@ -297,9 +300,9 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Obshtina Lovech", Latitude = "43.16667000", Longitude = "24.80000000" },
                         new() { Id = 6, Name = "Obshtina Teteven", Latitude = "42.91667000", Longitude = "24.26667000" },
                         new() { Id = 7, Name = "Obshtina Ugarchin", Latitude = "43.10000000", Longitude = "24.41667000" },
-                        new() { Id = 8, Name = "Teteven", Latitude = "42.91667000", Longitude = "24.26667000" },
+                        new() { Id = 8, Name = "Teteven", Latitude = "42.91782620", Longitude = "24.26511380" },
                         new() { Id = 9, Name = "Troyan", Latitude = "42.89427000", Longitude = "24.71589000" },
-                        new() { Id = 10, Name = "Ugarchin", Latitude = "43.10000000", Longitude = "24.41667000" },
+                        new() { Id = 10, Name = "Ugarchin", Latitude = "43.09601710", Longitude = "24.42099190" },
                         new() { Id = 11, Name = "Yablanitsa", Latitude = "43.03139000", Longitude = "24.11278000" }
                     }
                 },
@@ -308,7 +311,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Montana",
-                    StateCode = "12",
+                    StateCode = "",
                     Latitude = "43.40851480",
                     Longitude = "23.22575890",
                     Type = "district",
@@ -339,7 +342,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Pazardzhik",
-                    StateCode = "13",
+                    StateCode = "",
                     Latitude = "42.19275670",
                     Longitude = "24.33362260",
                     Type = "district",
@@ -361,7 +364,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 14, Name = "Obshtina Strelcha", Latitude = "42.46667000", Longitude = "24.36667000" },
                         new() { Id = 15, Name = "Obshtina Velingrad", Latitude = "41.96667000", Longitude = "23.93333000" },
                         new() { Id = 16, Name = "Panagyurishte", Latitude = "42.49518000", Longitude = "24.19021000" },
-                        new() { Id = 17, Name = "Pazardzhik", Latitude = "42.20000000", Longitude = "24.33333000" },
+                        new() { Id = 17, Name = "Pazardzhik", Latitude = "42.18845490", Longitude = "24.33189930" },
                         new() { Id = 18, Name = "Peshtera", Latitude = "42.03372000", Longitude = "24.29995000" },
                         new() { Id = 19, Name = "Rakitovo", Latitude = "41.99012000", Longitude = "24.08730000" },
                         new() { Id = 20, Name = "Sarnitsa", Latitude = "41.73835000", Longitude = "24.02435000" },
@@ -376,7 +379,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Pernik",
-                    StateCode = "14",
+                    StateCode = "",
                     Latitude = "42.60519900",
                     Longitude = "23.03779160",
                     Type = "district",
@@ -399,9 +402,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Pleven",
-                    StateCode = "15",
-                    Latitude = "43.41701690",
-                    Longitude = "24.60667080",
+                    StateCode = "",
+                    Latitude = "43.40902200",
+                    Longitude = "24.61801230",
                     Type = "district",
                     Cities = new()
                     {
@@ -436,7 +439,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Plovdiv",
-                    StateCode = "16",
+                    StateCode = "",
                     Latitude = "42.13540790",
                     Longitude = "24.74529040",
                     Type = "district",
@@ -470,7 +473,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 26, Name = "Obshtina Stamboliyski", Latitude = "42.11667000", Longitude = "24.51667000" },
                         new() { Id = 27, Name = "Parvomay", Latitude = "42.10000000", Longitude = "25.21667000" },
                         new() { Id = 28, Name = "Perushtitsa", Latitude = "42.05000000", Longitude = "24.55000000" },
-                        new() { Id = 29, Name = "Plovdiv", Latitude = "42.15000000", Longitude = "24.75000000" },
+                        new() { Id = 29, Name = "Plovdiv", Latitude = "42.14185410", Longitude = "24.74992970" },
                         new() { Id = 30, Name = "Rakovski", Latitude = "42.27408000", Longitude = "24.94083000" },
                         new() { Id = 31, Name = "Sadovo", Latitude = "42.13178000", Longitude = "24.93999000" },
                         new() { Id = 32, Name = "Saedinenie", Latitude = "42.26667000", Longitude = "24.55000000" },
@@ -483,13 +486,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Razgrad",
-                    StateCode = "17",
+                    StateCode = "",
                     Latitude = "43.52717050",
                     Longitude = "26.52412280",
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Isperih", Latitude = "43.71667000", Longitude = "26.83333000" },
+                        new() { Id = 1, Name = "Isperih", Latitude = "43.71687240", Longitude = "26.83014190" },
                         new() { Id = 2, Name = "Kubrat", Latitude = "43.79658000", Longitude = "26.50063000" },
                         new() { Id = 3, Name = "Loznitsa", Latitude = "43.36667000", Longitude = "26.60000000" },
                         new() { Id = 4, Name = "Medovene", Latitude = "43.76667000", Longitude = "26.51667000" },
@@ -500,7 +503,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Obshtina Samuil", Latitude = "43.60000000", Longitude = "26.80000000" },
                         new() { Id = 10, Name = "Obshtina Tsar Kaloyan", Latitude = "43.60000000", Longitude = "26.21667000" },
                         new() { Id = 11, Name = "Obshtina Zavet", Latitude = "43.76667000", Longitude = "26.68333000" },
-                        new() { Id = 12, Name = "Razgrad", Latitude = "43.53333000", Longitude = "26.51667000" },
+                        new() { Id = 12, Name = "Razgrad", Latitude = "43.52582110", Longitude = "26.52306030" },
                         new() { Id = 13, Name = "Samuil", Latitude = "43.51667000", Longitude = "26.75000000" },
                         new() { Id = 14, Name = "Tsar Kaloyan", Latitude = "43.61667000", Longitude = "26.25000000" },
                         new() { Id = 15, Name = "Zavet", Latitude = "43.76036000", Longitude = "26.68063000" }
@@ -511,7 +514,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Ruse",
-                    StateCode = "18",
+                    StateCode = "",
                     Latitude = "43.83559640",
                     Longitude = "25.96561440",
                     Type = "district",
@@ -540,7 +543,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Shumen",
-                    StateCode = "27",
+                    StateCode = "",
                     Latitude = "43.27123980",
                     Longitude = "26.93612860",
                     Type = "district",
@@ -554,7 +557,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Silistra",
-                    StateCode = "19",
+                    StateCode = "",
                     Latitude = "44.11471010",
                     Longitude = "27.26714540",
                     Type = "district",
@@ -581,14 +584,14 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Sliven",
-                    StateCode = "20",
+                    StateCode = "",
                     Latitude = "42.68167020",
                     Longitude = "26.32285690",
                     Type = "district",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Kermen", Latitude = "42.50000000", Longitude = "26.25000000" },
-                        new() { Id = 2, Name = "Kotel", Latitude = "42.88333000", Longitude = "26.45000000" },
+                        new() { Id = 2, Name = "Kotel", Latitude = "42.88737760", Longitude = "26.44915980" },
                         new() { Id = 3, Name = "Nova Zagora", Latitude = "42.48333000", Longitude = "26.01667000" },
                         new() { Id = 4, Name = "Obshtina Kotel", Latitude = "42.88333000", Longitude = "26.45000000" },
                         new() { Id = 5, Name = "Obshtina Nova Zagora", Latitude = "42.45000000", Longitude = "26.05000000" },
@@ -603,7 +606,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 19,
                     Name = "Smolyan",
-                    StateCode = "21",
+                    StateCode = "",
                     Latitude = "41.57741480",
                     Longitude = "24.70108710",
                     Type = "district",
@@ -637,9 +640,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 20,
                     Name = "Sofia",
-                    StateCode = "23",
-                    Latitude = "42.67344000",
-                    Longitude = "23.83349370",
+                    StateCode = "",
+                    Latitude = "42.64191000",
+                    Longitude = "23.97356320",
                     Type = "district",
                     Cities = new()
                     {
@@ -648,9 +651,9 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Bozhurishte", Latitude = "42.75000000", Longitude = "23.20000000" },
                         new() { Id = 4, Name = "Chavdar", Latitude = "42.65000000", Longitude = "24.05000000" },
                         new() { Id = 5, Name = "Chelopech", Latitude = "42.70000000", Longitude = "24.08333000" },
-                        new() { Id = 6, Name = "Dolna Banya", Latitude = "42.30000000", Longitude = "23.76667000" },
+                        new() { Id = 6, Name = "Dolna Banya", Latitude = "42.31082460", Longitude = "23.76450190" },
                         new() { Id = 7, Name = "Dragoman", Latitude = "42.92191000", Longitude = "22.93109000" },
-                        new() { Id = 8, Name = "Elin Pelin", Latitude = "42.66667000", Longitude = "23.60000000" },
+                        new() { Id = 8, Name = "Elin Pelin", Latitude = "42.66911320", Longitude = "23.60214260" },
                         new() { Id = 9, Name = "Etropole", Latitude = "42.83333000", Longitude = "24.00000000" },
                         new() { Id = 10, Name = "Godech", Latitude = "43.01682000", Longitude = "23.04852000" },
                         new() { Id = 11, Name = "Gorna Malina", Latitude = "42.68333000", Longitude = "23.70000000" },
@@ -664,7 +667,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 19, Name = "Obshtina Bozhurishte", Latitude = "42.78333000", Longitude = "23.11667000" },
                         new() { Id = 20, Name = "Obshtina Chavdar", Latitude = "42.61667000", Longitude = "24.08333000" },
                         new() { Id = 21, Name = "Obshtina Chelopech", Latitude = "42.71667000", Longitude = "24.06667000" },
-                        new() { Id = 22, Name = "Obshtina Dolna Banya", Latitude = "42.30000000", Longitude = "23.76667000" },
+                        new() { Id = 22, Name = "Obshtina Dolna Banya", Latitude = "42.31139020", Longitude = "23.76568090" },
                         new() { Id = 23, Name = "Obshtina Dragoman", Latitude = "42.93333000", Longitude = "22.93333000" },
                         new() { Id = 24, Name = "Obshtina Elin Pelin", Latitude = "42.66667000", Longitude = "23.60000000" },
                         new() { Id = 25, Name = "Obshtina Etropole", Latitude = "42.85000000", Longitude = "24.03333000" },
@@ -692,9 +695,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 21,
                     Name = "Sofia City",
-                    StateCode = "22",
-                    Latitude = "42.75701090",
-                    Longitude = "23.45046830",
+                    StateCode = "",
+                    Latitude = "42.65431800",
+                    Longitude = "23.33315720",
                     Type = "district",
                     Cities = new()
                     {
@@ -708,7 +711,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 22,
                     Name = "Stara Zagora",
-                    StateCode = "24",
+                    StateCode = "",
                     Latitude = "42.42577090",
                     Longitude = "25.63448550",
                     Type = "district",
@@ -733,7 +736,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 17, Name = "Obshtina Radnevo", Latitude = "42.30000000", Longitude = "25.93333000" },
                         new() { Id = 18, Name = "Obshtina Stara Zagora", Latitude = "42.41667000", Longitude = "25.63333000" },
                         new() { Id = 19, Name = "Pavel Banya", Latitude = "42.60000000", Longitude = "25.20000000" },
-                        new() { Id = 20, Name = "Radnevo", Latitude = "42.30000000", Longitude = "25.93333000" },
+                        new() { Id = 20, Name = "Radnevo", Latitude = "42.28904770", Longitude = "25.93387240" },
                         new() { Id = 21, Name = "Shipka", Latitude = "42.71667000", Longitude = "25.33333000" },
                         new() { Id = 22, Name = "Stara Zagora", Latitude = "42.43278000", Longitude = "25.64194000" }
                     }
@@ -743,7 +746,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 23,
                     Name = "Targovishte",
-                    StateCode = "25",
+                    StateCode = "",
                     Latitude = "43.24623490",
                     Longitude = "26.56912510",
                     Type = "district",
@@ -757,7 +760,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Obshtina Targovishte", Latitude = "43.25000000", Longitude = "26.56667000" },
                         new() { Id = 7, Name = "Omurtag", Latitude = "43.10000000", Longitude = "26.41667000" },
                         new() { Id = 8, Name = "Opaka", Latitude = "43.45000000", Longitude = "26.16667000" },
-                        new() { Id = 9, Name = "Popovo", Latitude = "43.35000000", Longitude = "26.23333000" },
+                        new() { Id = 9, Name = "Popovo", Latitude = "43.34814730", Longitude = "26.22719670" },
                         new() { Id = 10, Name = "Targovishte", Latitude = "43.25120000", Longitude = "26.57215000" }
                     }
                 },
@@ -766,7 +769,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 24,
                     Name = "Varna",
-                    StateCode = "03",
+                    StateCode = "",
                     Latitude = "43.20464770",
                     Longitude = "27.91054880",
                     Type = "district",
@@ -777,7 +780,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Balgarevo", Latitude = "43.40296000", Longitude = "28.41189000" },
                         new() { Id = 4, Name = "Beloslav", Latitude = "43.18960000", Longitude = "27.70429000" },
                         new() { Id = 5, Name = "Byala", Latitude = "42.87426000", Longitude = "27.88865000" },
-                        new() { Id = 6, Name = "Dalgopol", Latitude = "43.05000000", Longitude = "27.35000000" },
+                        new() { Id = 6, Name = "Dalgopol", Latitude = "43.05261570", Longitude = "27.34600790" },
                         new() { Id = 7, Name = "Devnya", Latitude = "43.22222000", Longitude = "27.56944000" },
                         new() { Id = 8, Name = "Dolni Chiflik", Latitude = "42.99296000", Longitude = "27.71596000" },
                         new() { Id = 9, Name = "Kiten", Latitude = "43.08333000", Longitude = "27.31667000" },
@@ -796,8 +799,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 22, Name = "Provadia", Latitude = "43.18333000", Longitude = "27.43333000" },
                         new() { Id = 23, Name = "Suvorovo", Latitude = "43.33058000", Longitude = "27.59908000" },
                         new() { Id = 24, Name = "Valchidol", Latitude = "43.40000000", Longitude = "27.55000000" },
-                        new() { Id = 25, Name = "Varna", Latitude = "43.21667000", Longitude = "27.91667000" },
-                        new() { Id = 26, Name = "Vetrino", Latitude = "43.31667000", Longitude = "27.43333000" },
+                        new() { Id = 25, Name = "Varna", Latitude = "43.20738730", Longitude = "27.91666530" },
+                        new() { Id = 26, Name = "Vetrino", Latitude = "43.34100650", Longitude = "27.38611080" },
                         new() { Id = 27, Name = "Zlatni Pyasatsi", Latitude = "43.28500000", Longitude = "28.04180000" }
                     }
                 },
@@ -806,9 +809,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 25,
                     Name = "Veliko Tarnovo",
-                    StateCode = "04",
-                    Latitude = "43.07565390",
-                    Longitude = "25.61715000",
+                    StateCode = "",
+                    Latitude = "43.08205840",
+                    Longitude = "25.63213120",
                     Type = "district",
                     Cities = new()
                     {
@@ -843,9 +846,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 26,
                     Name = "Vidin",
-                    StateCode = "05",
-                    Latitude = "43.99617390",
-                    Longitude = "22.86795150",
+                    StateCode = "",
+                    Latitude = "43.98572420",
+                    Longitude = "22.87721940",
                     Type = "district",
                     Cities = new()
                     {
@@ -876,13 +879,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 27,
                     Name = "Vratsa",
-                    StateCode = "06",
+                    StateCode = "",
                     Latitude = "43.21018060",
                     Longitude = "23.55292100",
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Borovan", Latitude = "43.43333000", Longitude = "23.75000000" },
+                        new() { Id = 1, Name = "Borovan", Latitude = "43.44635800", Longitude = "23.73543160" },
                         new() { Id = 2, Name = "Byala Slatina", Latitude = "43.46667000", Longitude = "23.93333000" },
                         new() { Id = 3, Name = "Hayredin", Latitude = "43.60193000", Longitude = "23.66135000" },
                         new() { Id = 4, Name = "Kozloduy", Latitude = "43.77864000", Longitude = "23.72058000" },
@@ -899,7 +902,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 15, Name = "Obshtina Roman", Latitude = "43.15000000", Longitude = "23.91667000" },
                         new() { Id = 16, Name = "Obshtina Vratsa", Latitude = "43.28333000", Longitude = "23.60000000" },
                         new() { Id = 17, Name = "Oryahovo", Latitude = "43.73618000", Longitude = "23.96052000" },
-                        new() { Id = 18, Name = "Roman", Latitude = "43.15000000", Longitude = "23.91667000" },
+                        new() { Id = 18, Name = "Roman", Latitude = "43.14637670", Longitude = "23.92549080" },
                         new() { Id = 19, Name = "Vratsa", Latitude = "43.21000000", Longitude = "23.56250000" }
                     }
                 },
@@ -908,7 +911,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 28,
                     Name = "Yambol",
-                    StateCode = "28",
+                    StateCode = "",
                     Latitude = "42.48414940",
                     Longitude = "26.50352960",
                     Type = "district",
@@ -922,7 +925,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Obshtina Tundzha", Latitude = "42.35000000", Longitude = "26.45000000" },
                         new() { Id = 7, Name = "Obshtina Yambol", Latitude = "42.48333000", Longitude = "26.50000000" },
                         new() { Id = 8, Name = "Straldzha", Latitude = "42.60000000", Longitude = "26.68333000" },
-                        new() { Id = 9, Name = "Yambol", Latitude = "42.48333000", Longitude = "26.50000000" }
+                        new() { Id = 9, Name = "Yambol", Latitude = "42.48393500", Longitude = "26.51055530" }
                     }
                 }
             }

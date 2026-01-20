@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Sint Maarten",
                 ["ko"] = "신트마르턴",
                 ["pt-BR"] = "Sint Maarten",
                 ["pt"] = "São Martinho",
@@ -50,7 +51,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Sint Maarten",
                 ["ru"] = "Синт-Мартен (голландская часть)",
                 ["uk"] = "Сінт-Мартен (голландська частина)",
-                ["pl"] = "Sint Maarten (część niderlandzka)"
+                ["pl"] = "Sint Maarten (część niderlandzka)",
+                ["hi"] = "सिंट मार्टेन (डच पार्ट)",
+                ["ar"] = "سينت مارتن (الجزء الهولندي)"
             },
             States = new()
             {

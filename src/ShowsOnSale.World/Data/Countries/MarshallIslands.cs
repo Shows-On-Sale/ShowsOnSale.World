@@ -39,6 +39,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Inizi Marshall",
                 ["ko"] = "마셜 제도",
                 ["pt-BR"] = "Ilhas Marshall",
                 ["pt"] = "Ilhas Marshall",
@@ -54,7 +55,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Marşal Adalari",
                 ["ru"] = "Маршалловы острова",
                 ["uk"] = "Маршаллові острови",
-                ["pl"] = "Wyspy Marshalla"
+                ["pl"] = "Wyspy Marshalla",
+                ["hi"] = "मार्शल द्वीपसमूह",
+                ["ar"] = "جزر مارشال"
             },
             States = new()
             {
@@ -62,10 +65,278 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 1,
+                    Name = "Ailinglaplap",
+                    StateCode = "",
+                    Latitude = "7.50000000",
+                    Longitude = "168.73333333",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Ailinglaplap", Latitude = "7.50000000", Longitude = "168.73333333" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 2,
+                    Name = "Ailuk",
+                    StateCode = "",
+                    Latitude = "10.31666667",
+                    Longitude = "169.93333333",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Ailuk", Latitude = "10.31666667", Longitude = "169.93333333" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 3,
+                    Name = "Arno",
+                    StateCode = "",
+                    Latitude = "7.08333333",
+                    Longitude = "171.70000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Arno", Latitude = "7.08333333", Longitude = "171.70000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 4,
+                    Name = "Aur",
+                    StateCode = "",
+                    Latitude = "8.20000000",
+                    Longitude = "171.10000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Aur", Latitude = "8.20000000", Longitude = "171.10000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 5,
+                    Name = "Bikini & Kili",
+                    StateCode = "",
+                    Latitude = "11.60000000",
+                    Longitude = "165.40000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Bikini", Latitude = "11.60000000", Longitude = "165.40000000" },
+                        new() { Id = 2, Name = "Kili", Latitude = "5.61666667", Longitude = "169.11666667" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 6,
+                    Name = "Ebon",
+                    StateCode = "",
+                    Latitude = "4.63333333",
+                    Longitude = "168.71666667",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Ebon", Latitude = "4.63333333", Longitude = "168.71666667" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 7,
+                    Name = "Enewetak & Ujelang",
+                    StateCode = "",
+                    Latitude = "11.50000000",
+                    Longitude = "162.33333333",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Enewetak", Latitude = "11.50000000", Longitude = "162.33333333" },
+                        new() { Id = 2, Name = "Ujelang", Latitude = "9.82222222", Longitude = "160.90000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 8,
+                    Name = "Jabat",
+                    StateCode = "",
+                    Latitude = "7.75000000",
+                    Longitude = "168.96666667",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Jabat", Latitude = "7.75000000", Longitude = "168.96666667" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 9,
+                    Name = "Jaluit",
+                    StateCode = "",
+                    Latitude = "6.00000000",
+                    Longitude = "169.56666667",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Jabor", Latitude = "6.00000000", Longitude = "169.56666667" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 10,
+                    Name = "Kwajalein",
+                    StateCode = "",
+                    Latitude = "8.71666667",
+                    Longitude = "167.73333333",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Ebeye", Latitude = "41.08110000", Longitude = "-111.92000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 11,
+                    Name = "Lae",
+                    StateCode = "",
+                    Latitude = "8.93611111",
+                    Longitude = "166.23750000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Lae", Latitude = "8.93611111", Longitude = "166.23750000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 12,
+                    Name = "Lib",
+                    StateCode = "",
+                    Latitude = "8.31305556",
+                    Longitude = "167.37777778",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Lib", Latitude = "8.31305556", Longitude = "167.37777778" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 13,
+                    Name = "Likiep",
+                    StateCode = "",
+                    Latitude = "9.88498000",
+                    Longitude = "169.14345000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Likiep", Latitude = "9.88498000", Longitude = "169.14345000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 14,
+                    Name = "Majuro",
+                    StateCode = "",
+                    Latitude = "7.09180000",
+                    Longitude = "171.38020000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Delap-Uliga-Djarrit", Latitude = "7.08333333", Longitude = "171.38333333" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 15,
+                    Name = "Maloelap",
+                    StateCode = "",
+                    Latitude = "8.75343611",
+                    Longitude = "171.04888889",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Taroa", Latitude = "48.00000000", Longitude = "33.41666667" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 16,
+                    Name = "Mejit",
+                    StateCode = "",
+                    Latitude = "10.28333333",
+                    Longitude = "170.88333333",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Mejit", Latitude = "10.28333333", Longitude = "170.88333333" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 17,
+                    Name = "Mili",
+                    StateCode = "",
+                    Latitude = "6.12621667",
+                    Longitude = "171.97998056",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Mili", Latitude = "6.12621667", Longitude = "171.97998056" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 18,
+                    Name = "Namdrik",
+                    StateCode = "",
+                    Latitude = "5.61666667",
+                    Longitude = "168.11666667",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Namdrik", Latitude = "5.61666667", Longitude = "168.11666667" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 19,
+                    Name = "Namu",
+                    StateCode = "",
+                    Latitude = "7.98333333",
+                    Longitude = "168.17361111",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Namu", Latitude = "7.98333333", Longitude = "168.17361111" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 20,
                     Name = "Ralik",
-                    StateCode = "L",
-                    Latitude = "8.13614600",
-                    Longitude = "164.88679560",
+                    StateCode = "",
+                    Latitude = "8.23081700",
+                    Longitude = "167.79532240",
                     Type = "chain",
                     Cities = new()
                     {
@@ -74,14 +345,84 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 2,
+                    Id = 21,
                     Name = "Ratak",
-                    StateCode = "T",
-                    Latitude = "10.27632760",
-                    Longitude = "170.55009370",
+                    StateCode = "",
+                    Latitude = "8.61505500",
+                    Longitude = "170.82055470",
                     Type = "chain",
                     Cities = new()
                     {
+                    }
+                },
+
+                new()
+                {
+                    Id = 22,
+                    Name = "Rongelap",
+                    StateCode = "",
+                    Latitude = "11.31666667",
+                    Longitude = "166.78333333",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Rongelap", Latitude = "11.31666667", Longitude = "166.78333333" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 23,
+                    Name = "Ujae",
+                    StateCode = "",
+                    Latitude = "9.05000000",
+                    Longitude = "165.65000000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Ujae", Latitude = "9.05000000", Longitude = "165.65000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 24,
+                    Name = "Utrik",
+                    StateCode = "",
+                    Latitude = "11.26730556",
+                    Longitude = "169.78426111",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Utrik", Latitude = "11.26730556", Longitude = "169.78426111" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 25,
+                    Name = "Wotho",
+                    StateCode = "",
+                    Latitude = "10.10000000",
+                    Longitude = "165.96666667",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Wotho", Latitude = "10.10000000", Longitude = "165.96666667" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 26,
+                    Name = "Wotje",
+                    StateCode = "",
+                    Latitude = "9.43333333",
+                    Longitude = "170.01666667",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Wotje", Latitude = "9.43333333", Longitude = "170.01666667" }
                     }
                 }
             }

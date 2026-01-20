@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Soudan",
                 ["ko"] = "수단",
                 ["pt-BR"] = "Sudão",
                 ["pt"] = "Sudão",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Sudan",
                 ["ru"] = "Судан",
                 ["uk"] = "Судан",
-                ["pl"] = "Sudan"
+                ["pl"] = "Sudan",
+                ["hi"] = "सूडान",
+                ["ar"] = "السودان"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Al Jazirah",
-                    StateCode = "GZ",
-                    Latitude = "14.88596110",
-                    Longitude = "33.43835300",
+                    StateCode = "",
+                    Latitude = "14.66715370",
+                    Longitude = "33.22236100",
                     Type = "state",
                     Cities = new()
                     {
@@ -82,9 +85,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Al Qadarif",
-                    StateCode = "GD",
-                    Latitude = "14.02430700",
-                    Longitude = "35.36856790",
+                    StateCode = "",
+                    Latitude = "14.04094100",
+                    Longitude = "35.39883200",
                     Type = "state",
                     Cities = new()
                     {
@@ -98,9 +101,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Blue Nile",
-                    StateCode = "NB",
-                    Latitude = "47.59867300",
-                    Longitude = "-122.33441900",
+                    StateCode = "",
+                    Latitude = "11.95669720",
+                    Longitude = "34.12289400",
                     Type = "state",
                     Cities = new()
                     {
@@ -114,9 +117,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Central Darfur",
-                    StateCode = "DC",
-                    Latitude = "14.37827470",
-                    Longitude = "24.90422080",
+                    StateCode = "",
+                    Latitude = "12.12970930",
+                    Longitude = "23.35416870",
                     Type = "state",
                     Cities = new()
                     {
@@ -128,9 +131,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "East Darfur",
-                    StateCode = "DE",
-                    Latitude = "14.37827470",
-                    Longitude = "24.90422080",
+                    StateCode = "",
+                    Latitude = "11.22319830",
+                    Longitude = "26.58580410",
                     Type = "state",
                     Cities = new()
                     {
@@ -142,9 +145,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Kassala",
-                    StateCode = "KA",
-                    Latitude = "15.45813320",
-                    Longitude = "36.40396290",
+                    StateCode = "",
+                    Latitude = "15.45201100",
+                    Longitude = "36.37706990",
                     Type = "state",
                     Cities = new()
                     {
@@ -158,9 +161,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Khartoum",
-                    StateCode = "KH",
-                    Latitude = "15.50065440",
-                    Longitude = "32.55989940",
+                    StateCode = "",
+                    Latitude = "15.50383010",
+                    Longitude = "32.57389790",
                     Type = "state",
                     Cities = new()
                     {
@@ -173,9 +176,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "North Darfur",
-                    StateCode = "DN",
-                    Latitude = "15.76619690",
-                    Longitude = "24.90422080",
+                    StateCode = "",
+                    Latitude = "16.00000000",
+                    Longitude = "26.00000000",
                     Type = "state",
                     Cities = new()
                     {
@@ -189,9 +192,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "North Kordofan",
-                    StateCode = "KN",
-                    Latitude = "13.83064410",
-                    Longitude = "29.41793240",
+                    StateCode = "",
+                    Latitude = "14.41693020",
+                    Longitude = "29.46836900",
                     Type = "state",
                     Cities = new()
                     {
@@ -206,9 +209,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Northern",
-                    StateCode = "NO",
-                    Latitude = "38.06381700",
-                    Longitude = "-84.46286480",
+                    StateCode = "",
+                    Latitude = "19.00000000",
+                    Longitude = "30.00000000",
                     Type = "state",
                     Cities = new()
                     {
@@ -225,9 +228,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Red Sea",
-                    StateCode = "RS",
-                    Latitude = "20.28023200",
-                    Longitude = "38.51257300",
+                    StateCode = "",
+                    Latitude = "20.00000000",
+                    Longitude = "36.00000000",
                     Type = "state",
                     Cities = new()
                     {
@@ -242,9 +245,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "River Nile",
-                    StateCode = "NR",
-                    Latitude = "23.97275950",
-                    Longitude = "32.87492060",
+                    StateCode = "",
+                    Latitude = "19.01055960",
+                    Longitude = "33.01831800",
                     Type = "state",
                     Cities = new()
                     {
@@ -261,9 +264,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Sennar",
-                    StateCode = "SI",
-                    Latitude = "13.56746900",
-                    Longitude = "33.56720450",
+                    StateCode = "",
+                    Latitude = "13.54240540",
+                    Longitude = "33.61035550",
                     Type = "state",
                     Cities = new()
                     {
@@ -281,9 +284,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "South Darfur",
-                    StateCode = "DS",
-                    Latitude = "11.64886390",
-                    Longitude = "24.90422080",
+                    StateCode = "",
+                    Latitude = "11.00000000",
+                    Longitude = "25.00000000",
                     Type = "state",
                     Cities = new()
                     {
@@ -296,9 +299,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "South Kordofan",
-                    StateCode = "KS",
-                    Latitude = "11.19901920",
-                    Longitude = "29.41793240",
+                    StateCode = "",
+                    Latitude = "11.00000000",
+                    Longitude = "31.00000000",
                     Type = "state",
                     Cities = new()
                     {
@@ -314,9 +317,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "West Darfur",
-                    StateCode = "DW",
-                    Latitude = "12.84635610",
-                    Longitude = "23.00119890",
+                    StateCode = "",
+                    Latitude = "13.51100520",
+                    Longitude = "22.70334270",
                     Type = "state",
                     Cities = new()
                     {
@@ -328,9 +331,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "West Kordofan",
-                    StateCode = "GK",
-                    Latitude = "11.19901920",
-                    Longitude = "29.41793240",
+                    StateCode = "",
+                    Latitude = "11.75228030",
+                    Longitude = "28.20460260",
                     Type = "state",
                     Cities = new()
                     {
@@ -345,9 +348,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "White Nile",
-                    StateCode = "NW",
-                    Latitude = "9.33215160",
-                    Longitude = "31.46153000",
+                    StateCode = "",
+                    Latitude = "12.49998380",
+                    Longitude = "32.50001660",
                     Type = "state",
                     Cities = new()
                     {

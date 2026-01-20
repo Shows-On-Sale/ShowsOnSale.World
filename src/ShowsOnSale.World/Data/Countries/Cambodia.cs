@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Kambodja",
                 ["ko"] = "캄보디아",
                 ["pt-BR"] = "Camboja",
                 ["pt"] = "Camboja",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Kamboçya",
                 ["ru"] = "Камбоджа",
                 ["uk"] = "Камбоджа",
-                ["pl"] = "Kambodża"
+                ["pl"] = "Kambodża",
+                ["hi"] = "कंबोडिया",
+                ["ar"] = "كمبوديا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Banteay Meanchey",
-                    StateCode = "1",
-                    Latitude = "13.75319140",
-                    Longitude = "102.98961500",
+                    StateCode = "",
+                    Latitude = "13.79891470",
+                    Longitude = "102.88626660",
                     Type = "province",
                     Cities = new()
                     {
@@ -80,9 +83,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Battambang",
-                    StateCode = "2",
-                    Latitude = "13.02869710",
-                    Longitude = "102.98961500",
+                    StateCode = "",
+                    Latitude = "13.09985260",
+                    Longitude = "103.19666590",
                     Type = "province",
                     Cities = new()
                     {
@@ -98,9 +101,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Kampong Cham",
-                    StateCode = "3",
-                    Latitude = "12.09829180",
-                    Longitude = "105.31311850",
+                    StateCode = "",
+                    Latitude = "12.11748570",
+                    Longitude = "105.20800220",
                     Type = "province",
                     Cities = new()
                     {
@@ -114,9 +117,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Kampong Chhnang",
-                    StateCode = "4",
-                    Latitude = "12.13923520",
-                    Longitude = "104.56552730",
+                    StateCode = "",
+                    Latitude = "12.25360260",
+                    Longitude = "104.66583890",
                     Type = "province",
                     Cities = new()
                     {
@@ -132,9 +135,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Kampong Speu",
-                    StateCode = "5",
-                    Latitude = "11.61551090",
-                    Longitude = "104.37919120",
+                    StateCode = "",
+                    Latitude = "11.57753680",
+                    Longitude = "104.27140230",
                     Type = "province",
                     Cities = new()
                     {
@@ -150,9 +153,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Kampong Thom",
-                    StateCode = "6",
-                    Latitude = "12.81674850",
-                    Longitude = "103.84131040",
+                    StateCode = "",
+                    Latitude = "12.66879230",
+                    Longitude = "104.88791970",
                     Type = "province",
                     Cities = new()
                     {
@@ -163,15 +166,15 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Kampot",
-                    StateCode = "7",
-                    Latitude = "10.73253510",
-                    Longitude = "104.37919120",
+                    StateCode = "",
+                    Latitude = "10.61169060",
+                    Longitude = "104.18275420",
                     Type = "province",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Angkor Chey", Latitude = "10.76667000", Longitude = "104.65000000" },
                         new() { Id = 2, Name = "Banteay Meas", Latitude = "10.61667000", Longitude = "104.53333000" },
-                        new() { Id = 3, Name = "Chhouk District", Latitude = "10.81667000", Longitude = "104.45000000" },
+                        new() { Id = 3, Name = "Chhouk", Latitude = "10.81667000", Longitude = "104.45000000" },
                         new() { Id = 4, Name = "Kampong Bay", Latitude = "10.59554000", Longitude = "104.17136000" },
                         new() { Id = 5, Name = "Kampong Tranch", Latitude = "10.55000000", Longitude = "104.46667000" },
                         new() { Id = 6, Name = "Kampot", Latitude = "10.61041000", Longitude = "104.18145000" },
@@ -185,9 +188,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Kandal",
-                    StateCode = "8",
-                    Latitude = "11.22373830",
-                    Longitude = "105.12589550",
+                    StateCode = "",
+                    Latitude = "11.39626250",
+                    Longitude = "105.02078690",
                     Type = "province",
                     Cities = new()
                     {
@@ -201,9 +204,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Kep",
-                    StateCode = "23",
-                    Latitude = "10.53608900",
-                    Longitude = "104.35591580",
+                    StateCode = "",
+                    Latitude = "10.48463910",
+                    Longitude = "104.31440820",
                     Type = "province",
                     Cities = new()
                     {
@@ -216,9 +219,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Koh Kong",
-                    StateCode = "9",
-                    Latitude = "11.57628040",
-                    Longitude = "103.35872880",
+                    StateCode = "",
+                    Latitude = "11.68134170",
+                    Longitude = "103.02580430",
                     Type = "province",
                     Cities = new()
                     {
@@ -234,9 +237,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Kratie",
-                    StateCode = "10",
-                    Latitude = "12.50436080",
-                    Longitude = "105.96998780",
+                    StateCode = "",
+                    Latitude = "12.67830170",
+                    Longitude = "106.05817330",
                     Type = "province",
                     Cities = new()
                     {
@@ -250,9 +253,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Mondulkiri",
-                    StateCode = "11",
-                    Latitude = "12.78794270",
-                    Longitude = "107.10119310",
+                    StateCode = "",
+                    Latitude = "12.73960750",
+                    Longitude = "107.00879870",
                     Type = "province",
                     Cities = new()
                     {
@@ -267,9 +270,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Oddar Meanchey",
-                    StateCode = "22",
-                    Latitude = "14.16097380",
-                    Longitude = "103.82162610",
+                    StateCode = "",
+                    Latitude = "14.15856310",
+                    Longitude = "103.78279600",
                     Type = "province",
                     Cities = new()
                     {
@@ -284,9 +287,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Pailin",
-                    StateCode = "24",
-                    Latitude = "12.90929620",
-                    Longitude = "102.66755750",
+                    StateCode = "",
+                    Latitude = "12.89053280",
+                    Longitude = "102.62946040",
                     Type = "province",
                     Cities = new()
                     {
@@ -299,9 +302,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Phnom Penh",
-                    StateCode = "12",
-                    Latitude = "11.55637380",
-                    Longitude = "104.92820990",
+                    StateCode = "",
+                    Latitude = "11.56827100",
+                    Longitude = "104.92244260",
                     Type = "autonomous municipality",
                     Cities = new()
                     {
@@ -320,9 +323,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Preah Vihear",
-                    StateCode = "13",
-                    Latitude = "14.00857970",
-                    Longitude = "104.84546190",
+                    StateCode = "",
+                    Latitude = "13.74629820",
+                    Longitude = "104.97403000",
                     Type = "province",
                     Cities = new()
                     {
@@ -340,9 +343,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Prey Veng",
-                    StateCode = "14",
-                    Latitude = "11.38024420",
-                    Longitude = "105.50054830",
+                    StateCode = "",
+                    Latitude = "11.36595970",
+                    Longitude = "105.45572770",
                     Type = "province",
                     Cities = new()
                     {
@@ -357,9 +360,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Pursat",
-                    StateCode = "15",
-                    Latitude = "12.27209560",
-                    Longitude = "103.72891670",
+                    StateCode = "",
+                    Latitude = "12.46625920",
+                    Longitude = "103.74268300",
                     Type = "province",
                     Cities = new()
                     {
@@ -376,9 +379,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 19,
                     Name = "Ratanakiri",
-                    StateCode = "16",
-                    Latitude = "13.85766070",
-                    Longitude = "107.10119310",
+                    StateCode = "",
+                    Latitude = "13.93123990",
+                    Longitude = "107.03910880",
                     Type = "province",
                     Cities = new()
                     {
@@ -398,9 +401,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 20,
                     Name = "Siem Reap",
-                    StateCode = "17",
-                    Latitude = "13.33026600",
-                    Longitude = "104.10013260",
+                    StateCode = "",
+                    Latitude = "13.36175620",
+                    Longitude = "103.85903210",
                     Type = "province",
                     Cities = new()
                     {
@@ -416,9 +419,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 21,
                     Name = "Sihanoukville",
-                    StateCode = "18",
-                    Latitude = "10.75818990",
-                    Longitude = "103.82162610",
+                    StateCode = "",
+                    Latitude = "10.73219890",
+                    Longitude = "103.75958060",
                     Type = "province",
                     Cities = new()
                     {
@@ -431,9 +434,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 22,
                     Name = "Stung Treng",
-                    StateCode = "19",
-                    Latitude = "13.57647300",
-                    Longitude = "105.96998780",
+                    StateCode = "",
+                    Latitude = "13.52712070",
+                    Longitude = "105.96867270",
                     Type = "province",
                     Cities = new()
                     {
@@ -447,9 +450,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 23,
                     Name = "Svay Rieng",
-                    StateCode = "20",
-                    Latitude = "11.14272200",
-                    Longitude = "105.82902980",
+                    StateCode = "",
+                    Latitude = "11.09161500",
+                    Longitude = "105.80345770",
                     Type = "province",
                     Cities = new()
                     {
@@ -462,9 +465,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 24,
                     Name = "Takeo",
-                    StateCode = "21",
-                    Latitude = "10.93215190",
-                    Longitude = "104.79877100",
+                    StateCode = "",
+                    Latitude = "10.93585470",
+                    Longitude = "104.77964130",
                     Type = "province",
                     Cities = new()
                     {
@@ -473,6 +476,20 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Srŏk Ângkôr Borei", Latitude = "10.99291000", Longitude = "104.95177000" },
                         new() { Id = 4, Name = "Srŏk Borei Cholsar", Latitude = "10.81414000", Longitude = "104.98994000" },
                         new() { Id = 5, Name = "Takeo", Latitude = "10.99081000", Longitude = "104.78498000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 25,
+                    Name = "Tboung Khmum",
+                    StateCode = "",
+                    Latitude = "11.98333333",
+                    Longitude = "105.45000000",
+                    Type = "province",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Suong", Latitude = "11.91666667", Longitude = "105.65000000" }
                     }
                 }
             }

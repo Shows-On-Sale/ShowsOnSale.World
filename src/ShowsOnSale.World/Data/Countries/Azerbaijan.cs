@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Azerbaidjan",
                 ["ko"] = "아제르바이잔",
                 ["pt-BR"] = "Azerbaijão",
                 ["pt"] = "Azerbaijão",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Azerbaycan",
                 ["ru"] = "Азербайджан",
                 ["uk"] = "Азербайджан",
-                ["pl"] = "Azerbejdżan"
+                ["pl"] = "Azerbejdżan",
+                ["hi"] = "आज़रबाइजान",
+                ["ar"] = "أذربيجان"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Absheron",
-                    StateCode = "ABS",
-                    Latitude = "40.36296930",
-                    Longitude = "49.27368150",
+                    StateCode = "",
+                    Latitude = "40.33618990",
+                    Longitude = "49.20930000",
                     Type = "district",
                     Cities = new()
                     {
@@ -81,9 +84,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Agdam",
-                    StateCode = "AGM",
-                    Latitude = "39.99318530",
-                    Longitude = "46.99495620",
+                    StateCode = "",
+                    Latitude = "39.99282150",
+                    Longitude = "46.93240130",
                     Type = "district",
                     Cities = new()
                     {
@@ -95,9 +98,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Agdash",
-                    StateCode = "AGS",
-                    Latitude = "40.63354270",
-                    Longitude = "47.46743100",
+                    StateCode = "",
+                    Latitude = "40.16729670",
+                    Longitude = "46.08572520",
                     Type = "district",
                     Cities = new()
                     {
@@ -109,9 +112,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Aghjabadi",
-                    StateCode = "AGC",
-                    Latitude = "28.78918410",
-                    Longitude = "77.51607880",
+                    StateCode = "",
+                    Latitude = "40.05054400",
+                    Longitude = "47.46074620",
                     Type = "district",
                     Cities = new()
                     {
@@ -124,9 +127,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Agstafa",
-                    StateCode = "AGA",
-                    Latitude = "41.26559330",
-                    Longitude = "45.51342910",
+                    StateCode = "",
+                    Latitude = "41.19806510",
+                    Longitude = "45.52809530",
                     Type = "district",
                     Cities = new()
                     {
@@ -140,9 +143,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Agsu",
-                    StateCode = "AGU",
-                    Latitude = "40.52833390",
-                    Longitude = "48.36508350",
+                    StateCode = "",
+                    Latitude = "40.55830000",
+                    Longitude = "48.35297100",
                     Type = "district",
                     Cities = new()
                     {
@@ -154,9 +157,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Astara",
-                    StateCode = "AST",
-                    Latitude = "38.49378450",
-                    Longitude = "48.69443650",
+                    StateCode = "",
+                    Latitude = "38.51559770",
+                    Longitude = "48.82832230",
                     Type = "district",
                     Cities = new()
                     {
@@ -169,7 +172,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Babek",
-                    StateCode = "BAB",
+                    StateCode = "",
                     Latitude = "39.15076130",
                     Longitude = "45.44853680",
                     Type = "district",
@@ -182,9 +185,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Baku",
-                    StateCode = "BA",
-                    Latitude = "40.40926170",
-                    Longitude = "49.86709240",
+                    StateCode = "",
+                    Latitude = "40.37558850",
+                    Longitude = "49.83280090",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -225,9 +228,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Balakan",
-                    StateCode = "BAL",
-                    Latitude = "41.70375090",
-                    Longitude = "46.40442130",
+                    StateCode = "",
+                    Latitude = "41.73193690",
+                    Longitude = "46.40018810",
                     Type = "district",
                     Cities = new()
                     {
@@ -240,9 +243,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Barda",
-                    StateCode = "BAR",
-                    Latitude = "40.37065550",
-                    Longitude = "47.13789090",
+                    StateCode = "",
+                    Latitude = "40.38124570",
+                    Longitude = "47.12462870",
                     Type = "district",
                     Cities = new()
                     {
@@ -255,7 +258,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Beylagan",
-                    StateCode = "BEY",
+                    StateCode = "",
                     Latitude = "39.77230730",
                     Longitude = "47.61541660",
                     Type = "district",
@@ -273,7 +276,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Bilasuvar",
-                    StateCode = "BIL",
+                    StateCode = "",
                     Latitude = "39.45988330",
                     Longitude = "48.55098130",
                     Type = "district",
@@ -287,9 +290,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Dashkasan",
-                    StateCode = "DAS",
-                    Latitude = "40.52022570",
-                    Longitude = "46.07793040",
+                    StateCode = "",
+                    Latitude = "40.47519600",
+                    Longitude = "46.01507050",
                     Type = "district",
                     Cities = new()
                     {
@@ -302,9 +305,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Fizuli",
-                    StateCode = "FUZ",
-                    Latitude = "39.53786050",
-                    Longitude = "47.30338770",
+                    StateCode = "",
+                    Latitude = "39.58356750",
+                    Longitude = "47.38069980",
                     Type = "district",
                     Cities = new()
                     {
@@ -317,9 +320,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Ganja",
-                    StateCode = "GA",
-                    Latitude = "36.36873380",
-                    Longitude = "-95.99857670",
+                    StateCode = "",
+                    Latitude = "40.67980830",
+                    Longitude = "46.35971780",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -331,7 +334,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Gədəbəy",
-                    StateCode = "GAD",
+                    StateCode = "",
                     Latitude = "40.56996390",
                     Longitude = "45.81068830",
                     Type = "district",
@@ -349,9 +352,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Gobustan",
-                    StateCode = "QOB",
-                    Latitude = "40.53261040",
-                    Longitude = "48.92737500",
+                    StateCode = "",
+                    Latitude = "40.53260440",
+                    Longitude = "48.99416760",
                     Type = "district",
                     Cities = new()
                     {
@@ -363,9 +366,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 19,
                     Name = "Goranboy",
-                    StateCode = "GOR",
-                    Latitude = "40.53805060",
-                    Longitude = "46.59908910",
+                    StateCode = "",
+                    Latitude = "40.60357230",
+                    Longitude = "46.70739060",
                     Type = "district",
                     Cities = new()
                     {
@@ -378,9 +381,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 20,
                     Name = "Goychay",
-                    StateCode = "GOY",
-                    Latitude = "40.62361680",
-                    Longitude = "47.74030340",
+                    StateCode = "",
+                    Latitude = "40.64944150",
+                    Longitude = "47.74122080",
                     Type = "district",
                     Cities = new()
                     {
@@ -392,9 +395,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 21,
                     Name = "Goygol",
-                    StateCode = "GYG",
-                    Latitude = "40.55953780",
-                    Longitude = "46.33149530",
+                    StateCode = "",
+                    Latitude = "40.58800400",
+                    Longitude = "46.32109500",
                     Type = "district",
                     Cities = new()
                     {
@@ -406,9 +409,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 22,
                     Name = "Hajigabul",
-                    StateCode = "HAC",
-                    Latitude = "40.03937700",
-                    Longitude = "48.92025330",
+                    StateCode = "",
+                    Latitude = "40.02865570",
+                    Longitude = "48.93507970",
                     Type = "district",
                     Cities = new()
                     {
@@ -421,7 +424,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 23,
                     Name = "Imishli",
-                    StateCode = "IMI",
+                    StateCode = "",
                     Latitude = "39.86946860",
                     Longitude = "48.06652180",
                     Type = "district",
@@ -435,9 +438,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 24,
                     Name = "Ismailli",
-                    StateCode = "ISM",
-                    Latitude = "40.74299360",
-                    Longitude = "48.21255560",
+                    StateCode = "",
+                    Latitude = "40.78805600",
+                    Longitude = "48.14856530",
                     Type = "district",
                     Cities = new()
                     {
@@ -450,9 +453,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 25,
                     Name = "Jabrayil",
-                    StateCode = "CAB",
-                    Latitude = "39.26455440",
-                    Longitude = "46.96215620",
+                    StateCode = "",
+                    Latitude = "39.31880610",
+                    Longitude = "46.97855470",
                     Type = "district",
                     Cities = new()
                     {
@@ -464,7 +467,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 26,
                     Name = "Jalilabad",
-                    StateCode = "CAL",
+                    StateCode = "",
                     Latitude = "39.20516320",
                     Longitude = "48.51006040",
                     Type = "district",
@@ -479,9 +482,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 27,
                     Name = "Julfa",
-                    StateCode = "CUL",
-                    Latitude = "38.96049830",
-                    Longitude = "45.62929390",
+                    StateCode = "",
+                    Latitude = "39.14114200",
+                    Longitude = "45.69497120",
                     Type = "district",
                     Cities = new()
                     {
@@ -492,7 +495,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 28,
                     Name = "Kalbajar",
-                    StateCode = "KAL",
+                    StateCode = "",
                     Latitude = "40.10243290",
                     Longitude = "46.03648720",
                     Type = "district",
@@ -507,9 +510,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 29,
                     Name = "Kangarli",
-                    StateCode = "KAN",
-                    Latitude = "39.38719400",
-                    Longitude = "45.16398520",
+                    StateCode = "",
+                    Latitude = "39.36322160",
+                    Longitude = "45.20983080",
                     Type = "district",
                     Cities = new()
                     {
@@ -520,7 +523,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 30,
                     Name = "Khachmaz",
-                    StateCode = "XAC",
+                    StateCode = "",
                     Latitude = "41.45911680",
                     Longitude = "48.80206260",
                     Type = "district",
@@ -534,8 +537,22 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 31,
+                    Name = "Khankendi",
+                    StateCode = "",
+                    Latitude = "39.82660000",
+                    Longitude = "46.75560000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Khankendi", Latitude = "39.82660000", Longitude = "46.75560000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 32,
                     Name = "Khizi",
-                    StateCode = "XIZ",
+                    StateCode = "",
                     Latitude = "40.91094890",
                     Longitude = "49.07292640",
                     Type = "district",
@@ -550,11 +567,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 32,
+                    Id = 33,
                     Name = "Khojali",
-                    StateCode = "XCI",
-                    Latitude = "39.91325530",
-                    Longitude = "46.79430500",
+                    StateCode = "",
+                    Latitude = "38.75847270",
+                    Longitude = "48.85643020",
                     Type = "district",
                     Cities = new()
                     {
@@ -565,11 +582,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 33,
+                    Id = 34,
                     Name = "Kurdamir",
-                    StateCode = "KUR",
-                    Latitude = "40.36986510",
-                    Longitude = "48.16446260",
+                    StateCode = "",
+                    Latitude = "40.34552470",
+                    Longitude = "48.14889510",
                     Type = "district",
                     Cities = new()
                     {
@@ -579,9 +596,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 34,
+                    Id = 35,
                     Name = "Lachin",
-                    StateCode = "LAC",
+                    StateCode = "",
                     Latitude = "39.63834140",
                     Longitude = "46.54608530",
                     Type = "district",
@@ -593,11 +610,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 35,
+                    Id = 36,
                     Name = "Lankaran",
-                    StateCode = "LAN",
-                    Latitude = "38.75286690",
-                    Longitude = "48.84750150",
+                    StateCode = "",
+                    Latitude = "38.76189730",
+                    Longitude = "48.84377840",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -606,11 +623,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 36,
+                    Id = 37,
                     Name = "Lankaran",
-                    StateCode = "LA",
-                    Latitude = "38.75286690",
-                    Longitude = "48.84750150",
+                    StateCode = "",
+                    Latitude = "38.76189730",
+                    Longitude = "48.84377840",
                     Type = "district",
                     Cities = new()
                     {
@@ -621,9 +638,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 37,
+                    Id = 38,
                     Name = "Lerik",
-                    StateCode = "LER",
+                    StateCode = "",
                     Latitude = "38.77361920",
                     Longitude = "48.41514830",
                     Type = "district",
@@ -635,11 +652,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 38,
+                    Id = 39,
                     Name = "Martuni",
-                    StateCode = "XVD",
-                    Latitude = "39.79146930",
-                    Longitude = "47.11008140",
+                    StateCode = "",
+                    Latitude = "39.81843890",
+                    Longitude = "46.74808670",
                     Type = "district",
                     Cities = new()
                     {
@@ -651,11 +668,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 39,
+                    Id = 40,
                     Name = "Masally",
-                    StateCode = "MAS",
-                    Latitude = "39.03407220",
-                    Longitude = "48.65893540",
+                    StateCode = "",
+                    Latitude = "39.03221110",
+                    Longitude = "48.67210930",
                     Type = "district",
                     Cities = new()
                     {
@@ -666,9 +683,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 40,
+                    Id = 41,
                     Name = "Mingachevir",
-                    StateCode = "MI",
+                    StateCode = "",
                     Latitude = "40.77025630",
                     Longitude = "47.04960150",
                     Type = "municipality",
@@ -680,11 +697,39 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 41,
+                    Id = 42,
+                    Name = "Naftalan",
+                    StateCode = "",
+                    Latitude = "40.50610000",
+                    Longitude = "46.82440000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Naftalan", Latitude = "40.50610000", Longitude = "46.82440000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 43,
                     Name = "Nakhchivan",
-                    StateCode = "NX",
-                    Latitude = "39.32568140",
-                    Longitude = "45.49126480",
+                    StateCode = "",
+                    Latitude = "39.20890000",
+                    Longitude = "45.41220000",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Nakhchivan", Latitude = "39.20889000", Longitude = "45.41222000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 44,
+                    Name = "Nakhchivan",
+                    StateCode = "",
+                    Latitude = "39.21749700",
+                    Longitude = "45.40696710",
                     Type = "autonomous republic",
                     Cities = new()
                     {
@@ -694,28 +739,27 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Deste", Latitude = "38.88375000", Longitude = "45.90963000" },
                         new() { Id = 5, Name = "Heydarabad", Latitude = "39.72286000", Longitude = "44.84846000" },
                         new() { Id = 6, Name = "Julfa Rayon", Latitude = "39.16667000", Longitude = "45.66667000" },
-                        new() { Id = 7, Name = "Nakhchivan", Latitude = "39.20889000", Longitude = "45.41222000" },
-                        new() { Id = 8, Name = "Oğlanqala", Latitude = "39.58694000", Longitude = "45.04611000" },
-                        new() { Id = 9, Name = "Ordubad", Latitude = "38.90961000", Longitude = "46.02274000" },
-                        new() { Id = 10, Name = "Ordubad Rayon", Latitude = "39.08333000", Longitude = "45.91667000" },
-                        new() { Id = 11, Name = "Qıvraq", Latitude = "39.39939000", Longitude = "45.11513000" },
-                        new() { Id = 12, Name = "Şahbuz", Latitude = "39.40722000", Longitude = "45.57389000" },
-                        new() { Id = 13, Name = "Sedarak", Latitude = "39.71427000", Longitude = "44.88455000" },
-                        new() { Id = 14, Name = "Shahbuz Rayon", Latitude = "39.41667000", Longitude = "45.58333000" },
-                        new() { Id = 15, Name = "Sharur City", Latitude = "39.55298000", Longitude = "44.97993000" },
-                        new() { Id = 16, Name = "Sumbatan-diza", Latitude = "38.94804000", Longitude = "45.82572000" },
-                        new() { Id = 17, Name = "Tazakend", Latitude = "39.15459000", Longitude = "45.44282000" },
-                        new() { Id = 18, Name = "Yaycı", Latitude = "38.94052000", Longitude = "45.73244000" }
+                        new() { Id = 7, Name = "Oğlanqala", Latitude = "39.58694000", Longitude = "45.04611000" },
+                        new() { Id = 8, Name = "Ordubad", Latitude = "38.90961000", Longitude = "46.02274000" },
+                        new() { Id = 9, Name = "Ordubad Rayon", Latitude = "39.08333000", Longitude = "45.91667000" },
+                        new() { Id = 10, Name = "Qıvraq", Latitude = "39.39939000", Longitude = "45.11513000" },
+                        new() { Id = 11, Name = "Şahbuz", Latitude = "39.40722000", Longitude = "45.57389000" },
+                        new() { Id = 12, Name = "Sedarak", Latitude = "39.71427000", Longitude = "44.88455000" },
+                        new() { Id = 13, Name = "Shahbuz Rayon", Latitude = "39.41667000", Longitude = "45.58333000" },
+                        new() { Id = 14, Name = "Sharur City", Latitude = "39.55298000", Longitude = "44.97993000" },
+                        new() { Id = 15, Name = "Sumbatan-diza", Latitude = "38.94804000", Longitude = "45.82572000" },
+                        new() { Id = 16, Name = "Tazakend", Latitude = "39.15459000", Longitude = "45.44282000" },
+                        new() { Id = 17, Name = "Yaycı", Latitude = "38.94052000", Longitude = "45.73244000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 42,
+                    Id = 45,
                     Name = "Neftchala",
-                    StateCode = "NEF",
-                    Latitude = "39.38810520",
-                    Longitude = "49.24137430",
+                    StateCode = "",
+                    Latitude = "39.37905320",
+                    Longitude = "49.24860700",
                     Type = "district",
                     Cities = new()
                     {
@@ -728,9 +772,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 43,
+                    Id = 46,
                     Name = "Oghuz",
-                    StateCode = "OGU",
+                    StateCode = "",
                     Latitude = "41.07279240",
                     Longitude = "47.46506720",
                     Type = "district",
@@ -742,9 +786,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 44,
+                    Id = 47,
                     Name = "Ordubad",
-                    StateCode = "ORD",
+                    StateCode = "",
                     Latitude = "38.90216220",
                     Longitude = "46.02376250",
                     Type = "district",
@@ -755,11 +799,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 45,
+                    Id = 48,
                     Name = "Qabala",
-                    StateCode = "QAB",
-                    Latitude = "40.92539250",
-                    Longitude = "47.80161060",
+                    StateCode = "",
+                    Latitude = "40.94360640",
+                    Longitude = "47.82133770",
                     Type = "district",
                     Cities = new()
                     {
@@ -769,11 +813,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 46,
+                    Id = 49,
                     Name = "Qakh",
-                    StateCode = "QAX",
-                    Latitude = "41.42068270",
-                    Longitude = "46.93201840",
+                    StateCode = "",
+                    Latitude = "41.41855150",
+                    Longitude = "46.91920970",
                     Type = "district",
                     Cities = new()
                     {
@@ -786,11 +830,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 47,
+                    Id = 50,
                     Name = "Qazakh",
-                    StateCode = "QAZ",
-                    Latitude = "41.09710740",
-                    Longitude = "45.35163310",
+                    StateCode = "",
+                    Latitude = "41.17073660",
+                    Longitude = "45.25288330",
                     Type = "district",
                     Cities = new()
                     {
@@ -800,11 +844,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 48,
+                    Id = 51,
                     Name = "Quba",
-                    StateCode = "QBA",
-                    Latitude = "41.15642420",
-                    Longitude = "48.41350210",
+                    StateCode = "",
+                    Latitude = "41.18808930",
+                    Longitude = "48.37214520",
                     Type = "district",
                     Cities = new()
                     {
@@ -815,11 +859,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 49,
+                    Id = 52,
                     Name = "Qubadli",
-                    StateCode = "QBI",
-                    Latitude = "39.27139960",
-                    Longitude = "46.63543120",
+                    StateCode = "",
+                    Latitude = "39.33359580",
+                    Longitude = "46.63354000",
                     Type = "district",
                     Cities = new()
                     {
@@ -829,9 +873,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 50,
+                    Id = 53,
                     Name = "Qusar",
-                    StateCode = "QUS",
+                    StateCode = "",
                     Latitude = "41.42668860",
                     Longitude = "48.43455770",
                     Type = "district",
@@ -844,11 +888,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 51,
+                    Id = 54,
                     Name = "Saatly",
-                    StateCode = "SAT",
-                    Latitude = "39.90955030",
-                    Longitude = "48.35951220",
+                    StateCode = "",
+                    Latitude = "39.93760090",
+                    Longitude = "48.36890970",
                     Type = "district",
                     Cities = new()
                     {
@@ -859,11 +903,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 52,
+                    Id = 55,
                     Name = "Sabirabad",
-                    StateCode = "SAB",
-                    Latitude = "39.98706630",
-                    Longitude = "48.46925450",
+                    StateCode = "",
+                    Latitude = "40.00800600",
+                    Longitude = "48.47503200",
                     Type = "district",
                     Cities = new()
                     {
@@ -873,11 +917,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 53,
+                    Id = 56,
                     Name = "Sadarak",
-                    StateCode = "SAD",
-                    Latitude = "39.71051140",
-                    Longitude = "44.88642770",
+                    StateCode = "",
+                    Latitude = "39.67274070",
+                    Longitude = "44.91387390",
                     Type = "district",
                     Cities = new()
                     {
@@ -886,11 +930,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 54,
+                    Id = 57,
                     Name = "Salyan",
-                    StateCode = "SAL",
-                    Latitude = "28.35248110",
-                    Longitude = "82.12784000",
+                    StateCode = "",
+                    Latitude = "39.65241010",
+                    Longitude = "49.10843810",
                     Type = "district",
                     Cities = new()
                     {
@@ -901,9 +945,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 55,
+                    Id = 58,
                     Name = "Samukh",
-                    StateCode = "SMX",
+                    StateCode = "",
                     Latitude = "40.76046310",
                     Longitude = "46.40631810",
                     Type = "district",
@@ -917,11 +961,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 56,
+                    Id = 59,
                     Name = "Shabran",
-                    StateCode = "SBN",
-                    Latitude = "41.22283760",
-                    Longitude = "48.84573040",
+                    StateCode = "",
+                    Latitude = "41.17761610",
+                    Longitude = "48.87670580",
                     Type = "district",
                     Cities = new()
                     {
@@ -931,11 +975,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 57,
+                    Id = 60,
                     Name = "Shahbuz",
-                    StateCode = "SAH",
-                    Latitude = "39.44521030",
-                    Longitude = "45.65680090",
+                    StateCode = "",
+                    Latitude = "39.43858170",
+                    Longitude = "45.60713330",
                     Type = "district",
                     Cities = new()
                     {
@@ -944,12 +988,12 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 58,
+                    Id = 61,
                     Name = "Shaki",
-                    StateCode = "SA",
-                    Latitude = "41.19747530",
-                    Longitude = "47.15712410",
-                    Type = "district",
+                    StateCode = "",
+                    Latitude = "41.20336090",
+                    Longitude = "47.18026230",
+                    Type = "municipality",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Sheki", Latitude = "41.19194000", Longitude = "47.17056000" }
@@ -958,11 +1002,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 59,
+                    Id = 62,
                     Name = "Shaki",
-                    StateCode = "SAK",
-                    Latitude = "41.11346620",
-                    Longitude = "47.13169270",
+                    StateCode = "",
+                    Latitude = "41.20336090",
+                    Longitude = "47.18026230",
                     Type = "district",
                     Cities = new()
                     {
@@ -972,9 +1016,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 60,
+                    Id = 63,
                     Name = "Shamakhi",
-                    StateCode = "SMI",
+                    StateCode = "",
                     Latitude = "40.63187310",
                     Longitude = "48.63638010",
                     Type = "district",
@@ -986,11 +1030,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 61,
+                    Id = 64,
                     Name = "Shamkir",
-                    StateCode = "SKR",
-                    Latitude = "40.82881440",
-                    Longitude = "46.01668790",
+                    StateCode = "",
+                    Latitude = "40.83579640",
+                    Longitude = "46.02462240",
                     Type = "district",
                     Cities = new()
                     {
@@ -1003,9 +1047,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 62,
+                    Id = 65,
                     Name = "Sharur",
-                    StateCode = "SAR",
+                    StateCode = "",
                     Latitude = "39.55363320",
                     Longitude = "44.98456800",
                     Type = "district",
@@ -1016,11 +1060,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 63,
+                    Id = 66,
                     Name = "Shirvan",
-                    StateCode = "SR",
-                    Latitude = "39.94697070",
-                    Longitude = "48.92239190",
+                    StateCode = "",
+                    Latitude = "39.92965730",
+                    Longitude = "48.93426570",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1030,11 +1074,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 64,
+                    Id = 67,
                     Name = "Shusha",
-                    StateCode = "SUS",
-                    Latitude = "39.75374380",
-                    Longitude = "46.74647550",
+                    StateCode = "",
+                    Latitude = "39.76325670",
+                    Longitude = "46.75115010",
                     Type = "district",
                     Cities = new()
                     {
@@ -1044,9 +1088,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 65,
+                    Id = 68,
                     Name = "Siazan",
-                    StateCode = "SIY",
+                    StateCode = "",
                     Latitude = "41.07838330",
                     Longitude = "49.11184770",
                     Type = "district",
@@ -1059,11 +1103,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 66,
+                    Id = 69,
                     Name = "Sumqayit",
-                    StateCode = "SM",
-                    Latitude = "40.58547650",
-                    Longitude = "49.63174110",
+                    StateCode = "",
+                    Latitude = "40.59615850",
+                    Longitude = "49.66966680",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -1075,9 +1119,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 67,
+                    Id = 70,
                     Name = "Tartar",
-                    StateCode = "TAR",
+                    StateCode = "",
                     Latitude = "40.34438750",
                     Longitude = "46.93765190",
                     Type = "district",
@@ -1090,9 +1134,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 68,
+                    Id = 71,
                     Name = "Tovuz",
-                    StateCode = "TOV",
+                    StateCode = "",
                     Latitude = "40.99545230",
                     Longitude = "45.61659070",
                     Type = "district",
@@ -1109,11 +1153,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 69,
+                    Id = 72,
                     Name = "Ujar",
-                    StateCode = "UCA",
-                    Latitude = "40.50675250",
-                    Longitude = "47.64896410",
+                    StateCode = "",
+                    Latitude = "40.51853860",
+                    Longitude = "47.64878090",
                     Type = "district",
                     Cities = new()
                     {
@@ -1123,11 +1167,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 70,
+                    Id = 73,
                     Name = "Yardymli",
-                    StateCode = "YAR",
-                    Latitude = "38.90589170",
-                    Longitude = "48.24961270",
+                    StateCode = "",
+                    Latitude = "38.90289930",
+                    Longitude = "48.21329830",
                     Type = "district",
                     Cities = new()
                     {
@@ -1137,25 +1181,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 71,
+                    Id = 74,
                     Name = "Yevlakh",
-                    StateCode = "YE",
-                    Latitude = "40.61966380",
-                    Longitude = "47.15003240",
-                    Type = "municipality",
-                    Cities = new()
-                    {
-                        new() { Id = 1, Name = "Yevlakh", Latitude = "40.61832000", Longitude = "47.15014000" }
-                    }
-                },
-
-                new()
-                {
-                    Id = 72,
-                    Name = "Yevlakh",
-                    StateCode = "YEV",
-                    Latitude = "40.61966380",
-                    Longitude = "47.15003240",
+                    StateCode = "",
+                    Latitude = "40.61151360",
+                    Longitude = "47.14666860",
                     Type = "district",
                     Cities = new()
                     {
@@ -1166,9 +1196,23 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 73,
+                    Id = 75,
+                    Name = "Yevlakh",
+                    StateCode = "",
+                    Latitude = "40.61151360",
+                    Longitude = "47.14666860",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Yevlakh", Latitude = "40.61832000", Longitude = "47.15014000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 76,
                     Name = "Zangilan",
-                    StateCode = "ZAN",
+                    StateCode = "",
                     Latitude = "39.08568990",
                     Longitude = "46.65247280",
                     Type = "district",
@@ -1181,11 +1225,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 74,
+                    Id = 77,
                     Name = "Zaqatala",
-                    StateCode = "ZAQ",
-                    Latitude = "41.59068890",
-                    Longitude = "46.72403730",
+                    StateCode = "",
+                    Latitude = "41.61803210",
+                    Longitude = "46.75951260",
                     Type = "district",
                     Cities = new()
                     {
@@ -1199,9 +1243,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 75,
+                    Id = 78,
                     Name = "Zardab",
-                    StateCode = "ZAR",
+                    StateCode = "",
                     Latitude = "40.21481140",
                     Longitude = "47.71494400",
                     Type = "district",

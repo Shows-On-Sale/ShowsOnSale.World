@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 86,
+            Id = 85,
             Name = "Greenland",
             Iso3 = "GRL",
             Iso2 = "GL",
@@ -41,6 +41,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Greunland",
                 ["ko"] = "그린란드",
                 ["pt-BR"] = "Groelândia",
                 ["pt"] = "Gronelândia",
@@ -56,7 +57,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Grönland",
                 ["ru"] = "Гренландия",
                 ["uk"] = "Гренландія",
-                ["pl"] = "Grenlandia"
+                ["pl"] = "Grenlandia",
+                ["hi"] = "ग्रीनलैंड",
+                ["ar"] = "غرينلاند"
             },
             States = new()
             {
@@ -65,9 +68,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Avannaata",
-                    StateCode = "AV",
-                    Latitude = "74.10267430",
-                    Longitude = "-78.98755600",
+                    StateCode = "",
+                    Latitude = "76.50492650",
+                    Longitude = "-56.29119760",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -82,9 +85,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Kujalleq",
-                    StateCode = "KU",
-                    Latitude = "61.16666930",
-                    Longitude = "-50.50997880",
+                    StateCode = "",
+                    Latitude = "61.00000000",
+                    Longitude = "-45.00000000",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -98,7 +101,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Qeqertalik",
-                    StateCode = "QT",
+                    StateCode = "",
                     Latitude = "68.82495530",
                     Longitude = "-54.76224720",
                     Type = "municipality",
@@ -115,9 +118,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Qeqqata",
-                    StateCode = "QE",
-                    Latitude = "66.08057190",
-                    Longitude = "-54.26546390",
+                    StateCode = "",
+                    Latitude = "66.50000000",
+                    Longitude = "-48.00000000",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -130,9 +133,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Sermersooq",
-                    StateCode = "SM",
-                    Latitude = "65.08230580",
-                    Longitude = "-57.28311950",
+                    StateCode = "",
+                    Latitude = "66.00000000",
+                    Longitude = "-40.00000000",
                     Type = "municipality",
                     Cities = new()
                     {

@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 89,
+            Id = 88,
             Name = "Guam",
             Iso3 = "GUM",
             Iso2 = "GU",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Guam",
                 ["ko"] = "괌",
                 ["pt-BR"] = "Guam",
                 ["pt"] = "Guame",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Guam",
                 ["ru"] = "Гуам",
                 ["uk"] = "Гуам",
-                ["pl"] = "Guam"
+                ["pl"] = "Guam",
+                ["hi"] = "गुआम",
+                ["ar"] = "غوام"
             },
             States = new()
             {
@@ -63,11 +66,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 1,
                     Name = "Agana Heights",
                     StateCode = "",
-                    Latitude = "13.46575920",
-                    Longitude = "144.73195330",
+                    Latitude = "13.46554410",
+                    Longitude = "144.74657140",
                     Type = "village",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Agana Heights Village", Latitude = "13.46559000", Longitude = "144.74795000" }
                     }
                 },
 
@@ -76,11 +80,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 2,
                     Name = "Asan-Maina",
                     StateCode = "",
-                    Latitude = "13.47291240",
-                    Longitude = "144.71180410",
+                    Latitude = "13.47764720",
+                    Longitude = "144.73085880",
                     Type = "village",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Asan-Maina Village", Latitude = "13.47215000", Longitude = "144.71654000" }
                     }
                 },
 
@@ -89,11 +94,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 3,
                     Name = "Barrigada",
                     StateCode = "",
-                    Latitude = "13.46418270",
-                    Longitude = "144.78822470",
+                    Latitude = "13.46940920",
+                    Longitude = "144.80106000",
                     Type = "village",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Barrigada Village", Latitude = "13.46913000", Longitude = "144.79901000" }
                     }
                 },
 
@@ -102,11 +108,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 4,
                     Name = "Chalan Pago-Ordot",
                     StateCode = "",
-                    Latitude = "13.43699800",
-                    Longitude = "144.74867080",
+                    Latitude = "13.44137200",
+                    Longitude = "144.76702410",
                     Type = "village",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Chalan Pago-Ordot Village", Latitude = "13.44741000", Longitude = "144.75902000" }
                     }
                 },
 
@@ -115,11 +122,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 5,
                     Name = "Dededo",
                     StateCode = "",
-                    Latitude = "13.52289900",
-                    Longitude = "144.79892870",
+                    Latitude = "13.51905400",
+                    Longitude = "144.83783880",
                     Type = "village",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Dededo Village", Latitude = "13.51777000", Longitude = "144.83910000" }
                     }
                 },
 
@@ -128,11 +136,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 6,
                     Name = "Hågat",
                     StateCode = "",
-                    Latitude = "13.38522240",
-                    Longitude = "144.63996980",
+                    Latitude = "13.38476100",
+                    Longitude = "144.65807140",
                     Type = "village",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Agat Village", Latitude = "13.38300000", Longitude = "144.66003000" }
                     }
                 },
 
@@ -141,11 +150,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 7,
                     Name = "Hagåtña",
                     StateCode = "",
-                    Latitude = "13.47298290",
-                    Longitude = "144.72740380",
+                    Latitude = "13.47481480",
+                    Longitude = "144.75161910",
                     Type = "village",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Hagåtña", Latitude = "13.47567000", Longitude = "144.74886000" },
+                        new() { Id = 2, Name = "Hagåtña Village", Latitude = "13.47279000", Longitude = "144.75802000" }
                     }
                 },
 
@@ -154,11 +165,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 8,
                     Name = "Inarajan (Inalåhan)",
                     StateCode = "",
-                    Latitude = "13.27620490",
-                    Longitude = "144.72038630",
+                    Latitude = "13.27976640",
+                    Longitude = "144.74322660",
                     Type = "village",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Inarajan Village", Latitude = "13.27363000", Longitude = "144.74845000" }
                     }
                 },
 
@@ -167,11 +179,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 9,
                     Name = "Mangilao",
                     StateCode = "",
-                    Latitude = "13.44985090",
-                    Longitude = "144.78302680",
+                    Latitude = "13.44399150",
+                    Longitude = "144.80505280",
                     Type = "village",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Adacao", Latitude = "13.49242000", Longitude = "144.84470000" },
+                        new() { Id = 2, Name = "Mangilao Village", Latitude = "13.44761000", Longitude = "144.80109000" }
                     }
                 },
 
@@ -180,11 +194,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 10,
                     Name = "Merizo (Malesso)",
                     StateCode = "",
-                    Latitude = "13.26860850",
-                    Longitude = "144.65797490",
+                    Latitude = "13.26829750",
+                    Longitude = "144.67261060",
                     Type = "village",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Merizo Village", Latitude = "13.26584000", Longitude = "144.66908000" }
                     }
                 },
 
@@ -193,11 +208,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 11,
                     Name = "Mongmong-Toto-Maite",
                     StateCode = "",
-                    Latitude = "13.46922010",
-                    Longitude = "144.75338080",
+                    Latitude = "13.46743180",
+                    Longitude = "144.76802820",
                     Type = "village",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Mongmong-Toto-Maite Village", Latitude = "13.46857000", Longitude = "144.78214000" }
                     }
                 },
 
@@ -211,6 +227,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "village",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Piti Village", Latitude = "13.46256000", Longitude = "144.69331000" }
                     }
                 },
 
@@ -224,6 +241,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "village",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Apra Harbor", Latitude = "13.42827000", Longitude = "144.65252000" },
+                        new() { Id = 2, Name = "Santa Rita Village", Latitude = "13.38608000", Longitude = "144.67226000" }
                     }
                 },
 
@@ -237,6 +256,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "village",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Sinajana Village", Latitude = "13.46334000", Longitude = "144.75406000" }
                     }
                 },
 
@@ -245,11 +265,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 15,
                     Name = "Talofofo (Talo'fo'fo)",
                     StateCode = "",
-                    Latitude = "13.35471440",
-                    Longitude = "144.73459730",
+                    Latitude = "13.35390400",
+                    Longitude = "144.75329320",
                     Type = "village",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Talofofo Village", Latitude = "13.35513000", Longitude = "144.75835000" }
                     }
                 },
 
@@ -263,6 +284,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "village",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Apotgan", Latitude = "13.48817000", Longitude = "144.77644000" },
+                        new() { Id = 2, Name = "Tamuning", Latitude = "13.48754000", Longitude = "144.78143000" },
+                        new() { Id = 3, Name = "Tamuning-Tumon-Harmon Village", Latitude = "13.48773000", Longitude = "144.78138000" }
                     }
                 },
 
@@ -284,11 +308,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 18,
                     Name = "Yigo",
                     StateCode = "",
-                    Latitude = "13.57293770",
-                    Longitude = "144.82315220",
+                    Latitude = "13.53794240",
+                    Longitude = "144.89849550",
                     Type = "village",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Anao", Latitude = "13.52890000", Longitude = "144.91820000" },
+                        new() { Id = 2, Name = "Chaguian", Latitude = "13.57175000", Longitude = "144.88058000" },
+                        new() { Id = 3, Name = "Yigo Village", Latitude = "13.53605000", Longitude = "144.88855000" }
                     }
                 },
 
@@ -297,11 +324,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 19,
                     Name = "Yona",
                     StateCode = "",
-                    Latitude = "13.41020600",
-                    Longitude = "144.75557470",
+                    Latitude = "13.41376000",
+                    Longitude = "144.77441300",
                     Type = "village",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Yona Village", Latitude = "13.40974000", Longitude = "144.77697000" }
                     }
                 }
             }

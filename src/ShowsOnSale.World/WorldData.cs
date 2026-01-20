@@ -116,8 +116,6 @@ namespace ShowsOnSale.World
 
             ShowsOnSale.World.Data.Countries.CostaRica.Data,
 
-            ShowsOnSale.World.Data.Countries.CoteDivoireIvoryCoast.Data,
-
             ShowsOnSale.World.Data.Countries.Croatia.Data,
 
             ShowsOnSale.World.Data.Countries.Cuba.Data,
@@ -225,6 +223,8 @@ namespace ShowsOnSale.World
             ShowsOnSale.World.Data.Countries.Israel.Data,
 
             ShowsOnSale.World.Data.Countries.Italy.Data,
+
+            ShowsOnSale.World.Data.Countries.IvoryCoast.Data,
 
             ShowsOnSale.World.Data.Countries.Jamaica.Data,
 

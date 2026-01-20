@@ -39,6 +39,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Ouzbekistan",
                 ["ko"] = "우즈베키스탄",
                 ["pt-BR"] = "Uzbequistão",
                 ["pt"] = "Usbequistão",
@@ -54,7 +55,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Özbekistan",
                 ["ru"] = "Узбекистан",
                 ["uk"] = "Узбекистан",
-                ["pl"] = "Uzbekistan"
+                ["pl"] = "Uzbekistan",
+                ["hi"] = "उज़्बेकिस्तान",
+                ["ar"] = "أوزبكستان"
             },
             States = new()
             {
@@ -63,9 +66,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Andijan",
-                    StateCode = "AN",
-                    Latitude = "40.76859410",
-                    Longitude = "72.23637900",
+                    StateCode = "",
+                    Latitude = "40.77277960",
+                    Longitude = "72.34196600",
                     Type = "region",
                     Cities = new()
                     {
@@ -97,9 +100,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Bukhara",
-                    StateCode = "BU",
-                    Latitude = "40.25041620",
-                    Longitude = "63.20321510",
+                    StateCode = "",
+                    Latitude = "40.22936600",
+                    Longitude = "63.54705840",
                     Type = "region",
                     Cities = new()
                     {
@@ -124,9 +127,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Fergana",
-                    StateCode = "FA",
-                    Latitude = "40.45680810",
-                    Longitude = "71.28742090",
+                    StateCode = "",
+                    Latitude = "40.50000000",
+                    Longitude = "71.25000000",
                     Type = "region",
                     Cities = new()
                     {
@@ -152,9 +155,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Jizzakh",
-                    StateCode = "JI",
-                    Latitude = "40.47064150",
-                    Longitude = "67.57085360",
+                    StateCode = "",
+                    Latitude = "40.33190950",
+                    Longitude = "67.45511980",
                     Type = "region",
                     Cities = new()
                     {
@@ -171,9 +174,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Karakalpakstan",
-                    StateCode = "QR",
-                    Latitude = "43.80413340",
-                    Longitude = "59.44579880",
+                    StateCode = "",
+                    Latitude = "43.77388410",
+                    Longitude = "57.62346170",
                     Type = "republic",
                     Cities = new()
                     {
@@ -192,9 +195,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Namangan",
-                    StateCode = "NG",
-                    Latitude = "41.05100370",
-                    Longitude = "71.09731700",
+                    StateCode = "",
+                    Latitude = "40.95550610",
+                    Longitude = "71.10977490",
                     Type = "region",
                     Cities = new()
                     {
@@ -216,9 +219,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Navoiy",
-                    StateCode = "NW",
-                    Latitude = "42.69885750",
-                    Longitude = "64.63376850",
+                    StateCode = "",
+                    Latitude = "42.00000000",
+                    Longitude = "64.00000000",
                     Type = "region",
                     Cities = new()
                     {
@@ -233,9 +236,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Qashqadaryo",
-                    StateCode = "QA",
-                    Latitude = "38.89862310",
-                    Longitude = "66.04635340",
+                    StateCode = "",
+                    Latitude = "39.04249740",
+                    Longitude = "66.57752760",
                     Type = "region",
                     Cities = new()
                     {
@@ -255,9 +258,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Samarqand",
-                    StateCode = "SA",
-                    Latitude = "39.62701200",
-                    Longitude = "66.97497310",
+                    StateCode = "",
+                    Latitude = "39.65500170",
+                    Longitude = "66.97569540",
                     Type = "region",
                     Cities = new()
                     {
@@ -280,9 +283,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Sirdaryo",
-                    StateCode = "SI",
-                    Latitude = "40.38638080",
-                    Longitude = "68.71549750",
+                    StateCode = "",
+                    Latitude = "40.80293260",
+                    Longitude = "68.82428410",
                     Type = "region",
                     Cities = new()
                     {
@@ -296,9 +299,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Surxondaryo",
-                    StateCode = "SU",
-                    Latitude = "37.94090050",
-                    Longitude = "67.57085360",
+                    StateCode = "",
+                    Latitude = "37.95208430",
+                    Longitude = "67.12659960",
                     Type = "region",
                     Cities = new()
                     {
@@ -313,9 +316,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Tashkent",
-                    StateCode = "TK",
-                    Latitude = "41.29949580",
-                    Longitude = "69.24007340",
+                    StateCode = "",
+                    Latitude = "41.31233630",
+                    Longitude = "69.27870790",
                     Type = "city",
                     Cities = new()
                     {
@@ -328,9 +331,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Tashkent",
-                    StateCode = "TO",
-                    Latitude = "41.22132340",
-                    Longitude = "69.85974060",
+                    StateCode = "",
+                    Latitude = "41.31233630",
+                    Longitude = "69.27870790",
                     Type = "region",
                     Cities = new()
                     {
@@ -360,9 +363,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Xorazm",
-                    StateCode = "XO",
-                    Latitude = "41.35653360",
-                    Longitude = "60.85666860",
+                    StateCode = "",
+                    Latitude = "41.29028350",
+                    Longitude = "60.54285370",
                     Type = "region",
                     Cities = new()
                     {

@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Togo",
                 ["ko"] = "토고",
                 ["pt-BR"] = "Togo",
                 ["pt"] = "Togo",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Togo",
                 ["ru"] = "Того",
                 ["uk"] = "Того",
-                ["pl"] = "Togo"
+                ["pl"] = "Togo",
+                ["hi"] = "टोगो",
+                ["ar"] = "توغو"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Centrale",
-                    StateCode = "C",
-                    Latitude = "8.65860290",
-                    Longitude = "1.05861350",
+                    StateCode = "",
+                    Latitude = "8.60711300",
+                    Longitude = "1.04585540",
                     Type = "region",
                     Cities = new()
                     {
@@ -78,9 +81,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Kara",
-                    StateCode = "K",
-                    Latitude = "9.72163930",
-                    Longitude = "1.05861350",
+                    StateCode = "",
+                    Latitude = "9.54111100",
+                    Longitude = "0.78760180",
                     Type = "region",
                     Cities = new()
                     {
@@ -98,9 +101,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Maritime",
-                    StateCode = "M",
-                    Latitude = "41.65514930",
-                    Longitude = "-83.52784670",
+                    StateCode = "",
+                    Latitude = "6.51751770",
+                    Longitude = "1.20458050",
                     Type = "region",
                     Cities = new()
                     {
@@ -116,9 +119,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Plateaux",
-                    StateCode = "P",
-                    Latitude = "7.61013780",
-                    Longitude = "1.05861350",
+                    StateCode = "",
+                    Latitude = "7.45050100",
+                    Longitude = "1.08927020",
                     Type = "region",
                     Cities = new()
                     {
@@ -134,9 +137,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Savanes",
-                    StateCode = "S",
-                    Latitude = "10.52917810",
-                    Longitude = "0.52578230",
+                    StateCode = "",
+                    Latitude = "10.51155900",
+                    Longitude = "0.46537510",
                     Type = "region",
                     Cities = new()
                     {

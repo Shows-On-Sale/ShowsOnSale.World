@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Montserrat",
                 ["ko"] = "몬트세랫",
                 ["pt-BR"] = "Montserrat",
                 ["pt"] = "Monserrate",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Montserrat",
                 ["ru"] = "Монтсеррат",
                 ["uk"] = "Монтсеррат",
-                ["pl"] = "Montserrat"
+                ["pl"] = "Montserrat",
+                ["hi"] = "मोंटेसेराट",
+                ["ar"] = "مونتسيرات"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Saint Anthony",
-                    StateCode = "03",
-                    Latitude = "16.70893000",
-                    Longitude = "-62.23404970",
+                    StateCode = "",
+                    Latitude = "16.70562450",
+                    Longitude = "-62.18553040",
                     Type = "parish",
                     Cities = new()
                     {
@@ -75,7 +78,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Saint Georges",
-                    StateCode = "02",
+                    StateCode = "",
                     Latitude = "16.74847550",
                     Longitude = "-62.19074720",
                     Type = "parish",
@@ -88,9 +91,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Saint Peter",
-                    StateCode = "01",
-                    Latitude = "16.77686580",
-                    Longitude = "-62.24434020",
+                    StateCode = "",
+                    Latitude = "16.77659810",
+                    Longitude = "-62.20007860",
                     Type = "parish",
                     Cities = new()
                     {

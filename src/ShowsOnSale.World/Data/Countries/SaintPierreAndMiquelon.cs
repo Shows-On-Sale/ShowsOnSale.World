@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Sant-Pêr-ha-Mikelon",
                 ["ko"] = "생피에르 미클롱",
                 ["pt-BR"] = "Saint-Pierre e Miquelon",
                 ["pt"] = "São Pedro e Miquelon",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Saint Pierre Ve Miquelon",
                 ["ru"] = "Сен-Пьер и Микелон",
                 ["uk"] = "Сен-П'єр і Мікелон",
-                ["pl"] = "Saint-Pierre i Miquelon"
+                ["pl"] = "Saint-Pierre i Miquelon",
+                ["hi"] = "सेंट पियरे और मिकेलोन",
+                ["ar"] = "القديس بيير وميكلون"
             },
             States = new()
             {

@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 84,
+            Id = 83,
             Name = "Gibraltar",
             Iso3 = "GIB",
             Iso2 = "GI",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Jibraltar",
                 ["ko"] = "지브롤터",
                 ["pt-BR"] = "Gibraltar",
                 ["pt"] = "Gibraltar",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Cebelitarik",
                 ["ru"] = "Гибралтар",
                 ["uk"] = "Гібралтар",
-                ["pl"] = "Gibraltar"
+                ["pl"] = "Gibraltar",
+                ["hi"] = "जिब्राल्टर",
+                ["ar"] = "جبل طارق"
             },
             States = new()
             {

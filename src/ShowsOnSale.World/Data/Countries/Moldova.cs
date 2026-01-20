@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Moldova",
                 ["ko"] = "몰도바",
                 ["pt-BR"] = "Moldávia",
                 ["pt"] = "Moldávia",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Moldova",
                 ["ru"] = "Молдова",
                 ["uk"] = "Молдова",
-                ["pl"] = "Mołdawia"
+                ["pl"] = "Mołdawia",
+                ["hi"] = "मोलदोवा",
+                ["ar"] = "مولدوفا"
             },
             States = new()
             {
@@ -62,7 +65,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Anenii Noi",
-                    StateCode = "AN",
+                    StateCode = "",
                     Latitude = "46.87956630",
                     Longitude = "29.23121750",
                     Type = "district",
@@ -77,9 +80,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Bălți",
-                    StateCode = "BA",
-                    Latitude = "47.75399470",
-                    Longitude = "27.91841480",
+                    StateCode = "",
+                    Latitude = "47.76471360",
+                    Longitude = "27.91991600",
                     Type = "city",
                     Cities = new()
                     {
@@ -91,9 +94,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Basarabeasca",
-                    StateCode = "BS",
-                    Latitude = "46.42370600",
-                    Longitude = "28.89354920",
+                    StateCode = "",
+                    Latitude = "46.39852420",
+                    Longitude = "28.90220840",
                     Type = "district",
                     Cities = new()
                     {
@@ -105,7 +108,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Bender",
-                    StateCode = "BD",
+                    StateCode = "",
                     Latitude = "46.82275510",
                     Longitude = "29.46201010",
                     Type = "city",
@@ -119,13 +122,12 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Briceni",
-                    StateCode = "BR",
+                    StateCode = "",
                     Latitude = "48.36320220",
                     Longitude = "27.07503980",
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Briceni", Latitude = "48.36289000", Longitude = "27.07787000" }
                     }
                 },
 
@@ -133,9 +135,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Cahul",
-                    StateCode = "CA",
-                    Latitude = "45.89394040",
-                    Longitude = "28.18902750",
+                    StateCode = "",
+                    Latitude = "45.90440870",
+                    Longitude = "28.19465830",
                     Type = "district",
                     Cities = new()
                     {
@@ -148,9 +150,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Călărași",
-                    StateCode = "CL",
-                    Latitude = "47.28694600",
-                    Longitude = "28.27453100",
+                    StateCode = "",
+                    Latitude = "47.27050860",
+                    Longitude = "28.28756850",
                     Type = "district",
                     Cities = new()
                     {
@@ -162,15 +164,14 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Cantemir",
-                    StateCode = "CT",
+                    StateCode = "",
                     Latitude = "46.27717420",
                     Longitude = "28.20096530",
                     Type = "district",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Cantemir", Latitude = "46.27743000", Longitude = "28.20270000" },
-                        new() { Id = 2, Name = "Iargara", Latitude = "46.42520000", Longitude = "28.42676000" },
-                        new() { Id = 3, Name = "Vişniovca", Latitude = "46.33260000", Longitude = "28.44797000" }
+                        new() { Id = 2, Name = "Vişniovca", Latitude = "46.33260000", Longitude = "28.44797000" }
                     }
                 },
 
@@ -178,7 +179,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Căușeni",
-                    StateCode = "CS",
+                    StateCode = "",
                     Latitude = "46.65547150",
                     Longitude = "29.40912220",
                     Type = "district",
@@ -193,9 +194,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Chișinău",
-                    StateCode = "CU",
-                    Latitude = "47.01045290",
-                    Longitude = "28.86381020",
+                    StateCode = "",
+                    Latitude = "47.02451170",
+                    Longitude = "28.83229230",
                     Type = "city",
                     Cities = new()
                     {
@@ -213,7 +214,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Cimișlia",
-                    StateCode = "CM",
+                    StateCode = "",
                     Latitude = "46.52508510",
                     Longitude = "28.77218350",
                     Type = "district",
@@ -227,7 +228,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Criuleni",
-                    StateCode = "CR",
+                    StateCode = "",
                     Latitude = "47.21361140",
                     Longitude = "29.15575190",
                     Type = "district",
@@ -241,7 +242,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Dondușeni",
-                    StateCode = "DO",
+                    StateCode = "",
                     Latitude = "48.23383050",
                     Longitude = "27.59980870",
                     Type = "district",
@@ -256,9 +257,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Drochia",
-                    StateCode = "DR",
-                    Latitude = "48.07977880",
-                    Longitude = "27.86041140",
+                    StateCode = "",
+                    Latitude = "48.11284410",
+                    Longitude = "27.80954190",
                     Type = "district",
                     Cities = new()
                     {
@@ -270,7 +271,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Dubăsari",
-                    StateCode = "DU",
+                    StateCode = "",
                     Latitude = "47.26439420",
                     Longitude = "29.15503480",
                     Type = "district",
@@ -285,7 +286,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Edineț",
-                    StateCode = "ED",
+                    StateCode = "",
                     Latitude = "48.16789910",
                     Longitude = "27.29361430",
                     Type = "district",
@@ -299,9 +300,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Fălești",
-                    StateCode = "FA",
-                    Latitude = "47.56477250",
-                    Longitude = "27.72655930",
+                    StateCode = "",
+                    Latitude = "47.57351410",
+                    Longitude = "27.70680160",
                     Type = "district",
                     Cities = new()
                     {
@@ -313,9 +314,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Florești",
-                    StateCode = "FL",
-                    Latitude = "47.86678490",
-                    Longitude = "28.33918640",
+                    StateCode = "",
+                    Latitude = "47.89914790",
+                    Longitude = "28.31326120",
                     Type = "district",
                     Cities = new()
                     {
@@ -329,9 +330,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 19,
                     Name = "Gagauzia",
-                    StateCode = "GA",
-                    Latitude = "46.09794350",
-                    Longitude = "28.63846450",
+                    StateCode = "",
+                    Latitude = "46.20702040",
+                    Longitude = "28.76362810",
                     Type = "autonomous territorial unit",
                     Cities = new()
                     {
@@ -346,7 +347,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 20,
                     Name = "Glodeni",
-                    StateCode = "GL",
+                    StateCode = "",
                     Latitude = "47.77901560",
                     Longitude = "27.51680100",
                     Type = "district",
@@ -360,7 +361,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 21,
                     Name = "Hîncești",
-                    StateCode = "HI",
+                    StateCode = "",
                     Latitude = "46.82811470",
                     Longitude = "28.58508890",
                     Type = "district",
@@ -375,9 +376,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 22,
                     Name = "Ialoveni",
-                    StateCode = "IA",
-                    Latitude = "46.86308600",
-                    Longitude = "28.82342180",
+                    StateCode = "",
+                    Latitude = "46.94376000",
+                    Longitude = "28.77672320",
                     Type = "district",
                     Cities = new()
                     {
@@ -388,8 +389,23 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 23,
+                    Name = "Leova",
+                    StateCode = "",
+                    Latitude = "46.50000000",
+                    Longitude = "28.41666667",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Iargara", Latitude = "46.42750001", Longitude = "28.43666668" },
+                        new() { Id = 2, Name = "Leova", Latitude = "46.48333333", Longitude = "28.25000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 24,
                     Name = "Nisporeni",
-                    StateCode = "NI",
+                    StateCode = "",
                     Latitude = "47.07513490",
                     Longitude = "28.17681550",
                     Type = "district",
@@ -401,9 +417,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 24,
+                    Id = 25,
                     Name = "Ocnița",
-                    StateCode = "OC",
+                    StateCode = "",
                     Latitude = "48.41104350",
                     Longitude = "27.47680920",
                     Type = "district",
@@ -416,9 +432,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 25,
+                    Id = 26,
                     Name = "Orhei",
-                    StateCode = "OR",
+                    StateCode = "",
                     Latitude = "47.38604000",
                     Longitude = "28.83030820",
                     Type = "district",
@@ -430,11 +446,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 26,
+                    Id = 27,
                     Name = "Rezina",
-                    StateCode = "RE",
-                    Latitude = "47.71804470",
-                    Longitude = "28.88710240",
+                    StateCode = "",
+                    Latitude = "47.74892090",
+                    Longitude = "28.95657390",
                     Type = "district",
                     Cities = new()
                     {
@@ -445,11 +461,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 27,
+                    Id = 28,
                     Name = "Rîșcani",
-                    StateCode = "RI",
-                    Latitude = "47.90701530",
-                    Longitude = "27.53749960",
+                    StateCode = "",
+                    Latitude = "47.95359870",
+                    Longitude = "27.55144530",
                     Type = "district",
                     Cities = new()
                     {
@@ -459,9 +475,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 28,
+                    Id = 29,
                     Name = "Sîngerei",
-                    StateCode = "SI",
+                    StateCode = "",
                     Latitude = "47.63891340",
                     Longitude = "28.13718160",
                     Type = "district",
@@ -475,9 +491,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 29,
+                    Id = 30,
                     Name = "Șoldănești",
-                    StateCode = "SD",
+                    StateCode = "",
                     Latitude = "47.81473890",
                     Longitude = "28.78895860",
                     Type = "district",
@@ -489,9 +505,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 30,
+                    Id = 31,
                     Name = "Soroca",
-                    StateCode = "SO",
+                    StateCode = "",
                     Latitude = "48.15497430",
                     Longitude = "28.28707830",
                     Type = "district",
@@ -503,11 +519,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 31,
+                    Id = 32,
                     Name = "Ștefan Vodă",
-                    StateCode = "SV",
-                    Latitude = "46.55404880",
-                    Longitude = "29.70224200",
+                    StateCode = "",
+                    Latitude = "46.51600240",
+                    Longitude = "29.66449730",
                     Type = "district",
                     Cities = new()
                     {
@@ -517,9 +533,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 32,
+                    Id = 33,
                     Name = "Strășeni",
-                    StateCode = "ST",
+                    StateCode = "",
                     Latitude = "47.14502670",
                     Longitude = "28.61367360",
                     Type = "district",
@@ -532,9 +548,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 33,
+                    Id = 34,
                     Name = "Taraclia",
-                    StateCode = "TA",
+                    StateCode = "",
                     Latitude = "45.89865100",
                     Longitude = "28.66716440",
                     Type = "district",
@@ -547,9 +563,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 34,
+                    Id = 35,
                     Name = "Telenești",
-                    StateCode = "TE",
+                    StateCode = "",
                     Latitude = "47.49839620",
                     Longitude = "28.36760190",
                     Type = "district",
@@ -562,11 +578,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 35,
+                    Id = 36,
                     Name = "Transnistria",
-                    StateCode = "SN",
-                    Latitude = "47.21529720",
-                    Longitude = "29.46380540",
+                    StateCode = "",
+                    Latitude = "47.75986780",
+                    Longitude = "29.11760550",
                     Type = "territorial unit",
                     Cities = new()
                     {
@@ -586,11 +602,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 36,
+                    Id = 37,
                     Name = "Ungheni",
-                    StateCode = "UN",
-                    Latitude = "47.23057670",
-                    Longitude = "27.78926610",
+                    StateCode = "",
+                    Latitude = "47.20599650",
+                    Longitude = "27.79891700",
                     Type = "district",
                     Cities = new()
                     {

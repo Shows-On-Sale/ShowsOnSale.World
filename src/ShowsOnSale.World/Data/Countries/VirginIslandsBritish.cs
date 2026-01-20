@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Inizi Gwerc'h Breizhveurat",
                 ["ko"] = "영국령 버진아일랜드",
                 ["pt-BR"] = "Ilhas Virgens Britânicas",
                 ["pt"] = "Ilhas Virgens Britânicas",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Britanya Virjin Adalari",
                 ["ru"] = "Виргинские острова (Британские)",
                 ["uk"] = "Віргінські острови (Британські)",
-                ["pl"] = "Wyspy Dziewicze (Brytyjskie)"
+                ["pl"] = "Wyspy Dziewicze (Brytyjskie)",
+                ["hi"] = "वर्जिन आइलैंड्स (ब्रिटिश)",
+                ["ar"] = "جزر فيرجن (البريطانية)"
             },
             States = new()
             {

@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 61,
+            Id = 60,
             Name = "Djibouti",
             Iso3 = "DJI",
             Iso2 = "DJ",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Djibouti",
                 ["ko"] = "지부티",
                 ["pt-BR"] = "Djibuti",
                 ["pt"] = "Djibuti",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Cibuti",
                 ["ru"] = "Джибути",
                 ["uk"] = "Джибуті",
-                ["pl"] = "Dżibuti"
+                ["pl"] = "Dżibuti",
+                ["hi"] = "ज़िबूटी",
+                ["ar"] = "جيبوتي"
             },
             States = new()
             {
@@ -62,13 +65,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Ali Sabieh",
-                    StateCode = "AS",
-                    Latitude = "11.19289730",
-                    Longitude = "42.94169800",
+                    StateCode = "",
+                    Latitude = "11.21338090",
+                    Longitude = "42.86992490",
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "'Ali Sabieh", Latitude = "11.15583000", Longitude = "42.71250000" },
+                        new() { Id = 1, Name = "Ali Sabieh", Latitude = "11.15583000", Longitude = "42.71250000" },
                         new() { Id = 2, Name = "Goubétto", Latitude = "11.42389000", Longitude = "43.00028000" },
                         new() { Id = 3, Name = "Holhol", Latitude = "11.31028000", Longitude = "42.92944000" }
                     }
@@ -78,9 +81,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Arta",
-                    StateCode = "AR",
-                    Latitude = "11.52555280",
-                    Longitude = "42.84794740",
+                    StateCode = "",
+                    Latitude = "11.52194590",
+                    Longitude = "42.83936290",
                     Type = "region",
                     Cities = new()
                     {
@@ -92,7 +95,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Dikhil",
-                    StateCode = "DI",
+                    StateCode = "",
                     Latitude = "11.10543360",
                     Longitude = "42.37047440",
                     Type = "region",
@@ -107,9 +110,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Djibouti",
-                    StateCode = "DJ",
-                    Latitude = "11.82513800",
-                    Longitude = "42.59027500",
+                    StateCode = "",
+                    Latitude = "11.81459660",
+                    Longitude = "42.84530610",
                     Type = "city",
                     Cities = new()
                     {
@@ -122,9 +125,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Obock",
-                    StateCode = "OB",
-                    Latitude = "12.38956910",
-                    Longitude = "43.01948970",
+                    StateCode = "",
+                    Latitude = "12.21110510",
+                    Longitude = "43.16858090",
                     Type = "region",
                     Cities = new()
                     {
@@ -137,9 +140,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Tadjourah",
-                    StateCode = "TA",
-                    Latitude = "11.93388850",
-                    Longitude = "42.39383750",
+                    StateCode = "",
+                    Latitude = "12.03581210",
+                    Longitude = "42.51745050",
                     Type = "region",
                     Cities = new()
                     {

@@ -40,6 +40,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Mongolia",
                 ["ko"] = "몽골",
                 ["pt-BR"] = "Mongólia",
                 ["pt"] = "Mongólia",
@@ -55,7 +56,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Moğolistan",
                 ["ru"] = "Монголия",
                 ["uk"] = "Монголія",
-                ["pl"] = "Mongolia"
+                ["pl"] = "Mongolia",
+                ["hi"] = "मंगोलिया",
+                ["ar"] = "منغوليا"
             },
             States = new()
             {
@@ -64,9 +67,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Arkhangai",
-                    StateCode = "073",
-                    Latitude = "47.89711010",
-                    Longitude = "100.72401650",
+                    StateCode = "",
+                    Latitude = "47.86264600",
+                    Longitude = "101.03162830",
                     Type = "province",
                     Cities = new()
                     {
@@ -78,9 +81,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Bayan-Ölgii",
-                    StateCode = "071",
-                    Latitude = "48.39832540",
-                    Longitude = "89.66259150",
+                    StateCode = "",
+                    Latitude = "48.54700830",
+                    Longitude = "89.85493580",
                     Type = "province",
                     Cities = new()
                     {
@@ -94,9 +97,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Bayankhongor",
-                    StateCode = "069",
-                    Latitude = "45.15267070",
-                    Longitude = "100.10736670",
+                    StateCode = "",
+                    Latitude = "45.23809370",
+                    Longitude = "99.51467990",
                     Type = "province",
                     Cities = new()
                     {
@@ -108,9 +111,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Bulgan",
-                    StateCode = "067",
-                    Latitude = "48.96909130",
-                    Longitude = "102.88317230",
+                    StateCode = "",
+                    Latitude = "48.95214380",
+                    Longitude = "103.39655910",
                     Type = "province",
                     Cities = new()
                     {
@@ -122,9 +125,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Darkhan-Uul",
-                    StateCode = "037",
-                    Latitude = "49.46484340",
-                    Longitude = "105.97459190",
+                    StateCode = "",
+                    Latitude = "49.37672910",
+                    Longitude = "106.29013840",
                     Type = "province",
                     Cities = new()
                     {
@@ -136,9 +139,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Dornod",
-                    StateCode = "061",
-                    Latitude = "47.46581540",
-                    Longitude = "115.39271200",
+                    StateCode = "",
+                    Latitude = "47.67727810",
+                    Longitude = "115.21771550",
                     Type = "province",
                     Cities = new()
                     {
@@ -151,9 +154,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Dornogovi",
-                    StateCode = "063",
-                    Latitude = "43.96538890",
-                    Longitude = "109.17734590",
+                    StateCode = "",
+                    Latitude = "44.41796370",
+                    Longitude = "109.77837530",
                     Type = "province",
                     Cities = new()
                     {
@@ -164,9 +167,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Dundgovi",
-                    StateCode = "059",
-                    Latitude = "45.58227860",
-                    Longitude = "106.76442090",
+                    StateCode = "",
+                    Latitude = "45.51867220",
+                    Longitude = "106.26115620",
                     Type = "province",
                     Cities = new()
                     {
@@ -178,9 +181,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Govi-Altai",
-                    StateCode = "065",
-                    Latitude = "45.45112270",
-                    Longitude = "95.85057660",
+                    StateCode = "",
+                    Latitude = "45.34631390",
+                    Longitude = "95.93258060",
                     Type = "province",
                     Cities = new()
                     {
@@ -192,9 +195,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Govisümber",
-                    StateCode = "064",
-                    Latitude = "46.47627540",
-                    Longitude = "108.55706270",
+                    StateCode = "",
+                    Latitude = "46.46108270",
+                    Longitude = "108.51731010",
                     Type = "province",
                     Cities = new()
                     {
@@ -206,9 +209,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Khentii",
-                    StateCode = "039",
-                    Latitude = "47.60812090",
-                    Longitude = "109.93728560",
+                    StateCode = "",
+                    Latitude = "47.88598100",
+                    Longitude = "110.42010430",
                     Type = "province",
                     Cities = new()
                     {
@@ -220,9 +223,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Khovd",
-                    StateCode = "043",
-                    Latitude = "47.11296540",
-                    Longitude = "92.31107520",
+                    StateCode = "",
+                    Latitude = "46.89979770",
+                    Longitude = "92.29596510",
                     Type = "province",
                     Cities = new()
                     {
@@ -236,9 +239,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Khövsgöl",
-                    StateCode = "041",
-                    Latitude = "50.22044840",
-                    Longitude = "100.32137680",
+                    StateCode = "",
+                    Latitude = "50.22061960",
+                    Longitude = "99.91704920",
                     Type = "province",
                     Cities = new()
                     {
@@ -253,9 +256,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Ömnögovi",
-                    StateCode = "053",
-                    Latitude = "43.50002400",
-                    Longitude = "104.28611160",
+                    StateCode = "",
+                    Latitude = "43.28236300",
+                    Longitude = "104.11338640",
                     Type = "province",
                     Cities = new()
                     {
@@ -269,9 +272,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Orkhon",
-                    StateCode = "035",
-                    Latitude = "49.00470500",
-                    Longitude = "104.30165270",
+                    StateCode = "",
+                    Latitude = "49.02437440",
+                    Longitude = "104.29988630",
                     Type = "province",
                     Cities = new()
                     {
@@ -283,9 +286,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Övörkhangai",
-                    StateCode = "055",
-                    Latitude = "45.76243920",
-                    Longitude = "103.09170320",
+                    StateCode = "",
+                    Latitude = "45.82970390",
+                    Longitude = "102.72377690",
                     Type = "province",
                     Cities = new()
                     {
@@ -301,9 +304,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Selenge",
-                    StateCode = "049",
-                    Latitude = "50.00592730",
-                    Longitude = "106.44341080",
+                    StateCode = "",
+                    Latitude = "49.39101360",
+                    Longitude = "107.06290340",
                     Type = "province",
                     Cities = new()
                     {
@@ -316,9 +319,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Sükhbaatar",
-                    StateCode = "051",
-                    Latitude = "46.56531630",
-                    Longitude = "113.53808360",
+                    StateCode = "",
+                    Latitude = "46.20934170",
+                    Longitude = "113.50771960",
                     Type = "province",
                     Cities = new()
                     {
@@ -330,9 +333,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 19,
                     Name = "Töv",
-                    StateCode = "047",
-                    Latitude = "47.21240560",
-                    Longitude = "106.41541000",
+                    StateCode = "",
+                    Latitude = "47.46925380",
+                    Longitude = "106.55251610",
                     Type = "province",
                     Cities = new()
                     {
@@ -347,10 +350,24 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 20,
+                    Name = "Ulaanbaatar",
+                    StateCode = "",
+                    Latitude = "47.91846760",
+                    Longitude = "106.91770160",
+                    Type = "capital city",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Ulaanbaatar", Latitude = "47.89153170", Longitude = "106.73672220" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 21,
                     Name = "Uvs",
-                    StateCode = "046",
-                    Latitude = "49.64497070",
-                    Longitude = "93.27365760",
+                    StateCode = "",
+                    Latitude = "49.63138870",
+                    Longitude = "92.95581860",
                     Type = "province",
                     Cities = new()
                     {
@@ -360,11 +377,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 21,
+                    Id = 22,
                     Name = "Zavkhan",
-                    StateCode = "057",
-                    Latitude = "48.23881470",
-                    Longitude = "96.07030190",
+                    StateCode = "",
+                    Latitude = "48.31333550",
+                    Longitude = "96.28505060",
                     Type = "province",
                     Cities = new()
                     {

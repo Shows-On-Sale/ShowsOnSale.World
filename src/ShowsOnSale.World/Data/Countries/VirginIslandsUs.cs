@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Inizi Gwerc'h ar Stadoù-Unanet",
                 ["ko"] = "미국령 버진아일랜드",
                 ["pt-BR"] = "Ilhas Virgens Americanas",
                 ["pt"] = "Ilhas Virgens Americanas",
@@ -52,7 +53,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Abd Virjin Adalari",
                 ["ru"] = "Виргинские острова (США)",
                 ["uk"] = "Віргінські острови (США)",
-                ["pl"] = "Wyspy Dziewicze (USA)"
+                ["pl"] = "Wyspy Dziewicze (USA)",
+                ["hi"] = "वर्जिन आइलैंड्स (यूएस)",
+                ["ar"] = "جزر فيرجن (الولايات المتحدة)"
             },
             States = new()
             {
@@ -61,9 +64,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Saint Croix",
-                    StateCode = "SC",
-                    Latitude = "17.72935200",
-                    Longitude = "-64.73437050",
+                    StateCode = "",
+                    Latitude = "17.72912400",
+                    Longitude = "-64.75891560",
                     Type = "district",
                     Cities = new()
                     {
@@ -83,9 +86,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Saint John",
-                    StateCode = "SJ",
-                    Latitude = "18.33561690",
-                    Longitude = "-64.80028000",
+                    StateCode = "",
+                    Latitude = "18.33560130",
+                    Longitude = "-64.75504060",
                     Type = "district",
                     Cities = new()
                     {
@@ -100,9 +103,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Saint Thomas",
-                    StateCode = "ST",
-                    Latitude = "18.34284590",
-                    Longitude = "-65.07701800",
+                    StateCode = "",
+                    Latitude = "18.34290810",
+                    Longitude = "-64.91889970",
                     Type = "district",
                     Cities = new()
                     {

@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Timor ar Reter",
                 ["ko"] = "동티모르",
                 ["pt-BR"] = "Timor Leste",
                 ["pt"] = "Timor Leste",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Doğu Timor",
                 ["ru"] = "Тимор-Лешти",
                 ["uk"] = "Тимор-Лешті",
-                ["pl"] = "Timor Wschodni"
+                ["pl"] = "Timor Wschodni",
+                ["hi"] = "तिमोर-लेस्ते",
+                ["ar"] = "تيمور قراءة"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Aileu",
-                    StateCode = "AL",
-                    Latitude = "-8.70439940",
-                    Longitude = "125.60954740",
+                    StateCode = "",
+                    Latitude = "-8.70497990",
+                    Longitude = "125.66255180",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -78,9 +81,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Ainaro",
-                    StateCode = "AN",
-                    Latitude = "-9.01131710",
-                    Longitude = "125.52200120",
+                    StateCode = "",
+                    Latitude = "-8.99690210",
+                    Longitude = "125.50482000",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -93,7 +96,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Baucau",
-                    StateCode = "BA",
+                    StateCode = "",
                     Latitude = "-8.47143080",
                     Longitude = "126.45759910",
                     Type = "municipality",
@@ -113,9 +116,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Bobonaro",
-                    StateCode = "BO",
-                    Latitude = "-8.96554060",
-                    Longitude = "125.25879640",
+                    StateCode = "",
+                    Latitude = "-8.97455500",
+                    Longitude = "125.23065050",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -127,9 +130,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Cova Lima",
-                    StateCode = "CO",
-                    Latitude = "-9.26503750",
-                    Longitude = "125.25879640",
+                    StateCode = "",
+                    Latitude = "-9.23529850",
+                    Longitude = "125.23293590",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -145,9 +148,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Dili",
-                    StateCode = "DI",
-                    Latitude = "-8.24496130",
-                    Longitude = "125.58766970",
+                    StateCode = "",
+                    Latitude = "-8.55368090",
+                    Longitude = "125.57840930",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -162,9 +165,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Ermera",
-                    StateCode = "ER",
-                    Latitude = "-8.75248020",
-                    Longitude = "125.39872940",
+                    StateCode = "",
+                    Latitude = "-8.76562500",
+                    Longitude = "125.42157130",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -180,9 +183,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Lautém",
-                    StateCode = "LA",
-                    Latitude = "-8.36423070",
-                    Longitude = "126.90438450",
+                    StateCode = "",
+                    Latitude = "-8.43351270",
+                    Longitude = "126.82587380",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -198,9 +201,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Liquiçá",
-                    StateCode = "LI",
-                    Latitude = "-8.66740950",
-                    Longitude = "125.25879640",
+                    StateCode = "",
+                    Latitude = "-8.65506100",
+                    Longitude = "125.27514520",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -214,7 +217,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Manatuto",
-                    StateCode = "MT",
+                    StateCode = "",
                     Latitude = "-8.51556080",
                     Longitude = "126.01592550",
                     Type = "municipality",
@@ -233,9 +236,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Manufahi",
-                    StateCode = "MF",
-                    Latitude = "-9.01454950",
-                    Longitude = "125.82799590",
+                    StateCode = "",
+                    Latitude = "-8.96666000",
+                    Longitude = "125.78109210",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -249,8 +252,26 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 12,
+                    Name = "Oecusse",
+                    StateCode = "",
+                    Latitude = "-9.35000000",
+                    Longitude = "124.30000000",
+                    Type = "special administrative region",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Citrana", Latitude = "-9.33333333", Longitude = "124.08333333" },
+                        new() { Id = 2, Name = "Nitibe", Latitude = "-9.35000000", Longitude = "124.23333333" },
+                        new() { Id = 3, Name = "Oe Silo", Latitude = "-9.30000000", Longitude = "124.50000000" },
+                        new() { Id = 4, Name = "Pante Macassar", Latitude = "-9.20000000", Longitude = "124.38333333" },
+                        new() { Id = 5, Name = "Passabe", Latitude = "-9.36416667", Longitude = "124.34333333" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 13,
                     Name = "Viqueque",
-                    StateCode = "VI",
+                    StateCode = "",
                     Latitude = "-8.85979180",
                     Longitude = "126.36335160",
                     Type = "municipality",

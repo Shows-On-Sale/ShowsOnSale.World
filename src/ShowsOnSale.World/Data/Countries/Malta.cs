@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Malta",
                 ["ko"] = "몰타",
                 ["pt-BR"] = "Malta",
                 ["pt"] = "Malta",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Malta",
                 ["ru"] = "Мальта",
                 ["uk"] = "Мальта",
-                ["pl"] = "Malta"
+                ["pl"] = "Malta",
+                ["hi"] = "माल्टा",
+                ["ar"] = "مالطا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Attard",
-                    StateCode = "01",
-                    Latitude = "35.89049670",
-                    Longitude = "14.41993220",
+                    StateCode = "",
+                    Latitude = "35.89091720",
+                    Longitude = "14.44300930",
                     Type = "local council",
                     Cities = new()
                     {
@@ -76,7 +79,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Balzan",
-                    StateCode = "02",
+                    StateCode = "",
                     Latitude = "35.89574140",
                     Longitude = "14.45340650",
                     Type = "local council",
@@ -90,7 +93,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Birgu",
-                    StateCode = "03",
+                    StateCode = "",
                     Latitude = "35.88792140",
                     Longitude = "14.52256200",
                     Type = "local council",
@@ -104,7 +107,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Birkirkara",
-                    StateCode = "04",
+                    StateCode = "",
                     Latitude = "35.89547060",
                     Longitude = "14.46650720",
                     Type = "local council",
@@ -120,9 +123,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Birżebbuġa",
-                    StateCode = "05",
-                    Latitude = "35.81359890",
-                    Longitude = "14.52474630",
+                    StateCode = "",
+                    Latitude = "35.82694780",
+                    Longitude = "14.52741890",
                     Type = "local council",
                     Cities = new()
                     {
@@ -135,7 +138,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Cospicua",
-                    StateCode = "06",
+                    StateCode = "",
                     Latitude = "35.88067530",
                     Longitude = "14.52183380",
                     Type = "local council",
@@ -149,7 +152,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Dingli",
-                    StateCode = "07",
+                    StateCode = "",
                     Latitude = "35.86273090",
                     Longitude = "14.38501070",
                     Type = "local council",
@@ -163,7 +166,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Fgura",
-                    StateCode = "08",
+                    StateCode = "",
                     Latitude = "35.87382690",
                     Longitude = "14.52329010",
                     Type = "local council",
@@ -177,9 +180,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Floriana",
-                    StateCode = "09",
-                    Latitude = "45.49521850",
-                    Longitude = "-73.71395760",
+                    StateCode = "",
+                    Latitude = "35.89298380",
+                    Longitude = "14.50527160",
                     Type = "local council",
                     Cities = new()
                     {
@@ -191,9 +194,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Fontana",
-                    StateCode = "10",
-                    Latitude = "34.09223350",
-                    Longitude = "-117.43504800",
+                    StateCode = "",
+                    Latitude = "36.03874400",
+                    Longitude = "14.23700140",
                     Type = "local council",
                     Cities = new()
                     {
@@ -205,7 +208,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Għajnsielem",
-                    StateCode = "13",
+                    StateCode = "",
                     Latitude = "36.02479660",
                     Longitude = "14.28029610",
                     Type = "local council",
@@ -220,9 +223,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Għarb",
-                    StateCode = "14",
-                    Latitude = "36.06890900",
-                    Longitude = "14.20180980",
+                    StateCode = "",
+                    Latitude = "36.05981820",
+                    Longitude = "14.20908100",
                     Type = "local council",
                     Cities = new()
                     {
@@ -233,7 +236,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Għargħur",
-                    StateCode = "15",
+                    StateCode = "",
                     Latitude = "35.92205690",
                     Longitude = "14.45631760",
                     Type = "local council",
@@ -247,7 +250,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Għasri",
-                    StateCode = "16",
+                    StateCode = "",
                     Latitude = "36.06680750",
                     Longitude = "14.21924750",
                     Type = "local council",
@@ -261,7 +264,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Għaxaq",
-                    StateCode = "17",
+                    StateCode = "",
                     Latitude = "35.84403590",
                     Longitude = "14.51600900",
                     Type = "local council",
@@ -275,7 +278,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Gudja",
-                    StateCode = "11",
+                    StateCode = "",
                     Latitude = "35.84698030",
                     Longitude = "14.50290400",
                     Type = "local council",
@@ -288,7 +291,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Gżira",
-                    StateCode = "12",
+                    StateCode = "",
                     Latitude = "35.90589700",
                     Longitude = "14.49533380",
                     Type = "local council",
@@ -302,7 +305,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Ħamrun",
-                    StateCode = "18",
+                    StateCode = "",
                     Latitude = "35.88612370",
                     Longitude = "14.48834420",
                     Type = "local council",
@@ -317,7 +320,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 19,
                     Name = "Iklin",
-                    StateCode = "19",
+                    StateCode = "",
                     Latitude = "35.90987740",
                     Longitude = "14.45777320",
                     Type = "local council",
@@ -331,7 +334,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 20,
                     Name = "Kalkara",
-                    StateCode = "21",
+                    StateCode = "",
                     Latitude = "35.89142420",
                     Longitude = "14.53202780",
                     Type = "local council",
@@ -346,7 +349,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 21,
                     Name = "Kerċem",
-                    StateCode = "22",
+                    StateCode = "",
                     Latitude = "36.04479390",
                     Longitude = "14.22506050",
                     Type = "local council",
@@ -360,7 +363,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 22,
                     Name = "Kirkop",
-                    StateCode = "23",
+                    StateCode = "",
                     Latitude = "35.84378620",
                     Longitude = "14.48543240",
                     Type = "local council",
@@ -375,9 +378,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 23,
                     Name = "Lija",
-                    StateCode = "24",
-                    Latitude = "49.18007600",
-                    Longitude = "-123.10331700",
+                    StateCode = "",
+                    Latitude = "35.90176600",
+                    Longitude = "14.44761360",
                     Type = "local council",
                     Cities = new()
                     {
@@ -390,15 +393,14 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 24,
                     Name = "Luqa",
-                    StateCode = "25",
+                    StateCode = "",
                     Latitude = "35.85828650",
                     Longitude = "14.48688830",
                     Type = "local council",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ħal Luqa", Latitude = "35.85889000", Longitude = "14.48861000" },
-                        new() { Id = 2, Name = "Ħal Safi", Latitude = "35.83333300", Longitude = "14.48500000" },
-                        new() { Id = 3, Name = "Senglea", Latitude = "35.88750000", Longitude = "14.51694000" }
+                        new() { Id = 2, Name = "Senglea", Latitude = "35.88750000", Longitude = "14.51694000" }
                     }
                 },
 
@@ -406,9 +408,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 25,
                     Name = "Marsa",
-                    StateCode = "26",
-                    Latitude = "34.03195870",
-                    Longitude = "-118.44555350",
+                    StateCode = "",
+                    Latitude = "35.88289200",
+                    Longitude = "14.49448980",
                     Type = "local council",
                     Cities = new()
                     {
@@ -420,7 +422,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 26,
                     Name = "Marsaskala",
-                    StateCode = "27",
+                    StateCode = "",
                     Latitude = "35.86036400",
                     Longitude = "14.55678760",
                     Type = "local council",
@@ -435,7 +437,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 27,
                     Name = "Marsaxlokk",
-                    StateCode = "28",
+                    StateCode = "",
                     Latitude = "35.84116990",
                     Longitude = "14.53930970",
                     Type = "local council",
@@ -449,7 +451,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 28,
                     Name = "Mdina",
-                    StateCode = "29",
+                    StateCode = "",
                     Latitude = "35.88809300",
                     Longitude = "14.40683570",
                     Type = "local council",
@@ -462,9 +464,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 29,
                     Name = "Mellieħa",
-                    StateCode = "30",
-                    Latitude = "35.95235290",
-                    Longitude = "14.35009750",
+                    StateCode = "",
+                    Latitude = "35.95996180",
+                    Longitude = "14.36836700",
                     Type = "local council",
                     Cities = new()
                     {
@@ -476,7 +478,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 30,
                     Name = "Mġarr",
-                    StateCode = "31",
+                    StateCode = "",
                     Latitude = "35.91893270",
                     Longitude = "14.36173430",
                     Type = "local council",
@@ -490,7 +492,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 31,
                     Name = "Mosta",
-                    StateCode = "32",
+                    StateCode = "",
                     Latitude = "35.91415040",
                     Longitude = "14.42284270",
                     Type = "local council",
@@ -504,7 +506,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 32,
                     Name = "Mqabba",
-                    StateCode = "33",
+                    StateCode = "",
                     Latitude = "35.84441430",
                     Longitude = "14.46941860",
                     Type = "local council",
@@ -517,7 +519,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 33,
                     Name = "Msida",
-                    StateCode = "34",
+                    StateCode = "",
                     Latitude = "35.89563880",
                     Longitude = "14.48688830",
                     Type = "local council",
@@ -531,7 +533,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 34,
                     Name = "Mtarfa",
-                    StateCode = "35",
+                    StateCode = "",
                     Latitude = "35.88951250",
                     Longitude = "14.39519530",
                     Type = "local council",
@@ -544,7 +546,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 35,
                     Name = "Munxar",
-                    StateCode = "36",
+                    StateCode = "",
                     Latitude = "36.02880580",
                     Longitude = "14.22506050",
                     Type = "local council",
@@ -558,7 +560,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 36,
                     Name = "Nadur",
-                    StateCode = "37",
+                    StateCode = "",
                     Latitude = "36.04470190",
                     Longitude = "14.29192730",
                     Type = "local council",
@@ -572,9 +574,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 37,
                     Name = "Naxxar",
-                    StateCode = "38",
-                    Latitude = "35.93175180",
-                    Longitude = "14.43157460",
+                    StateCode = "",
+                    Latitude = "35.91333960",
+                    Longitude = "14.44328510",
                     Type = "local council",
                     Cities = new()
                     {
@@ -589,9 +591,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 38,
                     Name = "Paola",
-                    StateCode = "39",
-                    Latitude = "38.57223530",
-                    Longitude = "-94.87912940",
+                    StateCode = "",
+                    Latitude = "35.87179940",
+                    Longitude = "14.50737480",
                     Type = "local council",
                     Cities = new()
                     {
@@ -603,9 +605,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 39,
                     Name = "Pembroke",
-                    StateCode = "40",
-                    Latitude = "34.68016260",
-                    Longitude = "-79.19503730",
+                    StateCode = "",
+                    Latitude = "35.92813130",
+                    Longitude = "14.47957220",
                     Type = "local council",
                     Cities = new()
                     {
@@ -617,9 +619,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 40,
                     Name = "Pietà",
-                    StateCode = "41",
-                    Latitude = "42.21862000",
-                    Longitude = "-83.73464700",
+                    StateCode = "",
+                    Latitude = "35.89235300",
+                    Longitude = "14.49348810",
                     Type = "local council",
                     Cities = new()
                     {
@@ -631,7 +633,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 41,
                     Name = "Qala",
-                    StateCode = "42",
+                    StateCode = "",
                     Latitude = "36.03886280",
                     Longitude = "14.31810100",
                     Type = "local council",
@@ -645,7 +647,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 42,
                     Name = "Qormi",
-                    StateCode = "43",
+                    StateCode = "",
                     Latitude = "35.87643880",
                     Longitude = "14.46941860",
                     Type = "local council",
@@ -659,7 +661,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 43,
                     Name = "Qrendi",
-                    StateCode = "44",
+                    StateCode = "",
                     Latitude = "35.83284880",
                     Longitude = "14.45486210",
                     Type = "local council",
@@ -673,9 +675,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 44,
                     Name = "Rabat",
-                    StateCode = "46",
-                    Latitude = "33.97159040",
-                    Longitude = "-6.84981290",
+                    StateCode = "",
+                    Latitude = "35.88471700",
+                    Longitude = "14.37234000",
                     Type = "local council",
                     Cities = new()
                     {
@@ -687,8 +689,22 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 45,
+                    Name = "Safi",
+                    StateCode = "",
+                    Latitude = "35.83333333",
+                    Longitude = "14.48500000",
+                    Type = "local council",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Ħal Safi", Latitude = "35.83333300", Longitude = "14.48500000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 46,
                     Name = "San Ġwann",
-                    StateCode = "49",
+                    StateCode = "",
                     Latitude = "35.90773650",
                     Longitude = "14.47524160",
                     Type = "local council",
@@ -700,11 +716,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 46,
+                    Id = 47,
                     Name = "San Lawrenz",
-                    StateCode = "50",
-                    Latitude = "38.95780560",
-                    Longitude = "-95.25656890",
+                    StateCode = "",
+                    Latitude = "36.05530050",
+                    Longitude = "14.20395030",
                     Type = "local council",
                     Cities = new()
                     {
@@ -714,11 +730,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 47,
+                    Id = 48,
                     Name = "Sannat",
-                    StateCode = "52",
-                    Latitude = "36.01926430",
-                    Longitude = "14.25994370",
+                    StateCode = "",
+                    Latitude = "36.02730220",
+                    Longitude = "14.24290170",
                     Type = "local council",
                     Cities = new()
                     {
@@ -729,9 +745,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 48,
+                    Id = 49,
                     Name = "Santa Luċija",
-                    StateCode = "53",
+                    StateCode = "",
                     Latitude = "35.85614200",
                     Longitude = "14.50436000",
                     Type = "local council",
@@ -743,9 +759,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 49,
+                    Id = 50,
                     Name = "Santa Venera",
-                    StateCode = "54",
+                    StateCode = "",
                     Latitude = "35.89022010",
                     Longitude = "14.47669740",
                     Type = "local council",
@@ -756,9 +772,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 50,
+                    Id = 51,
                     Name = "Senglea",
-                    StateCode = "20",
+                    StateCode = "",
                     Latitude = "35.88730410",
                     Longitude = "14.51673710",
                     Type = "local council",
@@ -770,11 +786,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 51,
+                    Id = 52,
                     Name = "Siġġiewi",
-                    StateCode = "55",
-                    Latitude = "35.84637420",
-                    Longitude = "14.43157460",
+                    StateCode = "",
+                    Latitude = "35.85393540",
+                    Longitude = "14.43806300",
                     Type = "local council",
                     Cities = new()
                     {
@@ -784,9 +800,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 52,
+                    Id = 53,
                     Name = "Sliema",
-                    StateCode = "56",
+                    StateCode = "",
                     Latitude = "35.91100810",
                     Longitude = "14.50290400",
                     Type = "local council",
@@ -798,11 +814,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 53,
+                    Id = 54,
                     Name = "St. Julian's",
-                    StateCode = "48",
-                    Latitude = "42.21225130",
-                    Longitude = "-85.89171270",
+                    StateCode = "",
+                    Latitude = "35.91992250",
+                    Longitude = "14.48771190",
                     Type = "local council",
                     Cities = new()
                     {
@@ -813,11 +829,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 54,
+                    Id = 55,
                     Name = "St. Paul's Bay",
-                    StateCode = "51",
-                    Latitude = "35.93601700",
-                    Longitude = "14.39665030",
+                    StateCode = "",
+                    Latitude = "35.94807420",
+                    Longitude = "14.39739290",
                     Type = "local council",
                     Cities = new()
                     {
@@ -834,9 +850,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 55,
+                    Id = 56,
                     Name = "Swieqi",
-                    StateCode = "57",
+                    StateCode = "",
                     Latitude = "35.91911820",
                     Longitude = "14.46941860",
                     Type = "local council",
@@ -849,9 +865,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 56,
+                    Id = 57,
                     Name = "Ta' Xbiex",
-                    StateCode = "58",
+                    StateCode = "",
                     Latitude = "35.89914480",
                     Longitude = "14.49635190",
                     Type = "local council",
@@ -863,9 +879,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 57,
+                    Id = 58,
                     Name = "Tarxien",
-                    StateCode = "59",
+                    StateCode = "",
                     Latitude = "35.86725520",
                     Longitude = "14.51164050",
                     Type = "local council",
@@ -877,9 +893,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 58,
+                    Id = 59,
                     Name = "Valletta",
-                    StateCode = "60",
+                    StateCode = "",
                     Latitude = "35.89890850",
                     Longitude = "14.51455280",
                     Type = "local council",
@@ -891,11 +907,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 59,
+                    Id = 60,
                     Name = "Victoria",
-                    StateCode = "45",
-                    Latitude = "28.80526740",
-                    Longitude = "-97.00359820",
+                    StateCode = "",
+                    Latitude = "36.04289070",
+                    Longitude = "14.23984790",
                     Type = "local council",
                     Cities = new()
                     {
@@ -906,9 +922,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 60,
+                    Id = 61,
                     Name = "Xagħra",
-                    StateCode = "61",
+                    StateCode = "",
                     Latitude = "36.05084500",
                     Longitude = "14.26748200",
                     Type = "local council",
@@ -920,9 +936,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 61,
+                    Id = 62,
                     Name = "Xewkija",
-                    StateCode = "62",
+                    StateCode = "",
                     Latitude = "36.02992360",
                     Longitude = "14.25994370",
                     Type = "local council",
@@ -934,9 +950,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 62,
+                    Id = 63,
                     Name = "Xgħajra",
-                    StateCode = "63",
+                    StateCode = "",
                     Latitude = "35.88682820",
                     Longitude = "14.54723910",
                     Type = "local council",
@@ -948,9 +964,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 63,
+                    Id = 64,
                     Name = "Żabbar",
-                    StateCode = "64",
+                    StateCode = "",
                     Latitude = "35.87247150",
                     Longitude = "14.54513540",
                     Type = "local council",
@@ -962,9 +978,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 64,
+                    Id = 65,
                     Name = "Żebbuġ Gozo",
-                    StateCode = "65",
+                    StateCode = "",
                     Latitude = "36.07164030",
                     Longitude = "14.24540800",
                     Type = "local council",
@@ -976,9 +992,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 65,
+                    Id = 66,
                     Name = "Żebbuġ Malta",
-                    StateCode = "66",
+                    StateCode = "",
                     Latitude = "35.87646480",
                     Longitude = "14.43908400",
                     Type = "local council",
@@ -990,9 +1006,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 66,
+                    Id = 67,
                     Name = "Żejtun",
-                    StateCode = "67",
+                    StateCode = "",
                     Latitude = "35.85487140",
                     Longitude = "14.53639690",
                     Type = "local council",
@@ -1004,11 +1020,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 67,
+                    Id = 68,
                     Name = "Żurrieq",
-                    StateCode = "68",
-                    Latitude = "35.82163060",
-                    Longitude = "14.48106480",
+                    StateCode = "",
+                    Latitude = "35.82946760",
+                    Longitude = "14.47451720",
                     Type = "local council",
                     Cities = new()
                     {

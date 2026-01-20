@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Myanmar",
                 ["ko"] = "미얀마",
                 ["pt-BR"] = "Myanmar",
                 ["pt"] = "Myanmar",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Myanmar",
                 ["ru"] = "Мьянма",
                 ["uk"] = "М'янма",
-                ["pl"] = "Birma"
+                ["pl"] = "Birma",
+                ["hi"] = "म्यांमार",
+                ["ar"] = "ميانمار"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Ayeyarwady",
-                    StateCode = "07",
-                    Latitude = "17.03421250",
-                    Longitude = "95.22666750",
+                    StateCode = "",
+                    Latitude = "16.83400790",
+                    Longitude = "95.18047050",
                     Type = "region",
                     Cities = new()
                     {
@@ -85,9 +88,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Bago",
-                    StateCode = "02",
-                    Latitude = "17.32207110",
-                    Longitude = "96.46632860",
+                    StateCode = "",
+                    Latitude = "17.33666700",
+                    Longitude = "96.47972200",
                     Type = "region",
                     Cities = new()
                     {
@@ -107,9 +110,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Chin",
-                    StateCode = "14",
-                    Latitude = "22.00869780",
-                    Longitude = "93.58126920",
+                    StateCode = "",
+                    Latitude = "22.01824200",
+                    Longitude = "93.50380350",
                     Type = "state",
                     Cities = new()
                     {
@@ -122,9 +125,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Kachin",
-                    StateCode = "11",
-                    Latitude = "25.85090400",
-                    Longitude = "97.43813550",
+                    StateCode = "",
+                    Latitude = "26.02076560",
+                    Longitude = "97.49192580",
                     Type = "state",
                     Cities = new()
                     {
@@ -137,9 +140,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Kayah",
-                    StateCode = "12",
-                    Latitude = "19.23420610",
-                    Longitude = "97.26528580",
+                    StateCode = "",
+                    Latitude = "19.28125050",
+                    Longitude = "97.32918060",
                     Type = "state",
                     Cities = new()
                     {
@@ -151,9 +154,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Kayin",
-                    StateCode = "13",
-                    Latitude = "16.94593460",
-                    Longitude = "97.95928630",
+                    StateCode = "",
+                    Latitude = "17.18631350",
+                    Longitude = "97.74993160",
                     Type = "state",
                     Cities = new()
                     {
@@ -173,9 +176,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Magway",
-                    StateCode = "03",
-                    Latitude = "19.88713860",
-                    Longitude = "94.72775280",
+                    StateCode = "",
+                    Latitude = "20.14914580",
+                    Longitude = "94.92135180",
                     Type = "region",
                     Cities = new()
                     {
@@ -194,9 +197,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Mandalay",
-                    StateCode = "04",
-                    Latitude = "21.56190580",
-                    Longitude = "95.89871390",
+                    StateCode = "",
+                    Latitude = "21.95968340",
+                    Longitude = "96.09487430",
                     Type = "region",
                     Cities = new()
                     {
@@ -215,9 +218,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Mon State",
-                    StateCode = "15",
-                    Latitude = "16.30031330",
-                    Longitude = "97.69822720",
+                    StateCode = "",
+                    Latitude = "17.08325460",
+                    Longitude = "97.33373050",
                     Type = "state",
                     Cities = new()
                     {
@@ -234,9 +237,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Naypyidaw",
-                    StateCode = "18",
-                    Latitude = "19.93862450",
-                    Longitude = "96.15269850",
+                    StateCode = "",
+                    Latitude = "19.77532890",
+                    Longitude = "96.10325520",
                     Type = "union territory",
                     Cities = new()
                     {
@@ -249,9 +252,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Rakhine",
-                    StateCode = "16",
-                    Latitude = "20.10408180",
-                    Longitude = "93.58126920",
+                    StateCode = "",
+                    Latitude = "19.52129910",
+                    Longitude = "94.00724280",
                     Type = "state",
                     Cities = new()
                     {
@@ -263,9 +266,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Sagaing",
-                    StateCode = "01",
-                    Latitude = "24.42838100",
-                    Longitude = "95.39395510",
+                    StateCode = "",
+                    Latitude = "24.47684860",
+                    Longitude = "95.47474000",
                     Type = "region",
                     Cities = new()
                     {
@@ -280,9 +283,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Shan",
-                    StateCode = "17",
-                    Latitude = "22.03619850",
-                    Longitude = "98.13385580",
+                    StateCode = "",
+                    Latitude = "21.51224040",
+                    Longitude = "98.00983620",
                     Type = "state",
                     Cities = new()
                     {
@@ -296,9 +299,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Tanintharyi",
-                    StateCode = "05",
-                    Latitude = "12.47068760",
-                    Longitude = "99.01289260",
+                    StateCode = "",
+                    Latitude = "12.10915460",
+                    Longitude = "98.81652560",
                     Type = "region",
                     Cities = new()
                     {
@@ -312,9 +315,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Yangon",
-                    StateCode = "06",
-                    Latitude = "16.91434880",
-                    Longitude = "96.15269850",
+                    StateCode = "",
+                    Latitude = "16.79671290",
+                    Longitude = "96.16099160",
                     Type = "region",
                     Cities = new()
                     {

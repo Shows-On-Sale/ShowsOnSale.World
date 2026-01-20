@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 96,
+            Id = 95,
             Name = "Heard Island and McDonald Islands",
             Iso3 = "HMD",
             Iso2 = "HM",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Inizi Heard ha McDonald",
                 ["ko"] = "허드 맥도날드 제도",
                 ["pt-BR"] = "Ilha Heard e Ilhas McDonald",
                 ["pt"] = "Ilha Heard e Ilhas McDonald",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Heard Adasi Ve Mcdonald Adalari",
                 ["ru"] = "Остров Херд и острова Макдональд",
                 ["uk"] = "Острів Херд та острови Макдональд",
-                ["pl"] = "Wyspa Heard i Wyspy McDonalda"
+                ["pl"] = "Wyspa Heard i Wyspy McDonalda",
+                ["hi"] = "हर्ड द्वीप और मैकडोनाल्ड द्वीप",
+                ["ar"] = "سمعت جزيرة وجزر ماكدونالد"
             },
             States = new()
             {

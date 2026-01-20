@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Bahamas",
                 ["ko"] = "바하마",
                 ["pt-BR"] = "Bahamas",
                 ["pt"] = "Baamas",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Bahamalar",
                 ["ru"] = "Багамы",
                 ["uk"] = "Багамські острови",
-                ["pl"] = "Bahamy"
+                ["pl"] = "Bahamy",
+                ["hi"] = "बहामास",
+                ["ar"] = "جزر البهاما"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Acklins",
-                    StateCode = "AK",
-                    Latitude = "22.36577080",
-                    Longitude = "-74.05351260",
+                    StateCode = "",
+                    Latitude = "22.41450000",
+                    Longitude = "-74.06068310",
                     Type = "district",
                     Cities = new()
                     {
@@ -74,10 +77,10 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 2,
-                    Name = "Acklins and Crooked Islands",
-                    StateCode = "AC",
-                    Latitude = "22.36577080",
-                    Longitude = "-74.05351260",
+                    Name = "Berry Islands",
+                    StateCode = "",
+                    Latitude = "25.59050000",
+                    Longitude = "-77.72610060",
                     Type = "district",
                     Cities = new()
                     {
@@ -87,23 +90,10 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 3,
-                    Name = "Berry Islands",
-                    StateCode = "BY",
-                    Latitude = "25.62500420",
-                    Longitude = "-77.82522030",
-                    Type = "district",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 4,
                     Name = "Bimini",
-                    StateCode = "BI",
-                    Latitude = "24.64153250",
-                    Longitude = "-79.85062260",
+                    StateCode = "",
+                    Latitude = "25.70325380",
+                    Longitude = "-79.27334490",
                     Type = "district",
                     Cities = new()
                     {
@@ -113,11 +103,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 5,
+                    Id = 4,
                     Name = "Black Point",
-                    StateCode = "BP",
-                    Latitude = "41.39510240",
-                    Longitude = "-71.46505560",
+                    StateCode = "",
+                    Latitude = "24.09625980",
+                    Longitude = "-76.40225910",
                     Type = "district",
                     Cities = new()
                     {
@@ -126,11 +116,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 6,
+                    Id = 5,
                     Name = "Cat Island",
-                    StateCode = "CI",
-                    Latitude = "30.22801360",
-                    Longitude = "-89.10149330",
+                    StateCode = "",
+                    Latitude = "24.33850000",
+                    Longitude = "-75.61499320",
                     Type = "district",
                     Cities = new()
                     {
@@ -140,11 +130,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 7,
+                    Id = 6,
                     Name = "Central Abaco",
-                    StateCode = "CO",
-                    Latitude = "26.35550290",
-                    Longitude = "-77.14851630",
+                    StateCode = "",
+                    Latitude = "26.52551050",
+                    Longitude = "-77.28381180",
                     Type = "district",
                     Cities = new()
                     {
@@ -154,11 +144,24 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 8,
+                    Id = 7,
                     Name = "Central Andros",
-                    StateCode = "CS",
-                    Latitude = "24.46884820",
-                    Longitude = "-77.97386500",
+                    StateCode = "",
+                    Latitude = "24.43437490",
+                    Longitude = "-77.79340770",
+                    Type = "district",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 8,
+                    Name = "Central Eleuthera",
+                    StateCode = "",
+                    Latitude = "25.23900000",
+                    Longitude = "-76.32916210",
                     Type = "district",
                     Cities = new()
                     {
@@ -168,23 +171,10 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 9,
-                    Name = "Central Eleuthera",
-                    StateCode = "CE",
-                    Latitude = "25.13620370",
-                    Longitude = "-76.14359150",
-                    Type = "district",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 10,
                     Name = "Crooked Island",
-                    StateCode = "CK",
-                    Latitude = "22.63909820",
-                    Longitude = "-74.00650900",
+                    StateCode = "",
+                    Latitude = "22.74869590",
+                    Longitude = "-74.23861630",
                     Type = "district",
                     Cities = new()
                     {
@@ -194,11 +184,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 11,
+                    Id = 10,
                     Name = "East Grand Bahama",
-                    StateCode = "EG",
-                    Latitude = "26.65828230",
-                    Longitude = "-78.22482910",
+                    StateCode = "",
+                    Latitude = "26.67722290",
+                    Longitude = "-78.01345210",
                     Type = "district",
                     Cities = new()
                     {
@@ -208,11 +198,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 12,
+                    Id = 11,
                     Name = "Exuma",
-                    StateCode = "EX",
-                    Latitude = "23.61925980",
-                    Longitude = "-75.96954650",
+                    StateCode = "",
+                    Latitude = "23.96850000",
+                    Longitude = "-76.17990490",
                     Type = "district",
                     Cities = new()
                     {
@@ -222,11 +212,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 13,
+                    Id = 12,
                     Name = "Freeport",
-                    StateCode = "FP",
-                    Latitude = "42.29668610",
-                    Longitude = "-89.62122710",
+                    StateCode = "",
+                    Latitude = "26.53568100",
+                    Longitude = "-78.69536230",
                     Type = "district",
                     Cities = new()
                     {
@@ -237,37 +227,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 14,
-                    Name = "Fresh Creek",
-                    StateCode = "FC",
-                    Latitude = "40.65437560",
-                    Longitude = "-73.89479390",
-                    Type = "district",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 15,
-                    Name = "Governor's Harbour",
-                    StateCode = "GH",
-                    Latitude = "25.19480960",
-                    Longitude = "-76.24396220",
-                    Type = "district",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 16,
+                    Id = 13,
                     Name = "Grand Cay",
-                    StateCode = "GC",
-                    Latitude = "27.21626150",
-                    Longitude = "-78.32305590",
+                    StateCode = "",
+                    Latitude = "27.22871910",
+                    Longitude = "-78.33243660",
                     Type = "district",
                     Cities = new()
                     {
@@ -276,22 +240,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 17,
-                    Name = "Green Turtle Cay",
-                    StateCode = "GT",
-                    Latitude = "26.77471070",
-                    Longitude = "-77.32957080",
-                    Type = "district",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 18,
+                    Id = 14,
                     Name = "Harbour Island",
-                    StateCode = "HI",
+                    StateCode = "",
                     Latitude = "25.50011000",
                     Longitude = "-76.63405110",
                     Type = "district",
@@ -303,24 +254,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 19,
-                    Name = "High Rock",
-                    StateCode = "HR",
-                    Latitude = "46.68434150",
-                    Longitude = "-121.90174610",
-                    Type = "district",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 20,
+                    Id = 15,
                     Name = "Hope Town",
-                    StateCode = "HT",
-                    Latitude = "26.50095040",
-                    Longitude = "-76.99598720",
+                    StateCode = "",
+                    Latitude = "26.54071160",
+                    Longitude = "-76.95943790",
                     Type = "district",
                     Cities = new()
                     {
@@ -329,11 +267,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 21,
+                    Id = 16,
                     Name = "Inagua",
-                    StateCode = "IN",
-                    Latitude = "21.06560660",
-                    Longitude = "-73.32370800",
+                    StateCode = "",
+                    Latitude = "21.23250000",
+                    Longitude = "-73.30962130",
                     Type = "district",
                     Cities = new()
                     {
@@ -343,24 +281,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 22,
-                    Name = "Kemps Bay",
-                    StateCode = "KB",
-                    Latitude = "24.02364000",
-                    Longitude = "-77.54534900",
-                    Type = "district",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 23,
+                    Id = 17,
                     Name = "Long Island",
-                    StateCode = "LI",
-                    Latitude = "40.78914200",
-                    Longitude = "-73.13496100",
+                    StateCode = "",
+                    Latitude = "23.30300000",
+                    Longitude = "-75.10587820",
                     Type = "district",
                     Cities = new()
                     {
@@ -370,11 +295,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 24,
+                    Id = 18,
                     Name = "Mangrove Cay",
-                    StateCode = "MC",
-                    Latitude = "24.14814250",
-                    Longitude = "-77.76809520",
+                    StateCode = "",
+                    Latitude = "24.21882050",
+                    Longitude = "-77.71761450",
                     Type = "district",
                     Cities = new()
                     {
@@ -383,24 +308,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 25,
-                    Name = "Marsh Harbour",
-                    StateCode = "MH",
-                    Latitude = "26.52416530",
-                    Longitude = "-77.09098090",
-                    Type = "district",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 26,
+                    Id = 19,
                     Name = "Mayaguana",
-                    StateCode = "MG",
-                    Latitude = "22.40177140",
-                    Longitude = "-73.06413960",
+                    StateCode = "",
+                    Latitude = "22.36984260",
+                    Longitude = "-72.88768160",
                     Type = "district",
                     Cities = new()
                     {
@@ -410,11 +322,24 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 27,
+                    Id = 20,
+                    Name = "Moore's Island",
+                    StateCode = "",
+                    Latitude = "25.86666700",
+                    Longitude = "-77.96666700",
+                    Type = "district",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 21,
                     Name = "New Providence",
-                    StateCode = "NP",
-                    Latitude = "40.69843480",
-                    Longitude = "-74.40154050",
+                    StateCode = "",
+                    Latitude = "25.19435880",
+                    Longitude = "-77.29532970",
                     Type = "island",
                     Cities = new()
                     {
@@ -424,24 +349,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 28,
-                    Name = "Nichollstown and Berry Islands",
-                    StateCode = "NB",
-                    Latitude = "25.72362340",
-                    Longitude = "-77.83101040",
-                    Type = "district",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 29,
+                    Id = 22,
                     Name = "North Abaco",
-                    StateCode = "NO",
-                    Latitude = "26.78716970",
-                    Longitude = "-77.43577390",
+                    StateCode = "",
+                    Latitude = "26.93839430",
+                    Longitude = "-77.68382210",
                     Type = "district",
                     Cities = new()
                     {
@@ -451,11 +363,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 30,
+                    Id = 23,
                     Name = "North Andros",
-                    StateCode = "NS",
-                    Latitude = "24.70638050",
-                    Longitude = "-78.01953870",
+                    StateCode = "",
+                    Latitude = "24.88750000",
+                    Longitude = "-78.08116190",
                     Type = "district",
                     Cities = new()
                     {
@@ -466,11 +378,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 31,
+                    Id = 24,
                     Name = "North Eleuthera",
-                    StateCode = "NE",
-                    Latitude = "25.46475170",
-                    Longitude = "-76.67592200",
+                    StateCode = "",
+                    Latitude = "25.37766940",
+                    Longitude = "-76.78426550",
                     Type = "district",
                     Cities = new()
                     {
@@ -479,11 +391,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 32,
+                    Id = 25,
                     Name = "Ragged Island",
-                    StateCode = "RI",
-                    Latitude = "41.59743100",
-                    Longitude = "-71.26020200",
+                    StateCode = "",
+                    Latitude = "22.47655940",
+                    Longitude = "-75.80209340",
                     Type = "district",
                     Cities = new()
                     {
@@ -493,24 +405,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 33,
-                    Name = "Rock Sound",
-                    StateCode = "RS",
-                    Latitude = "39.01424430",
-                    Longitude = "-95.67089890",
-                    Type = "district",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 34,
+                    Id = 26,
                     Name = "Rum Cay",
-                    StateCode = "RC",
-                    Latitude = "23.68546760",
-                    Longitude = "-74.83901620",
+                    StateCode = "",
+                    Latitude = "23.82630650",
+                    Longitude = "-74.93268290",
                     Type = "district",
                     Cities = new()
                     {
@@ -520,24 +419,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 35,
-                    Name = "San Salvador and Rum Cay",
-                    StateCode = "SR",
-                    Latitude = "23.68546760",
-                    Longitude = "-74.83901620",
-                    Type = "district",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 36,
+                    Id = 27,
                     Name = "San Salvador Island",
-                    StateCode = "SS",
-                    Latitude = "24.07755460",
-                    Longitude = "-74.47600880",
+                    StateCode = "",
+                    Latitude = "24.03438160",
+                    Longitude = "-74.48513730",
                     Type = "district",
                     Cities = new()
                     {
@@ -547,24 +433,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 37,
-                    Name = "Sandy Point",
-                    StateCode = "SP",
-                    Latitude = "39.01454640",
-                    Longitude = "-76.39989250",
-                    Type = "district",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 38,
+                    Id = 28,
                     Name = "South Abaco",
-                    StateCode = "SO",
-                    Latitude = "26.06405910",
-                    Longitude = "-77.26350380",
+                    StateCode = "",
+                    Latitude = "26.00400000",
+                    Longitude = "-77.35670720",
                     Type = "district",
                     Cities = new()
                     {
@@ -573,11 +446,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 39,
+                    Id = 29,
                     Name = "South Andros",
-                    StateCode = "SA",
-                    Latitude = "23.97135560",
-                    Longitude = "-77.60778650",
+                    StateCode = "",
+                    Latitude = "23.89850000",
+                    Longitude = "-77.45654040",
                     Type = "district",
                     Cities = new()
                     {
@@ -586,11 +459,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 40,
+                    Id = 30,
                     Name = "South Eleuthera",
-                    StateCode = "SE",
-                    Latitude = "24.77085620",
-                    Longitude = "-76.21314740",
+                    StateCode = "",
+                    Latitude = "24.73107940",
+                    Longitude = "-76.29269280",
                     Type = "district",
                     Cities = new()
                     {
@@ -599,11 +472,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 41,
+                    Id = 31,
                     Name = "Spanish Wells",
-                    StateCode = "SW",
-                    Latitude = "26.32505990",
-                    Longitude = "-81.79803280",
+                    StateCode = "",
+                    Latitude = "25.54023360",
+                    Longitude = "-76.96062330",
                     Type = "district",
                     Cities = new()
                     {
@@ -613,11 +486,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 42,
+                    Id = 32,
                     Name = "West Grand Bahama",
-                    StateCode = "WG",
-                    Latitude = "26.65944700",
-                    Longitude = "-78.52065000",
+                    StateCode = "",
+                    Latitude = "26.74400000",
+                    Longitude = "-78.87886850",
                     Type = "district",
                     Cities = new()
                     {

@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Niger",
                 ["ko"] = "니제르",
                 ["pt-BR"] = "Níger",
                 ["pt"] = "Níger",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Nijer",
                 ["ru"] = "Нигер",
                 ["uk"] = "Нігер",
-                ["pl"] = "Niger"
+                ["pl"] = "Niger",
+                ["hi"] = "नाइजर",
+                ["ar"] = "النيجر"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Agadez",
-                    StateCode = "1",
-                    Latitude = "20.66707520",
-                    Longitude = "12.07182810",
+                    StateCode = "",
+                    Latitude = "19.42111150",
+                    Longitude = "10.68469870",
                     Type = "region",
                     Cities = new()
                     {
@@ -81,9 +84,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Diffa",
-                    StateCode = "2",
-                    Latitude = "13.67686470",
-                    Longitude = "12.71351210",
+                    StateCode = "",
+                    Latitude = "13.48808750",
+                    Longitude = "12.51362660",
                     Type = "region",
                     Cities = new()
                     {
@@ -100,9 +103,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Dosso",
-                    StateCode = "3",
-                    Latitude = "13.15139470",
-                    Longitude = "3.41955270",
+                    StateCode = "",
+                    Latitude = "13.16580090",
+                    Longitude = "3.30680750",
                     Type = "region",
                     Cities = new()
                     {
@@ -121,9 +124,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Maradi",
-                    StateCode = "4",
-                    Latitude = "13.80180740",
-                    Longitude = "7.43813550",
+                    StateCode = "",
+                    Latitude = "14.22400000",
+                    Longitude = "7.47178770",
                     Type = "region",
                     Cities = new()
                     {
@@ -145,10 +148,24 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 5,
+                    Name = "Niamey",
+                    StateCode = "",
+                    Latitude = "13.51361111",
+                    Longitude = "2.10888889",
+                    Type = "urban community",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Niamey", Latitude = "13.51361111", Longitude = "2.10888889" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 6,
                     Name = "Tahoua",
-                    StateCode = "5",
-                    Latitude = "16.09025430",
-                    Longitude = "5.39395510",
+                    StateCode = "",
+                    Latitude = "16.15767450",
+                    Longitude = "5.32826520",
                     Type = "region",
                     Cities = new()
                     {
@@ -172,11 +189,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 6,
+                    Id = 7,
                     Name = "Tillabéri",
-                    StateCode = "6",
-                    Latitude = "14.64895250",
-                    Longitude = "2.14502450",
+                    StateCode = "",
+                    Latitude = "13.72510680",
+                    Longitude = "1.69614560",
                     Type = "region",
                     Cities = new()
                     {
@@ -199,11 +216,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 7,
+                    Id = 8,
                     Name = "Zinder",
-                    StateCode = "7",
-                    Latitude = "15.17188810",
-                    Longitude = "10.26001250",
+                    StateCode = "",
+                    Latitude = "15.17870000",
+                    Longitude = "9.70741080",
                     Type = "region",
                     Cities = new()
                     {

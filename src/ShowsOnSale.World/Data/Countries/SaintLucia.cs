@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Santez-Lusia",
                 ["ko"] = "세인트루시아",
                 ["pt-BR"] = "Santa Lúcia",
                 ["pt"] = "Santa Lúcia",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Saint Lucia",
                 ["ru"] = "Сент-Люсия",
                 ["uk"] = "Сент-Люсія",
-                ["pl"] = "Saint Lucia"
+                ["pl"] = "Saint Lucia",
+                ["hi"] = "सेंट लूसिया",
+                ["ar"] = "سانت لوسيا"
             },
             States = new()
             {
@@ -62,7 +65,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Anse la Raye",
-                    StateCode = "01",
+                    StateCode = "",
                     Latitude = "13.94594240",
                     Longitude = "-61.03694680",
                     Type = "district",
@@ -100,9 +103,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Canaries",
-                    StateCode = "12",
-                    Latitude = "28.29156370",
-                    Longitude = "-16.62913040",
+                    StateCode = "",
+                    Latitude = "13.90400240",
+                    Longitude = "-61.07187140",
                     Type = "district",
                     Cities = new()
                     {
@@ -121,7 +124,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Castries",
-                    StateCode = "02",
+                    StateCode = "",
                     Latitude = "14.01010940",
                     Longitude = "-60.98746870",
                     Type = "district",
@@ -253,7 +256,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Choiseul",
-                    StateCode = "03",
+                    StateCode = "",
                     Latitude = "13.77501540",
                     Longitude = "-61.04859100",
                     Type = "district",
@@ -301,21 +304,8 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 5,
-                    Name = "Dauphin",
-                    StateCode = "04",
-                    Latitude = "14.01033960",
-                    Longitude = "-60.91909880",
-                    Type = "district",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 6,
                     Name = "Dennery",
-                    StateCode = "05",
+                    StateCode = "",
                     Latitude = "13.92673930",
                     Longitude = "-60.91909880",
                     Type = "district",
@@ -336,39 +326,38 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 13, Name = "Dennery By Pass/Green Mountain", Latitude = "13.91094000", Longitude = "-60.89810000" },
                         new() { Id = 14, Name = "Dennery By Pass/Rocky Lane", Latitude = "13.91443000", Longitude = "-60.90017000" },
                         new() { Id = 15, Name = "Dennery By Pass/White Rock Gardens", Latitude = "13.91424000", Longitude = "-60.89333000" },
-                        new() { Id = 16, Name = "Dennery Village", Latitude = "13.91099000", Longitude = "-60.89122000" },
-                        new() { Id = 17, Name = "Derniere Riviere", Latitude = "13.95679000", Longitude = "-60.92578000" },
-                        new() { Id = 18, Name = "Derniere Riviere/Fond Maricient", Latitude = "13.95130000", Longitude = "-60.92218000" },
-                        new() { Id = 19, Name = "Derniere Riviere/Mardi Gras/Morne Caca Cochon", Latitude = "13.96288000", Longitude = "-60.92029000" },
-                        new() { Id = 20, Name = "Derniere Riviere/Morne Panache", Latitude = "13.95252000", Longitude = "-60.92919000" },
-                        new() { Id = 21, Name = "Despinoze", Latitude = "13.94971000", Longitude = "-60.91182000" },
-                        new() { Id = 22, Name = "Dubonnaire", Latitude = "13.92808000", Longitude = "-60.92336000" },
-                        new() { Id = 23, Name = "Gadette", Latitude = "13.95937000", Longitude = "-60.91029000" },
-                        new() { Id = 24, Name = "Grande Ravine", Latitude = "13.94263000", Longitude = "-60.93404000" },
-                        new() { Id = 25, Name = "Grande Riviere", Latitude = "13.93306000", Longitude = "-60.93239000" },
-                        new() { Id = 26, Name = "Grande Riviere/Des Branch", Latitude = "13.93383000", Longitude = "-60.93499000" },
-                        new() { Id = 27, Name = "Grande Riviere/En Leur Morne/Discompere", Latitude = "13.93223000", Longitude = "-60.93461000" },
-                        new() { Id = 28, Name = "Grande Riviere/Funier", Latitude = "13.93240000", Longitude = "-60.93305000" },
-                        new() { Id = 29, Name = "Grande Riviere/Morne Caca Cochon", Latitude = "13.92960000", Longitude = "-60.93794000" },
-                        new() { Id = 30, Name = "La Caye", Latitude = "13.93290000", Longitude = "-60.90434000" },
-                        new() { Id = 31, Name = "La Pelle", Latitude = "13.94096000", Longitude = "-60.90569000" },
-                        new() { Id = 32, Name = "La Pointe", Latitude = "13.91525000", Longitude = "-60.88830000" },
-                        new() { Id = 33, Name = "La Ressource", Latitude = "13.94293000", Longitude = "-60.91585000" },
-                        new() { Id = 34, Name = "Lumiere", Latitude = "13.93928000", Longitude = "-60.88889000" },
-                        new() { Id = 35, Name = "Morne Panache", Latitude = "13.92167000", Longitude = "-60.93654000" },
-                        new() { Id = 36, Name = "Riche Fond", Latitude = "13.93644000", Longitude = "-60.92026000" },
-                        new() { Id = 37, Name = "Riche Fond/La Belle Vie", Latitude = "13.93782000", Longitude = "-60.92908000" },
-                        new() { Id = 38, Name = "Riche Fond/New Village", Latitude = "13.93648000", Longitude = "-60.92394000" },
-                        new() { Id = 39, Name = "St. Joseph Estate", Latitude = "13.90066000", Longitude = "-60.91444000" },
-                        new() { Id = 40, Name = "Thamazo", Latitude = "13.93245000", Longitude = "-60.94786000" }
+                        new() { Id = 16, Name = "Derniere Riviere", Latitude = "13.95679000", Longitude = "-60.92578000" },
+                        new() { Id = 17, Name = "Derniere Riviere/Fond Maricient", Latitude = "13.95130000", Longitude = "-60.92218000" },
+                        new() { Id = 18, Name = "Derniere Riviere/Mardi Gras/Morne Caca Cochon", Latitude = "13.96288000", Longitude = "-60.92029000" },
+                        new() { Id = 19, Name = "Derniere Riviere/Morne Panache", Latitude = "13.95252000", Longitude = "-60.92919000" },
+                        new() { Id = 20, Name = "Despinoze", Latitude = "13.94971000", Longitude = "-60.91182000" },
+                        new() { Id = 21, Name = "Dubonnaire", Latitude = "13.92808000", Longitude = "-60.92336000" },
+                        new() { Id = 22, Name = "Gadette", Latitude = "13.95937000", Longitude = "-60.91029000" },
+                        new() { Id = 23, Name = "Grande Ravine", Latitude = "13.94263000", Longitude = "-60.93404000" },
+                        new() { Id = 24, Name = "Grande Riviere", Latitude = "13.93306000", Longitude = "-60.93239000" },
+                        new() { Id = 25, Name = "Grande Riviere/Des Branch", Latitude = "13.93383000", Longitude = "-60.93499000" },
+                        new() { Id = 26, Name = "Grande Riviere/En Leur Morne/Discompere", Latitude = "13.93223000", Longitude = "-60.93461000" },
+                        new() { Id = 27, Name = "Grande Riviere/Funier", Latitude = "13.93240000", Longitude = "-60.93305000" },
+                        new() { Id = 28, Name = "Grande Riviere/Morne Caca Cochon", Latitude = "13.92960000", Longitude = "-60.93794000" },
+                        new() { Id = 29, Name = "La Caye", Latitude = "13.93290000", Longitude = "-60.90434000" },
+                        new() { Id = 30, Name = "La Pelle", Latitude = "13.94096000", Longitude = "-60.90569000" },
+                        new() { Id = 31, Name = "La Pointe", Latitude = "13.91525000", Longitude = "-60.88830000" },
+                        new() { Id = 32, Name = "La Ressource", Latitude = "13.94293000", Longitude = "-60.91585000" },
+                        new() { Id = 33, Name = "Lumiere", Latitude = "13.93928000", Longitude = "-60.88889000" },
+                        new() { Id = 34, Name = "Morne Panache", Latitude = "13.92167000", Longitude = "-60.93654000" },
+                        new() { Id = 35, Name = "Riche Fond", Latitude = "13.93644000", Longitude = "-60.92026000" },
+                        new() { Id = 36, Name = "Riche Fond/La Belle Vie", Latitude = "13.93782000", Longitude = "-60.92908000" },
+                        new() { Id = 37, Name = "Riche Fond/New Village", Latitude = "13.93648000", Longitude = "-60.92394000" },
+                        new() { Id = 38, Name = "St. Joseph Estate", Latitude = "13.90066000", Longitude = "-60.91444000" },
+                        new() { Id = 39, Name = "Thamazo", Latitude = "13.93245000", Longitude = "-60.94786000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 7,
+                    Id = 6,
                     Name = "Gros Islet",
-                    StateCode = "06",
+                    StateCode = "",
                     Latitude = "14.08435780",
                     Longitude = "-60.94527940",
                     Type = "district",
@@ -413,57 +402,56 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 37, Name = "Grande Riviere/Piat", Latitude = "14.03926000", Longitude = "-60.94361000" },
                         new() { Id = 38, Name = "Grande Riviere/White Rock", Latitude = "14.03618000", Longitude = "-60.95556000" },
                         new() { Id = 39, Name = "Gros Islet", Latitude = "14.06667000", Longitude = "-60.95000000" },
-                        new() { Id = 40, Name = "Gros Islet Town", Latitude = "14.08080000", Longitude = "-60.95312000" },
-                        new() { Id = 41, Name = "Gros Islet/Edge Water", Latitude = "14.07912000", Longitude = "-60.94973000" },
-                        new() { Id = 42, Name = "L'Hermitage", Latitude = "14.06521000", Longitude = "-60.93967000" },
-                        new() { Id = 43, Name = "La Croix Chabourgh", Latitude = "14.01147000", Longitude = "-60.94025000" },
-                        new() { Id = 44, Name = "La Guerre", Latitude = "14.02191000", Longitude = "-60.92491000" },
-                        new() { Id = 45, Name = "La Guerre/Chicken Back Street", Latitude = "14.02387000", Longitude = "-60.93108000" },
-                        new() { Id = 46, Name = "Marisule", Latitude = "14.04621000", Longitude = "-60.97063000" },
-                        new() { Id = 47, Name = "Marisule/Bon Air", Latitude = "14.05062000", Longitude = "-60.97124000" },
-                        new() { Id = 48, Name = "Marisule/East Winds", Latitude = "14.05407000", Longitude = "-60.96849000" },
-                        new() { Id = 49, Name = "Marisule/La Brellotte", Latitude = "14.05710000", Longitude = "-60.97183000" },
-                        new() { Id = 50, Name = "Marisule/Top Of The World", Latitude = "14.04385000", Longitude = "-60.96885000" },
-                        new() { Id = 51, Name = "Marquis Estate", Latitude = "14.02960000", Longitude = "-60.90732000" },
-                        new() { Id = 52, Name = "Massade", Latitude = "14.08292000", Longitude = "-60.94946000" },
-                        new() { Id = 53, Name = "Monchy", Latitude = "14.05502000", Longitude = "-60.92623000" },
-                        new() { Id = 54, Name = "Monchy/Careffe", Latitude = "14.05930000", Longitude = "-60.95069000" },
-                        new() { Id = 55, Name = "Monchy/Cletus Village", Latitude = "14.05137000", Longitude = "-60.92380000" },
-                        new() { Id = 56, Name = "Monchy/La Borne", Latitude = "14.04628000", Longitude = "-60.91961000" },
-                        new() { Id = 57, Name = "Monchy/La Borne/Sans Souci", Latitude = "14.04504000", Longitude = "-60.89961000" },
-                        new() { Id = 58, Name = "Monchy/La Retraite", Latitude = "14.06421000", Longitude = "-60.94564000" },
-                        new() { Id = 59, Name = "Monchy/Lafeuillee", Latitude = "14.05950000", Longitude = "-60.94086000" },
-                        new() { Id = 60, Name = "Monchy/Lawi Fwen", Latitude = "14.05802000", Longitude = "-60.92906000" },
-                        new() { Id = 61, Name = "Monchy/Malgretoute", Latitude = "14.04108000", Longitude = "-60.91912000" },
-                        new() { Id = 62, Name = "Monchy/Moulin A Vent", Latitude = "14.06283000", Longitude = "-60.95025000" },
-                        new() { Id = 63, Name = "Monchy/Ravine Macock", Latitude = "14.04789000", Longitude = "-60.92511000" },
-                        new() { Id = 64, Name = "Monchy/Riviere Mitan", Latitude = "14.04987000", Longitude = "-60.94029000" },
-                        new() { Id = 65, Name = "Monchy/Ti Dauphin", Latitude = "14.04081000", Longitude = "-60.93225000" },
-                        new() { Id = 66, Name = "Monchy/Vieux Sucreic", Latitude = "14.04996000", Longitude = "-60.94992000" },
-                        new() { Id = 67, Name = "Monchy/Vieux Sucreic/Bois D'Inde", Latitude = "14.05613000", Longitude = "-60.95151000" },
-                        new() { Id = 68, Name = "Monchy/Vieux Sucreic/Careffe", Latitude = "14.05652000", Longitude = "-60.94948000" },
-                        new() { Id = 69, Name = "Mongiraud", Latitude = "14.06287000", Longitude = "-60.95722000" },
-                        new() { Id = 70, Name = "Monier", Latitude = "14.02951000", Longitude = "-60.94098000" },
-                        new() { Id = 71, Name = "Morne Citon", Latitude = "14.03004000", Longitude = "-60.92813000" },
-                        new() { Id = 72, Name = "Paix Bouche", Latitude = "14.01755000", Longitude = "-60.93852000" },
-                        new() { Id = 73, Name = "Pigeon Island", Latitude = "14.08965000", Longitude = "-60.95724000" },
-                        new() { Id = 74, Name = "Plateau", Latitude = "14.02612000", Longitude = "-60.93474000" },
-                        new() { Id = 75, Name = "Reduit", Latitude = "14.06829000", Longitude = "-60.96145000" },
-                        new() { Id = 76, Name = "Reduit Orchard", Latitude = "14.06594000", Longitude = "-60.95340000" },
-                        new() { Id = 77, Name = "Reduit Park", Latitude = "14.06622000", Longitude = "-60.95560000" },
-                        new() { Id = 78, Name = "Rodney Bay", Latitude = "14.07292000", Longitude = "-60.95443000" },
-                        new() { Id = 79, Name = "Rodney Heights", Latitude = "14.06731000", Longitude = "-60.94906000" },
-                        new() { Id = 80, Name = "Union", Latitude = "14.02907000", Longitude = "-60.96480000" },
-                        new() { Id = 81, Name = "Union Terrace", Latitude = "14.02654000", Longitude = "-60.95710000" },
-                        new() { Id = 82, Name = "Union/Ti Morne", Latitude = "14.02283000", Longitude = "-60.95272000" }
+                        new() { Id = 40, Name = "Gros Islet/Edge Water", Latitude = "14.07912000", Longitude = "-60.94973000" },
+                        new() { Id = 41, Name = "L'Hermitage", Latitude = "14.06521000", Longitude = "-60.93967000" },
+                        new() { Id = 42, Name = "La Croix Chabourgh", Latitude = "14.01147000", Longitude = "-60.94025000" },
+                        new() { Id = 43, Name = "La Guerre", Latitude = "14.02191000", Longitude = "-60.92491000" },
+                        new() { Id = 44, Name = "La Guerre/Chicken Back Street", Latitude = "14.02387000", Longitude = "-60.93108000" },
+                        new() { Id = 45, Name = "Marisule", Latitude = "14.04621000", Longitude = "-60.97063000" },
+                        new() { Id = 46, Name = "Marisule/Bon Air", Latitude = "14.05062000", Longitude = "-60.97124000" },
+                        new() { Id = 47, Name = "Marisule/East Winds", Latitude = "14.05407000", Longitude = "-60.96849000" },
+                        new() { Id = 48, Name = "Marisule/La Brellotte", Latitude = "14.05710000", Longitude = "-60.97183000" },
+                        new() { Id = 49, Name = "Marisule/Top Of The World", Latitude = "14.04385000", Longitude = "-60.96885000" },
+                        new() { Id = 50, Name = "Marquis Estate", Latitude = "14.02960000", Longitude = "-60.90732000" },
+                        new() { Id = 51, Name = "Massade", Latitude = "14.08292000", Longitude = "-60.94946000" },
+                        new() { Id = 52, Name = "Monchy", Latitude = "14.05502000", Longitude = "-60.92623000" },
+                        new() { Id = 53, Name = "Monchy/Careffe", Latitude = "14.05930000", Longitude = "-60.95069000" },
+                        new() { Id = 54, Name = "Monchy/Cletus Village", Latitude = "14.05137000", Longitude = "-60.92380000" },
+                        new() { Id = 55, Name = "Monchy/La Borne", Latitude = "14.04628000", Longitude = "-60.91961000" },
+                        new() { Id = 56, Name = "Monchy/La Borne/Sans Souci", Latitude = "14.04504000", Longitude = "-60.89961000" },
+                        new() { Id = 57, Name = "Monchy/La Retraite", Latitude = "14.06421000", Longitude = "-60.94564000" },
+                        new() { Id = 58, Name = "Monchy/Lafeuillee", Latitude = "14.05950000", Longitude = "-60.94086000" },
+                        new() { Id = 59, Name = "Monchy/Lawi Fwen", Latitude = "14.05802000", Longitude = "-60.92906000" },
+                        new() { Id = 60, Name = "Monchy/Malgretoute", Latitude = "14.04108000", Longitude = "-60.91912000" },
+                        new() { Id = 61, Name = "Monchy/Moulin A Vent", Latitude = "14.06283000", Longitude = "-60.95025000" },
+                        new() { Id = 62, Name = "Monchy/Ravine Macock", Latitude = "14.04789000", Longitude = "-60.92511000" },
+                        new() { Id = 63, Name = "Monchy/Riviere Mitan", Latitude = "14.04987000", Longitude = "-60.94029000" },
+                        new() { Id = 64, Name = "Monchy/Ti Dauphin", Latitude = "14.04081000", Longitude = "-60.93225000" },
+                        new() { Id = 65, Name = "Monchy/Vieux Sucreic", Latitude = "14.04996000", Longitude = "-60.94992000" },
+                        new() { Id = 66, Name = "Monchy/Vieux Sucreic/Bois D'Inde", Latitude = "14.05613000", Longitude = "-60.95151000" },
+                        new() { Id = 67, Name = "Monchy/Vieux Sucreic/Careffe", Latitude = "14.05652000", Longitude = "-60.94948000" },
+                        new() { Id = 68, Name = "Mongiraud", Latitude = "14.06287000", Longitude = "-60.95722000" },
+                        new() { Id = 69, Name = "Monier", Latitude = "14.02951000", Longitude = "-60.94098000" },
+                        new() { Id = 70, Name = "Morne Citon", Latitude = "14.03004000", Longitude = "-60.92813000" },
+                        new() { Id = 71, Name = "Paix Bouche", Latitude = "14.01755000", Longitude = "-60.93852000" },
+                        new() { Id = 72, Name = "Pigeon Island", Latitude = "14.08965000", Longitude = "-60.95724000" },
+                        new() { Id = 73, Name = "Plateau", Latitude = "14.02612000", Longitude = "-60.93474000" },
+                        new() { Id = 74, Name = "Reduit", Latitude = "14.06829000", Longitude = "-60.96145000" },
+                        new() { Id = 75, Name = "Reduit Orchard", Latitude = "14.06594000", Longitude = "-60.95340000" },
+                        new() { Id = 76, Name = "Reduit Park", Latitude = "14.06622000", Longitude = "-60.95560000" },
+                        new() { Id = 77, Name = "Rodney Bay", Latitude = "14.07292000", Longitude = "-60.95443000" },
+                        new() { Id = 78, Name = "Rodney Heights", Latitude = "14.06731000", Longitude = "-60.94906000" },
+                        new() { Id = 79, Name = "Union", Latitude = "14.02907000", Longitude = "-60.96480000" },
+                        new() { Id = 80, Name = "Union Terrace", Latitude = "14.02654000", Longitude = "-60.95710000" },
+                        new() { Id = 81, Name = "Union/Ti Morne", Latitude = "14.02283000", Longitude = "-60.95272000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 8,
+                    Id = 7,
                     Name = "Laborie",
-                    StateCode = "07",
+                    StateCode = "",
                     Latitude = "13.75227830",
                     Longitude = "-60.99328890",
                     Type = "district",
@@ -504,9 +492,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 9,
+                    Id = 8,
                     Name = "Micoud",
-                    StateCode = "08",
+                    StateCode = "",
                     Latitude = "13.82118710",
                     Longitude = "-60.90019340",
                     Type = "district",
@@ -565,24 +553,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 10,
-                    Name = "Praslin",
-                    StateCode = "09",
-                    Latitude = "13.87523920",
-                    Longitude = "-60.89946630",
-                    Type = "district",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 11,
+                    Id = 9,
                     Name = "Soufrière",
-                    StateCode = "10",
-                    Latitude = "13.85709860",
-                    Longitude = "-61.05732480",
+                    StateCode = "",
+                    Latitude = "13.85222660",
+                    Longitude = "-61.02382910",
                     Type = "district",
                     Cities = new()
                     {
@@ -640,9 +615,9 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 12,
+                    Id = 10,
                     Name = "Vieux Fort",
-                    StateCode = "11",
+                    StateCode = "",
                     Latitude = "13.72060800",
                     Longitude = "-60.94964330",
                     Type = "district",

@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 67,
+            Id = 66,
             Name = "Equatorial Guinea",
             Iso3 = "GNQ",
             Iso2 = "GQ",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Ginea ar C'heheder",
                 ["ko"] = "적도 기니",
                 ["pt-BR"] = "Guiné Equatorial",
                 ["pt"] = "Guiné Equatorial",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Ekvator Ginesi",
                 ["ru"] = "Экваториальная Гвинея",
                 ["uk"] = "Екваторіальна Гвінея",
-                ["pl"] = "Gwinea Równikowa"
+                ["pl"] = "Gwinea Równikowa",
+                ["hi"] = "इक्वेटोरियल गिनी",
+                ["ar"] = "غينيا الاستوائية"
             },
             States = new()
             {
@@ -62,7 +65,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Annobón",
-                    StateCode = "AN",
+                    StateCode = "",
                     Latitude = "-1.42687820",
                     Longitude = "5.63528010",
                     Type = "province",
@@ -76,9 +79,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Bioko Norte",
-                    StateCode = "BN",
-                    Latitude = "3.65950720",
-                    Longitude = "8.79218360",
+                    StateCode = "",
+                    Latitude = "3.64845940",
+                    Longitude = "8.78511550",
                     Type = "province",
                     Cities = new()
                     {
@@ -92,9 +95,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Bioko Sur",
-                    StateCode = "BS",
-                    Latitude = "3.42097850",
-                    Longitude = "8.61606740",
+                    StateCode = "",
+                    Latitude = "3.42452540",
+                    Longitude = "8.66460920",
                     Type = "province",
                     Cities = new()
                     {
@@ -106,9 +109,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Centro Sur",
-                    StateCode = "CS",
-                    Latitude = "1.34360840",
-                    Longitude = "10.43965600",
+                    StateCode = "",
+                    Latitude = "1.39699660",
+                    Longitude = "10.45385280",
                     Type = "province",
                     Cities = new()
                     {
@@ -121,10 +124,25 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 5,
+                    Name = "Djibloho",
+                    StateCode = "",
+                    Latitude = "1.60000000",
+                    Longitude = "10.80000000",
+                    Type = "province",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Ciudad de la Paz", Latitude = "1.58888889", Longitude = "10.82250000" },
+                        new() { Id = 2, Name = "Mengomeyén", Latitude = "1.68000000", Longitude = "10.90000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 6,
                     Name = "Insular",
-                    StateCode = "I",
-                    Latitude = "37.09024000",
-                    Longitude = "-95.71289100",
+                    StateCode = "",
+                    Latitude = "3.49865230",
+                    Longitude = "8.71360620",
                     Type = "region",
                     Cities = new()
                     {
@@ -133,11 +151,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 6,
+                    Id = 7,
                     Name = "Kié-Ntem",
-                    StateCode = "KN",
-                    Latitude = "2.02809300",
-                    Longitude = "11.07117580",
+                    StateCode = "",
+                    Latitude = "2.05792660",
+                    Longitude = "10.98559160",
                     Type = "province",
                     Cities = new()
                     {
@@ -150,11 +168,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 7,
+                    Id = 8,
                     Name = "Litoral",
-                    StateCode = "LI",
-                    Latitude = "1.57502440",
-                    Longitude = "9.81249350",
+                    StateCode = "",
+                    Latitude = "1.60263740",
+                    Longitude = "9.84156900",
                     Type = "province",
                     Cities = new()
                     {
@@ -169,11 +187,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 8,
+                    Id = 9,
                     Name = "Río Muni",
-                    StateCode = "C",
-                    Latitude = "1.46106060",
-                    Longitude = "9.67868940",
+                    StateCode = "",
+                    Latitude = "1.05709510",
+                    Longitude = "9.65329170",
                     Type = "region",
                     Cities = new()
                     {
@@ -182,11 +200,11 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 9,
+                    Id = 10,
                     Name = "Wele-Nzas",
-                    StateCode = "WN",
-                    Latitude = "1.41661620",
-                    Longitude = "11.07117580",
+                    StateCode = "",
+                    Latitude = "1.46487190",
+                    Longitude = "11.13167600",
                     Type = "province",
                     Cities = new()
                     {

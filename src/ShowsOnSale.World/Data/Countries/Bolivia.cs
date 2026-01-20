@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Bolivia",
                 ["ko"] = "볼리비아",
                 ["pt-BR"] = "Bolívia",
                 ["pt"] = "Bolívia",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Bolivya",
                 ["ru"] = "Боливия",
                 ["uk"] = "Болівія",
-                ["pl"] = "Boliwia"
+                ["pl"] = "Boliwia",
+                ["hi"] = "बोलीविया",
+                ["ar"] = "بوليفيا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Beni",
-                    StateCode = "B",
-                    Latitude = "-14.37827470",
-                    Longitude = "-65.09577920",
+                    StateCode = "",
+                    Latitude = "-14.00000000",
+                    Longitude = "-65.00000000",
                     Type = "department",
                     Cities = new()
                     {
@@ -92,9 +95,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Chuquisaca",
-                    StateCode = "H",
-                    Latitude = "-20.02491440",
-                    Longitude = "-64.14782360",
+                    StateCode = "",
+                    Latitude = "-20.00000000",
+                    Longitude = "-64.41666700",
                     Type = "department",
                     Cities = new()
                     {
@@ -120,9 +123,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Cochabamba",
-                    StateCode = "C",
-                    Latitude = "-17.56816750",
-                    Longitude = "-65.47573600",
+                    StateCode = "",
+                    Latitude = "-17.33301420",
+                    Longitude = "-65.50109310",
                     Type = "department",
                     Cities = new()
                     {
@@ -158,7 +161,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 30, Name = "Sipe Sipe", Latitude = "-17.45000000", Longitude = "-66.38333000" },
                         new() { Id = 31, Name = "Tarata", Latitude = "-17.60898000", Longitude = "-66.02135000" },
                         new() { Id = 32, Name = "Tiquipaya", Latitude = "-17.33801000", Longitude = "-66.21579000" },
-                        new() { Id = 33, Name = "Tiraque Province", Latitude = "-17.33333000", Longitude = "-65.91667000" },
+                        new() { Id = 33, Name = "Tiraque", Latitude = "-17.33333000", Longitude = "-65.91667000" },
                         new() { Id = 34, Name = "Totora", Latitude = "-17.72662000", Longitude = "-65.19320000" }
                     }
                 },
@@ -167,9 +170,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "La Paz",
-                    StateCode = "L",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "-15.00000000",
+                    Longitude = "-68.33333300",
                     Type = "department",
                     Cities = new()
                     {
@@ -223,9 +226,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Oruro",
-                    StateCode = "O",
-                    Latitude = "-18.57115790",
-                    Longitude = "-67.76159830",
+                    StateCode = "",
+                    Latitude = "-18.66666700",
+                    Longitude = "-67.66666700",
                     Type = "department",
                     Cities = new()
                     {
@@ -233,7 +236,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Huanuni", Latitude = "-18.28900000", Longitude = "-66.83583000" },
                         new() { Id = 3, Name = "Litoral de Atacama", Latitude = "-18.76071000", Longitude = "-68.24295000" },
                         new() { Id = 4, Name = "Machacamarca", Latitude = "-18.17251000", Longitude = "-67.02099000" },
-                        new() { Id = 5, Name = "Nor Carangas Province", Latitude = "-17.83750000", Longitude = "-67.94330000" },
+                        new() { Id = 5, Name = "Nor Carangas", Latitude = "-17.83750000", Longitude = "-67.94330000" },
                         new() { Id = 6, Name = "Oruro", Latitude = "-17.98333000", Longitude = "-67.15000000" },
                         new() { Id = 7, Name = "Poopó", Latitude = "-18.38026000", Longitude = "-66.96695000" },
                         new() { Id = 8, Name = "Provincia Avaroa", Latitude = "-19.00000000", Longitude = "-66.66667000" },
@@ -248,8 +251,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 17, Name = "Provincia Saucari", Latitude = "-18.25000000", Longitude = "-67.41667000" },
                         new() { Id = 18, Name = "Provincia Tomás Barron", Latitude = "-17.83333000", Longitude = "-68.25000000" },
                         new() { Id = 19, Name = "Puerto de Mejillones", Latitude = "-18.99266000", Longitude = "-68.68446000" },
-                        new() { Id = 20, Name = "Sebastian Pagador Province", Latitude = "-19.21667000", Longitude = "-66.21667000" },
-                        new() { Id = 21, Name = "Sud Carangas Province", Latitude = "-18.50000000", Longitude = "-68.25000000" },
+                        new() { Id = 20, Name = "Sebastian Pagador", Latitude = "-19.21667000", Longitude = "-66.21667000" },
+                        new() { Id = 21, Name = "Sud Carangas", Latitude = "-18.50000000", Longitude = "-68.25000000" },
                         new() { Id = 22, Name = "Totoral", Latitude = "-18.49587000", Longitude = "-66.87380000" }
                     }
                 },
@@ -258,9 +261,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Pando",
-                    StateCode = "N",
-                    Latitude = "-10.79889010",
-                    Longitude = "-66.99880110",
+                    StateCode = "",
+                    Latitude = "-11.18333300",
+                    Longitude = "-67.18333300",
                     Type = "department",
                     Cities = new()
                     {
@@ -277,9 +280,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Potosí",
-                    StateCode = "P",
-                    Latitude = "-20.62471300",
-                    Longitude = "-66.99880110",
+                    StateCode = "",
+                    Latitude = "-20.66666700",
+                    Longitude = "-66.66666700",
                     Type = "department",
                     Cities = new()
                     {
@@ -316,9 +319,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Santa Cruz",
-                    StateCode = "S",
-                    Latitude = "-16.74760370",
-                    Longitude = "-62.07509980",
+                    StateCode = "",
+                    Latitude = "-17.33333300",
+                    Longitude = "-61.50000000",
                     Type = "department",
                     Cities = new()
                     {
@@ -383,9 +386,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Tarija",
-                    StateCode = "T",
-                    Latitude = "-21.58315950",
-                    Longitude = "-63.95861110",
+                    StateCode = "",
+                    Latitude = "-21.58333300",
+                    Longitude = "-63.83333300",
                     Type = "department",
                     Cities = new()
                     {

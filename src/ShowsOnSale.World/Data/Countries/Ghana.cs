@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 83,
+            Id = 82,
             Name = "Ghana",
             Iso3 = "GHA",
             Iso2 = "GH",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Ghana",
                 ["ko"] = "가나",
                 ["pt-BR"] = "Gana",
                 ["pt"] = "Gana",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Gana",
                 ["ru"] = "Гана",
                 ["uk"] = "Гана",
-                ["pl"] = "Ghana"
+                ["pl"] = "Ghana",
+                ["hi"] = "घाना",
+                ["ar"] = "غانا"
             },
             States = new()
             {
@@ -62,16 +65,16 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Ahafo",
-                    StateCode = "AF",
-                    Latitude = "7.58213720",
-                    Longitude = "-2.54974630",
+                    StateCode = "",
+                    Latitude = "6.90966450",
+                    Longitude = "-2.23301230",
                     Type = "region",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Asunafo North", Latitude = "6.81968910", Longitude = "-2.80770500" },
-                        new() { Id = 2, Name = "Asunafo South", Latitude = "6.64801380", Longitude = "-2.68874370" },
+                        new() { Id = 2, Name = "Asunafo South", Latitude = "6.68210000", Longitude = "-2.43997530" },
                         new() { Id = 3, Name = "Asutifi North", Latitude = "6.94774860", Longitude = "-2.76757160" },
-                        new() { Id = 4, Name = "Asutifi South", Latitude = "6.64801380", Longitude = "-2.68874370" },
+                        new() { Id = 4, Name = "Asutifi South", Latitude = "6.93215810", Longitude = "-2.35521890" },
                         new() { Id = 5, Name = "Tano North", Latitude = "7.22603010", Longitude = "-2.30456560" },
                         new() { Id = 6, Name = "Tano South", Latitude = "7.19537930", Longitude = "-2.12586610" }
                     }
@@ -81,9 +84,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Ashanti",
-                    StateCode = "AH",
-                    Latitude = "6.74704360",
-                    Longitude = "-1.52086240",
+                    StateCode = "",
+                    Latitude = "6.80033190",
+                    Longitude = "-1.51881420",
                     Type = "region",
                     Cities = new()
                     {
@@ -102,15 +105,15 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Bono",
-                    StateCode = "BO",
-                    Latitude = "7.65000000",
-                    Longitude = "-2.50000000",
+                    StateCode = "",
+                    Latitude = "7.80352360",
+                    Longitude = "-1.08764920",
                     Type = "region",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Banda", Latitude = "8.14956710", Longitude = "-2.36639500" },
-                        new() { Id = 2, Name = "Berekum East", Latitude = "7.51117580", Longitude = "-2.75998310" },
-                        new() { Id = 3, Name = "Berekum West", Latitude = "7.51117580", Longitude = "-2.75998310" },
+                        new() { Id = 2, Name = "Berekum East", Latitude = "7.43846190", Longitude = "-2.60295780" },
+                        new() { Id = 3, Name = "Berekum West", Latitude = "7.43934160", Longitude = "-2.65497050" },
                         new() { Id = 4, Name = "Dormaa Central", Latitude = "7.27750000", Longitude = "-2.87833300" },
                         new() { Id = 5, Name = "Dormaa East", Latitude = "7.30000000", Longitude = "-2.70000000" },
                         new() { Id = 6, Name = "Dormaa West", Latitude = "7.01666700", Longitude = "-3.05000000" },
@@ -127,9 +130,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Bono East",
-                    StateCode = "BE",
-                    Latitude = "7.75000000",
-                    Longitude = "-1.05000000",
+                    StateCode = "",
+                    Latitude = "8.22479420",
+                    Longitude = "-0.65447110",
                     Type = "region",
                     Cities = new()
                     {
@@ -151,9 +154,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Central",
-                    StateCode = "CP",
-                    Latitude = "5.50000000",
-                    Longitude = "-1.00000000",
+                    StateCode = "",
+                    Latitude = "5.72441480",
+                    Longitude = "-1.37617490",
                     Type = "region",
                     Cities = new()
                     {
@@ -174,9 +177,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Eastern",
-                    StateCode = "EP",
-                    Latitude = "6.50000000",
-                    Longitude = "-0.50000000",
+                    StateCode = "",
+                    Latitude = "6.44687700",
+                    Longitude = "-0.37709640",
                     Type = "region",
                     Cities = new()
                     {
@@ -199,9 +202,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Greater Accra",
-                    StateCode = "AA",
-                    Latitude = "5.81428360",
-                    Longitude = "0.07467670",
+                    StateCode = "",
+                    Latitude = "5.81015320",
+                    Longitude = "0.09952420",
                     Type = "region",
                     Cities = new()
                     {
@@ -220,9 +223,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "North East",
-                    StateCode = "NE",
-                    Latitude = "10.51666700",
-                    Longitude = "-0.36666700",
+                    StateCode = "",
+                    Latitude = "10.52799330",
+                    Longitude = "-0.36986250",
                     Type = "region",
                     Cities = new()
                     {
@@ -239,9 +242,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Northern",
-                    StateCode = "NP",
-                    Latitude = "9.50000000",
-                    Longitude = "-1.00000000",
+                    StateCode = "",
+                    Latitude = "9.66000050",
+                    Longitude = "-0.39437990",
                     Type = "region",
                     Cities = new()
                     {
@@ -257,9 +260,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Oti",
-                    StateCode = "OT",
-                    Latitude = "7.90000000",
-                    Longitude = "0.30000000",
+                    StateCode = "",
+                    Latitude = "6.10640980",
+                    Longitude = "-0.24837860",
                     Type = "region",
                     Cities = new()
                     {
@@ -278,9 +281,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Savannah",
-                    StateCode = "SV",
-                    Latitude = "9.08333300",
-                    Longitude = "-1.81666700",
+                    StateCode = "",
+                    Latitude = "9.14006540",
+                    Longitude = "-1.71112340",
                     Type = "region",
                     Cities = new()
                     {
@@ -298,9 +301,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Upper East",
-                    StateCode = "UE",
-                    Latitude = "10.70824990",
-                    Longitude = "-0.98206680",
+                    StateCode = "",
+                    Latitude = "10.72459070",
+                    Longitude = "-0.81965910",
                     Type = "region",
                     Cities = new()
                     {
@@ -314,9 +317,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Upper West",
-                    StateCode = "UW",
-                    Latitude = "10.25297570",
-                    Longitude = "-2.14502450",
+                    StateCode = "",
+                    Latitude = "10.36695250",
+                    Longitude = "-2.09214260",
                     Type = "region",
                     Cities = new()
                     {
@@ -328,9 +331,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Volta",
-                    StateCode = "TV",
-                    Latitude = "6.57813730",
-                    Longitude = "0.45023680",
+                    StateCode = "",
+                    Latitude = "6.53486240",
+                    Longitude = "0.45560550",
                     Type = "region",
                     Cities = new()
                     {
@@ -348,9 +351,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Western",
-                    StateCode = "WP",
-                    Latitude = "5.50000000",
-                    Longitude = "-2.50000000",
+                    StateCode = "",
+                    Latitude = "5.42612410",
+                    Longitude = "-2.12865740",
                     Type = "region",
                     Cities = new()
                     {
@@ -369,21 +372,21 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Western North",
-                    StateCode = "WN",
-                    Latitude = "6.30000000",
-                    Longitude = "-2.80000000",
+                    StateCode = "",
+                    Latitude = "6.20646650",
+                    Longitude = "-2.48550920",
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Aowin", Latitude = "5.75309280", Longitude = "-3.07518870" },
-                        new() { Id = 2, Name = "Bia East", Latitude = "6.76860400", Longitude = "-3.33302410" },
-                        new() { Id = 3, Name = "Bia West", Latitude = "6.76860400", Longitude = "-3.33302410" },
+                        new() { Id = 1, Name = "Aowin", Latitude = "5.82143850", Longitude = "-2.82360430" },
+                        new() { Id = 2, Name = "Bia East", Latitude = "6.81614450", Longitude = "-3.00383950" },
+                        new() { Id = 3, Name = "Bia West", Latitude = "6.56894170", Longitude = "-3.06628880" },
                         new() { Id = 4, Name = "Bibiani-Anhwiaso-Bekwai", Latitude = "6.30210040", Longitude = "-2.35675070" },
                         new() { Id = 5, Name = "Bodi", Latitude = "6.22240910", Longitude = "-2.76615150" },
                         new() { Id = 6, Name = "Juaboso", Latitude = "6.33331570", Longitude = "-2.84206140" },
                         new() { Id = 7, Name = "Sefwi-Akontombra", Latitude = "6.04285480", Longitude = "-2.88133620" },
                         new() { Id = 8, Name = "Sefwi-Wiawso", Latitude = "6.21965670", Longitude = "-2.50059150" },
-                        new() { Id = 9, Name = "Suaman", Latitude = "5.75309280", Longitude = "-3.07518870" }
+                        new() { Id = 9, Name = "Suaman", Latitude = "6.10824160", Longitude = "-3.00869710" }
                     }
                 }
             }

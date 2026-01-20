@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Surinam",
                 ["ko"] = "수리남",
                 ["pt-BR"] = "Suriname",
                 ["pt"] = "Suriname",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Surinam",
                 ["ru"] = "Суринам",
                 ["uk"] = "Суринам",
-                ["pl"] = "Surinam"
+                ["pl"] = "Surinam",
+                ["hi"] = "सूरीनाम",
+                ["ar"] = "سورينام"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Brokopondo",
-                    StateCode = "BR",
-                    Latitude = "4.77102470",
-                    Longitude = "-55.04933750",
+                    StateCode = "",
+                    Latitude = "4.68516430",
+                    Longitude = "-55.06109300",
                     Type = "district",
                     Cities = new()
                     {
@@ -77,9 +80,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Commewijne",
-                    StateCode = "CM",
-                    Latitude = "5.74021100",
-                    Longitude = "-54.87312190",
+                    StateCode = "",
+                    Latitude = "5.84011980",
+                    Longitude = "-54.92444310",
                     Type = "district",
                     Cities = new()
                     {
@@ -92,9 +95,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Coronie",
-                    StateCode = "CR",
-                    Latitude = "5.69432710",
-                    Longitude = "-56.29293810",
+                    StateCode = "",
+                    Latitude = "5.74685630",
+                    Longitude = "-56.24551620",
                     Type = "district",
                     Cities = new()
                     {
@@ -106,9 +109,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Marowijne",
-                    StateCode = "MA",
-                    Latitude = "5.62681280",
-                    Longitude = "-54.25931180",
+                    StateCode = "",
+                    Latitude = "5.70832720",
+                    Longitude = "-54.35369000",
                     Type = "district",
                     Cities = new()
                     {
@@ -121,9 +124,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Nickerie",
-                    StateCode = "NI",
-                    Latitude = "5.58554690",
-                    Longitude = "-56.83111170",
+                    StateCode = "",
+                    Latitude = "5.71839250",
+                    Longitude = "-56.87751050",
                     Type = "district",
                     Cities = new()
                     {
@@ -136,9 +139,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Para",
-                    StateCode = "PR",
-                    Latitude = "5.48173180",
-                    Longitude = "-55.22592070",
+                    StateCode = "",
+                    Latitude = "5.34304130",
+                    Longitude = "-55.58134100",
                     Type = "district",
                     Cities = new()
                     {
@@ -150,9 +153,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Paramaribo",
-                    StateCode = "PM",
-                    Latitude = "5.85203550",
-                    Longitude = "-55.20382780",
+                    StateCode = "",
+                    Latitude = "5.82476280",
+                    Longitude = "-55.17039410",
                     Type = "district",
                     Cities = new()
                     {
@@ -164,9 +167,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Saramacca",
-                    StateCode = "SA",
-                    Latitude = "5.72408130",
-                    Longitude = "-55.66896360",
+                    StateCode = "",
+                    Latitude = "5.78708050",
+                    Longitude = "-55.60645740",
                     Type = "district",
                     Cities = new()
                     {
@@ -178,9 +181,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Sipaliwini",
-                    StateCode = "SI",
-                    Latitude = "3.65673820",
-                    Longitude = "-56.20353870",
+                    StateCode = "",
+                    Latitude = "3.68150860",
+                    Longitude = "-55.96124600",
                     Type = "district",
                     Cities = new()
                     {
@@ -191,9 +194,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Wanica",
-                    StateCode = "WA",
-                    Latitude = "5.73237620",
-                    Longitude = "-55.27012350",
+                    StateCode = "",
+                    Latitude = "5.75000000",
+                    Longitude = "-55.25000000",
                     Type = "district",
                     Cities = new()
                     {

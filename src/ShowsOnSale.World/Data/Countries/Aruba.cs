@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Aruba",
                 ["ko"] = "아루바",
                 ["pt-BR"] = "Aruba",
                 ["pt"] = "Aruba",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Aruba",
                 ["ru"] = "Аруба",
                 ["uk"] = "Аруба",
-                ["pl"] = "Aruba"
+                ["pl"] = "Aruba",
+                ["hi"] = "अरूबा",
+                ["ar"] = "أروبا"
             },
             States = new()
             {
@@ -63,8 +66,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 1,
                     Name = "Noord",
                     StateCode = "",
-                    Latitude = "12.58243290",
-                    Longitude = "-70.06761180",
+                    Latitude = "12.56368050",
+                    Longitude = "-70.03298690",
                     Type = "region",
                     Cities = new()
                     {
@@ -76,11 +79,23 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 2,
                     Name = "Oranjestad",
                     StateCode = "",
-                    Latitude = "12.50837050",
-                    Longitude = "-70.05452530",
+                    Latitude = "12.52010240",
+                    Longitude = "-70.03713290",
                     Type = "capital city",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Alto Vista", Latitude = "12.57050000", Longitude = "-70.01912000" },
+                        new() { Id = 2, Name = "Moco", Latitude = "12.55134000", Longitude = "-70.00843000" },
+                        new() { Id = 3, Name = "Noord", Latitude = "12.56596000", Longitude = "-70.03198000" },
+                        new() { Id = 4, Name = "Oranjestad", Latitude = "12.52398000", Longitude = "-70.02703000" },
+                        new() { Id = 5, Name = "Palm Beach", Latitude = "12.56847000", Longitude = "-70.03887000" },
+                        new() { Id = 6, Name = "Paradera", Latitude = "12.53510000", Longitude = "-70.00688000" },
+                        new() { Id = 7, Name = "Pos Chiquito", Latitude = "12.46497000", Longitude = "-69.96233000" },
+                        new() { Id = 8, Name = "San Nicolas", Latitude = "12.43624000", Longitude = "-69.90713000" },
+                        new() { Id = 9, Name = "Santa Cruz", Latitude = "12.50953000", Longitude = "-69.98094000" },
+                        new() { Id = 10, Name = "Savaneta", Latitude = "12.45026000", Longitude = "-69.93811000" },
+                        new() { Id = 11, Name = "Tanki Leendert", Latitude = "12.53914000", Longitude = "-70.02004000" },
+                        new() { Id = 12, Name = "Washington", Latitude = "12.55837000", Longitude = "-70.03816000" }
                     }
                 },
 
@@ -89,8 +104,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 3,
                     Name = "Oranjestad East",
                     StateCode = "",
-                    Latitude = "12.51331810",
-                    Longitude = "-70.05048180",
+                    Latitude = "12.50226960",
+                    Longitude = "-70.01495860",
                     Type = "region",
                     Cities = new()
                     {
@@ -102,8 +117,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 4,
                     Name = "Oranjestad West",
                     StateCode = "",
-                    Latitude = "12.53522930",
-                    Longitude = "-70.06284040",
+                    Latitude = "12.53614860",
+                    Longitude = "-70.04305970",
                     Type = "region",
                     Cities = new()
                     {
@@ -167,8 +182,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 9,
                     Name = "Savaneta",
                     StateCode = "",
-                    Latitude = "12.46184190",
-                    Longitude = "-69.98558580",
+                    Latitude = "12.45263850",
+                    Longitude = "-69.94965210",
                     Type = "region",
                     Cities = new()
                     {

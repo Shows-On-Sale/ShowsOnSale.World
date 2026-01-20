@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Åland",
                 ["ko"] = "올란드 제도",
                 ["pt-BR"] = "Ilhas de Aland",
                 ["pt"] = "Ilhas de Aland",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Åland Adalari",
                 ["ru"] = "Аландские острова",
                 ["uk"] = "Аландські острови",
-                ["pl"] = "Wyspy Alandzkie"
+                ["pl"] = "Wyspy Alandzkie",
+                ["hi"] = "अलैंड आइलैंड्स",
+                ["ar"] = "جزر آلاند"
             },
             States = new()
             {
@@ -63,8 +66,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 1,
                     Name = "Brändö",
                     StateCode = "",
-                    Latitude = "60.41259080",
-                    Longitude = "21.02299420",
+                    Latitude = "60.41358730",
+                    Longitude = "21.04404980",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -89,8 +92,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 3,
                     Name = "Finström",
                     StateCode = "",
-                    Latitude = "60.22993210",
-                    Longitude = "19.96746360",
+                    Latitude = "60.23105190",
+                    Longitude = "19.98672590",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -102,8 +105,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 4,
                     Name = "Föglö",
                     StateCode = "",
-                    Latitude = "60.01462770",
-                    Longitude = "20.39334070",
+                    Latitude = "60.01073250",
+                    Longitude = "20.42469970",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -115,8 +118,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 5,
                     Name = "Geta",
                     StateCode = "",
-                    Latitude = "60.37497270",
-                    Longitude = "19.82659620",
+                    Latitude = "60.37401570",
+                    Longitude = "19.84981280",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -128,8 +131,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 6,
                     Name = "Hammarland",
                     StateCode = "",
-                    Latitude = "60.21641830",
-                    Longitude = "19.71964030",
+                    Latitude = "60.21967580",
+                    Longitude = "19.73784810",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -141,11 +144,22 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 7,
                     Name = "Jomala",
                     StateCode = "",
-                    Latitude = "60.15223910",
-                    Longitude = "19.87479810",
+                    Latitude = "60.15229470",
+                    Longitude = "19.94891440",
                     Type = "municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Bomarsund", Latitude = "60.21234000", Longitude = "20.24023000" },
+                        new() { Id = 2, Name = "Finström", Latitude = "60.26667000", Longitude = "19.93333000" },
+                        new() { Id = 3, Name = "Godby", Latitude = "60.22995000", Longitude = "19.98810000" },
+                        new() { Id = 4, Name = "Hammarland", Latitude = "60.21667000", Longitude = "19.75000000" },
+                        new() { Id = 5, Name = "Jomala", Latitude = "60.14902000", Longitude = "19.95100000" },
+                        new() { Id = 6, Name = "Lemland", Latitude = "60.07178000", Longitude = "20.08472000" },
+                        new() { Id = 7, Name = "Saltvik", Latitude = "60.28333000", Longitude = "20.05000000" },
+                        new() { Id = 8, Name = "Sund", Latitude = "60.25000000", Longitude = "20.11667000" },
+                        new() { Id = 9, Name = "Tjudö", Latitude = "60.33333000", Longitude = "19.95000000" },
+                        new() { Id = 10, Name = "Yomala", Latitude = "60.16689000", Longitude = "19.93341000" },
+                        new() { Id = 11, Name = "Ytterby", Latitude = "60.16667000", Longitude = "20.01667000" }
                     }
                 },
 
@@ -154,8 +168,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 8,
                     Name = "Kökar",
                     StateCode = "",
-                    Latitude = "59.92081700",
-                    Longitude = "20.88853020",
+                    Latitude = "59.92117090",
+                    Longitude = "20.91035140",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -167,8 +181,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 9,
                     Name = "Kumlinge",
                     StateCode = "",
-                    Latitude = "60.25992720",
-                    Longitude = "20.75875000",
+                    Latitude = "60.25876930",
+                    Longitude = "20.77822920",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -180,8 +194,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 10,
                     Name = "Lemland",
                     StateCode = "",
-                    Latitude = "60.06887050",
-                    Longitude = "20.06581400",
+                    Latitude = "60.06901690",
+                    Longitude = "20.08600810",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -193,8 +207,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 11,
                     Name = "Lumparland",
                     StateCode = "",
-                    Latitude = "60.11523570",
-                    Longitude = "20.24142800",
+                    Latitude = "60.11683850",
+                    Longitude = "20.26105830",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -206,11 +220,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 12,
                     Name = "Mariehamn",
                     StateCode = "",
-                    Latitude = "60.09455780",
-                    Longitude = "19.79505300",
+                    Latitude = "60.10242300",
+                    Longitude = "19.94126000",
                     Type = "municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Mariehamn", Latitude = "60.09726000", Longitude = "19.93481000" }
                     }
                 },
 
@@ -219,8 +234,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 13,
                     Name = "Saltvik",
                     StateCode = "",
-                    Latitude = "60.27554460",
-                    Longitude = "20.04131920",
+                    Latitude = "60.27557560",
+                    Longitude = "20.06120650",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -245,8 +260,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 15,
                     Name = "Sund",
                     StateCode = "",
-                    Latitude = "60.23084760",
-                    Longitude = "19.82397050",
+                    Latitude = "60.25303320",
+                    Longitude = "20.11986370",
                     Type = "municipality",
                     Cities = new()
                     {
@@ -258,8 +273,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 16,
                     Name = "Vårdö",
                     StateCode = "",
-                    Latitude = "60.24233960",
-                    Longitude = "20.35281050",
+                    Latitude = "60.24216920",
+                    Longitude = "20.37442610",
                     Type = "municipality",
                     Cities = new()
                     {

@@ -39,6 +39,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Zeland-Nevez",
                 ["ko"] = "뉴질랜드",
                 ["pt-BR"] = "Nova Zelândia",
                 ["pt"] = "Nova Zelândia",
@@ -54,7 +55,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Yeni Zelanda",
                 ["ru"] = "Новая Зеландия",
                 ["uk"] = "Нова Зеландія",
-                ["pl"] = "Nowa Zelandia"
+                ["pl"] = "Nowa Zelandia",
+                ["hi"] = "न्यूज़ीलैंड",
+                ["ar"] = "نيوزيلندا"
             },
             States = new()
             {
@@ -63,9 +66,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Auckland",
-                    StateCode = "AUK",
-                    Latitude = "-36.66753280",
-                    Longitude = "174.77333250",
+                    StateCode = "",
+                    Latitude = "-36.85209500",
+                    Longitude = "174.76318030",
                     Type = "region",
                     Cities = new()
                     {
@@ -97,9 +100,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Bay of Plenty",
-                    StateCode = "BOP",
-                    Latitude = "-37.42339170",
-                    Longitude = "176.74163740",
+                    StateCode = "",
+                    Latitude = "-37.49691850",
+                    Longitude = "176.92283490",
                     Type = "region",
                     Cities = new()
                     {
@@ -120,9 +123,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Canterbury",
-                    StateCode = "CAN",
-                    Latitude = "-43.75422750",
-                    Longitude = "171.16372450",
+                    StateCode = "",
+                    Latitude = "-43.49417620",
+                    Longitude = "171.80984480",
                     Type = "region",
                     Cities = new()
                     {
@@ -131,25 +134,24 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Ashburton District", Latitude = "-43.90000000", Longitude = "171.75000000" },
                         new() { Id = 4, Name = "Burnham", Latitude = "-43.61667000", Longitude = "172.31667000" },
                         new() { Id = 5, Name = "Christchurch", Latitude = "-43.53333000", Longitude = "172.63333000" },
-                        new() { Id = 6, Name = "Christchurch City", Latitude = "-43.64578000", Longitude = "172.74586000" },
-                        new() { Id = 7, Name = "Darfield", Latitude = "-43.48333000", Longitude = "172.11667000" },
-                        new() { Id = 8, Name = "Geraldine", Latitude = "-44.09061000", Longitude = "171.24458000" },
-                        new() { Id = 9, Name = "Kaiapoi", Latitude = "-43.37832000", Longitude = "172.64013000" },
-                        new() { Id = 10, Name = "Leeston", Latitude = "-43.76667000", Longitude = "172.30000000" },
-                        new() { Id = 11, Name = "Lincoln", Latitude = "-43.65000000", Longitude = "172.48333000" },
-                        new() { Id = 12, Name = "Mackenzie District", Latitude = "-43.93987000", Longitude = "170.51913000" },
-                        new() { Id = 13, Name = "Methven", Latitude = "-43.63333000", Longitude = "171.65000000" },
-                        new() { Id = 14, Name = "Oxford", Latitude = "-43.30000000", Longitude = "172.18333000" },
-                        new() { Id = 15, Name = "Pleasant Point", Latitude = "-44.26667000", Longitude = "171.13333000" },
-                        new() { Id = 16, Name = "Prebbleton", Latitude = "-43.58333000", Longitude = "172.51667000" },
-                        new() { Id = 17, Name = "Rakaia", Latitude = "-43.75000000", Longitude = "172.01667000" },
-                        new() { Id = 18, Name = "Rolleston", Latitude = "-43.58333000", Longitude = "172.38333000" },
-                        new() { Id = 19, Name = "Selwyn District", Latitude = "-43.32226000", Longitude = "171.87064000" },
-                        new() { Id = 20, Name = "Timaru", Latitude = "-44.39672000", Longitude = "171.25364000" },
-                        new() { Id = 21, Name = "Timaru District", Latitude = "-44.40000000", Longitude = "171.21667000" },
-                        new() { Id = 22, Name = "Tinwald", Latitude = "-43.91667000", Longitude = "171.71667000" },
-                        new() { Id = 23, Name = "Waimakariri District", Latitude = "-43.20750000", Longitude = "172.33286000" },
-                        new() { Id = 24, Name = "Woodend", Latitude = "-43.31667000", Longitude = "172.66667000" }
+                        new() { Id = 6, Name = "Darfield", Latitude = "-43.48333000", Longitude = "172.11667000" },
+                        new() { Id = 7, Name = "Geraldine", Latitude = "-44.09061000", Longitude = "171.24458000" },
+                        new() { Id = 8, Name = "Kaiapoi", Latitude = "-43.37832000", Longitude = "172.64013000" },
+                        new() { Id = 9, Name = "Leeston", Latitude = "-43.76667000", Longitude = "172.30000000" },
+                        new() { Id = 10, Name = "Lincoln", Latitude = "-43.65000000", Longitude = "172.48333000" },
+                        new() { Id = 11, Name = "Mackenzie", Latitude = "-43.93987000", Longitude = "170.51913000" },
+                        new() { Id = 12, Name = "Methven", Latitude = "-43.63333000", Longitude = "171.65000000" },
+                        new() { Id = 13, Name = "Oxford", Latitude = "-43.30000000", Longitude = "172.18333000" },
+                        new() { Id = 14, Name = "Pleasant Point", Latitude = "-44.26667000", Longitude = "171.13333000" },
+                        new() { Id = 15, Name = "Prebbleton", Latitude = "-43.58333000", Longitude = "172.51667000" },
+                        new() { Id = 16, Name = "Rakaia", Latitude = "-43.75000000", Longitude = "172.01667000" },
+                        new() { Id = 17, Name = "Rolleston", Latitude = "-43.58333000", Longitude = "172.38333000" },
+                        new() { Id = 18, Name = "Selwyn", Latitude = "-43.32226000", Longitude = "171.87064000" },
+                        new() { Id = 19, Name = "Timaru", Latitude = "-44.39672000", Longitude = "171.25364000" },
+                        new() { Id = 20, Name = "Timaru District", Latitude = "-44.40000000", Longitude = "171.21667000" },
+                        new() { Id = 21, Name = "Tinwald", Latitude = "-43.91667000", Longitude = "171.71667000" },
+                        new() { Id = 22, Name = "Waimakariri", Latitude = "-43.20750000", Longitude = "172.33286000" },
+                        new() { Id = 23, Name = "Woodend", Latitude = "-43.31667000", Longitude = "172.66667000" }
                     }
                 },
 
@@ -157,9 +159,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Chatham Islands",
-                    StateCode = "CIT",
-                    Latitude = "-44.00575230",
-                    Longitude = "-176.54006740",
+                    StateCode = "",
+                    Latitude = "-43.91753400",
+                    Longitude = "-176.18734000",
                     Type = "special island authority",
                     Cities = new()
                     {
@@ -171,9 +173,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Gisborne",
-                    StateCode = "GIS",
-                    Latitude = "-38.13581740",
-                    Longitude = "178.32393090",
+                    StateCode = "",
+                    Latitude = "-38.15322870",
+                    Longitude = "178.13675240",
                     Type = "region",
                     Cities = new()
                     {
@@ -185,9 +187,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Hawke's Bay",
-                    StateCode = "HKB",
-                    Latitude = "-39.60165970",
-                    Longitude = "176.58044730",
+                    StateCode = "",
+                    Latitude = "-39.52565120",
+                    Longitude = "176.76114570",
                     Type = "region",
                     Cities = new()
                     {
@@ -201,18 +203,18 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 7,
-                    Name = "Manawatu-Wanganui",
-                    StateCode = "MWT",
-                    Latitude = "-39.72733560",
-                    Longitude = "175.43755740",
+                    Name = "Manawatu-Whanganui",
+                    StateCode = "",
+                    Latitude = "-39.64077340",
+                    Longitude = "175.57135570",
                     Type = "region",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bulls", Latitude = "-40.17487000", Longitude = "175.38463000" },
                         new() { Id = 2, Name = "Foxton", Latitude = "-40.46667000", Longitude = "175.30000000" },
-                        new() { Id = 3, Name = "Horowhenua District", Latitude = "-40.57733000", Longitude = "175.38071000" },
+                        new() { Id = 3, Name = "Horowhenua", Latitude = "-40.57733000", Longitude = "175.38071000" },
                         new() { Id = 4, Name = "Levin", Latitude = "-40.63333000", Longitude = "175.27500000" },
-                        new() { Id = 5, Name = "Manawatu District", Latitude = "-40.11979000", Longitude = "175.67426000" },
+                        new() { Id = 5, Name = "Manawatu", Latitude = "-40.11979000", Longitude = "175.67426000" },
                         new() { Id = 6, Name = "Palmerston North", Latitude = "-40.35636000", Longitude = "175.61113000" },
                         new() { Id = 7, Name = "Waiouru", Latitude = "-39.47753000", Longitude = "175.66834000" },
                         new() { Id = 8, Name = "Wanganui", Latitude = "-39.93333000", Longitude = "175.05000000" }
@@ -223,9 +225,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Marlborough",
-                    StateCode = "MBH",
-                    Latitude = "-41.59168830",
-                    Longitude = "173.76240530",
+                    StateCode = "",
+                    Latitude = "-41.47447470",
+                    Longitude = "173.83302630",
                     Type = "region",
                     Cities = new()
                     {
@@ -238,9 +240,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Nelson",
-                    StateCode = "NSN",
-                    Latitude = "-41.29853970",
-                    Longitude = "173.24414910",
+                    StateCode = "",
+                    Latitude = "-41.27108490",
+                    Longitude = "173.28367560",
                     Type = "region",
                     Cities = new()
                     {
@@ -252,16 +254,16 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Northland",
-                    StateCode = "NTL",
-                    Latitude = "-35.41361720",
-                    Longitude = "173.93208060",
+                    StateCode = "",
+                    Latitude = "-35.37550910",
+                    Longitude = "173.94701060",
                     Type = "region",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ahipara", Latitude = "-35.16667000", Longitude = "173.16667000" },
                         new() { Id = 2, Name = "Dargaville", Latitude = "-35.93333000", Longitude = "173.88333000" },
-                        new() { Id = 3, Name = "Far North District", Latitude = "-35.03359000", Longitude = "173.48841000" },
-                        new() { Id = 4, Name = "Kaipara District", Latitude = "-35.99546000", Longitude = "174.04688000" },
+                        new() { Id = 3, Name = "Far North", Latitude = "-35.03359000", Longitude = "173.48841000" },
+                        new() { Id = 4, Name = "Kaipara", Latitude = "-35.99546000", Longitude = "174.04688000" },
                         new() { Id = 5, Name = "Kaitaia", Latitude = "-35.11485000", Longitude = "173.26366000" },
                         new() { Id = 6, Name = "Kawakawa", Latitude = "-35.38333000", Longitude = "174.06667000" },
                         new() { Id = 7, Name = "Kerikeri", Latitude = "-35.22676000", Longitude = "173.94739000" },
@@ -280,15 +282,15 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Otago",
-                    StateCode = "OTA",
-                    Latitude = "-45.47906710",
-                    Longitude = "170.15475670",
+                    StateCode = "",
+                    Latitude = "-45.39750530",
+                    Longitude = "170.17789180",
                     Type = "region",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Arrowtown", Latitude = "-44.93837000", Longitude = "168.81007000" },
                         new() { Id = 2, Name = "Balclutha", Latitude = "-46.23389000", Longitude = "169.75000000" },
-                        new() { Id = 3, Name = "Clutha District", Latitude = "-46.03883000", Longitude = "169.60617000" },
+                        new() { Id = 3, Name = "Clutha", Latitude = "-46.03883000", Longitude = "169.60617000" },
                         new() { Id = 4, Name = "Cromwell", Latitude = "-45.03837000", Longitude = "169.20008000" },
                         new() { Id = 5, Name = "Dunedin", Latitude = "-45.87416000", Longitude = "170.50361000" },
                         new() { Id = 6, Name = "Kingston", Latitude = "-45.33288000", Longitude = "168.71476000" },
@@ -305,9 +307,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Southland",
-                    StateCode = "STL",
-                    Latitude = "-45.84891590",
-                    Longitude = "167.67553870",
+                    StateCode = "",
+                    Latitude = "-45.92542660",
+                    Longitude = "167.60684830",
                     Type = "region",
                     Cities = new()
                     {
@@ -315,7 +317,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Gore", Latitude = "-46.10282000", Longitude = "168.94357000" },
                         new() { Id = 3, Name = "Invercargill", Latitude = "-46.40000000", Longitude = "168.35000000" },
                         new() { Id = 4, Name = "Riverton", Latitude = "-46.35000000", Longitude = "168.01667000" },
-                        new() { Id = 5, Name = "Southland District", Latitude = "-45.77256000", Longitude = "167.85266000" },
+                        new() { Id = 5, Name = "Southland", Latitude = "-45.77256000", Longitude = "167.85266000" },
                         new() { Id = 6, Name = "Te Anau", Latitude = "-45.41667000", Longitude = "167.71667000" },
                         new() { Id = 7, Name = "Winton", Latitude = "-46.15000000", Longitude = "168.33333000" }
                     }
@@ -325,9 +327,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Taranaki",
-                    StateCode = "TKI",
-                    Latitude = "-39.35381490",
-                    Longitude = "174.43827210",
+                    StateCode = "",
+                    Latitude = "-39.38480640",
+                    Longitude = "174.19735050",
                     Type = "region",
                     Cities = new()
                     {
@@ -337,7 +339,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "New Plymouth District", Latitude = "-39.05865000", Longitude = "174.10309000" },
                         new() { Id = 5, Name = "Opunake", Latitude = "-39.45556000", Longitude = "173.85833000" },
                         new() { Id = 6, Name = "Patea", Latitude = "-39.75833000", Longitude = "174.48333000" },
-                        new() { Id = 7, Name = "South Taranaki District", Latitude = "-39.52156000", Longitude = "174.37160000" },
+                        new() { Id = 7, Name = "South Taranaki", Latitude = "-39.52156000", Longitude = "174.37160000" },
                         new() { Id = 8, Name = "Stratford", Latitude = "-39.32215170", Longitude = "174.26298160" },
                         new() { Id = 9, Name = "Waitara", Latitude = "-39.00158000", Longitude = "174.23836000" }
                     }
@@ -347,9 +349,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Tasman",
-                    StateCode = "TAS",
-                    Latitude = "-41.45711840",
-                    Longitude = "172.82097400",
+                    StateCode = "",
+                    Latitude = "-41.30222100",
+                    Longitude = "172.89453190",
                     Type = "region",
                     Cities = new()
                     {
@@ -366,9 +368,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Waikato",
-                    StateCode = "WKO",
-                    Latitude = "-37.61908620",
-                    Longitude = "175.02334600",
+                    StateCode = "",
+                    Latitude = "-37.77922720",
+                    Longitude = "175.20103240",
                     Type = "region",
                     Cities = new()
                     {
@@ -381,7 +383,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Otorohanga", Latitude = "-38.18333000", Longitude = "175.20000000" },
                         new() { Id = 8, Name = "Paeroa", Latitude = "-37.36667000", Longitude = "175.66667000" },
                         new() { Id = 9, Name = "Raglan", Latitude = "-37.80000000", Longitude = "174.88333000" },
-                        new() { Id = 10, Name = "South Waikato District", Latitude = "-38.16797000", Longitude = "175.88624000" },
+                        new() { Id = 10, Name = "South Waikato", Latitude = "-38.16797000", Longitude = "175.88624000" },
                         new() { Id = 11, Name = "Tairua", Latitude = "-37.01667000", Longitude = "175.85000000" },
                         new() { Id = 12, Name = "Taupo", Latitude = "-38.68333000", Longitude = "176.08333000" },
                         new() { Id = 13, Name = "Te Kauwhata", Latitude = "-37.40000000", Longitude = "175.15000000" },
@@ -398,15 +400,15 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Wellington",
-                    StateCode = "WGN",
-                    Latitude = "-41.02993230",
-                    Longitude = "175.43755740",
+                    StateCode = "",
+                    Latitude = "-41.22354740",
+                    Longitude = "175.41575760",
                     Type = "region",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Brooklyn", Latitude = "-41.30586000", Longitude = "174.76257000" },
                         new() { Id = 2, Name = "Castlepoint", Latitude = "-40.90000000", Longitude = "176.21667000" },
-                        new() { Id = 3, Name = "Kapiti Coast District", Latitude = "-40.85682000", Longitude = "175.14690000" },
+                        new() { Id = 3, Name = "Kapiti Coast", Latitude = "-40.85682000", Longitude = "175.14690000" },
                         new() { Id = 4, Name = "Kelburn", Latitude = "-41.28333000", Longitude = "174.76667000" },
                         new() { Id = 5, Name = "Khandallah", Latitude = "-41.24500000", Longitude = "174.79422000" },
                         new() { Id = 6, Name = "Lower Hutt", Latitude = "-41.21667000", Longitude = "174.91667000" },
@@ -415,11 +417,10 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Paraparaumu", Latitude = "-40.91667000", Longitude = "175.01667000" },
                         new() { Id = 10, Name = "Petone", Latitude = "-41.22827000", Longitude = "174.87019000" },
                         new() { Id = 11, Name = "Porirua", Latitude = "-41.13333000", Longitude = "174.85000000" },
-                        new() { Id = 12, Name = "South Wairarapa District", Latitude = "-41.26731000", Longitude = "175.38442000" },
+                        new() { Id = 12, Name = "South Wairarapa", Latitude = "-41.26731000", Longitude = "175.38442000" },
                         new() { Id = 13, Name = "Upper Hutt", Latitude = "-41.13827000", Longitude = "175.05020000" },
                         new() { Id = 14, Name = "Waipawa", Latitude = "-41.41222000", Longitude = "175.51528000" },
-                        new() { Id = 15, Name = "Wellington", Latitude = "-41.28664000", Longitude = "174.77557000" },
-                        new() { Id = 16, Name = "Wellington City", Latitude = "-41.25300000", Longitude = "174.75424000" }
+                        new() { Id = 15, Name = "Wellington", Latitude = "-41.28664000", Longitude = "174.77557000" }
                     }
                 },
 
@@ -427,9 +428,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "West Coast",
-                    StateCode = "WTC",
-                    Latitude = "62.41136340",
-                    Longitude = "-149.07297140",
+                    StateCode = "",
+                    Latitude = "-42.56388960",
+                    Longitude = "171.45233400",
                     Type = "region",
                     Cities = new()
                     {

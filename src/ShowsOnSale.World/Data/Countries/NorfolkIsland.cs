@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Enez Norfolk",
                 ["ko"] = "노퍽 섬",
                 ["pt-BR"] = "Ilha Norfolk",
                 ["pt"] = "Ilha Norfolk",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Norfolk Adasi",
                 ["ru"] = "Остров Норфолк",
                 ["uk"] = "Острів Норфолк",
-                ["pl"] = "Wyspa Norfolk"
+                ["pl"] = "Wyspa Norfolk",
+                ["hi"] = "नॉरफ़ॉक आइलैंड",
+                ["ar"] = "جزيرة نورفولك"
             },
             States = new()
             {

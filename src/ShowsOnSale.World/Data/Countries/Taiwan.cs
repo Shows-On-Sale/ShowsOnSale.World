@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Taiwan",
                 ["ko"] = "대만",
                 ["pt-BR"] = "Taiwan",
                 ["pt"] = "Taiwan",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Tayvan",
                 ["ru"] = "Тайвань",
                 ["uk"] = "Тайвань",
-                ["pl"] = "Tajwan"
+                ["pl"] = "Tajwan",
+                ["hi"] = "ताइवान",
+                ["ar"] = "تايوان"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Changhua",
-                    StateCode = "CHA",
-                    Latitude = "24.05179630",
-                    Longitude = "120.51613520",
+                    StateCode = "",
+                    Latitude = "24.07556670",
+                    Longitude = "120.54446670",
                     Type = "county",
                     Cities = new()
                     {
@@ -77,9 +80,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Chiayi",
-                    StateCode = "CYI",
-                    Latitude = "23.45184280",
-                    Longitude = "120.25546150",
+                    StateCode = "",
+                    Latitude = "23.45916640",
+                    Longitude = "120.29300040",
                     Type = "city",
                     Cities = new()
                     {
@@ -91,14 +94,17 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 3,
-                    Name = "Chiayi",
-                    StateCode = "CYQ",
-                    Latitude = "23.48007510",
-                    Longitude = "120.44911130",
+                    Name = "Chiayi County",
+                    StateCode = "",
+                    Latitude = "23.49620556",
+                    Longitude = "120.64187500",
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Chiayi County", Latitude = "23.46333000", Longitude = "120.58166000" }
+                        new() { Id = 1, Name = "Budai", Latitude = "23.36000000", Longitude = "120.17000000" },
+                        new() { Id = 2, Name = "Chiayi", Latitude = "23.46333000", Longitude = "120.58166000" },
+                        new() { Id = 3, Name = "Dalin", Latitude = "23.59888889", Longitude = "120.47000000" },
+                        new() { Id = 4, Name = "Minxiong", Latitude = "23.55039900", Longitude = "120.44569600" }
                     }
                 },
 
@@ -106,27 +112,29 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Hsinchu",
-                    StateCode = "HSQ",
-                    Latitude = "24.83872260",
-                    Longitude = "121.01772460",
-                    Type = "county",
+                    StateCode = "",
+                    Latitude = "24.81382870",
+                    Longitude = "120.96747980",
+                    Type = "city",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Hsinchu", Latitude = "24.80361000", Longitude = "120.96861000" }
+                        new() { Id = 1, Name = "Hsinchu", Latitude = "24.67416000", Longitude = "121.16111000" }
                     }
                 },
 
                 new()
                 {
                     Id = 5,
-                    Name = "Hsinchu",
-                    StateCode = "HSZ",
-                    Latitude = "24.81382870",
-                    Longitude = "120.96747980",
-                    Type = "city",
+                    Name = "Hsinchu County",
+                    StateCode = "",
+                    Latitude = "24.83333333",
+                    Longitude = "121.01472222",
+                    Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Hsinchu County", Latitude = "24.67416000", Longitude = "121.16111000" }
+                        new() { Id = 1, Name = "Hsinchu", Latitude = "24.80361000", Longitude = "120.96861000" },
+                        new() { Id = 2, Name = "Hukou", Latitude = "24.90000000", Longitude = "121.05000000" },
+                        new() { Id = 3, Name = "Zhubei", Latitude = "24.83333333", Longitude = "121.01194444" }
                     }
                 },
 
@@ -134,14 +142,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Hualien",
-                    StateCode = "HUA",
+                    StateCode = "",
                     Latitude = "23.98715890",
                     Longitude = "121.60157140",
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Hualien", Latitude = "23.78166000", Longitude = "121.39333000" },
-                        new() { Id = 2, Name = "Hualien City", Latitude = "23.97694000", Longitude = "121.60444000" }
+                        new() { Id = 1, Name = "Hualien", Latitude = "23.78166000", Longitude = "121.39333000" }
                     }
                 },
 
@@ -149,9 +156,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Kaohsiung",
-                    StateCode = "KHH",
-                    Latitude = "22.62727840",
-                    Longitude = "120.30143530",
+                    StateCode = "",
+                    Latitude = "22.62033480",
+                    Longitude = "120.31203750",
                     Type = "special municipality",
                     Cities = new()
                     {
@@ -163,9 +170,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Keelung",
-                    StateCode = "KEE",
-                    Latitude = "25.12418620",
-                    Longitude = "121.64758340",
+                    StateCode = "",
+                    Latitude = "25.13172320",
+                    Longitude = "121.74465200",
                     Type = "city",
                     Cities = new()
                     {
@@ -176,14 +183,14 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Kinmen",
-                    StateCode = "KIN",
-                    Latitude = "24.34877920",
-                    Longitude = "118.32856440",
+                    StateCode = "",
+                    Latitude = "24.43676380",
+                    Longitude = "118.31864350",
                     Type = "county",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Jincheng", Latitude = "24.43415000", Longitude = "118.31712000" },
-                        new() { Id = 2, Name = "Kinmen County", Latitude = "24.45333000", Longitude = "118.38861000" }
+                        new() { Id = 2, Name = "Kinmen", Latitude = "24.45333000", Longitude = "118.38861000" }
                     }
                 },
 
@@ -191,9 +198,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Lienchiang",
-                    StateCode = "LIE",
-                    Latitude = "26.15055560",
-                    Longitude = "119.92888890",
+                    StateCode = "",
+                    Latitude = "26.15779510",
+                    Longitude = "119.95197560",
                     Type = "county",
                     Cities = new()
                     {
@@ -206,7 +213,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Miaoli",
-                    StateCode = "MIA",
+                    StateCode = "",
                     Latitude = "24.56015900",
                     Longitude = "120.82142650",
                     Type = "county",
@@ -220,9 +227,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Nantou",
-                    StateCode = "NAN",
-                    Latitude = "23.96099810",
-                    Longitude = "120.97186380",
+                    StateCode = "",
+                    Latitude = "23.90235000",
+                    Longitude = "120.69091670",
                     Type = "county",
                     Cities = new()
                     {
@@ -237,9 +244,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "New Taipei",
-                    StateCode = "NWT",
-                    Latitude = "24.98752780",
-                    Longitude = "121.36459470",
+                    StateCode = "",
+                    Latitude = "25.01199700",
+                    Longitude = "121.46566190",
                     Type = "special municipality",
                     Cities = new()
                     {
@@ -250,14 +257,14 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Penghu",
-                    StateCode = "PEN",
-                    Latitude = "23.57118990",
-                    Longitude = "119.57931570",
+                    StateCode = "",
+                    Latitude = "23.56969400",
+                    Longitude = "119.56645430",
                     Type = "county",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Magong", Latitude = "23.56540000", Longitude = "119.58627000" },
-                        new() { Id = 2, Name = "Penghu County", Latitude = "23.57111000", Longitude = "119.61138000" }
+                        new() { Id = 2, Name = "Penghu", Latitude = "23.57111000", Longitude = "119.61138000" }
                     }
                 },
 
@@ -265,9 +272,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Pingtung",
-                    StateCode = "PIF",
-                    Latitude = "22.55197590",
-                    Longitude = "120.54875970",
+                    StateCode = "",
+                    Latitude = "22.66284680",
+                    Longitude = "120.49156770",
                     Type = "county",
                     Cities = new()
                     {
@@ -281,14 +288,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Taichung",
-                    StateCode = "TXG",
-                    Latitude = "24.14773580",
-                    Longitude = "120.67364820",
+                    StateCode = "",
+                    Latitude = "24.16316200",
+                    Longitude = "120.64782820",
                     Type = "special municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Taichung", Latitude = "24.14690000", Longitude = "120.68390000" },
-                        new() { Id = 2, Name = "Taichung City", Latitude = "24.15472000", Longitude = "120.67297000" }
+                        new() { Id = 1, Name = "Taichung", Latitude = "24.14690000", Longitude = "120.68390000" }
                     }
                 },
 
@@ -296,9 +302,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Tainan",
-                    StateCode = "TNN",
-                    Latitude = "22.99972810",
-                    Longitude = "120.22702770",
+                    StateCode = "",
+                    Latitude = "22.99123480",
+                    Longitude = "120.18498200",
                     Type = "special municipality",
                     Cities = new()
                     {
@@ -311,7 +317,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Taipei",
-                    StateCode = "TPE",
+                    StateCode = "",
                     Latitude = "25.03296940",
                     Longitude = "121.56541770",
                     Type = "special municipality",
@@ -319,8 +325,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Banqiao", Latitude = "25.01427000", Longitude = "121.46719000" },
                         new() { Id = 2, Name = "Jiufen", Latitude = "25.10957000", Longitude = "121.84424000" },
-                        new() { Id = 3, Name = "Taipei", Latitude = "25.04776000", Longitude = "121.53185000" },
-                        new() { Id = 4, Name = "Taipei City", Latitude = "25.08300000", Longitude = "121.55331000" }
+                        new() { Id = 3, Name = "Taipei", Latitude = "25.04776000", Longitude = "121.53185000" }
                     }
                 },
 
@@ -328,14 +333,13 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 19,
                     Name = "Taitung",
-                    StateCode = "TTT",
-                    Latitude = "22.79724470",
-                    Longitude = "121.07137020",
+                    StateCode = "",
+                    Latitude = "22.75604470",
+                    Longitude = "121.14565380",
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Taitung", Latitude = "22.88361000", Longitude = "121.04833000" },
-                        new() { Id = 2, Name = "Taitung City", Latitude = "22.75830000", Longitude = "121.14440000" }
+                        new() { Id = 1, Name = "Taitung", Latitude = "22.88361000", Longitude = "121.04833000" }
                     }
                 },
 
@@ -343,15 +347,14 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 20,
                     Name = "Taoyuan",
-                    StateCode = "TAO",
+                    StateCode = "",
                     Latitude = "24.99362810",
                     Longitude = "121.30097980",
                     Type = "special municipality",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Daxi", Latitude = "24.88373000", Longitude = "121.29043000" },
-                        new() { Id = 2, Name = "Taoyuan", Latitude = "24.89500000", Longitude = "121.24611000" },
-                        new() { Id = 3, Name = "Taoyuan City", Latitude = "24.99368000", Longitude = "121.29696000" }
+                        new() { Id = 2, Name = "Taoyuan", Latitude = "24.89500000", Longitude = "121.24611000" }
                     }
                 },
 
@@ -359,9 +362,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 21,
                     Name = "Yilan",
-                    StateCode = "ILA",
-                    Latitude = "24.70210730",
-                    Longitude = "121.73775020",
+                    StateCode = "",
+                    Latitude = "24.73027910",
+                    Longitude = "121.76311490",
                     Type = "county",
                     Cities = new()
                     {
@@ -373,9 +376,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 22,
                     Name = "Yunlin",
-                    StateCode = "YUN",
-                    Latitude = "23.70920330",
-                    Longitude = "120.43133730",
+                    StateCode = "",
+                    Latitude = "23.69907750",
+                    Longitude = "120.52455110",
                     Type = "county",
                     Cities = new()
                     {

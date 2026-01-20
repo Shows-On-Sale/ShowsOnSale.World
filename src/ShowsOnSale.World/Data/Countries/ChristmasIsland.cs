@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Enez Christmas",
                 ["ko"] = "크리스마스 섬",
                 ["pt-BR"] = "Ilha Christmas",
                 ["pt"] = "Ilha do Natal",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Christmas Adasi",
                 ["ru"] = "Остров Рождества",
                 ["uk"] = "Острів Різдва",
-                ["pl"] = "Wyspa Bożego Narodzenia"
+                ["pl"] = "Wyspa Bożego Narodzenia",
+                ["hi"] = "क्रिसमस आइलैंड",
+                ["ar"] = "جزيرة عيد الميلاد"
             },
             States = new()
             {

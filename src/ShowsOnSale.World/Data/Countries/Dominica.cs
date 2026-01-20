@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 62,
+            Id = 61,
             Name = "Dominica",
             Iso3 = "DMA",
             Iso2 = "DM",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Dominika",
                 ["ko"] = "도미니카 연방",
                 ["pt-BR"] = "Dominica",
                 ["pt"] = "Dominica",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Dominika",
                 ["ru"] = "Доминика",
                 ["uk"] = "Домініка",
-                ["pl"] = "Dominika"
+                ["pl"] = "Dominika",
+                ["hi"] = "डोमिनिका",
+                ["ar"] = "دومينيكا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Saint Andrew",
-                    StateCode = "02",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "15.42385390",
+                    Longitude = "-61.34165130",
                     Type = "parish",
                     Cities = new()
                     {
@@ -79,9 +82,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Saint David",
-                    StateCode = "03",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "15.42385390",
+                    Longitude = "-61.34165130",
                     Type = "parish",
                     Cities = new()
                     {
@@ -94,9 +97,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Saint George",
-                    StateCode = "04",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "15.30588490",
+                    Longitude = "-61.34772860",
                     Type = "parish",
                     Cities = new()
                     {
@@ -108,9 +111,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Saint John",
-                    StateCode = "05",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "15.57391580",
+                    Longitude = "-61.43697570",
                     Type = "parish",
                     Cities = new()
                     {
@@ -122,9 +125,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Saint Joseph",
-                    StateCode = "06",
-                    Latitude = "39.02227120",
-                    Longitude = "-94.71765040",
+                    StateCode = "",
+                    Latitude = "15.40631550",
+                    Longitude = "-61.42390930",
                     Type = "parish",
                     Cities = new()
                     {
@@ -137,9 +140,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Saint Luke",
-                    StateCode = "07",
-                    Latitude = "42.10513630",
-                    Longitude = "-80.05707220",
+                    StateCode = "",
+                    Latitude = "15.25264830",
+                    Longitude = "-61.36068480",
                     Type = "parish",
                     Cities = new()
                     {
@@ -151,9 +154,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Saint Mark",
-                    StateCode = "08",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "15.22852650",
+                    Longitude = "-61.35000410",
                     Type = "parish",
                     Cities = new()
                     {
@@ -165,9 +168,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Saint Patrick",
-                    StateCode = "09",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "15.27704260",
+                    Longitude = "-61.29647750",
                     Type = "parish",
                     Cities = new()
                     {
@@ -180,9 +183,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Saint Paul",
-                    StateCode = "10",
-                    Latitude = "38.86146000",
-                    Longitude = "-90.74356190",
+                    StateCode = "",
+                    Latitude = "15.36301840",
+                    Longitude = "-61.36134160",
                     Type = "parish",
                     Cities = new()
                     {
@@ -195,9 +198,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Saint Peter",
-                    StateCode = "11",
-                    Latitude = "40.45241940",
-                    Longitude = "-80.00850560",
+                    StateCode = "",
+                    Latitude = "15.49975910",
+                    Longitude = "-61.44034710",
                     Type = "parish",
                     Cities = new()
                     {

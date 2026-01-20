@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Barbados",
                 ["ko"] = "바베이도스",
                 ["pt-BR"] = "Barbados",
                 ["pt"] = "Barbados",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Barbados",
                 ["ru"] = "Барбадос",
                 ["uk"] = "Барбадос",
-                ["pl"] = "Barbados"
+                ["pl"] = "Barbados",
+                ["hi"] = "बारबाडोस",
+                ["ar"] = "بربادوس"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Christ Church",
-                    StateCode = "01",
-                    Latitude = "36.00604070",
-                    Longitude = "-95.92112100",
+                    StateCode = "",
+                    Latitude = "13.08261800",
+                    Longitude = "-59.53744510",
                     Type = "parish",
                     Cities = new()
                     {
@@ -76,9 +79,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Saint Andrew",
-                    StateCode = "02",
-                    Latitude = "",
-                    Longitude = "",
+                    StateCode = "",
+                    Latitude = "13.24329040",
+                    Longitude = "-59.57317000",
                     Type = "parish",
                     Cities = new()
                     {
@@ -90,9 +93,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Saint George",
-                    StateCode = "03",
-                    Latitude = "37.09652780",
-                    Longitude = "-113.56841640",
+                    StateCode = "",
+                    Latitude = "13.13840220",
+                    Longitude = "-59.54437210",
                     Type = "parish",
                     Cities = new()
                     {
@@ -103,9 +106,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Saint James",
-                    StateCode = "04",
-                    Latitude = "48.52356600",
-                    Longitude = "-1.32378850",
+                    StateCode = "",
+                    Latitude = "13.18637930",
+                    Longitude = "-59.62519200",
                     Type = "parish",
                     Cities = new()
                     {
@@ -117,9 +120,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Saint John",
-                    StateCode = "05",
-                    Latitude = "45.27331530",
-                    Longitude = "-66.06330800",
+                    StateCode = "",
+                    Latitude = "13.18994630",
+                    Longitude = "-59.55921510",
                     Type = "parish",
                     Cities = new()
                     {
@@ -130,9 +133,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Saint Joseph",
-                    StateCode = "06",
-                    Latitude = "39.76745780",
-                    Longitude = "-94.84668100",
+                    StateCode = "",
+                    Latitude = "13.18994630",
+                    Longitude = "-59.55921510",
                     Type = "parish",
                     Cities = new()
                     {
@@ -144,9 +147,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Saint Lucy",
-                    StateCode = "07",
-                    Latitude = "38.76146250",
-                    Longitude = "-77.44914390",
+                    StateCode = "",
+                    Latitude = "13.30240680",
+                    Longitude = "-59.61294450",
                     Type = "parish",
                     Cities = new()
                     {
@@ -157,9 +160,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Saint Michael",
-                    StateCode = "08",
-                    Latitude = "36.03597700",
-                    Longitude = "-95.84905200",
+                    StateCode = "",
+                    Latitude = "13.11829850",
+                    Longitude = "-59.60157830",
                     Type = "parish",
                     Cities = new()
                     {
@@ -171,9 +174,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Saint Peter",
-                    StateCode = "09",
-                    Latitude = "37.08271190",
-                    Longitude = "-94.51712500",
+                    StateCode = "",
+                    Latitude = "13.26197790",
+                    Longitude = "-59.62074440",
                     Type = "parish",
                     Cities = new()
                     {
@@ -185,9 +188,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Saint Philip",
-                    StateCode = "10",
-                    Latitude = "35.23311400",
-                    Longitude = "-89.43640420",
+                    StateCode = "",
+                    Latitude = "13.12953900",
+                    Longitude = "-59.46741020",
                     Type = "parish",
                     Cities = new()
                     {
@@ -199,9 +202,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Saint Thomas",
-                    StateCode = "11",
-                    Latitude = "18.33809650",
-                    Longitude = "-64.89409460",
+                    StateCode = "",
+                    Latitude = "13.17720200",
+                    Longitude = "-59.58538330",
                     Type = "parish",
                     Cities = new()
                     {

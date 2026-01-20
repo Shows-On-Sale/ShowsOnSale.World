@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 54,
+            Id = 53,
             Name = "Croatia",
             Iso3 = "HRV",
             Iso2 = "HR",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Kroatia",
                 ["ko"] = "크로아티아",
                 ["pt-BR"] = "Croácia",
                 ["pt"] = "Croácia",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Hirvatistan",
                 ["ru"] = "Хорватия",
                 ["uk"] = "Хорватія",
-                ["pl"] = "Chorwacja"
+                ["pl"] = "Chorwacja",
+                ["hi"] = "क्रोएशिया",
+                ["ar"] = "كرواتيا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Bjelovar-Bilogora",
-                    StateCode = "07",
-                    Latitude = "45.89879720",
-                    Longitude = "16.84230930",
+                    StateCode = "",
+                    Latitude = "45.74621420",
+                    Longitude = "16.92123350",
                     Type = "county",
                     Cities = new()
                     {
@@ -102,9 +105,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Brod-Posavina",
-                    StateCode = "12",
-                    Latitude = "45.26379510",
-                    Longitude = "17.32645620",
+                    StateCode = "",
+                    Latitude = "45.15426690",
+                    Longitude = "18.01177610",
                     Type = "county",
                     Cities = new()
                     {
@@ -143,9 +146,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Dubrovnik-Neretva",
-                    StateCode = "19",
-                    Latitude = "43.07665880",
-                    Longitude = "17.52684710",
+                    StateCode = "",
+                    Latitude = "42.81431660",
+                    Longitude = "17.37466280",
                     Type = "county",
                     Cities = new()
                     {
@@ -182,9 +185,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Istria",
-                    StateCode = "18",
-                    Latitude = "45.12864550",
-                    Longitude = "13.90154200",
+                    StateCode = "",
+                    Latitude = "45.19343450",
+                    Longitude = "13.91505360",
                     Type = "county",
                     Cities = new()
                     {
@@ -251,9 +254,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Karlovac",
-                    StateCode = "04",
-                    Latitude = "45.26133520",
-                    Longitude = "15.52542016",
+                    StateCode = "",
+                    Latitude = "45.48925220",
+                    Longitude = "15.54863030",
                     Type = "county",
                     Cities = new()
                     {
@@ -264,9 +267,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Koprivnica-Križevci",
-                    StateCode = "06",
-                    Latitude = "46.15689190",
-                    Longitude = "16.83908260",
+                    StateCode = "",
+                    Latitude = "46.12545080",
+                    Longitude = "16.82212780",
                     Type = "county",
                     Cities = new()
                     {
@@ -298,9 +301,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Krapina-Zagorje",
-                    StateCode = "02",
-                    Latitude = "46.10133930",
-                    Longitude = "15.88096930",
+                    StateCode = "",
+                    Latitude = "46.09832180",
+                    Longitude = "15.93774040",
                     Type = "county",
                     Cities = new()
                     {
@@ -335,9 +338,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Lika-Senj",
-                    StateCode = "09",
-                    Latitude = "44.61922180",
-                    Longitude = "15.47016080",
+                    StateCode = "",
+                    Latitude = "44.66818000",
+                    Longitude = "15.33246960",
                     Type = "county",
                     Cities = new()
                     {
@@ -358,9 +361,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Međimurje",
-                    StateCode = "20",
-                    Latitude = "46.37666440",
-                    Longitude = "16.42132980",
+                    StateCode = "",
+                    Latitude = "46.40619430",
+                    Longitude = "16.54722780",
                     Type = "county",
                     Cities = new()
                     {
@@ -397,9 +400,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Osijek-Baranja",
-                    StateCode = "14",
-                    Latitude = "45.55764280",
-                    Longitude = "18.39421410",
+                    StateCode = "",
+                    Latitude = "45.54111100",
+                    Longitude = "18.43846150",
                     Type = "county",
                     Cities = new()
                     {
@@ -471,9 +474,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Požega-Slavonia",
-                    StateCode = "11",
-                    Latitude = "45.34178680",
-                    Longitude = "17.81143590",
+                    StateCode = "",
+                    Latitude = "45.43811510",
+                    Longitude = "17.51336870",
                     Type = "county",
                     Cities = new()
                     {
@@ -496,9 +499,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Primorje-Gorski Kotar",
-                    StateCode = "08",
-                    Latitude = "45.31739960",
-                    Longitude = "14.81674660",
+                    StateCode = "",
+                    Latitude = "45.42259370",
+                    Longitude = "14.61720320",
                     Type = "county",
                     Cities = new()
                     {
@@ -563,7 +566,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Šibenik-Knin",
-                    StateCode = "15",
+                    StateCode = "",
                     Latitude = "43.92814850",
                     Longitude = "16.10376940",
                     Type = "county",
@@ -594,9 +597,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Sisak-Moslavina",
-                    StateCode = "03",
-                    Latitude = "45.38379260",
-                    Longitude = "16.53809940",
+                    StateCode = "",
+                    Latitude = "45.39816660",
+                    Longitude = "16.49551110",
                     Type = "county",
                     Cities = new()
                     {
@@ -631,9 +634,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Split-Dalmatia",
-                    StateCode = "17",
-                    Latitude = "43.52403280",
-                    Longitude = "16.81783770",
+                    StateCode = "",
+                    Latitude = "43.50034070",
+                    Longitude = "16.81561930",
                     Type = "county",
                     Cities = new()
                     {
@@ -670,8 +673,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 31, Name = "Kaštel Gomilica", Latitude = "43.55000000", Longitude = "16.40000000" },
                         new() { Id = 32, Name = "Kaštel Kambelovac", Latitude = "43.55000000", Longitude = "16.38333000" },
                         new() { Id = 33, Name = "Kaštel Lukšić", Latitude = "43.55528000", Longitude = "16.36750000" },
-                        new() { Id = 34, Name = "Kaštel Novi", Latitude = "43.55000000", Longitude = "16.33333000" },
-                        new() { Id = 35, Name = "Kaštel Štafilić", Latitude = "43.55000000", Longitude = "16.33333000" },
+                        new() { Id = 34, Name = "Kaštel Novi", Latitude = "43.55004510", Longitude = "16.33926160" },
+                        new() { Id = 35, Name = "Kaštel Štafilić", Latitude = "43.54586800", Longitude = "16.32394170" },
                         new() { Id = 36, Name = "Kaštel Stari", Latitude = "43.55000000", Longitude = "16.35000000" },
                         new() { Id = 37, Name = "Kaštela", Latitude = "43.53865000", Longitude = "16.30740000" },
                         new() { Id = 38, Name = "Klis", Latitude = "43.55944000", Longitude = "16.51944000" },
@@ -725,9 +728,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Varaždin",
-                    StateCode = "05",
-                    Latitude = "46.23174730",
-                    Longitude = "16.33605590",
+                    StateCode = "",
+                    Latitude = "46.30796450",
+                    Longitude = "16.33781980",
                     Type = "county",
                     Cities = new()
                     {
@@ -767,9 +770,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Virovitica-Podravina",
-                    StateCode = "10",
-                    Latitude = "45.65579850",
-                    Longitude = "17.79324720",
+                    StateCode = "",
+                    Latitude = "45.77327510",
+                    Longitude = "17.57891610",
                     Type = "county",
                     Cities = new()
                     {
@@ -799,9 +802,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Vukovar-Syrmia",
-                    StateCode = "16",
-                    Latitude = "45.17735520",
-                    Longitude = "18.80535270",
+                    StateCode = "",
+                    Latitude = "45.16724010",
+                    Longitude = "18.63898980",
                     Type = "county",
                     Cities = new()
                     {
@@ -853,9 +856,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 19,
                     Name = "Zadar",
-                    StateCode = "13",
-                    Latitude = "44.14693900",
-                    Longitude = "15.61649430",
+                    StateCode = "",
+                    Latitude = "44.11685940",
+                    Longitude = "15.23532570",
                     Type = "county",
                     Cities = new()
                     {
@@ -885,15 +888,14 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 24, Name = "Sali", Latitude = "43.93972000", Longitude = "15.16333000" },
                         new() { Id = 25, Name = "Škabrnja", Latitude = "44.08949000", Longitude = "15.45146000" },
                         new() { Id = 26, Name = "Stari Grad", Latitude = "44.43000000", Longitude = "15.06222000" },
-                        new() { Id = 27, Name = "Starigrad", Latitude = "44.29601000", Longitude = "15.43865000" },
-                        new() { Id = 28, Name = "Sukošan", Latitude = "44.04696000", Longitude = "15.31391000" },
-                        new() { Id = 29, Name = "Sveti Filip i Jakov", Latitude = "43.96472000", Longitude = "15.43000000" },
-                        new() { Id = 30, Name = "Tkon", Latitude = "43.91996000", Longitude = "15.41639000" },
-                        new() { Id = 31, Name = "Turanj", Latitude = "43.97111000", Longitude = "15.41139000" },
-                        new() { Id = 32, Name = "Ugljan", Latitude = "44.13083000", Longitude = "15.10306000" },
-                        new() { Id = 33, Name = "Vir", Latitude = "44.29995000", Longitude = "15.08663000" },
-                        new() { Id = 34, Name = "Vrsi", Latitude = "44.26472000", Longitude = "15.23250000" },
-                        new() { Id = 35, Name = "Zadar", Latitude = "44.11972000", Longitude = "15.24222000" }
+                        new() { Id = 27, Name = "Sukošan", Latitude = "44.04696000", Longitude = "15.31391000" },
+                        new() { Id = 28, Name = "Sveti Filip i Jakov", Latitude = "43.96472000", Longitude = "15.43000000" },
+                        new() { Id = 29, Name = "Tkon", Latitude = "43.91996000", Longitude = "15.41639000" },
+                        new() { Id = 30, Name = "Turanj", Latitude = "43.97111000", Longitude = "15.41139000" },
+                        new() { Id = 31, Name = "Ugljan", Latitude = "44.13083000", Longitude = "15.10306000" },
+                        new() { Id = 32, Name = "Vir", Latitude = "44.29995000", Longitude = "15.08663000" },
+                        new() { Id = 33, Name = "Vrsi", Latitude = "44.26472000", Longitude = "15.23250000" },
+                        new() { Id = 34, Name = "Zadar", Latitude = "44.11972000", Longitude = "15.24222000" }
                     }
                 },
 
@@ -901,9 +903,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 20,
                     Name = "Zagreb",
-                    StateCode = "01",
-                    Latitude = "45.87066120",
-                    Longitude = "16.39549100",
+                    StateCode = "",
+                    Latitude = "45.81309670",
+                    Longitude = "15.97727950",
                     Type = "county",
                     Cities = new()
                     {
@@ -912,86 +914,73 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Brckovljani", Latitude = "45.83333000", Longitude = "16.30000000" },
                         new() { Id = 4, Name = "Brdovec", Latitude = "45.86666000", Longitude = "15.77102000" },
                         new() { Id = 5, Name = "Bregana", Latitude = "45.84013000", Longitude = "15.68792000" },
-                        new() { Id = 6, Name = "Donja Bistra", Latitude = "45.90778000", Longitude = "15.85444000" },
-                        new() { Id = 7, Name = "Donja Lomnica", Latitude = "45.71194000", Longitude = "16.02694000" },
-                        new() { Id = 8, Name = "Donja Zdenčina", Latitude = "45.66667000", Longitude = "15.76667000" },
-                        new() { Id = 9, Name = "Donji Stupnik", Latitude = "45.73971000", Longitude = "15.85975000" },
-                        new() { Id = 10, Name = "Farkaševac", Latitude = "45.87899000", Longitude = "16.63467000" },
-                        new() { Id = 11, Name = "Gornja Bistra", Latitude = "45.91667000", Longitude = "15.90000000" },
-                        new() { Id = 12, Name = "Gračec", Latitude = "45.83333000", Longitude = "16.31667000" },
-                        new() { Id = 13, Name = "Grad Dugo Selo", Latitude = "45.80900000", Longitude = "16.24123000" },
-                        new() { Id = 14, Name = "Grad Jastrebarsko", Latitude = "45.66667000", Longitude = "15.66667000" },
-                        new() { Id = 15, Name = "Grad Samobor", Latitude = "45.80000000", Longitude = "15.70000000" },
-                        new() { Id = 16, Name = "Grad Sveti Ivan Zelina", Latitude = "45.96667000", Longitude = "16.25000000" },
-                        new() { Id = 17, Name = "Grad Velika Gorica", Latitude = "45.70000000", Longitude = "16.08333000" },
-                        new() { Id = 18, Name = "Grad Vrbovec", Latitude = "45.86667000", Longitude = "16.43333000" },
-                        new() { Id = 19, Name = "Grad Zaprešić", Latitude = "45.86667000", Longitude = "15.80000000" },
-                        new() { Id = 20, Name = "Gradec", Latitude = "45.91111000", Longitude = "16.48278000" },
-                        new() { Id = 21, Name = "Gradići", Latitude = "45.70000000", Longitude = "16.05000000" },
-                        new() { Id = 22, Name = "Jablanovec", Latitude = "45.87583000", Longitude = "15.85361000" },
-                        new() { Id = 23, Name = "Jakovlje", Latitude = "45.93611000", Longitude = "15.85559000" },
-                        new() { Id = 24, Name = "Jastrebarsko", Latitude = "45.66833000", Longitude = "15.64861000" },
-                        new() { Id = 25, Name = "Kerestinec", Latitude = "45.77010000", Longitude = "15.80864000" },
-                        new() { Id = 26, Name = "Križ", Latitude = "45.66500000", Longitude = "16.52333000" },
-                        new() { Id = 27, Name = "Kuče", Latitude = "45.67694000", Longitude = "16.14500000" },
-                        new() { Id = 28, Name = "Lonjica", Latitude = "45.85500000", Longitude = "16.33000000" },
-                        new() { Id = 29, Name = "Luka", Latitude = "45.95795000", Longitude = "15.81954000" },
-                        new() { Id = 30, Name = "Lukavec", Latitude = "45.70444000", Longitude = "15.99000000" },
-                        new() { Id = 31, Name = "Lupoglav", Latitude = "45.79639000", Longitude = "16.34639000" },
-                        new() { Id = 32, Name = "Mičevec", Latitude = "45.75000000", Longitude = "16.06667000" },
-                        new() { Id = 33, Name = "Mraclin", Latitude = "45.66667000", Longitude = "16.09556000" },
-                        new() { Id = 34, Name = "Novo Čiče", Latitude = "45.70000000", Longitude = "16.11667000" },
-                        new() { Id = 35, Name = "Novoselec", Latitude = "45.65250000", Longitude = "16.53639000" },
-                        new() { Id = 36, Name = "Općina Dubrava", Latitude = "45.83759000", Longitude = "16.53683000" },
-                        new() { Id = 37, Name = "Orešje", Latitude = "45.81618000", Longitude = "15.80246000" },
-                        new() { Id = 38, Name = "Pojatno", Latitude = "45.90500000", Longitude = "15.80056000" },
-                        new() { Id = 39, Name = "Preseka", Latitude = "45.97456000", Longitude = "16.38697000" },
-                        new() { Id = 40, Name = "Prigorje Brdovečko", Latitude = "45.87944000", Longitude = "15.73806000" },
-                        new() { Id = 41, Name = "Pušća", Latitude = "45.91567000", Longitude = "15.78049000" },
-                        new() { Id = 42, Name = "Rakitje", Latitude = "45.79389000", Longitude = "15.82222000" },
-                        new() { Id = 43, Name = "Rakov Potok", Latitude = "45.73806000", Longitude = "15.79722000" },
-                        new() { Id = 44, Name = "Rude", Latitude = "45.76667000", Longitude = "15.66667000" },
-                        new() { Id = 45, Name = "Samobor", Latitude = "45.80306000", Longitude = "15.71806000" },
-                        new() { Id = 46, Name = "Stupnik", Latitude = "45.75314000", Longitude = "15.84078000" },
-                        new() { Id = 47, Name = "Sveta Nedelja", Latitude = "45.79617000", Longitude = "15.77971000" },
-                        new() { Id = 48, Name = "Sveta Nedjelja", Latitude = "45.79833000", Longitude = "15.78056000" },
-                        new() { Id = 49, Name = "Velika Gorica", Latitude = "45.71250000", Longitude = "16.07556000" },
-                        new() { Id = 50, Name = "Velika Mlaka", Latitude = "45.73639000", Longitude = "16.03111000" },
-                        new() { Id = 51, Name = "Velika Ostrna", Latitude = "45.78752000", Longitude = "16.28139000" },
-                        new() { Id = 52, Name = "Vrbovec", Latitude = "45.88333000", Longitude = "16.42167000" },
-                        new() { Id = 53, Name = "Zaprešić", Latitude = "45.85639000", Longitude = "15.80778000" },
-                        new() { Id = 54, Name = "Zdenci Brdovečki", Latitude = "45.86667000", Longitude = "15.75000000" }
-                    }
-                },
-
-                new()
-                {
-                    Id = 21,
-                    Name = "Zagreb",
-                    StateCode = "21",
-                    Latitude = "45.81501080",
-                    Longitude = "15.98191890",
-                    Type = "city",
-                    Cities = new()
-                    {
-                        new() { Id = 1, Name = "Brezovica", Latitude = "45.72919000", Longitude = "15.91069000" },
-                        new() { Id = 2, Name = "Centar", Latitude = "45.81313000", Longitude = "15.97753000" },
-                        new() { Id = 3, Name = "Dubrava", Latitude = "45.83361000", Longitude = "16.06361000" },
-                        new() { Id = 4, Name = "Gradska četvrt Donji grad", Latitude = "45.80834000", Longitude = "15.96949000" },
-                        new() { Id = 5, Name = "Gradska četvrt Gornji Grad - Medvescak", Latitude = "45.82820000", Longitude = "15.97938000" },
-                        new() { Id = 6, Name = "Gradska četvrt Podsljeme", Latitude = "45.86097000", Longitude = "15.97996000" },
-                        new() { Id = 7, Name = "Horvati", Latitude = "45.70000000", Longitude = "15.81667000" },
-                        new() { Id = 8, Name = "Jankomir", Latitude = "45.79167000", Longitude = "15.90000000" },
-                        new() { Id = 9, Name = "Ježdovec", Latitude = "45.78333000", Longitude = "15.85000000" },
-                        new() { Id = 10, Name = "Kašina", Latitude = "45.91134000", Longitude = "16.12436000" },
-                        new() { Id = 11, Name = "Lučko", Latitude = "45.76111000", Longitude = "15.87028000" },
-                        new() { Id = 12, Name = "Novi Zagreb", Latitude = "45.78333000", Longitude = "15.98333000" },
-                        new() { Id = 13, Name = "Odra", Latitude = "45.72979000", Longitude = "15.99240000" },
-                        new() { Id = 14, Name = "Sesvete", Latitude = "45.83333000", Longitude = "16.13333000" },
-                        new() { Id = 15, Name = "Stenjevec", Latitude = "45.80846000", Longitude = "15.88245000" },
-                        new() { Id = 16, Name = "Strmec", Latitude = "45.70843000", Longitude = "15.91674000" },
-                        new() { Id = 17, Name = "Zadvorsko", Latitude = "45.71978000", Longitude = "15.90880000" },
-                        new() { Id = 18, Name = "Zagreb", Latitude = "45.81444000", Longitude = "15.97798000" }
+                        new() { Id = 6, Name = "Brezovica", Latitude = "45.72919000", Longitude = "15.91069000" },
+                        new() { Id = 7, Name = "Centar", Latitude = "45.81313000", Longitude = "15.97753000" },
+                        new() { Id = 8, Name = "Donja Bistra", Latitude = "45.90778000", Longitude = "15.85444000" },
+                        new() { Id = 9, Name = "Donja Lomnica", Latitude = "45.71194000", Longitude = "16.02694000" },
+                        new() { Id = 10, Name = "Donja Zdenčina", Latitude = "45.66667000", Longitude = "15.76667000" },
+                        new() { Id = 11, Name = "Donji Stupnik", Latitude = "45.73971000", Longitude = "15.85975000" },
+                        new() { Id = 12, Name = "Dubrava", Latitude = "45.83361000", Longitude = "16.06361000" },
+                        new() { Id = 13, Name = "Farkaševac", Latitude = "45.87899000", Longitude = "16.63467000" },
+                        new() { Id = 14, Name = "Gornja Bistra", Latitude = "45.91667000", Longitude = "15.90000000" },
+                        new() { Id = 15, Name = "Gračec", Latitude = "45.83333000", Longitude = "16.31667000" },
+                        new() { Id = 16, Name = "Grad Dugo Selo", Latitude = "45.80900000", Longitude = "16.24123000" },
+                        new() { Id = 17, Name = "Grad Jastrebarsko", Latitude = "45.66667000", Longitude = "15.66667000" },
+                        new() { Id = 18, Name = "Grad Samobor", Latitude = "45.80000000", Longitude = "15.70000000" },
+                        new() { Id = 19, Name = "Grad Sveti Ivan Zelina", Latitude = "45.96667000", Longitude = "16.25000000" },
+                        new() { Id = 20, Name = "Grad Velika Gorica", Latitude = "45.70000000", Longitude = "16.08333000" },
+                        new() { Id = 21, Name = "Grad Vrbovec", Latitude = "45.86667000", Longitude = "16.43333000" },
+                        new() { Id = 22, Name = "Grad Zaprešić", Latitude = "45.86667000", Longitude = "15.80000000" },
+                        new() { Id = 23, Name = "Gradec", Latitude = "45.91111000", Longitude = "16.48278000" },
+                        new() { Id = 24, Name = "Gradići", Latitude = "45.70000000", Longitude = "16.05000000" },
+                        new() { Id = 25, Name = "Gradska četvrt Donji grad", Latitude = "45.80834000", Longitude = "15.96949000" },
+                        new() { Id = 26, Name = "Gradska četvrt Gornji Grad - Medvescak", Latitude = "45.82820000", Longitude = "15.97938000" },
+                        new() { Id = 27, Name = "Gradska četvrt Podsljeme", Latitude = "45.86097000", Longitude = "15.97996000" },
+                        new() { Id = 28, Name = "Horvati", Latitude = "45.70000000", Longitude = "15.81667000" },
+                        new() { Id = 29, Name = "Jablanovec", Latitude = "45.87583000", Longitude = "15.85361000" },
+                        new() { Id = 30, Name = "Jakovlje", Latitude = "45.93611000", Longitude = "15.85559000" },
+                        new() { Id = 31, Name = "Jankomir", Latitude = "45.79167000", Longitude = "15.90000000" },
+                        new() { Id = 32, Name = "Jastrebarsko", Latitude = "45.66833000", Longitude = "15.64861000" },
+                        new() { Id = 33, Name = "Ježdovec", Latitude = "45.78333000", Longitude = "15.85000000" },
+                        new() { Id = 34, Name = "Kašina", Latitude = "45.91134000", Longitude = "16.12436000" },
+                        new() { Id = 35, Name = "Kerestinec", Latitude = "45.77010000", Longitude = "15.80864000" },
+                        new() { Id = 36, Name = "Križ", Latitude = "45.66500000", Longitude = "16.52333000" },
+                        new() { Id = 37, Name = "Kuče", Latitude = "45.67694000", Longitude = "16.14500000" },
+                        new() { Id = 38, Name = "Lonjica", Latitude = "45.85500000", Longitude = "16.33000000" },
+                        new() { Id = 39, Name = "Lučko", Latitude = "45.76111000", Longitude = "15.87028000" },
+                        new() { Id = 40, Name = "Luka", Latitude = "45.95795000", Longitude = "15.81954000" },
+                        new() { Id = 41, Name = "Lukavec", Latitude = "45.70444000", Longitude = "15.99000000" },
+                        new() { Id = 42, Name = "Lupoglav", Latitude = "45.79639000", Longitude = "16.34639000" },
+                        new() { Id = 43, Name = "Mičevec", Latitude = "45.75000000", Longitude = "16.06667000" },
+                        new() { Id = 44, Name = "Mraclin", Latitude = "45.66667000", Longitude = "16.09556000" },
+                        new() { Id = 45, Name = "Novi Zagreb", Latitude = "45.78333000", Longitude = "15.98333000" },
+                        new() { Id = 46, Name = "Novo Čiče", Latitude = "45.70000000", Longitude = "16.11667000" },
+                        new() { Id = 47, Name = "Novoselec", Latitude = "45.65250000", Longitude = "16.53639000" },
+                        new() { Id = 48, Name = "Odra", Latitude = "45.72979000", Longitude = "15.99240000" },
+                        new() { Id = 49, Name = "Općina Dubrava", Latitude = "45.83759000", Longitude = "16.53683000" },
+                        new() { Id = 50, Name = "Orešje", Latitude = "45.81618000", Longitude = "15.80246000" },
+                        new() { Id = 51, Name = "Pojatno", Latitude = "45.90500000", Longitude = "15.80056000" },
+                        new() { Id = 52, Name = "Preseka", Latitude = "45.97456000", Longitude = "16.38697000" },
+                        new() { Id = 53, Name = "Prigorje Brdovečko", Latitude = "45.87944000", Longitude = "15.73806000" },
+                        new() { Id = 54, Name = "Pušća", Latitude = "45.91567000", Longitude = "15.78049000" },
+                        new() { Id = 55, Name = "Rakitje", Latitude = "45.79389000", Longitude = "15.82222000" },
+                        new() { Id = 56, Name = "Rakov Potok", Latitude = "45.73806000", Longitude = "15.79722000" },
+                        new() { Id = 57, Name = "Rude", Latitude = "45.76667000", Longitude = "15.66667000" },
+                        new() { Id = 58, Name = "Samobor", Latitude = "45.80306000", Longitude = "15.71806000" },
+                        new() { Id = 59, Name = "Sesvete", Latitude = "45.83333000", Longitude = "16.13333000" },
+                        new() { Id = 60, Name = "Stenjevec", Latitude = "45.80846000", Longitude = "15.88245000" },
+                        new() { Id = 61, Name = "Strmec", Latitude = "45.70843000", Longitude = "15.91674000" },
+                        new() { Id = 62, Name = "Stupnik", Latitude = "45.75314000", Longitude = "15.84078000" },
+                        new() { Id = 63, Name = "Sveta Nedelja", Latitude = "45.79617000", Longitude = "15.77971000" },
+                        new() { Id = 64, Name = "Sveta Nedjelja", Latitude = "45.79833000", Longitude = "15.78056000" },
+                        new() { Id = 65, Name = "Velika Gorica", Latitude = "45.71250000", Longitude = "16.07556000" },
+                        new() { Id = 66, Name = "Velika Mlaka", Latitude = "45.73639000", Longitude = "16.03111000" },
+                        new() { Id = 67, Name = "Velika Ostrna", Latitude = "45.78752000", Longitude = "16.28139000" },
+                        new() { Id = 68, Name = "Vrbovec", Latitude = "45.88333000", Longitude = "16.42167000" },
+                        new() { Id = 69, Name = "Zadvorsko", Latitude = "45.71978000", Longitude = "15.90880000" },
+                        new() { Id = 70, Name = "Zagreb", Latitude = "45.81444000", Longitude = "15.97798000" },
+                        new() { Id = 71, Name = "Zaprešić", Latitude = "45.85639000", Longitude = "15.80778000" },
+                        new() { Id = 72, Name = "Zdenci Brdovečki", Latitude = "45.86667000", Longitude = "15.75000000" }
                     }
                 }
             }

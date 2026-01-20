@@ -11,7 +11,7 @@ namespace ShowsOnSale.World.Data.Countries
     {
         public static Country Data { get; } = new()
         {
-            Id = 99,
+            Id = 98,
             Name = "Hungary",
             Iso3 = "HUN",
             Iso2 = "HU",
@@ -38,6 +38,7 @@ namespace ShowsOnSale.World.Data.Countries
             },
             Translations = new()
             {
+                ["br"] = "Hungaria",
                 ["ko"] = "헝가리",
                 ["pt-BR"] = "Hungria",
                 ["pt"] = "Hungria",
@@ -53,7 +54,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["tr"] = "Macaristan",
                 ["ru"] = "Венгрия",
                 ["uk"] = "Угорщина",
-                ["pl"] = "Węgry"
+                ["pl"] = "Węgry",
+                ["hi"] = "हंगरी",
+                ["ar"] = "هنغاريا"
             },
             States = new()
             {
@@ -62,9 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Bács-Kiskun",
-                    StateCode = "BK",
-                    Latitude = "46.56614370",
-                    Longitude = "19.42724640",
+                    StateCode = "",
+                    Latitude = "46.58092940",
+                    Longitude = "19.51285320",
                     Type = "county",
                     Cities = new()
                     {
@@ -150,9 +153,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Baranya",
-                    StateCode = "BA",
-                    Latitude = "46.04845850",
-                    Longitude = "18.27191730",
+                    StateCode = "",
+                    Latitude = "45.97144360",
+                    Longitude = "18.16692460",
                     Type = "county",
                     Cities = new()
                     {
@@ -197,9 +200,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Békés",
-                    StateCode = "BE",
-                    Latitude = "46.67048990",
-                    Longitude = "21.04349960",
+                    StateCode = "",
+                    Latitude = "46.77174310",
+                    Longitude = "21.13258770",
                     Type = "county",
                     Cities = new()
                     {
@@ -260,9 +263,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Békéscsaba",
-                    StateCode = "BC",
-                    Latitude = "46.67359390",
-                    Longitude = "21.08773090",
+                    StateCode = "",
+                    Latitude = "46.67980030",
+                    Longitude = "21.09854250",
                     Type = "city with county rights",
                     Cities = new()
                     {
@@ -273,9 +276,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 5,
                     Name = "Borsod-Abaúj-Zemplén",
-                    StateCode = "BZ",
-                    Latitude = "48.29394010",
-                    Longitude = "20.69341120",
+                    StateCode = "",
+                    Latitude = "48.23979360",
+                    Longitude = "21.13534740",
                     Type = "county",
                     Cities = new()
                     {
@@ -372,7 +375,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Budapest",
-                    StateCode = "BU",
+                    StateCode = "",
                     Latitude = "47.49791200",
                     Longitude = "19.04023500",
                     Type = "capital city",
@@ -408,9 +411,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Csongrád County",
-                    StateCode = "CS",
-                    Latitude = "46.41670500",
-                    Longitude = "20.25661610",
+                    StateCode = "",
+                    Latitude = "46.26075250",
+                    Longitude = "20.14845680",
                     Type = "county",
                     Cities = new()
                     {
@@ -464,7 +467,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 8,
                     Name = "Debrecen",
-                    StateCode = "DE",
+                    StateCode = "",
                     Latitude = "47.53160490",
                     Longitude = "21.62731240",
                     Type = "city with county rights",
@@ -477,7 +480,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Dunaújváros",
-                    StateCode = "DU",
+                    StateCode = "",
                     Latitude = "46.96190590",
                     Longitude = "18.93552270",
                     Type = "city with county rights",
@@ -490,7 +493,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 10,
                     Name = "Eger",
-                    StateCode = "EG",
+                    StateCode = "",
                     Latitude = "47.90253480",
                     Longitude = "20.37722840",
                     Type = "city with county rights",
@@ -503,9 +506,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 11,
                     Name = "Érd",
-                    StateCode = "ER",
-                    Latitude = "47.39197180",
-                    Longitude = "18.90454400",
+                    StateCode = "",
+                    Latitude = "47.37724950",
+                    Longitude = "18.92138330",
                     Type = "city with county rights",
                     Cities = new()
                     {
@@ -516,7 +519,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Fejér County",
-                    StateCode = "FE",
+                    StateCode = "",
                     Latitude = "47.12179320",
                     Longitude = "18.52948150",
                     Type = "county",
@@ -588,9 +591,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Győr",
-                    StateCode = "GY",
-                    Latitude = "47.68745690",
-                    Longitude = "17.65039740",
+                    StateCode = "",
+                    Latitude = "47.68760900",
+                    Longitude = "17.63468150",
                     Type = "city with county rights",
                     Cities = new()
                     {
@@ -601,7 +604,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Győr-Moson-Sopron County",
-                    StateCode = "GS",
+                    StateCode = "",
                     Latitude = "47.65092850",
                     Longitude = "17.25058830",
                     Type = "county",
@@ -656,7 +659,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 15,
                     Name = "Hajdú-Bihar County",
-                    StateCode = "HB",
+                    StateCode = "",
                     Latitude = "47.46883550",
                     Longitude = "21.54532270",
                     Type = "county",
@@ -722,7 +725,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 16,
                     Name = "Heves County",
-                    StateCode = "HE",
+                    StateCode = "",
                     Latitude = "47.80576170",
                     Longitude = "20.20385590",
                     Type = "county",
@@ -792,7 +795,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 17,
                     Name = "Hódmezővásárhely",
-                    StateCode = "HV",
+                    StateCode = "",
                     Latitude = "46.41812620",
                     Longitude = "20.33003150",
                     Type = "city with county rights",
@@ -805,7 +808,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Jász-Nagykun-Szolnok County",
-                    StateCode = "JN",
+                    StateCode = "",
                     Latitude = "47.25555790",
                     Longitude = "20.52324560",
                     Type = "county",
@@ -871,7 +874,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 19,
                     Name = "Kaposvár",
-                    StateCode = "KV",
+                    StateCode = "",
                     Latitude = "46.35936060",
                     Longitude = "17.79676390",
                     Type = "city with county rights",
@@ -884,9 +887,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 20,
                     Name = "Kecskemét",
-                    StateCode = "KM",
-                    Latitude = "46.89637110",
-                    Longitude = "19.68968610",
+                    StateCode = "",
+                    Latitude = "46.90738830",
+                    Longitude = "19.69172060",
                     Type = "city with county rights",
                     Cities = new()
                     {
@@ -897,9 +900,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 21,
                     Name = "Komárom-Esztergom",
-                    StateCode = "KE",
-                    Latitude = "47.57797860",
-                    Longitude = "18.12568550",
+                    StateCode = "",
+                    Latitude = "47.65115990",
+                    Longitude = "18.25519110",
                     Type = "county",
                     Cities = new()
                     {
@@ -979,7 +982,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 22,
                     Name = "Miskolc",
-                    StateCode = "MI",
+                    StateCode = "",
                     Latitude = "48.10347750",
                     Longitude = "20.77843840",
                     Type = "city with county rights",
@@ -992,7 +995,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 23,
                     Name = "Nagykanizsa",
-                    StateCode = "NK",
+                    StateCode = "",
                     Latitude = "46.45902180",
                     Longitude = "16.98967960",
                     Type = "city with county rights",
@@ -1005,7 +1008,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 24,
                     Name = "Nógrád County",
-                    StateCode = "NO",
+                    StateCode = "",
                     Latitude = "47.90410310",
                     Longitude = "19.04985040",
                     Type = "county",
@@ -1049,7 +1052,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 25,
                     Name = "Nyíregyháza",
-                    StateCode = "NY",
+                    StateCode = "",
                     Latitude = "47.94953240",
                     Longitude = "21.72440530",
                     Type = "city with county rights",
@@ -1062,7 +1065,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 26,
                     Name = "Pécs",
-                    StateCode = "PS",
+                    StateCode = "",
                     Latitude = "46.07273450",
                     Longitude = "18.23226600",
                     Type = "city with county rights",
@@ -1075,7 +1078,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 27,
                     Name = "Pest County",
-                    StateCode = "PE",
+                    StateCode = "",
                     Latitude = "47.44800010",
                     Longitude = "19.46181280",
                     Type = "county",
@@ -1237,7 +1240,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 28,
                     Name = "Salgótarján",
-                    StateCode = "ST",
+                    StateCode = "",
                     Latitude = "48.09352370",
                     Longitude = "19.79998130",
                     Type = "city with county rights",
@@ -1250,7 +1253,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 29,
                     Name = "Somogy County",
-                    StateCode = "SO",
+                    StateCode = "",
                     Latitude = "46.55485900",
                     Longitude = "17.58667320",
                     Type = "county",
@@ -1301,9 +1304,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 30,
                     Name = "Sopron",
-                    StateCode = "SN",
-                    Latitude = "47.68166190",
-                    Longitude = "16.58447950",
+                    StateCode = "",
+                    Latitude = "47.68030630",
+                    Longitude = "16.59834570",
                     Type = "city with county rights",
                     Cities = new()
                     {
@@ -1314,7 +1317,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 31,
                     Name = "Szabolcs-Szatmár-Bereg County",
-                    StateCode = "SZ",
+                    StateCode = "",
                     Latitude = "48.03949540",
                     Longitude = "22.00333000",
                     Type = "county",
@@ -1421,7 +1424,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 32,
                     Name = "Szeged",
-                    StateCode = "SD",
+                    StateCode = "",
                     Latitude = "46.25301020",
                     Longitude = "20.14142530",
                     Type = "city with county rights",
@@ -1434,9 +1437,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 33,
                     Name = "Székesfehérvár",
-                    StateCode = "SF",
-                    Latitude = "47.18602620",
-                    Longitude = "18.42213580",
+                    StateCode = "",
+                    Latitude = "47.19101690",
+                    Longitude = "18.41081100",
                     Type = "city with county rights",
                     Cities = new()
                     {
@@ -1447,7 +1450,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 34,
                     Name = "Szekszárd",
-                    StateCode = "SS",
+                    StateCode = "",
                     Latitude = "46.34743260",
                     Longitude = "18.70622930",
                     Type = "city with county rights",
@@ -1460,9 +1463,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 35,
                     Name = "Szolnok",
-                    StateCode = "SK",
-                    Latitude = "47.16213550",
-                    Longitude = "20.18247120",
+                    StateCode = "",
+                    Latitude = "47.17538330",
+                    Longitude = "20.19462790",
                     Type = "city with county rights",
                     Cities = new()
                     {
@@ -1473,7 +1476,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 36,
                     Name = "Szombathely",
-                    StateCode = "SH",
+                    StateCode = "",
                     Latitude = "47.23068510",
                     Longitude = "16.62184410",
                     Type = "city with county rights",
@@ -1486,9 +1489,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 37,
                     Name = "Tatabánya",
-                    StateCode = "TB",
-                    Latitude = "47.56924600",
-                    Longitude = "18.40481800",
+                    StateCode = "",
+                    Latitude = "47.58384500",
+                    Longitude = "18.39798550",
                     Type = "city with county rights",
                     Cities = new()
                     {
@@ -1499,7 +1502,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 38,
                     Name = "Tolna County",
-                    StateCode = "TO",
+                    StateCode = "",
                     Latitude = "46.47627540",
                     Longitude = "18.55706270",
                     Type = "county",
@@ -1548,7 +1551,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 39,
                     Name = "Vas County",
-                    StateCode = "VA",
+                    StateCode = "",
                     Latitude = "47.09291110",
                     Longitude = "16.68121830",
                     Type = "county",
@@ -1583,9 +1586,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 40,
                     Name = "Veszprém",
-                    StateCode = "VM",
-                    Latitude = "47.10280870",
-                    Longitude = "17.90930190",
+                    StateCode = "",
+                    Latitude = "47.09338240",
+                    Longitude = "17.90804060",
                     Type = "city with county rights",
                     Cities = new()
                     {
@@ -1596,7 +1599,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 41,
                     Name = "Veszprém County",
-                    StateCode = "VE",
+                    StateCode = "",
                     Latitude = "47.09309740",
                     Longitude = "17.91007630",
                     Type = "county",
@@ -1646,9 +1649,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 42,
                     Name = "Zala County",
-                    StateCode = "ZA",
-                    Latitude = "46.73844040",
-                    Longitude = "16.91522520",
+                    StateCode = "",
+                    Latitude = "46.79008810",
+                    Longitude = "16.93394280",
                     Type = "county",
                     Cities = new()
                     {
@@ -1682,7 +1685,7 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 43,
                     Name = "Zalaegerszeg",
-                    StateCode = "ZE",
+                    StateCode = "",
                     Latitude = "46.84169360",
                     Longitude = "16.84163220",
                     Type = "county",
