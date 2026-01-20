@@ -25,7 +25,7 @@ public class WorldDataMethodsTests
     [InlineData(null, "New York")]
     public void GetStateByName_ReturnsNull_WhenCountryCodeOrStateNameIsNullOrWhitespace(string countryCode, string stateName)
     {
-        var result = WorldData.GetStateByName(countryCode, stateName);;
+        var result = WorldData.GetStateByName(countryCode, stateName);
         
         Assert.Null(result);
     }
@@ -61,7 +61,7 @@ public class WorldDataMethodsTests
     [InlineData(null, "NY")]
     public void GetStateByCode_ReturnsNull_WhenCountryCodeOrStateNameIsNullOrWhitespace(string countryCode, string stateCode)
     {
-        var result = WorldData.GetStateByCode(countryCode, stateCode);;
+        var result = WorldData.GetStateByCode(countryCode, stateCode);
         
         Assert.Null(result);
     }
