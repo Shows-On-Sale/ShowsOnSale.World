@@ -213,12 +213,16 @@ namespace ShowsOnSale.World.Data.Countries
         
         Set-Content $countryFilePath $countryCode -Encoding UTF8
         
-        # Add timezones as single-line entries
-        $timezoneCount = [int]$country.timezones.Count
+        # Add timezones as single-line entries (handle null timezones)
+        $timezones = @()
+        if ($null -ne $country.timezones) {
+            $timezones = @($country.timezones)
+        }
+        $timezoneCount = $timezones.Count
         $currentTimezone = [int]0
         $timezoneEntries = @()
-        
-        foreach ($timezone in $country.timezones) {
+
+        foreach ($timezone in $timezones) {
             $currentTimezone++
             $zoneName = Get-EscapedString $timezone.zoneName
             $gmtOffset = Get-IntegerValue $timezone.gmtOffset
