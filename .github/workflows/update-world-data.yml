@@ -9,55 +9,123 @@ on:
 jobs:
   update-world-data:
     runs-on: windows-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0  # Fetch all history for proper git operations
           submodules: recursive  # Fetch submodules (needed for countries-states-cities-database)
-      
+
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
-      
+
       - name: Run generate-world.ps1 script
         shell: pwsh
         run: |
           # Run the script
           ./scripts/generate-world.ps1
-      
+
       - name: Check for changes
         id: check_changes
         shell: pwsh
         run: |
-          # Check if there are any changes in the Data directory
+          # Check if there are any changes
           $changes = git status --porcelain src/ShowsOnSale.World/Data/
-          if ($changes) {
+          $submoduleChanges = git status --porcelain countries-states-cities-database
+
+          if ($changes -or $submoduleChanges) {
             echo "Changes detected in world data"
             echo "has_changes=true" >> $env:GITHUB_OUTPUT
+
+            # Get the list of changed files
+            $changedFiles = git status --porcelain | ForEach-Object { $_.Substring(3) }
+            $fileCount = ($changedFiles | Measure-Object).Count
+
+            # Get diff stats
+            $diffStats = git diff --stat --cached 2>$null
+            if (-not $diffStats) {
+              git add -A
+              $diffStats = git diff --stat --cached
+            }
+
+            # Count additions and deletions
+            $additions = 0
+            $deletions = 0
+            git diff --numstat --cached | ForEach-Object {
+              $parts = $_ -split '\t'
+              if ($parts[0] -ne '-') { $additions += [int]$parts[0] }
+              if ($parts[1] -ne '-') { $deletions += [int]$parts[1] }
+            }
+
+            # Get submodule commit info
+            $submoduleCommit = ""
+            if ($submoduleChanges) {
+              Push-Location countries-states-cities-database
+              $submoduleCommit = git log -1 --format="%h - %s" 2>$null
+              Pop-Location
+            }
+
+            # Build the change summary (use delimiter for multiline)
+            $summary = @"
+            ### Summary
+            - **Files changed:** $fileCount
+            - **Lines added:** +$additions
+            - **Lines deleted:** -$deletions
+            "@
+
+            if ($submoduleCommit) {
+              $summary += "`n- **Submodule updated to:** $submoduleCommit"
+            }
+
+            # Output using delimiter for multiline
+            echo "summary<<EOF" >> $env:GITHUB_OUTPUT
+            echo $summary >> $env:GITHUB_OUTPUT
+            echo "EOF" >> $env:GITHUB_OUTPUT
+
+            # Get list of changed country files (limited to first 20)
+            $countryFiles = $changedFiles | Where-Object { $_ -match "Data/Countries/.*\.cs$" } | Select-Object -First 20
+            $countryCount = ($changedFiles | Where-Object { $_ -match "Data/Countries/.*\.cs$" } | Measure-Object).Count
+
+            echo "country_count=$countryCount" >> $env:GITHUB_OUTPUT
+
+            $fileList = ($countryFiles | ForEach-Object { "- $_" }) -join "`n"
+            if ($countryCount -gt 20) {
+              $fileList += "`n- ... and $($countryCount - 20) more country files"
+            }
+
+            echo "file_list<<EOF" >> $env:GITHUB_OUTPUT
+            echo $fileList >> $env:GITHUB_OUTPUT
+            echo "EOF" >> $env:GITHUB_OUTPUT
+
+            # Generate date for branch name
+            $date = Get-Date -Format "yyyy-MM-dd"
+            echo "date=$date" >> $env:GITHUB_OUTPUT
+
           } else {
             echo "No changes detected in world data"
             echo "has_changes=false" >> $env:GITHUB_OUTPUT
           }
-      
+
       - name: Create Pull Request
         if: steps.check_changes.outputs.has_changes == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: update/world-data
-          title: 'Update World Data'
+          branch: update/world-data-${{ steps.check_changes.outputs.date }}
+          title: 'Update World Data (${{ steps.check_changes.outputs.date }})'
           body: |
-            This PR was automatically created by the GitHub Action to update the world data.
-            
-            The following files have been updated:
-            ```
-            ${{ steps.check_changes.outputs.changes }}
-            ```
-            
+            This PR was automatically created by the GitHub Action to update the world data from the [countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database) submodule.
+
+            ${{ steps.check_changes.outputs.summary }}
+
+            ### Changed Files (${{ steps.check_changes.outputs.country_count }} country files)
+            ${{ steps.check_changes.outputs.file_list }}
+
+            ---
             Please review the changes and merge if appropriate.
-          commit-message: 'Update world data'
+          commit-message: 'chore: update world data (${{ steps.check_changes.outputs.date }})'
           delete-branch: true
-          base: master 
+          base: master
