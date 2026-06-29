@@ -1,0 +1,51 @@
+{
+  "$comment": "Curated source of truth for metro areas. Hand-edit this file, then run scripts/generate-metros.ps1 to regenerate the embedded C# under src/ShowsOnSale.World/Data/Metros. 'stateId' references State.Id and 'cityId' references City.Id from the countries-states-cities dataset; note City.Id is only unique WITHIN a state, so (stateId, cityId) together identify a city. County members have no cityId.",
+  "metroAreas": [
+    {
+      "id": "us-nyc",
+      "name": "New York–Newark–Jersey City",
+      "shortName": "New York",
+      "primaryCountry": "US",
+      "countries": ["US"],
+      "code": "35620",
+      "latitude": "40.71427000",
+      "longitude": "-74.00597000",
+      "members": [
+        { "type": "City", "country": "US", "stateId": 35, "stateName": "New York", "cityId": 632, "name": "New York City" },
+        { "type": "City", "country": "US", "stateId": 35, "stateName": "New York", "cityId": 1044, "name": "Yonkers" },
+        { "type": "City", "country": "US", "stateId": 33, "stateName": "New Jersey", "cityId": 218, "name": "Jersey City" },
+        { "type": "City", "country": "US", "stateId": 33, "stateName": "New Jersey", "cityId": 322, "name": "Newark" }
+      ]
+    },
+    {
+      "id": "gb-london",
+      "name": "Greater London",
+      "shortName": "London",
+      "primaryCountry": "GB",
+      "countries": ["GB"],
+      "code": null,
+      "latitude": "51.50853000",
+      "longitude": "-0.12574000",
+      "members": [
+        { "type": "City", "country": "GB", "stateId": 212, "stateName": "Westminster", "cityId": 3, "name": "London" },
+        { "type": "State", "country": "GB", "stateId": 212, "stateName": "Westminster", "cityId": null, "name": "Westminster" },
+        { "type": "County", "country": "GB", "stateId": null, "stateName": "Surrey", "cityId": null, "name": "Surrey" }
+      ]
+    },
+    {
+      "id": "ch-basel",
+      "name": "Basel trinational",
+      "shortName": "Basel",
+      "primaryCountry": "CH",
+      "countries": ["CH", "FR", "DE"],
+      "code": null,
+      "latitude": "47.55960000",
+      "longitude": "7.58800000",
+      "members": [
+        { "type": "City", "country": "CH", "stateId": null, "stateName": "Basel-Stadt", "cityId": null, "name": "Basel" },
+        { "type": "City", "country": "FR", "stateId": null, "stateName": "Haut-Rhin", "cityId": null, "name": "Saint-Louis" },
+        { "type": "City", "country": "DE", "stateId": null, "stateName": "Baden-Württemberg", "cityId": null, "name": "Weil am Rhein" }
+      ]
+    }
+  ]
+}
