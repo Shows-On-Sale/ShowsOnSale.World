@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class HotSpringsAr
+    internal static class HotSpringsAr
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-hot-springs-malvern-ar",
             Latitude = "34.50370000",
             Longitude = "-93.05518000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 5, StateName = "Arkansas", CityId = 128, Name = "Hot Springs" }

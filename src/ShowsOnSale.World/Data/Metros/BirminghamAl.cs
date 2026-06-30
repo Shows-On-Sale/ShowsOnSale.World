@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class BirminghamAl
+    internal static class BirminghamAl
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-birmingham-cullman-talladega-al",
             Latitude = "33.52066000",
             Longitude = "-86.80249000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 1, StateName = "Alabama", CityId = 29, Name = "Birmingham" },

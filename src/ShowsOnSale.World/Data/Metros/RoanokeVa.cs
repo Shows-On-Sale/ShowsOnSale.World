@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class RoanokeVa
+    internal static class RoanokeVa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "37.27097300",
             Longitude = "-79.94143130",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = 384, Name = "Roanoke" },

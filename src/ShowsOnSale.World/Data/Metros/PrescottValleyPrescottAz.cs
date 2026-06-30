@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class PrescottValleyPrescottAz
+    internal static class PrescottValleyPrescottAz
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "34.61002000",
             Longitude = "-112.31572000",
+            TimeZoneId = "America/Phoenix",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 4, StateName = "Arizona", CityId = 151, Name = "Prescott Valley" },

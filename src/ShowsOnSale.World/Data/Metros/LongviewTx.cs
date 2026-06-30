@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class LongviewTx
+    internal static class LongviewTx
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "32.50070000",
             Longitude = "-94.74049000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 48, StateName = "Texas", CityId = 698, Name = "Longview" }

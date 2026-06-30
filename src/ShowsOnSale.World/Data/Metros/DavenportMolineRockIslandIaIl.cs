@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class DavenportMolineRockIslandIaIl
+    internal static class DavenportMolineRockIslandIaIl
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-davenport-moline-ia-il",
             Latitude = "41.52364000",
             Longitude = "-90.57764000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 18, StateName = "Iowa", CityId = 91, Name = "Davenport" },

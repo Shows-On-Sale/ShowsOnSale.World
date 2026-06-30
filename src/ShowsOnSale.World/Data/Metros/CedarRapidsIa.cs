@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class CedarRapidsIa
+    internal static class CedarRapidsIa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-cedar-rapids-iowa-city-ia",
             Latitude = "42.00833000",
             Longitude = "-91.64407000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 18, StateName = "Iowa", CityId = 57, Name = "Cedar Rapids" }

@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class CharlestonWv
+    internal static class CharlestonWv
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-charleston-huntington-ashland-wv-oh-ky",
             Latitude = "38.34982000",
             Longitude = "-81.63262000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 55, StateName = "West Virginia", CityId = 35, Name = "Charleston" }

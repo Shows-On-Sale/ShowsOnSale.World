@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class OmahaNeIa
+    internal static class OmahaNeIa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-omaha-fremont-ne-ia",
             Latitude = "41.25626000",
             Longitude = "-95.94043000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 30, StateName = "Nebraska", CityId = 157, Name = "Omaha" },

@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class TraverseCityMi
+    internal static class TraverseCityMi
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "44.76306000",
             Longitude = "-85.62063000",
+            TimeZoneId = "America/Detroit",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 25, StateName = "Michigan", CityId = 478, Name = "Traverse City" },

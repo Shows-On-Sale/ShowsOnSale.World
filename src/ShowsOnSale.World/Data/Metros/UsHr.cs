@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class UsHr
+    internal static class UsHr
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-virginia-beach-chesapeake-va-nc",
             Latitude = "36.85293000",
             Longitude = "-76.28587000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = 453, Name = "Virginia Beach" },

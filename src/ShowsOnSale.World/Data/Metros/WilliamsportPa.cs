@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class WilliamsportPa
+    internal static class WilliamsportPa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-williamsport-lock-haven-pa",
             Latitude = "41.24119000",
             Longitude = "-77.00108000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 42, StateName = "Pennsylvania", CityId = 1019, Name = "Williamsport" }

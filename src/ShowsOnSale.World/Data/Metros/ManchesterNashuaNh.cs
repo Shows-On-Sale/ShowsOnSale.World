@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class ManchesterNashuaNh
+    internal static class ManchesterNashuaNh
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-boston-worcester-providence-ma-ri-nh",
             Latitude = "42.99564000",
             Longitude = "-71.45479000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 32, StateName = "New Hampshire", CityId = 102, Name = "Manchester" },

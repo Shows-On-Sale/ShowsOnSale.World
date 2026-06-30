@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class JeffersonCityMo
+    internal static class JeffersonCityMo
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-columbia-jefferson-city-moberly-mo",
             Latitude = "38.57670000",
             Longitude = "-92.17352000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 28, StateName = "Missouri", CityId = 218, Name = "Jefferson City" },

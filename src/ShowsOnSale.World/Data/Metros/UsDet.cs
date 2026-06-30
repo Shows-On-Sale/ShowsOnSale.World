@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class UsDet
+    internal static class UsDet
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-detroit-warren-ann-arbor-mi",
             Latitude = "42.33143000",
             Longitude = "-83.04575000",
+            TimeZoneId = "America/Detroit",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 25, StateName = "Michigan", CityId = 123, Name = "Detroit" },

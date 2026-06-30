@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class BowlingGreenKy
+    internal static class BowlingGreenKy
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-bowling-green-glasgow-franklin-ky",
             Latitude = "36.99032000",
             Longitude = "-86.44360000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 20, StateName = "Kentucky", CityId = 31, Name = "Bowling Green" }

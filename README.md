@@ -2,22 +2,22 @@
 
 ## Description
 
-ShowsOnSale.World is a comprehensive C# library that provides a static data representation of the world's geographical hierarchy. It includes detailed information about countries, states/regions, cities, and additional metadata such as timezones, currencies, and ISO codes. This library allows you to incorporate global location data into your .NET applications without requiring external API calls or database connections.
+ShowsOnSale.World is a comprehensive C# library that provides a static data representation of the world's geographical hierarchy. It includes countries, states/regions, cities, and metadata such as timezones, currencies, and ISO codes — plus a curated overlay of **US metro areas (CBSA)** and **Combined Statistical Areas (CSA)**. All data is embedded at compile time, so there are no external API calls or database connections.
+
+The data currently covers **250 countries**, their states/regions and cities, **401 metro areas** (386 MSAs, 3 micropolitan, 12 curated international), and **159 combined statistical areas**.
 
 ## Features
 
 - Complete list of countries with ISO codes, currencies, and more
-- States/regions for each country
-- Cities within states/regions
-- Timezone information
-- Currency details
-- Country translations in multiple languages
-- Geographic coordinates (latitude/longitude)
-- Emoji flags for countries
+- States/regions for each country, and cities within them
+- US **metro areas** (CBSA/MSA) and **combined statistical areas** (CSA), with reverse city→metro lookup
+- **Per-metro IANA time zone** resolved from the metro centroid (e.g. `America/New_York`)
+- Timezone, currency, translation, and emoji-flag data
+- Geographic coordinates as raw strings **and** parsed `double?` accessors
+- Multi-targets **net8.0**, **net9.0**, and **net10.0**
+- Ships XML documentation for full IntelliSense
 
 ## Installation
-
-Install the package via NuGet:
 
 ```bash
 dotnet add package ShowsOnSale.World
@@ -29,130 +29,118 @@ dotnet add package ShowsOnSale.World
 using ShowsOnSale.World;
 using ShowsOnSale.World.Models;
 
-// Get all countries
+// All countries
 var allCountries = WorldData.All;
 
-// Get a specific country by name
+// By name or ISO2/ISO3 code
 var usa = WorldData.GetCountryByName("United States");
-Console.WriteLine($"USA Capital: {usa.Capital}"); // Output: USA Capital: Washington, D.C.
+var japan = WorldData.GetCountryByCode("JP"); // or "JPN"
 
-// Get a country by ISO code
-var japan = WorldData.GetCountryByCode("JP");
-Console.WriteLine($"Japan Currency: {japan.CurrencySymbol} {japan.CurrencyName}"); // Output: Japan Currency: ¥ Japanese yen
+Console.WriteLine($"{usa.Name} ({usa.Iso2}) — capital {usa.Capital}");
+Console.WriteLine($"Currency: {japan.CurrencySymbol} {japan.CurrencyName}"); // ¥ Japanese yen
+Console.WriteLine($"USA in French: {usa.Translations["fr"]}");                // États-Unis
 
-// Access country properties
-Console.WriteLine($"Country: {usa.Name} ({usa.Iso2})");
-Console.WriteLine($"Region: {usa.Region}, Subregion: {usa.Subregion}");
-Console.WriteLine($"Capital: {usa.Capital}");
-Console.WriteLine($"Currency: {usa.CurrencySymbol} {usa.CurrencyName}");
-Console.WriteLine($"Phone Code: +{usa.PhoneCode}");
-Console.WriteLine($"Emoji: {usa.Emoji}");
-
-// Access translations
-Console.WriteLine($"USA in French: {usa.Translations["fr"]}"); // Output: USA in French: États-Unis
-
-// Access timezones
-foreach (var timezone in usa.Timezones)
-{
-    Console.WriteLine($"Timezone: {timezone.ZoneName} ({timezone.GmtOffsetName})");
-}
-
-// Access states/regions
+// States and cities
 foreach (var state in usa.States)
 {
     Console.WriteLine($"State: {state.Name} ({state.StateCode})");
-    
-    // Access cities in each state
     foreach (var city in state.Cities)
-    {
-        Console.WriteLine($"  City: {city.Name} ({city.Latitude}, {city.Longitude})");
-    }
+        Console.WriteLine($"  {city.Name} ({city.LatitudeValue}, {city.LongitudeValue})");
 }
 ```
 
-## Advanced Usage Examples
+> **Note on state codes:** `State.StateCode` is empty for some countries (notably the US), so use
+> `GetStateByName` rather than `GetStateByCode` for those: `WorldData.GetStateByName("US", "New York")`.
 
-### Finding Countries by Region
+## Metro Areas
+
+A **metro area** groups one or more cities, counties, and/or states into a single named region. US
+metros follow the OMB Core-Based Statistical Area (CBSA) framework; a handful of curated international
+metros are also included. Metros are a top-level overlay (`WorldData.MetroAreas`) and can cross state
+and country borders.
 
 ```csharp
-// Find all countries in Europe
-var europeanCountries = WorldData.All.Where(c => c.Region == "Europe").ToList();
-Console.WriteLine($"There are {europeanCountries.Count} countries in Europe");
+// Look up a metro by its stable slug id
+var nyc = WorldData.GetMetroAreaById("us-nyc");
+Console.WriteLine($"{nyc.Name} — pop {nyc.Population:N0}, CBSA {nyc.Code}");
 
-// Find all countries in Asia
-var asianCountries = WorldData.All.Where(c => c.Region == "Asia").ToList();
-Console.WriteLine($"There are {asianCountries.Count} countries in Asia");
+// The metro's single local IANA time zone (resolved from its centroid)
+Console.WriteLine(nyc.TimeZoneId);                          // America/New_York
+var tz = WorldData.GetMetroTimezone(nyc);                   // the matching Timezone record
+var info = TimeZoneInfo.FindSystemTimeZoneById(nyc.TimeZoneId!); // cross-platform on modern .NET
+
+// All metros touching a country (ISO2 or ISO3); cross-border metros appear for each member country
+var usMetros = WorldData.GetMetroAreasByCountry("US");
+
+// Reverse lookup: which metro contains a given city? (use the (StateId, CityId) pair)
+var metroForCity = WorldData.GetMetroAreaForCity(stateId: 35, cityId: 632); // us-nyc
+
+// Resolve a metro's members to live City/State/Country objects
+foreach (var city in WorldData.GetMetroCities(nyc))
+    Console.WriteLine(city.Name);
 ```
 
-### Working with Currencies
+### Time zones, the right way
+
+The underlying dataset carries timezones only at the **country** level, so a country like the US lists
+~29 zones. `MetroArea.TimeZoneId` (and `GetMetroTimezone`) give you the metro's **single local zone**,
+resolved from the centroid at build time:
 
 ```csharp
-// Find all countries that use the Euro
-var euroCountries = WorldData.All.Where(c => c.Currency == "EUR").ToList();
-Console.WriteLine($"There are {euroCountries.Count} countries that use the Euro");
-
-// Find all countries that use the US Dollar
-var dollarCountries = WorldData.All.Where(c => c.Currency == "USD").ToList();
-Console.WriteLine($"There are {dollarCountries.Count} countries that use the US Dollar");
+WorldData.GetMetroTimezone(WorldData.GetMetroAreaById("us-phx")).ZoneName; // America/Phoenix
+WorldData.GetMetroTimezone(WorldData.GetMetroAreaById("us-la")).ZoneName;  // America/Los_Angeles
 ```
 
-### Working with Timezones
+`GetMetroTimezones` returns that single resolved zone when available, falling back to the country-level
+candidate set only for metros without a resolved id.
+
+## Combined Statistical Areas (CSA)
+
+A **CSA** is a roll-up *over* metros, linked by commuting ties (the wider "region" for tour routing or
+market analytics). It references its member metros by id and never replaces them.
 
 ```csharp
-// Find all countries in a specific timezone
-var utcPlusOneCountries = WorldData.All
-    .Where(c => c.Timezones.Any(t => t.GmtOffsetName == "UTC+01:00"))
-    .ToList();
-Console.WriteLine($"There are {utcPlusOneCountries.Count} countries in UTC+01:00");
+var csas = WorldData.CombinedStatisticalAreas;
+var nyCsa = csas.First(c => c.Id == "csa-new-york-newark-ny-nj-ct-pa");
 
-// Find countries with multiple timezones
-var multiTimezoneCountries = WorldData.All
-    .Where(c => c.Timezones.Count > 1)
-    .OrderByDescending(c => c.Timezones.Count)
-    .Take(5)
-    .ToList();
-
-foreach (var country in multiTimezoneCountries)
-{
-    Console.WriteLine($"{country.Name} has {country.Timezones.Count} timezones");
-}
+foreach (var metroId in nyCsa.MetroIds)
+    Console.WriteLine(WorldData.GetMetroAreaById(metroId)!.Name);
 ```
 
-### Finding Cities
+## Coordinates
+
+Latitude/Longitude are stored as decimal-degree **strings** (matching the upstream dataset). Every model
+that carries coordinates also exposes parsed `double?` accessors so you don't have to parse them yourself:
 
 ```csharp
-// Find all cities in a country
-var usaCities = WorldData.GetCountryByName("United States")
-    .States
-    .SelectMany(s => s.Cities)
-    .ToList();
-Console.WriteLine($"The USA has {usaCities.Count} cities in the database");
-
-// Find cities by name (across all countries)
-var londonCities = WorldData.All
-    .SelectMany(c => c.States)
-    .SelectMany(s => s.Cities)
-    .Where(city => city.Name.Contains("London"))
-    .ToList();
-Console.WriteLine($"There are {londonCities.Count} cities named London in the database");
+City city = /* ... */;
+double? lat = city.LatitudeValue;   // null if blank/unparseable
+double? lon = city.LongitudeValue;
 ```
 
-### Working with Translations
+Available on `Country`, `State`, `City`, and `MetroArea`.
+
+## API Reference
 
 ```csharp
-// Find countries with translations in a specific language
-var countriesWithFrenchTranslation = WorldData.All
-    .Where(c => c.Translations.ContainsKey("fr"))
-    .ToList();
-Console.WriteLine($"There are {countriesWithFrenchTranslation.Count} countries with French translations");
+WorldData.All                                   // IReadOnlyList<Country>
+WorldData.MetroAreas                            // IReadOnlyList<MetroArea>
+WorldData.CombinedStatisticalAreas              // IReadOnlyList<CombinedStatisticalArea>
+WorldData.Timezones                             // distinct timezones across all countries
 
-// Display a country name in multiple languages
-var germany = WorldData.GetCountryByName("Germany");
-Console.WriteLine($"Germany in different languages:");
-Console.WriteLine($"- English: {germany.Name}");
-Console.WriteLine($"- French: {germany.Translations["fr"]}");
-Console.WriteLine($"- Spanish: {germany.Translations["es"]}");
-Console.WriteLine($"- German: {germany.Translations["de"]}");
+WorldData.GetCountryByCode("US")                // ISO2 or ISO3
+WorldData.GetCountryByName("United States")      // name or translation
+WorldData.GetStateByCode("US", "NY")            // by country + state code (empty for some countries)
+WorldData.GetStateByName("US", "New York")      // by country + state name
+
+WorldData.GetMetroAreaById("us-nyc")
+WorldData.GetMetroAreasByCountry("US")
+WorldData.GetMetroAreaForCity(stateId, cityId)  // reverse city → metro
+WorldData.GetMetroTimezone(metro)               // the metro's single local Timezone
+WorldData.GetMetroTimezones(metro)              // resolved zone, else country candidates
+WorldData.GetMetroCities(metro)                 // resolved live City objects
+WorldData.GetMetroCountries(metro)              // resolved live Country objects
+WorldData.ResolveCity(member) / ResolveState(member)
 ```
 
 ## Data Models
@@ -169,9 +157,9 @@ public class Country
     public string NumericCode { get; set; }
     public string PhoneCode { get; set; }
     public string Capital { get; set; }
-    public string Currency { get; set; }
-    public string CurrencyName { get; set; }
-    public string CurrencySymbol { get; set; }
+    public string Currency { get; set; }          // ISO 4217 code, e.g. "USD"
+    public string CurrencyName { get; set; }       // e.g. "United States dollar"
+    public string CurrencySymbol { get; set; }     // e.g. "$"
     public string Tld { get; set; }
     public string Native { get; set; }
     public string Region { get; set; }
@@ -183,6 +171,8 @@ public class Country
     public Dictionary<string, string> Translations { get; set; }
     public string Latitude { get; set; }
     public string Longitude { get; set; }
+    public double? LatitudeValue { get; }          // parsed
+    public double? LongitudeValue { get; }         // parsed
     public string Emoji { get; set; }
     public string EmojiU { get; set; }
     public List<State> States { get; set; }
@@ -194,12 +184,14 @@ public class Country
 ```csharp
 public class State
 {
-    public int Id { get; set; }
+    public int Id { get; set; }                    // unique within a country only
     public string Name { get; set; }
-    public string StateCode { get; set; }
+    public string StateCode { get; set; }          // may be empty (e.g. US)
     public string Latitude { get; set; }
     public string Longitude { get; set; }
-    public string Type { get; set; }
+    public double? LatitudeValue { get; }
+    public double? LongitudeValue { get; }
+    public string Type { get; set; }               // "state", "province", "territory", ...
     public List<City> Cities { get; set; }
 }
 ```
@@ -209,25 +201,63 @@ public class State
 ```csharp
 public class City
 {
-    public int Id { get; set; }
+    public int Id { get; set; }                    // unique within a state only
     public string Name { get; set; }
     public string Latitude { get; set; }
     public string Longitude { get; set; }
+    public double? LatitudeValue { get; }
+    public double? LongitudeValue { get; }
 }
 ```
 
-### Timezone
+### MetroArea
 
 ```csharp
-public class Timezone
+public class MetroArea
 {
-    public string ZoneName { get; set; }
-    public int GmtOffset { get; set; }
-    public string GmtOffsetName { get; set; }
-    public string Abbreviation { get; set; }
-    public string TzName { get; set; }
+    public string Id { get; init; }                // stable slug, e.g. "us-nyc"
+    public string Name { get; init; }
+    public string? ShortName { get; init; }
+    public string CountryIso2 { get; init; }       // primary country
+    public List<string> Countries { get; init; }   // all countries touched
+    public string? Code { get; init; }             // CBSA code for US metros; null otherwise
+    public MetroAreaType Type { get; init; }       // Msa | Micropolitan | Other
+    public long? Population { get; init; }
+    public string? CsaId { get; init; }            // owning CSA, if any
+    public string? Latitude { get; init; }
+    public string? Longitude { get; init; }
+    public double? LatitudeValue { get; }
+    public double? LongitudeValue { get; }
+    public string? TimeZoneId { get; init; }       // IANA zone resolved from centroid
+    public List<MetroMember> Members { get; init; }
 }
 ```
+
+### CombinedStatisticalArea
+
+```csharp
+public class CombinedStatisticalArea
+{
+    public string Id { get; init; }
+    public string Name { get; init; }
+    public string? Code { get; init; }             // OMB CSA code
+    public string CountryIso2 { get; init; }
+    public long? Population { get; init; }
+    public List<string> MetroIds { get; init; }    // member metros
+}
+```
+
+### MetroMember
+
+A member is a `City`, `County`, or `State` (`MetroMemberType`). Because `City.Id` is unique only within
+a state and `State.Id` only within a country, members are addressed by composite key — resolve them with
+`WorldData.ResolveCity` / `ResolveState`. County members carry no `CityId` (counties aren't in the
+underlying dataset).
+
+## Versioning / Target Frameworks
+
+- **2.0** multi-targets `net8.0`, `net9.0`, and `net10.0`.
+- See [CHANGELOG.md](CHANGELOG.md) for release history and the 1.x → 2.0 migration notes.
 
 ## License
 
@@ -235,10 +265,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Data Source
 
-The data is sourced from the following GitHub repository:
-https://github.com/dr5hn/countries-states-cities-database
-
-## Data License
-
-The data is licensed under the following license:
-https://github.com/dr5hn/countries-states-cities-database/blob/master/LICENSE
+Base country/state/city data is sourced from
+[dr5hn/countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database)
+([data license](https://github.com/dr5hn/countries-states-cities-database/blob/master/LICENSE)).
+US metro areas and CSAs are a curated overlay derived from the U.S. OMB delineation files.

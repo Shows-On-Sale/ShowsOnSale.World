@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class CharlotteConcordGastoniaNcSc
+    internal static class CharlotteConcordGastoniaNcSc
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-charlotte-concord-nc-sc",
             Latitude = "35.22709000",
             Longitude = "-80.84313000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 36, StateName = "North Carolina", CityId = 88, Name = "Charlotte" },

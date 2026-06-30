@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class GreenvilleAndersonGreerSc
+    internal static class GreenvilleAndersonGreerSc
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-greenville-spartanburg-anderson-sc",
             Latitude = "34.85262000",
             Longitude = "-82.39401000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 45, StateName = "South Carolina", CityId = 108, Name = "Greenville" },

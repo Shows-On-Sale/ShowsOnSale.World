@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class LouisvilleJeffersonCountyKyIn
+    internal static class LouisvilleJeffersonCountyKyIn
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-louisville-jefferson-county-elizabethtown-ky-in",
             Latitude = "38.25424000",
             Longitude = "-85.75941000",
+            TimeZoneId = "America/Kentucky/Louisville",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 20, StateName = "Kentucky", CityId = 226, Name = "Louisville/Jefferson County" },

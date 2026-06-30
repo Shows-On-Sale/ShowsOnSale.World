@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class FairbanksCollegeAk
+    internal static class FairbanksCollegeAk
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "64.83778000",
             Longitude = "-147.71639000",
+            TimeZoneId = "America/Anchorage",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 2, StateName = "Alaska", CityId = 31, Name = "Fairbanks" },

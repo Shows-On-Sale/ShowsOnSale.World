@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class SpringfieldIl
+    internal static class SpringfieldIl
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-springfield-jacksonville-lincoln-il",
             Latitude = "39.80172000",
             Longitude = "-89.64371000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 16, StateName = "Illinois", CityId = 730, Name = "Springfield" }

@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class BloomingtonIl
+    internal static class BloomingtonIl
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-bloomington-pontiac-il",
             Latitude = "40.48420000",
             Longitude = "-88.99369000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 16, StateName = "Illinois", CityId = 59, Name = "Bloomington" },

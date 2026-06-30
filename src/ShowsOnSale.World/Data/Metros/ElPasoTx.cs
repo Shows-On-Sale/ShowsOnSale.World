@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class ElPasoTx
+    internal static class ElPasoTx
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-el-paso-las-cruces-tx-nm",
             Latitude = "31.75872000",
             Longitude = "-106.48693000",
+            TimeZoneId = "America/Ciudad_Juarez",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 48, StateName = "Texas", CityId = 332, Name = "El Paso" }

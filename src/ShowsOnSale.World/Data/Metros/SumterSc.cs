@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class SumterSc
+    internal static class SumterSc
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-columbia-sumter-orangeburg-sc",
             Latitude = "33.92044000",
             Longitude = "-80.34147000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 45, StateName = "South Carolina", CityId = 248, Name = "Sumter" }

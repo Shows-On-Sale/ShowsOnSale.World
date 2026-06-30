@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class EugeneSpringfieldOr
+    internal static class EugeneSpringfieldOr
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "44.05207000",
             Longitude = "-123.08675000",
+            TimeZoneId = "America/Los_Angeles",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 41, StateName = "Oregon", CityId = 71, Name = "Eugene" },

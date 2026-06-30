@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class UsDen
+    internal static class UsDen
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-denver-aurora-greeley-co",
             Latitude = "39.73915000",
             Longitude = "-104.99025000",
+            TimeZoneId = "America/Denver",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 7, StateName = "Colorado", CityId = 77, Name = "Denver" },

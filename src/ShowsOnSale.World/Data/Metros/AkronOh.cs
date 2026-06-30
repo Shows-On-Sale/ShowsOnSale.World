@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class AkronOh
+    internal static class AkronOh
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-cleveland-akron-canton-oh",
             Latitude = "41.08144000",
             Longitude = "-81.51901000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 39, StateName = "Ohio", CityId = 3, Name = "Akron" },

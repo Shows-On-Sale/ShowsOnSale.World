@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class TylerTx
+    internal static class TylerTx
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-tyler-jacksonville-tx",
             Latitude = "32.35126000",
             Longitude = "-95.30106000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 48, StateName = "Texas", CityId = 1170, Name = "Tyler" }

@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class UrbanHonoluluHi
+    internal static class UrbanHonoluluHi
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "21.30694000",
             Longitude = "-157.85833000",
+            TimeZoneId = "Pacific/Honolulu",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 14, StateName = "Hawaii", CityId = 35, Name = "Urban Honolulu" }

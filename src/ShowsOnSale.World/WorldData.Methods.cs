@@ -1,5 +1,11 @@
 namespace ShowsOnSale.World;
 
+/// <summary>
+/// Static, compile-time geographical data and lookup methods: countries, states/regions, cities,
+/// timezones, currencies, ISO codes, plus US metro areas (<see cref="MetroAreas"/>) and combined
+/// statistical areas (<see cref="CombinedStatisticalAreas"/>). All data is embedded — no external
+/// API or database calls.
+/// </summary>
 public partial class WorldData
 {
     /// <summary>
@@ -80,7 +86,7 @@ public partial class WorldData
     /// Returns null if the state is not found.
     /// </summary>
     /// <param name="countryCode">The ISO2 or ISO3 code of the country.</param>
-    /// <param name="stateCode">The ISO2 code of the state.</param>
+    /// <param name="stateName">The name of the state.</param>
     /// <returns>The state if found; otherwise, null.</returns>
     public static Models.State? GetStateByName(string countryCode, string stateName)
     {

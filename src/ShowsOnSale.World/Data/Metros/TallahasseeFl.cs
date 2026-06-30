@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class TallahasseeFl
+    internal static class TallahasseeFl
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-tallahassee-bainbridge-fl-ga",
             Latitude = "30.43826000",
             Longitude = "-84.28073000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 11, StateName = "Florida", CityId = 722, Name = "Tallahassee" }

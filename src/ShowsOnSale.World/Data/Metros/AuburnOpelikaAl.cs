@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class AuburnOpelikaAl
+    internal static class AuburnOpelikaAl
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-columbus-auburn-opelika-ga-al",
             Latitude = "32.60986000",
             Longitude = "-85.48078000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 1, StateName = "Alabama", CityId = 18, Name = "Auburn" },

@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class PortlandSouthPortlandMe
+    internal static class PortlandSouthPortlandMe
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-portland-lewiston-south-portland-me",
             Latitude = "43.65737000",
             Longitude = "-70.25890000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 22, StateName = "Maine", CityId = 193, Name = "Portland" },

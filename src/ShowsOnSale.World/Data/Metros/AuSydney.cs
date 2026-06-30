@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class AuSydney
+    internal static class AuSydney
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "-33.86785000",
             Longitude = "151.20732000",
+            TimeZoneId = "Australia/Sydney",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "AU", StateId = 2, StateName = "New South Wales", CityId = 1039, Name = "Sydney" },

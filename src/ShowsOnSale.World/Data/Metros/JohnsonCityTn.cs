@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class JohnsonCityTn
+    internal static class JohnsonCityTn
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-johnson-city-kingsport-bristol-tn-va",
             Latitude = "36.31344000",
             Longitude = "-82.35347000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 47, StateName = "Tennessee", CityId = 177, Name = "Johnson City" }

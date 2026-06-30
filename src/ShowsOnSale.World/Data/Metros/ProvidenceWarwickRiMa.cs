@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class ProvidenceWarwickRiMa
+    internal static class ProvidenceWarwickRiMa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-boston-worcester-providence-ma-ri-nh",
             Latitude = "41.82399000",
             Longitude = "-71.41283000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 44, StateName = "Rhode Island", CityId = 41, Name = "Providence" },

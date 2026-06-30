@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class LimaOh
+    internal static class LimaOh
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-lima-van-wert-celina-oh",
             Latitude = "40.74255000",
             Longitude = "-84.10523000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 39, StateName = "Ohio", CityId = 357, Name = "Lima" }

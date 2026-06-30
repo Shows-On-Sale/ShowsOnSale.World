@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class SpringfieldOh
+    internal static class SpringfieldOh
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-dayton-springfield-kettering-oh",
             Latitude = "39.92423000",
             Longitude = "-83.80882000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 39, StateName = "Ohio", CityId = 636, Name = "Springfield" },

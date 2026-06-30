@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class MissoulaMt
+    internal static class MissoulaMt
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "46.87215000",
             Longitude = "-113.99400000",
+            TimeZoneId = "America/Denver",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 29, StateName = "Montana", CityId = 100, Name = "Missoula" },

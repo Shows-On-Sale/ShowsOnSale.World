@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class FayettevilleSpringdaleRogersAr
+    internal static class FayettevilleSpringdaleRogersAr
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "36.06258000",
             Longitude = "-94.15743000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 5, StateName = "Arkansas", CityId = 89, Name = "Fayetteville" },

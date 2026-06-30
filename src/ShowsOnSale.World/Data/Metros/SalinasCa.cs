@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class SalinasCa
+    internal static class SalinasCa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "36.67774000",
             Longitude = "-121.65550000",
+            TimeZoneId = "America/Los_Angeles",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 6, StateName = "California", CityId = 841, Name = "Salinas" },

@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class MidlandMi
+    internal static class MidlandMi
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-saginaw-midland-bay-city-mi",
             Latitude = "43.61558000",
             Longitude = "-84.24721000",
+            TimeZoneId = "America/Detroit",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 25, StateName = "Michigan", CityId = 323, Name = "Midland" },

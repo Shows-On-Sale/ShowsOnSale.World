@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class BridgeportStamfordDanburyCt
+    internal static class BridgeportStamfordDanburyCt
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-new-york-newark-ny-nj-ct-pa",
             Latitude = "41.17923000",
             Longitude = "-73.18945000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 8, StateName = "Connecticut", CityId = 9, Name = "Bridgeport" },

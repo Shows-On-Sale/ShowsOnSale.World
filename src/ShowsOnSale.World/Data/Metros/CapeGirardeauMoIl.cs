@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class CapeGirardeauMoIl
+    internal static class CapeGirardeauMoIl
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-cape-girardeau-sikeston-mo-il",
             Latitude = "37.30588000",
             Longitude = "-89.51815000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 28, StateName = "Missouri", CityId = 67, Name = "Cape Girardeau" }

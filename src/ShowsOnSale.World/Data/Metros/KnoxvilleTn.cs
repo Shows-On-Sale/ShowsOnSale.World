@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class KnoxvilleTn
+    internal static class KnoxvilleTn
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-knoxville-morristown-sevierville-tn",
             Latitude = "35.96064000",
             Longitude = "-83.92074000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 47, StateName = "Tennessee", CityId = 187, Name = "Knoxville" }

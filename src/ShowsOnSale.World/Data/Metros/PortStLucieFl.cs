@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class PortStLucieFl
+    internal static class PortStLucieFl
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-miami-port-st-lucie-fort-lauderdale-fl",
             Latitude = "27.29393000",
             Longitude = "-80.35033000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 11, StateName = "Florida", CityId = 611, Name = "Port St. Lucie" },

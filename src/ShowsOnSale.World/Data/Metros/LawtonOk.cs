@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class LawtonOk
+    internal static class LawtonOk
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-lawton-duncan-ok",
             Latitude = "34.60869000",
             Longitude = "-98.39033000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 40, StateName = "Oklahoma", CityId = 161, Name = "Lawton" }

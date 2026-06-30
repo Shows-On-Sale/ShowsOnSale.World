@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class BatonRougeLa
+    internal static class BatonRougeLa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-baton-rouge-hammond-la",
             Latitude = "30.44332000",
             Longitude = "-91.18747000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 21, StateName = "Louisiana", CityId = 25, Name = "Baton Rouge" }

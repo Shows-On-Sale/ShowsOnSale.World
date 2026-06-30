@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class GrantsPassOr
+    internal static class GrantsPassOr
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-medford-grants-pass-or",
             Latitude = "42.43933000",
             Longitude = "-123.33067000",
+            TimeZoneId = "America/Los_Angeles",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 41, StateName = "Oregon", CityId = 88, Name = "Grants Pass" },

@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class MankatoMn
+    internal static class MankatoMn
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-mankato-new-ulm-mn",
             Latitude = "44.15906000",
             Longitude = "-94.00915000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 26, StateName = "Minnesota", CityId = 236, Name = "Mankato" },

@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class DeBerlin
+    internal static class DeBerlin
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "52.52001000",
             Longitude = "13.40495000",
+            TimeZoneId = "Europe/Berlin",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "DE", StateId = 3, StateName = "Berlin", CityId = 6, Name = "Berlin" },

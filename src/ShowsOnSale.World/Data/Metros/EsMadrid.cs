@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class EsMadrid
+    internal static class EsMadrid
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "40.41678000",
             Longitude = "-3.70379000",
+            TimeZoneId = "Europe/Madrid",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "ES", StateId = 47, StateName = "Madrid", CityId = 109, Name = "Madrid" },

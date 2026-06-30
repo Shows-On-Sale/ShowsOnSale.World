@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class LebanonPa
+    internal static class LebanonPa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-harrisburg-york-lebanon-pa",
             Latitude = "40.34093000",
             Longitude = "-76.41135000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 42, StateName = "Pennsylvania", CityId = 501, Name = "Lebanon" },

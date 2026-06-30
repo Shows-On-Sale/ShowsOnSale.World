@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class HuntsvilleAl
+    internal static class HuntsvilleAl
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-huntsville-decatur-albertville-al-tn",
             Latitude = "34.73040000",
             Longitude = "-86.58594000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 1, StateName = "Alabama", CityId = 188, Name = "Huntsville" }

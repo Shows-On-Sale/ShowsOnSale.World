@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class MercedCa
+    internal static class MercedCa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-san-jose-san-francisco-oakland-ca",
             Latitude = "37.30216000",
             Longitude = "-120.48297000",
+            TimeZoneId = "America/Los_Angeles",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 6, StateName = "California", CityId = 608, Name = "Merced" }

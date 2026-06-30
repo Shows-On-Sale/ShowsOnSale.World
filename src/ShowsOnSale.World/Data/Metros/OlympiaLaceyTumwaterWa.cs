@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class OlympiaLaceyTumwaterWa
+    internal static class OlympiaLaceyTumwaterWa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-seattle-tacoma-wa",
             Latitude = "47.03787000",
             Longitude = "-122.90070000",
+            TimeZoneId = "America/Los_Angeles",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 54, StateName = "Washington", CityId = 276, Name = "Olympia" },

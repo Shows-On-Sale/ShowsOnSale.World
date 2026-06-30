@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class MyrtleBeachConwayNorthMyrtleBeachSc
+    internal static class MyrtleBeachConwayNorthMyrtleBeachSc
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-myrtle-beach-conway-sc",
             Latitude = "33.68906000",
             Longitude = "-78.88669000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 45, StateName = "South Carolina", CityId = 186, Name = "Myrtle Beach" },

@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class LakeCharlesLa
+    internal static class LakeCharlesLa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-lake-charles-deridder-la",
             Latitude = "30.21309000",
             Longitude = "-93.20440000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 21, StateName = "Louisiana", CityId = 173, Name = "Lake Charles" }

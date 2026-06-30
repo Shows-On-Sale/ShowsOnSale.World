@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class MemphisTnMsAr
+    internal static class MemphisTnMsAr
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-memphis-clarksdale-forrest-city-tn-ms-ar",
             Latitude = "35.14953000",
             Longitude = "-90.04898000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 47, StateName = "Tennessee", CityId = 234, Name = "Memphis" },

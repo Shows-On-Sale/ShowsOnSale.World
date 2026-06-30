@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class InMumbai
+    internal static class InMumbai
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "19.07598000",
             Longitude = "72.87766000",
+            TimeZoneId = "Asia/Kolkata",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "IN", StateId = 21, StateName = "Maharashtra", CityId = 327, Name = "Mumbai" },

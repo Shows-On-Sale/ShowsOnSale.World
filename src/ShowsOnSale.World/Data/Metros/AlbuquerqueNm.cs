@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class AlbuquerqueNm
+    internal static class AlbuquerqueNm
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-albuquerque-santa-fe-los-alamos-nm",
             Latitude = "35.08449000",
             Longitude = "-106.65114000",
+            TimeZoneId = "America/Denver",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 34, StateName = "New Mexico", CityId = 4, Name = "Albuquerque" },

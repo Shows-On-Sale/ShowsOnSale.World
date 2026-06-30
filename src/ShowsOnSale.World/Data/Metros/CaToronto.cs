@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class CaToronto
+    internal static class CaToronto
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "43.70011000",
             Longitude = "-79.41630000",
+            TimeZoneId = "America/Toronto",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "CA", StateId = 9, StateName = "Ontario", CityId = 215, Name = "Toronto" },

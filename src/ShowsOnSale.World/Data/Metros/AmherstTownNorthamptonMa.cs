@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class AmherstTownNorthamptonMa
+    internal static class AmherstTownNorthamptonMa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-springfield-amherst-town-northampton-ma",
             Latitude = "42.36723000",
             Longitude = "-72.51852000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 24, StateName = "Massachusetts", CityId = 8, Name = "Amherst Town" },

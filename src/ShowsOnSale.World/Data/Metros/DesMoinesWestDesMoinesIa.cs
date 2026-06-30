@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class DesMoinesWestDesMoinesIa
+    internal static class DesMoinesWestDesMoinesIa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-des-moines-west-des-moines-ames-ia",
             Latitude = "41.60054000",
             Longitude = "-93.60911000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 18, StateName = "Iowa", CityId = 100, Name = "Des Moines" },

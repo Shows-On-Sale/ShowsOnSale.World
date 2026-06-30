@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class AlbanySchenectadyTroyNy
+    internal static class AlbanySchenectadyTroyNy
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-albany-schenectady-ny",
             Latitude = "42.65258000",
             Longitude = "-73.75623000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 35, StateName = "New York", CityId = 7, Name = "Albany" },

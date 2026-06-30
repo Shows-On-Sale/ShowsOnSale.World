@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class LansingEastLansingMi
+    internal static class LansingEastLansingMi
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-lansing-east-lansing-owosso-mi",
             Latitude = "42.73253000",
             Longitude = "-84.55553000",
+            TimeZoneId = "America/Detroit",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 25, StateName = "Michigan", CityId = 274, Name = "Lansing" },

@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class ClevelandTn
+    internal static class ClevelandTn
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-chattanooga-cleveland-dalton-tn-ga-al",
             Latitude = "35.15952000",
             Longitude = "-84.87661000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 47, StateName = "Tennessee", CityId = 60, Name = "Cleveland" }

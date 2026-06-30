@@ -56,4 +56,28 @@ public class WorldDataTests
         // Assert
         Assert.Null(country);
     }
+
+    [Fact]
+    public void Country_CoordinateAccessors_ParseStrings()
+    {
+        var us = WorldData.GetCountryByCode("US")!;
+
+        Assert.NotNull(us.LatitudeValue);
+        Assert.NotNull(us.LongitudeValue);
+        Assert.Equal(double.Parse(us.Latitude, System.Globalization.CultureInfo.InvariantCulture),
+            us.LatitudeValue!.Value, 6);
+    }
+
+    [Fact]
+    public void StateAndCity_CoordinateAccessors_ParseStrings()
+    {
+        // US states carry an empty StateCode in this dataset, so resolve by name.
+        var ny = WorldData.GetStateByName("US", "New York")!;
+        Assert.NotNull(ny.LatitudeValue);
+        Assert.NotNull(ny.LongitudeValue);
+
+        var city = ny.Cities.First();
+        Assert.NotNull(city.LatitudeValue);
+        Assert.NotNull(city.LongitudeValue);
+    }
 }

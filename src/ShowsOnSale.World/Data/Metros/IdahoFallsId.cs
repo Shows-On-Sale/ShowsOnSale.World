@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class IdahoFallsId
+    internal static class IdahoFallsId
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-idaho-falls-rexburg-blackfoot-id",
             Latitude = "43.46658000",
             Longitude = "-112.03414000",
+            TimeZoneId = "America/Boise",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 15, StateName = "Idaho", CityId = 63, Name = "Idaho Falls" }

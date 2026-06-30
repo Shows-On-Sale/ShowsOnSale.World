@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class VinelandNj
+    internal static class VinelandNj
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-philadelphia-reading-camden-pa-nj-de-md",
             Latitude = "39.48623000",
             Longitude = "-75.02573000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 33, StateName = "New Jersey", CityId = 503, Name = "Vineland" }

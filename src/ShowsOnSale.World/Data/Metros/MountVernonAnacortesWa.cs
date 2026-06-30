@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class MountVernonAnacortesWa
+    internal static class MountVernonAnacortesWa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-seattle-tacoma-wa",
             Latitude = "48.42122000",
             Longitude = "-122.33405000",
+            TimeZoneId = "America/Los_Angeles",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 54, StateName = "Washington", CityId = 256, Name = "Mount Vernon" },

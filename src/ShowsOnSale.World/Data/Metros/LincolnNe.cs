@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class LincolnNe
+    internal static class LincolnNe
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-lincoln-beatrice-ne",
             Latitude = "40.80000000",
             Longitude = "-96.66696000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 30, StateName = "Nebraska", CityId = 127, Name = "Lincoln" }

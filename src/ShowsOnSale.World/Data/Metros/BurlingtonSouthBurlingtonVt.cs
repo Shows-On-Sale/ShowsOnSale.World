@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class BurlingtonSouthBurlingtonVt
+    internal static class BurlingtonSouthBurlingtonVt
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-burlington-south-burlington-barre-vt",
             Latitude = "44.47588000",
             Longitude = "-73.21207000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 52, StateName = "Vermont", CityId = 12, Name = "Burlington" },

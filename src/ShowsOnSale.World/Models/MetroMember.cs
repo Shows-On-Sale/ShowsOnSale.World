@@ -43,6 +43,7 @@ namespace ShowsOnSale.World.Models
         /// <summary>Display name of the member (the city, county, or state name).</summary>
         public required string Name { get; init; }
 
+        /// <inheritdoc/>
         public override string ToString()
         {
             return $"{Name} ({Type})";

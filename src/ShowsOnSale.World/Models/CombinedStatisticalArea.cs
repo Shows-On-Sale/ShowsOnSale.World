@@ -28,6 +28,7 @@ namespace ShowsOnSale.World.Models
         /// <summary>Ids of the member <see cref="MetroArea"/>s that roll up into this CSA.</summary>
         public required List<string> MetroIds { get; init; }
 
+        /// <inheritdoc/>
         public override string ToString()
         {
             return $"{Name} ({Id})";

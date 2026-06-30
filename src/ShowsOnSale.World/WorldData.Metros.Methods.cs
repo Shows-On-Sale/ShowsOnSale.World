@@ -122,19 +122,48 @@ public partial class WorldData
     }
 
     /// <summary>
-    /// Gets the <i>candidate</i> timezones for a metro area: the union of the timezones of every
-    /// country the metro touches, de-duplicated and ordered by zone name. Because the underlying
-    /// dataset carries timezones only at the country level (not per city), this is the set a metro
-    /// <i>could</i> fall in, not a single resolved local zone. For a metro inside a multi-timezone
-    /// country (e.g. any US metro) this returns <b>all</b> of that country's zones, so do not treat
-    /// the result as the metro's one local timezone.
+    /// Gets the metro area's single local timezone, resolved from its centroid at data-generation
+    /// time (see <see cref="Models.MetroArea.TimeZoneId"/>). This is the correct way to get "the
+    /// timezone of a metro" — unlike <see cref="GetMetroTimezones"/>, it returns one zone, not the
+    /// whole country's candidate set.
     /// </summary>
     /// <param name="metro">The metro area.</param>
-    /// <returns>The distinct candidate timezones, ordered by zone name.</returns>
+    /// <returns>
+    /// The <see cref="Models.Timezone"/> matching <see cref="Models.MetroArea.TimeZoneId"/>, or null
+    /// if the metro has no resolved id or the dataset carries no matching zone record. When this is
+    /// null but <see cref="Models.MetroArea.TimeZoneId"/> is set, callers can still resolve the id
+    /// directly via <see cref="System.TimeZoneInfo.FindSystemTimeZoneById(string)"/>.
+    /// </returns>
+    public static Models.Timezone? GetMetroTimezone(Models.MetroArea metro)
+    {
+        if (string.IsNullOrEmpty(metro?.TimeZoneId))
+            return null;
+
+        // The resolved IANA zone belongs to one of the metro's countries; fall back to the global
+        // set so a metro whose primary country list is incomplete still resolves.
+        return GetMetroCountries(metro)
+            .SelectMany(c => c.Timezones)
+            .Concat(Timezones)
+            .FirstOrDefault(t => string.Equals(t.ZoneName, metro.TimeZoneId, StringComparison.OrdinalIgnoreCase));
+    }
+
+    /// <summary>
+    /// Gets the timezones for a metro area. When the metro has a resolved local zone
+    /// (<see cref="Models.MetroArea.TimeZoneId"/>) this returns just that single zone; otherwise it
+    /// falls back to the <i>candidate</i> set — the union of the timezones of every country the metro
+    /// touches, de-duplicated and ordered by zone name. Prefer <see cref="GetMetroTimezone"/> when you
+    /// want the one local zone.
+    /// </summary>
+    /// <param name="metro">The metro area.</param>
+    /// <returns>The metro's resolved local zone (single item), or the distinct country-level candidates ordered by zone name.</returns>
     public static IEnumerable<Models.Timezone> GetMetroTimezones(Models.MetroArea metro)
     {
         if (metro is null)
             return Enumerable.Empty<Models.Timezone>();
+
+        var resolved = GetMetroTimezone(metro);
+        if (resolved is not null)
+            return new[] { resolved };
 
         return GetMetroCountries(metro)
             .SelectMany(c => c.Timezones)

@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class CoeurDAleneId
+    internal static class CoeurDAleneId
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-spokane-spokane-valley-coeur-d-alene-wa-id",
             Latitude = "47.67768000",
             Longitude = "-116.78047000",
+            TimeZoneId = "America/Los_Angeles",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 15, StateName = "Idaho", CityId = 34, Name = "Coeur d'Alene" }

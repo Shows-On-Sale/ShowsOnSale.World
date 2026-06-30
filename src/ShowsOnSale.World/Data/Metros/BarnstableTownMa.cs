@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class BarnstableTownMa
+    internal static class BarnstableTownMa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-boston-worcester-providence-ma-ri-nh",
             Latitude = "41.70011000",
             Longitude = "-70.29947000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 24, StateName = "Massachusetts", CityId = 23, Name = "Barnstable Town" },

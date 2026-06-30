@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class OrlandoKissimmeeSanfordFl
+    internal static class OrlandoKissimmeeSanfordFl
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-orlando-lakeland-deltona-fl",
             Latitude = "28.53834000",
             Longitude = "-81.37924000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 11, StateName = "Florida", CityId = 542, Name = "Orlando" },

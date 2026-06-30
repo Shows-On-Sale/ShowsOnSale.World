@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class TulsaOk
+    internal static class TulsaOk
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-tulsa-bartlesville-muskogee-ok",
             Latitude = "36.15398000",
             Longitude = "-95.99277000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 40, StateName = "Oklahoma", CityId = 290, Name = "Tulsa" }

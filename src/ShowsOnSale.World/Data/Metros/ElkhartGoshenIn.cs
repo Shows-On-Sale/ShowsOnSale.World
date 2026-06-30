@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class ElkhartGoshenIn
+    internal static class ElkhartGoshenIn
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-south-bend-elkhart-mishawaka-in-mi",
             Latitude = "41.68199000",
             Longitude = "-85.97667000",
+            TimeZoneId = "America/Indiana/Indianapolis",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 17, StateName = "Indiana", CityId = 106, Name = "Elkhart" },

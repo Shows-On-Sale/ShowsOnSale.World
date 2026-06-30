@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class SavannahGa
+    internal static class SavannahGa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-savannah-hinesville-statesboro-ga",
             Latitude = "32.08354000",
             Longitude = "-81.09983000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 12, StateName = "Georgia", CityId = 424, Name = "Savannah" }

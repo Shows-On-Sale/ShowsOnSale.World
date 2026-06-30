@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class WausauWi
+    internal static class WausauWi
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-wausau-stevens-point-wisconsin-rapids-wi",
             Latitude = "44.95914000",
             Longitude = "-89.63012000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 56, StateName = "Wisconsin", CityId = 464, Name = "Wausau" }

@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class KenoshaWi
+    internal static class KenoshaWi
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-chicago-naperville-il-in-wi",
             Latitude = "42.58474000",
             Longitude = "-87.82119000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 56, StateName = "Wisconsin", CityId = 207, Name = "Kenosha" }

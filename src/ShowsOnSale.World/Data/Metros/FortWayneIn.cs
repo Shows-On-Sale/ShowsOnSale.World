@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class FortWayneIn
+    internal static class FortWayneIn
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-fort-wayne-huntington-auburn-in",
             Latitude = "41.13060000",
             Longitude = "-85.12886000",
+            TimeZoneId = "America/Indiana/Indianapolis",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 17, StateName = "Indiana", CityId = 124, Name = "Fort Wayne" },

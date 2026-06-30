@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class WallaWallaWa
+    internal static class WallaWallaWa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-kennewick-richland-walla-walla-wa",
             Latitude = "46.06458000",
             Longitude = "-118.34302000",
+            TimeZoneId = "America/Los_Angeles",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 54, StateName = "Washington", CityId = 395, Name = "Walla Walla" }

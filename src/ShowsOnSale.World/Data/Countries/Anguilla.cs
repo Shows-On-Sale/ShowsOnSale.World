@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Countries
 {
-    public static class Anguilla
+    internal static class Anguilla
     {
         public static Country Data { get; } = new()
         {

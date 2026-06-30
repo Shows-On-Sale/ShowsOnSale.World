@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class GrandRapidsWyomingKentwoodMi
+    internal static class GrandRapidsWyomingKentwoodMi
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-grand-rapids-wyoming-mi",
             Latitude = "42.96336000",
             Longitude = "-85.66809000",
+            TimeZoneId = "America/Detroit",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 25, StateName = "Michigan", CityId = 185, Name = "Grand Rapids" },

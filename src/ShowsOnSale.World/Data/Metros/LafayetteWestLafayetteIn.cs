@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class LafayetteWestLafayetteIn
+    internal static class LafayetteWestLafayetteIn
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-lafayette-west-lafayette-frankfort-in",
             Latitude = "40.41670000",
             Longitude = "-86.87529000",
+            TimeZoneId = "America/Indiana/Indianapolis",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 17, StateName = "Indiana", CityId = 207, Name = "Lafayette" },

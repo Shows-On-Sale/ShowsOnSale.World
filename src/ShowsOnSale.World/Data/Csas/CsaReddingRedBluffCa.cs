@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Csas
 {
-    public static class CsaReddingRedBluffCa
+    internal static class CsaReddingRedBluffCa
     {
         public static CombinedStatisticalArea Data { get; } = new()
         {

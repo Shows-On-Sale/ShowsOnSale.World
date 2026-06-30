@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class BlacksburgChristiansburgRadfordVa
+    internal static class BlacksburgChristiansburgRadfordVa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "37.22957000",
             Longitude = "-80.41394000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = 39, Name = "Blacksburg" },

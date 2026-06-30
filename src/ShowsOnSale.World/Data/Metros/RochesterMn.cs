@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class RochesterMn
+    internal static class RochesterMn
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-rochester-austin-winona-mn",
             Latitude = "44.02163000",
             Longitude = "-92.46990000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 26, StateName = "Minnesota", CityId = 349, Name = "Rochester" }

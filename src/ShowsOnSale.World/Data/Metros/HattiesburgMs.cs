@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class HattiesburgMs
+    internal static class HattiesburgMs
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-hattiesburg-laurel-ms",
             Latitude = "31.32712000",
             Longitude = "-89.29034000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 27, StateName = "Mississippi", CityId = 99, Name = "Hattiesburg" }

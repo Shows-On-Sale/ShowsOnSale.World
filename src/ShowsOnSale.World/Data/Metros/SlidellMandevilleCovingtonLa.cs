@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class SlidellMandevilleCovingtonLa
+    internal static class SlidellMandevilleCovingtonLa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-new-orleans-metairie-slidell-la-ms",
             Latitude = "30.27519000",
             Longitude = "-89.78117000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 21, StateName = "Louisiana", CityId = 294, Name = "Slidell" },

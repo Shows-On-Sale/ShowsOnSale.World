@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Csas
 {
-    public static class CsaJacksonVicksburgBrookhavenMs
+    internal static class CsaJacksonVicksburgBrookhavenMs
     {
         public static CombinedStatisticalArea Data { get; } = new()
         {

@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class AtlanticCityHammontonNj
+    internal static class AtlanticCityHammontonNj
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-philadelphia-reading-camden-pa-nj-de-md",
             Latitude = "39.36415000",
             Longitude = "-74.42306000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 33, StateName = "New Jersey", CityId = 12, Name = "Atlantic City" },

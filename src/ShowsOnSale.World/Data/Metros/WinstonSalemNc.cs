@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class WinstonSalemNc
+    internal static class WinstonSalemNc
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-greensboro-winston-salem-high-point-nc",
             Latitude = "36.09986000",
             Longitude = "-80.24422000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 36, StateName = "North Carolina", CityId = 543, Name = "Winston-Salem" }

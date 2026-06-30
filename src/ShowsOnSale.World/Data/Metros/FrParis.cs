@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class FrParis
+    internal static class FrParis
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "48.85340000",
             Longitude = "2.34860000",
+            TimeZoneId = "Europe/Paris",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "FR", StateId = 60, StateName = "Île-de-France", CityId = 487, Name = "Paris" },

@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class RenoNv
+    internal static class RenoNv
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-reno-carson-city-gardnerville-ranchos-nv-ca",
             Latitude = "39.52963000",
             Longitude = "-119.81380000",
+            TimeZoneId = "America/Los_Angeles",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 31, StateName = "Nevada", CityId = 57, Name = "Reno" },

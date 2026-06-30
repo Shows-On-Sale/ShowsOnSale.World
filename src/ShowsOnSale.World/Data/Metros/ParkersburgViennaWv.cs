@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class ParkersburgViennaWv
+    internal static class ParkersburgViennaWv
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-parkersburg-marietta-vienna-wv-oh",
             Latitude = "39.26674000",
             Longitude = "-81.56151000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 55, StateName = "West Virginia", CityId = 139, Name = "Parkersburg" },

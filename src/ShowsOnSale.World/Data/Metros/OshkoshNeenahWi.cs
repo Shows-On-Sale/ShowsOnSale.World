@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class OshkoshNeenahWi
+    internal static class OshkoshNeenahWi
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-appleton-oshkosh-neenah-wi",
             Latitude = "44.02471000",
             Longitude = "-88.54261000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 56, StateName = "Wisconsin", CityId = 326, Name = "Oshkosh" },

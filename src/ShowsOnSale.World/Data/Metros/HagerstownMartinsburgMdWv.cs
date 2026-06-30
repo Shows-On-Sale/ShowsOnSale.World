@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class HagerstownMartinsburgMdWv
+    internal static class HagerstownMartinsburgMdWv
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-washington-baltimore-arlington-dc-md-va-wv-pa",
             Latitude = "39.64176000",
             Longitude = "-77.71999000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 23, StateName = "Maryland", CityId = 156, Name = "Hagerstown" },

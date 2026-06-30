@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class AppletonWi
+    internal static class AppletonWi
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-appleton-oshkosh-neenah-wi",
             Latitude = "44.26193000",
             Longitude = "-88.41538000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 56, StateName = "Wisconsin", CityId = 14, Name = "Appleton" }

@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class BrSaopaulo
+    internal static class BrSaopaulo
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "-23.55052000",
             Longitude = "-46.63331000",
+            TimeZoneId = "America/Sao_Paulo",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "BR", StateId = 25, StateName = "São Paulo", CityId = 570, Name = "São Paulo" },

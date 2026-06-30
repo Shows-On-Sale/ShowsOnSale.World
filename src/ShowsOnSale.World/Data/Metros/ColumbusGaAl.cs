@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class ColumbusGaAl
+    internal static class ColumbusGaAl
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-columbus-auburn-opelika-ga-al",
             Latitude = "32.46098000",
             Longitude = "-84.98771000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 12, StateName = "Georgia", CityId = 109, Name = "Columbus" }

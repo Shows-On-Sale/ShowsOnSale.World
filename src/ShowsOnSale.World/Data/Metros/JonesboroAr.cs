@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class JonesboroAr
+    internal static class JonesboroAr
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-jonesboro-paragould-ar",
             Latitude = "35.84230000",
             Longitude = "-90.70428000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 5, StateName = "Arkansas", CityId = 142, Name = "Jonesboro" }

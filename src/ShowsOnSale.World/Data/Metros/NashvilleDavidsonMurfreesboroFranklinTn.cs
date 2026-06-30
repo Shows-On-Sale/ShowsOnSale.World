@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class NashvilleDavidsonMurfreesboroFranklinTn
+    internal static class NashvilleDavidsonMurfreesboroFranklinTn
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-nashville-davidson-murfreesboro-tn",
             Latitude = "36.16589000",
             Longitude = "-86.78444000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 47, StateName = "Tennessee", CityId = 256, Name = "Nashville-Davidson" },

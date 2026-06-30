@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class HarrisonburgVa
+    internal static class HarrisonburgVa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-harrisonburg-staunton-stuarts-draft-va",
             Latitude = "38.44933150",
             Longitude = "-78.86888330",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = 225, Name = "Harrisonburg" }

@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class BoiseCityId
+    internal static class BoiseCityId
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-boise-city-mountain-home-ontario-id-or",
             Latitude = "43.61350000",
             Longitude = "-116.20345000",
+            TimeZoneId = "America/Boise",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 15, StateName = "Idaho", CityId = 15, Name = "Boise City" },
