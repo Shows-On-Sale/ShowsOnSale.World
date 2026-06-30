@@ -38,6 +38,24 @@ namespace ShowsOnSale.World.Models
         /// </summary>
         public string? Code { get; set; }
 
+        /// <summary>
+        /// The metro's classification. US metros are <see cref="MetroAreaType.Msa"/>; curated
+        /// international metros are <see cref="MetroAreaType.Other"/>.
+        /// </summary>
+        public MetroAreaType Type { get; set; } = MetroAreaType.Other;
+
+        /// <summary>
+        /// Most recent population estimate, if known (US metros use the Census Bureau Vintage 2024
+        /// estimate). Null where no figure is curated.
+        /// </summary>
+        public long? Population { get; set; }
+
+        /// <summary>
+        /// Id of the <see cref="CombinedStatisticalArea"/> this metro rolls up into, if any. A metro
+        /// belongs to at most one CSA; standalone metros leave this null.
+        /// </summary>
+        public string? CsaId { get; set; }
+
         /// <summary>Approximate centroid latitude, as a string (matches the rest of the dataset).</summary>
         public string? Latitude { get; set; }
 

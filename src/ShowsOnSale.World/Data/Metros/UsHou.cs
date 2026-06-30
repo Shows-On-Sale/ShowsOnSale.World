@@ -17,6 +17,9 @@ namespace ShowsOnSale.World.Data.Metros
             CountryIso2 = "US",
             Countries = new() { "US" },
             Code = "26420",
+            Type = MetroAreaType.Msa,
+            Population = 7796182,
+            CsaId = "csa-houston",
             Latitude = "29.76043000",
             Longitude = "-95.36980000",
             Members = new()

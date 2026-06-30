@@ -17,6 +17,9 @@ namespace ShowsOnSale.World.Data.Metros
             CountryIso2 = "US",
             Countries = new() { "US" },
             Code = "47260",
+            Type = MetroAreaType.Msa,
+            Population = 1794278,
+            CsaId = "csa-virginia-beach",
             Latitude = "36.85293000",
             Longitude = "-76.28587000",
             Members = new()

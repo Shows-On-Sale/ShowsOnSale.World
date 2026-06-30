@@ -16,7 +16,10 @@ namespace ShowsOnSale.World.Data.Metros
             ShortName = "San Francisco",
             CountryIso2 = "US",
             Countries = new() { "US" },
-            Code = null,
+            Code = "41860",
+            Type = MetroAreaType.Msa,
+            Population = 4648486,
+            CsaId = "csa-san-jose-sf-oakland",
             Latitude = "37.77493000",
             Longitude = "-122.41942000",
             Members = new()

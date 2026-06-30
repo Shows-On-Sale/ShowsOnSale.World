@@ -35,6 +35,9 @@ MetroArea
 ├─ CountryIso2  string   primary country
 ├─ Countries    [string] every country the metro touches (trinational metros list several)
 ├─ Code         string?  external standard code (e.g. US CBSA "35620"); null where none applies
+├─ Type         enum     Msa | Micropolitan | Other  (US metros are Msa; international are Other)
+├─ Population    long?    latest estimate (US: Census Vintage 2024); null where not curated
+├─ CsaId        string?  the CombinedStatisticalArea this rolls up into, if any
 ├─ Latitude     string?  centroid (string, to match the rest of the dataset)
 ├─ Longitude    string?
 └─ Members      [MetroMember]
@@ -72,6 +75,32 @@ counties), but today a county member is **name-only** (`CityId = null`). If a co
 is added later, county members can be upgraded to carry an id without changing the model or
 the API.
 
+## Combined Statistical Areas (CSAs)
+
+A **CSA** groups adjacent metros linked by commuting ties (the U.S. OMB framework: e.g.
+*New York–Newark, NY-NJ-CT-PA* contains the New York MSA plus the Bridgeport, Trenton,
+Poughkeepsie, and Kingston MSAs).
+
+**Why CSAs are a thin roll-up, not the search unit.** This library backs event/show search,
+and there the **metro (MSA) is the catchment**: someone searching "Dallas" wants Arlington and
+Plano (one MSA), but someone in NYC will not drive to Kingston or Trenton for a show — even
+though those share the *same CSA*. So a city/event resolves to exactly **one metro**, which
+optionally rolls up to **one CSA**. The CSA is for *widening* a search to the region (tour
+routing, market analytics), never for replacing the metro.
+
+```
+CombinedStatisticalArea
+├─ Id           string   stable slug, e.g. "csa-new-york"
+├─ Name         string   OMB title, "New York–Newark, NY-NJ-CT-PA"
+├─ Code         string?  external standard code; null where not curated
+├─ CountryIso2  string
+├─ Population   long?    latest estimate (Census Vintage 2024 for US CSAs)
+└─ MetroIds     [string] member metro ids — the CSA references metros, never owns cities
+```
+
+The link is kept consistent both ways: a metro's `CsaId` names its CSA, and that CSA's
+`MetroIds` lists the metro (a test asserts this in both directions).
+
 ## API
 
 **Lookup**
@@ -101,14 +130,25 @@ WorldData.GetMetroTimezones(metro)    // distinct timezones aggregated from memb
 Resolution is intentionally tolerant: members that can't be resolved (e.g. the id-less
 cross-border Basel members) are skipped rather than throwing, so the calls are always safe.
 
+**Combined Statistical Areas** — the roll-up layer:
+
+```csharp
+WorldData.CombinedStatisticalAreas               // List<CombinedStatisticalArea> — all CSAs
+WorldData.GetCombinedStatisticalAreaById("csa-new-york")
+WorldData.GetCsaForMetro("us-nyc")               // which CSA a metro rolls up into (null if standalone)
+WorldData.GetCsaMetros(csa)                       // member metros, ordered by population desc
+```
+
 ## Data pipeline
 
 ```
-data/metro-areas.json   ──scripts/generate-metros.ps1──▶   src/.../Data/Metros/<Slug>.cs
-   (hand-edited)                                            src/.../WorldData.Metros.cs
+data/metro-areas.json                ──scripts/generate-metros.ps1──▶  src/.../Data/Metros/<Slug>.cs
+data/combined-statistical-areas.json                                   src/.../WorldData.Metros.cs
+   (hand-edited)                                                        src/.../Data/Csas/<Slug>.cs
+                                                                        src/.../WorldData.Csa.cs
 ```
 
-- The JSON is the **only** file a human edits.
+- The two JSON files are the **only** files a human edits.
 - Running `scripts/generate-metros.ps1` regenerates the embedded C#. Generated files carry
   the standard "automatically generated" header and must not be hand-edited.
 - The generator is intentionally decoupled from `generate-world.ps1`: it never touches the
@@ -149,17 +189,30 @@ A test (`EveryCityMember_ResolvesAgainstWorldData`) asserts that every one of th
 members' `(stateId, cityId)` resolves to a real city in `WorldData`, guarding against typos
 and against drift after a world-data regeneration.
 
+### CSAs
+
+The 18 US MSAs roll up into **17 CSAs** (San Diego is a standalone MSA). Each CSA currently
+lists the one seeded MSA it contains; the full OMB hierarchy adds the smaller constituent MSAs
+(e.g. the New York CSA also contains Bridgeport, Trenton, Poughkeepsie, Kingston) — those are
+added by appending to the CSA's `MetroIds` as each MSA is seeded.
+
 ## Open questions / future work
 
-- **Name→id resolution in the generator** so the JSON is editable without manual id lookup.
+- **Full US MSA/CSA import.** Source: OMB Bulletin 23-01 + Census Vintage 2024 — 387 US MSAs
+  and 181 CSAs. The model and pipeline now support this; remaining work is seeding the rest of
+  the MSAs (principal cities → ids) and fleshing out each CSA's `MetroIds`.
+- **Name→id resolution in the generator** so the JSON is editable without manual id lookup —
+  this is the enabler for bulk-importing the principal cities of the remaining MSAs.
 - **County data**: if/when counties enter the dataset, promote county members from name-only
   to id-backed.
-- **Validation step** in CI: the `EveryCityMember_ResolvesAgainstWorldData` test already
-  asserts every `(stateId, cityId)` resolves; wiring it (or an equivalent check) into CI would
-  catch drift after a world-data regeneration automatically.
+- **Validation step** in CI: the resolve/consistency tests already assert anchors and CSA
+  membership; wiring them into CI would catch drift after a world-data regeneration automatically.
 
 ### Done
 
 - **Member resolution helpers** — `ResolveState`, `ResolveCity`, `GetMetroCities`,
-  `GetMetroCountries`, `GetMetroTimezones` (see API above).
+  `GetMetroCountries`, `GetMetroTimezones`.
+- **CSA roll-up layer** — `CombinedStatisticalArea` model + `CombinedStatisticalAreas`,
+  `GetCombinedStatisticalAreaById`, `GetCsaForMetro`, `GetCsaMetros`; metros enriched with
+  `Type`, `Population`, `CsaId`.
 ```

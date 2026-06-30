@@ -45,7 +45,10 @@
           "cityId": 322,
           "name": "Newark"
         }
-      ]
+      ],
+      "type": "Msa",
+      "population": 19940274,
+      "csaId": "csa-new-york"
     },
     {
       "id": "us-la",
@@ -91,7 +94,10 @@
           "cityId": 882,
           "name": "Santa Ana"
         }
-      ]
+      ],
+      "type": "Msa",
+      "population": 12927614,
+      "csaId": "csa-los-angeles"
     },
     {
       "id": "us-sf",
@@ -101,7 +107,7 @@
       "countries": [
         "US"
       ],
-      "code": null,
+      "code": "41860",
       "latitude": "37.77493000",
       "longitude": "-122.41942000",
       "members": [
@@ -129,7 +135,10 @@
           "cityId": 863,
           "name": "San Jose"
         }
-      ]
+      ],
+      "type": "Msa",
+      "population": 4648486,
+      "csaId": "csa-san-jose-sf-oakland"
     },
     {
       "id": "us-chi",
@@ -175,7 +184,10 @@
           "cityId": 207,
           "name": "Kenosha"
         }
-      ]
+      ],
+      "type": "Msa",
+      "population": 9408576,
+      "csaId": "csa-chicago"
     },
     {
       "id": "us-dfw",
@@ -221,7 +233,10 @@
           "cityId": 904,
           "name": "Plano"
         }
-      ]
+      ],
+      "type": "Msa",
+      "population": 8344032,
+      "csaId": "csa-dallas-fort-worth"
     },
     {
       "id": "us-dc",
@@ -267,7 +282,10 @@
           "cityId": 30,
           "name": "Bethesda"
         }
-      ]
+      ],
+      "type": "Msa",
+      "population": 6436489,
+      "csaId": "csa-washington-baltimore"
     },
     {
       "id": "us-mia",
@@ -305,7 +323,10 @@
           "cityId": 804,
           "name": "West Palm Beach"
         }
-      ]
+      ],
+      "type": "Msa",
+      "population": 6457988,
+      "csaId": "csa-miami"
     },
     {
       "id": "us-bos",
@@ -343,7 +364,10 @@
           "cityId": 279,
           "name": "Quincy"
         }
-      ]
+      ],
+      "type": "Msa",
+      "population": 5025517,
+      "csaId": "csa-boston"
     },
     {
       "id": "gb-london",
@@ -381,7 +405,10 @@
           "cityId": null,
           "name": "Surrey"
         }
-      ]
+      ],
+      "type": "Other",
+      "population": null,
+      "csaId": null
     },
     {
       "id": "fr-paris",
@@ -427,7 +454,10 @@
           "cityId": 638,
           "name": "Versailles"
         }
-      ]
+      ],
+      "type": "Other",
+      "population": null,
+      "csaId": null
     },
     {
       "id": "jp-tokyo",
@@ -481,7 +511,10 @@
           "cityId": 4,
           "name": "Chiba"
         }
-      ]
+      ],
+      "type": "Other",
+      "population": null,
+      "csaId": null
     },
     {
       "id": "us-sd",
@@ -527,7 +560,10 @@
           "cityId": 320,
           "name": "Escondido"
         }
-      ]
+      ],
+      "type": "Msa",
+      "population": 3298799,
+      "csaId": null
     },
     {
       "id": "us-phx",
@@ -589,7 +625,10 @@
           "cityId": 193,
           "name": "Tempe"
         }
-      ]
+      ],
+      "type": "Msa",
+      "population": 5186958,
+      "csaId": "csa-phoenix"
     },
     {
       "id": "us-den",
@@ -635,7 +674,10 @@
           "cityId": 26,
           "name": "Boulder"
         }
-      ]
+      ],
+      "type": "Msa",
+      "population": 3052498,
+      "csaId": "csa-denver"
     },
     {
       "id": "us-hou",
@@ -689,7 +731,10 @@
           "cityId": 1146,
           "name": "The Woodlands"
         }
-      ]
+      ],
+      "type": "Msa",
+      "population": 7796182,
+      "csaId": "csa-houston"
     },
     {
       "id": "us-msp",
@@ -735,7 +780,10 @@
           "cityId": 190,
           "name": "Hudson"
         }
-      ]
+      ],
+      "type": "Msa",
+      "population": 3757952,
+      "csaId": "csa-minneapolis"
     },
     {
       "id": "us-det",
@@ -789,7 +837,10 @@
           "cityId": 14,
           "name": "Ann Arbor"
         }
-      ]
+      ],
+      "type": "Msa",
+      "population": 4400578,
+      "csaId": "csa-detroit"
     },
     {
       "id": "us-atl",
@@ -843,7 +894,10 @@
           "cityId": 8,
           "name": "Alpharetta"
         }
-      ]
+      ],
+      "type": "Msa",
+      "population": 6411149,
+      "csaId": "csa-atlanta"
     },
     {
       "id": "us-hr",
@@ -913,7 +967,10 @@
           "cityId": 432,
           "name": "Suffolk"
         }
-      ]
+      ],
+      "type": "Msa",
+      "population": 1794278,
+      "csaId": "csa-virginia-beach"
     },
     {
       "id": "us-phl",
@@ -967,7 +1024,10 @@
           "cityId": 51,
           "name": "Wilmington"
         }
-      ]
+      ],
+      "type": "Msa",
+      "population": 6330422,
+      "csaId": "csa-philadelphia"
     },
     {
       "id": "us-sea",
@@ -1021,7 +1081,10 @@
           "cityId": 180,
           "name": "Kent"
         }
-      ]
+      ],
+      "type": "Msa",
+      "population": 4145494,
+      "csaId": "csa-seattle"
     },
     {
       "id": "es-madrid",
@@ -1067,7 +1130,10 @@
           "cityId": 82,
           "name": "Getafe"
         }
-      ]
+      ],
+      "type": "Other",
+      "population": null,
+      "csaId": null
     },
     {
       "id": "de-berlin",
@@ -1097,7 +1163,10 @@
           "cityId": 80,
           "name": "Spandau"
         }
-      ]
+      ],
+      "type": "Other",
+      "population": null,
+      "csaId": null
     },
     {
       "id": "nl-randstad",
@@ -1167,7 +1236,10 @@
           "cityId": 3,
           "name": "Amersfoort"
         }
-      ]
+      ],
+      "type": "Other",
+      "population": null,
+      "csaId": null
     },
     {
       "id": "in-mumbai",
@@ -1213,7 +1285,10 @@
           "cityId": 214,
           "name": "Kalyan"
         }
-      ]
+      ],
+      "type": "Other",
+      "population": null,
+      "csaId": null
     },
     {
       "id": "au-sydney",
@@ -1251,7 +1326,10 @@
           "cityId": 801,
           "name": "Newcastle"
         }
-      ]
+      ],
+      "type": "Other",
+      "population": null,
+      "csaId": null
     },
     {
       "id": "ca-toronto",
@@ -1305,7 +1383,10 @@
           "cityId": 222,
           "name": "Vaughan"
         }
-      ]
+      ],
+      "type": "Other",
+      "population": null,
+      "csaId": null
     },
     {
       "id": "br-saopaulo",
@@ -1351,7 +1432,10 @@
           "cityId": 542,
           "name": "Santo André"
         }
-      ]
+      ],
+      "type": "Other",
+      "population": null,
+      "csaId": null
     },
     {
       "id": "mx-cdmx",
@@ -1389,7 +1473,10 @@
           "cityId": 877,
           "name": "Tlalnepantla"
         }
-      ]
+      ],
+      "type": "Other",
+      "population": null,
+      "csaId": null
     },
     {
       "id": "ch-basel",
@@ -1429,7 +1516,10 @@
           "cityId": null,
           "name": "Weil am Rhein"
         }
-      ]
+      ],
+      "type": "Other",
+      "population": null,
+      "csaId": null
     }
   ]
 }

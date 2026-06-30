@@ -17,6 +17,9 @@ namespace ShowsOnSale.World.Data.Metros
             CountryIso2 = "US",
             Countries = new() { "US" },
             Code = "19100",
+            Type = MetroAreaType.Msa,
+            Population = 8344032,
+            CsaId = "csa-dallas-fort-worth",
             Latitude = "32.77666000",
             Longitude = "-96.79699000",
             Members = new()

@@ -1,0 +1,175 @@
+{
+  "$comment": "Curated CSAs (OMB Bulletin 23-01 / Census Vintage 2024). metroIds reference metro-areas.json ids.",
+  "combinedStatisticalAreas": [
+    {
+      "id": "csa-new-york",
+      "name": "New York–Newark, NY-NJ-CT-PA",
+      "code": null,
+      "country": "US",
+      "population": 22342624,
+      "metroIds": [
+        "us-nyc"
+      ]
+    },
+    {
+      "id": "csa-los-angeles",
+      "name": "Los Angeles–Long Beach, CA",
+      "code": null,
+      "country": "US",
+      "population": 18507255,
+      "metroIds": [
+        "us-la"
+      ]
+    },
+    {
+      "id": "csa-washington-baltimore",
+      "name": "Washington–Baltimore–Arlington, DC-MD-VA-WV-PA",
+      "code": null,
+      "country": "US",
+      "population": 10237545,
+      "metroIds": [
+        "us-dc"
+      ]
+    },
+    {
+      "id": "csa-chicago",
+      "name": "Chicago–Naperville, IL-IN-WI",
+      "code": null,
+      "country": "US",
+      "population": 9941597,
+      "metroIds": [
+        "us-chi"
+      ]
+    },
+    {
+      "id": "csa-san-jose-sf-oakland",
+      "name": "San Jose–San Francisco–Oakland, CA",
+      "code": null,
+      "country": "US",
+      "population": 9164058,
+      "metroIds": [
+        "us-sf"
+      ]
+    },
+    {
+      "id": "csa-dallas-fort-worth",
+      "name": "Dallas–Fort Worth, TX-OK",
+      "code": null,
+      "country": "US",
+      "population": 8909918,
+      "metroIds": [
+        "us-dfw"
+      ]
+    },
+    {
+      "id": "csa-boston",
+      "name": "Boston–Worcester–Providence, MA-RI-NH",
+      "code": null,
+      "country": "US",
+      "population": 8493824,
+      "metroIds": [
+        "us-bos"
+      ]
+    },
+    {
+      "id": "csa-houston",
+      "name": "Houston–Pasadena, TX",
+      "code": null,
+      "country": "US",
+      "population": 7996140,
+      "metroIds": [
+        "us-hou"
+      ]
+    },
+    {
+      "id": "csa-philadelphia",
+      "name": "Philadelphia–Reading–Camden, PA-NJ-DE-MD",
+      "code": null,
+      "country": "US",
+      "population": 7490896,
+      "metroIds": [
+        "us-phl"
+      ]
+    },
+    {
+      "id": "csa-atlanta",
+      "name": "Atlanta–Athens-Clarke County–Sandy Springs, GA-AL",
+      "code": null,
+      "country": "US",
+      "population": 7340522,
+      "metroIds": [
+        "us-atl"
+      ]
+    },
+    {
+      "id": "csa-miami",
+      "name": "Miami–Port St. Lucie–Fort Lauderdale, FL",
+      "code": null,
+      "country": "US",
+      "population": 7309740,
+      "metroIds": [
+        "us-mia"
+      ]
+    },
+    {
+      "id": "csa-detroit",
+      "name": "Detroit–Warren–Ann Arbor, MI",
+      "code": null,
+      "country": "US",
+      "population": 5430523,
+      "metroIds": [
+        "us-det"
+      ]
+    },
+    {
+      "id": "csa-phoenix",
+      "name": "Phoenix–Mesa, AZ",
+      "code": null,
+      "country": "US",
+      "population": 5241031,
+      "metroIds": [
+        "us-phx"
+      ]
+    },
+    {
+      "id": "csa-seattle",
+      "name": "Seattle–Tacoma, WA",
+      "code": null,
+      "country": "US",
+      "population": 5105721,
+      "metroIds": [
+        "us-sea"
+      ]
+    },
+    {
+      "id": "csa-minneapolis",
+      "name": "Minneapolis–St. Paul, MN-WI",
+      "code": null,
+      "country": "US",
+      "population": 4155051,
+      "metroIds": [
+        "us-msp"
+      ]
+    },
+    {
+      "id": "csa-denver",
+      "name": "Denver–Aurora–Greeley, CO",
+      "code": null,
+      "country": "US",
+      "population": 3752505,
+      "metroIds": [
+        "us-den"
+      ]
+    },
+    {
+      "id": "csa-virginia-beach",
+      "name": "Virginia Beach–Chesapeake, VA-NC",
+      "code": null,
+      "country": "US",
+      "population": 1873879,
+      "metroIds": [
+        "us-hr"
+      ]
+    }
+  ]
+}

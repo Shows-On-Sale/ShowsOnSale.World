@@ -17,6 +17,9 @@ namespace ShowsOnSale.World.Data.Metros
             CountryIso2 = "CA",
             Countries = new() { "CA" },
             Code = null,
+            Type = MetroAreaType.Other,
+            Population = null,
+            CsaId = null,
             Latitude = "43.70011000",
             Longitude = "-79.41630000",
             Members = new()

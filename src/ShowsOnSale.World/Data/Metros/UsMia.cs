@@ -17,6 +17,9 @@ namespace ShowsOnSale.World.Data.Metros
             CountryIso2 = "US",
             Countries = new() { "US" },
             Code = "33100",
+            Type = MetroAreaType.Msa,
+            Population = 6457988,
+            CsaId = "csa-miami",
             Latitude = "25.76168000",
             Longitude = "-80.19179000",
             Members = new()

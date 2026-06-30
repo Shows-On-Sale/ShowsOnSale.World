@@ -96,6 +96,9 @@ namespace ShowsOnSale.World.Data.Metros
             CountryIso2 = $(Get-StringLiteral $metro.primaryCountry),
             Countries = new() { $countries },
             Code = $(Get-StringLiteral $metro.code),
+            Type = MetroAreaType.$(if ($metro.type) { $metro.type } else { 'Other' }),
+            Population = $(Get-IntLiteral $metro.population),
+            CsaId = $(Get-StringLiteral $metro.csaId),
             Latitude = $(Get-StringLiteral $metro.latitude),
             Longitude = $(Get-StringLiteral $metro.longitude),
             Members = new()
@@ -137,3 +140,71 @@ $registryBlock
 
 Set-Content -Path (Join-Path $OutputRoot "WorldData.Metros.cs") -Value $registry -Encoding UTF8
 Write-Host "Generated WorldData.Metros.cs with $($json.metroAreas.Count) metro area(s)."
+
+# ---- Combined Statistical Areas (CSAs) -----------------------------------
+$csaInputPath = "$PSScriptRoot/../data/combined-statistical-areas.json"
+if (Test-Path $csaInputPath) {
+    $csaJson = Get-Content -Raw -Path $csaInputPath | ConvertFrom-Json
+
+    $csasDir = Join-Path $OutputRoot "Data/Csas"
+    if (-not (Test-Path $csasDir)) { New-Item -ItemType Directory -Path $csasDir | Out-Null }
+
+    $csaRegistryEntries = @()
+    foreach ($csa in $csaJson.combinedStatisticalAreas) {
+        $className = Get-ClassName $csa.id
+        $csaRegistryEntries += "            ShowsOnSale.World.Data.Csas.$className.Data,"
+
+        $metroIds = ($csa.metroIds | ForEach-Object { '"' + (Get-EscapedString $_) + '"' }) -join ', '
+
+        $file = @"
+$generatedHeader
+
+using System.Collections.Generic;
+using ShowsOnSale.World.Models;
+
+namespace ShowsOnSale.World.Data.Csas
+{
+    public static class $className
+    {
+        public static CombinedStatisticalArea Data { get; } = new()
+        {
+            Id = $(Get-StringLiteral $csa.id),
+            Name = $(Get-StringLiteral $csa.name),
+            Code = $(Get-StringLiteral $csa.code),
+            CountryIso2 = $(Get-StringLiteral $csa.country),
+            Population = $(Get-IntLiteral $csa.population),
+            MetroIds = new() { $metroIds }
+        };
+    }
+}
+"@
+
+        Set-Content -Path (Join-Path $csasDir "$className.cs") -Value $file -Encoding UTF8
+    }
+
+    $csaRegistryBlock = $csaRegistryEntries -join "`r`n"
+    $csaRegistry = @"
+$generatedHeader
+
+using System.Collections.Generic;
+using ShowsOnSale.World.Models;
+
+namespace ShowsOnSale.World
+{
+    public static partial class WorldData
+    {
+        /// <summary>
+        /// All combined statistical areas (CSAs) — groupings of adjacent metro areas linked by
+        /// commuting ties. Each references its member metros by id via <see cref="CombinedStatisticalArea.MetroIds"/>.
+        /// </summary>
+        public static List<CombinedStatisticalArea> CombinedStatisticalAreas { get; } = new()
+        {
+$csaRegistryBlock
+        };
+    }
+}
+"@
+
+    Set-Content -Path (Join-Path $OutputRoot "WorldData.Csa.cs") -Value $csaRegistry -Encoding UTF8
+    Write-Host "Generated WorldData.Csa.cs with $($csaJson.combinedStatisticalAreas.Count) CSA(s)."
+}
