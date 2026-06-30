@@ -6,6 +6,12 @@ on:
   push:
     tags:
       - '[0-9]+.[0-9]+.[0-9]+'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to publish (e.g. 2.0.0)'
+        required: true
+        type: string
 
 env:
   NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
@@ -47,8 +53,12 @@ jobs:
     - name: Get version
       id: get_version
       run: |
-        # Get the tag from the release
-        VERSION=${GITHUB_REF#refs/tags/}
+        # Prefer the manual dispatch input; otherwise derive from the tag ref
+        if [ -n "${{ github.event.inputs.version }}" ]; then
+          VERSION="${{ github.event.inputs.version }}"
+        else
+          VERSION=${GITHUB_REF#refs/tags/}
+        fi
         # Remove 'v' prefix if it exists
         VERSION=${VERSION#v}
         echo "VERSION=${VERSION}" >> $GITHUB_ENV
