@@ -24,8 +24,7 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-89.09400000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 16, StateName = "Illinois", CityId = 660, Name = "Rockford" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 16, StateName = "Illinois", CityId = 847, Name = "Woodstock" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 16, StateName = "Illinois", CityId = 660, Name = "Rockford" }
             }
         };
     }

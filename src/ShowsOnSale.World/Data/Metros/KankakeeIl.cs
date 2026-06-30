@@ -24,8 +24,7 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-87.86115000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 16, StateName = "Illinois", CityId = 376, Name = "Kankakee" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 16, StateName = "Illinois", CityId = 372, Name = "Joliet" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 16, StateName = "Illinois", CityId = 376, Name = "Kankakee" }
             }
         };
     }

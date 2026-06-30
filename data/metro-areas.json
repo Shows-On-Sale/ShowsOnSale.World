@@ -48,6 +48,14 @@
         {
           "type": "City",
           "country": "US",
+          "stateId": 35,
+          "stateName": "New York",
+          "cityId": 431,
+          "name": "Huntington"
+        },
+        {
+          "type": "City",
+          "country": "US",
           "stateId": 33,
           "stateName": "New Jersey",
           "cityId": 8,
@@ -138,6 +146,14 @@
           "country": "US",
           "stateId": 35,
           "stateName": "New York",
+          "cityId": 1003,
+          "name": "West Nyack"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 35,
+          "stateName": "New York",
           "cityId": 111,
           "name": "Brookville"
         },
@@ -170,6 +186,14 @@
           "country": "US",
           "stateId": 35,
           "stateName": "New York",
+          "cityId": 714,
+          "name": "Patchogue"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 35,
+          "stateName": "New York",
           "cityId": 936,
           "name": "Uniondale"
         },
@@ -178,8 +202,32 @@
           "country": "US",
           "stateId": 33,
           "stateName": "New Jersey",
+          "cityId": 318,
+          "name": "New Brunswick"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 33,
+          "stateName": "New Jersey",
           "cityId": 188,
           "name": "Harrison"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 35,
+          "stateName": "New York",
+          "cityId": 718,
+          "name": "Peekskill"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 35,
+          "stateName": "New York",
+          "cityId": 911,
+          "name": "Tarrytown"
         },
         {
           "type": "City",
@@ -204,6 +252,14 @@
           "stateName": "New Jersey",
           "cityId": 123,
           "name": "Elizabeth"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 35,
+          "stateName": "New York",
+          "cityId": 292,
+          "name": "Farmingville"
         },
         {
           "type": "City",
@@ -299,6 +355,14 @@
           "country": "US",
           "stateId": 6,
           "stateName": "California",
+          "cityId": 447,
+          "name": "Irvine"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 6,
+          "stateName": "California",
           "cityId": 114,
           "name": "Brea"
         },
@@ -307,8 +371,32 @@
           "country": "US",
           "stateId": 6,
           "stateName": "California",
+          "cityId": 5,
+          "name": "Agoura Hills"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 6,
+          "stateName": "California",
           "cityId": 1075,
           "name": "West Hollywood"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 6,
+          "stateName": "California",
+          "cityId": 769,
+          "name": "Pomona"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 6,
+          "stateName": "California",
+          "cityId": 865,
+          "name": "San Juan Capistrano"
         },
         {
           "type": "City",
@@ -468,6 +556,22 @@
           "country": "US",
           "stateId": 6,
           "stateName": "California",
+          "cityId": 606,
+          "name": "Menlo Park"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 6,
+          "stateName": "California",
+          "cityId": 214,
+          "name": "Concord"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 6,
+          "stateName": "California",
           "cityId": 866,
           "name": "San Leandro"
         },
@@ -565,6 +669,14 @@
           "country": "US",
           "stateId": 16,
           "stateName": "Illinois",
+          "cityId": 372,
+          "name": "Joliet"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 16,
+          "stateName": "Illinois",
           "cityId": 711,
           "name": "Skokie"
         },
@@ -587,6 +699,14 @@
         {
           "type": "City",
           "country": "US",
+          "stateId": 16,
+          "stateName": "Illinois",
+          "cityId": 804,
+          "name": "Waukegan"
+        },
+        {
+          "type": "City",
+          "country": "US",
           "stateId": 17,
           "stateName": "Indiana",
           "cityId": 161,
@@ -599,6 +719,22 @@
           "stateName": "Illinois",
           "cityId": 343,
           "name": "Hoffman Estates"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 16,
+          "stateName": "Illinois",
+          "cityId": 847,
+          "name": "Woodstock"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 17,
+          "stateName": "Indiana",
+          "cityId": 175,
+          "name": "Hobart"
         },
         {
           "type": "City",
@@ -1049,8 +1185,32 @@
           "country": "US",
           "stateId": 24,
           "stateName": "Massachusetts",
+          "cityId": 115,
+          "name": "Foxborough"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 24,
+          "stateName": "Massachusetts",
           "cityId": 198,
           "name": "Medford"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 24,
+          "stateName": "Massachusetts",
+          "cityId": 184,
+          "name": "Mansfield"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 24,
+          "stateName": "Massachusetts",
+          "cityId": 295,
+          "name": "Salisbury"
         },
         {
           "type": "City",
@@ -1778,6 +1938,22 @@
           "country": "US",
           "stateId": 25,
           "stateName": "Michigan",
+          "cityId": 99,
+          "name": "Clarkston"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 25,
+          "stateName": "Michigan",
+          "cityId": null,
+          "name": "Village of Clarkston"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 25,
+          "stateName": "Michigan",
           "cityId": 200,
           "name": "Hamtramck"
         },
@@ -1802,8 +1978,24 @@
           "country": "US",
           "stateId": 25,
           "stateName": "Michigan",
+          "cityId": 41,
+          "name": "Belleville"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 25,
+          "stateName": "Michigan",
           "cityId": 337,
           "name": "Mount Clemens"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 25,
+          "stateName": "Michigan",
+          "cityId": 507,
+          "name": "Westland"
         }
       ],
       "type": "Msa",
@@ -1869,6 +2061,14 @@
           "stateName": "Georgia",
           "cityId": 153,
           "name": "Duluth"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 12,
+          "stateName": "Georgia",
+          "cityId": 284,
+          "name": "Lawrenceville"
         },
         {
           "type": "City",
@@ -2045,6 +2245,14 @@
           "country": "US",
           "stateId": 42,
           "stateName": "Pennsylvania",
+          "cityId": null,
+          "name": "Bensalem"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 42,
+          "stateName": "Pennsylvania",
           "cityId": 22,
           "name": "Ardmore"
         },
@@ -2055,6 +2263,14 @@
           "stateName": "New Jersey",
           "cityId": 92,
           "name": "Collingswood"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 42,
+          "stateName": "Pennsylvania",
+          "cityId": 825,
+          "name": "Sellersville"
         },
         {
           "type": "City",
@@ -2160,6 +2376,14 @@
           "stateName": "Washington",
           "cityId": 309,
           "name": "Puyallup"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 54,
+          "stateName": "Washington",
+          "cityId": 384,
+          "name": "Tulalip Bay"
         },
         {
           "type": "City",
@@ -2664,14 +2888,6 @@
         {
           "type": "City",
           "country": "US",
-          "stateId": 35,
-          "stateName": "New York",
-          "cityId": 431,
-          "name": "Huntington"
-        },
-        {
-          "type": "City",
-          "country": "US",
           "stateId": 8,
           "stateName": "Connecticut",
           "cityId": 43,
@@ -2688,26 +2904,10 @@
         {
           "type": "City",
           "country": "US",
-          "stateId": 35,
-          "stateName": "New York",
-          "cityId": 714,
-          "name": "Patchogue"
-        },
-        {
-          "type": "City",
-          "country": "US",
           "stateId": 8,
           "stateName": "Connecticut",
           "cityId": 106,
           "name": "Norwalk"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 35,
-          "stateName": "New York",
-          "cityId": 292,
-          "name": "Farmingville"
         }
       ],
       "type": "Msa",
@@ -2755,6 +2955,14 @@
           "country": "US",
           "stateId": 35,
           "stateName": "New York",
+          "cityId": 715,
+          "name": "Pawling"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 35,
+          "stateName": "New York",
           "cityId": null,
           "name": "Bethel"
         },
@@ -2763,32 +2971,8 @@
           "country": "US",
           "stateId": 35,
           "stateName": "New York",
-          "cityId": 1003,
-          "name": "West Nyack"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 35,
-          "stateName": "New York",
           "cityId": 295,
           "name": "Fishkill"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 35,
-          "stateName": "New York",
-          "cityId": 718,
-          "name": "Peekskill"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 35,
-          "stateName": "New York",
-          "cityId": 911,
-          "name": "Tarrytown"
         }
       ],
       "type": "Msa",
@@ -2822,22 +3006,6 @@
           "stateName": "New Jersey",
           "cityId": 391,
           "name": "Princeton"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 42,
-          "stateName": "Pennsylvania",
-          "cityId": null,
-          "name": "Bensalem"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 33,
-          "stateName": "New Jersey",
-          "cityId": 318,
-          "name": "New Brunswick"
         }
       ],
       "type": "Msa",
@@ -2918,14 +3086,6 @@
           "country": "US",
           "stateId": 6,
           "stateName": "California",
-          "cityId": 447,
-          "name": "Irvine"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 6,
-          "stateName": "California",
           "cityId": 417,
           "name": "Highland"
         },
@@ -2944,22 +3104,6 @@
           "stateName": "California",
           "cityId": 723,
           "name": "Palm Desert"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 6,
-          "stateName": "California",
-          "cityId": 769,
-          "name": "Pomona"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 6,
-          "stateName": "California",
-          "cityId": 865,
-          "name": "San Juan Capistrano"
         },
         {
           "type": "City",
@@ -3057,14 +3201,6 @@
           "stateName": "California",
           "cityId": 1046,
           "name": "Ventura"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 6,
-          "stateName": "California",
-          "cityId": 5,
-          "name": "Agoura Hills"
         },
         {
           "type": "City",
@@ -3271,14 +3407,6 @@
           "stateName": "Wisconsin",
           "cityId": 207,
           "name": "Kenosha"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 16,
-          "stateName": "Illinois",
-          "cityId": 804,
-          "name": "Waukegan"
         }
       ],
       "type": "Msa",
@@ -3324,14 +3452,6 @@
         {
           "type": "City",
           "country": "US",
-          "stateId": 17,
-          "stateName": "Indiana",
-          "cityId": 175,
-          "name": "Hobart"
-        },
-        {
-          "type": "City",
-          "country": "US",
           "stateId": 25,
           "stateName": "Michigan",
           "cityId": 476,
@@ -3361,14 +3481,6 @@
           "stateName": "Illinois",
           "cityId": 376,
           "name": "Kankakee"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 16,
-          "stateName": "Illinois",
-          "cityId": 372,
-          "name": "Joliet"
         }
       ],
       "type": "Msa",
@@ -3426,14 +3538,6 @@
           "stateName": "California",
           "cityId": 654,
           "name": "Mountain View"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 6,
-          "stateName": "California",
-          "cityId": 606,
-          "name": "Menlo Park"
         },
         {
           "type": "City",
@@ -3574,14 +3678,6 @@
           "stateName": "California",
           "cityId": 1038,
           "name": "Vallejo"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 6,
-          "stateName": "California",
-          "cityId": 214,
-          "name": "Concord"
         }
       ],
       "type": "Msa",
@@ -3775,22 +3871,6 @@
         {
           "type": "City",
           "country": "US",
-          "stateId": 24,
-          "stateName": "Massachusetts",
-          "cityId": 115,
-          "name": "Foxborough"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 24,
-          "stateName": "Massachusetts",
-          "cityId": 184,
-          "name": "Mansfield"
-        },
-        {
-          "type": "City",
-          "country": "US",
           "stateId": 44,
           "stateName": "Rhode Island",
           "cityId": 39,
@@ -3909,14 +3989,6 @@
           "stateName": "New Hampshire",
           "cityId": 69,
           "name": "Hampton"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 24,
-          "stateName": "Massachusetts",
-          "cityId": 295,
-          "name": "Salisbury"
         },
         {
           "type": "City",
@@ -4148,14 +4220,6 @@
           "stateName": "Georgia",
           "cityId": 198,
           "name": "Gainesville"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 12,
-          "stateName": "Georgia",
-          "cityId": 284,
-          "name": "Lawrenceville"
         }
       ],
       "type": "Msa",
@@ -4288,22 +4352,6 @@
           "stateName": "Michigan",
           "cityId": 160,
           "name": "Flint"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 25,
-          "stateName": "Michigan",
-          "cityId": 99,
-          "name": "Clarkston"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 25,
-          "stateName": "Michigan",
-          "cityId": null,
-          "name": "Village of Clarkston"
         }
       ],
       "type": "Msa",
@@ -4329,22 +4377,6 @@
           "stateName": "Michigan",
           "cityId": 14,
           "name": "Ann Arbor"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 25,
-          "stateName": "Michigan",
-          "cityId": 41,
-          "name": "Belleville"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 25,
-          "stateName": "Michigan",
-          "cityId": 507,
-          "name": "Westland"
         }
       ],
       "type": "Msa",
@@ -4493,14 +4525,6 @@
           "stateName": "Washington",
           "cityId": 11,
           "name": "Anacortes"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 54,
-          "stateName": "Washington",
-          "cityId": 384,
-          "name": "Tulalip Bay"
         },
         {
           "type": "City",
@@ -5079,13 +5103,6 @@
         {
           "type": "City",
           "country": "US",
-          "stateId": null,
-          "cityId": null,
-          "name": "Vancouver"
-        },
-        {
-          "type": "City",
-          "country": "US",
           "stateId": 41,
           "stateName": "Oregon",
           "cityId": 74,
@@ -5596,6 +5613,14 @@
           "country": "US",
           "stateId": 42,
           "stateName": "Pennsylvania",
+          "cityId": 123,
+          "name": "Burgettstown"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 42,
+          "stateName": "Pennsylvania",
           "cityId": 384,
           "name": "Greensburg"
         },
@@ -5679,14 +5704,6 @@
           "stateName": "Ohio",
           "cityId": 638,
           "name": "Steubenville"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 42,
-          "stateName": "Pennsylvania",
-          "cityId": 123,
-          "name": "Burgettstown"
         }
       ],
       "type": "Msa",
@@ -5810,14 +5827,6 @@
           "stateName": "Connecticut",
           "cityId": 134,
           "name": "Shelton"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 35,
-          "stateName": "New York",
-          "cityId": 715,
-          "name": "Pawling"
         }
       ],
       "type": "Msa",
@@ -6440,14 +6449,6 @@
           "stateName": "Indiana",
           "cityId": null,
           "name": "Florence"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 20,
-          "stateName": "Kentucky",
-          "cityId": null,
-          "name": "Co. Kerry"
         },
         {
           "type": "City",
@@ -7563,6 +7564,14 @@
           "country": "US",
           "stateId": 35,
           "stateName": "New York",
+          "cityId": 821,
+          "name": "Saratoga Springs"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 35,
+          "stateName": "New York",
           "cityId": 179,
           "name": "Cohoes"
         }
@@ -7590,14 +7599,6 @@
           "stateName": "New York",
           "cityId": 340,
           "name": "Glens Falls"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 35,
-          "stateName": "New York",
-          "cityId": 821,
-          "name": "Saratoga Springs"
         },
         {
           "type": "City",
@@ -8068,14 +8069,6 @@
           "stateName": "Pennsylvania",
           "cityId": 892,
           "name": "Stroudsburg"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 42,
-          "stateName": "Pennsylvania",
-          "cityId": 825,
-          "name": "Sellersville"
         },
         {
           "type": "City",
@@ -8876,13 +8869,6 @@
           "stateName": "Nevada",
           "cityId": null,
           "name": "Stateline"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": null,
-          "cityId": null,
-          "name": "Lake Tahoe"
         }
       ],
       "type": "Msa",
@@ -9958,14 +9944,6 @@
           "stateName": "Illinois",
           "cityId": 660,
           "name": "Rockford"
-        },
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 16,
-          "stateName": "Illinois",
-          "cityId": 847,
-          "name": "Woodstock"
         }
       ],
       "type": "Msa",
@@ -15285,7 +15263,7 @@
       "countries": [
         "US"
       ],
-      "code": null,
+      "code": "12260",
       "latitude": "33.47097000",
       "longitude": "-81.97484000",
       "members": [
@@ -15306,7 +15284,32 @@
           "name": "Evans"
         }
       ],
-      "type": "Other",
+      "type": "Msa",
+      "population": null,
+      "csaId": null
+    },
+    {
+      "id": "tupelo-ms",
+      "name": "Tupelo",
+      "shortName": "Tupelo",
+      "primaryCountry": "US",
+      "countries": [
+        "US"
+      ],
+      "code": "46180",
+      "latitude": "34.25807000",
+      "longitude": "-88.70464000",
+      "members": [
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 27,
+          "stateName": "Mississippi",
+          "cityId": 262,
+          "name": "Tupelo"
+        }
+      ],
+      "type": "Msa",
       "population": null,
       "csaId": null
     },
@@ -15331,7 +15334,7 @@
           "name": "Key West"
         }
       ],
-      "type": "Other",
+      "type": "Micropolitan",
       "population": null,
       "csaId": null
     },
@@ -15356,7 +15359,7 @@
           "name": "Aspen"
         }
       ],
-      "type": "Other",
+      "type": "Micropolitan",
       "population": null,
       "csaId": null
     },
@@ -15381,32 +15384,7 @@
           "name": "Pikeville"
         }
       ],
-      "type": "Other",
-      "population": null,
-      "csaId": null
-    },
-    {
-      "id": "tupelo-ms",
-      "name": "Tupelo",
-      "shortName": "Tupelo",
-      "primaryCountry": "US",
-      "countries": [
-        "US"
-      ],
-      "code": null,
-      "latitude": "34.25807000",
-      "longitude": "-88.70464000",
-      "members": [
-        {
-          "type": "City",
-          "country": "US",
-          "stateId": 27,
-          "stateName": "Mississippi",
-          "cityId": 262,
-          "name": "Tupelo"
-        }
-      ],
-      "type": "Other",
+      "type": "Micropolitan",
       "population": null,
       "csaId": null
     }

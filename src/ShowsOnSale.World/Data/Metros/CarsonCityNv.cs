@@ -25,8 +25,7 @@ namespace ShowsOnSale.World.Data.Metros
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 31, StateName = "Nevada", CityId = 8, Name = "Carson City" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 31, StateName = "Nevada", CityId = null, Name = "Stateline" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = null, StateName = null, CityId = null, Name = "Lake Tahoe" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 31, StateName = "Nevada", CityId = null, Name = "Stateline" }
             }
         };
     }

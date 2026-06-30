@@ -24,9 +24,7 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-83.74088000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 25, StateName = "Michigan", CityId = 14, Name = "Ann Arbor" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 25, StateName = "Michigan", CityId = 41, Name = "Belleville" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 25, StateName = "Michigan", CityId = 507, Name = "Westland" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 25, StateName = "Michigan", CityId = 14, Name = "Ann Arbor" }
             }
         };
     }

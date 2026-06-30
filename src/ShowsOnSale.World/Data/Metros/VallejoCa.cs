@@ -24,8 +24,7 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-122.25664000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 6, StateName = "California", CityId = 1038, Name = "Vallejo" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 6, StateName = "California", CityId = 214, Name = "Concord" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 6, StateName = "California", CityId = 1038, Name = "Vallejo" }
             }
         };
     }

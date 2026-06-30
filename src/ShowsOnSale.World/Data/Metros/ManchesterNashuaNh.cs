@@ -29,7 +29,6 @@ namespace ShowsOnSale.World.Data.Metros
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 32, StateName = "New Hampshire", CityId = 137, Name = "Portsmouth" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 32, StateName = "New Hampshire", CityId = 57, Name = "Gilford" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 32, StateName = "New Hampshire", CityId = 69, Name = "Hampton" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 24, StateName = "Massachusetts", CityId = 295, Name = "Salisbury" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 32, StateName = "New Hampshire", CityId = 90, Name = "Laconia" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 32, StateName = "New Hampshire", CityId = 31, Name = "Concord" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 32, StateName = "New Hampshire", CityId = 132, Name = "Peterborough" }

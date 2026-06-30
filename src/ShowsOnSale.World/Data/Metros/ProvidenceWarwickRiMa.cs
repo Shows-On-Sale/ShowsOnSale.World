@@ -26,8 +26,6 @@ namespace ShowsOnSale.World.Data.Metros
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 44, StateName = "Rhode Island", CityId = 41, Name = "Providence" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 44, StateName = "Rhode Island", CityId = 49, Name = "Warwick" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 24, StateName = "Massachusetts", CityId = 115, Name = "Foxborough" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 24, StateName = "Massachusetts", CityId = 184, Name = "Mansfield" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 44, StateName = "Rhode Island", CityId = 39, Name = "Pawtucket" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 44, StateName = "Rhode Island", CityId = 10, Name = "Cranston" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 44, StateName = "Rhode Island", CityId = 44, Name = "South Kingstown" },

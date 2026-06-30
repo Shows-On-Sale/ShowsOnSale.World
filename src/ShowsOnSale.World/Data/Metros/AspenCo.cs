@@ -17,7 +17,7 @@ namespace ShowsOnSale.World.Data.Metros
             CountryIso2 = "US",
             Countries = new() { "US" },
             Code = null,
-            Type = MetroAreaType.Other,
+            Type = MetroAreaType.Micropolitan,
             Population = null,
             CsaId = null,
             Latitude = "39.19110000",
