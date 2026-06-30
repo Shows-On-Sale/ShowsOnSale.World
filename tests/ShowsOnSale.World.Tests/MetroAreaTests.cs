@@ -227,6 +227,8 @@ public class MetroAreaTests
     {
         // Validates the curated (stateId, cityId) anchors against the generated world data.
         // City members with both ids set must point at a real city within a real state.
+        // State.Id is only unique *within a country* (85 countries reuse id 35, for example),
+        // so resolution must scope by the member's country — exactly what ResolveCity does.
         var unresolved = new List<string>();
 
         foreach (var metro in WorldData.MetroAreas)
@@ -236,13 +238,7 @@ public class MetroAreaTests
                 if (member.Type != MetroMemberType.City || member.StateId is null || member.CityId is null)
                     continue;
 
-                var state = WorldData.All
-                    .SelectMany(c => c.States)
-                    .FirstOrDefault(s => s.Id == member.StateId.Value);
-
-                var city = state?.Cities.FirstOrDefault(c => c.Id == member.CityId.Value);
-
-                if (city is null)
+                if (WorldData.ResolveCity(member) is null)
                     unresolved.Add($"{metro.Id}: {member.Name} (state {member.StateId}, city {member.CityId})");
             }
         }

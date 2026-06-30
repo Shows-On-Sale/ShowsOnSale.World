@@ -10,7 +10,9 @@ namespace ShowsOnSale.World.Models
     ///   <item><description><c>City.Id</c> is only unique <i>within a state</i>, not globally
     ///   (e.g. "Newark" exists with id 322 in NJ and id 632... in several states).</description></item>
     ///   <item><description><c>State.StateCode</c> is empty for some countries (notably the US),
-    ///   so <c>State.Id</c> — which is globally unique — is used as the reliable foreign key.</description></item>
+    ///   so <c>State.Id</c> is used as the foreign key. <c>State.Id</c> is unique only
+    ///   <i>within a country</i> (many countries reuse the same numeric id), so it must always be
+    ///   resolved together with <see cref="CountryIso2"/>.</description></item>
     /// </list>
     /// Display names (<see cref="Name"/>, <see cref="StateName"/>) are denormalized so a member
     /// remains meaningful even if an upstream id shifts during data regeneration.
@@ -24,8 +26,8 @@ namespace ShowsOnSale.World.Models
         public required string CountryIso2 { get; set; }
 
         /// <summary>
-        /// Foreign key to <see cref="State.Id"/> (globally unique). Null only when the member
-        /// cannot be tied to a state in the dataset.
+        /// Foreign key to <see cref="State.Id"/>, unique only within <see cref="CountryIso2"/>
+        /// (resolve the two together). Null only when the member cannot be tied to a state in the dataset.
         /// </summary>
         public int? StateId { get; set; }
 
