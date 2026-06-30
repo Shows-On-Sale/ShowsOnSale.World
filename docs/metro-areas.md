@@ -74,6 +74,8 @@ the API.
 
 ## API
 
+**Lookup**
+
 ```csharp
 WorldData.MetroAreas                          // List<MetroArea> — all metros
 WorldData.GetMetroAreaById("us-nyc")          // by stable slug (case-insensitive)
@@ -84,6 +86,20 @@ WorldData.GetMetroAreaForCity(stateId, cityId)// reverse lookup: which metro con
 `GetMetroAreasByCountry` matches against the full `Countries` list, so a trinational metro
 is returned for each of its member countries. `GetMetroAreaForCity` keys on `(stateId, cityId)`
 for the uniqueness reason above.
+
+**Resolution** — turn the thin member references into live `Country`/`State`/`City`/`Timezone`
+objects from the world data:
+
+```csharp
+WorldData.ResolveState(member)        // MetroMember → State?
+WorldData.ResolveCity(member)         // City member → City?  (null for county/state members)
+WorldData.GetMetroCities(metro)       // all resolvable city members → IReadOnlyList<City>
+WorldData.GetMetroCountries(metro)    // every touched country → IReadOnlyList<Country>
+WorldData.GetMetroTimezones(metro)    // distinct timezones aggregated from member countries
+```
+
+Resolution is intentionally tolerant: members that can't be resolved (e.g. the id-less
+cross-border Basel members) are skipped rather than throwing, so the calls are always safe.
 
 ## Data pipeline
 
@@ -132,8 +148,12 @@ against drift after a world-data regeneration.
 - **Name→id resolution in the generator** so the JSON is editable without manual id lookup.
 - **County data**: if/when counties enter the dataset, promote county members from name-only
   to id-backed.
-- **Member resolution helpers**: e.g. `metro.ResolveCities()` returning live `City` objects,
-  and aggregate timezones for a metro.
-- **Validation step** in CI: assert every `(stateId, cityId)` in the JSON resolves against
-  `WorldData`, catching drift after a world-data regeneration.
+- **Validation step** in CI: the `EveryCityMember_ResolvesAgainstWorldData` test already
+  asserts every `(stateId, cityId)` resolves; wiring it (or an equivalent check) into CI would
+  catch drift after a world-data regeneration automatically.
+
+### Done
+
+- **Member resolution helpers** — `ResolveState`, `ResolveCity`, `GetMetroCities`,
+  `GetMetroCountries`, `GetMetroTimezones` (see API above).
 ```

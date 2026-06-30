@@ -53,4 +53,91 @@ public partial class WorldData
                 member.StateId == stateId &&
                 member.CityId == cityId));
     }
+
+    /// <summary>
+    /// Resolves a member's <c>StateId</c> to the live <see cref="Models.State"/> in the world data.
+    /// </summary>
+    /// <param name="member">The metro member.</param>
+    /// <returns>The state if the member has a resolvable <c>StateId</c>; otherwise, null.</returns>
+    public static Models.State? ResolveState(Models.MetroMember member)
+    {
+        if (member?.StateId is null)
+            return null;
+
+        // States are scoped to the member's country first (cheap, unambiguous); fall back to a
+        // global search if the country can't be resolved.
+        var country = GetCountryByCode(member.CountryIso2);
+        var states = country?.States ?? All.SelectMany(c => c.States);
+
+        return states.FirstOrDefault(s => s.Id == member.StateId.Value);
+    }
+
+    /// <summary>
+    /// Resolves a <see cref="Models.MetroMemberType.City"/> member to the live <see cref="Models.City"/>
+    /// in the world data, using the <c>(StateId, CityId)</c> pair.
+    /// </summary>
+    /// <param name="member">The metro member.</param>
+    /// <returns>The city if the member is a resolvable city; otherwise, null.</returns>
+    public static Models.City? ResolveCity(Models.MetroMember member)
+    {
+        if (member is null || member.Type != Models.MetroMemberType.City || member.CityId is null)
+            return null;
+
+        var state = ResolveState(member);
+        return state?.Cities.FirstOrDefault(c => c.Id == member.CityId.Value);
+    }
+
+    /// <summary>
+    /// Resolves all city members of a metro area to their live <see cref="Models.City"/> objects.
+    /// Members that cannot be resolved (e.g. unresolved cross-border members) are skipped.
+    /// </summary>
+    /// <param name="metro">The metro area.</param>
+    /// <returns>The resolved cities (possibly empty).</returns>
+    public static IReadOnlyList<Models.City> GetMetroCities(Models.MetroArea metro)
+    {
+        if (metro is null)
+            return System.Array.Empty<Models.City>();
+
+        return metro.Members
+            .Where(m => m.Type == Models.MetroMemberType.City)
+            .Select(ResolveCity)
+            .Where(c => c is not null)
+            .Select(c => c!)
+            .ToList();
+    }
+
+    /// <summary>
+    /// Gets the live <see cref="Models.Country"/> objects a metro area touches.
+    /// </summary>
+    /// <param name="metro">The metro area.</param>
+    /// <returns>The resolved countries (possibly empty).</returns>
+    public static IReadOnlyList<Models.Country> GetMetroCountries(Models.MetroArea metro)
+    {
+        if (metro is null)
+            return System.Array.Empty<Models.Country>();
+
+        return metro.Countries
+            .Select(GetCountryByCode)
+            .Where(c => c is not null)
+            .Select(c => c!)
+            .ToList();
+    }
+
+    /// <summary>
+    /// Gets the distinct timezones for a metro area, aggregated from the timezones of every
+    /// country the metro touches. Useful because individual cities do not carry timezone data.
+    /// </summary>
+    /// <param name="metro">The metro area.</param>
+    /// <returns>The distinct timezones, ordered by zone name.</returns>
+    public static IEnumerable<Models.Timezone> GetMetroTimezones(Models.MetroArea metro)
+    {
+        if (metro is null)
+            return Enumerable.Empty<Models.Timezone>();
+
+        return GetMetroCountries(metro)
+            .SelectMany(c => c.Timezones)
+            .GroupBy(t => t.ZoneName)
+            .Select(g => g.First())
+            .OrderBy(t => t.ZoneName);
+    }
 }

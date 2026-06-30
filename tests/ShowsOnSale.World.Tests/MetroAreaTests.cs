@@ -184,4 +184,87 @@ public class MetroAreaTests
         Assert.True(unresolved.Count == 0,
             "Unresolved city members: " + string.Join("; ", unresolved));
     }
+
+    [Fact]
+    public void ResolveCity_ReturnsLiveCity()
+    {
+        var metro = WorldData.GetMetroAreaById("us-nyc")!;
+        var member = metro.Members.First(m => m.Name == "New York City");
+
+        var city = WorldData.ResolveCity(member);
+
+        Assert.NotNull(city);
+        Assert.Equal(632, city.Id);
+        Assert.Equal("New York City", city.Name);
+    }
+
+    [Fact]
+    public void ResolveCity_ReturnsNullForNonCityMember()
+    {
+        var london = WorldData.GetMetroAreaById("gb-london")!;
+        var county = london.Members.First(m => m.Type == MetroMemberType.County);
+
+        Assert.Null(WorldData.ResolveCity(county));
+    }
+
+    [Fact]
+    public void ResolveState_ReturnsLiveState()
+    {
+        var metro = WorldData.GetMetroAreaById("us-nyc")!;
+        var member = metro.Members.First(m => m.StateName == "New Jersey");
+
+        var state = WorldData.ResolveState(member);
+
+        Assert.NotNull(state);
+        Assert.Equal(33, state.Id);
+        Assert.Equal("New Jersey", state.Name);
+    }
+
+    [Fact]
+    public void GetMetroCities_ResolvesAllCityMembers()
+    {
+        var metro = WorldData.GetMetroAreaById("us-nyc")!;
+
+        var cities = WorldData.GetMetroCities(metro);
+
+        Assert.Equal(4, cities.Count);
+        Assert.Contains(cities, c => c.Name == "New York City");
+        Assert.Contains(cities, c => c.Name == "Newark");
+    }
+
+    [Fact]
+    public void GetMetroCities_SkipsUnresolvableMembers()
+    {
+        // Basel members carry no ids, so none resolve — but the call is still safe.
+        var basel = WorldData.GetMetroAreaById("ch-basel")!;
+
+        Assert.Empty(WorldData.GetMetroCities(basel));
+    }
+
+    [Fact]
+    public void GetMetroCountries_ReturnsAllTouchedCountries()
+    {
+        var basel = WorldData.GetMetroAreaById("ch-basel")!;
+
+        var countries = WorldData.GetMetroCountries(basel);
+
+        Assert.Equal(3, countries.Count);
+        Assert.Contains(countries, c => c.Iso2 == "CH");
+        Assert.Contains(countries, c => c.Iso2 == "FR");
+        Assert.Contains(countries, c => c.Iso2 == "DE");
+    }
+
+    [Fact]
+    public void GetMetroTimezones_AggregatesAcrossCountries_Distinct()
+    {
+        var basel = WorldData.GetMetroAreaById("ch-basel")!;
+
+        var timezones = WorldData.GetMetroTimezones(basel).ToList();
+
+        Assert.NotEmpty(timezones);
+        // Distinct by zone name.
+        Assert.Equal(
+            timezones.Select(t => t.ZoneName).Distinct().Count(),
+            timezones.Count);
+    }
 }
