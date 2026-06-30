@@ -107,4 +107,81 @@ public class MetroAreaTests
             london.Members.Where(m => m.Type == MetroMemberType.County),
             m => Assert.Null(m.CityId));
     }
+
+    [Theory]
+    [InlineData("us-la")]
+    [InlineData("us-sf")]
+    [InlineData("us-chi")]
+    [InlineData("us-dfw")]
+    [InlineData("us-dc")]
+    [InlineData("us-mia")]
+    [InlineData("us-bos")]
+    [InlineData("fr-paris")]
+    [InlineData("jp-tokyo")]
+    public void ExpandedSeed_MetrosArePresent(string id)
+    {
+        Assert.NotNull(WorldData.GetMetroAreaById(id));
+    }
+
+    [Fact]
+    public void MetroIds_AreUnique()
+    {
+        var ids = WorldData.MetroAreas.Select(m => m.Id).ToList();
+        Assert.Equal(ids.Count, ids.Distinct().Count());
+    }
+
+    [Fact]
+    public void ChicagoMetro_SpansThreeStates()
+    {
+        var metro = WorldData.GetMetroAreaById("us-chi")!;
+
+        var stateIds = metro.Members
+            .Where(m => m.Type == MetroMemberType.City)
+            .Select(m => m.StateId)
+            .Distinct()
+            .ToList();
+
+        // Illinois (16), Indiana (17), Wisconsin (56)
+        Assert.Equal(3, stateIds.Count);
+        Assert.Contains(16, stateIds);
+        Assert.Contains(17, stateIds);
+        Assert.Contains(56, stateIds);
+    }
+
+    [Fact]
+    public void GetMetroAreasByCountry_ReturnsInternationalMetros()
+    {
+        Assert.Contains(WorldData.GetMetroAreasByCountry("FR"), m => m.Id == "fr-paris");
+        Assert.Contains(WorldData.GetMetroAreasByCountry("JP"), m => m.Id == "jp-tokyo");
+        Assert.Contains(WorldData.GetMetroAreasByCountry("GB"), m => m.Id == "gb-london");
+    }
+
+    [Fact]
+    public void EveryCityMember_ResolvesAgainstWorldData()
+    {
+        // Validates the curated (stateId, cityId) anchors against the generated world data.
+        // City members with both ids set must point at a real city within a real state.
+        var unresolved = new List<string>();
+
+        foreach (var metro in WorldData.MetroAreas)
+        {
+            foreach (var member in metro.Members)
+            {
+                if (member.Type != MetroMemberType.City || member.StateId is null || member.CityId is null)
+                    continue;
+
+                var state = WorldData.All
+                    .SelectMany(c => c.States)
+                    .FirstOrDefault(s => s.Id == member.StateId.Value);
+
+                var city = state?.Cities.FirstOrDefault(c => c.Id == member.CityId.Value);
+
+                if (city is null)
+                    unresolved.Add($"{metro.Id}: {member.Name} (state {member.StateId}, city {member.CityId})");
+            }
+        }
+
+        Assert.True(unresolved.Count == 0,
+            "Unresolved city members: " + string.Join("; ", unresolved));
+    }
 }

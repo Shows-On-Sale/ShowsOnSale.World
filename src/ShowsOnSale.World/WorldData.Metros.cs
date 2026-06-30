@@ -16,7 +16,16 @@ namespace ShowsOnSale.World
         public static List<MetroArea> MetroAreas { get; } = new()
         {
             ShowsOnSale.World.Data.Metros.UsNyc.Data,
+            ShowsOnSale.World.Data.Metros.UsLa.Data,
+            ShowsOnSale.World.Data.Metros.UsSf.Data,
+            ShowsOnSale.World.Data.Metros.UsChi.Data,
+            ShowsOnSale.World.Data.Metros.UsDfw.Data,
+            ShowsOnSale.World.Data.Metros.UsDc.Data,
+            ShowsOnSale.World.Data.Metros.UsMia.Data,
+            ShowsOnSale.World.Data.Metros.UsBos.Data,
             ShowsOnSale.World.Data.Metros.GbLondon.Data,
+            ShowsOnSale.World.Data.Metros.FrParis.Data,
+            ShowsOnSale.World.Data.Metros.JpTokyo.Data,
             ShowsOnSale.World.Data.Metros.ChBasel.Data,
         };
     }

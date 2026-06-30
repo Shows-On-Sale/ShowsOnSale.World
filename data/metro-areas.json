@@ -18,6 +18,115 @@
       ]
     },
     {
+      "id": "us-la",
+      "name": "Los Angeles–Long Beach–Anaheim",
+      "shortName": "Los Angeles",
+      "primaryCountry": "US",
+      "countries": ["US"],
+      "code": "31080",
+      "latitude": "34.05223000",
+      "longitude": "-118.24368000",
+      "members": [
+        { "type": "City", "country": "US", "stateId": 6, "stateName": "California", "cityId": 558, "name": "Los Angeles" },
+        { "type": "City", "country": "US", "stateId": 6, "stateName": "California", "cityId": 552, "name": "Long Beach" },
+        { "type": "City", "country": "US", "stateId": 6, "stateName": "California", "cityId": 27, "name": "Anaheim" },
+        { "type": "City", "country": "US", "stateId": 6, "stateName": "California", "cityId": 882, "name": "Santa Ana" }
+      ]
+    },
+    {
+      "id": "us-sf",
+      "name": "San Francisco Bay Area",
+      "shortName": "San Francisco",
+      "primaryCountry": "US",
+      "countries": ["US"],
+      "code": null,
+      "latitude": "37.77493000",
+      "longitude": "-122.41942000",
+      "members": [
+        { "type": "City", "country": "US", "stateId": 6, "stateName": "California", "cityId": 857, "name": "San Francisco" },
+        { "type": "City", "country": "US", "stateId": 6, "stateName": "California", "cityId": 695, "name": "Oakland" },
+        { "type": "City", "country": "US", "stateId": 6, "stateName": "California", "cityId": 863, "name": "San Jose" }
+      ]
+    },
+    {
+      "id": "us-chi",
+      "name": "Chicago–Naperville–Elgin",
+      "shortName": "Chicago",
+      "primaryCountry": "US",
+      "countries": ["US"],
+      "code": "16980",
+      "latitude": "41.85003000",
+      "longitude": "-87.65005000",
+      "members": [
+        { "type": "City", "country": "US", "stateId": 16, "stateName": "Illinois", "cityId": 128, "name": "Chicago" },
+        { "type": "City", "country": "US", "stateId": 16, "stateName": "Illinois", "cityId": 535, "name": "Naperville" },
+        { "type": "City", "country": "US", "stateId": 17, "stateName": "Indiana", "cityId": 138, "name": "Gary" },
+        { "type": "City", "country": "US", "stateId": 56, "stateName": "Wisconsin", "cityId": 207, "name": "Kenosha" }
+      ]
+    },
+    {
+      "id": "us-dfw",
+      "name": "Dallas–Fort Worth–Arlington",
+      "shortName": "Dallas–Fort Worth",
+      "primaryCountry": "US",
+      "countries": ["US"],
+      "code": "19100",
+      "latitude": "32.77666000",
+      "longitude": "-96.79699000",
+      "members": [
+        { "type": "City", "country": "US", "stateId": 48, "stateName": "Texas", "cityId": 273, "name": "Dallas" },
+        { "type": "City", "country": "US", "stateId": 48, "stateName": "Texas", "cityId": 384, "name": "Fort Worth" },
+        { "type": "City", "country": "US", "stateId": 48, "stateName": "Texas", "cityId": 42, "name": "Arlington" },
+        { "type": "City", "country": "US", "stateId": 48, "stateName": "Texas", "cityId": 904, "name": "Plano" }
+      ]
+    },
+    {
+      "id": "us-dc",
+      "name": "Washington–Arlington–Alexandria",
+      "shortName": "Washington, D.C.",
+      "primaryCountry": "US",
+      "countries": ["US"],
+      "code": "47900",
+      "latitude": "38.90719000",
+      "longitude": "-77.03687000",
+      "members": [
+        { "type": "City", "country": "US", "stateId": 10, "stateName": "District of Columbia", "cityId": 4, "name": "Washington D.C." },
+        { "type": "City", "country": "US", "stateId": 53, "stateName": "Virginia", "cityId": 19, "name": "Arlington" },
+        { "type": "City", "country": "US", "stateId": 53, "stateName": "Virginia", "cityId": 6, "name": "Alexandria" },
+        { "type": "City", "country": "US", "stateId": 23, "stateName": "Maryland", "cityId": 30, "name": "Bethesda" }
+      ]
+    },
+    {
+      "id": "us-mia",
+      "name": "Miami–Fort Lauderdale–West Palm Beach",
+      "shortName": "Miami",
+      "primaryCountry": "US",
+      "countries": ["US"],
+      "code": "33100",
+      "latitude": "25.76168000",
+      "longitude": "-80.19179000",
+      "members": [
+        { "type": "City", "country": "US", "stateId": 11, "stateName": "Florida", "cityId": 463, "name": "Miami" },
+        { "type": "City", "country": "US", "stateId": 11, "stateName": "Florida", "cityId": 225, "name": "Fort Lauderdale" },
+        { "type": "City", "country": "US", "stateId": 11, "stateName": "Florida", "cityId": 804, "name": "West Palm Beach" }
+      ]
+    },
+    {
+      "id": "us-bos",
+      "name": "Boston–Cambridge–Newton",
+      "shortName": "Boston",
+      "primaryCountry": "US",
+      "countries": ["US"],
+      "code": "14460",
+      "latitude": "42.35843000",
+      "longitude": "-71.05977000",
+      "members": [
+        { "type": "City", "country": "US", "stateId": 24, "stateName": "Massachusetts", "cityId": 42, "name": "Boston" },
+        { "type": "City", "country": "US", "stateId": 24, "stateName": "Massachusetts", "cityId": 57, "name": "Cambridge" },
+        { "type": "City", "country": "US", "stateId": 24, "stateName": "Massachusetts", "cityId": 279, "name": "Quincy" }
+      ]
+    },
+    {
       "id": "gb-london",
       "name": "Greater London",
       "shortName": "London",
@@ -30,6 +139,39 @@
         { "type": "City", "country": "GB", "stateId": 212, "stateName": "Westminster", "cityId": 3, "name": "London" },
         { "type": "State", "country": "GB", "stateId": 212, "stateName": "Westminster", "cityId": null, "name": "Westminster" },
         { "type": "County", "country": "GB", "stateId": null, "stateName": "Surrey", "cityId": null, "name": "Surrey" }
+      ]
+    },
+    {
+      "id": "fr-paris",
+      "name": "Paris (Île-de-France)",
+      "shortName": "Paris",
+      "primaryCountry": "FR",
+      "countries": ["FR"],
+      "code": null,
+      "latitude": "48.85340000",
+      "longitude": "2.34860000",
+      "members": [
+        { "type": "City", "country": "FR", "stateId": 60, "stateName": "Île-de-France", "cityId": 487, "name": "Paris" },
+        { "type": "City", "country": "FR", "stateId": 60, "stateName": "Île-de-France", "cityId": 72, "name": "Boulogne-Billancourt" },
+        { "type": "City", "country": "FR", "stateId": 60, "stateName": "Île-de-France", "cityId": 535, "name": "Saint-Denis" },
+        { "type": "City", "country": "FR", "stateId": 60, "stateName": "Île-de-France", "cityId": 638, "name": "Versailles" }
+      ]
+    },
+    {
+      "id": "jp-tokyo",
+      "name": "Greater Tokyo",
+      "shortName": "Tokyo",
+      "primaryCountry": "JP",
+      "countries": ["JP"],
+      "code": null,
+      "latitude": "35.68950000",
+      "longitude": "139.69171000",
+      "members": [
+        { "type": "City", "country": "JP", "stateId": 41, "stateName": "Tokyo", "cityId": 61, "name": "Tokyo" },
+        { "type": "City", "country": "JP", "stateId": 19, "stateName": "Kanagawa", "cityId": 33, "name": "Yokohama" },
+        { "type": "City", "country": "JP", "stateId": 19, "stateName": "Kanagawa", "cityId": 19, "name": "Kawasaki" },
+        { "type": "City", "country": "JP", "stateId": 35, "stateName": "Saitama", "cityId": 54, "name": "Saitama" },
+        { "type": "City", "country": "JP", "stateId": 4, "stateName": "Chiba", "cityId": 4, "name": "Chiba" }
       ]
     },
     {
