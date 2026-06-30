@@ -24,7 +24,10 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-94.57857000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 28, StateName = "Missouri", CityId = 224, Name = "Kansas City" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 28, StateName = "Missouri", CityId = 224, Name = "Kansas City" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 28, StateName = "Missouri", CityId = 212, Name = "Independence" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 19, StateName = "Kansas", CityId = 25, Name = "Bonner Springs" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 28, StateName = "Missouri", CityId = 388, Name = "Riverside" }
             }
         };
     }

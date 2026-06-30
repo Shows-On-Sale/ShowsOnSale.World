@@ -242,7 +242,10 @@ public class MetroAreaTests
 
         var cities = WorldData.GetMetroCities(metro);
 
-        Assert.Equal(4, cities.Count);
+        // Every City member with a CityId must resolve; name-only members are excluded by construction.
+        // Auto-tracks the growing seed and fails loudly if any id-bearing member stops resolving.
+        var expected = metro.Members.Count(m => m.Type == MetroMemberType.City && m.CityId is not null);
+        Assert.Equal(expected, cities.Count);
         Assert.Contains(cities, c => c.Name == "New York City");
         Assert.Contains(cities, c => c.Name == "Newark");
     }
@@ -281,5 +284,50 @@ public class MetroAreaTests
         Assert.Equal(
             timezones.Select(t => t.ZoneName).Distinct().Count(),
             timezones.Count);
+    }
+
+    [Theory]
+    [InlineData("augusta-richmond-county-ga", MetroAreaType.Msa)]
+    [InlineData("tupelo-ms", MetroAreaType.Msa)]
+    [InlineData("key-west-fl", MetroAreaType.Micropolitan)]
+    [InlineData("aspen-co", MetroAreaType.Micropolitan)]
+    [InlineData("pikeville-ky", MetroAreaType.Micropolitan)]
+    public void NewStandaloneMetros_ExistWithCorrectType(string id, MetroAreaType type)
+    {
+        var metro = WorldData.GetMetroAreaById(id);
+
+        Assert.NotNull(metro);
+        Assert.Equal(type, metro.Type);
+    }
+
+    [Fact]
+    public void NameOnlyMember_IsPresentAndSkippedSafely()
+    {
+        // Venue-towns absent from the world data are carried as name-only members
+        // (state known, no city id) and must not break resolution.
+        var den = WorldData.GetMetroAreaById("us-den")!;
+        var morrison = den.Members.First(m => m.Name == "Morrison");
+
+        Assert.Equal(MetroMemberType.City, morrison.Type);
+        Assert.NotNull(morrison.StateId);             // state is known
+        Assert.Null(morrison.CityId);                 // city is not in the world data
+        Assert.Null(WorldData.ResolveCity(morrison)); // skipped, no throw
+        Assert.DoesNotContain(WorldData.GetMetroCities(den), c => c.Name == "Morrison");
+    }
+
+    [Fact]
+    public void EveryUsCityMember_HasResolvableState()
+    {
+        // Closes the blind spot in EveryCityMember_ResolvesAgainstWorldData (which skips name-only
+        // members): every US city member — id-bearing or name-only — must carry a resolvable state.
+        var bad = new List<string>();
+
+        foreach (var metro in WorldData.MetroAreas)
+            foreach (var member in metro.Members)
+                if (member.Type == MetroMemberType.City && member.CountryIso2 == "US")
+                    if (member.StateId is null || WorldData.ResolveState(member) is null)
+                        bad.Add($"{metro.Id}: {member.Name}");
+
+        Assert.True(bad.Count == 0, "US city members with unresolvable state: " + string.Join("; ", bad));
     }
 }

@@ -24,7 +24,8 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-96.70033000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 46, StateName = "South Dakota", CityId = 139, Name = "Sioux Falls" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 46, StateName = "South Dakota", CityId = 139, Name = "Sioux Falls" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 46, StateName = "South Dakota", CityId = 16, Name = "Brookings" }
             }
         };
     }

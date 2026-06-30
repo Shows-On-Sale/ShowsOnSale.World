@@ -25,7 +25,8 @@ namespace ShowsOnSale.World.Data.Metros
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 33, StateName = "New Jersey", CityId = 12, Name = "Atlantic City" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 33, StateName = "New Jersey", CityId = 183, Name = "Hammonton" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 33, StateName = "New Jersey", CityId = 183, Name = "Hammonton" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 33, StateName = "New Jersey", CityId = 344, Name = "Ocean City" }
             }
         };
     }

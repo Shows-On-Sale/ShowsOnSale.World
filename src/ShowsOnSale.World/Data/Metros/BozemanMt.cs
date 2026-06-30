@@ -24,7 +24,8 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-111.03856000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 29, StateName = "Montana", CityId = 14, Name = "Bozeman" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 29, StateName = "Montana", CityId = 14, Name = "Bozeman" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 29, StateName = "Montana", CityId = 89, Name = "Livingston" }
             }
         };
     }

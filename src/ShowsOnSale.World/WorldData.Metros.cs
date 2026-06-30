@@ -411,6 +411,11 @@ namespace ShowsOnSale.World
             ShowsOnSale.World.Data.Metros.LewistonIdWa.Data,
             ShowsOnSale.World.Data.Metros.EnidOk.Data,
             ShowsOnSale.World.Data.Metros.EaglePassTx.Data,
+            ShowsOnSale.World.Data.Metros.AugustaRichmondCountyGa.Data,
+            ShowsOnSale.World.Data.Metros.TupeloMs.Data,
+            ShowsOnSale.World.Data.Metros.KeyWestFl.Data,
+            ShowsOnSale.World.Data.Metros.AspenCo.Data,
+            ShowsOnSale.World.Data.Metros.PikevilleKy.Data,
         };
     }
 }

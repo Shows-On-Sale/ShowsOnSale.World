@@ -24,7 +24,10 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-77.43428000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = 382, Name = "Richmond" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = 382, Name = "Richmond" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = null, Name = "Doswell" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = 239, Name = "Hopewell" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = 358, Name = "Petersburg" }
             }
         };
     }

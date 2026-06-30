@@ -24,7 +24,8 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-103.23101000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 46, StateName = "South Dakota", CityId = 131, Name = "Rapid City" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 46, StateName = "South Dakota", CityId = 131, Name = "Rapid City" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 46, StateName = "South Dakota", CityId = 42, Name = "Deadwood" }
             }
         };
     }

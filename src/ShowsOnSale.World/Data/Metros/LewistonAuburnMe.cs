@@ -25,7 +25,9 @@ namespace ShowsOnSale.World.Data.Metros
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 22, StateName = "Maine", CityId = 129, Name = "Lewiston" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 22, StateName = "Maine", CityId = 9, Name = "Auburn" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 22, StateName = "Maine", CityId = 9, Name = "Auburn" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 22, StateName = "Maine", CityId = 252, Name = "Waterville" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 22, StateName = "Maine", CityId = 214, Name = "Sidney" }
             }
         };
     }

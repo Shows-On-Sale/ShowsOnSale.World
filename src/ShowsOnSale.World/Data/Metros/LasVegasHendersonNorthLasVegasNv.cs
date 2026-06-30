@@ -26,7 +26,8 @@ namespace ShowsOnSale.World.Data.Metros
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 31, StateName = "Nevada", CityId = 37, Name = "Las Vegas" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 31, StateName = "Nevada", CityId = 29, Name = "Henderson" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 31, StateName = "Nevada", CityId = 51, Name = "North Las Vegas" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 31, StateName = "Nevada", CityId = 51, Name = "North Las Vegas" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 31, StateName = "Nevada", CityId = null, Name = "Primm" }
             }
         };
     }

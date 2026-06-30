@@ -24,7 +24,8 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-106.65114000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 34, StateName = "New Mexico", CityId = 4, Name = "Albuquerque" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 34, StateName = "New Mexico", CityId = 4, Name = "Albuquerque" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 34, StateName = "New Mexico", CityId = 131, Name = "Rio Rancho" }
             }
         };
     }

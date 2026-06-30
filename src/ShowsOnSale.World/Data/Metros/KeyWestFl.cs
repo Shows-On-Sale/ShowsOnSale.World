@@ -7,25 +7,24 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class TopekaKs
+    public static class KeyWestFl
     {
         public static MetroArea Data { get; } = new()
         {
-            Id = "topeka-ks",
-            Name = "Topeka, KS",
-            ShortName = "Topeka",
+            Id = "key-west-fl",
+            Name = "Key West",
+            ShortName = "Key West",
             CountryIso2 = "US",
             Countries = new() { "US" },
             Code = null,
-            Type = MetroAreaType.Msa,
-            Population = 232648,
+            Type = MetroAreaType.Micropolitan,
+            Population = null,
             CsaId = null,
-            Latitude = "39.04833000",
-            Longitude = "-95.67804000",
+            Latitude = "24.55524000",
+            Longitude = "-81.78163000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 19, StateName = "Kansas", CityId = 293, Name = "Topeka" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 19, StateName = "Kansas", CityId = null, Name = "Mayetta" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 11, StateName = "Florida", CityId = 364, Name = "Key West" }
             }
         };
     }

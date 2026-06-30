@@ -24,7 +24,8 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-68.77781000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 22, StateName = "Maine", CityId = 11, Name = "Bangor" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 22, StateName = "Maine", CityId = 11, Name = "Bangor" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 22, StateName = "Maine", CityId = 12, Name = "Bar Harbor" }
             }
         };
     }

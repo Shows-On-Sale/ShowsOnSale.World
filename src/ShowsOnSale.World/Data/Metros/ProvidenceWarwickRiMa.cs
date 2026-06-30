@@ -25,7 +25,11 @@ namespace ShowsOnSale.World.Data.Metros
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 44, StateName = "Rhode Island", CityId = 41, Name = "Providence" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 44, StateName = "Rhode Island", CityId = 49, Name = "Warwick" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 44, StateName = "Rhode Island", CityId = 49, Name = "Warwick" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 44, StateName = "Rhode Island", CityId = 39, Name = "Pawtucket" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 44, StateName = "Rhode Island", CityId = 10, Name = "Cranston" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 44, StateName = "Rhode Island", CityId = 44, Name = "South Kingstown" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 44, StateName = "Rhode Island", CityId = 25, Name = "Lincoln" }
             }
         };
     }

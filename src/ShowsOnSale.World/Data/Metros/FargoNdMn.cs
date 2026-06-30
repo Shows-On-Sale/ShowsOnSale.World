@@ -24,7 +24,9 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-96.78980000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 37, StateName = "North Dakota", CityId = 38, Name = "Fargo" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 37, StateName = "North Dakota", CityId = 38, Name = "Fargo" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 26, StateName = "Minnesota", CityId = 265, Name = "Moorhead" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 37, StateName = "North Dakota", CityId = 131, Name = "West Fargo" }
             }
         };
     }
