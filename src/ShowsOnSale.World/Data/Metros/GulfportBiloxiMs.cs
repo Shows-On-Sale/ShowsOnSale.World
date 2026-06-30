@@ -25,7 +25,9 @@ namespace ShowsOnSale.World.Data.Metros
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 27, StateName = "Mississippi", CityId = 95, Name = "Gulfport" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 27, StateName = "Mississippi", CityId = 18, Name = "Biloxi" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 27, StateName = "Mississippi", CityId = 18, Name = "Biloxi" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 27, StateName = "Mississippi", CityId = 84, Name = "Gautier" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 27, StateName = "Mississippi", CityId = 12, Name = "Bay St. Louis" }
             }
         };
     }

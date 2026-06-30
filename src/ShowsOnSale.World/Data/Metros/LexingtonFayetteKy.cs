@@ -24,7 +24,8 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-84.45855000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 20, StateName = "Kentucky", CityId = 218, Name = "Lexington-Fayette" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 20, StateName = "Kentucky", CityId = 218, Name = "Lexington-Fayette" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 20, StateName = "Kentucky", CityId = 313, Name = "Richmond" }
             }
         };
     }

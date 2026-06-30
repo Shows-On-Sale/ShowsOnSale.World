@@ -26,7 +26,11 @@ namespace ShowsOnSale.World.Data.Metros
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 42, StateName = "Pennsylvania", CityId = 11, Name = "Allentown" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 42, StateName = "Pennsylvania", CityId = 74, Name = "Bethlehem" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 42, StateName = "Pennsylvania", CityId = 273, Name = "Easton" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 42, StateName = "Pennsylvania", CityId = 273, Name = "Easton" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 42, StateName = "Pennsylvania", CityId = 457, Name = "Jim Thorpe" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 42, StateName = "Pennsylvania", CityId = 892, Name = "Stroudsburg" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 42, StateName = "Pennsylvania", CityId = 825, Name = "Sellersville" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 33, StateName = "New Jersey", CityId = 158, Name = "Frenchtown" }
             }
         };
     }

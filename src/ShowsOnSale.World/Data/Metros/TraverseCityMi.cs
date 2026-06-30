@@ -24,7 +24,8 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-85.62063000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 25, StateName = "Michigan", CityId = 478, Name = "Traverse City" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 25, StateName = "Michigan", CityId = 478, Name = "Traverse City" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 25, StateName = "Michigan", CityId = null, Name = "Interlochen" }
             }
         };
     }

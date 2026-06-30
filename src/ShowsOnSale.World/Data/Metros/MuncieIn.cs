@@ -24,7 +24,8 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-85.38636000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 17, StateName = "Indiana", CityId = 262, Name = "Muncie" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 17, StateName = "Indiana", CityId = 262, Name = "Muncie" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 17, StateName = "Indiana", CityId = 8, Name = "Anderson" }
             }
         };
     }

@@ -24,7 +24,8 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-76.41135000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 42, StateName = "Pennsylvania", CityId = 501, Name = "Lebanon" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 42, StateName = "Pennsylvania", CityId = 501, Name = "Lebanon" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 42, StateName = "Pennsylvania", CityId = null, Name = "Grantville" }
             }
         };
     }

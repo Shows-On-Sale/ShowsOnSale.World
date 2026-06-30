@@ -24,7 +24,8 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-121.65550000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 6, StateName = "California", CityId = 841, Name = "Salinas" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 6, StateName = "California", CityId = 841, Name = "Salinas" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 6, StateName = "California", CityId = 638, Name = "Monterey" }
             }
         };
     }

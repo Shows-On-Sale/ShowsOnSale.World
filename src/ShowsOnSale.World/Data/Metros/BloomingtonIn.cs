@@ -24,7 +24,9 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-86.52639000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 17, StateName = "Indiana", CityId = 31, Name = "Bloomington" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 17, StateName = "Indiana", CityId = 31, Name = "Bloomington" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 17, StateName = "Indiana", CityId = 265, Name = "Nashville" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 17, StateName = "Indiana", CityId = 133, Name = "French Lick" }
             }
         };
     }

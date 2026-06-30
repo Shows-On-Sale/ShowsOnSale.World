@@ -24,7 +24,8 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-92.11930000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 21, StateName = "Louisiana", CityId = 212, Name = "Monroe" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 21, StateName = "Louisiana", CityId = 212, Name = "Monroe" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 5, StateName = "Arkansas", CityId = 80, Name = "El Dorado" }
             }
         };
     }

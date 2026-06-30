@@ -26,7 +26,8 @@ namespace ShowsOnSale.World.Data.Metros
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 48, StateName = "Texas", CityId = 52, Name = "Austin" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 48, StateName = "Texas", CityId = 997, Name = "Round Rock" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 48, StateName = "Texas", CityId = 1025, Name = "San Marcos" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 48, StateName = "Texas", CityId = 1025, Name = "San Marcos" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 48, StateName = "Texas", CityId = 182, Name = "Cedar Park" }
             }
         };
     }

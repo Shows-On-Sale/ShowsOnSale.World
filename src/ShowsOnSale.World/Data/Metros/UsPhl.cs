@@ -28,7 +28,11 @@ namespace ShowsOnSale.World.Data.Metros
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 42, StateName = "Pennsylvania", CityId = 159, Name = "Chester" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 33, StateName = "New Jersey", CityId = 65, Name = "Camden" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 33, StateName = "New Jersey", CityId = 77, Name = "Cherry Hill" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 9, StateName = "Delaware", CityId = 51, Name = "Wilmington" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 9, StateName = "Delaware", CityId = 51, Name = "Wilmington" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 42, StateName = "Pennsylvania", CityId = 376, Name = "Glenside" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 42, StateName = "Pennsylvania", CityId = 22, Name = "Ardmore" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 33, StateName = "New Jersey", CityId = 92, Name = "Collingswood" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 42, StateName = "Pennsylvania", CityId = 490, Name = "Lansdowne" }
             }
         };
     }

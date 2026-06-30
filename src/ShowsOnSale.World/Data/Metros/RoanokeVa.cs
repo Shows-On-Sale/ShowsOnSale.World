@@ -24,7 +24,9 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-79.94143130",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = 384, Name = "Roanoke" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = 384, Name = "Roanoke" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = 396, Name = "Salem" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = 388, Name = "Rocky Mount" }
             }
         };
     }

@@ -24,7 +24,8 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-114.46087000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 15, StateName = "Idaho", CityId = 132, Name = "Twin Falls" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 15, StateName = "Idaho", CityId = 132, Name = "Twin Falls" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 31, StateName = "Nevada", CityId = 33, Name = "Jackpot" }
             }
         };
     }

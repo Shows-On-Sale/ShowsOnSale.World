@@ -25,7 +25,9 @@ namespace ShowsOnSale.World.Data.Metros
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 56, StateName = "Wisconsin", CityId = 277, Name = "Milwaukee" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 56, StateName = "Wisconsin", CityId = 458, Name = "Waukesha" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 56, StateName = "Wisconsin", CityId = 458, Name = "Waukesha" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 56, StateName = "Wisconsin", CityId = 55, Name = "Brookfield" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 56, StateName = "Wisconsin", CityId = 126, Name = "East Troy" }
             }
         };
     }

@@ -25,7 +25,8 @@ namespace ShowsOnSale.World.Data.Metros
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 17, StateName = "Indiana", CityId = 106, Name = "Elkhart" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 17, StateName = "Indiana", CityId = 144, Name = "Goshen" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 17, StateName = "Indiana", CityId = 144, Name = "Goshen" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 17, StateName = "Indiana", CityId = null, Name = "Shipshewana" }
             }
         };
     }

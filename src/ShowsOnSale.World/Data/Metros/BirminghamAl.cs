@@ -24,7 +24,9 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-86.80249000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 1, StateName = "Alabama", CityId = 29, Name = "Birmingham" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 1, StateName = "Alabama", CityId = 29, Name = "Birmingham" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 1, StateName = "Alabama", CityId = 272, Name = "Pelham" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 1, StateName = "Alabama", CityId = 184, Name = "Hoover" }
             }
         };
     }

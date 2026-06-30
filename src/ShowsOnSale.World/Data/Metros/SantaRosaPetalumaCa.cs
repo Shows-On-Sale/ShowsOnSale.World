@@ -25,7 +25,8 @@ namespace ShowsOnSale.World.Data.Metros
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 6, StateName = "California", CityId = 895, Name = "Santa Rosa" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 6, StateName = "California", CityId = 744, Name = "Petaluma" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 6, StateName = "California", CityId = 744, Name = "Petaluma" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 6, StateName = "California", CityId = 821, Name = "Rohnert Park" }
             }
         };
     }

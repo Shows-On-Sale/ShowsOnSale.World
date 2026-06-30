@@ -24,7 +24,9 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-97.87839000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 40, StateName = "Oklahoma", CityId = 95, Name = "Enid" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 40, StateName = "Oklahoma", CityId = 95, Name = "Enid" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 40, StateName = "Oklahoma", CityId = null, Name = "Grant" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 40, StateName = "Oklahoma", CityId = 274, Name = "Stillwater" }
             }
         };
     }

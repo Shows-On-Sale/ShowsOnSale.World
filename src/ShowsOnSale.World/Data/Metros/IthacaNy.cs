@@ -24,7 +24,9 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-76.49661000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 35, StateName = "New York", CityId = 445, Name = "Ithaca" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 35, StateName = "New York", CityId = 445, Name = "Ithaca" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 35, StateName = "New York", CityId = 978, Name = "Waterloo" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 35, StateName = "New York", CityId = 420, Name = "Homer" }
             }
         };
     }

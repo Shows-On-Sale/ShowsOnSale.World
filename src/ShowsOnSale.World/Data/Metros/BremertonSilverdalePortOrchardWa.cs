@@ -26,7 +26,8 @@ namespace ShowsOnSale.World.Data.Metros
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 54, StateName = "Washington", CityId = 39, Name = "Bremerton" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 54, StateName = "Washington", CityId = 338, Name = "Silverdale" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 54, StateName = "Washington", CityId = 301, Name = "Port Orchard" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 54, StateName = "Washington", CityId = 301, Name = "Port Orchard" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 54, StateName = "Washington", CityId = 367, Name = "Suquamish" }
             }
         };
     }

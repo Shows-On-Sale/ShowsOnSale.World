@@ -25,7 +25,9 @@ namespace ShowsOnSale.World.Data.Metros
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 7, StateName = "Colorado", CityId = 106, Name = "Fort Collins" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 7, StateName = "Colorado", CityId = 184, Name = "Loveland" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 7, StateName = "Colorado", CityId = 184, Name = "Loveland" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 7, StateName = "Colorado", CityId = null, Name = "Bellvue" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 7, StateName = "Colorado", CityId = 98, Name = "Estes Park" }
             }
         };
     }

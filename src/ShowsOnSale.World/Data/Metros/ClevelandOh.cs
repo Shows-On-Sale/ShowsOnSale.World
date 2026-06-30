@@ -24,7 +24,10 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-81.69541000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 39, StateName = "Ohio", CityId = 128, Name = "Cleveland" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 39, StateName = "Ohio", CityId = 128, Name = "Cleveland" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 39, StateName = "Ohio", CityId = 129, Name = "Cleveland Heights" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 39, StateName = "Ohio", CityId = 503, Name = "Northfield" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 39, StateName = "Ohio", CityId = 343, Name = "Lakewood" }
             }
         };
     }

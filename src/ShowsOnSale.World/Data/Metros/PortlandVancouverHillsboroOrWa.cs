@@ -26,7 +26,11 @@ namespace ShowsOnSale.World.Data.Metros
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 41, StateName = "Oregon", CityId = 179, Name = "Portland" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 54, StateName = "Washington", CityId = 389, Name = "Vancouver" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 41, StateName = "Oregon", CityId = 98, Name = "Hillsboro" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 41, StateName = "Oregon", CityId = 98, Name = "Hillsboro" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 54, StateName = "Washington", CityId = 318, Name = "Ridgefield" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 41, StateName = "Oregon", CityId = 224, Name = "Troutdale" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = null, StateName = null, CityId = null, Name = "Vancouver" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 41, StateName = "Oregon", CityId = 74, Name = "Forest Grove" }
             }
         };
     }

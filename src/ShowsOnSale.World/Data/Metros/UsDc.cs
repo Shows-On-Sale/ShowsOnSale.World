@@ -27,7 +27,18 @@ namespace ShowsOnSale.World.Data.Metros
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 10, StateName = "District of Columbia", CityId = 4, Name = "Washington D.C." },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = 19, Name = "Arlington" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = 6, Name = "Alexandria" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 23, StateName = "Maryland", CityId = 30, Name = "Bethesda" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 23, StateName = "Maryland", CityId = 30, Name = "Bethesda" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 23, StateName = "Maryland", CityId = 314, Name = "Silver Spring" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = null, Name = "Tysons" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = 172, Name = "Fairfax" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = null, Name = "Bristow" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 23, StateName = "Maryland", CityId = 127, Name = "Fort Washington" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 23, StateName = "Maryland", CityId = 239, Name = "National Harbor" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = 451, Name = "Vienna" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = 273, Name = "Leesburg" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 23, StateName = "Maryland", CityId = null, Name = "Greater Landover" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 53, StateName = "Virginia", CityId = 305, Name = "McLean" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 23, StateName = "Maryland", CityId = 245, Name = "North Bethesda" }
             }
         };
     }

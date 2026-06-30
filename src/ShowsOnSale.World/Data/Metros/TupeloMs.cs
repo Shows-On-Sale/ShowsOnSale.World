@@ -7,25 +7,24 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class TopekaKs
+    public static class TupeloMs
     {
         public static MetroArea Data { get; } = new()
         {
-            Id = "topeka-ks",
-            Name = "Topeka, KS",
-            ShortName = "Topeka",
+            Id = "tupelo-ms",
+            Name = "Tupelo",
+            ShortName = "Tupelo",
             CountryIso2 = "US",
             Countries = new() { "US" },
             Code = null,
-            Type = MetroAreaType.Msa,
-            Population = 232648,
+            Type = MetroAreaType.Other,
+            Population = null,
             CsaId = null,
-            Latitude = "39.04833000",
-            Longitude = "-95.67804000",
+            Latitude = "34.25807000",
+            Longitude = "-88.70464000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 19, StateName = "Kansas", CityId = 293, Name = "Topeka" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 19, StateName = "Kansas", CityId = null, Name = "Mayetta" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 27, StateName = "Mississippi", CityId = 262, Name = "Tupelo" }
             }
         };
     }

@@ -26,7 +26,13 @@ namespace ShowsOnSale.World.Data.Metros
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 8, StateName = "Connecticut", CityId = 107, Name = "Norwich" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 8, StateName = "Connecticut", CityId = 92, Name = "New London" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 8, StateName = "Connecticut", CityId = 178, Name = "Willimantic" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 8, StateName = "Connecticut", CityId = 178, Name = "Willimantic" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 8, StateName = "Connecticut", CityId = null, Name = "Montville" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 8, StateName = "Connecticut", CityId = 162, Name = "Uncasville" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 8, StateName = "Connecticut", CityId = 67, Name = "Ledyard" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 8, StateName = "Connecticut", CityId = null, Name = "Mashantucket" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 8, StateName = "Connecticut", CityId = 111, Name = "Old Saybrook" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 44, StateName = "Rhode Island", CityId = 53, Name = "Westerly" }
             }
         };
     }

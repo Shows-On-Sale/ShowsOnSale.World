@@ -25,7 +25,8 @@ namespace ShowsOnSale.World.Data.Metros
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 4, StateName = "Arizona", CityId = 102, Name = "Lake Havasu City" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 4, StateName = "Arizona", CityId = 100, Name = "Kingman" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 4, StateName = "Arizona", CityId = 100, Name = "Kingman" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 31, StateName = "Nevada", CityId = 38, Name = "Laughlin" }
             }
         };
     }

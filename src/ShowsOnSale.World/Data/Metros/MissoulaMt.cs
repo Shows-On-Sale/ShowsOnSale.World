@@ -24,7 +24,8 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-113.99400000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 29, StateName = "Montana", CityId = 100, Name = "Missoula" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 29, StateName = "Montana", CityId = 100, Name = "Missoula" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 29, StateName = "Montana", CityId = 12, Name = "Bonner-West Riverside" }
             }
         };
     }

@@ -25,7 +25,13 @@ namespace ShowsOnSale.World.Data.Metros
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 51, StateName = "Utah", CityId = 151, Name = "Salt Lake City" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 51, StateName = "Utah", CityId = 114, Name = "Murray" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 51, StateName = "Utah", CityId = 114, Name = "Murray" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 51, StateName = "Utah", CityId = 202, Name = "West Valley City" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 51, StateName = "Utah", CityId = 166, Name = "South Salt Lake" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 51, StateName = "Utah", CityId = 153, Name = "Sandy" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 51, StateName = "Utah", CityId = 92, Name = "Magna" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 51, StateName = "Utah", CityId = 163, Name = "South Jordan" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 51, StateName = "Utah", CityId = 127, Name = "Park City" }
             }
         };
     }

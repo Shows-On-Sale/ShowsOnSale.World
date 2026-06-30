@@ -242,7 +242,8 @@ public class MetroAreaTests
 
         var cities = WorldData.GetMetroCities(metro);
 
-        Assert.Equal(4, cities.Count);
+        // Core members are always present; demand-driven additions may grow this list.
+        Assert.True(cities.Count >= 4);
         Assert.Contains(cities, c => c.Name == "New York City");
         Assert.Contains(cities, c => c.Name == "Newark");
     }

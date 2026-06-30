@@ -24,7 +24,9 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-73.64401000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 35, StateName = "New York", CityId = 340, Name = "Glens Falls" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 35, StateName = "New York", CityId = 340, Name = "Glens Falls" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 35, StateName = "New York", CityId = 821, Name = "Saratoga Springs" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 52, StateName = "Vermont", CityId = 69, Name = "Rutland" }
             }
         };
     }

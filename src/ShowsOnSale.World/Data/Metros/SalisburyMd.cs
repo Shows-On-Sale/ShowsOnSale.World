@@ -24,7 +24,10 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-75.59937000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 23, StateName = "Maryland", CityId = 304, Name = "Salisbury" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 23, StateName = "Maryland", CityId = 304, Name = "Salisbury" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 9, StateName = "Delaware", CityId = 47, Name = "Selbyville" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 9, StateName = "Delaware", CityId = null, Name = "Dewey Beach" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 23, StateName = "Maryland", CityId = 251, Name = "Ocean City" }
             }
         };
     }

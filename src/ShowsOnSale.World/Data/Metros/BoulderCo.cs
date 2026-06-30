@@ -24,7 +24,10 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-105.27055000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 7, StateName = "Colorado", CityId = 26, Name = "Boulder" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 7, StateName = "Colorado", CityId = 26, Name = "Boulder" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 7, StateName = "Colorado", CityId = 114, Name = "Frisco" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 7, StateName = "Colorado", CityId = null, Name = "Dillon" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 7, StateName = "Colorado", CityId = 30, Name = "Broomfield" }
             }
         };
     }

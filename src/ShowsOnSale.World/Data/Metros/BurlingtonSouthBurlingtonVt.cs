@@ -25,7 +25,8 @@ namespace ShowsOnSale.World.Data.Metros
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 52, StateName = "Vermont", CityId = 12, Name = "Burlington" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 52, StateName = "Vermont", CityId = 75, Name = "South Burlington" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 52, StateName = "Vermont", CityId = 75, Name = "South Burlington" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 52, StateName = "Vermont", CityId = null, Name = "Shelburne" }
             }
         };
     }

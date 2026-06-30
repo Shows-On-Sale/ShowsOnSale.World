@@ -24,7 +24,9 @@ namespace ShowsOnSale.World.Data.Metros
             Longitude = "-95.94043000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 30, StateName = "Nebraska", CityId = 157, Name = "Omaha" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 30, StateName = "Nebraska", CityId = 157, Name = "Omaha" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 30, StateName = "Nebraska", CityId = 124, Name = "La Vista" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 18, StateName = "Iowa", CityId = 84, Name = "Council Bluffs" }
             }
         };
     }

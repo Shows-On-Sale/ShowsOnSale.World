@@ -7,25 +7,25 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class TopekaKs
+    public static class AugustaRichmondCountyGa
     {
         public static MetroArea Data { get; } = new()
         {
-            Id = "topeka-ks",
-            Name = "Topeka, KS",
-            ShortName = "Topeka",
+            Id = "augusta-richmond-county-ga",
+            Name = "Augusta–Richmond County",
+            ShortName = "Augusta",
             CountryIso2 = "US",
             Countries = new() { "US" },
             Code = null,
-            Type = MetroAreaType.Msa,
-            Population = 232648,
+            Type = MetroAreaType.Other,
+            Population = null,
             CsaId = null,
-            Latitude = "39.04833000",
-            Longitude = "-95.67804000",
+            Latitude = "33.47097000",
+            Longitude = "-81.97484000",
             Members = new()
             {
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 19, StateName = "Kansas", CityId = 293, Name = "Topeka" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 19, StateName = "Kansas", CityId = null, Name = "Mayetta" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 12, StateName = "Georgia", CityId = 20, Name = "Augusta" },
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 12, StateName = "Georgia", CityId = 173, Name = "Evans" }
             }
         };
     }
