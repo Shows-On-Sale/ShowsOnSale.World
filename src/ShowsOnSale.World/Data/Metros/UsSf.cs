@@ -19,7 +19,7 @@ namespace ShowsOnSale.World.Data.Metros
             Code = "41860",
             Type = MetroAreaType.Msa,
             Population = 4648486,
-            CsaId = "csa-san-jose-sf-oakland",
+            CsaId = "csa-san-jose-san-francisco-oakland-ca",
             Latitude = "37.77493000",
             Longitude = "-122.41942000",
             Members = new()

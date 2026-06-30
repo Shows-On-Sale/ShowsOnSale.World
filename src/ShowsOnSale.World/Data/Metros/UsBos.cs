@@ -19,7 +19,7 @@ namespace ShowsOnSale.World.Data.Metros
             Code = "14460",
             Type = MetroAreaType.Msa,
             Population = 5025517,
-            CsaId = "csa-boston",
+            CsaId = "csa-boston-worcester-providence-ma-ri-nh",
             Latitude = "42.35843000",
             Longitude = "-71.05977000",
             Members = new()

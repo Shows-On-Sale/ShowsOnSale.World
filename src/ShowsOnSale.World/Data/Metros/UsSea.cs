@@ -19,7 +19,7 @@ namespace ShowsOnSale.World.Data.Metros
             Code = "42660",
             Type = MetroAreaType.Msa,
             Population = 4145494,
-            CsaId = "csa-seattle",
+            CsaId = "csa-seattle-tacoma-wa",
             Latitude = "47.60621000",
             Longitude = "-122.33207000",
             Members = new()

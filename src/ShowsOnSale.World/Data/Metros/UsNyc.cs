@@ -19,7 +19,7 @@ namespace ShowsOnSale.World.Data.Metros
             Code = "35620",
             Type = MetroAreaType.Msa,
             Population = 19940274,
-            CsaId = "csa-new-york",
+            CsaId = "csa-new-york-newark-ny-nj-ct-pa",
             Latitude = "40.71427000",
             Longitude = "-74.00597000",
             Members = new()

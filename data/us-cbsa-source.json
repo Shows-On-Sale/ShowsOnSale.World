@@ -1,0 +1,710 @@
+{
+  "$comment": "Transcribed from OMB Bulletin 23-01 + Census Vintage 2024 (the reference document). Source for the full US MSA/CSA import; consumed by scripts/import-us-cbsa.js to (re)generate metro and CSA data. MSA 'name' is the official OMB title; principal cities and states are parsed from it. All-micropolitan CSAs (no MSA component) are intentionally omitted as they contribute no metro.",
+  "csas": [
+    {"name":"New York–Newark, NY-NJ-CT-PA","pop":22342624,"msas":[
+      {"name":"New York–Newark–Jersey City, NY-NJ","pop":19940274},
+      {"name":"Bridgeport–Stamford–Danbury, CT","pop":972679},
+      {"name":"Kiryas Joel–Poughkeepsie–Newburgh, NY","pop":711730},
+      {"name":"Trenton–Princeton, NJ","pop":392138},
+      {"name":"Kingston, NY","pop":182977}
+    ]},
+    {"name":"Los Angeles–Long Beach, CA","pop":18507255,"msas":[
+      {"name":"Los Angeles–Long Beach–Anaheim, CA","pop":12927614},
+      {"name":"Riverside–San Bernardino–Ontario, CA","pop":4744214},
+      {"name":"Oxnard–Thousand Oaks–Ventura, CA","pop":835427}
+    ]},
+    {"name":"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA","pop":10237545,"msas":[
+      {"name":"Washington–Arlington–Alexandria, DC-VA-MD-WV","pop":6436489},
+      {"name":"Baltimore–Columbia–Towson, MD","pop":2859024},
+      {"name":"Hagerstown–Martinsburg, MD-WV","pop":311295},
+      {"name":"Lexington Park, MD","pop":211382},
+      {"name":"Chambersburg, PA","pop":159285},
+      {"name":"Winchester, VA-WV","pop":149702}
+    ]},
+    {"name":"Chicago–Naperville, IL-IN-WI","pop":9941597,"msas":[
+      {"name":"Chicago–Naperville–Elgin, IL-IN","pop":9408576},
+      {"name":"Kenosha, WI","pop":168754},
+      {"name":"Michigan City–La Porte, IN","pop":111348},
+      {"name":"Kankakee, IL","pop":106410}
+    ]},
+    {"name":"San Jose–San Francisco–Oakland, CA","pop":9164058,"msas":[
+      {"name":"San Francisco–Oakland–Fremont, CA","pop":4648486},
+      {"name":"San Jose–Sunnyvale–Santa Clara, CA","pop":1995484},
+      {"name":"Stockton–Lodi, CA","pop":816108},
+      {"name":"Modesto, CA","pop":556972},
+      {"name":"Santa Rosa–Petaluma, CA","pop":485375},
+      {"name":"Vallejo, CA","pop":455101},
+      {"name":"Merced, CA","pop":296774},
+      {"name":"Santa Cruz–Watsonville, CA","pop":262406},
+      {"name":"Napa, CA","pop":132727}
+    ]},
+    {"name":"Dallas–Fort Worth, TX-OK","pop":8909918,"msas":[
+      {"name":"Dallas–Fort Worth–Arlington, TX","pop":8344032},
+      {"name":"Sherman–Denison, TX","pop":150532}
+    ]},
+    {"name":"Boston–Worcester–Providence, MA-RI-NH","pop":8493824,"msas":[
+      {"name":"Boston–Cambridge–Newton, MA-NH","pop":5025517},
+      {"name":"Providence–Warwick, RI-MA","pop":1700901},
+      {"name":"Worcester, MA","pop":881248},
+      {"name":"Manchester–Nashua, NH","pop":430462},
+      {"name":"Barnstable Town, MA","pop":232570}
+    ]},
+    {"name":"Houston–Pasadena, TX","pop":7996140,"msas":[
+      {"name":"Houston–Pasadena–The Woodlands, TX","pop":7796182}
+    ]},
+    {"name":"Philadelphia–Reading–Camden, PA-NJ-DE-MD","pop":7490896,"msas":[
+      {"name":"Philadelphia–Camden–Wilmington, PA-NJ-DE-MD","pop":6330422},
+      {"name":"Reading, PA","pop":439117},
+      {"name":"Atlantic City–Hammonton, NJ","pop":372989},
+      {"name":"Dover, DE","pop":192690},
+      {"name":"Vineland, NJ","pop":155678}
+    ]},
+    {"name":"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL","pop":7340522,"msas":[
+      {"name":"Atlanta–Sandy Springs–Roswell, GA","pop":6411149},
+      {"name":"Athens-Clarke County, GA","pop":223689},
+      {"name":"Gainesville, GA","pop":221745},
+      {"name":"Rome, GA","pop":101390}
+    ]},
+    {"name":"Miami–Port St. Lucie–Fort Lauderdale, FL","pop":7309740,"msas":[
+      {"name":"Miami–Fort Lauderdale–West Palm Beach, FL","pop":6457988},
+      {"name":"Port St. Lucie, FL","pop":556336},
+      {"name":"Sebastian–Vero Beach–West Vero Corridor, FL","pop":172139}
+    ]},
+    {"name":"Detroit–Warren–Ann Arbor, MI","pop":5430523,"msas":[
+      {"name":"Detroit–Warren–Dearborn, MI","pop":4400578},
+      {"name":"Flint, MI","pop":402279},
+      {"name":"Ann Arbor, MI","pop":373875},
+      {"name":"Monroe, MI","pop":156045}
+    ]},
+    {"name":"Phoenix–Mesa, AZ","pop":5241031,"msas":[
+      {"name":"Phoenix–Mesa–Chandler, AZ","pop":5186958}
+    ]},
+    {"name":"Seattle–Tacoma, WA","pop":5105721,"msas":[
+      {"name":"Seattle–Tacoma–Bellevue, WA","pop":4145494},
+      {"name":"Olympia–Lacey–Tumwater, WA","pop":302912},
+      {"name":"Bremerton–Silverdale–Port Orchard, WA","pop":281420},
+      {"name":"Mount Vernon–Anacortes, WA","pop":132736}
+    ]},
+    {"name":"Orlando–Lakeland–Deltona, FL","pop":4687600,"msas":[
+      {"name":"Orlando–Kissimmee–Sanford, FL","pop":2940513},
+      {"name":"Lakeland–Winter Haven, FL","pop":852878},
+      {"name":"Deltona–Daytona Beach–Ormond Beach, FL","pop":739516},
+      {"name":"Wildwood–The Villages, FL","pop":154693}
+    ]},
+    {"name":"Minneapolis–St. Paul, MN-WI","pop":4155051,"msas":[
+      {"name":"Minneapolis–St. Paul–Bloomington, MN-WI","pop":3757952},
+      {"name":"St. Cloud, MN","pop":205878}
+    ]},
+    {"name":"Denver–Aurora–Greeley, CO","pop":3752505,"msas":[
+      {"name":"Denver–Aurora–Centennial, CO","pop":3052498},
+      {"name":"Greeley, CO","pop":369745},
+      {"name":"Boulder, CO","pop":330262}
+    ]},
+    {"name":"Cleveland–Akron–Canton, OH","pop":3750887,"msas":[
+      {"name":"Cleveland, OH","pop":2171877},
+      {"name":"Akron, OH","pop":702209},
+      {"name":"Canton–Massillon, OH","pop":400551},
+      {"name":"Sandusky, OH","pop":113533}
+    ]},
+    {"name":"Charlotte–Concord, NC-SC","pop":3471190,"msas":[
+      {"name":"Charlotte–Concord–Gastonia, NC-SC","pop":2883370},
+      {"name":"Hickory–Lenoir–Morganton, NC","pop":373031}
+    ]},
+    {"name":"Portland–Vancouver–Salem, OR-WA","pop":3326675,"msas":[
+      {"name":"Portland–Vancouver–Hillsboro, OR-WA","pop":2537904},
+      {"name":"Salem, OR","pop":443416},
+      {"name":"Albany, OR","pop":132474},
+      {"name":"Longview–Kelso, WA","pop":113982},
+      {"name":"Corvallis, OR","pop":98899}
+    ]},
+    {"name":"St. Louis–St. Charles–Farmington, MO-IL","pop":2915867,"msas":[
+      {"name":"St. Louis, MO-IL","pop":2811927}
+    ]},
+    {"name":"Salt Lake City–Provo–Orem, UT-ID","pop":2879037,"msas":[
+      {"name":"Salt Lake City–Murray, UT","pop":1300762},
+      {"name":"Provo–Orem–Lehi, UT","pop":760531},
+      {"name":"Ogden, UT","pop":667681}
+    ]},
+    {"name":"San Antonio–New Braunfels–Kerrville, TX","pop":2845065,"msas":[
+      {"name":"San Antonio–New Braunfels, TX","pop":2763006}
+    ]},
+    {"name":"Sacramento–Roseville, CA","pop":2751336,"msas":[
+      {"name":"Sacramento–Roseville–Folsom, CA","pop":2463127},
+      {"name":"Yuba City, CA","pop":186014}
+    ]},
+    {"name":"Pittsburgh–Weirton–Steubenville, PA-OH-WV","pop":2734249,"msas":[
+      {"name":"Pittsburgh, PA","pop":2429917},
+      {"name":"Weirton–Steubenville, WV-OH","pop":113239}
+    ]},
+    {"name":"New Haven–Hartford–Waterbury, CT","pop":2702390,"msas":[
+      {"name":"Hartford–West Hartford–East Hartford, CT","pop":1169048},
+      {"name":"New Haven, CT","pop":576718},
+      {"name":"Waterbury–Shelton, CT","pop":462220},
+      {"name":"Norwich–New London–Willimantic, CT","pop":282602}
+    ]},
+    {"name":"Columbus–Marion–Zanesville, OH","pop":2693133,"msas":[
+      {"name":"Columbus, OH","pop":2225377}
+    ]},
+    {"name":"Indianapolis–Carmel–Muncie, IN","pop":2691579,"msas":[
+      {"name":"Indianapolis–Carmel–Greenwood, IN","pop":2174833},
+      {"name":"Muncie, IN","pop":112951},
+      {"name":"Columbus, IN","pop":84741},
+      {"name":"Kokomo, IN","pop":84082}
+    ]},
+    {"name":"Kansas City–Overland Park–Kansas City, MO-KS","pop":2593094,"msas":[
+      {"name":"Kansas City, MO-KS","pop":2253579},
+      {"name":"Lawrence, KS","pop":121989},
+      {"name":"St. Joseph, MO-KS","pop":119124}
+    ]},
+    {"name":"Las Vegas–Henderson, NV","pop":2454861,"msas":[
+      {"name":"Las Vegas–Henderson–North Las Vegas, NV","pop":2398871}
+    ]},
+    {"name":"Raleigh–Durham–Cary, NC","pop":2439501,"msas":[
+      {"name":"Raleigh–Cary, NC","pop":1562009},
+      {"name":"Durham–Chapel Hill, NC","pop":620522}
+    ]},
+    {"name":"Nashville-Davidson–Murfreesboro, TN","pop":2402290,"msas":[
+      {"name":"Nashville-Davidson–Murfreesboro–Franklin, TN","pop":2150553}
+    ]},
+    {"name":"Cincinnati–Wilmington, OH-KY-IN","pop":2344834,"msas":[
+      {"name":"Cincinnati, OH-KY-IN","pop":2302815}
+    ]},
+    {"name":"Milwaukee–Racine–Waukesha, WI","pop":2054012,"msas":[
+      {"name":"Milwaukee–Waukesha, WI","pop":1574452},
+      {"name":"Racine–Mount Pleasant, WI","pop":198651}
+    ]},
+    {"name":"Jacksonville–Kingsland–Palatka, FL-GA","pop":1896948,"msas":[
+      {"name":"Jacksonville, FL","pop":1760548}
+    ]},
+    {"name":"Virginia Beach–Chesapeake, VA-NC","pop":1873879,"msas":[
+      {"name":"Virginia Beach–Norfolk–Newport News, VA-NC","pop":1794278}
+    ]},
+    {"name":"Greensboro–Winston-Salem–High Point, NC","pop":1760496,"msas":[
+      {"name":"Greensboro–High Point, NC","pop":800722},
+      {"name":"Winston-Salem, NC","pop":705187},
+      {"name":"Burlington, NC","pop":183040}
+    ]},
+    {"name":"Greenville–Spartanburg–Anderson, SC","pop":1627507,"msas":[
+      {"name":"Greenville–Anderson–Greer, SC","pop":996680},
+      {"name":"Spartanburg, SC","pop":395934}
+    ]},
+    {"name":"Oklahoma City–Shawnee, OK","pop":1572267,"msas":[
+      {"name":"Oklahoma City, OK","pop":1497821}
+    ]},
+    {"name":"Louisville/Jefferson County–Elizabethtown, KY-IN","pop":1522188,"msas":[
+      {"name":"Louisville/Jefferson County, KY-IN","pop":1394234},
+      {"name":"Elizabethtown, KY","pop":127954}
+    ]},
+    {"name":"Grand Rapids–Wyoming, MI","pop":1520630,"msas":[
+      {"name":"Grand Rapids–Wyoming–Kentwood, MI","pop":1178826},
+      {"name":"Muskegon–Norton Shores, MI","pop":177428}
+    ]},
+    {"name":"Memphis–Clarksdale–Forrest City, TN-MS-AR","pop":1381272,"msas":[
+      {"name":"Memphis, TN-MS-AR","pop":1339345}
+    ]},
+    {"name":"Birmingham–Cullman–Talladega, AL","pop":1376853,"msas":[
+      {"name":"Birmingham, AL","pop":1192583}
+    ]},
+    {"name":"New Orleans–Metairie–Slidell, LA-MS","pop":1347965,"msas":[
+      {"name":"New Orleans–Metairie, LA","pop":966230},
+      {"name":"Slidell–Mandeville–Covington, LA","pop":277615}
+    ]},
+    {"name":"Fresno–Hanford–Corcoran, CA","pop":1344470,"msas":[
+      {"name":"Fresno, CA","pop":1189557},
+      {"name":"Hanford–Corcoran, CA","pop":154913}
+    ]},
+    {"name":"Harrisburg–York–Lebanon, PA","pop":1339834,"msas":[
+      {"name":"Harrisburg–Carlisle, PA","pop":615361},
+      {"name":"York–Hanover, PA","pop":471240},
+      {"name":"Lebanon, PA","pop":145319},
+      {"name":"Gettysburg, PA","pop":107914}
+    ]},
+    {"name":"Cape Coral–Fort Myers–Naples, FL","pop":1336454,"msas":[
+      {"name":"Cape Coral–Fort Myers, FL","pop":860959},
+      {"name":"Naples–Marco Island, FL","pop":416233}
+    ]},
+    {"name":"Buffalo–Cheektowaga–Olean, NY","pop":1235647,"msas":[
+      {"name":"Buffalo–Cheektowaga, NY","pop":1160172}
+    ]},
+    {"name":"Knoxville–Morristown–Sevierville, TN","pop":1222320,"msas":[
+      {"name":"Knoxville, TN","pop":957608},
+      {"name":"Morristown, TN","pop":126932}
+    ]},
+    {"name":"Albany–Schenectady, NY","pop":1200632,"msas":[
+      {"name":"Albany–Schenectady–Troy, NY","pop":913485},
+      {"name":"Glens Falls, NY","pop":125127}
+    ]},
+    {"name":"North Port–Bradenton, FL","pop":1183822,"msas":[
+      {"name":"North Port–Bradenton–Sarasota, FL","pop":934956},
+      {"name":"Punta Gorda, FL","pop":212122}
+    ]},
+    {"name":"Tulsa–Bartlesville–Muskogee, OK","pop":1180615,"msas":[
+      {"name":"Tulsa, OK","pop":1059803}
+    ]},
+    {"name":"Albuquerque–Santa Fe–Los Alamos, NM","pop":1174222,"msas":[
+      {"name":"Albuquerque, NM","pop":926303},
+      {"name":"Santa Fe, NM","pop":157765}
+    ]},
+    {"name":"Rochester–Batavia–Seneca Falls, NY","pop":1147472,"msas":[
+      {"name":"Rochester, NY","pop":1057218}
+    ]},
+    {"name":"Tucson–Nogales, AZ","pop":1130657,"msas":[
+      {"name":"Tucson, AZ","pop":1080149}
+    ]},
+    {"name":"El Paso–Las Cruces, TX-NM","pop":1108758,"msas":[
+      {"name":"El Paso, TX","pop":879392},
+      {"name":"Las Cruces, NM","pop":229366}
+    ]},
+    {"name":"Columbia–Sumter–Orangeburg, SC","pop":1097301,"msas":[
+      {"name":"Columbia, SC","pop":870193},
+      {"name":"Sumter, SC","pop":104776}
+    ]},
+    {"name":"Dayton–Springfield–Kettering, OH","pop":1095046,"msas":[
+      {"name":"Dayton–Kettering–Beavercreek, OH","pop":821740},
+      {"name":"Springfield, OH","pop":134985}
+    ]},
+    {"name":"Allentown–Bethlehem–East Stroudsburg, PA-NJ","pop":1052941,"msas":[
+      {"name":"Allentown–Bethlehem–Easton, PA-NJ","pop":886418}
+    ]},
+    {"name":"Omaha–Fremont, NE-IA","pop":1038894,"msas":[
+      {"name":"Omaha, NE-IA","pop":1001010}
+    ]},
+    {"name":"Baton Rouge–Hammond, LA","pop":1022475,"msas":[
+      {"name":"Baton Rouge, LA","pop":882652},
+      {"name":"Hammond, LA","pop":139823}
+    ]},
+    {"name":"Chattanooga–Cleveland–Dalton, TN-GA-AL","pop":1016333,"msas":[
+      {"name":"Chattanooga, TN-GA","pop":588050},
+      {"name":"Dalton, GA","pop":146386},
+      {"name":"Cleveland, TN","pop":132120}
+    ]},
+    {"name":"McAllen–Edinburg, TX","pop":981407,"msas":[
+      {"name":"McAllen–Edinburg–Mission, TX","pop":914820}
+    ]},
+    {"name":"Madison–Janesville–Beloit, WI","pop":939553,"msas":[
+      {"name":"Madison, WI","pop":707606},
+      {"name":"Janesville–Beloit, WI","pop":165461}
+    ]},
+    {"name":"Des Moines–West Des Moines–Ames, IA","pop":939222,"msas":[
+      {"name":"Des Moines–West Des Moines, IA","pop":753913},
+      {"name":"Ames, IA","pop":129227}
+    ]},
+    {"name":"Boise City–Mountain Home–Ontario, ID-OR","pop":935583,"msas":[
+      {"name":"Boise City, ID","pop":845877}
+    ]},
+    {"name":"Little Rock–North Little Rock, AR","pop":919388,"msas":[
+      {"name":"Little Rock–North Little Rock–Conway, AR","pop":769258}
+    ]},
+    {"name":"Huntsville–Decatur–Albertville, AL-TN","pop":913977,"msas":[
+      {"name":"Huntsville, AL","pop":542297},
+      {"name":"Decatur, AL","pop":159651}
+    ]},
+    {"name":"South Bend–Elkhart–Mishawaka, IN-MI","pop":812566,"msas":[
+      {"name":"South Bend–Mishawaka, IN-MI","pop":325294},
+      {"name":"Elkhart–Goshen, IN","pop":207436},
+      {"name":"Niles, MI","pop":152703}
+    ]},
+    {"name":"Spokane–Spokane Valley–Coeur d'Alene, WA-ID","pop":793285,"msas":[
+      {"name":"Spokane–Spokane Valley, WA","pop":604962},
+      {"name":"Coeur d'Alene, ID","pop":188323}
+    ]},
+    {"name":"Lexington-Fayette–Richmond–Frankfort, KY","pop":788564,"msas":[
+      {"name":"Lexington-Fayette, KY","pop":533366}
+    ]},
+    {"name":"Syracuse–Auburn, NY","pop":729756,"msas":[
+      {"name":"Syracuse, NY","pop":655189}
+    ]},
+    {"name":"Reno–Carson City–Gardnerville Ranchos, NV-CA","pop":709954,"msas":[
+      {"name":"Reno, NV","pop":575110},
+      {"name":"Carson City, NV","pop":58148}
+    ]},
+    {"name":"Springfield–Amherst Town–Northampton, MA","pop":700421,"msas":[
+      {"name":"Springfield, MA","pop":464151},
+      {"name":"Amherst Town–Northampton, MA","pop":165399}
+    ]},
+    {"name":"Fayetteville–Lumberton–Pinehurst, NC","pop":696741,"msas":[
+      {"name":"Fayetteville, NC","pop":393812},
+      {"name":"Pinehurst–Southern Pines, NC","pop":108417}
+    ]},
+    {"name":"Wichita–Arkansas City–Winfield, KS","pop":695403,"msas":[
+      {"name":"Wichita, KS","pop":661217}
+    ]},
+    {"name":"Portland–Lewiston–South Portland, ME","pop":686806,"msas":[
+      {"name":"Portland–South Portland, ME","pop":571534},
+      {"name":"Lewiston–Auburn, ME","pop":115272}
+    ]},
+    {"name":"Jackson–Vicksburg–Brookhaven, MS","pop":683239,"msas":[
+      {"name":"Jackson, MS","pop":606178}
+    ]},
+    {"name":"Mobile–Daphne–Fairhope, AL","pop":673947,"msas":[
+      {"name":"Mobile, AL","pop":412339},
+      {"name":"Daphne–Fairhope–Foley, AL","pop":261608}
+    ]},
+    {"name":"Fort Wayne–Huntington–Auburn, IN","pop":663509,"msas":[
+      {"name":"Fort Wayne, IN","pop":462978}
+    ]},
+    {"name":"Savannah–Hinesville–Statesboro, GA","pop":649090,"msas":[
+      {"name":"Savannah, GA","pop":431589},
+      {"name":"Hinesville, GA","pop":89046}
+    ]},
+    {"name":"Charleston–Huntington–Ashland, WV-OH-KY","pop":640809,"msas":[
+      {"name":"Huntington–Ashland, WV-KY-OH","pop":366920},
+      {"name":"Charleston, WV","pop":202091}
+    ]},
+    {"name":"Johnson City–Kingsport–Bristol, TN-VA","pop":602222,"msas":[
+      {"name":"Kingsport–Bristol, TN-VA","pop":313876},
+      {"name":"Johnson City, TN","pop":214948}
+    ]},
+    {"name":"Columbus–Auburn–Opelika, GA-AL","pop":571048,"msas":[
+      {"name":"Columbus, GA-AL","pop":324343},
+      {"name":"Auburn–Opelika, AL","pop":206006}
+    ]},
+    {"name":"Lafayette–New Iberia–Opelousas, LA","pop":568113,"msas":[
+      {"name":"Lafayette, LA","pop":419704}
+    ]},
+    {"name":"Lansing–East Lansing–Owosso, MI","pop":547953,"msas":[
+      {"name":"Lansing–East Lansing, MI","pop":479971}
+    ]},
+    {"name":"Corpus Christi–Kingsville–Alice, TX","pop":526255,"msas":[
+      {"name":"Corpus Christi, TX","pop":450187}
+    ]},
+    {"name":"Youngstown–Warren–Salem, OH","pop":525909,"msas":[
+      {"name":"Youngstown–Warren, OH","pop":426086}
+    ]},
+    {"name":"Asheville–Waynesville–Brevard, NC","pop":519484,"msas":[
+      {"name":"Asheville, NC","pop":422333}
+    ]},
+    {"name":"Myrtle Beach–Conway, SC","pop":479426,"msas":[
+      {"name":"Myrtle Beach–Conway–North Myrtle Beach, SC","pop":413391}
+    ]},
+    {"name":"Davenport–Moline, IA-IL","pop":469948,"msas":[
+      {"name":"Davenport–Moline–Rock Island, IA-IL","pop":381801}
+    ]},
+    {"name":"Cedar Rapids–Iowa City, IA","pop":461388,"msas":[
+      {"name":"Cedar Rapids, IA","pop":278677},
+      {"name":"Iowa City, IA","pop":182711}
+    ]},
+    {"name":"Kalamazoo–Battle Creek–Portage, MI","pop":459736,"msas":[
+      {"name":"Kalamazoo–Portage, MI","pop":264780},
+      {"name":"Battle Creek, MI","pop":133785}
+    ]},
+    {"name":"Brownsville–Harlingen–Raymondville, TX","pop":451901,"msas":[
+      {"name":"Brownsville–Harlingen, TX","pop":431874}
+    ]},
+    {"name":"Macon-Bibb County–Warner Robins, GA","pop":441727,"msas":[
+      {"name":"Macon-Bibb County, GA","pop":237617},
+      {"name":"Warner Robins, GA","pop":204110}
+    ]},
+    {"name":"Gainesville–Lake City, FL","pop":433757,"msas":[
+      {"name":"Gainesville, FL","pop":359780}
+    ]},
+    {"name":"Rockford–Freeport–Rochelle, IL","pop":431536,"msas":[
+      {"name":"Rockford, IL","pop":337103}
+    ]},
+    {"name":"Tallahassee–Bainbridge, FL-GA","pop":427066,"msas":[
+      {"name":"Tallahassee, FL","pop":397675}
+    ]},
+    {"name":"Montgomery–Selma, AL","pop":423430,"msas":[
+      {"name":"Montgomery, AL","pop":387885}
+    ]},
+    {"name":"Appleton–Oshkosh–Neenah, WI","pop":422299,"msas":[
+      {"name":"Appleton, WI","pop":248992},
+      {"name":"Oshkosh–Neenah, WI","pop":173307}
+    ]},
+    {"name":"Columbia–Jefferson City–Moberly, MO","pop":419330,"msas":[
+      {"name":"Columbia, MO","pop":219426},
+      {"name":"Jefferson City, MO","pop":151523}
+    ]},
+    {"name":"Shreveport–Bossier City–Minden, LA","pop":418453,"msas":[
+      {"name":"Shreveport–Bossier City, LA","pop":383269}
+    ]},
+    {"name":"Lubbock–Plainview, TX","pop":404104,"msas":[
+      {"name":"Lubbock, TX","pop":367109}
+    ]},
+    {"name":"Peoria–Canton, IL","pop":397075,"msas":[
+      {"name":"Peoria, IL","pop":364565}
+    ]},
+    {"name":"Kennewick–Richland–Walla Walla, WA","pop":381496,"msas":[
+      {"name":"Kennewick–Richland, WA","pop":319428},
+      {"name":"Walla Walla, WA","pop":62068}
+    ]},
+    {"name":"Green Bay–Shawano, WI","pop":380282,"msas":[
+      {"name":"Green Bay, WI","pop":334697}
+    ]},
+    {"name":"Midland–Odessa–Andrews, TX","pop":377711,"msas":[
+      {"name":"Midland, TX","pop":188766},
+      {"name":"Odessa, TX","pop":170022}
+    ]},
+    {"name":"Saginaw–Midland–Bay City, MI","pop":374387,"msas":[
+      {"name":"Saginaw, MI","pop":187714},
+      {"name":"Bay City, MI","pop":102651},
+      {"name":"Midland, MI","pop":84022}
+    ]},
+    {"name":"Lincoln–Beatrice, NE","pop":372313,"msas":[
+      {"name":"Lincoln, NE","pop":350626}
+    ]},
+    {"name":"Erie–Meadville, PA","pop":349839,"msas":[
+      {"name":"Erie, PA","pop":267750}
+    ]},
+    {"name":"Evansville–Henderson, IN-KY","pop":328822,"msas":[
+      {"name":"Evansville, IN","pop":271793}
+    ]},
+    {"name":"Duluth–Grand Rapids, MN","pop":327257,"msas":[
+      {"name":"Duluth, MN-WI","pop":281815}
+    ]},
+    {"name":"Rochester–Austin–Winona, MN","pop":321615,"msas":[
+      {"name":"Rochester, MN","pop":230742}
+    ]},
+    {"name":"Champaign–Urbana–Danville, IL","pop":313559,"msas":[
+      {"name":"Champaign–Urbana, IL","pop":242453}
+    ]},
+    {"name":"Medford–Grants Pass, OR","pop":309607,"msas":[
+      {"name":"Medford, OR","pop":221331},
+      {"name":"Grants Pass, OR","pop":88276}
+    ]},
+    {"name":"Springfield–Jacksonville–Lincoln, IL","pop":304571,"msas":[
+      {"name":"Springfield, IL","pop":206308}
+    ]},
+    {"name":"Tyler–Jacksonville, TX","pop":302314,"msas":[
+      {"name":"Tyler, TX","pop":249091}
+    ]},
+    {"name":"Amarillo–Borger, TX","pop":294371,"msas":[
+      {"name":"Amarillo, TX","pop":274650}
+    ]},
+    {"name":"Idaho Falls–Rexburg–Blackfoot, ID","pop":292070,"msas":[
+      {"name":"Idaho Falls, ID","pop":171233}
+    ]},
+    {"name":"Fargo–Wahpeton, ND-MN","pop":290719,"msas":[
+      {"name":"Fargo, ND-MN","pop":267793}
+    ]},
+    {"name":"Rocky Mount–Wilson–Roanoke Rapids, NC","pop":290644,"msas":[
+      {"name":"Rocky Mount, NC","pop":147114}
+    ]},
+    {"name":"Burlington–South Burlington–Barre, VT","pop":289289,"msas":[
+      {"name":"Burlington–South Burlington, VT","pop":229445}
+    ]},
+    {"name":"Lafayette–West Lafayette–Frankfort, IN","pop":287429,"msas":[
+      {"name":"Lafayette–West Lafayette, IN","pop":229701}
+    ]},
+    {"name":"Wausau–Stevens Point–Wisconsin Rapids, WI","pop":285074,"msas":[
+      {"name":"Wausau, WI","pop":139091}
+    ]},
+    {"name":"Lake Charles–DeRidder, LA","pop":279670,"msas":[
+      {"name":"Lake Charles, LA","pop":242975}
+    ]},
+    {"name":"Bowling Green–Glasgow–Franklin, KY","pop":271676,"msas":[
+      {"name":"Bowling Green, KY","pop":195159}
+    ]},
+    {"name":"Monroe–Ruston, LA","pop":270164,"msas":[
+      {"name":"Monroe, LA","pop":221921}
+    ]},
+    {"name":"Harrisonburg–Staunton–Stuarts Draft, VA","pop":267319,"msas":[
+      {"name":"Harrisonburg, VA","pop":138838},
+      {"name":"Staunton–Stuarts Draft, VA","pop":128481}
+    ]},
+    {"name":"Dothan–Enterprise–Ozark, AL","pop":261191,"msas":[
+      {"name":"Dothan, AL","pop":154766}
+    ]},
+    {"name":"Redding–Red Bluff, CA","pop":245572,"msas":[
+      {"name":"Redding, CA","pop":181121}
+    ]},
+    {"name":"Hattiesburg–Laurel, MS","pop":238211,"msas":[
+      {"name":"Hattiesburg, MS","pop":156575}
+    ]},
+    {"name":"State College–DuBois, PA","pop":237937,"msas":[
+      {"name":"State College, PA","pop":159805}
+    ]},
+    {"name":"Joplin–Miami, MO-OK-KS","pop":237535,"msas":[
+      {"name":"Joplin, MO-KS","pop":207131}
+    ]},
+    {"name":"Greenville–Washington, NC","pop":225359,"msas":[
+      {"name":"Greenville, NC","pop":180783}
+    ]},
+    {"name":"Eau Claire–Menomonie, WI","pop":222288,"msas":[
+      {"name":"Eau Claire, WI","pop":176153}
+    ]},
+    {"name":"Pueblo–Cañon City, CO","pop":219959,"msas":[
+      {"name":"Pueblo, CO","pop":169866}
+    ]},
+    {"name":"Mansfield–Ashland–Bucyrus, OH","pop":218899,"msas":[
+      {"name":"Mansfield, OH","pop":124853}
+    ]},
+    {"name":"Lima–Van Wert–Celina, OH","pop":218031,"msas":[
+      {"name":"Lima, OH","pop":100866}
+    ]},
+    {"name":"La Crosse–Onalaska–Sparta, WI","pop":217133,"msas":[
+      {"name":"La Crosse–Onalaska, WI-MN","pop":170763}
+    ]},
+    {"name":"Bloomington–Bedford, IN","pop":207745,"msas":[
+      {"name":"Bloomington, IN","pop":162553}
+    ]},
+    {"name":"Bloomington–Pontiac, IL","pop":207444,"msas":[
+      {"name":"Bloomington, IL","pop":172069}
+    ]},
+    {"name":"Johnstown–Somerset, PA","pop":202242,"msas":[
+      {"name":"Johnstown, PA","pop":130108}
+    ]},
+    {"name":"Abilene–Sweetwater, TX","pop":198460,"msas":[
+      {"name":"Abilene, TX","pop":184278}
+    ]},
+    {"name":"Florence–Muscle Shoals–Russellville, AL","pop":188161,"msas":[
+      {"name":"Florence–Muscle Shoals, AL","pop":156287}
+    ]},
+    {"name":"Salisbury–Ocean Pines, MD","pop":185907,"msas":[
+      {"name":"Salisbury, MD","pop":131570}
+    ]},
+    {"name":"Jonesboro–Paragould, AR","pop":185080,"msas":[
+      {"name":"Jonesboro, AR","pop":138152}
+    ]},
+    {"name":"Rapid City–Spearfish, SD","pop":185036,"msas":[
+      {"name":"Rapid City, SD","pop":156227}
+    ]},
+    {"name":"Elmira–Corning, NY","pop":173130,"msas":[
+      {"name":"Elmira, NY","pop":81115}
+    ]},
+    {"name":"Sioux City–Le Mars, IA-NE-SD","pop":171819,"msas":[
+      {"name":"Sioux City, IA-NE-SD","pop":145994}
+    ]},
+    {"name":"Lawton–Duncan, OK","pop":170974,"msas":[
+      {"name":"Lawton, OK","pop":126899}
+    ]},
+    {"name":"Altoona–Huntingdon, PA","pop":163628,"msas":[
+      {"name":"Altoona, PA","pop":120269}
+    ]},
+    {"name":"Ithaca–Cortland, NY","pop":151547,"msas":[
+      {"name":"Ithaca, NY","pop":105602}
+    ]},
+    {"name":"Williamsport–Lock Haven, PA","pop":151101,"msas":[
+      {"name":"Williamsport, PA","pop":113236}
+    ]},
+    {"name":"Cape Girardeau–Sikeston, MO-IL","pop":148569,"msas":[
+      {"name":"Cape Girardeau, MO-IL","pop":98862}
+    ]},
+    {"name":"Parkersburg–Marietta–Vienna, WV-OH","pop":146013,"msas":[
+      {"name":"Parkersburg–Vienna, WV","pop":87681}
+    ]},
+    {"name":"Paducah–Mayfield, KY-IL","pop":139216,"msas":[
+      {"name":"Paducah, KY-IL","pop":102395}
+    ]},
+    {"name":"Hot Springs–Malvern, AR","pop":133215,"msas":[
+      {"name":"Hot Springs, AR","pop":99902}
+    ]},
+    {"name":"Mankato–New Ulm, MN","pop":130903,"msas":[
+      {"name":"Mankato, MN","pop":105193}
+    ]},
+    {"name":"Victoria–Port Lavaca, TX","pop":119112,"msas":[
+      {"name":"Victoria, TX","pop":99170}
+    ]}
+  ],
+  "standalone": [
+    {"name":"Tampa–St. Petersburg–Clearwater, FL","pop":3424560},
+    {"name":"San Diego–Chula Vista–Carlsbad, CA","pop":3298799},
+    {"name":"Austin–Round Rock–San Marcos, TX","pop":2550637},
+    {"name":"Richmond, VA","pop":1370165},
+    {"name":"Urban Honolulu, HI","pop":998747},
+    {"name":"Bakersfield–Delano, CA","pop":922529},
+    {"name":"Charleston–North Charleston, SC","pop":869940},
+    {"name":"Colorado Springs, CO","pop":777634},
+    {"name":"Fayetteville–Springdale–Rogers, AR","pop":605615},
+    {"name":"Toledo, OH","pop":601396},
+    {"name":"Scranton–Wilkes-Barre, PA","pop":574009},
+    {"name":"Lancaster, PA","pop":563293},
+    {"name":"Pensacola–Ferry Pass–Brent, FL","pop":538928},
+    {"name":"Killeen–Temple, TX","pop":509487},
+    {"name":"Springfield, MO","pop":496975},
+    {"name":"Visalia, CA","pop":483546},
+    {"name":"Wilmington, NC","pop":480522},
+    {"name":"Santa Maria–Santa Barbara, CA","pop":444500},
+    {"name":"Salinas, CA","pop":436251},
+    {"name":"Ocala, FL","pop":428905},
+    {"name":"Gulfport–Biloxi, MS","pop":426793},
+    {"name":"Anchorage, AK","pop":407213},
+    {"name":"Beaumont–Port Arthur, TX","pop":398733},
+    {"name":"Eugene–Springfield, OR","pop":382396},
+    {"name":"Fort Collins–Loveland, CO","pop":374574},
+    {"name":"Roanoke, VA","pop":315749},
+    {"name":"Crestview–Fort Walton Beach–Destin, FL","pop":310149},
+    {"name":"Sioux Falls, SD-MN","pop":308266},
+    {"name":"Waco, TX","pop":307123},
+    {"name":"Longview, TX","pop":295490},
+    {"name":"Utica–Rome, NY","pop":287932},
+    {"name":"College Station–Bryan, TX","pop":287462},
+    {"name":"Tuscaloosa, AL","pop":281963},
+    {"name":"San Luis Obispo–Paso Robles, CA","pop":281843},
+    {"name":"Laredo, TX","pop":272823},
+    {"name":"Lynchburg, VA","pop":266432},
+    {"name":"Bend, OR","pop":264407},
+    {"name":"Yakima, WA","pop":258523},
+    {"name":"Prescott Valley–Prescott, AZ","pop":252013},
+    {"name":"Binghamton, NY","pop":243971},
+    {"name":"Hilton Head Island–Bluffton–Port Royal, SC","pop":237393},
+    {"name":"Bellingham, WA","pop":234954},
+    {"name":"Fort Smith, AR-OK","pop":232848},
+    {"name":"Topeka, KS","pop":232648},
+    {"name":"Charlottesville, VA","pop":227336},
+    {"name":"Lake Havasu City–Kingman, AZ","pop":226479},
+    {"name":"Panama City–Panama City Beach, FL","pop":226221},
+    {"name":"Yuma, AZ","pop":220310},
+    {"name":"Jacksonville, NC","pop":212954},
+    {"name":"Chico, CA","pop":208334},
+    {"name":"St. George, UT","pop":207943},
+    {"name":"Florence, SC","pop":200474},
+    {"name":"Houma–Bayou Cane–Thibodaux, LA","pop":199206},
+    {"name":"Billings, MT","pop":192531},
+    {"name":"Jackson, TN","pop":183680},
+    {"name":"Blacksburg–Christiansburg–Radford, VA","pop":182041},
+    {"name":"El Centro, CA","pop":181724},
+    {"name":"Homosassa Springs, FL","pop":170174},
+    {"name":"Waterloo–Cedar Falls, IA","pop":170081},
+    {"name":"Terre Haute, IN","pop":168874},
+    {"name":"Kahului–Wailuku, HI","pop":163769},
+    {"name":"Grand Junction, CO","pop":161260},
+    {"name":"Logan, UT-ID","pop":161125},
+    {"name":"Jackson, MI","pop":160233},
+    {"name":"Bangor, ME","pop":156840},
+    {"name":"Traverse City, MI","pop":156634},
+    {"name":"Valdosta, GA","pop":152588},
+    {"name":"Wichita Falls, TX","pop":149869},
+    {"name":"Alexandria, LA","pop":148008},
+    {"name":"Texarkana, TX-AR","pop":145576},
+    {"name":"Albany, GA","pop":145451},
+    {"name":"Flagstaff, AZ","pop":145161},
+    {"name":"Morgantown, WV","pop":142752},
+    {"name":"Bismarck, ND","pop":139183},
+    {"name":"Wheeling, WV-OH","pop":135136},
+    {"name":"Manhattan, KS","pop":134892},
+    {"name":"Pittsfield, MA","pop":128726},
+    {"name":"Missoula, MT","pop":127741},
+    {"name":"Wenatchee–East Wenatchee, WA","pop":127023},
+    {"name":"Bozeman, MT","pop":126984},
+    {"name":"Sierra Vista–Douglas, AZ","pop":125773},
+    {"name":"Twin Falls, ID","pop":122565},
+    {"name":"San Angelo, TX","pop":121629},
+    {"name":"Farmington, NM","pop":120817},
+    {"name":"Goldsboro, NC","pop":120338},
+    {"name":"Sheboygan, WI","pop":118331},
+    {"name":"Brunswick–St. Simons, GA","pop":117135},
+    {"name":"Anniston–Oxford, AL","pop":116427},
+    {"name":"Owensboro, KY","pop":113583},
+    {"name":"Watertown–Fort Drum, NY","pop":113140},
+    {"name":"Beckley, WV","pop":110979},
+    {"name":"Sebring, FL","pop":109778},
+    {"name":"Fond du Lac, WI","pop":104269},
+    {"name":"Grand Forks, ND-MN","pop":104184},
+    {"name":"Gadsden, AL","pop":103207},
+    {"name":"Cheyenne, WY","pop":101783},
+    {"name":"Decatur, IL","pop":100737},
+    {"name":"Dubuque, IA","pop":99242},
+    {"name":"Helena, MT","pop":96735},
+    {"name":"Fairbanks–College, AK","pop":94951},
+    {"name":"Pocatello, ID","pop":91010},
+    {"name":"Great Falls, MT","pop":84523},
+    {"name":"Casper, WY","pop":80410},
+    {"name":"Grand Island, NE","pop":77278},
+    {"name":"Minot, ND","pop":75938},
+    {"name":"Lewiston, ID-WA","pop":65370},
+    {"name":"Enid, OK","pop":62007},
+    {"name":"Eagle Pass, TX","pop":58829},
+    {"name":"Carson City, NV","pop":58148}
+  ]
+}

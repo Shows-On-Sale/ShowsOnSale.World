@@ -19,7 +19,7 @@ namespace ShowsOnSale.World.Data.Metros
             Code = "31080",
             Type = MetroAreaType.Msa,
             Population = 12927614,
-            CsaId = "csa-los-angeles",
+            CsaId = "csa-los-angeles-long-beach-ca",
             Latitude = "34.05223000",
             Longitude = "-118.24368000",
             Members = new()

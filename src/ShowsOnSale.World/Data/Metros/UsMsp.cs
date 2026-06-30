@@ -19,7 +19,7 @@ namespace ShowsOnSale.World.Data.Metros
             Code = "33460",
             Type = MetroAreaType.Msa,
             Population = 3757952,
-            CsaId = "csa-minneapolis",
+            CsaId = "csa-minneapolis-st-paul-mn-wi",
             Latitude = "44.97797000",
             Longitude = "-93.26384000",
             Members = new()

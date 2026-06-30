@@ -19,7 +19,7 @@ namespace ShowsOnSale.World.Data.Metros
             Code = "37980",
             Type = MetroAreaType.Msa,
             Population = 6330422,
-            CsaId = "csa-philadelphia",
+            CsaId = "csa-philadelphia-reading-camden-pa-nj-de-md",
             Latitude = "39.95258000",
             Longitude = "-75.16522000",
             Members = new()

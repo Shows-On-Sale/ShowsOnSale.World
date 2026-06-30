@@ -19,7 +19,7 @@ namespace ShowsOnSale.World.Data.Metros
             Code = "47900",
             Type = MetroAreaType.Msa,
             Population = 6436489,
-            CsaId = "csa-washington-baltimore",
+            CsaId = "csa-washington-baltimore-arlington-dc-md-va-wv-pa",
             Latitude = "38.90719000",
             Longitude = "-77.03687000",
             Members = new()

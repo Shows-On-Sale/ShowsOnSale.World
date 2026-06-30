@@ -19,7 +19,7 @@ namespace ShowsOnSale.World.Data.Metros
             Code = "19820",
             Type = MetroAreaType.Msa,
             Population = 4400578,
-            CsaId = "csa-detroit",
+            CsaId = "csa-detroit-warren-ann-arbor-mi",
             Latitude = "42.33143000",
             Longitude = "-83.04575000",
             Members = new()

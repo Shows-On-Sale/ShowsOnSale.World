@@ -19,7 +19,7 @@ namespace ShowsOnSale.World.Data.Metros
             Code = "38060",
             Type = MetroAreaType.Msa,
             Population = 5186958,
-            CsaId = "csa-phoenix",
+            CsaId = "csa-phoenix-mesa-az",
             Latitude = "33.44838000",
             Longitude = "-112.07404000",
             Members = new()

@@ -13,10 +13,13 @@ public class CombinedStatisticalAreaTests
         Assert.NotEmpty(WorldData.CombinedStatisticalAreas);
     }
 
+    // The New York CSA's slug is derived from its full OMB title.
+    private const string NyCsaId = "csa-new-york-newark-ny-nj-ct-pa";
+
     [Fact]
     public void GetCsaById_ReturnsCsa()
     {
-        var csa = WorldData.GetCombinedStatisticalAreaById("csa-new-york");
+        var csa = WorldData.GetCombinedStatisticalAreaById(NyCsaId);
 
         Assert.NotNull(csa);
         Assert.Equal(22342624, csa.Population);
@@ -24,9 +27,22 @@ public class CombinedStatisticalAreaTests
     }
 
     [Fact]
+    public void NewYorkCsa_ContainsMultipleConstituentMsas()
+    {
+        var csa = WorldData.GetCombinedStatisticalAreaById(NyCsaId)!;
+
+        // NYC MSA plus Bridgeport, Kiryas Joel/Poughkeepsie, Trenton, Kingston.
+        Assert.True(csa.MetroIds.Count >= 5);
+        Assert.Contains("us-nyc", csa.MetroIds);
+        var metros = WorldData.GetCsaMetros(csa);
+        // Ordered by population descending — NYC is the largest.
+        Assert.Equal("us-nyc", metros[0].Id);
+    }
+
+    [Fact]
     public void GetCsaById_IsCaseInsensitive()
     {
-        Assert.NotNull(WorldData.GetCombinedStatisticalAreaById("CSA-NEW-YORK"));
+        Assert.NotNull(WorldData.GetCombinedStatisticalAreaById(NyCsaId.ToUpperInvariant()));
     }
 
     [Fact]
@@ -35,7 +51,18 @@ public class CombinedStatisticalAreaTests
         var csa = WorldData.GetCsaForMetro("us-nyc");
 
         Assert.NotNull(csa);
-        Assert.Equal("csa-new-york", csa.Id);
+        Assert.Equal(NyCsaId, csa.Id);
+    }
+
+    [Fact]
+    public void FullImport_HasHundredsOfMsasAndCsas()
+    {
+        Assert.True(WorldData.MetroAreas.Count(m => m.Type == MetroAreaType.Msa) >= 380);
+        Assert.True(WorldData.CombinedStatisticalAreas.Count >= 150);
+        // A representative imported MSA exists and resolved its principal cities.
+        var sanJose = WorldData.GetMetroAreaById("san-jose-sunnyvale-santa-clara-ca");
+        Assert.NotNull(sanJose);
+        Assert.NotEmpty(WorldData.GetMetroCities(sanJose));
     }
 
     [Fact]
@@ -48,7 +75,7 @@ public class CombinedStatisticalAreaTests
     [Fact]
     public void GetCsaMetros_ResolvesMembers()
     {
-        var csa = WorldData.GetCombinedStatisticalAreaById("csa-new-york")!;
+        var csa = WorldData.GetCombinedStatisticalAreaById(NyCsaId)!;
 
         var metros = WorldData.GetCsaMetros(csa);
 
@@ -62,7 +89,7 @@ public class CombinedStatisticalAreaTests
 
         Assert.Equal(MetroAreaType.Msa, nyc.Type);
         Assert.Equal(19940274, nyc.Population);
-        Assert.Equal("csa-new-york", nyc.CsaId);
+        Assert.Equal(NyCsaId, nyc.CsaId);
     }
 
     [Fact]

@@ -19,7 +19,7 @@ namespace ShowsOnSale.World.Data.Metros
             Code = "19740",
             Type = MetroAreaType.Msa,
             Population = 3052498,
-            CsaId = "csa-denver",
+            CsaId = "csa-denver-aurora-greeley-co",
             Latitude = "39.73915000",
             Longitude = "-104.99025000",
             Members = new()

@@ -19,7 +19,7 @@ namespace ShowsOnSale.World.Data.Metros
             Code = "33100",
             Type = MetroAreaType.Msa,
             Population = 6457988,
-            CsaId = "csa-miami",
+            CsaId = "csa-miami-port-st-lucie-fort-lauderdale-fl",
             Latitude = "25.76168000",
             Longitude = "-80.19179000",
             Members = new()

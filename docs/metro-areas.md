@@ -142,13 +142,22 @@ WorldData.GetCsaMetros(csa)                       // member metros, ordered by p
 ## Data pipeline
 
 ```
-data/metro-areas.json                ──scripts/generate-metros.ps1──▶  src/.../Data/Metros/<Slug>.cs
-data/combined-statistical-areas.json                                   src/.../WorldData.Metros.cs
-   (hand-edited)                                                        src/.../Data/Csas/<Slug>.cs
-                                                                        src/.../WorldData.Csa.cs
+data/us-cbsa-source.json ──import-us-cbsa.js──▶ data/metro-areas.json ──generate-metros.ps1──▶ src/.../Data/Metros/<Slug>.cs
+  (OMB titles, populations)   (resolve names→ids)  data/combined-statistical-areas.json            src/.../Data/Csas/<Slug>.cs
+                                                      (curated source)                              src/.../WorldData.{Metros,Csa}.cs
 ```
 
-- The two JSON files are the **only** files a human edits.
+Two stages:
+
+1. **Resolve** (`scripts/import-us-cbsa.js`) — reads the transcribed OMB source, parses each MSA
+   title's principal cities + state abbreviations, and resolves them to `(stateId, cityId)` against
+   the world data (normalizing `St.`/`Saint`, diacritics, plus a small alias map). It merges the
+   result with the hand-curated metros and writes the two curated JSON files. **530 of 530** US
+   principal cities resolved automatically.
+2. **Generate** (`scripts/generate-metros.ps1`) — emits the embedded C# from the curated JSON.
+
+- The curated JSON files are the source the generator reads; `us-cbsa-source.json` is the upstream
+  provenance for the US import (re-run stage 1 to refresh).
 - Running `scripts/generate-metros.ps1` regenerates the embedded C#. Generated files carry
   the standard "automatically generated" header and must not be hand-edited.
 - The generator is intentionally decoupled from `generate-world.ps1`: it never touches the
@@ -161,9 +170,11 @@ data/combined-statistical-areas.json                                   src/.../W
 
 ## Seed data
 
-**30 metros** seed the concept — 17 US and 13 international across 13 countries. The full
-list lives in `data/metro-areas.json`; the table below highlights the ones chosen to exercise
-a specific design dimension.
+**396 metros** (384 US MSAs + 12 curated international) and **159 CSAs**. The US set is the
+full OMB Bulletin 23-01 / Census Vintage 2024 MSA list, imported via the resolver pipeline
+above; the international metros remain hand-curated. The full list lives in
+`data/metro-areas.json`; the table below highlights the ones chosen to exercise a specific
+design dimension.
 
 | Metro | Country | Demonstrates |
 |---|---|---|
@@ -191,25 +202,28 @@ and against drift after a world-data regeneration.
 
 ### CSAs
 
-The 18 US MSAs roll up into **17 CSAs** (San Diego is a standalone MSA). Each CSA currently
-lists the one seeded MSA it contains; the full OMB hierarchy adds the smaller constituent MSAs
-(e.g. the New York CSA also contains Bridgeport, Trenton, Poughkeepsie, Kingston) — those are
-added by appending to the CSA's `MetroIds` as each MSA is seeded.
+The US MSAs roll up into **159 CSAs** (multi-MSA CSAs only; all-micropolitan CSAs are omitted
+as they contribute no metro). Each CSA lists every constituent MSA it contains — e.g. the New
+York CSA contains the NYC MSA plus Bridgeport, Kiryas Joel–Poughkeepsie, Trenton, and Kingston.
+Standalone MSAs (e.g. San Diego, Austin, Tampa) correctly have `CsaId = null`.
 
 ## Open questions / future work
 
-- **Full US MSA/CSA import.** Source: OMB Bulletin 23-01 + Census Vintage 2024 — 387 US MSAs
-  and 181 CSAs. The model and pipeline now support this; remaining work is seeding the rest of
-  the MSAs (principal cities → ids) and fleshing out each CSA's `MetroIds`.
-- **Name→id resolution in the generator** so the JSON is editable without manual id lookup —
-  this is the enabler for bulk-importing the principal cities of the remaining MSAs.
-- **County data**: if/when counties enter the dataset, promote county members from name-only
-  to id-backed.
+- **Puerto Rico** (6 MSAs / 3 CSAs) and the **micropolitan (μSA)** tier are not yet imported.
+- **CBSA codes**: most imported MSAs have `Code = null` (the source document only gives codes for
+  a handful); these could be backfilled from the Census delineation files.
+- **County data**: official MSAs/CSAs are defined as sets of *counties*. The model supports
+  `MetroMemberType.County`, but counties aren't in the upstream dataset, so members are currently
+  the title's principal **cities**. If a county dataset is added, members can be county-backed.
 - **Validation step** in CI: the resolve/consistency tests already assert anchors and CSA
   membership; wiring them into CI would catch drift after a world-data regeneration automatically.
 
 ### Done
 
+- **Full US MSA/CSA import** — 384 MSAs + 159 CSAs from OMB Bulletin 23-01 / Census Vintage 2024,
+  via the name→id resolver (`scripts/import-us-cbsa.js`); 530/530 principal cities resolved.
+- **Name→id resolution** — the resolver lets the source reference cities by name; ids are matched
+  automatically against the world data.
 - **Member resolution helpers** — `ResolveState`, `ResolveCity`, `GetMetroCities`,
   `GetMetroCountries`, `GetMetroTimezones`.
 - **CSA roll-up layer** — `CombinedStatisticalArea` model + `CombinedStatisticalAreas`,

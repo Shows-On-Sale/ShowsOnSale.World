@@ -19,7 +19,7 @@ namespace ShowsOnSale.World.Data.Metros
             Code = "47260",
             Type = MetroAreaType.Msa,
             Population = 1794278,
-            CsaId = "csa-virginia-beach",
+            CsaId = "csa-virginia-beach-chesapeake-va-nc",
             Latitude = "36.85293000",
             Longitude = "-76.28587000",
             Members = new()

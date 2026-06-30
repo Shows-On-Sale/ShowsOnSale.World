@@ -19,7 +19,7 @@ namespace ShowsOnSale.World.Data.Metros
             Code = "16980",
             Type = MetroAreaType.Msa,
             Population = 9408576,
-            CsaId = "csa-chicago",
+            CsaId = "csa-chicago-naperville-il-in-wi",
             Latitude = "41.85003000",
             Longitude = "-87.65005000",
             Members = new()

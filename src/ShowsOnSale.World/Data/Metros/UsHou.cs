@@ -19,7 +19,7 @@ namespace ShowsOnSale.World.Data.Metros
             Code = "26420",
             Type = MetroAreaType.Msa,
             Population = 7796182,
-            CsaId = "csa-houston",
+            CsaId = "csa-houston-pasadena-tx",
             Latitude = "29.76043000",
             Longitude = "-95.36980000",
             Members = new()

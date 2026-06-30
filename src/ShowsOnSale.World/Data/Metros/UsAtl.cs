@@ -19,7 +19,7 @@ namespace ShowsOnSale.World.Data.Metros
             Code = "12060",
             Type = MetroAreaType.Msa,
             Population = 6411149,
-            CsaId = "csa-atlanta",
+            CsaId = "csa-atlanta-athens-clarke-county-sandy-springs-ga-al",
             Latitude = "33.74900000",
             Longitude = "-84.38798000",
             Members = new()
