@@ -10,7 +10,7 @@ env:
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
-    
+
     steps:
     - uses: actions/checkout@v6
       with:
@@ -27,15 +27,10 @@ jobs:
         echo "ShowsOnSale.World directory contents:"
         ls -la src/ShowsOnSale.World
 
-    - name: Setup .NET 8.0
+    - name: Setup .NET 10.0
       uses: actions/setup-dotnet@v5
       with:
-        dotnet-version: '8.0.x'
-
-    - name: Setup .NET 9.0
-      uses: actions/setup-dotnet@v5
-      with:
-        dotnet-version: '9.0.x'
+        dotnet-version: '10.0.x'
 
     - name: Check .NET SDK
       run: |
@@ -62,4 +57,4 @@ jobs:
 
     - name: Push to NuGet
       run: |
-        dotnet nuget push "src/ShowsOnSale.World/bin/Release/ShowsOnSale.World.${{ env.VERSION }}.nupkg" --api-key ${{ env.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate 
+        dotnet nuget push "src/ShowsOnSale.World/bin/Release/ShowsOnSale.World.${{ env.VERSION }}.nupkg" --api-key ${{ env.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
