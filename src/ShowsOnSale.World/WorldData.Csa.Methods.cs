@@ -47,8 +47,7 @@ public partial class WorldData
 
         return csa.MetroIds
             .Select(GetMetroAreaById)
-            .Where(m => m is not null)
-            .Select(m => m!)
+            .OfType<Models.MetroArea>()
             .OrderByDescending(m => m.Population ?? 0)
             .ToList();
     }

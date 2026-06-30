@@ -35,20 +35,22 @@ public class MetroAreaTests
         Assert.Null(WorldData.GetMetroAreaById("does-not-exist"));
     }
 
-    [Fact]
-    public void NycMetro_SpansMultipleStates()
+    [Theory]
+    [InlineData("us-nyc", new[] { 35, 33 })]          // New York, New Jersey
+    [InlineData("us-chi", new[] { 16, 17, 56 })]      // Illinois, Indiana, Wisconsin
+    [InlineData("nl-randstad", new[] { 8, 10, 11 })]  // North Holland, South Holland, Utrecht
+    [InlineData("mx-cdmx", new[] { 7, 11 })]          // Ciudad de México, Estado de México
+    public void Metro_SpansExpectedCityStates(string id, int[] expectedStateIds)
     {
-        var metro = WorldData.GetMetroAreaById("us-nyc")!;
+        var metro = WorldData.GetMetroAreaById(id)!;
 
         var stateIds = metro.Members
             .Where(m => m.Type == MetroMemberType.City)
-            .Select(m => m.StateId)
+            .Select(m => m.StateId!.Value)
             .Distinct()
             .ToList();
 
-        // New York (35) and New Jersey (33)
-        Assert.Contains(35, stateIds);
-        Assert.Contains(33, stateIds);
+        Assert.Equal(expectedStateIds.OrderBy(x => x), stateIds.OrderBy(x => x));
     }
 
     [Fact]
@@ -159,59 +161,10 @@ public class MetroAreaTests
     }
 
     [Fact]
-    public void Randstad_SpansThreeProvinces()
-    {
-        var metro = WorldData.GetMetroAreaById("nl-randstad")!;
-
-        var stateIds = metro.Members
-            .Where(m => m.Type == MetroMemberType.City)
-            .Select(m => m.StateId)
-            .Distinct()
-            .ToList();
-
-        // North Holland (8), South Holland (10), Utrecht (11)
-        Assert.Equal(3, stateIds.Count);
-    }
-
-    [Fact]
-    public void MexicoCity_SpansTwoStates()
-    {
-        var metro = WorldData.GetMetroAreaById("mx-cdmx")!;
-
-        var stateIds = metro.Members
-            .Where(m => m.Type == MetroMemberType.City)
-            .Select(m => m.StateId)
-            .Distinct()
-            .ToList();
-
-        // Ciudad de México (7) and Estado de México (11)
-        Assert.Contains(7, stateIds);
-        Assert.Contains(11, stateIds);
-    }
-
-    [Fact]
     public void MetroIds_AreUnique()
     {
         var ids = WorldData.MetroAreas.Select(m => m.Id).ToList();
         Assert.Equal(ids.Count, ids.Distinct().Count());
-    }
-
-    [Fact]
-    public void ChicagoMetro_SpansThreeStates()
-    {
-        var metro = WorldData.GetMetroAreaById("us-chi")!;
-
-        var stateIds = metro.Members
-            .Where(m => m.Type == MetroMemberType.City)
-            .Select(m => m.StateId)
-            .Distinct()
-            .ToList();
-
-        // Illinois (16), Indiana (17), Wisconsin (56)
-        Assert.Equal(3, stateIds.Count);
-        Assert.Contains(16, stateIds);
-        Assert.Contains(17, stateIds);
-        Assert.Contains(56, stateIds);
     }
 
     [Fact]

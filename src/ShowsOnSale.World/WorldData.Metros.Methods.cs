@@ -101,8 +101,7 @@ public partial class WorldData
         return metro.Members
             .Where(m => m.Type == Models.MetroMemberType.City)
             .Select(ResolveCity)
-            .Where(c => c is not null)
-            .Select(c => c!)
+            .OfType<Models.City>()
             .ToList();
     }
 
@@ -118,8 +117,7 @@ public partial class WorldData
 
         return metro.Countries
             .Select(GetCountryByCode)
-            .Where(c => c is not null)
-            .Select(c => c!)
+            .OfType<Models.Country>()
             .ToList();
     }
 
@@ -140,8 +138,7 @@ public partial class WorldData
 
         return GetMetroCountries(metro)
             .SelectMany(c => c.Timezones)
-            .GroupBy(t => t.ZoneName)
-            .Select(g => g.First())
+            .DistinctBy(t => t.ZoneName)
             .OrderBy(t => t.ZoneName);
     }
 }
