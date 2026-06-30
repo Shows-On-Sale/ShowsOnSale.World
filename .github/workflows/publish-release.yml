@@ -13,12 +13,12 @@ on:
         required: true
         type: string
 
-env:
-  NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
-
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write   # required for nuget.org Trusted Publishing (OIDC)
+      contents: read
 
     steps:
     - uses: actions/checkout@v7
@@ -68,6 +68,12 @@ jobs:
         dotnet build src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration Release
         dotnet pack src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration Release --no-build -p:Version=${{ env.VERSION }}
 
+    - name: NuGet login (OIDC -> short-lived API key)
+      uses: NuGet/login@v1
+      id: login
+      with:
+        user: ${{ secrets.NUGET_USER }}   # your nuget.org username (profile name), NOT email
+
     - name: Push to NuGet
       run: |
-        dotnet nuget push "src/ShowsOnSale.World/bin/Release/ShowsOnSale.World.${{ env.VERSION }}.nupkg" --api-key ${{ env.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
+        dotnet nuget push "src/ShowsOnSale.World/bin/Release/ShowsOnSale.World.${{ env.VERSION }}.nupkg" --api-key ${{ steps.login.outputs.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
