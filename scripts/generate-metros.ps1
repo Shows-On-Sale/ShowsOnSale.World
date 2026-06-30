@@ -55,6 +55,8 @@ $json = Get-Content -Raw -Path $InputPath | ConvertFrom-Json
 
 $metrosDir = Join-Path $OutputRoot "Data/Metros"
 if (-not (Test-Path $metrosDir)) { New-Item -ItemType Directory -Path $metrosDir | Out-Null }
+# Wipe existing generated files first so a removed/renamed metro doesn't leave an orphan .cs behind.
+Get-ChildItem -Path $metrosDir -Filter '*.cs' -ErrorAction SilentlyContinue | Remove-Item -Force
 
 $registryEntries = @()
 
@@ -130,7 +132,7 @@ namespace ShowsOnSale.World
         /// All metro areas. A metro area groups one or more cities, counties, and/or states,
         /// and may cross state and country borders.
         /// </summary>
-        public static List<MetroArea> MetroAreas { get; } = new()
+        public static IReadOnlyList<MetroArea> MetroAreas { get; } = new List<MetroArea>
         {
 $registryBlock
         };
@@ -148,6 +150,8 @@ if (Test-Path $csaInputPath) {
 
     $csasDir = Join-Path $OutputRoot "Data/Csas"
     if (-not (Test-Path $csasDir)) { New-Item -ItemType Directory -Path $csasDir | Out-Null }
+    # Wipe existing generated files first so a removed/renamed CSA doesn't leave an orphan .cs behind.
+    Get-ChildItem -Path $csasDir -Filter '*.cs' -ErrorAction SilentlyContinue | Remove-Item -Force
 
     $csaRegistryEntries = @()
     foreach ($csa in $csaJson.combinedStatisticalAreas) {
@@ -197,7 +201,7 @@ namespace ShowsOnSale.World
         /// All combined statistical areas (CSAs) — groupings of adjacent metro areas linked by
         /// commuting ties. Each references its member metros by id via <see cref="CombinedStatisticalArea.MetroIds"/>.
         /// </summary>
-        public static List<CombinedStatisticalArea> CombinedStatisticalAreas { get; } = new()
+        public static IReadOnlyList<CombinedStatisticalArea> CombinedStatisticalAreas { get; } = new List<CombinedStatisticalArea>
         {
 $csaRegistryBlock
         };

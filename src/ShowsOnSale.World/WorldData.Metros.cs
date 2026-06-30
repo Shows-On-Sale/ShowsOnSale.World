@@ -13,7 +13,7 @@ namespace ShowsOnSale.World
         /// All metro areas. A metro area groups one or more cities, counties, and/or states,
         /// and may cross state and country borders.
         /// </summary>
-        public static List<MetroArea> MetroAreas { get; } = new()
+        public static IReadOnlyList<MetroArea> MetroAreas { get; } = new List<MetroArea>
         {
             ShowsOnSale.World.Data.Metros.UsNyc.Data,
             ShowsOnSale.World.Data.Metros.UsLa.Data,

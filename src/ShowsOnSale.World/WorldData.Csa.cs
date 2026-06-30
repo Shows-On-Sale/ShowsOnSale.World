@@ -13,7 +13,7 @@ namespace ShowsOnSale.World
         /// All combined statistical areas (CSAs) — groupings of adjacent metro areas linked by
         /// commuting ties. Each references its member metros by id via <see cref="CombinedStatisticalArea.MetroIds"/>.
         /// </summary>
-        public static List<CombinedStatisticalArea> CombinedStatisticalAreas { get; } = new()
+        public static IReadOnlyList<CombinedStatisticalArea> CombinedStatisticalAreas { get; } = new List<CombinedStatisticalArea>
         {
             ShowsOnSale.World.Data.Csas.CsaNewYorkNewarkNyNjCtPa.Data,
             ShowsOnSale.World.Data.Csas.CsaLosAngelesLongBeachCa.Data,

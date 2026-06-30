@@ -124,11 +124,15 @@ public partial class WorldData
     }
 
     /// <summary>
-    /// Gets the distinct timezones for a metro area, aggregated from the timezones of every
-    /// country the metro touches. Useful because individual cities do not carry timezone data.
+    /// Gets the <i>candidate</i> timezones for a metro area: the union of the timezones of every
+    /// country the metro touches, de-duplicated and ordered by zone name. Because the underlying
+    /// dataset carries timezones only at the country level (not per city), this is the set a metro
+    /// <i>could</i> fall in, not a single resolved local zone. For a metro inside a multi-timezone
+    /// country (e.g. any US metro) this returns <b>all</b> of that country's zones, so do not treat
+    /// the result as the metro's one local timezone.
     /// </summary>
     /// <param name="metro">The metro area.</param>
-    /// <returns>The distinct timezones, ordered by zone name.</returns>
+    /// <returns>The distinct candidate timezones, ordered by zone name.</returns>
     public static IEnumerable<Models.Timezone> GetMetroTimezones(Models.MetroArea metro)
     {
         if (metro is null)

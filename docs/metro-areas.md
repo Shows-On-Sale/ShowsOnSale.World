@@ -124,8 +124,13 @@ WorldData.ResolveState(member)        // MetroMember → State?
 WorldData.ResolveCity(member)         // City member → City?  (null for county/state members)
 WorldData.GetMetroCities(metro)       // all resolvable city members → IReadOnlyList<City>
 WorldData.GetMetroCountries(metro)    // every touched country → IReadOnlyList<Country>
-WorldData.GetMetroTimezones(metro)    // distinct timezones aggregated from member countries
+WorldData.GetMetroTimezones(metro)    // CANDIDATE zones: union of every touched country's zones
 ```
+
+> ⚠️ `GetMetroTimezones` returns the **union of all zones for every country the metro touches**, not a
+> single resolved local zone — the dataset only carries timezones at the country level. For a metro in a
+> multi-timezone country (any US metro) this is the whole country's zone list. Use the metro's
+> `Latitude`/`Longitude` if you need to pin an actual local zone.
 
 Resolution is intentionally tolerant: members that can't be resolved (e.g. the id-less
 cross-border Basel members) are skipped rather than throwing, so the calls are always safe.
