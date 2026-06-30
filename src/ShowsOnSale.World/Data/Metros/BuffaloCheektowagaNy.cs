@@ -32,7 +32,7 @@ namespace ShowsOnSale.World.Data.Metros
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 35, StateName = "New York", CityId = 663, Name = "North Tonawanda" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 35, StateName = "New York", CityId = 815, Name = "Salamanca" },
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 35, StateName = "New York", CityId = 696, Name = "Orchard Park" },
-                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 35, StateName = "New York", CityId = null, Name = "NIAGARA UNIVERSITY" }
+                new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 35, StateName = "New York", CityId = null, Name = "Niagara University" }
             }
         };
     }
