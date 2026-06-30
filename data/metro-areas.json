@@ -6,15 +6,45 @@
       "name": "New York–Newark–Jersey City",
       "shortName": "New York",
       "primaryCountry": "US",
-      "countries": ["US"],
+      "countries": [
+        "US"
+      ],
       "code": "35620",
       "latitude": "40.71427000",
       "longitude": "-74.00597000",
       "members": [
-        { "type": "City", "country": "US", "stateId": 35, "stateName": "New York", "cityId": 632, "name": "New York City" },
-        { "type": "City", "country": "US", "stateId": 35, "stateName": "New York", "cityId": 1044, "name": "Yonkers" },
-        { "type": "City", "country": "US", "stateId": 33, "stateName": "New Jersey", "cityId": 218, "name": "Jersey City" },
-        { "type": "City", "country": "US", "stateId": 33, "stateName": "New Jersey", "cityId": 322, "name": "Newark" }
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 35,
+          "stateName": "New York",
+          "cityId": 632,
+          "name": "New York City"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 35,
+          "stateName": "New York",
+          "cityId": 1044,
+          "name": "Yonkers"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 33,
+          "stateName": "New Jersey",
+          "cityId": 218,
+          "name": "Jersey City"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 33,
+          "stateName": "New Jersey",
+          "cityId": 322,
+          "name": "Newark"
+        }
       ]
     },
     {
@@ -22,15 +52,45 @@
       "name": "Los Angeles–Long Beach–Anaheim",
       "shortName": "Los Angeles",
       "primaryCountry": "US",
-      "countries": ["US"],
+      "countries": [
+        "US"
+      ],
       "code": "31080",
       "latitude": "34.05223000",
       "longitude": "-118.24368000",
       "members": [
-        { "type": "City", "country": "US", "stateId": 6, "stateName": "California", "cityId": 558, "name": "Los Angeles" },
-        { "type": "City", "country": "US", "stateId": 6, "stateName": "California", "cityId": 552, "name": "Long Beach" },
-        { "type": "City", "country": "US", "stateId": 6, "stateName": "California", "cityId": 27, "name": "Anaheim" },
-        { "type": "City", "country": "US", "stateId": 6, "stateName": "California", "cityId": 882, "name": "Santa Ana" }
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 6,
+          "stateName": "California",
+          "cityId": 558,
+          "name": "Los Angeles"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 6,
+          "stateName": "California",
+          "cityId": 552,
+          "name": "Long Beach"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 6,
+          "stateName": "California",
+          "cityId": 27,
+          "name": "Anaheim"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 6,
+          "stateName": "California",
+          "cityId": 882,
+          "name": "Santa Ana"
+        }
       ]
     },
     {
@@ -38,14 +98,37 @@
       "name": "San Francisco Bay Area",
       "shortName": "San Francisco",
       "primaryCountry": "US",
-      "countries": ["US"],
+      "countries": [
+        "US"
+      ],
       "code": null,
       "latitude": "37.77493000",
       "longitude": "-122.41942000",
       "members": [
-        { "type": "City", "country": "US", "stateId": 6, "stateName": "California", "cityId": 857, "name": "San Francisco" },
-        { "type": "City", "country": "US", "stateId": 6, "stateName": "California", "cityId": 695, "name": "Oakland" },
-        { "type": "City", "country": "US", "stateId": 6, "stateName": "California", "cityId": 863, "name": "San Jose" }
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 6,
+          "stateName": "California",
+          "cityId": 857,
+          "name": "San Francisco"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 6,
+          "stateName": "California",
+          "cityId": 695,
+          "name": "Oakland"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 6,
+          "stateName": "California",
+          "cityId": 863,
+          "name": "San Jose"
+        }
       ]
     },
     {
@@ -53,15 +136,45 @@
       "name": "Chicago–Naperville–Elgin",
       "shortName": "Chicago",
       "primaryCountry": "US",
-      "countries": ["US"],
+      "countries": [
+        "US"
+      ],
       "code": "16980",
       "latitude": "41.85003000",
       "longitude": "-87.65005000",
       "members": [
-        { "type": "City", "country": "US", "stateId": 16, "stateName": "Illinois", "cityId": 128, "name": "Chicago" },
-        { "type": "City", "country": "US", "stateId": 16, "stateName": "Illinois", "cityId": 535, "name": "Naperville" },
-        { "type": "City", "country": "US", "stateId": 17, "stateName": "Indiana", "cityId": 138, "name": "Gary" },
-        { "type": "City", "country": "US", "stateId": 56, "stateName": "Wisconsin", "cityId": 207, "name": "Kenosha" }
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 16,
+          "stateName": "Illinois",
+          "cityId": 128,
+          "name": "Chicago"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 16,
+          "stateName": "Illinois",
+          "cityId": 535,
+          "name": "Naperville"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 17,
+          "stateName": "Indiana",
+          "cityId": 138,
+          "name": "Gary"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 56,
+          "stateName": "Wisconsin",
+          "cityId": 207,
+          "name": "Kenosha"
+        }
       ]
     },
     {
@@ -69,15 +182,45 @@
       "name": "Dallas–Fort Worth–Arlington",
       "shortName": "Dallas–Fort Worth",
       "primaryCountry": "US",
-      "countries": ["US"],
+      "countries": [
+        "US"
+      ],
       "code": "19100",
       "latitude": "32.77666000",
       "longitude": "-96.79699000",
       "members": [
-        { "type": "City", "country": "US", "stateId": 48, "stateName": "Texas", "cityId": 273, "name": "Dallas" },
-        { "type": "City", "country": "US", "stateId": 48, "stateName": "Texas", "cityId": 384, "name": "Fort Worth" },
-        { "type": "City", "country": "US", "stateId": 48, "stateName": "Texas", "cityId": 42, "name": "Arlington" },
-        { "type": "City", "country": "US", "stateId": 48, "stateName": "Texas", "cityId": 904, "name": "Plano" }
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 48,
+          "stateName": "Texas",
+          "cityId": 273,
+          "name": "Dallas"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 48,
+          "stateName": "Texas",
+          "cityId": 384,
+          "name": "Fort Worth"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 48,
+          "stateName": "Texas",
+          "cityId": 42,
+          "name": "Arlington"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 48,
+          "stateName": "Texas",
+          "cityId": 904,
+          "name": "Plano"
+        }
       ]
     },
     {
@@ -85,15 +228,45 @@
       "name": "Washington–Arlington–Alexandria",
       "shortName": "Washington, D.C.",
       "primaryCountry": "US",
-      "countries": ["US"],
+      "countries": [
+        "US"
+      ],
       "code": "47900",
       "latitude": "38.90719000",
       "longitude": "-77.03687000",
       "members": [
-        { "type": "City", "country": "US", "stateId": 10, "stateName": "District of Columbia", "cityId": 4, "name": "Washington D.C." },
-        { "type": "City", "country": "US", "stateId": 53, "stateName": "Virginia", "cityId": 19, "name": "Arlington" },
-        { "type": "City", "country": "US", "stateId": 53, "stateName": "Virginia", "cityId": 6, "name": "Alexandria" },
-        { "type": "City", "country": "US", "stateId": 23, "stateName": "Maryland", "cityId": 30, "name": "Bethesda" }
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 10,
+          "stateName": "District of Columbia",
+          "cityId": 4,
+          "name": "Washington D.C."
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 53,
+          "stateName": "Virginia",
+          "cityId": 19,
+          "name": "Arlington"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 53,
+          "stateName": "Virginia",
+          "cityId": 6,
+          "name": "Alexandria"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 23,
+          "stateName": "Maryland",
+          "cityId": 30,
+          "name": "Bethesda"
+        }
       ]
     },
     {
@@ -101,14 +274,37 @@
       "name": "Miami–Fort Lauderdale–West Palm Beach",
       "shortName": "Miami",
       "primaryCountry": "US",
-      "countries": ["US"],
+      "countries": [
+        "US"
+      ],
       "code": "33100",
       "latitude": "25.76168000",
       "longitude": "-80.19179000",
       "members": [
-        { "type": "City", "country": "US", "stateId": 11, "stateName": "Florida", "cityId": 463, "name": "Miami" },
-        { "type": "City", "country": "US", "stateId": 11, "stateName": "Florida", "cityId": 225, "name": "Fort Lauderdale" },
-        { "type": "City", "country": "US", "stateId": 11, "stateName": "Florida", "cityId": 804, "name": "West Palm Beach" }
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 11,
+          "stateName": "Florida",
+          "cityId": 463,
+          "name": "Miami"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 11,
+          "stateName": "Florida",
+          "cityId": 225,
+          "name": "Fort Lauderdale"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 11,
+          "stateName": "Florida",
+          "cityId": 804,
+          "name": "West Palm Beach"
+        }
       ]
     },
     {
@@ -116,14 +312,37 @@
       "name": "Boston–Cambridge–Newton",
       "shortName": "Boston",
       "primaryCountry": "US",
-      "countries": ["US"],
+      "countries": [
+        "US"
+      ],
       "code": "14460",
       "latitude": "42.35843000",
       "longitude": "-71.05977000",
       "members": [
-        { "type": "City", "country": "US", "stateId": 24, "stateName": "Massachusetts", "cityId": 42, "name": "Boston" },
-        { "type": "City", "country": "US", "stateId": 24, "stateName": "Massachusetts", "cityId": 57, "name": "Cambridge" },
-        { "type": "City", "country": "US", "stateId": 24, "stateName": "Massachusetts", "cityId": 279, "name": "Quincy" }
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 24,
+          "stateName": "Massachusetts",
+          "cityId": 42,
+          "name": "Boston"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 24,
+          "stateName": "Massachusetts",
+          "cityId": 57,
+          "name": "Cambridge"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 24,
+          "stateName": "Massachusetts",
+          "cityId": 279,
+          "name": "Quincy"
+        }
       ]
     },
     {
@@ -131,14 +350,37 @@
       "name": "Greater London",
       "shortName": "London",
       "primaryCountry": "GB",
-      "countries": ["GB"],
+      "countries": [
+        "GB"
+      ],
       "code": null,
       "latitude": "51.50853000",
       "longitude": "-0.12574000",
       "members": [
-        { "type": "City", "country": "GB", "stateId": 212, "stateName": "Westminster", "cityId": 3, "name": "London" },
-        { "type": "State", "country": "GB", "stateId": 212, "stateName": "Westminster", "cityId": null, "name": "Westminster" },
-        { "type": "County", "country": "GB", "stateId": null, "stateName": "Surrey", "cityId": null, "name": "Surrey" }
+        {
+          "type": "City",
+          "country": "GB",
+          "stateId": 212,
+          "stateName": "Westminster",
+          "cityId": 3,
+          "name": "London"
+        },
+        {
+          "type": "State",
+          "country": "GB",
+          "stateId": 212,
+          "stateName": "Westminster",
+          "cityId": null,
+          "name": "Westminster"
+        },
+        {
+          "type": "County",
+          "country": "GB",
+          "stateId": null,
+          "stateName": "Surrey",
+          "cityId": null,
+          "name": "Surrey"
+        }
       ]
     },
     {
@@ -146,15 +388,45 @@
       "name": "Paris (Île-de-France)",
       "shortName": "Paris",
       "primaryCountry": "FR",
-      "countries": ["FR"],
+      "countries": [
+        "FR"
+      ],
       "code": null,
       "latitude": "48.85340000",
       "longitude": "2.34860000",
       "members": [
-        { "type": "City", "country": "FR", "stateId": 60, "stateName": "Île-de-France", "cityId": 487, "name": "Paris" },
-        { "type": "City", "country": "FR", "stateId": 60, "stateName": "Île-de-France", "cityId": 72, "name": "Boulogne-Billancourt" },
-        { "type": "City", "country": "FR", "stateId": 60, "stateName": "Île-de-France", "cityId": 535, "name": "Saint-Denis" },
-        { "type": "City", "country": "FR", "stateId": 60, "stateName": "Île-de-France", "cityId": 638, "name": "Versailles" }
+        {
+          "type": "City",
+          "country": "FR",
+          "stateId": 60,
+          "stateName": "Île-de-France",
+          "cityId": 487,
+          "name": "Paris"
+        },
+        {
+          "type": "City",
+          "country": "FR",
+          "stateId": 60,
+          "stateName": "Île-de-France",
+          "cityId": 72,
+          "name": "Boulogne-Billancourt"
+        },
+        {
+          "type": "City",
+          "country": "FR",
+          "stateId": 60,
+          "stateName": "Île-de-France",
+          "cityId": 535,
+          "name": "Saint-Denis"
+        },
+        {
+          "type": "City",
+          "country": "FR",
+          "stateId": 60,
+          "stateName": "Île-de-France",
+          "cityId": 638,
+          "name": "Versailles"
+        }
       ]
     },
     {
@@ -162,16 +434,961 @@
       "name": "Greater Tokyo",
       "shortName": "Tokyo",
       "primaryCountry": "JP",
-      "countries": ["JP"],
+      "countries": [
+        "JP"
+      ],
       "code": null,
       "latitude": "35.68950000",
       "longitude": "139.69171000",
       "members": [
-        { "type": "City", "country": "JP", "stateId": 41, "stateName": "Tokyo", "cityId": 61, "name": "Tokyo" },
-        { "type": "City", "country": "JP", "stateId": 19, "stateName": "Kanagawa", "cityId": 33, "name": "Yokohama" },
-        { "type": "City", "country": "JP", "stateId": 19, "stateName": "Kanagawa", "cityId": 19, "name": "Kawasaki" },
-        { "type": "City", "country": "JP", "stateId": 35, "stateName": "Saitama", "cityId": 54, "name": "Saitama" },
-        { "type": "City", "country": "JP", "stateId": 4, "stateName": "Chiba", "cityId": 4, "name": "Chiba" }
+        {
+          "type": "City",
+          "country": "JP",
+          "stateId": 41,
+          "stateName": "Tokyo",
+          "cityId": 61,
+          "name": "Tokyo"
+        },
+        {
+          "type": "City",
+          "country": "JP",
+          "stateId": 19,
+          "stateName": "Kanagawa",
+          "cityId": 33,
+          "name": "Yokohama"
+        },
+        {
+          "type": "City",
+          "country": "JP",
+          "stateId": 19,
+          "stateName": "Kanagawa",
+          "cityId": 19,
+          "name": "Kawasaki"
+        },
+        {
+          "type": "City",
+          "country": "JP",
+          "stateId": 35,
+          "stateName": "Saitama",
+          "cityId": 54,
+          "name": "Saitama"
+        },
+        {
+          "type": "City",
+          "country": "JP",
+          "stateId": 4,
+          "stateName": "Chiba",
+          "cityId": 4,
+          "name": "Chiba"
+        }
+      ]
+    },
+    {
+      "id": "us-sd",
+      "name": "San Diego–Chula Vista–Carlsbad",
+      "shortName": "San Diego",
+      "primaryCountry": "US",
+      "countries": [
+        "US"
+      ],
+      "code": "41740",
+      "latitude": "32.71574000",
+      "longitude": "-117.16108000",
+      "members": [
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 6,
+          "stateName": "California",
+          "cityId": 852,
+          "name": "San Diego"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 6,
+          "stateName": "California",
+          "cityId": 188,
+          "name": "Chula Vista"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 6,
+          "stateName": "California",
+          "cityId": 700,
+          "name": "Oceanside"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 6,
+          "stateName": "California",
+          "cityId": 320,
+          "name": "Escondido"
+        }
+      ]
+    },
+    {
+      "id": "us-phx",
+      "name": "Phoenix–Mesa–Chandler",
+      "shortName": "Phoenix",
+      "primaryCountry": "US",
+      "countries": [
+        "US"
+      ],
+      "code": "38060",
+      "latitude": "33.44838000",
+      "longitude": "-112.07404000",
+      "members": [
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 4,
+          "stateName": "Arizona",
+          "cityId": 142,
+          "name": "Phoenix"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 4,
+          "stateName": "Arizona",
+          "cityId": 118,
+          "name": "Mesa"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 4,
+          "stateName": "Arizona",
+          "cityId": 170,
+          "name": "Scottsdale"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 4,
+          "stateName": "Arizona",
+          "cityId": 35,
+          "name": "Chandler"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 4,
+          "stateName": "Arizona",
+          "cityId": 79,
+          "name": "Glendale"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 4,
+          "stateName": "Arizona",
+          "cityId": 193,
+          "name": "Tempe"
+        }
+      ]
+    },
+    {
+      "id": "us-den",
+      "name": "Denver–Aurora–Lakewood",
+      "shortName": "Denver",
+      "primaryCountry": "US",
+      "countries": [
+        "US"
+      ],
+      "code": "19740",
+      "latitude": "39.73915000",
+      "longitude": "-104.99025000",
+      "members": [
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 7,
+          "stateName": "Colorado",
+          "cityId": 77,
+          "name": "Denver"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 7,
+          "stateName": "Colorado",
+          "cityId": 15,
+          "name": "Aurora"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 7,
+          "stateName": "Colorado",
+          "cityId": 166,
+          "name": "Lakewood"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 7,
+          "stateName": "Colorado",
+          "cityId": 26,
+          "name": "Boulder"
+        }
+      ]
+    },
+    {
+      "id": "us-hou",
+      "name": "Houston–The Woodlands–Sugar Land",
+      "shortName": "Houston",
+      "primaryCountry": "US",
+      "countries": [
+        "US"
+      ],
+      "code": "26420",
+      "latitude": "29.76043000",
+      "longitude": "-95.36980000",
+      "members": [
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 48,
+          "stateName": "Texas",
+          "cityId": 527,
+          "name": "Houston"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 48,
+          "stateName": "Texas",
+          "cityId": 880,
+          "name": "Pasadena"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 48,
+          "stateName": "Texas",
+          "cityId": 882,
+          "name": "Pearland"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 48,
+          "stateName": "Texas",
+          "cityId": 1116,
+          "name": "Sugar Land"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 48,
+          "stateName": "Texas",
+          "cityId": 1146,
+          "name": "The Woodlands"
+        }
+      ]
+    },
+    {
+      "id": "us-msp",
+      "name": "Minneapolis–St. Paul–Bloomington",
+      "shortName": "Minneapolis–St. Paul",
+      "primaryCountry": "US",
+      "countries": [
+        "US"
+      ],
+      "code": "33460",
+      "latitude": "44.97797000",
+      "longitude": "-93.26384000",
+      "members": [
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 26,
+          "stateName": "Minnesota",
+          "cityId": 256,
+          "name": "Minneapolis"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 26,
+          "stateName": "Minnesota",
+          "cityId": 373,
+          "name": "Saint Paul"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 26,
+          "stateName": "Minnesota",
+          "cityId": 41,
+          "name": "Bloomington"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 56,
+          "stateName": "Wisconsin",
+          "cityId": 190,
+          "name": "Hudson"
+        }
+      ]
+    },
+    {
+      "id": "us-det",
+      "name": "Detroit–Warren–Dearborn",
+      "shortName": "Detroit",
+      "primaryCountry": "US",
+      "countries": [
+        "US"
+      ],
+      "code": "19820",
+      "latitude": "42.33143000",
+      "longitude": "-83.04575000",
+      "members": [
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 25,
+          "stateName": "Michigan",
+          "cityId": 123,
+          "name": "Detroit"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 25,
+          "stateName": "Michigan",
+          "cityId": 494,
+          "name": "Warren"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 25,
+          "stateName": "Michigan",
+          "cityId": 119,
+          "name": "Dearborn"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 25,
+          "stateName": "Michigan",
+          "cityId": 291,
+          "name": "Livonia"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 25,
+          "stateName": "Michigan",
+          "cityId": 14,
+          "name": "Ann Arbor"
+        }
+      ]
+    },
+    {
+      "id": "us-atl",
+      "name": "Atlanta–Sandy Springs–Alpharetta",
+      "shortName": "Atlanta",
+      "primaryCountry": "US",
+      "countries": [
+        "US"
+      ],
+      "code": "12060",
+      "latitude": "33.74900000",
+      "longitude": "-84.38798000",
+      "members": [
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 12,
+          "stateName": "Georgia",
+          "cityId": 18,
+          "name": "Atlanta"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 12,
+          "stateName": "Georgia",
+          "cityId": 422,
+          "name": "Sandy Springs"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 12,
+          "stateName": "Georgia",
+          "cityId": 415,
+          "name": "Roswell"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 12,
+          "stateName": "Georgia",
+          "cityId": 314,
+          "name": "Marietta"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 12,
+          "stateName": "Georgia",
+          "cityId": 8,
+          "name": "Alpharetta"
+        }
+      ]
+    },
+    {
+      "id": "us-hr",
+      "name": "Virginia Beach–Norfolk–Newport News",
+      "shortName": "Hampton Roads",
+      "primaryCountry": "US",
+      "countries": [
+        "US"
+      ],
+      "code": "47260",
+      "latitude": "36.85293000",
+      "longitude": "-76.28587000",
+      "members": [
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 53,
+          "stateName": "Virginia",
+          "cityId": 453,
+          "name": "Virginia Beach"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 53,
+          "stateName": "Virginia",
+          "cityId": 334,
+          "name": "Norfolk"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 53,
+          "stateName": "Virginia",
+          "cityId": 92,
+          "name": "Chesapeake"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 53,
+          "stateName": "Virginia",
+          "cityId": 332,
+          "name": "Newport News"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 53,
+          "stateName": "Virginia",
+          "cityId": 222,
+          "name": "Hampton"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 53,
+          "stateName": "Virginia",
+          "cityId": 363,
+          "name": "Portsmouth"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 53,
+          "stateName": "Virginia",
+          "cityId": 432,
+          "name": "Suffolk"
+        }
+      ]
+    },
+    {
+      "id": "us-phl",
+      "name": "Philadelphia–Camden–Wilmington",
+      "shortName": "Philadelphia",
+      "primaryCountry": "US",
+      "countries": [
+        "US"
+      ],
+      "code": "37980",
+      "latitude": "39.95258000",
+      "longitude": "-75.16522000",
+      "members": [
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 42,
+          "stateName": "Pennsylvania",
+          "cityId": 733,
+          "name": "Philadelphia"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 42,
+          "stateName": "Pennsylvania",
+          "cityId": 159,
+          "name": "Chester"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 33,
+          "stateName": "New Jersey",
+          "cityId": 65,
+          "name": "Camden"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 33,
+          "stateName": "New Jersey",
+          "cityId": 77,
+          "name": "Cherry Hill"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 9,
+          "stateName": "Delaware",
+          "cityId": 51,
+          "name": "Wilmington"
+        }
+      ]
+    },
+    {
+      "id": "us-sea",
+      "name": "Seattle–Tacoma–Bellevue",
+      "shortName": "Seattle",
+      "primaryCountry": "US",
+      "countries": [
+        "US"
+      ],
+      "code": "42660",
+      "latitude": "47.60621000",
+      "longitude": "-122.33207000",
+      "members": [
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 54,
+          "stateName": "Washington",
+          "cityId": 331,
+          "name": "Seattle"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 54,
+          "stateName": "Washington",
+          "cityId": 368,
+          "name": "Tacoma"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 54,
+          "stateName": "Washington",
+          "cityId": 25,
+          "name": "Bellevue"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 54,
+          "stateName": "Washington",
+          "cityId": 125,
+          "name": "Everett"
+        },
+        {
+          "type": "City",
+          "country": "US",
+          "stateId": 54,
+          "stateName": "Washington",
+          "cityId": 180,
+          "name": "Kent"
+        }
+      ]
+    },
+    {
+      "id": "es-madrid",
+      "name": "Madrid metropolitan area",
+      "shortName": "Madrid",
+      "primaryCountry": "ES",
+      "countries": [
+        "ES"
+      ],
+      "code": null,
+      "latitude": "40.41678000",
+      "longitude": "-3.70379000",
+      "members": [
+        {
+          "type": "City",
+          "country": "ES",
+          "stateId": 47,
+          "stateName": "Madrid",
+          "cityId": 109,
+          "name": "Madrid"
+        },
+        {
+          "type": "City",
+          "country": "ES",
+          "stateId": 47,
+          "stateName": "Madrid",
+          "cityId": 122,
+          "name": "Móstoles"
+        },
+        {
+          "type": "City",
+          "country": "ES",
+          "stateId": 47,
+          "stateName": "Madrid",
+          "cityId": 3,
+          "name": "Alcalá de Henares"
+        },
+        {
+          "type": "City",
+          "country": "ES",
+          "stateId": 47,
+          "stateName": "Madrid",
+          "cityId": 82,
+          "name": "Getafe"
+        }
+      ]
+    },
+    {
+      "id": "de-berlin",
+      "name": "Berlin capital region",
+      "shortName": "Berlin",
+      "primaryCountry": "DE",
+      "countries": [
+        "DE"
+      ],
+      "code": null,
+      "latitude": "52.52001000",
+      "longitude": "13.40495000",
+      "members": [
+        {
+          "type": "City",
+          "country": "DE",
+          "stateId": 3,
+          "stateName": "Berlin",
+          "cityId": 6,
+          "name": "Berlin"
+        },
+        {
+          "type": "City",
+          "country": "DE",
+          "stateId": 3,
+          "stateName": "Berlin",
+          "cityId": 80,
+          "name": "Spandau"
+        }
+      ]
+    },
+    {
+      "id": "nl-randstad",
+      "name": "Randstad",
+      "shortName": "Randstad",
+      "primaryCountry": "NL",
+      "countries": [
+        "NL"
+      ],
+      "code": null,
+      "latitude": "52.13263000",
+      "longitude": "5.29127000",
+      "members": [
+        {
+          "type": "City",
+          "country": "NL",
+          "stateId": 8,
+          "stateName": "North Holland",
+          "cityId": 16,
+          "name": "Amsterdam"
+        },
+        {
+          "type": "City",
+          "country": "NL",
+          "stateId": 8,
+          "stateName": "North Holland",
+          "cityId": 119,
+          "name": "Haarlem"
+        },
+        {
+          "type": "City",
+          "country": "NL",
+          "stateId": 10,
+          "stateName": "South Holland",
+          "cityId": 130,
+          "name": "Rotterdam"
+        },
+        {
+          "type": "City",
+          "country": "NL",
+          "stateId": 10,
+          "stateName": "South Holland",
+          "cityId": 151,
+          "name": "The Hague"
+        },
+        {
+          "type": "City",
+          "country": "NL",
+          "stateId": 10,
+          "stateName": "South Holland",
+          "cityId": 73,
+          "name": "Leiden"
+        },
+        {
+          "type": "City",
+          "country": "NL",
+          "stateId": 11,
+          "stateName": "Utrecht",
+          "cityId": 50,
+          "name": "Utrecht"
+        },
+        {
+          "type": "City",
+          "country": "NL",
+          "stateId": 11,
+          "stateName": "Utrecht",
+          "cityId": 3,
+          "name": "Amersfoort"
+        }
+      ]
+    },
+    {
+      "id": "in-mumbai",
+      "name": "Mumbai Metropolitan Region",
+      "shortName": "Mumbai",
+      "primaryCountry": "IN",
+      "countries": [
+        "IN"
+      ],
+      "code": null,
+      "latitude": "19.07598000",
+      "longitude": "72.87766000",
+      "members": [
+        {
+          "type": "City",
+          "country": "IN",
+          "stateId": 21,
+          "stateName": "Maharashtra",
+          "cityId": 327,
+          "name": "Mumbai"
+        },
+        {
+          "type": "City",
+          "country": "IN",
+          "stateId": 21,
+          "stateName": "Maharashtra",
+          "cityId": 507,
+          "name": "Thane"
+        },
+        {
+          "type": "City",
+          "country": "IN",
+          "stateId": 21,
+          "stateName": "Maharashtra",
+          "cityId": 357,
+          "name": "Navi Mumbai"
+        },
+        {
+          "type": "City",
+          "country": "IN",
+          "stateId": 21,
+          "stateName": "Maharashtra",
+          "cityId": 214,
+          "name": "Kalyan"
+        }
+      ]
+    },
+    {
+      "id": "au-sydney",
+      "name": "Greater Sydney",
+      "shortName": "Sydney",
+      "primaryCountry": "AU",
+      "countries": [
+        "AU"
+      ],
+      "code": null,
+      "latitude": "-33.86785000",
+      "longitude": "151.20732000",
+      "members": [
+        {
+          "type": "City",
+          "country": "AU",
+          "stateId": 2,
+          "stateName": "New South Wales",
+          "cityId": 1039,
+          "name": "Sydney"
+        },
+        {
+          "type": "City",
+          "country": "AU",
+          "stateId": 2,
+          "stateName": "New South Wales",
+          "cityId": 870,
+          "name": "Parramatta"
+        },
+        {
+          "type": "City",
+          "country": "AU",
+          "stateId": 2,
+          "stateName": "New South Wales",
+          "cityId": 801,
+          "name": "Newcastle"
+        }
+      ]
+    },
+    {
+      "id": "ca-toronto",
+      "name": "Greater Toronto Area",
+      "shortName": "Toronto",
+      "primaryCountry": "CA",
+      "countries": [
+        "CA"
+      ],
+      "code": null,
+      "latitude": "43.70011000",
+      "longitude": "-79.41630000",
+      "members": [
+        {
+          "type": "City",
+          "country": "CA",
+          "stateId": 9,
+          "stateName": "Ontario",
+          "cityId": 215,
+          "name": "Toronto"
+        },
+        {
+          "type": "City",
+          "country": "CA",
+          "stateId": 9,
+          "stateName": "Ontario",
+          "cityId": 126,
+          "name": "Mississauga"
+        },
+        {
+          "type": "City",
+          "country": "CA",
+          "stateId": 9,
+          "stateName": "Ontario",
+          "cityId": 25,
+          "name": "Brampton"
+        },
+        {
+          "type": "City",
+          "country": "CA",
+          "stateId": 9,
+          "stateName": "Ontario",
+          "cityId": 118,
+          "name": "Markham"
+        },
+        {
+          "type": "City",
+          "country": "CA",
+          "stateId": 9,
+          "stateName": "Ontario",
+          "cityId": 222,
+          "name": "Vaughan"
+        }
+      ]
+    },
+    {
+      "id": "br-saopaulo",
+      "name": "Greater São Paulo",
+      "shortName": "São Paulo",
+      "primaryCountry": "BR",
+      "countries": [
+        "BR"
+      ],
+      "code": null,
+      "latitude": "-23.55052000",
+      "longitude": "-46.63331000",
+      "members": [
+        {
+          "type": "City",
+          "country": "BR",
+          "stateId": 25,
+          "stateName": "São Paulo",
+          "cityId": 570,
+          "name": "São Paulo"
+        },
+        {
+          "type": "City",
+          "country": "BR",
+          "stateId": 25,
+          "stateName": "São Paulo",
+          "cityId": 217,
+          "name": "Guarulhos"
+        },
+        {
+          "type": "City",
+          "country": "BR",
+          "stateId": 25,
+          "stateName": "São Paulo",
+          "cityId": 394,
+          "name": "Osasco"
+        },
+        {
+          "type": "City",
+          "country": "BR",
+          "stateId": 25,
+          "stateName": "São Paulo",
+          "cityId": 542,
+          "name": "Santo André"
+        }
+      ]
+    },
+    {
+      "id": "mx-cdmx",
+      "name": "Greater Mexico City",
+      "shortName": "Mexico City",
+      "primaryCountry": "MX",
+      "countries": [
+        "MX"
+      ],
+      "code": null,
+      "latitude": "19.43261000",
+      "longitude": "-99.13321000",
+      "members": [
+        {
+          "type": "City",
+          "country": "MX",
+          "stateId": 7,
+          "stateName": "Ciudad de México",
+          "cityId": 16,
+          "name": "Mexico City"
+        },
+        {
+          "type": "City",
+          "country": "MX",
+          "stateId": 7,
+          "stateName": "Ciudad de México",
+          "cityId": 13,
+          "name": "Iztapalapa"
+        },
+        {
+          "type": "City",
+          "country": "MX",
+          "stateId": 11,
+          "stateName": "Estado de México",
+          "cityId": 877,
+          "name": "Tlalnepantla"
+        }
       ]
     },
     {
@@ -179,14 +1396,39 @@
       "name": "Basel trinational",
       "shortName": "Basel",
       "primaryCountry": "CH",
-      "countries": ["CH", "FR", "DE"],
+      "countries": [
+        "CH",
+        "FR",
+        "DE"
+      ],
       "code": null,
       "latitude": "47.55960000",
       "longitude": "7.58800000",
       "members": [
-        { "type": "City", "country": "CH", "stateId": null, "stateName": "Basel-Stadt", "cityId": null, "name": "Basel" },
-        { "type": "City", "country": "FR", "stateId": null, "stateName": "Haut-Rhin", "cityId": null, "name": "Saint-Louis" },
-        { "type": "City", "country": "DE", "stateId": null, "stateName": "Baden-Württemberg", "cityId": null, "name": "Weil am Rhein" }
+        {
+          "type": "City",
+          "country": "CH",
+          "stateId": null,
+          "stateName": "Basel-Stadt",
+          "cityId": null,
+          "name": "Basel"
+        },
+        {
+          "type": "City",
+          "country": "FR",
+          "stateId": null,
+          "stateName": "Haut-Rhin",
+          "cityId": null,
+          "name": "Saint-Louis"
+        },
+        {
+          "type": "City",
+          "country": "DE",
+          "stateId": null,
+          "stateName": "Baden-Württemberg",
+          "cityId": null,
+          "name": "Weil am Rhein"
+        }
       ]
     }
   ]

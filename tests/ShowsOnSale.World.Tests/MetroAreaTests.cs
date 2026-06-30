@@ -116,11 +116,77 @@ public class MetroAreaTests
     [InlineData("us-dc")]
     [InlineData("us-mia")]
     [InlineData("us-bos")]
+    [InlineData("us-sd")]
+    [InlineData("us-phx")]
+    [InlineData("us-den")]
+    [InlineData("us-hou")]
+    [InlineData("us-msp")]
+    [InlineData("us-det")]
+    [InlineData("us-atl")]
+    [InlineData("us-hr")]
+    [InlineData("us-phl")]
+    [InlineData("us-sea")]
     [InlineData("fr-paris")]
     [InlineData("jp-tokyo")]
+    [InlineData("es-madrid")]
+    [InlineData("de-berlin")]
+    [InlineData("nl-randstad")]
+    [InlineData("in-mumbai")]
+    [InlineData("au-sydney")]
+    [InlineData("ca-toronto")]
+    [InlineData("br-saopaulo")]
+    [InlineData("mx-cdmx")]
     public void ExpandedSeed_MetrosArePresent(string id)
     {
         Assert.NotNull(WorldData.GetMetroAreaById(id));
+    }
+
+    [Fact]
+    public void Seed_HasAtLeastThirtyMetros()
+    {
+        Assert.True(WorldData.MetroAreas.Count >= 30);
+    }
+
+    [Fact]
+    public void HamptonRoads_ResolvesAllSevenCities()
+    {
+        var metro = WorldData.GetMetroAreaById("us-hr")!;
+        var cities = WorldData.GetMetroCities(metro);
+
+        Assert.Equal(7, cities.Count);
+        Assert.Contains(cities, c => c.Name == "Virginia Beach");
+        Assert.Contains(cities, c => c.Name == "Norfolk");
+    }
+
+    [Fact]
+    public void Randstad_SpansThreeProvinces()
+    {
+        var metro = WorldData.GetMetroAreaById("nl-randstad")!;
+
+        var stateIds = metro.Members
+            .Where(m => m.Type == MetroMemberType.City)
+            .Select(m => m.StateId)
+            .Distinct()
+            .ToList();
+
+        // North Holland (8), South Holland (10), Utrecht (11)
+        Assert.Equal(3, stateIds.Count);
+    }
+
+    [Fact]
+    public void MexicoCity_SpansTwoStates()
+    {
+        var metro = WorldData.GetMetroAreaById("mx-cdmx")!;
+
+        var stateIds = metro.Members
+            .Where(m => m.Type == MetroMemberType.City)
+            .Select(m => m.StateId)
+            .Distinct()
+            .ToList();
+
+        // Ciudad de México (7) and Estado de México (11)
+        Assert.Contains(7, stateIds);
+        Assert.Contains(11, stateIds);
     }
 
     [Fact]

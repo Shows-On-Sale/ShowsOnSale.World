@@ -121,27 +121,33 @@ data/metro-areas.json   ──scripts/generate-metros.ps1──▶   src/.../Dat
 
 ## Seed data
 
-Twelve metros seed the concept. Several are chosen specifically to exercise a design
-dimension; the rest give realistic breadth across countries.
+**30 metros** seed the concept — 17 US and 13 international across 13 countries. The full
+list lives in `data/metro-areas.json`; the table below highlights the ones chosen to exercise
+a specific design dimension.
 
 | Metro | Country | Demonstrates |
 |---|---|---|
 | `us-nyc` (New York) | US | Multi-**state** membership (NY + NJ); empty-`StateCode` / non-global-`CityId` handling |
-| `us-la` (Los Angeles) | US | Single-state metro with several large member cities |
 | `us-sf` (San Francisco Bay Area) | US | Disambiguating a reused city name (two "Oakland"s) by `(stateId, cityId)` |
 | `us-chi` (Chicago) | US | **Tri-state** membership (IL + IN + WI) |
-| `us-dfw` (Dallas–Fort Worth) | US | Single-state metro |
 | `us-dc` (Washington) | US | Cross-jurisdiction (DC + VA + MD) |
-| `us-mia` (Miami) | US | Single-state metro |
-| `us-bos` (Boston) | US | Single-state metro |
+| `us-phl` (Philadelphia) | US | Tri-state (PA + NJ + DE) |
+| `us-msp` (Minneapolis–St. Paul) | US | Two-state (MN + WI) |
+| `us-hr` (Hampton Roads) | US | Many member cities (7) in one state |
 | `gb-london` (Greater London) | GB | **Flexible** membership — city + state (borough) + county members in one metro |
 | `fr-paris` (Île-de-France) | FR | Non-US country; region-as-state grouping |
 | `jp-tokyo` (Greater Tokyo) | JP | Multi-**prefecture** membership (Tokyo + Kanagawa + Saitama + Chiba) |
+| `nl-randstad` (Randstad) | NL | Multi-**province** membership (North Holland + South Holland + Utrecht) |
+| `mx-cdmx` (Greater Mexico City) | MX | Cross-state (Ciudad de México + Estado de México) |
 | `ch-basel` (Basel) | CH/FR/DE | **Cross-border** global metro; members with unresolved ids |
 
-A test (`EveryCityMember_ResolvesAgainstWorldData`) asserts that every city member's
-`(stateId, cityId)` resolves to a real city in `WorldData`, guarding against typos and
-against drift after a world-data regeneration.
+Remaining metros give realistic breadth: `us-la`, `us-dfw`, `us-mia`, `us-bos`, `us-sd`,
+`us-phx`, `us-den`, `us-hou`, `us-det`, `us-atl`, `us-sea` (US) and `es-madrid`, `de-berlin`,
+`in-mumbai`, `au-sydney`, `ca-toronto`, `br-saopaulo` (international).
+
+A test (`EveryCityMember_ResolvesAgainstWorldData`) asserts that every one of the ~120 city
+members' `(stateId, cityId)` resolves to a real city in `WorldData`, guarding against typos
+and against drift after a world-data regeneration.
 
 ## Open questions / future work
 
