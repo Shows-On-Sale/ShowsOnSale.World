@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class MadisonWi
+    internal static class MadisonWi
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-madison-janesville-beloit-wi",
             Latitude = "43.07305000",
             Longitude = "-89.40123000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 56, StateName = "Wisconsin", CityId = 246, Name = "Madison" },

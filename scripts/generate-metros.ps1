@@ -88,7 +88,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class $className
+    internal static class $className
     {
         public static MetroArea Data { get; } = new()
         {
@@ -103,6 +103,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = $(Get-StringLiteral $metro.csaId),
             Latitude = $(Get-StringLiteral $metro.latitude),
             Longitude = $(Get-StringLiteral $metro.longitude),
+            TimeZoneId = $(Get-StringLiteral $metro.timeZoneId),
             Members = new()
             {
 $membersBlock
@@ -168,7 +169,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Csas
 {
-    public static class $className
+    internal static class $className
     {
         public static CombinedStatisticalArea Data { get; } = new()
         {

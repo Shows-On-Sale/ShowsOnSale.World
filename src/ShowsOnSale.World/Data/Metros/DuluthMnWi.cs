@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class DuluthMnWi
+    internal static class DuluthMnWi
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-duluth-grand-rapids-mn",
             Latitude = "46.78327000",
             Longitude = "-92.10658000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 26, StateName = "Minnesota", CityId = 111, Name = "Duluth" },

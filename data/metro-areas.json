@@ -12,6 +12,7 @@
       "code": "35620",
       "latitude": "40.71427000",
       "longitude": "-74.00597000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -309,6 +310,7 @@
       "code": "31080",
       "latitude": "34.05223000",
       "longitude": "-118.24368000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -518,6 +520,7 @@
       "code": "41860",
       "latitude": "37.77493000",
       "longitude": "-122.41942000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -599,6 +602,7 @@
       "code": "16980",
       "latitude": "41.85003000",
       "longitude": "-87.65005000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -776,6 +780,7 @@
       "code": "19100",
       "latitude": "32.77666000",
       "longitude": "-96.79699000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -873,6 +878,7 @@
       "code": "47900",
       "latitude": "38.90719000",
       "longitude": "-77.03687000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -1010,6 +1016,7 @@
       "code": "33100",
       "latitude": "25.76168000",
       "longitude": "-80.19179000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -1147,6 +1154,7 @@
       "code": "14460",
       "latitude": "42.35843000",
       "longitude": "-71.05977000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -1276,6 +1284,7 @@
       "code": null,
       "latitude": "51.50853000",
       "longitude": "-0.12574000",
+      "timeZoneId": "Europe/London",
       "members": [
         {
           "type": "City",
@@ -1317,6 +1326,7 @@
       "code": null,
       "latitude": "48.85340000",
       "longitude": "2.34860000",
+      "timeZoneId": "Europe/Paris",
       "members": [
         {
           "type": "City",
@@ -1366,6 +1376,7 @@
       "code": null,
       "latitude": "35.68950000",
       "longitude": "139.69171000",
+      "timeZoneId": "Asia/Tokyo",
       "members": [
         {
           "type": "City",
@@ -1423,6 +1434,7 @@
       "code": "41740",
       "latitude": "32.71574000",
       "longitude": "-117.16108000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -1512,6 +1524,7 @@
       "code": "38060",
       "latitude": "33.44838000",
       "longitude": "-112.07404000",
+      "timeZoneId": "America/Phoenix",
       "members": [
         {
           "type": "City",
@@ -1609,6 +1622,7 @@
       "code": "19740",
       "latitude": "39.73915000",
       "longitude": "-104.99025000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -1690,6 +1704,7 @@
       "code": "26420",
       "latitude": "29.76043000",
       "longitude": "-95.36980000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -1747,6 +1762,7 @@
       "code": "33460",
       "latitude": "44.97797000",
       "longitude": "-93.26384000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -1852,6 +1868,7 @@
       "code": "19820",
       "latitude": "42.33143000",
       "longitude": "-83.04575000",
+      "timeZoneId": "America/Detroit",
       "members": [
         {
           "type": "City",
@@ -2013,6 +2030,7 @@
       "code": "12060",
       "latitude": "33.74900000",
       "longitude": "-84.38798000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -2118,6 +2136,7 @@
       "code": "47260",
       "latitude": "36.85293000",
       "longitude": "-76.28587000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -2191,6 +2210,7 @@
       "code": "37980",
       "latitude": "39.95258000",
       "longitude": "-75.16522000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -2296,6 +2316,7 @@
       "code": "42660",
       "latitude": "47.60621000",
       "longitude": "-122.33207000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -2425,6 +2446,7 @@
       "code": null,
       "latitude": "40.41678000",
       "longitude": "-3.70379000",
+      "timeZoneId": "Europe/Madrid",
       "members": [
         {
           "type": "City",
@@ -2474,6 +2496,7 @@
       "code": null,
       "latitude": "52.52001000",
       "longitude": "13.40495000",
+      "timeZoneId": "Europe/Berlin",
       "members": [
         {
           "type": "City",
@@ -2507,6 +2530,7 @@
       "code": null,
       "latitude": "52.13263000",
       "longitude": "5.29127000",
+      "timeZoneId": "Europe/Amsterdam",
       "members": [
         {
           "type": "City",
@@ -2580,6 +2604,7 @@
       "code": null,
       "latitude": "19.07598000",
       "longitude": "72.87766000",
+      "timeZoneId": "Asia/Kolkata",
       "members": [
         {
           "type": "City",
@@ -2629,6 +2654,7 @@
       "code": null,
       "latitude": "-33.86785000",
       "longitude": "151.20732000",
+      "timeZoneId": "Australia/Sydney",
       "members": [
         {
           "type": "City",
@@ -2670,6 +2696,7 @@
       "code": null,
       "latitude": "43.70011000",
       "longitude": "-79.41630000",
+      "timeZoneId": "America/Toronto",
       "members": [
         {
           "type": "City",
@@ -2727,6 +2754,7 @@
       "code": null,
       "latitude": "-23.55052000",
       "longitude": "-46.63331000",
+      "timeZoneId": "America/Sao_Paulo",
       "members": [
         {
           "type": "City",
@@ -2776,6 +2804,7 @@
       "code": null,
       "latitude": "19.43261000",
       "longitude": "-99.13321000",
+      "timeZoneId": "America/Mexico_City",
       "members": [
         {
           "type": "City",
@@ -2819,6 +2848,7 @@
       "code": null,
       "latitude": "47.55960000",
       "longitude": "7.58800000",
+      "timeZoneId": "Europe/Berlin",
       "members": [
         {
           "type": "City",
@@ -2860,6 +2890,7 @@
       "code": null,
       "latitude": "41.17923000",
       "longitude": "-73.18945000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -2925,6 +2956,7 @@
       "code": null,
       "latitude": "41.34204000",
       "longitude": "-74.16792000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -2990,6 +3022,7 @@
       "code": null,
       "latitude": "40.21705000",
       "longitude": "-74.74294000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -3023,6 +3056,7 @@
       "code": null,
       "latitude": "41.92704000",
       "longitude": "-73.99736000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -3056,6 +3090,7 @@
       "code": null,
       "latitude": "33.95335000",
       "longitude": "-117.39616000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -3177,6 +3212,7 @@
       "code": null,
       "latitude": "34.19750000",
       "longitude": "-119.17705000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -3226,6 +3262,7 @@
       "code": null,
       "latitude": "39.29088160",
       "longitude": "-76.61075900",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -3283,6 +3320,7 @@
       "code": null,
       "latitude": "39.64176000",
       "longitude": "-77.71999000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -3316,6 +3354,7 @@
       "code": null,
       "latitude": "38.26679000",
       "longitude": "-76.45384000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -3341,6 +3380,7 @@
       "code": null,
       "latitude": "39.93759000",
       "longitude": "-77.66110000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -3366,6 +3406,7 @@
       "code": null,
       "latitude": "39.18521840",
       "longitude": "-78.16524040",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -3399,6 +3440,7 @@
       "code": null,
       "latitude": "42.58474000",
       "longitude": "-87.82119000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -3424,6 +3466,7 @@
       "code": null,
       "latitude": "41.70754000",
       "longitude": "-86.89503000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -3473,6 +3516,7 @@
       "code": null,
       "latitude": "41.12003000",
       "longitude": "-87.86115000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -3498,6 +3542,7 @@
       "code": null,
       "latitude": "37.33939000",
       "longitude": "-121.89496000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -3563,6 +3608,7 @@
       "code": null,
       "latitude": "37.95770000",
       "longitude": "-121.29078000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -3596,6 +3642,7 @@
       "code": null,
       "latitude": "37.63910000",
       "longitude": "-120.99688000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -3629,6 +3676,7 @@
       "code": null,
       "latitude": "38.44047000",
       "longitude": "-122.71443000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -3670,6 +3718,7 @@
       "code": null,
       "latitude": "38.10409000",
       "longitude": "-122.25664000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -3695,6 +3744,7 @@
       "code": null,
       "latitude": "37.30216000",
       "longitude": "-120.48297000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -3720,6 +3770,7 @@
       "code": null,
       "latitude": "36.97412000",
       "longitude": "-122.03080000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -3761,6 +3812,7 @@
       "code": null,
       "latitude": "38.29714000",
       "longitude": "-122.28553000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -3802,6 +3854,7 @@
       "code": null,
       "latitude": "33.63566000",
       "longitude": "-96.60888000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -3851,6 +3904,7 @@
       "code": null,
       "latitude": "41.82399000",
       "longitude": "-71.41283000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -3916,6 +3970,7 @@
       "code": null,
       "latitude": "42.26259000",
       "longitude": "-71.80229000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -3949,6 +4004,7 @@
       "code": null,
       "latitude": "42.99564000",
       "longitude": "-71.45479000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -4030,6 +4086,7 @@
       "code": null,
       "latitude": "41.70011000",
       "longitude": "-70.29947000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -4071,6 +4128,7 @@
       "code": null,
       "latitude": "40.33565000",
       "longitude": "-75.92687000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -4096,6 +4154,7 @@
       "code": null,
       "latitude": "39.36415000",
       "longitude": "-74.42306000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -4137,6 +4196,7 @@
       "code": null,
       "latitude": "39.15817000",
       "longitude": "-75.52437000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -4162,6 +4222,7 @@
       "code": null,
       "latitude": "39.48623000",
       "longitude": "-75.02573000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -4187,6 +4248,7 @@
       "code": null,
       "latitude": "33.96095000",
       "longitude": "-83.37794000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -4212,6 +4274,7 @@
       "code": null,
       "latitude": "34.29788000",
       "longitude": "-83.82407000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -4237,6 +4300,7 @@
       "code": null,
       "latitude": "34.25704000",
       "longitude": "-85.16467000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -4262,6 +4326,7 @@
       "code": null,
       "latitude": "27.29393000",
       "longitude": "-80.35033000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -4295,6 +4360,7 @@
       "code": null,
       "latitude": "27.81641000",
       "longitude": "-80.47061000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -4344,6 +4410,7 @@
       "code": null,
       "latitude": "43.01253000",
       "longitude": "-83.68746000",
+      "timeZoneId": "America/Detroit",
       "members": [
         {
           "type": "City",
@@ -4369,6 +4436,7 @@
       "code": null,
       "latitude": "42.27756000",
       "longitude": "-83.74088000",
+      "timeZoneId": "America/Detroit",
       "members": [
         {
           "type": "City",
@@ -4394,6 +4462,7 @@
       "code": null,
       "latitude": "41.91643000",
       "longitude": "-83.39771000",
+      "timeZoneId": "America/Detroit",
       "members": [
         {
           "type": "City",
@@ -4419,6 +4488,7 @@
       "code": null,
       "latitude": "47.03787000",
       "longitude": "-122.90070000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -4460,6 +4530,7 @@
       "code": null,
       "latitude": "47.56732000",
       "longitude": "-122.63264000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -4509,6 +4580,7 @@
       "code": null,
       "latitude": "48.42122000",
       "longitude": "-122.33405000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -4550,6 +4622,7 @@
       "code": null,
       "latitude": "28.53834000",
       "longitude": "-81.37924000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -4607,6 +4680,7 @@
       "code": null,
       "latitude": "28.03947000",
       "longitude": "-81.94980000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -4640,6 +4714,7 @@
       "code": null,
       "latitude": "28.90054000",
       "longitude": "-81.26367000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -4681,6 +4756,7 @@
       "code": null,
       "latitude": "28.86542000",
       "longitude": "-82.04058000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -4714,6 +4790,7 @@
       "code": null,
       "latitude": "45.56080000",
       "longitude": "-94.16249000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -4747,6 +4824,7 @@
       "code": null,
       "latitude": "40.42331000",
       "longitude": "-104.70913000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -4772,6 +4850,7 @@
       "code": null,
       "latitude": "40.01499000",
       "longitude": "-105.27055000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -4821,6 +4900,7 @@
       "code": null,
       "latitude": "41.49950000",
       "longitude": "-81.69541000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -4870,6 +4950,7 @@
       "code": null,
       "latitude": "41.08144000",
       "longitude": "-81.51901000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -4919,6 +5000,7 @@
       "code": null,
       "latitude": "40.79895000",
       "longitude": "-81.37845000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -4952,6 +5034,7 @@
       "code": null,
       "latitude": "41.44894000",
       "longitude": "-82.70796000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -4977,6 +5060,7 @@
       "code": null,
       "latitude": "35.22709000",
       "longitude": "-80.84313000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -5018,6 +5102,7 @@
       "code": null,
       "latitude": "35.73319000",
       "longitude": "-81.34120000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -5059,6 +5144,7 @@
       "code": null,
       "latitude": "45.52345000",
       "longitude": "-122.67621000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -5124,6 +5210,7 @@
       "code": null,
       "latitude": "44.94290000",
       "longitude": "-123.03510000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -5149,6 +5236,7 @@
       "code": null,
       "latitude": "44.63651000",
       "longitude": "-123.10593000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -5174,6 +5262,7 @@
       "code": null,
       "latitude": "46.13817000",
       "longitude": "-122.93817000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -5207,6 +5296,7 @@
       "code": null,
       "latitude": "44.56457000",
       "longitude": "-123.26204000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -5232,6 +5322,7 @@
       "code": null,
       "latitude": "38.62802780",
       "longitude": "-90.19101540",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -5297,6 +5388,7 @@
       "code": null,
       "latitude": "40.76078000",
       "longitude": "-111.89105000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -5378,6 +5470,7 @@
       "code": null,
       "latitude": "40.23384000",
       "longitude": "-111.65853000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -5419,6 +5512,7 @@
       "code": null,
       "latitude": "41.22300000",
       "longitude": "-111.97383000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -5444,6 +5538,7 @@
       "code": null,
       "latitude": "29.42412000",
       "longitude": "-98.49363000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -5485,6 +5580,7 @@
       "code": null,
       "latitude": "38.58157000",
       "longitude": "-121.49440000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -5542,6 +5638,7 @@
       "code": null,
       "latitude": "39.14045000",
       "longitude": "-121.61691000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -5583,6 +5680,7 @@
       "code": null,
       "latitude": "40.44062000",
       "longitude": "-79.99589000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -5688,6 +5786,7 @@
       "code": null,
       "latitude": "40.41896000",
       "longitude": "-80.58952000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -5721,6 +5820,7 @@
       "code": null,
       "latitude": "41.76371000",
       "longitude": "-72.68509000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -5770,6 +5870,7 @@
       "code": null,
       "latitude": "41.30815000",
       "longitude": "-72.92816000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -5811,6 +5912,7 @@
       "code": null,
       "latitude": "41.55815000",
       "longitude": "-73.05150000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -5844,6 +5946,7 @@
       "code": null,
       "latitude": "41.52426000",
       "longitude": "-72.07591000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -5933,6 +6036,7 @@
       "code": null,
       "latitude": "39.96118000",
       "longitude": "-82.99879000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -5958,6 +6062,7 @@
       "code": null,
       "latitude": "39.76838000",
       "longitude": "-86.15804000",
+      "timeZoneId": "America/Indiana/Indianapolis",
       "members": [
         {
           "type": "City",
@@ -6015,6 +6120,7 @@
       "code": null,
       "latitude": "40.19338000",
       "longitude": "-85.38636000",
+      "timeZoneId": "America/Indiana/Indianapolis",
       "members": [
         {
           "type": "City",
@@ -6048,6 +6154,7 @@
       "code": null,
       "latitude": "39.20144000",
       "longitude": "-85.92138000",
+      "timeZoneId": "America/Indiana/Indianapolis",
       "members": [
         {
           "type": "City",
@@ -6073,6 +6180,7 @@
       "code": null,
       "latitude": "40.48643000",
       "longitude": "-86.13360000",
+      "timeZoneId": "America/Indiana/Indianapolis",
       "members": [
         {
           "type": "City",
@@ -6106,6 +6214,7 @@
       "code": null,
       "latitude": "39.09973000",
       "longitude": "-94.57857000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -6155,6 +6264,7 @@
       "code": null,
       "latitude": "38.97167000",
       "longitude": "-95.23525000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -6180,6 +6290,7 @@
       "code": null,
       "latitude": "39.76861000",
       "longitude": "-94.84663000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -6205,6 +6316,7 @@
       "code": null,
       "latitude": "36.17497000",
       "longitude": "-115.13722000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -6254,6 +6366,7 @@
       "code": null,
       "latitude": "35.77210000",
       "longitude": "-78.63861000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -6287,6 +6400,7 @@
       "code": null,
       "latitude": "35.99403000",
       "longitude": "-78.89862000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -6328,6 +6442,7 @@
       "code": null,
       "latitude": "36.16589000",
       "longitude": "-86.78444000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -6385,6 +6500,7 @@
       "code": null,
       "latitude": "39.12711000",
       "longitude": "-84.51439000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -6474,6 +6590,7 @@
       "code": null,
       "latitude": "43.03890000",
       "longitude": "-87.90647000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -6523,6 +6640,7 @@
       "code": null,
       "latitude": "42.72613000",
       "longitude": "-87.78285000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -6556,6 +6674,7 @@
       "code": null,
       "latitude": "30.33218000",
       "longitude": "-81.65565000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -6597,6 +6716,7 @@
       "code": null,
       "latitude": "36.07264000",
       "longitude": "-79.79198000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -6630,6 +6750,7 @@
       "code": null,
       "latitude": "36.09986000",
       "longitude": "-80.24422000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -6655,6 +6776,7 @@
       "code": null,
       "latitude": "36.09569000",
       "longitude": "-79.43780000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -6696,6 +6818,7 @@
       "code": null,
       "latitude": "34.85262000",
       "longitude": "-82.39401000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -6753,6 +6876,7 @@
       "code": null,
       "latitude": "34.94957000",
       "longitude": "-81.93205000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -6778,6 +6902,7 @@
       "code": null,
       "latitude": "35.46756000",
       "longitude": "-97.51643000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -6811,6 +6936,7 @@
       "code": null,
       "latitude": "38.25424000",
       "longitude": "-85.75941000",
+      "timeZoneId": "America/Kentucky/Louisville",
       "members": [
         {
           "type": "City",
@@ -6844,6 +6970,7 @@
       "code": null,
       "latitude": "37.69395000",
       "longitude": "-85.85913000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -6869,6 +6996,7 @@
       "code": null,
       "latitude": "42.96336000",
       "longitude": "-85.66809000",
+      "timeZoneId": "America/Detroit",
       "members": [
         {
           "type": "City",
@@ -6910,6 +7038,7 @@
       "code": null,
       "latitude": "43.23418000",
       "longitude": "-86.24839000",
+      "timeZoneId": "America/Detroit",
       "members": [
         {
           "type": "City",
@@ -6943,6 +7072,7 @@
       "code": null,
       "latitude": "35.14953000",
       "longitude": "-90.04898000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -6984,6 +7114,7 @@
       "code": null,
       "latitude": "33.52066000",
       "longitude": "-86.80249000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -7025,6 +7156,7 @@
       "code": null,
       "latitude": "29.95465000",
       "longitude": "-90.07507000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -7058,6 +7190,7 @@
       "code": null,
       "latitude": "30.27519000",
       "longitude": "-89.78117000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -7099,6 +7232,7 @@
       "code": null,
       "latitude": "36.74773000",
       "longitude": "-119.77237000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -7124,6 +7258,7 @@
       "code": null,
       "latitude": "36.32745000",
       "longitude": "-119.64568000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -7165,6 +7300,7 @@
       "code": null,
       "latitude": "40.27370000",
       "longitude": "-76.88442000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -7214,6 +7350,7 @@
       "code": null,
       "latitude": "39.96260000",
       "longitude": "-76.72774000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -7247,6 +7384,7 @@
       "code": null,
       "latitude": "40.34093000",
       "longitude": "-76.41135000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -7280,6 +7418,7 @@
       "code": null,
       "latitude": "39.83093000",
       "longitude": "-77.23110000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -7305,6 +7444,7 @@
       "code": null,
       "latitude": "26.56285000",
       "longitude": "-81.94953000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -7346,6 +7486,7 @@
       "code": null,
       "latitude": "26.14234000",
       "longitude": "-81.79596000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -7387,6 +7528,7 @@
       "code": null,
       "latitude": "42.88645000",
       "longitude": "-78.87837000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -7476,6 +7618,7 @@
       "code": null,
       "latitude": "35.96064000",
       "longitude": "-83.92074000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -7501,6 +7644,7 @@
       "code": null,
       "latitude": "36.21398000",
       "longitude": "-83.29489000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -7534,6 +7678,7 @@
       "code": null,
       "latitude": "42.65258000",
       "longitude": "-73.75623000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -7591,6 +7736,7 @@
       "code": null,
       "latitude": "43.30952000",
       "longitude": "-73.64401000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -7624,6 +7770,7 @@
       "code": null,
       "latitude": "27.04422000",
       "longitude": "-82.23593000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -7673,6 +7820,7 @@
       "code": null,
       "latitude": "26.92978000",
       "longitude": "-82.04537000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -7698,6 +7846,7 @@
       "code": null,
       "latitude": "36.15398000",
       "longitude": "-95.99277000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -7723,6 +7872,7 @@
       "code": null,
       "latitude": "35.08449000",
       "longitude": "-106.65114000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -7756,6 +7906,7 @@
       "code": null,
       "latitude": "35.68698000",
       "longitude": "-105.93780000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -7781,6 +7932,7 @@
       "code": null,
       "latitude": "43.15478000",
       "longitude": "-77.61556000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -7814,6 +7966,7 @@
       "code": null,
       "latitude": "32.22174000",
       "longitude": "-110.92648000",
+      "timeZoneId": "America/Phoenix",
       "members": [
         {
           "type": "City",
@@ -7839,6 +7992,7 @@
       "code": null,
       "latitude": "31.75872000",
       "longitude": "-106.48693000",
+      "timeZoneId": "America/Ciudad_Juarez",
       "members": [
         {
           "type": "City",
@@ -7864,6 +8018,7 @@
       "code": null,
       "latitude": "32.31232000",
       "longitude": "-106.77834000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -7889,6 +8044,7 @@
       "code": null,
       "latitude": "34.00071000",
       "longitude": "-81.03481000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -7914,6 +8070,7 @@
       "code": null,
       "latitude": "33.92044000",
       "longitude": "-80.34147000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -7939,6 +8096,7 @@
       "code": null,
       "latitude": "39.75895000",
       "longitude": "-84.19161000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -7996,6 +8154,7 @@
       "code": null,
       "latitude": "39.92423000",
       "longitude": "-83.80882000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -8029,6 +8188,7 @@
       "code": null,
       "latitude": "40.60843000",
       "longitude": "-75.49018000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -8094,6 +8254,7 @@
       "code": null,
       "latitude": "41.25626000",
       "longitude": "-95.94043000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -8135,6 +8296,7 @@
       "code": null,
       "latitude": "30.44332000",
       "longitude": "-91.18747000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -8160,6 +8322,7 @@
       "code": null,
       "latitude": "30.50463000",
       "longitude": "-90.46293000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -8185,6 +8348,7 @@
       "code": null,
       "latitude": "35.04563000",
       "longitude": "-85.30968000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -8218,6 +8382,7 @@
       "code": null,
       "latitude": "34.76980000",
       "longitude": "-84.97022000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -8243,6 +8408,7 @@
       "code": null,
       "latitude": "35.15952000",
       "longitude": "-84.87661000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -8268,6 +8434,7 @@
       "code": null,
       "latitude": "26.20341000",
       "longitude": "-98.23001000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -8317,6 +8484,7 @@
       "code": null,
       "latitude": "43.07305000",
       "longitude": "-89.40123000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -8350,6 +8518,7 @@
       "code": null,
       "latitude": "42.68279000",
       "longitude": "-89.01872000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -8383,6 +8552,7 @@
       "code": null,
       "latitude": "41.60054000",
       "longitude": "-93.60911000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -8432,6 +8602,7 @@
       "code": null,
       "latitude": "42.03471000",
       "longitude": "-93.61994000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -8457,6 +8628,7 @@
       "code": null,
       "latitude": "43.61350000",
       "longitude": "-116.20345000",
+      "timeZoneId": "America/Boise",
       "members": [
         {
           "type": "City",
@@ -8498,6 +8670,7 @@
       "code": null,
       "latitude": "34.74648000",
       "longitude": "-92.28959000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -8539,6 +8712,7 @@
       "code": null,
       "latitude": "34.73040000",
       "longitude": "-86.58594000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -8564,6 +8738,7 @@
       "code": null,
       "latitude": "34.60593000",
       "longitude": "-86.98334000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -8589,6 +8764,7 @@
       "code": null,
       "latitude": "41.68338000",
       "longitude": "-86.25001000",
+      "timeZoneId": "America/Indiana/Indianapolis",
       "members": [
         {
           "type": "City",
@@ -8622,6 +8798,7 @@
       "code": null,
       "latitude": "41.68199000",
       "longitude": "-85.97667000",
+      "timeZoneId": "America/Indiana/Indianapolis",
       "members": [
         {
           "type": "City",
@@ -8663,6 +8840,7 @@
       "code": null,
       "latitude": "41.82977000",
       "longitude": "-86.25418000",
+      "timeZoneId": "America/Detroit",
       "members": [
         {
           "type": "City",
@@ -8688,6 +8866,7 @@
       "code": null,
       "latitude": "47.65966000",
       "longitude": "-117.42908000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -8729,6 +8908,7 @@
       "code": null,
       "latitude": "47.67768000",
       "longitude": "-116.78047000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -8754,6 +8934,7 @@
       "code": null,
       "latitude": "38.04980000",
       "longitude": "-84.45855000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -8787,6 +8968,7 @@
       "code": null,
       "latitude": "43.04812000",
       "longitude": "-76.14742000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -8820,6 +9002,7 @@
       "code": null,
       "latitude": "39.52963000",
       "longitude": "-119.81380000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -8853,6 +9036,7 @@
       "code": null,
       "latitude": "39.16380000",
       "longitude": "-119.76740000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -8886,6 +9070,7 @@
       "code": null,
       "latitude": "42.10148000",
       "longitude": "-72.58981000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -8911,6 +9096,7 @@
       "code": null,
       "latitude": "42.36723000",
       "longitude": "-72.51852000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -8952,6 +9138,7 @@
       "code": null,
       "latitude": "35.05266000",
       "longitude": "-78.87836000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -8977,6 +9164,7 @@
       "code": null,
       "latitude": "35.19543000",
       "longitude": "-79.46948000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -9010,6 +9198,7 @@
       "code": null,
       "latitude": "37.69224000",
       "longitude": "-97.33754000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -9043,6 +9232,7 @@
       "code": null,
       "latitude": "43.65737000",
       "longitude": "-70.25890000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -9076,6 +9266,7 @@
       "code": null,
       "latitude": "44.10035000",
       "longitude": "-70.21478000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -9125,6 +9316,7 @@
       "code": null,
       "latitude": "32.29876000",
       "longitude": "-90.18481000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -9158,6 +9350,7 @@
       "code": null,
       "latitude": "30.69436000",
       "longitude": "-88.04305000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -9183,6 +9376,7 @@
       "code": null,
       "latitude": "30.60353000",
       "longitude": "-87.90360000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -9224,6 +9418,7 @@
       "code": null,
       "latitude": "41.13060000",
       "longitude": "-85.12886000",
+      "timeZoneId": "America/Indiana/Indianapolis",
       "members": [
         {
           "type": "City",
@@ -9257,6 +9452,7 @@
       "code": null,
       "latitude": "32.08354000",
       "longitude": "-81.09983000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -9282,6 +9478,7 @@
       "code": null,
       "latitude": "31.84688000",
       "longitude": "-81.59595000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -9307,6 +9504,7 @@
       "code": null,
       "latitude": "38.41925000",
       "longitude": "-82.44515000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -9340,6 +9538,7 @@
       "code": null,
       "latitude": "38.34982000",
       "longitude": "-81.63262000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -9365,6 +9564,7 @@
       "code": null,
       "latitude": "36.54843000",
       "longitude": "-82.56182000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -9406,6 +9606,7 @@
       "code": null,
       "latitude": "36.31344000",
       "longitude": "-82.35347000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -9431,6 +9632,7 @@
       "code": null,
       "latitude": "32.46098000",
       "longitude": "-84.98771000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -9456,6 +9658,7 @@
       "code": null,
       "latitude": "32.60986000",
       "longitude": "-85.48078000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -9489,6 +9692,7 @@
       "code": null,
       "latitude": "30.22409000",
       "longitude": "-92.01984000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -9514,6 +9718,7 @@
       "code": null,
       "latitude": "42.73253000",
       "longitude": "-84.55553000",
+      "timeZoneId": "America/Detroit",
       "members": [
         {
           "type": "City",
@@ -9547,6 +9752,7 @@
       "code": null,
       "latitude": "27.80058000",
       "longitude": "-97.39638000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -9572,6 +9778,7 @@
       "code": null,
       "latitude": "41.09978000",
       "longitude": "-80.64952000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -9605,6 +9812,7 @@
       "code": null,
       "latitude": "35.60095000",
       "longitude": "-82.55402000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -9638,6 +9846,7 @@
       "code": null,
       "latitude": "33.68906000",
       "longitude": "-78.88669000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -9679,6 +9888,7 @@
       "code": null,
       "latitude": "41.52364000",
       "longitude": "-90.57764000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -9720,6 +9930,7 @@
       "code": null,
       "latitude": "42.00833000",
       "longitude": "-91.64407000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -9745,6 +9956,7 @@
       "code": null,
       "latitude": "41.66113000",
       "longitude": "-91.53017000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -9770,6 +9982,7 @@
       "code": null,
       "latitude": "42.29171000",
       "longitude": "-85.58723000",
+      "timeZoneId": "America/Detroit",
       "members": [
         {
           "type": "City",
@@ -9803,6 +10016,7 @@
       "code": null,
       "latitude": "42.31730000",
       "longitude": "-85.17816000",
+      "timeZoneId": "America/Detroit",
       "members": [
         {
           "type": "City",
@@ -9828,6 +10042,7 @@
       "code": null,
       "latitude": "25.90175000",
       "longitude": "-97.49748000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -9861,6 +10076,7 @@
       "code": null,
       "latitude": "32.84069000",
       "longitude": "-83.63240000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -9886,6 +10102,7 @@
       "code": null,
       "latitude": "32.61574000",
       "longitude": "-83.62664000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -9911,6 +10128,7 @@
       "code": null,
       "latitude": "29.65163000",
       "longitude": "-82.32483000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -9936,6 +10154,7 @@
       "code": null,
       "latitude": "42.27113000",
       "longitude": "-89.09400000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -9961,6 +10180,7 @@
       "code": null,
       "latitude": "30.43826000",
       "longitude": "-84.28073000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -9986,6 +10206,7 @@
       "code": null,
       "latitude": "32.36681000",
       "longitude": "-86.29997000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10011,6 +10232,7 @@
       "code": null,
       "latitude": "44.26193000",
       "longitude": "-88.41538000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10036,6 +10258,7 @@
       "code": null,
       "latitude": "44.02471000",
       "longitude": "-88.54261000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10069,6 +10292,7 @@
       "code": null,
       "latitude": "38.95171000",
       "longitude": "-92.33407000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10102,6 +10326,7 @@
       "code": null,
       "latitude": "38.57670000",
       "longitude": "-92.17352000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10135,6 +10360,7 @@
       "code": null,
       "latitude": "32.52515000",
       "longitude": "-93.75018000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10168,6 +10394,7 @@
       "code": null,
       "latitude": "33.57786000",
       "longitude": "-101.85517000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10193,6 +10420,7 @@
       "code": null,
       "latitude": "40.69365000",
       "longitude": "-89.58899000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10218,6 +10446,7 @@
       "code": null,
       "latitude": "46.21125000",
       "longitude": "-119.13723000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -10251,6 +10480,7 @@
       "code": null,
       "latitude": "46.06458000",
       "longitude": "-118.34302000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -10276,6 +10506,7 @@
       "code": null,
       "latitude": "44.51916000",
       "longitude": "-88.01983000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10301,6 +10532,7 @@
       "code": null,
       "latitude": "31.99735000",
       "longitude": "-102.07791000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10326,6 +10558,7 @@
       "code": null,
       "latitude": "31.84568000",
       "longitude": "-102.36764000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10351,6 +10584,7 @@
       "code": null,
       "latitude": "43.41947000",
       "longitude": "-83.95081000",
+      "timeZoneId": "America/Detroit",
       "members": [
         {
           "type": "City",
@@ -10376,6 +10610,7 @@
       "code": null,
       "latitude": "43.59447000",
       "longitude": "-83.88886000",
+      "timeZoneId": "America/Detroit",
       "members": [
         {
           "type": "City",
@@ -10401,6 +10636,7 @@
       "code": null,
       "latitude": "43.61558000",
       "longitude": "-84.24721000",
+      "timeZoneId": "America/Detroit",
       "members": [
         {
           "type": "City",
@@ -10434,6 +10670,7 @@
       "code": null,
       "latitude": "40.80000000",
       "longitude": "-96.66696000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10459,6 +10696,7 @@
       "code": null,
       "latitude": "42.12922000",
       "longitude": "-80.08506000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -10484,6 +10722,7 @@
       "code": null,
       "latitude": "37.97476000",
       "longitude": "-87.55585000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10509,6 +10748,7 @@
       "code": null,
       "latitude": "46.78327000",
       "longitude": "-92.10658000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10542,6 +10782,7 @@
       "code": null,
       "latitude": "44.02163000",
       "longitude": "-92.46990000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10567,6 +10808,7 @@
       "code": null,
       "latitude": "40.11642000",
       "longitude": "-88.24338000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10600,6 +10842,7 @@
       "code": null,
       "latitude": "42.32652000",
       "longitude": "-122.87559000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -10633,6 +10876,7 @@
       "code": null,
       "latitude": "42.43933000",
       "longitude": "-123.33067000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -10666,6 +10910,7 @@
       "code": null,
       "latitude": "39.80172000",
       "longitude": "-89.64371000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10691,6 +10936,7 @@
       "code": null,
       "latitude": "32.35126000",
       "longitude": "-95.30106000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10716,6 +10962,7 @@
       "code": null,
       "latitude": "35.22200000",
       "longitude": "-101.83130000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10749,6 +10996,7 @@
       "code": null,
       "latitude": "43.46658000",
       "longitude": "-112.03414000",
+      "timeZoneId": "America/Boise",
       "members": [
         {
           "type": "City",
@@ -10774,6 +11022,7 @@
       "code": null,
       "latitude": "46.87719000",
       "longitude": "-96.78980000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10815,6 +11064,7 @@
       "code": null,
       "latitude": "35.93821000",
       "longitude": "-77.79053000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -10840,6 +11090,7 @@
       "code": null,
       "latitude": "44.47588000",
       "longitude": "-73.21207000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -10881,6 +11132,7 @@
       "code": null,
       "latitude": "40.41670000",
       "longitude": "-86.87529000",
+      "timeZoneId": "America/Indiana/Indianapolis",
       "members": [
         {
           "type": "City",
@@ -10914,6 +11166,7 @@
       "code": null,
       "latitude": "44.95914000",
       "longitude": "-89.63012000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10939,6 +11192,7 @@
       "code": null,
       "latitude": "30.21309000",
       "longitude": "-93.20440000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10964,6 +11218,7 @@
       "code": null,
       "latitude": "36.99032000",
       "longitude": "-86.44360000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -10989,6 +11244,7 @@
       "code": null,
       "latitude": "32.50931000",
       "longitude": "-92.11930000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -11022,6 +11278,7 @@
       "code": null,
       "latitude": "38.44933150",
       "longitude": "-78.86888330",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -11047,6 +11304,7 @@
       "code": null,
       "latitude": "38.14991000",
       "longitude": "-79.07320000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -11080,6 +11338,7 @@
       "code": null,
       "latitude": "31.22323000",
       "longitude": "-85.39049000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -11105,6 +11364,7 @@
       "code": null,
       "latitude": "40.58654000",
       "longitude": "-122.39168000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -11130,6 +11390,7 @@
       "code": null,
       "latitude": "31.32712000",
       "longitude": "-89.29034000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -11155,6 +11416,7 @@
       "code": null,
       "latitude": "40.79339000",
       "longitude": "-77.86000000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -11180,6 +11442,7 @@
       "code": null,
       "latitude": "37.08423000",
       "longitude": "-94.51328000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -11213,6 +11476,7 @@
       "code": null,
       "latitude": "35.61266000",
       "longitude": "-77.36635000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -11238,6 +11502,7 @@
       "code": null,
       "latitude": "44.81135000",
       "longitude": "-91.49849000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -11263,6 +11528,7 @@
       "code": null,
       "latitude": "38.25445000",
       "longitude": "-104.60914000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -11288,6 +11554,7 @@
       "code": null,
       "latitude": "40.75839000",
       "longitude": "-82.51545000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -11313,6 +11580,7 @@
       "code": null,
       "latitude": "40.74255000",
       "longitude": "-84.10523000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -11338,6 +11606,7 @@
       "code": null,
       "latitude": "43.80136000",
       "longitude": "-91.23958000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -11371,6 +11640,7 @@
       "code": null,
       "latitude": "39.16533000",
       "longitude": "-86.52639000",
+      "timeZoneId": "America/Indiana/Indianapolis",
       "members": [
         {
           "type": "City",
@@ -11412,6 +11682,7 @@
       "code": null,
       "latitude": "40.48420000",
       "longitude": "-88.99369000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -11445,6 +11716,7 @@
       "code": null,
       "latitude": "40.32674000",
       "longitude": "-78.92197000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -11470,6 +11742,7 @@
       "code": null,
       "latitude": "32.44874000",
       "longitude": "-99.73314000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -11495,6 +11768,7 @@
       "code": null,
       "latitude": "34.79981000",
       "longitude": "-87.67725000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -11528,6 +11802,7 @@
       "code": null,
       "latitude": "38.36067000",
       "longitude": "-75.59937000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -11577,6 +11852,7 @@
       "code": null,
       "latitude": "35.84230000",
       "longitude": "-90.70428000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -11602,6 +11878,7 @@
       "code": null,
       "latitude": "44.08054000",
       "longitude": "-103.23101000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -11635,6 +11912,7 @@
       "code": null,
       "latitude": "42.08980000",
       "longitude": "-76.80773000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -11668,6 +11946,7 @@
       "code": null,
       "latitude": "42.49999000",
       "longitude": "-96.40031000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -11693,6 +11972,7 @@
       "code": null,
       "latitude": "34.60869000",
       "longitude": "-98.39033000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -11718,6 +11998,7 @@
       "code": null,
       "latitude": "40.51868000",
       "longitude": "-78.39474000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -11743,6 +12024,7 @@
       "code": null,
       "latitude": "42.44063000",
       "longitude": "-76.49661000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -11784,6 +12066,7 @@
       "code": null,
       "latitude": "41.24119000",
       "longitude": "-77.00108000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -11809,6 +12092,7 @@
       "code": null,
       "latitude": "37.30588000",
       "longitude": "-89.51815000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -11834,6 +12118,7 @@
       "code": null,
       "latitude": "39.26674000",
       "longitude": "-81.56151000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -11875,6 +12160,7 @@
       "code": null,
       "latitude": "37.08339000",
       "longitude": "-88.60005000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -11908,6 +12194,7 @@
       "code": null,
       "latitude": "34.50370000",
       "longitude": "-93.05518000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -11933,6 +12220,7 @@
       "code": null,
       "latitude": "44.15906000",
       "longitude": "-94.00915000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -11966,6 +12254,7 @@
       "code": null,
       "latitude": "28.80527000",
       "longitude": "-97.00360000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -11991,6 +12280,7 @@
       "code": null,
       "latitude": "27.94752000",
       "longitude": "-82.45843000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -12040,6 +12330,7 @@
       "code": null,
       "latitude": "30.26715000",
       "longitude": "-97.74306000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -12089,6 +12380,7 @@
       "code": null,
       "latitude": "37.53850870",
       "longitude": "-77.43428000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -12138,6 +12430,7 @@
       "code": null,
       "latitude": "21.30694000",
       "longitude": "-157.85833000",
+      "timeZoneId": "Pacific/Honolulu",
       "members": [
         {
           "type": "City",
@@ -12163,6 +12456,7 @@
       "code": null,
       "latitude": "35.37329000",
       "longitude": "-119.01871000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -12196,6 +12490,7 @@
       "code": null,
       "latitude": "32.77657000",
       "longitude": "-79.93092000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -12237,6 +12532,7 @@
       "code": null,
       "latitude": "38.83388000",
       "longitude": "-104.82136000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -12262,6 +12558,7 @@
       "code": null,
       "latitude": "36.06258000",
       "longitude": "-94.15743000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -12311,6 +12608,7 @@
       "code": null,
       "latitude": "41.66394000",
       "longitude": "-83.55521000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -12344,6 +12642,7 @@
       "code": null,
       "latitude": "41.40916000",
       "longitude": "-75.66490000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -12385,6 +12684,7 @@
       "code": null,
       "latitude": "40.03788000",
       "longitude": "-76.30551000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -12418,6 +12718,7 @@
       "code": null,
       "latitude": "30.42131000",
       "longitude": "-87.21691000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -12467,6 +12768,7 @@
       "code": null,
       "latitude": "31.11712000",
       "longitude": "-97.72780000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -12500,6 +12802,7 @@
       "code": null,
       "latitude": "37.21533000",
       "longitude": "-93.29824000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -12533,6 +12836,7 @@
       "code": null,
       "latitude": "36.33023000",
       "longitude": "-119.29206000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -12558,6 +12862,7 @@
       "code": null,
       "latitude": "34.22573000",
       "longitude": "-77.94471000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -12583,6 +12888,7 @@
       "code": null,
       "latitude": "34.95303000",
       "longitude": "-120.43572000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -12616,6 +12922,7 @@
       "code": null,
       "latitude": "36.67774000",
       "longitude": "-121.65550000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -12649,6 +12956,7 @@
       "code": null,
       "latitude": "29.18720000",
       "longitude": "-82.14009000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -12674,6 +12982,7 @@
       "code": null,
       "latitude": "30.36742000",
       "longitude": "-89.09282000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -12723,6 +13032,7 @@
       "code": null,
       "latitude": "61.21806000",
       "longitude": "-149.90028000",
+      "timeZoneId": "America/Anchorage",
       "members": [
         {
           "type": "City",
@@ -12748,6 +13058,7 @@
       "code": null,
       "latitude": "30.08605000",
       "longitude": "-94.10185000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -12781,6 +13092,7 @@
       "code": null,
       "latitude": "44.05207000",
       "longitude": "-123.08675000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -12814,6 +13126,7 @@
       "code": null,
       "latitude": "40.58526000",
       "longitude": "-105.08442000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -12863,6 +13176,7 @@
       "code": null,
       "latitude": "37.27097300",
       "longitude": "-79.94143130",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -12904,6 +13218,7 @@
       "code": null,
       "latitude": "30.76213000",
       "longitude": "-86.57051000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -12945,6 +13260,7 @@
       "code": null,
       "latitude": "43.54997000",
       "longitude": "-96.70033000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -12978,6 +13294,7 @@
       "code": null,
       "latitude": "31.54933000",
       "longitude": "-97.14667000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -13003,6 +13320,7 @@
       "code": null,
       "latitude": "32.50070000",
       "longitude": "-94.74049000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -13028,6 +13346,7 @@
       "code": null,
       "latitude": "43.10090000",
       "longitude": "-75.23266000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -13069,6 +13388,7 @@
       "code": null,
       "latitude": "30.62798000",
       "longitude": "-96.33441000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -13102,6 +13422,7 @@
       "code": null,
       "latitude": "33.20984000",
       "longitude": "-87.56917000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -13127,6 +13448,7 @@
       "code": null,
       "latitude": "35.28275000",
       "longitude": "-120.65962000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -13160,6 +13482,7 @@
       "code": null,
       "latitude": "27.50641000",
       "longitude": "-99.50754000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -13185,6 +13508,7 @@
       "code": null,
       "latitude": "37.41375360",
       "longitude": "-79.14224640",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -13210,6 +13534,7 @@
       "code": null,
       "latitude": "44.05817000",
       "longitude": "-121.31531000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -13235,6 +13560,7 @@
       "code": null,
       "latitude": "46.60207000",
       "longitude": "-120.50590000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -13268,6 +13594,7 @@
       "code": null,
       "latitude": "34.61002000",
       "longitude": "-112.31572000",
+      "timeZoneId": "America/Phoenix",
       "members": [
         {
           "type": "City",
@@ -13301,6 +13628,7 @@
       "code": null,
       "latitude": "42.09869000",
       "longitude": "-75.91797000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -13326,6 +13654,7 @@
       "code": null,
       "latitude": "32.19382000",
       "longitude": "-80.73816000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -13367,6 +13696,7 @@
       "code": null,
       "latitude": "48.75955000",
       "longitude": "-122.48822000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -13392,6 +13722,7 @@
       "code": null,
       "latitude": "35.38592000",
       "longitude": "-94.39855000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -13425,6 +13756,7 @@
       "code": null,
       "latitude": "39.04833000",
       "longitude": "-95.67804000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -13458,6 +13790,7 @@
       "code": null,
       "latitude": "38.02930600",
       "longitude": "-78.47667810",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -13483,6 +13816,7 @@
       "code": null,
       "latitude": "34.48390000",
       "longitude": "-114.32245000",
+      "timeZoneId": "America/Phoenix",
       "members": [
         {
           "type": "City",
@@ -13524,6 +13858,7 @@
       "code": null,
       "latitude": "30.15946000",
       "longitude": "-85.65983000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -13557,6 +13892,7 @@
       "code": null,
       "latitude": "32.72532000",
       "longitude": "-114.62440000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -13582,6 +13918,7 @@
       "code": null,
       "latitude": "34.75405000",
       "longitude": "-77.43024000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -13607,6 +13944,7 @@
       "code": null,
       "latitude": "39.72849000",
       "longitude": "-121.83748000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -13632,6 +13970,7 @@
       "code": null,
       "latitude": "37.10415000",
       "longitude": "-113.58412000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -13665,6 +14004,7 @@
       "code": null,
       "latitude": "34.19543000",
       "longitude": "-79.76256000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -13690,6 +14030,7 @@
       "code": null,
       "latitude": "29.59577000",
       "longitude": "-90.71953000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -13731,6 +14072,7 @@
       "code": null,
       "latitude": "45.78329000",
       "longitude": "-108.50069000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -13756,6 +14098,7 @@
       "code": null,
       "latitude": "35.61452000",
       "longitude": "-88.81395000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -13781,6 +14124,7 @@
       "code": null,
       "latitude": "37.22957000",
       "longitude": "-80.41394000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -13822,6 +14166,7 @@
       "code": null,
       "latitude": "32.79200000",
       "longitude": "-115.56305000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -13847,6 +14192,7 @@
       "code": null,
       "latitude": "28.80359000",
       "longitude": "-82.57593000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -13872,6 +14218,7 @@
       "code": null,
       "latitude": "42.49276000",
       "longitude": "-92.34296000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -13905,6 +14252,7 @@
       "code": null,
       "latitude": "39.46670000",
       "longitude": "-87.41391000",
+      "timeZoneId": "America/Indiana/Indianapolis",
       "members": [
         {
           "type": "City",
@@ -13930,6 +14278,7 @@
       "code": null,
       "latitude": "20.88953000",
       "longitude": "-156.47432000",
+      "timeZoneId": "Pacific/Honolulu",
       "members": [
         {
           "type": "City",
@@ -13963,6 +14312,7 @@
       "code": null,
       "latitude": "39.06387000",
       "longitude": "-108.55065000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -13988,6 +14338,7 @@
       "code": null,
       "latitude": "41.73549000",
       "longitude": "-111.83439000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -14013,6 +14364,7 @@
       "code": null,
       "latitude": "42.24587000",
       "longitude": "-84.40135000",
+      "timeZoneId": "America/Detroit",
       "members": [
         {
           "type": "City",
@@ -14038,6 +14390,7 @@
       "code": null,
       "latitude": "44.80118000",
       "longitude": "-68.77781000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -14071,6 +14424,7 @@
       "code": null,
       "latitude": "44.76306000",
       "longitude": "-85.62063000",
+      "timeZoneId": "America/Detroit",
       "members": [
         {
           "type": "City",
@@ -14104,6 +14458,7 @@
       "code": null,
       "latitude": "30.83334000",
       "longitude": "-83.28032000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -14129,6 +14484,7 @@
       "code": null,
       "latitude": "33.91371000",
       "longitude": "-98.49339000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -14154,6 +14510,7 @@
       "code": null,
       "latitude": "31.31129000",
       "longitude": "-92.44514000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -14179,6 +14536,7 @@
       "code": null,
       "latitude": "33.42513000",
       "longitude": "-94.04769000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -14204,6 +14562,7 @@
       "code": null,
       "latitude": "31.57851000",
       "longitude": "-84.15574000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -14229,6 +14588,7 @@
       "code": null,
       "latitude": "35.19807000",
       "longitude": "-111.65127000",
+      "timeZoneId": "America/Phoenix",
       "members": [
         {
           "type": "City",
@@ -14254,6 +14614,7 @@
       "code": null,
       "latitude": "39.62953000",
       "longitude": "-79.95590000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -14279,6 +14640,7 @@
       "code": null,
       "latitude": "46.80833000",
       "longitude": "-100.78374000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -14304,6 +14666,7 @@
       "code": null,
       "latitude": "40.06396000",
       "longitude": "-80.72091000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -14329,6 +14692,7 @@
       "code": null,
       "latitude": "39.18361000",
       "longitude": "-96.57167000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -14354,6 +14718,7 @@
       "code": null,
       "latitude": "42.45008000",
       "longitude": "-73.24538000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -14379,6 +14744,7 @@
       "code": null,
       "latitude": "46.87215000",
       "longitude": "-113.99400000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -14412,6 +14778,7 @@
       "code": null,
       "latitude": "47.42346000",
       "longitude": "-120.31035000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -14453,6 +14820,7 @@
       "code": null,
       "latitude": "45.67965000",
       "longitude": "-111.03856000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -14486,6 +14854,7 @@
       "code": null,
       "latitude": "31.55454000",
       "longitude": "-110.30369000",
+      "timeZoneId": "America/Phoenix",
       "members": [
         {
           "type": "City",
@@ -14519,6 +14888,7 @@
       "code": null,
       "latitude": "42.56297000",
       "longitude": "-114.46087000",
+      "timeZoneId": "America/Boise",
       "members": [
         {
           "type": "City",
@@ -14552,6 +14922,7 @@
       "code": null,
       "latitude": "31.46377000",
       "longitude": "-100.43704000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -14577,6 +14948,7 @@
       "code": null,
       "latitude": "36.72806000",
       "longitude": "-108.21869000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -14602,6 +14974,7 @@
       "code": null,
       "latitude": "35.38488000",
       "longitude": "-77.99277000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -14627,6 +15000,7 @@
       "code": null,
       "latitude": "43.75083000",
       "longitude": "-87.71453000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -14652,6 +15026,7 @@
       "code": null,
       "latitude": "31.14995000",
       "longitude": "-81.49149000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -14685,6 +15060,7 @@
       "code": null,
       "latitude": "33.65983000",
       "longitude": "-85.83163000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -14718,6 +15094,7 @@
       "code": null,
       "latitude": "37.77422000",
       "longitude": "-87.11333000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -14743,6 +15120,7 @@
       "code": null,
       "latitude": "43.97478000",
       "longitude": "-75.91076000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -14776,6 +15154,7 @@
       "code": null,
       "latitude": "37.77817000",
       "longitude": "-81.18816000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -14801,6 +15180,7 @@
       "code": null,
       "latitude": "27.49559000",
       "longitude": "-81.44091000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -14826,6 +15206,7 @@
       "code": null,
       "latitude": "43.77500000",
       "longitude": "-88.43883000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -14851,6 +15232,7 @@
       "code": null,
       "latitude": "47.92526000",
       "longitude": "-97.03285000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -14876,6 +15258,7 @@
       "code": null,
       "latitude": "34.01434000",
       "longitude": "-86.00639000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -14901,6 +15284,7 @@
       "code": null,
       "latitude": "41.13998000",
       "longitude": "-104.82025000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -14926,6 +15310,7 @@
       "code": null,
       "latitude": "39.84031000",
       "longitude": "-88.95480000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -14959,6 +15344,7 @@
       "code": null,
       "latitude": "42.50056000",
       "longitude": "-90.66457000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -14992,6 +15378,7 @@
       "code": null,
       "latitude": "46.59271000",
       "longitude": "-112.03611000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -15017,6 +15404,7 @@
       "code": null,
       "latitude": "64.83778000",
       "longitude": "-147.71639000",
+      "timeZoneId": "America/Anchorage",
       "members": [
         {
           "type": "City",
@@ -15050,6 +15438,7 @@
       "code": null,
       "latitude": "42.87130000",
       "longitude": "-112.44553000",
+      "timeZoneId": "America/Boise",
       "members": [
         {
           "type": "City",
@@ -15075,6 +15464,7 @@
       "code": null,
       "latitude": "47.50024000",
       "longitude": "-111.30081000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -15100,6 +15490,7 @@
       "code": null,
       "latitude": "42.86663000",
       "longitude": "-106.31308000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -15125,6 +15516,7 @@
       "code": null,
       "latitude": "40.92501000",
       "longitude": "-98.34201000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -15150,6 +15542,7 @@
       "code": null,
       "latitude": "48.23251000",
       "longitude": "-101.29627000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -15175,6 +15568,7 @@
       "code": null,
       "latitude": "46.41655000",
       "longitude": "-117.01766000",
+      "timeZoneId": "America/Los_Angeles",
       "members": [
         {
           "type": "City",
@@ -15200,6 +15594,7 @@
       "code": null,
       "latitude": "36.39559000",
       "longitude": "-97.87839000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -15241,6 +15636,7 @@
       "code": null,
       "latitude": "28.70914000",
       "longitude": "-100.49952000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -15266,6 +15662,7 @@
       "code": "12260",
       "latitude": "33.47097000",
       "longitude": "-81.97484000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -15299,6 +15696,7 @@
       "code": "46180",
       "latitude": "34.25807000",
       "longitude": "-88.70464000",
+      "timeZoneId": "America/Chicago",
       "members": [
         {
           "type": "City",
@@ -15324,6 +15722,7 @@
       "code": null,
       "latitude": "24.55524000",
       "longitude": "-81.78163000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",
@@ -15349,6 +15748,7 @@
       "code": null,
       "latitude": "39.19110000",
       "longitude": "-106.81754000",
+      "timeZoneId": "America/Denver",
       "members": [
         {
           "type": "City",
@@ -15374,6 +15774,7 @@
       "code": null,
       "latitude": "37.47927000",
       "longitude": "-82.51876000",
+      "timeZoneId": "America/New_York",
       "members": [
         {
           "type": "City",

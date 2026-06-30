@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class LasVegasHendersonNorthLasVegasNv
+    internal static class LasVegasHendersonNorthLasVegasNv
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-las-vegas-henderson-nv",
             Latitude = "36.17497000",
             Longitude = "-115.13722000",
+            TimeZoneId = "America/Los_Angeles",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 31, StateName = "Nevada", CityId = 37, Name = "Las Vegas" },

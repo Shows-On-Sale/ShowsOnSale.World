@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class RockyMountNc
+    internal static class RockyMountNc
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-rocky-mount-wilson-roanoke-rapids-nc",
             Latitude = "35.93821000",
             Longitude = "-77.79053000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 36, StateName = "North Carolina", CityId = 408, Name = "Rocky Mount" }

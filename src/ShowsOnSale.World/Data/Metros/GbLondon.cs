@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class GbLondon
+    internal static class GbLondon
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "51.50853000",
             Longitude = "-0.12574000",
+            TimeZoneId = "Europe/London",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "GB", StateId = 212, StateName = "Westminster", CityId = 3, Name = "London" },

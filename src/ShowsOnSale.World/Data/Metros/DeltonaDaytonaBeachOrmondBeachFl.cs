@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class DeltonaDaytonaBeachOrmondBeachFl
+    internal static class DeltonaDaytonaBeachOrmondBeachFl
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-orlando-lakeland-deltona-fl",
             Latitude = "28.90054000",
             Longitude = "-81.26367000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 11, StateName = "Florida", CityId = 172, Name = "Deltona" },

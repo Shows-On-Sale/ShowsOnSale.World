@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class PaducahKyIl
+    internal static class PaducahKyIl
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-paducah-mayfield-ky-il",
             Latitude = "37.08339000",
             Longitude = "-88.60005000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 20, StateName = "Kentucky", CityId = 290, Name = "Paducah" },

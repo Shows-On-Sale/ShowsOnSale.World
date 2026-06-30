@@ -148,6 +148,7 @@ namespace ShowsOnSale.World
 {
     public static partial class WorldData
     {
+        /// <summary>All countries, with their states, cities, timezones, and metadata.</summary>
         public static List<Country> All { get; } = new()
         {
 "@
@@ -182,7 +183,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Countries
 {
-    public static class $($countryName)
+    internal static class $($countryName)
     {
         public static Country Data { get; } = new()
         {

@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class SpokaneSpokaneValleyWa
+    internal static class SpokaneSpokaneValleyWa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-spokane-spokane-valley-coeur-d-alene-wa-id",
             Latitude = "47.65966000",
             Longitude = "-117.42908000",
+            TimeZoneId = "America/Los_Angeles",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 54, StateName = "Washington", CityId = 352, Name = "Spokane" },

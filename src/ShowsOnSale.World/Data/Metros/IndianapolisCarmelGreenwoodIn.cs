@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class IndianapolisCarmelGreenwoodIn
+    internal static class IndianapolisCarmelGreenwoodIn
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-indianapolis-carmel-muncie-in",
             Latitude = "39.76838000",
             Longitude = "-86.15804000",
+            TimeZoneId = "America/Indiana/Indianapolis",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 17, StateName = "Indiana", CityId = 184, Name = "Indianapolis" },

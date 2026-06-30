@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class DurhamChapelHillNc
+    internal static class DurhamChapelHillNc
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-raleigh-durham-cary-nc",
             Latitude = "35.99403000",
             Longitude = "-78.89862000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 36, StateName = "North Carolina", CityId = 133, Name = "Durham" },

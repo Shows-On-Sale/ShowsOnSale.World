@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class ProvoOremLehiUt
+    internal static class ProvoOremLehiUt
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-salt-lake-city-provo-orem-ut-id",
             Latitude = "40.23384000",
             Longitude = "-111.65853000",
+            TimeZoneId = "America/Denver",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 51, StateName = "Utah", CityId = 137, Name = "Provo" },

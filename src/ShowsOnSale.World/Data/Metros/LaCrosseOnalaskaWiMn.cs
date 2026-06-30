@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class LaCrosseOnalaskaWiMn
+    internal static class LaCrosseOnalaskaWiMn
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-la-crosse-onalaska-sparta-wi",
             Latitude = "43.80136000",
             Longitude = "-91.23958000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 56, StateName = "Wisconsin", CityId = 218, Name = "La Crosse" },

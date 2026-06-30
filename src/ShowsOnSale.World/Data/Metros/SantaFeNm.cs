@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class SantaFeNm
+    internal static class SantaFeNm
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-albuquerque-santa-fe-los-alamos-nm",
             Latitude = "35.68698000",
             Longitude = "-105.93780000",
+            TimeZoneId = "America/Denver",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 34, StateName = "New Mexico", CityId = 146, Name = "Santa Fe" }

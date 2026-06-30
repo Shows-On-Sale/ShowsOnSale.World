@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Countries
 {
-    public static class Dominica
+    internal static class Dominica
     {
         public static Country Data { get; } = new()
         {

@@ -62,9 +62,27 @@ namespace ShowsOnSale.World.Models
         /// <summary>Approximate centroid longitude, as a string (matches the rest of the dataset).</summary>
         public string? Longitude { get; init; }
 
+        /// <summary>
+        /// The IANA time zone id for the metro's local time (e.g. <c>"America/New_York"</c>),
+        /// resolved from the centroid (<see cref="Latitude"/>/<see cref="Longitude"/>) at data-generation
+        /// time. This is the metro's single local zone — unlike <see cref="WorldData.GetMetroTimezones"/>,
+        /// which returns the country-level candidate set. Pass this to
+        /// <see cref="System.TimeZoneInfo.FindSystemTimeZoneById(string)"/> (cross-platform on modern .NET)
+        /// or resolve it via <see cref="WorldData.GetMetroTimezone(MetroArea)"/>. Null only if the centroid
+        /// could not be resolved.
+        /// </summary>
+        public string? TimeZoneId { get; init; }
+
         /// <summary>The cities, counties, and/or states that make up this metro area.</summary>
         public required List<MetroMember> Members { get; init; }
 
+        /// <summary>The <see cref="Latitude"/> parsed to a number (invariant culture), or null if absent/unparseable.</summary>
+        public double? LatitudeValue => Models.GeoCoordinate.Parse(Latitude);
+
+        /// <summary>The <see cref="Longitude"/> parsed to a number (invariant culture), or null if absent/unparseable.</summary>
+        public double? LongitudeValue => Models.GeoCoordinate.Parse(Longitude);
+
+        /// <inheritdoc/>
         public override string ToString()
         {
             return $"{Name} ({Id})";

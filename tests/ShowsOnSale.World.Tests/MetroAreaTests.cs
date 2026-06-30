@@ -273,7 +273,7 @@ public class MetroAreaTests
     }
 
     [Fact]
-    public void GetMetroTimezones_AggregatesAcrossCountries_Distinct()
+    public void GetMetroTimezones_ReturnsDistinctZones()
     {
         var basel = WorldData.GetMetroAreaById("ch-basel")!;
 
@@ -284,6 +284,70 @@ public class MetroAreaTests
         Assert.Equal(
             timezones.Select(t => t.ZoneName).Distinct().Count(),
             timezones.Count);
+    }
+
+    [Theory]
+    [InlineData("us-nyc", "America/New_York")]
+    [InlineData("us-la", "America/Los_Angeles")]
+    [InlineData("us-chi", "America/Chicago")]
+    [InlineData("us-den", "America/Denver")]
+    [InlineData("us-phx", "America/Phoenix")]   // Arizona: no DST, distinct zone
+    [InlineData("us-sea", "America/Los_Angeles")]
+    [InlineData("fr-paris", "Europe/Paris")]
+    [InlineData("jp-tokyo", "Asia/Tokyo")]
+    public void GetMetroTimezone_ResolvesLocalZone(string id, string expectedZone)
+    {
+        var metro = WorldData.GetMetroAreaById(id)!;
+
+        Assert.Equal(expectedZone, metro.TimeZoneId);
+
+        var tz = WorldData.GetMetroTimezone(metro);
+        Assert.NotNull(tz);
+        Assert.Equal(expectedZone, tz.ZoneName);
+    }
+
+    [Fact]
+    public void GetMetroTimezones_ForUsMetro_ReturnsSingleLocalZone_NotWholeCountry()
+    {
+        // Regression for the bug where a US metro returned all ~29 US country zones
+        // instead of its one local zone.
+        var nyc = WorldData.GetMetroAreaById("us-nyc")!;
+
+        var zones = WorldData.GetMetroTimezones(nyc).ToList();
+
+        Assert.Single(zones);
+        Assert.Equal("America/New_York", zones[0].ZoneName);
+    }
+
+    [Fact]
+    public void EveryMetro_HasResolvedTimeZoneId()
+    {
+        var missing = WorldData.MetroAreas
+            .Where(m => string.IsNullOrEmpty(m.TimeZoneId))
+            .Select(m => m.Id)
+            .ToList();
+
+        Assert.True(missing.Count == 0, "Metros missing TimeZoneId: " + string.Join(", ", missing));
+    }
+
+    [Fact]
+    public void MetroTimeZoneId_IsResolvableBySystemTimeZoneInfo()
+    {
+        // The IANA id must round-trip through the BCL (cross-platform on modern .NET).
+        var nyc = WorldData.GetMetroAreaById("us-nyc")!;
+
+        var info = System.TimeZoneInfo.FindSystemTimeZoneById(nyc.TimeZoneId!);
+
+        Assert.NotNull(info);
+    }
+
+    [Fact]
+    public void MetroArea_CoordinateAccessors_ParseStrings()
+    {
+        var nyc = WorldData.GetMetroAreaById("us-nyc")!;
+
+        Assert.Equal(40.71427, nyc.LatitudeValue!.Value, 5);
+        Assert.Equal(-74.00597, nyc.LongitudeValue!.Value, 5);
     }
 
     [Theory]

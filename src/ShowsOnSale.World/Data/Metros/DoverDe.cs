@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class DoverDe
+    internal static class DoverDe
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-philadelphia-reading-camden-pa-nj-de-md",
             Latitude = "39.15817000",
             Longitude = "-75.52437000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 9, StateName = "Delaware", CityId = 13, Name = "Dover" }

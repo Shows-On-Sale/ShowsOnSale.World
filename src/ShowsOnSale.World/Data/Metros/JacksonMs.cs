@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class JacksonMs
+    internal static class JacksonMs
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-jackson-vicksburg-brookhaven-ms",
             Latitude = "32.29876000",
             Longitude = "-90.18481000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 27, StateName = "Mississippi", CityId = 119, Name = "Jackson" },

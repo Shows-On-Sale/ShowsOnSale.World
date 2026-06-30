@@ -1,9 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-      <TargetFramework>net10.0</TargetFramework>
+      <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
       <ImplicitUsings>enable</ImplicitUsings>
       <Nullable>enable</Nullable>
+      <GenerateDocumentationFile>true</GenerateDocumentationFile>
       <PackageId>ShowsOnSale.World</PackageId>
       <Version>1.0.0</Version>
       <Authors>Kevin Griffin</Authors>
@@ -11,8 +12,8 @@
       <Description>A comprehensive C# model and static data representation of the world's geographical hierarchy, including countries, states/regions, cities, and additional metadata such as timezones, currencies, and ISO codes.</Description>
       <PackageLicenseExpression>MIT</PackageLicenseExpression>
       <PackageReadmeFile>README.md</PackageReadmeFile>
-      <PackageTags>geography;world;countries;states;cities;timezone;currency</PackageTags>
-      <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+      <PackageTags>geography;world;countries;states;cities;metro;timezone;currency</PackageTags>
+      <PackageReleaseNotes>2.0: Adds US Metro Areas (CBSA/MSA) and Combined Statistical Areas (CSA), per-metro IANA TimeZoneId resolved from the centroid, typed Latitude/LongitudeValue accessors, and full XML documentation. Now multi-targets net8.0/net9.0/net10.0. See README/CHANGELOG for the API and migration notes.</PackageReleaseNotes>
       <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
       <IncludeSymbols>true</IncludeSymbols>
       <SymbolPackageFormat>snupkg</SymbolPackageFormat>
@@ -23,8 +24,9 @@
     </PropertyGroup>
   
     <ItemGroup>
-      <None Include="README.md" Pack="true" PackagePath="/" />
-      <None Include="LICENSE" Pack="true" PackagePath="/" />
+      <None Include="..\..\README.md" Pack="true" PackagePath="/" />
+      <None Include="..\..\CHANGELOG.md" Pack="true" PackagePath="/" />
+      <None Include="..\..\LICENSE" Pack="true" PackagePath="/" />
     </ItemGroup>
   
   </Project>

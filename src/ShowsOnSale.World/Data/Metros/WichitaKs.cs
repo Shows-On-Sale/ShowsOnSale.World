@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class WichitaKs
+    internal static class WichitaKs
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-wichita-arkansas-city-winfield-ks",
             Latitude = "37.69224000",
             Longitude = "-97.33754000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 19, StateName = "Kansas", CityId = 313, Name = "Wichita" },

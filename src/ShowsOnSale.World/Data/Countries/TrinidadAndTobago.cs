@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Countries
 {
-    public static class TrinidadAndTobago
+    internal static class TrinidadAndTobago
     {
         public static Country Data { get; } = new()
         {

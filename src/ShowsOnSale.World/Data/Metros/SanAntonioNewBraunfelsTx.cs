@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class SanAntonioNewBraunfelsTx
+    internal static class SanAntonioNewBraunfelsTx
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-san-antonio-new-braunfels-kerrville-tx",
             Latitude = "29.42412000",
             Longitude = "-98.49363000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 48, StateName = "Texas", CityId = 1015, Name = "San Antonio" },

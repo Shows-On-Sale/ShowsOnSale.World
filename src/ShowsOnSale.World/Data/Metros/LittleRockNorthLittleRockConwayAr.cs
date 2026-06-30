@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class LittleRockNorthLittleRockConwayAr
+    internal static class LittleRockNorthLittleRockConwayAr
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-little-rock-north-little-rock-ar",
             Latitude = "34.74648000",
             Longitude = "-92.28959000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 5, StateName = "Arkansas", CityId = 161, Name = "Little Rock" },

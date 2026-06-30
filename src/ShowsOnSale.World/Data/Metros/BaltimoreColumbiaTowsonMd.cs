@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class BaltimoreColumbiaTowsonMd
+    internal static class BaltimoreColumbiaTowsonMd
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-washington-baltimore-arlington-dc-md-va-wv-pa",
             Latitude = "39.29088160",
             Longitude = "-76.61075900",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 23, StateName = "Maryland", CityId = 19, Name = "Baltimore" },

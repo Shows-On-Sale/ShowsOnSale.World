@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class FargoNdMn
+    internal static class FargoNdMn
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-fargo-wahpeton-nd-mn",
             Latitude = "46.87719000",
             Longitude = "-96.78980000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 37, StateName = "North Dakota", CityId = 38, Name = "Fargo" },

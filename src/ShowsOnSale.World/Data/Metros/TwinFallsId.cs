@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class TwinFallsId
+    internal static class TwinFallsId
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "42.56297000",
             Longitude = "-114.46087000",
+            TimeZoneId = "America/Boise",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 15, StateName = "Idaho", CityId = 132, Name = "Twin Falls" },

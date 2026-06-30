@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class LawrenceKs
+    internal static class LawrenceKs
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-kansas-city-overland-park-kansas-city-mo-ks",
             Latitude = "38.97167000",
             Longitude = "-95.23525000",
+            TimeZoneId = "America/Chicago",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 19, StateName = "Kansas", CityId = 163, Name = "Lawrence" }

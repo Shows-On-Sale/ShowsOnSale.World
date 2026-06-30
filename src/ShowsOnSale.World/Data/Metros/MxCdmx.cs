@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class MxCdmx
+    internal static class MxCdmx
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "19.43261000",
             Longitude = "-99.13321000",
+            TimeZoneId = "America/Mexico_City",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "MX", StateId = 7, StateName = "Ciudad de México", CityId = 16, Name = "Mexico City" },

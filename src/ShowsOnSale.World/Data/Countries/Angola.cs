@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Countries
 {
-    public static class Angola
+    internal static class Angola
     {
         public static Country Data { get; } = new()
         {

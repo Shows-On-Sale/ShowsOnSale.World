@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class FlagstaffAz
+    internal static class FlagstaffAz
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "35.19807000",
             Longitude = "-111.65127000",
+            TimeZoneId = "America/Phoenix",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 4, StateName = "Arizona", CityId = 68, Name = "Flagstaff" }

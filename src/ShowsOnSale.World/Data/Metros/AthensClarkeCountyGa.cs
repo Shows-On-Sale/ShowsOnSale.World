@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class AthensClarkeCountyGa
+    internal static class AthensClarkeCountyGa
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-atlanta-athens-clarke-county-sandy-springs-ga-al",
             Latitude = "33.96095000",
             Longitude = "-83.37794000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 12, StateName = "Georgia", CityId = 16, Name = "Athens-Clarke County" }

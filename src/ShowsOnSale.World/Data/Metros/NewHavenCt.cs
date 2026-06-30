@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class NewHavenCt
+    internal static class NewHavenCt
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-new-haven-hartford-waterbury-ct",
             Latitude = "41.30815000",
             Longitude = "-72.92816000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 8, StateName = "Connecticut", CityId = 90, Name = "New Haven" },

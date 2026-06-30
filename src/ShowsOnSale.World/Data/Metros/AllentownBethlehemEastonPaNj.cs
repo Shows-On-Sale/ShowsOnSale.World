@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class AllentownBethlehemEastonPaNj
+    internal static class AllentownBethlehemEastonPaNj
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-allentown-bethlehem-east-stroudsburg-pa-nj",
             Latitude = "40.60843000",
             Longitude = "-75.49018000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 42, StateName = "Pennsylvania", CityId = 11, Name = "Allentown" },

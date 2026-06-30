@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class KahuluiWailukuHi
+    internal static class KahuluiWailukuHi
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "20.88953000",
             Longitude = "-156.47432000",
+            TimeZoneId = "Pacific/Honolulu",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 14, StateName = "Hawaii", CityId = 44, Name = "Kahului" },

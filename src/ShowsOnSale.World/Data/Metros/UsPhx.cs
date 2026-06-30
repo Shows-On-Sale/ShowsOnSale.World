@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class UsPhx
+    internal static class UsPhx
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-phoenix-mesa-az",
             Latitude = "33.44838000",
             Longitude = "-112.07404000",
+            TimeZoneId = "America/Phoenix",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 4, StateName = "Arizona", CityId = 142, Name = "Phoenix" },

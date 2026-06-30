@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class RapidCitySd
+    internal static class RapidCitySd
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-rapid-city-spearfish-sd",
             Latitude = "44.08054000",
             Longitude = "-103.23101000",
+            TimeZoneId = "America/Denver",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 46, StateName = "South Dakota", CityId = 131, Name = "Rapid City" },

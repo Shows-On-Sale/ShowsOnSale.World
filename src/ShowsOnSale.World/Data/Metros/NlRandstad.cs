@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class NlRandstad
+    internal static class NlRandstad
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = null,
             Latitude = "52.13263000",
             Longitude = "5.29127000",
+            TimeZoneId = "Europe/Amsterdam",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "NL", StateId = 8, StateName = "North Holland", CityId = 16, Name = "Amsterdam" },

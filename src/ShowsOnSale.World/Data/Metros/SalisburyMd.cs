@@ -7,7 +7,7 @@ using ShowsOnSale.World.Models;
 
 namespace ShowsOnSale.World.Data.Metros
 {
-    public static class SalisburyMd
+    internal static class SalisburyMd
     {
         public static MetroArea Data { get; } = new()
         {
@@ -22,6 +22,7 @@ namespace ShowsOnSale.World.Data.Metros
             CsaId = "csa-salisbury-ocean-pines-md",
             Latitude = "38.36067000",
             Longitude = "-75.59937000",
+            TimeZoneId = "America/New_York",
             Members = new()
             {
                 new() { Type = MetroMemberType.City, CountryIso2 = "US", StateId = 23, StateName = "Maryland", CityId = 304, Name = "Salisbury" },
