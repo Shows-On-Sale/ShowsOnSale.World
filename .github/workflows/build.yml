@@ -27,4 +27,6 @@ jobs:
       run: dotnet build src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration Release --no-restore
 
     - name: Test
-      run: dotnet test src/ShowsOnSale.World/ShowsOnSale.World.csproj --configuration Release --no-restore
+      run: |
+        dotnet test src/ShowsOnSale.World.Tests/ShowsOnSale.World.Tests.csproj --configuration Release
+        dotnet test tests/ShowsOnSale.World.Tests/ShowsOnSale.World.Tests.csproj --configuration Release
