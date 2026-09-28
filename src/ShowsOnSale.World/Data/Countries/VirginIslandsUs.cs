@@ -64,7 +64,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Saint Croix",
-                    StateCode = "",
+                    StateCode = "SC",
+                    Iso3166_2 = "VI-SC",
+                    TimeZoneId = "America/St_Thomas",
                     Latitude = "17.72912400",
                     Longitude = "-64.75891560",
                     Type = "district",
@@ -86,7 +88,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Saint John",
-                    StateCode = "",
+                    StateCode = "SJ",
+                    Iso3166_2 = "VI-SJ",
+                    TimeZoneId = "America/St_Thomas",
                     Latitude = "18.33560130",
                     Longitude = "-64.75504060",
                     Type = "district",
@@ -103,7 +107,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Saint Thomas",
-                    StateCode = "",
+                    StateCode = "ST",
+                    Iso3166_2 = "VI-ST",
+                    TimeZoneId = "America/St_Thomas",
                     Latitude = "18.34290810",
                     Longitude = "-64.91889970",
                     Type = "district",

@@ -65,7 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Saint Anthony",
-                    StateCode = "",
+                    StateCode = "03",
+                    Iso3166_2 = "MS-03",
+                    TimeZoneId = "America/Montserrat",
                     Latitude = "16.70562450",
                     Longitude = "-62.18553040",
                     Type = "parish",
@@ -78,7 +80,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Saint Georges",
-                    StateCode = "",
+                    StateCode = "02",
+                    Iso3166_2 = "MS-02",
+                    TimeZoneId = "America/Montserrat",
                     Latitude = "16.74847550",
                     Longitude = "-62.19074720",
                     Type = "parish",
@@ -91,7 +95,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Saint Peter",
-                    StateCode = "",
+                    StateCode = "01",
+                    Iso3166_2 = "MS-01",
+                    TimeZoneId = "America/Montserrat",
                     Latitude = "16.77659810",
                     Longitude = "-62.20007860",
                     Type = "parish",

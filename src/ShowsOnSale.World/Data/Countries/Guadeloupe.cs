@@ -65,7 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Basse-Terre",
-                    StateCode = "",
+                    StateCode = "01",
+                    Iso3166_2 = "GP-01",
+                    TimeZoneId = "America/Guadeloupe",
                     Latitude = "16.00007780",
                     Longitude = "-61.73333730",
                     Type = "district",
@@ -96,7 +98,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Pointe-à-Pitre",
-                    StateCode = "",
+                    StateCode = "02",
+                    Iso3166_2 = "GP-02",
+                    TimeZoneId = "America/Guadeloupe",
                     Latitude = "16.24086360",
                     Longitude = "-61.53340770",
                     Type = "district",

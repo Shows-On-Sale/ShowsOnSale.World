@@ -65,7 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Brčko",
-                    StateCode = "",
+                    StateCode = "BRC",
+                    Iso3166_2 = "BA-BRC",
+                    TimeZoneId = "Europe/Sarajevo",
                     Latitude = "44.87712220",
                     Longitude = "18.80950220",
                     Type = "district",
@@ -80,7 +82,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Federation of Bosnia and Herzegovina",
-                    StateCode = "",
+                    StateCode = "BIH",
+                    Iso3166_2 = "BA-BIH",
+                    TimeZoneId = "Europe/Sarajevo",
                     Latitude = "43.91674100",
                     Longitude = "17.54820720",
                     Type = "entity",
@@ -248,7 +252,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Republika Srpska",
-                    StateCode = "",
+                    StateCode = "SRP",
+                    Iso3166_2 = "BA-SRP",
+                    TimeZoneId = "Europe/Sarajevo",
                     Latitude = "44.66961960",
                     Longitude = "17.36590250",
                     Type = "entity",

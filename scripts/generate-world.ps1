@@ -1,6 +1,7 @@
 # Script to generate static world data from countries-states-cities database
 param(
     [switch]$ForceUpdate,
+    [switch]$SkipSubmoduleUpdate,
     [switch]$Debug
 )
 
@@ -158,6 +159,8 @@ namespace ShowsOnSale.World
     # Process each country
     $totalCountries = [int]$jsonData.Count
     $currentCountry = [int]0
+    $totalStateCount = [int]0
+    $emptyStateCodeCount = [int]0
     
     foreach ($country in $jsonData) {
         $currentCountry++
@@ -295,13 +298,22 @@ namespace ShowsOnSale.World.Data.Countries
             Write-Host "  Processing $($country.name) | state $currentState of $totalStates : $($state.name)"
             
             $stateName = Get-EscapedString $state.name
+
+            # Upstream renamed state_code -> iso2 (and added iso3166_2); accept either.
+            $stateIso2 = $state.iso2 ?? $state.state_code ?? ""
+            $totalStateCount++
+            if ([string]::IsNullOrWhiteSpace($stateIso2)) {
+                $emptyStateCodeCount++
+            }
             $stateCode = @"
 
                 new()
                 {
                     Id = $($currentState),
                     Name = "$stateName",
-                    StateCode = "$($state.state_code -eq $null ? "" : $state.state_code)",
+                    StateCode = "$stateIso2",
+                    Iso3166_2 = "$($state.iso3166_2 ?? "")",
+                    TimeZoneId = "$($state.timezone ?? "")",
                     Latitude = "$($state.latitude -eq $null ? "" : $state.latitude)",
                     Longitude = "$($state.longitude -eq $null ? "" : $state.longitude)",
                     Type = "$($state.type -eq $null ? "" : $state.type)",
@@ -416,12 +428,23 @@ namespace ShowsOnSale.World.Data.Countries
     
     Add-Content $mainOutputPath $finalCode -Encoding UTF8
     Write-Host "Generated C# code at $mainOutputPath and country files in $outputDir"
+
+    # Guard against upstream schema drift silently blanking state codes (as happened when
+    # upstream renamed state_code -> iso2). A handful of states legitimately have no code.
+    Write-Host "States with an empty code: $emptyStateCodeCount of $totalStateCount"
+    if ($totalStateCount -gt 0 -and ($emptyStateCodeCount / $totalStateCount) -gt 0.1) {
+        throw "$emptyStateCodeCount of $totalStateCount states have an empty state code. The upstream JSON schema has likely changed; update generate-world.ps1."
+    }
 }
 
 # Main script execution
 try {
     # Update submodules if needed
-    Update-Submodules
+    if ($SkipSubmoduleUpdate) {
+        Write-Host "Skipping submodule update; using the currently checked-out data."
+    } else {
+        Update-Submodules
+    }
     
     # Generate world data
     Generate-WorldData

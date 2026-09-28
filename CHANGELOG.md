@@ -3,6 +3,22 @@
 All notable changes to **ShowsOnSale.World** are documented here. This project follows
 [Semantic Versioning](https://semver.org/).
 
+## [2.0.2]
+
+### Fixed
+
+- **`State.StateCode` is populated again, so `GetStateByCode` works** (SOS-2429). Upstream renamed the
+  `state_code` field to `iso2`, and the January 2026 data update blanked `StateCode` for every
+  state in every country (so `GetStateByCode("US", "NY")` returned null). The generator now
+  reads `iso2`, falls back to `state_code`, and fails if more than 10% of state codes are empty.
+
+### Added
+
+- `State.Iso3166_2` (e.g. `"US-NY"`) and `State.TimeZoneId` (e.g. `"America/New_York"`), from
+  the upstream dataset.
+- `generate-world.ps1 -SkipSubmoduleUpdate` regenerates from the currently checked-out data
+  instead of pulling the latest upstream.
+
 ## [2.0.1]
 
 Hardening release on top of 2.0.0 (the metro/CSA overlay). Addresses the 2.0.x defect review

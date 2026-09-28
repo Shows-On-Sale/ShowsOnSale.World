@@ -3,9 +3,7 @@
 public class WorldDataMethodsTests
 {
     
-    // SOS-2429: committed world data has blank StateCode for US (and other major countries) because it
-    // was generated from a stale submodule. Re-enable after the world-data regen lands.
-    [Theory(Skip = "SOS-2429: US StateCode is blank in stale committed world data; re-enable after data regen")]
+    [Theory]
     [InlineData("US", "New York")]
     [InlineData("us", "new york")]
     [InlineData("Us", "NEW YORK")]
@@ -41,9 +39,7 @@ public class WorldDataMethodsTests
         Assert.Null(result);
     }
     
-    // SOS-2429: committed world data has blank StateCode for US (and other major countries) because it
-    // was generated from a stale submodule. Re-enable after the world-data regen lands.
-    [Theory(Skip = "SOS-2429: US StateCode is blank in stale committed world data; re-enable after data regen")]
+    [Theory]
     [InlineData("US", "NY")]
     [InlineData("us", "ny")]
     [InlineData("Us", "Ny")]

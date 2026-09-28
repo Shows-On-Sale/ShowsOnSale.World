@@ -65,7 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Capital",
-                    StateCode = "",
+                    StateCode = "13",
+                    Iso3166_2 = "BH-13",
+                    TimeZoneId = "Asia/Bahrain",
                     Latitude = "26.42432330",
                     Longitude = "50.47472510",
                     Type = "governorate",
@@ -81,7 +83,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Muharraq",
-                    StateCode = "",
+                    StateCode = "15",
+                    Iso3166_2 = "BH-15",
+                    TimeZoneId = "Asia/Bahrain",
                     Latitude = "26.24659460",
                     Longitude = "50.61641270",
                     Type = "governorate",
@@ -96,7 +100,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Northern",
-                    StateCode = "",
+                    StateCode = "17",
+                    Iso3166_2 = "BH-17",
+                    TimeZoneId = "Asia/Bahrain",
                     Latitude = "26.27784770",
                     Longitude = "50.41811230",
                     Type = "governorate",
@@ -110,7 +116,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Southern",
-                    StateCode = "",
+                    StateCode = "14",
+                    Iso3166_2 = "BH-14",
+                    TimeZoneId = "Asia/Bahrain",
                     Latitude = "25.84000690",
                     Longitude = "50.59026930",
                     Type = "governorate",

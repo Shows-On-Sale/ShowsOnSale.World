@@ -60,9 +60,9 @@ Two quirks in the underlying countries-states-cities dataset shaped this:
    `Croydon` carry `Id = 3`. A city must therefore be addressed by **`(StateId, CityId)`**
    together.
 
-2. **`State.StateCode` is empty for some countries (notably the US).** `New York` and
-   `New Jersey` both have `StateCode = ""`. So `State.Id` (which *is* globally unique and
-   populated) is used as the reliable foreign key, not the state code.
+2. **`State.StateCode` is not a reliable key.** A dataset update once left it empty for
+   every state (fixed in 2.0.2), and a few states still have no code. So `State.Id`
+   (always populated) is used as the foreign key, not the state code.
 
 Denormalized `Name` / `StateName` are carried on each member so a metro remains readable
 and debuggable even if an upstream id shifts during regeneration.
@@ -183,7 +183,7 @@ design dimension.
 
 | Metro | Country | Demonstrates |
 |---|---|---|
-| `us-nyc` (New York) | US | Multi-**state** membership (NY + NJ); empty-`StateCode` / non-global-`CityId` handling |
+| `us-nyc` (New York) | US | Multi-**state** membership (NY + NJ); `State.Id` keying / non-global-`CityId` handling |
 | `us-sf` (San Francisco Bay Area) | US | Disambiguating a reused city name (two "Oakland"s) by `(stateId, cityId)` |
 | `us-chi` (Chicago) | US | **Tri-state** membership (IL + IN + WI) |
 | `us-dc` (Washington) | US | Cross-jurisdiction (DC + VA + MD) |

@@ -49,9 +49,6 @@ foreach (var state in usa.States)
 }
 ```
 
-> **Note on state codes:** `State.StateCode` is empty for some countries (notably the US), so use
-> `GetStateByName` rather than `GetStateByCode` for those: `WorldData.GetStateByName("US", "New York")`.
-
 ## Metro Areas
 
 A **metro area** groups one or more cities, counties, and/or states into a single named region. US
@@ -130,7 +127,7 @@ WorldData.Timezones                             // distinct timezones across all
 
 WorldData.GetCountryByCode("US")                // ISO2 or ISO3
 WorldData.GetCountryByName("United States")      // name or translation
-WorldData.GetStateByCode("US", "NY")            // by country + state code (empty for some countries)
+WorldData.GetStateByCode("US", "NY")            // by country + state code
 WorldData.GetStateByName("US", "New York")      // by country + state name
 
 WorldData.GetMetroAreaById("us-nyc")
@@ -186,7 +183,9 @@ public class State
 {
     public int Id { get; set; }                    // unique within a country only
     public string Name { get; set; }
-    public string StateCode { get; set; }          // may be empty (e.g. US)
+    public string StateCode { get; set; }          // e.g. "NY"; empty for a few states
+    public string Iso3166_2 { get; set; }          // e.g. "US-NY"
+    public string TimeZoneId { get; set; }         // e.g. "America/New_York"
     public string Latitude { get; set; }
     public string Longitude { get; set; }
     public double? LatitudeValue { get; }

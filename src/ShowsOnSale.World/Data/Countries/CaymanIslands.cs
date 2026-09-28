@@ -65,7 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Cayman Brac",
-                    StateCode = "",
+                    StateCode = "02",
+                    Iso3166_2 = "KY-02",
+                    TimeZoneId = "America/Cayman",
                     Latitude = "19.71988620",
                     Longitude = "-79.79314000",
                     Type = "",
@@ -79,7 +81,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Grand Cayman",
-                    StateCode = "",
+                    StateCode = "01",
+                    Iso3166_2 = "KY-01",
+                    TimeZoneId = "America/Cayman",
                     Latitude = "19.32984710",
                     Longitude = "-81.17122160",
                     Type = "",
@@ -97,7 +101,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Little Cayman",
-                    StateCode = "",
+                    StateCode = "03",
+                    Iso3166_2 = "KY-03",
+                    TimeZoneId = "America/Cayman",
                     Latitude = "19.68533460",
                     Longitude = "-80.04778240",
                     Type = "",

@@ -65,7 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Anjouan",
-                    StateCode = "",
+                    StateCode = "A",
+                    Iso3166_2 = "KM-A",
+                    TimeZoneId = "Indian/Comoro",
                     Latitude = "-12.22656810",
                     Longitude = "44.41070490",
                     Type = "island",
@@ -119,7 +121,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Grande Comore",
-                    StateCode = "",
+                    StateCode = "G",
+                    Iso3166_2 = "KM-G",
+                    TimeZoneId = "Indian/Comoro",
                     Latitude = "-11.65256880",
                     Longitude = "43.33097060",
                     Type = "island",
@@ -172,7 +176,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Mohéli",
-                    StateCode = "",
+                    StateCode = "M",
+                    Iso3166_2 = "KM-M",
+                    TimeZoneId = "Indian/Comoro",
                     Latitude = "-12.32045730",
                     Longitude = "43.72043130",
                     Type = "island",

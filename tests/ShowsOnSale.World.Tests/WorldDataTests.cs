@@ -71,7 +71,6 @@ public class WorldDataTests
     [Fact]
     public void StateAndCity_CoordinateAccessors_ParseStrings()
     {
-        // US states carry an empty StateCode in this dataset, so resolve by name.
         var ny = WorldData.GetStateByName("US", "New York")!;
         Assert.NotNull(ny.LatitudeValue);
         Assert.NotNull(ny.LongitudeValue);
@@ -79,5 +78,37 @@ public class WorldDataTests
         var city = ny.Cities.First();
         Assert.NotNull(city.LatitudeValue);
         Assert.NotNull(city.LongitudeValue);
+    }
+
+    [Theory]
+    [InlineData("US", "NY", "New York")]
+    [InlineData("USA", "ca", "California")]
+    [InlineData("CA", "ON", "Ontario")]
+    [InlineData("AU", "NSW", "New South Wales")]
+    public void GetStateByCode_ReturnsState(string countryCode, string stateCode, string expectedName)
+    {
+        var state = WorldData.GetStateByCode(countryCode, stateCode);
+
+        Assert.NotNull(state);
+        Assert.Equal(expectedName, state.Name);
+    }
+
+    [Fact]
+    public void State_ExposesIso3166_2AndTimeZone()
+    {
+        var ny = WorldData.GetStateByCode("US", "NY")!;
+
+        Assert.Equal("US-NY", ny.Iso3166_2);
+        Assert.Equal("America/New_York", ny.TimeZoneId);
+    }
+
+    [Fact]
+    public void States_AlmostAllHaveStateCode()
+    {
+        // Regression guard: an upstream schema rename once blanked every StateCode.
+        var states = WorldData.All.SelectMany(c => c.States).ToList();
+        var empty = states.Count(s => string.IsNullOrWhiteSpace(s.StateCode));
+
+        Assert.True(empty < states.Count * 0.1, $"{empty} of {states.Count} states have an empty StateCode.");
     }
 }

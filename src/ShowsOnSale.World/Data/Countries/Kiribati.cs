@@ -67,7 +67,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Gilbert",
-                    StateCode = "",
+                    StateCode = "G",
+                    Iso3166_2 = "KI-G",
+                    TimeZoneId = "Pacific/Enderbury",
                     Latitude = "-1.23945560",
                     Longitude = "175.29694550",
                     Type = "island",
@@ -109,7 +111,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Line",
-                    StateCode = "",
+                    StateCode = "L",
+                    Iso3166_2 = "KI-L",
+                    TimeZoneId = "Pacific/Enderbury",
                     Latitude = "1.35897790",
                     Longitude = "172.93112020",
                     Type = "island",
@@ -129,7 +133,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Phoenix",
-                    StateCode = "",
+                    StateCode = "P",
+                    Iso3166_2 = "KI-P",
+                    TimeZoneId = "Pacific/Enderbury",
                     Latitude = "-3.72134440",
                     Longitude = "-170.71170520",
                     Type = "island",

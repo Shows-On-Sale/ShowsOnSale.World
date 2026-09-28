@@ -65,7 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Alo",
-                    StateCode = "",
+                    StateCode = "AL",
+                    Iso3166_2 = "",
+                    TimeZoneId = "Pacific/Wallis",
                     Latitude = "-14.30938056",
                     Longitude = "-178.12355000",
                     Type = "administrative precinct",
@@ -79,7 +81,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Sigave",
-                    StateCode = "",
+                    StateCode = "SG",
+                    Iso3166_2 = "",
+                    TimeZoneId = "Pacific/Wallis",
                     Latitude = "-14.29610000",
                     Longitude = "-178.15850000",
                     Type = "administrative precinct",
@@ -93,7 +97,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Uvea",
-                    StateCode = "",
+                    StateCode = "UV",
+                    Iso3166_2 = "",
+                    TimeZoneId = "Pacific/Wallis",
                     Latitude = "-13.28333333",
                     Longitude = "-176.20000000",
                     Type = "administrative precinct",
