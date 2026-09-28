@@ -3,7 +3,7 @@
 All notable changes to **ShowsOnSale.World** are documented here. This project follows
 [Semantic Versioning](https://semver.org/).
 
-## [2.0.2]
+## [2.0.3]
 
 ### Fixed
 

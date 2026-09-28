@@ -61,7 +61,7 @@ Two quirks in the underlying countries-states-cities dataset shaped this:
    together.
 
 2. **`State.StateCode` is not a reliable key.** A dataset update once left it empty for
-   every state (fixed in 2.0.2), and a few states still have no code. So `State.Id`
+   every state (fixed in 2.0.3), and a few states still have no code. So `State.Id`
    (always populated) is used as the foreign key, not the state code.
 
 Denormalized `Name` / `StateName` are carried on each member so a metro remains readable
