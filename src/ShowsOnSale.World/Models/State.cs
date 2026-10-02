@@ -10,7 +10,7 @@ namespace ShowsOnSale.World.Models
     /// <remarks>
     /// <see cref="Id"/> is unique only <i>within its owning country</i>; many countries reuse the same
     /// numeric ids, so resolve a state together with its country. <see cref="StateCode"/> is empty for
-    /// some countries (notably the US), so prefer <see cref="Id"/> as the foreign key in those cases.
+    /// a small number of states that have no code upstream.
     /// </remarks>
     public class State
     {
@@ -20,8 +20,14 @@ namespace ShowsOnSale.World.Models
         /// <summary>State / region name.</summary>
         public required string Name { get; set; }
 
-        /// <summary>Short subdivision code (e.g. <c>"NY"</c>). May be empty for some countries.</summary>
+        /// <summary>Short subdivision code (e.g. <c>"NY"</c>). Empty for the few states with no code upstream.</summary>
         public required string StateCode { get; set; }
+
+        /// <summary>Full ISO 3166-2 subdivision code including the country prefix (e.g. <c>"US-NY"</c>). May be empty.</summary>
+        public string Iso3166_2 { get; set; } = "";
+
+        /// <summary>IANA time zone of the state as classified upstream (e.g. <c>"America/New_York"</c>). May be empty.</summary>
+        public string TimeZoneId { get; set; } = "";
 
         /// <summary>Latitude in decimal degrees, as a string. See <see cref="LatitudeValue"/> for a parsed value.</summary>
         public required string Latitude { get; set; }

@@ -65,7 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Belait",
-                    StateCode = "",
+                    StateCode = "BE",
+                    Iso3166_2 = "BN-BE",
+                    TimeZoneId = "Asia/Brunei",
                     Latitude = "4.43499380",
                     Longitude = "114.49465240",
                     Type = "district",
@@ -80,7 +82,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Brunei-Muara",
-                    StateCode = "",
+                    StateCode = "BM",
+                    Iso3166_2 = "BN-BM",
+                    TimeZoneId = "Asia/Brunei",
                     Latitude = "4.97520980",
                     Longitude = "114.93676630",
                     Type = "district",
@@ -98,7 +102,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Temburong",
-                    StateCode = "",
+                    StateCode = "TE",
+                    Iso3166_2 = "BN-TE",
+                    TimeZoneId = "Asia/Brunei",
                     Latitude = "4.62918400",
                     Longitude = "115.16344080",
                     Type = "district",
@@ -112,7 +118,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Tutong",
-                    StateCode = "",
+                    StateCode = "TU",
+                    Iso3166_2 = "BN-TU",
+                    TimeZoneId = "Asia/Brunei",
                     Latitude = "4.68268100",
                     Longitude = "114.65627060",
                     Type = "district",

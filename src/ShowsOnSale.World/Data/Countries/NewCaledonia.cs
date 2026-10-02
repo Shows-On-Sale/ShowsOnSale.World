@@ -65,7 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Loyalty Islands Province",
-                    StateCode = "",
+                    StateCode = "03",
+                    Iso3166_2 = "NC-03",
+                    TimeZoneId = "Pacific/Noumea",
                     Latitude = "-20.97296600",
                     Longitude = "167.28842950",
                     Type = "province",
@@ -80,7 +82,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "North Province",
-                    StateCode = "",
+                    StateCode = "02",
+                    Iso3166_2 = "NC-02",
+                    TimeZoneId = "Pacific/Noumea",
                     Latitude = "-20.14725120",
                     Longitude = "164.12375680",
                     Type = "province",
@@ -96,7 +100,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "South Province",
-                    StateCode = "",
+                    StateCode = "01",
+                    Iso3166_2 = "NC-01",
+                    TimeZoneId = "Pacific/Noumea",
                     Latitude = "-22.27584210",
                     Longitude = "166.64179460",
                     Type = "province",

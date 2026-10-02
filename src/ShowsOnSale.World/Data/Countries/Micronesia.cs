@@ -67,7 +67,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Chuuk",
-                    StateCode = "",
+                    StateCode = "TRK",
+                    Iso3166_2 = "FM-TRK",
+                    TimeZoneId = "Pacific/Chuuk",
                     Latitude = "7.43937930",
                     Longitude = "151.85155380",
                     Type = "state",
@@ -123,7 +125,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Kosrae",
-                    StateCode = "",
+                    StateCode = "KSA",
+                    Iso3166_2 = "FM-KSA",
+                    TimeZoneId = "Pacific/Chuuk",
                     Latitude = "5.30956180",
                     Longitude = "162.98148770",
                     Type = "state",
@@ -141,7 +145,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Pohnpei",
-                    StateCode = "",
+                    StateCode = "PNI",
+                    Iso3166_2 = "FM-PNI",
+                    TimeZoneId = "Pacific/Chuuk",
                     Latitude = "6.88704670",
                     Longitude = "158.24061380",
                     Type = "state",
@@ -167,7 +173,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Yap",
-                    StateCode = "",
+                    StateCode = "YAP",
+                    Iso3166_2 = "FM-YAP",
+                    TimeZoneId = "Pacific/Chuuk",
                     Latitude = "9.54626830",
                     Longitude = "138.16515990",
                     Type = "state",

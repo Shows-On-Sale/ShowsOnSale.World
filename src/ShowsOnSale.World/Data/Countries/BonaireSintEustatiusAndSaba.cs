@@ -61,7 +61,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Bonaire",
-                    StateCode = "",
+                    StateCode = "BQ1",
+                    Iso3166_2 = "BQ-BQ1",
+                    TimeZoneId = "America/Curacao",
                     Latitude = "12.20189020",
                     Longitude = "-68.26238220",
                     Type = "special municipality",
@@ -82,7 +84,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Saba",
-                    StateCode = "",
+                    StateCode = "BQ2",
+                    Iso3166_2 = "BQ-BQ2",
+                    TimeZoneId = "America/Curacao",
                     Latitude = "17.63546420",
                     Longitude = "-63.23267630",
                     Type = "special municipality",
@@ -95,7 +99,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Sint Eustatius",
-                    StateCode = "",
+                    StateCode = "BQ3",
+                    Iso3166_2 = "BQ-BQ3",
+                    TimeZoneId = "America/Curacao",
                     Latitude = "17.48903060",
                     Longitude = "-62.97355500",
                     Type = "special municipality",

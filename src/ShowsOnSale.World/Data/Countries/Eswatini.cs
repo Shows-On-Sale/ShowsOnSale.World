@@ -65,7 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Hhohho",
-                    StateCode = "",
+                    StateCode = "HH",
+                    Iso3166_2 = "SZ-HH",
+                    TimeZoneId = "Africa/Mbabane",
                     Latitude = "-26.09880120",
                     Longitude = "31.36308220",
                     Type = "region",
@@ -84,7 +86,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Lubombo",
-                    StateCode = "",
+                    StateCode = "LU",
+                    Iso3166_2 = "SZ-LU",
+                    TimeZoneId = "Africa/Mbabane",
                     Latitude = "-26.55452000",
                     Longitude = "31.86191160",
                     Type = "region",
@@ -105,7 +109,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Manzini",
-                    StateCode = "",
+                    StateCode = "MA",
+                    Iso3166_2 = "SZ-MA",
+                    TimeZoneId = "Africa/Mbabane",
                     Latitude = "-26.49764440",
                     Longitude = "31.37508150",
                     Type = "region",
@@ -128,7 +134,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Shiselweni",
-                    StateCode = "",
+                    StateCode = "SH",
+                    Iso3166_2 = "SZ-SH",
+                    TimeZoneId = "Africa/Mbabane",
                     Latitude = "-27.03602200",
                     Longitude = "31.33212980",
                     Type = "region",

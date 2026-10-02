@@ -65,7 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Fort-de-France",
-                    StateCode = "",
+                    StateCode = "01",
+                    Iso3166_2 = "MQ-01",
+                    TimeZoneId = "America/Martinique",
                     Latitude = "14.60279620",
                     Longitude = "-61.06767240",
                     Type = "district",
@@ -82,7 +84,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "La Trinité",
-                    StateCode = "",
+                    StateCode = "02",
+                    Iso3166_2 = "MQ-02",
+                    TimeZoneId = "America/Martinique",
                     Latitude = "14.75531610",
                     Longitude = "-61.02872260",
                     Type = "district",
@@ -105,7 +109,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Le Marin",
-                    StateCode = "",
+                    StateCode = "03",
+                    Iso3166_2 = "MQ-03",
+                    TimeZoneId = "America/Martinique",
                     Latitude = "14.52518410",
                     Longitude = "-60.96241510",
                     Type = "district",
@@ -130,7 +136,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Saint-Pierre",
-                    StateCode = "",
+                    StateCode = "04",
+                    Iso3166_2 = "MQ-04",
+                    TimeZoneId = "America/Martinique",
                     Latitude = "14.74171830",
                     Longitude = "-61.17639040",
                     Type = "district",

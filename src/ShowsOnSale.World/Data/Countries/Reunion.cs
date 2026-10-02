@@ -65,7 +65,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 1,
                     Name = "Saint-Benoît",
-                    StateCode = "",
+                    StateCode = "01",
+                    Iso3166_2 = "RE-01",
+                    TimeZoneId = "Indian/Reunion",
                     Latitude = "-21.08104330",
                     Longitude = "55.60281270",
                     Type = "district",
@@ -84,7 +86,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 2,
                     Name = "Saint-Denis",
-                    StateCode = "",
+                    StateCode = "02",
+                    Iso3166_2 = "RE-02",
+                    TimeZoneId = "Indian/Reunion",
                     Latitude = "-20.87998890",
                     Longitude = "55.44813700",
                     Type = "district",
@@ -100,7 +104,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 3,
                     Name = "Saint-Paul",
-                    StateCode = "",
+                    StateCode = "03",
+                    Iso3166_2 = "RE-03",
+                    TimeZoneId = "Indian/Reunion",
                     Latitude = "-21.00060990",
                     Longitude = "55.27715850",
                     Type = "district",
@@ -118,7 +124,9 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 4,
                     Name = "Saint-Pierre",
-                    StateCode = "",
+                    StateCode = "04",
+                    Iso3166_2 = "RE-04",
+                    TimeZoneId = "Indian/Reunion",
                     Latitude = "-21.23774370",
                     Longitude = "55.48997640",
                     Type = "district",
