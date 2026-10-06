@@ -26,19 +26,20 @@ public partial class WorldData
     }
     
     /// <summary>
-    /// Gets a country by its name.
+    /// Gets a country by its name, including aliases.
     /// </summary>
-    /// <param name="name">The name of the country.</param>
+    /// <param name="name">The name of the country (English name, translation, or alias).</param>
     /// <returns>The country if found; otherwise, null.</returns>
     public static Models.Country? GetCountryByName(string name)
     {
         if (string.IsNullOrWhiteSpace(name))
             return null;
-            
+
         name = name.Trim();
-        
-        return All.FirstOrDefault(c => 
+
+        return All.FirstOrDefault(c =>
             string.Equals(c.Name, name, StringComparison.OrdinalIgnoreCase) ||
+            c.Aliases.Any(a => string.Equals(a, name, StringComparison.OrdinalIgnoreCase)) ||
             c.Translations.Values.Any(t => string.Equals(t, name, StringComparison.OrdinalIgnoreCase)));
     }    
 

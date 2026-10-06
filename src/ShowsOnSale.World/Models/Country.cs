@@ -65,6 +65,9 @@ namespace ShowsOnSale.World.Models
         /// <summary>Localized country names keyed by language code.</summary>
         public required Dictionary<string, string> Translations { get; set; }
 
+        /// <summary>Alternative English names for the country (e.g., <c>"Türkiye"</c> for Turkey, <c>"Czechia"</c> for Czech Republic). Used for fuzzy matching in lookups.</summary>
+        public List<string> Aliases { get; set; } = new();
+
         /// <summary>Latitude in decimal degrees, as a string. See <see cref="LatitudeValue"/> for a parsed value.</summary>
         public required string Latitude { get; set; }
 
