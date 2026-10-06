@@ -7,13 +7,20 @@ All notable changes to **ShowsOnSale.World** are documented here. This project f
 
 ### Added
 
-- **`Country.Aliases` property** — alternative English names for countries (e.g., `"Turkiye"` for Turkey,
-  `"Czechia"` for Czech Republic). Over 25 common aliases are now supported for international country
-  name variants, including ASCII forms (`Turkiye`), former official names (`Burma`, `Macedonia`,
-  `East Timor`), common abbreviations (`USA`, `DRC`), regional names (`Holland` for Netherlands,
-  `Great Britain` for United Kingdom), and punctuation variants (`St. Lucia` and `St Lucia`).
-- **`WorldData.GetCountryByName()` now resolves aliases** — exact, case-insensitive lookups against
-  country names, translations, and aliases. `GetCountryByName("Czechia")` → `CZ`, `GetCountryByName("Turkiye")` → `TR`.
+- **`Country.Aliases` property** — alternative English names for a country (e.g. `"Turkiye"` for Turkey,
+  `"Czechia"` for Czech Republic). 48 aliases across 30 countries cover ASCII forms of names that are
+  only spelled with diacritics upstream (`Turkiye`, `Cote d'Ivoire`, `Curacao`), former or colloquial
+  names (`Burma`, `Macedonia`, `East Timor`, `Holland`, `Falklands`), abbreviations (`USA`, `DRC`,
+  `DR Congo`, `Lao PDR`), ISO formal names (`Russian Federation`, `Viet Nam`, `Syrian Arab Republic`),
+  `St.`/`St` forms of the `Saint-*` countries (both spellings of each), and the UK constituent
+  nations (`England`, `Scotland`, `Wales`, `Northern Ireland` → `GB`).
+- **`WorldData.GetCountryByName()` resolves aliases** — matching is exact and case-insensitive
+  (after trimming) against the country name, its translations, and its aliases. There is no
+  diacritic folding or fuzzy matching, so each spelling is listed explicitly.
+  `GetCountryByName("Czechia")` → `CZ`, `GetCountryByName("Turkiye")` → `TR`.
+
+Aliases live in a hand-maintained table (`Data/CountryAliases.cs`) rather than in the generated
+per-country files, so regenerating the dataset does not drop them.
 
 ## [2.0.3]
 

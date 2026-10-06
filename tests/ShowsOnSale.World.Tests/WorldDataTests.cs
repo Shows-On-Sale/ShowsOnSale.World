@@ -237,6 +237,47 @@ public class WorldDataTests
         Assert.True(collidingWithNames.Count == 0, $"Aliases colliding with other countries' names or translations: {string.Join(", ", collidingWithNames)}");
     }
 
+    [Fact]
+    public void CountryAliases_KeysAllMatchAKnownCountry()
+    {
+        // Typo guard: a misspelled ISO2 key in CountryAliases would otherwise be silently dropped.
+        var known = WorldData.All.Select(c => c.Iso2).ToHashSet(StringComparer.Ordinal);
+
+        var unknown = ShowsOnSale.World.Data.CountryAliases.Aliases.Keys
+            .Where(key => !known.Contains(key))
+            .ToList();
+
+        Assert.True(unknown.Count == 0, $"CountryAliases keys matching no country: {string.Join(", ", unknown)}");
+    }
+
+    [Fact]
+    public void CountryAliases_EveryAliasResolvesToItsKeyCountry()
+    {
+        // Catches an alias that is shadowed by another country's name or translation, and
+        // confirms the table actually reached Country.Aliases.
+        var wrong = ShowsOnSale.World.Data.CountryAliases.Aliases
+            .SelectMany(entry => entry.Value.Select(alias => new { Iso2 = entry.Key, Alias = alias }))
+            .Select(x => new { x.Iso2, x.Alias, Resolved = WorldData.GetCountryByName(x.Alias)?.Iso2 })
+            .Where(x => x.Resolved != x.Iso2)
+            .Select(x => $"\"{x.Alias}\" expected {x.Iso2} but got {x.Resolved ?? "null"}")
+            .ToList();
+
+        Assert.True(wrong.Count == 0, $"Aliases not resolving to their key country: {string.Join(", ", wrong)}");
+    }
+
+    [Fact]
+    public void CountryAliases_ContainNoAliasEqualToItsCountryName()
+    {
+        // An alias equal to the canonical Name already matches without the alias — keep the table lean.
+        var redundant = WorldData.All
+            .SelectMany(c => c.Aliases
+                .Where(a => string.Equals(a, c.Name, StringComparison.OrdinalIgnoreCase))
+                .Select(a => $"{c.Iso2}: \"{a}\""))
+            .ToList();
+
+        Assert.True(redundant.Count == 0, $"Aliases duplicating the country Name: {string.Join(", ", redundant)}");
+    }
+
     private static bool IsUpperLetters(string value, int length) =>
         value.Length == length && value.All(ch => ch is >= 'A' and <= 'Z');
 }
