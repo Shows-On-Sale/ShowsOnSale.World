@@ -150,6 +150,93 @@ public class WorldDataTests
         Assert.True(duplicates.Count == 0, $"Duplicate state codes: {string.Join(", ", duplicates)}");
     }
 
+    [Fact]
+    public void GetCountryByName_WithAlias_Czechia_ReturnsCountry()
+    {
+        // Arrange
+        var alias = "Czechia";
+
+        // Act
+        var country = WorldData.GetCountryByName(alias);
+
+        // Assert
+        Assert.NotNull(country);
+        Assert.Equal("CZ", country.Iso2);
+        Assert.Equal("Czech Republic", country.Name);
+    }
+
+    [Fact]
+    public void GetCountryByName_WithAlias_Turkiye_ReturnsCountry()
+    {
+        // Arrange
+        var alias = "Turkiye";
+
+        // Act
+        var country = WorldData.GetCountryByName(alias);
+
+        // Assert
+        Assert.NotNull(country);
+        Assert.Equal("TR", country.Iso2);
+        Assert.Equal("Turkey", country.Name);
+    }
+
+    [Fact]
+    public void GetCountryByName_WithDiacriticTurkiye_ReturnsCountry()
+    {
+        // Arrange
+        var diacriticName = "Türkiye";
+
+        // Act
+        var country = WorldData.GetCountryByName(diacriticName);
+
+        // Assert
+        Assert.NotNull(country);
+        Assert.Equal("TR", country.Iso2);
+        Assert.Equal("Turkey", country.Name);
+    }
+
+    [Fact]
+    public void GetCountryByName_WithTrimAndCase_PreservesContract()
+    {
+        // Arrange
+        var aliasWithWhitespaceAndCase = "  CZECHIA  ";
+
+        // Act
+        var country = WorldData.GetCountryByName(aliasWithWhitespaceAndCase);
+
+        // Assert
+        Assert.NotNull(country);
+        Assert.Equal("CZ", country.Iso2);
+    }
+
+    [Fact]
+    public void Countries_HaveUniqueAliases()
+    {
+        // Ensure that no alias collides with another country's name, translation, or alias.
+        var allAliases = WorldData.All
+            .SelectMany(c => c.Aliases.Select(a => new { Country = c, Alias = a }))
+            .ToList();
+
+        var duplicates = allAliases
+            .GroupBy(a => a.Alias, StringComparer.OrdinalIgnoreCase)
+            .Where(g => g.Count() > 1)
+            .Select(g => $"{g.Key} ({string.Join(", ", g.Select(x => x.Country.Iso2))})")
+            .ToList();
+
+        Assert.True(duplicates.Count == 0, $"Aliases used by more than one country: {string.Join(", ", duplicates)}");
+
+        // Also ensure no alias collides with any country name or translation
+        var collidingWithNames = allAliases
+            .Where(a => WorldData.All
+                .Where(c => c.Iso2 != a.Country.Iso2)
+                .Any(c => string.Equals(c.Name, a.Alias, StringComparison.OrdinalIgnoreCase)
+                    || c.Translations.Values.Any(t => string.Equals(t, a.Alias, StringComparison.OrdinalIgnoreCase))))
+            .Select(a => $"{a.Alias} (alias for {a.Country.Iso2}, collides with another country)")
+            .ToList();
+
+        Assert.True(collidingWithNames.Count == 0, $"Aliases colliding with other countries' names or translations: {string.Join(", ", collidingWithNames)}");
+    }
+
     private static bool IsUpperLetters(string value, int length) =>
         value.Length == length && value.All(ch => ch is >= 'A' and <= 'Z');
 }

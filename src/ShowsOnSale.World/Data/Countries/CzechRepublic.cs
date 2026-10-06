@@ -58,7 +58,6 @@ namespace ShowsOnSale.World.Data.Countries
                 ["hi"] = "चेक रिपब्लिक",
                 ["ar"] = "الجمهورية التشيكية"
             },
-            Aliases = new() { "Czechia" },
             States = new()
             {
 
