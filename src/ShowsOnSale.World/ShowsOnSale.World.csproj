@@ -22,6 +22,11 @@
       <IncludeSource>true</IncludeSource>
       <RepositoryUrl>https://github.com/ShowsOnSale/ShowsOnSale.World</RepositoryUrl>
     </PropertyGroup>
+
+    <ItemGroup>
+      <!-- Lets the test project assert the internal CountryAliases table against WorldData.All. -->
+      <InternalsVisibleTo Include="ShowsOnSale.World.Tests" />
+    </ItemGroup>
   
     <ItemGroup>
       <None Include="..\..\README.md" Pack="true" PackagePath="/" />

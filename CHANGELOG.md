@@ -3,6 +3,25 @@
 All notable changes to **ShowsOnSale.World** are documented here. This project follows
 [Semantic Versioning](https://semver.org/).
 
+## [2.1.0]
+
+### Added
+
+- **`Country.Aliases` property** — alternative English names for a country (e.g. `"Turkiye"` for Turkey,
+  `"Czechia"` for Czech Republic). 48 aliases across 30 countries cover ASCII forms of names that are
+  only spelled with diacritics upstream (`Turkiye`, `Cote d'Ivoire`, `Curacao`), former or colloquial
+  names (`Burma`, `Macedonia`, `East Timor`, `Holland`, `Falklands`), abbreviations (`USA`, `DRC`,
+  `DR Congo`, `Lao PDR`), ISO formal names (`Russian Federation`, `Viet Nam`, `Syrian Arab Republic`),
+  `St.`/`St` forms of the `Saint-*` countries (both spellings of each), and the UK constituent
+  nations (`England`, `Scotland`, `Wales`, `Northern Ireland` → `GB`).
+- **`WorldData.GetCountryByName()` resolves aliases** — matching is exact and case-insensitive
+  (after trimming) against the country name, its translations, and its aliases. There is no
+  diacritic folding or fuzzy matching, so each spelling is listed explicitly.
+  `GetCountryByName("Czechia")` → `CZ`, `GetCountryByName("Turkiye")` → `TR`.
+
+Aliases live in a hand-maintained table (`Data/CountryAliases.cs`) rather than in the generated
+per-country files, so regenerating the dataset does not drop them.
+
 ## [2.0.3]
 
 ### Fixed
