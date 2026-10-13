@@ -44,7 +44,7 @@ Country data is generated from `countries-states-cities-database/` (git submodul
 ./scripts/generate-world.ps1
 ```
 
-Files marked with "automatically generated" warnings should not be edited manually.
+Files marked with "automatically generated" warnings should not be edited manually. State corrections go in the overlays the script reads: `data/state-levels.json` (`State.IsTopLevel`) and `data/state-names.json` (state name fixes and `State.AlternateNames`).
 
 ## Key API
 
@@ -53,6 +53,7 @@ WorldData.All                                    // List<Country> - all countrie
 WorldData.GetCountryByCode("US")                 // by ISO2 or ISO3
 WorldData.GetCountryByName("United States")      // by name or translation
 WorldData.GetStateByCode("US", "NY")             // state by country + state code
-WorldData.GetStateByName("US", "New York")       // state by country + state name
+WorldData.GetStateByName("US", "New York")       // state by country + state name or alternate name
+WorldData.ResolveState("ES", "Madrid")           // free-form code/name/spelling → first-level region (WorldData.States.cs)
 WorldData.Timezones                              // all unique timezones
 ```

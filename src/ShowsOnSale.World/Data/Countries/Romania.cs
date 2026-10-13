@@ -1886,6 +1886,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "44.43614140",
                     Longitude = "26.10272020",
                     Type = "municipality",
+                    AlternateNames = new() { "București" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bucharest", Latitude = "44.43225000", Longitude = "26.10626000" },

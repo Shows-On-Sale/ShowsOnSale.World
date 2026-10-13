@@ -1106,6 +1106,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.72128250",
                     Longitude = "4.82066500",
                     Type = "province",
+                    AlternateNames = new() { "Noord-Holland" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "'s-Graveland", Latitude = "52.24420000", Longitude = "5.12110000" },
@@ -1549,6 +1550,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.99667920",
                     Longitude = "4.55973970",
                     Type = "province",
+                    AlternateNames = new() { "Zuid-Holland" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "'s-Gravenland", Latitude = "51.92336000", Longitude = "4.55315000" },

@@ -233,7 +233,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 7,
-                    Name = "Luxembourg ",
+                    Name = "Luxembourg",
                     StateCode = "L",
                     Iso3166_2 = "LU-L",
                     TimeZoneId = "Europe/Luxembourg",

@@ -112,7 +112,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 4,
-                    Name = "Barisal ",
+                    Name = "Barisal",
                     StateCode = "A",
                     Iso3166_2 = "BD-A",
                     TimeZoneId = "Asia/Dhaka",
@@ -239,7 +239,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 12,
-                    Name = "Chittagong ",
+                    Name = "Chittagong",
                     StateCode = "B",
                     Iso3166_2 = "BD-B",
                     TimeZoneId = "Asia/Dhaka",
@@ -318,7 +318,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 17,
-                    Name = "Dhaka ",
+                    Name = "Dhaka",
                     StateCode = "C",
                     Iso3166_2 = "BD-C",
                     TimeZoneId = "Asia/Dhaka",
@@ -557,7 +557,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 32,
-                    Name = "Khulna ",
+                    Name = "Khulna",
                     StateCode = "D",
                     Iso3166_2 = "BD-D",
                     TimeZoneId = "Asia/Dhaka",
@@ -764,7 +764,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 45,
-                    Name = "Mymensingh ",
+                    Name = "Mymensingh",
                     StateCode = "H",
                     Iso3166_2 = "BD-H",
                     TimeZoneId = "Asia/Dhaka",
@@ -1003,7 +1003,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 60,
-                    Name = "Rajshahi ",
+                    Name = "Rajshahi",
                     StateCode = "E",
                     Iso3166_2 = "BD-E",
                     TimeZoneId = "Asia/Dhaka",
@@ -1034,7 +1034,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 62,
-                    Name = "Rangpur ",
+                    Name = "Rangpur",
                     StateCode = "F",
                     Iso3166_2 = "BD-F",
                     TimeZoneId = "Asia/Dhaka",
@@ -1145,7 +1145,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 69,
-                    Name = "Sylhet ",
+                    Name = "Sylhet",
                     StateCode = "G",
                     Iso3166_2 = "BD-G",
                     TimeZoneId = "Asia/Dhaka",
