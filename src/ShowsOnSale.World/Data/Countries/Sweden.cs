@@ -724,6 +724,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "59.33361730",
                     Longitude = "18.02769730",
                     Type = "county",
+                    AlternateNames = new() { "Stockholms län" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Akalla", Latitude = "59.41465000", Longitude = "17.91398000" },

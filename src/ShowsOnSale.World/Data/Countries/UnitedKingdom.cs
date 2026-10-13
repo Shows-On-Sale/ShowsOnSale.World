@@ -71,6 +71,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "57.14971700",
                     Longitude = "-2.09427800",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aberdeen", Latitude = "57.14369000", Longitude = "-2.09814000" },
@@ -112,6 +113,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "57.16666700",
                     Longitude = "-2.66666700",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aberdeenshire", Latitude = "57.16667000", Longitude = "-2.66667000" },
@@ -138,6 +140,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "56.66666700",
                     Longitude = "-2.91666700",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alyth", Latitude = "56.62209000", Longitude = "-3.23005000" },
@@ -165,6 +168,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.68971360",
                     Longitude = "-6.17106120",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Antrim", Latitude = "54.70000000", Longitude = "-6.20000000" },
@@ -188,6 +192,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.64896420",
                     Longitude = "-5.56278520",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ards and North Down", Latitude = "54.53439000", Longitude = "-5.62947000" },
@@ -214,6 +219,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "56.46034940",
                     Longitude = "-5.86184190",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Caol", Latitude = "56.83721000", Longitude = "-5.10062000" },
@@ -235,6 +241,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.31610850",
                     Longitude = "-6.71891820",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Armagh", Latitude = "54.35000000", Longitude = "-6.66667000" },
@@ -256,6 +263,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.55411710",
                     Longitude = "0.15050510",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Becontree", Latitude = "51.55290000", Longitude = "0.12900000" },
@@ -276,6 +284,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.60496730",
                     Longitude = "-0.20762950",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Barnet", Latitude = "51.65000000", Longitude = "-0.20000000" },
@@ -296,6 +305,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.55277190",
                     Longitude = "-1.48277550",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Barnsley", Latitude = "53.53333000", Longitude = "-1.50000000" },
@@ -329,6 +339,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.35632380",
                     Longitude = "-2.48666140",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Atworth", Latitude = "51.39234000", Longitude = "-2.19297000" },
@@ -387,6 +398,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.18870140",
                     Longitude = "-0.46658920",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bedford", Latitude = "52.18831000", Longitude = "-0.45316000" },
@@ -445,6 +457,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.59758040",
                     Longitude = "-5.92770970",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ballygowan", Latitude = "54.50165000", Longitude = "-5.79168000" },
@@ -473,6 +486,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.44023750",
                     Longitude = "0.14794940",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Belvedere", Latitude = "51.49114000", Longitude = "0.15136000" },
@@ -503,6 +517,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.47969920",
                     Longitude = "-1.90269110",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aston", Latitude = "52.50000000", Longitude = "-1.88333000" },
@@ -530,6 +545,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.69575220",
                     Longitude = "-2.46829850",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Accrington", Latitude = "53.75379000", Longitude = "-2.35863000" },
@@ -565,6 +581,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.81750530",
                     Longitude = "-3.03567480",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Askam in Furness", Latitude = "54.18718000", Longitude = "-3.20467000" },
@@ -605,6 +622,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.75337110",
                     Longitude = "-3.18484440",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abertillery", Latitude = "51.72981000", Longitude = "-3.13432000" },
@@ -634,6 +652,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.92081780",
                     Longitude = "-2.79059880",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Berwick-Upon-Tweed", Latitude = "55.76536000", Longitude = "-2.01186000" }
@@ -650,6 +669,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.74570350",
                     Longitude = "-2.19062240",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bere Regis", Latitude = "50.75371000", Longitude = "-2.21553000" },
@@ -691,6 +711,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.40026880",
                     Longitude = "-0.74178880",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aldershot", Latitude = "51.24827000", Longitude = "-0.76389000" },
@@ -725,6 +746,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.79598400",
                     Longitude = "-1.75939800",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Addingham", Latitude = "53.94452000", Longitude = "-1.88424000" },
@@ -765,6 +787,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.01889180",
                     Longitude = "-0.72350390",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bletchley", Latitude = "51.99334000", Longitude = "-0.73471000" },
@@ -791,6 +814,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.50831990",
                     Longitude = "-3.58120750",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aberkenfig", Latitude = "51.54000000", Longitude = "-3.59556000" },
@@ -819,6 +843,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.84531690",
                     Longitude = "-0.14974690",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ardingly", Latitude = "51.04865000", Longitude = "-0.07716000" },
@@ -866,6 +891,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.45380220",
                     Longitude = "-2.59729850",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bishopsworth", Latitude = "51.41479000", Longitude = "-2.62080000" },
@@ -888,6 +914,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.36797050",
                     Longitude = "0.07006200",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Biggin Hill", Latitude = "51.31329000", Longitude = "0.03433000" },
@@ -921,6 +948,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.78349940",
                     Longitude = "-0.89464410",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aston Clinton", Latitude = "51.80020000", Longitude = "-0.72540000" },
@@ -956,6 +984,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.59334980",
                     Longitude = "-2.29660540",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bolton", Latitude = "53.58333000", Longitude = "-2.43333000" },
@@ -983,6 +1012,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.67238090",
                     Longitude = "-3.17839380",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abercarn", Latitude = "51.64733000", Longitude = "-3.13476000" },
@@ -1014,6 +1044,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.72047480",
                     Longitude = "-1.96228860",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Barkisland", Latitude = "53.67614000", Longitude = "-1.91840000" },
@@ -1048,6 +1079,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.33333300",
                     Longitude = "0.08333300",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Balsham", Latitude = "52.13238000", Longitude = "0.31586000" },
@@ -1126,6 +1158,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.54547360",
                     Longitude = "-0.16279020",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Belsize Park", Latitude = "51.54767000", Longitude = "-0.17228000" },
@@ -1143,6 +1176,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.48158100",
                     Longitude = "-3.17909000",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Caerphilly", Latitude = "51.57452000", Longitude = "-3.21800000" },
@@ -1166,6 +1200,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.89366980",
                     Longitude = "-4.21728270",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aberporth", Latitude = "52.13248000", Longitude = "-4.54173000" },
@@ -1198,6 +1233,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.03612980",
                     Longitude = "-6.59094490",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ballintoy Harbour", Latitude = "55.24422000", Longitude = "-6.36919000" },
@@ -1230,6 +1266,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.99803280",
                     Longitude = "-0.47915140",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ampthill", Latitude = "52.02694000", Longitude = "-0.49567000" },
@@ -1282,6 +1319,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.29457640",
                     Longitude = "-3.95278100",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aberaeron", Latitude = "52.24247000", Longitude = "-4.25871000" },
@@ -1310,6 +1348,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.16734220",
                     Longitude = "-2.29288030",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alsager", Latitude = "53.09617000", Longitude = "-2.30649000" },
@@ -1339,6 +1378,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.16379790",
                     Longitude = "-2.72853610",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aldford", Latitude = "53.12762000", Longitude = "-2.86812000" },
@@ -1375,6 +1415,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.76762360",
                     Longitude = "-0.32741980",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aldbrough", Latitude = "53.82893000", Longitude = "-0.11467000" },
@@ -1410,6 +1451,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.90018780",
                     Longitude = "-1.41395570",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alderbury", Latitude = "51.04354000", Longitude = "-1.73382000" },
@@ -1455,6 +1497,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "56.16639500",
                     Longitude = "-3.75139680",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alloa", Latitude = "56.11586000", Longitude = "-3.78997000" },
@@ -1482,6 +1525,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.28118220",
                     Longitude = "-3.82870120",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abergele", Latitude = "53.28436000", Longitude = "-3.58220000" },
@@ -1519,6 +1563,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.44334890",
                     Longitude = "-4.62465660",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bodmin", Latitude = "50.47151000", Longitude = "-4.72430000" },
@@ -1586,6 +1631,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.40682200",
                     Longitude = "-1.51969300",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Atherstone", Latitude = "52.57536000", Longitude = "-1.54693000" },
@@ -1616,6 +1662,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.37130490",
                     Longitude = "-0.10195700",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Blindley Heath", Latitude = "51.19344000", Longitude = "-0.05116000" },
@@ -1642,6 +1689,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.61431360",
                     Longitude = "-2.94208990",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ambleside", Latitude = "54.43261000", Longitude = "-2.96167000" },
@@ -1688,6 +1736,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.53525640",
                     Longitude = "-1.55294300",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bishop Middleham", Latitude = "54.67778000", Longitude = "-1.48826000" },
@@ -1714,6 +1763,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.10978950",
                     Longitude = "-3.36712840",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bodelwyddan", Latitude = "53.26827000", Longitude = "-3.50078000" },
@@ -1738,6 +1788,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.16669270",
                     Longitude = "-1.58332230",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bakewell", Latitude = "53.21338000", Longitude = "-1.67481000" },
@@ -1761,6 +1812,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.11850330",
                     Longitude = "-1.55661790",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alfreton", Latitude = "53.09766000", Longitude = "-1.38376000" },
@@ -1796,6 +1848,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.00474430",
                     Longitude = "-7.32092220",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ballykelly", Latitude = "55.04425000", Longitude = "-7.01855000" },
@@ -1821,6 +1874,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.72414050",
                     Longitude = "-3.66077880",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Appledore", Latitude = "51.05000000", Longitude = "-4.20000000" },
@@ -1883,6 +1937,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.52282000",
                     Longitude = "-1.12846200",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Adwick le Street", Latitude = "53.57077000", Longitude = "-1.18454000" },
@@ -1928,6 +1983,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.74876350",
                     Longitude = "-2.34447860",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Beaminster", Latitude = "50.80900000", Longitude = "-2.73910000" },
@@ -1967,6 +2023,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.05412430",
                     Longitude = "-1.59498640",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ashington", Latitude = "55.17719000", Longitude = "-1.56412000" },
@@ -2000,6 +2057,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.08333300",
                     Longitude = "-3.83333300",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Annan", Latitude = "54.98839000", Longitude = "-3.25647000" },
@@ -2027,6 +2085,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "56.46201800",
                     Longitude = "-2.97072100",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Blairgowrie", Latitude = "56.59157000", Longitude = "-3.34045000" },
@@ -2053,6 +2112,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.66666700",
                     Longitude = "-1.75000000",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Barnard Castle", Latitude = "54.54150000", Longitude = "-1.91900000" },
@@ -2097,6 +2157,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.52508460",
                     Longitude = "-0.31429350",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Acton", Latitude = "51.50901000", Longitude = "-0.27620000" },
@@ -2119,6 +2180,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.50000000",
                     Longitude = "-4.25000000",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Auchinleck", Latitude = "55.47157000", Longitude = "-4.29337000" },
@@ -2151,6 +2213,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.93333300",
                     Longitude = "-4.20000000",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bishopbriggs", Latitude = "55.90669000", Longitude = "-4.21869000" },
@@ -2180,6 +2243,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.91579700",
                     Longitude = "-2.75119520",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aberlady", Latitude = "56.00884000", Longitude = "-2.85851000" },
@@ -2211,6 +2275,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.74947930",
                     Longitude = "-4.36065920",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Barrhead", Latitude = "55.79916000", Longitude = "-4.39285000" },
@@ -2240,6 +2305,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.87359650",
                     Longitude = "-0.53477880",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Beeford", Latitude = "53.96999000", Longitude = "-0.28913000" },
@@ -2294,6 +2360,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.94042660",
                     Longitude = "0.36999780",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Battle", Latitude = "50.91732000", Longitude = "0.48417000" },
@@ -2347,6 +2414,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.95325200",
                     Longitude = "-3.18826700",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aberdour", Latitude = "56.05417000", Longitude = "-3.30058000" },
@@ -2381,6 +2449,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.65263840",
                     Longitude = "-0.09086390",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Broxbourne", Latitude = "51.74712000", Longitude = "-0.01923000" },
@@ -2419,6 +2488,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.77046790",
                     Longitude = "0.46466980",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alresford", Latitude = "51.85389000", Longitude = "1.00203000" },
@@ -2484,6 +2554,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "56.00187750",
                     Longitude = "-3.78391310",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Airth", Latitude = "56.06983000", Longitude = "-3.77209000" },
@@ -2526,6 +2597,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.35588630",
                     Longitude = "-7.59366360",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ballinamallard", Latitude = "54.42287020", Longitude = "-7.59504030" },
@@ -2550,6 +2622,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "56.33333310",
                     Longitude = "-3.00000010",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abernethy", Latitude = "56.33247000", Longitude = "-3.31226000" },
@@ -2596,6 +2669,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.21650960",
                     Longitude = "-3.14021890",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bagillt", Latitude = "53.26540000", Longitude = "-3.16551000" },
@@ -2628,6 +2702,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.96257890",
                     Longitude = "-1.60192940",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Annfield Plain", Latitude = "54.85749000", Longitude = "-1.73827000" },
@@ -2656,6 +2731,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.86423700",
                     Longitude = "-4.25180600",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bearsden", Latitude = "55.91536000", Longitude = "-4.33279000" },
@@ -2680,6 +2756,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.83333130",
                     Longitude = "-2.16666740",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Avening", Latitude = "51.68010000", Longitude = "-2.16903000" },
@@ -2734,6 +2811,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.46862560",
                     Longitude = "0.04883060",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abbey Wood", Latitude = "51.48688000", Longitude = "0.10747000" }
@@ -2750,6 +2828,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.90895850",
                     Longitude = "-3.83352440",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bala", Latitude = "52.91111000", Longitude = "-3.59722000" },
@@ -2783,6 +2862,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.54888190",
                     Longitude = "-0.04766910",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bethnal Green", Latitude = "51.52718000", Longitude = "-0.06109000" }
@@ -2799,6 +2879,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.00490990",
                     Longitude = "-2.00452160",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Acomb", Latitude = "54.99229000", Longitude = "-2.11229000" },
@@ -2824,6 +2905,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.49901560",
                     Longitude = "-0.22915000",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2839,6 +2921,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.04498140",
                     Longitude = "-1.24331330",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abbotts Ann", Latitude = "51.19016000", Longitude = "-1.53234000" },
@@ -2884,6 +2967,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.59061130",
                     Longitude = "-0.11097090",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Crouch End", Latitude = "51.57971000", Longitude = "-0.12373000" },
@@ -2901,6 +2985,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.58816270",
                     Longitude = "-0.34228510",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abbots Langley", Latitude = "51.70573000", Longitude = "-0.41757000" },
@@ -2929,6 +3014,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.69174500",
                     Longitude = "-1.21292600",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Elwick", Latitude = "54.68455000", Longitude = "-1.29559000" },
@@ -2954,6 +3040,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.55792620",
                     Longitude = "0.24981280",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aveley", Latitude = "51.49987000", Longitude = "0.25174000" },
@@ -2980,6 +3067,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.08333300",
                     Longitude = "-2.75000000",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Belmont", Latitude = "52.04272000", Longitude = "-2.74169000" },
@@ -3013,6 +3101,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.84005230",
                     Longitude = "-0.09785520",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ashwell", Latitude = "52.03866000", Longitude = "-0.15398000" },
@@ -3061,6 +3150,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "57.50663570",
                     Longitude = "-5.00383670",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alness", Latitude = "57.69596000", Longitude = "-4.25510000" },
@@ -3093,6 +3183,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.53518320",
                     Longitude = "-0.44813780",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Chalfont Saint Peter", Latitude = "51.60885000", Longitude = "-0.55618000" },
@@ -3118,6 +3209,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.46173340",
                     Longitude = "-0.38013100",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Addlestone", Latitude = "51.37135000", Longitude = "-0.49353000" },
@@ -3144,6 +3236,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.90000000",
                     Longitude = "-4.75000000",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ardrishaig", Latitude = "56.01566000", Longitude = "-5.44806000" },
@@ -3181,6 +3274,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.28070200",
                     Longitude = "-4.68995190",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Amlwch", Latitude = "53.40986000", Longitude = "-4.34712000" },
@@ -3208,6 +3302,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.67104820",
                     Longitude = "-1.33271110",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Brading", Latitude = "50.67990000", Longitude = "-1.14571000" },
@@ -3240,6 +3335,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.92034090",
                     Longitude = "-6.29287910",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Hugh Town", Latitude = "49.91455860", Longitude = "-6.31536090" },
@@ -3261,6 +3357,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.54650630",
                     Longitude = "-0.10580580",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Archway", Latitude = "51.56733000", Longitude = "-0.13415000" },
@@ -3282,6 +3379,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.49908050",
                     Longitude = "-0.19382530",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bayswater", Latitude = "51.51116000", Longitude = "-0.18426000" },
@@ -3300,6 +3398,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.20707480",
                     Longitude = "0.72103620",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ashford", Latitude = "51.14648000", Longitude = "0.87376000" },
@@ -3348,6 +3447,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.38177630",
                     Longitude = "-0.27699330",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Chessington", Latitude = "51.36240000", Longitude = "-0.30427000" },
@@ -3375,6 +3475,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.64226350",
                     Longitude = "-1.78094330",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Blackmoorfoot", Latitude = "53.61423000", Longitude = "-1.85588000" },
@@ -3412,6 +3513,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.45459400",
                     Longitude = "-2.85290700",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Huyton", Latitude = "53.41150000", Longitude = "-2.83935000" },
@@ -3431,6 +3533,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.49521110",
                     Longitude = "-0.11633540",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "City of London", Latitude = "51.51279000", Longitude = "-0.09184000" },
@@ -3448,6 +3551,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.86117120",
                     Longitude = "-2.56509450",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Arnside", Latitude = "54.20179000", Longitude = "-2.83374000" },
@@ -3492,6 +3596,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.80075540",
                     Longitude = "-1.54907740",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aberford", Latitude = "53.82604000", Longitude = "-1.34231000" },
@@ -3531,6 +3636,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.63687780",
                     Longitude = "-1.13975920",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Blaby", Latitude = "52.57577000", Longitude = "-1.16403000" },
@@ -3568,6 +3674,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.68491370",
                     Longitude = "-1.18476530",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Anstey", Latitude = "52.67368000", Longitude = "-1.18841000" },
@@ -3614,6 +3721,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.45352070",
                     Longitude = "-0.01247510",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Beckenham", Latitude = "51.40878000", Longitude = "-0.02526000" },
@@ -3631,6 +3739,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.12822670",
                     Longitude = "-0.19019740",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alford", Latitude = "53.25943000", Longitude = "0.17625000" },
@@ -3691,6 +3800,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.49740260",
                     Longitude = "-6.03307390",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Annahilt", Latitude = "54.43333000", Longitude = "-6.00000000" },
@@ -3721,6 +3831,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.40719910",
                     Longitude = "-2.99168000",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Birkenhead", Latitude = "53.39337000", Longitude = "-3.01479000" },
@@ -3739,6 +3850,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.51234430",
                     Longitude = "-0.09098520",
                     Type = "city",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -3754,6 +3866,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.89107730",
                     Longitude = "-0.51033490",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Berkhamsted", Latitude = "51.76040000", Longitude = "-0.56528000" },
@@ -3789,6 +3902,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.48075930",
                     Longitude = "-2.24263050",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Blackley", Latitude = "53.51765000", Longitude = "-2.21443000" },
@@ -3811,6 +3925,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.41573860",
                     Longitude = "0.56873090",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Allhallows", Latitude = "51.46866000", Longitude = "0.63686000" },
@@ -3854,6 +3969,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.74674740",
                     Longitude = "-3.38132750",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abercanaid", Latitude = "51.72361000", Longitude = "-3.36611000" },
@@ -3879,6 +3995,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.41086980",
                     Longitude = "-0.18809710",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Mitcham", Latitude = "51.40322000", Longitude = "-0.16831000" },
@@ -3896,6 +4013,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.87257450",
                     Longitude = "-6.15024600",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ahoghill", Latitude = "54.86667000", Longitude = "-6.36667000" },
@@ -3921,6 +4039,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.63855730",
                     Longitude = "-6.69258100",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bellaghy", Latitude = "54.80870000", Longitude = "-6.51918000" },
@@ -3945,6 +4064,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.57422700",
                     Longitude = "-1.23495600",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Great Ayton", Latitude = "54.49148000", Longitude = "-1.13623000" },
@@ -3963,6 +4083,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.83333300",
                     Longitude = "-3.08333300",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bilston", Latitude = "55.87030000", Longitude = "-3.17814000" },
@@ -3990,6 +4111,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.04065020",
                     Longitude = "-0.75940920",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Blisworth", Latitude = "52.17498000", Longitude = "-0.94131000" },
@@ -4027,6 +4149,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.75010580",
                     Longitude = "-2.83333310",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Caerwent", Latitude = "51.61120000", Longitude = "-2.76865000" },
@@ -4053,6 +4176,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "57.41666700",
                     Longitude = "-3.25000000",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aberchirder", Latitude = "57.56012000", Longitude = "-2.62856000" },
@@ -4102,6 +4226,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.66895570",
                     Longitude = "-3.72181790",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Blaengwynfi", Latitude = "51.65623000", Longitude = "-3.60371000" },
@@ -4134,6 +4259,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.97825200",
                     Longitude = "-1.61778000",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Benwell", Latitude = "54.97296000", Longitude = "-1.66926000" },
@@ -4156,6 +4282,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.52551620",
                     Longitude = "0.03521630",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Barking", Latitude = "51.53333000", Longitude = "0.08333000" },
@@ -4173,6 +4300,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.76885940",
                     Longitude = "-2.37836760",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -4188,6 +4316,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.17752830",
                     Longitude = "-6.33750600",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Annalong", Latitude = "54.10823000", Longitude = "-5.89966000" },
@@ -4215,6 +4344,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.66666700",
                     Longitude = "1.00000000",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Acle", Latitude = "52.63681000", Longitude = "1.54757000" },
@@ -4294,6 +4424,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.72785080",
                     Longitude = "-4.72717670",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ardrossan", Latitude = "55.65018000", Longitude = "-4.80659000" },
@@ -4331,6 +4462,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.53680330",
                     Longitude = "-0.09368100",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Caistor", Latitude = "53.49673000", Longitude = "-0.31538000" },
@@ -4369,6 +4501,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.88305070",
                     Longitude = "-3.94615510",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Airdrie", Latitude = "55.86602000", Longitude = "-3.98025000" },
@@ -4420,6 +4553,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.58974410",
                     Longitude = "-0.60232300",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Airmyn", Latitude = "53.72074000", Longitude = "-0.89959000" },
@@ -4468,6 +4602,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.41710850",
                     Longitude = "-0.95355110",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Brixworth", Latitude = "52.32912000", Longitude = "-0.90350000" },
@@ -4503,6 +4638,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.39663050",
                     Longitude = "-2.76912890",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Axbridge", Latitude = "51.28466000", Longitude = "-2.82078000" },
@@ -4544,6 +4680,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.02979940",
                     Longitude = "-1.50825600",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Backworth", Latitude = "55.04229000", Longitude = "-1.52779000" },
@@ -4566,6 +4703,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.09159280",
                     Longitude = "-1.53591130",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bedale", Latitude = "54.28811000", Longitude = "-1.59181000" },
@@ -4608,6 +4746,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.25000000",
                     Longitude = "-2.00055900",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Acklington", Latitude = "55.30000000", Longitude = "-1.63333000" },
@@ -4646,6 +4785,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.95478320",
                     Longitude = "-1.15810860",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Arnold", Latitude = "53.00000000", Longitude = "-1.13333000" },
@@ -4697,6 +4837,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.14592880",
                     Longitude = "-1.02149710",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Babworth", Latitude = "53.31799000", Longitude = "-0.97583000" },
@@ -4750,6 +4891,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.54157970",
                     Longitude = "-2.11478310",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Borough of Oldham", Latitude = "53.55000000", Longitude = "-2.08333000" },
@@ -4773,6 +4915,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "58.94182310",
                     Longitude = "-3.12969440",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Halkirk", Latitude = "58.51227000", Longitude = "-3.49155000" },
@@ -4795,6 +4938,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "57.66666700",
                     Longitude = "-7.16666700",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Barra", Latitude = "56.98035000", Longitude = "-7.45731000" },
@@ -4818,6 +4962,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.83333300",
                     Longitude = "-1.25000000",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abingdon", Latitude = "51.67109000", Longitude = "-1.28278000" },
@@ -4870,6 +5015,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.83392090",
                     Longitude = "-4.91666700",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Cardigan", Latitude = "52.08373000", Longitude = "-4.66228000" },
@@ -4911,6 +5057,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "56.50000000",
                     Longitude = "-3.75000000",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aberfeldy", Latitude = "56.62196000", Longitude = "-3.86693000" },
@@ -4938,6 +5085,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.57257690",
                     Longitude = "-0.24273360",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alconbury", Latitude = "52.36900000", Longitude = "-0.26009000" },
@@ -4989,6 +5137,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.37141220",
                     Longitude = "-4.14244510",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bere Alston", Latitude = "50.48233000", Longitude = "-4.19034000" },
@@ -5023,6 +5172,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.80003100",
                     Longitude = "-1.09060230",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bembridge", Latitude = "50.68634000", Longitude = "-1.08275000" },
@@ -5061,6 +5211,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.32714990",
                     Longitude = "-3.35533520",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Builth Wells", Latitude = "52.14940000", Longitude = "-3.40469000" },
@@ -5087,6 +5238,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.45149530",
                     Longitude = "-0.98363420",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Basingstoke", Latitude = "51.26249000", Longitude = "-1.08708000" },
@@ -5119,6 +5271,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.57658280",
                     Longitude = "0.04534010",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abridge", Latitude = "51.64950000", Longitude = "0.12033000" },
@@ -5139,6 +5292,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.56790560",
                     Longitude = "-1.00549630",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bilsdale", Latitude = "54.37356000", Longitude = "-1.11923000" },
@@ -5172,6 +5326,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.83333300",
                     Longitude = "-4.50000000",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bridge of Weir", Latitude = "55.85582000", Longitude = "-4.57894000" },
@@ -5201,6 +5356,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.66516360",
                     Longitude = "-3.45775580",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abercynon", Latitude = "51.64548000", Longitude = "-3.32727000" },
@@ -5233,6 +5389,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.44055290",
                     Longitude = "-0.30763940",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Hampton", Latitude = "51.41334000", Longitude = "-0.36701000" },
@@ -5252,6 +5409,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.60971360",
                     Longitude = "-2.15610000",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bacup", Latitude = "53.70336000", Longitude = "-2.20070000" },
@@ -5275,6 +5433,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.43260350",
                     Longitude = "-1.36350090",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bolton upon Dearne", Latitude = "53.51667000", Longitude = "-1.31667000" },
@@ -5308,6 +5467,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.64230360",
                     Longitude = "-0.66326430",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Barrowby", Latitude = "52.91636000", Longitude = "-0.69094000" },
@@ -5353,6 +5513,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.48752350",
                     Longitude = "-2.29012640",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "City and Borough of Salford", Latitude = "53.50000000", Longitude = "-2.33333000" },
@@ -5377,6 +5538,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.51484660",
                     Longitude = "-2.01348890",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Belbroughton", Latitude = "52.39177000", Longitude = "-2.11884000" },
@@ -5424,6 +5586,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.58333300",
                     Longitude = "-2.83333300",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Coldstream", Latitude = "55.65111000", Longitude = "-2.25295000" },
@@ -5455,6 +5618,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.50344490",
                     Longitude = "-2.97035900",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bootle", Latitude = "53.46667000", Longitude = "-3.01667000" },
@@ -5482,6 +5646,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.38066260",
                     Longitude = "-1.47022780",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Barlborough", Latitude = "53.28795000", Longitude = "-1.28815000" },
@@ -5508,6 +5673,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "60.33333300",
                     Longitude = "-1.33333300",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Lerwick", Latitude = "60.15313570", Longitude = "-1.14272960" },
@@ -5526,6 +5692,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.65233930",
                     Longitude = "-2.79586790",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Baschurch", Latitude = "52.78848000", Longitude = "-2.85284000" },
@@ -5559,6 +5726,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.51053840",
                     Longitude = "-0.59504060",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Amersham", Latitude = "51.66667000", Longitude = "-0.61667000" },
@@ -5594,6 +5762,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.41181100",
                     Longitude = "-1.77761000",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Acocks Green", Latitude = "52.45000000", Longitude = "-1.81667000" },
@@ -5623,6 +5792,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.08333300",
                     Longitude = "-3.00000000",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Axminster", Latitude = "50.78259000", Longitude = "-2.99787000" },
@@ -5679,6 +5849,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.29981800",
                     Longitude = "-4.64598840",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ayr", Latitude = "55.46273000", Longitude = "-4.63393000" },
@@ -5708,6 +5879,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.54919160",
                     Longitude = "-2.48095280",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Almondsbury", Latitude = "51.55407000", Longitude = "-2.57114000" },
@@ -5750,6 +5922,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.58316340",
                     Longitude = "-3.83322120",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Biggar", Latitude = "55.62297000", Longitude = "-3.52455000" },
@@ -5778,6 +5951,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.96366930",
                     Longitude = "-1.44186340",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "East Boldon", Latitude = "54.94452000", Longitude = "-1.42815000" },
@@ -5801,6 +5975,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.54592690",
                     Longitude = "0.70771230",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Althorne", Latitude = "51.65722000", Longitude = "0.76085000" },
@@ -5843,6 +6018,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.46525450",
                     Longitude = "-0.06901860",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Brixton", Latitude = "51.46593000", Longitude = "-0.10652000" },
@@ -5861,6 +6037,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.45354710",
                     Longitude = "-2.73432310",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ashton in Makerfield", Latitude = "53.48333000", Longitude = "-2.65000000" },
@@ -5882,6 +6059,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.82469420",
                     Longitude = "-2.00745470",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abbots Bromley", Latitude = "52.81705000", Longitude = "-1.87694000" },
@@ -5913,6 +6091,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "56.11652270",
                     Longitude = "-3.93690290",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bannockburn", Latitude = "56.08978000", Longitude = "-3.91092000" },
@@ -5940,6 +6119,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.41063160",
                     Longitude = "-2.15753320",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alderley Edge", Latitude = "53.30393000", Longitude = "-2.23773000" },
@@ -5979,6 +6159,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.56409400",
                     Longitude = "-1.31291640",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Billingham", Latitude = "54.58881000", Longitude = "-1.29034000" },
@@ -6003,6 +6184,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.01620140",
                     Longitude = "-2.18126070",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Audlem", Latitude = "52.98956000", Longitude = "-2.50706000" },
@@ -6034,6 +6216,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.24100140",
                     Longitude = "1.04657160",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aldeburgh", Latitude = "52.15259000", Longitude = "1.60124000" },
@@ -6112,6 +6295,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.90585120",
                     Longitude = "-1.38287270",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Easington", Latitude = "54.78528000", Longitude = "-1.35917000" },
@@ -6141,6 +6325,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.27153160",
                     Longitude = "-0.34145240",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ashtead", Latitude = "51.30873000", Longitude = "-0.29972000" },
@@ -6193,6 +6378,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.35737620",
                     Longitude = "-0.17527960",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Banstead", Latitude = "51.32233000", Longitude = "-0.20685000" },
@@ -6214,6 +6400,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.62144000",
                     Longitude = "-3.94364600",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ammanford", Latitude = "51.79279000", Longitude = "-3.98833000" },
@@ -6246,6 +6433,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.55577390",
                     Longitude = "-1.77971760",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aldbourne", Latitude = "51.48098000", Longitude = "-1.61827000" },
@@ -6289,6 +6477,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.48058280",
                     Longitude = "-2.08098910",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ashton-under-Lyne", Latitude = "53.48876000", Longitude = "-2.09890000" },
@@ -6318,6 +6507,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.72144520",
                     Longitude = "-2.50086240",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Broseley", Latitude = "52.61321000", Longitude = "-2.48269000" },
@@ -6349,6 +6539,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.50801690",
                     Longitude = "0.39628170",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Basildon", Latitude = "51.56844000", Longitude = "0.45782000" },
@@ -6381,6 +6572,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.43923290",
                     Longitude = "-3.53698990",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abbotskerswell", Latitude = "50.50816000", Longitude = "-3.61342000" },
@@ -6419,6 +6611,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.70022530",
                     Longitude = "-3.04460150",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abergavenny", Latitude = "51.82098000", Longitude = "-3.01743000" },
@@ -6441,6 +6634,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.12886330",
                     Longitude = "1.29866860",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ash", Latitude = "51.27883000", Longitude = "1.27974000" },
@@ -6485,6 +6679,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.41893600",
                     Longitude = "-2.35929720",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Altrincham", Latitude = "53.38752000", Longitude = "-2.34848000" },
@@ -6514,6 +6709,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.44706460",
                     Longitude = "-3.39888310",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Barry", Latitude = "51.39979000", Longitude = "-3.28380000" },
@@ -6539,6 +6735,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.68295410",
                     Longitude = "-1.49672860",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Badsworth", Latitude = "53.62876000", Longitude = "-1.30128000" },
@@ -6593,6 +6790,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.58621400",
                     Longitude = "-1.98291900",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aldridge", Latitude = "52.60549000", Longitude = "-1.91715000" },
@@ -6625,6 +6823,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.59826330",
                     Longitude = "-0.01773880",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Buckhurst Hill", Latitude = "51.62409000", Longitude = "0.03262000" },
@@ -6643,6 +6842,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.45682740",
                     Longitude = "-0.18966380",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Earlsfield", Latitude = "51.44390000", Longitude = "-0.18540000" }
@@ -6659,6 +6859,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.38994970",
                     Longitude = "-2.59431780",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Appleton Thorn", Latitude = "53.35045000", Longitude = "-2.54488000" },
@@ -6691,6 +6892,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.32130640",
                     Longitude = "-1.55369060",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Hatton", Latitude = "52.30007000", Longitude = "-1.63260000" },
@@ -6718,6 +6920,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.44631340",
                     Longitude = "-1.27588200",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Blewbury", Latitude = "51.56880000", Longitude = "-1.23261000" },
@@ -6758,6 +6961,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.96666700",
                     Longitude = "-4.53333300",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alexandria", Latitude = "55.99379000", Longitude = "-4.58640000" },
@@ -6787,6 +6991,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.91666700",
                     Longitude = "-3.50000000",
                     Type = "council area",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Addiebrownhill", Latitude = "55.84289000", Longitude = "-3.61667000" },
@@ -6835,6 +7040,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.22689770",
                     Longitude = "-1.34831910",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Banbury", Latitude = "52.06320000", Longitude = "-1.34222000" },
@@ -6870,6 +7076,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.94458450",
                     Longitude = "-0.52784770",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Arundel", Latitude = "50.85423000", Longitude = "-0.55393000" },
@@ -6919,6 +7126,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.49732060",
                     Longitude = "-0.13714900",
                     Type = "london borough",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Battersea", Latitude = "51.47475000", Longitude = "-0.15547000" },
@@ -6938,6 +7146,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.54571880",
                     Longitude = "-2.62646240",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abram", Latitude = "53.50855000", Longitude = "-2.59266000" },
@@ -6976,6 +7185,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.32416200",
                     Longitude = "-1.90324870",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Amesbury", Latitude = "51.17509000", Longitude = "-1.78064000" },
@@ -7026,6 +7236,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.48034120",
                     Longitude = "-0.67695050",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Cookham", Latitude = "51.55936000", Longitude = "-0.70810000" },
@@ -7047,6 +7258,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.34097140",
                     Longitude = "-3.05009160",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bebington", Latitude = "53.35000000", Longitude = "-3.01667000" },
@@ -7076,6 +7288,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.41045700",
                     Longitude = "-0.83386100",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Crondall", Latitude = "51.23285000", Longitude = "-0.86329000" },
@@ -7102,6 +7315,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.58476510",
                     Longitude = "-2.12756700",
                     Type = "metropolitan district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Albrighton", Latitude = "52.63640000", Longitude = "-2.27966000" },
@@ -7135,6 +7349,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.21094950",
                     Longitude = "-2.15695550",
                     Type = "two-tier county",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alcester", Latitude = "52.21667000", Longitude = "-1.86667000" },
@@ -7182,6 +7397,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.04650840",
                     Longitude = "-2.99378690",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Brymbo", Latitude = "53.06667000", Longitude = "-3.06667000" },
@@ -7214,6 +7430,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.95996510",
                     Longitude = "-1.08729790",
                     Type = "unitary authority",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Barlby", Latitude = "53.79964000", Longitude = "-1.04061000" },

@@ -80,6 +80,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "21.88525620",
                     Longitude = "-102.29156770",
                     Type = "state",
+                    AlternateNames = new() { "Ags." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aguascalientes", Latitude = "21.88333000", Longitude = "-102.30000000" },
@@ -186,6 +187,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "30.03389230",
                     Longitude = "-115.14251070",
                     Type = "state",
+                    AlternateNames = new() { "B.C." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alfonso Garzón [Granjas Familiares]", Latitude = "32.54667000", Longitude = "-116.61722000" },
@@ -296,6 +298,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "25.58180140",
                     Longitude = "-111.57061640",
                     Type = "state",
+                    AlternateNames = new() { "B.C.S." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bahía Asunción", Latitude = "27.14231000", Longitude = "-114.29582000" },
@@ -342,6 +345,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "19.83812150",
                     Longitude = "-90.51982530",
                     Type = "state",
+                    AlternateNames = new() { "Camp." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abelardo L. Rodríguez", Latitude = "18.72842000", Longitude = "-90.90456000" },
@@ -430,6 +434,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "16.50000010",
                     Longitude = "-92.50000010",
                     Type = "state",
+                    AlternateNames = new() { "Chis." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "1ra. Sección de Izapa", Latitude = "14.92083000", Longitude = "-92.17083000" },
@@ -979,6 +984,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "28.63299570",
                     Longitude = "-106.06910040",
                     Type = "state",
+                    AlternateNames = new() { "Chih." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abdenago C. García", Latitude = "29.98937000", Longitude = "-107.55210000" },
@@ -1142,6 +1148,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "19.43260770",
                     Longitude = "-99.13320800",
                     Type = "federal district",
+                    AlternateNames = new() { "CDMX", "Mexico City" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Álvaro Obregón", Latitude = "19.37496000", Longitude = "-99.21976000" },
@@ -1195,6 +1202,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "27.33333310",
                     Longitude = "-102.00000010",
                     Type = "state",
+                    AlternateNames = new() { "Coah.", "Coahuila" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abasolo", Latitude = "27.18219000", Longitude = "-101.42757000" },
@@ -1321,6 +1329,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "19.24523420",
                     Longitude = "-103.72408680",
                     Type = "state",
+                    AlternateNames = new() { "Col." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alcaraces", Latitude = "19.36433000", Longitude = "-103.57676000" },
@@ -1370,6 +1379,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "24.83333300",
                     Longitude = "-104.83333300",
                     Type = "state",
+                    AlternateNames = new() { "Dgo." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abasolo", Latitude = "25.31145000", Longitude = "-104.65580000" },
@@ -1517,6 +1527,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "19.48394460",
                     Longitude = "-99.68997160",
                     Type = "state",
+                    AlternateNames = new() { "Méx.", "State of Mexico" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Acachuén", Latitude = "19.84715000", Longitude = "-102.09272000" },
@@ -2472,6 +2483,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "21.01901450",
                     Longitude = "-101.25735860",
                     Type = "state",
+                    AlternateNames = new() { "Gto." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abasolo", Latitude = "20.44997000", Longitude = "-101.53073000" },
@@ -2963,6 +2975,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "17.66666700",
                     Longitude = "-100.00000000",
                     Type = "state",
+                    AlternateNames = new() { "Gro." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "10 de Abril", Latitude = "16.82917000", Longitude = "-99.74083000" },
@@ -3411,6 +3424,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "24.16855450",
                     Longitude = "-99.38737290",
                     Type = "state",
+                    AlternateNames = new() { "Hgo." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Acahuasco", Latitude = "20.96254000", Longitude = "-98.59656000" },
@@ -3843,6 +3857,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "20.33333310",
                     Longitude = "-103.66666710",
                     Type = "state",
+                    AlternateNames = new() { "Jal." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Acatlán de Juárez", Latitude = "20.42416667", Longitude = "-103.60138889" },
@@ -4675,6 +4690,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "19.20709800",
                     Longitude = "-101.87811300",
                     Type = "state",
+                    AlternateNames = new() { "Mich.", "Michoacán" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Acuitzio", Latitude = "19.47178000", Longitude = "-101.32921000" },
@@ -5132,6 +5148,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "18.75000000",
                     Longitude = "-99.00000000",
                     Type = "state",
+                    AlternateNames = new() { "Mor." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abelardo L. Rodríguez", Latitude = "18.73750000", Longitude = "-98.98528000" },
@@ -5400,6 +5417,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "22.00000010",
                     Longitude = "-105.00000010",
                     Type = "state",
+                    AlternateNames = new() { "Nay." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Acaponeta", Latitude = "22.49396000", Longitude = "-105.36369000" },
@@ -5533,6 +5551,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "26.23843630",
                     Longitude = "-99.88730000",
                     Type = "state",
+                    AlternateNames = new() { "N.L." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Agualeguas", Latitude = "26.31362000", Longitude = "-99.53728000" },
@@ -5793,6 +5812,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "17.00000000",
                     Longitude = "-96.50000000",
                     Type = "state",
+                    AlternateNames = new() { "Oax." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Acatlán de Pérez Figueroa", Latitude = "18.53973000", Longitude = "-96.60568000" },
@@ -6502,6 +6522,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "19.04143980",
                     Longitude = "-98.20627270",
                     Type = "state",
+                    AlternateNames = new() { "Pue." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "18 de Marzo", Latitude = "18.96889000", Longitude = "-98.16028000" },
@@ -7277,6 +7298,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "20.58879320",
                     Longitude = "-100.38988810",
                     Type = "state",
+                    AlternateNames = new() { "Qro." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Agua Azul", Latitude = "20.60271000", Longitude = "-100.20472000" },
@@ -7494,6 +7516,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "19.66666710",
                     Longitude = "-88.50000010",
                     Type = "state",
+                    AlternateNames = new() { "Q.R." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Akumal", Latitude = "20.39693000", Longitude = "-87.31444000" },
@@ -7573,6 +7596,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "22.15164720",
                     Longitude = "-100.97639930",
                     Type = "state",
+                    AlternateNames = new() { "S.L.P." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Agua Buena", Latitude = "21.95791000", Longitude = "-99.39416000" },
@@ -7765,6 +7789,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "25.00000010",
                     Longitude = "-107.50000010",
                     Type = "state",
+                    AlternateNames = new() { "Sin." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Adolfo López Mateos (El Tamarindo)", Latitude = "24.89639000", Longitude = "-107.63278000" },
@@ -8000,6 +8025,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "29.33333310",
                     Longitude = "-110.66666710",
                     Type = "state",
+                    AlternateNames = new() { "Son." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "31 de Octubre", Latitude = "27.29583000", Longitude = "-110.03750000" },
@@ -8175,6 +8201,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "17.99992880",
                     Longitude = "-92.66816590",
                     Type = "state",
+                    AlternateNames = new() { "Tab." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Acachapan y Colmena 3ra. Sección", Latitude = "18.04858000", Longitude = "-92.77750000" },
@@ -8404,6 +8431,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "23.98915530",
                     Longitude = "-98.70268250",
                     Type = "state",
+                    AlternateNames = new() { "Tamps." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abasolo", Latitude = "24.05844000", Longitude = "-98.37333000" },
@@ -8529,6 +8557,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "19.31815400",
                     Longitude = "-98.23749540",
                     Type = "state",
+                    AlternateNames = new() { "Tlax." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Acopinalco del Peñón", Latitude = "19.65929000", Longitude = "-98.16299000" },
@@ -8698,6 +8727,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "19.33333300",
                     Longitude = "-96.66666700",
                     Type = "state",
+                    AlternateNames = new() { "Ver.", "Veracruz" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abasolo del Valle", Latitude = "17.78306000", Longitude = "-95.54556000" },
@@ -9476,6 +9506,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "20.68459570",
                     Longitude = "-88.87556690",
                     Type = "state",
+                    AlternateNames = new() { "Yuc." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abala", Latitude = "20.64745000", Longitude = "-89.68094000" },
@@ -9691,6 +9722,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "22.77538910",
                     Longitude = "-102.57227060",
                     Type = "state",
+                    AlternateNames = new() { "Zac." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Agua Gorda", Latitude = "22.10669000", Longitude = "-101.92182000" },

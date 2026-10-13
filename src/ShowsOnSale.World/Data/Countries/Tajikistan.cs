@@ -141,7 +141,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 4,
-                    Name = "Nohiyahoi Tobei Jumhurí ",
+                    Name = "Nohiyahoi Tobei Jumhurí",
                     StateCode = "RA",
                     Iso3166_2 = "TJ-RA",
                     TimeZoneId = "Asia/Dushanbe",
@@ -171,7 +171,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 5,
-                    Name = "Sughd ",
+                    Name = "Sughd",
                     StateCode = "SU",
                     Iso3166_2 = "TJ-SU",
                     TimeZoneId = "Asia/Dushanbe",

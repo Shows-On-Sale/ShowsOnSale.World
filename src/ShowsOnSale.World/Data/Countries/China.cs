@@ -94,7 +94,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 18, Name = "Duji", Latitude = "34.09106100", Longitude = "116.33931430" },
                         new() { Id = 19, Name = "Fanchang", Latitude = "31.08379410", Longitude = "118.00716690" },
                         new() { Id = 20, Name = "Feidong", Latitude = "31.91493240", Longitude = "117.27431290" },
-                        new() { Id = 21, Name = "Feixi ", Latitude = "31.72667860", Longitude = "116.72848790" },
+                        new() { Id = 21, Name = "Feixi", Latitude = "31.72667860", Longitude = "116.72848790" },
                         new() { Id = 22, Name = "Fengtai", Latitude = "32.77871200", Longitude = "116.41432770" },
                         new() { Id = 23, Name = "Fengyang", Latitude = "32.83158000", Longitude = "117.22596350" },
                         new() { Id = 24, Name = "Funan", Latitude = "32.65675230", Longitude = "115.29017350" },

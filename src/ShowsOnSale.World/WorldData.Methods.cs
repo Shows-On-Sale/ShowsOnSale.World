@@ -83,11 +83,15 @@ public partial class WorldData
     }
     
     /// <summary>
-    /// Gets a state by its code. This method accepts an ISO2 or ISO3 country code and an ISO2 state code.
+    /// Gets a state by its name. This method accepts an ISO2 or ISO3 country code and the state's name or one
+    /// of its <see cref="Models.State.AlternateNames"/>, matched exactly and case-insensitively (after
+    /// trimming) against every state of the country, at any level. The name wins over an alternate name, so
+    /// <c>GetStateByName("ES", "Madrid")</c> is still the province of Madrid; use
+    /// <see cref="ResolveState(string, string)"/> for the first-level region of a free-form value.
     /// Returns null if the state is not found.
     /// </summary>
     /// <param name="countryCode">The ISO2 or ISO3 code of the country.</param>
-    /// <param name="stateName">The name of the state.</param>
+    /// <param name="stateName">The name or an alternate name of the state.</param>
     /// <returns>The state if found; otherwise, null.</returns>
     public static Models.State? GetStateByName(string countryCode, string stateName)
     {
@@ -100,6 +104,8 @@ public partial class WorldData
         var country = GetCountryByCode(countryCode);
 
         return country?.States.FirstOrDefault(s =>
-            string.Equals(s.Name, stateName, StringComparison.OrdinalIgnoreCase));
+                   string.Equals(s.Name, stateName, StringComparison.OrdinalIgnoreCase))
+               ?? country?.States.FirstOrDefault(s =>
+                   s.AlternateNames.Any(a => string.Equals(a, stateName, StringComparison.OrdinalIgnoreCase)));
     }
 }

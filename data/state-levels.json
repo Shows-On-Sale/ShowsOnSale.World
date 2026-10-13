@@ -1,0 +1,23 @@
+{
+  "description": "States that are below the first administrative level. Upstream lists some lower levels (boroughs, departments, provinces, districts) alongside the first-level regions; generate-world.ps1 sets State.IsTopLevel = false for every state of a country whose type is in lowerLevelTypes or whose code is in lowerLevelCodes. The lower-level type differs per country: \"province\" is the top level in Canada and China, so types are listed per country.",
+  "countries": {
+    "BE": { "lowerLevelTypes": ["province"] },
+    "CZ": { "lowerLevelTypes": ["district"] },
+    "ES": { "lowerLevelTypes": ["province"] },
+    "FR": {
+      "lowerLevelTypes": ["metropolitan department"],
+      "lowerLevelCodes": ["75C", "69M", "6AE"],
+      "note": "Paris (75C) and the Métropole de Lyon (69M) are typed like Corsica, and Alsace (6AE) is now part of Grand Est."
+    },
+    "GB": { "lowerLevelTypes": ["unitary authority", "metropolitan district", "council area", "london borough", "two-tier county", "district", "city"] },
+    "GR": { "lowerLevelTypes": ["regional unit"] },
+    "HU": { "lowerLevelTypes": ["city with county rights"] },
+    "IE": { "lowerLevelTypes": ["province"], "note": "The counties are the first level; the four provinces have no administrative role." },
+    "IT": { "lowerLevelTypes": ["province", "metropolitan city", "free municipal consortium", "decentralized regional entity", "autonomous province"] },
+    "LT": {
+      "lowerLevelTypes": ["district municipality", "municipality", "city municipality"],
+      "note": "The ten counties are the first level. Several municipalities share their county's name (Vilnius, Kaunas, Šiauliai…)."
+    },
+    "PH": { "lowerLevelTypes": ["province"] }
+  }
+}

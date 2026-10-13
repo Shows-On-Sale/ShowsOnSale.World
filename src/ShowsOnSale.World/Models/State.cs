@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace ShowsOnSale.World.Models
 {
@@ -37,6 +38,33 @@ namespace ShowsOnSale.World.Models
 
         /// <summary>Division type as classified upstream (e.g. <c>"state"</c>, <c>"province"</c>, <c>"territory"</c>).</summary>
         public required string Type { get; set; }
+
+        /// <summary>
+        /// Whether this is a first-level administrative division (the level Google reports as
+        /// <c>administrative_area_level_1</c>). Upstream lists some lower levels alongside them, e.g. the
+        /// London boroughs next to England, the French departments next to the regions, and the Spanish and
+        /// Italian provinces next to the communities and regions; those are <c>false</c>. Maintained in
+        /// <c>data/state-levels.json</c>. See <see cref="Country.TopLevelStates"/>.
+        /// </summary>
+        public bool IsTopLevel { get; set; } = true;
+
+        /// <summary>
+        /// Other names for the state that do not fold to <see cref="Name"/>: local-language names
+        /// (<c>"Wien"</c>, <c>"Toscana"</c>), English names (<c>"Brittany"</c>, <c>"Masovian"</c>), and
+        /// conventional abbreviations (<c>"NRW"</c>, <c>"Jal."</c>, <c>"CDMX"</c>). Maintained in
+        /// <c>data/state-names.json</c>; empty for most states.
+        /// </summary>
+        public List<string> AlternateNames { get; set; } = new();
+
+        /// <summary>
+        /// A short label for the state: the <see cref="StateCode"/> when it is a recognisable abbreviation of two
+        /// or more letters (<c>"BE"</c>, <c>"NRW"</c>-style codes such as <c>"ENG"</c>), otherwise the
+        /// <see cref="Name"/>. Codes that are numbers (Austria's <c>"9"</c> for Vienna), a single letter
+        /// (Ireland's <c>"D"</c> for Dublin), mix in digits (<c>"20R"</c> for Corsica) or are empty mean nothing to
+        /// a reader, so the name is used for those.
+        /// </summary>
+        [JsonIgnore]
+        public string ShortName => StateCode.Length >= 2 && StateCode.All(char.IsLetter) ? StateCode : Name;
 
         /// <summary>The cities within this state.</summary>
         public required List<City> Cities { get; set; }

@@ -72,6 +72,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-36.85209500",
                     Longitude = "174.76318030",
                     Type = "region",
+                    AlternateNames = new() { "Tāmaki Makaurau" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Auckland", Latitude = "-36.84853000", Longitude = "174.76349000" },

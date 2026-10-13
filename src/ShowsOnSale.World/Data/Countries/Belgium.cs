@@ -71,6 +71,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.21944750",
                     Longitude = "4.40246430",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -79,13 +80,14 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 2,
-                    Name = "Brussels-Capital ",
+                    Name = "Brussels-Capital",
                     StateCode = "BRU",
                     Iso3166_2 = "BE-BRU",
                     TimeZoneId = "Europe/Brussels",
                     Latitude = "50.83879510",
                     Longitude = "4.37530410",
                     Type = "region",
+                    AlternateNames = new() { "Brussels", "Bruxelles", "Brussels-Capital Region" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Brussels", Latitude = "50.85045000", Longitude = "4.34878000" }
@@ -102,6 +104,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.03754230",
                     Longitude = "3.81178300",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -117,6 +120,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.09624620",
                     Longitude = "4.17862910",
                     Type = "region",
+                    AlternateNames = new() { "Vlaanderen" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aalst", Latitude = "50.93604000", Longitude = "4.03550000" },
@@ -432,6 +436,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.86865160",
                     Longitude = "4.78862380",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -447,6 +452,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.36192000",
                     Longitude = "4.12521700",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -462,6 +468,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.64509440",
                     Longitude = "5.57361120",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -477,6 +484,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.99779370",
                     Longitude = "5.44535750",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -492,6 +500,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.96380050",
                     Longitude = "5.43980190",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -507,6 +516,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.46738830",
                     Longitude = "4.87198540",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -785,6 +795,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.66631060",
                     Longitude = "4.55000740",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -800,6 +811,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.04047470",
                     Longitude = "2.99942130",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }

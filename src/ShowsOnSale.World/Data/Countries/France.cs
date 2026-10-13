@@ -71,6 +71,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.06523850",
                     Longitude = "5.28477170",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -86,6 +87,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.45328540",
                     Longitude = "3.60689900",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -101,6 +103,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.36746410",
                     Longitude = "3.16388280",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -116,6 +119,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "44.16408320",
                     Longitude = "6.18785150",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -131,6 +135,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "43.94199960",
                     Longitude = "7.02026550",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -146,6 +151,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.00987120",
                     Longitude = "7.58750210",
                     Type = "European collectivity",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -161,6 +167,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "44.81519400",
                     Longitude = "4.39865250",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -176,6 +183,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.69801170",
                     Longitude = "4.67160050",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -191,6 +199,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "42.94553680",
                     Longitude = "1.40655440",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -206,6 +215,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.32019210",
                     Longitude = "4.19053970",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -221,6 +231,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "43.05427330",
                     Longitude = "2.51247150",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1453,6 +1464,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "44.31585740",
                     Longitude = "2.50656970",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1468,6 +1480,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.59917830",
                     Longitude = "7.53367290",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1483,6 +1496,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "43.54241820",
                     Longitude = "5.03432360",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1950,6 +1964,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.26408450",
                     Longitude = "-2.92024080",
                     Type = "metropolitan region",
+                    AlternateNames = new() { "Brittany" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Acigné", Latitude = "48.13333000", Longitude = "-1.53704000" },
@@ -2622,6 +2637,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.09076480",
                     Longitude = "-0.24139510",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2637,6 +2653,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "45.04977010",
                     Longitude = "2.69971760",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -3140,6 +3157,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "45.73022670",
                     Longitude = "-0.72128760",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -3155,6 +3173,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "45.73022670",
                     Longitude = "-0.72128760",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -3170,6 +3189,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.02488240",
                     Longitude = "2.57533340",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -3200,6 +3220,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "45.34290470",
                     Longitude = "1.81764240",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -3215,6 +3236,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "42.18808960",
                     Longitude = "9.06841380",
                     Type = "metropolitan collectivity with special status",
+                    AlternateNames = new() { "Corsica" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Afa", Latitude = "41.98396000", Longitude = "8.79833000" },
@@ -3258,6 +3280,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "41.87340830",
                     Longitude = "9.00870520",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Altagène", Latitude = "41.70979980", Longitude = "9.03244740" },
@@ -3377,6 +3400,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.46550340",
                     Longitude = "4.74812230",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -3392,6 +3416,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.46148770",
                     Longitude = "-2.75143280",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -3407,6 +3432,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.05934850",
                     Longitude = "2.04890100",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -3422,6 +3448,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.53914000",
                     Longitude = "-0.29947850",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -3437,6 +3464,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "45.14291980",
                     Longitude = "0.63212580",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -3452,6 +3480,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.93217740",
                     Longitude = "6.34762140",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -3467,6 +3496,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "44.72953470",
                     Longitude = "5.20463720",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -3482,6 +3512,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.53034020",
                     Longitude = "2.23929180",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -3497,6 +3528,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.07563580",
                     Longitude = "0.96518290",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -3512,6 +3544,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.44741020",
                     Longitude = "1.39988200",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -3527,6 +3560,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.24511520",
                     Longitude = "-4.04409020",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -3587,6 +3621,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "43.95995000",
                     Longitude = "4.29763700",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -3602,6 +3637,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "43.69552760",
                     Longitude = "0.41010190",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -3617,6 +3653,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "44.88374600",
                     Longitude = "-0.60512640",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -4536,6 +4573,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.86547460",
                     Longitude = "7.23154330",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -4551,6 +4589,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "42.42196980",
                     Longitude = "9.10090650",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aghione", Latitude = "42.09351770", Longitude = "9.32400680" },
@@ -4795,6 +4834,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "43.30545460",
                     Longitude = "0.97167920",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -4810,6 +4850,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "45.08572490",
                     Longitude = "3.83382610",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -4825,6 +4866,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.13294140",
                     Longitude = "5.25291080",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ageville", Latitude = "48.11003830", Longitude = "5.17310240" },
@@ -5244,6 +5286,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.63842330",
                     Longitude = "6.09511410",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -5259,6 +5302,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.06904060",
                     Longitude = "6.34453210",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -5274,6 +5318,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "45.91901920",
                     Longitude = "1.20317680",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -5289,6 +5334,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "44.65646660",
                     Longitude = "6.35202460",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -5304,6 +5350,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "43.14379250",
                     Longitude = "0.15866610",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -6241,6 +6288,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.84018590",
                     Longitude = "2.19863000",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -6256,6 +6304,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "43.59142200",
                     Longitude = "3.35533090",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -6968,6 +7017,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.17276810",
                     Longitude = "-1.64980920",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -6983,6 +7033,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.81210570",
                     Longitude = "1.53820520",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -6998,6 +7049,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.22320460",
                     Longitude = "0.68667030",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7013,6 +7065,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "45.28979320",
                     Longitude = "5.63438250",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7028,6 +7081,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.78336250",
                     Longitude = "5.78328570",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7058,6 +7112,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "44.00996940",
                     Longitude = "-0.64338720",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7073,6 +7128,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.65977520",
                     Longitude = "1.29718350",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7088,6 +7144,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.61507310",
                     Longitude = "-0.97843910",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7103,6 +7160,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.34816140",
                     Longitude = "-1.87274610",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7118,6 +7176,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.91387240",
                     Longitude = "2.30750360",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7133,6 +7192,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "44.62499180",
                     Longitude = "1.66577420",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7148,6 +7208,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "44.36917030",
                     Longitude = "0.45391580",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7163,6 +7224,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "44.54257060",
                     Longitude = "3.52111460",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Albaret-le-Comtal", Latitude = "44.86408830", Longitude = "3.06236370" },
@@ -7320,6 +7382,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.38863050",
                     Longitude = "-0.39090970",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7335,6 +7398,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.09189520",
                     Longitude = "-1.24549520",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7350,6 +7414,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.96126400",
                     Longitude = "4.31224360",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7380,6 +7445,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.30442180",
                     Longitude = "-0.61798710",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7410,6 +7476,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "45.74816160",
                     Longitude = "4.85568590",
                     Type = "metropolitan collectivity with special status",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7425,6 +7492,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.95596820",
                     Longitude = "5.98703830",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7440,6 +7508,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.01296850",
                     Longitude = "5.42866910",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abainville", Latitude = "48.53100980", Longitude = "5.48230790" },
@@ -7927,6 +7996,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.82598120",
                     Longitude = "-2.76334930",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7942,6 +8012,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.02072590",
                     Longitude = "6.53803520",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7957,6 +8028,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.11969710",
                     Longitude = "3.54488980",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7972,6 +8044,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.52896150",
                     Longitude = "3.08835080",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -7987,6 +8060,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.06777080",
                     Longitude = "0.31385320",
                     Type = "metropolitan region",
+                    AlternateNames = new() { "Normandy" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ablon", Latitude = "49.39214000", Longitude = "0.29584000" },
@@ -10338,6 +10412,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.41205460",
                     Longitude = "2.40648780",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -10353,6 +10428,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.57588800",
                     Longitude = "0.04487940",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -10368,6 +10444,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.85661400",
                     Longitude = "2.35222190",
                     Type = "metropolitan collectivity with special status",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -10383,6 +10460,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.51440610",
                     Longitude = "2.25800780",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11605,6 +11683,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "45.77264940",
                     Longitude = "2.96440700",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11620,6 +11699,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "43.18718650",
                     Longitude = "-0.72824740",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11635,6 +11715,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "42.62589400",
                     Longitude = "2.50650900",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11650,6 +11731,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "45.88023480",
                     Longitude = "4.56453360",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11710,6 +11792,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.65570860",
                     Longitude = "4.55855480",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11725,6 +11808,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.02692870",
                     Longitude = "0.25382170",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11740,6 +11824,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "45.49489520",
                     Longitude = "6.38466040",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11755,6 +11840,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.61902070",
                     Longitude = "3.04181580",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11770,6 +11856,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.66323740",
                     Longitude = "0.94011340",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11785,6 +11872,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.90981250",
                     Longitude = "2.45286350",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11800,6 +11888,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.96894820",
                     Longitude = "2.37388550",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11815,6 +11904,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "43.79217410",
                     Longitude = "2.13396480",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11830,6 +11920,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "44.08065600",
                     Longitude = "1.20506330",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11845,6 +11936,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.62923100",
                     Longitude = "6.89930120",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11860,6 +11952,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.07507040",
                     Longitude = "2.20981140",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11875,6 +11968,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.77448930",
                     Longitude = "2.45433210",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11890,6 +11984,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "43.41735510",
                     Longitude = "6.26646370",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11905,6 +12000,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "43.99386430",
                     Longitude = "5.18188980",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11920,6 +12016,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.67577320",
                     Longitude = "-1.29144630",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11935,6 +12032,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "45.52524000",
                     Longitude = "4.87477000",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11950,6 +12048,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.16378600",
                     Longitude = "6.38207120",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11980,6 +12079,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.85512570",
                     Longitude = "3.64504390",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -11995,6 +12095,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.76203730",
                     Longitude = "1.88713760",
                     Type = "metropolitan department",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }

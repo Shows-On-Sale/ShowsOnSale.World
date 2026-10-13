@@ -1,0 +1,150 @@
+{
+  "description": "Corrections and alternate names for states, keyed by country ISO2 code and then by state code. \"name\" replaces the upstream name where it is wrong or not in English; \"alternateNames\" become State.AlternateNames: local-language and English names and conventional abbreviations that do not fold to the state's name. A renamed state does not keep its upstream name automatically; list it under alternateNames when it is still a valid name (Denmark's Capital Region is deliberately not also called \"Denmark\"). Read by scripts/generate-world.ps1.",
+  "countries": {
+    "AT": {
+      "9": { "alternateNames": ["Wien"] }
+    },
+    "BE": {
+      "BRU": { "alternateNames": ["Brussels", "Bruxelles", "Brussels-Capital Region"] },
+      "VLG": { "alternateNames": ["Vlaanderen"] }
+    },
+    "CL": {
+      "RM": { "alternateNames": ["Santiago Metropolitan", "Santiago"] }
+    },
+    "CO": {
+      "DC": { "alternateNames": ["Bogotá"] }
+    },
+    "CZ": {
+      "10": { "name": "Prague", "alternateNames": ["Praha", "Hlavní město Praha", "Praha, Hlavní město"] },
+      "20": { "name": "Central Bohemian Region", "alternateNames": ["Středočeský kraj"] },
+      "31": { "name": "South Bohemian Region", "alternateNames": ["Jihočeský kraj"] },
+      "32": { "name": "Plzeň Region", "alternateNames": ["Plzeňský kraj"] },
+      "41": { "name": "Karlovy Vary Region", "alternateNames": ["Karlovarský kraj"] },
+      "42": { "name": "Ústí nad Labem Region", "alternateNames": ["Ústecký kraj"] },
+      "51": { "name": "Liberec Region", "alternateNames": ["Liberecký kraj"] },
+      "52": { "name": "Hradec Králové Region", "alternateNames": ["Královéhradecký kraj"] },
+      "53": { "name": "Pardubice Region", "alternateNames": ["Pardubický kraj"] },
+      "63": { "name": "Vysočina Region", "alternateNames": ["Kraj Vysočina"] },
+      "64": { "name": "South Moravian Region", "alternateNames": ["Jihomoravský kraj"] },
+      "71": { "name": "Olomouc Region", "alternateNames": ["Olomoucký kraj"] },
+      "72": { "name": "Zlín Region", "alternateNames": ["Zlínský kraj"] },
+      "80": { "name": "Moravian-Silesian Region", "alternateNames": ["Moravskoslezský kraj"] }
+    },
+    "DE": {
+      "NW": { "alternateNames": ["NRW", "Nordrhein-Westfalen"] },
+      "NI": { "alternateNames": ["Nds."] },
+      "BY": { "alternateNames": ["Bayern"] },
+      "HE": { "alternateNames": ["Hesse"] }
+    },
+    "DK": {
+      "84": { "name": "Capital Region of Denmark", "alternateNames": ["Region Hovedstaden", "Hovedstaden"] }
+    },
+    "ES": {
+      "MD": { "alternateNames": ["Madrid", "Comunidad de Madrid"] },
+      "EX": { "alternateNames": ["Extremadura"] },
+      "CL": { "alternateNames": ["Castilla y León"] },
+      "CT": { "alternateNames": ["Cataluña", "Catalunya"] },
+      "VC": { "alternateNames": ["Comunidad Valenciana"] }
+    },
+    "FI": {
+      "14": { "alternateNames": ["North Ostrobothnia", "Pohjois-Pohjanmaa"] },
+      "03": { "alternateNames": ["South Ostrobothnia"] },
+      "19": { "alternateNames": ["Southwest Finland"] },
+      "15": { "alternateNames": ["North Savo"] },
+      "04": { "alternateNames": ["South Savo"] },
+      "16": { "alternateNames": ["Päijät-Häme"] },
+      "06": { "alternateNames": ["Kanta-Häme"] },
+      "10": { "alternateNames": ["Lappi"] }
+    },
+    "FR": {
+      "BRE": { "alternateNames": ["Brittany"] },
+      "NOR": { "alternateNames": ["Normandy"] },
+      "20R": { "alternateNames": ["Corsica"] }
+    },
+    "GR": {
+      "I": { "alternateNames": ["Attiki"] }
+    },
+    "ID": {
+      "JK": { "alternateNames": ["Jakarta"] }
+    },
+    "IT": {
+      "52": { "alternateNames": ["Toscana"] },
+      "25": { "alternateNames": ["Lombardia"] },
+      "21": { "alternateNames": ["Piemonte"] },
+      "82": { "alternateNames": ["Sicilia"] },
+      "75": { "alternateNames": ["Puglia"] },
+      "88": { "alternateNames": ["Sardegna"] },
+      "23": { "alternateNames": ["Valle d'Aosta"] },
+      "32": { "alternateNames": ["Trentino-Alto Adige", "Trentino-Alto Adige/Südtirol"] }
+    },
+    "MX": {
+      "CMX": { "alternateNames": ["CDMX", "Mexico City"] },
+      "AGU": { "alternateNames": ["Ags."] },
+      "BCN": { "alternateNames": ["B.C."] },
+      "BCS": { "alternateNames": ["B.C.S."] },
+      "CAM": { "alternateNames": ["Camp."] },
+      "CHP": { "alternateNames": ["Chis."] },
+      "CHH": { "alternateNames": ["Chih."] },
+      "COA": { "alternateNames": ["Coah.", "Coahuila"] },
+      "COL": { "alternateNames": ["Col."] },
+      "DUR": { "alternateNames": ["Dgo."] },
+      "MEX": { "alternateNames": ["Méx.", "State of Mexico"] },
+      "GUA": { "alternateNames": ["Gto."] },
+      "GRO": { "alternateNames": ["Gro."] },
+      "HID": { "alternateNames": ["Hgo."] },
+      "JAL": { "alternateNames": ["Jal."] },
+      "MIC": { "alternateNames": ["Mich.", "Michoacán"] },
+      "MOR": { "alternateNames": ["Mor."] },
+      "NAY": { "alternateNames": ["Nay."] },
+      "NLE": { "alternateNames": ["N.L."] },
+      "OAX": { "alternateNames": ["Oax."] },
+      "PUE": { "alternateNames": ["Pue."] },
+      "QUE": { "alternateNames": ["Qro."] },
+      "ROO": { "alternateNames": ["Q.R."] },
+      "SLP": { "alternateNames": ["S.L.P."] },
+      "SIN": { "alternateNames": ["Sin."] },
+      "SON": { "alternateNames": ["Son."] },
+      "TAB": { "alternateNames": ["Tab."] },
+      "TAM": { "alternateNames": ["Tamps."] },
+      "TLA": { "alternateNames": ["Tlax."] },
+      "VER": { "alternateNames": ["Ver.", "Veracruz"] },
+      "YUC": { "alternateNames": ["Yuc."] },
+      "ZAC": { "alternateNames": ["Zac."] }
+    },
+    "MY": {
+      "14": { "alternateNames": ["Federal Territory of Kuala Lumpur"] }
+    },
+    "NL": {
+      "NH": { "alternateNames": ["Noord-Holland"] },
+      "ZH": { "alternateNames": ["Zuid-Holland"] }
+    },
+    "NZ": {
+      "AUK": { "alternateNames": ["Tāmaki Makaurau"] }
+    },
+    "PH": {
+      "00": { "name": "Metro Manila", "alternateNames": ["National Capital Region (Metro Manila)", "National Capital Region", "NCR"] }
+    },
+    "PL": {
+      "14": { "alternateNames": ["Masovian", "Masovia", "Mazowieckie"] },
+      "02": { "alternateNames": ["Lower Silesian"] },
+      "04": { "alternateNames": ["Kuyavian-Pomeranian"] },
+      "16": { "alternateNames": ["Opole"] },
+      "18": { "alternateNames": ["Subcarpathian"] },
+      "22": { "alternateNames": ["Pomeranian"] },
+      "24": { "alternateNames": ["Silesian"] },
+      "26": { "alternateNames": ["Świętokrzyskie"] },
+      "28": { "alternateNames": ["Warmian-Masurian"] },
+      "32": { "alternateNames": ["West Pomeranian"] },
+      "12": { "alternateNames": ["Małopolskie"] }
+    },
+    "PT": {
+      "11": { "alternateNames": ["Lisboa"] }
+    },
+    "RO": {
+      "B": { "alternateNames": ["București"] }
+    },
+    "SE": {
+      "AB": { "alternateNames": ["Stockholms län"] }
+    }
+  }
+}

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace ShowsOnSale.World.Models
 {
@@ -82,6 +83,14 @@ namespace ShowsOnSale.World.Models
 
         /// <summary>The administrative divisions (states/regions) of the country.</summary>
         public required List<State> States { get; set; }
+
+        /// <summary>
+        /// The first-level administrative divisions of the country: <see cref="States"/> without the lower
+        /// levels upstream lists alongside them (see <see cref="State.IsTopLevel"/>). For most countries this
+        /// is every state.
+        /// </summary>
+        [JsonIgnore]
+        public IReadOnlyList<State> TopLevelStates => States.Where(s => s.IsTopLevel).ToList();
 
         /// <summary>The <see cref="Latitude"/> parsed to a number (invariant culture), or null if unparseable.</summary>
         public double? LatitudeValue => GeoCoordinate.Parse(Latitude);

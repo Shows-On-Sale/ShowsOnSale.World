@@ -128,7 +128,9 @@ WorldData.Timezones                             // distinct timezones across all
 WorldData.GetCountryByCode("US")                // ISO2 or ISO3
 WorldData.GetCountryByName("United States")      // name or translation
 WorldData.GetStateByCode("US", "NY")            // by country + state code
-WorldData.GetStateByName("US", "New York")      // by country + state name
+WorldData.GetStateByName("US", "New York")      // by country + state name or alternate name
+WorldData.ResolveState("ES", "Madrid")          // free-form code/name/spelling → first-level region (MD)
+country.TopLevelStates                          // first-level regions only (no boroughs, provinces, …)
 
 WorldData.GetMetroAreaById("us-nyc")
 WorldData.GetMetroAreasByCountry("US")
@@ -173,6 +175,7 @@ public class Country
     public string Emoji { get; set; }
     public string EmojiU { get; set; }
     public List<State> States { get; set; }
+    public IReadOnlyList<State> TopLevelStates { get; } // States where IsTopLevel
 }
 ```
 
@@ -191,6 +194,9 @@ public class State
     public double? LatitudeValue { get; }
     public double? LongitudeValue { get; }
     public string Type { get; set; }               // "state", "province", "territory", ...
+    public bool IsTopLevel { get; set; }           // false for lower levels listed alongside (data/state-levels.json)
+    public List<string> AlternateNames { get; set; } // e.g. "Wien", "NRW", "Jal." (data/state-names.json)
+    public string ShortName { get; }               // StateCode if 2+ letters, else Name ("9" → "Vienna")
     public List<City> Cities { get; set; }
 }
 ```

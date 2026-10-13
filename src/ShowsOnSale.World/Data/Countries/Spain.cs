@@ -73,6 +73,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "43.37097030",
                     Longitude = "-8.39594250",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abegondo", Latitude = "43.21667000", Longitude = "-8.28333000" },
@@ -184,6 +185,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "38.99509210",
                     Longitude = "-1.85591540",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abengibre", Latitude = "39.21050490", Longitude = "-1.54144360" },
@@ -286,6 +288,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "38.34363650",
                     Longitude = "-0.48817080",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Adsubia", Latitude = "38.84819000", Longitude = "-0.15324000" },
@@ -442,6 +445,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "36.84141970",
                     Longitude = "-2.46281350",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abla", Latitude = "37.14245000", Longitude = "-2.77808000" },
@@ -574,6 +578,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "42.84407220",
                     Longitude = "-2.68208290",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alegría-Dulantzi", Latitude = "42.84409400", Longitude = "-2.51195500" },
@@ -655,6 +660,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "43.31338680",
                     Longitude = "-5.94192000",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Allande", Latitude = "43.24883760", Longitude = "-6.70659140" },
@@ -762,6 +768,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "40.62327680",
                     Longitude = "-4.83542020",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Adanero", Latitude = "40.94487000", Longitude = "-4.60561000" },
@@ -1025,6 +1032,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "38.87818700",
                     Longitude = "-6.97011150",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Acedera", Latitude = "39.07678000", Longitude = "-5.57384000" },
@@ -1218,6 +1226,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "41.38258020",
                     Longitude = "2.17707300",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abrera", Latitude = "41.51682000", Longitude = "1.90100000" },
@@ -1559,6 +1568,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "43.23848200",
                     Longitude = "-2.85163160",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abadiño", Latitude = "43.15102980", Longitude = "-2.61126240" },
@@ -1686,6 +1696,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "42.32471420",
                     Longitude = "-3.67653890",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abajas", Latitude = "42.62310000", Longitude = "-3.58086000" },
@@ -2072,6 +2083,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "39.47451750",
                     Longitude = "-6.37167610",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abadía", Latitude = "40.25922000", Longitude = "-5.97828000" },
@@ -2306,6 +2318,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "36.52974380",
                     Longitude = "-6.29289760",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alcalá de los Gazules", Latitude = "36.46212000", Longitude = "-5.72382000" },
@@ -2380,6 +2393,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "43.15956640",
                     Longitude = "-4.08783820",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alfoz de Lloredo", Latitude = "43.37858300", Longitude = "-4.18209610" },
@@ -2517,6 +2531,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "40.25185680",
                     Longitude = "-0.06150520",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aín", Latitude = "39.90015430", Longitude = "-0.34101070" },
@@ -2667,6 +2682,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "41.55005000",
                     Longitude = "-5.13874010",
                     Type = "autonomous community",
+                    AlternateNames = new() { "Castilla y León" },
                     Cities = new()
                     {
                     }
@@ -2697,6 +2713,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "41.85230940",
                     Longitude = "1.57450430",
                     Type = "autonomous community",
+                    AlternateNames = new() { "Cataluña", "Catalunya" },
                     Cities = new()
                     {
                     }
@@ -2727,6 +2744,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "38.98542010",
                     Longitude = "-3.92851380",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abenójar", Latitude = "38.88032000", Longitude = "-4.35702000" },
@@ -2843,6 +2861,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "40.52483190",
                     Longitude = "-3.77156280",
                     Type = "autonomous community",
+                    AlternateNames = new() { "Madrid", "Comunidad de Madrid" },
                     Cities = new()
                     {
                     }
@@ -2858,6 +2877,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "37.95671160",
                     Longitude = "-4.84772410",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Adamuz", Latitude = "38.02674000", Longitude = "-4.52231000" },
@@ -2948,6 +2968,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "40.06610310",
                     Longitude = "-2.13135280",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abia de la Obispalía", Latitude = "40.01863040", Longitude = "-2.39536820" },
@@ -3200,6 +3221,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "39.17484260",
                     Longitude = "-6.15298910",
                     Type = "autonomous community",
+                    AlternateNames = new() { "Extremadura" },
                     Cities = new()
                     {
                     }
@@ -3230,6 +3252,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "43.14452780",
                     Longitude = "-2.20379550",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abaltzisketa", Latitude = "43.04844360", Longitude = "-2.10544830" },
@@ -3333,6 +3356,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "41.97930060",
                     Longitude = "2.81994390",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Agullana", Latitude = "42.39408000", Longitude = "2.84666000" },
@@ -3568,6 +3592,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "37.17349950",
                     Longitude = "-3.59953370",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Agrón", Latitude = "37.03023000", Longitude = "-3.82870000" },
@@ -3751,6 +3776,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "40.63269790",
                     Longitude = "-3.16460670",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abánades", Latitude = "40.89261000", Longitude = "-2.48526000" },
@@ -4054,6 +4080,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "37.25758740",
                     Longitude = "-6.94849450",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alájar", Latitude = "37.87408000", Longitude = "-6.66536000" },
@@ -4148,6 +4175,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "42.13637860",
                     Longitude = "-0.43658370",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abiego", Latitude = "42.12094000", Longitude = "-0.06873000" },
@@ -4385,6 +4413,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "39.61343200",
                     Longitude = "2.88291850",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alaior", Latitude = "39.93034000", Longitude = "4.14039000" },
@@ -4498,6 +4527,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "37.77288580",
                     Longitude = "-3.78832890",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Albanchez de Mágina", Latitude = "37.79188780", Longitude = "-3.46812120" },
@@ -4625,6 +4655,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "42.28146420",
                     Longitude = "-2.48280500",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ábalos", Latitude = "42.57154000", Longitude = "-2.70956000" },
@@ -4816,6 +4847,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "27.95800040",
                     Longitude = "-15.60623050",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Agaete", Latitude = "28.10023000", Longitude = "-15.69998000" },
@@ -4905,6 +4937,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "42.59870410",
                     Longitude = "-5.56708390",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Acebedo", Latitude = "43.03969000", Longitude = "-5.11600000" },
@@ -5168,6 +5201,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "41.61476050",
                     Longitude = "0.62678420",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abella de la Conca", Latitude = "42.16150740", Longitude = "1.09199750" },
@@ -5414,6 +5448,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "43.01184370",
                     Longitude = "-7.55657490",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abadín", Latitude = "43.36667000", Longitude = "-7.48333000" },
@@ -5498,6 +5533,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "40.41675150",
                     Longitude = "-3.70383220",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ajalvir", Latitude = "40.53205000", Longitude = "-3.47841000" },
@@ -5732,6 +5768,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "36.72130280",
                     Longitude = "-4.42163660",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alameda", Latitude = "37.20870000", Longitude = "-4.65860000" },
@@ -5863,6 +5900,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "37.99237950",
                     Longitude = "-1.13054310",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abanilla", Latitude = "38.20537000", Longitude = "-1.04153000" },
@@ -5940,6 +5978,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "42.61254880",
                     Longitude = "-1.83078770",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abáigar", Latitude = "42.64823000", Longitude = "-2.14182000" },
@@ -6280,6 +6319,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "42.34389320",
                     Longitude = "-7.85717920",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Allariz", Latitude = "42.19044000", Longitude = "-7.80175000" },
@@ -6392,6 +6432,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "42.00968320",
                     Longitude = "-4.52879490",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abarca de Campos", Latitude = "42.06249640", Longitude = "-4.84136960" },
@@ -6598,6 +6639,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "42.43188760",
                     Longitude = "-8.64315920",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Agolada", Latitude = "42.76170210", Longitude = "-8.02061040" },
@@ -6693,6 +6735,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "40.76655820",
                     Longitude = "-6.02176500",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abusejo", Latitude = "40.70900000", Longitude = "-6.14074000" },
@@ -7070,6 +7113,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "28.46717800",
                     Longitude = "-16.25078430",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Adeje", Latitude = "28.12271000", Longitude = "-16.72600000" },
@@ -7139,6 +7183,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "40.94292960",
                     Longitude = "-4.10889420",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abades", Latitude = "40.91646000", Longitude = "-4.26937000" },
@@ -7363,6 +7408,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "37.38863030",
                     Longitude = "-5.99534030",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aguadulce", Latitude = "37.25273000", Longitude = "-4.99269000" },
@@ -7483,6 +7529,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "41.76338420",
                     Longitude = "-2.46420410",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abejar", Latitude = "41.80755000", Longitude = "-2.78407000" },
@@ -7681,6 +7728,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "41.11723640",
                     Longitude = "1.25460570",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aiguamúrcia", Latitude = "41.32962240", Longitude = "1.35867930" },
@@ -7880,6 +7928,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "40.34504100",
                     Longitude = "-1.11847440",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ababuj", Latitude = "40.54908000", Longitude = "-0.80758000" },
@@ -8130,6 +8179,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "39.85606790",
                     Longitude = "-4.02395680",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ajofrín", Latitude = "39.71088000", Longitude = "-3.98220000" },
@@ -8349,6 +8399,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "39.33420580",
                     Longitude = "-0.79734740",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ademuz", Latitude = "40.06139000", Longitude = "-1.28677000" },
@@ -8709,6 +8760,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "39.68195910",
                     Longitude = "-0.76544060",
                     Type = "autonomous community",
+                    AlternateNames = new() { "Comunidad Valenciana" },
                     Cities = new()
                     {
                     }
@@ -8724,6 +8776,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "41.65173750",
                     Longitude = "-4.72449500",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Adalia", Latitude = "41.64894000", Longitude = "-5.12107000" },
@@ -8964,6 +9017,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "41.68576930",
                     Longitude = "-5.94231500",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abezames", Latitude = "41.62642000", Longitude = "-5.42577000" },
@@ -9227,6 +9281,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "41.65213420",
                     Longitude = "-0.88094280",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abanto", Latitude = "41.13751000", Longitude = "-1.69818000" },

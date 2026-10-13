@@ -169,6 +169,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "3.15169640",
                     Longitude = "101.69423710",
                     Type = "federal territory",
+                    AlternateNames = new() { "Federal Territory of Kuala Lumpur" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Kuala Lumpur", Latitude = "3.14120000", Longitude = "101.68653000" }

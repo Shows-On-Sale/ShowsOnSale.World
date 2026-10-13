@@ -323,6 +323,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.75048940",
                     Longitude = "20.78291220",
                     Type = "voivodship",
+                    AlternateNames = new() { "Świętokrzyskie" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Baćkowice", Latitude = "50.79194000", Longitude = "21.23211000" },
@@ -444,6 +445,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.16483630",
                     Longitude = "18.48342240",
                     Type = "voivodship",
+                    AlternateNames = new() { "Kuyavian-Pomeranian" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aleksandrów Kujawski", Latitude = "52.87659000", Longitude = "18.69345000" },
@@ -584,6 +586,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.79095200",
                     Longitude = "20.37935210",
                     Type = "voivodship",
+                    AlternateNames = new() { "Małopolskie" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alwernia", Latitude = "50.06056000", Longitude = "19.53953000" },
@@ -959,6 +962,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.92060280",
                     Longitude = "16.49463510",
                     Type = "voivodship",
+                    AlternateNames = new() { "Lower Silesian" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bardo", Latitude = "50.50589000", Longitude = "16.73986000" },
@@ -1657,6 +1661,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.54619340",
                     Longitude = "21.20734040",
                     Type = "voivodship",
+                    AlternateNames = new() { "Masovian", "Masovia", "Mazowieckie" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Baboszewo", Latitude = "52.68070000", Longitude = "20.25527000" },
@@ -2080,6 +2085,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.24556000",
                     Longitude = "18.10990000",
                     Type = "voivodship",
+                    AlternateNames = new() { "Pomeranian" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Banino", Latitude = "54.39215000", Longitude = "18.40622000" },
@@ -2225,6 +2231,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.56874220",
                     Longitude = "19.23439950",
                     Type = "voivodship",
+                    AlternateNames = new() { "Silesian" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bąków", Latitude = "49.89342000", Longitude = "18.71495000" },
@@ -2535,6 +2542,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.31134020",
                     Longitude = "22.43259070",
                     Type = "voivodship",
+                    AlternateNames = new() { "Subcarpathian" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Adamówka", Latitude = "50.25857000", Longitude = "22.69595000" },
@@ -2798,6 +2806,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.24665260",
                     Longitude = "18.64536960",
                     Type = "voivodship",
+                    AlternateNames = new() { "Opole" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Baborów", Latitude = "50.15760000", Longitude = "17.98513000" },
@@ -2906,6 +2915,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.93118920",
                     Longitude = "21.12608080",
                     Type = "voivodship",
+                    AlternateNames = new() { "Warmian-Masurian" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Banie Mazurskie", Latitude = "54.24662000", Longitude = "22.03617000" },
@@ -3004,6 +3014,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.54507930",
                     Longitude = "15.56615860",
                     Type = "voivodship",
+                    AlternateNames = new() { "West Pomeranian" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Banie", Latitude = "53.10031000", Longitude = "14.66228000" },

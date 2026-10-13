@@ -116,6 +116,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.72102780",
                     Longitude = "-8.92525600",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Athenry", Latitude = "53.29639000", Longitude = "-8.74306000" },
@@ -293,6 +294,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "53.11846500",
                     Longitude = "-6.99181830",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abbeyleix", Latitude = "52.91331000", Longitude = "-7.34456000" },
@@ -624,6 +626,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.30762160",
                     Longitude = "-8.57089730",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abbeyfeale", Latitude = "52.38139000", Longitude = "-9.30250000" },
@@ -781,6 +784,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.09346590",
                     Longitude = "-7.19897940",
                     Type = "province",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "An Cabhán", Latitude = "53.91667000", Longitude = "-7.25000000" },
