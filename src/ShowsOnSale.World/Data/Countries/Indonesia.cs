@@ -225,6 +225,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-6.17540490",
                     Longitude = "106.82716800",
                     Type = "capital district",
+                    AlternateNames = new() { "Jakarta" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Jakarta Barat", Latitude = "-6.15999160", Longitude = "106.67485740" },

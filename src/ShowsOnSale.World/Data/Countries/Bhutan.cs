@@ -64,7 +64,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 1,
-                    Name = "Bumthang ",
+                    Name = "Bumthang",
                     StateCode = "33",
                     Iso3166_2 = "BT-33",
                     TimeZoneId = "Asia/Thimphu",
@@ -81,7 +81,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 2,
-                    Name = "Chukha ",
+                    Name = "Chukha",
                     StateCode = "12",
                     Iso3166_2 = "BT-12",
                     TimeZoneId = "Asia/Thimphu",
@@ -102,7 +102,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 3,
-                    Name = "Dagana ",
+                    Name = "Dagana",
                     StateCode = "22",
                     Iso3166_2 = "BT-22",
                     TimeZoneId = "Asia/Thimphu",
@@ -120,7 +120,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 4,
-                    Name = "Gasa ",
+                    Name = "Gasa",
                     StateCode = "GA",
                     Iso3166_2 = "BT-GA",
                     TimeZoneId = "Asia/Thimphu",
@@ -136,7 +136,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 5,
-                    Name = "Haa ",
+                    Name = "Haa",
                     StateCode = "13",
                     Iso3166_2 = "BT-13",
                     TimeZoneId = "Asia/Thimphu",
@@ -154,7 +154,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 6,
-                    Name = "Lhuntse ",
+                    Name = "Lhuntse",
                     StateCode = "44",
                     Iso3166_2 = "BT-44",
                     TimeZoneId = "Asia/Thimphu",
@@ -170,7 +170,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 7,
-                    Name = "Mongar ",
+                    Name = "Mongar",
                     StateCode = "42",
                     Iso3166_2 = "BT-42",
                     TimeZoneId = "Asia/Thimphu",
@@ -188,7 +188,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 8,
-                    Name = "Paro ",
+                    Name = "Paro",
                     StateCode = "11",
                     Iso3166_2 = "BT-11",
                     TimeZoneId = "Asia/Thimphu",
@@ -206,7 +206,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 9,
-                    Name = "Pemagatshel ",
+                    Name = "Pemagatshel",
                     StateCode = "43",
                     Iso3166_2 = "BT-43",
                     TimeZoneId = "Asia/Thimphu",
@@ -223,7 +223,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 10,
-                    Name = "Punakha ",
+                    Name = "Punakha",
                     StateCode = "23",
                     Iso3166_2 = "BT-23",
                     TimeZoneId = "Asia/Thimphu",
@@ -240,7 +240,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 11,
-                    Name = "Samdrup Jongkhar ",
+                    Name = "Samdrup Jongkhar",
                     StateCode = "45",
                     Iso3166_2 = "BT-45",
                     TimeZoneId = "Asia/Thimphu",
@@ -256,7 +256,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 12,
-                    Name = "Samtse ",
+                    Name = "Samtse",
                     StateCode = "14",
                     Iso3166_2 = "BT-14",
                     TimeZoneId = "Asia/Thimphu",
@@ -275,7 +275,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 13,
-                    Name = "Sarpang ",
+                    Name = "Sarpang",
                     StateCode = "31",
                     Iso3166_2 = "BT-31",
                     TimeZoneId = "Asia/Thimphu",
@@ -294,7 +294,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 14,
-                    Name = "Thimphu ",
+                    Name = "Thimphu",
                     StateCode = "15",
                     Iso3166_2 = "BT-15",
                     TimeZoneId = "Asia/Thimphu",
@@ -310,7 +310,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 15,
-                    Name = "Trashi Yangtse	",
+                    Name = "Trashi Yangtse",
                     StateCode = "TY",
                     Iso3166_2 = "BT-TY",
                     TimeZoneId = "Asia/Thimphu",
@@ -328,7 +328,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 16,
-                    Name = "Trashigang ",
+                    Name = "Trashigang",
                     StateCode = "41",
                     Iso3166_2 = "BT-41",
                     TimeZoneId = "Asia/Thimphu",
@@ -351,7 +351,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 17,
-                    Name = "Trongsa ",
+                    Name = "Trongsa",
                     StateCode = "32",
                     Iso3166_2 = "BT-32",
                     TimeZoneId = "Asia/Thimphu",
@@ -367,7 +367,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 18,
-                    Name = "Tsirang ",
+                    Name = "Tsirang",
                     StateCode = "21",
                     Iso3166_2 = "BT-21",
                     TimeZoneId = "Asia/Thimphu",
@@ -386,7 +386,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 19,
-                    Name = "Wangdue Phodrang ",
+                    Name = "Wangdue Phodrang",
                     StateCode = "24",
                     Iso3166_2 = "BT-24",
                     TimeZoneId = "Asia/Thimphu",
@@ -404,7 +404,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 20,
-                    Name = "Zhemgang ",
+                    Name = "Zhemgang",
                     StateCode = "34",
                     Iso3166_2 = "BT-34",
                     TimeZoneId = "Asia/Thimphu",

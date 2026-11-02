@@ -174,13 +174,14 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 2,
-                    Name = "Denmark",
+                    Name = "Capital Region of Denmark",
                     StateCode = "84",
                     Iso3166_2 = "DK-84",
                     TimeZoneId = "Europe/Copenhagen",
                     Latitude = "55.67024900",
                     Longitude = "10.33332830",
                     Type = "region",
+                    AlternateNames = new() { "Region Hovedstaden", "Hovedstaden" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Åkirkeby", Latitude = "55.07080000", Longitude = "14.91978000" },

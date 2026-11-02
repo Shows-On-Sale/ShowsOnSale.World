@@ -71,6 +71,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.78189210",
                     Longitude = "14.68691210",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -86,6 +87,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.96402920",
                     Longitude = "14.07339070",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -101,6 +103,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.36485020",
                     Longitude = "16.64775520",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -116,6 +119,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.75314000",
                     Longitude = "16.88251690",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -131,6 +135,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.19506020",
                     Longitude = "16.60683710",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -146,6 +151,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.17618380",
                     Longitude = "16.38816430",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -161,6 +167,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.98817670",
                     Longitude = "17.46369410",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -176,6 +183,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.67852010",
                     Longitude = "14.53969910",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -191,6 +199,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.97473570",
                     Longitude = "14.47428500",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -206,6 +215,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.81273540",
                     Longitude = "14.31746570",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -221,6 +231,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.07953340",
                     Longitude = "12.36986360",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -236,6 +247,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.46064560",
                     Longitude = "13.41783240",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -251,6 +263,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.95114580",
                     Longitude = "15.79475590",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -266,6 +279,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.78241960",
                     Longitude = "14.21472210",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -281,6 +295,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.43970270",
                     Longitude = "12.93114350",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -296,6 +311,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.68563500",
                     Longitude = "18.34834160",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -311,6 +327,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.60433640",
                     Longitude = "15.57965520",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -326,6 +343,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.85293910",
                     Longitude = "17.12600250",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -341,6 +359,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.20921130",
                     Longitude = "15.83275120",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -356,6 +375,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.72205280",
                     Longitude = "15.17031350",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -371,6 +391,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.22462490",
                     Longitude = "17.19804710",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -386,6 +407,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.43533250",
                     Longitude = "15.36104400",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -401,6 +423,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.39837820",
                     Longitude = "15.58704150",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -409,13 +432,14 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 24,
-                    Name = "Jihočeský kraj",
+                    Name = "South Bohemian Region",
                     StateCode = "31",
                     Iso3166_2 = "CZ-31",
                     TimeZoneId = "Europe/Prague",
                     Latitude = "49.08645480",
                     Longitude = "14.60017270",
                     Type = "region",
+                    AlternateNames = new() { "Jihočeský kraj" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bavorov", Latitude = "49.12184000", Longitude = "14.07893000" },
@@ -526,13 +550,14 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 25,
-                    Name = "Jihomoravský kraj",
+                    Name = "South Moravian Region",
                     StateCode = "64",
                     Iso3166_2 = "CZ-64",
                     TimeZoneId = "Europe/Prague",
                     Latitude = "49.12491790",
                     Longitude = "16.68277160",
                     Type = "region",
+                    AlternateNames = new() { "Jihomoravský kraj" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Adamov", Latitude = "49.30162000", Longitude = "16.65253000" },
@@ -719,6 +744,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.14448230",
                     Longitude = "15.00613890",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -727,13 +753,14 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 27,
-                    Name = "Karlovarský kraj",
+                    Name = "Karlovy Vary Region",
                     StateCode = "41",
                     Iso3166_2 = "CZ-41",
                     TimeZoneId = "Europe/Prague",
                     Latitude = "50.17535320",
                     Longitude = "12.80608630",
                     Type = "region",
+                    AlternateNames = new() { "Karlovarský kraj" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abertamy", Latitude = "50.36874000", Longitude = "12.81826000" },
@@ -795,6 +822,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.23062160",
                     Longitude = "12.87014370",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -810,6 +838,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.85665240",
                     Longitude = "18.54321860",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -825,6 +854,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.14784970",
                     Longitude = "14.10253790",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -840,6 +870,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.39555490",
                     Longitude = "13.29509370",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -855,6 +886,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.02888940",
                     Longitude = "15.20115710",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -863,13 +895,14 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 33,
-                    Name = "Kraj Vysočina",
+                    Name = "Vysočina Region",
                     StateCode = "63",
                     Iso3166_2 = "CZ-63",
                     TimeZoneId = "Europe/Prague",
                     Latitude = "49.39940980",
                     Longitude = "15.57046830",
                     Type = "region",
+                    AlternateNames = new() { "Kraj Vysočina" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Batelov", Latitude = "49.31425000", Longitude = "15.39465000" },
@@ -945,13 +978,14 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 34,
-                    Name = "Královéhradecký kraj",
+                    Name = "Hradec Králové Region",
                     StateCode = "52",
                     Iso3166_2 = "CZ-52",
                     TimeZoneId = "Europe/Prague",
                     Latitude = "50.40939270",
                     Longitude = "15.68500540",
                     Type = "region",
+                    AlternateNames = new() { "Královéhradecký kraj" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Albrechtice nad Orlicí", Latitude = "50.13979000", Longitude = "16.06437000" },
@@ -1044,6 +1078,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.29165820",
                     Longitude = "17.39938000",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1059,6 +1094,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.94865610",
                     Longitude = "15.26811230",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1074,6 +1110,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.77026480",
                     Longitude = "15.05839470",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1082,13 +1119,14 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 38,
-                    Name = "Liberecký kraj",
+                    Name = "Liberec Region",
                     StateCode = "51",
                     Iso3166_2 = "CZ-51",
                     TimeZoneId = "Europe/Prague",
                     Latitude = "50.74760400",
                     Longitude = "14.99031030",
                     Type = "region",
+                    AlternateNames = new() { "Liberecký kraj" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Benecko", Latitude = "50.66633000", Longitude = "15.54816000" },
@@ -1163,6 +1201,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.53841970",
                     Longitude = "14.13054580",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1178,6 +1217,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.35398120",
                     Longitude = "13.80335510",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1193,6 +1233,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.35207850",
                     Longitude = "14.47482810",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1208,6 +1249,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.41161870",
                     Longitude = "14.90313010",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1216,13 +1258,14 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 43,
-                    Name = "Moravskoslezský kraj",
+                    Name = "Moravian-Silesian Region",
                     StateCode = "80",
                     Iso3166_2 = "CZ-80",
                     TimeZoneId = "Europe/Prague",
                     Latitude = "49.86027500",
                     Longitude = "18.03865410",
                     Type = "region",
+                    AlternateNames = new() { "Moravskoslezský kraj" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Albrechtice", Latitude = "49.78645000", Longitude = "18.52444000" },
@@ -1387,6 +1430,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.50327370",
                     Longitude = "13.63611200",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1402,6 +1446,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.41457220",
                     Longitude = "16.16563470",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1417,6 +1462,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.59432510",
                     Longitude = "18.01353560",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1432,6 +1478,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.18558160",
                     Longitude = "15.04366040",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1447,6 +1494,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.59377800",
                     Longitude = "17.25087870",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1455,13 +1503,14 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 49,
-                    Name = "Olomoucký kraj",
+                    Name = "Olomouc Region",
                     StateCode = "71",
                     Iso3166_2 = "CZ-71",
                     TimeZoneId = "Europe/Prague",
                     Latitude = "49.85910580",
                     Longitude = "16.95612670",
                     Type = "region",
+                    AlternateNames = new() { "Olomoucký kraj" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bedihošť", Latitude = "49.44826000", Longitude = "17.16643000" },
@@ -1591,6 +1640,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.93890040",
                     Longitude = "17.90241740",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1606,6 +1656,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.83491390",
                     Longitude = "18.28200840",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1621,6 +1672,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.03858120",
                     Longitude = "15.77913560",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1629,13 +1681,14 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 53,
-                    Name = "Pardubický kraj",
+                    Name = "Pardubice Region",
                     StateCode = "53",
                     Iso3166_2 = "CZ-53",
                     TimeZoneId = "Europe/Prague",
                     Latitude = "49.88981900",
                     Longitude = "16.12832540",
                     Type = "region",
+                    AlternateNames = new() { "Pardubický kraj" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Brandýs nad Orlicí", Latitude = "50.00194000", Longitude = "16.28528000" },
@@ -1726,6 +1779,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.43062070",
                     Longitude = "15.22298300",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1741,6 +1795,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.30898870",
                     Longitude = "14.14776900",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1756,6 +1811,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.55224210",
                     Longitude = "13.43426140",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bělá nad Radbuzou", Latitude = "49.59115000", Longitude = "12.71761000" },
@@ -1860,6 +1916,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.74774150",
                     Longitude = "13.37752490",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1875,6 +1932,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.88142340",
                     Longitude = "13.28128810",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1883,13 +1941,14 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 59,
-                    Name = "Plzeňský kraj",
+                    Name = "Plzeň Region",
                     StateCode = "32",
                     Iso3166_2 = "CZ-32",
                     TimeZoneId = "Europe/Prague",
                     Latitude = "49.52281020",
                     Longitude = "13.20631180",
                     Type = "region",
+                    AlternateNames = new() { "Plzeňský kraj" },
                     Cities = new()
                     {
                     }
@@ -1905,6 +1964,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.01091000",
                     Longitude = "14.00000050",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1920,6 +1980,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.08281120",
                     Longitude = "14.71921790",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1935,6 +1996,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.99844200",
                     Longitude = "14.26342830",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1943,13 +2005,14 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 63,
-                    Name = "Praha, Hlavní město",
+                    Name = "Prague",
                     StateCode = "10",
                     Iso3166_2 = "CZ-10",
                     TimeZoneId = "Europe/Prague",
                     Latitude = "50.05962880",
                     Longitude = "14.44645930",
                     Type = "capital city",
+                    AlternateNames = new() { "Praha", "Hlavní město Praha", "Praha, Hlavní město" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Braník", Latitude = "50.03498000", Longitude = "14.41518000" },
@@ -1988,6 +2051,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.45537750",
                     Longitude = "17.45086210",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2003,6 +2067,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.69014440",
                     Longitude = "14.01036630",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2018,6 +2083,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.47214670",
                     Longitude = "17.11179790",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2033,6 +2099,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.10612300",
                     Longitude = "13.73966230",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2048,6 +2115,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.80024140",
                     Longitude = "13.64745770",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2063,6 +2131,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.16596510",
                     Longitude = "16.27768420",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2078,6 +2147,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.60515760",
                     Longitude = "15.32814090",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2093,6 +2163,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.18090970",
                     Longitude = "12.63949860",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2108,6 +2179,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.26040430",
                     Longitude = "13.91030850",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2116,13 +2188,14 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 73,
-                    Name = "Středočeský kraj",
+                    Name = "Central Bohemian Region",
                     StateCode = "20",
                     Iso3166_2 = "CZ-20",
                     TimeZoneId = "Europe/Prague",
                     Latitude = "50.06015790",
                     Longitude = "13.83074790",
                     Type = "region",
+                    AlternateNames = new() { "Středočeský kraj" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bakov nad Jizerou", Latitude = "50.48230000", Longitude = "14.94149000" },
@@ -2329,6 +2402,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.96555210",
                     Longitude = "16.97056510",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2344,6 +2418,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.75516290",
                     Longitude = "16.46918610",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2359,6 +2434,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.41415330",
                     Longitude = "14.65872340",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2374,6 +2450,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.79878030",
                     Longitude = "12.63619210",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2389,6 +2466,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.64066440",
                     Longitude = "13.82444610",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2404,6 +2482,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.21478690",
                     Longitude = "15.87955160",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2419,6 +2498,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.56538380",
                     Longitude = "15.90909230",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2434,6 +2514,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.06810180",
                     Longitude = "17.46638990",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2442,13 +2523,14 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 82,
-                    Name = "Ústecký kraj",
+                    Name = "Ústí nad Labem Region",
                     StateCode = "42",
                     Iso3166_2 = "CZ-42",
                     TimeZoneId = "Europe/Prague",
                     Latitude = "50.56632660",
                     Longitude = "13.82067050",
                     Type = "region",
+                    AlternateNames = new() { "Ústecký kraj" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bechlín", Latitude = "50.41615000", Longitude = "14.34092000" },
@@ -2557,6 +2639,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.66033270",
                     Longitude = "14.03813570",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2572,6 +2655,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.97218010",
                     Longitude = "16.39966170",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2587,6 +2671,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.33897750",
                     Longitude = "17.99615340",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2602,6 +2687,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.27781940",
                     Longitude = "16.99944460",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2617,6 +2703,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.56430120",
                     Longitude = "15.93910300",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -2632,6 +2719,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "49.22676600",
                     Longitude = "17.66674150",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Babice", Latitude = "49.12167000", Longitude = "17.48075000" },
@@ -2739,13 +2827,14 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 89,
-                    Name = "Zlínský kraj",
+                    Name = "Zlín Region",
                     StateCode = "72",
                     Iso3166_2 = "CZ-72",
                     TimeZoneId = "Europe/Prague",
                     Latitude = "49.19692000",
                     Longitude = "17.64609160",
                     Type = "region",
+                    AlternateNames = new() { "Zlínský kraj" },
                     Cities = new()
                     {
                     }
@@ -2761,6 +2850,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.85543410",
                     Longitude = "16.04894570",
                     Type = "district",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }

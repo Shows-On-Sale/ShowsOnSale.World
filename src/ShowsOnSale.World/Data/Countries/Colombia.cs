@@ -297,6 +297,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "4.28347150",
                     Longitude = "-74.17536060",
                     Type = "capital district",
+                    AlternateNames = new() { "Bogotá" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bogotá D.C.", Latitude = "4.61263889", Longitude = "-74.07050000" }

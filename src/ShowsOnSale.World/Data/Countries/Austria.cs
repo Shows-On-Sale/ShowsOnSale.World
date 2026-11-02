@@ -2427,6 +2427,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.20817430",
                     Longitude = "16.37381890",
                     Type = "state",
+                    AlternateNames = new() { "Wien" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Donaustadt", Latitude = "48.23330000", Longitude = "16.46002000" },

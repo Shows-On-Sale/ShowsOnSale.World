@@ -184,7 +184,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 7,
-                    Name = "La Unión ",
+                    Name = "La Unión",
                     StateCode = "UN",
                     Iso3166_2 = "SV-UN",
                     TimeZoneId = "America/El_Salvador",

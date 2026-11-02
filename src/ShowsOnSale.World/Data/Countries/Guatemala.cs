@@ -64,7 +64,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 1,
-                    Name = "Alta Verapaz ",
+                    Name = "Alta Verapaz",
                     StateCode = "16",
                     Iso3166_2 = "GT-16",
                     TimeZoneId = "America/Guatemala",
@@ -94,7 +94,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 2,
-                    Name = "Baja Verapaz ",
+                    Name = "Baja Verapaz",
                     StateCode = "15",
                     Iso3166_2 = "GT-15",
                     TimeZoneId = "America/Guatemala",
@@ -117,7 +117,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 3,
-                    Name = "Chimaltenango ",
+                    Name = "Chimaltenango",
                     StateCode = "04",
                     Iso3166_2 = "GT-04",
                     TimeZoneId = "America/Guatemala",
@@ -148,7 +148,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 4,
-                    Name = "Chiquimula ",
+                    Name = "Chiquimula",
                     StateCode = "20",
                     Iso3166_2 = "GT-20",
                     TimeZoneId = "America/Guatemala",
@@ -174,7 +174,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 5,
-                    Name = "El Progreso ",
+                    Name = "El Progreso",
                     StateCode = "02",
                     Iso3166_2 = "GT-02",
                     TimeZoneId = "America/Guatemala",
@@ -197,7 +197,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 6,
-                    Name = "Escuintla ",
+                    Name = "Escuintla",
                     StateCode = "05",
                     Iso3166_2 = "GT-05",
                     TimeZoneId = "America/Guatemala",
@@ -225,7 +225,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 7,
-                    Name = "Guatemala ",
+                    Name = "Guatemala",
                     StateCode = "01",
                     Iso3166_2 = "GT-01",
                     TimeZoneId = "America/Guatemala",
@@ -257,7 +257,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 8,
-                    Name = "Huehuetenango ",
+                    Name = "Huehuetenango",
                     StateCode = "13",
                     Iso3166_2 = "GT-13",
                     TimeZoneId = "America/Guatemala",
@@ -302,7 +302,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 9,
-                    Name = "Izabal ",
+                    Name = "Izabal",
                     StateCode = "18",
                     Iso3166_2 = "GT-18",
                     TimeZoneId = "America/Guatemala",
@@ -324,7 +324,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 10,
-                    Name = "Jalapa ",
+                    Name = "Jalapa",
                     StateCode = "21",
                     Iso3166_2 = "GT-21",
                     TimeZoneId = "America/Guatemala",
@@ -347,7 +347,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 11,
-                    Name = "Jutiapa ",
+                    Name = "Jutiapa",
                     StateCode = "22",
                     Iso3166_2 = "GT-22",
                     TimeZoneId = "America/Guatemala",
@@ -380,7 +380,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 12,
-                    Name = "Petén ",
+                    Name = "Petén",
                     StateCode = "17",
                     Iso3166_2 = "GT-17",
                     TimeZoneId = "America/Guatemala",
@@ -414,7 +414,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 13,
-                    Name = "Quetzaltenango ",
+                    Name = "Quetzaltenango",
                     StateCode = "09",
                     Iso3166_2 = "GT-09",
                     TimeZoneId = "America/Guatemala",
@@ -462,7 +462,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 14,
-                    Name = "Quiché ",
+                    Name = "Quiché",
                     StateCode = "14",
                     Iso3166_2 = "GT-14",
                     TimeZoneId = "America/Guatemala",
@@ -516,7 +516,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 15,
-                    Name = "Retalhuleu ",
+                    Name = "Retalhuleu",
                     StateCode = "11",
                     Iso3166_2 = "GT-11",
                     TimeZoneId = "America/Guatemala",
@@ -541,7 +541,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 16,
-                    Name = "Sacatepéquez ",
+                    Name = "Sacatepéquez",
                     StateCode = "03",
                     Iso3166_2 = "GT-03",
                     TimeZoneId = "America/Guatemala",
@@ -579,7 +579,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 17,
-                    Name = "San Marcos ",
+                    Name = "San Marcos",
                     StateCode = "12",
                     Iso3166_2 = "GT-12",
                     TimeZoneId = "America/Guatemala",
@@ -628,7 +628,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 18,
-                    Name = "Santa Rosa ",
+                    Name = "Santa Rosa",
                     StateCode = "06",
                     Iso3166_2 = "GT-06",
                     TimeZoneId = "America/Guatemala",
@@ -660,7 +660,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 19,
-                    Name = "Sololá ",
+                    Name = "Sololá",
                     StateCode = "07",
                     Iso3166_2 = "GT-07",
                     TimeZoneId = "America/Guatemala",
@@ -698,7 +698,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 20,
-                    Name = "Suchitepéquez ",
+                    Name = "Suchitepéquez",
                     StateCode = "10",
                     Iso3166_2 = "GT-10",
                     TimeZoneId = "America/Guatemala",
@@ -735,7 +735,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 21,
-                    Name = "Totonicapán ",
+                    Name = "Totonicapán",
                     StateCode = "08",
                     Iso3166_2 = "GT-08",
                     TimeZoneId = "America/Guatemala",

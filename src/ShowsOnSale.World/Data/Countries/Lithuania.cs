@@ -71,6 +71,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "56.24550290",
                     Longitude = "22.74711690",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -86,6 +87,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.39246770",
                     Longitude = "24.10876070",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -101,6 +103,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.39246770",
                     Longitude = "24.10876070",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alytus", Latitude = "54.39635000", Longitude = "24.04142000" },
@@ -138,6 +141,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.52579350",
                     Longitude = "25.10612470",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -153,6 +157,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.58641940",
                     Longitude = "24.04217360",
                     Type = "municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -168,6 +173,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "56.20177190",
                     Longitude = "24.75601180",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -183,6 +189,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.01719320",
                     Longitude = "23.97722820",
                     Type = "municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -198,6 +205,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.78665700",
                     Longitude = "24.67083980",
                     Type = "municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -213,6 +221,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.33989750",
                     Longitude = "26.16140430",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -228,6 +237,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.07272420",
                     Longitude = "24.27933370",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -243,6 +253,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "56.23607300",
                     Longitude = "23.61365790",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -258,6 +269,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.07770770",
                     Longitude = "22.76469450",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -273,6 +285,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.86023370",
                     Longitude = "24.45447850",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -288,6 +301,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.37616740",
                     Longitude = "23.19203210",
                     Type = "municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -318,6 +332,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.89821390",
                     Longitude = "23.90448170",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -333,6 +348,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.89821390",
                     Longitude = "23.90448170",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Akademija (Kaunas)", Latitude = "54.89640000", Longitude = "23.82411000" },
@@ -371,6 +387,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.75206690",
                     Longitude = "23.49851410",
                     Type = "municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -386,6 +403,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.28873220",
                     Longitude = "23.97583590",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -401,6 +419,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.62946790",
                     Longitude = "22.93130950",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -431,6 +450,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.71275290",
                     Longitude = "21.13504690",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Gargždai", Latitude = "55.70951000", Longitude = "21.39441000" },
@@ -459,6 +479,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.70329430",
                     Longitude = "21.14427950",
                     Type = "city municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -474,6 +495,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.88384200",
                     Longitude = "21.23509190",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -489,6 +511,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.83889090",
                     Longitude = "24.97604310",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -504,6 +527,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.23432670",
                     Longitude = "23.51565050",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -519,6 +543,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.55625360",
                     Longitude = "23.35036650",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Gelgaudiškis", Latitude = "55.07688000", Longitude = "22.97699000" },
@@ -562,6 +587,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "56.30924390",
                     Longitude = "22.34146800",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -577,6 +603,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.22653090",
                     Longitude = "25.41800110",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -592,6 +619,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.47568280",
                     Longitude = "21.09258700",
                     Type = "municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -607,6 +635,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.13325200",
                     Longitude = "21.91043980",
                     Type = "municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -622,6 +651,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.97770840",
                     Longitude = "23.84517970",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -637,6 +667,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.92019800",
                     Longitude = "21.06776140",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -652,6 +683,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.73449850",
                     Longitude = "24.35780550",
                     Type = "city municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -667,6 +699,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.73449850",
                     Longitude = "24.35780550",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Birzai", Latitude = "56.20000000", Longitude = "24.75000000" },
@@ -707,6 +740,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "56.06046190",
                     Longitude = "24.39629100",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -722,6 +756,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.91078400",
                     Longitude = "21.84540690",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -737,6 +772,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.63835800",
                     Longitude = "23.94680090",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -752,6 +788,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.81083990",
                     Longitude = "23.54648700",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -767,6 +804,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.38194990",
                     Longitude = "23.11561290",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -782,6 +820,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.72294080",
                     Longitude = "21.92708040",
                     Type = "municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -797,6 +836,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.95550390",
                     Longitude = "25.58592490",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -812,6 +852,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.95267100",
                     Longitude = "23.04801990",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -827,6 +868,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.30976700",
                     Longitude = "25.38756400",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -857,6 +899,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.93408230",
                     Longitude = "23.31577750",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Akmenė", Latitude = "56.25000000", Longitude = "22.75000000" },
@@ -885,6 +928,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.93408230",
                     Longitude = "23.31577750",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -893,13 +937,14 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 51,
-                    Name = "Šilalė ",
+                    Name = "Šilalė",
                     StateCode = "45",
                     Iso3166_2 = "LT-45",
                     TimeZoneId = "Europe/Vilnius",
                     Latitude = "55.49268000",
                     Longitude = "22.18455590",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -915,6 +960,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.34137470",
                     Longitude = "21.46056970",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -930,6 +976,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.04310200",
                     Longitude = "24.95698100",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -945,6 +992,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "56.27021690",
                     Longitude = "21.52143310",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -960,6 +1008,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.13368650",
                     Longitude = "26.16301460",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -995,6 +1044,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.25036600",
                     Longitude = "22.29095000",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1010,6 +1060,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.98461350",
                     Longitude = "22.24907530",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Mazeikiai", Latitude = "56.31667000", Longitude = "22.33333000" },
@@ -1048,6 +1099,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.63791130",
                     Longitude = "24.93468940",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1063,6 +1115,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.24772930",
                     Longitude = "24.75997140",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1078,6 +1131,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.48718330",
                     Longitude = "25.63862210",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1115,6 +1169,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.21217640",
                     Longitude = "24.56737240",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1130,6 +1185,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.65194500",
                     Longitude = "23.03515500",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1145,6 +1201,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.68704580",
                     Longitude = "25.28291110",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1160,6 +1217,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "54.68704580",
                     Longitude = "25.28291110",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aukstadvaris", Latitude = "54.57946000", Longitude = "24.52683000" },
@@ -1219,6 +1277,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.59411800",
                     Longitude = "26.43079540",
                     Type = "municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1234,6 +1293,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "55.73096090",
                     Longitude = "26.24529500",
                     Type = "district municipality",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }

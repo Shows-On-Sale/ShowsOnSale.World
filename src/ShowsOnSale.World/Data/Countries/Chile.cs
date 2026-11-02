@@ -517,6 +517,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-33.57393410",
                     Longitude = "-70.62055180",
                     Type = "region",
+                    AlternateNames = new() { "Santiago Metropolitan", "Santiago" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Colina", Latitude = "-33.20000000", Longitude = "-70.68333333" },

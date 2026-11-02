@@ -71,6 +71,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "38.06927480",
                     Longitude = "21.87273040",
                     Type = "regional unit",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -86,6 +87,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "37.75618030",
                     Longitude = "23.66690060",
                     Type = "administrative region",
+                    AlternateNames = new() { "Attiki" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Acharnés", Latitude = "38.08333000", Longitude = "23.73333000" },
@@ -728,6 +730,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "37.97158270",
                     Longitude = "23.97678540",
                     Type = "regional unit",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ágios Athanásios", Latitude = "41.07463000", Longitude = "24.24545000" },

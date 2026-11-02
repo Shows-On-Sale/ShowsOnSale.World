@@ -189,7 +189,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 6,
-                    Name = "Jericho ",
+                    Name = "Jericho",
                     StateCode = "JRH",
                     Iso3166_2 = "PS-JRH",
                     TimeZoneId = "Asia/Gaza",

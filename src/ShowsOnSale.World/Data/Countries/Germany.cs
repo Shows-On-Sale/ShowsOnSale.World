@@ -1032,6 +1032,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.94675620",
                     Longitude = "11.40387170",
                     Type = "land",
+                    AlternateNames = new() { "Bayern" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abenberg", Latitude = "49.24282000", Longitude = "10.96401000" },
@@ -3219,6 +3220,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "50.60806510",
                     Longitude = "9.02846470",
                     Type = "land",
+                    AlternateNames = new() { "Hesse" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Albshausen", Latitude = "50.54431000", Longitude = "8.43784000" },
@@ -3581,6 +3583,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "52.83985310",
                     Longitude = "9.07596200",
                     Type = "land",
+                    AlternateNames = new() { "Nds." },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Abbesbüttel", Latitude = "52.35233000", Longitude = "10.55649000" },
@@ -4615,6 +4618,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "51.47892050",
                     Longitude = "7.55437510",
                     Type = "land",
+                    AlternateNames = new() { "NRW", "Nordrhein-Westfalen" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aachen", Latitude = "50.77664000", Longitude = "6.08342000" },

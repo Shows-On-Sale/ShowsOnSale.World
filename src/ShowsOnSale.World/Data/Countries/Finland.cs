@@ -142,6 +142,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "60.30361130",
                     Longitude = "22.41130840",
                     Type = "region",
+                    AlternateNames = new() { "Southwest Finland" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alastaro", Latitude = "60.95000000", Longitude = "22.85000000" },
@@ -262,6 +263,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "67.69291040",
                     Longitude = "26.72821420",
                     Type = "region",
+                    AlternateNames = new() { "Lappi" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Enontekiö", Latitude = "68.38573000", Longitude = "23.63215000" },
@@ -333,6 +335,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "64.95215120",
                     Longitude = "25.69688120",
                     Type = "region",
+                    AlternateNames = new() { "North Ostrobothnia", "Pohjois-Pohjanmaa" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alavieska", Latitude = "64.16667000", Longitude = "24.30000000" },
@@ -389,6 +392,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "62.93704610",
                     Longitude = "27.49429950",
                     Type = "region",
+                    AlternateNames = new() { "North Savo" },
                     Cities = new()
                     {
                     }
@@ -439,6 +443,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "61.14441960",
                     Longitude = "25.68725020",
                     Type = "region",
+                    AlternateNames = new() { "Päijät-Häme" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Artjärvi", Latitude = "60.74544000", Longitude = "26.07084000" },
@@ -609,6 +614,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "62.94330990",
                     Longitude = "23.52852670",
                     Type = "region",
+                    AlternateNames = new() { "South Ostrobothnia" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ähtäri", Latitude = "62.55403000", Longitude = "24.06186000" },
@@ -650,6 +656,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "61.69451480",
                     Longitude = "27.80050150",
                     Type = "region",
+                    AlternateNames = new() { "South Savo" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Enonkoski", Latitude = "62.08333000", Longitude = "28.93333000" },
@@ -686,6 +693,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "60.93769600",
                     Longitude = "24.15319190",
                     Type = "region",
+                    AlternateNames = new() { "Kanta-Häme" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Forssa", Latitude = "60.81462000", Longitude = "23.62146000" },

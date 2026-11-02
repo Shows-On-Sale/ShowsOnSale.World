@@ -1133,6 +1133,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "38.70775070",
                     Longitude = "-9.13659190",
                     Type = "district",
+                    AlternateNames = new() { "Lisboa" },
                     Cities = new()
                     {
                         new() { Id = 1, Name = "A dos Cunhados", Latitude = "39.15237000", Longitude = "-9.29720000" },

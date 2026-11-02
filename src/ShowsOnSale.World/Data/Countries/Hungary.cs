@@ -275,6 +275,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.67980030",
                     Longitude = "21.09854250",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -487,6 +488,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.53160490",
                     Longitude = "21.62731240",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -502,6 +504,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.96190590",
                     Longitude = "18.93552270",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -517,6 +520,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.90253480",
                     Longitude = "20.37722840",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -532,6 +536,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.37724950",
                     Longitude = "18.92138330",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -621,6 +626,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.68760900",
                     Longitude = "17.63468150",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -833,6 +839,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.41812620",
                     Longitude = "20.33003150",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -916,6 +923,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.35936060",
                     Longitude = "17.79676390",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -931,6 +939,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.90738830",
                     Longitude = "19.69172060",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1030,6 +1039,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.10347750",
                     Longitude = "20.77843840",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1045,6 +1055,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.45902180",
                     Longitude = "16.98967960",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1106,6 +1117,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.94953240",
                     Longitude = "21.72440530",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1121,6 +1133,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.07273450",
                     Longitude = "18.23226600",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1300,6 +1313,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "48.09352370",
                     Longitude = "19.79998130",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1368,6 +1382,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.68030630",
                     Longitude = "16.59834570",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1492,6 +1507,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.25301020",
                     Longitude = "20.14142530",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1507,6 +1523,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.19101690",
                     Longitude = "18.41081100",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1522,6 +1539,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "46.34743260",
                     Longitude = "18.70622930",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1537,6 +1555,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.17538330",
                     Longitude = "20.19462790",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1552,6 +1571,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.23068510",
                     Longitude = "16.62184410",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1567,6 +1587,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.58384500",
                     Longitude = "18.39798550",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }
@@ -1670,6 +1691,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "47.09338240",
                     Longitude = "17.90804060",
                     Type = "city with county rights",
+                    IsTopLevel = false,
                     Cities = new()
                     {
                     }

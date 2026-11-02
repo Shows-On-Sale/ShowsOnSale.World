@@ -7,6 +7,50 @@ All notable changes to **ShowsOnSale.World** are documented here. This project f
 
 ### Added
 
+- **`WorldData.ResolveState(countryCode, codeOrName)`** — resolves a free-form state value (a code, a
+  full name, or another spelling, in any language) to a first-level region, in this order: state code,
+  alternate name, name, folded name (case, accents, punctuation and generic words such as `"County"`,
+  `"Voivodeship"`, `"State of"` removed; taken only when exactly one region matches). Only top-level
+  regions are searched, so `"Madrid"` → `MD` (the community, not the province `M`), `"Zurich"` → `ZH`,
+  `"County Dublin"` → `D`, `"Mexico City"` → `CMX` while `"State of México"` → `MEX`, and `"London"` does
+  not match the borough `LND`.
+- **`State.IsTopLevel`** and **`Country.TopLevelStates`** — upstream lists some lower levels next to
+  the first-level regions (GB boroughs and districts, FR metropolitan departments plus `75C`/`69M`/`6AE`,
+  ES/IT/BE/IE/PH provinces, CZ districts, GR regional units, HU cities with county rights, LT
+  municipalities); those are
+  `IsTopLevel = false`. Every other state is top level. Maintained in `data/state-levels.json`.
+- **`State.AlternateNames`** — local-language and English names and conventional abbreviations that do
+  not fold to the state's name (`"Wien"`, `"Praha"`, `"Toscana"`, `"Bogotá"`, `"Brussels"`, `"Masovian"`,
+  `"Tāmaki Makaurau"`, `"Bayern"`, `"Cataluña"`, `"Lisboa"`, `"Stockholms län"`, `"NCR"`, `"NRW"`,
+  `"Jal."`, `"CDMX"`…). Maintained in `data/state-names.json`.
+- **`State.ShortName`** — the state code when it is two or more letters (`"BE"`, `"ENG"`), otherwise the
+  name, so numeric, single-letter and mixed codes never reach a reader: Austria's `"9"` → `"Vienna"`,
+  Ireland's `"D"` → `"Dublin"`, France's `"20R"` → `"Corse"`. Not serialized.
+- `generate-world.ps1 -DataRoot <path>` regenerates from another checkout of the upstream dataset, and
+  the script now fails when an overlay entry matches no upstream state.
+
+### Changed
+
+- **`GetStateByName` also matches `State.AlternateNames`** (exact, case-insensitive), after the names
+  of all states, so existing lookups return what they did before: `GetStateByName("ES", "Madrid")` is
+  still the province.
+- **State names corrected** where upstream's was wrong or not in English: the Czech regions are now
+  named in English (`"Praha, Hlavní město"` → `"Prague"`, `"Jihomoravský kraj"` →
+  `"South Moravian Region"`…), `PH-00` is `"Metro Manila"`, and `DK-84` is
+  `"Capital Region of Denmark"` (upstream named it `"Denmark"`). The previous Czech and Philippine names
+  remain as alternate names, so `GetStateByName` still finds them; `GetStateByName("DK", "Denmark")` now
+  returns null.
+
+### Fixed
+
+- **Stray whitespace removed from names.** `generate-world.ps1` now trims state names, alternate names
+  and city names; upstream had a trailing space on 56 of them (`"Guatemala "`, `"Luxembourg "`,
+  `"Brussels-Capital "`, all of Bangladesh's divisions…), so a lookup by the correct name failed.
+
+## [2.0.4]
+
+### Added
+
 - **`Country.Aliases` property** — alternative English names for a country (e.g. `"Turkiye"` for Turkey,
   `"Czechia"` for Czech Republic). 48 aliases across 30 countries cover ASCII forms of names that are
   only spelled with diacritics upstream (`Turkiye`, `Cote d'Ivoire`, `Curacao`), former or colloquial
