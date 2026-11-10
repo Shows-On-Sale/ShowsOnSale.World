@@ -69,12 +69,12 @@ jobs:
             }
 
             # Build the change summary (use delimiter for multiline)
-            $summary = @"
-            ### Summary
-            - **Files changed:** $fileCount
-            - **Lines added:** +$additions
-            - **Lines deleted:** -$deletions
-            "@
+            $summary = @(
+              "### Summary"
+              "- **Files changed:** $fileCount"
+              "- **Lines added:** +$additions"
+              "- **Lines deleted:** -$deletions"
+            ) -join "`n"
 
             if ($submoduleCommit) {
               $summary += "`n- **Submodule updated to:** $submoduleCommit"
