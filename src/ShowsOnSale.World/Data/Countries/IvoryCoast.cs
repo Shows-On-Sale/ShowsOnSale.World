@@ -96,7 +96,9 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Nawa", Latitude = "5.80112000", Longitude = "-6.60313000" },
                         new() { Id = 3, Name = "San-Pédro", Latitude = "4.76768000", Longitude = "-6.65033000" },
                         new() { Id = 4, Name = "Sassandra", Latitude = "4.95384000", Longitude = "-6.08531000" },
-                        new() { Id = 5, Name = "Tabou", Latitude = "4.42295000", Longitude = "-7.35280000" }
+                        new() { Id = 5, Name = "Soubré", Latitude = "5.78377000", Longitude = "-6.59388000" },
+                        new() { Id = 6, Name = "Tabou", Latitude = "4.42295000", Longitude = "-7.35280000" },
+                        new() { Id = 7, Name = "Yabayo", Latitude = "5.93876000", Longitude = "-6.59826000" }
                     }
                 },
 
@@ -107,8 +109,8 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "CM",
                     Iso3166_2 = "CI-CM",
                     TimeZoneId = "Africa/Abidjan",
-                    Latitude = "6.22190790",
-                    Longitude = "-4.60727990",
+                    Latitude = "6.73333333",
+                    Longitude = "-3.48333333",
                     Type = "district",
                     Cities = new()
                     {
@@ -116,11 +118,12 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Aboisso", Latitude = "5.46779000", Longitude = "-3.20711000" },
                         new() { Id = 3, Name = "Adiaké", Latitude = "5.28634000", Longitude = "-3.30403000" },
                         new() { Id = 4, Name = "Agnibilékrou", Latitude = "7.13113000", Longitude = "-3.20415000" },
-                        new() { Id = 5, Name = "Ayamé", Latitude = "5.60520000", Longitude = "-3.15709000" },
-                        new() { Id = 6, Name = "Bonoua", Latitude = "5.27247000", Longitude = "-3.59625000" },
-                        new() { Id = 7, Name = "Grand-Bassam", Latitude = "5.21180000", Longitude = "-3.73884000" },
-                        new() { Id = 8, Name = "Indénié-Djuablin", Latitude = "6.74434000", Longitude = "-3.49400000" },
-                        new() { Id = 9, Name = "Sud-Comoé", Latitude = "5.49961000", Longitude = "-3.24080000" }
+                        new() { Id = 5, Name = "Ahigbé Koffikro", Latitude = "5.40755000", Longitude = "-3.38023000" },
+                        new() { Id = 6, Name = "Ayamé", Latitude = "5.60520000", Longitude = "-3.15709000" },
+                        new() { Id = 7, Name = "Bonoua", Latitude = "5.27247000", Longitude = "-3.59625000" },
+                        new() { Id = 8, Name = "Grand-Bassam", Latitude = "5.21180000", Longitude = "-3.73884000" },
+                        new() { Id = 9, Name = "Indénié-Djuablin", Latitude = "6.74434000", Longitude = "-3.49400000" },
+                        new() { Id = 10, Name = "Sud-Comoé", Latitude = "5.49961000", Longitude = "-3.24080000" }
                     }
                 },
 
@@ -131,8 +134,8 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "DN",
                     Iso3166_2 = "CI-DN",
                     TimeZoneId = "Africa/Abidjan",
-                    Latitude = "48.07077630",
-                    Longitude = "-68.56093410",
+                    Latitude = "9.50000000",
+                    Longitude = "-7.41699982",
                     Type = "district",
                     Cities = new()
                     {
@@ -171,8 +174,8 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "LC",
                     Iso3166_2 = "CI-LC",
                     TimeZoneId = "Africa/Abidjan",
-                    Latitude = "48.19801690",
-                    Longitude = "-80.45644120",
+                    Latitude = "6.65000000",
+                    Longitude = "-4.70000000",
                     Type = "district",
                     Cities = new()
                     {
@@ -185,8 +188,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Iffou", Latitude = "7.11509000", Longitude = "-3.95027000" },
                         new() { Id = 8, Name = "Moronou", Latitude = "6.66830000", Longitude = "-4.13155000" },
                         new() { Id = 9, Name = "N'Zi", Latitude = "6.82803000", Longitude = "-4.58130000" },
-                        new() { Id = 10, Name = "Toumodi", Latitude = "6.55799000", Longitude = "-5.01769000" },
-                        new() { Id = 11, Name = "Yamoussoukro", Latitude = "6.82055000", Longitude = "-5.27674000" }
+                        new() { Id = 10, Name = "Toumodi", Latitude = "6.55799000", Longitude = "-5.01769000" }
                     }
                 },
 
@@ -210,7 +212,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Dabou", Latitude = "5.32556000", Longitude = "-4.37685000" },
                         new() { Id = 7, Name = "Grand-Lahou", Latitude = "5.25068000", Longitude = "-5.00333000" },
                         new() { Id = 8, Name = "Grands-Ponts", Latitude = "5.30487000", Longitude = "-4.39247000" },
-                        new() { Id = 9, Name = "Tiassalé", Latitude = "5.89839000", Longitude = "-4.82293000" }
+                        new() { Id = 9, Name = "Ndouci", Latitude = "5.86383000", Longitude = "-4.76090000" },
+                        new() { Id = 10, Name = "Tiassalé", Latitude = "5.89839000", Longitude = "-4.82293000" }
                     }
                 },
 
@@ -221,8 +224,8 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "MG",
                     Iso3166_2 = "CI-MG",
                     TimeZoneId = "Africa/Abidjan",
-                    Latitude = "6.88716640",
-                    Longitude = "-9.10706440",
+                    Latitude = "7.40000000",
+                    Longitude = "-7.55000000",
                     Type = "district",
                     Cities = new()
                     {
@@ -251,13 +254,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Bouaflé", Latitude = "6.99041000", Longitude = "-5.74420000" },
-                        new() { Id = 2, Name = "Daloa", Latitude = "6.87735000", Longitude = "-6.45022000" },
-                        new() { Id = 3, Name = "Haut-Sassandra", Latitude = "6.66961000", Longitude = "-6.50116000" },
-                        new() { Id = 4, Name = "Issia", Latitude = "6.49224000", Longitude = "-6.58558000" },
-                        new() { Id = 5, Name = "Marahoué", Latitude = "7.03252000", Longitude = "-5.80215000" },
-                        new() { Id = 6, Name = "Vavoua", Latitude = "7.38194000", Longitude = "-6.47778000" },
-                        new() { Id = 7, Name = "Zuénoula", Latitude = "7.43027000", Longitude = "-6.05054000" }
+                        new() { Id = 1, Name = "Bonon", Latitude = "6.92680000", Longitude = "-6.04890000" },
+                        new() { Id = 2, Name = "Bouaflé", Latitude = "6.99041000", Longitude = "-5.74420000" },
+                        new() { Id = 3, Name = "Daloa", Latitude = "6.87735000", Longitude = "-6.45022000" },
+                        new() { Id = 4, Name = "Haut-Sassandra", Latitude = "6.66961000", Longitude = "-6.50116000" },
+                        new() { Id = 5, Name = "Issia", Latitude = "6.49224000", Longitude = "-6.58558000" },
+                        new() { Id = 6, Name = "Marahoué", Latitude = "7.03252000", Longitude = "-5.80215000" },
+                        new() { Id = 7, Name = "Vavoua", Latitude = "7.38194000", Longitude = "-6.47778000" },
+                        new() { Id = 8, Name = "Zaliohouan", Latitude = "6.79519000", Longitude = "-6.23550000" },
+                        new() { Id = 9, Name = "Zuénoula", Latitude = "7.43027000", Longitude = "-6.05054000" }
                     }
                 },
 
@@ -276,13 +281,14 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Bagoué", Latitude = "9.75000000", Longitude = "-6.50000000" },
                         new() { Id = 2, Name = "Boundiali", Latitude = "9.52434000", Longitude = "-6.48973000" },
                         new() { Id = 3, Name = "Ferkéssédougou", Latitude = "9.60055000", Longitude = "-5.19611000" },
-                        new() { Id = 4, Name = "Kong", Latitude = "9.15000000", Longitude = "-4.61667000" },
-                        new() { Id = 5, Name = "Korhogo", Latitude = "9.45803000", Longitude = "-5.62961000" },
-                        new() { Id = 6, Name = "Ouangolodougou", Latitude = "9.96667000", Longitude = "-5.15000000" },
-                        new() { Id = 7, Name = "Poro", Latitude = "9.36667000", Longitude = "-5.50000000" },
-                        new() { Id = 8, Name = "Sinématiali", Latitude = "9.58333000", Longitude = "-5.38333000" },
-                        new() { Id = 9, Name = "Tchologo", Latitude = "9.76667000", Longitude = "-5.10000000" },
-                        new() { Id = 10, Name = "Tengrela", Latitude = "10.48333000", Longitude = "-6.40833000" }
+                        new() { Id = 4, Name = "Kaouara", Latitude = "10.09085000", Longitude = "-5.19482000" },
+                        new() { Id = 5, Name = "Kong", Latitude = "9.15000000", Longitude = "-4.61667000" },
+                        new() { Id = 6, Name = "Korhogo", Latitude = "9.45803000", Longitude = "-5.62961000" },
+                        new() { Id = 7, Name = "Ouangolodougou", Latitude = "9.96667000", Longitude = "-5.15000000" },
+                        new() { Id = 8, Name = "Poro", Latitude = "9.36667000", Longitude = "-5.50000000" },
+                        new() { Id = 9, Name = "Sinématiali", Latitude = "9.58333000", Longitude = "-5.38333000" },
+                        new() { Id = 10, Name = "Tchologo", Latitude = "9.76667000", Longitude = "-5.10000000" },
+                        new() { Id = 11, Name = "Tengrela", Latitude = "10.48333000", Longitude = "-6.40833000" }
                     }
                 },
 
@@ -305,7 +311,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Gbêkê", Latitude = "7.70271000", Longitude = "-5.28511000" },
                         new() { Id = 6, Name = "Hambol", Latitude = "8.30368000", Longitude = "-5.15396000" },
                         new() { Id = 7, Name = "Katiola", Latitude = "8.13728000", Longitude = "-5.10095000" },
-                        new() { Id = 8, Name = "Sakassou", Latitude = "7.45462000", Longitude = "-5.29263000" }
+                        new() { Id = 8, Name = "Niakaramandougou", Latitude = "8.65759000", Longitude = "-5.29109000" },
+                        new() { Id = 9, Name = "Sakassou", Latitude = "7.45462000", Longitude = "-5.29263000" }
                     }
                 },
 
@@ -342,6 +349,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "autonomous district",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Yamoussoukro", Latitude = "6.82055000", Longitude = "-5.27674000" }
                     }
                 },
 

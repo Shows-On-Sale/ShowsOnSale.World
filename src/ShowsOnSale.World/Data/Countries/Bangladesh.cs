@@ -136,7 +136,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Barisal", Latitude = "22.42035790", Longitude = "89.78250340" }
+                        new() { Id = 1, Name = "Barisal", Latitude = "22.42035790", Longitude = "89.78250340" },
+                        new() { Id = 2, Name = "Gaurnadi", Latitude = "22.97372000", Longitude = "90.22376000" },
+                        new() { Id = 3, Name = "Mehendiganj", Latitude = "22.82257000", Longitude = "90.52859000" }
                     }
                 },
 
@@ -152,7 +154,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Bhola", Latitude = "22.32452480", Longitude = "90.10568470" }
+                        new() { Id = 1, Name = "Bhola", Latitude = "22.32452480", Longitude = "90.10568470" },
+                        new() { Id = 2, Name = "Burhānuddin", Latitude = "22.49518000", Longitude = "90.72391000" }
                     }
                 },
 
@@ -311,7 +314,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Dhaka", Latitude = "23.78417980", Longitude = "89.92859830" }
+                        new() { Id = 1, Name = "Dhaka", Latitude = "23.78417980", Longitude = "89.92859830" },
+                        new() { Id = 2, Name = "Savar", Latitude = "23.84820000", Longitude = "90.25770100" }
                     }
                 },
 
@@ -327,6 +331,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "division",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Mātuail", Latitude = "23.71211000", Longitude = "90.45983000" }
                     }
                 },
 
@@ -374,7 +379,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Feni", Latitude = "22.96667000", Longitude = "91.31667000" }
+                        new() { Id = 1, Name = "Chhāgalnāiya", Latitude = "23.02475000", Longitude = "91.51091000" },
+                        new() { Id = 2, Name = "Feni", Latitude = "22.96667000", Longitude = "91.31667000" }
                     }
                 },
 
@@ -406,7 +412,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Gazipur", Latitude = "24.10914520", Longitude = "90.09596140" }
+                        new() { Id = 1, Name = "Gazipur", Latitude = "24.10914520", Longitude = "90.09596140" },
+                        new() { Id = 2, Name = "Tungi", Latitude = "23.89154000", Longitude = "90.40232000" }
                     }
                 },
 
@@ -438,7 +445,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Habiganj", Latitude = "24.33481970", Longitude = "90.74899010" }
+                        new() { Id = 1, Name = "Habiganj", Latitude = "24.33481970", Longitude = "90.74899010" },
+                        new() { Id = 2, Name = "Habiganj", Latitude = "24.38044000", Longitude = "91.41299000" }
                     }
                 },
 
@@ -486,7 +494,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Jhalokati", Latitude = "22.56303520", Longitude = "89.87191590" }
+                        new() { Id = 1, Name = "Jhalokati", Latitude = "22.56303520", Longitude = "89.87191590" },
+                        new() { Id = 2, Name = "Nālchiti", Latitude = "22.63696000", Longitude = "90.27195000" }
                     }
                 },
 
@@ -566,6 +575,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "division",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Uttar Char Fasson", Latitude = "22.22647000", Longitude = "90.71275000" }
                     }
                 },
 
@@ -757,7 +767,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Mymensingh", Latitude = "24.72309850", Longitude = "89.78411730" }
+                        new() { Id = 1, Name = "Muktāgācha", Latitude = "24.76484000", Longitude = "90.25698000" },
+                        new() { Id = 2, Name = "Mymensingh", Latitude = "24.72309850", Longitude = "89.78411730" }
                     }
                 },
 
@@ -820,7 +831,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Narayanganj", Latitude = "23.74880130", Longitude = "90.25638500" }
+                        new() { Id = 1, Name = "Narayanganj", Latitude = "23.74880130", Longitude = "90.25638500" },
+                        new() { Id = 2, Name = "Sonārgaon", Latitude = "23.65000000", Longitude = "90.61667000" }
                     }
                 },
 
@@ -964,7 +976,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Pirojpur", Latitude = "22.50937910", Longitude = "89.36434220" }
+                        new() { Id = 1, Name = "Mathba", Latitude = "22.28616000", Longitude = "89.95883000" },
+                        new() { Id = 2, Name = "Pirojpur", Latitude = "22.50937910", Longitude = "89.36434220" }
                     }
                 },
 
@@ -1138,7 +1151,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Sunamganj", Latitude = "24.88905540", Longitude = "91.00248270" }
+                        new() { Id = 1, Name = "Chhātak", Latitude = "25.03852000", Longitude = "91.66958000" },
+                        new() { Id = 2, Name = "Sunamganj", Latitude = "24.88905540", Longitude = "91.00248270" }
                     }
                 },
 
@@ -1185,7 +1199,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Tangail", Latitude = "24.37630700", Longitude = "89.35804610" }
+                        new() { Id = 1, Name = "Mirzāpur", Latitude = "24.10287000", Longitude = "90.09841000" },
+                        new() { Id = 2, Name = "Sakhipur", Latitude = "24.31988000", Longitude = "90.16943000" },
+                        new() { Id = 3, Name = "Tangail", Latitude = "24.37630700", Longitude = "89.35804610" }
                     }
                 },
 

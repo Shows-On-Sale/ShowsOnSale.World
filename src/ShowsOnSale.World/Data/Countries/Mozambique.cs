@@ -112,7 +112,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Inhambane", Latitude = "-23.86500000", Longitude = "35.38333000" },
-                        new() { Id = 2, Name = "Maxixe", Latitude = "-23.85972000", Longitude = "35.34722000" }
+                        new() { Id = 2, Name = "Maxixe", Latitude = "-23.85972000", Longitude = "35.34722000" },
+                        new() { Id = 3, Name = "Vilankulo", Latitude = "-22.00000000", Longitude = "35.31667000" }
                     }
                 },
 
@@ -128,7 +129,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Chimoio", Latitude = "-19.11639000", Longitude = "33.48333000" }
+                        new() { Id = 1, Name = "Catandica", Latitude = "-18.05750000", Longitude = "33.17361000" },
+                        new() { Id = 2, Name = "Chimoio", Latitude = "-19.11639000", Longitude = "33.48333000" },
+                        new() { Id = 3, Name = "Machipanda", Latitude = "-18.98604000", Longitude = "32.73553000" },
+                        new() { Id = 4, Name = "Manica", Latitude = "-18.93444000", Longitude = "32.87556000" }
                     }
                 },
 
@@ -186,11 +190,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "António Enes", Latitude = "-16.23250000", Longitude = "39.90861000" },
+                        new() { Id = 1, Name = "Angoche", Latitude = "-16.23250000", Longitude = "39.90861000" },
                         new() { Id = 2, Name = "Ilha de Moçambique", Latitude = "-15.03417000", Longitude = "40.73583000" },
                         new() { Id = 3, Name = "Mutuáli", Latitude = "-14.87056000", Longitude = "37.00444000" },
                         new() { Id = 4, Name = "Nacala", Latitude = "-14.56257000", Longitude = "40.68538000" },
-                        new() { Id = 5, Name = "Nampula", Latitude = "-15.11646000", Longitude = "39.26660000" }
+                        new() { Id = 5, Name = "Namialo", Latitude = "-14.92056000", Longitude = "39.98361000" },
+                        new() { Id = 6, Name = "Nampula", Latitude = "-15.11646000", Longitude = "39.26660000" }
                     }
                 },
 
@@ -225,8 +230,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Beira", Latitude = "-19.84361000", Longitude = "34.83889000" },
-                        new() { Id = 2, Name = "Dondo", Latitude = "-19.60944000", Longitude = "34.74306000" },
-                        new() { Id = 3, Name = "Nhamatanda", Latitude = "-19.34900000", Longitude = "34.26800000" }
+                        new() { Id = 2, Name = "Caia", Latitude = "-17.82028000", Longitude = "35.34417000" },
+                        new() { Id = 3, Name = "Dondo", Latitude = "-19.60944000", Longitude = "34.74306000" },
+                        new() { Id = 4, Name = "Gorongosa", Latitude = "-18.67556000", Longitude = "34.07278000" },
+                        new() { Id = 5, Name = "Marromeu", Latitude = "-18.29083000", Longitude = "35.94528000" },
+                        new() { Id = 6, Name = "Nhamatanda", Latitude = "-19.34900000", Longitude = "34.26800000" }
                     }
                 },
 
@@ -242,7 +250,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Tete", Latitude = "-16.15639000", Longitude = "33.58667000" }
+                        new() { Id = 1, Name = "Moatize", Latitude = "-16.11528000", Longitude = "33.72944000" },
+                        new() { Id = 2, Name = "Songo", Latitude = "-15.59583000", Longitude = "32.76472000" },
+                        new() { Id = 3, Name = "Tete", Latitude = "-16.15639000", Longitude = "33.58667000" }
                     }
                 },
 
@@ -260,7 +270,10 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Alto Molócuè", Latitude = "-15.64932000", Longitude = "37.66384000" },
                         new() { Id = 2, Name = "Chinde", Latitude = "-18.58111000", Longitude = "36.45861000" },
-                        new() { Id = 3, Name = "Quelimane", Latitude = "-17.87861000", Longitude = "36.88833000" }
+                        new() { Id = 3, Name = "Gurúè", Latitude = "-15.46694000", Longitude = "36.97778000" },
+                        new() { Id = 4, Name = "Mocuba", Latitude = "-16.83750000", Longitude = "36.98556000" },
+                        new() { Id = 5, Name = "Namacurra", Latitude = "-17.49194000", Longitude = "37.02889000" },
+                        new() { Id = 6, Name = "Quelimane", Latitude = "-17.87861000", Longitude = "36.88833000" }
                     }
                 }
             }

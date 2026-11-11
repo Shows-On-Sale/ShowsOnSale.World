@@ -155,9 +155,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Gramsh", Latitude = "40.86614460", Longitude = "20.17637010" },
-                        new() { Id = 2, Name = "Librazhd", Latitude = "41.18323980", Longitude = "20.30362480" },
-                        new() { Id = 3, Name = "Peqin", Latitude = "41.04641030", Longitude = "19.74050040" }
+                        new() { Id = 1, Name = "Elbasan", Latitude = "41.11138000", Longitude = "20.08224000" },
+                        new() { Id = 2, Name = "Gramsh", Latitude = "40.86614460", Longitude = "20.17637010" },
+                        new() { Id = 3, Name = "Librazhd", Latitude = "41.18323980", Longitude = "20.30362480" },
+                        new() { Id = 4, Name = "Peqin", Latitude = "41.04641030", Longitude = "19.74050040" }
                     }
                 },
 

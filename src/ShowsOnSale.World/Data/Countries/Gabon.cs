@@ -75,7 +75,8 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Cocobeach", Latitude = "1.00019000", Longitude = "9.58229000" },
                         new() { Id = 2, Name = "Libreville", Latitude = "0.39241000", Longitude = "9.45356000" },
-                        new() { Id = 3, Name = "Ntoum", Latitude = "0.39051000", Longitude = "9.76096000" }
+                        new() { Id = 3, Name = "Ntoum", Latitude = "0.39051000", Longitude = "9.76096000" },
+                        new() { Id = 4, Name = "Owendo", Latitude = "0.29123000", Longitude = "9.50465000" }
                     }
                 },
 
@@ -112,7 +113,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Lambaréné", Latitude = "-0.70010000", Longitude = "10.24055000" },
-                        new() { Id = 2, Name = "Ndjolé", Latitude = "-0.17827000", Longitude = "10.76488000" }
+                        new() { Id = 2, Name = "Ndjolé", Latitude = "-0.17827000", Longitude = "10.76488000" },
+                        new() { Id = 3, Name = "Oyam", Latitude = "-0.20000000", Longitude = "10.68333000" }
                     }
                 },
 

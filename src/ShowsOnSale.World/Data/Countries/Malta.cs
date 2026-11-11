@@ -179,6 +179,21 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 8,
+                    Name = "Eastern Region",
+                    StateCode = "R02",
+                    Iso3166_2 = "",
+                    TimeZoneId = "Europe/Malta",
+                    Latitude = "35.89722222",
+                    Longitude = "14.46527778",
+                    Type = "region",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 9,
                     Name = "Fgura",
                     StateCode = "08",
                     Iso3166_2 = "MT-08",
@@ -194,7 +209,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 9,
+                    Id = 10,
                     Name = "Floriana",
                     StateCode = "09",
                     Iso3166_2 = "MT-09",
@@ -210,7 +225,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 10,
+                    Id = 11,
                     Name = "Fontana",
                     StateCode = "10",
                     Iso3166_2 = "MT-10",
@@ -226,7 +241,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 11,
+                    Id = 12,
                     Name = "Għajnsielem",
                     StateCode = "13",
                     Iso3166_2 = "MT-13",
@@ -243,7 +258,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 12,
+                    Id = 13,
                     Name = "Għarb",
                     StateCode = "14",
                     Iso3166_2 = "MT-14",
@@ -258,7 +273,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 13,
+                    Id = 14,
                     Name = "Għargħur",
                     StateCode = "15",
                     Iso3166_2 = "MT-15",
@@ -274,7 +289,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 14,
+                    Id = 15,
                     Name = "Għasri",
                     StateCode = "16",
                     Iso3166_2 = "MT-16",
@@ -284,13 +299,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "local council",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Gudja", Latitude = "35.84917000", Longitude = "14.50306000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 15,
+                    Id = 16,
                     Name = "Għaxaq",
                     StateCode = "17",
                     Iso3166_2 = "MT-17",
@@ -300,13 +314,27 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "local council",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Gżira", Latitude = "35.90583000", Longitude = "14.48806000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 16,
+                    Id = 17,
+                    Name = "Gozo Region",
+                    StateCode = "R06",
+                    Iso3166_2 = "",
+                    TimeZoneId = "Europe/Malta",
+                    Latitude = "36.04444444",
+                    Longitude = "14.23972222",
+                    Type = "region",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 18,
                     Name = "Gudja",
                     StateCode = "11",
                     Iso3166_2 = "MT-11",
@@ -316,12 +344,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "local council",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Gudja", Latitude = "35.84917000", Longitude = "14.50306000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 17,
+                    Id = 19,
                     Name = "Gżira",
                     StateCode = "12",
                     Iso3166_2 = "MT-12",
@@ -331,13 +360,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "local council",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Għarb", Latitude = "36.06000000", Longitude = "14.20889000" }
+                        new() { Id = 1, Name = "Għarb", Latitude = "36.06000000", Longitude = "14.20889000" },
+                        new() { Id = 2, Name = "Gżira", Latitude = "35.90583000", Longitude = "14.48806000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 18,
+                    Id = 20,
                     Name = "Ħamrun",
                     StateCode = "18",
                     Iso3166_2 = "MT-18",
@@ -354,7 +384,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 19,
+                    Id = 21,
                     Name = "Iklin",
                     StateCode = "19",
                     Iso3166_2 = "MT-19",
@@ -370,7 +400,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 20,
+                    Id = 22,
                     Name = "Kalkara",
                     StateCode = "21",
                     Iso3166_2 = "MT-21",
@@ -381,13 +411,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Imġarr", Latitude = "35.92056000", Longitude = "14.36639000" },
-                        new() { Id = 2, Name = "Mġarr", Latitude = "36.02528000", Longitude = "14.29500000" }
+                        new() { Id = 2, Name = "Kalkara", Latitude = "35.88917000", Longitude = "14.53278000" },
+                        new() { Id = 3, Name = "Mġarr", Latitude = "36.02528000", Longitude = "14.29500000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 21,
+                    Id = 23,
                     Name = "Kerċem",
                     StateCode = "22",
                     Iso3166_2 = "MT-22",
@@ -397,13 +428,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "local council",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Mqabba", Latitude = "35.84763000", Longitude = "14.46824000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 22,
+                    Id = 24,
                     Name = "Kirkop",
                     StateCode = "23",
                     Iso3166_2 = "MT-23",
@@ -420,7 +450,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 23,
+                    Id = 25,
                     Name = "Lija",
                     StateCode = "24",
                     Iso3166_2 = "MT-24",
@@ -437,7 +467,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 24,
+                    Id = 26,
                     Name = "Luqa",
                     StateCode = "25",
                     Iso3166_2 = "MT-25",
@@ -447,14 +477,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "local council",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Ħal Luqa", Latitude = "35.85889000", Longitude = "14.48861000" },
-                        new() { Id = 2, Name = "Senglea", Latitude = "35.88750000", Longitude = "14.51694000" }
+                        new() { Id = 1, Name = "Ħal Luqa", Latitude = "35.85889000", Longitude = "14.48861000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 25,
+                    Id = 27,
                     Name = "Marsa",
                     StateCode = "26",
                     Iso3166_2 = "MT-26",
@@ -464,13 +493,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "local council",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Kalkara", Latitude = "35.88917000", Longitude = "14.53278000" }
+                        new() { Id = 1, Name = "Marsa", Latitude = "35.87917000", Longitude = "14.49528000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 26,
+                    Id = 28,
                     Name = "Marsaskala",
                     StateCode = "27",
                     Iso3166_2 = "MT-27",
@@ -487,7 +516,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 27,
+                    Id = 29,
                     Name = "Marsaxlokk",
                     StateCode = "28",
                     Iso3166_2 = "MT-28",
@@ -503,7 +532,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 28,
+                    Id = 30,
                     Name = "Mdina",
                     StateCode = "29",
                     Iso3166_2 = "MT-29",
@@ -513,12 +542,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "local council",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Imdina", Latitude = "35.88694000", Longitude = "14.40250000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 29,
+                    Id = 31,
                     Name = "Mellieħa",
                     StateCode = "30",
                     Iso3166_2 = "MT-30",
@@ -534,7 +564,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 30,
+                    Id = 32,
                     Name = "Mġarr",
                     StateCode = "31",
                     Iso3166_2 = "MT-31",
@@ -544,13 +574,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "local council",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Marsa", Latitude = "35.87917000", Longitude = "14.49528000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 31,
+                    Id = 33,
                     Name = "Mosta",
                     StateCode = "32",
                     Iso3166_2 = "MT-32",
@@ -560,13 +589,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "local council",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Bidnija", Latitude = "35.92694400", Longitude = "14.39833300" }
+                        new() { Id = 1, Name = "Bidnija", Latitude = "35.92694400", Longitude = "14.39833300" },
+                        new() { Id = 2, Name = "Mosta", Latitude = "35.90917000", Longitude = "14.42556000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 32,
+                    Id = 34,
                     Name = "Mqabba",
                     StateCode = "33",
                     Iso3166_2 = "MT-33",
@@ -576,12 +606,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "local council",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Mqabba", Latitude = "35.84763000", Longitude = "14.46824000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 33,
+                    Id = 35,
                     Name = "Msida",
                     StateCode = "34",
                     Iso3166_2 = "MT-34",
@@ -597,7 +628,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 34,
+                    Id = 36,
                     Name = "Mtarfa",
                     StateCode = "35",
                     Iso3166_2 = "MT-35",
@@ -612,7 +643,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 35,
+                    Id = 37,
                     Name = "Munxar",
                     StateCode = "36",
                     Iso3166_2 = "MT-36",
@@ -628,7 +659,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 36,
+                    Id = 38,
                     Name = "Nadur",
                     StateCode = "37",
                     Iso3166_2 = "MT-37",
@@ -644,7 +675,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 37,
+                    Id = 39,
                     Name = "Naxxar",
                     StateCode = "38",
                     Iso3166_2 = "MT-38",
@@ -663,7 +694,22 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 38,
+                    Id = 40,
+                    Name = "Northern Region",
+                    StateCode = "R01",
+                    Iso3166_2 = "",
+                    TimeZoneId = "Europe/Malta",
+                    Latitude = "35.94833333",
+                    Longitude = "14.40055556",
+                    Type = "region",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 41,
                     Name = "Paola",
                     StateCode = "39",
                     Iso3166_2 = "MT-39",
@@ -679,7 +725,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 39,
+                    Id = 42,
                     Name = "Pembroke",
                     StateCode = "40",
                     Iso3166_2 = "MT-40",
@@ -695,7 +741,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 40,
+                    Id = 43,
                     Name = "Pietà",
                     StateCode = "41",
                     Iso3166_2 = "MT-41",
@@ -711,7 +757,22 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 41,
+                    Id = 44,
+                    Name = "Port Region",
+                    StateCode = "R04",
+                    Iso3166_2 = "",
+                    TimeZoneId = "Europe/Malta",
+                    Latitude = "35.86583333",
+                    Longitude = "14.51500000",
+                    Type = "region",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 45,
                     Name = "Qala",
                     StateCode = "42",
                     Iso3166_2 = "MT-42",
@@ -727,7 +788,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 42,
+                    Id = 46,
                     Name = "Qormi",
                     StateCode = "43",
                     Iso3166_2 = "MT-43",
@@ -743,7 +804,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 43,
+                    Id = 47,
                     Name = "Qrendi",
                     StateCode = "44",
                     Iso3166_2 = "MT-44",
@@ -759,7 +820,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 44,
+                    Id = 48,
                     Name = "Rabat",
                     StateCode = "46",
                     Iso3166_2 = "MT-46",
@@ -770,13 +831,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Baħrija", Latitude = "35.89472200", Longitude = "14.34833300" },
-                        new() { Id = 2, Name = "Binġemma", Latitude = "35.90277800", Longitude = "14.37777800" }
+                        new() { Id = 2, Name = "Binġemma", Latitude = "35.90277800", Longitude = "14.37777800" },
+                        new() { Id = 3, Name = "Rabat", Latitude = "35.88152000", Longitude = "14.39872000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 45,
+                    Id = 49,
                     Name = "Safi",
                     StateCode = "47",
                     Iso3166_2 = "MT-47",
@@ -792,7 +854,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 46,
+                    Id = 50,
                     Name = "San Ġwann",
                     StateCode = "49",
                     Iso3166_2 = "MT-49",
@@ -802,13 +864,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "local council",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "San Ġiljan (St. Julian's)", Latitude = "35.91839000", Longitude = "14.48977000" }
+                        new() { Id = 1, Name = "San Ġiljan (St. Julian's)", Latitude = "35.91839000", Longitude = "14.48977000" },
+                        new() { Id = 2, Name = "San Ġwann", Latitude = "35.90556000", Longitude = "14.47611000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 47,
+                    Id = 51,
                     Name = "San Lawrenz",
                     StateCode = "50",
                     Iso3166_2 = "MT-50",
@@ -824,7 +887,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 48,
+                    Id = 52,
                     Name = "Sannat",
                     StateCode = "52",
                     Iso3166_2 = "MT-52",
@@ -841,7 +904,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 49,
+                    Id = 53,
                     Name = "Santa Luċija",
                     StateCode = "53",
                     Iso3166_2 = "MT-53",
@@ -851,13 +914,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "local council",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Santa Venera", Latitude = "35.89083000", Longitude = "14.47417000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 50,
+                    Id = 54,
                     Name = "Santa Venera",
                     StateCode = "54",
                     Iso3166_2 = "MT-54",
@@ -867,12 +929,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "local council",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Santa Venera", Latitude = "35.89083000", Longitude = "14.47417000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 51,
+                    Id = 55,
                     Name = "Senglea",
                     StateCode = "20",
                     Iso3166_2 = "MT-20",
@@ -882,13 +945,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "local council",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Imdina", Latitude = "35.88694000", Longitude = "14.40250000" }
+                        new() { Id = 1, Name = "Senglea", Latitude = "35.88750000", Longitude = "14.51694000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 52,
+                    Id = 56,
                     Name = "Siġġiewi",
                     StateCode = "55",
                     Iso3166_2 = "MT-55",
@@ -904,7 +967,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 53,
+                    Id = 57,
                     Name = "Sliema",
                     StateCode = "56",
                     Iso3166_2 = "MT-56",
@@ -920,7 +983,22 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 54,
+                    Id = 58,
+                    Name = "Southern Region",
+                    StateCode = "R05",
+                    Iso3166_2 = "",
+                    TimeZoneId = "Europe/Malta",
+                    Latitude = "35.87833333",
+                    Longitude = "14.47194444",
+                    Type = "region",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 59,
                     Name = "St. Julian's",
                     StateCode = "48",
                     Iso3166_2 = "MT-48",
@@ -930,14 +1008,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "local council",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Paceville", Latitude = "35.92370000", Longitude = "14.49140000" },
-                        new() { Id = 2, Name = "San Ġwann", Latitude = "35.90556000", Longitude = "14.47611000" }
+                        new() { Id = 1, Name = "Paceville", Latitude = "35.92370000", Longitude = "14.49140000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 55,
+                    Id = 60,
                     Name = "St. Paul's Bay",
                     StateCode = "51",
                     Iso3166_2 = "MT-51",
@@ -949,18 +1026,17 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Buġibba", Latitude = "35.94916700", Longitude = "14.41166700" },
                         new() { Id = 2, Name = "Burmarrad", Latitude = "35.93490000", Longitude = "14.41430000" },
-                        new() { Id = 3, Name = "Mosta", Latitude = "35.90917000", Longitude = "14.42556000" },
-                        new() { Id = 4, Name = "Qawra", Latitude = "35.95416700", Longitude = "14.42000000" },
-                        new() { Id = 5, Name = "Santa Luċija", Latitude = "36.04306000", Longitude = "14.21722000" },
-                        new() { Id = 6, Name = "Santa Luċija, Gozo", Latitude = "35.86278000", Longitude = "14.50750000" },
-                        new() { Id = 7, Name = "Wardija", Latitude = "35.93795800", Longitude = "14.39254200" },
-                        new() { Id = 8, Name = "Xemxija", Latitude = "35.95055600", Longitude = "14.38583300" }
+                        new() { Id = 3, Name = "Qawra", Latitude = "35.95416700", Longitude = "14.42000000" },
+                        new() { Id = 4, Name = "Santa Luċija", Latitude = "36.04306000", Longitude = "14.21722000" },
+                        new() { Id = 5, Name = "Santa Luċija, Gozo", Latitude = "35.86278000", Longitude = "14.50750000" },
+                        new() { Id = 6, Name = "Wardija", Latitude = "35.93795800", Longitude = "14.39254200" },
+                        new() { Id = 7, Name = "Xemxija", Latitude = "35.95055600", Longitude = "14.38583300" }
                     }
                 },
 
                 new()
                 {
-                    Id = 56,
+                    Id = 61,
                     Name = "Swieqi",
                     StateCode = "57",
                     Iso3166_2 = "MT-57",
@@ -977,7 +1053,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 57,
+                    Id = 62,
                     Name = "Ta' Xbiex",
                     StateCode = "58",
                     Iso3166_2 = "MT-58",
@@ -993,7 +1069,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 58,
+                    Id = 63,
                     Name = "Tarxien",
                     StateCode = "59",
                     Iso3166_2 = "MT-59",
@@ -1009,7 +1085,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 59,
+                    Id = 64,
                     Name = "Valletta",
                     StateCode = "60",
                     Iso3166_2 = "MT-60",
@@ -1025,7 +1101,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 60,
+                    Id = 65,
                     Name = "Victoria",
                     StateCode = "45",
                     Iso3166_2 = "MT-45",
@@ -1035,14 +1111,28 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "local council",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Rabat", Latitude = "35.88152000", Longitude = "14.39872000" },
-                        new() { Id = 2, Name = "Victoria", Latitude = "36.04444000", Longitude = "14.23972000" }
+                        new() { Id = 1, Name = "Victoria", Latitude = "36.04444000", Longitude = "14.23972000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 61,
+                    Id = 66,
+                    Name = "Western Region",
+                    StateCode = "R03",
+                    Iso3166_2 = "",
+                    TimeZoneId = "Europe/Malta",
+                    Latitude = "35.88222222",
+                    Longitude = "14.39805556",
+                    Type = "region",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 67,
                     Name = "Xagħra",
                     StateCode = "61",
                     Iso3166_2 = "MT-61",
@@ -1058,7 +1148,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 62,
+                    Id = 68,
                     Name = "Xewkija",
                     StateCode = "62",
                     Iso3166_2 = "MT-62",
@@ -1074,7 +1164,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 63,
+                    Id = 69,
                     Name = "Xgħajra",
                     StateCode = "63",
                     Iso3166_2 = "MT-63",
@@ -1090,7 +1180,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 64,
+                    Id = 70,
                     Name = "Żabbar",
                     StateCode = "64",
                     Iso3166_2 = "MT-64",
@@ -1106,7 +1196,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 65,
+                    Id = 71,
                     Name = "Żebbuġ Gozo",
                     StateCode = "65",
                     Iso3166_2 = "MT-65",
@@ -1116,13 +1206,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "local council",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Ħaż-Żebbuġ", Latitude = "35.87194000", Longitude = "14.44111000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 66,
+                    Id = 72,
                     Name = "Żebbuġ Malta",
                     StateCode = "66",
                     Iso3166_2 = "MT-66",
@@ -1132,13 +1221,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "local council",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Żebbuġ", Latitude = "36.07222000", Longitude = "14.23583000" }
+                        new() { Id = 1, Name = "Ħaż-Żebbuġ", Latitude = "35.87194000", Longitude = "14.44111000" },
+                        new() { Id = 2, Name = "Żebbuġ", Latitude = "36.07222000", Longitude = "14.23583000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 67,
+                    Id = 73,
                     Name = "Żejtun",
                     StateCode = "67",
                     Iso3166_2 = "MT-67",
@@ -1154,7 +1244,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 68,
+                    Id = 74,
                     Name = "Żurrieq",
                     StateCode = "68",
                     Iso3166_2 = "MT-68",

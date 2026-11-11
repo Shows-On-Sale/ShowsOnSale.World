@@ -299,8 +299,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bongor", Latitude = "10.28056000", Longitude = "15.37222000" },
-                        new() { Id = 2, Name = "Gounou Gaya", Latitude = "9.62940000", Longitude = "15.51320000" },
-                        new() { Id = 3, Name = "Guelendeng", Latitude = "10.91762000", Longitude = "15.55011000" }
+                        new() { Id = 2, Name = "Fianga", Latitude = "9.91460000", Longitude = "15.13990000" },
+                        new() { Id = 3, Name = "Gounou Gaya", Latitude = "9.62940000", Longitude = "15.51320000" },
+                        new() { Id = 4, Name = "Guelendeng", Latitude = "10.91762000", Longitude = "15.55011000" }
                     }
                 },
 
@@ -434,7 +435,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Aozou", Latitude = "21.83750000", Longitude = "17.42750000" }
+                        new() { Id = 1, Name = "Aozou", Latitude = "21.83750000", Longitude = "17.42750000" },
+                        new() { Id = 2, Name = "Bardaï", Latitude = "21.35468000", Longitude = "17.00158000" }
                     }
                 },
 

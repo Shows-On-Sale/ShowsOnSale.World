@@ -60,6 +60,43 @@ namespace ShowsOnSale.World.Data.Countries
             },
             States = new()
             {
+
+                new()
+                {
+                    Id = 1,
+                    Name = "Guyane",
+                    StateCode = "01",
+                    Iso3166_2 = "FR-973",
+                    TimeZoneId = "America/Cayenne",
+                    Latitude = "4.00000000",
+                    Longitude = "-53.00000000",
+                    Type = "overseas region",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Apatou", Latitude = "5.15666667", Longitude = "-54.34305556" },
+                        new() { Id = 2, Name = "Awala-Yalimapo", Latitude = "5.73611111", Longitude = "-53.90805556" },
+                        new() { Id = 3, Name = "Camopi", Latitude = "3.16694444", Longitude = "-52.33111111" },
+                        new() { Id = 4, Name = "Cayenne", Latitude = "4.93861111", Longitude = "-52.33500000" },
+                        new() { Id = 5, Name = "Grand-Santi", Latitude = "4.27333333", Longitude = "-54.38166667" },
+                        new() { Id = 6, Name = "Iracoubo", Latitude = "5.48000000", Longitude = "-53.20555556" },
+                        new() { Id = 7, Name = "Kourou", Latitude = "5.15833333", Longitude = "-52.64277778" },
+                        new() { Id = 8, Name = "Macouria", Latitude = "5.01361111", Longitude = "-52.47388889" },
+                        new() { Id = 9, Name = "Mana", Latitude = "5.66722222", Longitude = "-53.77694444" },
+                        new() { Id = 10, Name = "Maripasoula", Latitude = "3.64111111", Longitude = "-54.02777778" },
+                        new() { Id = 11, Name = "Matoury", Latitude = "4.85055556", Longitude = "-52.33111111" },
+                        new() { Id = 12, Name = "Montsinéry-Tonnegrande", Latitude = "4.89277778", Longitude = "-52.49277778" },
+                        new() { Id = 13, Name = "Ouanary", Latitude = "4.20916667", Longitude = "-51.67166667" },
+                        new() { Id = 14, Name = "Papaichton", Latitude = "3.80972222", Longitude = "-54.14888889" },
+                        new() { Id = 15, Name = "Régina", Latitude = "4.31361111", Longitude = "-52.12916667" },
+                        new() { Id = 16, Name = "Remire-Montjoly", Latitude = "4.90500000", Longitude = "-52.27638889" },
+                        new() { Id = 17, Name = "Roura", Latitude = "4.72833333", Longitude = "-52.32416667" },
+                        new() { Id = 18, Name = "Saint-Élie", Latitude = "4.82555556", Longitude = "-53.28805556" },
+                        new() { Id = 19, Name = "Saint-Georges", Latitude = "3.88944444", Longitude = "-51.80111111" },
+                        new() { Id = 20, Name = "Saint-Laurent-du-Maroni", Latitude = "5.50388889", Longitude = "-54.02888889" },
+                        new() { Id = 21, Name = "Saül", Latitude = "3.62277778", Longitude = "-53.20833333" },
+                        new() { Id = 22, Name = "Sinnamary", Latitude = "5.37750000", Longitude = "-52.95861111" }
+                    }
+                }
             }
         };
     }

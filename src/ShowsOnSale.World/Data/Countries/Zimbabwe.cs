@@ -18,9 +18,9 @@ namespace ShowsOnSale.World.Data.Countries
             NumericCode = "716",
             PhoneCode = "263",
             Capital = "Harare",
-            Currency = "ZWL",
-            CurrencyName = "Zimbabwe Dollar",
-            CurrencySymbol = "$",
+            Currency = "ZWG",
+            CurrencyName = "Zimbabwe Gold",
+            CurrencySymbol = "ZiG",
             Tld = ".zw",
             Native = "Zimbabwe",
             Region = "Africa",
@@ -175,8 +175,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Marondera", Latitude = "-18.18527000", Longitude = "31.55193000" },
                         new() { Id = 6, Name = "Marondera District", Latitude = "-18.29214000", Longitude = "31.51252000" },
                         new() { Id = 7, Name = "Mudzi", Latitude = "-17.04711000", Longitude = "32.65279000" },
-                        new() { Id = 8, Name = "Murehwa", Latitude = "-17.64322000", Longitude = "31.78400000" },
-                        new() { Id = 9, Name = "Murehwa District", Latitude = "-17.80057000", Longitude = "31.83083000" },
+                        new() { Id = 8, Name = "Murehwa District", Latitude = "-17.80057000", Longitude = "31.83083000" },
+                        new() { Id = 9, Name = "Murewa", Latitude = "-17.64322000", Longitude = "31.78400000" },
                         new() { Id = 10, Name = "Mutoko", Latitude = "-17.39699000", Longitude = "32.22677000" },
                         new() { Id = 11, Name = "Ruwa", Latitude = "-17.88972000", Longitude = "31.24472000" }
                     }
@@ -233,8 +233,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Mashava", Latitude = "-20.03665000", Longitude = "30.48225000" },
                         new() { Id = 7, Name = "Masvingo", Latitude = "-20.06373000", Longitude = "30.82766000" },
                         new() { Id = 8, Name = "Masvingo District", Latitude = "-20.31481000", Longitude = "30.90008000" },
-                        new() { Id = 9, Name = "Mwenezi", Latitude = "-21.35838000", Longitude = "30.70668000" },
-                        new() { Id = 10, Name = "Zvishavane", Latitude = "-20.32674000", Longitude = "30.06648000" }
+                        new() { Id = 9, Name = "Mwenezi", Latitude = "-21.35838000", Longitude = "30.70668000" }
                     }
                 },
 
@@ -316,7 +315,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 10, Name = "Shangani", Latitude = "-19.78333000", Longitude = "29.36667000" },
                         new() { Id = 11, Name = "Shurugwi", Latitude = "-19.67016000", Longitude = "30.00589000" },
                         new() { Id = 12, Name = "Shurugwi District", Latitude = "-19.75000000", Longitude = "30.16667000" },
-                        new() { Id = 13, Name = "Zvishavane", Latitude = "-20.30345000", Longitude = "30.07514000" }
+                        new() { Id = 13, Name = "Zvishavane", Latitude = "-20.32674000", Longitude = "30.06648000" },
+                        new() { Id = 14, Name = "Zvishavane", Latitude = "-20.30345000", Longitude = "30.07514000" }
                     }
                 }
             }

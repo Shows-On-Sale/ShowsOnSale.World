@@ -88,6 +88,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Bourzanga", Latitude = "13.67806000", Longitude = "-1.54611000" },
+                        new() { Id = 2, Name = "Kouka", Latitude = "13.43450000", Longitude = "-1.61361000" }
                     }
                 },
 
@@ -143,7 +145,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Province du Mouhoun", Latitude = "12.25000000", Longitude = "-3.41667000" },
                         new() { Id = 9, Name = "Province du Nayala", Latitude = "12.66667000", Longitude = "-3.00000000" },
                         new() { Id = 10, Name = "Province du Sourou", Latitude = "13.25000000", Longitude = "-3.00000000" },
-                        new() { Id = 11, Name = "Salanso", Latitude = "12.17423000", Longitude = "-4.08477000" },
+                        new() { Id = 11, Name = "Solenzo", Latitude = "12.17423000", Longitude = "-4.08477000" },
                         new() { Id = 12, Name = "Toma", Latitude = "12.75844000", Longitude = "-2.89879000" },
                         new() { Id = 13, Name = "Tougan", Latitude = "13.07250000", Longitude = "-3.06940000" }
                     }
@@ -176,6 +178,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Bittou", Latitude = "11.25806000", Longitude = "-0.30611000" },
+                        new() { Id = 2, Name = "Zabré", Latitude = "11.18250000", Longitude = "-0.63222000" }
                     }
                 },
 
@@ -191,6 +195,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kindi", Latitude = "12.43860000", Longitude = "-2.03279000" }
                     }
                 },
 
@@ -332,6 +337,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Niangoloko", Latitude = "10.28333000", Longitude = "-4.91667000" }
                     }
                 },
 
@@ -372,6 +378,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Mogtédo", Latitude = "12.28444000", Longitude = "-0.83722000" }
                     }
                 },
 
@@ -387,6 +394,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Mani", Latitude = "13.25833000", Longitude = "-0.21306000" }
                     }
                 },
 
@@ -482,6 +490,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Orodara", Latitude = "10.98115000", Longitude = "-4.91885000" }
                     }
                 },
 
@@ -781,6 +790,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Gaoua", Latitude = "10.33137000", Longitude = "-3.18202000" }
                     }
                 },
 
@@ -833,6 +843,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Pissila", Latitude = "13.16417000", Longitude = "-0.82250000" }
                     }
                 },
 
@@ -960,6 +971,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Sebba", Latitude = "13.43641000", Longitude = "0.53044000" }
                     }
                 },
 
@@ -1020,6 +1032,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Gomboussougou", Latitude = "11.42611000", Longitude = "-0.77278000" }
                     }
                 }
             }
