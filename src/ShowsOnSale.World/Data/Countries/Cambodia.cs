@@ -94,10 +94,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Battambang", Latitude = "13.10271000", Longitude = "103.19822000" },
-                        new() { Id = 2, Name = "Srŏk Âk Phnŭm", Latitude = "13.23621000", Longitude = "103.45894000" },
-                        new() { Id = 3, Name = "Srŏk Banăn", Latitude = "12.97067000", Longitude = "103.04742000" },
-                        new() { Id = 4, Name = "Srŏk Bâvĭl", Latitude = "13.23601000", Longitude = "102.82910000" },
-                        new() { Id = 5, Name = "Srŏk Rotanak Mondol", Latitude = "12.84048000", Longitude = "102.88700000" }
+                        new() { Id = 2, Name = "Moung Ruessei", Latitude = "12.77452000", Longitude = "103.44926000" },
+                        new() { Id = 3, Name = "Srŏk Âk Phnŭm", Latitude = "13.23621000", Longitude = "103.45894000" },
+                        new() { Id = 4, Name = "Srŏk Banăn", Latitude = "12.97067000", Longitude = "103.04742000" },
+                        new() { Id = 5, Name = "Srŏk Bâvĭl", Latitude = "13.23601000", Longitude = "102.82910000" },
+                        new() { Id = 6, Name = "Srŏk Rotanak Mondol", Latitude = "12.84048000", Longitude = "102.88700000" }
                     }
                 },
 
@@ -171,6 +172,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kampong Thom", Latitude = "12.71112000", Longitude = "104.88873000" }
                     }
                 },
 
@@ -265,9 +267,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Kracheh", Latitude = "12.57000000", Longitude = "106.20000000" },
-                        new() { Id = 2, Name = "Kratié", Latitude = "12.48811000", Longitude = "106.01879000" },
-                        new() { Id = 3, Name = "Snuol", Latitude = "12.19373000", Longitude = "106.47361000" }
+                        new() { Id = 1, Name = "Chhloung", Latitude = "12.25610000", Longitude = "105.97004000" },
+                        new() { Id = 2, Name = "Kracheh", Latitude = "12.57000000", Longitude = "106.20000000" },
+                        new() { Id = 3, Name = "Kratié", Latitude = "12.48811000", Longitude = "106.01879000" },
+                        new() { Id = 4, Name = "Snuol", Latitude = "12.19373000", Longitude = "106.47361000" }
                     }
                 },
 
@@ -502,8 +505,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Srŏk Svay Chrŭm", Latitude = "11.11160000", Longitude = "105.69814000" },
-                        new() { Id = 2, Name = "Svay Rieng", Latitude = "11.08785000", Longitude = "105.79935000" }
+                        new() { Id = 1, Name = "Bavet", Latitude = "11.06317000", Longitude = "106.13557000" },
+                        new() { Id = 2, Name = "Srŏk Svay Chrŭm", Latitude = "11.11160000", Longitude = "105.69814000" },
+                        new() { Id = 3, Name = "Svay Rieng", Latitude = "11.08785000", Longitude = "105.79935000" }
                     }
                 },
 

@@ -139,8 +139,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "parish",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Kingstown", Latitude = "13.15527000", Longitude = "-61.22742000" },
-                        new() { Id = 2, Name = "Kingstown Park", Latitude = "13.15924000", Longitude = "-61.23161000" }
+                        new() { Id = 1, Name = "Calliaqua", Latitude = "13.12867000", Longitude = "-61.19178000" },
+                        new() { Id = 2, Name = "Kingstown", Latitude = "13.15527000", Longitude = "-61.22742000" },
+                        new() { Id = 3, Name = "Kingstown Park", Latitude = "13.15924000", Longitude = "-61.23161000" }
                     }
                 },
 

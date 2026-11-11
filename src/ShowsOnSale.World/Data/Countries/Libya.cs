@@ -162,7 +162,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "popularate",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Al Bayḑā’", Latitude = "32.76272000", Longitude = "21.75506000" }
+                        new() { Id = 1, Name = "Al Bayḑā’", Latitude = "32.76272000", Longitude = "21.75506000" },
+                        new() { Id = 2, Name = "Shahhat", Latitude = "32.80430000", Longitude = "21.86605000" }
                     }
                 },
 
@@ -198,7 +199,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "popularate",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Al ‘Azīzīyah", Latitude = "32.53194000", Longitude = "13.01750000" }
+                        new() { Id = 1, Name = "Al ‘Azīzīyah", Latitude = "32.53194000", Longitude = "13.01750000" },
+                        new() { Id = 2, Name = "Janzūr", Latitude = "32.81868000", Longitude = "13.01727000" }
                     }
                 },
 
@@ -303,7 +305,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Al Qaţrūn", Latitude = "24.95139000", Longitude = "14.64861000" },
-                        new() { Id = 2, Name = "Murzuq", Latitude = "25.91552000", Longitude = "13.91839000" }
+                        new() { Id = 2, Name = "Murzuk", Latitude = "25.91552000", Longitude = "13.91839000" }
                     }
                 },
 
@@ -319,7 +321,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "popularate",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Ghadāmis", Latitude = "30.13366000", Longitude = "9.50072000" },
+                        new() { Id = 1, Name = "Ghadames", Latitude = "30.13366000", Longitude = "9.50072000" },
                         new() { Id = 2, Name = "Nālūt", Latitude = "31.86848000", Longitude = "10.98120000" }
                     }
                 },
@@ -388,8 +390,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "popularate",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Tagiura", Latitude = "32.88167000", Longitude = "13.35056000" },
-                        new() { Id = 2, Name = "Tripoli", Latitude = "32.88743000", Longitude = "13.18733000" }
+                        new() { Id = 1, Name = "Qaşr al Qarabūllī", Latitude = "32.74506000", Longitude = "13.71467000" },
+                        new() { Id = 2, Name = "Tagiura", Latitude = "32.88167000", Longitude = "13.35056000" },
+                        new() { Id = 3, Name = "Tripoli", Latitude = "32.88743000", Longitude = "13.18733000" }
                     }
                 },
 

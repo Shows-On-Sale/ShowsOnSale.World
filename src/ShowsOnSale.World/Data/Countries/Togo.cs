@@ -154,7 +154,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Dapaong", Latitude = "10.86225000", Longitude = "0.20762000" },
-                        new() { Id = 2, Name = "Sansanné-Mango", Latitude = "10.35917000", Longitude = "0.47083000" }
+                        new() { Id = 2, Name = "Mango", Latitude = "10.35917000", Longitude = "0.47083000" },
+                        new() { Id = 3, Name = "Sinkassé", Latitude = "11.10389000", Longitude = "0.00944000" }
                     }
                 }
             }

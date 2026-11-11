@@ -73,14 +73,18 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Dakar", Latitude = "14.69370000", Longitude = "-17.44406000" },
-                        new() { Id = 2, Name = "Dakar Department", Latitude = "14.71403000", Longitude = "-17.45534000" },
-                        new() { Id = 3, Name = "Guédiawaye Department", Latitude = "14.77610000", Longitude = "-17.39560000" },
-                        new() { Id = 4, Name = "Mermoz Boabab", Latitude = "14.70649000", Longitude = "-17.47581000" },
-                        new() { Id = 5, Name = "N’diareme limamoulaye", Latitude = "14.78148000", Longitude = "-17.38410000" },
-                        new() { Id = 6, Name = "Pikine", Latitude = "14.76457000", Longitude = "-17.39071000" },
-                        new() { Id = 7, Name = "Pikine Department", Latitude = "14.76515000", Longitude = "-17.35198000" },
-                        new() { Id = 8, Name = "Rufisque Department", Latitude = "14.74339000", Longitude = "-17.19841000" }
+                        new() { Id = 1, Name = "Bargny", Latitude = "14.69707000", Longitude = "-17.23015000" },
+                        new() { Id = 2, Name = "Dakar", Latitude = "14.69370000", Longitude = "-17.44406000" },
+                        new() { Id = 3, Name = "Dakar Department", Latitude = "14.71403000", Longitude = "-17.45534000" },
+                        new() { Id = 4, Name = "Diamniadio", Latitude = "14.72051000", Longitude = "-17.18160000" },
+                        new() { Id = 5, Name = "Guédiawaye Department", Latitude = "14.77610000", Longitude = "-17.39560000" },
+                        new() { Id = 6, Name = "Mermoz Boabab", Latitude = "14.70649000", Longitude = "-17.47581000" },
+                        new() { Id = 7, Name = "N’diareme limamoulaye", Latitude = "14.78148000", Longitude = "-17.38410000" },
+                        new() { Id = 8, Name = "Pikine", Latitude = "14.76457000", Longitude = "-17.39071000" },
+                        new() { Id = 9, Name = "Pikine Department", Latitude = "14.76515000", Longitude = "-17.35198000" },
+                        new() { Id = 10, Name = "Rufisque", Latitude = "14.71542000", Longitude = "-17.27334000" },
+                        new() { Id = 11, Name = "Rufisque Department", Latitude = "14.74339000", Longitude = "-17.19841000" },
+                        new() { Id = 12, Name = "Sébikhotane", Latitude = "14.74521000", Longitude = "-17.13783000" }
                     }
                 },
 
@@ -96,10 +100,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Mbacké", Latitude = "14.80828000", Longitude = "-15.86454000" },
-                        new() { Id = 2, Name = "Mbaké", Latitude = "14.79032000", Longitude = "-15.90803000" },
-                        new() { Id = 3, Name = "Tiébo", Latitude = "14.63333000", Longitude = "-16.23333000" },
-                        new() { Id = 4, Name = "Touba", Latitude = "14.85000000", Longitude = "-15.88333000" }
+                        new() { Id = 1, Name = "Bambey", Latitude = "14.70074000", Longitude = "-16.45911000" },
+                        new() { Id = 2, Name = "Diourbel", Latitude = "14.64792000", Longitude = "-16.24363000" },
+                        new() { Id = 3, Name = "Mbacké", Latitude = "14.80828000", Longitude = "-15.86454000" },
+                        new() { Id = 4, Name = "Mbaké", Latitude = "14.79032000", Longitude = "-15.90803000" },
+                        new() { Id = 5, Name = "Tiébo", Latitude = "14.63333000", Longitude = "-16.23333000" },
+                        new() { Id = 6, Name = "Touba", Latitude = "14.85000000", Longitude = "-15.88333000" }
                     }
                 },
 
@@ -116,10 +122,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Diofior", Latitude = "14.18333000", Longitude = "-16.66667000" },
-                        new() { Id = 2, Name = "Fatick Department", Latitude = "14.25909000", Longitude = "-16.49884000" },
-                        new() { Id = 3, Name = "Foundiougne", Latitude = "14.13333000", Longitude = "-16.46667000" },
-                        new() { Id = 4, Name = "Guinguinéo", Latitude = "14.26667000", Longitude = "-15.95000000" },
-                        new() { Id = 5, Name = "Passi", Latitude = "13.98333000", Longitude = "-16.26667000" },
+                        new() { Id = 2, Name = "Fatick", Latitude = "14.33236000", Longitude = "-16.40513000" },
+                        new() { Id = 3, Name = "Fatick Department", Latitude = "14.25909000", Longitude = "-16.49884000" },
+                        new() { Id = 4, Name = "Foundiougne", Latitude = "14.13333000", Longitude = "-16.46667000" },
+                        new() { Id = 5, Name = "Passy", Latitude = "13.98333000", Longitude = "-16.26667000" },
                         new() { Id = 6, Name = "Pourham", Latitude = "14.35000000", Longitude = "-16.41667000" },
                         new() { Id = 7, Name = "Sokone", Latitude = "13.88333000", Longitude = "-16.36667000" }
                     }
@@ -155,9 +161,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Gandiaye", Latitude = "14.23333000", Longitude = "-16.26667000" },
-                        new() { Id = 2, Name = "Kaolack", Latitude = "14.15197000", Longitude = "-16.07259000" },
-                        new() { Id = 3, Name = "Ndofane", Latitude = "13.91667000", Longitude = "-15.93333000" },
-                        new() { Id = 4, Name = "Nioro du Rip", Latitude = "13.75000000", Longitude = "-15.80000000" }
+                        new() { Id = 2, Name = "Guinguinéo", Latitude = "14.26667000", Longitude = "-15.95000000" },
+                        new() { Id = 3, Name = "Kahone", Latitude = "14.15838000", Longitude = "-16.03572000" },
+                        new() { Id = 4, Name = "Kaolack", Latitude = "14.15197000", Longitude = "-16.07259000" },
+                        new() { Id = 5, Name = "Ndofane", Latitude = "13.91667000", Longitude = "-15.93333000" },
+                        new() { Id = 6, Name = "Nioro du Rip", Latitude = "13.75000000", Longitude = "-15.80000000" }
                     }
                 },
 
@@ -213,9 +221,10 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Dara", Latitude = "15.34844000", Longitude = "-15.47993000" },
                         new() { Id = 2, Name = "Guéoul", Latitude = "15.48333000", Longitude = "-16.35000000" },
-                        new() { Id = 3, Name = "Linguere Department", Latitude = "15.35900000", Longitude = "-15.15800000" },
-                        new() { Id = 4, Name = "Louga", Latitude = "15.61867000", Longitude = "-16.22436000" },
-                        new() { Id = 5, Name = "Ndibène Dahra", Latitude = "15.33380000", Longitude = "-15.47660000" }
+                        new() { Id = 3, Name = "Kébémer", Latitude = "15.36500000", Longitude = "-16.43390000" },
+                        new() { Id = 4, Name = "Linguere Department", Latitude = "15.35900000", Longitude = "-15.15800000" },
+                        new() { Id = 5, Name = "Louga", Latitude = "15.61867000", Longitude = "-16.22436000" },
+                        new() { Id = 6, Name = "Ndibène Dahra", Latitude = "15.33380000", Longitude = "-15.47660000" }
                     }
                 },
 
@@ -292,8 +301,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Tambacounda", Latitude = "13.77073000", Longitude = "-13.66734000" },
-                        new() { Id = 2, Name = "Tambacounda Department", Latitude = "13.60500000", Longitude = "-13.64700000" }
+                        new() { Id = 1, Name = "Koumpentoum", Latitude = "13.98333000", Longitude = "-14.56667000" },
+                        new() { Id = 2, Name = "Tambacounda", Latitude = "13.77073000", Longitude = "-13.66734000" },
+                        new() { Id = 3, Name = "Tambacounda Department", Latitude = "13.60500000", Longitude = "-13.64700000" }
                     }
                 },
 
@@ -312,15 +322,17 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Joal-Fadiout", Latitude = "14.16667000", Longitude = "-16.83333000" },
                         new() { Id = 2, Name = "Kayar", Latitude = "14.91893000", Longitude = "-17.11978000" },
                         new() { Id = 3, Name = "Khombole", Latitude = "14.76667000", Longitude = "-16.70000000" },
-                        new() { Id = 4, Name = "Mbour", Latitude = "14.40569000", Longitude = "-16.85559000" },
-                        new() { Id = 5, Name = "Mékhé", Latitude = "15.10970000", Longitude = "-16.62180000" },
-                        new() { Id = 6, Name = "Nguékhokh", Latitude = "14.51255000", Longitude = "-17.00447000" },
-                        new() { Id = 7, Name = "Pout", Latitude = "14.77099000", Longitude = "-17.06107000" },
-                        new() { Id = 8, Name = "Thiès", Latitude = "14.73004000", Longitude = "-16.86974000" },
-                        new() { Id = 9, Name = "Thiès Nones", Latitude = "14.78333000", Longitude = "-16.96667000" },
-                        new() { Id = 10, Name = "Tiadiaye", Latitude = "14.41667000", Longitude = "-16.70000000" },
-                        new() { Id = 11, Name = "Tivaouane", Latitude = "15.08519000", Longitude = "-16.71058000" },
-                        new() { Id = 12, Name = "Warang", Latitude = "14.37349000", Longitude = "-16.94366000" }
+                        new() { Id = 4, Name = "Mboro", Latitude = "15.14051000", Longitude = "-16.88682000" },
+                        new() { Id = 5, Name = "Mbour", Latitude = "14.40569000", Longitude = "-16.85559000" },
+                        new() { Id = 6, Name = "Mékhé", Latitude = "15.10970000", Longitude = "-16.62180000" },
+                        new() { Id = 7, Name = "Nguékhokh", Latitude = "14.51255000", Longitude = "-17.00447000" },
+                        new() { Id = 8, Name = "Pout", Latitude = "14.77099000", Longitude = "-17.06107000" },
+                        new() { Id = 9, Name = "Sali", Latitude = "14.44111000", Longitude = "-17.01944000" },
+                        new() { Id = 10, Name = "Thiadiaye", Latitude = "14.41667000", Longitude = "-16.70000000" },
+                        new() { Id = 11, Name = "Thiès", Latitude = "14.73004000", Longitude = "-16.86974000" },
+                        new() { Id = 12, Name = "Thiès Nones", Latitude = "14.78333000", Longitude = "-16.96667000" },
+                        new() { Id = 13, Name = "Tivaouane", Latitude = "15.08519000", Longitude = "-16.71058000" },
+                        new() { Id = 14, Name = "Warang", Latitude = "14.37349000", Longitude = "-16.94366000" }
                     }
                 },
 

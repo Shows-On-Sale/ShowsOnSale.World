@@ -34,16 +34,16 @@ namespace ShowsOnSale.World.Data.Countries
             EmojiU = "U+1F1E6 U+1F1F6",
             Timezones = new()
             {
-                new() { ZoneName = "Antarctica/Casey", GmtOffset = 39600, GmtOffsetName = "UTC+11:00", Abbreviation = "AWST", TzName = "Australian Western Standard Time" },
+                new() { ZoneName = "Antarctica/Casey", GmtOffset = 28800, GmtOffsetName = "UTC+08:00", Abbreviation = "AWST", TzName = "Australian Western Standard Time" },
                 new() { ZoneName = "Antarctica/Davis", GmtOffset = 25200, GmtOffsetName = "UTC+07:00", Abbreviation = "DAVT", TzName = "Davis Time" },
                 new() { ZoneName = "Antarctica/DumontDUrville", GmtOffset = 36000, GmtOffsetName = "UTC+10:00", Abbreviation = "DDUT", TzName = "Dumont d'Urville Time" },
                 new() { ZoneName = "Antarctica/Mawson", GmtOffset = 18000, GmtOffsetName = "UTC+05:00", Abbreviation = "MAWT", TzName = "Mawson Station Time" },
-                new() { ZoneName = "Antarctica/McMurdo", GmtOffset = 46800, GmtOffsetName = "UTC+13:00", Abbreviation = "NZDT", TzName = "New Zealand Daylight Time" },
+                new() { ZoneName = "Antarctica/McMurdo", GmtOffset = 43200, GmtOffsetName = "UTC+12:00", Abbreviation = "NZST", TzName = "New Zealand Standard Time" },
                 new() { ZoneName = "Antarctica/Palmer", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "CLST", TzName = "Chile Summer Time" },
                 new() { ZoneName = "Antarctica/Rothera", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "ROTT", TzName = "Rothera Research Station Time" },
                 new() { ZoneName = "Antarctica/Syowa", GmtOffset = 10800, GmtOffsetName = "UTC+03:00", Abbreviation = "SYOT", TzName = "Showa Station Time" },
                 new() { ZoneName = "Antarctica/Troll", GmtOffset = 0, GmtOffsetName = "UTC±00", Abbreviation = "GMT", TzName = "Greenwich Mean Time" },
-                new() { ZoneName = "Antarctica/Vostok", GmtOffset = 21600, GmtOffsetName = "UTC+06:00", Abbreviation = "VOST", TzName = "Vostok Station Time" }
+                new() { ZoneName = "Antarctica/Vostok", GmtOffset = 18000, GmtOffsetName = "UTC+05:00", Abbreviation = "VOST", TzName = "Vostok Station Time" }
             },
             Translations = new()
             {

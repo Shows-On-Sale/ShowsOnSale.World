@@ -330,6 +330,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Debar", Latitude = "41.52286000", Longitude = "20.52198000" }
                     }
                 },
 
@@ -726,8 +727,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Krivogashtani", Latitude = "41.33611000", Longitude = "21.33306000" },
-                        new() { Id = 2, Name = "Obršani", Latitude = "41.28168000", Longitude = "21.36150000" },
-                        new() { Id = 3, Name = "Клечовце", Latitude = "42.11611000", Longitude = "21.85722000" }
+                        new() { Id = 2, Name = "Obršani", Latitude = "41.28168000", Longitude = "21.36150000" }
                     }
                 },
 
@@ -761,8 +761,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bedinje", Latitude = "42.14167000", Longitude = "21.69639000" },
-                        new() { Id = 2, Name = "Kumanovo", Latitude = "42.13222000", Longitude = "21.71444000" },
-                        new() { Id = 3, Name = "Romanovci", Latitude = "42.09472000", Longitude = "21.69306000" }
+                        new() { Id = 2, Name = "Klečevce", Latitude = "42.11611000", Longitude = "21.85722000" },
+                        new() { Id = 3, Name = "Kumanovo", Latitude = "42.13222000", Longitude = "21.71444000" },
+                        new() { Id = 4, Name = "Romanovci", Latitude = "42.09472000", Longitude = "21.69306000" }
                     }
                 },
 
@@ -967,7 +968,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Sredno Konjare", Latitude = "41.95743000", Longitude = "21.71494000" },
+                        new() { Id = 1, Name = "Sredno Konjari", Latitude = "41.95743000", Longitude = "21.71494000" },
                         new() { Id = 2, Name = "Петровец", Latitude = "41.93889000", Longitude = "21.61500000" }
                     }
                 },
@@ -1055,7 +1056,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Ранковце", Latitude = "42.16964000", Longitude = "22.11617000" }
+                        new() { Id = 1, Name = "Rankovce", Latitude = "42.16964000", Longitude = "22.11617000" }
                     }
                 },
 
@@ -1128,7 +1129,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Сопиште", Latitude = "41.95472000", Longitude = "21.42750000" }
+                        new() { Id = 1, Name = "Sopište", Latitude = "41.95472000", Longitude = "21.42750000" }
                     }
                 },
 
@@ -1221,7 +1222,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Batinci", Latitude = "41.91909000", Longitude = "21.47978000" },
                         new() { Id = 2, Name = "Dolno Količani", Latitude = "41.88639000", Longitude = "21.48556000" },
                         new() { Id = 3, Name = "Morani", Latitude = "41.90978000", Longitude = "21.54997000" },
-                        new() { Id = 4, Name = "Studeničane", Latitude = "41.92208000", Longitude = "21.53483000" }
+                        new() { Id = 4, Name = "Studeničani", Latitude = "41.92208000", Longitude = "21.53483000" }
                     }
                 },
 

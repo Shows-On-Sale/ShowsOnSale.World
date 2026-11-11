@@ -104,7 +104,6 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Honiara", Latitude = "-9.43333000", Longitude = "159.95000000" }
                     }
                 },
 
@@ -120,6 +119,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "capital territory",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Honiara", Latitude = "-9.43333000", Longitude = "159.95000000" }
                     }
                 },
 

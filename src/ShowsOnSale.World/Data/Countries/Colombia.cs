@@ -917,7 +917,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 106, Name = "Venecia", Latitude = "4.08808000", Longitude = "-74.47746000" },
                         new() { Id = 107, Name = "Vergara", Latitude = "5.13600000", Longitude = "-74.31539000" },
                         new() { Id = 108, Name = "Vianí", Latitude = "4.89579000", Longitude = "-74.55398000" },
-                        new() { Id = 109, Name = "Villa de San Diego de Ubate", Latitude = "5.31544000", Longitude = "-73.82045000" },
+                        new() { Id = 109, Name = "Villa de San Diego de Ubaté", Latitude = "5.31544000", Longitude = "-73.82045000" },
                         new() { Id = 110, Name = "Villagómez", Latitude = "5.27372000", Longitude = "-74.19614000" },
                         new() { Id = 111, Name = "Villapinzón", Latitude = "5.21617000", Longitude = "-73.59490000" },
                         new() { Id = 112, Name = "Villeta", Latitude = "5.00008000", Longitude = "-74.50498000" },
@@ -983,7 +983,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "department",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Acevedo", Latitude = "1.83611111", Longitude = "-75.85500000" },
+                        new() { Id = 1, Name = "Acevedo", Latitude = "1.80464000", Longitude = "-75.89036000" },
                         new() { Id = 2, Name = "Aipe", Latitude = "3.22194444", Longitude = "-75.23750000" },
                         new() { Id = 3, Name = "Algeciras", Latitude = "2.52194444", Longitude = "-75.31444444" },
                         new() { Id = 4, Name = "Altamira", Latitude = "2.06333333", Longitude = "-75.78777778" },
@@ -1036,7 +1036,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Albania", Latitude = "11.16099000", Longitude = "-72.59238000" },
-                        new() { Id = 2, Name = "Barrancas", Latitude = "10.97180000", Longitude = "-72.69115000" },
+                        new() { Id = 2, Name = "Barrancas", Latitude = "10.95672000", Longitude = "-72.79456000" },
                         new() { Id = 3, Name = "Dibulla", Latitude = "11.27251000", Longitude = "-73.30911000" },
                         new() { Id = 4, Name = "Distracción", Latitude = "10.89784000", Longitude = "-72.88666000" },
                         new() { Id = 5, Name = "El Molino", Latitude = "10.65296000", Longitude = "-72.92461000" },
@@ -1082,7 +1082,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 15, Name = "Pijiño del Carmen", Latitude = "9.32908000", Longitude = "-74.45302000" },
                         new() { Id = 16, Name = "Pivijay", Latitude = "10.46167000", Longitude = "-74.61621000" },
                         new() { Id = 17, Name = "Plato", Latitude = "9.77267000", Longitude = "-74.74548000" },
-                        new() { Id = 18, Name = "Puebloviejo", Latitude = "10.84239000", Longitude = "-74.38538000" },
+                        new() { Id = 18, Name = "Puebloviejo", Latitude = "10.99376000", Longitude = "-74.28439000" },
                         new() { Id = 19, Name = "Remolino", Latitude = "10.65048000", Longitude = "-74.58442000" },
                         new() { Id = 20, Name = "Sabanas de San Angel", Latitude = "10.11072000", Longitude = "-74.26007000" },
                         new() { Id = 21, Name = "Salamina", Latitude = "10.49027000", Longitude = "-74.79463000" },
@@ -1105,8 +1105,8 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "MET",
                     Iso3166_2 = "CO-MET",
                     TimeZoneId = "America/Bogota",
-                    Latitude = "5.15544480",
-                    Longitude = "-70.86537840",
+                    Latitude = "3.46305556",
+                    Longitude = "-73.70888889",
                     Type = "department",
                     Cities = new()
                     {

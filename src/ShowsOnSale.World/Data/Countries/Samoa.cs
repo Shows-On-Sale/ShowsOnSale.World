@@ -34,7 +34,7 @@ namespace ShowsOnSale.World.Data.Countries
             EmojiU = "U+1F1FC U+1F1F8",
             Timezones = new()
             {
-                new() { ZoneName = "Pacific/Apia", GmtOffset = 50400, GmtOffsetName = "UTC+14:00", Abbreviation = "WST", TzName = "West Samoa Time" }
+                new() { ZoneName = "Pacific/Apia", GmtOffset = 46800, GmtOffsetName = "UTC+13:00", Abbreviation = "WST", TzName = "West Samoa Time" }
             },
             Translations = new()
             {

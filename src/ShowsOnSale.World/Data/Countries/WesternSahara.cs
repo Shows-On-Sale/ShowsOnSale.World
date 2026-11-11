@@ -34,7 +34,7 @@ namespace ShowsOnSale.World.Data.Countries
             EmojiU = "U+1F1EA U+1F1ED",
             Timezones = new()
             {
-                new() { ZoneName = "Africa/El_Aaiun", GmtOffset = 3600, GmtOffsetName = "UTC+01:00", Abbreviation = "WEST", TzName = "Western European Summer Time" }
+                new() { ZoneName = "Africa/El_Aaiun", GmtOffset = 0, GmtOffsetName = "UTC±00", Abbreviation = "WET", TzName = "Western European Time" }
             },
             Translations = new()
             {
@@ -44,7 +44,7 @@ namespace ShowsOnSale.World.Data.Countries
                 ["pt"] = "Saara Ocidental",
                 ["nl"] = "Westelijke Sahara",
                 ["hr"] = "Zapadna Sahara",
-                ["fa"] = "جمهوری دموکراتیک عربی صحرا",
+                ["fa"] = "صحرای غربی",
                 ["de"] = "Westsahara",
                 ["es"] = "Sahara Occidental",
                 ["fr"] = "Sahara Occidental",
