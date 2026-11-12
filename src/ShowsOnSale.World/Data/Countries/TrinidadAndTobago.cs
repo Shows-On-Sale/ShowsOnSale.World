@@ -123,29 +123,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Petit Valley", Latitude = "10.69974000", Longitude = "-61.54717000" },
-                        new() { Id = 2, Name = "Ward of Diego Martin", Latitude = "10.70000000", Longitude = "-61.58333000" }
+                        new() { Id = 1, Name = "Diego Martin", Latitude = "10.72081000", Longitude = "-61.56616000" },
+                        new() { Id = 2, Name = "Petit Valley", Latitude = "10.69974000", Longitude = "-61.54717000" },
+                        new() { Id = 3, Name = "Ward of Diego Martin", Latitude = "10.70000000", Longitude = "-61.58333000" }
                     }
                 },
 
                 new()
                 {
                     Id = 5,
-                    Name = "Eastern Tobago",
-                    StateCode = "ETO",
-                    Iso3166_2 = "TT-ETO",
-                    TimeZoneId = "America/Port_of_Spain",
-                    Latitude = "11.28322320",
-                    Longitude = "-60.69250660",
-                    Type = "region",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 6,
                     Name = "Penal-Debe",
                     StateCode = "PED",
                     Iso3166_2 = "TT-PED",
@@ -162,7 +148,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 7,
+                    Id = 6,
                     Name = "Point Fortin",
                     StateCode = "PTF",
                     Iso3166_2 = "TT-PTF",
@@ -178,7 +164,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 8,
+                    Id = 7,
                     Name = "Port of Spain",
                     StateCode = "POS",
                     Iso3166_2 = "TT-POS",
@@ -195,7 +181,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 9,
+                    Id = 8,
                     Name = "Princes Town",
                     StateCode = "PRT",
                     Iso3166_2 = "TT-PRT",
@@ -211,7 +197,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 10,
+                    Id = 9,
                     Name = "Rio Claro-Mayaro",
                     StateCode = "MRC",
                     Iso3166_2 = "TT-MRC",
@@ -227,7 +213,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 11,
+                    Id = 10,
                     Name = "San Fernando",
                     StateCode = "SFO",
                     Iso3166_2 = "TT-SFO",
@@ -245,7 +231,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 12,
+                    Id = 11,
                     Name = "San Juan-Laventille",
                     StateCode = "SJL",
                     Iso3166_2 = "TT-SJL",
@@ -261,7 +247,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 13,
+                    Id = 12,
                     Name = "Sangre Grande",
                     StateCode = "SGE",
                     Iso3166_2 = "TT-SGE",
@@ -277,7 +263,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 14,
+                    Id = 13,
                     Name = "Siparia",
                     StateCode = "SIP",
                     Iso3166_2 = "TT-SIP",
@@ -294,7 +280,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 15,
+                    Id = 14,
                     Name = "Tobago",
                     StateCode = "TOB",
                     Iso3166_2 = "TT-TOB",
@@ -310,7 +296,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 16,
+                    Id = 15,
                     Name = "Tunapuna-Piarco",
                     StateCode = "TUP",
                     Iso3166_2 = "TT-TUP",
@@ -323,21 +309,6 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Arouca", Latitude = "10.62877000", Longitude = "-61.33487000" },
                         new() { Id = 2, Name = "Paradise", Latitude = "10.65298000", Longitude = "-61.36298000" },
                         new() { Id = 3, Name = "Tunapuna", Latitude = "10.65245000", Longitude = "-61.38878000" }
-                    }
-                },
-
-                new()
-                {
-                    Id = 17,
-                    Name = "Western Tobago",
-                    StateCode = "WTO",
-                    Iso3166_2 = "TT-WTO",
-                    TimeZoneId = "America/Port_of_Spain",
-                    Latitude = "11.15728850",
-                    Longitude = "-60.81650130",
-                    Type = "region",
-                    Cities = new()
-                    {
                     }
                 }
             }

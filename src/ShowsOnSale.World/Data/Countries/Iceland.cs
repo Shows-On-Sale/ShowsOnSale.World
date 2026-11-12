@@ -315,11 +315,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Breiðdalshreppur", Latitude = "64.83333000", Longitude = "-14.25000000" },
-                        new() { Id = 2, Name = "Egilsstaðir", Latitude = "65.26687000", Longitude = "-14.39485000" },
-                        new() { Id = 3, Name = "Eskifjörður", Latitude = "65.07306000", Longitude = "-14.01525000" },
-                        new() { Id = 4, Name = "Fjarðabyggð", Latitude = "65.08333000", Longitude = "-14.00000000" },
-                        new() { Id = 5, Name = "Neskaupstaður", Latitude = "65.14819000", Longitude = "-13.68368000" },
-                        new() { Id = 6, Name = "Reyðarfjörður", Latitude = "65.03164000", Longitude = "-14.21832000" }
+                        new() { Id = 2, Name = "Eskifjörður", Latitude = "65.07306000", Longitude = "-14.01525000" },
+                        new() { Id = 3, Name = "Fjarðabyggð", Latitude = "65.08333000", Longitude = "-14.00000000" },
+                        new() { Id = 4, Name = "Neskaupstaður", Latitude = "65.14819000", Longitude = "-13.68368000" },
+                        new() { Id = 5, Name = "Reyðarfjörður", Latitude = "65.03164000", Longitude = "-14.21832000" }
                     }
                 },
 
@@ -454,7 +453,7 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 25,
-                    Name = "Hörðarsveit",
+                    Name = "Hörgársveit",
                     StateCode = "HRG",
                     Iso3166_2 = "IS-HRG",
                     TimeZoneId = "Atlantic/Reykjavik",
@@ -670,7 +669,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Fljótsdalshérað", Latitude = "65.25020000", Longitude = "-15.37211000" }
+                        new() { Id = 1, Name = "Egilsstaðir", Latitude = "65.26687000", Longitude = "-14.39485000" },
+                        new() { Id = 2, Name = "Fljótsdalshérað", Latitude = "65.25020000", Longitude = "-15.37211000" }
                     }
                 },
 
@@ -779,6 +779,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Hella", Latitude = "63.83480000", Longitude = "-20.40084000" }
                     }
                 },
 
@@ -1173,8 +1174,8 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "3",
                     Iso3166_2 = "IS-3",
                     TimeZoneId = "Atlantic/Reykjavik",
-                    Latitude = "52.62414960",
-                    Longitude = "-1.15375600",
+                    Latitude = "64.53333333",
+                    Longitude = "-21.91666667",
                     Type = "region",
                     Cities = new()
                     {

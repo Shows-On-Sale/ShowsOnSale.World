@@ -75,8 +75,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Adrar", Latitude = "27.87429000", Longitude = "-0.29388000" },
                         new() { Id = 2, Name = "Aoulef", Latitude = "26.96667000", Longitude = "1.08333000" },
-                        new() { Id = 3, Name = "Reggane", Latitude = "26.71576000", Longitude = "0.17140000" },
-                        new() { Id = 4, Name = "Timimoun", Latitude = "29.26388000", Longitude = "0.23098000" }
+                        new() { Id = 3, Name = "Reggane", Latitude = "26.71576000", Longitude = "0.17140000" }
                     }
                 },
 
@@ -95,8 +94,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Aïn Defla", Latitude = "36.26405000", Longitude = "1.96790000" },
                         new() { Id = 2, Name = "El Abadia", Latitude = "36.26951000", Longitude = "1.68609000" },
                         new() { Id = 3, Name = "El Attaf", Latitude = "36.22393000", Longitude = "1.67187000" },
-                        new() { Id = 4, Name = "Khemis Miliana", Latitude = "36.26104000", Longitude = "2.22015000" },
-                        new() { Id = 5, Name = "Theniet el Had", Latitude = "35.87111000", Longitude = "2.02806000" }
+                        new() { Id = 4, Name = "Khemis Miliana", Latitude = "36.26104000", Longitude = "2.22015000" }
                     }
                 },
 
@@ -132,13 +130,21 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Aïn Taya", Latitude = "36.79333000", Longitude = "3.28694000" },
-                        new() { Id = 2, Name = "Algiers", Latitude = "36.73225000", Longitude = "3.08746000" },
-                        new() { Id = 3, Name = "Bab Ezzouar", Latitude = "36.72615000", Longitude = "3.18291000" },
-                        new() { Id = 4, Name = "Birkhadem", Latitude = "36.71499000", Longitude = "3.05002000" },
-                        new() { Id = 5, Name = "Bordj el Kiffan", Latitude = "36.74871000", Longitude = "3.19249000" },
-                        new() { Id = 6, Name = "Dar el Beïda", Latitude = "36.71333000", Longitude = "3.21250000" },
-                        new() { Id = 7, Name = "Rouiba", Latitude = "36.73829000", Longitude = "3.28079000" }
+                        new() { Id = 1, Name = "’Aïn Benian", Latitude = "36.80277000", Longitude = "2.92185000" },
+                        new() { Id = 2, Name = "Aïn Taya", Latitude = "36.79333000", Longitude = "3.28694000" },
+                        new() { Id = 3, Name = "Algiers", Latitude = "36.73225000", Longitude = "3.08746000" },
+                        new() { Id = 4, Name = "Bab Ezzouar", Latitude = "36.72615000", Longitude = "3.18291000" },
+                        new() { Id = 5, Name = "Baraki", Latitude = "36.66655000", Longitude = "3.09606000" },
+                        new() { Id = 6, Name = "Birkhadem", Latitude = "36.71499000", Longitude = "3.05002000" },
+                        new() { Id = 7, Name = "Bordj el Kiffan", Latitude = "36.74871000", Longitude = "3.19249000" },
+                        new() { Id = 8, Name = "Cheraga", Latitude = "36.76775000", Longitude = "2.95924000" },
+                        new() { Id = 9, Name = "Dar el Beïda", Latitude = "36.71333000", Longitude = "3.21250000" },
+                        new() { Id = 10, Name = "Douéra", Latitude = "36.67000000", Longitude = "2.94444000" },
+                        new() { Id = 11, Name = "Reghaïa", Latitude = "36.73587000", Longitude = "3.34018000" },
+                        new() { Id = 12, Name = "Rouiba", Latitude = "36.73829000", Longitude = "3.28079000" },
+                        new() { Id = 13, Name = "Saoula", Latitude = "36.70456000", Longitude = "3.02462000" },
+                        new() { Id = 14, Name = "Sidi Moussa", Latitude = "36.60637000", Longitude = "3.08783000" },
+                        new() { Id = 15, Name = "Zeralda", Latitude = "36.71169000", Longitude = "2.84244000" }
                     }
                 },
 
@@ -156,8 +162,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Annaba", Latitude = "36.90000000", Longitude = "7.76667000" },
                         new() { Id = 2, Name = "Berrahal", Latitude = "36.83528000", Longitude = "7.45333000" },
-                        new() { Id = 3, Name = "Drean", Latitude = "36.68482000", Longitude = "7.75111000" },
-                        new() { Id = 4, Name = "El Hadjar", Latitude = "36.80377000", Longitude = "7.73684000" }
+                        new() { Id = 3, Name = "El Hadjar", Latitude = "36.80377000", Longitude = "7.73684000" }
                     }
                 },
 
@@ -215,11 +220,13 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Akbou", Latitude = "36.45750000", Longitude = "4.53494000" },
                         new() { Id = 2, Name = "Amizour", Latitude = "36.64022000", Longitude = "4.90131000" },
                         new() { Id = 3, Name = "Barbacha", Latitude = "36.56667000", Longitude = "4.96667000" },
-                        new() { Id = 4, Name = "Bejaïa", Latitude = "36.75587000", Longitude = "5.08433000" },
-                        new() { Id = 5, Name = "el hed", Latitude = "36.65000000", Longitude = "4.77361000" },
-                        new() { Id = 6, Name = "El Kseur", Latitude = "36.67942000", Longitude = "4.85550000" },
-                        new() { Id = 7, Name = "Feraoun", Latitude = "36.56041000", Longitude = "4.85454000" },
-                        new() { Id = 8, Name = "Seddouk", Latitude = "36.54722000", Longitude = "4.68611000" }
+                        new() { Id = 4, Name = "Béjaïa", Latitude = "36.75587000", Longitude = "5.08433000" },
+                        new() { Id = 5, Name = "Chemini", Latitude = "36.60000000", Longitude = "4.61667000" },
+                        new() { Id = 6, Name = "el hed", Latitude = "36.65000000", Longitude = "4.77361000" },
+                        new() { Id = 7, Name = "El Kseur", Latitude = "36.67942000", Longitude = "4.85550000" },
+                        new() { Id = 8, Name = "Feraoun", Latitude = "36.56041000", Longitude = "4.85454000" },
+                        new() { Id = 9, Name = "Ighram", Latitude = "36.46295000", Longitude = "4.50532000" },
+                        new() { Id = 10, Name = "Seddouk", Latitude = "36.54722000", Longitude = "4.68611000" }
                     }
                 },
 
@@ -227,8 +234,8 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 9,
                     Name = "Béni Abbès",
-                    StateCode = "53",
-                    Iso3166_2 = "DZ-53",
+                    StateCode = "52",
+                    Iso3166_2 = "DZ-52",
                     TimeZoneId = "Africa/Algiers",
                     Latitude = "30.10892100",
                     Longitude = "-2.46225480",
@@ -252,10 +259,9 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Biskra", Latitude = "34.85038000", Longitude = "5.72805000" },
                         new() { Id = 2, Name = "Oumache", Latitude = "34.69292000", Longitude = "5.68092000" },
-                        new() { Id = 3, Name = "Sidi Khaled", Latitude = "34.38700000", Longitude = "4.98785000" },
-                        new() { Id = 4, Name = "Sidi Okba", Latitude = "34.74512000", Longitude = "5.89833000" },
-                        new() { Id = 5, Name = "Tolga", Latitude = "34.72224000", Longitude = "5.37845000" },
-                        new() { Id = 6, Name = "Zeribet el Oued", Latitude = "34.68284000", Longitude = "6.51109000" }
+                        new() { Id = 3, Name = "Sidi Okba", Latitude = "34.74512000", Longitude = "5.89833000" },
+                        new() { Id = 4, Name = "Tolga", Latitude = "34.72224000", Longitude = "5.37845000" },
+                        new() { Id = 5, Name = "Zeribet el Oued", Latitude = "34.68284000", Longitude = "6.51109000" }
                     }
                 },
 
@@ -279,10 +285,12 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 6, Name = "Bouinan", Latitude = "36.53167000", Longitude = "2.99194000" },
                         new() { Id = 7, Name = "Chebli", Latitude = "36.57722000", Longitude = "3.00917000" },
                         new() { Id = 8, Name = "Chiffa", Latitude = "36.46293000", Longitude = "2.73873000" },
-                        new() { Id = 9, Name = "Larbaâ", Latitude = "36.56471000", Longitude = "3.15434000" },
-                        new() { Id = 10, Name = "Meftah", Latitude = "36.62040000", Longitude = "3.22248000" },
-                        new() { Id = 11, Name = "Sidi Moussa", Latitude = "36.60637000", Longitude = "3.08783000" },
-                        new() { Id = 12, Name = "Souma", Latitude = "36.51833000", Longitude = "2.90528000" }
+                        new() { Id = 9, Name = "El Affroun", Latitude = "36.47010000", Longitude = "2.62528000" },
+                        new() { Id = 10, Name = "Larbaâ", Latitude = "36.56471000", Longitude = "3.15434000" },
+                        new() { Id = 11, Name = "Meftah", Latitude = "36.62040000", Longitude = "3.22248000" },
+                        new() { Id = 12, Name = "Mouzaïa", Latitude = "36.46695000", Longitude = "2.68991000" },
+                        new() { Id = 13, Name = "Oued el Alleug", Latitude = "36.55528000", Longitude = "2.79028000" },
+                        new() { Id = 14, Name = "Souma", Latitude = "36.51833000", Longitude = "2.90528000" }
                     }
                 },
 
@@ -290,8 +298,8 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 12,
                     Name = "Bordj Baji Mokhtar",
-                    StateCode = "52",
-                    Iso3166_2 = "DZ-52",
+                    StateCode = "50",
+                    Iso3166_2 = "DZ-50",
                     TimeZoneId = "Africa/Algiers",
                     Latitude = "22.62614610",
                     Longitude = "0.12758170",
@@ -318,8 +326,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Bordj Zemoura", Latitude = "36.27462000", Longitude = "4.85668000" },
                         new() { Id = 4, Name = "El Achir", Latitude = "36.06386000", Longitude = "4.62744000" },
                         new() { Id = 5, Name = "Mansourah", Latitude = "36.08725000", Longitude = "4.45192000" },
-                        new() { Id = 6, Name = "Melouza", Latitude = "35.97999000", Longitude = "4.18665000" },
-                        new() { Id = 7, Name = "Râs el Oued", Latitude = "35.94410000", Longitude = "5.03107000" }
+                        new() { Id = 6, Name = "Râs el Oued", Latitude = "35.94410000", Longitude = "5.03107000" }
                     }
                 },
 
@@ -338,9 +345,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Aïn Bessem", Latitude = "36.29333000", Longitude = "3.67319000" },
                         new() { Id = 2, Name = "Bouïra", Latitude = "36.37489000", Longitude = "3.90200000" },
                         new() { Id = 3, Name = "Chorfa", Latitude = "36.36505000", Longitude = "4.32636000" },
-                        new() { Id = 4, Name = "Draa el Mizan", Latitude = "36.53628000", Longitude = "3.83340000" },
-                        new() { Id = 5, Name = "Lakhdaria", Latitude = "36.56463000", Longitude = "3.59330000" },
-                        new() { Id = 6, Name = "Sour el Ghozlane", Latitude = "36.14766000", Longitude = "3.69123000" }
+                        new() { Id = 4, Name = "Lakhdaria", Latitude = "36.56463000", Longitude = "3.59330000" },
+                        new() { Id = 5, Name = "Sour el Ghozlane", Latitude = "36.14766000", Longitude = "3.69123000" }
                     }
                 },
 
@@ -363,13 +369,9 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Chabet el Ameur", Latitude = "36.63709000", Longitude = "3.69474000" },
                         new() { Id = 6, Name = "Dellys", Latitude = "36.91716000", Longitude = "3.91311000" },
                         new() { Id = 7, Name = "Khemis el Khechna", Latitude = "36.64997000", Longitude = "3.33080000" },
-                        new() { Id = 8, Name = "Makouda", Latitude = "36.78567000", Longitude = "4.06273000" },
-                        new() { Id = 9, Name = "Naciria", Latitude = "36.74625000", Longitude = "3.83163000" },
-                        new() { Id = 10, Name = "Ouled Moussa", Latitude = "36.68394000", Longitude = "3.36661000" },
-                        new() { Id = 11, Name = "Reghaïa", Latitude = "36.73587000", Longitude = "3.34018000" },
-                        new() { Id = 12, Name = "Tadmaït", Latitude = "36.74413000", Longitude = "3.90045000" },
-                        new() { Id = 13, Name = "Thenia", Latitude = "36.72544000", Longitude = "3.55665000" },
-                        new() { Id = 14, Name = "Tizi Gheniff", Latitude = "36.58839000", Longitude = "3.77445000" }
+                        new() { Id = 8, Name = "Naciria", Latitude = "36.74625000", Longitude = "3.83163000" },
+                        new() { Id = 9, Name = "Ouled Moussa", Latitude = "36.68394000", Longitude = "3.36661000" },
+                        new() { Id = 10, Name = "Thenia", Latitude = "36.72544000", Longitude = "3.55665000" }
                     }
                 },
 
@@ -385,13 +387,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Abou el Hassan", Latitude = "36.41657000", Longitude = "1.19616000" },
-                        new() { Id = 2, Name = "Boukadir", Latitude = "36.06629000", Longitude = "1.12602000" },
-                        new() { Id = 3, Name = "Chlef", Latitude = "36.16525000", Longitude = "1.33452000" },
-                        new() { Id = 4, Name = "Ech Chettia", Latitude = "36.19591000", Longitude = "1.25537000" },
-                        new() { Id = 5, Name = "Oued Fodda", Latitude = "36.18503000", Longitude = "1.53299000" },
-                        new() { Id = 6, Name = "Oued Sly", Latitude = "36.10124000", Longitude = "1.19949000" },
-                        new() { Id = 7, Name = "Sidi Akkacha", Latitude = "36.46472000", Longitude = "1.30258000" }
+                        new() { Id = 1, Name = "’Aïn Merane", Latitude = "36.16277000", Longitude = "0.97037000" },
+                        new() { Id = 2, Name = "Abou el Hassan", Latitude = "36.41657000", Longitude = "1.19616000" },
+                        new() { Id = 3, Name = "Boukadir", Latitude = "36.06629000", Longitude = "1.12602000" },
+                        new() { Id = 4, Name = "Chlef", Latitude = "36.16525000", Longitude = "1.33452000" },
+                        new() { Id = 5, Name = "Ech Chettia", Latitude = "36.19591000", Longitude = "1.25537000" },
+                        new() { Id = 6, Name = "Oued Fodda", Latitude = "36.18503000", Longitude = "1.53299000" },
+                        new() { Id = 7, Name = "Oued Sly", Latitude = "36.10124000", Longitude = "1.19949000" },
+                        new() { Id = 8, Name = "Sidi Akkacha", Latitude = "36.46472000", Longitude = "1.30258000" },
+                        new() { Id = 9, Name = "Ténès", Latitude = "36.51076000", Longitude = "1.30809000" }
                     }
                 },
 
@@ -450,7 +454,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Dar Chioukh", Latitude = "34.89638000", Longitude = "3.48543000" },
                         new() { Id = 6, Name = "Djelfa", Latitude = "34.67279000", Longitude = "3.26300000" },
                         new() { Id = 7, Name = "El Idrissia", Latitude = "34.44542000", Longitude = "2.52749000" },
-                        new() { Id = 8, Name = "Messaad", Latitude = "34.15429000", Longitude = "3.50309000" }
+                        new() { Id = 8, Name = "Hassi Bahbah", Latitude = "35.07109000", Longitude = "3.02990000" },
+                        new() { Id = 9, Name = "Messaad", Latitude = "34.15429000", Longitude = "3.50309000" }
                     }
                 },
 
@@ -476,14 +481,18 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 21,
                     Name = "El M'ghair",
-                    StateCode = "49",
-                    Iso3166_2 = "DZ-49",
+                    StateCode = "57",
+                    Iso3166_2 = "DZ-57",
                     TimeZoneId = "Africa/Algiers",
                     Latitude = "33.95807000",
                     Longitude = "5.70112620",
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Djamaa", Latitude = "33.53388000", Longitude = "5.99306000" },
+                        new() { Id = 2, Name = "Sidi Amrane", Latitude = "33.49885000", Longitude = "6.00803000" },
+                        new() { Id = 3, Name = "Sidi Yahia", Latitude = "33.52166667", Longitude = "5.94555556" },
+                        new() { Id = 4, Name = "Tamerna Djedida", Latitude = "33.44640000", Longitude = "5.95639000" }
                     }
                 },
 
@@ -491,8 +500,8 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 22,
                     Name = "El Menia",
-                    StateCode = "50",
-                    Iso3166_2 = "DZ-50",
+                    StateCode = "58",
+                    Iso3166_2 = "DZ-58",
                     TimeZoneId = "Africa/Algiers",
                     Latitude = "30.70718850",
                     Longitude = "3.04806250",
@@ -535,8 +544,9 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Ben Mehidi", Latitude = "36.76967000", Longitude = "7.90641000" },
                         new() { Id = 2, Name = "Besbes", Latitude = "36.70222000", Longitude = "7.84722000" },
-                        new() { Id = 3, Name = "El Kala", Latitude = "36.89556000", Longitude = "8.44333000" },
-                        new() { Id = 4, Name = "El Tarf", Latitude = "36.76720000", Longitude = "8.31377000" }
+                        new() { Id = 3, Name = "Drean", Latitude = "36.68482000", Longitude = "7.75111000" },
+                        new() { Id = 4, Name = "El Kala", Latitude = "36.89556000", Longitude = "8.44333000" },
+                        new() { Id = 5, Name = "El Tarf", Latitude = "36.76720000", Longitude = "8.31377000" }
                     }
                 },
 
@@ -596,8 +606,8 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 28,
                     Name = "In Guezzam",
-                    StateCode = "58",
-                    Iso3166_2 = "DZ-58",
+                    StateCode = "54",
+                    Iso3166_2 = "DZ-54",
                     TimeZoneId = "Africa/Algiers",
                     Latitude = "20.42753000",
                     Longitude = "4.67663100",
@@ -611,14 +621,15 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 29,
                     Name = "In Salah",
-                    StateCode = "57",
-                    Iso3166_2 = "DZ-57",
+                    StateCode = "53",
+                    Iso3166_2 = "DZ-53",
                     TimeZoneId = "Africa/Algiers",
                     Latitude = "27.19503310",
                     Longitude = "2.48261320",
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "In Salah", Latitude = "27.19351000", Longitude = "2.46069000" }
                     }
                 },
 
@@ -686,7 +697,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "‘Aïn el Hadjel", Latitude = "35.67003000", Longitude = "3.88153000" },
                         new() { Id = 2, Name = "’Aïn el Melh", Latitude = "34.84146000", Longitude = "4.16383000" },
                         new() { Id = 3, Name = "M’Sila", Latitude = "35.70583000", Longitude = "4.54194000" },
-                        new() { Id = 4, Name = "Sidi Aïssa", Latitude = "35.88548000", Longitude = "3.77236000" }
+                        new() { Id = 4, Name = "Melouza", Latitude = "35.97999000", Longitude = "4.18665000" },
+                        new() { Id = 5, Name = "Sidi Aïssa", Latitude = "35.88548000", Longitude = "3.77236000" }
                     }
                 },
 
@@ -795,12 +807,14 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "’Aïn el Turk", Latitude = "35.74381000", Longitude = "-0.76930000" },
                         new() { Id = 2, Name = "Aïn el Bya", Latitude = "35.80389000", Longitude = "-0.30178000" },
-                        new() { Id = 3, Name = "Bir el Djir", Latitude = "35.72000000", Longitude = "-0.54500000" },
-                        new() { Id = 4, Name = "Bou Tlelis", Latitude = "35.57272000", Longitude = "-0.89960000" },
-                        new() { Id = 5, Name = "Es Senia", Latitude = "35.64779000", Longitude = "-0.62397000" },
-                        new() { Id = 6, Name = "Mers el Kebir", Latitude = "35.72790000", Longitude = "-0.70810000" },
-                        new() { Id = 7, Name = "Oran", Latitude = "35.69906000", Longitude = "-0.63588000" },
-                        new() { Id = 8, Name = "Sidi ech Chahmi", Latitude = "35.65903000", Longitude = "-0.52168000" }
+                        new() { Id = 3, Name = "Arzew", Latitude = "35.85048000", Longitude = "-0.31800000" },
+                        new() { Id = 4, Name = "Bir el Djir", Latitude = "35.72000000", Longitude = "-0.54500000" },
+                        new() { Id = 5, Name = "Bou Tlelis", Latitude = "35.57272000", Longitude = "-0.89960000" },
+                        new() { Id = 6, Name = "Es Senia", Latitude = "35.64779000", Longitude = "-0.62397000" },
+                        new() { Id = 7, Name = "Gdyel", Latitude = "35.78111000", Longitude = "-0.42581000" },
+                        new() { Id = 8, Name = "Mers el Kebir", Latitude = "35.72790000", Longitude = "-0.70810000" },
+                        new() { Id = 9, Name = "Oran", Latitude = "35.69906000", Longitude = "-0.63588000" },
+                        new() { Id = 10, Name = "Sidi ech Chahmi", Latitude = "35.65903000", Longitude = "-0.52168000" }
                     }
                 },
 
@@ -816,15 +830,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Djamaa", Latitude = "33.53388000", Longitude = "5.99306000" },
-                        new() { Id = 2, Name = "El Hadjira", Latitude = "32.61336000", Longitude = "5.51259000" },
-                        new() { Id = 3, Name = "Hassi Messaoud", Latitude = "31.68041000", Longitude = "6.07286000" },
-                        new() { Id = 4, Name = "Megarine", Latitude = "33.19195000", Longitude = "6.08695000" },
-                        new() { Id = 5, Name = "Ouargla", Latitude = "31.94932000", Longitude = "5.32502000" },
-                        new() { Id = 6, Name = "Rouissat", Latitude = "31.92427000", Longitude = "5.35018000" },
-                        new() { Id = 7, Name = "Sidi Amrane", Latitude = "33.49885000", Longitude = "6.00803000" },
-                        new() { Id = 8, Name = "Tebesbest", Latitude = "33.11667000", Longitude = "6.08333000" },
-                        new() { Id = 9, Name = "Touggourt", Latitude = "33.10527000", Longitude = "6.05796000" }
+                        new() { Id = 1, Name = "El Bour", Latitude = "32.16305556", Longitude = "5.34527778" },
+                        new() { Id = 2, Name = "Hassi Messaoud", Latitude = "31.68041000", Longitude = "6.07286000" },
+                        new() { Id = 3, Name = "Ouargla", Latitude = "31.94932000", Longitude = "5.32502000" },
+                        new() { Id = 4, Name = "Rouissat", Latitude = "31.92427000", Longitude = "5.35018000" }
                     }
                 },
 
@@ -840,6 +849,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Sidi Khaled", Latitude = "34.38700000", Longitude = "4.98785000" }
                     }
                 },
 
@@ -858,9 +868,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Aïn Beïda", Latitude = "35.79639000", Longitude = "7.39278000" },
                         new() { Id = 2, Name = "Aïn Fakroun", Latitude = "35.97108000", Longitude = "6.87374000" },
                         new() { Id = 3, Name = "Aïn Kercha", Latitude = "35.92472000", Longitude = "6.69528000" },
-                        new() { Id = 4, Name = "El Aouinet", Latitude = "35.86691000", Longitude = "7.88673000" },
-                        new() { Id = 5, Name = "Meskiana", Latitude = "35.63058000", Longitude = "7.66606000" },
-                        new() { Id = 6, Name = "Oum el Bouaghi", Latitude = "35.87541000", Longitude = "7.11353000" }
+                        new() { Id = 4, Name = "Meskiana", Latitude = "35.63058000", Longitude = "7.66606000" },
+                        new() { Id = 5, Name = "Oum el Bouaghi", Latitude = "35.87541000", Longitude = "7.11353000" }
                     }
                 },
 
@@ -876,14 +885,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "’Aïn Merane", Latitude = "36.16277000", Longitude = "0.97037000" },
-                        new() { Id = 2, Name = "Ammi Moussa", Latitude = "35.86781000", Longitude = "1.11143000" },
-                        new() { Id = 3, Name = "Djidiouia", Latitude = "35.92989000", Longitude = "0.82871000" },
-                        new() { Id = 4, Name = "Mazouna", Latitude = "36.12232000", Longitude = "0.89865000" },
-                        new() { Id = 5, Name = "Oued Rhiou", Latitude = "35.96124000", Longitude = "0.91896000" },
-                        new() { Id = 6, Name = "Relizane", Latitude = "35.73734000", Longitude = "0.55599000" },
-                        new() { Id = 7, Name = "Smala", Latitude = "35.71652000", Longitude = "0.75437000" },
-                        new() { Id = 8, Name = "Zemoura", Latitude = "35.72251000", Longitude = "0.75509000" }
+                        new() { Id = 1, Name = "Ammi Moussa", Latitude = "35.86781000", Longitude = "1.11143000" },
+                        new() { Id = 2, Name = "Djidiouia", Latitude = "35.92989000", Longitude = "0.82871000" },
+                        new() { Id = 3, Name = "Mazouna", Latitude = "36.12232000", Longitude = "0.89865000" },
+                        new() { Id = 4, Name = "Oued Rhiou", Latitude = "35.96124000", Longitude = "0.91896000" },
+                        new() { Id = 5, Name = "Relizane", Latitude = "35.73734000", Longitude = "0.55599000" },
+                        new() { Id = 6, Name = "Smala", Latitude = "35.71652000", Longitude = "0.75437000" },
+                        new() { Id = 7, Name = "Zemoura", Latitude = "35.72251000", Longitude = "0.75509000" }
                     }
                 },
 
@@ -941,42 +949,29 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Balidat Ameur", Latitude = "32.95138900", Longitude = "5.98055600" },
                         new() { Id = 3, Name = "Belarbi", Latitude = "35.15149480", Longitude = "-0.45679090" },
                         new() { Id = 4, Name = "Ben Badis Sid Bel Abbés", Latitude = "34.95277778", Longitude = "-0.91444444" },
-                        new() { Id = 5, Name = "Djamaa", Latitude = "33.53137870", Longitude = "5.99098210" },
-                        new() { Id = 6, Name = "El Bour", Latitude = "32.16305556", Longitude = "5.34527778" },
-                        new() { Id = 7, Name = "El Hadjira", Latitude = "32.61666667", Longitude = "5.51666667" },
-                        new() { Id = 8, Name = "Haoud El Hamra", Latitude = "31.88944444", Longitude = "5.97305556" },
-                        new() { Id = 9, Name = "Hassi Messaoud", Latitude = "31.70000000", Longitude = "6.06666667" },
-                        new() { Id = 10, Name = "Lamtar", Latitude = "35.07062700", Longitude = "-0.79814000" },
-                        new() { Id = 11, Name = "Marhoum", Latitude = "34.44600420", Longitude = "-0.19502440" },
-                        new() { Id = 12, Name = "Megarine", Latitude = "33.19262320", Longitude = "6.09346390" },
-                        new() { Id = 13, Name = "Merine", Latitude = "34.78074720", Longitude = "-0.45104030" },
-                        new() { Id = 14, Name = "Mezaourou", Latitude = "34.81732670", Longitude = "-0.62331890" },
-                        new() { Id = 15, Name = "Moggar", Latitude = "33.26722222", Longitude = "6.06777778" },
-                        new() { Id = 16, Name = "Moulay Slissen", Latitude = "34.81666667", Longitude = "-0.76666667" },
-                        new() { Id = 17, Name = "N'Goussa", Latitude = "32.14087970", Longitude = "5.30828480" },
-                        new() { Id = 18, Name = "Ouargla", Latitude = "31.95000000", Longitude = "5.31666667" },
-                        new() { Id = 19, Name = "Rouissat", Latitude = "31.93657600", Longitude = "5.33540730" },
-                        new() { Id = 20, Name = "Sfissef", Latitude = "35.23440280", Longitude = "-0.24341580" },
-                        new() { Id = 21, Name = "Sidi Ali Boussidi", Latitude = "35.10000000", Longitude = "-0.83333333" },
-                        new() { Id = 22, Name = "Sidi Amrane", Latitude = "33.50000000", Longitude = "6.01666667" },
-                        new() { Id = 23, Name = "Sidi Bel Abbès", Latitude = "35.20000000", Longitude = "-0.63333333" },
-                        new() { Id = 24, Name = "Sidi Brahim", Latitude = "35.26055600", Longitude = "-0.56750000" },
-                        new() { Id = 25, Name = "Sidi Hamadouche", Latitude = "35.29916667", Longitude = "-0.54888889" },
-                        new() { Id = 26, Name = "Sidi Slimane", Latitude = "33.28861111", Longitude = "6.09472222" },
-                        new() { Id = 27, Name = "Sidi Yacoub", Latitude = "35.13333333", Longitude = "-0.78333333" },
-                        new() { Id = 28, Name = "Sidi Yahia", Latitude = "33.52166667", Longitude = "5.94555556" },
-                        new() { Id = 29, Name = "Tabia Sid Bel Abbés", Latitude = "35.01783660", Longitude = "-0.73385240" },
-                        new() { Id = 30, Name = "Taibet", Latitude = "33.08391890", Longitude = "6.39996530" },
-                        new() { Id = 31, Name = "Tamellaht", Latitude = "33.01190000", Longitude = "6.00972000" },
-                        new() { Id = 32, Name = "Tamerna Djedida", Latitude = "33.44640000", Longitude = "5.95639000" },
-                        new() { Id = 33, Name = "Tebesbest", Latitude = "33.12001290", Longitude = "6.08007430" },
-                        new() { Id = 34, Name = "Teghalimet", Latitude = "34.88283300", Longitude = "-0.56000230" },
-                        new() { Id = 35, Name = "Telagh", Latitude = "34.78490640", Longitude = "-0.57317730" },
-                        new() { Id = 36, Name = "Tenezara", Latitude = "34.96341170", Longitude = "-0.61446190" },
-                        new() { Id = 37, Name = "Tenira", Latitude = "35.01966420", Longitude = "-0.53206440" },
-                        new() { Id = 38, Name = "Tessala", Latitude = "35.24300000", Longitude = "-0.77316300" },
-                        new() { Id = 39, Name = "Touggourt", Latitude = "33.10000000", Longitude = "6.06666667" },
-                        new() { Id = 40, Name = "Zerouala", Latitude = "35.24232450", Longitude = "-0.52219390" }
+                        new() { Id = 5, Name = "Haoud El Hamra", Latitude = "31.88944444", Longitude = "5.97305556" },
+                        new() { Id = 6, Name = "Lamtar", Latitude = "35.07062700", Longitude = "-0.79814000" },
+                        new() { Id = 7, Name = "Marhoum", Latitude = "34.44600420", Longitude = "-0.19502440" },
+                        new() { Id = 8, Name = "Merine", Latitude = "34.78074720", Longitude = "-0.45104030" },
+                        new() { Id = 9, Name = "Mezaourou", Latitude = "34.81732670", Longitude = "-0.62331890" },
+                        new() { Id = 10, Name = "Moggar", Latitude = "33.26722222", Longitude = "6.06777778" },
+                        new() { Id = 11, Name = "Moulay Slissen", Latitude = "34.81666667", Longitude = "-0.76666667" },
+                        new() { Id = 12, Name = "N'Goussa", Latitude = "32.14087970", Longitude = "5.30828480" },
+                        new() { Id = 13, Name = "Sfissef", Latitude = "35.23440280", Longitude = "-0.24341580" },
+                        new() { Id = 14, Name = "Sidi Ali Boussidi", Latitude = "35.10000000", Longitude = "-0.83333333" },
+                        new() { Id = 15, Name = "Sidi Bel Abbès", Latitude = "35.20000000", Longitude = "-0.63333333" },
+                        new() { Id = 16, Name = "Sidi Brahim", Latitude = "35.26055600", Longitude = "-0.56750000" },
+                        new() { Id = 17, Name = "Sidi Hamadouche", Latitude = "35.29916667", Longitude = "-0.54888889" },
+                        new() { Id = 18, Name = "Sidi Slimane", Latitude = "33.28861111", Longitude = "6.09472222" },
+                        new() { Id = 19, Name = "Sidi Yacoub", Latitude = "35.13333333", Longitude = "-0.78333333" },
+                        new() { Id = 20, Name = "Tabia Sid Bel Abbés", Latitude = "35.01783660", Longitude = "-0.73385240" },
+                        new() { Id = 21, Name = "Tamellaht", Latitude = "33.01190000", Longitude = "6.00972000" },
+                        new() { Id = 22, Name = "Teghalimet", Latitude = "34.88283300", Longitude = "-0.56000230" },
+                        new() { Id = 23, Name = "Telagh", Latitude = "34.78490640", Longitude = "-0.57317730" },
+                        new() { Id = 24, Name = "Tenezara", Latitude = "34.96341170", Longitude = "-0.61446190" },
+                        new() { Id = 25, Name = "Tenira", Latitude = "35.01966420", Longitude = "-0.53206440" },
+                        new() { Id = 26, Name = "Tessala", Latitude = "35.24300000", Longitude = "-0.77316300" },
+                        new() { Id = 27, Name = "Zerouala", Latitude = "35.24232450", Longitude = "-0.52219390" }
                     }
                 },
 
@@ -993,7 +988,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Azzaba", Latitude = "36.73944000", Longitude = "7.10528000" },
-                        new() { Id = 2, Name = "Karkira", Latitude = "36.92917000", Longitude = "6.58556000" },
+                        new() { Id = 2, Name = "Kerkera", Latitude = "36.92917000", Longitude = "6.58556000" },
                         new() { Id = 3, Name = "Skikda", Latitude = "36.87617000", Longitude = "6.90921000" },
                         new() { Id = 4, Name = "Tamalous", Latitude = "36.83763000", Longitude = "6.64018000" }
                     }
@@ -1028,8 +1023,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "I-n-Salah", Latitude = "27.19351000", Longitude = "2.46069000" },
-                        new() { Id = 2, Name = "Tamanrasset", Latitude = "22.78500000", Longitude = "5.52278000" }
+                        new() { Id = 1, Name = "Tamanrasset", Latitude = "22.78500000", Longitude = "5.52278000" }
                     }
                 },
 
@@ -1047,8 +1041,9 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bir el Ater", Latitude = "34.74488000", Longitude = "8.06024000" },
                         new() { Id = 2, Name = "Cheria", Latitude = "35.27306000", Longitude = "7.75194000" },
-                        new() { Id = 3, Name = "Hammamet", Latitude = "35.44862000", Longitude = "7.95184000" },
-                        new() { Id = 4, Name = "Tébessa", Latitude = "35.40417000", Longitude = "8.12417000" }
+                        new() { Id = 3, Name = "El Aouinet", Latitude = "35.86691000", Longitude = "7.88673000" },
+                        new() { Id = 4, Name = "Hammamet", Latitude = "35.44862000", Longitude = "7.95184000" },
+                        new() { Id = 5, Name = "Tébessa", Latitude = "35.40417000", Longitude = "8.12417000" }
                     }
                 },
 
@@ -1078,14 +1073,15 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 52,
                     Name = "Timimoun",
-                    StateCode = "54",
-                    Iso3166_2 = "DZ-54",
+                    StateCode = "49",
+                    Iso3166_2 = "DZ-49",
                     TimeZoneId = "Africa/Algiers",
                     Latitude = "30.02447250",
                     Longitude = "0.84859790",
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Timimoun", Latitude = "29.26388000", Longitude = "0.23098000" }
                     }
                 },
 
@@ -1117,19 +1113,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "’Aïn Benian", Latitude = "36.80277000", Longitude = "2.92185000" },
-                        new() { Id = 2, Name = "Baraki", Latitude = "36.66655000", Longitude = "3.09606000" },
-                        new() { Id = 3, Name = "Bou Ismaïl", Latitude = "36.64262000", Longitude = "2.69007000" },
-                        new() { Id = 4, Name = "Cheraga", Latitude = "36.76775000", Longitude = "2.95924000" },
-                        new() { Id = 5, Name = "Douera", Latitude = "36.67000000", Longitude = "2.94444000" },
-                        new() { Id = 6, Name = "El Affroun", Latitude = "36.47010000", Longitude = "2.62528000" },
-                        new() { Id = 7, Name = "Hadjout", Latitude = "36.51257000", Longitude = "2.41382000" },
-                        new() { Id = 8, Name = "Kolea", Latitude = "36.63888000", Longitude = "2.76845000" },
-                        new() { Id = 9, Name = "Mouzaïa", Latitude = "36.46695000", Longitude = "2.68991000" },
-                        new() { Id = 10, Name = "Oued el Alleug", Latitude = "36.55528000", Longitude = "2.79028000" },
-                        new() { Id = 11, Name = "Saoula", Latitude = "36.70456000", Longitude = "3.02462000" },
-                        new() { Id = 12, Name = "Tipasa", Latitude = "36.58972000", Longitude = "2.44750000" },
-                        new() { Id = 13, Name = "Zeralda", Latitude = "36.71169000", Longitude = "2.84244000" }
+                        new() { Id = 1, Name = "Bou Ismaïl", Latitude = "36.64262000", Longitude = "2.69007000" },
+                        new() { Id = 2, Name = "Hadjout", Latitude = "36.51257000", Longitude = "2.41382000" },
+                        new() { Id = 3, Name = "Kolea", Latitude = "36.63888000", Longitude = "2.76845000" },
+                        new() { Id = 4, Name = "Tipasa", Latitude = "36.58972000", Longitude = "2.44750000" }
                     }
                 },
 
@@ -1146,7 +1133,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Lardjem", Latitude = "35.74922000", Longitude = "1.54778000" },
-                        new() { Id = 2, Name = "Tissemsilt", Latitude = "35.60722000", Longitude = "1.81081000" }
+                        new() { Id = 2, Name = "Theniet el Had", Latitude = "35.87111000", Longitude = "2.02806000" },
+                        new() { Id = 3, Name = "Tissemsilt", Latitude = "35.60722000", Longitude = "1.81081000" }
                     }
                 },
 
@@ -1168,17 +1156,19 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Beni Douala", Latitude = "36.61954000", Longitude = "4.08282000" },
                         new() { Id = 5, Name = "Boghni", Latitude = "36.54222000", Longitude = "3.95306000" },
                         new() { Id = 6, Name = "Boudjima", Latitude = "36.80218000", Longitude = "4.15187000" },
-                        new() { Id = 7, Name = "Chemini", Latitude = "36.60000000", Longitude = "4.61667000" },
-                        new() { Id = 8, Name = "Draa Ben Khedda", Latitude = "36.73436000", Longitude = "3.96223000" },
+                        new() { Id = 7, Name = "Draa Ben Khedda", Latitude = "36.73436000", Longitude = "3.96223000" },
+                        new() { Id = 8, Name = "Draa el Mizan", Latitude = "36.53628000", Longitude = "3.83340000" },
                         new() { Id = 9, Name = "Freha", Latitude = "36.75234000", Longitude = "4.31550000" },
-                        new() { Id = 10, Name = "Ighram", Latitude = "36.46295000", Longitude = "4.50532000" },
-                        new() { Id = 11, Name = "L’Arbaa Naït Irathen", Latitude = "36.63112000", Longitude = "4.19864000" },
+                        new() { Id = 10, Name = "L’Arbaa Naït Irathen", Latitude = "36.63112000", Longitude = "4.19864000" },
+                        new() { Id = 11, Name = "Makouda", Latitude = "36.78567000", Longitude = "4.06273000" },
                         new() { Id = 12, Name = "Mekla", Latitude = "36.68178000", Longitude = "4.26378000" },
-                        new() { Id = 13, Name = "Timizart", Latitude = "36.80000000", Longitude = "4.26667000" },
-                        new() { Id = 14, Name = "Tirmitine", Latitude = "36.65393000", Longitude = "3.98143000" },
-                        new() { Id = 15, Name = "Tizi Ouzou", Latitude = "36.71182000", Longitude = "4.04591000" },
-                        new() { Id = 16, Name = "Tizi Rached", Latitude = "36.67176000", Longitude = "4.19176000" },
-                        new() { Id = 17, Name = "Tizi-n-Tleta", Latitude = "36.54569000", Longitude = "4.05712000" }
+                        new() { Id = 13, Name = "Tadmaït", Latitude = "36.74413000", Longitude = "3.90045000" },
+                        new() { Id = 14, Name = "Timizart", Latitude = "36.80000000", Longitude = "4.26667000" },
+                        new() { Id = 15, Name = "Tirmitine", Latitude = "36.65393000", Longitude = "3.98143000" },
+                        new() { Id = 16, Name = "Tizi Gheniff", Latitude = "36.58839000", Longitude = "3.77445000" },
+                        new() { Id = 17, Name = "Tizi Ouzou", Latitude = "36.71182000", Longitude = "4.04591000" },
+                        new() { Id = 18, Name = "Tizi Rached", Latitude = "36.67176000", Longitude = "4.19176000" },
+                        new() { Id = 19, Name = "Tizi-n-Tleta", Latitude = "36.54569000", Longitude = "4.05712000" }
                     }
                 },
 
@@ -1198,14 +1188,15 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Bensekrane", Latitude = "35.07465000", Longitude = "-1.22431000" },
                         new() { Id = 3, Name = "Chetouane", Latitude = "34.92129000", Longitude = "-1.29512000" },
                         new() { Id = 4, Name = "Hennaya", Latitude = "34.95139000", Longitude = "-1.36806000" },
-                        new() { Id = 5, Name = "Mansoûra", Latitude = "34.86158000", Longitude = "-1.33935000" },
-                        new() { Id = 6, Name = "Nedroma", Latitude = "35.01361000", Longitude = "-1.74799000" },
-                        new() { Id = 7, Name = "Ouled Mimoun", Latitude = "34.90472000", Longitude = "-1.03394000" },
-                        new() { Id = 8, Name = "Remchi", Latitude = "35.06196000", Longitude = "-1.43362000" },
-                        new() { Id = 9, Name = "Sebdou", Latitude = "34.63703000", Longitude = "-1.33143000" },
-                        new() { Id = 10, Name = "Sidi Abdelli", Latitude = "35.06937000", Longitude = "-1.13706000" },
-                        new() { Id = 11, Name = "Sidi Senoussi سيدي سنوسي", Latitude = "34.99691000", Longitude = "-1.09449000" },
-                        new() { Id = 12, Name = "Tlemcen", Latitude = "34.87833000", Longitude = "-1.31500000" }
+                        new() { Id = 5, Name = "Maghnia", Latitude = "34.84969000", Longitude = "-1.72753000" },
+                        new() { Id = 6, Name = "Mansoûra", Latitude = "34.86158000", Longitude = "-1.33935000" },
+                        new() { Id = 7, Name = "Nedroma", Latitude = "35.01361000", Longitude = "-1.74799000" },
+                        new() { Id = 8, Name = "Ouled Mimoun", Latitude = "34.90472000", Longitude = "-1.03394000" },
+                        new() { Id = 9, Name = "Remchi", Latitude = "35.06196000", Longitude = "-1.43362000" },
+                        new() { Id = 10, Name = "Sebdou", Latitude = "34.63703000", Longitude = "-1.33143000" },
+                        new() { Id = 11, Name = "Sidi Abdelli", Latitude = "35.06937000", Longitude = "-1.13706000" },
+                        new() { Id = 12, Name = "Sidi Senoussi سيدي سنوسي", Latitude = "34.99691000", Longitude = "-1.09449000" },
+                        new() { Id = 13, Name = "Tlemcen", Latitude = "34.87833000", Longitude = "-1.31500000" }
                     }
                 },
 
@@ -1221,6 +1212,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "El Hadjira", Latitude = "32.61336000", Longitude = "5.51259000" },
+                        new() { Id = 2, Name = "Megarine", Latitude = "33.19195000", Longitude = "6.08695000" },
+                        new() { Id = 3, Name = "Taibet", Latitude = "33.08391890", Longitude = "6.39996530" },
+                        new() { Id = 4, Name = "Tebesbest", Latitude = "33.11667000", Longitude = "6.08333000" },
+                        new() { Id = 5, Name = "Touggourt", Latitude = "33.10527000", Longitude = "6.05796000" }
                     }
                 }
             }

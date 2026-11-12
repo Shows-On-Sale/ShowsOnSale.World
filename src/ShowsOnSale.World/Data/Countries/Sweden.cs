@@ -267,6 +267,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Bräcke", Latitude = "62.75067000", Longitude = "15.42193000" },
+                        new() { Id = 2, Name = "Hammarstrand", Latitude = "63.11041000", Longitude = "16.35377000" },
+                        new() { Id = 3, Name = "Hoverberg", Latitude = "62.81381000", Longitude = "14.44735000" },
+                        new() { Id = 4, Name = "Järpen", Latitude = "63.34620000", Longitude = "13.46572000" },
+                        new() { Id = 5, Name = "Krokom", Latitude = "63.32589000", Longitude = "14.44883000" },
+                        new() { Id = 6, Name = "Östersund", Latitude = "63.17920000", Longitude = "14.63566000" },
+                        new() { Id = 7, Name = "Strömsund", Latitude = "63.85206000", Longitude = "15.55583000" },
+                        new() { Id = 8, Name = "Sveg", Latitude = "62.03407000", Longitude = "14.36577000" }
                     }
                 },
 
@@ -1075,9 +1083,9 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 34, Name = "Gånghester", Latitude = "57.70000000", Longitude = "13.01667000" },
                         new() { Id = 35, Name = "Gårdsten", Latitude = "57.80480000", Longitude = "12.02883000" },
                         new() { Id = 36, Name = "Göta", Latitude = "58.10617000", Longitude = "12.15254000" },
-                        new() { Id = 37, Name = "Göteborg", Latitude = "57.70716000", Longitude = "11.96679000" },
-                        new() { Id = 38, Name = "Göteborgs stad", Latitude = "57.72288000", Longitude = "11.94577000" },
-                        new() { Id = 39, Name = "Götene", Latitude = "58.52824000", Longitude = "13.49458000" },
+                        new() { Id = 37, Name = "Göteborgs stad", Latitude = "57.72288000", Longitude = "11.94577000" },
+                        new() { Id = 38, Name = "Götene", Latitude = "58.52824000", Longitude = "13.49458000" },
+                        new() { Id = 39, Name = "Gothenburg", Latitude = "57.70716000", Longitude = "11.96679000" },
                         new() { Id = 40, Name = "Gråbo", Latitude = "57.83625000", Longitude = "12.29954000" },
                         new() { Id = 41, Name = "Grästorp", Latitude = "58.33219000", Longitude = "12.68122000" },
                         new() { Id = 42, Name = "Grebbestad", Latitude = "58.70248000", Longitude = "11.25738000" },

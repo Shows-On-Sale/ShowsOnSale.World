@@ -34,7 +34,7 @@ namespace ShowsOnSale.World.Data.Countries
             EmojiU = "U+1F1F5 U+1F1F3",
             Timezones = new()
             {
-                new() { ZoneName = "Pacific/Pitcairn", GmtOffset = -28800, GmtOffsetName = "UTC-08:00", Abbreviation = "PST", TzName = "Pacific Standard Time (North America" }
+                new() { ZoneName = "Pacific/Pitcairn", GmtOffset = -28800, GmtOffsetName = "UTC-08:00", Abbreviation = "PST", TzName = "Pacific Standard Time (North America)" }
             },
             Translations = new()
             {
