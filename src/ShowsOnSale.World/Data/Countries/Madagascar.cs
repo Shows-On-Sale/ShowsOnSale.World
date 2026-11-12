@@ -89,14 +89,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ampasimanolotra", Latitude = "-18.81667000", Longitude = "49.06667000" },
-                        new() { Id = 2, Name = "Andovoranto", Latitude = "-18.95443000", Longitude = "49.10940000" },
-                        new() { Id = 3, Name = "Mahanoro", Latitude = "-19.90000000", Longitude = "48.80000000" },
-                        new() { Id = 4, Name = "Mahavelona", Latitude = "-17.68475000", Longitude = "49.50869000" },
-                        new() { Id = 5, Name = "Marolambo", Latitude = "-20.05000000", Longitude = "48.11667000" },
-                        new() { Id = 6, Name = "Toamasina", Latitude = "-18.14920000", Longitude = "49.40234000" },
-                        new() { Id = 7, Name = "Toamasina I", Latitude = "-18.13863000", Longitude = "49.39203000" },
-                        new() { Id = 8, Name = "Toamasina II", Latitude = "-17.94053000", Longitude = "49.14608000" },
-                        new() { Id = 9, Name = "Vohibinany", Latitude = "-17.35000000", Longitude = "49.03333000" }
+                        new() { Id = 2, Name = "Mahanoro", Latitude = "-19.90000000", Longitude = "48.80000000" },
+                        new() { Id = 3, Name = "Mahavelona", Latitude = "-17.68475000", Longitude = "49.50869000" },
+                        new() { Id = 4, Name = "Marolambo", Latitude = "-20.05000000", Longitude = "48.11667000" },
+                        new() { Id = 5, Name = "Toamasina I", Latitude = "-18.13863000", Longitude = "49.39203000" },
+                        new() { Id = 6, Name = "Vohibinany", Latitude = "-17.35000000", Longitude = "49.03333000" }
                     }
                 },
 
@@ -142,6 +139,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Andovoranto", Latitude = "-18.95443000", Longitude = "49.10940000" },
+                        new() { Id = 2, Name = "Toamasina", Latitude = "-18.14920000", Longitude = "49.40234000" },
+                        new() { Id = 3, Name = "Toamasina II", Latitude = "-17.94053000", Longitude = "49.14608000" }
                     }
                 },
 
