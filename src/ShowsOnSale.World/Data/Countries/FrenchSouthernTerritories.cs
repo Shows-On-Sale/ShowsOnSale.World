@@ -60,6 +60,86 @@ namespace ShowsOnSale.World.Data.Countries
             },
             States = new()
             {
+
+                new()
+                {
+                    Id = 1,
+                    Name = "Adélie Land",
+                    StateCode = "01",
+                    Iso3166_2 = "",
+                    TimeZoneId = "Antarctica/DumontDUrville",
+                    Latitude = "-66.66277778",
+                    Longitude = "140.00111111",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Dumont d'Urville Station", Latitude = "-66.66277778", Longitude = "140.00111111" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 2,
+                    Name = "Crozet Islands",
+                    StateCode = "02",
+                    Iso3166_2 = "",
+                    TimeZoneId = "Indian/Kerguelen",
+                    Latitude = "-46.43250000",
+                    Longitude = "51.85763889",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Alfred Faure", Latitude = "-46.43250000", Longitude = "51.85763889" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 3,
+                    Name = "Kerguelen Islands",
+                    StateCode = "03",
+                    Iso3166_2 = "",
+                    TimeZoneId = "Indian/Kerguelen",
+                    Latitude = "-49.35000000",
+                    Longitude = "70.21888889",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Port-aux-Français", Latitude = "-49.35000000", Longitude = "70.21888889" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 4,
+                    Name = "Saint-Paul and Amsterdam Islands",
+                    StateCode = "04",
+                    Iso3166_2 = "",
+                    TimeZoneId = "Indian/Kerguelen",
+                    Latitude = "-37.79555556",
+                    Longitude = "77.57333333",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Martin-de-Viviès", Latitude = "-37.79555556", Longitude = "77.57333333" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 5,
+                    Name = "Scattered Islands",
+                    StateCode = "05",
+                    Iso3166_2 = "",
+                    TimeZoneId = "Indian/Reunion",
+                    Latitude = "-15.89222222",
+                    Longitude = "54.52083333",
+                    Type = "district",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Tromelin", Latitude = "-15.89222222", Longitude = "54.52083333" }
+                    }
+                }
             }
         };
     }

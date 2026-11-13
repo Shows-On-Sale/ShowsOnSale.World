@@ -68,11 +68,14 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "01",
                     Iso3166_2 = "FJ-01",
                     TimeZoneId = "Pacific/Fiji",
-                    Latitude = "36.06138930",
-                    Longitude = "-95.80058720",
+                    Latitude = "-17.53333333",
+                    Longitude = "177.68333333",
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Ba", Latitude = "-17.53430000", Longitude = "177.67407000" },
+                        new() { Id = 2, Name = "Lautoka", Latitude = "-17.61686000", Longitude = "177.45049000" },
+                        new() { Id = 3, Name = "Nadi", Latitude = "-17.80309000", Longitude = "177.41617000" }
                     }
                 },
 
@@ -83,8 +86,8 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "02",
                     Iso3166_2 = "FJ-02",
                     TimeZoneId = "Pacific/Fiji",
-                    Latitude = "43.09645840",
-                    Longitude = "-89.50088000",
+                    Latitude = "-16.77611111",
+                    Longitude = "178.60111111",
                     Type = "province",
                     Cities = new()
                     {
@@ -113,8 +116,8 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "C",
                     Iso3166_2 = "FJ-C",
                     TimeZoneId = "Pacific/Fiji",
-                    Latitude = "34.04400660",
-                    Longitude = "-118.24727380",
+                    Latitude = "-18.00000000",
+                    Longitude = "178.33333333",
                     Type = "division",
                     Cities = new()
                     {
@@ -122,8 +125,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Namosi", Latitude = "-18.05000000", Longitude = "178.13333000" },
                         new() { Id = 3, Name = "Rewa", Latitude = "-18.08333000", Longitude = "178.33333000" },
                         new() { Id = 4, Name = "Serua", Latitude = "-18.16667000", Longitude = "178.00000000" },
-                        new() { Id = 5, Name = "Suva", Latitude = "-18.14161000", Longitude = "178.44149000" },
-                        new() { Id = 6, Name = "Tailevu", Latitude = "-17.83333000", Longitude = "178.50000000" }
+                        new() { Id = 5, Name = "Tailevu", Latitude = "-17.83333000", Longitude = "178.50000000" }
                     }
                 },
 
@@ -134,15 +136,14 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "E",
                     Iso3166_2 = "FJ-E",
                     TimeZoneId = "Pacific/Fiji",
-                    Latitude = "32.80943050",
-                    Longitude = "-117.12899370",
+                    Latitude = "-18.50000000",
+                    Longitude = "180.00000000",
                     Type = "division",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Kadavu", Latitude = "-18.99331000", Longitude = "178.22021000" },
                         new() { Id = 2, Name = "Lau", Latitude = "-18.20488000", Longitude = "-178.79251000" },
-                        new() { Id = 3, Name = "Levuka", Latitude = "-18.06667000", Longitude = "179.31667000" },
-                        new() { Id = 4, Name = "Lomaiviti", Latitude = "-17.66667000", Longitude = "178.80000000" }
+                        new() { Id = 3, Name = "Lomaiviti", Latitude = "-17.66667000", Longitude = "178.80000000" }
                     }
                 },
 
@@ -168,11 +169,12 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "05",
                     Iso3166_2 = "FJ-05",
                     TimeZoneId = "Pacific/Fiji",
-                    Latitude = "31.66870150",
-                    Longitude = "-106.39557630",
+                    Latitude = "-18.33333333",
+                    Longitude = "-178.50000000",
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Tubou", Latitude = "-18.23652000", Longitude = "-178.81232000" }
                     }
                 },
 
@@ -188,6 +190,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Levuka", Latitude = "-18.06667000", Longitude = "179.31667000" }
                     }
                 },
 
@@ -203,6 +206,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Labasa", Latitude = "-16.43320000", Longitude = "179.36451000" }
                     }
                 },
 
@@ -218,6 +222,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Sigatoka", Latitude = "-18.14307000", Longitude = "177.50691000" }
                     }
                 },
 
@@ -233,6 +238,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Nasinu", Latitude = "-18.07051000", Longitude = "178.51313000" }
                     }
                 },
 
@@ -265,8 +271,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bua", Latitude = "-16.83333000", Longitude = "178.75000000" },
                         new() { Id = 2, Name = "Cakaudrove", Latitude = "-16.66667000", Longitude = "179.41667000" },
-                        new() { Id = 3, Name = "Labasa", Latitude = "-16.43320000", Longitude = "179.36451000" },
-                        new() { Id = 4, Name = "Macuata", Latitude = "-16.50000000", Longitude = "179.25000000" }
+                        new() { Id = 3, Name = "Macuata", Latitude = "-16.50000000", Longitude = "179.25000000" }
                     }
                 },
 
@@ -277,11 +282,12 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "11",
                     Iso3166_2 = "FJ-11",
                     TimeZoneId = "Pacific/Fiji",
-                    Latitude = "37.10031530",
-                    Longitude = "-95.67442460",
+                    Latitude = "-17.50000000",
+                    Longitude = "178.16666667",
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Vaileka", Latitude = "-17.37894000", Longitude = "178.15329000" }
                     }
                 },
 
@@ -292,11 +298,13 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "12",
                     Iso3166_2 = "FJ-12",
                     TimeZoneId = "Pacific/Fiji",
-                    Latitude = "34.79235170",
-                    Longitude = "-82.36092640",
+                    Latitude = "-18.08333333",
+                    Longitude = "178.33333333",
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Lami", Latitude = "-18.11094000", Longitude = "178.40943000" },
+                        new() { Id = 2, Name = "Suva", Latitude = "-18.14161000", Longitude = "178.44149000" }
                     }
                 },
 
@@ -352,17 +360,14 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "W",
                     Iso3166_2 = "FJ-W",
                     TimeZoneId = "Pacific/Fiji",
-                    Latitude = "42.96621980",
-                    Longitude = "-78.70211340",
+                    Latitude = "-18.00000000",
+                    Longitude = "177.50000000",
                     Type = "division",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Ba", Latitude = "-17.53430000", Longitude = "177.67407000" },
-                        new() { Id = 2, Name = "Ba Province", Latitude = "-17.66667000", Longitude = "177.66667000" },
-                        new() { Id = 3, Name = "Lautoka", Latitude = "-17.61686000", Longitude = "177.45049000" },
-                        new() { Id = 4, Name = "Nadi", Latitude = "-17.80309000", Longitude = "177.41617000" },
-                        new() { Id = 5, Name = "Nandronga and Navosa", Latitude = "-18.00000000", Longitude = "177.66667000" },
-                        new() { Id = 6, Name = "Ra", Latitude = "-17.50000000", Longitude = "178.16667000" }
+                        new() { Id = 1, Name = "Ba Province", Latitude = "-17.66667000", Longitude = "177.66667000" },
+                        new() { Id = 2, Name = "Nandronga and Navosa", Latitude = "-18.00000000", Longitude = "177.66667000" },
+                        new() { Id = 3, Name = "Ra", Latitude = "-17.50000000", Longitude = "178.16667000" }
                     }
                 }
             }

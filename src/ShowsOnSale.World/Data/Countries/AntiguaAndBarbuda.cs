@@ -187,6 +187,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "parish",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Freetown", Latitude = "17.04791000", Longitude = "-61.70332000" }
                     }
                 }
             }

@@ -182,8 +182,8 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "N",
                     Iso3166_2 = "GW-N",
                     TimeZoneId = "Africa/Bissau",
-                    Latitude = "7.87218110",
-                    Longitude = "123.88577470",
+                    Latitude = "12.16960000",
+                    Longitude = "-15.63350000",
                     Type = "province",
                     Cities = new()
                     {
@@ -220,7 +220,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Buba", Latitude = "11.58889000", Longitude = "-14.99583000" }
+                        new() { Id = 1, Name = "Buba", Latitude = "11.58889000", Longitude = "-14.99583000" },
+                        new() { Id = 2, Name = "Fulacunda", Latitude = "11.77665000", Longitude = "-15.17177000" }
                     }
                 },
 

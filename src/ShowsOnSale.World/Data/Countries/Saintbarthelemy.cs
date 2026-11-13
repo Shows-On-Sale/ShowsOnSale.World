@@ -60,6 +60,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             States = new()
             {
+
+                new()
+                {
+                    Id = 1,
+                    Name = "Saint-Barthélemy",
+                    StateCode = "01",
+                    Iso3166_2 = "FR-BL",
+                    TimeZoneId = "America/St_Barthelemy",
+                    Latitude = "17.90000000",
+                    Longitude = "-62.83333333",
+                    Type = "overseas collectivity",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Gustavia", Latitude = "17.89790833", Longitude = "-62.85055556" }
+                    }
+                }
             }
         };
     }

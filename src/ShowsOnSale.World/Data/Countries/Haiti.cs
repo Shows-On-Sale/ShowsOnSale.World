@@ -212,8 +212,9 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Ouanaminthe", Latitude = "19.54934000", Longitude = "-71.72475000" },
                         new() { Id = 10, Name = "Perches", Latitude = "19.52201000", Longitude = "-71.92323000" },
                         new() { Id = 11, Name = "Phaëton", Latitude = "19.67525000", Longitude = "-71.89691000" },
-                        new() { Id = 12, Name = "Trou du Nord", Latitude = "19.61668000", Longitude = "-72.02442000" },
-                        new() { Id = 13, Name = "Wanament", Latitude = "19.48333000", Longitude = "-71.76667000" }
+                        new() { Id = 12, Name = "Terrier Rouge", Latitude = "19.63634000", Longitude = "-71.95483000" },
+                        new() { Id = 13, Name = "Trou du Nord", Latitude = "19.61668000", Longitude = "-72.02442000" },
+                        new() { Id = 14, Name = "Wanament", Latitude = "19.48333000", Longitude = "-71.76667000" }
                     }
                 },
 
@@ -264,20 +265,21 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Arrondissement de Port-au-Prince", Latitude = "18.50000000", Longitude = "-72.36667000" },
                         new() { Id = 6, Name = "Cabaret", Latitude = "18.73582000", Longitude = "-72.41929000" },
                         new() { Id = 7, Name = "Carrefour", Latitude = "18.54114000", Longitude = "-72.39922000" },
-                        new() { Id = 8, Name = "Cornillon", Latitude = "18.67546000", Longitude = "-71.95271000" },
-                        new() { Id = 9, Name = "Croix-des-Bouquets", Latitude = "18.57677000", Longitude = "-72.22625000" },
-                        new() { Id = 10, Name = "Delmas 73", Latitude = "18.54472000", Longitude = "-72.30278000" },
-                        new() { Id = 11, Name = "Fond Parisien", Latitude = "18.50547000", Longitude = "-71.98122000" },
-                        new() { Id = 12, Name = "Fonds Verrettes", Latitude = "18.39566000", Longitude = "-71.85634000" },
-                        new() { Id = 13, Name = "Grangwav", Latitude = "18.42590000", Longitude = "-72.76995000" },
-                        new() { Id = 14, Name = "Gressier", Latitude = "18.54091000", Longitude = "-72.52679000" },
-                        new() { Id = 15, Name = "Kenscoff", Latitude = "18.44773000", Longitude = "-72.28398000" },
-                        new() { Id = 16, Name = "Lagonav", Latitude = "18.85000000", Longitude = "-73.05000000" },
-                        new() { Id = 17, Name = "Léogâne", Latitude = "18.51110000", Longitude = "-72.63343000" },
-                        new() { Id = 18, Name = "Pétionville", Latitude = "18.51250000", Longitude = "-72.28528000" },
-                        new() { Id = 19, Name = "Port-au-Prince", Latitude = "18.54349000", Longitude = "-72.33881000" },
-                        new() { Id = 20, Name = "Thomazeau", Latitude = "18.65297000", Longitude = "-72.09391000" },
-                        new() { Id = 21, Name = "Tigwav", Latitude = "18.43117000", Longitude = "-72.86521000" }
+                        new() { Id = 8, Name = "Cité Soleil", Latitude = "18.58028000", Longitude = "-72.33806000" },
+                        new() { Id = 9, Name = "Cornillon", Latitude = "18.67546000", Longitude = "-71.95271000" },
+                        new() { Id = 10, Name = "Croix-des-Bouquets", Latitude = "18.57677000", Longitude = "-72.22625000" },
+                        new() { Id = 11, Name = "Delmas 73", Latitude = "18.54472000", Longitude = "-72.30278000" },
+                        new() { Id = 12, Name = "Fond Parisien", Latitude = "18.50547000", Longitude = "-71.98122000" },
+                        new() { Id = 13, Name = "Fonds Verrettes", Latitude = "18.39566000", Longitude = "-71.85634000" },
+                        new() { Id = 14, Name = "Grangwav", Latitude = "18.42590000", Longitude = "-72.76995000" },
+                        new() { Id = 15, Name = "Gressier", Latitude = "18.54091000", Longitude = "-72.52679000" },
+                        new() { Id = 16, Name = "Kenscoff", Latitude = "18.44773000", Longitude = "-72.28398000" },
+                        new() { Id = 17, Name = "Lagonav", Latitude = "18.85000000", Longitude = "-73.05000000" },
+                        new() { Id = 18, Name = "Léogâne", Latitude = "18.51110000", Longitude = "-72.63343000" },
+                        new() { Id = 19, Name = "Pétionville", Latitude = "18.51250000", Longitude = "-72.28528000" },
+                        new() { Id = 20, Name = "Port-au-Prince", Latitude = "18.54349000", Longitude = "-72.33881000" },
+                        new() { Id = 21, Name = "Thomazeau", Latitude = "18.65297000", Longitude = "-72.09391000" },
+                        new() { Id = 22, Name = "Tigwav", Latitude = "18.43117000", Longitude = "-72.86521000" }
                     }
                 },
 
