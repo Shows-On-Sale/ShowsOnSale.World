@@ -73,14 +73,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amnat Charoen", Latitude = "15.85851000", Longitude = "104.62883000" },
-                        new() { Id = 2, Name = "Chanuman", Latitude = "16.12553000", Longitude = "104.92279000" },
-                        new() { Id = 3, Name = "Hua Taphan", Latitude = "15.67594000", Longitude = "104.52702000" },
-                        new() { Id = 4, Name = "Lue Amnat", Latitude = "15.70781000", Longitude = "104.71118000" },
-                        new() { Id = 5, Name = "Mueang Amnat Charoen", Latitude = "15.87864000", Longitude = "104.64284000" },
-                        new() { Id = 6, Name = "Pathum Ratchawongsa", Latitude = "15.89542000", Longitude = "104.89611000" },
-                        new() { Id = 7, Name = "Phana", Latitude = "15.66895000", Longitude = "104.85675000" },
-                        new() { Id = 8, Name = "Senangkhanikhom", Latitude = "16.05130000", Longitude = "104.68441000" }
+                        new() { Id = 1, Name = "Amnat", Latitude = "15.69476000", Longitude = "104.64846000" },
+                        new() { Id = 2, Name = "Amnat Charoen", Latitude = "15.85851000", Longitude = "104.62883000" },
+                        new() { Id = 3, Name = "Chanuman", Latitude = "16.23356000", Longitude = "105.00050000" },
+                        new() { Id = 4, Name = "Hua Taphan", Latitude = "15.69710000", Longitude = "104.49160000" },
+                        new() { Id = 5, Name = "Pathum Ratchawongsa", Latitude = "15.89476400", Longitude = "104.92638200" },
+                        new() { Id = 6, Name = "Phana", Latitude = "15.68231000", Longitude = "104.84603000" },
+                        new() { Id = 7, Name = "Senangkhanikhom", Latitude = "16.03972000", Longitude = "104.66939000" }
                     }
                 },
 
@@ -96,17 +95,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Chaiyo", Latitude = "14.67225000", Longitude = "100.46786000" },
-                        new() { Id = 2, Name = "Amphoe Pho Thong", Latitude = "14.67344000", Longitude = "100.34569000" },
-                        new() { Id = 3, Name = "Ang Thong", Latitude = "14.58839000", Longitude = "100.45283000" },
-                        new() { Id = 4, Name = "Ban Thai Tan", Latitude = "14.62161000", Longitude = "100.48739000" },
-                        new() { Id = 5, Name = "Chaiyo", Latitude = "14.67639000", Longitude = "100.46861000" },
-                        new() { Id = 6, Name = "Mueang Ang Thong", Latitude = "14.57815000", Longitude = "100.44393000" },
-                        new() { Id = 7, Name = "Pa Mok", Latitude = "14.48620000", Longitude = "100.45730000" },
-                        new() { Id = 8, Name = "Pho Thong", Latitude = "14.66731000", Longitude = "100.40878000" },
-                        new() { Id = 9, Name = "Sawaeng Ha", Latitude = "14.74635000", Longitude = "100.28963000" },
-                        new() { Id = 10, Name = "Wiset Chai Chan", Latitude = "14.54990000", Longitude = "100.31743000" },
-                        new() { Id = 11, Name = "Wiset Chaichan", Latitude = "14.59450000", Longitude = "100.33825000" }
+                        new() { Id = 1, Name = "Ang Thong", Latitude = "14.58839000", Longitude = "100.45283000" },
+                        new() { Id = 2, Name = "Ban Thai Tan", Latitude = "14.62161000", Longitude = "100.48739000" },
+                        new() { Id = 3, Name = "Chaiyo", Latitude = "14.67639000", Longitude = "100.46861000" },
+                        new() { Id = 4, Name = "Pa Mok", Latitude = "14.49210000", Longitude = "100.44480000" },
+                        new() { Id = 5, Name = "Pho Thong", Latitude = "14.66731000", Longitude = "100.40878000" },
+                        new() { Id = 6, Name = "Sawaeng Ha", Latitude = "14.74635000", Longitude = "100.32666000" },
+                        new() { Id = 7, Name = "Wiset Chaichan", Latitude = "14.59450000", Longitude = "100.33825000" }
                     }
                 },
 
@@ -172,7 +167,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 48, Name = "Thung khru", Latitude = "13.63387000", Longitude = "100.49641000" },
                         new() { Id = 49, Name = "Vadhana", Latitude = "13.73501000", Longitude = "100.58280000" },
                         new() { Id = 50, Name = "Wang Thong Lang", Latitude = "13.78188000", Longitude = "100.60804000" },
-                        new() { Id = 51, Name = "Yan na wa", Latitude = "13.69177000", Longitude = "100.53950000" }
+                        new() { Id = 51, Name = "Yan Nawa", Latitude = "13.69177000", Longitude = "100.53950000" }
                     }
                 },
 
@@ -190,14 +185,13 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Amphoe Seka", Latitude = "17.98734000", Longitude = "103.89616000" },
                         new() { Id = 2, Name = "Bueng Kan", Latitude = "18.36303000", Longitude = "103.65194000" },
-                        new() { Id = 3, Name = "Bueng Khong Long", Latitude = "18.00899000", Longitude = "104.07302000" },
-                        new() { Id = 4, Name = "Bung Khla", Latitude = "18.24726000", Longitude = "103.99427000" },
-                        new() { Id = 5, Name = "Mueang Bueng Kan", Latitude = "18.29950000", Longitude = "103.64016000" },
-                        new() { Id = 6, Name = "Pak Khat", Latitude = "18.27738000", Longitude = "103.34140000" },
-                        new() { Id = 7, Name = "Phon Charoen", Latitude = "18.07967000", Longitude = "103.65453000" },
-                        new() { Id = 8, Name = "Seka", Latitude = "17.92851000", Longitude = "103.95519000" },
-                        new() { Id = 9, Name = "Si Wilai", Latitude = "18.15528000", Longitude = "103.77975000" },
-                        new() { Id = 10, Name = "So Phisai", Latitude = "18.14176000", Longitude = "103.44923000" }
+                        new() { Id = 3, Name = "Bueng Khong Long", Latitude = "17.96840000", Longitude = "104.04840000" },
+                        new() { Id = 4, Name = "Bung Khla", Latitude = "18.30232000", Longitude = "103.97418000" },
+                        new() { Id = 5, Name = "Pak Khat", Latitude = "18.30556000", Longitude = "103.30441000" },
+                        new() { Id = 6, Name = "Phon Charoen", Latitude = "18.02495539", Longitude = "103.70602045" },
+                        new() { Id = 7, Name = "Seka", Latitude = "17.92851000", Longitude = "103.95519000" },
+                        new() { Id = 8, Name = "Si Wilai", Latitude = "18.18650000", Longitude = "103.74080000" },
+                        new() { Id = 9, Name = "So Phisai", Latitude = "18.07720000", Longitude = "103.44320000" }
                     }
                 },
 
@@ -213,34 +207,29 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Nang Rong", Latitude = "14.63333000", Longitude = "102.76667000" },
-                        new() { Id = 2, Name = "Amphoe Nong Ki", Latitude = "14.72696000", Longitude = "102.55798000" },
-                        new() { Id = 3, Name = "Amphoe Prakhon Chai", Latitude = "14.61041000", Longitude = "103.06054000" },
-                        new() { Id = 4, Name = "Amphoe Satuek", Latitude = "15.22699000", Longitude = "103.33006000" },
-                        new() { Id = 5, Name = "Ban Dan", Latitude = "15.12363000", Longitude = "103.18937000" },
-                        new() { Id = 6, Name = "Ban Kruat", Latitude = "14.39205000", Longitude = "103.11494000" },
-                        new() { Id = 7, Name = "Ban Mai Chaiyaphot", Latitude = "15.57857000", Longitude = "102.84394000" },
-                        new() { Id = 8, Name = "Buri Ram", Latitude = "14.99433000", Longitude = "103.10392000" },
-                        new() { Id = 9, Name = "Chaloem Phra Kiat", Latitude = "14.55725000", Longitude = "102.89878000" },
-                        new() { Id = 10, Name = "Chamni", Latitude = "14.78636000", Longitude = "102.85386000" },
-                        new() { Id = 11, Name = "Huai Rat", Latitude = "15.00896000", Longitude = "103.23499000" },
-                        new() { Id = 12, Name = "Khaen Dong", Latitude = "15.30620000", Longitude = "103.13286000" },
-                        new() { Id = 13, Name = "Khu Mueang", Latitude = "15.26844000", Longitude = "103.02717000" },
-                        new() { Id = 14, Name = "Krasang", Latitude = "14.94167000", Longitude = "103.31898000" },
-                        new() { Id = 15, Name = "Lahan Sai", Latitude = "14.32194000", Longitude = "102.87994000" },
-                        new() { Id = 16, Name = "Lam Plai Mat", Latitude = "15.01688000", Longitude = "102.87479000" },
-                        new() { Id = 17, Name = "Mueang Buriram", Latitude = "14.94078000", Longitude = "103.06244000" },
-                        new() { Id = 18, Name = "Na Pho", Latitude = "15.69565000", Longitude = "102.93857000" },
-                        new() { Id = 19, Name = "Nang Rong", Latitude = "14.63770000", Longitude = "102.79138000" },
-                        new() { Id = 20, Name = "Non Din Daeng", Latitude = "14.22010000", Longitude = "102.68233000" },
-                        new() { Id = 21, Name = "Non Suwan", Latitude = "14.55511000", Longitude = "102.58339000" },
-                        new() { Id = 22, Name = "Nong Hong", Latitude = "14.86149000", Longitude = "102.67080000" },
-                        new() { Id = 23, Name = "Nong Ki", Latitude = "14.68679000", Longitude = "102.53800000" },
-                        new() { Id = 24, Name = "Pa Kham", Latitude = "14.40000000", Longitude = "102.66667000" },
-                        new() { Id = 25, Name = "Phlapphla Chai", Latitude = "14.73299000", Longitude = "103.17015000" },
-                        new() { Id = 26, Name = "Phutthaisong", Latitude = "15.53249000", Longitude = "102.98701000" },
-                        new() { Id = 27, Name = "Prakhon Chai", Latitude = "14.60592000", Longitude = "103.12081000" },
-                        new() { Id = 28, Name = "Satuek", Latitude = "15.29703000", Longitude = "103.29192000" }
+                        new() { Id = 1, Name = "Ban Dan", Latitude = "15.10839000", Longitude = "103.17551000" },
+                        new() { Id = 2, Name = "Ban Kruat", Latitude = "14.41582190", Longitude = "103.10240708" },
+                        new() { Id = 3, Name = "Ban Mai Chaiyaphot", Latitude = "15.58150000", Longitude = "102.83111111" },
+                        new() { Id = 4, Name = "Buri Ram", Latitude = "14.99433000", Longitude = "103.10392000" },
+                        new() { Id = 5, Name = "Chaloem Phra Kiat", Latitude = "14.55725000", Longitude = "102.89878000" },
+                        new() { Id = 6, Name = "Chamni", Latitude = "14.78629000", Longitude = "102.82277000" },
+                        new() { Id = 7, Name = "Huai Rat", Latitude = "14.96039000", Longitude = "103.18911000" },
+                        new() { Id = 8, Name = "Khaen Dong", Latitude = "15.32476000", Longitude = "103.13343000" },
+                        new() { Id = 9, Name = "Khu Mueang", Latitude = "15.27160000", Longitude = "103.00167000" },
+                        new() { Id = 10, Name = "Krasang", Latitude = "14.92375000", Longitude = "103.30369000" },
+                        new() { Id = 11, Name = "Lahan Sai", Latitude = "14.41142000", Longitude = "102.85936000" },
+                        new() { Id = 12, Name = "Lam Plai Mat", Latitude = "15.02520000", Longitude = "102.83894000" },
+                        new() { Id = 13, Name = "Na Pho", Latitude = "15.64113000", Longitude = "102.95462000" },
+                        new() { Id = 14, Name = "Nang Rong", Latitude = "14.63770000", Longitude = "102.79138000" },
+                        new() { Id = 15, Name = "Non Din Daeng", Latitude = "14.31353000", Longitude = "102.74814000" },
+                        new() { Id = 16, Name = "Non Suwan", Latitude = "14.58044000", Longitude = "102.59689000" },
+                        new() { Id = 17, Name = "Nong Hong", Latitude = "14.84782000", Longitude = "102.68401000" },
+                        new() { Id = 18, Name = "Nong Ki", Latitude = "14.68679000", Longitude = "102.53800000" },
+                        new() { Id = 19, Name = "Pa Kham", Latitude = "14.40000000", Longitude = "102.66667000" },
+                        new() { Id = 20, Name = "Phlapphla Chai", Latitude = "14.73011000", Longitude = "103.16728000" },
+                        new() { Id = 21, Name = "Phutthaisong", Latitude = "15.54783000", Longitude = "103.02467000" },
+                        new() { Id = 22, Name = "Prakhon Chai", Latitude = "14.60592000", Longitude = "103.12081000" },
+                        new() { Id = 23, Name = "Satuek", Latitude = "15.29703000", Longitude = "103.29192000" }
                     }
                 },
 
@@ -256,23 +245,20 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Bang Khla", Latitude = "13.74186000", Longitude = "101.20754000" },
-                        new() { Id = 2, Name = "Amphoe Bang Nam Priao", Latitude = "13.88034000", Longitude = "101.03232000" },
-                        new() { Id = 3, Name = "Amphoe Bang Pakong", Latitude = "13.53241000", Longitude = "100.96045000" },
-                        new() { Id = 4, Name = "Amphoe Khlong Khuean", Latitude = "13.77961000", Longitude = "101.15633000" },
-                        new() { Id = 5, Name = "Amphoe Phanom Sarakham", Latitude = "13.73806000", Longitude = "101.41202000" },
-                        new() { Id = 6, Name = "Ban Pho", Latitude = "13.61000000", Longitude = "101.07838000" },
-                        new() { Id = 7, Name = "Bang Khla", Latitude = "13.72144000", Longitude = "101.20814000" },
-                        new() { Id = 8, Name = "Bang Nam Priao", Latitude = "13.84739000", Longitude = "101.05306000" },
-                        new() { Id = 9, Name = "Bang Pakong", Latitude = "13.54297000", Longitude = "100.99333000" },
-                        new() { Id = 10, Name = "Chachoengsao", Latitude = "13.68820000", Longitude = "101.07156000" },
-                        new() { Id = 11, Name = "Khlong Khuean", Latitude = "13.79131000", Longitude = "101.16353000" },
-                        new() { Id = 12, Name = "Mueang Chachoengsao", Latitude = "13.71758000", Longitude = "101.02152000" },
-                        new() { Id = 13, Name = "Phanom Sarakham", Latitude = "13.74872000", Longitude = "101.34888000" },
-                        new() { Id = 14, Name = "Plaeng Yao", Latitude = "13.56381000", Longitude = "101.33972000" },
-                        new() { Id = 15, Name = "Ratchasan", Latitude = "13.78660000", Longitude = "101.28136000" },
-                        new() { Id = 16, Name = "Sanam Chai Khet", Latitude = "13.62612000", Longitude = "101.65475000" },
-                        new() { Id = 17, Name = "Tha Takiap", Latitude = "13.39510000", Longitude = "101.73457000" }
+                        new() { Id = 1, Name = "Amphoe Bang Nam Priao", Latitude = "13.88034000", Longitude = "101.03232000" },
+                        new() { Id = 2, Name = "Amphoe Bang Pakong", Latitude = "13.53241000", Longitude = "100.96045000" },
+                        new() { Id = 3, Name = "Amphoe Khlong Khuean", Latitude = "13.77961000", Longitude = "101.15633000" },
+                        new() { Id = 4, Name = "Ban Pho", Latitude = "13.59845000", Longitude = "101.08090000" },
+                        new() { Id = 5, Name = "Bang Khla", Latitude = "13.72144000", Longitude = "101.20814000" },
+                        new() { Id = 6, Name = "Bang Nam Priao", Latitude = "13.84739000", Longitude = "101.05306000" },
+                        new() { Id = 7, Name = "Bang Pakong", Latitude = "13.54297000", Longitude = "100.99333000" },
+                        new() { Id = 8, Name = "Chachoengsao", Latitude = "13.68820000", Longitude = "101.07156000" },
+                        new() { Id = 9, Name = "Khlong Khuean", Latitude = "13.79131000", Longitude = "101.16353000" },
+                        new() { Id = 10, Name = "Phanom Sarakham", Latitude = "13.74872000", Longitude = "101.34888000" },
+                        new() { Id = 11, Name = "Plaeng Yao", Latitude = "13.58455000", Longitude = "101.28585000" },
+                        new() { Id = 12, Name = "Ratchasan", Latitude = "13.78660000", Longitude = "101.28136000" },
+                        new() { Id = 13, Name = "Sanam Chai Khet", Latitude = "13.65864000", Longitude = "101.43906000" },
+                        new() { Id = 14, Name = "Tha Takiap", Latitude = "13.39510000", Longitude = "101.73457000" }
                     }
                 },
 
@@ -289,14 +275,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Chai Nat", Latitude = "15.18636000", Longitude = "100.12353000" },
-                        new() { Id = 2, Name = "Hankha", Latitude = "15.05048000", Longitude = "99.96090000" },
+                        new() { Id = 2, Name = "Han Kha", Latitude = "14.98126000", Longitude = "100.01548000" },
                         new() { Id = 3, Name = "Manorom", Latitude = "15.31894000", Longitude = "100.15677000" },
                         new() { Id = 4, Name = "Mueang Chainat", Latitude = "15.19104000", Longitude = "100.13540000" },
-                        new() { Id = 5, Name = "Noen Kham", Latitude = "14.98254000", Longitude = "99.84590000" },
-                        new() { Id = 6, Name = "Nong Mamong", Latitude = "15.23372000", Longitude = "99.81087000" },
-                        new() { Id = 7, Name = "Sankhaburi", Latitude = "15.02105000", Longitude = "100.17038000" },
-                        new() { Id = 8, Name = "Sapphaya", Latitude = "15.14873000", Longitude = "100.25506000" },
-                        new() { Id = 9, Name = "Wat Sing", Latitude = "15.21574000", Longitude = "99.96680000" }
+                        new() { Id = 5, Name = "Noen Kham", Latitude = "14.95044000", Longitude = "99.93883000" },
+                        new() { Id = 6, Name = "Nong Mamong", Latitude = "15.27598000", Longitude = "99.86798000" },
+                        new() { Id = 7, Name = "Sankhaburi", Latitude = "15.04733000", Longitude = "100.16178000" },
+                        new() { Id = 8, Name = "Sapphaya", Latitude = "15.14608000", Longitude = "100.24161000" },
+                        new() { Id = 9, Name = "Wat Sing", Latitude = "15.25987000", Longitude = "100.04040000" }
                     }
                 },
 
@@ -316,8 +302,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Chaiyaphum", Latitude = "15.81047000", Longitude = "102.02881000" },
                         new() { Id = 3, Name = "Kaeng Khro", Latitude = "16.10861111", Longitude = "102.25805556" },
                         new() { Id = 4, Name = "Kaset Sombun", Latitude = "16.28053000", Longitude = "101.95422000" },
-                        new() { Id = 5, Name = "Nakhon Nayok", Latitude = "14.20305600", Longitude = "101.21500000" },
-                        new() { Id = 6, Name = "Phu Khiao", Latitude = "16.37650000", Longitude = "102.12853000" }
+                        new() { Id = 5, Name = "Phu Khiao", Latitude = "16.37650000", Longitude = "102.12853000" }
                     }
                 },
 
@@ -333,21 +318,17 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Khlung", Latitude = "12.57246000", Longitude = "102.30783000" },
-                        new() { Id = 2, Name = "Amphoe Laem Sing", Latitude = "12.45689000", Longitude = "102.14262000" },
-                        new() { Id = 3, Name = "Amphoe Pong Nam Ron", Latitude = "12.93467000", Longitude = "102.37189000" },
-                        new() { Id = 4, Name = "Amphoe Tha Mai", Latitude = "12.73848000", Longitude = "101.97696000" },
-                        new() { Id = 5, Name = "Chanthaburi", Latitude = "12.60961000", Longitude = "102.10447000" },
-                        new() { Id = 6, Name = "Kaeng Hang Maeo", Latitude = "13.09690000", Longitude = "101.88543000" },
-                        new() { Id = 7, Name = "Khao Khitchakut", Latitude = "12.93726000", Longitude = "102.09762000" },
-                        new() { Id = 8, Name = "Khlung", Latitude = "12.45467000", Longitude = "102.22142000" },
-                        new() { Id = 9, Name = "Laem Sing", Latitude = "12.48164000", Longitude = "102.07375000" },
-                        new() { Id = 10, Name = "Makham", Latitude = "12.73333000", Longitude = "102.21667000" },
-                        new() { Id = 11, Name = "Mueang Chanthaburi", Latitude = "12.59542000", Longitude = "102.12263000" },
-                        new() { Id = 12, Name = "Na Yai Am", Latitude = "12.73833000", Longitude = "101.87502000" },
-                        new() { Id = 13, Name = "Pong Nam Ron", Latitude = "12.90575000", Longitude = "102.26225000" },
-                        new() { Id = 14, Name = "Soi Dao", Latitude = "13.17034000", Longitude = "102.22796000" },
-                        new() { Id = 15, Name = "Tha Mai", Latitude = "12.62137000", Longitude = "102.00481000" }
+                        new() { Id = 1, Name = "Amphoe Laem Sing", Latitude = "12.45689000", Longitude = "102.14262000" },
+                        new() { Id = 2, Name = "Chanthaburi", Latitude = "12.60961000", Longitude = "102.10447000" },
+                        new() { Id = 3, Name = "Kaeng Hang Maeo", Latitude = "13.09690000", Longitude = "101.88543000" },
+                        new() { Id = 4, Name = "Khao Khitchakut", Latitude = "12.93726000", Longitude = "102.09762000" },
+                        new() { Id = 5, Name = "Khlung", Latitude = "12.45467000", Longitude = "102.22142000" },
+                        new() { Id = 6, Name = "Laem Sing", Latitude = "12.48164000", Longitude = "102.07375000" },
+                        new() { Id = 7, Name = "Makham", Latitude = "12.67300000", Longitude = "102.19617000" },
+                        new() { Id = 8, Name = "Na Yai Am", Latitude = "12.78165000", Longitude = "101.82239000" },
+                        new() { Id = 9, Name = "Pong Nam Ron", Latitude = "12.90460000", Longitude = "102.26397000" },
+                        new() { Id = 10, Name = "Soi Dao", Latitude = "13.17034000", Longitude = "102.22796000" },
+                        new() { Id = 11, Name = "Tha Mai", Latitude = "12.62137000", Longitude = "102.00481000" }
                     }
                 },
 
@@ -363,39 +344,33 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Chai Prakan", Latitude = "19.67400000", Longitude = "99.17478000" },
-                        new() { Id = 2, Name = "Amphoe Chom Thong", Latitude = "18.39242000", Longitude = "98.59761000" },
-                        new() { Id = 3, Name = "Amphoe Fang", Latitude = "19.87550000", Longitude = "99.16345000" },
-                        new() { Id = 4, Name = "Amphoe Hang Dong", Latitude = "18.73869000", Longitude = "98.88439000" },
-                        new() { Id = 5, Name = "Amphoe San Kamphaeng", Latitude = "18.73497000", Longitude = "99.18609000" },
-                        new() { Id = 6, Name = "Amphoe San Pa Tong", Latitude = "18.60567000", Longitude = "98.88531000" },
-                        new() { Id = 7, Name = "Chai Prakan", Latitude = "19.73136000", Longitude = "99.13997000" },
-                        new() { Id = 8, Name = "Chiang Dao", Latitude = "19.51279000", Longitude = "98.94180000" },
-                        new() { Id = 9, Name = "Chiang Mai", Latitude = "18.79038000", Longitude = "98.98468000" },
-                        new() { Id = 10, Name = "Chom Thong", Latitude = "18.41742000", Longitude = "98.67428000" },
-                        new() { Id = 11, Name = "Doi Lo", Latitude = "18.53330000", Longitude = "98.76843000" },
-                        new() { Id = 12, Name = "Doi Saket", Latitude = "18.92372000", Longitude = "99.21272000" },
-                        new() { Id = 13, Name = "Doi Tao", Latitude = "17.89703000", Longitude = "98.66292000" },
-                        new() { Id = 14, Name = "Fang", Latitude = "19.91689000", Longitude = "99.21450000" },
-                        new() { Id = 15, Name = "Galyani Vadhana", Latitude = "18.94439000", Longitude = "98.30329000" },
-                        new() { Id = 16, Name = "Hang Dong", Latitude = "18.68703000", Longitude = "98.91939000" },
-                        new() { Id = 17, Name = "Hot", Latitude = "18.11581000", Longitude = "98.46377000" },
-                        new() { Id = 18, Name = "Mae Ai", Latitude = "19.99136000", Longitude = "99.33976000" },
-                        new() { Id = 19, Name = "Mae Chaem", Latitude = "18.66694000", Longitude = "98.32450000" },
-                        new() { Id = 20, Name = "Mae On", Latitude = "18.73496000", Longitude = "99.30378000" },
-                        new() { Id = 21, Name = "Mae Rim", Latitude = "18.94139000", Longitude = "98.88667000" },
-                        new() { Id = 22, Name = "Mae Taeng", Latitude = "19.16667000", Longitude = "98.83333000" },
-                        new() { Id = 23, Name = "Mae Wang", Latitude = "18.67457000", Longitude = "98.68714000" },
-                        new() { Id = 24, Name = "Mueang Chiang Mai", Latitude = "18.79008000", Longitude = "98.96869000" },
-                        new() { Id = 25, Name = "Om Koi", Latitude = "17.69842000", Longitude = "98.35433000" },
-                        new() { Id = 26, Name = "Pai", Latitude = "19.36168000", Longitude = "98.43973000" },
-                        new() { Id = 27, Name = "Phrao", Latitude = "19.28460000", Longitude = "99.22277000" },
-                        new() { Id = 28, Name = "Samoeng", Latitude = "18.90027000", Longitude = "98.65650000" },
-                        new() { Id = 29, Name = "San Kamphaeng", Latitude = "18.74486000", Longitude = "99.11953000" },
-                        new() { Id = 30, Name = "San Pa Tong", Latitude = "18.62828000", Longitude = "98.89572000" },
-                        new() { Id = 31, Name = "San Sai", Latitude = "18.94101000", Longitude = "99.04048000" },
-                        new() { Id = 32, Name = "Saraphi", Latitude = "18.70511000", Longitude = "99.02989000" },
-                        new() { Id = 33, Name = "Wiang Haeng", Latitude = "19.59188000", Longitude = "98.65845000" }
+                        new() { Id = 1, Name = "Amphoe Chom Thong", Latitude = "18.39242000", Longitude = "98.59761000" },
+                        new() { Id = 2, Name = "Chai Prakan", Latitude = "19.73136000", Longitude = "99.13997000" },
+                        new() { Id = 3, Name = "Chiang Dao", Latitude = "19.36130000", Longitude = "98.96260000" },
+                        new() { Id = 4, Name = "Chiang Mai", Latitude = "18.79038000", Longitude = "98.98468000" },
+                        new() { Id = 5, Name = "Chom Thong", Latitude = "18.41742000", Longitude = "98.67428000" },
+                        new() { Id = 6, Name = "Doi Lo", Latitude = "18.53330000", Longitude = "98.76843000" },
+                        new() { Id = 7, Name = "Doi Saket", Latitude = "18.92372000", Longitude = "99.21272000" },
+                        new() { Id = 8, Name = "Doi Tao", Latitude = "17.89703000", Longitude = "98.66292000" },
+                        new() { Id = 9, Name = "Fang", Latitude = "19.91689000", Longitude = "99.21450000" },
+                        new() { Id = 10, Name = "Galyani Vadhana", Latitude = "18.94439000", Longitude = "98.30329000" },
+                        new() { Id = 11, Name = "Hang Dong", Latitude = "18.68703000", Longitude = "98.91939000" },
+                        new() { Id = 12, Name = "Hot", Latitude = "18.11581000", Longitude = "98.46377000" },
+                        new() { Id = 13, Name = "Mae Ai", Latitude = "20.02961806", Longitude = "99.28472500" },
+                        new() { Id = 14, Name = "Mae Chaem", Latitude = "18.49926000", Longitude = "98.36494000" },
+                        new() { Id = 15, Name = "Mae On", Latitude = "18.73496000", Longitude = "99.30378000" },
+                        new() { Id = 16, Name = "Mae Rim", Latitude = "18.94139000", Longitude = "98.88667000" },
+                        new() { Id = 17, Name = "Mae Taeng", Latitude = "19.11712000", Longitude = "98.94176000" },
+                        new() { Id = 18, Name = "Mae Wang", Latitude = "18.61604000", Longitude = "98.77292000" },
+                        new() { Id = 19, Name = "Omkoi", Latitude = "17.80122000", Longitude = "98.35933000" },
+                        new() { Id = 20, Name = "Pai", Latitude = "19.36168000", Longitude = "98.43973000" },
+                        new() { Id = 21, Name = "Phrao", Latitude = "19.28460000", Longitude = "99.22277000" },
+                        new() { Id = 22, Name = "Samoeng Tai", Latitude = "18.84806000", Longitude = "98.73242000" },
+                        new() { Id = 23, Name = "San Kamphaeng", Latitude = "18.74486000", Longitude = "99.11953000" },
+                        new() { Id = 24, Name = "San Pa Tong", Latitude = "18.62828000", Longitude = "98.89572000" },
+                        new() { Id = 25, Name = "San Sai Luang", Latitude = "18.84792000", Longitude = "99.04508000" },
+                        new() { Id = 26, Name = "Saraphi", Latitude = "18.71417000", Longitude = "99.03528000" },
+                        new() { Id = 27, Name = "Wiang Haeng", Latitude = "19.59188000", Longitude = "98.65845000" }
                     }
                 },
 
@@ -413,28 +388,24 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Amphoe Chiang Khong", Latitude = "20.13587000", Longitude = "100.36527000" },
                         new() { Id = 2, Name = "Amphoe Chiang Saen", Latitude = "20.23572000", Longitude = "100.15537000" },
-                        new() { Id = 3, Name = "Amphoe Mae Chan", Latitude = "20.19910000", Longitude = "99.88468000" },
-                        new() { Id = 4, Name = "Amphoe Mae Sai", Latitude = "20.36500000", Longitude = "99.92604000" },
-                        new() { Id = 5, Name = "Amphoe Pa Daet", Latitude = "19.50643000", Longitude = "99.97615000" },
-                        new() { Id = 6, Name = "Chiang Khong", Latitude = "20.26125000", Longitude = "100.40461000" },
-                        new() { Id = 7, Name = "Chiang Rai", Latitude = "19.90858000", Longitude = "99.83250000" },
-                        new() { Id = 8, Name = "Chiang Saen", Latitude = "20.27511000", Longitude = "100.08689000" },
-                        new() { Id = 9, Name = "Doi Luang", Latitude = "20.14496000", Longitude = "100.15712000" },
-                        new() { Id = 10, Name = "Khun Tan", Latitude = "19.86481000", Longitude = "100.28731000" },
-                        new() { Id = 11, Name = "Mae Chan", Latitude = "20.14675000", Longitude = "99.85256000" },
-                        new() { Id = 12, Name = "Mae Fa Luang", Latitude = "20.22228000", Longitude = "99.64147000" },
-                        new() { Id = 13, Name = "Mae Lao", Latitude = "19.77223000", Longitude = "99.71128000" },
-                        new() { Id = 14, Name = "Mae Sai", Latitude = "20.43353000", Longitude = "99.87617000" },
-                        new() { Id = 15, Name = "Mae Suai", Latitude = "19.69037000", Longitude = "99.48459000" },
-                        new() { Id = 16, Name = "Mueang Chiang Rai", Latitude = "19.90824000", Longitude = "99.77299000" },
-                        new() { Id = 17, Name = "Pa Daet", Latitude = "19.50489000", Longitude = "99.99241000" },
-                        new() { Id = 18, Name = "Phan", Latitude = "19.57450000", Longitude = "99.77299000" },
-                        new() { Id = 19, Name = "Phaya Mengrai", Latitude = "19.87320000", Longitude = "100.16257000" },
-                        new() { Id = 20, Name = "Thoeng", Latitude = "19.67650000", Longitude = "100.20095000" },
-                        new() { Id = 21, Name = "Wiang Chai", Latitude = "19.86360000", Longitude = "100.00065000" },
-                        new() { Id = 22, Name = "Wiang Chiang Rung", Latitude = "20.02208000", Longitude = "100.07472000" },
-                        new() { Id = 23, Name = "Wiang Kaen", Latitude = "20.00874000", Longitude = "100.48641000" },
-                        new() { Id = 24, Name = "Wiang Pa Pao", Latitude = "19.30460000", Longitude = "99.44925000" }
+                        new() { Id = 3, Name = "Chiang Khong", Latitude = "20.26125000", Longitude = "100.40461000" },
+                        new() { Id = 4, Name = "Chiang Rai", Latitude = "19.90858000", Longitude = "99.83250000" },
+                        new() { Id = 5, Name = "Chiang Saen", Latitude = "20.27511000", Longitude = "100.08689000" },
+                        new() { Id = 6, Name = "Doi Luang", Latitude = "20.14496000", Longitude = "100.15712000" },
+                        new() { Id = 7, Name = "Khun Tan", Latitude = "19.86481000", Longitude = "100.28731000" },
+                        new() { Id = 8, Name = "Mae Chan", Latitude = "20.14675000", Longitude = "99.85256000" },
+                        new() { Id = 9, Name = "Mae Fa Luang", Latitude = "20.22228000", Longitude = "99.64147000" },
+                        new() { Id = 10, Name = "Mae Lao", Latitude = "19.79003000", Longitude = "99.69967000" },
+                        new() { Id = 11, Name = "Mae Sai", Latitude = "20.43353000", Longitude = "99.87617000" },
+                        new() { Id = 12, Name = "Mae Suai", Latitude = "19.65633000", Longitude = "99.54367000" },
+                        new() { Id = 13, Name = "Pa Daet", Latitude = "19.50489000", Longitude = "99.99241000" },
+                        new() { Id = 14, Name = "Phan", Latitude = "19.57450000", Longitude = "99.77299000" },
+                        new() { Id = 15, Name = "Phaya Mengrai", Latitude = "19.84922000", Longitude = "100.15358000" },
+                        new() { Id = 16, Name = "Thoeng", Latitude = "19.67650000", Longitude = "100.20095000" },
+                        new() { Id = 17, Name = "Wiang Chai", Latitude = "19.88361000", Longitude = "99.93314000" },
+                        new() { Id = 18, Name = "Wiang Chiang Rung", Latitude = "20.02208000", Longitude = "100.07472000" },
+                        new() { Id = 19, Name = "Wiang Kaen", Latitude = "20.00874000", Longitude = "100.48641000" },
+                        new() { Id = 20, Name = "Wiang Pa Pao", Latitude = "19.34778000", Longitude = "99.50722000" }
                     }
                 },
 
@@ -451,27 +422,20 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Amphoe Ban Bueng", Latitude = "13.25280000", Longitude = "101.18151000" },
-                        new() { Id = 2, Name = "Amphoe Ko Si Chang", Latitude = "13.15286000", Longitude = "100.81156000" },
-                        new() { Id = 3, Name = "Amphoe Phan Thong", Latitude = "13.46300000", Longitude = "101.09131000" },
-                        new() { Id = 4, Name = "Amphoe Phanat Nikhom", Latitude = "13.46434000", Longitude = "101.21428000" },
-                        new() { Id = 5, Name = "Amphoe Sattahip", Latitude = "12.71743000", Longitude = "100.92754000" },
-                        new() { Id = 6, Name = "Amphoe Si Racha", Latitude = "13.12976000", Longitude = "101.04008000" },
-                        new() { Id = 7, Name = "Ban Bueng", Latitude = "13.31100000", Longitude = "101.11214000" },
-                        new() { Id = 8, Name = "Ban Ko Lan", Latitude = "12.92419000", Longitude = "100.78794000" },
-                        new() { Id = 9, Name = "Ban Talat Bueng", Latitude = "13.07147000", Longitude = "101.00314000" },
-                        new() { Id = 10, Name = "Bang Lamung", Latitude = "13.04704000", Longitude = "100.92891000" },
-                        new() { Id = 11, Name = "Bang Lamung District", Latitude = "12.92579000", Longitude = "100.89243000" },
-                        new() { Id = 12, Name = "Bo Thong", Latitude = "13.24227000", Longitude = "101.50864000" },
-                        new() { Id = 13, Name = "Chon Buri", Latitude = "13.36220000", Longitude = "100.98345000" },
-                        new() { Id = 14, Name = "Ko Chan", Latitude = "13.40253000", Longitude = "101.38800000" },
-                        new() { Id = 15, Name = "Ko Si Chang", Latitude = "13.16389000", Longitude = "100.80547000" },
-                        new() { Id = 16, Name = "Mueang Chonburi", Latitude = "13.34271000", Longitude = "101.00111000" },
-                        new() { Id = 17, Name = "Nong Yai", Latitude = "13.11772000", Longitude = "101.37471000" },
-                        new() { Id = 18, Name = "Pattaya", Latitude = "12.93333000", Longitude = "100.88333000" },
-                        new() { Id = 19, Name = "Phan Thong", Latitude = "13.46804000", Longitude = "101.09532000" },
-                        new() { Id = 20, Name = "Phanat Nikhom", Latitude = "13.44581000", Longitude = "101.18445000" },
-                        new() { Id = 21, Name = "Sattahip", Latitude = "12.66644000", Longitude = "100.90073000" },
-                        new() { Id = 22, Name = "Si Racha", Latitude = "13.17372000", Longitude = "100.93111000" }
+                        new() { Id = 2, Name = "Ban Bueng", Latitude = "13.31100000", Longitude = "101.11214000" },
+                        new() { Id = 3, Name = "Ban Ko Lan", Latitude = "12.92419000", Longitude = "100.78794000" },
+                        new() { Id = 4, Name = "Ban Talat Bueng", Latitude = "13.07147000", Longitude = "101.00314000" },
+                        new() { Id = 5, Name = "Bang Lamung", Latitude = "13.04704000", Longitude = "100.92891000" },
+                        new() { Id = 6, Name = "Bo Thong", Latitude = "13.27886000", Longitude = "101.44187000" },
+                        new() { Id = 7, Name = "Chon Buri", Latitude = "13.36220000", Longitude = "100.98345000" },
+                        new() { Id = 8, Name = "Ko Chan", Latitude = "13.41595000", Longitude = "101.33489000" },
+                        new() { Id = 9, Name = "Ko Si Chang", Latitude = "13.16389000", Longitude = "100.80547000" },
+                        new() { Id = 10, Name = "Nong Yai", Latitude = "13.15415000", Longitude = "101.37206000" },
+                        new() { Id = 11, Name = "Pattaya", Latitude = "12.93333000", Longitude = "100.88333000" },
+                        new() { Id = 12, Name = "Phan Thong", Latitude = "13.46804000", Longitude = "101.09532000" },
+                        new() { Id = 13, Name = "Phanat Nikhom", Latitude = "13.44581000", Longitude = "101.18445000" },
+                        new() { Id = 14, Name = "Sattahip", Latitude = "12.66644000", Longitude = "100.90073000" },
+                        new() { Id = 15, Name = "Si Racha", Latitude = "13.17372000", Longitude = "100.93111000" }
                     }
                 },
 
@@ -487,17 +451,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Lang Suan", Latitude = "9.93386000", Longitude = "99.05292000" },
-                        new() { Id = 2, Name = "Ban Nam Yuen", Latitude = "9.87686000", Longitude = "98.86592000" },
-                        new() { Id = 3, Name = "Chumphon", Latitude = "10.49570000", Longitude = "99.17971000" },
-                        new() { Id = 4, Name = "Lamae", Latitude = "9.75567000", Longitude = "99.04378000" },
-                        new() { Id = 5, Name = "Lang Suan", Latitude = "9.94561000", Longitude = "99.07847000" },
-                        new() { Id = 6, Name = "Mueang Chumphon", Latitude = "10.46077000", Longitude = "99.10608000" },
-                        new() { Id = 7, Name = "Pathio", Latitude = "10.81008000", Longitude = "99.33938000" },
-                        new() { Id = 8, Name = "Phato", Latitude = "9.81066000", Longitude = "98.80178000" },
-                        new() { Id = 9, Name = "Sawi", Latitude = "10.24008000", Longitude = "99.01865000" },
-                        new() { Id = 10, Name = "Tha Sae", Latitude = "10.76864000", Longitude = "99.09878000" },
-                        new() { Id = 11, Name = "Thung Tako", Latitude = "10.09223000", Longitude = "99.05337000" }
+                        new() { Id = 1, Name = "Ban Nam Yuen", Latitude = "9.87686000", Longitude = "98.86592000" },
+                        new() { Id = 2, Name = "Chumphon", Latitude = "10.49570000", Longitude = "99.17971000" },
+                        new() { Id = 3, Name = "Lamae", Latitude = "9.78125997", Longitude = "99.11213688" },
+                        new() { Id = 4, Name = "Lang Suan", Latitude = "9.94561000", Longitude = "99.07847000" },
+                        new() { Id = 5, Name = "Pathio", Latitude = "10.81008000", Longitude = "99.33938000" },
+                        new() { Id = 6, Name = "Phato", Latitude = "9.78657959", Longitude = "98.77685209" },
+                        new() { Id = 7, Name = "Sawi", Latitude = "10.24008000", Longitude = "99.01865000" },
+                        new() { Id = 8, Name = "Tha Sae", Latitude = "10.67160765", Longitude = "99.18122116" },
+                        new() { Id = 9, Name = "Thung Tako", Latitude = "10.09223000", Longitude = "99.05337000" }
                     }
                 },
 
@@ -513,31 +475,27 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Huai Mek", Latitude = "16.58868000", Longitude = "103.24098000" },
-                        new() { Id = 2, Name = "Amphoe Kamalasai", Latitude = "16.27999000", Longitude = "103.60010000" },
-                        new() { Id = 3, Name = "Amphoe Khao Wong", Latitude = "16.67959000", Longitude = "104.10030000" },
-                        new() { Id = 4, Name = "Amphoe Kuchinarai", Latitude = "16.51977000", Longitude = "104.05097000" },
-                        new() { Id = 5, Name = "Amphoe Nong Kung Si", Latitude = "16.71932000", Longitude = "103.31922000" },
-                        new() { Id = 6, Name = "Amphoe Yang Talat", Latitude = "16.43961000", Longitude = "103.34085000" },
-                        new() { Id = 7, Name = "Don Chan", Latitude = "16.46667000", Longitude = "103.71667000" },
-                        new() { Id = 8, Name = "Huai Mek", Latitude = "16.58975000", Longitude = "103.23547000" },
-                        new() { Id = 9, Name = "Huai Phueng", Latitude = "16.66972000", Longitude = "103.87997000" },
-                        new() { Id = 10, Name = "Kalasin", Latitude = "16.43281000", Longitude = "103.50658000" },
-                        new() { Id = 11, Name = "Kamalasai", Latitude = "16.33839000", Longitude = "103.57564000" },
-                        new() { Id = 12, Name = "Kham Muang", Latitude = "16.93884000", Longitude = "103.63980000" },
-                        new() { Id = 13, Name = "Khao Wong", Latitude = "16.70008000", Longitude = "104.09019000" },
-                        new() { Id = 14, Name = "Khong Chai", Latitude = "16.25845000", Longitude = "103.48167000" },
-                        new() { Id = 15, Name = "Kuchinarai", Latitude = "16.54100000", Longitude = "104.05004000" },
-                        new() { Id = 16, Name = "Mueang Kalasin", Latitude = "16.50918000", Longitude = "103.54984000" },
-                        new() { Id = 17, Name = "Na Khu", Latitude = "16.75018000", Longitude = "104.00062000" },
-                        new() { Id = 18, Name = "Na Mon", Latitude = "16.56994000", Longitude = "103.78015000" },
-                        new() { Id = 19, Name = "Nong Kung Si", Latitude = "16.65000000", Longitude = "103.30000000" },
-                        new() { Id = 20, Name = "Rong Kham", Latitude = "16.27925000", Longitude = "103.71238000" },
-                        new() { Id = 21, Name = "Sahatsakhan", Latitude = "16.70987000", Longitude = "103.57909000" },
-                        new() { Id = 22, Name = "Sam Chai", Latitude = "16.86909000", Longitude = "103.52243000" },
-                        new() { Id = 23, Name = "Somdet", Latitude = "16.76973000", Longitude = "103.75012000" },
-                        new() { Id = 24, Name = "Tha Khantho", Latitude = "16.88333000", Longitude = "103.25000000" },
-                        new() { Id = 25, Name = "Yang Talat", Latitude = "16.39982000", Longitude = "103.36785000" }
+                        new() { Id = 1, Name = "Amphoe Khao Wong", Latitude = "16.67959000", Longitude = "104.10030000" },
+                        new() { Id = 2, Name = "Amphoe Nong Kung Si", Latitude = "16.71932000", Longitude = "103.31922000" },
+                        new() { Id = 3, Name = "Don Chan", Latitude = "16.45711000", Longitude = "103.69558000" },
+                        new() { Id = 4, Name = "Huai Mek", Latitude = "16.58975000", Longitude = "103.23547000" },
+                        new() { Id = 5, Name = "Huai Phueng", Latitude = "16.66972000", Longitude = "103.87997000" },
+                        new() { Id = 6, Name = "Kalasin", Latitude = "16.43281000", Longitude = "103.50658000" },
+                        new() { Id = 7, Name = "Kamalasai", Latitude = "16.33839000", Longitude = "103.57564000" },
+                        new() { Id = 8, Name = "Kham Muang", Latitude = "16.92902000", Longitude = "103.63518000" },
+                        new() { Id = 9, Name = "Khao Wong", Latitude = "16.70008000", Longitude = "104.09019000" },
+                        new() { Id = 10, Name = "Khong Chai", Latitude = "16.25845000", Longitude = "103.48167000" },
+                        new() { Id = 11, Name = "Kuchinarai", Latitude = "16.54100000", Longitude = "104.05004000" },
+                        new() { Id = 12, Name = "Kuchinarai", Latitude = "16.53179500", Longitude = "104.04400200" },
+                        new() { Id = 13, Name = "Na Khu", Latitude = "16.76384000", Longitude = "104.02626000" },
+                        new() { Id = 14, Name = "Na Mon", Latitude = "16.57653000", Longitude = "103.78711000" },
+                        new() { Id = 15, Name = "Nong Kung Si", Latitude = "16.65000000", Longitude = "103.30000000" },
+                        new() { Id = 16, Name = "Rong Kham", Latitude = "16.27095400", Longitude = "103.74735400" },
+                        new() { Id = 17, Name = "Sahatsakhan", Latitude = "16.70987000", Longitude = "103.57909000" },
+                        new() { Id = 18, Name = "Sam Chai", Latitude = "16.86909000", Longitude = "103.52243000" },
+                        new() { Id = 19, Name = "Somdet", Latitude = "16.70462000", Longitude = "103.74935000" },
+                        new() { Id = 20, Name = "Tha Khantho", Latitude = "16.93953000", Longitude = "103.24586000" },
+                        new() { Id = 21, Name = "Yang Talat", Latitude = "16.39982000", Longitude = "103.36785000" }
                     }
                 },
 
@@ -553,20 +511,17 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Khanu Woralaksaburi", Latitude = "16.00233000", Longitude = "99.67618000" },
-                        new() { Id = 2, Name = "Amphoe Lan Krabue", Latitude = "16.60348000", Longitude = "99.86521000" },
-                        new() { Id = 3, Name = "Bueng Samakkhi", Latitude = "16.21262000", Longitude = "99.96720000" },
-                        new() { Id = 4, Name = "Kamphaeng Phet", Latitude = "16.48344000", Longitude = "99.52153000" },
-                        new() { Id = 5, Name = "Khanu Woralaksaburi", Latitude = "16.06170000", Longitude = "99.86058000" },
-                        new() { Id = 6, Name = "Khlong Khlung", Latitude = "16.22191000", Longitude = "99.67654000" },
-                        new() { Id = 7, Name = "Khlong Lan", Latitude = "16.25992000", Longitude = "99.21806000" },
-                        new() { Id = 8, Name = "Kosamphi Nakhon", Latitude = "16.60702000", Longitude = "99.34795000" },
-                        new() { Id = 9, Name = "Lan Krabue", Latitude = "16.60003000", Longitude = "99.84889000" },
-                        new() { Id = 10, Name = "Mueang Kamphaeng Phet", Latitude = "16.43254000", Longitude = "99.48831000" },
-                        new() { Id = 11, Name = "Pang Sila Thong", Latitude = "16.02525000", Longitude = "99.35593000" },
-                        new() { Id = 12, Name = "Phran Kratai", Latitude = "16.70541000", Longitude = "99.53704000" },
-                        new() { Id = 13, Name = "Sai Ngam", Latitude = "16.43956000", Longitude = "99.87457000" },
-                        new() { Id = 14, Name = "Sai Thong Watthana", Latitude = "16.30859000", Longitude = "99.87854000" }
+                        new() { Id = 1, Name = "Bueng Samakkhi", Latitude = "16.21262000", Longitude = "99.96720000" },
+                        new() { Id = 2, Name = "Kamphaeng Phet", Latitude = "16.48344000", Longitude = "99.52153000" },
+                        new() { Id = 3, Name = "Khanu Woralaksaburi", Latitude = "16.06170000", Longitude = "99.86058000" },
+                        new() { Id = 4, Name = "Khlong Khlung", Latitude = "16.22100000", Longitude = "99.71750000" },
+                        new() { Id = 5, Name = "Khlong Lan", Latitude = "16.25992000", Longitude = "99.21806000" },
+                        new() { Id = 6, Name = "Kosamphi Nakhon", Latitude = "16.60702000", Longitude = "99.34795000" },
+                        new() { Id = 7, Name = "Lan Krabue", Latitude = "16.60003000", Longitude = "99.84889000" },
+                        new() { Id = 8, Name = "Pang Sila Thong", Latitude = "16.02525000", Longitude = "99.35593000" },
+                        new() { Id = 9, Name = "Phran Kratai", Latitude = "16.65360000", Longitude = "99.57700000" },
+                        new() { Id = 10, Name = "Sai Ngam", Latitude = "16.46862000", Longitude = "99.88843000" },
+                        new() { Id = 11, Name = "Thung Sai", Latitude = "16.29550000", Longitude = "99.80890000" }
                     }
                 },
 
@@ -582,25 +537,21 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Bo Phloi", Latitude = "14.38723000", Longitude = "99.44990000" },
-                        new() { Id = 2, Name = "Amphoe Phanom Thuan", Latitude = "14.15941000", Longitude = "99.66904000" },
-                        new() { Id = 3, Name = "Amphoe Sangkhla Buri", Latitude = "15.19337000", Longitude = "98.52791000" },
-                        new() { Id = 4, Name = "Amphoe Tha Maka", Latitude = "13.94665000", Longitude = "99.77900000" },
-                        new() { Id = 5, Name = "Amphoe Tha Muang", Latitude = "13.90947000", Longitude = "99.61540000" },
-                        new() { Id = 6, Name = "Bo Phloi", Latitude = "14.32517000", Longitude = "99.51467000" },
-                        new() { Id = 7, Name = "Dan Makham Tia", Latitude = "13.83422000", Longitude = "99.34125000" },
-                        new() { Id = 8, Name = "Huai Krachao", Latitude = "14.34056000", Longitude = "99.67633000" },
-                        new() { Id = 9, Name = "Kanchanaburi", Latitude = "14.00412000", Longitude = "99.54832000" },
-                        new() { Id = 10, Name = "Lao Khwan", Latitude = "14.59488000", Longitude = "99.68338000" },
-                        new() { Id = 11, Name = "Mueang Kanchanaburi", Latitude = "14.06987000", Longitude = "99.32769000" },
-                        new() { Id = 12, Name = "Nong Prue", Latitude = "14.67801000", Longitude = "99.41075000" },
-                        new() { Id = 13, Name = "Phanom Thuan", Latitude = "14.13031000", Longitude = "99.69858000" },
-                        new() { Id = 14, Name = "Sai Yok", Latitude = "14.25652000", Longitude = "98.93372000" },
-                        new() { Id = 15, Name = "Sangkhla Buri", Latitude = "15.15553000", Longitude = "98.45361000" },
-                        new() { Id = 16, Name = "Si Sawat", Latitude = "14.67254000", Longitude = "99.12992000" },
-                        new() { Id = 17, Name = "Tha Maka", Latitude = "13.90000000", Longitude = "99.76667000" },
-                        new() { Id = 18, Name = "Tha Muang", Latitude = "13.96118000", Longitude = "99.64122000" },
-                        new() { Id = 19, Name = "Thong Pha Phum", Latitude = "14.83277000", Longitude = "98.69233000" }
+                        new() { Id = 1, Name = "Amphoe Sangkhla Buri", Latitude = "15.19337000", Longitude = "98.52791000" },
+                        new() { Id = 2, Name = "Amphoe Tha Muang", Latitude = "13.90947000", Longitude = "99.61540000" },
+                        new() { Id = 3, Name = "Bo Phloi", Latitude = "14.32517000", Longitude = "99.51467000" },
+                        new() { Id = 4, Name = "Dan Makham Tia", Latitude = "13.83422000", Longitude = "99.34125000" },
+                        new() { Id = 5, Name = "Huai Krachao", Latitude = "14.32750000", Longitude = "99.66767000" },
+                        new() { Id = 6, Name = "Kanchanaburi", Latitude = "14.00412000", Longitude = "99.54832000" },
+                        new() { Id = 7, Name = "Lao Khwan", Latitude = "14.59522000", Longitude = "99.77431000" },
+                        new() { Id = 8, Name = "Nong Prue", Latitude = "14.60784000", Longitude = "99.45783000" },
+                        new() { Id = 9, Name = "Phanom Thuan", Latitude = "14.13031000", Longitude = "99.69858000" },
+                        new() { Id = 10, Name = "Sai Yok", Latitude = "14.11899000", Longitude = "99.14200000" },
+                        new() { Id = 11, Name = "Sangkhla Buri", Latitude = "15.15553000", Longitude = "98.45361000" },
+                        new() { Id = 12, Name = "Si Sawat", Latitude = "14.67254000", Longitude = "99.12992000" },
+                        new() { Id = 13, Name = "Tha Maka", Latitude = "13.92027778", Longitude = "99.76666667" },
+                        new() { Id = 14, Name = "Tha Muang", Latitude = "13.96118000", Longitude = "99.64122000" },
+                        new() { Id = 15, Name = "Thong Pha Phum", Latitude = "14.83277000", Longitude = "98.69233000" }
                     }
                 },
 
@@ -616,38 +567,33 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Ban Phai", Latitude = "16.04603000", Longitude = "102.77755000" },
-                        new() { Id = 2, Name = "Amphoe Chum Phae", Latitude = "16.61591000", Longitude = "102.09619000" },
-                        new() { Id = 3, Name = "Amphoe Kranuan", Latitude = "16.75261000", Longitude = "103.08044000" },
-                        new() { Id = 4, Name = "Amphoe Phon", Latitude = "15.80672000", Longitude = "102.59111000" },
-                        new() { Id = 5, Name = "Amphoe Pueai Noi", Latitude = "15.88867000", Longitude = "102.87618000" },
-                        new() { Id = 6, Name = "Ban Fang", Latitude = "16.49162000", Longitude = "102.61669000" },
-                        new() { Id = 7, Name = "Ban Haet", Latitude = "16.20067000", Longitude = "102.77465000" },
-                        new() { Id = 8, Name = "Ban Phai", Latitude = "16.05997000", Longitude = "102.73097000" },
-                        new() { Id = 9, Name = "Chonnabot", Latitude = "16.02249000", Longitude = "102.55946000" },
-                        new() { Id = 10, Name = "Chum Phae", Latitude = "16.54430000", Longitude = "102.09924000" },
-                        new() { Id = 11, Name = "Khao Suan Kwang", Latitude = "16.91682000", Longitude = "102.78206000" },
-                        new() { Id = 12, Name = "Khok Pho Chai", Latitude = "16.07194000", Longitude = "102.38428000" },
-                        new() { Id = 13, Name = "Khon Kaen", Latitude = "16.44671000", Longitude = "102.83300000" },
-                        new() { Id = 14, Name = "Kranuan", Latitude = "16.70672000", Longitude = "103.07878000" },
-                        new() { Id = 15, Name = "Mancha Khiri", Latitude = "16.21242000", Longitude = "102.51973000" },
-                        new() { Id = 16, Name = "Mueang Khon Kaen", Latitude = "16.46048000", Longitude = "102.80873000" },
-                        new() { Id = 17, Name = "Nam Phong", Latitude = "16.69946000", Longitude = "102.88125000" },
-                        new() { Id = 18, Name = "Non Sila", Latitude = "15.96420000", Longitude = "102.69074000" },
-                        new() { Id = 19, Name = "Nong Na Kham", Latitude = "16.81010000", Longitude = "102.32800000" },
-                        new() { Id = 20, Name = "Nong Ruea", Latitude = "16.49166000", Longitude = "102.44572000" },
-                        new() { Id = 21, Name = "Nong Song Hong", Latitude = "15.76419000", Longitude = "102.79174000" },
-                        new() { Id = 22, Name = "Phon", Latitude = "15.81600000", Longitude = "102.59981000" },
-                        new() { Id = 23, Name = "Phra Yuen", Latitude = "16.30823000", Longitude = "102.67108000" },
-                        new() { Id = 24, Name = "Phu Pha Man", Latitude = "16.71864000", Longitude = "101.87081000" },
-                        new() { Id = 25, Name = "Phu Wiang", Latitude = "16.67910000", Longitude = "102.39893000" },
-                        new() { Id = 26, Name = "Pueai Noi", Latitude = "15.86978000", Longitude = "102.90767000" },
-                        new() { Id = 27, Name = "Sam Sung", Latitude = "16.56208000", Longitude = "103.05473000" },
-                        new() { Id = 28, Name = "Si Chom Phu", Latitude = "16.76258000", Longitude = "102.13078000" },
-                        new() { Id = 29, Name = "Ubolratana", Latitude = "16.77766000", Longitude = "102.67536000" },
-                        new() { Id = 30, Name = "Waeng Noi", Latitude = "15.80631000", Longitude = "102.42358000" },
-                        new() { Id = 31, Name = "Waeng Yai", Latitude = "15.92532000", Longitude = "102.46221000" },
-                        new() { Id = 32, Name = "Wiang Kao", Latitude = "16.70138000", Longitude = "102.29186000" }
+                        new() { Id = 1, Name = "Amphoe Phon", Latitude = "15.80672000", Longitude = "102.59111000" },
+                        new() { Id = 2, Name = "Ban Fang", Latitude = "16.45331000", Longitude = "102.63892000" },
+                        new() { Id = 3, Name = "Ban Haet", Latitude = "16.20000000", Longitude = "102.74919444" },
+                        new() { Id = 4, Name = "Ban Phai", Latitude = "16.05997000", Longitude = "102.73097000" },
+                        new() { Id = 5, Name = "Chonnabot", Latitude = "16.08400000", Longitude = "102.61930000" },
+                        new() { Id = 6, Name = "Chum Phae", Latitude = "16.54430000", Longitude = "102.09924000" },
+                        new() { Id = 7, Name = "Khao Suan Kwang", Latitude = "16.91682000", Longitude = "102.78206000" },
+                        new() { Id = 8, Name = "Khok Pho Chai", Latitude = "16.07194000", Longitude = "102.38428000" },
+                        new() { Id = 9, Name = "Khon Kaen", Latitude = "16.44671000", Longitude = "102.83300000" },
+                        new() { Id = 10, Name = "Khuean Ubolratana", Latitude = "16.75862236", Longitude = "102.63148375" },
+                        new() { Id = 11, Name = "Kranuan", Latitude = "16.70672000", Longitude = "103.07878000" },
+                        new() { Id = 12, Name = "Mancha Khiri", Latitude = "16.12704740", Longitude = "102.54401776" },
+                        new() { Id = 13, Name = "Nam Phong", Latitude = "16.69946000", Longitude = "102.88125000" },
+                        new() { Id = 14, Name = "Non Sila", Latitude = "15.96168100", Longitude = "102.69111300" },
+                        new() { Id = 15, Name = "Nong Na Kham", Latitude = "16.80195600", Longitude = "102.34035300" },
+                        new() { Id = 16, Name = "Nong Ruea", Latitude = "16.49333000", Longitude = "102.43339000" },
+                        new() { Id = 17, Name = "Nong Song Hong", Latitude = "15.76419000", Longitude = "102.79174000" },
+                        new() { Id = 18, Name = "Phon", Latitude = "15.81600000", Longitude = "102.59981000" },
+                        new() { Id = 19, Name = "Phra Yuen", Latitude = "16.32930000", Longitude = "102.65182000" },
+                        new() { Id = 20, Name = "Phu Pha Man", Latitude = "16.64530000", Longitude = "101.89800000" },
+                        new() { Id = 21, Name = "Phu Wiang", Latitude = "16.65170000", Longitude = "102.37510000" },
+                        new() { Id = 22, Name = "Pueai Noi", Latitude = "15.86978000", Longitude = "102.90767000" },
+                        new() { Id = 23, Name = "Sam Sung", Latitude = "16.54147300", Longitude = "103.07962300" },
+                        new() { Id = 24, Name = "Si Chomphu", Latitude = "16.80120000", Longitude = "102.18680000" },
+                        new() { Id = 25, Name = "Waeng Noi", Latitude = "15.80250000", Longitude = "102.42288889" },
+                        new() { Id = 26, Name = "Waeng Yai", Latitude = "15.96238889", Longitude = "102.54188889" },
+                        new() { Id = 27, Name = "Wiang Kao", Latitude = "16.70138000", Longitude = "102.29186000" }
                     }
                 },
 
@@ -663,19 +609,17 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Ao Luek", Latitude = "8.38526000", Longitude = "98.75378000" },
-                        new() { Id = 2, Name = "Amphoe Ko Lanta", Latitude = "7.71267000", Longitude = "99.07813000" },
-                        new() { Id = 3, Name = "Amphoe Nuea Khlong", Latitude = "8.06058000", Longitude = "99.04039000" },
-                        new() { Id = 4, Name = "Ao Luek", Latitude = "8.37803000", Longitude = "98.72117000" },
-                        new() { Id = 5, Name = "Khao Phanom", Latitude = "8.26953000", Longitude = "99.11813000" },
-                        new() { Id = 6, Name = "Khlong Thom", Latitude = "7.91470000", Longitude = "99.19935000" },
-                        new() { Id = 7, Name = "Ko Lanta", Latitude = "7.53362000", Longitude = "99.08647000" },
-                        new() { Id = 8, Name = "Krabi", Latitude = "8.07257000", Longitude = "98.91052000" },
-                        new() { Id = 9, Name = "Lam Thap", Latitude = "8.04799000", Longitude = "99.33543000" },
-                        new() { Id = 10, Name = "Mueang Krabi", Latitude = "8.15947000", Longitude = "98.86661000" },
-                        new() { Id = 11, Name = "Nuea Khlong", Latitude = "8.07143000", Longitude = "98.99933000" },
-                        new() { Id = 12, Name = "Plai Phraya", Latitude = "8.54087000", Longitude = "98.83671000" },
-                        new() { Id = 13, Name = "Saladan", Latitude = "7.61342000", Longitude = "99.03651000" }
+                        new() { Id = 1, Name = "Amphoe Ko Lanta", Latitude = "7.71267000", Longitude = "99.07813000" },
+                        new() { Id = 2, Name = "Ao Luek Tai", Latitude = "8.37803000", Longitude = "98.72117000" },
+                        new() { Id = 3, Name = "Ban Ao Nang", Latitude = "8.04580000", Longitude = "98.81035000" },
+                        new() { Id = 4, Name = "Khao Phanom", Latitude = "8.26549000", Longitude = "99.05124000" },
+                        new() { Id = 5, Name = "Khlong Thom", Latitude = "7.91470000", Longitude = "99.19935000" },
+                        new() { Id = 6, Name = "Ko Lanta Yai", Latitude = "7.53027778", Longitude = "99.09419444" },
+                        new() { Id = 7, Name = "Krabi", Latitude = "8.07257000", Longitude = "98.91052000" },
+                        new() { Id = 8, Name = "Lam Thap", Latitude = "8.07228000", Longitude = "99.29225000" },
+                        new() { Id = 9, Name = "Nuea Khlong", Latitude = "8.07143000", Longitude = "98.99933000" },
+                        new() { Id = 10, Name = "Plai Phraya", Latitude = "8.54087000", Longitude = "98.83671000" },
+                        new() { Id = 11, Name = "Saladan", Latitude = "7.61342000", Longitude = "99.03651000" }
                     }
                 },
 
@@ -691,22 +635,20 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Mae Tha", Latitude = "18.11122000", Longitude = "99.57826000" },
-                        new() { Id = 2, Name = "Amphoe Thoen", Latitude = "17.58128000", Longitude = "99.28836000" },
-                        new() { Id = 3, Name = "Amphoe Wang Nuea", Latitude = "19.16011000", Longitude = "99.64767000" },
-                        new() { Id = 4, Name = "Chae Hom", Latitude = "18.75404000", Longitude = "99.66822000" },
-                        new() { Id = 5, Name = "Hang Chat", Latitude = "18.35497000", Longitude = "99.27978000" },
-                        new() { Id = 6, Name = "Ko Kha", Latitude = "18.14408000", Longitude = "99.35229000" },
-                        new() { Id = 7, Name = "Lampang", Latitude = "18.29232000", Longitude = "99.49277000" },
-                        new() { Id = 8, Name = "Mae Mo", Latitude = "18.40244000", Longitude = "99.82135000" },
-                        new() { Id = 9, Name = "Mae Phrik", Latitude = "17.50450000", Longitude = "99.05847000" },
-                        new() { Id = 10, Name = "Mueang Lampang", Latitude = "18.38901000", Longitude = "99.54388000" },
-                        new() { Id = 11, Name = "Mueang Pan", Latitude = "18.79093000", Longitude = "99.45408000" },
-                        new() { Id = 12, Name = "Ngao", Latitude = "18.75948000", Longitude = "99.95295000" },
-                        new() { Id = 13, Name = "Soem Ngam", Latitude = "18.09406000", Longitude = "99.17297000" },
-                        new() { Id = 14, Name = "Sop Prap", Latitude = "17.89861000", Longitude = "99.34081000" },
-                        new() { Id = 15, Name = "Thoen", Latitude = "17.61289000", Longitude = "99.21612000" },
-                        new() { Id = 16, Name = "Wang Nuea", Latitude = "19.14678000", Longitude = "99.61933000" }
+                        new() { Id = 1, Name = "Amphoe Thoen", Latitude = "17.58128000", Longitude = "99.28836000" },
+                        new() { Id = 2, Name = "Chae Hom", Latitude = "18.71267000", Longitude = "99.55758000" },
+                        new() { Id = 3, Name = "Hang Chat", Latitude = "18.32883000", Longitude = "99.34621000" },
+                        new() { Id = 4, Name = "Ko Kha", Latitude = "18.19225000", Longitude = "99.39433000" },
+                        new() { Id = 5, Name = "Lampang", Latitude = "18.29232000", Longitude = "99.49277000" },
+                        new() { Id = 6, Name = "Mae Mo", Latitude = "18.27561000", Longitude = "99.65045000" },
+                        new() { Id = 7, Name = "Mae Phrik", Latitude = "17.44688000", Longitude = "99.11420000" },
+                        new() { Id = 8, Name = "Mae Tha", Latitude = "18.13411000", Longitude = "99.51389000" },
+                        new() { Id = 9, Name = "Mueang Pan", Latitude = "18.76803000", Longitude = "99.50250000" },
+                        new() { Id = 10, Name = "Ngao", Latitude = "18.75948000", Longitude = "99.95295000" },
+                        new() { Id = 11, Name = "Soem Ngam", Latitude = "18.06506000", Longitude = "99.24537000" },
+                        new() { Id = 12, Name = "Sop Prap", Latitude = "17.88053000", Longitude = "99.33700000" },
+                        new() { Id = 13, Name = "Thoen", Latitude = "17.61289000", Longitude = "99.21612000" },
+                        new() { Id = 14, Name = "Wang Nuea", Latitude = "19.14678000", Longitude = "99.61933000" }
                     }
                 },
 
@@ -723,16 +665,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Amphoe Mae Tha", Latitude = "18.39540000", Longitude = "99.09233000" },
-                        new() { Id = 2, Name = "Amphoe Pa Sang", Latitude = "18.41397000", Longitude = "98.88281000" },
-                        new() { Id = 3, Name = "Ban Hong", Latitude = "18.27422000", Longitude = "98.83794000" },
-                        new() { Id = 4, Name = "Ban Thi", Latitude = "18.65894000", Longitude = "99.15883000" },
-                        new() { Id = 5, Name = "Lamphun", Latitude = "18.58054000", Longitude = "99.00745000" },
-                        new() { Id = 6, Name = "Li", Latitude = "17.78639000", Longitude = "98.88674000" },
-                        new() { Id = 7, Name = "Mae Tha", Latitude = "18.46456000", Longitude = "99.14026000" },
-                        new() { Id = 8, Name = "Mueang Lamphun", Latitude = "18.55217000", Longitude = "99.05905000" },
-                        new() { Id = 9, Name = "Pa Sang", Latitude = "18.52617000", Longitude = "98.93936000" },
-                        new() { Id = 10, Name = "Thung Hua Chang", Latitude = "17.98333000", Longitude = "99.05000000" },
-                        new() { Id = 11, Name = "Wiang Nong Long", Latitude = "18.41844000", Longitude = "98.75856000" }
+                        new() { Id = 2, Name = "Ban Hong", Latitude = "18.33086000", Longitude = "98.81925000" },
+                        new() { Id = 3, Name = "Ban Thi", Latitude = "18.63186000", Longitude = "99.11661000" },
+                        new() { Id = 4, Name = "Lamphun", Latitude = "18.58054000", Longitude = "99.00745000" },
+                        new() { Id = 5, Name = "Li", Latitude = "17.78639000", Longitude = "98.88674000" },
+                        new() { Id = 6, Name = "Mae Tha", Latitude = "18.46456000", Longitude = "99.14026000" },
+                        new() { Id = 7, Name = "Pa Sang", Latitude = "18.52617000", Longitude = "98.93936000" },
+                        new() { Id = 8, Name = "Thung Hua Chang", Latitude = "18.00301000", Longitude = "99.02780000" },
+                        new() { Id = 9, Name = "Wiang Nong Long", Latitude = "18.41844000", Longitude = "98.75856000" }
                     }
                 },
 
@@ -748,23 +688,20 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Phu Kradueng", Latitude = "16.90190000", Longitude = "101.84562000" },
-                        new() { Id = 2, Name = "Amphoe Wang Saphung", Latitude = "17.28028000", Longitude = "101.73342000" },
-                        new() { Id = 3, Name = "Chiang Khan", Latitude = "17.82441000", Longitude = "101.73424000" },
-                        new() { Id = 4, Name = "Dan Sai", Latitude = "17.22101000", Longitude = "101.22373000" },
-                        new() { Id = 5, Name = "Erawan", Latitude = "17.28823000", Longitude = "101.97443000" },
-                        new() { Id = 6, Name = "Loei", Latitude = "17.49052000", Longitude = "101.72749000" },
-                        new() { Id = 7, Name = "Mueang Loei", Latitude = "17.54211000", Longitude = "101.71932000" },
-                        new() { Id = 8, Name = "Na Duang", Latitude = "17.53833000", Longitude = "101.99639000" },
-                        new() { Id = 9, Name = "Na Haeo", Latitude = "17.43942000", Longitude = "100.99654000" },
-                        new() { Id = 10, Name = "Nong Hin", Latitude = "17.08087000", Longitude = "101.82643000" },
-                        new() { Id = 11, Name = "Pak Chom", Latitude = "17.91100000", Longitude = "101.95777000" },
-                        new() { Id = 12, Name = "Pha Khao", Latitude = "17.05638000", Longitude = "102.01575000" },
-                        new() { Id = 13, Name = "Phu Kradueng", Latitude = "16.88425000", Longitude = "101.88467000" },
-                        new() { Id = 14, Name = "Phu Luang", Latitude = "17.09782000", Longitude = "101.64413000" },
-                        new() { Id = 15, Name = "Phu Ruea", Latitude = "17.35076000", Longitude = "101.41329000" },
-                        new() { Id = 16, Name = "Tha Li", Latitude = "17.61279000", Longitude = "101.44141000" },
-                        new() { Id = 17, Name = "Wang Saphung", Latitude = "17.30097000", Longitude = "101.76850000" }
+                        new() { Id = 1, Name = "Chiang Khan", Latitude = "17.89382000", Longitude = "101.65997000" },
+                        new() { Id = 2, Name = "Dan Sai", Latitude = "17.28011000", Longitude = "101.14686000" },
+                        new() { Id = 3, Name = "Erawan", Latitude = "17.30181000", Longitude = "101.95382000" },
+                        new() { Id = 4, Name = "Loei", Latitude = "17.49052000", Longitude = "101.72749000" },
+                        new() { Id = 5, Name = "Na Duang", Latitude = "17.53833000", Longitude = "101.99639000" },
+                        new() { Id = 6, Name = "Na Haeo", Latitude = "17.48536000", Longitude = "101.06808000" },
+                        new() { Id = 7, Name = "Nong Hin", Latitude = "17.12356000", Longitude = "101.85789000" },
+                        new() { Id = 8, Name = "Pak Chom", Latitude = "18.01880000", Longitude = "101.88180000" },
+                        new() { Id = 9, Name = "Pha Khao", Latitude = "17.05638000", Longitude = "102.01575000" },
+                        new() { Id = 10, Name = "Phu Kradueng", Latitude = "16.88425000", Longitude = "101.88467000" },
+                        new() { Id = 11, Name = "Phu Luang", Latitude = "17.09782000", Longitude = "101.64413000" },
+                        new() { Id = 12, Name = "Phu Ruea", Latitude = "17.45380000", Longitude = "101.36231000" },
+                        new() { Id = 13, Name = "Tha Li", Latitude = "17.62355000", Longitude = "101.42099000" },
+                        new() { Id = 14, Name = "Wang Saphung", Latitude = "17.30097000", Longitude = "101.76850000" }
                     }
                 },
 
@@ -781,18 +718,17 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Amphoe Chai Badan", Latitude = "15.18944000", Longitude = "101.12682000" },
-                        new() { Id = 2, Name = "Ban Mi", Latitude = "15.06154000", Longitude = "100.55200000" },
-                        new() { Id = 3, Name = "Chai Badan", Latitude = "15.20000000", Longitude = "101.13333000" },
-                        new() { Id = 4, Name = "Khok Charoen", Latitude = "15.40384000", Longitude = "100.84968000" },
-                        new() { Id = 5, Name = "Khok Samrong", Latitude = "15.04303000", Longitude = "100.77151000" },
-                        new() { Id = 6, Name = "Lam Sonthi", Latitude = "15.32833000", Longitude = "101.34783000" },
-                        new() { Id = 7, Name = "Lop Buri", Latitude = "14.79808000", Longitude = "100.65397000" },
-                        new() { Id = 8, Name = "Muang Lop Buri", Latitude = "14.82334000", Longitude = "100.67557000" },
-                        new() { Id = 9, Name = "Nong Muang", Latitude = "15.27740000", Longitude = "100.70413000" },
-                        new() { Id = 10, Name = "Phatthana Nikhom", Latitude = "14.90917000", Longitude = "101.02673000" },
-                        new() { Id = 11, Name = "Sa Bot", Latitude = "15.23832000", Longitude = "100.88318000" },
-                        new() { Id = 12, Name = "Tha Luang", Latitude = "15.04786000", Longitude = "101.19986000" },
-                        new() { Id = 13, Name = "Tha Wung", Latitude = "14.82506000", Longitude = "100.50921000" }
+                        new() { Id = 2, Name = "Ban Mi", Latitude = "15.04613300", Longitude = "100.53579000" },
+                        new() { Id = 3, Name = "Ban Tha Luang", Latitude = "15.07066000", Longitude = "101.09783000" },
+                        new() { Id = 4, Name = "Chai Badan", Latitude = "15.20000000", Longitude = "101.13333000" },
+                        new() { Id = 5, Name = "Khok Charoen", Latitude = "15.40384000", Longitude = "100.84968000" },
+                        new() { Id = 6, Name = "Khok Samrong", Latitude = "15.06911746", Longitude = "100.72342789" },
+                        new() { Id = 7, Name = "Lam Sonthi", Latitude = "15.32833000", Longitude = "101.34783000" },
+                        new() { Id = 8, Name = "Lop Buri", Latitude = "14.79808000", Longitude = "100.65397000" },
+                        new() { Id = 9, Name = "Nong Muang", Latitude = "15.23480000", Longitude = "100.65240000" },
+                        new() { Id = 10, Name = "Phatthana Nikhom", Latitude = "14.85600000", Longitude = "100.98893000" },
+                        new() { Id = 11, Name = "Sa Bot", Latitude = "15.20838071", Longitude = "100.83401580" },
+                        new() { Id = 12, Name = "Tha Wung", Latitude = "14.81130000", Longitude = "100.51170000" }
                     }
                 },
 
@@ -808,14 +744,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Khun Yuam", Latitude = "18.82643000", Longitude = "97.93303000" },
+                        new() { Id = 1, Name = "Khun Yuam", Latitude = "18.82958000", Longitude = "97.93347000" },
                         new() { Id = 2, Name = "Mae Hong Son", Latitude = "19.30029000", Longitude = "97.96852000" },
-                        new() { Id = 3, Name = "Mae La Noi", Latitude = "18.47823000", Longitude = "97.98295000" },
+                        new() { Id = 3, Name = "Mae La Noi", Latitude = "18.38181000", Longitude = "97.94372000" },
                         new() { Id = 4, Name = "Mae Sariang", Latitude = "18.26474000", Longitude = "97.77057000" },
-                        new() { Id = 5, Name = "Mueang Mae Hong Son", Latitude = "19.28862000", Longitude = "98.00607000" },
-                        new() { Id = 6, Name = "Pai", Latitude = "19.36036000", Longitude = "98.40638000" },
-                        new() { Id = 7, Name = "Pang Mapha", Latitude = "19.60451000", Longitude = "98.20560000" },
-                        new() { Id = 8, Name = "Sop Moei", Latitude = "17.96333000", Longitude = "97.93149000" }
+                        new() { Id = 5, Name = "Pai", Latitude = "19.36036000", Longitude = "98.40638000" },
+                        new() { Id = 6, Name = "Pang Mapha", Latitude = "19.60451000", Longitude = "98.20560000" },
+                        new() { Id = 7, Name = "Sop Moei", Latitude = "17.96333000", Longitude = "97.93149000" }
                     }
                 },
 
@@ -831,23 +766,19 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Kosum Phisai", Latitude = "16.23882000", Longitude = "102.99081000" },
-                        new() { Id = 2, Name = "Amphoe Phayakkhaphum Phisai", Latitude = "15.51963000", Longitude = "103.23268000" },
-                        new() { Id = 3, Name = "Amphoe Wapi Pathum", Latitude = "15.85953000", Longitude = "103.34091000" },
-                        new() { Id = 4, Name = "Borabue", Latitude = "15.98881000", Longitude = "103.12521000" },
-                        new() { Id = 5, Name = "Chiang Yuen", Latitude = "16.40942000", Longitude = "103.07005000" },
-                        new() { Id = 6, Name = "Chuen Chom", Latitude = "16.54801000", Longitude = "103.14796000" },
-                        new() { Id = 7, Name = "Kae Dam", Latitude = "16.04961000", Longitude = "103.38953000" },
-                        new() { Id = 8, Name = "Kantharawichai", Latitude = "16.27992000", Longitude = "103.25892000" },
-                        new() { Id = 9, Name = "Kosum Phisai", Latitude = "16.24858000", Longitude = "103.06739000" },
-                        new() { Id = 10, Name = "Kut Rang", Latitude = "16.02970000", Longitude = "102.95059000" },
-                        new() { Id = 11, Name = "Maha Sarakham", Latitude = "16.18483000", Longitude = "103.30067000" },
-                        new() { Id = 12, Name = "Mueang Maha Sarakham", Latitude = "16.11882000", Longitude = "103.31160000" },
-                        new() { Id = 13, Name = "Na Chueak", Latitude = "15.80180000", Longitude = "103.05725000" },
-                        new() { Id = 14, Name = "Na Dun", Latitude = "15.71952000", Longitude = "103.23004000" },
-                        new() { Id = 15, Name = "Phayakkhaphum Phisai", Latitude = "15.51631000", Longitude = "103.19367000" },
-                        new() { Id = 16, Name = "Wapi Pathum", Latitude = "15.84523000", Longitude = "103.37678000" },
-                        new() { Id = 17, Name = "Yang Si Surat", Latitude = "15.64953000", Longitude = "103.08916000" }
+                        new() { Id = 1, Name = "Borabue", Latitude = "16.03700000", Longitude = "103.12310000" },
+                        new() { Id = 2, Name = "Chiang Yuen", Latitude = "16.41042000", Longitude = "103.09767000" },
+                        new() { Id = 3, Name = "Chuen Chom", Latitude = "16.55488000", Longitude = "103.17661000" },
+                        new() { Id = 4, Name = "Kae Dam", Latitude = "16.02330000", Longitude = "103.38620000" },
+                        new() { Id = 5, Name = "Kantharawichai", Latitude = "16.27992000", Longitude = "103.25892000" },
+                        new() { Id = 6, Name = "Kosum Phisai", Latitude = "16.24858000", Longitude = "103.06739000" },
+                        new() { Id = 7, Name = "Kut Rang", Latitude = "16.02970000", Longitude = "102.95059000" },
+                        new() { Id = 8, Name = "Maha Sarakham", Latitude = "16.18483000", Longitude = "103.30067000" },
+                        new() { Id = 9, Name = "Na Chueak", Latitude = "15.78919800", Longitude = "103.02988100" },
+                        new() { Id = 10, Name = "Na Dun", Latitude = "15.71668000", Longitude = "103.22781000" },
+                        new() { Id = 11, Name = "Phayakkhaphum Phisai", Latitude = "15.51631000", Longitude = "103.19367000" },
+                        new() { Id = 12, Name = "Wapi Pathum", Latitude = "15.84523000", Longitude = "103.37678000" },
+                        new() { Id = 13, Name = "Yang Si Surat", Latitude = "15.68361000", Longitude = "103.10311000" }
                     }
                 },
 
@@ -863,14 +794,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Don Tan", Latitude = "16.28796000", Longitude = "104.82231000" },
-                        new() { Id = 2, Name = "Dong Luang", Latitude = "16.79649000", Longitude = "104.35562000" },
-                        new() { Id = 3, Name = "Khamcha-i", Latitude = "16.61452000", Longitude = "104.35929000" },
-                        new() { Id = 4, Name = "Mueang Mukdahan", Latitude = "16.55110000", Longitude = "104.64605000" },
-                        new() { Id = 5, Name = "Mukdahan", Latitude = "16.54531000", Longitude = "104.72351000" },
-                        new() { Id = 6, Name = "Nikhom Kham Soi", Latitude = "16.35375000", Longitude = "104.55864000" },
-                        new() { Id = 7, Name = "Nong Sung", Latitude = "16.44759000", Longitude = "104.33649000" },
-                        new() { Id = 8, Name = "Wan Yai", Latitude = "16.72030000", Longitude = "104.72865000" }
+                        new() { Id = 1, Name = "Don Tan", Latitude = "16.31873419", Longitude = "104.91816217" },
+                        new() { Id = 2, Name = "Dong Luang", Latitude = "16.80660000", Longitude = "104.53370000" },
+                        new() { Id = 3, Name = "Kham Cha-i", Latitude = "16.57915999", Longitude = "104.41900936" },
+                        new() { Id = 4, Name = "Mukdahan", Latitude = "16.54531000", Longitude = "104.72351000" },
+                        new() { Id = 5, Name = "Nikhom Kham Soi", Latitude = "16.37486078", Longitude = "104.55512871" },
+                        new() { Id = 6, Name = "Nong Sung", Latitude = "16.44759000", Longitude = "104.33649000" },
+                        new() { Id = 7, Name = "Wan Yai", Latitude = "16.72020000", Longitude = "104.75050000" }
                     }
                 },
 
@@ -886,11 +816,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Ban Na", Latitude = "14.26799000", Longitude = "101.06445000" },
-                        new() { Id = 2, Name = "Mueang Nakhon Nayok", Latitude = "14.27730000", Longitude = "101.23379000" },
-                        new() { Id = 3, Name = "Nakhon Nayok", Latitude = "14.20463000", Longitude = "101.21295000" },
-                        new() { Id = 4, Name = "Ongkharak", Latitude = "14.07554000", Longitude = "101.00891000" },
-                        new() { Id = 5, Name = "Pak Phli", Latitude = "14.22499000", Longitude = "101.34482000" }
+                        new() { Id = 1, Name = "Ban Na", Latitude = "14.26110000", Longitude = "101.07043000" },
+                        new() { Id = 2, Name = "Nakhon Nayok", Latitude = "14.20463000", Longitude = "101.21295000" },
+                        new() { Id = 3, Name = "Ongkharak", Latitude = "14.11985000", Longitude = "101.00148000" },
+                        new() { Id = 4, Name = "Pak Phli", Latitude = "14.22499000", Longitude = "101.34482000" }
                     }
                 },
 
@@ -906,16 +835,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Bang Len", Latitude = "14.05000000", Longitude = "100.18333000" },
-                        new() { Id = 2, Name = "Amphoe Sam Phran", Latitude = "13.72035000", Longitude = "100.21071000" },
-                        new() { Id = 3, Name = "Bang Len", Latitude = "14.02188000", Longitude = "100.17183000" },
-                        new() { Id = 4, Name = "Don Tum", Latitude = "13.94499000", Longitude = "100.09003000" },
-                        new() { Id = 5, Name = "Kamphaeng Saen", Latitude = "14.02823000", Longitude = "99.96152000" },
-                        new() { Id = 6, Name = "Mueang Nakhon Pathom", Latitude = "13.81944000", Longitude = "100.02375000" },
-                        new() { Id = 7, Name = "Nakhon Chai Si", Latitude = "13.81173000", Longitude = "100.18157000" },
-                        new() { Id = 8, Name = "Nakhon Pathom", Latitude = "13.81960000", Longitude = "100.04427000" },
-                        new() { Id = 9, Name = "Phutthamonthon", Latitude = "13.82559000", Longitude = "100.29239000" },
-                        new() { Id = 10, Name = "Sam Phran", Latitude = "13.72698000", Longitude = "100.21526000" }
+                        new() { Id = 1, Name = "Bang Len", Latitude = "14.02188000", Longitude = "100.17183000" },
+                        new() { Id = 2, Name = "Don Tum", Latitude = "13.94499000", Longitude = "100.09003000" },
+                        new() { Id = 3, Name = "Kamphaeng Saen", Latitude = "13.99966000", Longitude = "99.98981000" },
+                        new() { Id = 4, Name = "Mueang Nakhon Pathom", Latitude = "13.81944000", Longitude = "100.02375000" },
+                        new() { Id = 5, Name = "Nakhon Chai Si", Latitude = "13.80050000", Longitude = "100.18690000" },
+                        new() { Id = 6, Name = "Nakhon Pathom", Latitude = "13.81960000", Longitude = "100.04427000" },
+                        new() { Id = 7, Name = "Sala Ya", Latitude = "13.80230000", Longitude = "100.32080000" },
+                        new() { Id = 8, Name = "Sam Phran", Latitude = "13.72698000", Longitude = "100.21526000" }
                     }
                 },
 
@@ -931,21 +858,18 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Na Wa", Latitude = "17.49922000", Longitude = "104.11833000" },
-                        new() { Id = 2, Name = "Amphoe That Phanom", Latitude = "16.96457000", Longitude = "104.70277000" },
-                        new() { Id = 3, Name = "Ban Phaeng", Latitude = "17.86955000", Longitude = "104.22744000" },
-                        new() { Id = 4, Name = "Mueang Nakhon Phanom", Latitude = "17.31965000", Longitude = "104.68232000" },
-                        new() { Id = 5, Name = "Na Kae", Latitude = "16.95737000", Longitude = "104.49349000" },
-                        new() { Id = 6, Name = "Na Thom", Latitude = "17.82134000", Longitude = "104.10871000" },
-                        new() { Id = 7, Name = "Na Wa", Latitude = "17.48970000", Longitude = "104.10056000" },
-                        new() { Id = 8, Name = "Nakhon Phanom", Latitude = "17.41081000", Longitude = "104.77856000" },
-                        new() { Id = 9, Name = "Phon Sawan", Latitude = "17.46868000", Longitude = "104.42234000" },
-                        new() { Id = 10, Name = "Pla Pak", Latitude = "17.20133000", Longitude = "104.54674000" },
-                        new() { Id = 11, Name = "Renu Nakhon", Latitude = "17.05080000", Longitude = "104.65664000" },
-                        new() { Id = 12, Name = "Si Songkhram", Latitude = "17.62989000", Longitude = "104.24495000" },
-                        new() { Id = 13, Name = "Tha Uthen", Latitude = "17.59263000", Longitude = "104.49884000" },
-                        new() { Id = 14, Name = "That Phanom", Latitude = "16.93636000", Longitude = "104.71039000" },
-                        new() { Id = 15, Name = "Wangyang", Latitude = "17.07189000", Longitude = "104.45373000" }
+                        new() { Id = 1, Name = "Ban Phaeng", Latitude = "17.96507000", Longitude = "104.21534000" },
+                        new() { Id = 2, Name = "Na Kae", Latitude = "16.94645000", Longitude = "104.50081000" },
+                        new() { Id = 3, Name = "Na Thom", Latitude = "17.82134000", Longitude = "104.10871000" },
+                        new() { Id = 4, Name = "Na Wa", Latitude = "17.48970000", Longitude = "104.10056000" },
+                        new() { Id = 5, Name = "Nakhon Phanom", Latitude = "17.41081000", Longitude = "104.77856000" },
+                        new() { Id = 6, Name = "Phon Sawan", Latitude = "17.46868000", Longitude = "104.42234000" },
+                        new() { Id = 7, Name = "Pla Pak", Latitude = "17.18064000", Longitude = "104.52606000" },
+                        new() { Id = 8, Name = "Renu Nakhon", Latitude = "17.05300000", Longitude = "104.67850000" },
+                        new() { Id = 9, Name = "Si Songkhram", Latitude = "17.62745000", Longitude = "104.25069000" },
+                        new() { Id = 10, Name = "Tha Uthen", Latitude = "17.57969000", Longitude = "104.59447194" },
+                        new() { Id = 11, Name = "That Phanom", Latitude = "16.93636000", Longitude = "104.71039000" },
+                        new() { Id = 12, Name = "Wangyang", Latitude = "17.07189000", Longitude = "104.45373000" }
                     }
                 },
 
@@ -961,53 +885,42 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Bua Yai", Latitude = "15.58488000", Longitude = "102.38738000" },
-                        new() { Id = 2, Name = "Amphoe Chok Chai", Latitude = "14.76341000", Longitude = "102.20338000" },
-                        new() { Id = 3, Name = "Amphoe Dan Khun Thot", Latitude = "15.21835000", Longitude = "101.69790000" },
-                        new() { Id = 4, Name = "Amphoe Kham Sakae Saeng", Latitude = "15.38042000", Longitude = "102.16636000" },
-                        new() { Id = 5, Name = "Amphoe Khon Buri", Latitude = "14.37634000", Longitude = "102.21746000" },
-                        new() { Id = 6, Name = "Amphoe Non Sung", Latitude = "15.20892000", Longitude = "102.28400000" },
-                        new() { Id = 7, Name = "Amphoe Non Thai", Latitude = "15.18106000", Longitude = "102.03001000" },
-                        new() { Id = 8, Name = "Amphoe Pak Chong", Latitude = "14.61923000", Longitude = "101.44814000" },
-                        new() { Id = 9, Name = "Amphoe Pak Thong Chai", Latitude = "14.66228000", Longitude = "101.94227000" },
-                        new() { Id = 10, Name = "Amphoe Phimai", Latitude = "15.24622000", Longitude = "102.54217000" },
-                        new() { Id = 11, Name = "Amphoe Soeng Sang", Latitude = "14.34456000", Longitude = "102.49297000" },
-                        new() { Id = 12, Name = "Amphoe Sung Noen", Latitude = "14.85623000", Longitude = "101.83049000" },
-                        new() { Id = 13, Name = "Ban Huai Thalaeng", Latitude = "14.98333000", Longitude = "102.65000000" },
-                        new() { Id = 14, Name = "Ban Lueam", Latitude = "15.57431000", Longitude = "102.14204000" },
-                        new() { Id = 15, Name = "Bua Lai", Latitude = "15.66917000", Longitude = "102.51761000" },
-                        new() { Id = 16, Name = "Bua Yai", Latitude = "15.58552000", Longitude = "102.42587000" },
-                        new() { Id = 17, Name = "Chakkarat", Latitude = "14.95686000", Longitude = "102.43718000" },
-                        new() { Id = 18, Name = "Chaloem Phra Kiat", Latitude = "14.97540000", Longitude = "102.29372000" },
-                        new() { Id = 19, Name = "Chok Chai", Latitude = "14.72844000", Longitude = "102.16524000" },
-                        new() { Id = 20, Name = "Chum Phuang", Latitude = "15.25990000", Longitude = "102.75756000" },
-                        new() { Id = 21, Name = "Dan Khun Thot", Latitude = "15.20850000", Longitude = "101.77138000" },
-                        new() { Id = 22, Name = "Huai Thalaeng", Latitude = "15.04244000", Longitude = "102.63535000" },
-                        new() { Id = 23, Name = "Kaeng Sanam Nang", Latitude = "15.69561000", Longitude = "102.25366000" },
-                        new() { Id = 24, Name = "Kham Sakae Saeng", Latitude = "15.33221000", Longitude = "102.17278000" },
-                        new() { Id = 25, Name = "Kham Thale So", Latitude = "15.03639000", Longitude = "101.93170000" },
-                        new() { Id = 26, Name = "Khon Buri", Latitude = "14.52541000", Longitude = "102.24591000" },
-                        new() { Id = 27, Name = "Khong", Latitude = "15.43311000", Longitude = "102.29617000" },
-                        new() { Id = 28, Name = "Lam Thamen Chai", Latitude = "15.28424000", Longitude = "102.90723000" },
-                        new() { Id = 29, Name = "Mueang Nakhon Ratchasima", Latitude = "14.95678000", Longitude = "102.08933000" },
-                        new() { Id = 30, Name = "Mueang Yang", Latitude = "15.43842000", Longitude = "102.89331000" },
-                        new() { Id = 31, Name = "Nakhon Ratchasima", Latitude = "14.97066000", Longitude = "102.10196000" },
-                        new() { Id = 32, Name = "Non Daeng", Latitude = "15.44479000", Longitude = "102.54565000" },
-                        new() { Id = 33, Name = "Non Sung", Latitude = "15.18014000", Longitude = "102.25695000" },
-                        new() { Id = 34, Name = "Non Thai", Latitude = "15.19580000", Longitude = "102.07145000" },
-                        new() { Id = 35, Name = "Nong Bun Mak", Latitude = "14.71295000", Longitude = "102.37447000" },
-                        new() { Id = 36, Name = "Pak Chong", Latitude = "14.70802000", Longitude = "101.41614000" },
-                        new() { Id = 37, Name = "Pak Thong Chai", Latitude = "14.72260000", Longitude = "102.02512000" },
-                        new() { Id = 38, Name = "Phimai", Latitude = "15.22324000", Longitude = "102.49473000" },
-                        new() { Id = 39, Name = "Phra Thong Kham", Latitude = "15.35114000", Longitude = "101.99355000" },
-                        new() { Id = 40, Name = "Prathai", Latitude = "15.55911000", Longitude = "102.69786000" },
-                        new() { Id = 41, Name = "Sida", Latitude = "15.56406000", Longitude = "102.55823000" },
-                        new() { Id = 42, Name = "Sikhio", Latitude = "14.94275000", Longitude = "101.60672000" },
-                        new() { Id = 43, Name = "Sikhiu", Latitude = "14.89944000", Longitude = "101.70833000" },
-                        new() { Id = 44, Name = "Soeng Sang", Latitude = "14.42642000", Longitude = "102.46058000" },
-                        new() { Id = 45, Name = "Sung Noen", Latitude = "14.89920000", Longitude = "101.82075000" },
-                        new() { Id = 46, Name = "Thepharak", Latitude = "15.28639000", Longitude = "101.50373000" },
-                        new() { Id = 47, Name = "Wang Nam Khiao", Latitude = "14.44786000", Longitude = "101.85533000" }
+                        new() { Id = 1, Name = "Amphoe Khon Buri", Latitude = "14.37634000", Longitude = "102.21746000" },
+                        new() { Id = 2, Name = "Amphoe Pak Thong Chai", Latitude = "14.66228000", Longitude = "101.94227000" },
+                        new() { Id = 3, Name = "Ban Huai Thalaeng", Latitude = "14.98333000", Longitude = "102.65000000" },
+                        new() { Id = 4, Name = "Ban Lueam", Latitude = "15.60305051", Longitude = "102.12498376" },
+                        new() { Id = 5, Name = "Bua Lai", Latitude = "15.66917000", Longitude = "102.51761000" },
+                        new() { Id = 6, Name = "Bua Yai", Latitude = "15.58552000", Longitude = "102.42587000" },
+                        new() { Id = 7, Name = "Chakkarat", Latitude = "15.01144714", Longitude = "102.41402608" },
+                        new() { Id = 8, Name = "Chok Chai", Latitude = "14.72844000", Longitude = "102.16524000" },
+                        new() { Id = 9, Name = "Chum Phuang", Latitude = "15.35376435", Longitude = "102.74685335" },
+                        new() { Id = 10, Name = "Dan Khun Thot", Latitude = "15.20850000", Longitude = "101.77138000" },
+                        new() { Id = 11, Name = "Huai Thalaeng", Latitude = "14.99701000", Longitude = "102.64746000" },
+                        new() { Id = 12, Name = "Kaeng Sanam Nang", Latitude = "15.74954000", Longitude = "102.25484000" },
+                        new() { Id = 13, Name = "Kham Sakaesaeng", Latitude = "15.33295429", Longitude = "102.16461109" },
+                        new() { Id = 14, Name = "Kham Thale So", Latitude = "14.95732837", Longitude = "101.95033285" },
+                        new() { Id = 15, Name = "Khon Buri", Latitude = "14.52541000", Longitude = "102.24591000" },
+                        new() { Id = 16, Name = "Lam Thamen Chai", Latitude = "15.28424000", Longitude = "102.90723000" },
+                        new() { Id = 17, Name = "Mueang Khong", Latitude = "15.44367320", Longitude = "102.32846164" },
+                        new() { Id = 18, Name = "Mueang Yang", Latitude = "15.42060000", Longitude = "102.89282000" },
+                        new() { Id = 19, Name = "Nakhon Ratchasima", Latitude = "14.97066000", Longitude = "102.10196000" },
+                        new() { Id = 20, Name = "Non Daeng", Latitude = "15.41430131", Longitude = "102.55053573" },
+                        new() { Id = 21, Name = "Non Sung", Latitude = "15.18014000", Longitude = "102.25695000" },
+                        new() { Id = 22, Name = "Non Thai", Latitude = "15.19580000", Longitude = "102.07145000" },
+                        new() { Id = 23, Name = "Nong Bun Mak", Latitude = "14.71295000", Longitude = "102.37447000" },
+                        new() { Id = 24, Name = "Pak Chong", Latitude = "14.67960000", Longitude = "101.39760000" },
+                        new() { Id = 25, Name = "Pak Thong Chai", Latitude = "14.72260000", Longitude = "102.02512000" },
+                        new() { Id = 26, Name = "Phimai", Latitude = "15.22324000", Longitude = "102.49473000" },
+                        new() { Id = 27, Name = "Phra Thong Kham", Latitude = "15.35114000", Longitude = "101.99355000" },
+                        new() { Id = 28, Name = "Prathai", Latitude = "15.53407795", Longitude = "102.71758160" },
+                        new() { Id = 29, Name = "Sida", Latitude = "15.54133901", Longitude = "102.56584303" },
+                        new() { Id = 30, Name = "Sikhio", Latitude = "14.94275000", Longitude = "101.60672000" },
+                        new() { Id = 31, Name = "Sikhiu", Latitude = "14.89944000", Longitude = "101.70833000" },
+                        new() { Id = 32, Name = "Soeng Sang", Latitude = "14.42642000", Longitude = "102.46058000" },
+                        new() { Id = 33, Name = "Sung Noen", Latitude = "14.89920000", Longitude = "101.82075000" },
+                        new() { Id = 34, Name = "Tha Chang", Latitude = "15.00254312", Longitude = "102.27138503" },
+                        new() { Id = 35, Name = "Thepharak", Latitude = "15.28639000", Longitude = "101.50373000" },
+                        new() { Id = 36, Name = "Wang Nam Khiao", Latitude = "14.41801000", Longitude = "101.86113000" }
                     }
                 },
 
@@ -1024,27 +937,22 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Amphoe Kao Liao", Latitude = "15.88778000", Longitude = "100.09647000" },
-                        new() { Id = 2, Name = "Amphoe Lat Yao", Latitude = "15.77526000", Longitude = "99.80046000" },
-                        new() { Id = 3, Name = "Amphoe Nong Bua", Latitude = "15.86591000", Longitude = "100.62860000" },
-                        new() { Id = 4, Name = "Amphoe Phai Sali", Latitude = "15.58723000", Longitude = "100.68530000" },
-                        new() { Id = 5, Name = "Amphoe Phayuha Khiri", Latitude = "15.50783000", Longitude = "100.21226000" },
-                        new() { Id = 6, Name = "Amphoe Takhli", Latitude = "15.25928000", Longitude = "100.38058000" },
-                        new() { Id = 7, Name = "Banphot Phisai", Latitude = "15.99714000", Longitude = "99.99409000" },
-                        new() { Id = 8, Name = "Chum Ta Bong", Latitude = "15.68311000", Longitude = "99.56908000" },
-                        new() { Id = 9, Name = "Chumsaeng", Latitude = "15.84745000", Longitude = "100.28971000" },
-                        new() { Id = 10, Name = "Kao Liao", Latitude = "15.85053000", Longitude = "100.07914000" },
-                        new() { Id = 11, Name = "Krok Phra", Latitude = "15.58638000", Longitude = "100.01815000" },
-                        new() { Id = 12, Name = "Lat Yao", Latitude = "15.75100000", Longitude = "99.78925000" },
-                        new() { Id = 13, Name = "Mae Poen", Latitude = "15.70656000", Longitude = "99.34827000" },
-                        new() { Id = 14, Name = "Mae Wong", Latitude = "15.83538000", Longitude = "99.40785000" },
-                        new() { Id = 15, Name = "Mueang Nakhon Sawan", Latitude = "15.71991000", Longitude = "100.10067000" },
-                        new() { Id = 16, Name = "Nakhon Sawan", Latitude = "15.70472000", Longitude = "100.13717000" },
-                        new() { Id = 17, Name = "Nong Bua", Latitude = "15.86458000", Longitude = "100.58581000" },
-                        new() { Id = 18, Name = "Phai Sali", Latitude = "15.60003000", Longitude = "100.64937000" },
-                        new() { Id = 19, Name = "Phayuha Khiri", Latitude = "15.45525000", Longitude = "100.13533000" },
-                        new() { Id = 20, Name = "Tak Fa", Latitude = "15.38249000", Longitude = "100.46693000" },
-                        new() { Id = 21, Name = "Takhli", Latitude = "15.26336000", Longitude = "100.34378000" },
-                        new() { Id = 22, Name = "Tha Tako", Latitude = "15.65434000", Longitude = "100.45939000" }
+                        new() { Id = 2, Name = "Amphoe Phayuha Khiri", Latitude = "15.50783000", Longitude = "100.21226000" },
+                        new() { Id = 3, Name = "Banphot Phisai", Latitude = "15.93558000", Longitude = "99.98129000" },
+                        new() { Id = 4, Name = "Chum Saeng", Latitude = "15.89800500", Longitude = "100.31102600" },
+                        new() { Id = 5, Name = "Chum Ta Bong", Latitude = "15.68311000", Longitude = "99.56908000" },
+                        new() { Id = 6, Name = "Kao Liao", Latitude = "15.85053000", Longitude = "100.07914000" },
+                        new() { Id = 7, Name = "Krok Phra", Latitude = "15.55589000", Longitude = "100.07153000" },
+                        new() { Id = 8, Name = "Lat Yao", Latitude = "15.75100000", Longitude = "99.78925000" },
+                        new() { Id = 9, Name = "Mae Poen", Latitude = "15.70656000", Longitude = "99.34827000" },
+                        new() { Id = 10, Name = "Mae Wong", Latitude = "15.83538000", Longitude = "99.40785000" },
+                        new() { Id = 11, Name = "Nakhon Sawan", Latitude = "15.70472000", Longitude = "100.13717000" },
+                        new() { Id = 12, Name = "Nong Bua", Latitude = "15.86458000", Longitude = "100.58581000" },
+                        new() { Id = 13, Name = "Phaisali", Latitude = "15.60000000", Longitude = "100.64944444" },
+                        new() { Id = 14, Name = "Phayuha Khiri", Latitude = "15.45525000", Longitude = "100.13533000" },
+                        new() { Id = 15, Name = "Tak Fa", Latitude = "15.34917000", Longitude = "100.49522000" },
+                        new() { Id = 16, Name = "Takhli", Latitude = "15.26336000", Longitude = "100.34378000" },
+                        new() { Id = 17, Name = "Tha Tako", Latitude = "15.64218000", Longitude = "100.47839000" }
                     }
                 },
 
@@ -1060,35 +968,31 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Chawang", Latitude = "8.46322000", Longitude = "99.51107000" },
-                        new() { Id = 2, Name = "Amphoe Pak Phanang", Latitude = "8.30711000", Longitude = "100.17361000" },
-                        new() { Id = 3, Name = "Amphoe Ron Phibun", Latitude = "8.17997000", Longitude = "99.89248000" },
-                        new() { Id = 4, Name = "Amphoe Tham Phannara", Latitude = "8.45822000", Longitude = "99.37718000" },
-                        new() { Id = 5, Name = "Amphoe Thung Song", Latitude = "8.11757000", Longitude = "99.66907000" },
-                        new() { Id = 6, Name = "Bang Khan", Latitude = "8.01208000", Longitude = "99.48449000" },
-                        new() { Id = 7, Name = "Cha-uat", Latitude = "7.95645000", Longitude = "99.98929000" },
-                        new() { Id = 8, Name = "Chaloem Phra Kiat", Latitude = "8.18333000", Longitude = "100.05000000" },
-                        new() { Id = 9, Name = "Chang Klang", Latitude = "8.35697000", Longitude = "99.64592000" },
-                        new() { Id = 10, Name = "Chawang", Latitude = "8.42614000", Longitude = "99.50472000" },
-                        new() { Id = 11, Name = "Chian Yai", Latitude = "8.11719000", Longitude = "100.15819000" },
-                        new() { Id = 12, Name = "Chulabhorn", Latitude = "8.07591000", Longitude = "99.85365000" },
-                        new() { Id = 13, Name = "Hua Sai", Latitude = "8.01181000", Longitude = "100.24614000" },
-                        new() { Id = 14, Name = "Khanom", Latitude = "9.18317000", Longitude = "99.80192000" },
-                        new() { Id = 15, Name = "Lan Saka", Latitude = "8.37799000", Longitude = "99.78328000" },
-                        new() { Id = 16, Name = "Mueang Nakhon Si Thammarat", Latitude = "8.44013000", Longitude = "99.98537000" },
-                        new() { Id = 17, Name = "Na Bon", Latitude = "8.26976000", Longitude = "99.55694000" },
-                        new() { Id = 18, Name = "Nakhon Si Thammarat", Latitude = "8.43333000", Longitude = "99.96667000" },
-                        new() { Id = 19, Name = "Nopphitam", Latitude = "8.75166000", Longitude = "99.67087000" },
-                        new() { Id = 20, Name = "Pak Phanang", Latitude = "8.35109000", Longitude = "100.20195000" },
-                        new() { Id = 21, Name = "Phipun", Latitude = "8.60289000", Longitude = "99.59528000" },
-                        new() { Id = 22, Name = "Phra Phrom", Latitude = "8.32652000", Longitude = "99.93240000" },
-                        new() { Id = 23, Name = "Phrom Khiri", Latitude = "8.54242000", Longitude = "99.79229000" },
-                        new() { Id = 24, Name = "Ron Phibun", Latitude = "8.17911000", Longitude = "99.85425000" },
-                        new() { Id = 25, Name = "Sichon", Latitude = "8.94981000", Longitude = "99.81322000" },
-                        new() { Id = 26, Name = "Tha Sala", Latitude = "8.69367000", Longitude = "99.88539000" },
-                        new() { Id = 27, Name = "Tham Phannara", Latitude = "8.42045000", Longitude = "99.39517000" },
-                        new() { Id = 28, Name = "Thung Song", Latitude = "8.16453000", Longitude = "99.68039000" },
-                        new() { Id = 29, Name = "Thung Yai", Latitude = "8.28708000", Longitude = "99.37196000" }
+                        new() { Id = 1, Name = "Amphoe Thung Song", Latitude = "8.11757000", Longitude = "99.66907000" },
+                        new() { Id = 2, Name = "Bang Khan", Latitude = "8.01208000", Longitude = "99.48449000" },
+                        new() { Id = 3, Name = "Cha-uat", Latitude = "7.96533300", Longitude = "99.99890900" },
+                        new() { Id = 4, Name = "Chaloem Phra Kiat", Latitude = "8.18333000", Longitude = "100.05000000" },
+                        new() { Id = 5, Name = "Chang Klang", Latitude = "8.35697000", Longitude = "99.64592000" },
+                        new() { Id = 6, Name = "Chawang", Latitude = "8.42614000", Longitude = "99.50472000" },
+                        new() { Id = 7, Name = "Chian Yai", Latitude = "8.17072125", Longitude = "100.14776935" },
+                        new() { Id = 8, Name = "Chulabhorn", Latitude = "8.07591000", Longitude = "99.85365000" },
+                        new() { Id = 9, Name = "Hua Sai", Latitude = "8.04417621", Longitude = "100.30587689" },
+                        new() { Id = 10, Name = "Khanom", Latitude = "9.18317000", Longitude = "99.80192000" },
+                        new() { Id = 11, Name = "Lan Saka", Latitude = "8.36772921", Longitude = "99.79997837" },
+                        new() { Id = 12, Name = "Na Bon", Latitude = "8.26046277", Longitude = "99.59641829" },
+                        new() { Id = 13, Name = "Nakhon Si Thammarat", Latitude = "8.43333000", Longitude = "99.96667000" },
+                        new() { Id = 14, Name = "Nopphitam", Latitude = "8.75166000", Longitude = "99.67087000" },
+                        new() { Id = 15, Name = "Pak Phanang", Latitude = "8.35109000", Longitude = "100.20195000" },
+                        new() { Id = 16, Name = "Phipun", Latitude = "8.56012294", Longitude = "99.60681937" },
+                        new() { Id = 17, Name = "Phra Phrom", Latitude = "8.32652000", Longitude = "99.93240000" },
+                        new() { Id = 18, Name = "Phrommalok", Latitude = "8.52740422", Longitude = "99.82362682" },
+                        new() { Id = 19, Name = "Ron Phibun", Latitude = "8.17911000", Longitude = "99.85425000" },
+                        new() { Id = 20, Name = "Sichon", Latitude = "8.94981000", Longitude = "99.81322000" },
+                        new() { Id = 21, Name = "Tha Sala", Latitude = "8.69367000", Longitude = "99.88539000" },
+                        new() { Id = 22, Name = "Tham Phannara", Latitude = "8.42045000", Longitude = "99.39517000" },
+                        new() { Id = 23, Name = "Tham Phannara", Latitude = "8.42045000", Longitude = "99.39517000" },
+                        new() { Id = 24, Name = "Thung Song", Latitude = "8.16453000", Longitude = "99.68039000" },
+                        new() { Id = 25, Name = "Thung Yai", Latitude = "8.28708000", Longitude = "99.37196000" }
                     }
                 },
 
@@ -1104,23 +1008,21 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Chiang Klang", Latitude = "19.30637000", Longitude = "100.87878000" },
-                        new() { Id = 2, Name = "Amphoe Wiang Sa", Latitude = "18.55088000", Longitude = "100.72754000" },
-                        new() { Id = 3, Name = "Ban Luang", Latitude = "18.88375000", Longitude = "100.46014000" },
-                        new() { Id = 4, Name = "Bo Kluea", Latitude = "19.08994000", Longitude = "101.18952000" },
-                        new() { Id = 5, Name = "Chaloem Phra Kiat", Latitude = "19.50618000", Longitude = "101.14249000" },
-                        new() { Id = 6, Name = "Chiang Klang", Latitude = "19.29378000", Longitude = "100.86169000" },
-                        new() { Id = 7, Name = "Mae Charim", Latitude = "18.71336000", Longitude = "101.11011000" },
-                        new() { Id = 8, Name = "Mueang Nan", Latitude = "18.89008000", Longitude = "100.67472000" },
-                        new() { Id = 9, Name = "Na Muen", Latitude = "18.12524000", Longitude = "100.60270000" },
-                        new() { Id = 10, Name = "Na Noi", Latitude = "18.30269000", Longitude = "100.72393000" },
-                        new() { Id = 11, Name = "Nan", Latitude = "18.78378000", Longitude = "100.77899000" },
-                        new() { Id = 12, Name = "Phu Phiang", Latitude = "18.78030000", Longitude = "100.87497000" },
-                        new() { Id = 13, Name = "Pua", Latitude = "19.16306000", Longitude = "101.02796000" },
-                        new() { Id = 14, Name = "Santi Suk", Latitude = "18.91190000", Longitude = "101.00016000" },
-                        new() { Id = 15, Name = "Song Khwae", Latitude = "19.40911000", Longitude = "100.66174000" },
-                        new() { Id = 16, Name = "Tha Wang Pha", Latitude = "19.13148000", Longitude = "100.76117000" },
-                        new() { Id = 17, Name = "Thung Chang", Latitude = "19.46342000", Longitude = "100.91937000" }
+                        new() { Id = 1, Name = "Ban Luang", Latitude = "18.88375000", Longitude = "100.46014000" },
+                        new() { Id = 2, Name = "Bo Kluea", Latitude = "19.08994000", Longitude = "101.18952000" },
+                        new() { Id = 3, Name = "Chaloem Phra Kiat", Latitude = "19.50618000", Longitude = "101.14249000" },
+                        new() { Id = 4, Name = "Chiang Klang", Latitude = "19.29378000", Longitude = "100.86169000" },
+                        new() { Id = 5, Name = "Mae Charim", Latitude = "18.71336000", Longitude = "101.11011000" },
+                        new() { Id = 6, Name = "Na Muen", Latitude = "18.12524000", Longitude = "100.60270000" },
+                        new() { Id = 7, Name = "Na Noi", Latitude = "18.32583055", Longitude = "100.71217469" },
+                        new() { Id = 8, Name = "Nan", Latitude = "18.78378000", Longitude = "100.77899000" },
+                        new() { Id = 9, Name = "Phu Phiang", Latitude = "18.78030000", Longitude = "100.87497000" },
+                        new() { Id = 10, Name = "Pua", Latitude = "19.17992698", Longitude = "100.90888171" },
+                        new() { Id = 11, Name = "Santi Suk", Latitude = "18.91190000", Longitude = "101.00016000" },
+                        new() { Id = 12, Name = "Song Khwae", Latitude = "19.40911000", Longitude = "100.66174000" },
+                        new() { Id = 13, Name = "Tha Wang Pha", Latitude = "19.09446245", Longitude = "100.80969171" },
+                        new() { Id = 14, Name = "Thung Chang", Latitude = "19.38834832", Longitude = "100.87808921" },
+                        new() { Id = 15, Name = "Wiang Sa", Latitude = "18.57066558", Longitude = "100.75122585" }
                     }
                 },
 
@@ -1136,24 +1038,20 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Ra-ngae", Latitude = "6.25504000", Longitude = "101.70496000" },
-                        new() { Id = 2, Name = "Amphoe Su-ngai Kolok", Latitude = "6.07674000", Longitude = "101.99818000" },
-                        new() { Id = 3, Name = "Amphoe Tak Bai", Latitude = "6.23748000", Longitude = "102.00238000" },
-                        new() { Id = 4, Name = "Ba Cho", Latitude = "6.54591000", Longitude = "101.64923000" },
-                        new() { Id = 5, Name = "Ban Su-ngai Pa Di", Latitude = "6.07239000", Longitude = "101.87172000" },
-                        new() { Id = 6, Name = "Chanae", Latitude = "6.04591000", Longitude = "101.61765000" },
-                        new() { Id = 7, Name = "Cho-airong", Latitude = "6.23011000", Longitude = "101.84721000" },
-                        new() { Id = 8, Name = "Mueang Narathiwat", Latitude = "6.39391000", Longitude = "101.81316000" },
-                        new() { Id = 9, Name = "Narathiwat", Latitude = "6.42639000", Longitude = "101.82308000" },
-                        new() { Id = 10, Name = "Ra-ngae", Latitude = "6.29678000", Longitude = "101.72844000" },
-                        new() { Id = 11, Name = "Rueso", Latitude = "6.37450000", Longitude = "101.51491000" },
-                        new() { Id = 12, Name = "Si Sakhon", Latitude = "6.19360000", Longitude = "101.51257000" },
-                        new() { Id = 13, Name = "Su-ngai Kolok", Latitude = "6.02977000", Longitude = "101.96586000" },
-                        new() { Id = 14, Name = "Su-ngai Padi", Latitude = "6.10425000", Longitude = "101.89333000" },
-                        new() { Id = 15, Name = "Sukhirin", Latitude = "5.91513000", Longitude = "101.73811000" },
-                        new() { Id = 16, Name = "Tak Bai", Latitude = "6.25947000", Longitude = "102.05461000" },
-                        new() { Id = 17, Name = "Waeng", Latitude = "5.90042000", Longitude = "101.86195000" },
-                        new() { Id = 18, Name = "Yi-ngo", Latitude = "6.41655000", Longitude = "101.70035000" }
+                        new() { Id = 1, Name = "Bacho", Latitude = "6.51678000", Longitude = "101.65100000" },
+                        new() { Id = 2, Name = "Ban Su-ngai Pa Di", Latitude = "6.07239000", Longitude = "101.87172000" },
+                        new() { Id = 3, Name = "Chanae", Latitude = "6.04591000", Longitude = "101.61765000" },
+                        new() { Id = 4, Name = "Cho-airong", Latitude = "6.23011000", Longitude = "101.84721000" },
+                        new() { Id = 5, Name = "Narathiwat", Latitude = "6.42639000", Longitude = "101.82308000" },
+                        new() { Id = 6, Name = "Rueso", Latitude = "6.39364000", Longitude = "101.51847000" },
+                        new() { Id = 7, Name = "Si Sakhon", Latitude = "6.22350000", Longitude = "101.50330000" },
+                        new() { Id = 8, Name = "Su-ngai Kolok", Latitude = "6.02977000", Longitude = "101.96586000" },
+                        new() { Id = 9, Name = "Su-ngai Padi", Latitude = "6.10425000", Longitude = "101.89333000" },
+                        new() { Id = 10, Name = "Sukhirin", Latitude = "5.94055556", Longitude = "101.76880556" },
+                        new() { Id = 11, Name = "Tak Bai", Latitude = "6.25947000", Longitude = "102.05461000" },
+                        new() { Id = 12, Name = "Tanyong Mat", Latitude = "6.29678000", Longitude = "101.72844000" },
+                        new() { Id = 13, Name = "Waeng", Latitude = "5.92800000", Longitude = "101.88382000" },
+                        new() { Id = 14, Name = "Yi-ngo", Latitude = "6.40297000", Longitude = "101.70625000" }
                     }
                 },
 
@@ -1169,16 +1067,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Na Klang", Latitude = "17.32466000", Longitude = "102.21456000" },
-                        new() { Id = 2, Name = "Amphoe Non Sang", Latitude = "16.90220000", Longitude = "102.53084000" },
-                        new() { Id = 3, Name = "Amphoe Si Bun Rueang", Latitude = "16.99775000", Longitude = "102.22528000" },
-                        new() { Id = 4, Name = "Mueang Nong Bua Lamphu", Latitude = "17.15818000", Longitude = "102.39860000" },
-                        new() { Id = 5, Name = "Na Klang", Latitude = "17.30720000", Longitude = "102.18886000" },
-                        new() { Id = 6, Name = "Na Wang", Latitude = "17.34290000", Longitude = "102.07157000" },
-                        new() { Id = 7, Name = "Non Sang", Latitude = "16.86870000", Longitude = "102.56642000" },
-                        new() { Id = 8, Name = "Nong Bua Lamphu", Latitude = "17.20406000", Longitude = "102.44068000" },
-                        new() { Id = 9, Name = "Si Bun Rueang", Latitude = "16.96705000", Longitude = "102.27607000" },
-                        new() { Id = 10, Name = "Suwannakhuha", Latitude = "17.54605000", Longitude = "102.24852000" }
+                        new() { Id = 1, Name = "Na Klang", Latitude = "17.30720000", Longitude = "102.18886000" },
+                        new() { Id = 2, Name = "Na Wang", Latitude = "17.34290000", Longitude = "102.07157000" },
+                        new() { Id = 3, Name = "Non Sang", Latitude = "16.86870000", Longitude = "102.56642000" },
+                        new() { Id = 4, Name = "Non Sung Plueai", Latitude = "16.96705000", Longitude = "102.27607000" },
+                        new() { Id = 5, Name = "Nong Bua Lamphu", Latitude = "17.20406000", Longitude = "102.44068000" },
+                        new() { Id = 6, Name = "Suwannakhuha", Latitude = "17.56450000", Longitude = "102.28070000" }
                     }
                 },
 
@@ -1194,20 +1088,16 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Sangkhom", Latitude = "18.05392000", Longitude = "102.22677000" },
-                        new() { Id = 2, Name = "Amphoe Si Chiang Mai", Latitude = "17.93574000", Longitude = "102.50306000" },
-                        new() { Id = 3, Name = "Amphoe Tha Bo", Latitude = "17.79499000", Longitude = "102.56608000" },
-                        new() { Id = 4, Name = "Fao Rai", Latitude = "18.00275000", Longitude = "103.29640000" },
-                        new() { Id = 5, Name = "Mueang Nong Khai", Latitude = "17.84661000", Longitude = "102.78911000" },
-                        new() { Id = 6, Name = "Nong Khai", Latitude = "17.87847000", Longitude = "102.74200000" },
-                        new() { Id = 7, Name = "Pho Tak", Latitude = "17.88819000", Longitude = "102.43023000" },
-                        new() { Id = 8, Name = "Phon Charoen", Latitude = "18.03333000", Longitude = "103.16667000" },
-                        new() { Id = 9, Name = "Phonphisai", Latitude = "17.95443000", Longitude = "103.12279000" },
-                        new() { Id = 10, Name = "Rattanawapi", Latitude = "18.19255000", Longitude = "103.23760000" },
-                        new() { Id = 11, Name = "Sa Khrai", Latitude = "17.65985000", Longitude = "102.70847000" },
-                        new() { Id = 12, Name = "Sangkhom", Latitude = "18.06389000", Longitude = "102.27364000" },
-                        new() { Id = 13, Name = "Si Chiang Mai", Latitude = "17.95639000", Longitude = "102.58667000" },
-                        new() { Id = 14, Name = "Tha Bo", Latitude = "17.85003000", Longitude = "102.58139000" }
+                        new() { Id = 1, Name = "Fao Rai", Latitude = "18.01754800", Longitude = "103.30574900" },
+                        new() { Id = 2, Name = "Nong Khai", Latitude = "17.87847000", Longitude = "102.74200000" },
+                        new() { Id = 3, Name = "Pho Tak", Latitude = "17.88819000", Longitude = "102.43023000" },
+                        new() { Id = 4, Name = "Phon Charoen", Latitude = "18.03333000", Longitude = "103.16667000" },
+                        new() { Id = 5, Name = "Phonphisai", Latitude = "17.95443000", Longitude = "103.12279000" },
+                        new() { Id = 6, Name = "Rattanawapi", Latitude = "18.19255000", Longitude = "103.23760000" },
+                        new() { Id = 7, Name = "Sakhrai", Latitude = "17.67544000", Longitude = "102.75069000" },
+                        new() { Id = 8, Name = "Sangkhom", Latitude = "18.06389000", Longitude = "102.27364000" },
+                        new() { Id = 9, Name = "Si Chiang Mai", Latitude = "17.95639000", Longitude = "102.58667000" },
+                        new() { Id = 10, Name = "Tha Bo", Latitude = "17.85003000", Longitude = "102.58139000" }
                     }
                 },
 
@@ -1224,16 +1114,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Amphoe Bang Bua Thong", Latitude = "13.92641000", Longitude = "100.39360000" },
-                        new() { Id = 2, Name = "Amphoe Bang Kruai", Latitude = "13.80249000", Longitude = "100.41525000" },
-                        new() { Id = 3, Name = "Amphoe Bang Yai", Latitude = "13.85385000", Longitude = "100.37318000" },
-                        new() { Id = 4, Name = "Amphoe Mueang Nonthaburi", Latitude = "13.85581000", Longitude = "100.49264000" },
-                        new() { Id = 5, Name = "Amphoe Pak Kret", Latitude = "13.91626000", Longitude = "100.50397000" },
-                        new() { Id = 6, Name = "Bang Bua Thong", Latitude = "13.91783000", Longitude = "100.42403000" },
-                        new() { Id = 7, Name = "Bang Kruai", Latitude = "13.80500000", Longitude = "100.47283000" },
-                        new() { Id = 8, Name = "Bang Yai", Latitude = "13.84341000", Longitude = "100.36251000" },
-                        new() { Id = 9, Name = "Mueang Nonthaburi", Latitude = "13.86075000", Longitude = "100.51477000" },
-                        new() { Id = 10, Name = "Pak Kret", Latitude = "13.91301000", Longitude = "100.49883000" },
-                        new() { Id = 11, Name = "Sai Noi", Latitude = "14.00627000", Longitude = "100.31072000" }
+                        new() { Id = 2, Name = "Amphoe Bang Yai", Latitude = "13.85385000", Longitude = "100.37318000" },
+                        new() { Id = 3, Name = "Bang Bua Thong", Latitude = "13.91783000", Longitude = "100.42403000" },
+                        new() { Id = 4, Name = "Bang Kruai", Latitude = "13.80500000", Longitude = "100.47283000" },
+                        new() { Id = 5, Name = "Bang Yai", Latitude = "13.84341000", Longitude = "100.36251000" },
+                        new() { Id = 6, Name = "Nonthaburi", Latitude = "13.86666667", Longitude = "100.51666667" },
+                        new() { Id = 7, Name = "Pak Kret", Latitude = "13.91301000", Longitude = "100.49883000" },
+                        new() { Id = 8, Name = "Sai Noi", Latitude = "14.00627000", Longitude = "100.31072000" }
                     }
                 },
 
@@ -1249,15 +1136,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Khlong Luang", Latitude = "14.09323000", Longitude = "100.68106000" },
-                        new() { Id = 2, Name = "Ban Lam Luk Ka", Latitude = "13.97738000", Longitude = "100.77776000" },
-                        new() { Id = 3, Name = "Khlong Luang", Latitude = "14.06467000", Longitude = "100.64578000" },
-                        new() { Id = 4, Name = "Lam Luk Ka", Latitude = "13.97744000", Longitude = "100.79244000" },
-                        new() { Id = 5, Name = "Lat Lum Kaeo", Latitude = "14.04459000", Longitude = "100.40948000" },
-                        new() { Id = 6, Name = "Mueang Pathum Thani", Latitude = "13.99105000", Longitude = "100.53554000" },
-                        new() { Id = 7, Name = "Nong Suea", Latitude = "14.16030000", Longitude = "100.83929000" },
-                        new() { Id = 8, Name = "Pathum Thani", Latitude = "14.01346000", Longitude = "100.53049000" },
-                        new() { Id = 9, Name = "Thanyaburi", Latitude = "14.02852000", Longitude = "100.76291000" }
+                        new() { Id = 1, Name = "Ban Lam Luk Ka", Latitude = "13.97738000", Longitude = "100.77776000" },
+                        new() { Id = 2, Name = "Khlong Luang", Latitude = "14.06467000", Longitude = "100.64578000" },
+                        new() { Id = 3, Name = "Lam Luk Ka", Latitude = "13.97744000", Longitude = "100.79244000" },
+                        new() { Id = 4, Name = "Lat Lum Kaeo", Latitude = "14.04459000", Longitude = "100.40948000" },
+                        new() { Id = 5, Name = "Nong Suea", Latitude = "14.13104600", Longitude = "100.81285400" },
+                        new() { Id = 6, Name = "Pathum Thani", Latitude = "14.01346000", Longitude = "100.53049000" },
+                        new() { Id = 7, Name = "Thanyaburi", Latitude = "14.01670000", Longitude = "100.75000000" }
                     }
                 },
 
@@ -1273,22 +1158,18 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Nong Chik", Latitude = "6.80011000", Longitude = "101.17057000" },
-                        new() { Id = 2, Name = "Amphoe Sai Buri", Latitude = "6.70000000", Longitude = "101.58333000" },
-                        new() { Id = 3, Name = "Amphoe Yaring", Latitude = "6.83507000", Longitude = "101.39073000" },
-                        new() { Id = 4, Name = "Kapho", Latitude = "6.60264000", Longitude = "101.54327000" },
-                        new() { Id = 5, Name = "Khok Pho", Latitude = "6.70858000", Longitude = "101.11693000" },
-                        new() { Id = 6, Name = "Mae Lan", Latitude = "6.66833000", Longitude = "101.23149000" },
-                        new() { Id = 7, Name = "Mai Kaen", Latitude = "6.61603000", Longitude = "101.67864000" },
-                        new() { Id = 8, Name = "Mayo", Latitude = "6.70764000", Longitude = "101.40359000" },
-                        new() { Id = 9, Name = "Mueang Pattani", Latitude = "6.85581000", Longitude = "101.26761000" },
-                        new() { Id = 10, Name = "Nong Chik", Latitude = "6.84356000", Longitude = "101.17803000" },
-                        new() { Id = 11, Name = "Panare", Latitude = "6.81211000", Longitude = "101.51247000" },
-                        new() { Id = 12, Name = "Pattani", Latitude = "6.86814000", Longitude = "101.25009000" },
-                        new() { Id = 13, Name = "Sai Buri", Latitude = "6.70131000", Longitude = "101.61675000" },
-                        new() { Id = 14, Name = "Thung Yang Daeng", Latitude = "6.64160000", Longitude = "101.44652000" },
-                        new() { Id = 15, Name = "Yarang", Latitude = "6.69240000", Longitude = "101.31408000" },
-                        new() { Id = 16, Name = "Yaring", Latitude = "6.86617000", Longitude = "101.36894000" }
+                        new() { Id = 1, Name = "Kapho", Latitude = "6.60264000", Longitude = "101.54327000" },
+                        new() { Id = 2, Name = "Khok Pho", Latitude = "6.73064000", Longitude = "101.09619000" },
+                        new() { Id = 3, Name = "Mae Lan", Latitude = "6.66833000", Longitude = "101.23149000" },
+                        new() { Id = 4, Name = "Mai Kaen", Latitude = "6.61603000", Longitude = "101.67864000" },
+                        new() { Id = 5, Name = "Mayo", Latitude = "6.71864000", Longitude = "101.40983000" },
+                        new() { Id = 6, Name = "Nong Chik", Latitude = "6.84356000", Longitude = "101.17803000" },
+                        new() { Id = 7, Name = "Panare", Latitude = "6.86192000", Longitude = "101.49103000" },
+                        new() { Id = 8, Name = "Pattani", Latitude = "6.86814000", Longitude = "101.25009000" },
+                        new() { Id = 9, Name = "Taluban", Latitude = "6.70120000", Longitude = "101.61810000" },
+                        new() { Id = 10, Name = "Thung Yang Daeng", Latitude = "6.64160000", Longitude = "101.44652000" },
+                        new() { Id = 11, Name = "Yarang", Latitude = "6.76100000", Longitude = "101.30120000" },
+                        new() { Id = 12, Name = "Yaring", Latitude = "6.86617000", Longitude = "101.36894000" }
                     }
                 },
 
@@ -1319,18 +1200,16 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Ban Ao Nang", Latitude = "8.04580000", Longitude = "98.81035000" },
-                        new() { Id = 2, Name = "Ban Khao Lak", Latitude = "8.61501000", Longitude = "98.23994000" },
-                        new() { Id = 3, Name = "Ban Phru Nai", Latitude = "7.95458000", Longitude = "98.58989000" },
-                        new() { Id = 4, Name = "Kapong", Latitude = "8.74139000", Longitude = "98.47542000" },
-                        new() { Id = 5, Name = "Khura Buri", Latitude = "9.18972000", Longitude = "98.40806000" },
-                        new() { Id = 6, Name = "Ko Yao", Latitude = "8.06549000", Longitude = "98.57851000" },
-                        new() { Id = 7, Name = "Mueang Phangnga", Latitude = "8.49350000", Longitude = "98.50775000" },
-                        new() { Id = 8, Name = "Phang Nga", Latitude = "8.45091000", Longitude = "98.52985000" },
-                        new() { Id = 9, Name = "Takua Pa", Latitude = "8.86883000", Longitude = "98.33892000" },
-                        new() { Id = 10, Name = "Takua Thung", Latitude = "8.28433000", Longitude = "98.38950000" },
-                        new() { Id = 11, Name = "Thai Mueang", Latitude = "8.48995000", Longitude = "98.31292000" },
-                        new() { Id = 12, Name = "Thap Put", Latitude = "8.53768000", Longitude = "98.63208000" }
+                        new() { Id = 1, Name = "Ban Khao Lak", Latitude = "8.61501000", Longitude = "98.23994000" },
+                        new() { Id = 2, Name = "Ban Phru Nai", Latitude = "7.95458000", Longitude = "98.58989000" },
+                        new() { Id = 3, Name = "Kapong", Latitude = "8.74139000", Longitude = "98.47542000" },
+                        new() { Id = 4, Name = "Khura Buri", Latitude = "9.19397000", Longitude = "98.41514000" },
+                        new() { Id = 5, Name = "Ko Yao", Latitude = "8.11870000", Longitude = "98.59050000" },
+                        new() { Id = 6, Name = "Phang Nga", Latitude = "8.45091000", Longitude = "98.52985000" },
+                        new() { Id = 7, Name = "Takua Pa", Latitude = "8.87050000", Longitude = "98.34383000" },
+                        new() { Id = 8, Name = "Takua Thung", Latitude = "8.28433000", Longitude = "98.38950000" },
+                        new() { Id = 9, Name = "Thai Mueang", Latitude = "8.39440000", Longitude = "98.25990000" },
+                        new() { Id = 10, Name = "Thap Put", Latitude = "8.51570000", Longitude = "98.64130000" }
                     }
                 },
 
@@ -1346,18 +1225,17 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Bang Kaeo", Latitude = "7.41775000", Longitude = "100.17164000" },
-                        new() { Id = 2, Name = "Khao Chaison", Latitude = "7.46305000", Longitude = "100.09055000" },
-                        new() { Id = 3, Name = "Khuan Khanun", Latitude = "7.76438000", Longitude = "100.04349000" },
-                        new() { Id = 4, Name = "Kong Ra", Latitude = "7.41674000", Longitude = "99.95719000" },
-                        new() { Id = 5, Name = "Mueang Phatthalung", Latitude = "7.60250000", Longitude = "100.07425000" },
-                        new() { Id = 6, Name = "Pa Bon", Latitude = "7.21994000", Longitude = "100.13078000" },
-                        new() { Id = 7, Name = "Pa Phayom", Latitude = "7.83154000", Longitude = "99.87448000" },
-                        new() { Id = 8, Name = "Pak Phayun", Latitude = "7.29622000", Longitude = "100.29542000" },
-                        new() { Id = 9, Name = "Phatthalung", Latitude = "7.61786000", Longitude = "100.07792000" },
-                        new() { Id = 10, Name = "Si Banphot", Latitude = "7.69259000", Longitude = "99.87322000" },
-                        new() { Id = 11, Name = "Srinagarindra", Latitude = "7.57574000", Longitude = "99.91053000" },
-                        new() { Id = 12, Name = "Tamot", Latitude = "7.28783000", Longitude = "100.04358000" }
+                        new() { Id = 1, Name = "Bang Kaeo", Latitude = "7.42947000", Longitude = "100.17803000" },
+                        new() { Id = 2, Name = "Khao Chaison", Latitude = "7.46125000", Longitude = "100.13372000" },
+                        new() { Id = 3, Name = "Khuan Khanun", Latitude = "7.73470000", Longitude = "100.00931000" },
+                        new() { Id = 4, Name = "Kong Ra", Latitude = "7.40272000", Longitude = "99.94972000" },
+                        new() { Id = 5, Name = "Pa Bon", Latitude = "7.26942000", Longitude = "100.17036000" },
+                        new() { Id = 6, Name = "Pa Phayom", Latitude = "7.83154000", Longitude = "99.87448000" },
+                        new() { Id = 7, Name = "Pak Phayun", Latitude = "7.35190000", Longitude = "100.32330000" },
+                        new() { Id = 8, Name = "Phatthalung", Latitude = "7.61786000", Longitude = "100.07792000" },
+                        new() { Id = 9, Name = "Si Banphot", Latitude = "7.69259000", Longitude = "99.87322000" },
+                        new() { Id = 10, Name = "Srinagarindra", Latitude = "7.57574000", Longitude = "99.91053000" },
+                        new() { Id = 11, Name = "Tamot", Latitude = "7.33922000", Longitude = "100.11167000" }
                     }
                 },
 
@@ -1373,20 +1251,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Chiang Kham", Latitude = "19.47061000", Longitude = "100.33868000" },
-                        new() { Id = 2, Name = "Amphoe Dok Kham Tai", Latitude = "19.10813000", Longitude = "100.05657000" },
-                        new() { Id = 3, Name = "Amphoe Mae Chai", Latitude = "19.37925000", Longitude = "99.80141000" },
-                        new() { Id = 4, Name = "Amphoe Pong", Latitude = "19.18500000", Longitude = "100.38780000" },
-                        new() { Id = 5, Name = "Chiang Kham", Latitude = "19.52331000", Longitude = "100.30000000" },
-                        new() { Id = 6, Name = "Chiang Muan", Latitude = "18.90385000", Longitude = "100.31792000" },
-                        new() { Id = 7, Name = "Chun", Latitude = "19.36803000", Longitude = "100.14492000" },
-                        new() { Id = 8, Name = "Dok Kham Tai", Latitude = "19.16242000", Longitude = "99.99342000" },
-                        new() { Id = 9, Name = "Mae Chai", Latitude = "19.34597000", Longitude = "99.81400000" },
-                        new() { Id = 10, Name = "Mueang Phayao", Latitude = "19.14857000", Longitude = "99.87325000" },
-                        new() { Id = 11, Name = "Phayao", Latitude = "19.19203000", Longitude = "99.87883000" },
-                        new() { Id = 12, Name = "Phu Kam Yao", Latitude = "19.31170000", Longitude = "99.96614000" },
-                        new() { Id = 13, Name = "Phu Sang", Latitude = "19.62372000", Longitude = "100.37246000" },
-                        new() { Id = 14, Name = "Pong", Latitude = "19.14931000", Longitude = "100.27522000" }
+                        new() { Id = 1, Name = "Chiang Kham", Latitude = "19.52331000", Longitude = "100.30000000" },
+                        new() { Id = 2, Name = "Chiang Muan", Latitude = "18.89347324", Longitude = "100.28791097" },
+                        new() { Id = 3, Name = "Chun", Latitude = "19.33695000", Longitude = "100.13478000" },
+                        new() { Id = 4, Name = "Dok Kham Tai", Latitude = "19.16242000", Longitude = "99.99342000" },
+                        new() { Id = 5, Name = "Mae Chai", Latitude = "19.34597000", Longitude = "99.81400000" },
+                        new() { Id = 6, Name = "Phayao", Latitude = "19.19203000", Longitude = "99.87883000" },
+                        new() { Id = 7, Name = "Phu Kam Yao", Latitude = "19.31170000", Longitude = "99.96614000" },
+                        new() { Id = 8, Name = "Phu Sang", Latitude = "19.62372000", Longitude = "100.37246000" },
+                        new() { Id = 9, Name = "Pong", Latitude = "19.14931000", Longitude = "100.27522000" }
                     }
                 },
 
@@ -1402,22 +1275,17 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Chon Daen", Latitude = "16.10735000", Longitude = "100.83572000" },
-                        new() { Id = 2, Name = "Amphoe Lom Sak", Latitude = "16.72837000", Longitude = "101.31139000" },
-                        new() { Id = 3, Name = "Amphoe Nong Phai", Latitude = "16.01162000", Longitude = "101.15042000" },
-                        new() { Id = 4, Name = "Amphoe Wichian Buri", Latitude = "15.65000000", Longitude = "101.10000000" },
-                        new() { Id = 5, Name = "Bueng Sam Phan", Latitude = "15.81650000", Longitude = "101.00399000" },
-                        new() { Id = 6, Name = "Chon Daen", Latitude = "16.18953000", Longitude = "100.85958000" },
-                        new() { Id = 7, Name = "Khao Kho", Latitude = "16.66313000", Longitude = "100.99450000" },
-                        new() { Id = 8, Name = "Lom Kao", Latitude = "16.97209000", Longitude = "101.26185000" },
-                        new() { Id = 9, Name = "Lom Sak", Latitude = "16.77983000", Longitude = "101.24225000" },
-                        new() { Id = 10, Name = "Mueang Phetchabun", Latitude = "16.38215000", Longitude = "101.17652000" },
-                        new() { Id = 11, Name = "Nam Nao", Latitude = "16.84489000", Longitude = "101.60080000" },
-                        new() { Id = 12, Name = "Nong Phai", Latitude = "15.99025000", Longitude = "101.06183000" },
-                        new() { Id = 13, Name = "Phetchabun", Latitude = "16.41904000", Longitude = "101.16056000" },
-                        new() { Id = 14, Name = "Si Thep", Latitude = "15.44253000", Longitude = "101.14767000" },
-                        new() { Id = 15, Name = "Wang Pong", Latitude = "16.35049000", Longitude = "100.80772000" },
-                        new() { Id = 16, Name = "Wichian Buri", Latitude = "15.65778000", Longitude = "101.10603000" }
+                        new() { Id = 1, Name = "Bueng Sam Phan", Latitude = "15.81650000", Longitude = "101.00399000" },
+                        new() { Id = 2, Name = "Chon Daen", Latitude = "16.18953000", Longitude = "100.85958000" },
+                        new() { Id = 3, Name = "Khao Kho", Latitude = "16.66313000", Longitude = "100.99450000" },
+                        new() { Id = 4, Name = "Lom Kao", Latitude = "16.88472222", Longitude = "101.23361111" },
+                        new() { Id = 5, Name = "Lom Sak", Latitude = "16.77983000", Longitude = "101.24225000" },
+                        new() { Id = 6, Name = "Nam Nao", Latitude = "16.84489000", Longitude = "101.60080000" },
+                        new() { Id = 7, Name = "Nong Phai", Latitude = "15.99025000", Longitude = "101.06183000" },
+                        new() { Id = 8, Name = "Phetchabun", Latitude = "16.41904000", Longitude = "101.16056000" },
+                        new() { Id = 9, Name = "Si Thep", Latitude = "15.44253000", Longitude = "101.14767000" },
+                        new() { Id = 10, Name = "Wang Pong", Latitude = "16.33920000", Longitude = "100.79410000" },
+                        new() { Id = 11, Name = "Wichian Buri", Latitude = "15.65778000", Longitude = "101.10603000" }
                     }
                 },
 
@@ -1433,18 +1301,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Cha-am", Latitude = "12.75374000", Longitude = "99.89828000" },
-                        new() { Id = 2, Name = "Amphoe Khao Yoi", Latitude = "13.24240000", Longitude = "99.80753000" },
-                        new() { Id = 3, Name = "Amphoe Tha Yang", Latitude = "12.81743000", Longitude = "99.78738000" },
-                        new() { Id = 4, Name = "Ban Laem", Latitude = "13.16968000", Longitude = "99.98771000" },
-                        new() { Id = 5, Name = "Ban Lat", Latitude = "13.04533000", Longitude = "99.83788000" },
-                        new() { Id = 6, Name = "Cha-am", Latitude = "12.80000000", Longitude = "99.96667000" },
-                        new() { Id = 7, Name = "Kaeng Krachan", Latitude = "12.85919000", Longitude = "99.46339000" },
-                        new() { Id = 8, Name = "Khao Yoi", Latitude = "13.24025000", Longitude = "99.82428000" },
-                        new() { Id = 9, Name = "Mueang Phetchaburi", Latitude = "13.08173000", Longitude = "99.96721000" },
-                        new() { Id = 10, Name = "Nong Ya Plong", Latitude = "13.12590000", Longitude = "99.46880000" },
-                        new() { Id = 11, Name = "Phetchaburi", Latitude = "13.11189000", Longitude = "99.94467000" },
-                        new() { Id = 12, Name = "Tha Yang", Latitude = "12.95772000", Longitude = "99.90555000" }
+                        new() { Id = 1, Name = "Amphoe Tha Yang", Latitude = "12.81743000", Longitude = "99.78738000" },
+                        new() { Id = 2, Name = "Ban Laem", Latitude = "13.21676499", Longitude = "99.97674563" },
+                        new() { Id = 3, Name = "Ban Lat", Latitude = "13.04960000", Longitude = "99.91880000" },
+                        new() { Id = 4, Name = "Cha-am", Latitude = "12.80000000", Longitude = "99.96667000" },
+                        new() { Id = 5, Name = "Kaeng Krachan", Latitude = "12.85919000", Longitude = "99.46339000" },
+                        new() { Id = 6, Name = "Khao Yoi", Latitude = "13.24025000", Longitude = "99.82428000" },
+                        new() { Id = 7, Name = "Nong Ya Plong", Latitude = "13.16288000", Longitude = "99.69723000" },
+                        new() { Id = 8, Name = "Phetchaburi", Latitude = "13.11189000", Longitude = "99.94467000" },
+                        new() { Id = 9, Name = "Tha Yang", Latitude = "12.95772000", Longitude = "99.90555000" }
                     }
                 },
 
@@ -1460,23 +1325,18 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Bang Mun Nak", Latitude = "16.02656000", Longitude = "100.43194000" },
-                        new() { Id = 2, Name = "Amphoe Bueng Na Rang", Latitude = "16.18642000", Longitude = "100.14293000" },
-                        new() { Id = 3, Name = "Amphoe Taphan Hin", Latitude = "16.21103000", Longitude = "100.41739000" },
-                        new() { Id = 4, Name = "Amphoe Thap Khlo", Latitude = "16.19167000", Longitude = "100.60082000" },
-                        new() { Id = 5, Name = "Amphoe Wang Sai Phun", Latitude = "16.37922000", Longitude = "100.53668000" },
-                        new() { Id = 6, Name = "Bang Mun Nak", Latitude = "16.02781000", Longitude = "100.37917000" },
-                        new() { Id = 7, Name = "Bueng Na Rang", Latitude = "16.17120000", Longitude = "100.12531000" },
-                        new() { Id = 8, Name = "Dong Charoen", Latitude = "15.99848000", Longitude = "100.59572000" },
-                        new() { Id = 9, Name = "Mueang Phichit", Latitude = "16.40986000", Longitude = "100.34578000" },
-                        new() { Id = 10, Name = "Phichit", Latitude = "16.44184000", Longitude = "100.34879000" },
-                        new() { Id = 11, Name = "Pho Prathap Chang", Latitude = "16.31294000", Longitude = "100.19897000" },
-                        new() { Id = 12, Name = "Pho Thale", Latitude = "16.05885000", Longitude = "100.24579000" },
-                        new() { Id = 13, Name = "Sak Lek", Latitude = "16.50717000", Longitude = "100.52350000" },
-                        new() { Id = 14, Name = "Taphan Hin", Latitude = "16.22095000", Longitude = "100.41978000" },
-                        new() { Id = 15, Name = "Thap Khlo", Latitude = "16.16003000", Longitude = "100.59656000" },
-                        new() { Id = 16, Name = "Wachira Barami", Latitude = "16.51667000", Longitude = "100.11667000" },
-                        new() { Id = 17, Name = "Wang Sai Phun", Latitude = "16.38850000", Longitude = "100.53801000" }
+                        new() { Id = 1, Name = "Amphoe Bueng Na Rang", Latitude = "16.18642000", Longitude = "100.14293000" },
+                        new() { Id = 2, Name = "Bang Mun Nak", Latitude = "16.02781000", Longitude = "100.37917000" },
+                        new() { Id = 3, Name = "Bueng Na Rang", Latitude = "16.17120000", Longitude = "100.12531000" },
+                        new() { Id = 4, Name = "Dong Charoen", Latitude = "15.99848000", Longitude = "100.59572000" },
+                        new() { Id = 5, Name = "Phichit", Latitude = "16.44184000", Longitude = "100.34879000" },
+                        new() { Id = 6, Name = "Pho Prathap Chang", Latitude = "16.31294000", Longitude = "100.19897000" },
+                        new() { Id = 7, Name = "Pho Thale", Latitude = "16.09269000", Longitude = "100.26089000" },
+                        new() { Id = 8, Name = "Sak Lek", Latitude = "16.50528000", Longitude = "100.47103000" },
+                        new() { Id = 9, Name = "Taphan Hin", Latitude = "16.22095000", Longitude = "100.41978000" },
+                        new() { Id = 10, Name = "Thap Khlo", Latitude = "16.16003000", Longitude = "100.59656000" },
+                        new() { Id = 11, Name = "Wachira Barami", Latitude = "16.51667000", Longitude = "100.11667000" },
+                        new() { Id = 12, Name = "Wang Sai Phun", Latitude = "16.38850000", Longitude = "100.53801000" }
                     }
                 },
 
@@ -1492,20 +1352,16 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Bang Krathum", Latitude = "16.59323000", Longitude = "100.35042000" },
-                        new() { Id = 2, Name = "Amphoe Bang Rakam", Latitude = "16.71844000", Longitude = "100.04217000" },
-                        new() { Id = 3, Name = "Amphoe Chat Trakan", Latitude = "17.39357000", Longitude = "100.68460000" },
-                        new() { Id = 4, Name = "Amphoe Nakhon Thai", Latitude = "17.09426000", Longitude = "100.86437000" },
-                        new() { Id = 5, Name = "Bang Krathum", Latitude = "16.57831000", Longitude = "100.30034000" },
-                        new() { Id = 6, Name = "Bang Rakam", Latitude = "16.75847000", Longitude = "100.11742000" },
-                        new() { Id = 7, Name = "Chat Trakan", Latitude = "17.27606000", Longitude = "100.60022000" },
-                        new() { Id = 8, Name = "Mueang Phitsanulok", Latitude = "16.84040000", Longitude = "100.27298000" },
-                        new() { Id = 9, Name = "Nakhon Thai", Latitude = "17.10056000", Longitude = "100.83739000" },
-                        new() { Id = 10, Name = "Noen Maprang", Latitude = "16.56400000", Longitude = "100.70995000" },
-                        new() { Id = 11, Name = "Phitsanulok", Latitude = "16.82481000", Longitude = "100.25858000" },
-                        new() { Id = 12, Name = "Phrom Phiram", Latitude = "17.06894000", Longitude = "100.15350000" },
-                        new() { Id = 13, Name = "Wang Thong", Latitude = "16.85000000", Longitude = "100.58333000" },
-                        new() { Id = 14, Name = "Wat Bot", Latitude = "17.16384000", Longitude = "100.36298000" }
+                        new() { Id = 1, Name = "Amphoe Chat Trakan", Latitude = "17.39357000", Longitude = "100.68460000" },
+                        new() { Id = 2, Name = "Bang Krathum", Latitude = "16.57831000", Longitude = "100.30034000" },
+                        new() { Id = 3, Name = "Bang Rakam", Latitude = "16.75847000", Longitude = "100.11742000" },
+                        new() { Id = 4, Name = "Chat Trakan", Latitude = "17.27606000", Longitude = "100.60022000" },
+                        new() { Id = 5, Name = "Nakhon Thai", Latitude = "17.10056000", Longitude = "100.83739000" },
+                        new() { Id = 6, Name = "Noen Maprang", Latitude = "16.56834100", Longitude = "100.63556300" },
+                        new() { Id = 7, Name = "Phitsanulok", Latitude = "16.82481000", Longitude = "100.25858000" },
+                        new() { Id = 8, Name = "Phrom Phiram", Latitude = "17.03352000", Longitude = "100.20190000" },
+                        new() { Id = 9, Name = "Wang Thong", Latitude = "16.82290000", Longitude = "100.42550000" },
+                        new() { Id = 10, Name = "Wat Bot", Latitude = "16.98114000", Longitude = "100.33195000" }
                     }
                 },
 
@@ -1521,29 +1377,27 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Bang Ban", Latitude = "14.38333000", Longitude = "100.46667000" },
-                        new() { Id = 2, Name = "Amphoe Bang Pa-in", Latitude = "14.23482000", Longitude = "100.59410000" },
-                        new() { Id = 3, Name = "Amphoe Nakhon Luang", Latitude = "14.46703000", Longitude = "100.62572000" },
-                        new() { Id = 4, Name = "Amphoe Phak Hai", Latitude = "14.45073000", Longitude = "100.33949000" },
-                        new() { Id = 5, Name = "Amphoe Phra Nakhon Si Ayutthaya", Latitude = "14.35172000", Longitude = "100.56719000" },
-                        new() { Id = 6, Name = "Amphoe Tha Ruea", Latitude = "14.53587000", Longitude = "100.71268000" },
-                        new() { Id = 7, Name = "Amphoe Wang Noi", Latitude = "14.24348000", Longitude = "100.72500000" },
-                        new() { Id = 8, Name = "Ban Bang Kadi Pathum Thani", Latitude = "13.99904000", Longitude = "100.54962000" },
-                        new() { Id = 9, Name = "Ban Phraek", Latitude = "14.64381000", Longitude = "100.54883000" },
-                        new() { Id = 10, Name = "Bang Ban", Latitude = "14.37395000", Longitude = "100.48528000" },
-                        new() { Id = 11, Name = "Bang Pa-in", Latitude = "14.22783000", Longitude = "100.57589000" },
-                        new() { Id = 12, Name = "Bang Pahan", Latitude = "14.47174000", Longitude = "100.54731000" },
-                        new() { Id = 13, Name = "Bang Sai", Latitude = "14.21043000", Longitude = "100.49422000" },
-                        new() { Id = 14, Name = "Lat Bua Luang", Latitude = "14.16810000", Longitude = "100.34892000" },
-                        new() { Id = 15, Name = "Maha Rat", Latitude = "14.57064000", Longitude = "100.54089000" },
-                        new() { Id = 16, Name = "Nakhon Luang", Latitude = "14.46281000", Longitude = "100.60832000" },
-                        new() { Id = 17, Name = "Phachi", Latitude = "14.43795000", Longitude = "100.72780000" },
-                        new() { Id = 18, Name = "Phak Hai", Latitude = "14.45736000", Longitude = "100.36989000" },
-                        new() { Id = 19, Name = "Phra Nakhon Si Ayutthaya", Latitude = "14.35167000", Longitude = "100.57739000" },
-                        new() { Id = 20, Name = "Sena", Latitude = "14.29605000", Longitude = "100.37486000" },
-                        new() { Id = 21, Name = "Tha Ruea", Latitude = "14.56739000", Longitude = "100.72598000" },
-                        new() { Id = 22, Name = "Uthai", Latitude = "14.35321000", Longitude = "100.69643000" },
-                        new() { Id = 23, Name = "Wang Noi", Latitude = "14.22689000", Longitude = "100.71550000" }
+                        new() { Id = 1, Name = "Amphoe Bang Pa-in", Latitude = "14.23482000", Longitude = "100.59410000" },
+                        new() { Id = 2, Name = "Amphoe Nakhon Luang", Latitude = "14.46703000", Longitude = "100.62572000" },
+                        new() { Id = 3, Name = "Amphoe Phak Hai", Latitude = "14.45073000", Longitude = "100.33949000" },
+                        new() { Id = 4, Name = "Amphoe Phra Nakhon Si Ayutthaya", Latitude = "14.35172000", Longitude = "100.56719000" },
+                        new() { Id = 5, Name = "Amphoe Wang Noi", Latitude = "14.24348000", Longitude = "100.72500000" },
+                        new() { Id = 6, Name = "Ban Bang Kadi Pathum Thani", Latitude = "13.99904000", Longitude = "100.54962000" },
+                        new() { Id = 7, Name = "Ban Phraek", Latitude = "14.64381000", Longitude = "100.54883000" },
+                        new() { Id = 8, Name = "Bang Ban", Latitude = "14.37395000", Longitude = "100.48528000" },
+                        new() { Id = 9, Name = "Bang Pa-in", Latitude = "14.22783000", Longitude = "100.57589000" },
+                        new() { Id = 10, Name = "Bang Pahan", Latitude = "14.47174000", Longitude = "100.54731000" },
+                        new() { Id = 11, Name = "Bang Sai", Latitude = "14.21043000", Longitude = "100.49422000" },
+                        new() { Id = 12, Name = "Lat Bua Luang", Latitude = "14.16810000", Longitude = "100.34892000" },
+                        new() { Id = 13, Name = "Maha Rat", Latitude = "14.57064000", Longitude = "100.54089000" },
+                        new() { Id = 14, Name = "Nakhon Luang", Latitude = "14.46281000", Longitude = "100.60832000" },
+                        new() { Id = 15, Name = "Phachi", Latitude = "14.43795000", Longitude = "100.72780000" },
+                        new() { Id = 16, Name = "Phak Hai", Latitude = "14.45736000", Longitude = "100.36989000" },
+                        new() { Id = 17, Name = "Phra Nakhon Si Ayutthaya", Latitude = "14.35167000", Longitude = "100.57739000" },
+                        new() { Id = 18, Name = "Sena", Latitude = "14.29605000", Longitude = "100.37486000" },
+                        new() { Id = 19, Name = "Tha Ruea", Latitude = "14.56739000", Longitude = "100.72598000" },
+                        new() { Id = 20, Name = "Uthai", Latitude = "14.36800515", Longitude = "100.67134274" },
+                        new() { Id = 21, Name = "Wang Noi", Latitude = "14.22689000", Longitude = "100.71550000" }
                     }
                 },
 
@@ -1559,18 +1413,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Den Chai", Latitude = "17.91667000", Longitude = "100.03333000" },
-                        new() { Id = 2, Name = "Amphoe Long", Latitude = "18.14262000", Longitude = "99.90901000" },
-                        new() { Id = 3, Name = "Amphoe Rong Kwang", Latitude = "18.32614000", Longitude = "100.39418000" },
-                        new() { Id = 4, Name = "Den Chai", Latitude = "17.98372000", Longitude = "100.05217000" },
-                        new() { Id = 5, Name = "Long", Latitude = "18.07422000", Longitude = "99.83073000" },
-                        new() { Id = 6, Name = "Mueang Phrae", Latitude = "18.12258000", Longitude = "100.25620000" },
-                        new() { Id = 7, Name = "Nong Muang Khai", Latitude = "18.28845000", Longitude = "100.15231000" },
-                        new() { Id = 8, Name = "Phrae", Latitude = "18.14589000", Longitude = "100.14103000" },
-                        new() { Id = 9, Name = "Rong Kwang", Latitude = "18.33903000", Longitude = "100.31736000" },
-                        new() { Id = 10, Name = "Song", Latitude = "18.57006000", Longitude = "100.22911000" },
-                        new() { Id = 11, Name = "Sung Men", Latitude = "18.03542000", Longitude = "100.12538000" },
-                        new() { Id = 12, Name = "Wang Chin", Latitude = "17.86667000", Longitude = "99.64990000" }
+                        new() { Id = 1, Name = "Amphoe Long", Latitude = "18.14262000", Longitude = "99.90901000" },
+                        new() { Id = 2, Name = "Den Chai", Latitude = "17.98372000", Longitude = "100.05217000" },
+                        new() { Id = 3, Name = "Long", Latitude = "18.07422000", Longitude = "99.83073000" },
+                        new() { Id = 4, Name = "Nong Muang Khai", Latitude = "18.26464000", Longitude = "100.18967000" },
+                        new() { Id = 5, Name = "Phrae", Latitude = "18.14589000", Longitude = "100.14103000" },
+                        new() { Id = 6, Name = "Rong Kwang", Latitude = "18.33903000", Longitude = "100.31736000" },
+                        new() { Id = 7, Name = "Song", Latitude = "18.47204000", Longitude = "100.18346000" },
+                        new() { Id = 8, Name = "Sung Men", Latitude = "18.04940000", Longitude = "100.11457000" },
+                        new() { Id = 9, Name = "Wang Chin", Latitude = "17.86667000", Longitude = "99.64990000" }
                     }
                 },
 
@@ -1596,13 +1447,12 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Ban Talat Nua", Latitude = "7.88489000", Longitude = "98.38557000" },
                         new() { Id = 9, Name = "Ban Talat Yai", Latitude = "7.88481000", Longitude = "98.40008000" },
                         new() { Id = 10, Name = "Kathu", Latitude = "7.91779000", Longitude = "98.33322000" },
-                        new() { Id = 11, Name = "Mueang Phuket", Latitude = "7.85609000", Longitude = "98.37183000" },
-                        new() { Id = 12, Name = "Nai Harn", Latitude = "7.77859000", Longitude = "98.30661000" },
-                        new() { Id = 13, Name = "Patong", Latitude = "7.89607000", Longitude = "98.29661000" },
-                        new() { Id = 14, Name = "Phuket", Latitude = "7.89059000", Longitude = "98.39810000" },
-                        new() { Id = 15, Name = "Rawai", Latitude = "7.77965000", Longitude = "98.32532000" },
-                        new() { Id = 16, Name = "Thalang", Latitude = "8.03407000", Longitude = "98.33399000" },
-                        new() { Id = 17, Name = "Wichit", Latitude = "7.88940000", Longitude = "98.38523000" }
+                        new() { Id = 11, Name = "Nai Harn", Latitude = "7.77859000", Longitude = "98.30661000" },
+                        new() { Id = 12, Name = "Patong", Latitude = "7.89607000", Longitude = "98.29661000" },
+                        new() { Id = 13, Name = "Phuket", Latitude = "7.89059000", Longitude = "98.39810000" },
+                        new() { Id = 14, Name = "Rawai", Latitude = "7.77965000", Longitude = "98.32532000" },
+                        new() { Id = 15, Name = "Thalang", Latitude = "8.03407000", Longitude = "98.33399000" },
+                        new() { Id = 16, Name = "Wichit", Latitude = "7.88940000", Longitude = "98.38523000" }
                     }
                 },
 
@@ -1618,15 +1468,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Kabin Buri", Latitude = "13.90000000", Longitude = "101.80000000" },
-                        new() { Id = 2, Name = "Ban Sang", Latitude = "13.95005000", Longitude = "101.25063000" },
-                        new() { Id = 3, Name = "Kabin Buri", Latitude = "13.95114000", Longitude = "101.71769000" },
-                        new() { Id = 4, Name = "Mueang Prachin Buri", Latitude = "14.09335000", Longitude = "101.39776000" },
-                        new() { Id = 5, Name = "Na Di", Latitude = "14.19253000", Longitude = "101.84557000" },
-                        new() { Id = 6, Name = "Prachantakham", Latitude = "14.22813000", Longitude = "101.57440000" },
-                        new() { Id = 7, Name = "Prachin Buri", Latitude = "14.04992000", Longitude = "101.36864000" },
-                        new() { Id = 8, Name = "Si Maha Phot", Latitude = "13.89041000", Longitude = "101.54181000" },
-                        new() { Id = 9, Name = "Si Mahosot", Latitude = "13.87669000", Longitude = "101.42499000" }
+                        new() { Id = 1, Name = "Ban Sang", Latitude = "13.99551000", Longitude = "101.22084000" },
+                        new() { Id = 2, Name = "Kabin Buri", Latitude = "13.95114000", Longitude = "101.71769000" },
+                        new() { Id = 3, Name = "Na Di", Latitude = "14.11565000", Longitude = "101.78211000" },
+                        new() { Id = 4, Name = "Prachantakham", Latitude = "14.22813000", Longitude = "101.57440000" },
+                        new() { Id = 5, Name = "Prachin Buri", Latitude = "14.04992000", Longitude = "101.36864000" },
+                        new() { Id = 6, Name = "Si Maha Phot", Latitude = "13.96136243", Longitude = "101.51179329" },
+                        new() { Id = 7, Name = "Si Mahosot", Latitude = "13.87669000", Longitude = "101.42499000" }
                     }
                 },
 
@@ -1643,19 +1491,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Amphoe Bang Saphan", Latitude = "11.29402000", Longitude = "99.44406000" },
-                        new() { Id = 2, Name = "Amphoe Hua Hin", Latitude = "12.53522000", Longitude = "99.70366000" },
-                        new() { Id = 3, Name = "Amphoe Kui Buri", Latitude = "12.11311000", Longitude = "99.75462000" },
-                        new() { Id = 4, Name = "Amphoe Pran Buri", Latitude = "12.39040000", Longitude = "99.69690000" },
-                        new() { Id = 5, Name = "Amphoe Sam Roi Yot", Latitude = "12.25586000", Longitude = "99.74010000" },
-                        new() { Id = 6, Name = "Bang Saphan", Latitude = "11.21259000", Longitude = "99.51167000" },
-                        new() { Id = 7, Name = "Bang Saphan Noi", Latitude = "11.07057000", Longitude = "99.34105000" },
-                        new() { Id = 8, Name = "Hua Hin", Latitude = "12.57065000", Longitude = "99.95876000" },
-                        new() { Id = 9, Name = "Kui Buri", Latitude = "12.08283000", Longitude = "99.85431000" },
-                        new() { Id = 10, Name = "Mueang Prachuap Khiri Khan", Latitude = "11.87144000", Longitude = "99.73563000" },
-                        new() { Id = 11, Name = "Prachuap Khiri Khan", Latitude = "11.82098000", Longitude = "99.78410000" },
-                        new() { Id = 12, Name = "Pran Buri", Latitude = "12.38487000", Longitude = "99.90157000" },
-                        new() { Id = 13, Name = "Sam Roi Yot", Latitude = "12.27081000", Longitude = "99.87203000" },
-                        new() { Id = 14, Name = "Thap Sakae", Latitude = "11.54787000", Longitude = "99.57159000" }
+                        new() { Id = 2, Name = "Amphoe Sam Roi Yot", Latitude = "12.25586000", Longitude = "99.74010000" },
+                        new() { Id = 3, Name = "Bang Saphan", Latitude = "11.21259000", Longitude = "99.51167000" },
+                        new() { Id = 4, Name = "Bang Saphan Noi", Latitude = "11.07535000", Longitude = "99.44152000" },
+                        new() { Id = 5, Name = "Hua Hin", Latitude = "12.57065000", Longitude = "99.95876000" },
+                        new() { Id = 6, Name = "Kui Buri", Latitude = "12.08283000", Longitude = "99.85431000" },
+                        new() { Id = 7, Name = "Prachuap Khiri Khan", Latitude = "11.82098000", Longitude = "99.78410000" },
+                        new() { Id = 8, Name = "Pran Buri", Latitude = "12.38487000", Longitude = "99.90157000" },
+                        new() { Id = 9, Name = "Sam Roi Yot", Latitude = "12.27081000", Longitude = "99.87203000" },
+                        new() { Id = 10, Name = "Thap Sakae", Latitude = "11.49964000", Longitude = "99.62170000" }
                     }
                 },
 
@@ -1671,12 +1515,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Kapoe", Latitude = "9.53028000", Longitude = "98.62369000" },
+                        new() { Id = 1, Name = "Kapoe", Latitude = "9.58290000", Longitude = "98.59410000" },
                         new() { Id = 2, Name = "Kra Buri", Latitude = "10.45895000", Longitude = "98.84373000" },
-                        new() { Id = 3, Name = "La-un", Latitude = "10.09691000", Longitude = "98.78498000" },
-                        new() { Id = 4, Name = "Mueang Ranong", Latitude = "9.86238000", Longitude = "98.62229000" },
-                        new() { Id = 5, Name = "Ranong", Latitude = "9.96583000", Longitude = "98.63476000" },
-                        new() { Id = 6, Name = "Suk Samran", Latitude = "9.41570000", Longitude = "98.49117000" }
+                        new() { Id = 3, Name = "La-un", Latitude = "10.11280000", Longitude = "98.75450000" },
+                        new() { Id = 4, Name = "Ranong", Latitude = "9.96583000", Longitude = "98.63476000" },
+                        new() { Id = 5, Name = "Suk Samran", Latitude = "9.41570000", Longitude = "98.49117000" }
                     }
                 },
 
@@ -1692,22 +1535,17 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Ban Pong", Latitude = "13.81660000", Longitude = "99.82147000" },
-                        new() { Id = 2, Name = "Amphoe Bang Phae", Latitude = "13.68333000", Longitude = "99.98333000" },
-                        new() { Id = 3, Name = "Amphoe Chom Bueng", Latitude = "13.62520000", Longitude = "99.51870000" },
-                        new() { Id = 4, Name = "Amphoe Damnoen Saduak", Latitude = "13.56537000", Longitude = "99.97042000" },
-                        new() { Id = 5, Name = "Amphoe Photharam", Latitude = "13.70707000", Longitude = "99.75622000" },
-                        new() { Id = 6, Name = "Ban Kha", Latitude = "13.32374000", Longitude = "99.37323000" },
-                        new() { Id = 7, Name = "Ban Pong", Latitude = "13.81629000", Longitude = "99.87739000" },
-                        new() { Id = 8, Name = "Bang Phae", Latitude = "13.69157000", Longitude = "99.92982000" },
-                        new() { Id = 9, Name = "Chom Bueng", Latitude = "13.62000000", Longitude = "99.59169000" },
-                        new() { Id = 10, Name = "Damnoen Saduak", Latitude = "13.51825000", Longitude = "99.95469000" },
-                        new() { Id = 11, Name = "Mueang Ratchaburi", Latitude = "13.54559000", Longitude = "99.77678000" },
-                        new() { Id = 12, Name = "Pak Tho", Latitude = "13.38761000", Longitude = "99.67700000" },
-                        new() { Id = 13, Name = "Photharam", Latitude = "13.69234000", Longitude = "99.84969000" },
-                        new() { Id = 14, Name = "Ratchaburi", Latitude = "13.53671000", Longitude = "99.81712000" },
-                        new() { Id = 15, Name = "Suan Phueng", Latitude = "13.56361000", Longitude = "99.31133000" },
-                        new() { Id = 16, Name = "Wat Phleng", Latitude = "13.44705000", Longitude = "99.86959000" }
+                        new() { Id = 1, Name = "Ban Kha", Latitude = "13.32374000", Longitude = "99.37323000" },
+                        new() { Id = 2, Name = "Ban Pong", Latitude = "13.81629000", Longitude = "99.87739000" },
+                        new() { Id = 3, Name = "Ban Pong", Latitude = "13.81740000", Longitude = "99.88300000" },
+                        new() { Id = 4, Name = "Bang Phae", Latitude = "13.69157000", Longitude = "99.92982000" },
+                        new() { Id = 5, Name = "Chom Bueng", Latitude = "13.62000000", Longitude = "99.59169000" },
+                        new() { Id = 6, Name = "Damnoen Saduak", Latitude = "13.51825000", Longitude = "99.95469000" },
+                        new() { Id = 7, Name = "Pak Tho", Latitude = "13.37263000", Longitude = "99.83938000" },
+                        new() { Id = 8, Name = "Photharam", Latitude = "13.69234000", Longitude = "99.84969000" },
+                        new() { Id = 9, Name = "Ratchaburi", Latitude = "13.53671000", Longitude = "99.81712000" },
+                        new() { Id = 10, Name = "Suan Phueng", Latitude = "13.56361000", Longitude = "99.31133000" },
+                        new() { Id = 11, Name = "Wat Phleng", Latitude = "13.45220000", Longitude = "99.88520000" }
                     }
                 },
 
@@ -1724,17 +1562,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Amphoe Ban Chang", Latitude = "12.73230000", Longitude = "101.04878000" },
-                        new() { Id = 2, Name = "Amphoe Klaeng", Latitude = "12.77179000", Longitude = "101.65666000" },
-                        new() { Id = 3, Name = "Ban Chang", Latitude = "12.72543000", Longitude = "101.05531000" },
-                        new() { Id = 4, Name = "Ban Khai", Latitude = "12.83827000", Longitude = "101.34210000" },
-                        new() { Id = 5, Name = "Ban Phe", Latitude = "12.62824000", Longitude = "101.43757000" },
+                        new() { Id = 2, Name = "Ban Chang", Latitude = "12.72543000", Longitude = "101.05531000" },
+                        new() { Id = 3, Name = "Ban Khai", Latitude = "12.78130000", Longitude = "101.29260000" },
+                        new() { Id = 4, Name = "Ban Phe", Latitude = "12.62824000", Longitude = "101.43757000" },
+                        new() { Id = 5, Name = "Chum Saeng", Latitude = "12.92711903", Longitude = "101.52645717" },
                         new() { Id = 6, Name = "Khao Chamao", Latitude = "12.99042000", Longitude = "101.67847000" },
                         new() { Id = 7, Name = "Klaeng", Latitude = "12.77972000", Longitude = "101.64831000" },
-                        new() { Id = 8, Name = "Mueang Rayong", Latitude = "12.71864000", Longitude = "101.34491000" },
-                        new() { Id = 9, Name = "Nikhom Phattana", Latitude = "12.84489000", Longitude = "101.15341000" },
-                        new() { Id = 10, Name = "Pluak Daeng", Latitude = "12.98333000", Longitude = "101.25000000" },
-                        new() { Id = 11, Name = "Rayong", Latitude = "12.68095000", Longitude = "101.25798000" },
-                        new() { Id = 12, Name = "Wang Chan", Latitude = "12.96245000", Longitude = "101.51533000" }
+                        new() { Id = 8, Name = "Nikhom Phatthana", Latitude = "12.82877000", Longitude = "101.20507000" },
+                        new() { Id = 9, Name = "Pluak Daeng", Latitude = "12.97167000", Longitude = "101.21470000" },
+                        new() { Id = 10, Name = "Rayong", Latitude = "12.68095000", Longitude = "101.25798000" }
                     }
                 },
 
@@ -1750,33 +1586,29 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Kaset Wisai", Latitude = "15.60285000", Longitude = "103.56652000" },
-                        new() { Id = 2, Name = "Amphoe Moeiwadi", Latitude = "16.37155000", Longitude = "104.11137000" },
-                        new() { Id = 3, Name = "Amphoe Pho Chai", Latitude = "16.30969000", Longitude = "103.79004000" },
-                        new() { Id = 4, Name = "Amphoe Suwannaphum", Latitude = "15.60529000", Longitude = "103.80630000" },
-                        new() { Id = 5, Name = "At Samat", Latitude = "15.84014000", Longitude = "103.86619000" },
-                        new() { Id = 6, Name = "Ban Selaphum", Latitude = "16.01667000", Longitude = "103.95000000" },
-                        new() { Id = 7, Name = "Changhan", Latitude = "16.16213000", Longitude = "103.61605000" },
-                        new() { Id = 8, Name = "Chaturaphak Phiman", Latitude = "15.82670000", Longitude = "103.54934000" },
-                        new() { Id = 9, Name = "Chiang Khwan", Latitude = "16.14887000", Longitude = "103.74924000" },
-                        new() { Id = 10, Name = "Kaset Wisai", Latitude = "15.65558000", Longitude = "103.58361000" },
-                        new() { Id = 11, Name = "Moeiwadi", Latitude = "16.38944000", Longitude = "104.15720000" },
-                        new() { Id = 12, Name = "Mueang Roi Et", Latitude = "16.01497000", Longitude = "103.61584000" },
-                        new() { Id = 13, Name = "Mueang Suang", Latitude = "15.78619000", Longitude = "103.75071000" },
-                        new() { Id = 14, Name = "Nong Hi", Latitude = "15.57983000", Longitude = "104.01134000" },
-                        new() { Id = 15, Name = "Nong Phok", Latitude = "16.30357000", Longitude = "104.22144000" },
-                        new() { Id = 16, Name = "Pathum Rat", Latitude = "15.62371000", Longitude = "103.38733000" },
-                        new() { Id = 17, Name = "Phanom Phrai", Latitude = "15.69300000", Longitude = "104.07550000" },
-                        new() { Id = 18, Name = "Pho Chai", Latitude = "16.32827000", Longitude = "103.77033000" },
-                        new() { Id = 19, Name = "Phon Sai", Latitude = "15.49244000", Longitude = "103.94139000" },
-                        new() { Id = 20, Name = "Phon Thong", Latitude = "16.29007000", Longitude = "103.96388000" },
-                        new() { Id = 21, Name = "Roi Et", Latitude = "16.05670000", Longitude = "103.65309000" },
-                        new() { Id = 22, Name = "Selaphum", Latitude = "16.04700000", Longitude = "104.00031000" },
-                        new() { Id = 23, Name = "Si Somdet", Latitude = "16.01947000", Longitude = "103.51427000" },
-                        new() { Id = 24, Name = "Suwannaphum", Latitude = "15.60348000", Longitude = "103.80207000" },
-                        new() { Id = 25, Name = "Thawatchaburi", Latitude = "16.02783000", Longitude = "103.77833000" },
-                        new() { Id = 26, Name = "Thung Khao Luang", Latitude = "15.98966000", Longitude = "103.87086000" },
-                        new() { Id = 27, Name = "Waeng", Latitude = "16.30006000", Longitude = "103.97786000" }
+                        new() { Id = 1, Name = "At Samat", Latitude = "15.84308000", Longitude = "103.87839000" },
+                        new() { Id = 2, Name = "Ban Selaphum", Latitude = "16.01667000", Longitude = "103.95000000" },
+                        new() { Id = 3, Name = "Chai Wari", Latitude = "16.32827000", Longitude = "103.77033000" },
+                        new() { Id = 4, Name = "Changhan", Latitude = "16.13873000", Longitude = "103.60388000" },
+                        new() { Id = 5, Name = "Chaturaphak Phiman", Latitude = "15.82670000", Longitude = "103.54934000" },
+                        new() { Id = 6, Name = "Chiang Khwan", Latitude = "16.16328000", Longitude = "103.75359000" },
+                        new() { Id = 7, Name = "Kaset Wisai", Latitude = "15.65558000", Longitude = "103.58361000" },
+                        new() { Id = 8, Name = "Moeiwadi", Latitude = "16.38944000", Longitude = "104.15720000" },
+                        new() { Id = 9, Name = "Mueang Suang", Latitude = "15.82192000", Longitude = "103.72884000" },
+                        new() { Id = 10, Name = "Nong Hi", Latitude = "15.61117000", Longitude = "103.99484000" },
+                        new() { Id = 11, Name = "Nong Phok", Latitude = "16.31006000", Longitude = "104.20247000" },
+                        new() { Id = 12, Name = "Pathum Rat", Latitude = "15.63450000", Longitude = "103.34325000" },
+                        new() { Id = 13, Name = "Phanom Phrai", Latitude = "15.67783000", Longitude = "104.11025000" },
+                        new() { Id = 14, Name = "Pho Chai", Latitude = "15.59619997", Longitude = "104.09777668" },
+                        new() { Id = 15, Name = "Phon Sai", Latitude = "15.48797000", Longitude = "103.99642000" },
+                        new() { Id = 16, Name = "Phon Thong", Latitude = "16.29007000", Longitude = "103.96388000" },
+                        new() { Id = 17, Name = "Roi Et", Latitude = "16.05670000", Longitude = "103.65309000" },
+                        new() { Id = 18, Name = "Selaphum", Latitude = "16.02992000", Longitude = "103.93826000" },
+                        new() { Id = 19, Name = "Si Somdet", Latitude = "15.99797000", Longitude = "103.48789000" },
+                        new() { Id = 20, Name = "Suwannaphum", Latitude = "15.60348000", Longitude = "103.80207000" },
+                        new() { Id = 21, Name = "Thawatchaburi", Latitude = "16.02783000", Longitude = "103.77833000" },
+                        new() { Id = 22, Name = "Thung Khao Luang", Latitude = "15.98966000", Longitude = "103.87086000" },
+                        new() { Id = 23, Name = "Waeng", Latitude = "16.30006000", Longitude = "103.97786000" }
                     }
                 },
 
@@ -1792,18 +1624,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Aranyaprathet", Latitude = "13.69086000", Longitude = "102.47693000" },
-                        new() { Id = 2, Name = "Amphoe Wang Nam Yen", Latitude = "13.51900000", Longitude = "102.08718000" },
-                        new() { Id = 3, Name = "Aranyaprathet", Latitude = "13.69276000", Longitude = "102.50128000" },
-                        new() { Id = 4, Name = "Khao Chakan", Latitude = "13.62293000", Longitude = "102.02665000" },
-                        new() { Id = 5, Name = "Khlong Hat", Latitude = "13.47396000", Longitude = "102.27604000" },
-                        new() { Id = 6, Name = "Khok Sung", Latitude = "13.87388000", Longitude = "102.66075000" },
-                        new() { Id = 7, Name = "Mueang Sa Kaeo", Latitude = "13.92969000", Longitude = "102.10626000" },
-                        new() { Id = 8, Name = "Sa Kaeo", Latitude = "13.81411000", Longitude = "102.07222000" },
-                        new() { Id = 9, Name = "Ta Phraya", Latitude = "14.06272000", Longitude = "102.72601000" },
-                        new() { Id = 10, Name = "Wang Nam Yen", Latitude = "13.50325000", Longitude = "102.18115000" },
-                        new() { Id = 11, Name = "Wang Sombun", Latitude = "13.36112000", Longitude = "102.12490000" },
-                        new() { Id = 12, Name = "Watthana Nakhon", Latitude = "13.88582000", Longitude = "102.35652000" }
+                        new() { Id = 1, Name = "Aranyaprathet", Latitude = "13.69276000", Longitude = "102.50128000" },
+                        new() { Id = 2, Name = "Khao Chakan", Latitude = "13.65278000", Longitude = "102.08763000" },
+                        new() { Id = 3, Name = "Khlong Hat", Latitude = "13.45132000", Longitude = "102.29924000" },
+                        new() { Id = 4, Name = "Khok Sung", Latitude = "13.83851000", Longitude = "102.62232000" },
+                        new() { Id = 5, Name = "Sa Kaeo", Latitude = "13.81411000", Longitude = "102.07222000" },
+                        new() { Id = 6, Name = "Ta Phraya", Latitude = "14.00527000", Longitude = "102.80508000" },
+                        new() { Id = 7, Name = "Wang Nam Yen", Latitude = "13.50325000", Longitude = "102.18115000" },
+                        new() { Id = 8, Name = "Wang Sombun", Latitude = "13.35146000", Longitude = "102.18329200" },
+                        new() { Id = 9, Name = "Watthana Nakhon", Latitude = "13.74280000", Longitude = "102.31839000" }
                     }
                 },
 
@@ -1819,26 +1648,25 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Akat Amnuai", Latitude = "17.63589000", Longitude = "103.97590000" },
+                        new() { Id = 1, Name = "Akat Amnuai", Latitude = "17.58984111", Longitude = "103.98589889" },
                         new() { Id = 2, Name = "Amphoe Sawang Daen Din", Latitude = "17.45590000", Longitude = "103.44950000" },
-                        new() { Id = 3, Name = "Ban Muang", Latitude = "17.89569000", Longitude = "103.52793000" },
-                        new() { Id = 4, Name = "Charoen Sin", Latitude = "17.63327000", Longitude = "103.52218000" },
-                        new() { Id = 5, Name = "Kham Ta Kla", Latitude = "17.82547000", Longitude = "103.78598000" },
+                        new() { Id = 3, Name = "Ban Muang", Latitude = "17.85080000", Longitude = "103.56939000" },
+                        new() { Id = 4, Name = "Charoen Sin", Latitude = "17.58374700", Longitude = "103.54223500" },
+                        new() { Id = 5, Name = "Kham Ta Kla", Latitude = "17.85231000", Longitude = "103.75657000" },
                         new() { Id = 6, Name = "Khok Si Suphan", Latitude = "17.02297000", Longitude = "104.30346000" },
-                        new() { Id = 7, Name = "Kusuman", Latitude = "17.35402000", Longitude = "104.26677000" },
-                        new() { Id = 8, Name = "Kut Bak", Latitude = "17.08205000", Longitude = "103.81469000" },
-                        new() { Id = 9, Name = "Mueang Sakon Nakhon", Latitude = "17.16163000", Longitude = "104.10519000" },
-                        new() { Id = 10, Name = "Nikhom Nam Un", Latitude = "17.17349000", Longitude = "103.73511000" },
-                        new() { Id = 11, Name = "Phang Khon", Latitude = "17.38267000", Longitude = "103.75146000" },
-                        new() { Id = 12, Name = "Phanna Nikhom", Latitude = "17.31369000", Longitude = "103.89791000" },
-                        new() { Id = 13, Name = "Phon Na Kaeo", Latitude = "17.21248000", Longitude = "104.30700000" },
-                        new() { Id = 14, Name = "Phu Phan", Latitude = "16.92862000", Longitude = "103.92400000" },
-                        new() { Id = 15, Name = "Sakon Nakhon", Latitude = "17.16116000", Longitude = "104.14725000" },
-                        new() { Id = 16, Name = "Sawang Daen Din", Latitude = "17.47531000", Longitude = "103.45753000" },
-                        new() { Id = 17, Name = "Song Dao", Latitude = "17.30883000", Longitude = "103.44987000" },
-                        new() { Id = 18, Name = "Tao Ngoi", Latitude = "16.94022000", Longitude = "104.15863000" },
-                        new() { Id = 19, Name = "Wanon Niwat", Latitude = "17.61516000", Longitude = "103.76536000" },
-                        new() { Id = 20, Name = "Waritchaphum", Latitude = "17.25692000", Longitude = "103.62283000" }
+                        new() { Id = 7, Name = "Kusuman", Latitude = "17.32910000", Longitude = "104.34450000" },
+                        new() { Id = 8, Name = "Kut Bak", Latitude = "17.08570500", Longitude = "103.82039600" },
+                        new() { Id = 9, Name = "Nikhom Nam Un", Latitude = "17.17349000", Longitude = "103.73511000" },
+                        new() { Id = 10, Name = "Phang Khon", Latitude = "17.39268800", Longitude = "103.70840200" },
+                        new() { Id = 11, Name = "Phanna Nikhom", Latitude = "17.35245000", Longitude = "103.85032000" },
+                        new() { Id = 12, Name = "Phon Na Kaeo", Latitude = "17.21248000", Longitude = "104.30700000" },
+                        new() { Id = 13, Name = "Phu Phan", Latitude = "16.92862000", Longitude = "103.92400000" },
+                        new() { Id = 14, Name = "Sakon Nakhon", Latitude = "17.16116000", Longitude = "104.14725000" },
+                        new() { Id = 15, Name = "Sawang Daen Din", Latitude = "17.47531000", Longitude = "103.45753000" },
+                        new() { Id = 16, Name = "Song Dao", Latitude = "17.33758600", Longitude = "103.46907100" },
+                        new() { Id = 17, Name = "Tao Ngoi", Latitude = "16.94022000", Longitude = "104.15863000" },
+                        new() { Id = 18, Name = "Wanon Niwat", Latitude = "17.63577778", Longitude = "103.75491667" },
+                        new() { Id = 19, Name = "Waritchaphum", Latitude = "17.29130000", Longitude = "103.64690000" }
                     }
                 },
 
@@ -1854,16 +1682,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Bang Bo", Latitude = "13.58960000", Longitude = "100.86711000" },
-                        new() { Id = 2, Name = "Amphoe Phra Pradaeng", Latitude = "13.65246000", Longitude = "100.55271000" },
-                        new() { Id = 3, Name = "Ban Khlong Bang Sao Thong", Latitude = "13.64172000", Longitude = "100.83272000" },
-                        new() { Id = 4, Name = "Bang Bo District", Latitude = "13.58333000", Longitude = "100.81667000" },
-                        new() { Id = 5, Name = "Bang Phli", Latitude = "13.61972000", Longitude = "100.72582000" },
-                        new() { Id = 6, Name = "Bang Sao Thong", Latitude = "13.63286000", Longitude = "100.81038000" },
-                        new() { Id = 7, Name = "Mueang Samut Prakan", Latitude = "13.56855000", Longitude = "100.65148000" },
-                        new() { Id = 8, Name = "Phra Pradaeng", Latitude = "13.65855000", Longitude = "100.53362000" },
-                        new() { Id = 9, Name = "Phra Samut Chedi", Latitude = "13.55622000", Longitude = "100.51485000" },
-                        new() { Id = 10, Name = "Samut Prakan", Latitude = "13.59934000", Longitude = "100.59675000" }
+                        new() { Id = 1, Name = "Ban Khlong Bang Sao Thong", Latitude = "13.64172000", Longitude = "100.83272000" },
+                        new() { Id = 2, Name = "Bang Bo", Latitude = "13.57443000", Longitude = "100.83585000" },
+                        new() { Id = 3, Name = "Bang Phli", Latitude = "13.60678000", Longitude = "100.71201000" },
+                        new() { Id = 4, Name = "Bang Sao Thong", Latitude = "13.58120000", Longitude = "100.79570000" },
+                        new() { Id = 5, Name = "Phra Pradaeng", Latitude = "13.65855000", Longitude = "100.53362000" },
+                        new() { Id = 6, Name = "Phra Samut Chedi", Latitude = "13.59755556", Longitude = "100.58477778" },
+                        new() { Id = 7, Name = "Samut Prakan", Latitude = "13.59934000", Longitude = "100.59675000" }
                     }
                 },
 
@@ -1879,12 +1704,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Ban Phaeo", Latitude = "13.58747000", Longitude = "100.11789000" },
-                        new() { Id = 2, Name = "Amphoe Krathum Baen", Latitude = "13.65570000", Longitude = "100.27282000" },
-                        new() { Id = 3, Name = "Ban Phaeo", Latitude = "13.59072000", Longitude = "100.10748000" },
-                        new() { Id = 4, Name = "Krathum Baen", Latitude = "13.65330000", Longitude = "100.25972000" },
-                        new() { Id = 5, Name = "Mueang Samut Sakhon", Latitude = "13.53163000", Longitude = "100.25326000" },
-                        new() { Id = 6, Name = "Samut Sakhon", Latitude = "13.54753000", Longitude = "100.27362000" }
+                        new() { Id = 1, Name = "Ban Phaeo", Latitude = "13.59072000", Longitude = "100.10748000" },
+                        new() { Id = 2, Name = "Ban Phaeo", Latitude = "13.58677500", Longitude = "100.10366300" },
+                        new() { Id = 3, Name = "Krathum Baen", Latitude = "13.65330000", Longitude = "100.25972000" },
+                        new() { Id = 4, Name = "Samut Sakhon", Latitude = "13.54753000", Longitude = "100.27362000" }
                     }
                 },
 
@@ -1900,10 +1723,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphawa", Latitude = "13.36721000", Longitude = "99.91232000" },
+                        new() { Id = 1, Name = "Amphawa", Latitude = "13.42480556", Longitude = "99.95588889" },
                         new() { Id = 2, Name = "Bang Khonthi", Latitude = "13.47448000", Longitude = "99.94838000" },
-                        new() { Id = 3, Name = "Mueang Samut Songkhram", Latitude = "13.39587000", Longitude = "99.99929000" },
-                        new() { Id = 4, Name = "Samut Songkhram", Latitude = "13.41456000", Longitude = "100.00264000" }
+                        new() { Id = 3, Name = "Samut Songkhram", Latitude = "13.41456000", Longitude = "100.00264000" }
                     }
                 },
 
@@ -1919,24 +1741,19 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Ban Mo", Latitude = "14.60804000", Longitude = "100.72404000" },
-                        new() { Id = 2, Name = "Amphoe Kaeng Khoi", Latitude = "14.58166000", Longitude = "101.05297000" },
-                        new() { Id = 3, Name = "Amphoe Nong Khae", Latitude = "14.38125000", Longitude = "100.86451000" },
-                        new() { Id = 4, Name = "Amphoe Phra Phutthabat", Latitude = "14.71912000", Longitude = "100.80622000" },
-                        new() { Id = 5, Name = "Ban Mo", Latitude = "14.61544000", Longitude = "100.72731000" },
-                        new() { Id = 6, Name = "Chaloem Phra Kiat", Latitude = "14.65671000", Longitude = "100.90838000" },
-                        new() { Id = 7, Name = "Don Phut", Latitude = "14.60758000", Longitude = "100.61578000" },
-                        new() { Id = 8, Name = "Kaeng Khoi", Latitude = "14.58617000", Longitude = "100.99758000" },
-                        new() { Id = 9, Name = "Muak Lek", Latitude = "14.77706000", Longitude = "101.27151000" },
-                        new() { Id = 10, Name = "Mueang Sara Buri", Latitude = "14.49721000", Longitude = "100.93829000" },
-                        new() { Id = 11, Name = "Nong Don", Latitude = "14.68880000", Longitude = "100.68527000" },
-                        new() { Id = 12, Name = "Nong Khae", Latitude = "14.34062000", Longitude = "100.86733000" },
-                        new() { Id = 13, Name = "Nong Saeng", Latitude = "14.48283000", Longitude = "100.80463000" },
-                        new() { Id = 14, Name = "Phra Phutthabat", Latitude = "14.72526000", Longitude = "100.79536000" },
-                        new() { Id = 15, Name = "Sao Hai", Latitude = "14.57549000", Longitude = "100.84390000" },
-                        new() { Id = 16, Name = "Saraburi", Latitude = "14.53333000", Longitude = "100.91667000" },
-                        new() { Id = 17, Name = "Wang Muang", Latitude = "14.82287000", Longitude = "101.13346000" },
-                        new() { Id = 18, Name = "Wihan Daeng", Latitude = "14.33435000", Longitude = "100.96458000" }
+                        new() { Id = 1, Name = "Ban Mo", Latitude = "14.61544000", Longitude = "100.72731000" },
+                        new() { Id = 2, Name = "Chaloem Phra Kiat", Latitude = "14.65671000", Longitude = "100.90838000" },
+                        new() { Id = 3, Name = "Don Phut", Latitude = "14.58891330", Longitude = "100.63026062" },
+                        new() { Id = 4, Name = "Kaeng Khoi", Latitude = "14.58617000", Longitude = "100.99758000" },
+                        new() { Id = 5, Name = "Muak Lek", Latitude = "14.65293000", Longitude = "101.20037000" },
+                        new() { Id = 6, Name = "Nong Don", Latitude = "14.68082681", Longitude = "100.70816854" },
+                        new() { Id = 7, Name = "Nong Khae", Latitude = "14.34062000", Longitude = "100.86733000" },
+                        new() { Id = 8, Name = "Nong Saeng", Latitude = "14.49116000", Longitude = "100.78492000" },
+                        new() { Id = 9, Name = "Phra Phutthabat", Latitude = "14.72526000", Longitude = "100.79536000" },
+                        new() { Id = 10, Name = "Sao Hai", Latitude = "14.55010000", Longitude = "100.84440000" },
+                        new() { Id = 11, Name = "Saraburi", Latitude = "14.53333000", Longitude = "100.91667000" },
+                        new() { Id = 12, Name = "Wang Muang", Latitude = "14.84177000", Longitude = "101.12541000" },
+                        new() { Id = 13, Name = "Wihan Daeng", Latitude = "14.33435000", Longitude = "100.96458000" }
                     }
                 },
 
@@ -1952,15 +1769,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Khuan Don", Latitude = "6.76978000", Longitude = "100.12216000" },
-                        new() { Id = 2, Name = "Khuan Kalong", Latitude = "6.90593000", Longitude = "100.04178000" },
+                        new() { Id = 1, Name = "Khuan Don", Latitude = "6.78758000", Longitude = "100.07778000" },
+                        new() { Id = 2, Name = "Khuan Kalong", Latitude = "6.84538000", Longitude = "100.07148000" },
                         new() { Id = 3, Name = "Koh Lipe", Latitude = "6.48770430", Longitude = "99.27685140" },
                         new() { Id = 4, Name = "La-Ngu", Latitude = "6.90392000", Longitude = "99.79836000" },
                         new() { Id = 5, Name = "Manang", Latitude = "7.01822000", Longitude = "99.95399000" },
-                        new() { Id = 6, Name = "Mueang Satun", Latitude = "6.62314000", Longitude = "100.06681000" },
-                        new() { Id = 7, Name = "Satun", Latitude = "6.62314000", Longitude = "100.06676000" },
-                        new() { Id = 8, Name = "Tha Phae", Latitude = "6.79542000", Longitude = "99.91985000" },
-                        new() { Id = 9, Name = "Thung Wa", Latitude = "7.04915000", Longitude = "99.76587000" }
+                        new() { Id = 6, Name = "Satun", Latitude = "6.62314000", Longitude = "100.06676000" },
+                        new() { Id = 7, Name = "Tha Phae", Latitude = "6.79542000", Longitude = "99.91985000" },
+                        new() { Id = 8, Name = "Thung Wa", Latitude = "7.10920000", Longitude = "99.75590000" }
                     }
                 },
 
@@ -1976,31 +1792,28 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Kantharalak", Latitude = "14.56800000", Longitude = "104.67080000" },
-                        new() { Id = 2, Name = "Amphoe Phrai Bueng", Latitude = "14.77989000", Longitude = "104.36599000" },
-                        new() { Id = 3, Name = "Benchalak", Latitude = "14.78319000", Longitude = "104.71879000" },
-                        new() { Id = 4, Name = "Bueng Bun", Latitude = "15.30288000", Longitude = "104.06166000" },
-                        new() { Id = 5, Name = "Huai Thap Than", Latitude = "15.01808000", Longitude = "104.03875000" },
-                        new() { Id = 6, Name = "Kantharalak", Latitude = "14.64056000", Longitude = "104.64992000" },
-                        new() { Id = 7, Name = "Kanthararom", Latitude = "15.12447000", Longitude = "104.57318000" },
-                        new() { Id = 8, Name = "Khukhan", Latitude = "14.73783000", Longitude = "104.18590000" },
-                        new() { Id = 9, Name = "Khun Han", Latitude = "14.53455000", Longitude = "104.40739000" },
-                        new() { Id = 10, Name = "Mueang Chan", Latitude = "15.18249000", Longitude = "104.02471000" },
-                        new() { Id = 11, Name = "Mueang Sisaket", Latitude = "15.08168000", Longitude = "104.35126000" },
-                        new() { Id = 12, Name = "Nam Kliang", Latitude = "14.91022000", Longitude = "104.52545000" },
-                        new() { Id = 13, Name = "Non Khun", Latitude = "14.90188000", Longitude = "104.69564000" },
-                        new() { Id = 14, Name = "Phayu", Latitude = "14.90639000", Longitude = "104.38293000" },
-                        new() { Id = 15, Name = "Pho Si Suwan", Latitude = "15.23370000", Longitude = "104.06739000" },
-                        new() { Id = 16, Name = "Phrai Bueng", Latitude = "14.74833000", Longitude = "104.36261000" },
-                        new() { Id = 17, Name = "Phu Sing", Latitude = "14.48873000", Longitude = "104.15603000" },
-                        new() { Id = 18, Name = "Prang Ku", Latitude = "14.85443000", Longitude = "104.03740000" },
-                        new() { Id = 19, Name = "Rasi Salai", Latitude = "15.34637000", Longitude = "104.18617000" },
-                        new() { Id = 20, Name = "Si Rattana", Latitude = "14.81062000", Longitude = "104.47634000" },
-                        new() { Id = 21, Name = "Si Sa Ket", Latitude = "15.11481000", Longitude = "104.32938000" },
-                        new() { Id = 22, Name = "Sila Lat", Latitude = "15.48070000", Longitude = "104.09478000" },
-                        new() { Id = 23, Name = "Uthumphon Phisai", Latitude = "15.12305000", Longitude = "104.16002000" },
-                        new() { Id = 24, Name = "Wang Hin", Latitude = "14.96133000", Longitude = "104.21928000" },
-                        new() { Id = 25, Name = "Yang Chum Noi", Latitude = "15.23688000", Longitude = "104.39083000" }
+                        new() { Id = 1, Name = "Benchalak", Latitude = "14.78319000", Longitude = "104.71879000" },
+                        new() { Id = 2, Name = "Bueng Bun", Latitude = "15.33030000", Longitude = "104.04485000" },
+                        new() { Id = 3, Name = "Huai Thap Than", Latitude = "15.05118351", Longitude = "104.03563941" },
+                        new() { Id = 4, Name = "Kantharalak", Latitude = "14.64056000", Longitude = "104.64992000" },
+                        new() { Id = 5, Name = "Kanthararom", Latitude = "15.10323000", Longitude = "104.57343000" },
+                        new() { Id = 6, Name = "Khukhan", Latitude = "14.73783000", Longitude = "104.18590000" },
+                        new() { Id = 7, Name = "Khun Han", Latitude = "14.61739000", Longitude = "104.42506000" },
+                        new() { Id = 8, Name = "Mueang Chan", Latitude = "15.15951000", Longitude = "104.03615000" },
+                        new() { Id = 9, Name = "Nam Kliang", Latitude = "14.91022000", Longitude = "104.52545000" },
+                        new() { Id = 10, Name = "Non Khun", Latitude = "14.90188000", Longitude = "104.69564000" },
+                        new() { Id = 11, Name = "Phayu", Latitude = "14.92815353", Longitude = "104.39950582" },
+                        new() { Id = 12, Name = "Pho Si Suwan", Latitude = "15.23370000", Longitude = "104.06739000" },
+                        new() { Id = 13, Name = "Phrai Bueng", Latitude = "14.74833000", Longitude = "104.36261000" },
+                        new() { Id = 14, Name = "Phu Sing", Latitude = "14.48873000", Longitude = "104.15603000" },
+                        new() { Id = 15, Name = "Prang Ku", Latitude = "14.85373403", Longitude = "104.03535460" },
+                        new() { Id = 16, Name = "Rasi Salai", Latitude = "15.34637000", Longitude = "104.18617000" },
+                        new() { Id = 17, Name = "Si Rattana", Latitude = "14.79854338", Longitude = "104.46491338" },
+                        new() { Id = 18, Name = "Si Sa Ket", Latitude = "15.11481000", Longitude = "104.32938000" },
+                        new() { Id = 19, Name = "Sila Lat", Latitude = "15.48070000", Longitude = "104.09478000" },
+                        new() { Id = 20, Name = "Uthumphon Phisai", Latitude = "15.09698706", Longitude = "104.16428716" },
+                        new() { Id = 21, Name = "Wang Hin", Latitude = "14.94783000", Longitude = "104.23097000" },
+                        new() { Id = 22, Name = "Yang Chum Noi", Latitude = "15.26453000", Longitude = "104.39769000" }
                     }
                 },
 
@@ -2016,15 +1829,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe In Buri", Latitude = "15.02057000", Longitude = "100.34865000" },
-                        new() { Id = 2, Name = "Bang Racham", Latitude = "14.89200000", Longitude = "100.31728000" },
-                        new() { Id = 3, Name = "Bang Rachan", Latitude = "14.89959000", Longitude = "100.27795000" },
-                        new() { Id = 4, Name = "In Buri", Latitude = "15.00787000", Longitude = "100.32691000" },
-                        new() { Id = 5, Name = "Khai Bang Rachan", Latitude = "14.81438000", Longitude = "100.31389000" },
-                        new() { Id = 6, Name = "Mueang Sing Buri", Latitude = "14.90239000", Longitude = "100.39731000" },
-                        new() { Id = 7, Name = "Phrom Buri", Latitude = "14.78333000", Longitude = "100.45000000" },
-                        new() { Id = 8, Name = "Sing Buri", Latitude = "14.88786000", Longitude = "100.40464000" },
-                        new() { Id = 9, Name = "Tha Chang", Latitude = "14.77941000", Longitude = "100.39349000" }
+                        new() { Id = 1, Name = "Bang Rachan", Latitude = "14.88637306", Longitude = "100.32347111" },
+                        new() { Id = 2, Name = "In Buri", Latitude = "15.00787000", Longitude = "100.32691000" },
+                        new() { Id = 3, Name = "Khai Bang Rachan", Latitude = "14.81438000", Longitude = "100.31389000" },
+                        new() { Id = 4, Name = "Phrom Buri", Latitude = "14.79058000", Longitude = "100.45316000" },
+                        new() { Id = 5, Name = "Sing Buri", Latitude = "14.88786000", Longitude = "100.40464000" },
+                        new() { Id = 6, Name = "Tha Chang", Latitude = "14.77941000", Longitude = "100.39349000" }
                     }
                 },
 
@@ -2040,28 +1850,24 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Hat Yai", Latitude = "6.98092000", Longitude = "100.46539000" },
-                        new() { Id = 2, Name = "Amphoe Na Mom", Latitude = "6.95990000", Longitude = "100.57161000" },
-                        new() { Id = 3, Name = "Amphoe Ranot", Latitude = "7.81390000", Longitude = "100.28323000" },
-                        new() { Id = 4, Name = "Amphoe Sadao", Latitude = "6.67135000", Longitude = "100.42409000" },
-                        new() { Id = 5, Name = "Ban Mai", Latitude = "7.20411000", Longitude = "100.54508000" },
-                        new() { Id = 6, Name = "Bang Klam", Latitude = "7.06404000", Longitude = "100.40664000" },
-                        new() { Id = 7, Name = "Chana", Latitude = "6.89584000", Longitude = "100.70126000" },
-                        new() { Id = 8, Name = "Hat Yai", Latitude = "7.00836000", Longitude = "100.47668000" },
-                        new() { Id = 9, Name = "Khlong Hoi Khong", Latitude = "6.86623000", Longitude = "100.35353000" },
-                        new() { Id = 10, Name = "Khuan Niang", Latitude = "7.18231000", Longitude = "100.37403000" },
-                        new() { Id = 11, Name = "Krasae Sin", Latitude = "7.61254000", Longitude = "100.32827000" },
-                        new() { Id = 12, Name = "Mueang Songkhla", Latitude = "7.11075000", Longitude = "100.60814000" },
-                        new() { Id = 13, Name = "Na Mom", Latitude = "6.95856000", Longitude = "100.55683000" },
-                        new() { Id = 14, Name = "Na Thawi", Latitude = "6.63849000", Longitude = "100.68173000" },
-                        new() { Id = 15, Name = "Ranot", Latitude = "7.77768000", Longitude = "100.32134000" },
-                        new() { Id = 16, Name = "Rattaphum", Latitude = "7.07488000", Longitude = "100.19515000" },
-                        new() { Id = 17, Name = "Saba Yoi", Latitude = "6.52971000", Longitude = "100.91232000" },
-                        new() { Id = 18, Name = "Sadao", Latitude = "6.63883000", Longitude = "100.42342000" },
-                        new() { Id = 19, Name = "Sathing Phra", Latitude = "7.47963000", Longitude = "100.42227000" },
-                        new() { Id = 20, Name = "Singhanakhon", Latitude = "7.28453000", Longitude = "100.48809000" },
-                        new() { Id = 21, Name = "Songkhla", Latitude = "7.19882000", Longitude = "100.59510000" },
-                        new() { Id = 22, Name = "Thepha", Latitude = "6.79726000", Longitude = "100.91025000" }
+                        new() { Id = 1, Name = "Amphoe Na Mom", Latitude = "6.95990000", Longitude = "100.57161000" },
+                        new() { Id = 2, Name = "Ban Mai", Latitude = "7.20411000", Longitude = "100.54508000" },
+                        new() { Id = 3, Name = "Bang Klam", Latitude = "7.06404000", Longitude = "100.40664000" },
+                        new() { Id = 4, Name = "Chana", Latitude = "6.89584000", Longitude = "100.70126000" },
+                        new() { Id = 5, Name = "Hat Yai", Latitude = "7.00836000", Longitude = "100.47668000" },
+                        new() { Id = 6, Name = "Khlong Hoi Khong", Latitude = "6.86623000", Longitude = "100.35353000" },
+                        new() { Id = 7, Name = "Khuan Niang", Latitude = "7.19138000", Longitude = "100.35355000" },
+                        new() { Id = 8, Name = "Krasae Sin", Latitude = "7.58520000", Longitude = "100.31980000" },
+                        new() { Id = 9, Name = "Na Mom", Latitude = "6.95856000", Longitude = "100.55683000" },
+                        new() { Id = 10, Name = "Na Thawi", Latitude = "6.74192000", Longitude = "100.69139000" },
+                        new() { Id = 11, Name = "Ranot", Latitude = "7.77768000", Longitude = "100.32134000" },
+                        new() { Id = 12, Name = "Rattaphum", Latitude = "7.07488000", Longitude = "100.19515000" },
+                        new() { Id = 13, Name = "Saba Yoi", Latitude = "6.61750000", Longitude = "100.95189000" },
+                        new() { Id = 14, Name = "Sadao", Latitude = "6.63883000", Longitude = "100.42342000" },
+                        new() { Id = 15, Name = "Sathing Phra", Latitude = "7.47303000", Longitude = "100.43908000" },
+                        new() { Id = 16, Name = "Singhanakhon", Latitude = "7.23888889", Longitude = "100.55055556" },
+                        new() { Id = 17, Name = "Songkhla", Latitude = "7.19882000", Longitude = "100.59510000" },
+                        new() { Id = 18, Name = "Thepha", Latitude = "6.82936000", Longitude = "100.96431000" }
                     }
                 },
 
@@ -2079,19 +1885,17 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Amphoe Ban Dan Lan Hoi", Latitude = "17.05278000", Longitude = "99.49148000" },
                         new() { Id = 2, Name = "Amphoe Khiri Mat", Latitude = "16.82923000", Longitude = "99.73976000" },
-                        new() { Id = 3, Name = "Amphoe Sawankhalok", Latitude = "17.29899000", Longitude = "99.85396000" },
-                        new() { Id = 4, Name = "Amphoe Si Satchanalai", Latitude = "17.59927000", Longitude = "99.70591000" },
-                        new() { Id = 5, Name = "Ban Dan Lan Hoi", Latitude = "17.00683000", Longitude = "99.57497000" },
-                        new() { Id = 6, Name = "Ban Na", Latitude = "17.01717000", Longitude = "99.73283000" },
-                        new() { Id = 7, Name = "Khiri Mat", Latitude = "16.83333000", Longitude = "99.80000000" },
-                        new() { Id = 8, Name = "Kong Krailat", Latitude = "16.93115000", Longitude = "99.97414000" },
-                        new() { Id = 9, Name = "Mueang Sukhothai", Latitude = "17.02318000", Longitude = "99.77864000" },
-                        new() { Id = 10, Name = "Sawankhalok", Latitude = "17.31597000", Longitude = "99.83186000" },
-                        new() { Id = 11, Name = "Si Nakhon", Latitude = "17.39275000", Longitude = "99.97666000" },
-                        new() { Id = 12, Name = "Si Samrong", Latitude = "17.16397000", Longitude = "99.74672000" },
-                        new() { Id = 13, Name = "Si Satchanalai", Latitude = "17.51692000", Longitude = "99.75978000" },
-                        new() { Id = 14, Name = "Sukhothai", Latitude = "17.00778000", Longitude = "99.82300000" },
-                        new() { Id = 15, Name = "Thung Saliam", Latitude = "17.37082000", Longitude = "99.55265000" }
+                        new() { Id = 3, Name = "Amphoe Si Satchanalai", Latitude = "17.59927000", Longitude = "99.70591000" },
+                        new() { Id = 4, Name = "Ban Dan Lan Hoi", Latitude = "17.00683000", Longitude = "99.57497000" },
+                        new() { Id = 5, Name = "Ban Na", Latitude = "17.01717000", Longitude = "99.73283000" },
+                        new() { Id = 6, Name = "Khiri Mat", Latitude = "16.83333000", Longitude = "99.80000000" },
+                        new() { Id = 7, Name = "Kong Krailat", Latitude = "16.95197000", Longitude = "99.97769000" },
+                        new() { Id = 8, Name = "Sawankhalok", Latitude = "17.31597000", Longitude = "99.83186000" },
+                        new() { Id = 9, Name = "Si Nakhon", Latitude = "17.35496780", Longitude = "99.99206805" },
+                        new() { Id = 10, Name = "Si Samrong", Latitude = "17.16400000", Longitude = "99.86222000" },
+                        new() { Id = 11, Name = "Si Satchanalai", Latitude = "17.41549800", Longitude = "99.81517900" },
+                        new() { Id = 12, Name = "Sukhothai", Latitude = "17.00778000", Longitude = "99.82300000" },
+                        new() { Id = 13, Name = "Thung Saliam", Latitude = "17.32404889", Longitude = "99.56713694" }
                     }
                 },
 
@@ -2110,15 +1914,14 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Amphoe Doembang Nangbuat", Latitude = "14.87394000", Longitude = "100.04669000" },
                         new() { Id = 2, Name = "Ban Sam Chuk", Latitude = "14.74219000", Longitude = "100.09531000" },
                         new() { Id = 3, Name = "Bang Pla Ma", Latitude = "14.34985000", Longitude = "100.14479000" },
-                        new() { Id = 4, Name = "Dan Chang", Latitude = "14.88388000", Longitude = "99.51642000" },
+                        new() { Id = 4, Name = "Dan Chang", Latitude = "14.84183000", Longitude = "99.69756000" },
                         new() { Id = 5, Name = "Doembang Nangbuat", Latitude = "14.83333000", Longitude = "100.10000000" },
-                        new() { Id = 6, Name = "Don Chedi", Latitude = "14.64804000", Longitude = "99.94734000" },
-                        new() { Id = 7, Name = "Mueang Suphan Buri", Latitude = "14.49189000", Longitude = "100.07458000" },
-                        new() { Id = 8, Name = "Nong Yasai", Latitude = "14.77644000", Longitude = "99.85751000" },
-                        new() { Id = 9, Name = "Si Prachan", Latitude = "14.63810000", Longitude = "100.15050000" },
-                        new() { Id = 10, Name = "Song Phi Nong", Latitude = "14.18895000", Longitude = "99.97580000" },
-                        new() { Id = 11, Name = "Suphan Buri", Latitude = "14.47418000", Longitude = "100.12218000" },
-                        new() { Id = 12, Name = "U Thong", Latitude = "14.41093000", Longitude = "99.88949000" }
+                        new() { Id = 6, Name = "Don Chedi", Latitude = "14.63497000", Longitude = "100.02097000" },
+                        new() { Id = 7, Name = "Nong Ya Sai", Latitude = "14.77988000", Longitude = "99.91073000" },
+                        new() { Id = 8, Name = "Si Prachan", Latitude = "14.62040000", Longitude = "100.14440000" },
+                        new() { Id = 9, Name = "Song Phi Nong", Latitude = "14.23055556", Longitude = "100.03888889" },
+                        new() { Id = 10, Name = "Suphan Buri", Latitude = "14.47418000", Longitude = "100.12218000" },
+                        new() { Id = 11, Name = "U Thong", Latitude = "14.37610000", Longitude = "99.89220000" }
                     }
                 },
 
@@ -2134,37 +1937,29 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Ban Na San", Latitude = "8.80063000", Longitude = "99.40201000" },
-                        new() { Id = 2, Name = "Amphoe Chai Buri", Latitude = "8.43883000", Longitude = "99.07721000" },
-                        new() { Id = 3, Name = "Amphoe Chaiya", Latitude = "9.49141000", Longitude = "98.99568000" },
-                        new() { Id = 4, Name = "Amphoe Don Sak", Latitude = "9.21063000", Longitude = "99.68887000" },
-                        new() { Id = 5, Name = "Amphoe Kanchanadit", Latitude = "9.07256000", Longitude = "99.54390000" },
-                        new() { Id = 6, Name = "Amphoe Ko Samui", Latitude = "9.50841000", Longitude = "99.99644000" },
-                        new() { Id = 7, Name = "Amphoe Wiang Sa", Latitude = "8.59813000", Longitude = "99.35277000" },
-                        new() { Id = 8, Name = "Ban Na Doem", Latitude = "8.90610000", Longitude = "99.28136000" },
-                        new() { Id = 9, Name = "Ban Na San", Latitude = "8.80036000", Longitude = "99.36372000" },
-                        new() { Id = 10, Name = "Ban Takhun", Latitude = "9.10423000", Longitude = "98.67222000" },
-                        new() { Id = 11, Name = "Chai Buri", Latitude = "8.46222000", Longitude = "99.07631000" },
-                        new() { Id = 12, Name = "Chaiya", Latitude = "9.38625000", Longitude = "99.19861000" },
-                        new() { Id = 13, Name = "Don Sak", Latitude = "9.31676000", Longitude = "99.69184000" },
-                        new() { Id = 14, Name = "Kanchanadit", Latitude = "9.16611000", Longitude = "99.47014000" },
-                        new() { Id = 15, Name = "Khian Sa", Latitude = "8.72766000", Longitude = "99.13240000" },
-                        new() { Id = 16, Name = "Khiri Rat Nikhom", Latitude = "9.00590000", Longitude = "98.94404000" },
-                        new() { Id = 17, Name = "Ko Pha Ngan", Latitude = "9.75778000", Longitude = "100.02914000" },
-                        new() { Id = 18, Name = "Ko Pha-ngan", Latitude = "9.74939000", Longitude = "100.02649000" },
-                        new() { Id = 19, Name = "Ko Samui", Latitude = "9.53567000", Longitude = "99.93567000" },
-                        new() { Id = 20, Name = "Koh Tao", Latitude = "10.09808000", Longitude = "99.83809000" },
-                        new() { Id = 21, Name = "Mueang Surat Thani", Latitude = "9.10132000", Longitude = "99.32614000" },
-                        new() { Id = 22, Name = "Phanom", Latitude = "8.82254000", Longitude = "98.71709000" },
-                        new() { Id = 23, Name = "Phrasaeng", Latitude = "8.55124000", Longitude = "99.10520000" },
-                        new() { Id = 24, Name = "Phunphin", Latitude = "9.02472000", Longitude = "99.14304000" },
-                        new() { Id = 25, Name = "Surat Thani", Latitude = "9.14011000", Longitude = "99.33311000" },
-                        new() { Id = 26, Name = "Tha Chana", Latitude = "9.61142000", Longitude = "99.03611000" },
-                        new() { Id = 27, Name = "Tha Chang", Latitude = "9.33475000", Longitude = "98.95619000" },
-                        new() { Id = 28, Name = "Tha Kham", Latitude = "9.11072000", Longitude = "99.23208000" },
-                        new() { Id = 29, Name = "Tha Khanon", Latitude = "9.03020000", Longitude = "98.95286000" },
-                        new() { Id = 30, Name = "Wiang Sa", Latitude = "8.63585000", Longitude = "99.36660000" },
-                        new() { Id = 31, Name = "Wiphawadi", Latitude = "9.21972000", Longitude = "98.87028000" }
+                        new() { Id = 1, Name = "Amphoe Chai Buri", Latitude = "8.43883000", Longitude = "99.07721000" },
+                        new() { Id = 2, Name = "Ban Na Doem", Latitude = "8.90610000", Longitude = "99.28136000" },
+                        new() { Id = 3, Name = "Ban Na San", Latitude = "8.80036000", Longitude = "99.36372000" },
+                        new() { Id = 4, Name = "Ban Ta Khun", Latitude = "8.90340000", Longitude = "98.88450000" },
+                        new() { Id = 5, Name = "Chai Buri", Latitude = "8.46222000", Longitude = "99.07631000" },
+                        new() { Id = 6, Name = "Chaiya", Latitude = "9.38625000", Longitude = "99.19861000" },
+                        new() { Id = 7, Name = "Don Sak", Latitude = "9.31676000", Longitude = "99.69184000" },
+                        new() { Id = 8, Name = "Kanchanadit", Latitude = "9.16611000", Longitude = "99.47014000" },
+                        new() { Id = 9, Name = "Khian Sa", Latitude = "8.84630000", Longitude = "99.19710000" },
+                        new() { Id = 10, Name = "Ko Pha Ngan", Latitude = "9.75778000", Longitude = "100.02914000" },
+                        new() { Id = 11, Name = "Ko Pha-ngan", Latitude = "9.74939000", Longitude = "100.02649000" },
+                        new() { Id = 12, Name = "Ko Samui", Latitude = "9.53567000", Longitude = "99.93567000" },
+                        new() { Id = 13, Name = "Koh Tao", Latitude = "10.09808000", Longitude = "99.83809000" },
+                        new() { Id = 14, Name = "Na San", Latitude = "8.79970000", Longitude = "99.36350000" },
+                        new() { Id = 15, Name = "Phanom", Latitude = "8.85840000", Longitude = "98.81220000" },
+                        new() { Id = 16, Name = "Phrasaeng", Latitude = "8.55124000", Longitude = "99.10520000" },
+                        new() { Id = 17, Name = "Surat Thani", Latitude = "9.14011000", Longitude = "99.33311000" },
+                        new() { Id = 18, Name = "Tha Chana", Latitude = "9.57064500", Longitude = "99.16604400" },
+                        new() { Id = 19, Name = "Tha Chang", Latitude = "9.26738900", Longitude = "99.19217700" },
+                        new() { Id = 20, Name = "Tha Kham", Latitude = "9.11072000", Longitude = "99.23208000" },
+                        new() { Id = 21, Name = "Tha Khanon", Latitude = "9.03020000", Longitude = "98.95286000" },
+                        new() { Id = 22, Name = "Wiang Sa", Latitude = "8.63585000", Longitude = "99.36660000" },
+                        new() { Id = 23, Name = "Wiphawadi", Latitude = "9.21972000", Longitude = "98.87028000" }
                     }
                 },
 
@@ -2180,24 +1975,23 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Bua Chet", Latitude = "14.48406000", Longitude = "103.97809000" },
-                        new() { Id = 2, Name = "Chom Phra", Latitude = "15.14356000", Longitude = "103.57881000" },
-                        new() { Id = 3, Name = "Chumphon Buri", Latitude = "15.37942000", Longitude = "103.37095000" },
-                        new() { Id = 4, Name = "Kap Choeng", Latitude = "14.46795000", Longitude = "103.58476000" },
-                        new() { Id = 5, Name = "Khwao Sinarin", Latitude = "15.00733000", Longitude = "103.62064000" },
+                        new() { Id = 1, Name = "Buachet", Latitude = "14.53263761", Longitude = "103.93007715" },
+                        new() { Id = 2, Name = "Chom Phra", Latitude = "15.11814000", Longitude = "103.60743000" },
+                        new() { Id = 3, Name = "Chumphon Buri", Latitude = "15.34862000", Longitude = "103.39217000" },
+                        new() { Id = 4, Name = "Kap Choeng", Latitude = "14.47486000", Longitude = "103.59439000" },
+                        new() { Id = 5, Name = "Khwao Sinrin", Latitude = "15.00244000", Longitude = "103.59154000" },
                         new() { Id = 6, Name = "Lamduan", Latitude = "14.71907000", Longitude = "103.69911000" },
-                        new() { Id = 7, Name = "Mueang Surin", Latitude = "14.88359000", Longitude = "103.51272000" },
-                        new() { Id = 8, Name = "Non Narai", Latitude = "15.19111000", Longitude = "103.92242000" },
-                        new() { Id = 9, Name = "Phanom Dong Rak", Latitude = "14.42745000", Longitude = "103.31007000" },
-                        new() { Id = 10, Name = "Prasat", Latitude = "14.62602000", Longitude = "103.41569000" },
-                        new() { Id = 11, Name = "Rattanaburi", Latitude = "15.33780000", Longitude = "103.90541000" },
-                        new() { Id = 12, Name = "Samrong Thap", Latitude = "15.03980000", Longitude = "103.94089000" },
-                        new() { Id = 13, Name = "Sangkha", Latitude = "14.57051000", Longitude = "103.83911000" },
-                        new() { Id = 14, Name = "Sanom", Latitude = "15.17099000", Longitude = "103.78475000" },
-                        new() { Id = 15, Name = "Si Khoraphum", Latitude = "14.94753000", Longitude = "103.78310000" },
-                        new() { Id = 16, Name = "Si Narong", Latitude = "14.78085000", Longitude = "103.88651000" },
-                        new() { Id = 17, Name = "Surin", Latitude = "14.88181000", Longitude = "103.49364000" },
-                        new() { Id = 18, Name = "Tha Tum", Latitude = "15.30940000", Longitude = "103.65111000" }
+                        new() { Id = 7, Name = "Non Narai", Latitude = "15.19111000", Longitude = "103.92242000" },
+                        new() { Id = 8, Name = "Phanom Dong Rak", Latitude = "14.42745000", Longitude = "103.31007000" },
+                        new() { Id = 9, Name = "Prasat", Latitude = "14.62602000", Longitude = "103.41569000" },
+                        new() { Id = 10, Name = "Rattanaburi", Latitude = "15.31788000", Longitude = "103.84859000" },
+                        new() { Id = 11, Name = "Samrong Thap", Latitude = "15.02258000", Longitude = "103.93631000" },
+                        new() { Id = 12, Name = "Sangkha", Latitude = "14.63675800", Longitude = "103.85313900" },
+                        new() { Id = 13, Name = "Sanom", Latitude = "15.19877045", Longitude = "103.75667795" },
+                        new() { Id = 14, Name = "Si Narong", Latitude = "14.78085000", Longitude = "103.88651000" },
+                        new() { Id = 15, Name = "Sikhoraphum", Latitude = "14.94418000", Longitude = "103.79704000" },
+                        new() { Id = 16, Name = "Surin", Latitude = "14.88181000", Longitude = "103.49364000" },
+                        new() { Id = 17, Name = "Tha Tum", Latitude = "15.31950000", Longitude = "103.67542000" }
                     }
                 },
 
@@ -2213,18 +2007,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Ban Tak", Latitude = "17.09163000", Longitude = "99.06648000" },
-                        new() { Id = 2, Name = "Amphoe Mae Ramat", Latitude = "17.11180000", Longitude = "98.58635000" },
-                        new() { Id = 3, Name = "Amphoe Mae Sot", Latitude = "16.72154000", Longitude = "98.71074000" },
-                        new() { Id = 4, Name = "Ban Tak", Latitude = "17.04325000", Longitude = "99.08128000" },
-                        new() { Id = 5, Name = "Mae Ramat", Latitude = "16.98403000", Longitude = "98.51665000" },
-                        new() { Id = 6, Name = "Mae Sot", Latitude = "16.71667000", Longitude = "98.56667000" },
-                        new() { Id = 7, Name = "Mueang Tak", Latitude = "16.87650000", Longitude = "99.16617000" },
-                        new() { Id = 8, Name = "Phop Phra", Latitude = "16.47215000", Longitude = "98.83501000" },
-                        new() { Id = 9, Name = "Tak", Latitude = "16.86968000", Longitude = "99.12898000" },
-                        new() { Id = 10, Name = "Tha Song Yang", Latitude = "17.47481000", Longitude = "98.12079000" },
-                        new() { Id = 11, Name = "Umphang", Latitude = "15.79496000", Longitude = "98.87787000" },
-                        new() { Id = 12, Name = "Wang Chao", Latitude = "16.63311000", Longitude = "99.14826000" }
+                        new() { Id = 1, Name = "Ban Tak", Latitude = "17.04325000", Longitude = "99.08128000" },
+                        new() { Id = 2, Name = "Ban Tak", Latitude = "17.05000000", Longitude = "99.07420000" },
+                        new() { Id = 3, Name = "Mae Ramat", Latitude = "16.98403000", Longitude = "98.51665000" },
+                        new() { Id = 4, Name = "Mae Sot", Latitude = "16.71667000", Longitude = "98.56667000" },
+                        new() { Id = 5, Name = "Mae Tan", Latitude = "17.22708000", Longitude = "98.22572000" },
+                        new() { Id = 6, Name = "Phop Phra", Latitude = "16.38650000", Longitude = "98.69240000" },
+                        new() { Id = 7, Name = "Tak", Latitude = "16.86968000", Longitude = "99.12898000" },
+                        new() { Id = 8, Name = "Umphang", Latitude = "16.01800000", Longitude = "98.86520000" },
+                        new() { Id = 9, Name = "Wang Chao", Latitude = "16.68600000", Longitude = "99.25440000" }
                     }
                 },
 
@@ -2240,19 +2031,16 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Huai Yot", Latitude = "7.80063000", Longitude = "99.60500000" },
-                        new() { Id = 2, Name = "Amphoe Kantang", Latitude = "7.38563000", Longitude = "99.47064000" },
-                        new() { Id = 3, Name = "Hat Samran", Latitude = "7.25733000", Longitude = "99.58160000" },
-                        new() { Id = 4, Name = "Huai Yot", Latitude = "7.78937000", Longitude = "99.63469000" },
-                        new() { Id = 5, Name = "Kantang", Latitude = "7.40542000", Longitude = "99.51561000" },
-                        new() { Id = 6, Name = "Mueang Trang", Latitude = "7.60944000", Longitude = "99.61772000" },
-                        new() { Id = 7, Name = "Na Yong", Latitude = "7.56257000", Longitude = "99.74791000" },
-                        new() { Id = 8, Name = "Palian", Latitude = "7.23340000", Longitude = "99.79491000" },
-                        new() { Id = 9, Name = "Ratsada", Latitude = "7.93779000", Longitude = "99.66771000" },
-                        new() { Id = 10, Name = "Sikao", Latitude = "7.57122000", Longitude = "99.33915000" },
-                        new() { Id = 11, Name = "Trang", Latitude = "7.55633000", Longitude = "99.61141000" },
-                        new() { Id = 12, Name = "Wang Wiset", Latitude = "7.76061000", Longitude = "99.40861000" },
-                        new() { Id = 13, Name = "Yan Ta Khao", Latitude = "7.42580000", Longitude = "99.73438000" }
+                        new() { Id = 1, Name = "Hat Samran", Latitude = "7.24034000", Longitude = "99.57621000" },
+                        new() { Id = 2, Name = "Huai Yot", Latitude = "7.78937000", Longitude = "99.63469000" },
+                        new() { Id = 3, Name = "Kantang", Latitude = "7.40542000", Longitude = "99.51561000" },
+                        new() { Id = 4, Name = "Na Yong", Latitude = "7.56257000", Longitude = "99.74791000" },
+                        new() { Id = 5, Name = "Palian", Latitude = "7.23340000", Longitude = "99.79491000" },
+                        new() { Id = 6, Name = "Ratsada", Latitude = "7.93779000", Longitude = "99.66771000" },
+                        new() { Id = 7, Name = "Sikao", Latitude = "7.57158000", Longitude = "99.34494000" },
+                        new() { Id = 8, Name = "Trang", Latitude = "7.55633000", Longitude = "99.61141000" },
+                        new() { Id = 9, Name = "Wang Wiset", Latitude = "7.73631000", Longitude = "99.39870000" },
+                        new() { Id = 10, Name = "Yan Ta Khao", Latitude = "7.38622000", Longitude = "99.66692000" }
                     }
                 },
 
@@ -2269,16 +2057,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Amphoe Bo Rai", Latitude = "12.55816000", Longitude = "102.56566000" },
-                        new() { Id = 2, Name = "Amphoe Khlong Yai", Latitude = "11.85540000", Longitude = "102.82596000" },
-                        new() { Id = 3, Name = "Bo Rai", Latitude = "12.57283000", Longitude = "102.53714000" },
-                        new() { Id = 4, Name = "Khao Saming", Latitude = "12.42885000", Longitude = "102.41784000" },
-                        new() { Id = 5, Name = "Khlong Yai", Latitude = "11.77645000", Longitude = "102.88567000" },
-                        new() { Id = 6, Name = "Ko Chang", Latitude = "12.05947000", Longitude = "102.32941000" },
-                        new() { Id = 7, Name = "Ko Chang Tai", Latitude = "12.00171000", Longitude = "102.37267000" },
-                        new() { Id = 8, Name = "Ko Kut", Latitude = "11.65714000", Longitude = "102.56694000" },
-                        new() { Id = 9, Name = "Laem Ngop", Latitude = "12.22028000", Longitude = "102.36558000" },
-                        new() { Id = 10, Name = "Mueang Trat", Latitude = "12.26667000", Longitude = "102.60945000" },
-                        new() { Id = 11, Name = "Trat", Latitude = "12.24364000", Longitude = "102.51514000" }
+                        new() { Id = 2, Name = "Bo Rai", Latitude = "12.57283000", Longitude = "102.53714000" },
+                        new() { Id = 3, Name = "Khao Saming", Latitude = "12.35410000", Longitude = "102.43530000" },
+                        new() { Id = 4, Name = "Khlong Yai", Latitude = "11.77645000", Longitude = "102.88567000" },
+                        new() { Id = 5, Name = "Ko Chang", Latitude = "12.10330000", Longitude = "102.35220000" },
+                        new() { Id = 6, Name = "Ko Chang Tai", Latitude = "12.00171000", Longitude = "102.37267000" },
+                        new() { Id = 7, Name = "Ko Kut", Latitude = "11.65714000", Longitude = "102.56694000" },
+                        new() { Id = 8, Name = "Laem Ngop", Latitude = "12.17430000", Longitude = "102.39520000" },
+                        new() { Id = 9, Name = "Trat", Latitude = "12.24364000", Longitude = "102.51514000" }
                     }
                 },
 
@@ -2294,36 +2080,32 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Det Udom", Latitude = "14.85153000", Longitude = "105.07511000" },
-                        new() { Id = 2, Name = "Amphoe Phibun Mangsahan", Latitude = "15.14589000", Longitude = "105.24094000" },
-                        new() { Id = 3, Name = "Amphoe Sawang Wirawong", Latitude = "15.23439000", Longitude = "105.07600000" },
-                        new() { Id = 4, Name = "Amphoe Warin Chamrap", Latitude = "15.12394000", Longitude = "104.87499000" },
-                        new() { Id = 5, Name = "Buntharik", Latitude = "14.70495000", Longitude = "105.40444000" },
-                        new() { Id = 6, Name = "Det Udom", Latitude = "14.90598000", Longitude = "105.07836000" },
-                        new() { Id = 7, Name = "Don Mot Daeng", Latitude = "15.37694000", Longitude = "105.02107000" },
-                        new() { Id = 8, Name = "Khemmarat", Latitude = "15.97114000", Longitude = "105.15168000" },
-                        new() { Id = 9, Name = "Khong Chiam", Latitude = "15.45432000", Longitude = "105.50363000" },
-                        new() { Id = 10, Name = "Khueang Nai", Latitude = "15.39097000", Longitude = "104.54363000" },
-                        new() { Id = 11, Name = "Kut Khaopun", Latitude = "15.81907000", Longitude = "105.04066000" },
-                        new() { Id = 12, Name = "Lao Suea Kok", Latitude = "15.43952000", Longitude = "104.91662000" },
-                        new() { Id = 13, Name = "Muang Sam Sip", Latitude = "15.52637000", Longitude = "104.71661000" },
-                        new() { Id = 14, Name = "Mueang Ubon Ratchathani", Latitude = "15.29662000", Longitude = "104.83052000" },
-                        new() { Id = 15, Name = "Na Chaluai", Latitude = "14.56695000", Longitude = "105.22367000" },
-                        new() { Id = 16, Name = "Na Tan", Latitude = "15.93485000", Longitude = "105.28454000" },
-                        new() { Id = 17, Name = "Na Yia", Latitude = "15.04140000", Longitude = "105.05729000" },
-                        new() { Id = 18, Name = "Nam Khun", Latitude = "14.55508000", Longitude = "104.89872000" },
-                        new() { Id = 19, Name = "Nam Yuen", Latitude = "14.48671000", Longitude = "105.00269000" },
-                        new() { Id = 20, Name = "Phibun Mangsahan", Latitude = "15.24467000", Longitude = "105.22908000" },
-                        new() { Id = 21, Name = "Pho Sai", Latitude = "15.76739000", Longitude = "105.34339000" },
-                        new() { Id = 22, Name = "Samrong", Latitude = "14.98532000", Longitude = "104.79139000" },
-                        new() { Id = 23, Name = "Sawang Wirawong", Latitude = "15.24158000", Longitude = "105.09220000" },
-                        new() { Id = 24, Name = "Si Mueang Mai", Latitude = "15.56297000", Longitude = "105.34830000" },
-                        new() { Id = 25, Name = "Sirindhorn", Latitude = "15.11249000", Longitude = "105.42837000" },
-                        new() { Id = 26, Name = "Tan Sum", Latitude = "15.39035000", Longitude = "105.16273000" },
-                        new() { Id = 27, Name = "Thung Si Udom", Latitude = "14.73936000", Longitude = "104.91731000" },
-                        new() { Id = 28, Name = "Trakan Phuet Phon", Latitude = "15.61360000", Longitude = "105.06444000" },
-                        new() { Id = 29, Name = "Ubon Ratchathani", Latitude = "15.23844000", Longitude = "104.84866000" },
-                        new() { Id = 30, Name = "Warin Chamrap", Latitude = "15.19319000", Longitude = "104.86280000" }
+                        new() { Id = 1, Name = "Amphoe Sawang Wirawong", Latitude = "15.23439000", Longitude = "105.07600000" },
+                        new() { Id = 2, Name = "Buntharik", Latitude = "14.75639000", Longitude = "105.41147000" },
+                        new() { Id = 3, Name = "Det Udom", Latitude = "14.90598000", Longitude = "105.07836000" },
+                        new() { Id = 4, Name = "Don Mot Daeng", Latitude = "15.37694000", Longitude = "105.02107000" },
+                        new() { Id = 5, Name = "Khemarat", Latitude = "16.04252000", Longitude = "105.21836000" },
+                        new() { Id = 6, Name = "Khong Chiam", Latitude = "15.45432000", Longitude = "105.50363000" },
+                        new() { Id = 7, Name = "Khueang Nai", Latitude = "15.38989000", Longitude = "104.55083000" },
+                        new() { Id = 8, Name = "Kut Khao Pun", Latitude = "15.79267000", Longitude = "104.99814000" },
+                        new() { Id = 9, Name = "Lao Suea Kok", Latitude = "15.41830000", Longitude = "104.92363000" },
+                        new() { Id = 10, Name = "Muang Sam Sip", Latitude = "15.51196389", Longitude = "104.72512806" },
+                        new() { Id = 11, Name = "Na Chaluai", Latitude = "14.53090000", Longitude = "105.24310000" },
+                        new() { Id = 12, Name = "Na Tan", Latitude = "15.89749000", Longitude = "105.29318000" },
+                        new() { Id = 13, Name = "Na Yia", Latitude = "15.06367000", Longitude = "105.05994000" },
+                        new() { Id = 14, Name = "Nam Khun", Latitude = "14.55508000", Longitude = "104.89872000" },
+                        new() { Id = 15, Name = "Nam Yuen", Latitude = "14.48671000", Longitude = "105.00269000" },
+                        new() { Id = 16, Name = "Phibun Mangsahan", Latitude = "15.24467000", Longitude = "105.22908000" },
+                        new() { Id = 17, Name = "Pho Sai", Latitude = "15.82586000", Longitude = "105.26064000" },
+                        new() { Id = 18, Name = "Samrong", Latitude = "15.00781000", Longitude = "104.78419000" },
+                        new() { Id = 19, Name = "Sawang Wirawong", Latitude = "15.24158000", Longitude = "105.09220000" },
+                        new() { Id = 20, Name = "Si Mueang Mai", Latitude = "15.49315000", Longitude = "105.27624000" },
+                        new() { Id = 21, Name = "Sirindhorn", Latitude = "15.11249000", Longitude = "105.42837000" },
+                        new() { Id = 22, Name = "Tan Sum", Latitude = "15.39035000", Longitude = "105.16273000" },
+                        new() { Id = 23, Name = "Thung Si Udom", Latitude = "14.73936000", Longitude = "104.91731000" },
+                        new() { Id = 24, Name = "Trakan Phuet Phon", Latitude = "15.61183000", Longitude = "105.02147000" },
+                        new() { Id = 25, Name = "Ubon Ratchathani", Latitude = "15.23844000", Longitude = "104.84866000" },
+                        new() { Id = 26, Name = "Warin Chamrap", Latitude = "15.19319000", Longitude = "104.86280000" }
                     }
                 },
 
@@ -2339,34 +2121,30 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Ban Dung", Latitude = "17.71134000", Longitude = "103.26729000" },
-                        new() { Id = 2, Name = "Amphoe Kumphawapi", Latitude = "17.09209000", Longitude = "102.99395000" },
-                        new() { Id = 3, Name = "Amphoe Kut Chap", Latitude = "17.44009000", Longitude = "102.54083000" },
-                        new() { Id = 4, Name = "Amphoe Nam Som", Latitude = "17.74338000", Longitude = "102.17328000" },
-                        new() { Id = 5, Name = "Amphoe Nong Wua So", Latitude = "17.18691000", Longitude = "102.58986000" },
-                        new() { Id = 6, Name = "Ban Dung", Latitude = "17.69900000", Longitude = "103.25957000" },
-                        new() { Id = 7, Name = "Ban Nong Wua So", Latitude = "17.26750000", Longitude = "103.22472000" },
-                        new() { Id = 8, Name = "Ban Phan Don", Latitude = "17.14272000", Longitude = "102.97261000" },
-                        new() { Id = 9, Name = "Ban Phue", Latitude = "17.67709000", Longitude = "102.44563000" },
-                        new() { Id = 10, Name = "Chai Wan", Latitude = "17.21581000", Longitude = "103.27832000" },
-                        new() { Id = 11, Name = "Ku Kaeo", Latitude = "17.16286000", Longitude = "103.16754000" },
-                        new() { Id = 12, Name = "Kumphawapi", Latitude = "17.10875000", Longitude = "103.01487000" },
-                        new() { Id = 13, Name = "Kut Chap", Latitude = "17.42570000", Longitude = "102.56692000" },
-                        new() { Id = 14, Name = "Mueang Udon Thani", Latitude = "17.39085000", Longitude = "102.78912000" },
-                        new() { Id = 15, Name = "Na Yung", Latitude = "17.93470000", Longitude = "102.13417000" },
-                        new() { Id = 16, Name = "Nam Som", Latitude = "17.77036000", Longitude = "102.18947000" },
-                        new() { Id = 17, Name = "Non Sa-at", Latitude = "16.95002000", Longitude = "102.89990000" },
-                        new() { Id = 18, Name = "Nong Han", Latitude = "17.36853000", Longitude = "103.11510000" },
-                        new() { Id = 19, Name = "Nong Saeng", Latitude = "17.14166000", Longitude = "102.78592000" },
-                        new() { Id = 20, Name = "Nong Wua So", Latitude = "17.16261000", Longitude = "102.57272000" },
-                        new() { Id = 21, Name = "Phen", Latitude = "17.66033000", Longitude = "102.93052000" },
-                        new() { Id = 22, Name = "Phibun Rak", Latitude = "17.52630000", Longitude = "103.07497000" },
-                        new() { Id = 23, Name = "Prachak Sinlapakhom", Latitude = "17.24648000", Longitude = "102.98713000" },
-                        new() { Id = 24, Name = "Sang Khom", Latitude = "17.79433000", Longitude = "103.05114000" },
-                        new() { Id = 25, Name = "Si That", Latitude = "17.03388000", Longitude = "103.23084000" },
-                        new() { Id = 26, Name = "Thung Fon", Latitude = "17.49061000", Longitude = "103.22088000" },
-                        new() { Id = 27, Name = "Udon Thani", Latitude = "17.41567000", Longitude = "102.78589000" },
-                        new() { Id = 28, Name = "Wang Sam Mo", Latitude = "17.04595000", Longitude = "103.46262000" }
+                        new() { Id = 1, Name = "Amphoe Nong Wua So", Latitude = "17.18691000", Longitude = "102.58986000" },
+                        new() { Id = 2, Name = "Ban Dung", Latitude = "17.69900000", Longitude = "103.25957000" },
+                        new() { Id = 3, Name = "Ban Dung", Latitude = "17.70400000", Longitude = "103.26230000" },
+                        new() { Id = 4, Name = "Ban Nong Wua So", Latitude = "17.26750000", Longitude = "103.22472000" },
+                        new() { Id = 5, Name = "Ban Phan Don", Latitude = "17.14272000", Longitude = "102.97261000" },
+                        new() { Id = 6, Name = "Ban Phue", Latitude = "17.68740000", Longitude = "102.47560000" },
+                        new() { Id = 7, Name = "Chai Wan", Latitude = "17.28500000", Longitude = "103.22810000" },
+                        new() { Id = 8, Name = "Ku Kaeo", Latitude = "17.18200000", Longitude = "103.16120000" },
+                        new() { Id = 9, Name = "Kumphawapi", Latitude = "17.10875000", Longitude = "103.01487000" },
+                        new() { Id = 10, Name = "Kut Chap", Latitude = "17.42570000", Longitude = "102.56692000" },
+                        new() { Id = 11, Name = "Na Yung", Latitude = "17.93470000", Longitude = "102.13417000" },
+                        new() { Id = 12, Name = "Nam Som", Latitude = "17.77036000", Longitude = "102.18947000" },
+                        new() { Id = 13, Name = "Non Sa-at", Latitude = "16.96933300", Longitude = "102.89639500" },
+                        new() { Id = 14, Name = "Nong Han", Latitude = "17.36083000", Longitude = "103.10533000" },
+                        new() { Id = 15, Name = "Nong Saeng", Latitude = "17.14166000", Longitude = "102.78592000" },
+                        new() { Id = 16, Name = "Nong Wua So", Latitude = "17.27022224", Longitude = "102.59850885" },
+                        new() { Id = 17, Name = "Phen", Latitude = "17.69614000", Longitude = "102.90689000" },
+                        new() { Id = 18, Name = "Phibun Rak", Latitude = "17.52630000", Longitude = "103.07497000" },
+                        new() { Id = 19, Name = "Prachak Sinlapakhom", Latitude = "17.24648000", Longitude = "102.98713000" },
+                        new() { Id = 20, Name = "Sang Khom", Latitude = "17.82649000", Longitude = "103.09262000" },
+                        new() { Id = 21, Name = "Si That", Latitude = "16.97361000", Longitude = "103.21644000" },
+                        new() { Id = 22, Name = "Thung Fon", Latitude = "17.47219444", Longitude = "103.26261111" },
+                        new() { Id = 23, Name = "Udon Thani", Latitude = "17.41567000", Longitude = "102.78589000" },
+                        new() { Id = 24, Name = "Wang Sam Mo", Latitude = "16.95294000", Longitude = "103.43650000" }
                     }
                 },
 
@@ -2383,17 +2161,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Amphoe Huai Khot", Latitude = "15.32761000", Longitude = "99.51941000" },
-                        new() { Id = 2, Name = "Amphoe Lan Sak", Latitude = "15.52289000", Longitude = "99.46110000" },
-                        new() { Id = 3, Name = "Amphoe Thap Than", Latitude = "15.49057000", Longitude = "99.82224000" },
-                        new() { Id = 4, Name = "Ban Rai", Latitude = "15.24921000", Longitude = "99.32817000" },
-                        new() { Id = 5, Name = "Huai Khot", Latitude = "15.29095000", Longitude = "99.61661000" },
-                        new() { Id = 6, Name = "Lan Sak", Latitude = "15.45289000", Longitude = "99.57606000" },
-                        new() { Id = 7, Name = "Mueang Uthai Thani", Latitude = "15.40857000", Longitude = "100.02794000" },
-                        new() { Id = 8, Name = "Nong Chang", Latitude = "15.36755000", Longitude = "99.77273000" },
-                        new() { Id = 9, Name = "Nong Khayang", Latitude = "15.34892000", Longitude = "99.94706000" },
-                        new() { Id = 10, Name = "Sawang Arom", Latitude = "15.60250000", Longitude = "99.78490000" },
-                        new() { Id = 11, Name = "Thap Than", Latitude = "15.46063000", Longitude = "99.89166000" },
-                        new() { Id = 12, Name = "Uthai Thani", Latitude = "15.37939000", Longitude = "100.02450000" }
+                        new() { Id = 2, Name = "Ban Rai", Latitude = "15.08417000", Longitude = "99.52108000" },
+                        new() { Id = 3, Name = "Huai Khot", Latitude = "15.29095000", Longitude = "99.61661000" },
+                        new() { Id = 4, Name = "Lan Sak", Latitude = "15.45289000", Longitude = "99.57606000" },
+                        new() { Id = 5, Name = "Nong Chang", Latitude = "15.39147000", Longitude = "99.84147000" },
+                        new() { Id = 6, Name = "Nong Kha Yang", Latitude = "15.36150000", Longitude = "99.93790000" },
+                        new() { Id = 7, Name = "Sawang Arom", Latitude = "15.58394000", Longitude = "99.86089000" },
+                        new() { Id = 8, Name = "Thap Than", Latitude = "15.46063000", Longitude = "99.89166000" },
+                        new() { Id = 9, Name = "Uthai Thani", Latitude = "15.37939000", Longitude = "100.02450000" }
                     }
                 },
 
@@ -2409,16 +2184,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Ban Khok", Latitude = "18.14680000", Longitude = "101.06610000" },
-                        new() { Id = 2, Name = "Fak Tha", Latitude = "18.00078000", Longitude = "100.88885000" },
-                        new() { Id = 3, Name = "Lap Lae", Latitude = "17.65741000", Longitude = "100.01484000" },
-                        new() { Id = 4, Name = "Mueang Uttaradit", Latitude = "17.68138000", Longitude = "100.19963000" },
-                        new() { Id = 5, Name = "Nam Pat", Latitude = "17.70025000", Longitude = "100.72738000" },
-                        new() { Id = 6, Name = "Phichai", Latitude = "17.30188000", Longitude = "100.11281000" },
-                        new() { Id = 7, Name = "Tha Pla", Latitude = "17.85868000", Longitude = "100.47061000" },
-                        new() { Id = 8, Name = "Thong Saen Khan", Latitude = "17.49930000", Longitude = "100.39658000" },
-                        new() { Id = 9, Name = "Tron", Latitude = "17.47231000", Longitude = "100.13467000" },
-                        new() { Id = 10, Name = "Uttaradit", Latitude = "17.62557000", Longitude = "100.09421000" }
+                        new() { Id = 1, Name = "Ban Khok", Latitude = "18.02614000", Longitude = "101.06772000" },
+                        new() { Id = 2, Name = "Fak Tha", Latitude = "17.99380000", Longitude = "100.87710000" },
+                        new() { Id = 3, Name = "Nam Pat", Latitude = "17.72806000", Longitude = "100.68433000" },
+                        new() { Id = 4, Name = "Phichai", Latitude = "17.30188000", Longitude = "100.11281000" },
+                        new() { Id = 5, Name = "Si Phanom Mat", Latitude = "17.65460000", Longitude = "100.03630000" },
+                        new() { Id = 6, Name = "Tha Pla", Latitude = "17.79112000", Longitude = "100.37611000" },
+                        new() { Id = 7, Name = "Thong Saen Khan", Latitude = "17.46770000", Longitude = "100.33240000" },
+                        new() { Id = 8, Name = "Tron", Latitude = "17.47231000", Longitude = "100.13467000" },
+                        new() { Id = 9, Name = "Uttaradit", Latitude = "17.62557000", Longitude = "100.09421000" }
                     }
                 },
 
@@ -2434,16 +2208,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Amphoe Betong", Latitude = "5.86362000", Longitude = "101.22737000" },
-                        new() { Id = 2, Name = "Bannang Sata", Latitude = "6.25643000", Longitude = "101.27852000" },
-                        new() { Id = 3, Name = "Betong", Latitude = "5.77434000", Longitude = "101.07231000" },
-                        new() { Id = 4, Name = "Kabang", Latitude = "6.37923000", Longitude = "100.98348000" },
-                        new() { Id = 5, Name = "Krong Pinang", Latitude = "6.39932000", Longitude = "101.25710000" },
-                        new() { Id = 6, Name = "Mueang Yala", Latitude = "6.54378000", Longitude = "101.25105000" },
-                        new() { Id = 7, Name = "Raman", Latitude = "6.48985000", Longitude = "101.43442000" },
-                        new() { Id = 8, Name = "Than To", Latitude = "6.08042000", Longitude = "101.25941000" },
-                        new() { Id = 9, Name = "Yaha", Latitude = "6.40529000", Longitude = "101.12679000" },
-                        new() { Id = 10, Name = "Yala", Latitude = "6.53995000", Longitude = "101.28128000" }
+                        new() { Id = 1, Name = "Bannang Sata", Latitude = "6.26604882", Longitude = "101.26624625" },
+                        new() { Id = 2, Name = "Betong", Latitude = "5.77434000", Longitude = "101.07231000" },
+                        new() { Id = 3, Name = "Kabang", Latitude = "6.37923000", Longitude = "100.98348000" },
+                        new() { Id = 4, Name = "Krong Pinang", Latitude = "6.39932000", Longitude = "101.25710000" },
+                        new() { Id = 5, Name = "Mueang Raman", Latitude = "6.47748215", Longitude = "101.42550269" },
+                        new() { Id = 6, Name = "Than To", Latitude = "6.08042000", Longitude = "101.25941000" },
+                        new() { Id = 7, Name = "Yaha", Latitude = "6.48369444", Longitude = "101.13336111" },
+                        new() { Id = 8, Name = "Yala", Latitude = "6.53995000", Longitude = "101.28128000" }
                     }
                 },
 
@@ -2459,16 +2231,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Kham Khuan Kaeo", Latitude = "15.67197000", Longitude = "104.33372000" },
-                        new() { Id = 2, Name = "Kho Wang", Latitude = "15.38164000", Longitude = "104.34109000" },
+                        new() { Id = 1, Name = "Kham Khuean Kaeo", Latitude = "15.65317527", Longitude = "104.30828595" },
+                        new() { Id = 2, Name = "Kho Wang", Latitude = "15.36500000", Longitude = "104.35630000" },
                         new() { Id = 3, Name = "Kut Chum", Latitude = "16.04620000", Longitude = "104.30545000" },
-                        new() { Id = 4, Name = "Loeng Nok Tha", Latitude = "16.20433000", Longitude = "104.51442000" },
-                        new() { Id = 5, Name = "Maha Chana Chai", Latitude = "15.51267000", Longitude = "104.26104000" },
-                        new() { Id = 6, Name = "Mueang Yasothon", Latitude = "15.85550000", Longitude = "104.17804000" },
-                        new() { Id = 7, Name = "Pa Tio", Latitude = "15.84415000", Longitude = "104.39994000" },
-                        new() { Id = 8, Name = "Sai Mun", Latitude = "15.97917000", Longitude = "104.19070000" },
-                        new() { Id = 9, Name = "Thai Charoen", Latitude = "16.07936000", Longitude = "104.42778000" },
-                        new() { Id = 10, Name = "Yasothon", Latitude = "15.79408000", Longitude = "104.14510000" }
+                        new() { Id = 4, Name = "Maha Chana Chai", Latitude = "15.51267000", Longitude = "104.26104000" },
+                        new() { Id = 5, Name = "Pa Tio", Latitude = "15.84415000", Longitude = "104.39994000" },
+                        new() { Id = 6, Name = "Sai Mun", Latitude = "15.94770000", Longitude = "104.21010000" },
+                        new() { Id = 7, Name = "Sam Yaek", Latitude = "16.19910000", Longitude = "104.53070000" },
+                        new() { Id = 8, Name = "Thai Charoen", Latitude = "16.07936000", Longitude = "104.42778000" },
+                        new() { Id = 9, Name = "Yasothon", Latitude = "15.79408000", Longitude = "104.14510000" }
                     }
                 }
             }

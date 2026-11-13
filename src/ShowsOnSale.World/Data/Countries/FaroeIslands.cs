@@ -134,7 +134,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kvívík", Latitude = "62.14560000", Longitude = "-7.20980000" },
                         new() { Id = 2, Name = "Sunda", Latitude = "62.13450000", Longitude = "-7.09870000" },
-                        new() { Id = 3, Name = "Tórshavn", Latitude = "62.00000000", Longitude = "-7.00000000" },
+                        new() { Id = 3, Name = "Tórshavn", Latitude = "62.00973000", Longitude = "-6.77164000" },
                         new() { Id = 4, Name = "Vestmanna", Latitude = "62.15670000", Longitude = "-7.23450000" }
                     }
                 },

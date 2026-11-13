@@ -60,6 +60,23 @@ namespace ShowsOnSale.World.Data.Countries
             },
             States = new()
             {
+
+                new()
+                {
+                    Id = 1,
+                    Name = "Saint-Pierre and Miquelon",
+                    StateCode = "01",
+                    Iso3166_2 = "FR-PM",
+                    TimeZoneId = "America/Miquelon",
+                    Latitude = "46.83333333",
+                    Longitude = "-56.33333333",
+                    Type = "overseas collectivity",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Miquelon-Langlade", Latitude = "47.09722222", Longitude = "-56.38138889" },
+                        new() { Id = 2, Name = "Saint-Pierre", Latitude = "46.77833333", Longitude = "-56.17750000" }
+                    }
+                }
             }
         };
     }

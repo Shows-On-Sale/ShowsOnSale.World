@@ -28,8 +28,8 @@ namespace ShowsOnSale.World.Data.Countries
             Subregion = "Northern America",
             SubregionId = 6,
             Nationality = "American",
-            Latitude = "0.00000000",
-            Longitude = "0.00000000",
+            Latitude = "19.30000000",
+            Longitude = "166.63333300",
             Emoji = "🇺🇲",
             EmojiU = "U+1F1FA U+1F1F2",
             Timezones = new()

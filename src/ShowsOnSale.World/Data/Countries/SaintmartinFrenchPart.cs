@@ -60,6 +60,22 @@ namespace ShowsOnSale.World.Data.Countries
             },
             States = new()
             {
+
+                new()
+                {
+                    Id = 1,
+                    Name = "Saint-Martin",
+                    StateCode = "01",
+                    Iso3166_2 = "FR-MF",
+                    TimeZoneId = "America/Marigot",
+                    Latitude = "18.07310000",
+                    Longitude = "-63.08220000",
+                    Type = "overseas collectivity",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Marigot", Latitude = "18.07310000", Longitude = "-63.08220000" }
+                    }
+                }
             }
         };
     }

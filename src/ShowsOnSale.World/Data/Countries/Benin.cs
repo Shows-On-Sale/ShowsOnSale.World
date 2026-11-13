@@ -91,9 +91,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "department",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Guilmaro", Latitude = "10.56583000", Longitude = "1.72444000" },
-                        new() { Id = 2, Name = "Natitingou", Latitude = "10.30416000", Longitude = "1.37962000" },
-                        new() { Id = 3, Name = "Tanguieta", Latitude = "11.03621000", Longitude = "1.41757000" }
+                        new() { Id = 1, Name = "Boukoumbé", Latitude = "10.17711000", Longitude = "1.10621000" },
+                        new() { Id = 2, Name = "Guilmaro", Latitude = "10.56583000", Longitude = "1.72444000" },
+                        new() { Id = 3, Name = "Natitingou", Latitude = "10.30416000", Longitude = "1.37962000" },
+                        new() { Id = 4, Name = "Péhonko", Latitude = "10.22746000", Longitude = "2.00192000" },
+                        new() { Id = 5, Name = "Tanguieta", Latitude = "11.03621000", Longitude = "1.41757000" }
                     }
                 },
 
@@ -111,9 +113,10 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Abomey-Calavi", Latitude = "6.44852000", Longitude = "2.35566000" },
                         new() { Id = 2, Name = "Allada", Latitude = "6.66547000", Longitude = "2.15138000" },
-                        new() { Id = 3, Name = "Hévié", Latitude = "6.41667000", Longitude = "2.25000000" },
-                        new() { Id = 4, Name = "Hinvi", Latitude = "6.76667000", Longitude = "2.16667000" },
-                        new() { Id = 5, Name = "Ouidah", Latitude = "6.36307000", Longitude = "2.08506000" }
+                        new() { Id = 3, Name = "Ganvié", Latitude = "6.46441000", Longitude = "2.39288000" },
+                        new() { Id = 4, Name = "Hévié", Latitude = "6.41667000", Longitude = "2.25000000" },
+                        new() { Id = 5, Name = "Hinvi", Latitude = "6.76667000", Longitude = "2.16667000" },
+                        new() { Id = 6, Name = "Ouidah", Latitude = "6.36307000", Longitude = "2.08506000" }
                     }
                 },
 

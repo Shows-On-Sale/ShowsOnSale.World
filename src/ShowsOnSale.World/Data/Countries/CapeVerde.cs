@@ -363,7 +363,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Calheta", Latitude = "15.18613000", Longitude = "-23.59228000" }
+                        new() { Id = 1, Name = "Calheta de São Miguel", Latitude = "15.18613000", Longitude = "-23.59228000" }
                     }
                 },
 

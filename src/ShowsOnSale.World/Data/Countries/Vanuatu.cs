@@ -90,6 +90,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Saratamata", Latitude = "-15.28625000", Longitude = "167.99125000" }
                     }
                 },
 

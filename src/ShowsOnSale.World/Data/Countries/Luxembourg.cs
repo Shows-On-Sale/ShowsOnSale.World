@@ -87,9 +87,10 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "Koerich", Latitude = "49.67000000", Longitude = "5.95000000" },
                         new() { Id = 13, Name = "Kopstal", Latitude = "49.66444000", Longitude = "6.07306000" },
                         new() { Id = 14, Name = "Mamer", Latitude = "49.62750000", Longitude = "6.02333000" },
-                        new() { Id = 15, Name = "Schouweiler", Latitude = "49.58250000", Longitude = "5.95639000" },
-                        new() { Id = 16, Name = "Septfontaines", Latitude = "49.70111000", Longitude = "5.96722000" },
-                        new() { Id = 17, Name = "Steinfort", Latitude = "49.66139000", Longitude = "5.91917000" }
+                        new() { Id = 15, Name = "Olm", Latitude = "49.65722000", Longitude = "6.00028000" },
+                        new() { Id = 16, Name = "Schouweiler", Latitude = "49.58250000", Longitude = "5.95639000" },
+                        new() { Id = 17, Name = "Septfontaines", Latitude = "49.70111000", Longitude = "5.96722000" },
+                        new() { Id = 18, Name = "Steinfort", Latitude = "49.66139000", Longitude = "5.91917000" }
                     }
                 },
 
@@ -209,11 +210,11 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 6,
                     Name = "Grevenmacher",
-                    StateCode = "G",
-                    Iso3166_2 = "LU-G",
+                    StateCode = "GR",
+                    Iso3166_2 = "LU-GR",
                     TimeZoneId = "Europe/Luxembourg",
-                    Latitude = "49.68085100",
-                    Longitude = "6.44075240",
+                    Latitude = "49.68333333",
+                    Longitude = "6.34305556",
                     Type = "canton",
                     Cities = new()
                     {
@@ -234,11 +235,11 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 7,
                     Name = "Luxembourg",
-                    StateCode = "L",
-                    Iso3166_2 = "LU-L",
+                    StateCode = "LU",
+                    Iso3166_2 = "LU-LU",
                     TimeZoneId = "Europe/Luxembourg",
-                    Latitude = "49.61127680",
-                    Longitude = "6.12979900",
+                    Latitude = "49.60000000",
+                    Longitude = "6.10000000",
                     Type = "canton",
                     Cities = new()
                     {
@@ -256,14 +257,13 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 12, Name = "Moutfort", Latitude = "49.58528000", Longitude = "6.25556000" },
                         new() { Id = 13, Name = "Müllendorf", Latitude = "49.68028000", Longitude = "6.13000000" },
                         new() { Id = 14, Name = "Niederanven", Latitude = "49.65196000", Longitude = "6.26199000" },
-                        new() { Id = 15, Name = "Olm", Latitude = "49.65722000", Longitude = "6.00028000" },
-                        new() { Id = 16, Name = "Sandweiler", Latitude = "49.61471000", Longitude = "6.22221000" },
-                        new() { Id = 17, Name = "Schrassig", Latitude = "49.61014000", Longitude = "6.25903000" },
-                        new() { Id = 18, Name = "Schuttrange", Latitude = "49.62056000", Longitude = "6.26861000" },
-                        new() { Id = 19, Name = "Steinsel", Latitude = "49.67694000", Longitude = "6.12389000" },
-                        new() { Id = 20, Name = "Strassen", Latitude = "49.62056000", Longitude = "6.07333000" },
-                        new() { Id = 21, Name = "Walferdange", Latitude = "49.66321000", Longitude = "6.13224000" },
-                        new() { Id = 22, Name = "Weiler-la-Tour", Latitude = "49.54083000", Longitude = "6.20083000" }
+                        new() { Id = 15, Name = "Sandweiler", Latitude = "49.61471000", Longitude = "6.22221000" },
+                        new() { Id = 16, Name = "Schrassig", Latitude = "49.61014000", Longitude = "6.25903000" },
+                        new() { Id = 17, Name = "Schuttrange", Latitude = "49.62056000", Longitude = "6.26861000" },
+                        new() { Id = 18, Name = "Steinsel", Latitude = "49.67694000", Longitude = "6.12389000" },
+                        new() { Id = 19, Name = "Strassen", Latitude = "49.62056000", Longitude = "6.07333000" },
+                        new() { Id = 20, Name = "Walferdange", Latitude = "49.66321000", Longitude = "6.13224000" },
+                        new() { Id = 21, Name = "Weiler-la-Tour", Latitude = "49.54083000", Longitude = "6.20083000" }
                     }
                 },
 
