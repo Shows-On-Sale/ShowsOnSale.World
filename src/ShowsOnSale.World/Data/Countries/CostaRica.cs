@@ -34,7 +34,7 @@ namespace ShowsOnSale.World.Data.Countries
             EmojiU = "U+1F1E8 U+1F1F7",
             Timezones = new()
             {
-                new() { ZoneName = "America/Costa_Rica", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" }
+                new() { ZoneName = "America/Costa_Rica", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America)" }
             },
             Translations = new()
             {
@@ -99,8 +99,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 24, Name = "San Rafael", Latitude = "10.06403000", Longitude = "-84.47281000" },
                         new() { Id = 25, Name = "San Ramón", Latitude = "10.08718000", Longitude = "-84.47044000" },
                         new() { Id = 26, Name = "Santiago", Latitude = "10.02275000", Longitude = "-84.44420000" },
-                        new() { Id = 27, Name = "Upala", Latitude = "10.85000000", Longitude = "-85.16667000" },
-                        new() { Id = 28, Name = "Valverde Vega", Latitude = "10.18721000", Longitude = "-84.30290000" },
+                        new() { Id = 27, Name = "Sarchí", Latitude = "10.18721000", Longitude = "-84.30290000" },
+                        new() { Id = 28, Name = "Upala", Latitude = "10.85000000", Longitude = "-85.16667000" },
                         new() { Id = 29, Name = "Zarcero", Latitude = "10.20000000", Longitude = "-84.40000000" }
                     }
                 },
@@ -234,8 +234,8 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "P",
                     Iso3166_2 = "CR-P",
                     TimeZoneId = "America/Costa_Rica",
-                    Latitude = "9.09532790",
-                    Longitude = "-84.20030380",
+                    Latitude = "9.97794000",
+                    Longitude = "-84.83068000",
                     Type = "province",
                     Cities = new()
                     {

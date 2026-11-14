@@ -176,6 +176,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "prefecture",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Bissikrima", Latitude = "10.85000000", Longitude = "-10.93333000" },
+                        new() { Id = 2, Name = "Dabola", Latitude = "10.74330000", Longitude = "-11.10778000" }
                     }
                 },
 
@@ -251,6 +253,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "prefecture",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Faranah", Latitude = "10.04036000", Longitude = "-10.74343000" }
                     }
                 },
 
@@ -420,6 +423,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "prefecture",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kissidougou", Latitude = "9.18480000", Longitude = "-10.09987000" }
                     }
                 },
 
@@ -465,6 +469,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "prefecture",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Douako", Latitude = "9.73333000", Longitude = "-10.18333000" }
                     }
                 },
 
@@ -631,7 +636,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Beyla", Latitude = "8.69011000", Longitude = "-8.64869000" },
                         new() { Id = 2, Name = "Beyla Prefecture", Latitude = "8.91667000", Longitude = "-8.41667000" },
                         new() { Id = 3, Name = "Gueckedou", Latitude = "8.56744000", Longitude = "-10.13360000" },
-                        new() { Id = 4, Name = "Lola", Latitude = "7.83333000", Longitude = "-8.33333000" },
+                        new() { Id = 4, Name = "Lola", Latitude = "7.80000000", Longitude = "-8.53333000" },
                         new() { Id = 5, Name = "Macenta", Latitude = "8.50000000", Longitude = "-9.41667000" },
                         new() { Id = 6, Name = "Nzérékoré", Latitude = "7.75624000", Longitude = "-8.81790000" },
                         new() { Id = 7, Name = "Nzerekore Prefecture", Latitude = "7.94500000", Longitude = "-8.78300000" },

@@ -74,7 +74,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Arandis", Latitude = "-22.41667000", Longitude = "14.96667000" },
-                        new() { Id = 2, Name = "Hentiesbaai", Latitude = "-22.11667000", Longitude = "14.28333000" },
+                        new() { Id = 2, Name = "Henties Bay", Latitude = "-22.11667000", Longitude = "14.28333000" },
                         new() { Id = 3, Name = "Karibib", Latitude = "-21.93333000", Longitude = "15.83333000" },
                         new() { Id = 4, Name = "Omaruru", Latitude = "-21.43333000", Longitude = "15.93333000" },
                         new() { Id = 5, Name = "Otjimbingwe", Latitude = "-22.35000000", Longitude = "16.13333000" },
@@ -155,6 +155,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Nkurenkuru", Latitude = "-17.64182000", Longitude = "18.61966000" }
                     }
                 },
 
@@ -209,7 +210,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Oshikango", Latitude = "-17.40000000", Longitude = "15.88333000" }
+                        new() { Id = 1, Name = "Eenhana", Latitude = "-17.48535000", Longitude = "16.32940000" },
+                        new() { Id = 2, Name = "Oshikango", Latitude = "-17.40000000", Longitude = "15.88333000" }
                     }
                 },
 

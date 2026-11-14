@@ -34,7 +34,7 @@ namespace ShowsOnSale.World.Data.Countries
             EmojiU = "U+1F1F3 U+1F1EB",
             Timezones = new()
             {
-                new() { ZoneName = "Pacific/Norfolk", GmtOffset = 43200, GmtOffsetName = "UTC+12:00", Abbreviation = "NFT", TzName = "Norfolk Time" }
+                new() { ZoneName = "Pacific/Norfolk", GmtOffset = 39600, GmtOffsetName = "UTC+11:00", Abbreviation = "NFT", TzName = "Norfolk Time" }
             },
             Translations = new()
             {

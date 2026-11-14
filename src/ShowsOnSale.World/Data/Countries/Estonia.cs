@@ -73,6 +73,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Iisaku", Latitude = "59.10139000", Longitude = "27.30806000" }
                     }
                 },
 
@@ -88,6 +89,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Anija vald", Latitude = "59.27644000", Longitude = "25.48168000" },
+                        new() { Id = 2, Name = "Kehra", Latitude = "59.33611000", Longitude = "25.32111000" }
                     }
                 },
 
@@ -103,6 +106,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Antsla", Latitude = "57.82556000", Longitude = "26.54056000" },
+                        new() { Id = 2, Name = "Antsla vald", Latitude = "57.77738000", Longitude = "26.59520000" },
+                        new() { Id = 3, Name = "Vana-Antsla", Latitude = "57.86611000", Longitude = "26.53222000" }
                     }
                 },
 
@@ -118,6 +124,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Elva", Latitude = "58.22250000", Longitude = "26.42111000" },
+                        new() { Id = 2, Name = "Puhja", Latitude = "58.34194000", Longitude = "26.31472000" }
                     }
                 },
 
@@ -133,6 +141,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Uulu", Latitude = "58.28361000", Longitude = "24.58722000" }
                     }
                 },
 
@@ -148,6 +157,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "urban municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Haapsalu", Latitude = "58.94306000", Longitude = "23.54139000" }
                     }
                 },
 
@@ -163,6 +173,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Haljala", Latitude = "59.43361000", Longitude = "26.26139000" },
+                        new() { Id = 2, Name = "Haljala vald", Latitude = "59.45427000", Longitude = "26.22015000" }
                     }
                 },
 
@@ -173,46 +185,14 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "37",
                     Iso3166_2 = "EE-37",
                     TimeZoneId = "Europe/Tallinn",
-                    Latitude = "58.95299790",
-                    Longitude = "22.89810630",
+                    Latitude = "59.33333333",
+                    Longitude = "25.00000000",
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Anija vald", Latitude = "59.27644000", Longitude = "25.48168000" },
-                        new() { Id = 2, Name = "Aruküla", Latitude = "59.36686000", Longitude = "25.07618000" },
-                        new() { Id = 3, Name = "Haabneeme", Latitude = "59.51358000", Longitude = "24.82225000" },
-                        new() { Id = 4, Name = "Harku", Latitude = "59.38641000", Longitude = "24.57176000" },
-                        new() { Id = 5, Name = "Harku vald", Latitude = "59.39157000", Longitude = "24.46206000" },
-                        new() { Id = 6, Name = "Jõelähtme vald", Latitude = "59.43996000", Longitude = "25.13535000" },
-                        new() { Id = 7, Name = "Jüri", Latitude = "59.35417000", Longitude = "24.89417000" },
-                        new() { Id = 8, Name = "Kehra", Latitude = "59.33611000", Longitude = "25.32111000" },
-                        new() { Id = 9, Name = "Keila", Latitude = "59.30361000", Longitude = "24.41306000" },
-                        new() { Id = 10, Name = "Kiili", Latitude = "59.30775000", Longitude = "24.83776000" },
-                        new() { Id = 11, Name = "Kiili vald", Latitude = "59.29672000", Longitude = "24.85292000" },
-                        new() { Id = 12, Name = "Kose", Latitude = "59.46001000", Longitude = "24.87824000" },
-                        new() { Id = 13, Name = "Kuusalu", Latitude = "59.44389000", Longitude = "25.44139000" },
-                        new() { Id = 14, Name = "Laagri", Latitude = "59.35083000", Longitude = "24.61418000" },
-                        new() { Id = 15, Name = "Loksa", Latitude = "59.57639000", Longitude = "25.72139000" },
-                        new() { Id = 16, Name = "Loksa linn", Latitude = "59.57844000", Longitude = "25.71667000" },
-                        new() { Id = 17, Name = "Loo", Latitude = "59.43123000", Longitude = "24.94949000" },
-                        new() { Id = 18, Name = "Maardu", Latitude = "59.46529000", Longitude = "24.98215000" },
-                        new() { Id = 19, Name = "Maardu linn", Latitude = "59.46385000", Longitude = "24.97350000" },
-                        new() { Id = 20, Name = "Paldiski", Latitude = "59.35667000", Longitude = "24.05306000" },
-                        new() { Id = 21, Name = "Pringi", Latitude = "59.53459000", Longitude = "24.79726000" },
-                        new() { Id = 22, Name = "Raasiku", Latitude = "59.36639000", Longitude = "25.18306000" },
-                        new() { Id = 23, Name = "Rae vald", Latitude = "59.33202000", Longitude = "24.93932000" },
-                        new() { Id = 24, Name = "Riisipere", Latitude = "59.11417000", Longitude = "24.31056000" },
-                        new() { Id = 25, Name = "Rummu", Latitude = "59.53528000", Longitude = "24.79972000" },
-                        new() { Id = 26, Name = "Saku", Latitude = "59.30354000", Longitude = "24.66382000" },
-                        new() { Id = 27, Name = "Saku vald", Latitude = "59.28069000", Longitude = "24.71649000" },
-                        new() { Id = 28, Name = "Saue", Latitude = "59.32258000", Longitude = "24.54967000" },
-                        new() { Id = 29, Name = "Saue vald", Latitude = "59.29255000", Longitude = "24.52503000" },
-                        new() { Id = 30, Name = "Tabasalu", Latitude = "59.42607000", Longitude = "24.55330000" },
-                        new() { Id = 31, Name = "Tallinn", Latitude = "59.43696000", Longitude = "24.75353000" },
-                        new() { Id = 32, Name = "Turba", Latitude = "59.08306000", Longitude = "24.22500000" },
-                        new() { Id = 33, Name = "Vaida", Latitude = "59.28546000", Longitude = "24.97897000" },
-                        new() { Id = 34, Name = "Viimsi", Latitude = "59.50502000", Longitude = "24.84807000" },
-                        new() { Id = 35, Name = "Viimsi vald", Latitude = "59.50204000", Longitude = "24.84833000" }
+                        new() { Id = 1, Name = "Kose", Latitude = "59.46001000", Longitude = "24.87824000" },
+                        new() { Id = 2, Name = "Rummu", Latitude = "59.53528000", Longitude = "24.79972000" },
+                        new() { Id = 3, Name = "Turba", Latitude = "59.08306000", Longitude = "24.22500000" }
                     }
                 },
 
@@ -228,6 +208,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Harku", Latitude = "59.38641000", Longitude = "24.57176000" },
+                        new() { Id = 2, Name = "Tabasalu", Latitude = "59.42607000", Longitude = "24.55330000" }
                     }
                 },
 
@@ -238,12 +220,11 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "39",
                     Iso3166_2 = "EE-39",
                     TimeZoneId = "Europe/Tallinn",
-                    Latitude = "59.38302360",
-                    Longitude = "24.67038480",
+                    Latitude = "58.83333333",
+                    Longitude = "22.66666667",
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Kärdla", Latitude = "58.99778000", Longitude = "22.74917000" }
                     }
                 },
 
@@ -259,6 +240,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kärdla", Latitude = "58.99778000", Longitude = "22.74917000" }
                     }
                 },
 
@@ -274,20 +256,6 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Iisaku", Latitude = "59.10139000", Longitude = "27.30806000" },
-                        new() { Id = 2, Name = "Jõhvi", Latitude = "59.35917000", Longitude = "27.42111000" },
-                        new() { Id = 3, Name = "Jõhvi vald", Latitude = "59.35653000", Longitude = "27.39304000" },
-                        new() { Id = 4, Name = "Kiviõli", Latitude = "59.35306000", Longitude = "26.97111000" },
-                        new() { Id = 5, Name = "Kohtla-Järve", Latitude = "59.39861000", Longitude = "27.27306000" },
-                        new() { Id = 6, Name = "Kohtla-Nõmme", Latitude = "59.35167000", Longitude = "27.17500000" },
-                        new() { Id = 7, Name = "Lüganuse vald", Latitude = "59.39262000", Longitude = "27.07641000" },
-                        new() { Id = 8, Name = "Narva", Latitude = "59.37722000", Longitude = "28.19028000" },
-                        new() { Id = 9, Name = "Narva-Jõesuu", Latitude = "59.45889000", Longitude = "28.04083000" },
-                        new() { Id = 10, Name = "Narva-Jõesuu linn", Latitude = "59.44127000", Longitude = "28.02142000" },
-                        new() { Id = 11, Name = "Püssi", Latitude = "59.36000000", Longitude = "27.04972000" },
-                        new() { Id = 12, Name = "Sillamäe", Latitude = "59.39697000", Longitude = "27.76331000" },
-                        new() { Id = 13, Name = "Toila", Latitude = "59.42127000", Longitude = "27.50807000" },
-                        new() { Id = 14, Name = "Voka", Latitude = "59.40776000", Longitude = "27.58263000" }
                     }
                 },
 
@@ -295,21 +263,16 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 13,
                     Name = "Järva",
-                    StateCode = "52",
-                    Iso3166_2 = "EE-52",
+                    StateCode = "255",
+                    Iso3166_2 = "EE-255",
                     TimeZoneId = "Europe/Tallinn",
-                    Latitude = "58.41333570",
-                    Longitude = "24.64773500",
-                    Type = "county",
+                    Latitude = "59.00000000",
+                    Longitude = "25.86670000",
+                    Type = "rural municipality",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Järva-Jaani", Latitude = "59.03861000", Longitude = "25.88639000" },
-                        new() { Id = 2, Name = "Koeru", Latitude = "58.96306000", Longitude = "26.03083000" },
-                        new() { Id = 3, Name = "Paide", Latitude = "58.88556000", Longitude = "25.55722000" },
-                        new() { Id = 4, Name = "Paide linn", Latitude = "58.88504000", Longitude = "25.56021000" },
-                        new() { Id = 5, Name = "Särevere", Latitude = "58.79000000", Longitude = "25.42806000" },
-                        new() { Id = 6, Name = "Türi", Latitude = "58.80861000", Longitude = "25.43250000" },
-                        new() { Id = 7, Name = "Türi vald", Latitude = "58.74143000", Longitude = "25.46443000" }
+                        new() { Id = 2, Name = "Koeru", Latitude = "58.96306000", Longitude = "26.03083000" }
                     }
                 },
 
@@ -317,12 +280,12 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 14,
                     Name = "Järva",
-                    StateCode = "255",
-                    Iso3166_2 = "EE-255",
+                    StateCode = "52",
+                    Iso3166_2 = "EE-52",
                     TimeZoneId = "Europe/Tallinn",
-                    Latitude = "59.00000000",
-                    Longitude = "25.86670000",
-                    Type = "rural municipality",
+                    Latitude = "58.41333570",
+                    Longitude = "24.64773500",
+                    Type = "county",
                     Cities = new()
                     {
                     }
@@ -340,6 +303,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Jõelähtme", Latitude = "59.44388889", Longitude = "25.12916667" },
+                        new() { Id = 2, Name = "Loo", Latitude = "59.43123000", Longitude = "24.94949000" }
                     }
                 },
 
@@ -355,11 +320,6 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Jõgeva", Latitude = "58.74667000", Longitude = "26.39389000" },
-                        new() { Id = 2, Name = "Jõgeva vald", Latitude = "58.78732000", Longitude = "26.38122000" },
-                        new() { Id = 3, Name = "Mustvee", Latitude = "58.84861000", Longitude = "26.93972000" },
-                        new() { Id = 4, Name = "Põltsamaa", Latitude = "58.65250000", Longitude = "25.97056000" },
-                        new() { Id = 5, Name = "Põltsamaa vald", Latitude = "58.64067000", Longitude = "26.00957000" }
                     }
                 },
 
@@ -375,6 +335,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Jõgeva", Latitude = "58.74667000", Longitude = "26.39389000" },
+                        new() { Id = 2, Name = "Jõgeva vald", Latitude = "58.78732000", Longitude = "26.38122000" }
                     }
                 },
 
@@ -382,14 +344,19 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 18,
                     Name = "Jõhvi",
-                    StateCode = "251",
-                    Iso3166_2 = "EE-251",
+                    StateCode = "250",
+                    Iso3166_2 = "EE-250",
                     TimeZoneId = "Europe/Tallinn",
-                    Latitude = "59.35830000",
-                    Longitude = "27.42330000",
+                    Latitude = "59.35917000",
+                    Longitude = "27.42111000",
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Jõhvi", Latitude = "59.35917000", Longitude = "27.42111000" },
+                        new() { Id = 2, Name = "Jõhvi vald", Latitude = "59.35653000", Longitude = "27.39304000" },
+                        new() { Id = 3, Name = "Kohtla-Nõmme", Latitude = "59.35167000", Longitude = "27.17500000" },
+                        new() { Id = 4, Name = "Toila", Latitude = "59.42127000", Longitude = "27.50807000" },
+                        new() { Id = 5, Name = "Voka", Latitude = "59.40776000", Longitude = "27.58263000" }
                     }
                 },
 
@@ -405,6 +372,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kadrina", Latitude = "59.33472000", Longitude = "26.14500000" },
+                        new() { Id = 2, Name = "Vaiatu", Latitude = "59.35556000", Longitude = "25.99528000" }
                     }
                 },
 
@@ -420,6 +389,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kambja vald", Latitude = "58.20255000", Longitude = "26.68996000" },
+                        new() { Id = 2, Name = "Ülenurme", Latitude = "58.31620000", Longitude = "26.72517000" }
                     }
                 },
 
@@ -435,6 +406,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kanepi", Latitude = "57.98306000", Longitude = "26.75639000" },
+                        new() { Id = 2, Name = "Kanepi vald", Latitude = "57.98058000", Longitude = "26.76151000" }
                     }
                 },
 
@@ -465,6 +438,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Järvakandi", Latitude = "58.77889000", Longitude = "24.82583000" },
+                        new() { Id = 2, Name = "Kehtna", Latitude = "58.93028000", Longitude = "24.87806000" },
+                        new() { Id = 3, Name = "Kehtna vald", Latitude = "58.84274000", Longitude = "24.89002000" }
                     }
                 },
 
@@ -480,6 +456,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "urban municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Keila", Latitude = "59.30361000", Longitude = "24.41306000" }
                     }
                 },
 
@@ -495,6 +472,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kihnu vald", Latitude = "58.13000000", Longitude = "23.99002000" },
+                        new() { Id = 2, Name = "Linaküla", Latitude = "58.13722000", Longitude = "23.97444000" }
                     }
                 },
 
@@ -510,6 +489,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kiili", Latitude = "59.30775000", Longitude = "24.83776000" }
                     }
                 },
 
@@ -525,6 +505,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kohila", Latitude = "59.16806000", Longitude = "24.75750000" }
                     }
                 },
 
@@ -540,6 +521,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "urban municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kohtla-Järve", Latitude = "59.39861000", Longitude = "27.27306000" }
                     }
                 },
 
@@ -570,6 +552,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kuusalu", Latitude = "59.44389000", Longitude = "25.44139000" }
                     }
                 },
 
@@ -580,18 +563,13 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "56",
                     Iso3166_2 = "EE-56",
                     TimeZoneId = "Europe/Tallinn",
-                    Latitude = "58.67412400",
-                    Longitude = "25.81061020",
+                    Latitude = "58.91666667",
+                    Longitude = "23.75000000",
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Haapsalu", Latitude = "58.94306000", Longitude = "23.54139000" },
-                        new() { Id = 2, Name = "Haapsalu linn", Latitude = "58.93580000", Longitude = "23.53005000" },
-                        new() { Id = 3, Name = "Hullo", Latitude = "58.99004000", Longitude = "23.24441000" },
-                        new() { Id = 4, Name = "Lääne-Nigula vald", Latitude = "58.96045000", Longitude = "23.74489000" },
-                        new() { Id = 5, Name = "Taebla", Latitude = "58.95389000", Longitude = "23.75222000" },
-                        new() { Id = 6, Name = "Uuemõisa", Latitude = "58.93944000", Longitude = "23.58944000" },
-                        new() { Id = 7, Name = "Vormsi vald", Latitude = "58.99986000", Longitude = "23.23408000" }
+                        new() { Id = 1, Name = "Taebla", Latitude = "58.95389000", Longitude = "23.75222000" },
+                        new() { Id = 2, Name = "Uuemõisa", Latitude = "58.93944000", Longitude = "23.58944000" }
                     }
                 },
 
@@ -599,14 +577,15 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 32,
                     Name = "Lääne-Harju",
-                    StateCode = "430",
-                    Iso3166_2 = "EE-430",
+                    StateCode = "431",
+                    Iso3166_2 = "EE-431",
                     TimeZoneId = "Europe/Tallinn",
                     Latitude = "59.38330000",
                     Longitude = "24.18330000",
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Paldiski", Latitude = "59.35667000", Longitude = "24.05306000" }
                     }
                 },
 
@@ -622,6 +601,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Lääne-Nigula vald", Latitude = "58.96045000", Longitude = "23.74489000" }
                     }
                 },
 
@@ -637,26 +617,6 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Aseri", Latitude = "59.45056000", Longitude = "26.86750000" },
-                        new() { Id = 2, Name = "Haljala", Latitude = "59.43361000", Longitude = "26.26139000" },
-                        new() { Id = 3, Name = "Haljala vald", Latitude = "59.45427000", Longitude = "26.22015000" },
-                        new() { Id = 4, Name = "Kadrina", Latitude = "59.33472000", Longitude = "26.14500000" },
-                        new() { Id = 5, Name = "Kadrina vald", Latitude = "59.37463000", Longitude = "26.04150000" },
-                        new() { Id = 6, Name = "Kunda", Latitude = "59.49861000", Longitude = "26.52611000" },
-                        new() { Id = 7, Name = "Pajusti", Latitude = "59.27444000", Longitude = "26.42333000" },
-                        new() { Id = 8, Name = "Rakke", Latitude = "58.98167000", Longitude = "26.25444000" },
-                        new() { Id = 9, Name = "Rakvere", Latitude = "59.34639000", Longitude = "26.35583000" },
-                        new() { Id = 10, Name = "Rakvere vald", Latitude = "59.32457000", Longitude = "26.29757000" },
-                        new() { Id = 11, Name = "Sõmeru", Latitude = "59.36111000", Longitude = "26.43750000" },
-                        new() { Id = 12, Name = "Tamsalu", Latitude = "59.15861000", Longitude = "26.11528000" },
-                        new() { Id = 13, Name = "Tapa", Latitude = "59.26056000", Longitude = "25.95861000" },
-                        new() { Id = 14, Name = "Tapa vald", Latitude = "59.23821000", Longitude = "25.84572000" },
-                        new() { Id = 15, Name = "Vaiatu", Latitude = "59.35556000", Longitude = "25.99528000" },
-                        new() { Id = 16, Name = "Väike-Maarja", Latitude = "59.12639000", Longitude = "26.25000000" },
-                        new() { Id = 17, Name = "Väike-Maarja vald", Latitude = "59.06556000", Longitude = "26.31417000" },
-                        new() { Id = 18, Name = "Vinni", Latitude = "59.29583000", Longitude = "26.43222000" },
-                        new() { Id = 19, Name = "Vinni vald", Latitude = "59.23744000", Longitude = "26.62261000" },
-                        new() { Id = 20, Name = "Viru-Nigula vald", Latitude = "59.46387000", Longitude = "26.58585000" }
                     }
                 },
 
@@ -664,14 +624,15 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 35,
                     Name = "Lääneranna",
-                    StateCode = "431",
-                    Iso3166_2 = "EE-431",
+                    StateCode = "430",
+                    Iso3166_2 = "EE-430",
                     TimeZoneId = "Europe/Tallinn",
                     Latitude = "58.53330000",
                     Longitude = "24.10000000",
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Lihula", Latitude = "58.68139000", Longitude = "23.84528000" }
                     }
                 },
 
@@ -687,6 +648,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "urban municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Loksa", Latitude = "59.57639000", Longitude = "25.72139000" }
                     }
                 },
 
@@ -702,6 +664,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kiviõli", Latitude = "59.35306000", Longitude = "26.97111000" },
+                        new() { Id = 2, Name = "Lüganuse vald", Latitude = "59.39262000", Longitude = "27.07641000" },
+                        new() { Id = 3, Name = "Püssi", Latitude = "59.36000000", Longitude = "27.04972000" }
                     }
                 },
 
@@ -717,6 +682,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Luunja", Latitude = "58.35583000", Longitude = "26.88083000" }
                     }
                 },
 
@@ -732,6 +698,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "urban municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Maardu", Latitude = "59.46529000", Longitude = "24.98215000" }
                     }
                 },
 
@@ -747,6 +714,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Märjamaa", Latitude = "58.90389000", Longitude = "24.43056000" },
+                        new() { Id = 2, Name = "Märjamaa vald", Latitude = "58.90262000", Longitude = "24.39423000" }
                     }
                 },
 
@@ -762,6 +731,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Liiva", Latitude = "58.60194000", Longitude = "23.24694000" }
                     }
                 },
 
@@ -777,6 +747,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Abja-Paluoja", Latitude = "58.12528000", Longitude = "25.34972000" },
+                        new() { Id = 2, Name = "Karksi-Nuia", Latitude = "58.10333000", Longitude = "25.56278000" },
+                        new() { Id = 3, Name = "Mõisaküla", Latitude = "58.09222000", Longitude = "25.18639000" }
                     }
                 },
 
@@ -792,6 +765,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Mustvee", Latitude = "58.84861000", Longitude = "26.93972000" }
                     }
                 },
 
@@ -807,6 +781,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "urban municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Narva", Latitude = "59.37722000", Longitude = "28.19028000" }
                     }
                 },
 
@@ -822,6 +797,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "urban municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Narva-Jõesuu", Latitude = "59.45889000", Longitude = "28.04083000" }
                     }
                 },
 
@@ -837,6 +813,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Nõo", Latitude = "58.27556000", Longitude = "26.53750000" }
                     }
                 },
 
@@ -852,6 +829,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Otepää vald", Latitude = "58.02177000", Longitude = "26.45306000" }
                     }
                 },
 
@@ -867,6 +845,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "urban municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Paide", Latitude = "58.88556000", Longitude = "25.55722000" }
                     }
                 },
 
@@ -874,30 +853,17 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 49,
                     Name = "Pärnu",
-                    StateCode = "68",
-                    Iso3166_2 = "EE-68",
+                    StateCode = "624",
+                    Iso3166_2 = "EE-624",
                     TimeZoneId = "Europe/Tallinn",
-                    Latitude = "58.38708330",
-                    Longitude = "24.50283100",
-                    Type = "county",
+                    Latitude = "58.38060000",
+                    Longitude = "24.49890000",
+                    Type = "urban municipality",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Audru", Latitude = "58.40861000", Longitude = "24.37389000" },
-                        new() { Id = 2, Name = "Kihnu vald", Latitude = "58.13000000", Longitude = "23.99002000" },
-                        new() { Id = 3, Name = "Kilingi-Nõmme", Latitude = "58.15028000", Longitude = "24.96417000" },
-                        new() { Id = 4, Name = "Lihula", Latitude = "58.68139000", Longitude = "23.84528000" },
-                        new() { Id = 5, Name = "Linaküla", Latitude = "58.13722000", Longitude = "23.97444000" },
-                        new() { Id = 6, Name = "Paikuse", Latitude = "58.37917000", Longitude = "24.63444000" },
-                        new() { Id = 7, Name = "Pärnu", Latitude = "58.38588000", Longitude = "24.49711000" },
-                        new() { Id = 8, Name = "Pärnu linn", Latitude = "58.37901000", Longitude = "24.52784000" },
-                        new() { Id = 9, Name = "Pärnu-Jaagupi", Latitude = "58.61052000", Longitude = "24.50689000" },
-                        new() { Id = 10, Name = "Saarde vald", Latitude = "58.13802000", Longitude = "24.95564000" },
-                        new() { Id = 11, Name = "Sauga", Latitude = "58.42720000", Longitude = "24.49496000" },
-                        new() { Id = 12, Name = "Sindi", Latitude = "58.40056000", Longitude = "24.66750000" },
-                        new() { Id = 13, Name = "Tootsi", Latitude = "58.57806000", Longitude = "24.79250000" },
-                        new() { Id = 14, Name = "Tori vald", Latitude = "58.48663000", Longitude = "24.88961000" },
-                        new() { Id = 15, Name = "Uulu", Latitude = "58.28361000", Longitude = "24.58722000" },
-                        new() { Id = 16, Name = "Vändra", Latitude = "58.64806000", Longitude = "25.03611000" }
+                        new() { Id = 2, Name = "Paikuse", Latitude = "58.37917000", Longitude = "24.63444000" },
+                        new() { Id = 3, Name = "Pärnu", Latitude = "58.38588000", Longitude = "24.49711000" }
                     }
                 },
 
@@ -905,12 +871,12 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 50,
                     Name = "Pärnu",
-                    StateCode = "624",
-                    Iso3166_2 = "EE-624",
+                    StateCode = "68",
+                    Iso3166_2 = "EE-68",
                     TimeZoneId = "Europe/Tallinn",
-                    Latitude = "58.38060000",
-                    Longitude = "24.49890000",
-                    Type = "urban municipality",
+                    Latitude = "58.38708330",
+                    Longitude = "24.50283100",
+                    Type = "county",
                     Cities = new()
                     {
                     }
@@ -928,13 +894,16 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Alatskivi", Latitude = "58.59806000", Longitude = "27.13361000" },
+                        new() { Id = 2, Name = "Kallaste", Latitude = "58.66312000", Longitude = "27.16164000" },
+                        new() { Id = 3, Name = "Peipsiääre vald", Latitude = "58.51559000", Longitude = "27.18444000" }
                     }
                 },
 
                 new()
                 {
                     Id = 52,
-                    Name = "Põhja-Pärnu",
+                    Name = "Põhja-Pärnumaa",
                     StateCode = "638",
                     Iso3166_2 = "EE-638",
                     TimeZoneId = "Europe/Tallinn",
@@ -943,6 +912,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Pärnu-Jaagupi", Latitude = "58.61052000", Longitude = "24.50689000" },
+                        new() { Id = 2, Name = "Tootsi", Latitude = "58.57806000", Longitude = "24.79250000" },
+                        new() { Id = 3, Name = "Vändra", Latitude = "58.64806000", Longitude = "25.03611000" }
                     }
                 },
 
@@ -958,6 +930,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Suure-Jaani", Latitude = "58.53611000", Longitude = "25.47056000" },
+                        new() { Id = 2, Name = "Võhma", Latitude = "58.62833000", Longitude = "25.54833000" }
                     }
                 },
 
@@ -973,6 +947,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Põltsamaa", Latitude = "58.65250000", Longitude = "25.97056000" },
+                        new() { Id = 2, Name = "Põltsamaa vald", Latitude = "58.64067000", Longitude = "26.00957000" }
                     }
                 },
 
@@ -988,6 +964,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Põlva", Latitude = "58.06028000", Longitude = "27.06944000" },
+                        new() { Id = 2, Name = "Põlva vald", Latitude = "58.08368000", Longitude = "26.98242000" }
                     }
                 },
 
@@ -1003,12 +981,6 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Kanepi", Latitude = "57.98306000", Longitude = "26.75639000" },
-                        new() { Id = 2, Name = "Kanepi vald", Latitude = "57.98058000", Longitude = "26.76151000" },
-                        new() { Id = 3, Name = "Põlva", Latitude = "58.06028000", Longitude = "27.06944000" },
-                        new() { Id = 4, Name = "Põlva vald", Latitude = "58.08368000", Longitude = "26.98242000" },
-                        new() { Id = 5, Name = "Räpina", Latitude = "58.09806000", Longitude = "27.46361000" },
-                        new() { Id = 6, Name = "Räpina vald", Latitude = "58.10777000", Longitude = "27.38580000" }
                     }
                 },
 
@@ -1024,6 +996,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Aruküla", Latitude = "59.36686000", Longitude = "25.07618000" },
+                        new() { Id = 2, Name = "Raasiku", Latitude = "59.36639000", Longitude = "25.18306000" }
                     }
                 },
 
@@ -1039,6 +1013,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Jüri", Latitude = "59.35417000", Longitude = "24.89417000" },
+                        new() { Id = 2, Name = "Vaida", Latitude = "59.28546000", Longitude = "24.97897000" }
                     }
                 },
 
@@ -1054,6 +1030,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "urban municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Rakvere", Latitude = "59.34639000", Longitude = "26.35583000" }
                     }
                 },
 
@@ -1069,6 +1046,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Rakvere vald", Latitude = "59.32457000", Longitude = "26.29757000" },
+                        new() { Id = 2, Name = "Sõmeru", Latitude = "59.36111000", Longitude = "26.43750000" }
                     }
                 },
 
@@ -1084,27 +1063,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Räpina", Latitude = "58.09806000", Longitude = "27.46361000" },
+                        new() { Id = 2, Name = "Räpina vald", Latitude = "58.10777000", Longitude = "27.38580000" }
                     }
                 },
 
                 new()
                 {
                     Id = 62,
-                    Name = "Rapla",
-                    StateCode = "668",
-                    Iso3166_2 = "EE-668",
-                    TimeZoneId = "Europe/Tallinn",
-                    Latitude = "58.98330000",
-                    Longitude = "24.80000000",
-                    Type = "rural municipality",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 63,
                     Name = "Rapla",
                     StateCode = "71",
                     Iso3166_2 = "EE-71",
@@ -1114,15 +1080,23 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Järvakandi", Latitude = "58.77889000", Longitude = "24.82583000" },
-                        new() { Id = 2, Name = "Kehtna", Latitude = "58.93028000", Longitude = "24.87806000" },
-                        new() { Id = 3, Name = "Kehtna vald", Latitude = "58.84274000", Longitude = "24.89002000" },
-                        new() { Id = 4, Name = "Kohila", Latitude = "59.16806000", Longitude = "24.75750000" },
-                        new() { Id = 5, Name = "Kohila vald", Latitude = "59.15283000", Longitude = "24.73337000" },
-                        new() { Id = 6, Name = "Märjamaa", Latitude = "58.90389000", Longitude = "24.43056000" },
-                        new() { Id = 7, Name = "Märjamaa vald", Latitude = "58.90262000", Longitude = "24.39423000" },
-                        new() { Id = 8, Name = "Rapla", Latitude = "59.00722000", Longitude = "24.79278000" },
-                        new() { Id = 9, Name = "Rapla vald", Latitude = "59.03309000", Longitude = "24.71793000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 63,
+                    Name = "Rapla",
+                    StateCode = "668",
+                    Iso3166_2 = "EE-668",
+                    TimeZoneId = "Europe/Tallinn",
+                    Latitude = "58.98330000",
+                    Longitude = "24.80000000",
+                    Type = "rural municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Rapla", Latitude = "59.00722000", Longitude = "24.79278000" },
+                        new() { Id = 2, Name = "Rapla vald", Latitude = "59.03309000", Longitude = "24.71793000" }
                     }
                 },
 
@@ -1138,6 +1112,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Rõuge", Latitude = "57.72778000", Longitude = "26.90972000" },
+                        new() { Id = 2, Name = "Rõuge vald", Latitude = "57.72780000", Longitude = "26.88033000" }
                     }
                 },
 
@@ -1153,6 +1129,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Ruhnu", Latitude = "57.80028000", Longitude = "23.24833000" }
                     }
                 },
 
@@ -1168,6 +1145,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kilingi-Nõmme", Latitude = "58.15028000", Longitude = "24.96417000" },
+                        new() { Id = 2, Name = "Saarde vald", Latitude = "58.13802000", Longitude = "24.95564000" }
                     }
                 },
 
@@ -1183,13 +1162,6 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Kuressaare", Latitude = "58.24806000", Longitude = "22.50389000" },
-                        new() { Id = 2, Name = "Liiva", Latitude = "58.60194000", Longitude = "23.24694000" },
-                        new() { Id = 3, Name = "Muhu vald", Latitude = "58.58486000", Longitude = "23.25609000" },
-                        new() { Id = 4, Name = "Orissaare", Latitude = "58.55917000", Longitude = "23.08262000" },
-                        new() { Id = 5, Name = "Ruhnu", Latitude = "57.80028000", Longitude = "23.24833000" },
-                        new() { Id = 6, Name = "Ruhnu vald", Latitude = "57.80309000", Longitude = "23.24250000" },
-                        new() { Id = 7, Name = "Tehumardi", Latitude = "58.18027000", Longitude = "22.24646000" }
                     }
                 },
 
@@ -1205,6 +1177,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kuressaare", Latitude = "58.24806000", Longitude = "22.50389000" },
+                        new() { Id = 2, Name = "Orissaare", Latitude = "58.55917000", Longitude = "23.08262000" },
+                        new() { Id = 3, Name = "Tehumardi", Latitude = "58.18027000", Longitude = "22.24646000" }
                     }
                 },
 
@@ -1220,6 +1195,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Saku", Latitude = "59.30354000", Longitude = "24.66382000" },
+                        new() { Id = 2, Name = "Saku vald", Latitude = "59.28069000", Longitude = "24.71649000" }
                     }
                 },
 
@@ -1235,6 +1212,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Laagri", Latitude = "59.35083000", Longitude = "24.61418000" },
+                        new() { Id = 2, Name = "Riisipere", Latitude = "59.11417000", Longitude = "24.31056000" },
+                        new() { Id = 3, Name = "Saue", Latitude = "59.32258000", Longitude = "24.54967000" },
+                        new() { Id = 4, Name = "Saue vald", Latitude = "59.29255000", Longitude = "24.52503000" }
                     }
                 },
 
@@ -1250,6 +1231,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Värska", Latitude = "57.95806000", Longitude = "27.63806000" }
                     }
                 },
 
@@ -1265,6 +1247,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "urban municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Sillamäe", Latitude = "59.39697000", Longitude = "27.76331000" }
                     }
                 },
 
@@ -1280,6 +1263,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "urban municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Tallinn", Latitude = "59.43696000", Longitude = "24.75353000" }
                     }
                 },
 
@@ -1295,27 +1279,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Tamsalu", Latitude = "59.15861000", Longitude = "26.11528000" },
+                        new() { Id = 2, Name = "Tapa", Latitude = "59.26056000", Longitude = "25.95861000" }
                     }
                 },
 
                 new()
                 {
                     Id = 75,
-                    Name = "Tartu",
-                    StateCode = "793",
-                    Iso3166_2 = "EE-793",
-                    TimeZoneId = "Europe/Tallinn",
-                    Latitude = "58.37800000",
-                    Longitude = "26.72900000",
-                    Type = "urban municipality",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 76,
                     Name = "Tartu",
                     StateCode = "79",
                     Iso3166_2 = "EE-79",
@@ -1325,22 +1296,24 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Alatskivi", Latitude = "58.59806000", Longitude = "27.13361000" },
-                        new() { Id = 2, Name = "Elva", Latitude = "58.22250000", Longitude = "26.42111000" },
-                        new() { Id = 3, Name = "Kallaste", Latitude = "58.66312000", Longitude = "27.16164000" },
-                        new() { Id = 4, Name = "Kambja vald", Latitude = "58.20255000", Longitude = "26.68996000" },
-                        new() { Id = 5, Name = "Kõrveküla", Latitude = "58.42417000", Longitude = "26.78222000" },
-                        new() { Id = 6, Name = "Kurepalu", Latitude = "58.31861000", Longitude = "26.84083000" },
-                        new() { Id = 7, Name = "Luunja", Latitude = "58.35583000", Longitude = "26.88083000" },
-                        new() { Id = 8, Name = "Luunja vald", Latitude = "58.39178000", Longitude = "26.95574000" },
-                        new() { Id = 9, Name = "Nõo", Latitude = "58.27556000", Longitude = "26.53750000" },
-                        new() { Id = 10, Name = "Nõo vald", Latitude = "58.24199000", Longitude = "26.52499000" },
-                        new() { Id = 11, Name = "Peipsiääre vald", Latitude = "58.51559000", Longitude = "27.18444000" },
-                        new() { Id = 12, Name = "Puhja", Latitude = "58.34194000", Longitude = "26.31472000" },
-                        new() { Id = 13, Name = "Tartu", Latitude = "58.38062000", Longitude = "26.72509000" },
-                        new() { Id = 14, Name = "Tartu linn", Latitude = "58.37498000", Longitude = "26.73256000" },
-                        new() { Id = 15, Name = "Tartu vald", Latitude = "58.47800000", Longitude = "26.74956000" },
-                        new() { Id = 16, Name = "Ülenurme", Latitude = "58.31620000", Longitude = "26.72517000" }
+                        new() { Id = 1, Name = "Kõrveküla", Latitude = "58.42417000", Longitude = "26.78222000" },
+                        new() { Id = 2, Name = "Kurepalu", Latitude = "58.31861000", Longitude = "26.84083000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 76,
+                    Name = "Tartu",
+                    StateCode = "793",
+                    Iso3166_2 = "EE-793",
+                    TimeZoneId = "Europe/Tallinn",
+                    Latitude = "58.37800000",
+                    Longitude = "26.72900000",
+                    Type = "urban municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Tartu", Latitude = "58.38062000", Longitude = "26.72509000" }
                     }
                 },
 
@@ -1356,27 +1329,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Tartu vald", Latitude = "58.47800000", Longitude = "26.74956000" }
                     }
                 },
 
                 new()
                 {
                     Id = 78,
-                    Name = "Toila",
-                    StateCode = "803",
-                    Iso3166_2 = "EE-803",
-                    TimeZoneId = "Europe/Tallinn",
-                    Latitude = "59.41670000",
-                    Longitude = "27.51670000",
-                    Type = "rural municipality",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 79,
                     Name = "Tori",
                     StateCode = "809",
                     Iso3166_2 = "EE-809",
@@ -1386,12 +1345,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Sauga", Latitude = "58.42720000", Longitude = "24.49496000" },
+                        new() { Id = 2, Name = "Sindi", Latitude = "58.40056000", Longitude = "24.66750000" },
+                        new() { Id = 3, Name = "Tori vald", Latitude = "58.48663000", Longitude = "24.88961000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 80,
+                    Id = 79,
                     Name = "Tõrva",
                     StateCode = "824",
                     Iso3166_2 = "EE-824",
@@ -1401,12 +1363,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Tõrva", Latitude = "58.00278000", Longitude = "25.93500000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 81,
+                    Id = 80,
                     Name = "Türi",
                     StateCode = "834",
                     Iso3166_2 = "EE-834",
@@ -1416,12 +1379,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Särevere", Latitude = "58.79000000", Longitude = "25.42806000" },
+                        new() { Id = 2, Name = "Türi", Latitude = "58.80861000", Longitude = "25.43250000" },
+                        new() { Id = 3, Name = "Türi vald", Latitude = "58.74143000", Longitude = "25.46443000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 82,
+                    Id = 81,
                     Name = "Väike-Maarja",
                     StateCode = "928",
                     Iso3166_2 = "EE-928",
@@ -1431,12 +1397,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Rakke", Latitude = "58.98167000", Longitude = "26.25444000" },
+                        new() { Id = 2, Name = "Väike-Maarja", Latitude = "59.12639000", Longitude = "26.25000000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 83,
+                    Id = 82,
                     Name = "Valga",
                     StateCode = "855",
                     Iso3166_2 = "EE-855",
@@ -1446,12 +1414,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Valga", Latitude = "57.77781000", Longitude = "26.04730000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 84,
+                    Id = 83,
                     Name = "Valga",
                     StateCode = "81",
                     Iso3166_2 = "EE-81",
@@ -1461,15 +1430,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Otepää vald", Latitude = "58.02177000", Longitude = "26.45306000" },
-                        new() { Id = 2, Name = "Tõrva", Latitude = "58.00278000", Longitude = "25.93500000" },
-                        new() { Id = 3, Name = "Valga", Latitude = "57.77781000", Longitude = "26.04730000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 85,
+                    Id = 84,
                     Name = "Viimsi",
                     StateCode = "890",
                     Iso3166_2 = "EE-890",
@@ -1479,6 +1445,26 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Haabneeme", Latitude = "59.51358000", Longitude = "24.82225000" },
+                        new() { Id = 2, Name = "Pringi", Latitude = "59.53459000", Longitude = "24.79726000" },
+                        new() { Id = 3, Name = "Viimsi", Latitude = "59.50502000", Longitude = "24.84807000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 85,
+                    Name = "Viljandi",
+                    StateCode = "899",
+                    Iso3166_2 = "EE-899",
+                    TimeZoneId = "Europe/Tallinn",
+                    Latitude = "58.36390000",
+                    Longitude = "25.59000000",
+                    Type = "rural municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Viiratsi", Latitude = "58.36000000", Longitude = "25.63722000" },
+                        new() { Id = 2, Name = "Viljandi vald", Latitude = "58.36392000", Longitude = "25.49103000" }
                     }
                 },
 
@@ -1494,6 +1480,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "urban municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Viljandi", Latitude = "58.36389000", Longitude = "25.59000000" }
                     }
                 },
 
@@ -1509,35 +1496,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Abja-Paluoja", Latitude = "58.12528000", Longitude = "25.34972000" },
-                        new() { Id = 2, Name = "Karksi-Nuia", Latitude = "58.10333000", Longitude = "25.56278000" },
-                        new() { Id = 3, Name = "Mõisaküla", Latitude = "58.09222000", Longitude = "25.18639000" },
-                        new() { Id = 4, Name = "Suure-Jaani", Latitude = "58.53611000", Longitude = "25.47056000" },
-                        new() { Id = 5, Name = "Viiratsi", Latitude = "58.36000000", Longitude = "25.63722000" },
-                        new() { Id = 6, Name = "Viljandi", Latitude = "58.36389000", Longitude = "25.59000000" },
-                        new() { Id = 7, Name = "Viljandi vald", Latitude = "58.36392000", Longitude = "25.49103000" },
-                        new() { Id = 8, Name = "Võhma", Latitude = "58.62833000", Longitude = "25.54833000" }
                     }
                 },
 
                 new()
                 {
                     Id = 88,
-                    Name = "Viljandi",
-                    StateCode = "899",
-                    Iso3166_2 = "EE-899",
-                    TimeZoneId = "Europe/Tallinn",
-                    Latitude = "58.36390000",
-                    Longitude = "25.59000000",
-                    Type = "rural municipality",
-                    Cities = new()
-                    {
-                    }
-                },
-
-                new()
-                {
-                    Id = 89,
                     Name = "Vinni",
                     StateCode = "901",
                     Iso3166_2 = "EE-901",
@@ -1547,12 +1511,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Pajusti", Latitude = "59.27444000", Longitude = "26.42333000" },
+                        new() { Id = 2, Name = "Vinni", Latitude = "59.29583000", Longitude = "26.43222000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 90,
+                    Id = 89,
                     Name = "Viru-Nigula",
                     StateCode = "903",
                     Iso3166_2 = "EE-903",
@@ -1562,12 +1528,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Aseri", Latitude = "59.45056000", Longitude = "26.86750000" },
+                        new() { Id = 2, Name = "Kunda", Latitude = "59.49861000", Longitude = "26.52611000" },
+                        new() { Id = 3, Name = "Viru-Nigula vald", Latitude = "59.46387000", Longitude = "26.58585000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 91,
+                    Id = 90,
                     Name = "Vormsi",
                     StateCode = "907",
                     Iso3166_2 = "EE-907",
@@ -1575,6 +1544,22 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "59.00000000",
                     Longitude = "23.01670000",
                     Type = "rural municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Hullo", Latitude = "58.99004000", Longitude = "23.24441000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 91,
+                    Name = "Võru",
+                    StateCode = "87",
+                    Iso3166_2 = "EE-87",
+                    TimeZoneId = "Europe/Tallinn",
+                    Latitude = "57.81326070",
+                    Longitude = "26.98475760",
+                    Type = "county",
                     Cities = new()
                     {
                     }
@@ -1592,35 +1577,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "rural municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Võru vald", Latitude = "57.86618000", Longitude = "26.97418000" }
                     }
                 },
 
                 new()
                 {
                     Id = 93,
-                    Name = "Võru",
-                    StateCode = "87",
-                    Iso3166_2 = "EE-87",
-                    TimeZoneId = "Europe/Tallinn",
-                    Latitude = "57.81326070",
-                    Longitude = "26.98475760",
-                    Type = "county",
-                    Cities = new()
-                    {
-                        new() { Id = 1, Name = "Antsla", Latitude = "57.82556000", Longitude = "26.54056000" },
-                        new() { Id = 2, Name = "Antsla vald", Latitude = "57.77738000", Longitude = "26.59520000" },
-                        new() { Id = 3, Name = "Rõuge", Latitude = "57.72778000", Longitude = "26.90972000" },
-                        new() { Id = 4, Name = "Rõuge vald", Latitude = "57.72780000", Longitude = "26.88033000" },
-                        new() { Id = 5, Name = "Vana-Antsla", Latitude = "57.86611000", Longitude = "26.53222000" },
-                        new() { Id = 6, Name = "Värska", Latitude = "57.95806000", Longitude = "27.63806000" },
-                        new() { Id = 7, Name = "Võru", Latitude = "57.83389000", Longitude = "27.01944000" },
-                        new() { Id = 8, Name = "Võru vald", Latitude = "57.86618000", Longitude = "26.97418000" }
-                    }
-                },
-
-                new()
-                {
-                    Id = 94,
                     Name = "Võru",
                     StateCode = "919",
                     Iso3166_2 = "EE-919",
@@ -1630,6 +1593,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "urban municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Võru", Latitude = "57.83389000", Longitude = "27.01944000" }
                     }
                 }
             }

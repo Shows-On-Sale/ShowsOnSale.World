@@ -180,8 +180,8 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "NSK",
                     Iso3166_2 = "HK-NSK",
                     TimeZoneId = "Asia/Hong_Kong",
-                    Latitude = "21.67305190",
-                    Longitude = "108.39543130",
+                    Latitude = "22.38143056",
+                    Longitude = "114.27051944",
                     Type = "district",
                     Cities = new()
                     {
@@ -272,8 +272,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Tsuen Wan", Latitude = "22.37100000", Longitude = "114.11400000" },
-                        new() { Id = 2, Name = "Tuen Mun", Latitude = "22.39500000", Longitude = "113.97300000" }
+                        new() { Id = 1, Name = "Tsuen Wan", Latitude = "22.37100000", Longitude = "114.11400000" }
                     }
                 },
 
@@ -289,6 +288,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "district",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Tuen Mun", Latitude = "22.39500000", Longitude = "113.97300000" }
                     }
                 },
 

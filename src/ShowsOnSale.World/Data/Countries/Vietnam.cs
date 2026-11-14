@@ -73,27 +73,27 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Cho Dok", Latitude = "10.70000000", Longitude = "105.11667000" },
-                        new() { Id = 2, Name = "Dương Đông", Latitude = "10.21716000", Longitude = "103.95929000" },
-                        new() { Id = 3, Name = "Hà Tiên", Latitude = "10.38310000", Longitude = "104.48753000" },
-                        new() { Id = 4, Name = "Huyện An Biên", Latitude = "9.81291000", Longitude = "105.05230000" },
-                        new() { Id = 5, Name = "Huyện An Minh", Latitude = "9.66704000", Longitude = "104.94848000" },
-                        new() { Id = 6, Name = "Huyện An Phú", Latitude = "10.84274000", Longitude = "105.08990000" },
-                        new() { Id = 7, Name = "Huyện Châu Phú", Latitude = "10.57166000", Longitude = "105.16991000" },
-                        new() { Id = 8, Name = "Huyện Châu Thành", Latitude = "9.94372000", Longitude = "105.16868000" },
-                        new() { Id = 9, Name = "Huyện Chợ Mới", Latitude = "10.47730000", Longitude = "105.49092000" },
-                        new() { Id = 10, Name = "Huyện Giồng Riềng", Latitude = "9.91224000", Longitude = "105.37311000" },
-                        new() { Id = 11, Name = "Huyện Gò Quao", Latitude = "9.74027000", Longitude = "105.29766000" },
-                        new() { Id = 12, Name = "Huyện Hòn Đất", Latitude = "10.22908000", Longitude = "104.95280000" },
+                        new() { Id = 1, Name = "An Minh", Latitude = "9.61144000", Longitude = "104.94650000" },
+                        new() { Id = 2, Name = "An Phú", Latitude = "10.81591000", Longitude = "105.09038000" },
+                        new() { Id = 3, Name = "Châu Phú", Latitude = "10.56982000", Longitude = "105.22953000" },
+                        new() { Id = 4, Name = "Châu Thành", Latitude = "9.90248000", Longitude = "105.15950000" },
+                        new() { Id = 5, Name = "Cho Dok", Latitude = "10.70000000", Longitude = "105.11667000" },
+                        new() { Id = 6, Name = "Chợ Mới", Latitude = "10.55123000", Longitude = "105.40441000" },
+                        new() { Id = 7, Name = "Dương Đông", Latitude = "10.21716000", Longitude = "103.95929000" },
+                        new() { Id = 8, Name = "Giồng Riềng", Latitude = "9.90974000", Longitude = "105.31433000" },
+                        new() { Id = 9, Name = "Gò Quao", Latitude = "9.73320000", Longitude = "105.27393000" },
+                        new() { Id = 10, Name = "Hà Tiên", Latitude = "10.38310000", Longitude = "104.48753000" },
+                        new() { Id = 11, Name = "Hòn Đất", Latitude = "10.18462000", Longitude = "104.92959000" },
+                        new() { Id = 12, Name = "Huyện An Biên", Latitude = "9.81291000", Longitude = "105.05230000" },
                         new() { Id = 13, Name = "Huyện Kiên Hải", Latitude = "9.83971000", Longitude = "104.61560000" },
-                        new() { Id = 14, Name = "Huyện Phú Quốc", Latitude = "10.25516000", Longitude = "104.01455000" },
-                        new() { Id = 15, Name = "Huyện Phú Tân", Latitude = "10.65716000", Longitude = "105.28459000" },
-                        new() { Id = 16, Name = "Huyện Tân Hiệp", Latitude = "10.09540000", Longitude = "105.25936000" },
-                        new() { Id = 17, Name = "Huyện Tri Tôn", Latitude = "10.41416000", Longitude = "104.96136000" },
-                        new() { Id = 18, Name = "Huyện Vĩnh Thuận", Latitude = "9.53306000", Longitude = "105.24490000" },
-                        new() { Id = 19, Name = "Kien Luong Town", Latitude = "10.24892000", Longitude = "104.59000000" },
-                        new() { Id = 20, Name = "Long Xuyên", Latitude = "10.38639000", Longitude = "105.43518000" },
-                        new() { Id = 21, Name = "Rạch Giá", Latitude = "10.01245000", Longitude = "105.08091000" }
+                        new() { Id = 14, Name = "Kiên Lương", Latitude = "10.28624000", Longitude = "104.64616000" },
+                        new() { Id = 15, Name = "Long Xuyên", Latitude = "10.38639000", Longitude = "105.43518000" },
+                        new() { Id = 16, Name = "Phú Tân", Latitude = "10.59236000", Longitude = "105.35573000" },
+                        new() { Id = 17, Name = "Rạch Giá", Latitude = "10.01245000", Longitude = "105.08091000" },
+                        new() { Id = 18, Name = "Tân Châu", Latitude = "10.79832000", Longitude = "105.23887000" },
+                        new() { Id = 19, Name = "Tân Hiệp", Latitude = "10.11709000", Longitude = "105.28578000" },
+                        new() { Id = 20, Name = "Tri Tôn", Latitude = "10.42020000", Longitude = "105.00073000" },
+                        new() { Id = 21, Name = "Vĩnh Phong", Latitude = "9.50802000", Longitude = "105.25747000" }
                     }
                 },
 
@@ -106,19 +106,19 @@ namespace ShowsOnSale.World.Data.Countries
                     TimeZoneId = "Asia/Ho_Chi_Minh",
                     Latitude = "21.17815150",
                     Longitude = "106.07100780",
-                    Type = "province",
+                    Type = "municipality",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bắc Giang", Latitude = "21.27307000", Longitude = "106.19460000" },
                         new() { Id = 2, Name = "Bắc Ninh", Latitude = "21.18608000", Longitude = "106.07631000" },
                         new() { Id = 3, Name = "Cung Kiệm", Latitude = "21.18697000", Longitude = "106.16076000" },
-                        new() { Id = 4, Name = "Huyện Gia Bình", Latitude = "21.07795000", Longitude = "106.20903000" },
-                        new() { Id = 5, Name = "Huyện Lục Nam", Latitude = "21.27548000", Longitude = "106.46519000" },
-                        new() { Id = 6, Name = "Huyện Lục Ngạn", Latitude = "21.43719000", Longitude = "106.65845000" },
-                        new() { Id = 7, Name = "Huyện Thuận Thành", Latitude = "21.04085000", Longitude = "106.07515000" },
-                        new() { Id = 8, Name = "Huyện Tiên Du", Latitude = "21.12195000", Longitude = "106.03995000" },
-                        new() { Id = 9, Name = "Huyện Yên Phong", Latitude = "21.20676000", Longitude = "105.99427000" },
-                        new() { Id = 10, Name = "Huyện Yên Thế", Latitude = "21.51667000", Longitude = "106.11689000" }
+                        new() { Id = 4, Name = "Gia Bình", Latitude = "21.05938000", Longitude = "106.17468000" },
+                        new() { Id = 5, Name = "Huyện Lục Ngạn", Latitude = "21.43719000", Longitude = "106.65845000" },
+                        new() { Id = 6, Name = "Huyện Thuận Thành", Latitude = "21.04085000", Longitude = "106.07515000" },
+                        new() { Id = 7, Name = "Huyện Yên Thế", Latitude = "21.51667000", Longitude = "106.11689000" },
+                        new() { Id = 8, Name = "Lục Nam", Latitude = "21.30626000", Longitude = "106.38673000" },
+                        new() { Id = 9, Name = "Tiên Du", Latitude = "21.14388000", Longitude = "106.02018000" },
+                        new() { Id = 10, Name = "Yên Phong", Latitude = "21.19491000", Longitude = "105.95471000" }
                     }
                 },
 
@@ -136,12 +136,12 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bạc Liêu", Latitude = "9.29414000", Longitude = "105.72776000" },
                         new() { Id = 2, Name = "Cà Mau", Latitude = "9.17682000", Longitude = "105.15242000" },
-                        new() { Id = 3, Name = "Huyện Cái Nước", Latitude = "9.00094000", Longitude = "105.04201000" },
-                        new() { Id = 4, Name = "Huyện Đầm Dơi", Latitude = "8.96029000", Longitude = "105.24107000" },
+                        new() { Id = 3, Name = "Cái Nước", Latitude = "8.94231000", Longitude = "105.01411000" },
+                        new() { Id = 4, Name = "Đầm Dơi", Latitude = "8.99214000", Longitude = "105.19602000" },
                         new() { Id = 5, Name = "Huyện Giá Rai", Latitude = "9.27162000", Longitude = "105.40017000" },
                         new() { Id = 6, Name = "Huyện Hồng Dân", Latitude = "9.53822000", Longitude = "105.42242000" },
-                        new() { Id = 7, Name = "Huyen Nam Can", Latitude = "8.81531000", Longitude = "105.05574000" },
-                        new() { Id = 8, Name = "Huyện Thới Bình", Latitude = "9.35790000", Longitude = "105.16023000" }
+                        new() { Id = 7, Name = "Năm Căn", Latitude = "8.75899000", Longitude = "104.99285000" },
+                        new() { Id = 8, Name = "Thới Bình", Latitude = "9.35584000", Longitude = "105.09929000" }
                     }
                 },
 
@@ -159,14 +159,14 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Cần Thơ", Latitude = "10.11667000", Longitude = "105.50000000" },
                         new() { Id = 2, Name = "Cờ Đỏ", Latitude = "10.09472222", Longitude = "105.43194444" },
-                        new() { Id = 3, Name = "Huyện Châu Thành A", Latitude = "9.93056000", Longitude = "105.64194000" },
-                        new() { Id = 4, Name = "Huyện Kế Sách", Latitude = "9.81771000", Longitude = "105.94190000" },
-                        new() { Id = 5, Name = "Huyện Long Phú", Latitude = "9.63715000", Longitude = "106.08226000" },
-                        new() { Id = 6, Name = "Huyện Mỹ Tú", Latitude = "9.60849000", Longitude = "105.80681000" },
-                        new() { Id = 7, Name = "Huyện Mỹ Xuyên", Latitude = "9.44200000", Longitude = "105.88546000" },
-                        new() { Id = 8, Name = "Huyen Nga Nam", Latitude = "9.56127000", Longitude = "105.59476000" },
-                        new() { Id = 9, Name = "Huyện Thạnh Trị", Latitude = "9.46939000", Longitude = "105.71196000" },
-                        new() { Id = 10, Name = "Sóc Trăng", Latitude = "9.59995000", Longitude = "105.97193000" },
+                        new() { Id = 3, Name = "Huyen Nga Nam", Latitude = "9.56127000", Longitude = "105.59476000" },
+                        new() { Id = 4, Name = "Kế Sách", Latitude = "9.76743000", Longitude = "105.98574000" },
+                        new() { Id = 5, Name = "Long Phú", Latitude = "9.61025000", Longitude = "106.11881000" },
+                        new() { Id = 6, Name = "Mỹ Tú", Latitude = "9.63537000", Longitude = "105.81165000" },
+                        new() { Id = 7, Name = "Mỹ Xuyên", Latitude = "9.56006000", Longitude = "105.98984000" },
+                        new() { Id = 8, Name = "Phú Lộc", Latitude = "9.42838000", Longitude = "105.74111000" },
+                        new() { Id = 9, Name = "Sóc Trăng", Latitude = "9.59995000", Longitude = "105.97193000" },
+                        new() { Id = 10, Name = "Tân Hòa", Latitude = "9.92402000", Longitude = "105.62964000" },
                         new() { Id = 11, Name = "Thới Lai", Latitude = "10.06305556", Longitude = "105.56083333" },
                         new() { Id = 12, Name = "Vị Thanh", Latitude = "9.78449000", Longitude = "105.47012000" },
                         new() { Id = 13, Name = "Vĩnh Thạnh", Latitude = "10.21916667", Longitude = "105.40111111" }
@@ -185,17 +185,17 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Cao Bằng", Latitude = "22.66568000", Longitude = "106.25786000" },
-                        new() { Id = 2, Name = "Huyện Bảo Lac", Latitude = "22.90085000", Longitude = "105.73332000" },
-                        new() { Id = 3, Name = "Huyện Bảo Lâm", Latitude = "22.87041000", Longitude = "105.48780000" },
-                        new() { Id = 4, Name = "Huyện Hạ Lang", Latitude = "22.70933000", Longitude = "106.67657000" },
-                        new() { Id = 5, Name = "Huyện Hà Quảng", Latitude = "22.90763000", Longitude = "106.12487000" },
-                        new() { Id = 6, Name = "Huyện Nguyên Bình", Latitude = "22.62400000", Longitude = "105.93248000" },
-                        new() { Id = 7, Name = "Huyen Phuc Hoa", Latitude = "22.53840000", Longitude = "106.51039000" },
-                        new() { Id = 8, Name = "Huyện Thạch An", Latitude = "22.47654000", Longitude = "106.34237000" },
-                        new() { Id = 9, Name = "Huyện Thông Nông", Latitude = "22.80735000", Longitude = "105.95846000" },
-                        new() { Id = 10, Name = "Huyện Trà Lĩnh", Latitude = "22.80961000", Longitude = "106.32543000" },
-                        new() { Id = 11, Name = "Huyện Trùng Khánh", Latitude = "22.83333000", Longitude = "106.56074000" }
+                        new() { Id = 1, Name = "Bảo Lạc", Latitude = "22.94924000", Longitude = "105.68046000" },
+                        new() { Id = 2, Name = "Bảo Lâm", Latitude = "22.82968000", Longitude = "105.49334000" },
+                        new() { Id = 3, Name = "Cao Bằng", Latitude = "22.66568000", Longitude = "106.25786000" },
+                        new() { Id = 4, Name = "Đông Khê", Latitude = "22.42939000", Longitude = "106.43194000" },
+                        new() { Id = 5, Name = "Hạ Lang", Latitude = "22.68749000", Longitude = "106.67004000" },
+                        new() { Id = 6, Name = "Huyen Phuc Hoa", Latitude = "22.53840000", Longitude = "106.51039000" },
+                        new() { Id = 7, Name = "Huyện Thông Nông", Latitude = "22.80735000", Longitude = "105.95846000" },
+                        new() { Id = 8, Name = "Huyện Trà Lĩnh", Latitude = "22.80961000", Longitude = "106.32543000" },
+                        new() { Id = 9, Name = "Nguyên Bình", Latitude = "22.64995000", Longitude = "105.95985000" },
+                        new() { Id = 10, Name = "Trùng Khánh", Latitude = "22.83514000", Longitude = "106.52496000" },
+                        new() { Id = 11, Name = "Trường Hà", Latitude = "22.90243000", Longitude = "106.07737000" }
                     }
                 },
 
@@ -212,17 +212,17 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Da Nang", Latitude = "16.06778000", Longitude = "108.22083000" },
-                        new() { Id = 2, Name = "Hội An", Latitude = "15.87944000", Longitude = "108.33500000" },
-                        new() { Id = 3, Name = "Huyện Duy Xuyên", Latitude = "15.78970000", Longitude = "108.20247000" },
-                        new() { Id = 4, Name = "Huyện Đại Lộc", Latitude = "15.83721000", Longitude = "107.97894000" },
-                        new() { Id = 5, Name = "Huyện Điện Bàn", Latitude = "15.89917000", Longitude = "108.22470000" },
-                        new() { Id = 6, Name = "Huyện Hiệp Đức", Latitude = "15.53857000", Longitude = "108.09539000" },
-                        new() { Id = 7, Name = "Huyện Nam Giang", Latitude = "15.63201000", Longitude = "107.60267000" },
-                        new() { Id = 8, Name = "Huyện Núi Thành", Latitude = "15.43345000", Longitude = "108.57438000" },
-                        new() { Id = 9, Name = "Huyện Phước Sơn", Latitude = "15.38806000", Longitude = "107.85766000" },
-                        new() { Id = 10, Name = "Huyện Tiên Phước", Latitude = "15.47090000", Longitude = "108.28257000" },
-                        new() { Id = 11, Name = "Huyện Trà My", Latitude = "15.25000000", Longitude = "108.08333000" },
-                        new() { Id = 12, Name = "Tam Kỳ", Latitude = "15.57364000", Longitude = "108.47403000" }
+                        new() { Id = 2, Name = "Đại Lộc", Latitude = "15.88214000", Longitude = "108.12092000" },
+                        new() { Id = 3, Name = "Hội An", Latitude = "15.87944000", Longitude = "108.33500000" },
+                        new() { Id = 4, Name = "Huyện Điện Bàn", Latitude = "15.89917000", Longitude = "108.22470000" },
+                        new() { Id = 5, Name = "Huyện Hiệp Đức", Latitude = "15.53857000", Longitude = "108.09539000" },
+                        new() { Id = 6, Name = "Huyện Nam Giang", Latitude = "15.63201000", Longitude = "107.60267000" },
+                        new() { Id = 7, Name = "Huyện Trà My", Latitude = "15.25000000", Longitude = "108.08333000" },
+                        new() { Id = 8, Name = "Khâm Đức", Latitude = "15.44508000", Longitude = "107.79337000" },
+                        new() { Id = 9, Name = "Nam Phước", Latitude = "15.82898000", Longitude = "108.25956000" },
+                        new() { Id = 10, Name = "Núi Thành", Latitude = "15.43194000", Longitude = "108.65946000" },
+                        new() { Id = 11, Name = "Tam Kỳ", Latitude = "15.57364000", Longitude = "108.47403000" },
+                        new() { Id = 12, Name = "Tiên Phước", Latitude = "15.48819000", Longitude = "108.30736000" }
                     }
                 },
 
@@ -239,12 +239,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Buôn Ma Thuột", Latitude = "12.66747000", Longitude = "108.03775000" },
-                        new() { Id = 2, Name = "Huyện Buôn Đôn", Latitude = "12.90396000", Longitude = "107.73870000" },
-                        new() { Id = 3, Name = "Huyện Ea H'Leo", Latitude = "13.31814000", Longitude = "108.07148000" },
-                        new() { Id = 4, Name = "Huyện Ea Súp", Latitude = "13.18279000", Longitude = "107.79954000" },
-                        new() { Id = 5, Name = "Huyện Sơn Hòa", Latitude = "13.15868000", Longitude = "108.97281000" },
-                        new() { Id = 6, Name = "Huyện Sông Hinh", Latitude = "12.91667000", Longitude = "108.91667000" },
-                        new() { Id = 7, Name = "Sông Cầu", Latitude = "13.45560000", Longitude = "109.22348000" },
+                        new() { Id = 2, Name = "Ea Drăng", Latitude = "13.20450000", Longitude = "108.21029000" },
+                        new() { Id = 3, Name = "Ea Súp", Latitude = "13.06616000", Longitude = "107.88546000" },
+                        new() { Id = 4, Name = "Huyện Buôn Đôn", Latitude = "12.90396000", Longitude = "107.73870000" },
+                        new() { Id = 5, Name = "Sơn Hòa", Latitude = "13.04998000", Longitude = "108.97895000" },
+                        new() { Id = 6, Name = "Sông Cầu", Latitude = "13.45560000", Longitude = "109.22348000" },
+                        new() { Id = 7, Name = "Sông Hinh", Latitude = "12.97908000", Longitude = "108.89732000" },
                         new() { Id = 8, Name = "Tuy Hòa", Latitude = "13.09546000", Longitude = "109.32094000" }
                     }
                 },
@@ -262,11 +262,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Dien Bien Phu", Latitude = "21.38602000", Longitude = "103.02301000" },
-                        new() { Id = 2, Name = "Huyện Điện Biên Đông", Latitude = "21.25266000", Longitude = "103.26900000" },
-                        new() { Id = 3, Name = "Huyện Mường Nhé", Latitude = "22.10353000", Longitude = "102.58465000" },
-                        new() { Id = 4, Name = "Huyện Tủa Chùa", Latitude = "21.95357000", Longitude = "103.37332000" },
-                        new() { Id = 5, Name = "Huyện Tuần Giáo", Latitude = "21.69481000", Longitude = "103.41758000" },
-                        new() { Id = 6, Name = "Thị Xã Mưòng Lay", Latitude = "22.03374000", Longitude = "103.12331000" }
+                        new() { Id = 2, Name = "Huyện Mường Nhé", Latitude = "22.10353000", Longitude = "102.58465000" },
+                        new() { Id = 3, Name = "Na Son", Latitude = "21.29673000", Longitude = "103.22009000" },
+                        new() { Id = 4, Name = "Thị Xã Mưòng Lay", Latitude = "22.03374000", Longitude = "103.12331000" },
+                        new() { Id = 5, Name = "Tủa Chùa", Latitude = "21.85771000", Longitude = "103.34260000" },
+                        new() { Id = 6, Name = "Tuần Giáo", Latitude = "21.58992000", Longitude = "103.42179000" }
                     }
                 },
 
@@ -279,23 +279,24 @@ namespace ShowsOnSale.World.Data.Countries
                     TimeZoneId = "Asia/Ho_Chi_Minh",
                     Latitude = "11.42854460",
                     Longitude = "107.16242450",
-                    Type = "province",
+                    Type = "municipality",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Biên Hòa", Latitude = "10.94469000", Longitude = "106.82432000" },
                         new() { Id = 2, Name = "Bình Long", Latitude = "11.64711000", Longitude = "106.60586000" },
-                        new() { Id = 3, Name = "Don Luan", Latitude = "11.53495000", Longitude = "106.88324000" },
-                        new() { Id = 4, Name = "Huyện Bù Đốp", Latitude = "12.00374000", Longitude = "106.81545000" },
-                        new() { Id = 5, Name = "Huyện Chơn Thành", Latitude = "11.46283000", Longitude = "106.66655000" },
-                        new() { Id = 6, Name = "Huyện Định Quán", Latitude = "11.21866000", Longitude = "107.33959000" },
-                        new() { Id = 7, Name = "Huyện Đồng Phú", Latitude = "11.50071000", Longitude = "107.01192000" },
-                        new() { Id = 8, Name = "Huyện Hớn Quản", Latitude = "11.59718000", Longitude = "106.62739000" },
-                        new() { Id = 9, Name = "Huyện Long Thành", Latitude = "10.76162000", Longitude = "107.02688000" },
-                        new() { Id = 10, Name = "Huyện Tân Phú", Latitude = "11.39867000", Longitude = "107.39976000" },
-                        new() { Id = 11, Name = "Huyện Thống Nhất", Latitude = "10.97764000", Longitude = "107.15909000" },
-                        new() { Id = 12, Name = "Huyện Trảng Bom", Latitude = "10.96624000", Longitude = "107.03614000" },
-                        new() { Id = 13, Name = "Huyện Vĩnh Cửu", Latitude = "11.25725000", Longitude = "107.02773000" },
-                        new() { Id = 14, Name = "Thị Xã Phước Long", Latitude = "11.81142000", Longitude = "106.99670000" }
+                        new() { Id = 3, Name = "Dong Nai", Latitude = "10.94469000", Longitude = "106.82432000" },
+                        new() { Id = 4, Name = "Đồng Phú", Latitude = "11.45119000", Longitude = "106.86811000" },
+                        new() { Id = 5, Name = "Đồng Xoài", Latitude = "11.53495000", Longitude = "106.88324000" },
+                        new() { Id = 6, Name = "Huyện Bù Đốp", Latitude = "12.00374000", Longitude = "106.81545000" },
+                        new() { Id = 7, Name = "Huyện Chơn Thành", Latitude = "11.46283000", Longitude = "106.66655000" },
+                        new() { Id = 8, Name = "Huyện Định Quán", Latitude = "11.21866000", Longitude = "107.33959000" },
+                        new() { Id = 9, Name = "Huyện Hớn Quản", Latitude = "11.59718000", Longitude = "106.62739000" },
+                        new() { Id = 10, Name = "Huyện Thống Nhất", Latitude = "10.97764000", Longitude = "107.15909000" },
+                        new() { Id = 11, Name = "Long Thành", Latitude = "10.78909000", Longitude = "106.95029000" },
+                        new() { Id = 12, Name = "Tân Phú", Latitude = "11.27221000", Longitude = "107.43655000" },
+                        new() { Id = 13, Name = "Thị Xã Phước Long", Latitude = "11.81142000", Longitude = "106.99670000" },
+                        new() { Id = 14, Name = "Trảng Bom", Latitude = "10.95358000", Longitude = "107.00589000" },
+                        new() { Id = 15, Name = "Trị An", Latitude = "11.08901000", Longitude = "107.03516000" }
                     }
                 },
 
@@ -312,24 +313,23 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Cao Lãnh", Latitude = "10.46017000", Longitude = "105.63294000" },
-                        new() { Id = 2, Name = "Huyện Cái Bè", Latitude = "10.38824000", Longitude = "105.94620000" },
-                        new() { Id = 3, Name = "Huyện Cai Lậy", Latitude = "10.38943000", Longitude = "106.06774000" },
-                        new() { Id = 4, Name = "Huyện Châu Thành", Latitude = "10.38600000", Longitude = "106.27311000" },
-                        new() { Id = 5, Name = "Huyện Chợ Gạo", Latitude = "10.37373000", Longitude = "106.44341000" },
-                        new() { Id = 6, Name = "Huyện Gò Công Đông", Latitude = "10.36784000", Longitude = "106.74592000" },
-                        new() { Id = 7, Name = "Huyện Gò Công Tây", Latitude = "10.34527000", Longitude = "106.59851000" },
-                        new() { Id = 8, Name = "Huyện Lai Vung", Latitude = "10.24051000", Longitude = "105.66327000" },
-                        new() { Id = 9, Name = "Huyện Lấp Vò", Latitude = "10.35918000", Longitude = "105.60611000" },
-                        new() { Id = 10, Name = "Huyện Tam Nông", Latitude = "10.72761000", Longitude = "105.52522000" },
-                        new() { Id = 11, Name = "Huyện Tân Hồng", Latitude = "10.87089000", Longitude = "105.49104000" },
-                        new() { Id = 12, Name = "Huyện Tân Phước", Latitude = "10.51489000", Longitude = "106.23312000" },
-                        new() { Id = 13, Name = "Huyện Thanh Bình", Latitude = "10.60137000", Longitude = "105.47811000" },
-                        new() { Id = 14, Name = "Huyện Tháp Mười", Latitude = "10.54398000", Longitude = "105.81875000" },
-                        new() { Id = 15, Name = "Mỹ Tho", Latitude = "10.36004000", Longitude = "106.35996000" },
-                        new() { Id = 16, Name = "Sa Dec", Latitude = "10.29085000", Longitude = "105.75635000" },
-                        new() { Id = 17, Name = "Thành Phố Mỹ Tho", Latitude = "10.36221000", Longitude = "106.36824000" },
-                        new() { Id = 18, Name = "Thị Trấn Tân Thành", Latitude = "10.25616000", Longitude = "105.59280000" },
-                        new() { Id = 19, Name = "Thị Xã Gò Công", Latitude = "10.40005000", Longitude = "106.65847000" }
+                        new() { Id = 2, Name = "Châu Thành", Latitude = "10.44905000", Longitude = "106.34386000" },
+                        new() { Id = 3, Name = "Chợ Gạo", Latitude = "10.34984000", Longitude = "106.46340000" },
+                        new() { Id = 4, Name = "Huyện Cái Bè", Latitude = "10.38824000", Longitude = "105.94620000" },
+                        new() { Id = 5, Name = "Huyện Cai Lậy", Latitude = "10.38943000", Longitude = "106.06774000" },
+                        new() { Id = 6, Name = "Huyện Lai Vung", Latitude = "10.24051000", Longitude = "105.66327000" },
+                        new() { Id = 7, Name = "Huyện Tháp Mười", Latitude = "10.54398000", Longitude = "105.81875000" },
+                        new() { Id = 8, Name = "Lấp Vò", Latitude = "10.36161000", Longitude = "105.51924000" },
+                        new() { Id = 9, Name = "Mỹ Tho", Latitude = "10.36004000", Longitude = "106.35996000" },
+                        new() { Id = 10, Name = "Sa Dec", Latitude = "10.29085000", Longitude = "105.75635000" },
+                        new() { Id = 11, Name = "Tân Hòa", Latitude = "10.31906000", Longitude = "106.71128000" },
+                        new() { Id = 12, Name = "Tân Hồng", Latitude = "10.87016000", Longitude = "105.46583000" },
+                        new() { Id = 13, Name = "Tân Phước 1", Latitude = "10.47711000", Longitude = "106.19256000" },
+                        new() { Id = 14, Name = "Thanh Bình", Latitude = "10.56190000", Longitude = "105.48411000" },
+                        new() { Id = 15, Name = "Thị Trấn Tân Thành", Latitude = "10.25616000", Longitude = "105.59280000" },
+                        new() { Id = 16, Name = "Thị Xã Gò Công", Latitude = "10.40005000", Longitude = "106.65847000" },
+                        new() { Id = 17, Name = "Tràm Chim", Latitude = "10.67001000", Longitude = "105.56469000" },
+                        new() { Id = 18, Name = "Vĩnh Bình", Latitude = "10.34498000", Longitude = "106.58056000" }
                     }
                 },
 
@@ -345,23 +345,23 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Huyện An Lão", Latitude = "14.55676000", Longitude = "108.80100000" },
-                        new() { Id = 2, Name = "Huyện Chư Păh", Latitude = "14.15941000", Longitude = "107.98411000" },
-                        new() { Id = 3, Name = "Huyện Chư Prông", Latitude = "13.59976000", Longitude = "107.81099000" },
-                        new() { Id = 4, Name = "Huyện Chư Sê", Latitude = "13.74254000", Longitude = "108.08663000" },
-                        new() { Id = 5, Name = "Huyện Đức Cơ", Latitude = "13.78454000", Longitude = "107.66970000" },
+                        new() { Id = 1, Name = "An Lão", Latitude = "14.61241000", Longitude = "108.88990000" },
+                        new() { Id = 2, Name = "Chư Păh", Latitude = "14.10005000", Longitude = "107.96896000" },
+                        new() { Id = 3, Name = "Chư Prông", Latitude = "13.75684000", Longitude = "107.88624000" },
+                        new() { Id = 4, Name = "Chư Sê", Latitude = "13.69153000", Longitude = "108.08023000" },
+                        new() { Id = 5, Name = "Đức Cơ", Latitude = "13.80507000", Longitude = "107.69610000" },
                         new() { Id = 6, Name = "Huyện Hoài Nhơn", Latitude = "14.50535000", Longitude = "109.02315000" },
-                        new() { Id = 7, Name = "Huyện Ia Grai", Latitude = "13.98937000", Longitude = "107.73740000" },
-                        new() { Id = 8, Name = "Huyện KBang", Latitude = "14.30506000", Longitude = "108.49779000" },
-                        new() { Id = 9, Name = "Huyện Kông Chro", Latitude = "13.73519000", Longitude = "108.59697000" },
-                        new() { Id = 10, Name = "Huyện Krông Pa", Latitude = "13.23152000", Longitude = "108.65494000" },
-                        new() { Id = 11, Name = "Huyện Mang Yang", Latitude = "13.92840000", Longitude = "108.30246000" },
-                        new() { Id = 12, Name = "Huyện Phù Mỹ", Latitude = "14.22304000", Longitude = "109.08611000" },
-                        new() { Id = 13, Name = "Huyện Tây Sơn", Latitude = "13.94306000", Longitude = "108.87999000" },
-                        new() { Id = 14, Name = "Huyện Tuy Phước", Latitude = "13.84564000", Longitude = "109.15275000" },
-                        new() { Id = 15, Name = "Huyện Vĩnh Thạnh", Latitude = "14.21100000", Longitude = "108.74389000" },
-                        new() { Id = 16, Name = "Pleiku", Latitude = "13.98333000", Longitude = "108.00000000" },
-                        new() { Id = 17, Name = "Qui Nhon", Latitude = "13.77648000", Longitude = "109.22367000" }
+                        new() { Id = 7, Name = "Huyện KBang", Latitude = "14.30506000", Longitude = "108.49779000" },
+                        new() { Id = 8, Name = "Ia Grai", Latitude = "13.96242000", Longitude = "107.84484000" },
+                        new() { Id = 9, Name = "Kông Chro", Latitude = "13.77532000", Longitude = "108.52558000" },
+                        new() { Id = 10, Name = "Mang Yang", Latitude = "14.03886000", Longitude = "108.25011000" },
+                        new() { Id = 11, Name = "Phù Mỹ", Latitude = "14.17182000", Longitude = "109.04888000" },
+                        new() { Id = 12, Name = "Phú Túc", Latitude = "13.19682000", Longitude = "108.69043000" },
+                        new() { Id = 13, Name = "Pleiku", Latitude = "13.98333000", Longitude = "108.00000000" },
+                        new() { Id = 14, Name = "Qui Nhon", Latitude = "13.77648000", Longitude = "109.22367000" },
+                        new() { Id = 15, Name = "Tây Sơn", Latitude = "13.90964000", Longitude = "108.91903000" },
+                        new() { Id = 16, Name = "Tuy Phước", Latitude = "13.82738000", Longitude = "109.16651000" },
+                        new() { Id = 17, Name = "Vĩnh Thạnh", Latitude = "14.10884000", Longitude = "108.78381000" }
                     }
                 },
 
@@ -381,32 +381,33 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Ba Vì", Latitude = "21.15590590", Longitude = "105.21463610" },
                         new() { Id = 3, Name = "Bắc Từ Liêm", Latitude = "21.07148680", Longitude = "105.71992260" },
                         new() { Id = 4, Name = "Cầu Giấy", Latitude = "21.03022160", Longitude = "105.74947330" },
-                        new() { Id = 5, Name = "Chương Mỹ", Latitude = "20.87863440", Longitude = "105.57313240" },
+                        new() { Id = 5, Name = "Chương Mỹ", Latitude = "20.92375000", Longitude = "105.70155000" },
                         new() { Id = 6, Name = "Đan Phượng", Latitude = "21.12073370", Longitude = "105.59910760" },
                         new() { Id = 7, Name = "Đông Anh", Latitude = "21.13683310", Longitude = "105.74753240" },
                         new() { Id = 8, Name = "Đống Đa", Latitude = "21.01466010", Longitude = "105.79955140" },
                         new() { Id = 9, Name = "Gia Lâm", Latitude = "21.02405790", Longitude = "105.78534730" },
                         new() { Id = 10, Name = "Hà Đông", Latitude = "20.95394960", Longitude = "105.71369010" },
                         new() { Id = 11, Name = "Hai Bà Trưng", Latitude = "21.00675970", Longitude = "105.84126630" },
-                        new() { Id = 12, Name = "Hoài Đức", Latitude = "21.02300260", Longitude = "105.61219450" },
-                        new() { Id = 13, Name = "Hoàn Kiếm", Latitude = "21.03044570", Longitude = "105.83358610" },
-                        new() { Id = 14, Name = "Hoàng Mai", Latitude = "20.97404710", Longitude = "105.81704700" },
-                        new() { Id = 15, Name = "Long Biên", Latitude = "21.03803170", Longitude = "105.84909840" },
-                        new() { Id = 16, Name = "Mê Linh", Latitude = "21.18078460", Longitude = "105.62112980" },
-                        new() { Id = 17, Name = "Mỹ Đức", Latitude = "20.69745440", Longitude = "105.56582850" },
-                        new() { Id = 18, Name = "Nam Từ Liêm", Latitude = "21.01789090", Longitude = "105.72108680" },
-                        new() { Id = 19, Name = "Phú Xuyên", Latitude = "20.72900540", Longitude = "105.81491120" },
-                        new() { Id = 20, Name = "Phúc Thọ", Latitude = "21.10993100", Longitude = "105.50059130" },
-                        new() { Id = 21, Name = "Quốc Oai", Latitude = "20.97845600", Longitude = "105.43800930" },
-                        new() { Id = 22, Name = "Sóc Sơn", Latitude = "21.28139310", Longitude = "105.66618880" },
-                        new() { Id = 23, Name = "Sơn Tây", Latitude = "21.09683340", Longitude = "105.39385950" },
-                        new() { Id = 24, Name = "Tây Hồ", Latitude = "21.06882190", Longitude = "105.77920430" },
-                        new() { Id = 25, Name = "Thạch Thất", Latitude = "21.02408830", Longitude = "105.35102500" },
-                        new() { Id = 26, Name = "Thanh Oai", Latitude = "20.86002700", Longitude = "105.70158360" },
-                        new() { Id = 27, Name = "Thanh Trì", Latitude = "20.94176020", Longitude = "105.76821790" },
-                        new() { Id = 28, Name = "Thanh Xuân", Latitude = "20.99482550", Longitude = "105.79696040" },
-                        new() { Id = 29, Name = "Thường Tín", Latitude = "20.83223420", Longitude = "105.79192130" },
-                        new() { Id = 30, Name = "Ứng Hòa", Latitude = "20.71097910", Longitude = "105.63648520" }
+                        new() { Id = 12, Name = "Hanoi", Latitude = "21.02450000", Longitude = "105.84117000" },
+                        new() { Id = 13, Name = "Hoài Đức", Latitude = "21.02300260", Longitude = "105.61219450" },
+                        new() { Id = 14, Name = "Hoàn Kiếm", Latitude = "21.03044570", Longitude = "105.83358610" },
+                        new() { Id = 15, Name = "Hoàng Mai", Latitude = "20.97404710", Longitude = "105.81704700" },
+                        new() { Id = 16, Name = "Long Biên", Latitude = "21.03803170", Longitude = "105.84909840" },
+                        new() { Id = 17, Name = "Mê Linh", Latitude = "21.18078460", Longitude = "105.62112980" },
+                        new() { Id = 18, Name = "Mỹ Đức", Latitude = "20.68667000", Longitude = "105.74471000" },
+                        new() { Id = 19, Name = "Nam Từ Liêm", Latitude = "21.01789090", Longitude = "105.72108680" },
+                        new() { Id = 20, Name = "Phú Xuyên", Latitude = "20.74549000", Longitude = "105.91363000" },
+                        new() { Id = 21, Name = "Phúc Thọ", Latitude = "21.10345000", Longitude = "105.54551000" },
+                        new() { Id = 22, Name = "Quốc Oai", Latitude = "20.97845600", Longitude = "105.43800930" },
+                        new() { Id = 23, Name = "Sóc Sơn", Latitude = "21.25782000", Longitude = "105.84894000" },
+                        new() { Id = 24, Name = "Sơn Tây", Latitude = "21.09683340", Longitude = "105.39385950" },
+                        new() { Id = 25, Name = "Tây Hồ", Latitude = "21.06882190", Longitude = "105.77920430" },
+                        new() { Id = 26, Name = "Thạch Thất", Latitude = "21.05723000", Longitude = "105.57919000" },
+                        new() { Id = 27, Name = "Thanh Oai", Latitude = "20.85265000", Longitude = "105.76963000" },
+                        new() { Id = 28, Name = "Thanh Trì", Latitude = "20.94176020", Longitude = "105.76821790" },
+                        new() { Id = 29, Name = "Thanh Xuân", Latitude = "20.99482550", Longitude = "105.79696040" },
+                        new() { Id = 30, Name = "Thường Tín", Latitude = "20.86874000", Longitude = "105.86125000" },
+                        new() { Id = 31, Name = "Vân Đình", Latitude = "20.73514000", Longitude = "105.77236000" }
                     }
                 },
 
@@ -422,13 +423,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Hà Tĩnh", Latitude = "18.34282000", Longitude = "105.90569000" },
-                        new() { Id = 2, Name = "Huyện Cẩm Xuyên", Latitude = "18.19059000", Longitude = "106.00186000" },
-                        new() { Id = 3, Name = "Huyện Can Lộc", Latitude = "18.44414000", Longitude = "105.76350000" },
-                        new() { Id = 4, Name = "Huyện Ðức Thọ", Latitude = "18.49699000", Longitude = "105.61016000" },
+                        new() { Id = 1, Name = "Cẩm Xuyên", Latitude = "18.25029000", Longitude = "106.00132000" },
+                        new() { Id = 2, Name = "Can Lộc", Latitude = "18.45119000", Longitude = "105.77969000" },
+                        new() { Id = 3, Name = "Đức Thọ", Latitude = "18.53957000", Longitude = "105.58302000" },
+                        new() { Id = 4, Name = "Hà Tĩnh", Latitude = "18.34282000", Longitude = "105.90569000" },
                         new() { Id = 5, Name = "Huyện Kỳ Anh", Latitude = "18.05805000", Longitude = "106.24580000" },
                         new() { Id = 6, Name = "Huyện Nghi Xuân", Latitude = "18.62419000", Longitude = "105.76829000" },
-                        new() { Id = 7, Name = "Huyện Thạch Hà", Latitude = "18.35091000", Longitude = "105.81123000" }
+                        new() { Id = 7, Name = "Thạch Hà", Latitude = "18.36788000", Longitude = "105.86122000" }
                     }
                 },
 
@@ -441,18 +442,18 @@ namespace ShowsOnSale.World.Data.Countries
                     TimeZoneId = "Asia/Ho_Chi_Minh",
                     Latitude = "20.86232780",
                     Longitude = "106.67992660",
-                    Type = "province",
+                    Type = "municipality",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Cát Bà", Latitude = "20.72779000", Longitude = "107.04819000" },
                         new() { Id = 2, Name = "Hải Dương", Latitude = "20.94099000", Longitude = "106.33302000" },
                         new() { Id = 3, Name = "Haiphong", Latitude = "20.86481000", Longitude = "106.68345000" },
-                        new() { Id = 4, Name = "Huyện Bình Giang", Latitude = "20.87586000", Longitude = "106.19138000" },
-                        new() { Id = 5, Name = "Huyện Cẩm Giàng", Latitude = "20.95000000", Longitude = "106.21667000" },
-                        new() { Id = 6, Name = "Huyện Gia Lộc", Latitude = "20.85164000", Longitude = "106.29130000" },
-                        new() { Id = 7, Name = "Huyện Kinh Môn", Latitude = "21.01634000", Longitude = "106.50384000" },
-                        new() { Id = 8, Name = "Huyện Nam Sách", Latitude = "21.00484000", Longitude = "106.34042000" },
-                        new() { Id = 9, Name = "Huyện Thanh Miện", Latitude = "20.77953000", Longitude = "106.22218000" },
+                        new() { Id = 4, Name = "Huyện Cẩm Giàng", Latitude = "20.95000000", Longitude = "106.21667000" },
+                        new() { Id = 5, Name = "Huyện Gia Lộc", Latitude = "20.85164000", Longitude = "106.29130000" },
+                        new() { Id = 6, Name = "Huyện Kinh Môn", Latitude = "21.01634000", Longitude = "106.50384000" },
+                        new() { Id = 7, Name = "Huyện Thanh Miện", Latitude = "20.77953000", Longitude = "106.22218000" },
+                        new() { Id = 8, Name = "Kẻ Sặt", Latitude = "20.91007000", Longitude = "106.14771000" },
+                        new() { Id = 9, Name = "Nam Sách", Latitude = "20.99205000", Longitude = "106.33613000" },
                         new() { Id = 10, Name = "Thị Xã Chí Linh", Latitude = "21.13722000", Longitude = "106.39638000" }
                     }
                 },
@@ -466,28 +467,49 @@ namespace ShowsOnSale.World.Data.Countries
                     TimeZoneId = "Asia/Ho_Chi_Minh",
                     Latitude = "10.77638970",
                     Longitude = "106.70113910",
-                    Type = "province",
+                    Type = "municipality",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Cần Giờ", Latitude = "10.41115000", Longitude = "106.95474000" },
                         new() { Id = 2, Name = "Côn Sơn", Latitude = "8.68641000", Longitude = "106.60824000" },
                         new() { Id = 3, Name = "Củ Chi", Latitude = "10.97333000", Longitude = "106.49325000" },
                         new() { Id = 4, Name = "Dĩ An", Latitude = "10.90682000", Longitude = "106.76940000" },
-                        new() { Id = 5, Name = "Ho Chi Minh City", Latitude = "10.82302000", Longitude = "106.62965000" },
-                        new() { Id = 6, Name = "Huyện Châu Đức", Latitude = "10.65805000", Longitude = "107.25098000" },
-                        new() { Id = 7, Name = "Huyện Đất Đỏ", Latitude = "10.48025000", Longitude = "107.27879000" },
-                        new() { Id = 8, Name = "Huyện Tân Thành", Latitude = "10.57381000", Longitude = "107.10189000" },
-                        new() { Id = 9, Name = "Huyện Xuyên Mộc", Latitude = "10.63048000", Longitude = "107.46568000" },
-                        new() { Id = 10, Name = "Thành Phố Vũng Tàu", Latitude = "10.40239000", Longitude = "107.14239000" },
-                        new() { Id = 11, Name = "Thị Xã Phú Mỹ", Latitude = "10.56815000", Longitude = "107.12999000" },
-                        new() { Id = 12, Name = "Thủ Dầu Một", Latitude = "10.98040000", Longitude = "106.65190000" },
-                        new() { Id = 13, Name = "Vũng Tàu", Latitude = "10.34599000", Longitude = "107.08426000" }
+                        new() { Id = 5, Name = "Đất Đỏ", Latitude = "10.49093000", Longitude = "107.27014000" },
+                        new() { Id = 6, Name = "Ho Chi Minh City", Latitude = "10.82302000", Longitude = "106.62965000" },
+                        new() { Id = 7, Name = "Hồ Tràm", Latitude = "10.53472000", Longitude = "107.40202000" },
+                        new() { Id = 8, Name = "Huyện Châu Đức", Latitude = "10.65805000", Longitude = "107.25098000" },
+                        new() { Id = 9, Name = "Huyện Tân Thành", Latitude = "10.57381000", Longitude = "107.10189000" },
+                        new() { Id = 10, Name = "Thị Xã Phú Mỹ", Latitude = "10.56815000", Longitude = "107.12999000" },
+                        new() { Id = 11, Name = "Thủ Dầu Một", Latitude = "10.98040000", Longitude = "106.65190000" },
+                        new() { Id = 12, Name = "Vũng Tàu", Latitude = "10.34599000", Longitude = "107.08426000" }
                     }
                 },
 
                 new()
                 {
                     Id = 16,
+                    Name = "Huế",
+                    StateCode = "26",
+                    Iso3166_2 = "VN-26",
+                    TimeZoneId = "Asia/Ho_Chi_Minh",
+                    Latitude = "16.55304730",
+                    Longitude = "107.69003750",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "A Lưới 2", Latitude = "16.27228000", Longitude = "107.23385000" },
+                        new() { Id = 2, Name = "Huế", Latitude = "16.46190000", Longitude = "107.59546000" },
+                        new() { Id = 3, Name = "Huyện Nam Đông", Latitude = "16.12396000", Longitude = "107.69270000" },
+                        new() { Id = 4, Name = "Huyện Phong Điền", Latitude = "16.48769000", Longitude = "107.28889000" },
+                        new() { Id = 5, Name = "Huyện Phú Lộc", Latitude = "16.27066000", Longitude = "107.88545000" },
+                        new() { Id = 6, Name = "Huyện Phú Vang", Latitude = "16.47007000", Longitude = "107.71458000" },
+                        new() { Id = 7, Name = "Quảng Điền", Latitude = "16.57452000", Longitude = "107.51066000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 17,
                     Name = "Hưng Yên",
                     StateCode = "66",
                     Iso3166_2 = "VN-66",
@@ -497,27 +519,27 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Hưng Yên", Latitude = "20.64637000", Longitude = "106.05112000" },
-                        new() { Id = 2, Name = "Huyện Ân Thi", Latitude = "20.81086000", Longitude = "106.09995000" },
-                        new() { Id = 3, Name = "Huyện Ðông Hưng", Latitude = "20.54388000", Longitude = "106.34090000" },
-                        new() { Id = 4, Name = "Huyện Hưng Hà", Latitude = "20.59464000", Longitude = "106.21230000" },
-                        new() { Id = 5, Name = "Huyện Khoái Châu", Latitude = "20.82170000", Longitude = "105.97455000" },
+                        new() { Id = 1, Name = "Ân Thi", Latitude = "20.81835000", Longitude = "106.09118000" },
+                        new() { Id = 2, Name = "Đông Hưng", Latitude = "20.55651000", Longitude = "106.35532000" },
+                        new() { Id = 3, Name = "Hoàng Hoa Thám", Latitude = "20.70110000", Longitude = "106.11751000" },
+                        new() { Id = 4, Name = "Hưng Hà", Latitude = "20.59040000", Longitude = "106.22445000" },
+                        new() { Id = 5, Name = "Hưng Yên", Latitude = "20.64637000", Longitude = "106.05112000" },
                         new() { Id = 6, Name = "Huyện Kiến Xương", Latitude = "20.40081000", Longitude = "106.42032000" },
-                        new() { Id = 7, Name = "Huyện Kim Động", Latitude = "20.74645000", Longitude = "106.03632000" },
-                        new() { Id = 8, Name = "Huyện Mỹ Hào", Latitude = "20.93210000", Longitude = "106.10630000" },
-                        new() { Id = 9, Name = "Huyện Phù Cừ", Latitude = "20.70997000", Longitude = "106.19744000" },
-                        new() { Id = 10, Name = "Huyện Quỳnh Phụ", Latitude = "20.65095000", Longitude = "106.36359000" },
-                        new() { Id = 11, Name = "Huyện Thái Thụy", Latitude = "20.53916000", Longitude = "106.51688000" },
-                        new() { Id = 12, Name = "Huyện Tiền Hải", Latitude = "20.38465000", Longitude = "106.52882000" },
-                        new() { Id = 13, Name = "Huyện Tiên Lữ", Latitude = "20.68490000", Longitude = "106.12513000" },
-                        new() { Id = 14, Name = "Huyện Vũ Thư", Latitude = "20.43732000", Longitude = "106.26529000" },
-                        new() { Id = 15, Name = "Thái Bình", Latitude = "20.45000000", Longitude = "106.34002000" }
+                        new() { Id = 7, Name = "Huyện Mỹ Hào", Latitude = "20.93210000", Longitude = "106.10630000" },
+                        new() { Id = 8, Name = "Khoái Châu", Latitude = "20.83912000", Longitude = "105.97755000" },
+                        new() { Id = 9, Name = "Lương Bằng", Latitude = "20.74003000", Longitude = "106.05998000" },
+                        new() { Id = 10, Name = "Quang Hưng", Latitude = "20.72952000", Longitude = "106.17971000" },
+                        new() { Id = 11, Name = "Quỳnh Phụ", Latitude = "20.66192000", Longitude = "106.32744000" },
+                        new() { Id = 12, Name = "Thái Bình", Latitude = "20.45000000", Longitude = "106.34002000" },
+                        new() { Id = 13, Name = "Thái Thụy", Latitude = "20.55832000", Longitude = "106.56882000" },
+                        new() { Id = 14, Name = "Tiền Hải", Latitude = "20.40557000", Longitude = "106.50365000" },
+                        new() { Id = 15, Name = "Vũ Thư", Latitude = "20.43671000", Longitude = "106.29116000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 17,
+                    Id = 18,
                     Name = "Khánh Hòa",
                     StateCode = "34",
                     Iso3166_2 = "VN-34",
@@ -528,21 +550,19 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Cam Ranh", Latitude = "11.92144000", Longitude = "109.15913000" },
-                        new() { Id = 2, Name = "Huyện Diên Khánh", Latitude = "12.27341000", Longitude = "109.03890000" },
-                        new() { Id = 3, Name = "Huyện Khánh Sơn", Latitude = "12.02858000", Longitude = "108.90814000" },
-                        new() { Id = 4, Name = "Huyện Khánh Vĩnh", Latitude = "12.30593000", Longitude = "108.83073000" },
-                        new() { Id = 5, Name = "Huyện Vạn Ninh", Latitude = "12.72344000", Longitude = "109.24586000" },
-                        new() { Id = 6, Name = "Nha Trang", Latitude = "12.24507000", Longitude = "109.19432000" },
-                        new() { Id = 7, Name = "Phan Rang-Tháp Chàm", Latitude = "11.56432000", Longitude = "108.98858000" },
-                        new() { Id = 8, Name = "Thành Phố Cam Ranh", Latitude = "11.90707000", Longitude = "109.14861000" },
-                        new() { Id = 9, Name = "Thành Phố Nha Trang", Latitude = "12.25458000", Longitude = "109.16655000" },
-                        new() { Id = 10, Name = "Thị Xã Ninh Hòa", Latitude = "12.53796000", Longitude = "109.06057000" }
+                        new() { Id = 2, Name = "Diên Khánh", Latitude = "12.25490000", Longitude = "109.09332000" },
+                        new() { Id = 3, Name = "Khánh Sơn", Latitude = "12.00582000", Longitude = "108.94868000" },
+                        new() { Id = 4, Name = "Khánh Vĩnh", Latitude = "12.28355000", Longitude = "108.90470000" },
+                        new() { Id = 5, Name = "Nha Trang", Latitude = "12.24507000", Longitude = "109.19432000" },
+                        new() { Id = 6, Name = "Phan Rang-Tháp Chàm", Latitude = "11.56432000", Longitude = "108.98858000" },
+                        new() { Id = 7, Name = "Thị Xã Ninh Hòa", Latitude = "12.53796000", Longitude = "109.06057000" },
+                        new() { Id = 8, Name = "Vạn Ninh", Latitude = "12.69203000", Longitude = "109.22069000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 18,
+                    Id = 19,
                     Name = "Lai Châu",
                     StateCode = "01",
                     Iso3166_2 = "VN-01",
@@ -552,15 +572,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Huyện Mưòng Tè", Latitude = "22.37443000", Longitude = "102.73835000" },
-                        new() { Id = 2, Name = "Huyện Tam Đường", Latitude = "22.35391000", Longitude = "103.59342000" },
-                        new() { Id = 3, Name = "Huyện Than Uyên", Latitude = "21.91424000", Longitude = "103.82857000" }
+                        new() { Id = 1, Name = "Bình Lư", Latitude = "22.31812000", Longitude = "103.62619000" },
+                        new() { Id = 2, Name = "Bum Tở", Latitude = "22.38067000", Longitude = "102.82011000" },
+                        new() { Id = 3, Name = "Than Uyên", Latitude = "21.95907000", Longitude = "103.88001000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 19,
+                    Id = 20,
                     Name = "Lâm Đồng",
                     StateCode = "35",
                     Iso3166_2 = "VN-35",
@@ -570,35 +590,32 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Bảo Lộc", Latitude = "11.54798000", Longitude = "107.80772000" },
-                        new() { Id = 2, Name = "Đam Rong", Latitude = "12.05409000", Longitude = "108.14941000" },
-                        new() { Id = 3, Name = "Đinh Văn", Latitude = "11.78624000", Longitude = "108.24282000" },
-                        new() { Id = 4, Name = "Đưc Trọng", Latitude = "11.73559000", Longitude = "108.37330000" },
-                        new() { Id = 5, Name = "Ðà Lạt", Latitude = "11.94646000", Longitude = "108.44193000" },
-                        new() { Id = 6, Name = "Huyện Bắc Bình", Latitude = "11.27571000", Longitude = "108.38506000" },
-                        new() { Id = 7, Name = "Huyện Bảo Lâm", Latitude = "11.71163000", Longitude = "107.75338000" },
-                        new() { Id = 8, Name = "Huyện Cư Jút", Latitude = "12.69591000", Longitude = "107.76316000" },
-                        new() { Id = 9, Name = "Huyện Đạ Huoai", Latitude = "11.42465000", Longitude = "107.63825000" },
-                        new() { Id = 10, Name = "Huyện Đạ Tẻh", Latitude = "11.58446000", Longitude = "107.52792000" },
-                        new() { Id = 11, Name = "Huyện Đắk R’Lấp", Latitude = "11.87990000", Longitude = "107.52244000" },
-                        new() { Id = 12, Name = "Huyện Đơn Dương", Latitude = "11.75308000", Longitude = "108.55397000" },
-                        new() { Id = 13, Name = "Huyện Đức Trọng", Latitude = "11.62686000", Longitude = "108.35330000" },
-                        new() { Id = 14, Name = "Huyện Hàm Tân", Latitude = "10.76856000", Longitude = "107.64233000" },
-                        new() { Id = 15, Name = "Huyện Hàm Thuận Bắc", Latitude = "11.14703000", Longitude = "108.08172000" },
-                        new() { Id = 16, Name = "Huyện Hàm Thuận Nam", Latitude = "10.92101000", Longitude = "107.93325000" },
-                        new() { Id = 17, Name = "Huyện Krông Nô", Latitude = "12.36285000", Longitude = "107.83445000" },
-                        new() { Id = 18, Name = "Huyện Lâm Hà", Latitude = "11.81890000", Longitude = "108.21215000" },
-                        new() { Id = 19, Name = "Huyện Tánh Linh", Latitude = "11.11367000", Longitude = "107.68427000" },
-                        new() { Id = 20, Name = "Huyện Tuy Phong", Latitude = "11.34746000", Longitude = "108.70466000" },
-                        new() { Id = 21, Name = "La Gi", Latitude = "10.65993000", Longitude = "107.77206000" },
-                        new() { Id = 22, Name = "Phan Thiết", Latitude = "10.92889000", Longitude = "108.10208000" },
-                        new() { Id = 23, Name = "Thành Phố Phan Thiết", Latitude = "10.93700000", Longitude = "108.15778000" }
+                        new() { Id = 1, Name = "Bắc Bình", Latitude = "11.22158000", Longitude = "108.50707000" },
+                        new() { Id = 2, Name = "Bảo Lâm 1", Latitude = "11.62836000", Longitude = "107.83508000" },
+                        new() { Id = 3, Name = "Bảo Lộc", Latitude = "11.54798000", Longitude = "107.80772000" },
+                        new() { Id = 4, Name = "Cư Jút", Latitude = "12.58904000", Longitude = "107.89578000" },
+                        new() { Id = 5, Name = "Đạ Tẻh", Latitude = "11.51148000", Longitude = "107.49092000" },
+                        new() { Id = 6, Name = "Đam Rong", Latitude = "12.05409000", Longitude = "108.14941000" },
+                        new() { Id = 7, Name = "Đinh Văn", Latitude = "11.78624000", Longitude = "108.24282000" },
+                        new() { Id = 8, Name = "Đơn Dương", Latitude = "11.76165000", Longitude = "108.49473000" },
+                        new() { Id = 9, Name = "Đưc Trọng", Latitude = "11.73559000", Longitude = "108.37330000" },
+                        new() { Id = 10, Name = "Ðà Lạt", Latitude = "11.94646000", Longitude = "108.44193000" },
+                        new() { Id = 11, Name = "Hàm Thuận", Latitude = "11.07297000", Longitude = "108.12997000" },
+                        new() { Id = 12, Name = "Hàm Thuận Nam", Latitude = "10.85004000", Longitude = "107.87864000" },
+                        new() { Id = 13, Name = "Huyện Đạ Huoai", Latitude = "11.42465000", Longitude = "107.63825000" },
+                        new() { Id = 14, Name = "Huyện Đắk R’Lấp", Latitude = "11.87990000", Longitude = "107.52244000" },
+                        new() { Id = 15, Name = "Huyện Hàm Tân", Latitude = "10.76856000", Longitude = "107.64233000" },
+                        new() { Id = 16, Name = "Krông Nô", Latitude = "12.45789000", Longitude = "107.86246000" },
+                        new() { Id = 17, Name = "La Gi", Latitude = "10.65993000", Longitude = "107.77206000" },
+                        new() { Id = 18, Name = "Liên Hương", Latitude = "11.22761000", Longitude = "108.72366000" },
+                        new() { Id = 19, Name = "Phan Thiết", Latitude = "10.92889000", Longitude = "108.10208000" },
+                        new() { Id = 20, Name = "Tánh Linh", Latitude = "11.08421000", Longitude = "107.68095000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 20,
+                    Id = 21,
                     Name = "Lạng Sơn",
                     StateCode = "09",
                     Iso3166_2 = "VN-09",
@@ -608,20 +625,20 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Huyện Bắc Sơn", Latitude = "21.83801000", Longitude = "106.27690000" },
-                        new() { Id = 2, Name = "Huyện Bình Gia", Latitude = "22.07281000", Longitude = "106.30410000" },
-                        new() { Id = 3, Name = "Huyện Cao Lộc", Latitude = "21.89857000", Longitude = "106.85435000" },
-                        new() { Id = 4, Name = "Huyện Chi Lăng", Latitude = "21.67602000", Longitude = "106.62925000" },
-                        new() { Id = 5, Name = "Huyện Đình Lập", Latitude = "21.54210000", Longitude = "107.12925000" },
-                        new() { Id = 6, Name = "Huyện Hũu Lũng", Latitude = "21.54474000", Longitude = "106.34386000" },
-                        new() { Id = 7, Name = "Huyện Vặn Quan", Latitude = "21.83333000", Longitude = "106.54942000" },
+                        new() { Id = 1, Name = "Bắc Sơn", Latitude = "21.89999000", Longitude = "106.32077000" },
+                        new() { Id = 2, Name = "Bình Gia", Latitude = "21.96094000", Longitude = "106.36448000" },
+                        new() { Id = 3, Name = "Chi Lăng", Latitude = "21.65701000", Longitude = "106.57832000" },
+                        new() { Id = 4, Name = "Đình Lập", Latitude = "21.54633000", Longitude = "107.09812000" },
+                        new() { Id = 5, Name = "Hữu Lũng", Latitude = "21.50560000", Longitude = "106.34459000" },
+                        new() { Id = 6, Name = "Huyện Vặn Quan", Latitude = "21.83333000", Longitude = "106.54942000" },
+                        new() { Id = 7, Name = "Kỳ Lừa", Latitude = "21.86650000", Longitude = "106.76833000" },
                         new() { Id = 8, Name = "Lạng Sơn", Latitude = "21.85264000", Longitude = "106.76101000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 21,
+                    Id = 22,
                     Name = "Lào Cai",
                     StateCode = "02",
                     Iso3166_2 = "VN-02",
@@ -631,29 +648,29 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Huyện Bắc Hà", Latitude = "22.50998000", Longitude = "104.30769000" },
-                        new() { Id = 2, Name = "Huyện Bảo Yên", Latitude = "22.26109000", Longitude = "104.46424000" },
-                        new() { Id = 3, Name = "Huyện Bát Xát", Latitude = "22.56767000", Longitude = "103.71339000" },
-                        new() { Id = 4, Name = "Huyện Lục Yên", Latitude = "22.10235000", Longitude = "104.72538000" },
-                        new() { Id = 5, Name = "Huyện Mù Cang Chải", Latitude = "21.78815000", Longitude = "104.11998000" },
-                        new() { Id = 6, Name = "Huyện Mường Khương", Latitude = "22.67111000", Longitude = "104.11772000" },
-                        new() { Id = 7, Name = "Huyện Sa Pa", Latitude = "22.33769000", Longitude = "103.84037000" },
-                        new() { Id = 8, Name = "Huyện Si Ma Cai", Latitude = "22.67161000", Longitude = "104.27326000" },
-                        new() { Id = 9, Name = "Huyện Trạm Tấu", Latitude = "21.48553000", Longitude = "104.42756000" },
-                        new() { Id = 10, Name = "Huyện Trấn Yên", Latitude = "21.66586000", Longitude = "104.79702000" },
-                        new() { Id = 11, Name = "Huyện Văn Bàn", Latitude = "22.07002000", Longitude = "104.18122000" },
-                        new() { Id = 12, Name = "Huyện Văn Chấn", Latitude = "21.55722000", Longitude = "104.64038000" },
-                        new() { Id = 13, Name = "Huyện Văn Yên", Latitude = "21.90022000", Longitude = "104.56669000" },
-                        new() { Id = 14, Name = "Lào Cai", Latitude = "22.48556000", Longitude = "103.97066000" },
-                        new() { Id = 15, Name = "Lao Chải", Latitude = "22.31377000", Longitude = "103.86844000" },
-                        new() { Id = 16, Name = "Sa Pa", Latitude = "22.34023000", Longitude = "103.84415000" },
+                        new() { Id = 1, Name = "Bắc Hà", Latitude = "22.53911000", Longitude = "104.29305000" },
+                        new() { Id = 2, Name = "Bảo Yên", Latitude = "22.23429000", Longitude = "104.47643000" },
+                        new() { Id = 3, Name = "Bát Xát", Latitude = "22.54311000", Longitude = "103.88989000" },
+                        new() { Id = 4, Name = "Hạnh Phúc", Latitude = "21.46659000", Longitude = "104.37966000" },
+                        new() { Id = 5, Name = "Huyện Sa Pa", Latitude = "22.33769000", Longitude = "103.84037000" },
+                        new() { Id = 6, Name = "Huyện Văn Yên", Latitude = "21.90022000", Longitude = "104.56669000" },
+                        new() { Id = 7, Name = "Lào Cai", Latitude = "22.48556000", Longitude = "103.97066000" },
+                        new() { Id = 8, Name = "Lao Chải", Latitude = "22.31377000", Longitude = "103.86844000" },
+                        new() { Id = 9, Name = "Lục Yên", Latitude = "22.11075000", Longitude = "104.76748000" },
+                        new() { Id = 10, Name = "Mù Cang Chải", Latitude = "21.85125000", Longitude = "104.08954000" },
+                        new() { Id = 11, Name = "Mường Khương", Latitude = "22.76141000", Longitude = "104.12156000" },
+                        new() { Id = 12, Name = "Sa Pa", Latitude = "22.34023000", Longitude = "103.84415000" },
+                        new() { Id = 13, Name = "Si Ma Cai", Latitude = "22.69510000", Longitude = "104.27857000" },
+                        new() { Id = 14, Name = "Trấn Yên", Latitude = "21.75585000", Longitude = "104.82768000" },
+                        new() { Id = 15, Name = "Văn Bàn", Latitude = "22.08935000", Longitude = "104.25149000" },
+                        new() { Id = 16, Name = "Văn Chấn", Latitude = "21.56252000", Longitude = "104.59480000" },
                         new() { Id = 17, Name = "Yên Bái", Latitude = "21.72288000", Longitude = "104.91130000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 22,
+                    Id = 23,
                     Name = "Nghệ An",
                     StateCode = "22",
                     Iso3166_2 = "VN-22",
@@ -663,22 +680,22 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Huyện Anh Sơn", Latitude = "18.92902000", Longitude = "105.08294000" },
-                        new() { Id = 2, Name = "Huyện Con Cuông", Latitude = "19.03898000", Longitude = "104.80353000" },
-                        new() { Id = 3, Name = "Huyện Diễn Châu", Latitude = "18.98892000", Longitude = "105.57625000" },
-                        new() { Id = 4, Name = "Huyện Đô Lương", Latitude = "18.89259000", Longitude = "105.34027000" },
-                        new() { Id = 5, Name = "Huyện Hưng Nguyên", Latitude = "18.67811000", Longitude = "105.62523000" },
-                        new() { Id = 6, Name = "Huyện Kỳ Sơn", Latitude = "19.42397000", Longitude = "104.22199000" },
-                        new() { Id = 7, Name = "Huyện Nam Đàn", Latitude = "18.67041000", Longitude = "105.52575000" },
-                        new() { Id = 8, Name = "Huyện Nghi Lộc", Latitude = "18.83131000", Longitude = "105.62411000" },
-                        new() { Id = 9, Name = "Huyện Nghĩa Đàn", Latitude = "19.38234000", Longitude = "105.44072000" },
-                        new() { Id = 10, Name = "Huyện Quế Phong", Latitude = "19.70177000", Longitude = "104.87913000" },
-                        new() { Id = 11, Name = "Huyện Quỳ Châu", Latitude = "19.55707000", Longitude = "105.09173000" },
-                        new() { Id = 12, Name = "Huyện Quỳ Hợp", Latitude = "19.32514000", Longitude = "105.16009000" },
-                        new() { Id = 13, Name = "Huyện Quỳnh Lưu", Latitude = "19.22717000", Longitude = "105.64354000" },
-                        new() { Id = 14, Name = "Huyện Thanh Chương", Latitude = "18.73929000", Longitude = "105.24053000" },
-                        new() { Id = 15, Name = "Huyện Tương Dương", Latitude = "19.30979000", Longitude = "104.57788000" },
-                        new() { Id = 16, Name = "Huyện Yên Thành", Latitude = "19.02724000", Longitude = "105.43649000" },
+                        new() { Id = 1, Name = "Diễn Châu", Latitude = "18.97652000", Longitude = "105.60034000" },
+                        new() { Id = 2, Name = "Hưng Nguyên", Latitude = "18.67165000", Longitude = "105.62882000" },
+                        new() { Id = 3, Name = "Huyện Anh Sơn", Latitude = "18.92902000", Longitude = "105.08294000" },
+                        new() { Id = 4, Name = "Huyện Con Cuông", Latitude = "19.03898000", Longitude = "104.80353000" },
+                        new() { Id = 5, Name = "Huyện Đô Lương", Latitude = "18.89259000", Longitude = "105.34027000" },
+                        new() { Id = 6, Name = "Huyện Nam Đàn", Latitude = "18.67041000", Longitude = "105.52575000" },
+                        new() { Id = 7, Name = "Huyện Nghĩa Đàn", Latitude = "19.38234000", Longitude = "105.44072000" },
+                        new() { Id = 8, Name = "Huyện Quỳ Châu", Latitude = "19.55707000", Longitude = "105.09173000" },
+                        new() { Id = 9, Name = "Huyện Thanh Chương", Latitude = "18.73929000", Longitude = "105.24053000" },
+                        new() { Id = 10, Name = "Huyện Tương Dương", Latitude = "19.30979000", Longitude = "104.57788000" },
+                        new() { Id = 11, Name = "Huyện Yên Thành", Latitude = "19.02724000", Longitude = "105.43649000" },
+                        new() { Id = 12, Name = "Mường Xén", Latitude = "19.39795000", Longitude = "104.15239000" },
+                        new() { Id = 13, Name = "Nghi Lộc", Latitude = "18.77927000", Longitude = "105.64597000" },
+                        new() { Id = 14, Name = "Quế Phong", Latitude = "19.60409000", Longitude = "104.91903000" },
+                        new() { Id = 15, Name = "Quỳ Hợp", Latitude = "19.32546000", Longitude = "105.18251000" },
+                        new() { Id = 16, Name = "Quỳnh Lưu", Latitude = "19.14600000", Longitude = "105.63089000" },
                         new() { Id = 17, Name = "Vinh", Latitude = "18.67337000", Longitude = "105.69232000" },
                         new() { Id = 18, Name = "Yên Vinh", Latitude = "18.66667000", Longitude = "105.66667000" }
                     }
@@ -686,7 +703,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 23,
+                    Id = 24,
                     Name = "Ninh Bình",
                     StateCode = "18",
                     Iso3166_2 = "VN-18",
@@ -696,33 +713,33 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Huyện Bình Lục", Latitude = "20.50126000", Longitude = "106.02959000" },
-                        new() { Id = 2, Name = "Huyện Duy Tiên", Latitude = "20.62803000", Longitude = "105.96193000" },
-                        new() { Id = 3, Name = "Huyện Giao Thủy", Latitude = "20.25706000", Longitude = "106.46245000" },
-                        new() { Id = 4, Name = "Huyện Hải Hậu", Latitude = "20.15057000", Longitude = "106.27161000" },
-                        new() { Id = 5, Name = "Huyện Hoa Lư", Latitude = "20.25391000", Longitude = "105.90789000" },
-                        new() { Id = 6, Name = "Huyện Kim Bảng", Latitude = "20.57254000", Longitude = "105.85043000" },
-                        new() { Id = 7, Name = "Huyện Kim Sơn", Latitude = "20.06034000", Longitude = "106.09863000" },
-                        new() { Id = 8, Name = "Huyện Lý Nhân", Latitude = "20.56422000", Longitude = "106.09455000" },
-                        new() { Id = 9, Name = "Huyện Mỹ Lộc", Latitude = "20.46079000", Longitude = "106.12319000" },
-                        new() { Id = 10, Name = "Huyện Nam Trực", Latitude = "20.34106000", Longitude = "106.20821000" },
-                        new() { Id = 11, Name = "Huyện Nghĩa Hưng", Latitude = "20.10598000", Longitude = "106.17345000" },
-                        new() { Id = 12, Name = "Huyện Nho Quan", Latitude = "20.27606000", Longitude = "105.75442000" },
-                        new() { Id = 13, Name = "Huyện Thanh Liêm", Latitude = "20.46249000", Longitude = "105.92100000" },
-                        new() { Id = 14, Name = "Huyện Trực Ninh", Latitude = "20.25690000", Longitude = "106.24582000" },
-                        new() { Id = 15, Name = "Huyện Vụ Bản", Latitude = "20.37705000", Longitude = "106.09707000" },
-                        new() { Id = 16, Name = "Huyện Ý Yên", Latitude = "20.31669000", Longitude = "106.02327000" },
-                        new() { Id = 17, Name = "Huyện Yên Khánh", Latitude = "20.19017000", Longitude = "106.09605000" },
-                        new() { Id = 18, Name = "Huyện Yên Mô", Latitude = "20.12984000", Longitude = "106.00199000" },
-                        new() { Id = 19, Name = "Nam Định", Latitude = "20.43389000", Longitude = "106.17729000" },
-                        new() { Id = 20, Name = "Ninh Bình", Latitude = "20.25809000", Longitude = "105.97965000" },
-                        new() { Id = 21, Name = "Phủ Lý", Latitude = "20.54531000", Longitude = "105.91221000" }
+                        new() { Id = 1, Name = "Bình Mỹ", Latitude = "20.49121000", Longitude = "106.00955000" },
+                        new() { Id = 2, Name = "Cổ Lễ", Latitude = "20.32336000", Longitude = "106.26584000" },
+                        new() { Id = 3, Name = "Hải Hậu", Latitude = "20.20145000", Longitude = "106.29578000" },
+                        new() { Id = 4, Name = "Huyện Duy Tiên", Latitude = "20.62803000", Longitude = "105.96193000" },
+                        new() { Id = 5, Name = "Huyện Giao Thủy", Latitude = "20.25706000", Longitude = "106.46245000" },
+                        new() { Id = 6, Name = "Huyện Hoa Lư", Latitude = "20.25391000", Longitude = "105.90789000" },
+                        new() { Id = 7, Name = "Huyện Kim Bảng", Latitude = "20.57254000", Longitude = "105.85043000" },
+                        new() { Id = 8, Name = "Huyện Mỹ Lộc", Latitude = "20.46079000", Longitude = "106.12319000" },
+                        new() { Id = 9, Name = "Huyện Nho Quan", Latitude = "20.27606000", Longitude = "105.75442000" },
+                        new() { Id = 10, Name = "Huyện Thanh Liêm", Latitude = "20.46249000", Longitude = "105.92100000" },
+                        new() { Id = 11, Name = "Huyện Ý Yên", Latitude = "20.31669000", Longitude = "106.02327000" },
+                        new() { Id = 12, Name = "Nam Định", Latitude = "20.43389000", Longitude = "106.17729000" },
+                        new() { Id = 13, Name = "Nam Trực", Latitude = "20.33322000", Longitude = "106.17754000" },
+                        new() { Id = 14, Name = "Nghĩa Hưng", Latitude = "20.22095000", Longitude = "106.18747000" },
+                        new() { Id = 15, Name = "Ninh Bình", Latitude = "20.25809000", Longitude = "105.97965000" },
+                        new() { Id = 16, Name = "Phát Diệm", Latitude = "20.09054000", Longitude = "106.08323000" },
+                        new() { Id = 17, Name = "Phủ Lý", Latitude = "20.54531000", Longitude = "105.91221000" },
+                        new() { Id = 18, Name = "Vĩnh Trụ", Latitude = "20.56020000", Longitude = "106.02812000" },
+                        new() { Id = 19, Name = "Vụ Bản", Latitude = "20.33335000", Longitude = "106.07826000" },
+                        new() { Id = 20, Name = "Yên Khánh", Latitude = "20.18396000", Longitude = "106.06121000" },
+                        new() { Id = 21, Name = "Yên Mô", Latitude = "20.16245000", Longitude = "106.00697000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 24,
+                    Id = 25,
                     Name = "Phú Thọ",
                     StateCode = "68",
                     Iso3166_2 = "VN-68",
@@ -732,32 +749,31 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Hòa Bình", Latitude = "20.81717000", Longitude = "105.33759000" },
-                        new() { Id = 2, Name = "Huyện Bình Xuyên", Latitude = "21.30561000", Longitude = "105.66225000" },
-                        new() { Id = 3, Name = "Huyện Cẩm Khê", Latitude = "21.40683000", Longitude = "105.09845000" },
-                        new() { Id = 4, Name = "Huyện Cao Phong", Latitude = "20.69532000", Longitude = "105.33559000" },
-                        new() { Id = 5, Name = "Huyện Đoan Hùng", Latitude = "21.61776000", Longitude = "105.16110000" },
-                        new() { Id = 6, Name = "Huyện Hạ Hòa", Latitude = "21.57763000", Longitude = "104.99464000" },
+                        new() { Id = 1, Name = "Bình Nguyên", Latitude = "21.27882000", Longitude = "105.64697000" },
+                        new() { Id = 2, Name = "Cao Phong", Latitude = "20.70446000", Longitude = "105.32063000" },
+                        new() { Id = 3, Name = "Đoan Hùng", Latitude = "21.62254000", Longitude = "105.18462000" },
+                        new() { Id = 4, Name = "Hạ Hòa", Latitude = "21.56302000", Longitude = "105.00512000" },
+                        new() { Id = 5, Name = "Hòa Bình", Latitude = "20.81717000", Longitude = "105.33759000" },
+                        new() { Id = 6, Name = "Huyện Cẩm Khê", Latitude = "21.40683000", Longitude = "105.09845000" },
                         new() { Id = 7, Name = "Huyện Kỳ Sơn", Latitude = "20.89631000", Longitude = "105.39659000" },
-                        new() { Id = 8, Name = "Huyện Lạc Thủy", Latitude = "20.49794000", Longitude = "105.74092000" },
-                        new() { Id = 9, Name = "Huyen Lam Thao", Latitude = "21.29971000", Longitude = "105.31119000" },
-                        new() { Id = 10, Name = "Huyện Lương Sơn", Latitude = "20.87650000", Longitude = "105.51219000" },
-                        new() { Id = 11, Name = "Huyện Tam Dương", Latitude = "21.36189000", Longitude = "105.55690000" },
-                        new() { Id = 12, Name = "Huyện Tam Đảo", Latitude = "21.45690000", Longitude = "105.59460000" },
-                        new() { Id = 13, Name = "Huyện Tân Lạc", Latitude = "20.60557000", Longitude = "105.23399000" },
-                        new() { Id = 14, Name = "Huyện Thanh Ba", Latitude = "21.47816000", Longitude = "105.15881000" },
-                        new() { Id = 15, Name = "Huyện Yên Lạc", Latitude = "21.21845000", Longitude = "105.57586000" },
-                        new() { Id = 16, Name = "Huyện Yên Lập", Latitude = "21.35569000", Longitude = "105.00493000" },
-                        new() { Id = 17, Name = "Thành Phố Việt Trì", Latitude = "21.32958000", Longitude = "105.39217000" },
-                        new() { Id = 18, Name = "Thị xã Phú Thọ", Latitude = "21.41664000", Longitude = "105.23636000" },
-                        new() { Id = 19, Name = "Việt Trì", Latitude = "21.32274000", Longitude = "105.40198000" },
-                        new() { Id = 20, Name = "Vĩnh Yên", Latitude = "21.30891000", Longitude = "105.60489000" }
+                        new() { Id = 8, Name = "Huyện Tân Lạc", Latitude = "20.60557000", Longitude = "105.23399000" },
+                        new() { Id = 9, Name = "Lạc Thủy", Latitude = "20.49056000", Longitude = "105.77800000" },
+                        new() { Id = 10, Name = "Lâm Thao", Latitude = "21.32010000", Longitude = "105.29156000" },
+                        new() { Id = 11, Name = "Lương Sơn", Latitude = "20.87148000", Longitude = "105.52568000" },
+                        new() { Id = 12, Name = "Tam Dương", Latitude = "21.37525000", Longitude = "105.54256000" },
+                        new() { Id = 13, Name = "Tam Đảo", Latitude = "21.39324000", Longitude = "105.61441000" },
+                        new() { Id = 14, Name = "Thanh Ba", Latitude = "21.49881000", Longitude = "105.14104000" },
+                        new() { Id = 15, Name = "Thị xã Phú Thọ", Latitude = "21.41664000", Longitude = "105.23636000" },
+                        new() { Id = 16, Name = "Việt Trì", Latitude = "21.32274000", Longitude = "105.40198000" },
+                        new() { Id = 17, Name = "Vĩnh Yên", Latitude = "21.30891000", Longitude = "105.60489000" },
+                        new() { Id = 18, Name = "Yên Lạc", Latitude = "21.23646000", Longitude = "105.57297000" },
+                        new() { Id = 19, Name = "Yên Lập", Latitude = "21.34705000", Longitude = "105.05739000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 25,
+                    Id = 26,
                     Name = "Quảng Ngãi",
                     StateCode = "29",
                     Iso3166_2 = "VN-29",
@@ -767,62 +783,62 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Huyện Ba Tơ", Latitude = "14.73973000", Longitude = "108.69326000" },
-                        new() { Id = 2, Name = "Huyện Bình Sơn", Latitude = "15.31899000", Longitude = "108.76383000" },
-                        new() { Id = 3, Name = "Huyện Đắk Glei", Latitude = "15.11358000", Longitude = "107.75093000" },
-                        new() { Id = 4, Name = "Huyện Đắk Hà", Latitude = "14.60326000", Longitude = "107.98547000" },
-                        new() { Id = 5, Name = "Huyện Đắk Tô", Latitude = "14.70087000", Longitude = "107.80816000" },
-                        new() { Id = 6, Name = "Huyện Đức Phổ", Latitude = "14.78000000", Longitude = "108.97857000" },
-                        new() { Id = 7, Name = "Huyện Ia H'Drai", Latitude = "14.06032000", Longitude = "107.46243000" },
-                        new() { Id = 8, Name = "Huyện Kon Plông", Latitude = "14.75620000", Longitude = "108.32057000" },
+                        new() { Id = 1, Name = "Bình Sơn", Latitude = "15.29776000", Longitude = "108.76124000" },
+                        new() { Id = 2, Name = "Bờ Y", Latitude = "14.70495000", Longitude = "107.68620000" },
+                        new() { Id = 3, Name = "Huyện Ba Tơ", Latitude = "14.73973000", Longitude = "108.69326000" },
+                        new() { Id = 4, Name = "Huyện Đắk Glei", Latitude = "15.11358000", Longitude = "107.75093000" },
+                        new() { Id = 5, Name = "Huyện Đắk Hà", Latitude = "14.60326000", Longitude = "107.98547000" },
+                        new() { Id = 6, Name = "Huyện Đắk Tô", Latitude = "14.70087000", Longitude = "107.80816000" },
+                        new() { Id = 7, Name = "Huyện Đức Phổ", Latitude = "14.78000000", Longitude = "108.97857000" },
+                        new() { Id = 8, Name = "Huyện Ia H'Drai", Latitude = "14.06032000", Longitude = "107.46243000" },
                         new() { Id = 9, Name = "Huyện Lý Sơn", Latitude = "15.40608000", Longitude = "109.09707000" },
                         new() { Id = 10, Name = "Huyện Minh Long", Latitude = "14.95375000", Longitude = "108.67724000" },
-                        new() { Id = 11, Name = "Huyện Mộ Đức", Latitude = "14.95515000", Longitude = "108.88841000" },
-                        new() { Id = 12, Name = "Huyện Nghĩa Hành", Latitude = "14.98712000", Longitude = "108.80036000" },
-                        new() { Id = 13, Name = "Huyện Ngọc Hồi", Latitude = "14.71940000", Longitude = "107.62636000" },
-                        new() { Id = 14, Name = "Huyện Sa Thầy", Latitude = "14.32050000", Longitude = "107.59862000" },
-                        new() { Id = 15, Name = "Huyện Sơn Hà", Latitude = "14.98427000", Longitude = "108.53643000" },
-                        new() { Id = 16, Name = "Huyện Sơn Tây", Latitude = "14.96392000", Longitude = "108.36419000" },
-                        new() { Id = 17, Name = "Huyện Sơn Tịnh", Latitude = "15.19090000", Longitude = "108.74295000" },
-                        new() { Id = 18, Name = "Huyện Trà Bồng", Latitude = "15.23752000", Longitude = "108.52633000" },
-                        new() { Id = 19, Name = "Huyện Tư Nghĩa", Latitude = "15.09499000", Longitude = "108.77053000" },
-                        new() { Id = 20, Name = "Kon Tum", Latitude = "14.35451000", Longitude = "108.00759000" },
-                        new() { Id = 21, Name = "Quảng Ngãi", Latitude = "15.12047000", Longitude = "108.79232000" }
-                    }
-                },
-
-                new()
-                {
-                    Id = 26,
-                    Name = "Quảng Ninh",
-                    StateCode = "13",
-                    Iso3166_2 = "VN-13",
-                    TimeZoneId = "Asia/Ho_Chi_Minh",
-                    Latitude = "21.17180460",
-                    Longitude = "107.20127420",
-                    Type = "province",
-                    Cities = new()
-                    {
-                        new() { Id = 1, Name = "Cẩm Phả", Latitude = "21.01004000", Longitude = "107.27345000" },
-                        new() { Id = 2, Name = "Cẩm Phả Mines", Latitude = "21.01667000", Longitude = "107.30000000" },
-                        new() { Id = 3, Name = "Hạ Long", Latitude = "20.95045000", Longitude = "107.07336000" },
-                        new() { Id = 4, Name = "Huyện Ba Chẽ", Latitude = "21.29503000", Longitude = "107.19298000" },
-                        new() { Id = 5, Name = "Huyện Bình Liêu", Latitude = "21.54389000", Longitude = "107.44047000" },
-                        new() { Id = 6, Name = "Huyện Cô Tô", Latitude = "21.05418000", Longitude = "107.80698000" },
-                        new() { Id = 7, Name = "Huyện Đầm Hà", Latitude = "21.39689000", Longitude = "107.56175000" },
-                        new() { Id = 8, Name = "Huyện Đông Triều", Latitude = "21.11043000", Longitude = "106.59662000" },
-                        new() { Id = 9, Name = "Huyện Hải Hà", Latitude = "21.49537000", Longitude = "107.66790000" },
-                        new() { Id = 10, Name = "Huyện Hoành Bồ", Latitude = "21.11888000", Longitude = "107.03149000" },
-                        new() { Id = 11, Name = "Huyện Tiên Yên", Latitude = "21.37571000", Longitude = "107.37468000" },
-                        new() { Id = 12, Name = "Huyện Vân Đồn", Latitude = "21.04921000", Longitude = "107.50971000" },
-                        new() { Id = 13, Name = "Móng Cái", Latitude = "21.52471000", Longitude = "107.96619000" },
-                        new() { Id = 14, Name = "Thành Phố Uông Bí", Latitude = "21.03433000", Longitude = "106.77049000" }
+                        new() { Id = 11, Name = "Huyện Sơn Hà", Latitude = "14.98427000", Longitude = "108.53643000" },
+                        new() { Id = 12, Name = "Huyện Sơn Tây", Latitude = "14.96392000", Longitude = "108.36419000" },
+                        new() { Id = 13, Name = "Huyện Sơn Tịnh", Latitude = "15.19090000", Longitude = "108.74295000" },
+                        new() { Id = 14, Name = "Kon Tum", Latitude = "14.35451000", Longitude = "108.00759000" },
+                        new() { Id = 15, Name = "Măng Đen", Latitude = "14.60064000", Longitude = "108.29088000" },
+                        new() { Id = 16, Name = "Mộ Đức", Latitude = "14.95513000", Longitude = "108.88586000" },
+                        new() { Id = 17, Name = "Nghĩa Hành", Latitude = "15.04568000", Longitude = "108.77724000" },
+                        new() { Id = 18, Name = "Quảng Ngãi", Latitude = "15.12047000", Longitude = "108.79232000" },
+                        new() { Id = 19, Name = "Sa Thầy", Latitude = "14.41377000", Longitude = "107.79339000" },
+                        new() { Id = 20, Name = "Trà Bồng", Latitude = "15.25569000", Longitude = "108.51722000" },
+                        new() { Id = 21, Name = "Tư Nghĩa", Latitude = "15.08451000", Longitude = "108.82600000" }
                     }
                 },
 
                 new()
                 {
                     Id = 27,
+                    Name = "Quảng Ninh",
+                    StateCode = "13",
+                    Iso3166_2 = "VN-13",
+                    TimeZoneId = "Asia/Ho_Chi_Minh",
+                    Latitude = "21.17180460",
+                    Longitude = "107.20127420",
+                    Type = "municipality",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Cẩm Phả", Latitude = "21.01004000", Longitude = "107.27345000" },
+                        new() { Id = 2, Name = "Cẩm Phả Mines", Latitude = "21.01667000", Longitude = "107.30000000" },
+                        new() { Id = 3, Name = "Cô Tô", Latitude = "20.97268000", Longitude = "107.76578000" },
+                        new() { Id = 4, Name = "Hạ Long", Latitude = "20.95045000", Longitude = "107.07336000" },
+                        new() { Id = 5, Name = "Huyện Ba Chẽ", Latitude = "21.29503000", Longitude = "107.19298000" },
+                        new() { Id = 6, Name = "Huyện Bình Liêu", Latitude = "21.54389000", Longitude = "107.44047000" },
+                        new() { Id = 7, Name = "Huyện Đầm Hà", Latitude = "21.39689000", Longitude = "107.56175000" },
+                        new() { Id = 8, Name = "Huyện Đông Triều", Latitude = "21.11043000", Longitude = "106.59662000" },
+                        new() { Id = 9, Name = "Huyện Hoành Bồ", Latitude = "21.11888000", Longitude = "107.03149000" },
+                        new() { Id = 10, Name = "Huyện Tiên Yên", Latitude = "21.37571000", Longitude = "107.37468000" },
+                        new() { Id = 11, Name = "Huyện Vân Đồn", Latitude = "21.04921000", Longitude = "107.50971000" },
+                        new() { Id = 12, Name = "Móng Cái", Latitude = "21.52471000", Longitude = "107.96619000" },
+                        new() { Id = 13, Name = "Quảng Hà", Latitude = "21.45060000", Longitude = "107.75592000" },
+                        new() { Id = 14, Name = "Thành Phố Uông Bí", Latitude = "21.03433000", Longitude = "106.77049000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 28,
                     Name = "Quảng Trị",
                     StateCode = "25",
                     Iso3166_2 = "VN-25",
@@ -832,25 +848,25 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Ðông Hà", Latitude = "16.81625000", Longitude = "107.10031000" },
-                        new() { Id = 2, Name = "Huyện Cam Lộ", Latitude = "16.79335000", Longitude = "106.96175000" },
-                        new() { Id = 3, Name = "Huyện Đa Krông", Latitude = "16.55543000", Longitude = "106.97208000" },
-                        new() { Id = 4, Name = "Huyện Gio Linh", Latitude = "16.91667000", Longitude = "107.00000000" },
-                        new() { Id = 5, Name = "Huyện Hải Lăng", Latitude = "16.67574000", Longitude = "107.23388000" },
-                        new() { Id = 6, Name = "Huyện Hướng Hóa", Latitude = "16.70132000", Longitude = "106.67036000" },
-                        new() { Id = 7, Name = "Huyện Lệ Thủy", Latitude = "17.11239000", Longitude = "106.70471000" },
-                        new() { Id = 8, Name = "Huyện Quảng Ninh", Latitude = "17.27067000", Longitude = "106.51387000" },
-                        new() { Id = 9, Name = "Huyện Quảng Trạch", Latitude = "17.83447000", Longitude = "106.36705000" },
-                        new() { Id = 10, Name = "Huyện Triệu Phong", Latitude = "16.78132000", Longitude = "107.16034000" },
-                        new() { Id = 11, Name = "Huyện Tuyên Hóa", Latitude = "17.91323000", Longitude = "106.02678000" },
-                        new() { Id = 12, Name = "Huyện Vĩnh Linh", Latitude = "17.01600000", Longitude = "106.93384000" },
-                        new() { Id = 13, Name = "Kwang Binh", Latitude = "17.46885000", Longitude = "106.62226000" }
+                        new() { Id = 1, Name = "Cam Lộ", Latitude = "16.80797000", Longitude = "106.99405000" },
+                        new() { Id = 2, Name = "Đồng Lê", Latitude = "17.88389000", Longitude = "106.02536000" },
+                        new() { Id = 3, Name = "Ðông Hà", Latitude = "16.81625000", Longitude = "107.10031000" },
+                        new() { Id = 4, Name = "Gio Linh", Latitude = "16.92480000", Longitude = "107.08438000" },
+                        new() { Id = 5, Name = "Huyện Đa Krông", Latitude = "16.55543000", Longitude = "106.97208000" },
+                        new() { Id = 6, Name = "Huyện Hải Lăng", Latitude = "16.67574000", Longitude = "107.23388000" },
+                        new() { Id = 7, Name = "Huyện Quảng Trạch", Latitude = "17.83447000", Longitude = "106.36705000" },
+                        new() { Id = 8, Name = "Khe Sanh", Latitude = "16.62825000", Longitude = "106.73884000" },
+                        new() { Id = 9, Name = "Kwang Binh", Latitude = "17.46885000", Longitude = "106.62226000" },
+                        new() { Id = 10, Name = "Lệ Thủy", Latitude = "17.22328000", Longitude = "106.79011000" },
+                        new() { Id = 11, Name = "Quảng Ninh", Latitude = "17.40438000", Longitude = "106.64072000" },
+                        new() { Id = 12, Name = "Triệu Phong", Latitude = "16.76886000", Longitude = "107.16504000" },
+                        new() { Id = 13, Name = "Vĩnh Linh", Latitude = "17.06836000", Longitude = "107.00520000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 28,
+                    Id = 29,
                     Name = "Sơn La",
                     StateCode = "05",
                     Iso3166_2 = "VN-05",
@@ -860,22 +876,22 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Huyện Bắc Yên", Latitude = "21.25042000", Longitude = "104.38501000" },
-                        new() { Id = 2, Name = "Huyện Mai Sơn", Latitude = "21.15884000", Longitude = "104.04821000" },
-                        new() { Id = 3, Name = "Huyện Mộc Châu", Latitude = "21.83333000", Longitude = "104.75000000" },
-                        new() { Id = 4, Name = "Huyện Mường La", Latitude = "21.52960000", Longitude = "104.11113000" },
-                        new() { Id = 5, Name = "Huyện Phù Yên", Latitude = "21.21412000", Longitude = "104.68993000" },
-                        new() { Id = 6, Name = "Huyện Quỳnh Nhai", Latitude = "21.77224000", Longitude = "103.64920000" },
-                        new() { Id = 7, Name = "Huyện Sông Mã", Latitude = "21.06971000", Longitude = "103.68727000" },
-                        new() { Id = 8, Name = "Huyện Thuận Châu", Latitude = "21.42319000", Longitude = "103.64408000" },
-                        new() { Id = 9, Name = "Huyện Yên Châu", Latitude = "21.00500000", Longitude = "104.33264000" },
-                        new() { Id = 10, Name = "Sơn La", Latitude = "21.32560000", Longitude = "103.91882000" }
+                        new() { Id = 1, Name = "Bắc Yên", Latitude = "21.24626000", Longitude = "104.43281000" },
+                        new() { Id = 2, Name = "Huyện Mộc Châu", Latitude = "21.83333000", Longitude = "104.75000000" },
+                        new() { Id = 3, Name = "Huyện Phù Yên", Latitude = "21.21412000", Longitude = "104.68993000" },
+                        new() { Id = 4, Name = "Huyện Quỳnh Nhai", Latitude = "21.77224000", Longitude = "103.64920000" },
+                        new() { Id = 5, Name = "Mai Sơn", Latitude = "21.19733000", Longitude = "104.10595000" },
+                        new() { Id = 6, Name = "Mường La", Latitude = "21.51750000", Longitude = "104.02701000" },
+                        new() { Id = 7, Name = "Sơn La", Latitude = "21.32560000", Longitude = "103.91882000" },
+                        new() { Id = 8, Name = "Sông Mã", Latitude = "21.05091000", Longitude = "103.74987000" },
+                        new() { Id = 9, Name = "Thuận Châu", Latitude = "21.43849000", Longitude = "103.69000000" },
+                        new() { Id = 10, Name = "Yên Châu", Latitude = "21.04584000", Longitude = "104.30101000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 29,
+                    Id = 30,
                     Name = "Tây Ninh",
                     StateCode = "37",
                     Iso3166_2 = "VN-37",
@@ -885,35 +901,34 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Cần Giuộc", Latitude = "10.60857000", Longitude = "106.67135000" },
-                        new() { Id = 2, Name = "Huyện Bến Cầu", Latitude = "11.12889000", Longitude = "106.14296000" },
-                        new() { Id = 3, Name = "Huyện Bến Lức", Latitude = "10.68858000", Longitude = "106.45484000" },
-                        new() { Id = 4, Name = "Huyện Cần Đước", Latitude = "10.54148000", Longitude = "106.59636000" },
-                        new() { Id = 5, Name = "Huyện Cần Giuộc", Latitude = "10.57742000", Longitude = "106.67279000" },
-                        new() { Id = 6, Name = "Huyện Châu Thành", Latitude = "10.45214000", Longitude = "106.49015000" },
-                        new() { Id = 7, Name = "Huyện Dương Minh Châu", Latitude = "11.31833000", Longitude = "106.25697000" },
-                        new() { Id = 8, Name = "Huyện Đức Hòa", Latitude = "10.87838000", Longitude = "106.42422000" },
-                        new() { Id = 9, Name = "Huyện Đức Huệ", Latitude = "10.86473000", Longitude = "106.25914000" },
-                        new() { Id = 10, Name = "Huyện Gò Dầu", Latitude = "11.15737000", Longitude = "106.27307000" },
-                        new() { Id = 11, Name = "Huyện Hòa Thành", Latitude = "11.26706000", Longitude = "106.14486000" },
-                        new() { Id = 12, Name = "Huyện Mộc Hóa", Latitude = "10.75166000", Longitude = "106.01729000" },
-                        new() { Id = 13, Name = "Huyện Tân Châu", Latitude = "11.58739000", Longitude = "106.28270000" },
-                        new() { Id = 14, Name = "Huyện Tân Hưng", Latitude = "10.83380000", Longitude = "105.68848000" },
-                        new() { Id = 15, Name = "Huyện Tân Thạnh", Latitude = "10.60351000", Longitude = "105.96576000" },
-                        new() { Id = 16, Name = "Huyện Tân Trụ", Latitude = "10.53182000", Longitude = "106.51644000" },
-                        new() { Id = 17, Name = "Huyện Thạnh Hóa", Latitude = "10.66667000", Longitude = "106.16667000" },
-                        new() { Id = 18, Name = "Huyện Thủ Thừa", Latitude = "10.65639000", Longitude = "106.34580000" },
-                        new() { Id = 19, Name = "Huyện Trảng Bàng", Latitude = "11.05720000", Longitude = "106.37539000" },
-                        new() { Id = 20, Name = "Huyện Vĩnh Hưng", Latitude = "10.88299000", Longitude = "105.80364000" },
-                        new() { Id = 21, Name = "Phú Khương", Latitude = "11.28333000", Longitude = "106.13333000" },
-                        new() { Id = 22, Name = "Tân An", Latitude = "10.53589000", Longitude = "106.41366000" },
-                        new() { Id = 23, Name = "Tây Ninh", Latitude = "11.31004000", Longitude = "106.09828000" }
+                        new() { Id = 1, Name = "Bến Cầu", Latitude = "11.11051000", Longitude = "106.17924000" },
+                        new() { Id = 2, Name = "Cần Đước", Latitude = "10.50966000", Longitude = "106.60308000" },
+                        new() { Id = 3, Name = "Cần Giuộc", Latitude = "10.60857000", Longitude = "106.67135000" },
+                        new() { Id = 4, Name = "Dương Minh Châu", Latitude = "11.38414000", Longitude = "106.23078000" },
+                        new() { Id = 5, Name = "Đông Thành", Latitude = "10.89221000", Longitude = "106.30614000" },
+                        new() { Id = 6, Name = "Gò Dầu", Latitude = "11.08850000", Longitude = "106.26346000" },
+                        new() { Id = 7, Name = "Hậu Nghĩa", Latitude = "10.89434000", Longitude = "106.39695000" },
+                        new() { Id = 8, Name = "Huyện Bến Lức", Latitude = "10.68858000", Longitude = "106.45484000" },
+                        new() { Id = 9, Name = "Huyện Hòa Thành", Latitude = "11.26706000", Longitude = "106.14486000" },
+                        new() { Id = 10, Name = "Huyện Mộc Hóa", Latitude = "10.75166000", Longitude = "106.01729000" },
+                        new() { Id = 11, Name = "Huyện Tân Thạnh", Latitude = "10.60351000", Longitude = "105.96576000" },
+                        new() { Id = 12, Name = "Huyện Trảng Bàng", Latitude = "11.05720000", Longitude = "106.37539000" },
+                        new() { Id = 13, Name = "Phú Khương", Latitude = "11.28333000", Longitude = "106.13333000" },
+                        new() { Id = 14, Name = "Tầm Vu", Latitude = "10.44114000", Longitude = "106.46793000" },
+                        new() { Id = 15, Name = "Tân An", Latitude = "10.53589000", Longitude = "106.41366000" },
+                        new() { Id = 16, Name = "Tân Châu", Latitude = "11.55202000", Longitude = "106.17245000" },
+                        new() { Id = 17, Name = "Tân Hưng", Latitude = "10.83476000", Longitude = "105.66135000" },
+                        new() { Id = 18, Name = "Tân Trụ", Latitude = "10.51271000", Longitude = "106.50762000" },
+                        new() { Id = 19, Name = "Tây Ninh", Latitude = "11.31004000", Longitude = "106.09828000" },
+                        new() { Id = 20, Name = "Thạnh Hóa", Latitude = "10.65744000", Longitude = "106.18081000" },
+                        new() { Id = 21, Name = "Thủ Thừa", Latitude = "10.60232000", Longitude = "106.40207000" },
+                        new() { Id = 22, Name = "Vĩnh Hưng", Latitude = "10.89067000", Longitude = "105.78495000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 30,
+                    Id = 31,
                     Name = "Thái Nguyên",
                     StateCode = "69",
                     Iso3166_2 = "VN-69",
@@ -924,19 +939,18 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bắc Kạn", Latitude = "22.14701000", Longitude = "105.83481000" },
-                        new() { Id = 2, Name = "Huyện Ba Bể", Latitude = "22.41667000", Longitude = "105.75000000" },
-                        new() { Id = 3, Name = "Huyện Bạch Thông", Latitude = "22.25758000", Longitude = "105.83295000" },
-                        new() { Id = 4, Name = "Huyện Chợ Đồn", Latitude = "22.18681000", Longitude = "105.57280000" },
-                        new() { Id = 5, Name = "Huyện Na Rì", Latitude = "22.17883000", Longitude = "106.11221000" },
-                        new() { Id = 6, Name = "Huyện Ngân Sơn", Latitude = "22.42962000", Longitude = "106.01030000" },
-                        new() { Id = 7, Name = "Thái Nguyên", Latitude = "21.59422000", Longitude = "105.84817000" },
-                        new() { Id = 8, Name = "Thị Xã Bắc Kạn", Latitude = "22.14130000", Longitude = "105.83867000" }
+                        new() { Id = 2, Name = "Chợ Đồn", Latitude = "22.15777000", Longitude = "105.59559000" },
+                        new() { Id = 3, Name = "Huyện Ba Bể", Latitude = "22.41667000", Longitude = "105.75000000" },
+                        new() { Id = 4, Name = "Na Rì", Latitude = "22.23693000", Longitude = "106.18149000" },
+                        new() { Id = 5, Name = "Ngân Sơn", Latitude = "22.43082000", Longitude = "105.99687000" },
+                        new() { Id = 6, Name = "Phủ Thông", Latitude = "22.27314000", Longitude = "105.87943000" },
+                        new() { Id = 7, Name = "Thái Nguyên", Latitude = "21.59422000", Longitude = "105.84817000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 31,
+                    Id = 32,
                     Name = "Thanh Hóa",
                     StateCode = "21",
                     Iso3166_2 = "VN-21",
@@ -946,51 +960,29 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Bỉm Sơn", Latitude = "20.07806000", Longitude = "105.86028000" },
-                        new() { Id = 2, Name = "Huyện Bá Thước", Latitude = "20.35767000", Longitude = "105.25301000" },
-                        new() { Id = 3, Name = "Huyện Cẩm Thủy", Latitude = "20.19586000", Longitude = "105.46817000" },
-                        new() { Id = 4, Name = "Huyện Đông Sơn", Latitude = "19.79742000", Longitude = "105.72465000" },
-                        new() { Id = 5, Name = "Huyện Hà Trung", Latitude = "20.02654000", Longitude = "105.81931000" },
-                        new() { Id = 6, Name = "Huyện Hậu Lộc", Latitude = "19.93337000", Longitude = "105.88894000" },
-                        new() { Id = 7, Name = "Huyện Lang Chánh", Latitude = "20.15926000", Longitude = "105.15071000" },
-                        new() { Id = 8, Name = "Huyện Mường Lát", Latitude = "20.52763000", Longitude = "104.62941000" },
-                        new() { Id = 9, Name = "Huyện Nga Sơn", Latitude = "20.01561000", Longitude = "105.98975000" },
-                        new() { Id = 10, Name = "Huyện Ngọc Lặc", Latitude = "20.06777000", Longitude = "105.37386000" },
-                        new() { Id = 11, Name = "Huyện Như Thanh", Latitude = "19.57798000", Longitude = "105.55616000" },
-                        new() { Id = 12, Name = "Huyện Như Xuân", Latitude = "19.62527000", Longitude = "105.38856000" },
-                        new() { Id = 13, Name = "Huyện Nông Cống", Latitude = "19.61376000", Longitude = "105.68279000" },
-                        new() { Id = 14, Name = "Huyện Quan Hóa", Latitude = "20.47565000", Longitude = "104.95335000" },
-                        new() { Id = 15, Name = "Huyện Quan Sơn", Latitude = "20.25758000", Longitude = "104.83416000" },
-                        new() { Id = 16, Name = "Huyện Quảng Xương", Latitude = "19.70252000", Longitude = "105.79298000" },
-                        new() { Id = 17, Name = "Huyện Thiệu Hóa", Latitude = "19.89713000", Longitude = "105.68144000" },
-                        new() { Id = 18, Name = "Huyện Thọ Xuân", Latitude = "19.93114000", Longitude = "105.48284000" },
-                        new() { Id = 19, Name = "Huyện Thường Xuân", Latitude = "19.93684000", Longitude = "105.24109000" },
-                        new() { Id = 20, Name = "Huyện Triệu Sơn", Latitude = "19.82578000", Longitude = "105.58293000" },
-                        new() { Id = 21, Name = "Huyện Vĩnh Lộc", Latitude = "20.03482000", Longitude = "105.65755000" },
-                        new() { Id = 22, Name = "Huyện Yên Định", Latitude = "19.98666000", Longitude = "105.61482000" },
-                        new() { Id = 23, Name = "Thanh Hóa", Latitude = "19.80000000", Longitude = "105.76667000" }
-                    }
-                },
-
-                new()
-                {
-                    Id = 32,
-                    Name = "Thừa Thiên-Huế",
-                    StateCode = "26",
-                    Iso3166_2 = "VN-26",
-                    TimeZoneId = "Asia/Ho_Chi_Minh",
-                    Latitude = "16.55304730",
-                    Longitude = "107.69003750",
-                    Type = "province",
-                    Cities = new()
-                    {
-                        new() { Id = 1, Name = "Huế", Latitude = "16.46190000", Longitude = "107.59546000" },
-                        new() { Id = 2, Name = "Huyện A Lưới", Latitude = "16.23422000", Longitude = "107.30650000" },
-                        new() { Id = 3, Name = "Huyện Nam Đông", Latitude = "16.12396000", Longitude = "107.69270000" },
-                        new() { Id = 4, Name = "Huyện Phong Điền", Latitude = "16.48769000", Longitude = "107.28889000" },
-                        new() { Id = 5, Name = "Huyện Phú Lộc", Latitude = "16.27066000", Longitude = "107.88545000" },
-                        new() { Id = 6, Name = "Huyện Phú Vang", Latitude = "16.47007000", Longitude = "107.71458000" },
-                        new() { Id = 7, Name = "Huyện Quảng Ðiền", Latitude = "16.57941000", Longitude = "107.49370000" }
+                        new() { Id = 1, Name = "Bá Thước", Latitude = "20.34803000", Longitude = "105.22881000" },
+                        new() { Id = 2, Name = "Bỉm Sơn", Latitude = "20.07806000", Longitude = "105.86028000" },
+                        new() { Id = 3, Name = "Hậu Lộc", Latitude = "19.91444000", Longitude = "105.88615000" },
+                        new() { Id = 4, Name = "Huyện Cẩm Thủy", Latitude = "20.19586000", Longitude = "105.46817000" },
+                        new() { Id = 5, Name = "Huyện Đông Sơn", Latitude = "19.79742000", Longitude = "105.72465000" },
+                        new() { Id = 6, Name = "Huyện Hà Trung", Latitude = "20.02654000", Longitude = "105.81931000" },
+                        new() { Id = 7, Name = "Huyện Mường Lát", Latitude = "20.52763000", Longitude = "104.62941000" },
+                        new() { Id = 8, Name = "Huyện Quan Hóa", Latitude = "20.47565000", Longitude = "104.95335000" },
+                        new() { Id = 9, Name = "Huyện Quan Sơn", Latitude = "20.25758000", Longitude = "104.83416000" },
+                        new() { Id = 10, Name = "Huyện Quảng Xương", Latitude = "19.70252000", Longitude = "105.79298000" },
+                        new() { Id = 11, Name = "Huyện Thiệu Hóa", Latitude = "19.89713000", Longitude = "105.68144000" },
+                        new() { Id = 12, Name = "Linh Sơn", Latitude = "20.15611000", Longitude = "105.24223000" },
+                        new() { Id = 13, Name = "Nga Sơn", Latitude = "20.00722000", Longitude = "105.97044000" },
+                        new() { Id = 14, Name = "Ngọc Lặc", Latitude = "20.09189000", Longitude = "105.36761000" },
+                        new() { Id = 15, Name = "Như Thanh", Latitude = "19.63141000", Longitude = "105.57815000" },
+                        new() { Id = 16, Name = "Như Xuân", Latitude = "19.66327000", Longitude = "105.42854000" },
+                        new() { Id = 17, Name = "Nông Cống", Latitude = "19.62403000", Longitude = "105.64941000" },
+                        new() { Id = 18, Name = "Thanh Hóa", Latitude = "19.80000000", Longitude = "105.76667000" },
+                        new() { Id = 19, Name = "Thọ Xuân", Latitude = "19.93133000", Longitude = "105.52179000" },
+                        new() { Id = 20, Name = "Thường Xuân", Latitude = "19.90294000", Longitude = "105.34723000" },
+                        new() { Id = 21, Name = "Triệu Sơn", Latitude = "19.81913000", Longitude = "105.60392000" },
+                        new() { Id = 22, Name = "Vĩnh Lộc", Latitude = "20.05438000", Longitude = "105.61567000" },
+                        new() { Id = 23, Name = "Yên Định", Latitude = "19.97153000", Longitude = "105.65106000" }
                     }
                 },
 
@@ -1006,21 +998,21 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Hà Giang", Latitude = "22.82333000", Longitude = "104.98357000" },
-                        new() { Id = 2, Name = "Huyện Bắc Mê", Latitude = "22.75477000", Longitude = "105.29023000" },
-                        new() { Id = 3, Name = "Huyện Bắc Quang", Latitude = "22.42301000", Longitude = "104.91831000" },
-                        new() { Id = 4, Name = "Huyện Chiêm Hóa", Latitude = "22.17895000", Longitude = "105.27671000" },
-                        new() { Id = 5, Name = "Huyện Đồng Văn", Latitude = "23.25449000", Longitude = "105.27626000" },
-                        new() { Id = 6, Name = "Huyện Hàm Yên", Latitude = "22.10935000", Longitude = "105.01630000" },
+                        new() { Id = 1, Name = "Bắc Mê", Latitude = "22.73223000", Longitude = "105.37145000" },
+                        new() { Id = 2, Name = "Bắc Quang", Latitude = "22.41509000", Longitude = "104.80682000" },
+                        new() { Id = 3, Name = "Chiêm Hoá", Latitude = "22.14360000", Longitude = "105.27192000" },
+                        new() { Id = 4, Name = "Đồng Văn", Latitude = "23.27841000", Longitude = "105.36291000" },
+                        new() { Id = 5, Name = "Hà Giang", Latitude = "22.82333000", Longitude = "104.98357000" },
+                        new() { Id = 6, Name = "Hàm Yên", Latitude = "22.06550000", Longitude = "105.03450000" },
                         new() { Id = 7, Name = "Huyện Lâm Bình", Latitude = "22.46411000", Longitude = "105.21903000" },
-                        new() { Id = 8, Name = "Huyện Na Hang", Latitude = "22.47522000", Longitude = "105.48380000" },
-                        new() { Id = 9, Name = "Huyện Quang Bình", Latitude = "22.41507000", Longitude = "104.66018000" },
-                        new() { Id = 10, Name = "Huyện Sơn Dương", Latitude = "21.63623000", Longitude = "105.38901000" },
-                        new() { Id = 11, Name = "Huyện Vị Xuyên", Latitude = "22.73096000", Longitude = "104.90827000" },
-                        new() { Id = 12, Name = "Huyện Xín Mần", Latitude = "22.64148000", Longitude = "104.52089000" },
-                        new() { Id = 13, Name = "Huyện Yên Minh", Latitude = "23.06992000", Longitude = "105.17865000" },
-                        new() { Id = 14, Name = "Huyện Yên Sơn", Latitude = "21.88363000", Longitude = "105.27656000" },
-                        new() { Id = 15, Name = "Tuyên Quang", Latitude = "21.82356000", Longitude = "105.21424000" }
+                        new() { Id = 8, Name = "Huyện Xín Mần", Latitude = "22.64148000", Longitude = "104.52089000" },
+                        new() { Id = 9, Name = "Huyện Yên Sơn", Latitude = "21.88363000", Longitude = "105.27656000" },
+                        new() { Id = 10, Name = "Nà Hang", Latitude = "22.34917000", Longitude = "105.38241000" },
+                        new() { Id = 11, Name = "Quang Bình", Latitude = "22.40989000", Longitude = "104.57949000" },
+                        new() { Id = 12, Name = "Sơn Dương", Latitude = "21.69676000", Longitude = "105.39901000" },
+                        new() { Id = 13, Name = "Tuyên Quang", Latitude = "21.82356000", Longitude = "105.21424000" },
+                        new() { Id = 14, Name = "Vị Xuyên", Latitude = "22.66762000", Longitude = "104.98191000" },
+                        new() { Id = 15, Name = "Yên Minh", Latitude = "23.11792000", Longitude = "105.14159000" }
                     }
                 },
 
@@ -1037,24 +1029,24 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ấp Tân Ngãi", Latitude = "10.23333000", Longitude = "106.28333000" },
-                        new() { Id = 2, Name = "Bến Tre", Latitude = "10.24147000", Longitude = "106.37585000" },
-                        new() { Id = 3, Name = "Huyện Ba Tri", Latitude = "10.06627000", Longitude = "106.60554000" },
-                        new() { Id = 4, Name = "Huyện Bình Đại", Latitude = "10.19354000", Longitude = "106.64455000" },
-                        new() { Id = 5, Name = "Huyện Càng Long", Latitude = "9.95883000", Longitude = "106.21395000" },
-                        new() { Id = 6, Name = "Huyện Cầu Kè", Latitude = "9.86738000", Longitude = "106.07916000" },
-                        new() { Id = 7, Name = "Huyện Cầu Ngang", Latitude = "9.77186000", Longitude = "106.43654000" },
-                        new() { Id = 8, Name = "Huyện Châu Thành", Latitude = "10.29212000", Longitude = "106.30827000" },
-                        new() { Id = 9, Name = "Huyện Chợ Lách", Latitude = "10.22674000", Longitude = "106.17077000" },
-                        new() { Id = 10, Name = "Huyện Giồng Trôm", Latitude = "10.15909000", Longitude = "106.47004000" },
-                        new() { Id = 11, Name = "Huyện Long Hồ", Latitude = "10.21640000", Longitude = "105.98483000" },
-                        new() { Id = 12, Name = "Huyện Mang Thít", Latitude = "10.18731000", Longitude = "106.07472000" },
-                        new() { Id = 13, Name = "Huyện Tam Bình", Latitude = "10.08127000", Longitude = "105.95352000" },
-                        new() { Id = 14, Name = "Huyện Thạnh Phú", Latitude = "9.92993000", Longitude = "106.54316000" },
-                        new() { Id = 15, Name = "Huyện Tiểu Cần", Latitude = "9.80350000", Longitude = "106.20594000" },
-                        new() { Id = 16, Name = "Huyện Trà Cú", Latitude = "9.69706000", Longitude = "106.29423000" },
-                        new() { Id = 17, Name = "Huyện Trà Ôn", Latitude = "9.97522000", Longitude = "106.00957000" },
-                        new() { Id = 18, Name = "Huyện Vũng Liêm", Latitude = "10.08717000", Longitude = "106.16038000" },
-                        new() { Id = 19, Name = "Trà Vinh", Latitude = "9.94719000", Longitude = "106.34225000" },
+                        new() { Id = 2, Name = "Ba Tri", Latitude = "10.04427000", Longitude = "106.59020000" },
+                        new() { Id = 3, Name = "Bến Tre", Latitude = "10.24147000", Longitude = "106.37585000" },
+                        new() { Id = 4, Name = "Bình Đại", Latitude = "10.18964000", Longitude = "106.69149000" },
+                        new() { Id = 5, Name = "Cái Nhum", Latitude = "10.17412000", Longitude = "106.11051000" },
+                        new() { Id = 6, Name = "Cầu Kè", Latitude = "9.87240000", Longitude = "106.05497000" },
+                        new() { Id = 7, Name = "Chợ Lách", Latitude = "10.26032000", Longitude = "106.11892000" },
+                        new() { Id = 8, Name = "Giồng Trôm", Latitude = "10.15021000", Longitude = "106.50606000" },
+                        new() { Id = 9, Name = "Huyện Càng Long", Latitude = "9.95883000", Longitude = "106.21395000" },
+                        new() { Id = 10, Name = "Huyện Cầu Ngang", Latitude = "9.77186000", Longitude = "106.43654000" },
+                        new() { Id = 11, Name = "Huyện Tam Bình", Latitude = "10.08127000", Longitude = "105.95352000" },
+                        new() { Id = 12, Name = "Huyện Trà Ôn", Latitude = "9.97522000", Longitude = "106.00957000" },
+                        new() { Id = 13, Name = "Long Hồ", Latitude = "10.19281000", Longitude = "106.01229000" },
+                        new() { Id = 14, Name = "Phú Túc", Latitude = "10.30122000", Longitude = "106.35701000" },
+                        new() { Id = 15, Name = "Thạnh Phú", Latitude = "9.94827000", Longitude = "106.51629000" },
+                        new() { Id = 16, Name = "Tiểu Cần", Latitude = "9.81166000", Longitude = "106.19067000" },
+                        new() { Id = 17, Name = "Trà Cú", Latitude = "9.69774000", Longitude = "106.25834000" },
+                        new() { Id = 18, Name = "Trà Vinh", Latitude = "9.94719000", Longitude = "106.34225000" },
+                        new() { Id = 19, Name = "Trung Thành", Latitude = "10.09576000", Longitude = "106.18548000" },
                         new() { Id = 20, Name = "Vĩnh Long", Latitude = "10.25369000", Longitude = "105.97220000" }
                     }
                 }
