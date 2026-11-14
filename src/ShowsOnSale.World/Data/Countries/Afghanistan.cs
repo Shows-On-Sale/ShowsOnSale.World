@@ -75,10 +75,15 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Ashkāsham", Latitude = "36.68333000", Longitude = "71.53333000" },
                         new() { Id = 2, Name = "Fayzabad", Latitude = "37.11664000", Longitude = "70.58002000" },
-                        new() { Id = 3, Name = "Jurm", Latitude = "36.86477000", Longitude = "70.83421000" },
-                        new() { Id = 4, Name = "Khandūd", Latitude = "36.95127000", Longitude = "72.31800000" },
-                        new() { Id = 5, Name = "Rāghistān", Latitude = "37.66079000", Longitude = "70.67346000" },
-                        new() { Id = 6, Name = "Wākhān", Latitude = "37.05710000", Longitude = "73.34928000" }
+                        new() { Id = 3, Name = "Ghurayd Gharamē", Latitude = "36.52220000", Longitude = "70.79063000" },
+                        new() { Id = 4, Name = "Jurm", Latitude = "36.86477000", Longitude = "70.83421000" },
+                        new() { Id = 5, Name = "Khandūd", Latitude = "36.95127000", Longitude = "72.31800000" },
+                        new() { Id = 6, Name = "Kuran wa Munjan", Latitude = "36.02866000", Longitude = "70.77258000" },
+                        new() { Id = 7, Name = "Māymay", Latitude = "38.40856000", Longitude = "71.03839000" },
+                        new() { Id = 8, Name = "Nūsay", Latitude = "38.44350000", Longitude = "70.80413000" },
+                        new() { Id = 9, Name = "Rāghistān", Latitude = "37.66079000", Longitude = "70.67346000" },
+                        new() { Id = 10, Name = "Wākhān", Latitude = "37.05710000", Longitude = "73.34928000" },
+                        new() { Id = 11, Name = "Zaybāk", Latitude = "36.52947000", Longitude = "71.34410000" }
                     }
                 },
 
@@ -94,8 +99,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Ghormach", Latitude = "35.73062000", Longitude = "63.78264000" },
-                        new() { Id = 2, Name = "Qala i Naw", Latitude = "34.98735000", Longitude = "63.12891000" }
+                        new() { Id = 1, Name = "Bala Murghab", Latitude = "35.58408000", Longitude = "63.32886000" },
+                        new() { Id = 2, Name = "Ghormach", Latitude = "35.73062000", Longitude = "63.78264000" },
+                        new() { Id = 3, Name = "Jawand", Latitude = "35.06361000", Longitude = "64.14917000" },
+                        new() { Id = 4, Name = "Qādis", Latitude = "34.80850000", Longitude = "63.43003000" },
+                        new() { Id = 5, Name = "Qala i Naw", Latitude = "34.98735000", Longitude = "63.12891000" }
                     }
                 },
 
@@ -112,9 +120,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Baghlān", Latitude = "36.13068000", Longitude = "68.70829000" },
-                        new() { Id = 2, Name = "Ḩukūmatī Dahanah-ye Ghōrī", Latitude = "35.90617000", Longitude = "68.48869000" },
-                        new() { Id = 3, Name = "Nahrīn", Latitude = "36.06490000", Longitude = "69.13343000" },
-                        new() { Id = 4, Name = "Pul-e Khumrī", Latitude = "35.94458000", Longitude = "68.71512000" }
+                        new() { Id = 2, Name = "Banū", Latitude = "35.63348000", Longitude = "69.26019000" },
+                        new() { Id = 3, Name = "Bāzār-e Tālah", Latitude = "35.39205000", Longitude = "68.22317000" },
+                        new() { Id = 4, Name = "Dōshī", Latitude = "35.60918000", Longitude = "68.68473000" },
+                        new() { Id = 5, Name = "Ḩukūmatī Dahanah-ye Ghōrī", Latitude = "35.90617000", Longitude = "68.48869000" },
+                        new() { Id = 6, Name = "Khinjān", Latitude = "35.58908000", Longitude = "68.90093000" },
+                        new() { Id = 7, Name = "Nahrīn", Latitude = "36.06490000", Longitude = "69.13343000" },
+                        new() { Id = 8, Name = "Pul-e Khumrī", Latitude = "35.94458000", Longitude = "68.71512000" }
                     }
                 },
 
@@ -130,12 +142,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Balkh", Latitude = "36.75635000", Longitude = "66.89720000" },
-                        new() { Id = 2, Name = "Dowlatābād", Latitude = "36.98821000", Longitude = "66.82069000" },
-                        new() { Id = 3, Name = "Khulm", Latitude = "36.69736000", Longitude = "67.69826000" },
-                        new() { Id = 4, Name = "Lab-Sar", Latitude = "36.02634000", Longitude = "66.83799000" },
-                        new() { Id = 5, Name = "Mazār-e Sharīf", Latitude = "36.70904000", Longitude = "67.11087000" },
-                        new() { Id = 6, Name = "Qarchī Gak", Latitude = "37.03999000", Longitude = "66.78891000" }
+                        new() { Id = 1, Name = "Āq Kupruk", Latitude = "36.08352000", Longitude = "66.84029000" },
+                        new() { Id = 2, Name = "Balkh", Latitude = "36.75635000", Longitude = "66.89720000" },
+                        new() { Id = 3, Name = "Chimtāl", Latitude = "36.67818000", Longitude = "66.80325000" },
+                        new() { Id = 4, Name = "Dowlatābād", Latitude = "36.98821000", Longitude = "66.82069000" },
+                        new() { Id = 5, Name = "Khulm", Latitude = "36.69736000", Longitude = "67.69826000" },
+                        new() { Id = 6, Name = "Lab-Sar", Latitude = "36.02634000", Longitude = "66.83799000" },
+                        new() { Id = 7, Name = "Mazār-e Sharīf", Latitude = "36.70904000", Longitude = "67.11087000" },
+                        new() { Id = 8, Name = "Qarchī Gak", Latitude = "37.03999000", Longitude = "66.78891000" }
                     }
                 },
 
@@ -152,7 +166,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bāmyān", Latitude = "34.82156000", Longitude = "67.82734000" },
-                        new() { Id = 2, Name = "Panjāb", Latitude = "34.38795000", Longitude = "67.02327000" }
+                        new() { Id = 2, Name = "Bulōlah", Latitude = "34.87706000", Longitude = "68.08790000" },
+                        new() { Id = 3, Name = "Panjāb", Latitude = "34.38795000", Longitude = "67.02327000" }
                     }
                 },
 
@@ -217,7 +232,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Ghazni", Latitude = "33.55391000", Longitude = "68.42096000" }
+                        new() { Id = 1, Name = "‘Alāqahdārī Gēlān", Latitude = "32.72692000", Longitude = "67.63696000" },
+                        new() { Id = 2, Name = "Ghazni", Latitude = "33.55391000", Longitude = "68.42096000" },
+                        new() { Id = 3, Name = "Mīray", Latitude = "33.32462000", Longitude = "68.44068000" },
+                        new() { Id = 4, Name = "Qarah Bāgh", Latitude = "33.19801000", Longitude = "68.10798000" },
+                        new() { Id = 5, Name = "Rāmak", Latitude = "33.52234000", Longitude = "68.62640000" }
                     }
                 },
 
@@ -234,7 +253,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Fayrōz Kōh", Latitude = "34.51952000", Longitude = "65.25093000" },
-                        new() { Id = 2, Name = "Shahrak", Latitude = "34.10737000", Longitude = "64.30520000" }
+                        new() { Id = 2, Name = "La‘l", Latitude = "34.50141000", Longitude = "66.27997000" },
+                        new() { Id = 3, Name = "Shahrak", Latitude = "34.10737000", Longitude = "64.30520000" }
                     }
                 },
 
@@ -252,9 +272,11 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "‘Alāqahdārī Dīshū", Latitude = "30.43206000", Longitude = "63.29802000" },
                         new() { Id = 2, Name = "Gereshk", Latitude = "31.82089000", Longitude = "64.57005000" },
-                        new() { Id = 3, Name = "Lashkar Gāh", Latitude = "31.59382000", Longitude = "64.37161000" },
-                        new() { Id = 4, Name = "Markaz-e Ḩukūmat-e Darwēshān", Latitude = "31.13231000", Longitude = "64.19340000" },
-                        new() { Id = 5, Name = "Sangīn", Latitude = "32.07275000", Longitude = "64.83590000" }
+                        new() { Id = 3, Name = "Khān Neshīn", Latitude = "30.54880000", Longitude = "63.78880000" },
+                        new() { Id = 4, Name = "Lashkar Gāh", Latitude = "31.59382000", Longitude = "64.37161000" },
+                        new() { Id = 5, Name = "Markaz-e Ḩukūmat-e Darwēshān", Latitude = "31.13231000", Longitude = "64.19340000" },
+                        new() { Id = 6, Name = "Mūsá Qal‘ah", Latitude = "32.44565000", Longitude = "64.74486000" },
+                        new() { Id = 7, Name = "Sangīn", Latitude = "32.07275000", Longitude = "64.83590000" }
                     }
                 },
 
@@ -270,17 +292,19 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Chahār Burj", Latitude = "34.24475000", Longitude = "62.19165000" },
-                        new() { Id = 2, Name = "Ghōriyān", Latitude = "34.34480000", Longitude = "61.49321000" },
-                        new() { Id = 3, Name = "Herāt", Latitude = "34.34817000", Longitude = "62.19967000" },
-                        new() { Id = 4, Name = "Kafir Qala", Latitude = "34.66667000", Longitude = "61.06667000" },
-                        new() { Id = 5, Name = "Karukh", Latitude = "34.48108000", Longitude = "62.58630000" },
-                        new() { Id = 6, Name = "Kuhsān", Latitude = "34.65389000", Longitude = "61.19778000" },
-                        new() { Id = 7, Name = "Kushk", Latitude = "33.29565000", Longitude = "61.95221000" },
-                        new() { Id = 8, Name = "Qarah Bāgh", Latitude = "34.94023000", Longitude = "61.77589000" },
-                        new() { Id = 9, Name = "Shīnḏanḏ", Latitude = "33.30294000", Longitude = "62.14740000" },
-                        new() { Id = 10, Name = "Tīr Pul", Latitude = "34.59431000", Longitude = "61.26895000" },
-                        new() { Id = 11, Name = "Zindah Jān", Latitude = "34.34264000", Longitude = "61.74675000" }
+                        new() { Id = 1, Name = "Adraskan", Latitude = "33.64573000", Longitude = "62.26959000" },
+                        new() { Id = 2, Name = "Chahār Burj", Latitude = "34.24475000", Longitude = "62.19165000" },
+                        new() { Id = 3, Name = "Ghōriyān", Latitude = "34.34480000", Longitude = "61.49321000" },
+                        new() { Id = 4, Name = "Herāt", Latitude = "34.34817000", Longitude = "62.19967000" },
+                        new() { Id = 5, Name = "Kafir Qala", Latitude = "34.66667000", Longitude = "61.06667000" },
+                        new() { Id = 6, Name = "Karukh", Latitude = "34.48108000", Longitude = "62.58630000" },
+                        new() { Id = 7, Name = "Kuhsān", Latitude = "34.65389000", Longitude = "61.19778000" },
+                        new() { Id = 8, Name = "Kushk", Latitude = "33.29565000", Longitude = "61.95221000" },
+                        new() { Id = 9, Name = "Ōbêh", Latitude = "34.36972000", Longitude = "63.17639000" },
+                        new() { Id = 10, Name = "Qarah Bāgh", Latitude = "34.94023000", Longitude = "61.77589000" },
+                        new() { Id = 11, Name = "Shīnḏanḏ", Latitude = "33.30294000", Longitude = "62.14740000" },
+                        new() { Id = 12, Name = "Tīr Pul", Latitude = "34.59431000", Longitude = "61.26895000" },
+                        new() { Id = 13, Name = "Zindah Jān", Latitude = "34.34264000", Longitude = "61.74675000" }
                     }
                 },
 
@@ -296,10 +320,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Āqchah", Latitude = "36.90500000", Longitude = "66.18341000" },
+                        new() { Id = 1, Name = "Aqcha", Latitude = "36.90500000", Longitude = "66.18341000" },
                         new() { Id = 2, Name = "Darzāb", Latitude = "35.97744000", Longitude = "65.37828000" },
-                        new() { Id = 3, Name = "Qarqīn", Latitude = "37.41853000", Longitude = "66.04358000" },
-                        new() { Id = 4, Name = "Shibirghān", Latitude = "36.66757000", Longitude = "65.75290000" }
+                        new() { Id = 3, Name = "Khwājah Dū Kōh", Latitude = "36.82881000", Longitude = "65.62432000" },
+                        new() { Id = 4, Name = "Mingajik", Latitude = "37.02790000", Longitude = "66.12817000" },
+                        new() { Id = 5, Name = "Qarqīn", Latitude = "37.41853000", Longitude = "66.04358000" },
+                        new() { Id = 6, Name = "Shibirghān", Latitude = "36.66757000", Longitude = "65.75290000" }
                     }
                 },
 
@@ -315,9 +341,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Kabul", Latitude = "34.52813000", Longitude = "69.17233000" },
-                        new() { Id = 2, Name = "Mīr Bachah Kōṯ", Latitude = "34.74999000", Longitude = "69.11899000" },
-                        new() { Id = 3, Name = "Paghmān", Latitude = "34.58787000", Longitude = "68.95091000" }
+                        new() { Id = 1, Name = "Istālif", Latitude = "34.83268000", Longitude = "69.07756000" },
+                        new() { Id = 2, Name = "Kabul", Latitude = "34.52813000", Longitude = "69.17233000" },
+                        new() { Id = 3, Name = "Mīr Bachah Kōṯ", Latitude = "34.74999000", Longitude = "69.11899000" },
+                        new() { Id = 4, Name = "Paghmān", Latitude = "34.58787000", Longitude = "68.95091000" }
                     }
                 },
 
@@ -333,7 +360,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Kandahār", Latitude = "31.61332000", Longitude = "65.71013000" }
+                        new() { Id = 1, Name = "Kandahār", Latitude = "31.61332000", Longitude = "65.71013000" },
+                        new() { Id = 2, Name = "Spīn Bōldak", Latitude = "31.00575000", Longitude = "66.40001000" }
                     }
                 },
 
@@ -349,7 +377,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Sidqābād", Latitude = "35.02298000", Longitude = "69.35112000" }
+                        new() { Id = 1, Name = "Alah Sāy", Latitude = "34.89650000", Longitude = "69.72049000" },
+                        new() { Id = 2, Name = "Sidqābād", Latitude = "35.02298000", Longitude = "69.35112000" }
                     }
                 },
 
@@ -365,7 +394,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Khōst", Latitude = "33.33951000", Longitude = "69.92041000" }
+                        new() { Id = 1, Name = "Khōst", Latitude = "33.33951000", Longitude = "69.92041000" },
+                        new() { Id = 2, Name = "Shaykh Amīr Kêlay", Latitude = "33.28744000", Longitude = "69.91283000" },
+                        new() { Id = 3, Name = "Spērah", Latitude = "33.20204000", Longitude = "69.51520000" }
                     }
                 },
 
@@ -382,7 +413,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Asadabad", Latitude = "34.87311000", Longitude = "71.14697000" },
-                        new() { Id = 2, Name = "Āsmār", Latitude = "35.03333000", Longitude = "71.35809000" }
+                        new() { Id = 2, Name = "Āsmār", Latitude = "35.03333000", Longitude = "71.35809000" },
+                        new() { Id = 3, Name = "Nūrgal", Latitude = "34.61341000", Longitude = "70.76498000" }
                     }
                 },
 
@@ -434,9 +466,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Baraki Barak", Latitude = "33.96744000", Longitude = "68.94920000" },
-                        new() { Id = 2, Name = "Ḩukūmatī Azrah", Latitude = "34.17355000", Longitude = "69.64573000" },
-                        new() { Id = 3, Name = "Pul-e ‘Alam", Latitude = "33.99529000", Longitude = "69.02274000" }
+                        new() { Id = 1, Name = "Barakī", Latitude = "33.93949000", Longitude = "68.92201000" },
+                        new() { Id = 2, Name = "Baraki Barak", Latitude = "33.96744000", Longitude = "68.94920000" },
+                        new() { Id = 3, Name = "Ḩukūmatī Azrah", Latitude = "34.17355000", Longitude = "69.64573000" },
+                        new() { Id = 4, Name = "Pul-e ‘Alam", Latitude = "33.99529000", Longitude = "69.02274000" }
                     }
                 },
 
@@ -452,8 +485,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Bāsawul", Latitude = "34.24749000", Longitude = "70.87218000" },
-                        new() { Id = 2, Name = "Jalālābād", Latitude = "34.42647000", Longitude = "70.45153000" }
+                        new() { Id = 1, Name = "Jalālābād", Latitude = "34.42647000", Longitude = "70.45153000" },
+                        new() { Id = 2, Name = "Kaz̲h̲ah", Latitude = "34.24088000", Longitude = "70.18274000" },
+                        new() { Id = 3, Name = "Muhmand Dara", Latitude = "34.24749000", Longitude = "70.87218000" }
                     }
                 },
 
@@ -521,8 +555,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Saṟōbī", Latitude = "32.75221000", Longitude = "69.04587000" },
-                        new() { Id = 2, Name = "Zaṟah Sharan", Latitude = "33.14641000", Longitude = "68.79213000" },
-                        new() { Id = 3, Name = "Zarghūn Shahr", Latitude = "32.84734000", Longitude = "68.44573000" }
+                        new() { Id = 2, Name = "Yaḩyá Khēl", Latitude = "32.93742000", Longitude = "68.64622000" },
+                        new() { Id = 3, Name = "Zaṟah Sharan", Latitude = "33.14641000", Longitude = "68.79213000" },
+                        new() { Id = 4, Name = "Zarghūn Shahr", Latitude = "32.84734000", Longitude = "68.44573000" }
                     }
                 },
 
@@ -554,8 +589,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Charikar", Latitude = "35.01361000", Longitude = "69.17139000" },
-                        new() { Id = 2, Name = "Jabal os Saraj", Latitude = "35.11833000", Longitude = "69.23778000" }
+                        new() { Id = 1, Name = "Bagrām", Latitude = "34.96694000", Longitude = "69.26500000" },
+                        new() { Id = 2, Name = "Charikar", Latitude = "35.01361000", Longitude = "69.17139000" },
+                        new() { Id = 3, Name = "Jabal os Saraj", Latitude = "35.11833000", Longitude = "69.23778000" }
                     }
                 },
 
