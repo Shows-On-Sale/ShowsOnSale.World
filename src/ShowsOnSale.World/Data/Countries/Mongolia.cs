@@ -85,7 +85,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Bayan-Ölgii",
                     StateCode = "071",
                     Iso3166_2 = "MN-071",
-                    TimeZoneId = "Asia/Choibalsan",
+                    TimeZoneId = "Asia/Hovd",
                     Latitude = "48.54700830",
                     Longitude = "89.85493580",
                     Type = "province",
@@ -199,7 +199,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Govi-Altai",
                     StateCode = "065",
                     Iso3166_2 = "MN-065",
-                    TimeZoneId = "Asia/Choibalsan",
+                    TimeZoneId = "Asia/Ulaanbaatar",
                     Latitude = "45.34631390",
                     Longitude = "95.93258060",
                     Type = "province",
@@ -247,7 +247,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Khovd",
                     StateCode = "043",
                     Iso3166_2 = "MN-043",
-                    TimeZoneId = "Asia/Choibalsan",
+                    TimeZoneId = "Asia/Hovd",
                     Latitude = "46.89979770",
                     Longitude = "92.29596510",
                     Type = "province",
@@ -345,7 +345,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Dzüünharaa", Latitude = "48.85229000", Longitude = "106.45786000" },
-                        new() { Id = 2, Name = "Sühbaatar", Latitude = "50.23139000", Longitude = "106.20778000" }
+                        new() { Id = 2, Name = "Nomgon", Latitude = "49.20010000", Longitude = "105.66582000" },
+                        new() { Id = 3, Name = "Sühbaatar", Latitude = "50.23139000", Longitude = "106.20778000" }
                     }
                 },
 
@@ -377,11 +378,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Centipede", Latitude = "47.70693000", Longitude = "106.95276000" },
-                        new() { Id = 2, Name = "Dzuunmod", Latitude = "47.70694000", Longitude = "106.95278000" },
-                        new() { Id = 3, Name = "Möngönmorĭt", Latitude = "48.19504000", Longitude = "108.48295000" },
-                        new() { Id = 4, Name = "Ulaanhudag", Latitude = "47.33333000", Longitude = "104.50000000" },
-                        new() { Id = 5, Name = "Ulan Bator", Latitude = "47.89176240", Longitude = "106.73706000" }
+                        new() { Id = 1, Name = "Dzuunmod", Latitude = "47.70694000", Longitude = "106.95278000" },
+                        new() { Id = 2, Name = "Möngönmorĭt", Latitude = "48.19504000", Longitude = "108.48295000" },
+                        new() { Id = 3, Name = "Ulaanhudag", Latitude = "47.33333000", Longitude = "104.50000000" },
+                        new() { Id = 4, Name = "Ulan Bator", Latitude = "47.89176240", Longitude = "106.73706000" },
+                        new() { Id = 5, Name = "Zuunmod", Latitude = "47.70693000", Longitude = "106.95276000" }
                     }
                 },
 
@@ -390,7 +391,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 20,
                     Name = "Ulaanbaatar",
                     StateCode = "001",
-                    Iso3166_2 = "MN-001",
+                    Iso3166_2 = "MN-1",
                     TimeZoneId = "Asia/Choibalsan",
                     Latitude = "47.91846760",
                     Longitude = "106.91770160",
@@ -407,7 +408,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Uvs",
                     StateCode = "046",
                     Iso3166_2 = "MN-046",
-                    TimeZoneId = "Asia/Choibalsan",
+                    TimeZoneId = "Asia/Hovd",
                     Latitude = "49.63138870",
                     Longitude = "92.95581860",
                     Type = "province",
@@ -423,7 +424,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Zavkhan",
                     StateCode = "057",
                     Iso3166_2 = "MN-057",
-                    TimeZoneId = "Asia/Choibalsan",
+                    TimeZoneId = "Asia/Ulaanbaatar",
                     Latitude = "48.31333550",
                     Longitude = "96.28505060",
                     Type = "province",
