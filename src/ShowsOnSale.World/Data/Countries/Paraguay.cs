@@ -73,8 +73,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "department",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Capitán Pablo Lagerenza", Latitude = "-19.91667000", Longitude = "-60.78333000" },
-                        new() { Id = 2, Name = "Fuerte Olimpo", Latitude = "-21.04153000", Longitude = "-57.87377000" }
+                        new() { Id = 1, Name = "Agua Dulce de Santa María", Latitude = "-19.98378500", Longitude = "-59.75844700" },
+                        new() { Id = 2, Name = "Bahía Negra", Latitude = "-20.22861111", Longitude = "-58.16777778" },
+                        new() { Id = 3, Name = "Capitán Carmelo Peralta", Latitude = "-21.67830556", Longitude = "-57.91458333" },
+                        new() { Id = 4, Name = "Capitán Pablo Lagerenza", Latitude = "-19.91667000", Longitude = "-60.78333000" },
+                        new() { Id = 5, Name = "Fuerte Olimpo", Latitude = "-21.04153000", Longitude = "-57.87377000" },
+                        new() { Id = 6, Name = "Puerto Casado", Latitude = "-22.29000000", Longitude = "-57.94000000" }
                     }
                 },
 
@@ -150,7 +154,10 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Colonia Menno", Latitude = "-22.36667000", Longitude = "-59.81667000" },
                         new() { Id = 2, Name = "Colonia Neuland", Latitude = "-22.66667000", Longitude = "-60.11667000" },
-                        new() { Id = 3, Name = "Filadelfia", Latitude = "-22.33936000", Longitude = "-60.03157000" }
+                        new() { Id = 3, Name = "Filadelfia", Latitude = "-22.33936000", Longitude = "-60.03157000" },
+                        new() { Id = 4, Name = "Fortín Boquerón", Latitude = "-22.78333000", Longitude = "-59.95000000" },
+                        new() { Id = 5, Name = "Fortín General Eugenio Garay", Latitude = "-20.51666670", Longitude = "-62.13333330" },
+                        new() { Id = 6, Name = "Mariscal José Félix Estigarribia", Latitude = "-22.03055556", Longitude = "-60.61111111" }
                     }
                 },
 
@@ -400,7 +407,8 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Cerrito", Latitude = "-27.34215000", Longitude = "-57.64119000" },
                         new() { Id = 2, Name = "General José Eduvigis Díaz", Latitude = "-27.20136000", Longitude = "-58.36740000" },
-                        new() { Id = 3, Name = "Pilar", Latitude = "-26.85874000", Longitude = "-58.30639000" }
+                        new() { Id = 3, Name = "Pilar", Latitude = "-26.85874000", Longitude = "-58.30639000" },
+                        new() { Id = 4, Name = "Villa Oliva", Latitude = "-26.02000000", Longitude = "-57.87000000" }
                     }
                 },
 

@@ -76,13 +76,16 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Bogale", Latitude = "16.29415000", Longitude = "95.39742000" },
                         new() { Id = 2, Name = "Hinthada", Latitude = "17.64944000", Longitude = "95.45705000" },
                         new() { Id = 3, Name = "Kyaiklat", Latitude = "16.44502000", Longitude = "95.72373000" },
-                        new() { Id = 4, Name = "Maubin", Latitude = "16.73148000", Longitude = "95.65441000" },
-                        new() { Id = 5, Name = "Mawlamyinegyunn", Latitude = "16.37720000", Longitude = "95.26488000" },
-                        new() { Id = 6, Name = "Myanaung", Latitude = "18.28651000", Longitude = "95.32014000" },
-                        new() { Id = 7, Name = "Nyaungdon", Latitude = "17.04459000", Longitude = "95.63957000" },
-                        new() { Id = 8, Name = "Pathein", Latitude = "16.77919000", Longitude = "94.73212000" },
-                        new() { Id = 9, Name = "Pyapon", Latitude = "16.28543000", Longitude = "95.67882000" },
-                        new() { Id = 10, Name = "Wakema", Latitude = "16.60333000", Longitude = "95.18278000" }
+                        new() { Id = 4, Name = "Labutta", Latitude = "16.14948000", Longitude = "94.75898000" },
+                        new() { Id = 5, Name = "Maubin", Latitude = "16.73148000", Longitude = "95.65441000" },
+                        new() { Id = 6, Name = "Mawlamyinegyunn", Latitude = "16.37720000", Longitude = "95.26488000" },
+                        new() { Id = 7, Name = "Myanaung", Latitude = "18.28651000", Longitude = "95.32014000" },
+                        new() { Id = 8, Name = "Myaungmya", Latitude = "16.59875000", Longitude = "94.92111000" },
+                        new() { Id = 9, Name = "Nyaungdon", Latitude = "17.04459000", Longitude = "95.63957000" },
+                        new() { Id = 10, Name = "Pathein", Latitude = "16.77919000", Longitude = "94.73212000" },
+                        new() { Id = 11, Name = "Pyapon", Latitude = "16.28543000", Longitude = "95.67882000" },
+                        new() { Id = 12, Name = "Wakema", Latitude = "16.60333000", Longitude = "95.18278000" },
+                        new() { Id = 13, Name = "Zalun", Latitude = "17.47941000", Longitude = "95.55924000" }
                     }
                 },
 
@@ -104,9 +107,11 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Paungde", Latitude = "18.49167000", Longitude = "95.50591000" },
                         new() { Id = 5, Name = "Pyay", Latitude = "18.82464000", Longitude = "95.22216000" },
                         new() { Id = 6, Name = "Pyu", Latitude = "18.48130000", Longitude = "96.43742000" },
-                        new() { Id = 7, Name = "Taungoo", Latitude = "18.94291000", Longitude = "96.43408000" },
-                        new() { Id = 8, Name = "Thanatpin", Latitude = "17.29136000", Longitude = "96.57523000" },
-                        new() { Id = 9, Name = "Tharyarwady", Latitude = "17.65399000", Longitude = "95.78813000" }
+                        new() { Id = 7, Name = "Shwegyin", Latitude = "17.92118000", Longitude = "96.87676000" },
+                        new() { Id = 8, Name = "Taungoo", Latitude = "18.94291000", Longitude = "96.43408000" },
+                        new() { Id = 9, Name = "Thanatpin", Latitude = "17.29136000", Longitude = "96.57523000" },
+                        new() { Id = 10, Name = "Tharyarwady", Latitude = "17.65399000", Longitude = "95.78813000" },
+                        new() { Id = 11, Name = "Yedashe", Latitude = "19.15633000", Longitude = "96.34593000" }
                     }
                 },
 
@@ -140,7 +145,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bhamo", Latitude = "24.25256000", Longitude = "97.23357000" },
-                        new() { Id = 2, Name = "Myitkyina", Latitude = "25.38327000", Longitude = "97.39637000" }
+                        new() { Id = 2, Name = "Hopin", Latitude = "24.99146000", Longitude = "96.52681000" },
+                        new() { Id = 3, Name = "Hpākān", Latitude = "25.61380000", Longitude = "96.31482000" },
+                        new() { Id = 4, Name = "Mohnyin", Latitude = "24.77822000", Longitude = "96.36863000" },
+                        new() { Id = 5, Name = "Myitkyina", Latitude = "25.38327000", Longitude = "97.39637000" },
+                        new() { Id = 6, Name = "Shwegu", Latitude = "24.22673000", Longitude = "96.79085000" }
                     }
                 },
 
@@ -174,13 +183,15 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Dellok", Latitude = "16.04072000", Longitude = "97.91773000" },
                         new() { Id = 2, Name = "Hpa-An", Latitude = "16.88953000", Longitude = "97.63482000" },
-                        new() { Id = 3, Name = "Klonhtoug", Latitude = "15.95411000", Longitude = "98.43250000" },
-                        new() { Id = 4, Name = "Kyain Seikgyi Township", Latitude = "15.82288000", Longitude = "98.25257000" },
-                        new() { Id = 5, Name = "Mikenaungea", Latitude = "15.95846000", Longitude = "98.42721000" },
-                        new() { Id = 6, Name = "Myawadi", Latitude = "16.68911000", Longitude = "98.50893000" },
-                        new() { Id = 7, Name = "Pulei", Latitude = "16.06243000", Longitude = "97.88280000" },
-                        new() { Id = 8, Name = "Tagondaing", Latitude = "16.06750000", Longitude = "97.90694000" },
-                        new() { Id = 9, Name = "Tamoowoug", Latitude = "16.03447000", Longitude = "97.91458000" }
+                        new() { Id = 3, Name = "Kawkareik", Latitude = "16.55543000", Longitude = "98.23710000" },
+                        new() { Id = 4, Name = "Klonhtoug", Latitude = "15.95411000", Longitude = "98.43250000" },
+                        new() { Id = 5, Name = "Kyain Seikgyi Township", Latitude = "15.82288000", Longitude = "98.25257000" },
+                        new() { Id = 6, Name = "Mikenaungea", Latitude = "15.95846000", Longitude = "98.42721000" },
+                        new() { Id = 7, Name = "Myawadi", Latitude = "16.68911000", Longitude = "98.50893000" },
+                        new() { Id = 8, Name = "Payathonzu", Latitude = "15.31771000", Longitude = "98.38836000" },
+                        new() { Id = 9, Name = "Pulei", Latitude = "16.06243000", Longitude = "97.88280000" },
+                        new() { Id = 10, Name = "Tagondaing", Latitude = "16.06750000", Longitude = "97.90694000" },
+                        new() { Id = 11, Name = "Tamoowoug", Latitude = "16.03447000", Longitude = "97.91458000" }
                     }
                 },
 
@@ -203,7 +214,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 5, Name = "Pakokku", Latitude = "21.33489000", Longitude = "95.08438000" },
                         new() { Id = 6, Name = "Taungdwingyi", Latitude = "20.00650000", Longitude = "95.54531000" },
                         new() { Id = 7, Name = "Thayetmyo", Latitude = "19.32076000", Longitude = "95.18272000" },
-                        new() { Id = 8, Name = "Yenangyaung", Latitude = "20.46504000", Longitude = "94.87120000" }
+                        new() { Id = 8, Name = "Yenangyaung", Latitude = "20.46504000", Longitude = "94.87120000" },
+                        new() { Id = 9, Name = "Yesagyo", Latitude = "21.63241000", Longitude = "95.24619000" }
                     }
                 },
 
@@ -219,14 +231,17 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Kyaukse", Latitude = "21.60560000", Longitude = "96.13508000" },
-                        new() { Id = 2, Name = "Mandalay", Latitude = "21.97473000", Longitude = "96.08359000" },
-                        new() { Id = 3, Name = "Meiktila", Latitude = "20.87776000", Longitude = "95.85844000" },
-                        new() { Id = 4, Name = "Mogok", Latitude = "22.91766000", Longitude = "96.50982000" },
-                        new() { Id = 5, Name = "Myingyan", Latitude = "21.46002000", Longitude = "95.38840000" },
-                        new() { Id = 6, Name = "Nyaungshwe", Latitude = "20.66084000", Longitude = "96.93405000" },
-                        new() { Id = 7, Name = "Pyin Oo Lwin", Latitude = "22.03501000", Longitude = "96.45683000" },
-                        new() { Id = 8, Name = "Yamethin", Latitude = "20.43189000", Longitude = "96.13875000" }
+                        new() { Id = 1, Name = "Amarapura", Latitude = "21.90709000", Longitude = "96.04894000" },
+                        new() { Id = 2, Name = "Kyaukse", Latitude = "21.60560000", Longitude = "96.13508000" },
+                        new() { Id = 3, Name = "Mandalay", Latitude = "21.97473000", Longitude = "96.08359000" },
+                        new() { Id = 4, Name = "Meiktila", Latitude = "20.87776000", Longitude = "95.85844000" },
+                        new() { Id = 5, Name = "Mogok", Latitude = "22.91766000", Longitude = "96.50982000" },
+                        new() { Id = 6, Name = "Myingyan", Latitude = "21.46002000", Longitude = "95.38840000" },
+                        new() { Id = 7, Name = "Nyaung-U", Latitude = "21.20056000", Longitude = "94.90827000" },
+                        new() { Id = 8, Name = "Nyaungshwe", Latitude = "20.66084000", Longitude = "96.93405000" },
+                        new() { Id = 9, Name = "Pyin Oo Lwin", Latitude = "22.03501000", Longitude = "96.45683000" },
+                        new() { Id = 10, Name = "Wundwin", Latitude = "21.09417000", Longitude = "96.02803000" },
+                        new() { Id = 11, Name = "Yamethin", Latitude = "20.43189000", Longitude = "96.13875000" }
                     }
                 },
 
@@ -247,7 +262,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Martaban", Latitude = "16.52834000", Longitude = "97.61570000" },
                         new() { Id = 4, Name = "Mawlamyine", Latitude = "16.49051000", Longitude = "97.62825000" },
                         new() { Id = 5, Name = "Mudon", Latitude = "16.25624000", Longitude = "97.72460000" },
-                        new() { Id = 6, Name = "Thaton", Latitude = "16.91867000", Longitude = "97.37001000" }
+                        new() { Id = 6, Name = "Paung", Latitude = "16.61753000", Longitude = "97.45851000" },
+                        new() { Id = 7, Name = "Thaton", Latitude = "16.91867000", Longitude = "97.37001000" }
                     }
                 },
 
@@ -263,8 +279,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "union territory",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Nay Pyi Taw", Latitude = "19.74500000", Longitude = "96.12972000" },
-                        new() { Id = 2, Name = "Pyinmana", Latitude = "19.73810000", Longitude = "96.20742000" }
+                        new() { Id = 1, Name = "Lewe", Latitude = "19.63606000", Longitude = "96.10998000" },
+                        new() { Id = 2, Name = "Nay Pyi Taw", Latitude = "19.74500000", Longitude = "96.12972000" },
+                        new() { Id = 3, Name = "Pyinmana", Latitude = "19.73810000", Longitude = "96.20742000" }
                     }
                 },
 
@@ -280,7 +297,16 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "state",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Sittwe", Latitude = "20.14624000", Longitude = "92.89835000" }
+                        new() { Id = 1, Name = "Ann", Latitude = "19.79537000", Longitude = "94.04791000" },
+                        new() { Id = 2, Name = "Buthidaung Town", Latitude = "20.87537000", Longitude = "92.53000000" },
+                        new() { Id = 3, Name = "Gwa", Latitude = "17.59369000", Longitude = "94.57996000" },
+                        new() { Id = 4, Name = "Kyaukpyu", Latitude = "19.42793000", Longitude = "93.55134000" },
+                        new() { Id = 5, Name = "Kyeintali", Latitude = "18.00611000", Longitude = "94.49000000" },
+                        new() { Id = 6, Name = "Manaung", Latitude = "18.85479000", Longitude = "93.72913000" },
+                        new() { Id = 7, Name = "Mrauk U", Latitude = "20.59000000", Longitude = "93.19062000" },
+                        new() { Id = 8, Name = "Sittwe", Latitude = "20.14624000", Longitude = "92.89835000" },
+                        new() { Id = 9, Name = "Taungup", Latitude = "18.85609000", Longitude = "94.24078000" },
+                        new() { Id = 10, Name = "Thandwe", Latitude = "18.46537000", Longitude = "94.36563000" }
                     }
                 },
 
@@ -296,10 +322,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Mawlaik", Latitude = "23.64254000", Longitude = "94.40478000" },
-                        new() { Id = 2, Name = "Monywa", Latitude = "22.10856000", Longitude = "95.13583000" },
-                        new() { Id = 3, Name = "Sagaing", Latitude = "21.87870000", Longitude = "95.97965000" },
-                        new() { Id = 4, Name = "Shwebo", Latitude = "22.56925000", Longitude = "95.69818000" }
+                        new() { Id = 1, Name = "Kalemyo", Latitude = "23.19014000", Longitude = "94.06405000" },
+                        new() { Id = 2, Name = "Katha", Latitude = "24.17541000", Longitude = "96.34144000" },
+                        new() { Id = 3, Name = "Mawlaik", Latitude = "23.64254000", Longitude = "94.40478000" },
+                        new() { Id = 4, Name = "Monywa", Latitude = "22.10856000", Longitude = "95.13583000" },
+                        new() { Id = 5, Name = "Sagaing", Latitude = "21.87870000", Longitude = "95.97965000" },
+                        new() { Id = 6, Name = "Shwebo", Latitude = "22.56925000", Longitude = "95.69818000" },
+                        new() { Id = 7, Name = "Ye-u", Latitude = "22.76722000", Longitude = "95.42758000" }
                     }
                 },
 
@@ -315,9 +344,21 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "state",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Lashio", Latitude = "22.93590000", Longitude = "97.74980000" },
-                        new() { Id = 2, Name = "Tachilek", Latitude = "20.44750000", Longitude = "99.88083000" },
-                        new() { Id = 3, Name = "Taunggyi", Latitude = "20.78919000", Longitude = "97.03776000" }
+                        new() { Id = 1, Name = "Aungban", Latitude = "20.66060000", Longitude = "96.63488000" },
+                        new() { Id = 2, Name = "Hsipaw", Latitude = "22.61659000", Longitude = "97.30033000" },
+                        new() { Id = 3, Name = "Kalaw", Latitude = "20.63459000", Longitude = "96.56454000" },
+                        new() { Id = 4, Name = "Kyaukme", Latitude = "22.53920000", Longitude = "97.03434000" },
+                        new() { Id = 5, Name = "Lashio", Latitude = "22.93590000", Longitude = "97.74980000" },
+                        new() { Id = 6, Name = "Lawksawk", Latitude = "21.24810000", Longitude = "96.86731000" },
+                        new() { Id = 7, Name = "Möng La", Latitude = "21.67112000", Longitude = "100.01267000" },
+                        new() { Id = 8, Name = "Möng Yawng", Latitude = "21.17924000", Longitude = "100.35761000" },
+                        new() { Id = 9, Name = "Namhkam", Latitude = "23.83342000", Longitude = "97.67984000" },
+                        new() { Id = 10, Name = "Nansang", Latitude = "20.89184000", Longitude = "97.71672000" },
+                        new() { Id = 11, Name = "Pangkham", Latitude = "22.17924000", Longitude = "99.16666000" },
+                        new() { Id = 12, Name = "Panglong", Latitude = "24.10051000", Longitude = "98.31264000" },
+                        new() { Id = 13, Name = "Pangtara", Latitude = "20.94318000", Longitude = "96.66266000" },
+                        new() { Id = 14, Name = "Tachilek", Latitude = "20.44750000", Longitude = "99.88083000" },
+                        new() { Id = 15, Name = "Taunggyi", Latitude = "20.78919000", Longitude = "97.03776000" }
                     }
                 },
 
@@ -351,12 +392,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Kanbe", Latitude = "16.70728000", Longitude = "96.00168000" },
-                        new() { Id = 2, Name = "Kayan", Latitude = "16.90802000", Longitude = "96.56037000" },
-                        new() { Id = 3, Name = "Syriam", Latitude = "16.76887000", Longitude = "96.24503000" },
-                        new() { Id = 4, Name = "Thongwa", Latitude = "16.75998000", Longitude = "96.52498000" },
-                        new() { Id = 5, Name = "Twante", Latitude = "16.71047000", Longitude = "95.92866000" },
-                        new() { Id = 6, Name = "Yangon", Latitude = "16.80528000", Longitude = "96.15611000" }
+                        new() { Id = 1, Name = "Hlegu", Latitude = "17.09567000", Longitude = "96.22056000" },
+                        new() { Id = 2, Name = "Kanbe", Latitude = "16.70728000", Longitude = "96.00168000" },
+                        new() { Id = 3, Name = "Kayan", Latitude = "16.90802000", Longitude = "96.56037000" },
+                        new() { Id = 4, Name = "Syriam", Latitude = "16.76887000", Longitude = "96.24503000" },
+                        new() { Id = 5, Name = "Thongwa", Latitude = "16.75998000", Longitude = "96.52498000" },
+                        new() { Id = 6, Name = "Twante", Latitude = "16.71047000", Longitude = "95.92866000" },
+                        new() { Id = 7, Name = "Yangon", Latitude = "16.80528000", Longitude = "96.15611000" }
                     }
                 }
             }
