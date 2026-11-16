@@ -79,6 +79,21 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 2,
+                    Name = "Ascension",
+                    StateCode = "AC",
+                    Iso3166_2 = "SH-AC",
+                    TimeZoneId = "Atlantic/St_Helena",
+                    Latitude = "-7.94166667",
+                    Longitude = "-14.36250000",
+                    Type = "geographical entity",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 3,
                     Name = "Blue Hill",
                     StateCode = "02",
                     Iso3166_2 = "SH-02",
@@ -93,7 +108,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 3,
+                    Id = 4,
                     Name = "Half Tree Hollow",
                     StateCode = "03",
                     Iso3166_2 = "SH-03",
@@ -108,7 +123,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 4,
+                    Id = 5,
                     Name = "Jamestown",
                     StateCode = "04",
                     Iso3166_2 = "SH-04",
@@ -123,7 +138,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 5,
+                    Id = 6,
                     Name = "Levelwood",
                     StateCode = "05",
                     Iso3166_2 = "SH-05",
@@ -138,7 +153,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 6,
+                    Id = 7,
                     Name = "Longwood",
                     StateCode = "06",
                     Iso3166_2 = "SH-06",
@@ -153,7 +168,22 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 7,
+                    Id = 8,
+                    Name = "Saint Helena",
+                    StateCode = "HL",
+                    Iso3166_2 = "SH-HL",
+                    TimeZoneId = "Atlantic/St_Helena",
+                    Latitude = "-15.96388889",
+                    Longitude = "-5.70694444",
+                    Type = "geographical entity",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 9,
                     Name = "Saint Paul's",
                     StateCode = "08",
                     Iso3166_2 = "SH-08",
@@ -168,7 +198,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 8,
+                    Id = 10,
                     Name = "Sandy Bay",
                     StateCode = "07",
                     Iso3166_2 = "SH-07",
@@ -176,6 +206,21 @@ namespace ShowsOnSale.World.Data.Countries
                     Latitude = "-16.00606010",
                     Longitude = "-5.71270750",
                     Type = "district",
+                    Cities = new()
+                    {
+                    }
+                },
+
+                new()
+                {
+                    Id = 11,
+                    Name = "Tristan da Cunha",
+                    StateCode = "TA",
+                    Iso3166_2 = "SH-TA",
+                    TimeZoneId = "Atlantic/St_Helena",
+                    Latitude = "-37.11284000",
+                    Longitude = "-12.28343000",
+                    Type = "geographical entity",
                     Cities = new()
                     {
                     }
