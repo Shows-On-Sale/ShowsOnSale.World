@@ -75,12 +75,14 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Ambriz", Latitude = "-7.85740000", Longitude = "13.12510000" },
                         new() { Id = 2, Name = "Bula Atumba", Latitude = "-7.31170000", Longitude = "14.31470000" },
-                        new() { Id = 3, Name = "Caxito", Latitude = "-8.57848000", Longitude = "13.66425000" },
-                        new() { Id = 4, Name = "Dande", Latitude = "-8.11330000", Longitude = "13.76520000" },
-                        new() { Id = 5, Name = "Muxima", Latitude = "-9.58790000", Longitude = "13.52510000" },
-                        new() { Id = 6, Name = "Nambuangongo", Latitude = "-8.56560000", Longitude = "13.65720000" },
-                        new() { Id = 7, Name = "Pango Aluquém", Latitude = "-8.55440000", Longitude = "13.58150000" },
-                        new() { Id = 8, Name = "Úcua", Latitude = "-8.67240000", Longitude = "13.68290000" }
+                        new() { Id = 3, Name = "Canacassala", Latitude = "-8.16263000", Longitude = "14.11663000" },
+                        new() { Id = 4, Name = "Caxito", Latitude = "-8.57848000", Longitude = "13.66425000" },
+                        new() { Id = 5, Name = "Dande", Latitude = "-8.11330000", Longitude = "13.76520000" },
+                        new() { Id = 6, Name = "Muxima", Latitude = "-9.58790000", Longitude = "13.52510000" },
+                        new() { Id = 7, Name = "Nambuangongo", Latitude = "-8.56560000", Longitude = "13.65720000" },
+                        new() { Id = 8, Name = "Pango Aluquém", Latitude = "-8.55440000", Longitude = "13.58150000" },
+                        new() { Id = 9, Name = "Piri", Latitude = "-8.53412000", Longitude = "14.43555000" },
+                        new() { Id = 10, Name = "Úcua", Latitude = "-8.67240000", Longitude = "13.68290000" }
                     }
                 },
 
@@ -105,8 +107,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Chongoroi", Latitude = "-12.78880000", Longitude = "13.79750000" },
                         new() { Id = 8, Name = "Cubal", Latitude = "-12.58850000", Longitude = "14.42670000" },
                         new() { Id = 9, Name = "Ganda", Latitude = "-12.68250000", Longitude = "14.42330000" },
-                        new() { Id = 10, Name = "Lobito", Latitude = "-12.36440000", Longitude = "13.53601000" },
-                        new() { Id = 11, Name = "Sumbe", Latitude = "-11.20610000", Longitude = "13.84480000" }
+                        new() { Id = 10, Name = "Lobito", Latitude = "-12.36440000", Longitude = "13.53601000" }
                     }
                 },
 
@@ -141,47 +142,30 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Cabinda", Latitude = "-5.55000000", Longitude = "12.20000000" }
+                        new() { Id = 1, Name = "Buco Zau", Latitude = "-4.76667000", Longitude = "12.55000000" },
+                        new() { Id = 2, Name = "Cabinda", Latitude = "-5.55000000", Longitude = "12.20000000" },
+                        new() { Id = 3, Name = "Cacongo", Latitude = "-5.23864000", Longitude = "12.14428000" }
                     }
                 },
 
                 new()
                 {
                     Id = 5,
-                    Name = "Cuando Cubango",
-                    StateCode = "CCU",
-                    Iso3166_2 = "AO-CCU",
+                    Name = "Cuando",
+                    StateCode = "CUB",
+                    Iso3166_2 = "AO-CUB",
                     TimeZoneId = "Africa/Luanda",
-                    Latitude = "-16.04576940",
-                    Longitude = "19.56215320",
+                    Latitude = "-15.79664000",
+                    Longitude = "20.36642000",
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Menongue", Latitude = "-14.65850000", Longitude = "17.69099000" }
                     }
                 },
 
                 new()
                 {
                     Id = 6,
-                    Name = "Cuanza",
-                    StateCode = "CUS",
-                    Iso3166_2 = "AO-CUS",
-                    TimeZoneId = "Africa/Luanda",
-                    Latitude = "-10.77075270",
-                    Longitude = "15.09757120",
-                    Type = "province",
-                    Cities = new()
-                    {
-                        new() { Id = 1, Name = "Quibala", Latitude = "-10.73366000", Longitude = "14.97995000" },
-                        new() { Id = 2, Name = "Sumbe", Latitude = "-11.20605000", Longitude = "13.84371000" },
-                        new() { Id = 3, Name = "Uacu Cungo", Latitude = "-11.35669000", Longitude = "15.11719000" }
-                    }
-                },
-
-                new()
-                {
-                    Id = 7,
                     Name = "Cuanza Norte",
                     StateCode = "CNO",
                     Iso3166_2 = "AO-CNO",
@@ -192,13 +176,51 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Camabatela", Latitude = "-8.18812000", Longitude = "15.37495000" },
-                        new() { Id = 2, Name = "N’dalatando", Latitude = "-9.29782000", Longitude = "14.91162000" }
+                        new() { Id = 2, Name = "Dondo", Latitude = "-9.68456000", Longitude = "14.42788000" },
+                        new() { Id = 3, Name = "N’dalatando", Latitude = "-9.29782000", Longitude = "14.91162000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 7,
+                    Name = "Cuanza Sul",
+                    StateCode = "CUS",
+                    Iso3166_2 = "AO-CUS",
+                    TimeZoneId = "Africa/Luanda",
+                    Latitude = "-10.77075270",
+                    Longitude = "15.09757120",
+                    Type = "province",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Gabela", Latitude = "-10.85147000", Longitude = "14.37993000" },
+                        new() { Id = 2, Name = "Porto Amboim", Latitude = "-10.73251000", Longitude = "13.76844000" },
+                        new() { Id = 3, Name = "Quibala", Latitude = "-10.73366000", Longitude = "14.97995000" },
+                        new() { Id = 4, Name = "Sumbe", Latitude = "-11.20605000", Longitude = "13.84371000" },
+                        new() { Id = 5, Name = "Sumbe", Latitude = "-11.20610000", Longitude = "13.84480000" },
+                        new() { Id = 6, Name = "Uacu Cungo", Latitude = "-11.35669000", Longitude = "15.11719000" }
                     }
                 },
 
                 new()
                 {
                     Id = 8,
+                    Name = "Cubango",
+                    StateCode = "CBG",
+                    Iso3166_2 = "AO-CBG",
+                    TimeZoneId = "Africa/Luanda",
+                    Latitude = "-14.70247000",
+                    Longitude = "17.69655000",
+                    Type = "province",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Menongue", Latitude = "-14.65850000", Longitude = "17.69099000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 9,
                     Name = "Cunene",
                     StateCode = "CNN",
                     Iso3166_2 = "AO-CNN",
@@ -208,13 +230,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Ondjiva", Latitude = "-17.06667000", Longitude = "15.73333000" }
+                        new() { Id = 1, Name = "Ondjiva", Latitude = "-17.06667000", Longitude = "15.73333000" },
+                        new() { Id = 2, Name = "Xangongo", Latitude = "-16.74440000", Longitude = "14.97494000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 9,
+                    Id = 10,
                     Name = "Huambo",
                     StateCode = "HUA",
                     Iso3166_2 = "AO-HUA",
@@ -233,7 +256,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 10,
+                    Id = 11,
                     Name = "Huíla",
                     StateCode = "HUI",
                     Iso3166_2 = "AO-HUI",
@@ -261,7 +284,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 11,
+                    Id = 12,
                     Name = "Luanda",
                     StateCode = "LUA",
                     Iso3166_2 = "AO-LUA",
@@ -283,7 +306,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 12,
+                    Id = 13,
                     Name = "Lunda Norte",
                     StateCode = "LNO",
                     Iso3166_2 = "AO-LNO",
@@ -293,13 +316,16 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Lucapa", Latitude = "-8.68337000", Longitude = "20.27045000" }
+                        new() { Id = 1, Name = "Cafunfo", Latitude = "-8.76720000", Longitude = "17.99572000" },
+                        new() { Id = 2, Name = "Dundo", Latitude = "-7.36643000", Longitude = "20.81557000" },
+                        new() { Id = 3, Name = "Lucapa", Latitude = "-8.68337000", Longitude = "20.27045000" },
+                        new() { Id = 4, Name = "Nzaji", Latitude = "-7.68896000", Longitude = "21.36201000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 13,
+                    Id = 14,
                     Name = "Lunda Sul",
                     StateCode = "LSU",
                     Iso3166_2 = "AO-LSU",
@@ -316,7 +342,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 14,
+                    Id = 15,
                     Name = "Malanje",
                     StateCode = "MAL",
                     Iso3166_2 = "AO-MAL",
@@ -332,7 +358,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 15,
+                    Id = 16,
                     Name = "Moxico",
                     StateCode = "MOX",
                     Iso3166_2 = "AO-MOX",
@@ -351,7 +377,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 16,
+                    Id = 17,
                     Name = "Namibe",
                     StateCode = "NAM",
                     Iso3166_2 = "AO-NAM",
@@ -371,7 +397,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 17,
+                    Id = 18,
                     Name = "Uíge",
                     StateCode = "UIG",
                     Iso3166_2 = "AO-UIG",
@@ -387,7 +413,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 18,
+                    Id = 19,
                     Name = "Zaire",
                     StateCode = "ZAI",
                     Iso3166_2 = "AO-ZAI",
@@ -399,7 +425,7 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Mbanza Congo", Latitude = "-6.26703000", Longitude = "14.24010000" },
                         new() { Id = 2, Name = "N'zeto", Latitude = "-7.23116000", Longitude = "12.86660000" },
-                        new() { Id = 3, Name = "Soio", Latitude = "-6.13490000", Longitude = "12.36894000" }
+                        new() { Id = 3, Name = "Soyo", Latitude = "-6.13490000", Longitude = "12.36894000" }
                     }
                 }
             }

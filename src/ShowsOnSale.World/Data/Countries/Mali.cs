@@ -113,7 +113,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Kayes", Latitude = "14.44693000", Longitude = "-11.44448000" },
                         new() { Id = 3, Name = "Kita", Latitude = "13.03490000", Longitude = "-9.48950000" },
                         new() { Id = 4, Name = "Kokofata", Latitude = "12.88333000", Longitude = "-9.95000000" },
-                        new() { Id = 5, Name = "Sagalo", Latitude = "12.20000000", Longitude = "-10.70000000" }
+                        new() { Id = 5, Name = "Sagalo", Latitude = "12.20000000", Longitude = "-10.70000000" },
+                        new() { Id = 6, Name = "Yélimané", Latitude = "15.11868000", Longitude = "-10.57729000" }
                     }
                 },
 
@@ -148,10 +149,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Banamba", Latitude = "13.54773000", Longitude = "-7.44808000" },
-                        new() { Id = 2, Name = "Kangaba", Latitude = "11.93333000", Longitude = "-8.41667000" },
-                        new() { Id = 3, Name = "Kati", Latitude = "12.74409000", Longitude = "-8.07257000" },
-                        new() { Id = 4, Name = "Kolokani", Latitude = "13.57280000", Longitude = "-8.03390000" },
-                        new() { Id = 5, Name = "Koulikoro", Latitude = "12.86273000", Longitude = "-7.55985000" }
+                        new() { Id = 2, Name = "Fana", Latitude = "12.77870000", Longitude = "-6.95640000" },
+                        new() { Id = 3, Name = "Kangaba", Latitude = "11.93333000", Longitude = "-8.41667000" },
+                        new() { Id = 4, Name = "Kati", Latitude = "12.74409000", Longitude = "-8.07257000" },
+                        new() { Id = 5, Name = "Kolokani", Latitude = "13.57280000", Longitude = "-8.03390000" },
+                        new() { Id = 6, Name = "Koulikoro", Latitude = "12.86273000", Longitude = "-7.55985000" }
                     }
                 },
 
@@ -183,11 +185,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bandiagara", Latitude = "14.35005000", Longitude = "-3.61038000" },
-                        new() { Id = 2, Name = "Djénné", Latitude = "13.90608000", Longitude = "-4.55332000" },
+                        new() { Id = 2, Name = "Djenné", Latitude = "13.90608000", Longitude = "-4.55332000" },
                         new() { Id = 3, Name = "Douentza", Latitude = "15.00155000", Longitude = "-2.94978000" },
                         new() { Id = 4, Name = "Douentza Cercle", Latitude = "15.06947000", Longitude = "-2.40875000" },
-                        new() { Id = 5, Name = "Mopti", Latitude = "14.48430000", Longitude = "-4.18296000" },
-                        new() { Id = 6, Name = "Ténenkou", Latitude = "14.45722000", Longitude = "-4.91690000" }
+                        new() { Id = 5, Name = "Koro", Latitude = "14.06400000", Longitude = "-3.07539000" },
+                        new() { Id = 6, Name = "Mopti", Latitude = "14.48430000", Longitude = "-4.18296000" },
+                        new() { Id = 7, Name = "Ténenkou", Latitude = "14.45722000", Longitude = "-4.91690000" }
                     }
                 },
 
