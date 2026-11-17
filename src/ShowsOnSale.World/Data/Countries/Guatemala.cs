@@ -34,7 +34,7 @@ namespace ShowsOnSale.World.Data.Countries
             EmojiU = "U+1F1EC U+1F1F9",
             Timezones = new()
             {
-                new() { ZoneName = "America/Guatemala", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" }
+                new() { ZoneName = "America/Guatemala", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America)" }
             },
             Translations = new()
             {
@@ -448,14 +448,13 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 23, Name = "Palestina de los Altos", Latitude = "14.93338000", Longitude = "-91.69403000" },
                         new() { Id = 24, Name = "Quetzaltenango", Latitude = "14.83472000", Longitude = "-91.51806000" },
                         new() { Id = 25, Name = "Salcajá", Latitude = "14.87964000", Longitude = "-91.45699000" },
-                        new() { Id = 26, Name = "Samayac", Latitude = "14.58084000", Longitude = "-91.46135000" },
-                        new() { Id = 27, Name = "San Carlos Sija", Latitude = "14.98436000", Longitude = "-91.54912000" },
-                        new() { Id = 28, Name = "San Francisco la Unión", Latitude = "14.92350000", Longitude = "-91.54157000" },
-                        new() { Id = 29, Name = "San Martín Sacatepéquez", Latitude = "14.82443000", Longitude = "-91.64192000" },
-                        new() { Id = 30, Name = "San Mateo", Latitude = "14.85800000", Longitude = "-91.59004000" },
-                        new() { Id = 31, Name = "San Miguel Sigüilá", Latitude = "14.89547000", Longitude = "-91.61457000" },
-                        new() { Id = 32, Name = "Sibilia", Latitude = "14.99391000", Longitude = "-91.62371000" },
-                        new() { Id = 33, Name = "Zunil", Latitude = "14.78463000", Longitude = "-91.48345000" }
+                        new() { Id = 26, Name = "San Carlos Sija", Latitude = "14.98436000", Longitude = "-91.54912000" },
+                        new() { Id = 27, Name = "San Francisco la Unión", Latitude = "14.92350000", Longitude = "-91.54157000" },
+                        new() { Id = 28, Name = "San Martín Sacatepéquez", Latitude = "14.82443000", Longitude = "-91.64192000" },
+                        new() { Id = 29, Name = "San Mateo", Latitude = "14.85800000", Longitude = "-91.59004000" },
+                        new() { Id = 30, Name = "San Miguel Sigüilá", Latitude = "14.89547000", Longitude = "-91.61457000" },
+                        new() { Id = 31, Name = "Sibilia", Latitude = "14.99391000", Longitude = "-91.62371000" },
+                        new() { Id = 32, Name = "Zunil", Latitude = "14.78463000", Longitude = "-91.48345000" }
                     }
                 },
 
@@ -716,19 +715,20 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Patulul", Latitude = "14.42321000", Longitude = "-91.16049000" },
                         new() { Id = 8, Name = "Pueblo Nuevo", Latitude = "14.64709000", Longitude = "-91.53946000" },
                         new() { Id = 9, Name = "Río Bravo", Latitude = "14.40042000", Longitude = "-91.31713000" },
-                        new() { Id = 10, Name = "San Antonio Suchitepéquez", Latitude = "14.53938000", Longitude = "-91.41442000" },
-                        new() { Id = 11, Name = "San Bernardino", Latitude = "14.54240000", Longitude = "-91.45811000" },
-                        new() { Id = 12, Name = "San Francisco Zapotitlán", Latitude = "14.58939000", Longitude = "-91.52144000" },
-                        new() { Id = 13, Name = "San Gabriel", Latitude = "14.51076000", Longitude = "-91.50745000" },
-                        new() { Id = 14, Name = "San José El Ídolo", Latitude = "14.45016000", Longitude = "-91.42222000" },
-                        new() { Id = 15, Name = "San Juan Bautista", Latitude = "14.42274000", Longitude = "-91.17904000" },
-                        new() { Id = 16, Name = "San Lorenzo", Latitude = "14.48606000", Longitude = "-91.51263000" },
-                        new() { Id = 17, Name = "San Miguel Panán", Latitude = "14.52865000", Longitude = "-91.36733000" },
-                        new() { Id = 18, Name = "San Pablo Jocopilas", Latitude = "14.58882000", Longitude = "-91.45188000" },
-                        new() { Id = 19, Name = "Santa Bárbara", Latitude = "14.43563000", Longitude = "-91.22685000" },
-                        new() { Id = 20, Name = "Santo Domingo Suchitepéquez", Latitude = "14.47901000", Longitude = "-91.48327000" },
-                        new() { Id = 21, Name = "Santo Tomás La Unión", Latitude = "14.63219000", Longitude = "-91.41075000" },
-                        new() { Id = 22, Name = "Zunilito", Latitude = "14.61264000", Longitude = "-91.50980000" }
+                        new() { Id = 10, Name = "Samayac", Latitude = "14.58084000", Longitude = "-91.46135000" },
+                        new() { Id = 11, Name = "San Antonio Suchitepéquez", Latitude = "14.53938000", Longitude = "-91.41442000" },
+                        new() { Id = 12, Name = "San Bernardino", Latitude = "14.54240000", Longitude = "-91.45811000" },
+                        new() { Id = 13, Name = "San Francisco Zapotitlán", Latitude = "14.58939000", Longitude = "-91.52144000" },
+                        new() { Id = 14, Name = "San Gabriel", Latitude = "14.51076000", Longitude = "-91.50745000" },
+                        new() { Id = 15, Name = "San José El Ídolo", Latitude = "14.45016000", Longitude = "-91.42222000" },
+                        new() { Id = 16, Name = "San Juan Bautista", Latitude = "14.42274000", Longitude = "-91.17904000" },
+                        new() { Id = 17, Name = "San Lorenzo", Latitude = "14.48606000", Longitude = "-91.51263000" },
+                        new() { Id = 18, Name = "San Miguel Panán", Latitude = "14.52865000", Longitude = "-91.36733000" },
+                        new() { Id = 19, Name = "San Pablo Jocopilas", Latitude = "14.58882000", Longitude = "-91.45188000" },
+                        new() { Id = 20, Name = "Santa Bárbara", Latitude = "14.43563000", Longitude = "-91.22685000" },
+                        new() { Id = 21, Name = "Santo Domingo Suchitepéquez", Latitude = "14.47901000", Longitude = "-91.48327000" },
+                        new() { Id = 22, Name = "Santo Tomás La Unión", Latitude = "14.63219000", Longitude = "-91.41075000" },
+                        new() { Id = 23, Name = "Zunilito", Latitude = "14.61264000", Longitude = "-91.50980000" }
                     }
                 },
 

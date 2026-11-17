@@ -73,6 +73,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Borama", Latitude = "9.93611000", Longitude = "43.18278000" }
                     }
                 },
 
@@ -128,8 +129,9 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Bereeda", Latitude = "11.87037000", Longitude = "51.05795000" },
                         new() { Id = 4, Name = "Bosaso", Latitude = "11.28421000", Longitude = "49.18158000" },
                         new() { Id = 5, Name = "Caluula", Latitude = "11.96611000", Longitude = "50.75694000" },
-                        new() { Id = 6, Name = "Iskushuban", Latitude = "10.28370000", Longitude = "50.23000000" },
-                        new() { Id = 7, Name = "Qandala", Latitude = "11.47197000", Longitude = "49.87282000" }
+                        new() { Id = 6, Name = "El Dibir", Latitude = "11.76667000", Longitude = "51.21667000" },
+                        new() { Id = 7, Name = "Iskushuban", Latitude = "10.28370000", Longitude = "50.23000000" },
+                        new() { Id = 8, Name = "Qandala", Latitude = "11.47197000", Longitude = "49.87282000" }
                     }
                 },
 
@@ -146,7 +148,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Baidoa", Latitude = "3.11383000", Longitude = "43.64980000" },
-                        new() { Id = 2, Name = "Buurhakaba", Latitude = "2.80257000", Longitude = "44.07805000" }
+                        new() { Id = 2, Name = "Buurhakaba", Latitude = "2.80257000", Longitude = "44.07805000" },
+                        new() { Id = 3, Name = "Diinsoor", Latitude = "2.40850000", Longitude = "42.97710000" }
                     }
                 },
 
@@ -162,9 +165,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Ceelbuur", Latitude = "4.68501000", Longitude = "46.61760000" },
-                        new() { Id = 2, Name = "Ceeldheer", Latitude = "3.84878000", Longitude = "47.18064000" },
-                        new() { Id = 3, Name = "Dhuusamarreeb", Latitude = "5.53597000", Longitude = "46.38666000" }
+                        new() { Id = 1, Name = "Adado", Latitude = "6.13603000", Longitude = "46.62761000" },
+                        new() { Id = 2, Name = "Ceelbuur", Latitude = "4.68501000", Longitude = "46.61760000" },
+                        new() { Id = 3, Name = "Ceeldheer", Latitude = "3.84878000", Longitude = "47.18064000" },
+                        new() { Id = 4, Name = "Dhuusamarreeb", Latitude = "5.53597000", Longitude = "46.38666000" }
                     }
                 },
 
@@ -181,8 +185,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Baardheere", Latitude = "2.34464000", Longitude = "42.27644000" },
-                        new() { Id = 2, Name = "Garbahaarrey", Latitude = "3.32892000", Longitude = "42.22091000" },
-                        new() { Id = 3, Name = "Luuq", Latitude = "3.80315000", Longitude = "42.54417000" }
+                        new() { Id = 2, Name = "Beled Hawo", Latitude = "3.92840000", Longitude = "41.87997000" },
+                        new() { Id = 3, Name = "Garbahaarrey", Latitude = "3.32892000", Longitude = "42.22091000" },
+                        new() { Id = 4, Name = "Luuq", Latitude = "3.80315000", Longitude = "42.54417000" }
                     }
                 },
 
@@ -218,7 +223,8 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Buur Gaabo", Latitude = "-1.21917000", Longitude = "41.83725000" },
                         new() { Id = 2, Name = "Jamaame", Latitude = "0.06968000", Longitude = "42.74497000" },
-                        new() { Id = 3, Name = "Kismayo", Latitude = "-0.35817000", Longitude = "42.54536000" }
+                        new() { Id = 3, Name = "Kaambooni", Latitude = "-1.63772000", Longitude = "41.58660000" },
+                        new() { Id = 4, Name = "Kismayo", Latitude = "-0.35817000", Longitude = "42.54536000" }
                     }
                 },
 
@@ -253,9 +259,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Dujuuma", Latitude = "1.25311000", Longitude = "42.57377000" },
-                        new() { Id = 2, Name = "Jilib", Latitude = "0.48829000", Longitude = "42.78535000" },
-                        new() { Id = 3, Name = "Saacow", Latitude = "1.62794000", Longitude = "42.44067000" }
+                        new() { Id = 1, Name = "Bu’aale", Latitude = "1.25168250", Longitude = "42.57613640" },
+                        new() { Id = 2, Name = "Dujuuma", Latitude = "1.25311000", Longitude = "42.57377000" },
+                        new() { Id = 3, Name = "Jilib", Latitude = "0.48829000", Longitude = "42.78535000" },
+                        new() { Id = 4, Name = "Saacow", Latitude = "1.62794000", Longitude = "42.44067000" }
                     }
                 },
 
@@ -291,7 +298,8 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Gaalkacyo", Latitude = "6.76972000", Longitude = "47.43083000" },
                         new() { Id = 2, Name = "Hobyo", Latitude = "5.35050000", Longitude = "48.52680000" },
-                        new() { Id = 3, Name = "Xarardheere", Latitude = "4.65440000", Longitude = "47.85750000" }
+                        new() { Id = 3, Name = "Saaxo", Latitude = "6.77287000", Longitude = "46.79689000" },
+                        new() { Id = 4, Name = "Xarardheere", Latitude = "4.65440000", Longitude = "47.85750000" }
                     }
                 },
 

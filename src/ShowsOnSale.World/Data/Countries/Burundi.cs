@@ -17,7 +17,7 @@ namespace ShowsOnSale.World.Data.Countries
             Iso2 = "BI",
             NumericCode = "108",
             PhoneCode = "257",
-            Capital = "Bujumbura",
+            Capital = "Gitega",
             Currency = "BIF",
             CurrencyName = "Burundian franc",
             CurrencySymbol = "FBu",
