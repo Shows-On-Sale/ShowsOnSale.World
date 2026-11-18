@@ -73,11 +73,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Abadan", Latitude = "38.05415000", Longitude = "58.19721000" },
-                        new() { Id = 2, Name = "Annau", Latitude = "37.88754000", Longitude = "58.51596000" },
-                        new() { Id = 3, Name = "Arçabil", Latitude = "37.91500000", Longitude = "58.08987000" },
-                        new() { Id = 4, Name = "Baharly", Latitude = "38.43624000", Longitude = "57.43158000" },
-                        new() { Id = 5, Name = "Kaka", Latitude = "37.34821000", Longitude = "59.61431000" },
+                        new() { Id = 1, Name = "Änew", Latitude = "37.88754000", Longitude = "58.51596000" },
+                        new() { Id = 2, Name = "Arçabil", Latitude = "37.91500000", Longitude = "58.08987000" },
+                        new() { Id = 3, Name = "Bäherden", Latitude = "38.43624000", Longitude = "57.43158000" },
+                        new() { Id = 4, Name = "Kaka", Latitude = "37.34821000", Longitude = "59.61431000" },
+                        new() { Id = 5, Name = "Sarahs", Latitude = "36.52381000", Longitude = "61.21477000" },
                         new() { Id = 6, Name = "Tejen", Latitude = "37.38338000", Longitude = "60.50545000" }
                     }
                 },
@@ -94,7 +94,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "city",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Ashgabat", Latitude = "37.95000000", Longitude = "58.38333000" }
+                        new() { Id = 1, Name = "Abadan", Latitude = "38.05415000", Longitude = "58.19721000" },
+                        new() { Id = 2, Name = "Ashgabat", Latitude = "37.95000000", Longitude = "58.38333000" }
                     }
                 },
 
@@ -113,9 +114,10 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Balkanabat", Latitude = "39.51075000", Longitude = "54.36713000" },
                         new() { Id = 2, Name = "Bereket", Latitude = "39.24463000", Longitude = "55.51536000" },
                         new() { Id = 3, Name = "Gumdag", Latitude = "39.20611000", Longitude = "54.59056000" },
-                        new() { Id = 4, Name = "Magtymguly", Latitude = "38.43749000", Longitude = "56.28081000" },
-                        new() { Id = 5, Name = "Serdar", Latitude = "38.97644000", Longitude = "56.27575000" },
-                        new() { Id = 6, Name = "Türkmenbaşy", Latitude = "40.02216000", Longitude = "52.95517000" }
+                        new() { Id = 4, Name = "Gyzylarbat", Latitude = "38.97644000", Longitude = "56.27575000" },
+                        new() { Id = 5, Name = "Jebel", Latitude = "39.63101000", Longitude = "54.23758000" },
+                        new() { Id = 6, Name = "Magtymguly", Latitude = "38.43749000", Longitude = "56.28081000" },
+                        new() { Id = 7, Name = "Türkmenbaşy", Latitude = "40.02216000", Longitude = "52.95517000" }
                     }
                 },
 
@@ -132,11 +134,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Akdepe", Latitude = "42.05513000", Longitude = "59.37877000" },
-                        new() { Id = 2, Name = "Boldumsaz", Latitude = "42.12824000", Longitude = "59.67101000" },
-                        new() { Id = 3, Name = "Daşoguz", Latitude = "41.83625000", Longitude = "59.96661000" },
-                        new() { Id = 4, Name = "Köneürgench", Latitude = "42.32773000", Longitude = "59.15442000" },
-                        new() { Id = 5, Name = "Tagta", Latitude = "41.65041000", Longitude = "59.91640000" },
-                        new() { Id = 6, Name = "Yylanly", Latitude = "41.83333000", Longitude = "59.65000000" }
+                        new() { Id = 2, Name = "Andalyp", Latitude = "41.83333000", Longitude = "59.65000000" },
+                        new() { Id = 3, Name = "Boldumsaz", Latitude = "42.12824000", Longitude = "59.67101000" },
+                        new() { Id = 4, Name = "Daşoguz", Latitude = "41.83625000", Longitude = "59.96661000" },
+                        new() { Id = 5, Name = "Görogly", Latitude = "41.65041000", Longitude = "59.91640000" },
+                        new() { Id = 6, Name = "Gubadag", Latitude = "42.07948000", Longitude = "59.94964000" },
+                        new() { Id = 7, Name = "Köneürgenç", Latitude = "42.32773000", Longitude = "59.15442000" }
                     }
                 },
 
@@ -152,12 +155,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Atamyrat", Latitude = "37.83573000", Longitude = "65.21058000" },
-                        new() { Id = 2, Name = "Farap", Latitude = "39.17037000", Longitude = "63.61165000" },
-                        new() { Id = 3, Name = "Gazojak", Latitude = "41.18746000", Longitude = "61.40360000" },
-                        new() { Id = 4, Name = "Gowurdak", Latitude = "37.81244000", Longitude = "66.04656000" },
-                        new() { Id = 5, Name = "Saýat", Latitude = "38.78393000", Longitude = "63.88035000" },
-                        new() { Id = 6, Name = "Türkmenabat", Latitude = "39.07328000", Longitude = "63.57861000" }
+                        new() { Id = 1, Name = "Farap", Latitude = "39.17037000", Longitude = "63.61165000" },
+                        new() { Id = 2, Name = "Gazojak", Latitude = "41.18746000", Longitude = "61.40360000" },
+                        new() { Id = 3, Name = "Halaç", Latitude = "38.07201000", Longitude = "64.87938000" },
+                        new() { Id = 4, Name = "Kerki", Latitude = "37.83573000", Longitude = "65.21058000" },
+                        new() { Id = 5, Name = "Magdanly", Latitude = "37.81244000", Longitude = "66.04656000" },
+                        new() { Id = 6, Name = "Saýat", Latitude = "38.78393000", Longitude = "63.88035000" },
+                        new() { Id = 7, Name = "Seydi", Latitude = "39.48160000", Longitude = "62.91374000" },
+                        new() { Id = 8, Name = "Türkmenabat", Latitude = "39.07328000", Longitude = "63.57861000" }
                     }
                 },
 
@@ -174,10 +179,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bayramaly", Latitude = "37.61852000", Longitude = "62.16715000" },
-                        new() { Id = 2, Name = "Mary", Latitude = "37.59378000", Longitude = "61.83031000" },
-                        new() { Id = 3, Name = "Serhetabat", Latitude = "35.27992000", Longitude = "62.34383000" },
-                        new() { Id = 4, Name = "Seydi", Latitude = "39.48160000", Longitude = "62.91374000" },
-                        new() { Id = 5, Name = "Yolöten", Latitude = "37.29886000", Longitude = "62.35975000" }
+                        new() { Id = 2, Name = "Çaşgyn", Latitude = "37.79729000", Longitude = "61.54905000" },
+                        new() { Id = 3, Name = "Mary", Latitude = "37.59378000", Longitude = "61.83031000" },
+                        new() { Id = 4, Name = "Sakarçäge", Latitude = "37.66351000", Longitude = "61.66007000" },
+                        new() { Id = 5, Name = "Serhetabat", Latitude = "35.27992000", Longitude = "62.34383000" },
+                        new() { Id = 6, Name = "Türkmengala", Latitude = "37.42469000", Longitude = "62.33821000" },
+                        new() { Id = 7, Name = "Yolöten", Latitude = "37.29886000", Longitude = "62.35975000" }
                     }
                 }
             }

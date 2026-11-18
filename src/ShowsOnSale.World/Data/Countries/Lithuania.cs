@@ -74,6 +74,9 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Akmenė", Latitude = "56.25000000", Longitude = "22.75000000" },
+                        new() { Id = 2, Name = "Naujoji Akmene", Latitude = "56.31667000", Longitude = "22.90000000" },
+                        new() { Id = 3, Name = "Venta", Latitude = "56.19162000", Longitude = "22.69528000" }
                     }
                 },
 
@@ -90,6 +93,8 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Daugai", Latitude = "54.36667000", Longitude = "24.33333000" },
+                        new() { Id = 2, Name = "Simnas", Latitude = "54.38200000", Longitude = "23.64600000" }
                     }
                 },
 
@@ -107,12 +112,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alytus", Latitude = "54.39635000", Longitude = "24.04142000" },
-                        new() { Id = 2, Name = "Daugai", Latitude = "54.36667000", Longitude = "24.33333000" },
-                        new() { Id = 3, Name = "Druskininkai", Latitude = "54.01573000", Longitude = "23.98703000" },
-                        new() { Id = 4, Name = "Lazdijai", Latitude = "54.23333000", Longitude = "23.51667000" },
-                        new() { Id = 5, Name = "Simnas", Latitude = "54.38200000", Longitude = "23.64600000" },
-                        new() { Id = 6, Name = "Varėna", Latitude = "54.21667000", Longitude = "24.56667000" },
-                        new() { Id = 7, Name = "Veisiejai", Latitude = "54.10110000", Longitude = "23.69614000" }
+                        new() { Id = 2, Name = "Lazdijai", Latitude = "54.23333000", Longitude = "23.51667000" },
+                        new() { Id = 3, Name = "Varėna", Latitude = "54.21667000", Longitude = "24.56667000" }
                     }
                 },
 
@@ -176,6 +177,8 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Birzai", Latitude = "56.20000000", Longitude = "24.75000000" },
+                        new() { Id = 2, Name = "Vabalninkas", Latitude = "55.98151000", Longitude = "24.74828000" }
                     }
                 },
 
@@ -192,6 +195,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Druskininkai", Latitude = "54.01573000", Longitude = "23.98703000" }
                     }
                 },
 
@@ -208,6 +212,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Elektrėnai", Latitude = "54.78544000", Longitude = "24.66302000" }
                     }
                 },
 
@@ -224,6 +229,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Dūkštas", Latitude = "55.52200000", Longitude = "26.32100000" }
                     }
                 },
 
@@ -240,6 +246,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Jonava", Latitude = "55.08333000", Longitude = "24.28333000" }
                     }
                 },
 
@@ -256,6 +263,8 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Joniškis", Latitude = "56.23333000", Longitude = "23.61667000" },
+                        new() { Id = 2, Name = "Žagarė", Latitude = "56.36149000", Longitude = "23.25094000" }
                     }
                 },
 
@@ -272,6 +281,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Jurbarkas", Latitude = "55.10859000", Longitude = "22.79885000" }
                     }
                 },
 
@@ -288,6 +298,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Žiežmariai", Latitude = "54.80725000", Longitude = "24.44073000" }
                     }
                 },
 
@@ -304,6 +315,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kalvarija", Latitude = "54.41700000", Longitude = "23.22300000" }
                     }
                 },
 
@@ -335,6 +347,12 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Ežerėlis", Latitude = "54.88315000", Longitude = "23.60396000" },
+                        new() { Id = 2, Name = "Garliava", Latitude = "54.82139000", Longitude = "23.87130000" },
+                        new() { Id = 3, Name = "Karmėlava", Latitude = "54.97055000", Longitude = "24.06182000" },
+                        new() { Id = 4, Name = "Kulautuva", Latitude = "54.94212000", Longitude = "23.64218000" },
+                        new() { Id = 5, Name = "Ramučiai", Latitude = "54.94830000", Longitude = "24.03050000" },
+                        new() { Id = 6, Name = "Vilkija", Latitude = "55.04609000", Longitude = "23.58552000" }
                     }
                 },
 
@@ -353,27 +371,16 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Akademija (Kaunas)", Latitude = "54.89640000", Longitude = "23.82411000" },
                         new() { Id = 2, Name = "Aleksotas", Latitude = "54.88037000", Longitude = "23.90842000" },
-                        new() { Id = 3, Name = "Ariogala", Latitude = "55.26200000", Longitude = "23.47700000" },
-                        new() { Id = 4, Name = "Birštonas", Latitude = "54.61667000", Longitude = "24.03333000" },
-                        new() { Id = 5, Name = "Dainava (Kaunas)", Latitude = "54.91525000", Longitude = "23.96831000" },
-                        new() { Id = 6, Name = "Eiguliai", Latitude = "54.93133000", Longitude = "23.93243000" },
-                        new() { Id = 7, Name = "Ežerėlis", Latitude = "54.88315000", Longitude = "23.60396000" },
-                        new() { Id = 8, Name = "Garliava", Latitude = "54.82139000", Longitude = "23.87130000" },
-                        new() { Id = 9, Name = "Jieznas", Latitude = "54.59937000", Longitude = "24.17593000" },
-                        new() { Id = 10, Name = "Jonava", Latitude = "55.08333000", Longitude = "24.28333000" },
-                        new() { Id = 11, Name = "Kaišiadorys", Latitude = "54.86667000", Longitude = "24.45000000" },
-                        new() { Id = 12, Name = "Karmėlava", Latitude = "54.97055000", Longitude = "24.06182000" },
-                        new() { Id = 13, Name = "Kaunas", Latitude = "54.90272000", Longitude = "23.90961000" },
-                        new() { Id = 14, Name = "Kėdainiai", Latitude = "55.28333000", Longitude = "23.96667000" },
-                        new() { Id = 15, Name = "Kulautuva", Latitude = "54.94212000", Longitude = "23.64218000" },
-                        new() { Id = 16, Name = "Mastaiciai", Latitude = "54.81998000", Longitude = "23.84462000" },
-                        new() { Id = 17, Name = "Prienai", Latitude = "54.63333000", Longitude = "23.95000000" },
-                        new() { Id = 18, Name = "Ramučiai", Latitude = "54.94830000", Longitude = "24.03050000" },
-                        new() { Id = 19, Name = "Raseiniai", Latitude = "55.36667000", Longitude = "23.11667000" },
-                        new() { Id = 20, Name = "Sargėnai", Latitude = "54.94933000", Longitude = "23.88316000" },
-                        new() { Id = 21, Name = "Šilainiai", Latitude = "54.92911000", Longitude = "23.88599000" },
-                        new() { Id = 22, Name = "Vilkija", Latitude = "55.04609000", Longitude = "23.58552000" },
-                        new() { Id = 23, Name = "Žiežmariai", Latitude = "54.80725000", Longitude = "24.44073000" }
+                        new() { Id = 3, Name = "Birštonas", Latitude = "54.61667000", Longitude = "24.03333000" },
+                        new() { Id = 4, Name = "Dainava (Kaunas)", Latitude = "54.91525000", Longitude = "23.96831000" },
+                        new() { Id = 5, Name = "Eiguliai", Latitude = "54.93133000", Longitude = "23.93243000" },
+                        new() { Id = 6, Name = "Kaišiadorys", Latitude = "54.86667000", Longitude = "24.45000000" },
+                        new() { Id = 7, Name = "Kaunas", Latitude = "54.90272000", Longitude = "23.90961000" },
+                        new() { Id = 8, Name = "Mastaiciai", Latitude = "54.81998000", Longitude = "23.84462000" },
+                        new() { Id = 9, Name = "Prienai", Latitude = "54.63333000", Longitude = "23.95000000" },
+                        new() { Id = 10, Name = "Raseiniai", Latitude = "55.36667000", Longitude = "23.11667000" },
+                        new() { Id = 11, Name = "Sargėnai", Latitude = "54.94933000", Longitude = "23.88316000" },
+                        new() { Id = 12, Name = "Šilainiai", Latitude = "54.92911000", Longitude = "23.88599000" }
                     }
                 },
 
@@ -390,6 +397,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kazlų Rūda", Latitude = "54.74900000", Longitude = "23.49000000" }
                     }
                 },
 
@@ -406,6 +414,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kėdainiai", Latitude = "55.28333000", Longitude = "23.96667000" }
                     }
                 },
 
@@ -454,18 +463,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Gargždai", Latitude = "55.70951000", Longitude = "21.39441000" },
-                        new() { Id = 2, Name = "Klaipėda", Latitude = "55.71667000", Longitude = "21.11667000" },
-                        new() { Id = 3, Name = "Kretinga", Latitude = "55.88880000", Longitude = "21.24448000" },
-                        new() { Id = 4, Name = "Neringa", Latitude = "55.36667000", Longitude = "21.06667000" },
-                        new() { Id = 5, Name = "Nida", Latitude = "55.30860000", Longitude = "20.99651000" },
-                        new() { Id = 6, Name = "Palanga", Latitude = "55.91750000", Longitude = "21.06861000" },
-                        new() { Id = 7, Name = "Priekulė", Latitude = "55.55427000", Longitude = "21.31903000" },
-                        new() { Id = 8, Name = "Rusnė", Latitude = "55.29820000", Longitude = "21.37120000" },
-                        new() { Id = 9, Name = "Salantai", Latitude = "56.05650000", Longitude = "21.56890000" },
-                        new() { Id = 10, Name = "Silute", Latitude = "55.34889000", Longitude = "21.48306000" },
-                        new() { Id = 11, Name = "Skuodas", Latitude = "56.26667000", Longitude = "21.53333000" },
-                        new() { Id = 12, Name = "Šventoji", Latitude = "56.02610000", Longitude = "21.08411000" },
-                        new() { Id = 13, Name = "Žemaičių Naumiestis", Latitude = "55.35941000", Longitude = "21.70364000" }
+                        new() { Id = 2, Name = "Neringa", Latitude = "55.36667000", Longitude = "21.06667000" },
+                        new() { Id = 3, Name = "Nida", Latitude = "55.30860000", Longitude = "20.99651000" },
+                        new() { Id = 4, Name = "Priekulė", Latitude = "55.55427000", Longitude = "21.31903000" },
+                        new() { Id = 5, Name = "Rusnė", Latitude = "55.29820000", Longitude = "21.37120000" },
+                        new() { Id = 6, Name = "Skuodas", Latitude = "56.26667000", Longitude = "21.53333000" },
+                        new() { Id = 7, Name = "Šventoji", Latitude = "56.02610000", Longitude = "21.08411000" },
+                        new() { Id = 8, Name = "Žemaičių Naumiestis", Latitude = "55.35941000", Longitude = "21.70364000" }
                     }
                 },
 
@@ -482,6 +486,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Klaipėda", Latitude = "55.71667000", Longitude = "21.11667000" }
                     }
                 },
 
@@ -498,6 +503,8 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kretinga", Latitude = "55.88880000", Longitude = "21.24448000" },
+                        new() { Id = 2, Name = "Salantai", Latitude = "56.05650000", Longitude = "21.56890000" }
                     }
                 },
 
@@ -514,6 +521,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kupiskis", Latitude = "55.84027000", Longitude = "24.97976000" }
                     }
                 },
 
@@ -530,6 +538,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Veisiejai", Latitude = "54.10110000", Longitude = "23.69614000" }
                     }
                 },
 
@@ -546,19 +555,14 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Gelgaudiškis", Latitude = "55.07688000", Longitude = "22.97699000" },
-                        new() { Id = 2, Name = "Kalvarija", Latitude = "54.41700000", Longitude = "23.22300000" },
-                        new() { Id = 3, Name = "Kalvarija Municipality", Latitude = "54.41468000", Longitude = "23.22484000" },
-                        new() { Id = 4, Name = "Kazlų Rūda", Latitude = "54.74900000", Longitude = "23.49000000" },
-                        new() { Id = 5, Name = "Kazlų Rūda Municipality", Latitude = "54.74751000", Longitude = "23.49272000" },
-                        new() { Id = 6, Name = "Kudirkos Naumiestis", Latitude = "54.77353000", Longitude = "22.86138000" },
-                        new() { Id = 7, Name = "Kybartai", Latitude = "54.63858000", Longitude = "22.76316000" },
-                        new() { Id = 8, Name = "Marijampolė", Latitude = "54.55991000", Longitude = "23.35412000" },
-                        new() { Id = 9, Name = "Marijampolė Municipality", Latitude = "54.56667000", Longitude = "23.35000000" },
-                        new() { Id = 10, Name = "Sakiai", Latitude = "54.95000000", Longitude = "23.05000000" },
-                        new() { Id = 11, Name = "Vilkaviskis", Latitude = "54.65167000", Longitude = "23.03222000" },
-                        new() { Id = 12, Name = "Vilkaviškis District Municipality", Latitude = "54.65000000", Longitude = "23.03333000" },
-                        new() { Id = 13, Name = "Virbalis", Latitude = "54.62858000", Longitude = "22.82272000" }
+                        new() { Id = 1, Name = "Kalvarija Municipality", Latitude = "54.41468000", Longitude = "23.22484000" },
+                        new() { Id = 2, Name = "Kazlų Rūda Municipality", Latitude = "54.74751000", Longitude = "23.49272000" },
+                        new() { Id = 3, Name = "Kudirkos Naumiestis", Latitude = "54.77353000", Longitude = "22.86138000" },
+                        new() { Id = 4, Name = "Marijampolė", Latitude = "54.55991000", Longitude = "23.35412000" },
+                        new() { Id = 5, Name = "Marijampolė Municipality", Latitude = "54.56667000", Longitude = "23.35000000" },
+                        new() { Id = 6, Name = "Sakiai", Latitude = "54.95000000", Longitude = "23.05000000" },
+                        new() { Id = 7, Name = "Vilkaviskis", Latitude = "54.65167000", Longitude = "23.03222000" },
+                        new() { Id = 8, Name = "Vilkaviškis District Municipality", Latitude = "54.65000000", Longitude = "23.03333000" }
                     }
                 },
 
@@ -590,6 +594,9 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Mazeikiai", Latitude = "56.31667000", Longitude = "22.33333000" },
+                        new() { Id = 2, Name = "Seda", Latitude = "56.16854000", Longitude = "22.09071000" },
+                        new() { Id = 3, Name = "Viekšniai", Latitude = "56.23598000", Longitude = "22.51667000" }
                     }
                 },
 
@@ -606,6 +613,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Moletai", Latitude = "55.23333000", Longitude = "25.41667000" }
                     }
                 },
 
@@ -654,6 +662,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Linkuva", Latitude = "56.08596000", Longitude = "23.97061000" }
                     }
                 },
 
@@ -670,6 +679,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Palanga", Latitude = "55.91750000", Longitude = "21.06861000" }
                     }
                 },
 
@@ -686,6 +696,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Panevėžys", Latitude = "55.73333000", Longitude = "24.35000000" }
                     }
                 },
 
@@ -702,16 +713,11 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Birzai", Latitude = "56.20000000", Longitude = "24.75000000" },
-                        new() { Id = 2, Name = "Juodupė", Latitude = "56.08700000", Longitude = "25.60700000" },
-                        new() { Id = 3, Name = "Kupiskis", Latitude = "55.84027000", Longitude = "24.97976000" },
-                        new() { Id = 4, Name = "Obeliai", Latitude = "55.96895000", Longitude = "25.15648000" },
-                        new() { Id = 5, Name = "Panevėžys", Latitude = "55.73333000", Longitude = "24.35000000" },
-                        new() { Id = 6, Name = "Panevėžys District Municipality", Latitude = "55.73301000", Longitude = "24.37609000" },
-                        new() { Id = 7, Name = "Pasvalys", Latitude = "56.06667000", Longitude = "24.40000000" },
-                        new() { Id = 8, Name = "Ramygala", Latitude = "55.51400000", Longitude = "24.30000000" },
-                        new() { Id = 9, Name = "Rokiškis", Latitude = "55.96667000", Longitude = "25.58333000" },
-                        new() { Id = 10, Name = "Vabalninkas", Latitude = "55.98151000", Longitude = "24.74828000" }
+                        new() { Id = 1, Name = "Obeliai", Latitude = "55.96895000", Longitude = "25.15648000" },
+                        new() { Id = 2, Name = "Panevėžys District Municipality", Latitude = "55.73301000", Longitude = "24.37609000" },
+                        new() { Id = 3, Name = "Pasvalys", Latitude = "56.06667000", Longitude = "24.40000000" },
+                        new() { Id = 4, Name = "Ramygala", Latitude = "55.51400000", Longitude = "24.30000000" },
+                        new() { Id = 5, Name = "Rokiškis", Latitude = "55.96667000", Longitude = "25.58333000" }
                     }
                 },
 
@@ -759,6 +765,8 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Plateliai", Latitude = "56.04657000", Longitude = "21.81615000" },
+                        new() { Id = 2, Name = "Plunge", Latitude = "55.91139000", Longitude = "21.84417000" }
                     }
                 },
 
@@ -775,6 +783,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Jieznas", Latitude = "54.59937000", Longitude = "24.17593000" }
                     }
                 },
 
@@ -791,6 +800,8 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Radviliskis", Latitude = "55.81667000", Longitude = "23.53333000" },
+                        new() { Id = 2, Name = "Šeduva", Latitude = "55.74930000", Longitude = "23.75610000" }
                     }
                 },
 
@@ -807,6 +818,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Ariogala", Latitude = "55.26200000", Longitude = "23.47700000" }
                     }
                 },
 
@@ -839,6 +851,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Juodupė", Latitude = "56.08700000", Longitude = "25.60700000" }
                     }
                 },
 
@@ -855,6 +868,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Gelgaudiškis", Latitude = "55.07688000", Longitude = "22.97699000" }
                     }
                 },
 
@@ -871,6 +885,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Eišiškės", Latitude = "54.17414000", Longitude = "24.99917000" }
                     }
                 },
 
@@ -902,19 +917,10 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Akmenė", Latitude = "56.25000000", Longitude = "22.75000000" },
-                        new() { Id = 2, Name = "Joniškis", Latitude = "56.23333000", Longitude = "23.61667000" },
-                        new() { Id = 3, Name = "Kelmė", Latitude = "55.63333000", Longitude = "22.93333000" },
-                        new() { Id = 4, Name = "Kuršėnai", Latitude = "56.00318000", Longitude = "22.93662000" },
-                        new() { Id = 5, Name = "Linkuva", Latitude = "56.08596000", Longitude = "23.97061000" },
-                        new() { Id = 6, Name = "Naujoji Akmene", Latitude = "56.31667000", Longitude = "22.90000000" },
-                        new() { Id = 7, Name = "Pakruojis", Latitude = "55.96667000", Longitude = "23.86667000" },
-                        new() { Id = 8, Name = "Radviliskis", Latitude = "55.81667000", Longitude = "23.53333000" },
-                        new() { Id = 9, Name = "Šeduva", Latitude = "55.74930000", Longitude = "23.75610000" },
-                        new() { Id = 10, Name = "Šiauliai", Latitude = "55.93333000", Longitude = "23.31667000" },
-                        new() { Id = 11, Name = "Tytuvėnėliai", Latitude = "55.62345000", Longitude = "23.17162000" },
-                        new() { Id = 12, Name = "Venta", Latitude = "56.19162000", Longitude = "22.69528000" },
-                        new() { Id = 13, Name = "Žagarė", Latitude = "56.36149000", Longitude = "23.25094000" }
+                        new() { Id = 1, Name = "Kelmė", Latitude = "55.63333000", Longitude = "22.93333000" },
+                        new() { Id = 2, Name = "Pakruojis", Latitude = "55.96667000", Longitude = "23.86667000" },
+                        new() { Id = 3, Name = "Šiauliai", Latitude = "55.93333000", Longitude = "23.31667000" },
+                        new() { Id = 4, Name = "Tytuvėnėliai", Latitude = "55.62345000", Longitude = "23.17162000" }
                     }
                 },
 
@@ -931,6 +937,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kuršėnai", Latitude = "56.00318000", Longitude = "22.93662000" }
                     }
                 },
 
@@ -947,6 +954,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Šilalė", Latitude = "55.46667000", Longitude = "22.20000000" }
                     }
                 },
 
@@ -963,6 +971,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Silute", Latitude = "55.34889000", Longitude = "21.48306000" }
                     }
                 },
 
@@ -1011,6 +1020,8 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Pabradė", Latitude = "54.98100000", Longitude = "25.76100000" },
+                        new() { Id = 2, Name = "Švenčionėliai", Latitude = "55.16163000", Longitude = "26.00177000" }
                     }
                 },
 
@@ -1026,11 +1037,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Būgai", Latitude = "55.41387000", Longitude = "22.60894000" },
-                        new() { Id = 2, Name = "Jurbarkas", Latitude = "55.10859000", Longitude = "22.79885000" },
-                        new() { Id = 3, Name = "Pagėgiai", Latitude = "55.13400000", Longitude = "21.90446000" },
-                        new() { Id = 4, Name = "Šilalė", Latitude = "55.46667000", Longitude = "22.20000000" },
-                        new() { Id = 5, Name = "Taurage", Latitude = "55.25222000", Longitude = "22.28972000" }
+                        new() { Id = 1, Name = "Pagėgiai", Latitude = "55.13400000", Longitude = "21.90446000" }
                     }
                 },
 
@@ -1047,6 +1054,8 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Būgai", Latitude = "55.41387000", Longitude = "22.60894000" },
+                        new() { Id = 2, Name = "Taurage", Latitude = "55.25222000", Longitude = "22.28972000" }
                     }
                 },
 
@@ -1063,14 +1072,9 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Mazeikiai", Latitude = "56.31667000", Longitude = "22.33333000" },
-                        new() { Id = 2, Name = "Plateliai", Latitude = "56.04657000", Longitude = "21.81615000" },
-                        new() { Id = 3, Name = "Plunge", Latitude = "55.91139000", Longitude = "21.84417000" },
-                        new() { Id = 4, Name = "Rietavas", Latitude = "55.72375000", Longitude = "21.93266000" },
-                        new() { Id = 5, Name = "Seda", Latitude = "56.16854000", Longitude = "22.09071000" },
-                        new() { Id = 6, Name = "Telsiai", Latitude = "55.98139000", Longitude = "22.24722000" },
-                        new() { Id = 7, Name = "Varniai", Latitude = "55.74435000", Longitude = "22.37251000" },
-                        new() { Id = 8, Name = "Viekšniai", Latitude = "56.23598000", Longitude = "22.51667000" }
+                        new() { Id = 1, Name = "Rietavas", Latitude = "55.72375000", Longitude = "21.93266000" },
+                        new() { Id = 2, Name = "Telsiai", Latitude = "55.98139000", Longitude = "22.24722000" },
+                        new() { Id = 3, Name = "Varniai", Latitude = "55.74435000", Longitude = "22.37251000" }
                     }
                 },
 
@@ -1102,6 +1106,9 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Aukstadvaris", Latitude = "54.57946000", Longitude = "24.52683000" },
+                        new() { Id = 2, Name = "Rūdiškės", Latitude = "54.51609000", Longitude = "24.83084000" },
+                        new() { Id = 3, Name = "Trakai", Latitude = "54.63783000", Longitude = "24.93433000" }
                     }
                 },
 
@@ -1118,6 +1125,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Ukmerge", Latitude = "55.25000000", Longitude = "24.75000000" }
                     }
                 },
 
@@ -1134,6 +1142,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Utena", Latitude = "55.49764000", Longitude = "25.59918000" }
                     }
                 },
 
@@ -1149,13 +1158,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Anyksciai", Latitude = "55.52557000", Longitude = "25.10264000" },
-                        new() { Id = 2, Name = "Dūkštas", Latitude = "55.52200000", Longitude = "26.32100000" },
-                        new() { Id = 3, Name = "Ignalina", Latitude = "55.35000000", Longitude = "26.16667000" },
-                        new() { Id = 4, Name = "Moletai", Latitude = "55.23333000", Longitude = "25.41667000" },
-                        new() { Id = 5, Name = "Utena", Latitude = "55.49764000", Longitude = "25.59918000" },
-                        new() { Id = 6, Name = "Visaginas", Latitude = "55.60000000", Longitude = "26.41667000" },
-                        new() { Id = 7, Name = "Zarasai", Latitude = "55.73333000", Longitude = "26.25000000" }
+                        new() { Id = 1, Name = "Anykščiai", Latitude = "55.52557000", Longitude = "25.10264000" },
+                        new() { Id = 2, Name = "Ignalina", Latitude = "55.35000000", Longitude = "26.16667000" }
                     }
                 },
 
@@ -1188,6 +1192,8 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kybartai", Latitude = "54.63858000", Longitude = "22.76316000" },
+                        new() { Id = 2, Name = "Virbalis", Latitude = "54.62858000", Longitude = "22.82272000" }
                     }
                 },
 
@@ -1204,6 +1210,8 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Nemenčinė", Latitude = "54.84776000", Longitude = "25.46992000" },
+                        new() { Id = 2, Name = "Skaidiškės", Latitude = "54.61398000", Longitude = "25.39573000" }
                     }
                 },
 
@@ -1220,35 +1228,25 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Aukstadvaris", Latitude = "54.57946000", Longitude = "24.52683000" },
-                        new() { Id = 2, Name = "Baltoji Vokė", Latitude = "54.60002000", Longitude = "25.19318000" },
-                        new() { Id = 3, Name = "Eišiškės", Latitude = "54.17414000", Longitude = "24.99917000" },
-                        new() { Id = 4, Name = "Elektrėnai", Latitude = "54.78544000", Longitude = "24.66302000" },
-                        new() { Id = 5, Name = "Fabijoniškės", Latitude = "54.73333000", Longitude = "25.24167000" },
-                        new() { Id = 6, Name = "Grigiškės", Latitude = "54.68333000", Longitude = "25.08333000" },
-                        new() { Id = 7, Name = "Justiniškės", Latitude = "54.71664000", Longitude = "25.21740000" },
-                        new() { Id = 8, Name = "Lazdynai", Latitude = "54.66815000", Longitude = "25.20684000" },
-                        new() { Id = 9, Name = "Lentvaris", Latitude = "54.64364000", Longitude = "25.05162000" },
-                        new() { Id = 10, Name = "Naujamiestis", Latitude = "54.67951000", Longitude = "25.26855000" },
-                        new() { Id = 11, Name = "Nemenčinė", Latitude = "54.84776000", Longitude = "25.46992000" },
-                        new() { Id = 12, Name = "Pabradė", Latitude = "54.98100000", Longitude = "25.76100000" },
-                        new() { Id = 13, Name = "Pašilaičiai", Latitude = "54.73429000", Longitude = "25.21912000" },
-                        new() { Id = 14, Name = "Pilaitė", Latitude = "54.69981000", Longitude = "25.18393000" },
-                        new() { Id = 15, Name = "Rasos", Latitude = "54.67877000", Longitude = "25.31173000" },
-                        new() { Id = 16, Name = "Rūdiškės", Latitude = "54.51609000", Longitude = "24.83084000" },
-                        new() { Id = 17, Name = "Šalčininkai", Latitude = "54.30000000", Longitude = "25.38333000" },
-                        new() { Id = 18, Name = "Senieji Trakai", Latitude = "54.60900000", Longitude = "24.98000000" },
-                        new() { Id = 19, Name = "Šeškinė", Latitude = "54.70972000", Longitude = "25.25053000" },
-                        new() { Id = 20, Name = "Sirvintos", Latitude = "55.05000000", Longitude = "24.95000000" },
-                        new() { Id = 21, Name = "Skaidiškės", Latitude = "54.61398000", Longitude = "25.39573000" },
-                        new() { Id = 22, Name = "Švenčionėliai", Latitude = "55.16163000", Longitude = "26.00177000" },
-                        new() { Id = 23, Name = "Svencionys", Latitude = "55.15000000", Longitude = "26.16667000" },
-                        new() { Id = 24, Name = "Trakai", Latitude = "54.63783000", Longitude = "24.93433000" },
-                        new() { Id = 25, Name = "Ukmerge", Latitude = "55.25000000", Longitude = "24.75000000" },
-                        new() { Id = 26, Name = "Vievis", Latitude = "54.76667000", Longitude = "24.80000000" },
-                        new() { Id = 27, Name = "Vilkpėdė", Latitude = "54.66969000", Longitude = "25.24770000" },
-                        new() { Id = 28, Name = "Vilnius", Latitude = "54.68916000", Longitude = "25.27980000" },
-                        new() { Id = 29, Name = "Vilnius District Municipality", Latitude = "54.73333000", Longitude = "25.38333000" }
+                        new() { Id = 1, Name = "Baltoji Vokė", Latitude = "54.60002000", Longitude = "25.19318000" },
+                        new() { Id = 2, Name = "Fabijoniškės", Latitude = "54.73333000", Longitude = "25.24167000" },
+                        new() { Id = 3, Name = "Grigiškės", Latitude = "54.68333000", Longitude = "25.08333000" },
+                        new() { Id = 4, Name = "Justiniškės", Latitude = "54.71664000", Longitude = "25.21740000" },
+                        new() { Id = 5, Name = "Lazdynai", Latitude = "54.66815000", Longitude = "25.20684000" },
+                        new() { Id = 6, Name = "Lentvaris", Latitude = "54.64364000", Longitude = "25.05162000" },
+                        new() { Id = 7, Name = "Naujamiestis", Latitude = "54.67951000", Longitude = "25.26855000" },
+                        new() { Id = 8, Name = "Pašilaičiai", Latitude = "54.73429000", Longitude = "25.21912000" },
+                        new() { Id = 9, Name = "Pilaitė", Latitude = "54.69981000", Longitude = "25.18393000" },
+                        new() { Id = 10, Name = "Rasos", Latitude = "54.67877000", Longitude = "25.31173000" },
+                        new() { Id = 11, Name = "Šalčininkai", Latitude = "54.30000000", Longitude = "25.38333000" },
+                        new() { Id = 12, Name = "Senieji Trakai", Latitude = "54.60900000", Longitude = "24.98000000" },
+                        new() { Id = 13, Name = "Šeškinė", Latitude = "54.70972000", Longitude = "25.25053000" },
+                        new() { Id = 14, Name = "Sirvintos", Latitude = "55.05000000", Longitude = "24.95000000" },
+                        new() { Id = 15, Name = "Svencionys", Latitude = "55.15000000", Longitude = "26.16667000" },
+                        new() { Id = 16, Name = "Vievis", Latitude = "54.76667000", Longitude = "24.80000000" },
+                        new() { Id = 17, Name = "Vilkpėdė", Latitude = "54.66969000", Longitude = "25.24770000" },
+                        new() { Id = 18, Name = "Vilnius", Latitude = "54.68916000", Longitude = "25.27980000" },
+                        new() { Id = 19, Name = "Vilnius District Municipality", Latitude = "54.73333000", Longitude = "25.38333000" }
                     }
                 },
 
@@ -1280,6 +1278,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Visaginas", Latitude = "55.60000000", Longitude = "26.41667000" }
                     }
                 },
 
@@ -1296,6 +1295,7 @@ namespace ShowsOnSale.World.Data.Countries
                     IsTopLevel = false,
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Zarasai", Latitude = "55.73333000", Longitude = "26.25000000" }
                     }
                 }
             }

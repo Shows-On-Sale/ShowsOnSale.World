@@ -347,7 +347,7 @@ namespace ShowsOnSale.World
 
             ShowsOnSale.World.Data.Countries.Palau.Data,
 
-            ShowsOnSale.World.Data.Countries.PalestinianTerritoryOccupied.Data,
+            ShowsOnSale.World.Data.Countries.Palestine.Data,
 
             ShowsOnSale.World.Data.Countries.Panama.Data,
 
