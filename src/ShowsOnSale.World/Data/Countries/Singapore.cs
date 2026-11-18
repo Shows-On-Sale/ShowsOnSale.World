@@ -95,8 +95,8 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "02",
                     Iso3166_2 = "SG-02",
                     TimeZoneId = "Asia/Singapore",
-                    Latitude = "5.33411860",
-                    Longitude = "100.27610770",
+                    Latitude = "1.36944000",
+                    Longitude = "103.94700000",
                     Type = "district",
                     Cities = new()
                     {
@@ -151,8 +151,8 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "05",
                     Iso3166_2 = "SG-05",
                     TimeZoneId = "Asia/Singapore",
-                    Latitude = "5.28833890",
-                    Longitude = "100.28150990",
+                    Latitude = "1.31666667",
+                    Longitude = "103.71666667",
                     Type = "district",
                     Cities = new()
                     {

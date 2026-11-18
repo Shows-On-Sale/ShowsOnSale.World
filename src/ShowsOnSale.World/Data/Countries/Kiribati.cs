@@ -69,7 +69,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Gilbert",
                     StateCode = "G",
                     Iso3166_2 = "KI-G",
-                    TimeZoneId = "Pacific/Enderbury",
+                    TimeZoneId = "Pacific/Tarawa",
                     Latitude = "-1.23945560",
                     Longitude = "175.29694550",
                     Type = "island",
@@ -113,9 +113,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Line",
                     StateCode = "L",
                     Iso3166_2 = "KI-L",
-                    TimeZoneId = "Pacific/Enderbury",
-                    Latitude = "1.35897790",
-                    Longitude = "172.93112020",
+                    TimeZoneId = "Pacific/Kiritimati",
+                    Latitude = "1.94200000",
+                    Longitude = "-157.47400000",
                     Type = "island",
                     Cities = new()
                     {

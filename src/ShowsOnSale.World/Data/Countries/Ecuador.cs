@@ -95,8 +95,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Guaranda", Latitude = "-1.59263000", Longitude = "-79.00098000" },
-                        new() { Id = 2, Name = "San Miguel", Latitude = "-1.70884000", Longitude = "-79.04311000" }
+                        new() { Id = 1, Name = "Chillanes", Latitude = "-1.94290000", Longitude = "-79.06646000" },
+                        new() { Id = 2, Name = "Echeandía", Latitude = "-1.43208000", Longitude = "-79.28018000" },
+                        new() { Id = 3, Name = "Guaranda", Latitude = "-1.59263000", Longitude = "-79.00098000" },
+                        new() { Id = 4, Name = "San Miguel", Latitude = "-1.70884000", Longitude = "-79.04311000" }
                     }
                 },
 
@@ -149,8 +151,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Alausí", Latitude = "-2.20329000", Longitude = "-78.84714000" },
-                        new() { Id = 2, Name = "Guano", Latitude = "-1.60789000", Longitude = "-78.63105000" },
-                        new() { Id = 3, Name = "Riobamba", Latitude = "-1.67098000", Longitude = "-78.64712000" }
+                        new() { Id = 2, Name = "Cumandá", Latitude = "-2.20497000", Longitude = "-79.13580000" },
+                        new() { Id = 3, Name = "Guano", Latitude = "-1.60789000", Longitude = "-78.63105000" },
+                        new() { Id = 4, Name = "Riobamba", Latitude = "-1.67098000", Longitude = "-78.64712000" }
                     }
                 },
 
@@ -166,11 +169,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "La Maná", Latitude = "-0.94094000", Longitude = "-79.22506000" },
-                        new() { Id = 2, Name = "Latacunga", Latitude = "-0.93521000", Longitude = "-78.61554000" },
-                        new() { Id = 3, Name = "Pujilí", Latitude = "-0.95759000", Longitude = "-78.69636000" },
-                        new() { Id = 4, Name = "San Miguel de Salcedo", Latitude = "-1.04547000", Longitude = "-78.59063000" },
-                        new() { Id = 5, Name = "Saquisilí", Latitude = "-0.83990000", Longitude = "-78.66700000" }
+                        new() { Id = 1, Name = "El Corazón", Latitude = "-1.13663000", Longitude = "-79.08137000" },
+                        new() { Id = 2, Name = "La Maná", Latitude = "-0.94094000", Longitude = "-79.22506000" },
+                        new() { Id = 3, Name = "Latacunga", Latitude = "-0.93521000", Longitude = "-78.61554000" },
+                        new() { Id = 4, Name = "Pujilí", Latitude = "-0.95759000", Longitude = "-78.69636000" },
+                        new() { Id = 5, Name = "San Miguel de Salcedo", Latitude = "-1.04547000", Longitude = "-78.59063000" },
+                        new() { Id = 6, Name = "Saquisilí", Latitude = "-0.83990000", Longitude = "-78.66700000" },
+                        new() { Id = 7, Name = "Sigchos", Latitude = "-0.70470000", Longitude = "-78.88868000" }
                     }
                 },
 
@@ -186,14 +191,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Huaquillas", Latitude = "-3.47523000", Longitude = "-80.23084000" },
-                        new() { Id = 2, Name = "Machala", Latitude = "-3.25861000", Longitude = "-79.96053000" },
-                        new() { Id = 3, Name = "Pasaje", Latitude = "-3.32561000", Longitude = "-79.80697000" },
-                        new() { Id = 4, Name = "Piñas", Latitude = "-3.68107000", Longitude = "-79.68083000" },
-                        new() { Id = 5, Name = "Portovelo", Latitude = "-3.72145000", Longitude = "-79.62187000" },
-                        new() { Id = 6, Name = "Puerto Bolívar", Latitude = "-3.26649000", Longitude = "-79.99749000" },
-                        new() { Id = 7, Name = "Santa Rosa", Latitude = "-3.44882000", Longitude = "-79.95952000" },
-                        new() { Id = 8, Name = "Zaruma", Latitude = "-3.69132000", Longitude = "-79.61174000" }
+                        new() { Id = 1, Name = "Guabo", Latitude = "-3.24401000", Longitude = "-79.82874000" },
+                        new() { Id = 2, Name = "Huaquillas", Latitude = "-3.47523000", Longitude = "-80.23084000" },
+                        new() { Id = 3, Name = "Machala", Latitude = "-3.25861000", Longitude = "-79.96053000" },
+                        new() { Id = 4, Name = "Pasaje", Latitude = "-3.32561000", Longitude = "-79.80697000" },
+                        new() { Id = 5, Name = "Piñas", Latitude = "-3.68107000", Longitude = "-79.68083000" },
+                        new() { Id = 6, Name = "Portovelo", Latitude = "-3.72145000", Longitude = "-79.62187000" },
+                        new() { Id = 7, Name = "Puerto Bolívar", Latitude = "-3.26649000", Longitude = "-79.99749000" },
+                        new() { Id = 8, Name = "Santa Rosa", Latitude = "-3.44882000", Longitude = "-79.95952000" },
+                        new() { Id = 9, Name = "Zaruma", Latitude = "-3.69132000", Longitude = "-79.61174000" }
                     }
                 },
 
@@ -209,13 +215,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Esmeraldas", Latitude = "0.95920000", Longitude = "-79.65397000" },
-                        new() { Id = 2, Name = "Muisne", Latitude = "0.61129000", Longitude = "-80.01863000" },
-                        new() { Id = 3, Name = "Pampanal de Bolívar", Latitude = "1.35251000", Longitude = "-78.89360000" },
-                        new() { Id = 4, Name = "Rio Verde", Latitude = "1.06235000", Longitude = "-79.39939000" },
-                        new() { Id = 5, Name = "Rosa Zarate", Latitude = "0.32779000", Longitude = "-79.47407000" },
-                        new() { Id = 6, Name = "San Lorenzo de Esmeraldas", Latitude = "1.28626000", Longitude = "-78.83514000" },
-                        new() { Id = 7, Name = "Valdez", Latitude = "1.24917000", Longitude = "-78.98306000" }
+                        new() { Id = 1, Name = "Atacames", Latitude = "0.86903000", Longitude = "-79.84806000" },
+                        new() { Id = 2, Name = "Esmeraldas", Latitude = "0.95920000", Longitude = "-79.65397000" },
+                        new() { Id = 3, Name = "Muisne", Latitude = "0.61129000", Longitude = "-80.01863000" },
+                        new() { Id = 4, Name = "Pampanal de Bolívar", Latitude = "1.35251000", Longitude = "-78.89360000" },
+                        new() { Id = 5, Name = "Rio Verde", Latitude = "1.06235000", Longitude = "-79.39939000" },
+                        new() { Id = 6, Name = "Rosa Zarate", Latitude = "0.32779000", Longitude = "-79.47407000" },
+                        new() { Id = 7, Name = "San Lorenzo de Esmeraldas", Latitude = "1.28626000", Longitude = "-78.83514000" },
+                        new() { Id = 8, Name = "Valdez", Latitude = "1.24917000", Longitude = "-78.98306000" }
                     }
                 },
 
@@ -254,20 +261,23 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Balzar", Latitude = "-1.36501000", Longitude = "-79.90494000" },
                         new() { Id = 4, Name = "Colimes", Latitude = "-1.54553000", Longitude = "-80.01165000" },
                         new() { Id = 5, Name = "Coronel Marcelino Maridueña", Latitude = "-2.20924000", Longitude = "-79.43248000" },
-                        new() { Id = 6, Name = "El Triunfo", Latitude = "-1.93333000", Longitude = "-79.96667000" },
-                        new() { Id = 7, Name = "Eloy Alfaro", Latitude = "-2.17579000", Longitude = "-79.85519000" },
-                        new() { Id = 8, Name = "Guayaquil", Latitude = "-2.19616000", Longitude = "-79.88621000" },
-                        new() { Id = 9, Name = "Lomas de Sargentillo", Latitude = "-1.88333000", Longitude = "-80.08333000" },
-                        new() { Id = 10, Name = "Milagro", Latitude = "-2.13404000", Longitude = "-79.59415000" },
-                        new() { Id = 11, Name = "Naranjal", Latitude = "-2.67364000", Longitude = "-79.61830000" },
-                        new() { Id = 12, Name = "Naranjito", Latitude = "-2.16671000", Longitude = "-79.46540000" },
-                        new() { Id = 13, Name = "Palestina", Latitude = "-1.93709000", Longitude = "-79.71396000" },
-                        new() { Id = 14, Name = "Pedro Carbo", Latitude = "-1.81563000", Longitude = "-80.23309000" },
-                        new() { Id = 15, Name = "Playas", Latitude = "-2.63199000", Longitude = "-80.38808000" },
-                        new() { Id = 16, Name = "Samborondón", Latitude = "-1.96276000", Longitude = "-79.72402000" },
-                        new() { Id = 17, Name = "Santa Lucía", Latitude = "-2.18333000", Longitude = "-80.00000000" },
-                        new() { Id = 18, Name = "Velasco Ibarra", Latitude = "-1.04376000", Longitude = "-79.63837000" },
-                        new() { Id = 19, Name = "Yaguachi Nuevo", Latitude = "-2.09680000", Longitude = "-79.69485000" }
+                        new() { Id = 6, Name = "Daule", Latitude = "-1.86032000", Longitude = "-79.97683000" },
+                        new() { Id = 7, Name = "El Triunfo", Latitude = "-1.93333000", Longitude = "-79.96667000" },
+                        new() { Id = 8, Name = "Eloy Alfaro", Latitude = "-2.17579000", Longitude = "-79.85519000" },
+                        new() { Id = 9, Name = "Guayaquil", Latitude = "-2.19616000", Longitude = "-79.88621000" },
+                        new() { Id = 10, Name = "Isidro Ayora", Latitude = "-1.88048000", Longitude = "-80.14509000" },
+                        new() { Id = 11, Name = "Lomas de Sargentillo", Latitude = "-1.88333000", Longitude = "-80.08333000" },
+                        new() { Id = 12, Name = "Milagro", Latitude = "-2.13404000", Longitude = "-79.59415000" },
+                        new() { Id = 13, Name = "Naranjal", Latitude = "-2.67364000", Longitude = "-79.61830000" },
+                        new() { Id = 14, Name = "Naranjito", Latitude = "-2.16671000", Longitude = "-79.46540000" },
+                        new() { Id = 15, Name = "Palestina", Latitude = "-1.93709000", Longitude = "-79.71396000" },
+                        new() { Id = 16, Name = "Pedro Carbo", Latitude = "-1.81563000", Longitude = "-80.23309000" },
+                        new() { Id = 17, Name = "Playas", Latitude = "-2.63199000", Longitude = "-80.38808000" },
+                        new() { Id = 18, Name = "Samborondón", Latitude = "-1.96276000", Longitude = "-79.72402000" },
+                        new() { Id = 19, Name = "Santa Lucía", Latitude = "-2.18333000", Longitude = "-80.00000000" },
+                        new() { Id = 20, Name = "Simón Bolívar", Latitude = "-2.00248000", Longitude = "-79.48517000" },
+                        new() { Id = 21, Name = "Velasco Ibarra", Latitude = "-1.04376000", Longitude = "-79.63837000" },
+                        new() { Id = 22, Name = "Yaguachi Nuevo", Latitude = "-2.09680000", Longitude = "-79.69485000" }
                     }
                 },
 
@@ -303,7 +313,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Loja", Latitude = "-3.99313000", Longitude = "-79.20422000" }
+                        new() { Id = 1, Name = "Cariamanga", Latitude = "-4.32804000", Longitude = "-79.55575000" },
+                        new() { Id = 2, Name = "Catacocha", Latitude = "-4.05031000", Longitude = "-79.64982000" },
+                        new() { Id = 3, Name = "Catamayo", Latitude = "-3.98661000", Longitude = "-79.35763000" },
+                        new() { Id = 4, Name = "Loja", Latitude = "-3.99313000", Longitude = "-79.20422000" },
+                        new() { Id = 5, Name = "Saraguro", Latitude = "-3.62459000", Longitude = "-79.23919000" }
                     }
                 },
 
@@ -324,8 +338,10 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Montalvo", Latitude = "-1.79008000", Longitude = "-79.28759000" },
                         new() { Id = 4, Name = "Palenque", Latitude = "-1.43795000", Longitude = "-79.75647000" },
                         new() { Id = 5, Name = "Quevedo", Latitude = "-1.02863000", Longitude = "-79.46352000" },
-                        new() { Id = 6, Name = "Ventanas", Latitude = "-1.44158000", Longitude = "-79.45943000" },
-                        new() { Id = 7, Name = "Vinces", Latitude = "-1.55611000", Longitude = "-79.75191000" }
+                        new() { Id = 6, Name = "San Jacinto de Buena Fé", Latitude = "-0.89409000", Longitude = "-79.48985000" },
+                        new() { Id = 7, Name = "Valencia", Latitude = "-0.95312000", Longitude = "-79.35513000" },
+                        new() { Id = 8, Name = "Ventanas", Latitude = "-1.44158000", Longitude = "-79.45943000" },
+                        new() { Id = 9, Name = "Vinces", Latitude = "-1.55611000", Longitude = "-79.75191000" }
                     }
                 },
 
@@ -345,18 +361,20 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Calceta", Latitude = "-0.84582000", Longitude = "-80.16389000" },
                         new() { Id = 3, Name = "Cantón Portoviejo", Latitude = "-1.05000000", Longitude = "-80.45000000" },
                         new() { Id = 4, Name = "Chone", Latitude = "-0.69819000", Longitude = "-80.09361000" },
-                        new() { Id = 5, Name = "Jipijapa", Latitude = "-1.34872000", Longitude = "-80.57875000" },
-                        new() { Id = 6, Name = "Junín", Latitude = "-0.92777000", Longitude = "-80.20583000" },
-                        new() { Id = 7, Name = "Manta", Latitude = "-0.96212000", Longitude = "-80.71271000" },
-                        new() { Id = 8, Name = "Montecristi", Latitude = "-1.04576000", Longitude = "-80.65889000" },
-                        new() { Id = 9, Name = "Paján", Latitude = "-1.55238000", Longitude = "-80.42958000" },
-                        new() { Id = 10, Name = "Pedernales", Latitude = "0.07167000", Longitude = "-80.05250000" },
-                        new() { Id = 11, Name = "Portoviejo", Latitude = "-1.05458000", Longitude = "-80.45445000" },
-                        new() { Id = 12, Name = "Rocafuerte", Latitude = "-0.92360000", Longitude = "-80.44946000" },
-                        new() { Id = 13, Name = "San Vicente", Latitude = "-0.60435000", Longitude = "-80.40267000" },
-                        new() { Id = 14, Name = "Santa Ana", Latitude = "-1.20726000", Longitude = "-80.37132000" },
-                        new() { Id = 15, Name = "Sucre", Latitude = "-1.27974000", Longitude = "-80.41885000" },
-                        new() { Id = 16, Name = "Tosagua", Latitude = "-0.78679000", Longitude = "-80.23473000" }
+                        new() { Id = 5, Name = "Jama", Latitude = "-0.20172000", Longitude = "-80.26358000" },
+                        new() { Id = 6, Name = "Jipijapa", Latitude = "-1.34872000", Longitude = "-80.57875000" },
+                        new() { Id = 7, Name = "Junín", Latitude = "-0.92777000", Longitude = "-80.20583000" },
+                        new() { Id = 8, Name = "Manta", Latitude = "-0.96212000", Longitude = "-80.71271000" },
+                        new() { Id = 9, Name = "Montecristi", Latitude = "-1.04576000", Longitude = "-80.65889000" },
+                        new() { Id = 10, Name = "Paján", Latitude = "-1.55238000", Longitude = "-80.42958000" },
+                        new() { Id = 11, Name = "Pedernales", Latitude = "0.07167000", Longitude = "-80.05250000" },
+                        new() { Id = 12, Name = "Portoviejo", Latitude = "-1.05458000", Longitude = "-80.45445000" },
+                        new() { Id = 13, Name = "Puerto López", Latitude = "-1.55873000", Longitude = "-80.80931000" },
+                        new() { Id = 14, Name = "Rocafuerte", Latitude = "-0.92360000", Longitude = "-80.44946000" },
+                        new() { Id = 15, Name = "San Vicente", Latitude = "-0.60435000", Longitude = "-80.40267000" },
+                        new() { Id = 16, Name = "Santa Ana", Latitude = "-1.20726000", Longitude = "-80.37132000" },
+                        new() { Id = 17, Name = "Sucre", Latitude = "-1.27974000", Longitude = "-80.41885000" },
+                        new() { Id = 18, Name = "Tosagua", Latitude = "-0.78679000", Longitude = "-80.23473000" }
                     }
                 },
 
@@ -480,7 +498,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Santo Domingo de los Colorados", Latitude = "-0.25305000", Longitude = "-79.17536000" }
+                        new() { Id = 1, Name = "La Concordia", Latitude = "0.00801000", Longitude = "-79.39462000" },
+                        new() { Id = 2, Name = "Santo Domingo de los Colorados", Latitude = "-0.25305000", Longitude = "-79.17536000" }
                     }
                 },
 

@@ -34,7 +34,7 @@ namespace ShowsOnSale.World.Data.Countries
             EmojiU = "U+1F1F8 U+1F1FB",
             Timezones = new()
             {
-                new() { ZoneName = "America/El_Salvador", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America" }
+                new() { ZoneName = "America/El_Salvador", GmtOffset = -21600, GmtOffsetName = "UTC-06:00", Abbreviation = "CST", TzName = "Central Standard Time (North America)" }
             },
             Translations = new()
             {

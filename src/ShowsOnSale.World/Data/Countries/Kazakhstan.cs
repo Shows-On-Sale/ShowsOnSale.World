@@ -34,13 +34,13 @@ namespace ShowsOnSale.World.Data.Countries
             EmojiU = "U+1F1F0 U+1F1FF",
             Timezones = new()
             {
-                new() { ZoneName = "Asia/Almaty", GmtOffset = 21600, GmtOffsetName = "UTC+06:00", Abbreviation = "ALMT", TzName = "Alma-Ata Time[1" },
+                new() { ZoneName = "Asia/Almaty", GmtOffset = 18000, GmtOffsetName = "UTC+05:00", Abbreviation = "KZT", TzName = "Kazakhstan Time" },
                 new() { ZoneName = "Asia/Aqtau", GmtOffset = 18000, GmtOffsetName = "UTC+05:00", Abbreviation = "AQTT", TzName = "Aqtobe Time" },
                 new() { ZoneName = "Asia/Aqtobe", GmtOffset = 18000, GmtOffsetName = "UTC+05:00", Abbreviation = "AQTT", TzName = "Aqtobe Time" },
-                new() { ZoneName = "Asia/Atyrau", GmtOffset = 18000, GmtOffsetName = "UTC+05:00", Abbreviation = "MSD+1", TzName = "Moscow Daylight Time+1" },
+                new() { ZoneName = "Asia/Atyrau", GmtOffset = 18000, GmtOffsetName = "UTC+05:00", Abbreviation = "KZT", TzName = "Kazakhstan Time" },
                 new() { ZoneName = "Asia/Oral", GmtOffset = 18000, GmtOffsetName = "UTC+05:00", Abbreviation = "ORAT", TzName = "Oral Time" },
-                new() { ZoneName = "Asia/Qostanay", GmtOffset = 21600, GmtOffsetName = "UTC+06:00", Abbreviation = "QYZST", TzName = "Qyzylorda Summer Time" },
-                new() { ZoneName = "Asia/Qyzylorda", GmtOffset = 18000, GmtOffsetName = "UTC+05:00", Abbreviation = "QYZT", TzName = "Qyzylorda Summer Time" }
+                new() { ZoneName = "Asia/Qostanay", GmtOffset = 18000, GmtOffsetName = "UTC+05:00", Abbreviation = "KZT", TzName = "Kazakhstan Time" },
+                new() { ZoneName = "Asia/Qyzylorda", GmtOffset = 18000, GmtOffsetName = "UTC+05:00", Abbreviation = "KZT", TzName = "Kazakhstan Time" }
             },
             Translations = new()
             {
@@ -79,6 +79,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Aksuat", Latitude = "47.76124000", Longitude = "82.80858000" },
+                        new() { Id = 2, Name = "Ayagoz", Latitude = "47.96447000", Longitude = "80.43437000" },
+                        new() { Id = 3, Name = "Kalbatau", Latitude = "49.32671000", Longitude = "81.57373000" },
+                        new() { Id = 4, Name = "Kurchatov", Latitude = "50.75617000", Longitude = "78.54188000" },
+                        new() { Id = 5, Name = "Semey", Latitude = "50.42675000", Longitude = "80.26669000" },
+                        new() { Id = 6, Name = "Urzhar", Latitude = "47.09302000", Longitude = "81.62939000" }
                     }
                 },
 
@@ -97,25 +103,27 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Akkol", Latitude = "51.99374000", Longitude = "70.94704000" },
                         new() { Id = 2, Name = "Akkol’", Latitude = "53.29617000", Longitude = "69.59997000" },
                         new() { Id = 3, Name = "Aksu", Latitude = "52.44422000", Longitude = "71.95761000" },
-                        new() { Id = 4, Name = "Astrakhan", Latitude = "51.53092000", Longitude = "69.79684000" },
+                        new() { Id = 4, Name = "Astrakhanka", Latitude = "51.53092000", Longitude = "69.79684000" },
                         new() { Id = 5, Name = "Atbasar", Latitude = "51.80652000", Longitude = "68.35996000" },
                         new() { Id = 6, Name = "Balkashino", Latitude = "52.51779000", Longitude = "68.75160000" },
                         new() { Id = 7, Name = "Bestobe", Latitude = "52.49795000", Longitude = "73.09592000" },
-                        new() { Id = 8, Name = "Derzhavīnsk", Latitude = "51.09922000", Longitude = "66.31557000" },
-                        new() { Id = 9, Name = "Egindiköl", Latitude = "51.05412000", Longitude = "69.47928000" },
-                        new() { Id = 10, Name = "Esil", Latitude = "51.95495000", Longitude = "66.40841000" },
-                        new() { Id = 11, Name = "Kokshetau", Latitude = "53.28333000", Longitude = "69.40000000" },
-                        new() { Id = 12, Name = "Krasnogorskiy", Latitude = "52.24560000", Longitude = "66.52081000" },
-                        new() { Id = 13, Name = "Makinsk", Latitude = "52.63290000", Longitude = "70.41911000" },
-                        new() { Id = 14, Name = "Shantobe", Latitude = "52.45376000", Longitude = "68.17475000" },
-                        new() { Id = 15, Name = "Shchuchinsk", Latitude = "52.93592000", Longitude = "70.18895000" },
-                        new() { Id = 16, Name = "Shortandy", Latitude = "51.69946000", Longitude = "70.99457000" },
-                        new() { Id = 17, Name = "Stepnogorsk", Latitude = "52.35062000", Longitude = "71.88161000" },
-                        new() { Id = 18, Name = "Stepnyak", Latitude = "52.83489000", Longitude = "70.78861000" },
-                        new() { Id = 19, Name = "Yermentau", Latitude = "51.62364000", Longitude = "73.10265000" },
-                        new() { Id = 20, Name = "Zavodskoy", Latitude = "52.47031000", Longitude = "72.01514000" },
-                        new() { Id = 21, Name = "Zhaqsy", Latitude = "51.91058000", Longitude = "67.31665000" },
-                        new() { Id = 22, Name = "Zholymbet", Latitude = "51.74211000", Longitude = "71.71245000" }
+                        new() { Id = 8, Name = "Būrabay", Latitude = "53.08382000", Longitude = "70.31379000" },
+                        new() { Id = 9, Name = "Derzhavīnsk", Latitude = "51.09922000", Longitude = "66.31557000" },
+                        new() { Id = 10, Name = "Egindiköl", Latitude = "51.05412000", Longitude = "69.47928000" },
+                        new() { Id = 11, Name = "Esil", Latitude = "51.95495000", Longitude = "66.40841000" },
+                        new() { Id = 12, Name = "Kokshetau", Latitude = "53.28333000", Longitude = "69.40000000" },
+                        new() { Id = 13, Name = "Krasnogorskiy", Latitude = "52.24560000", Longitude = "66.52081000" },
+                        new() { Id = 14, Name = "Makinsk", Latitude = "52.63290000", Longitude = "70.41911000" },
+                        new() { Id = 15, Name = "Shantobe", Latitude = "52.45376000", Longitude = "68.17475000" },
+                        new() { Id = 16, Name = "Shchuchinsk", Latitude = "52.93592000", Longitude = "70.18895000" },
+                        new() { Id = 17, Name = "Shortandy", Latitude = "51.69946000", Longitude = "70.99457000" },
+                        new() { Id = 18, Name = "Stepnogorsk", Latitude = "52.35062000", Longitude = "71.88161000" },
+                        new() { Id = 19, Name = "Stepnyak", Latitude = "52.83489000", Longitude = "70.78861000" },
+                        new() { Id = 20, Name = "Yermentau", Latitude = "51.62364000", Longitude = "73.10265000" },
+                        new() { Id = 21, Name = "Zavodskoy", Latitude = "52.47031000", Longitude = "72.01514000" },
+                        new() { Id = 22, Name = "Zerenda", Latitude = "52.90599000", Longitude = "69.15593000" },
+                        new() { Id = 23, Name = "Zhaqsy", Latitude = "51.91058000", Longitude = "67.31665000" },
+                        new() { Id = 24, Name = "Zholymbet", Latitude = "51.74211000", Longitude = "71.71245000" }
                     }
                 },
 
@@ -159,26 +167,22 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bakanas", Latitude = "44.80838000", Longitude = "76.27214000" },
-                        new() { Id = 2, Name = "Balpyk Bī", Latitude = "44.90225000", Longitude = "78.23157000" },
-                        new() { Id = 3, Name = "Burunday", Latitude = "43.35567000", Longitude = "76.85477000" },
-                        new() { Id = 4, Name = "Chemolgan", Latitude = "43.37633000", Longitude = "76.62456000" },
-                        new() { Id = 5, Name = "Druzhba", Latitude = "45.25332000", Longitude = "82.48044000" },
-                        new() { Id = 6, Name = "Esik", Latitude = "43.35520000", Longitude = "77.45245000" },
-                        new() { Id = 7, Name = "Kapshagay", Latitude = "43.86681000", Longitude = "77.06304000" },
-                        new() { Id = 8, Name = "Kegen", Latitude = "43.02143000", Longitude = "79.22055000" },
-                        new() { Id = 9, Name = "Lepsy", Latitude = "46.23500000", Longitude = "78.94556000" },
-                        new() { Id = 10, Name = "Matay", Latitude = "45.89500000", Longitude = "78.71806000" },
-                        new() { Id = 11, Name = "Otegen Batyra", Latitude = "43.41949000", Longitude = "77.02020000" },
-                        new() { Id = 12, Name = "Pervomayka", Latitude = "43.37361000", Longitude = "76.94000000" },
-                        new() { Id = 13, Name = "Sarkand", Latitude = "45.41126000", Longitude = "79.91545000" },
-                        new() { Id = 14, Name = "Saryozek", Latitude = "44.36178000", Longitude = "77.97279000" },
-                        new() { Id = 15, Name = "Taldykorgan", Latitude = "45.01556000", Longitude = "78.37389000" },
-                        new() { Id = 16, Name = "Talghar", Latitude = "43.30348000", Longitude = "77.24085000" },
-                        new() { Id = 17, Name = "Tekeli", Latitude = "44.83322000", Longitude = "78.83089000" },
-                        new() { Id = 18, Name = "Turgen", Latitude = "43.40056000", Longitude = "77.59333000" },
-                        new() { Id = 19, Name = "Ülken", Latitude = "45.21194000", Longitude = "73.97861000" },
-                        new() { Id = 20, Name = "Ush-Tyube", Latitude = "45.25201000", Longitude = "77.98007000" },
-                        new() { Id = 21, Name = "Zharkent", Latitude = "44.16660000", Longitude = "80.00655000" }
+                        new() { Id = 2, Name = "Burunday", Latitude = "43.35567000", Longitude = "76.85477000" },
+                        new() { Id = 3, Name = "Chemolgan", Latitude = "43.37633000", Longitude = "76.62456000" },
+                        new() { Id = 4, Name = "Chundzha", Latitude = "43.53813000", Longitude = "79.46582000" },
+                        new() { Id = 5, Name = "Esik", Latitude = "43.35520000", Longitude = "77.45245000" },
+                        new() { Id = 6, Name = "Kegen", Latitude = "43.02143000", Longitude = "79.22055000" },
+                        new() { Id = 7, Name = "Lepsi", Latitude = "46.23500000", Longitude = "78.94556000" },
+                        new() { Id = 8, Name = "Matay", Latitude = "45.89500000", Longitude = "78.71806000" },
+                        new() { Id = 9, Name = "Narynkol", Latitude = "42.72636000", Longitude = "80.17495000" },
+                        new() { Id = 10, Name = "Otegen Batyra", Latitude = "43.41949000", Longitude = "77.02020000" },
+                        new() { Id = 11, Name = "Pervomayka", Latitude = "43.37361000", Longitude = "76.94000000" },
+                        new() { Id = 12, Name = "Qonaev", Latitude = "43.86681000", Longitude = "77.06304000" },
+                        new() { Id = 13, Name = "Shelek", Latitude = "43.59623000", Longitude = "78.25745000" },
+                        new() { Id = 14, Name = "Talghar", Latitude = "43.30348000", Longitude = "77.24085000" },
+                        new() { Id = 15, Name = "Turgen", Latitude = "43.40056000", Longitude = "77.59333000" },
+                        new() { Id = 16, Name = "Ülken", Latitude = "45.21194000", Longitude = "73.97861000" },
+                        new() { Id = 17, Name = "Ushtobe", Latitude = "45.25201000", Longitude = "77.98007000" }
                     }
                 },
 
@@ -210,7 +214,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "city",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Nur-Sultan", Latitude = "51.18010000", Longitude = "71.44598000" }
+                        new() { Id = 1, Name = "Astana", Latitude = "51.18010000", Longitude = "71.44598000" }
                     }
                 },
 
@@ -226,19 +230,20 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Akkol’", Latitude = "48.77177000", Longitude = "53.18580000" },
-                        new() { Id = 2, Name = "Atyrau", Latitude = "47.11667000", Longitude = "51.88333000" },
-                        new() { Id = 3, Name = "Balykshi", Latitude = "47.06667000", Longitude = "51.86667000" },
-                        new() { Id = 4, Name = "Bayshonas", Latitude = "47.24139000", Longitude = "52.94111000" },
-                        new() { Id = 5, Name = "Dossor", Latitude = "47.52722000", Longitude = "52.98111000" },
-                        new() { Id = 6, Name = "Inderbor", Latitude = "48.55000000", Longitude = "51.78333000" },
-                        new() { Id = 7, Name = "Makhambet", Latitude = "47.66667000", Longitude = "51.58333000" },
-                        new() { Id = 8, Name = "Maloye Ganyushkino", Latitude = "46.60000000", Longitude = "49.26667000" },
-                        new() { Id = 9, Name = "Maqat", Latitude = "47.65000000", Longitude = "53.31667000" },
-                        new() { Id = 10, Name = "Miyaly", Latitude = "48.88504000", Longitude = "53.79194000" },
-                        new() { Id = 11, Name = "Qaraton", Latitude = "46.43528000", Longitude = "53.48639000" },
-                        new() { Id = 12, Name = "Qulsary", Latitude = "46.95307000", Longitude = "54.01978000" },
-                        new() { Id = 13, Name = "Shalkar", Latitude = "48.03333000", Longitude = "48.90000000" }
+                        new() { Id = 1, Name = "Akkistau", Latitude = "47.22107000", Longitude = "51.00630000" },
+                        new() { Id = 2, Name = "Akkol’", Latitude = "48.77177000", Longitude = "53.18580000" },
+                        new() { Id = 3, Name = "Atyrau", Latitude = "47.11667000", Longitude = "51.88333000" },
+                        new() { Id = 4, Name = "Balykshi", Latitude = "47.06667000", Longitude = "51.86667000" },
+                        new() { Id = 5, Name = "Bayshonas", Latitude = "47.24139000", Longitude = "52.94111000" },
+                        new() { Id = 6, Name = "Dossor", Latitude = "47.52722000", Longitude = "52.98111000" },
+                        new() { Id = 7, Name = "Inderbor", Latitude = "48.55000000", Longitude = "51.78333000" },
+                        new() { Id = 8, Name = "Makhambet", Latitude = "47.66667000", Longitude = "51.58333000" },
+                        new() { Id = 9, Name = "Maloye Ganyushkino", Latitude = "46.60000000", Longitude = "49.26667000" },
+                        new() { Id = 10, Name = "Maqat", Latitude = "47.65000000", Longitude = "53.31667000" },
+                        new() { Id = 11, Name = "Miyaly", Latitude = "48.88504000", Longitude = "53.79194000" },
+                        new() { Id = 12, Name = "Qaraton", Latitude = "46.43528000", Longitude = "53.48639000" },
+                        new() { Id = 13, Name = "Qulsary", Latitude = "46.95307000", Longitude = "54.01978000" },
+                        new() { Id = 14, Name = "Shalkar", Latitude = "48.03333000", Longitude = "48.90000000" }
                     }
                 },
 
@@ -254,36 +259,31 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Altayskiy", Latitude = "50.24593000", Longitude = "82.36252000" },
-                        new() { Id = 2, Name = "Aqtoghay", Latitude = "46.95000000", Longitude = "79.66667000" },
-                        new() { Id = 3, Name = "Asūbulaq", Latitude = "49.55688000", Longitude = "83.06355000" },
-                        new() { Id = 4, Name = "Auezov", Latitude = "49.71003000", Longitude = "81.58018000" },
-                        new() { Id = 5, Name = "Ayagoz", Latitude = "47.96447000", Longitude = "80.43437000" },
+                        new() { Id = 1, Name = "Altai", Latitude = "49.72654000", Longitude = "84.27318000" },
+                        new() { Id = 2, Name = "Altayskiy", Latitude = "50.24593000", Longitude = "82.36252000" },
+                        new() { Id = 3, Name = "Aqtoghay", Latitude = "46.95000000", Longitude = "79.66667000" },
+                        new() { Id = 4, Name = "Asūbulaq", Latitude = "49.55688000", Longitude = "83.06355000" },
+                        new() { Id = 5, Name = "Auezov", Latitude = "49.71003000", Longitude = "81.58018000" },
                         new() { Id = 6, Name = "Belogorskīy", Latitude = "49.47698000", Longitude = "83.14803000" },
                         new() { Id = 7, Name = "Belousovka", Latitude = "50.13287000", Longitude = "82.52481000" },
                         new() { Id = 8, Name = "Borodulikha", Latitude = "50.71841000", Longitude = "80.92950000" },
-                        new() { Id = 9, Name = "Georgīevka", Latitude = "49.32671000", Longitude = "81.57373000" },
-                        new() { Id = 10, Name = "Glubokoye", Latitude = "50.13887000", Longitude = "82.31114000" },
-                        new() { Id = 11, Name = "Kurchatov", Latitude = "50.75617000", Longitude = "78.54188000" },
-                        new() { Id = 12, Name = "Kurchum", Latitude = "48.56603000", Longitude = "83.66146000" },
-                        new() { Id = 13, Name = "Maleyevsk", Latitude = "49.81441000", Longitude = "84.29102000" },
-                        new() { Id = 14, Name = "Ognevka", Latitude = "49.68351000", Longitude = "83.01674000" },
-                        new() { Id = 15, Name = "Priisk Boko", Latitude = "49.06028000", Longitude = "81.64528000" },
-                        new() { Id = 16, Name = "Qaraūyl", Latitude = "48.94509000", Longitude = "79.25502000" },
-                        new() { Id = 17, Name = "Ridder", Latitude = "50.34413000", Longitude = "83.51287000" },
-                        new() { Id = 18, Name = "Semey", Latitude = "50.42675000", Longitude = "80.26669000" },
-                        new() { Id = 19, Name = "Shar", Latitude = "49.58720000", Longitude = "81.04883000" },
-                        new() { Id = 20, Name = "Shemonaīkha", Latitude = "50.62811000", Longitude = "81.91213000" },
-                        new() { Id = 21, Name = "Suykbulak", Latitude = "49.70837000", Longitude = "81.04854000" },
-                        new() { Id = 22, Name = "Tūghyl", Latitude = "47.72521000", Longitude = "84.20629000" },
-                        new() { Id = 23, Name = "Urzhar", Latitude = "47.09302000", Longitude = "81.62939000" },
-                        new() { Id = 24, Name = "Ust-Kamenogorsk", Latitude = "49.97143000", Longitude = "82.60586000" },
-                        new() { Id = 25, Name = "Ūst’-Talovka", Latitude = "50.54927000", Longitude = "81.84997000" },
-                        new() { Id = 26, Name = "Zaysan", Latitude = "47.46657000", Longitude = "84.87144000" },
-                        new() { Id = 27, Name = "Zhalghyztobe", Latitude = "49.21094000", Longitude = "81.21596000" },
-                        new() { Id = 28, Name = "Zhanga Buqtyrma", Latitude = "49.62950000", Longitude = "83.52475000" },
-                        new() { Id = 29, Name = "Zhezkent", Latitude = "50.93112000", Longitude = "81.36150000" },
-                        new() { Id = 30, Name = "Zyryanovsk", Latitude = "49.72654000", Longitude = "84.27318000" }
+                        new() { Id = 9, Name = "Glubokoye", Latitude = "50.13887000", Longitude = "82.31114000" },
+                        new() { Id = 10, Name = "Kurchum", Latitude = "48.56603000", Longitude = "83.66146000" },
+                        new() { Id = 11, Name = "Maleyevsk", Latitude = "49.81441000", Longitude = "84.29102000" },
+                        new() { Id = 12, Name = "Ognevka", Latitude = "49.68351000", Longitude = "83.01674000" },
+                        new() { Id = 13, Name = "Priisk Boko", Latitude = "49.06028000", Longitude = "81.64528000" },
+                        new() { Id = 14, Name = "Qaraūyl", Latitude = "48.94509000", Longitude = "79.25502000" },
+                        new() { Id = 15, Name = "Ridder", Latitude = "50.34413000", Longitude = "83.51287000" },
+                        new() { Id = 16, Name = "Shar", Latitude = "49.58720000", Longitude = "81.04883000" },
+                        new() { Id = 17, Name = "Shemonaikha", Latitude = "50.62811000", Longitude = "81.91213000" },
+                        new() { Id = 18, Name = "Suykbulak", Latitude = "49.70837000", Longitude = "81.04854000" },
+                        new() { Id = 19, Name = "Tūghyl", Latitude = "47.72521000", Longitude = "84.20629000" },
+                        new() { Id = 20, Name = "Ust-Kamenogorsk", Latitude = "49.97143000", Longitude = "82.60586000" },
+                        new() { Id = 21, Name = "Ūst’-Talovka", Latitude = "50.54927000", Longitude = "81.84997000" },
+                        new() { Id = 22, Name = "Zaysan", Latitude = "47.46657000", Longitude = "84.87144000" },
+                        new() { Id = 23, Name = "Zhalghyztobe", Latitude = "49.21094000", Longitude = "81.21596000" },
+                        new() { Id = 24, Name = "Zhanga Buqtyrma", Latitude = "49.62950000", Longitude = "83.52475000" },
+                        new() { Id = 25, Name = "Zhezkent", Latitude = "50.93112000", Longitude = "81.36150000" }
                     }
                 },
 
@@ -300,18 +300,18 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aqbaqay", Latitude = "45.00000000", Longitude = "72.78333000" },
-                        new() { Id = 2, Name = "Chu", Latitude = "43.60334000", Longitude = "73.75919000" },
-                        new() { Id = 3, Name = "Georgiyevka", Latitude = "43.03882000", Longitude = "74.71287000" },
-                        new() { Id = 4, Name = "Granitogorsk", Latitude = "42.74400000", Longitude = "73.46848000" },
-                        new() { Id = 5, Name = "Karatau", Latitude = "43.17869000", Longitude = "70.46768000" },
-                        new() { Id = 6, Name = "Khantaū", Latitude = "44.22744000", Longitude = "73.79555000" },
-                        new() { Id = 7, Name = "Lugovoy", Latitude = "42.94197000", Longitude = "72.76098000" },
-                        new() { Id = 8, Name = "Lugovoye", Latitude = "42.91010000", Longitude = "72.72066000" },
-                        new() { Id = 9, Name = "Merke", Latitude = "42.86976000", Longitude = "73.18463000" },
-                        new() { Id = 10, Name = "Moyynkum", Latitude = "44.28461000", Longitude = "72.93920000" },
-                        new() { Id = 11, Name = "Mynaral", Latitude = "45.41611000", Longitude = "73.68444000" },
-                        new() { Id = 12, Name = "Oytal", Latitude = "42.90573000", Longitude = "73.26972000" },
-                        new() { Id = 13, Name = "Sarykemer", Latitude = "43.00000000", Longitude = "71.50000000" },
+                        new() { Id = 2, Name = "Georgiyevka", Latitude = "43.03882000", Longitude = "74.71287000" },
+                        new() { Id = 3, Name = "Granitogorsk", Latitude = "42.74400000", Longitude = "73.46848000" },
+                        new() { Id = 4, Name = "Karatau", Latitude = "43.17869000", Longitude = "70.46768000" },
+                        new() { Id = 5, Name = "Khantaū", Latitude = "44.22744000", Longitude = "73.79555000" },
+                        new() { Id = 6, Name = "Lugovoy", Latitude = "42.94197000", Longitude = "72.76098000" },
+                        new() { Id = 7, Name = "Lugovoye", Latitude = "42.91010000", Longitude = "72.72066000" },
+                        new() { Id = 8, Name = "Merke", Latitude = "42.86976000", Longitude = "73.18463000" },
+                        new() { Id = 9, Name = "Moyynkum", Latitude = "44.28461000", Longitude = "72.93920000" },
+                        new() { Id = 10, Name = "Mynaral", Latitude = "45.41611000", Longitude = "73.68444000" },
+                        new() { Id = 11, Name = "Oytal", Latitude = "42.90573000", Longitude = "73.26972000" },
+                        new() { Id = 12, Name = "Sarykemer", Latitude = "43.00000000", Longitude = "71.50000000" },
+                        new() { Id = 13, Name = "Shu", Latitude = "43.60334000", Longitude = "73.75919000" },
                         new() { Id = 14, Name = "Shyghanaq", Latitude = "44.83056000", Longitude = "70.00194000" },
                         new() { Id = 15, Name = "Taraz", Latitude = "42.90000000", Longitude = "71.36667000" },
                         new() { Id = 16, Name = "Zhangatas", Latitude = "43.56222000", Longitude = "69.73428000" }
@@ -330,6 +330,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Balpyk Bī", Latitude = "44.90225000", Longitude = "78.23157000" },
+                        new() { Id = 2, Name = "Druzhba", Latitude = "45.25332000", Longitude = "82.48044000" },
+                        new() { Id = 3, Name = "Karabulak", Latitude = "44.90881000", Longitude = "78.49044000" },
+                        new() { Id = 4, Name = "Sarkand", Latitude = "45.41126000", Longitude = "79.91545000" },
+                        new() { Id = 5, Name = "Saryozek", Latitude = "44.36178000", Longitude = "77.97279000" },
+                        new() { Id = 6, Name = "Taldykorgan", Latitude = "45.01556000", Longitude = "78.37389000" },
+                        new() { Id = 7, Name = "Tekeli", Latitude = "44.83322000", Longitude = "78.83089000" },
+                        new() { Id = 8, Name = "Zhansugurov", Latitude = "45.39743000", Longitude = "79.50345000" },
+                        new() { Id = 9, Name = "Zharkent", Latitude = "44.16660000", Longitude = "80.00655000" }
                     }
                 },
 
@@ -356,7 +365,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 9, Name = "Aqtoghay Aūdany", Latitude = "48.50000000", Longitude = "74.75000000" },
                         new() { Id = 10, Name = "Atasū", Latitude = "48.68659000", Longitude = "71.64469000" },
                         new() { Id = 11, Name = "Balqash", Latitude = "46.84806000", Longitude = "74.99500000" },
-                        new() { Id = 12, Name = "Bukhar-Zhyrau", Latitude = "49.85658000", Longitude = "73.68118000" },
+                        new() { Id = 12, Name = "Botakara", Latitude = "50.06111111", Longitude = "73.71555556" },
                         new() { Id = 13, Name = "Dolinka", Latitude = "49.67685000", Longitude = "72.67822000" },
                         new() { Id = 14, Name = "Karagandy", Latitude = "49.80187000", Longitude = "73.10211000" },
                         new() { Id = 15, Name = "Kīevka", Latitude = "50.26212000", Longitude = "71.54839000" },
@@ -398,22 +407,24 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Arkalyk", Latitude = "50.24915000", Longitude = "66.92027000" },
-                        new() { Id = 2, Name = "Ayat", Latitude = "52.83554000", Longitude = "62.52078000" },
-                        new() { Id = 3, Name = "Borovskoy", Latitude = "53.79270000", Longitude = "64.18268000" },
-                        new() { Id = 4, Name = "Dzhetygara", Latitude = "52.19019000", Longitude = "61.19894000" },
-                        new() { Id = 5, Name = "Fyodorovka", Latitude = "53.63809000", Longitude = "62.69653000" },
-                        new() { Id = 6, Name = "Karasu", Latitude = "52.65995000", Longitude = "65.48421000" },
-                        new() { Id = 7, Name = "Komsomolets", Latitude = "53.75019000", Longitude = "62.05840000" },
-                        new() { Id = 8, Name = "Kostanay", Latitude = "53.21435000", Longitude = "63.62463000" },
-                        new() { Id = 9, Name = "Lisakovsk", Latitude = "52.54707000", Longitude = "62.49987000" },
-                        new() { Id = 10, Name = "Ordzhonikidze", Latitude = "52.44772000", Longitude = "61.74942000" },
-                        new() { Id = 11, Name = "Qashar", Latitude = "53.36799000", Longitude = "62.86839000" },
-                        new() { Id = 12, Name = "Qusmuryn", Latitude = "52.45107000", Longitude = "64.61977000" },
-                        new() { Id = 13, Name = "Rudnyy", Latitude = "52.97290000", Longitude = "63.11677000" },
-                        new() { Id = 14, Name = "Tobol", Latitude = "52.69366000", Longitude = "62.59140000" },
-                        new() { Id = 15, Name = "Torghay", Latitude = "49.63389000", Longitude = "63.49806000" },
-                        new() { Id = 16, Name = "Troyebratskiy", Latitude = "54.44306000", Longitude = "66.07982000" }
+                        new() { Id = 1, Name = "Amangeldi", Latitude = "50.18271000", Longitude = "65.18966000" },
+                        new() { Id = 2, Name = "Arkalyk", Latitude = "50.24915000", Longitude = "66.92027000" },
+                        new() { Id = 3, Name = "Äūlīeköl", Latitude = "52.35850000", Longitude = "64.13429000" },
+                        new() { Id = 4, Name = "Ayat", Latitude = "52.83554000", Longitude = "62.52078000" },
+                        new() { Id = 5, Name = "Borovskoy", Latitude = "53.79270000", Longitude = "64.18268000" },
+                        new() { Id = 6, Name = "Fyodorovka", Latitude = "53.63809000", Longitude = "62.69653000" },
+                        new() { Id = 7, Name = "Karasu", Latitude = "52.65995000", Longitude = "65.48421000" },
+                        new() { Id = 8, Name = "Komsomolets", Latitude = "53.75019000", Longitude = "62.05840000" },
+                        new() { Id = 9, Name = "Kostanay", Latitude = "53.21435000", Longitude = "63.62463000" },
+                        new() { Id = 10, Name = "Lisakovsk", Latitude = "52.54707000", Longitude = "62.49987000" },
+                        new() { Id = 11, Name = "Ordzhonikidze", Latitude = "52.44772000", Longitude = "61.74942000" },
+                        new() { Id = 12, Name = "Qashar", Latitude = "53.36799000", Longitude = "62.86839000" },
+                        new() { Id = 13, Name = "Qusmuryn", Latitude = "52.45107000", Longitude = "64.61977000" },
+                        new() { Id = 14, Name = "Rudnyy", Latitude = "52.97290000", Longitude = "63.11677000" },
+                        new() { Id = 15, Name = "Tobol", Latitude = "52.69366000", Longitude = "62.59140000" },
+                        new() { Id = 16, Name = "Torghay", Latitude = "49.63389000", Longitude = "63.49806000" },
+                        new() { Id = 17, Name = "Troyebratskiy", Latitude = "54.44306000", Longitude = "66.07982000" },
+                        new() { Id = 18, Name = "Zhitikara", Latitude = "52.19019000", Longitude = "61.19894000" }
                     }
                 },
 
@@ -431,17 +442,18 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Aral", Latitude = "46.80000000", Longitude = "61.66667000" },
                         new() { Id = 2, Name = "Ayteke Bi", Latitude = "45.84607000", Longitude = "62.15264000" },
-                        new() { Id = 3, Name = "Belköl", Latitude = "44.81162000", Longitude = "65.58796000" },
-                        new() { Id = 4, Name = "Dzhalagash", Latitude = "45.08333000", Longitude = "64.66667000" },
-                        new() { Id = 5, Name = "Kyzylorda", Latitude = "44.85278000", Longitude = "65.50917000" },
-                        new() { Id = 6, Name = "Qazaly", Latitude = "45.76278000", Longitude = "62.10750000" },
-                        new() { Id = 7, Name = "Sekseūil", Latitude = "47.09000000", Longitude = "61.15194000" },
-                        new() { Id = 8, Name = "Shalqīya", Latitude = "44.00947000", Longitude = "67.41062000" },
-                        new() { Id = 9, Name = "Shīeli", Latitude = "44.16882000", Longitude = "66.73887000" },
-                        new() { Id = 10, Name = "Tasböget", Latitude = "44.77384000", Longitude = "65.55227000" },
-                        new() { Id = 11, Name = "Terenozek", Latitude = "45.05053000", Longitude = "64.98395000" },
-                        new() { Id = 12, Name = "Yanykurgan", Latitude = "43.90652000", Longitude = "67.24637000" },
-                        new() { Id = 13, Name = "Zhosaly", Latitude = "45.48778000", Longitude = "64.07806000" }
+                        new() { Id = 3, Name = "Baikonur", Latitude = "45.61667000", Longitude = "63.31667000" },
+                        new() { Id = 4, Name = "Belköl", Latitude = "44.81162000", Longitude = "65.58796000" },
+                        new() { Id = 5, Name = "Dzhalagash", Latitude = "45.08333000", Longitude = "64.66667000" },
+                        new() { Id = 6, Name = "Kyzylorda", Latitude = "44.85278000", Longitude = "65.50917000" },
+                        new() { Id = 7, Name = "Qazaly", Latitude = "45.76278000", Longitude = "62.10750000" },
+                        new() { Id = 8, Name = "Sekseūil", Latitude = "47.09000000", Longitude = "61.15194000" },
+                        new() { Id = 9, Name = "Shalqīya", Latitude = "44.00947000", Longitude = "67.41062000" },
+                        new() { Id = 10, Name = "Shīeli", Latitude = "44.16882000", Longitude = "66.73887000" },
+                        new() { Id = 11, Name = "Tasböget", Latitude = "44.77384000", Longitude = "65.55227000" },
+                        new() { Id = 12, Name = "Terenozek", Latitude = "45.05053000", Longitude = "64.98395000" },
+                        new() { Id = 13, Name = "Yanykurgan", Latitude = "43.90652000", Longitude = "67.24637000" },
+                        new() { Id = 14, Name = "Zhosaly", Latitude = "45.48778000", Longitude = "64.07806000" }
                     }
                 },
 
@@ -487,17 +499,16 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Birlestik", Latitude = "53.58414000", Longitude = "68.35382000" },
                         new() { Id = 2, Name = "Bishkul", Latitude = "54.77763000", Longitude = "69.09951000" },
                         new() { Id = 3, Name = "Bulayevo", Latitude = "54.90596000", Longitude = "70.44155000" },
-                        new() { Id = 4, Name = "Būrabay", Latitude = "53.08382000", Longitude = "70.31379000" },
-                        new() { Id = 5, Name = "Kzyltu", Latitude = "53.63589000", Longitude = "72.34079000" },
-                        new() { Id = 6, Name = "Novoishimskiy", Latitude = "53.19806000", Longitude = "66.76944000" },
-                        new() { Id = 7, Name = "Petropavl", Latitude = "54.86667000", Longitude = "69.15000000" },
-                        new() { Id = 8, Name = "Sergeyevka", Latitude = "53.88139000", Longitude = "67.40882000" },
-                        new() { Id = 9, Name = "Smirnovo", Latitude = "54.51480000", Longitude = "69.42732000" },
-                        new() { Id = 10, Name = "Taiynsha", Latitude = "53.84796000", Longitude = "69.76773000" },
-                        new() { Id = 11, Name = "Talshik", Latitude = "53.63736000", Longitude = "71.87404000" },
-                        new() { Id = 12, Name = "Timiryazevo", Latitude = "53.74947000", Longitude = "66.48852000" },
-                        new() { Id = 13, Name = "Volodarskoye", Latitude = "53.29270000", Longitude = "68.10500000" },
-                        new() { Id = 14, Name = "Yavlenka", Latitude = "54.34525000", Longitude = "68.45740000" }
+                        new() { Id = 4, Name = "Kzyltu", Latitude = "53.63589000", Longitude = "72.34079000" },
+                        new() { Id = 5, Name = "Novoishimskiy", Latitude = "53.19806000", Longitude = "66.76944000" },
+                        new() { Id = 6, Name = "Petropavl", Latitude = "54.86667000", Longitude = "69.15000000" },
+                        new() { Id = 7, Name = "Sergeyevka", Latitude = "53.88139000", Longitude = "67.40882000" },
+                        new() { Id = 8, Name = "Smirnovo", Latitude = "54.51480000", Longitude = "69.42732000" },
+                        new() { Id = 9, Name = "Taiynsha", Latitude = "53.84796000", Longitude = "69.76773000" },
+                        new() { Id = 10, Name = "Talshik", Latitude = "53.63736000", Longitude = "71.87404000" },
+                        new() { Id = 11, Name = "Timiryazevo", Latitude = "53.74947000", Longitude = "66.48852000" },
+                        new() { Id = 12, Name = "Volodarskoye", Latitude = "53.29270000", Longitude = "68.10500000" },
+                        new() { Id = 13, Name = "Yavlenka", Latitude = "54.34525000", Longitude = "68.45740000" }
                     }
                 },
 
@@ -560,26 +571,24 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Atakent", Latitude = "40.84782000", Longitude = "68.50643000" },
                         new() { Id = 5, Name = "Bayzhansay", Latitude = "43.16708000", Longitude = "69.91459000" },
                         new() { Id = 6, Name = "Belyye Vody", Latitude = "42.42193000", Longitude = "69.82709000" },
-                        new() { Id = 7, Name = "Chardara", Latitude = "41.25832000", Longitude = "67.96991000" },
-                        new() { Id = 8, Name = "Chayan", Latitude = "43.03399000", Longitude = "69.38048000" },
-                        new() { Id = 9, Name = "Chulakkurgan", Latitude = "43.76453000", Longitude = "69.17856000" },
-                        new() { Id = 10, Name = "Kantagi", Latitude = "43.52786000", Longitude = "68.58287000" },
-                        new() { Id = 11, Name = "Kentau", Latitude = "43.51672000", Longitude = "68.50463000" },
-                        new() { Id = 12, Name = "Kokterek", Latitude = "42.49442000", Longitude = "70.25478000" },
-                        new() { Id = 13, Name = "Lenger", Latitude = "42.18152000", Longitude = "69.88582000" },
-                        new() { Id = 14, Name = "Leninskoye", Latitude = "41.75640000", Longitude = "69.38390000" },
-                        new() { Id = 15, Name = "Maqtaaral Aūdany", Latitude = "40.75000000", Longitude = "68.58333000" },
-                        new() { Id = 16, Name = "Myrzakent", Latitude = "40.66338000", Longitude = "68.54510000" },
-                        new() { Id = 17, Name = "Qogham", Latitude = "42.82774000", Longitude = "68.28074000" },
-                        new() { Id = 18, Name = "Saryaghash", Latitude = "41.46042000", Longitude = "69.16791000" },
-                        new() { Id = 19, Name = "Saryaghash Aūdany", Latitude = "41.66667000", Longitude = "68.83333000" },
-                        new() { Id = 20, Name = "Sastobe", Latitude = "42.55330000", Longitude = "69.99835000" },
-                        new() { Id = 21, Name = "Sozaq Aūdany", Latitude = "44.83333000", Longitude = "68.50000000" },
-                        new() { Id = 22, Name = "Temirlanovka", Latitude = "42.59998000", Longitude = "69.25836000" },
-                        new() { Id = 23, Name = "Turar Ryskulov", Latitude = "42.53340000", Longitude = "70.34960000" },
-                        new() { Id = 24, Name = "Turkestan", Latitude = "43.29733000", Longitude = "68.25175000" },
-                        new() { Id = 25, Name = "Tyul’kubas", Latitude = "42.48578000", Longitude = "70.29601000" },
-                        new() { Id = 26, Name = "Zhabagly", Latitude = "42.43781000", Longitude = "70.47841000" }
+                        new() { Id = 7, Name = "Chayan", Latitude = "43.03399000", Longitude = "69.38048000" },
+                        new() { Id = 8, Name = "Chulakkurgan", Latitude = "43.76453000", Longitude = "69.17856000" },
+                        new() { Id = 9, Name = "Kantagi", Latitude = "43.52786000", Longitude = "68.58287000" },
+                        new() { Id = 10, Name = "Kentau", Latitude = "43.51672000", Longitude = "68.50463000" },
+                        new() { Id = 11, Name = "Kokterek", Latitude = "42.49442000", Longitude = "70.25478000" },
+                        new() { Id = 12, Name = "Lenger", Latitude = "42.18152000", Longitude = "69.88582000" },
+                        new() { Id = 13, Name = "Leninskoye", Latitude = "41.75640000", Longitude = "69.38390000" },
+                        new() { Id = 14, Name = "Myrzakent", Latitude = "40.66338000", Longitude = "68.54510000" },
+                        new() { Id = 15, Name = "Qogham", Latitude = "42.82774000", Longitude = "68.28074000" },
+                        new() { Id = 16, Name = "Saryaghash", Latitude = "41.46042000", Longitude = "69.16791000" },
+                        new() { Id = 17, Name = "Sastobe", Latitude = "42.55330000", Longitude = "69.99835000" },
+                        new() { Id = 18, Name = "Shardara", Latitude = "41.25832000", Longitude = "67.96991000" },
+                        new() { Id = 19, Name = "Temirlanovka", Latitude = "42.59998000", Longitude = "69.25836000" },
+                        new() { Id = 20, Name = "Turar Ryskulov", Latitude = "42.53340000", Longitude = "70.34960000" },
+                        new() { Id = 21, Name = "Turkistan", Latitude = "43.29733000", Longitude = "68.25175000" },
+                        new() { Id = 22, Name = "Tyul’kubas", Latitude = "42.48578000", Longitude = "70.29601000" },
+                        new() { Id = 23, Name = "Zhabagly", Latitude = "42.43781000", Longitude = "70.47841000" },
+                        new() { Id = 24, Name = "Zhetysay", Latitude = "40.77631000", Longitude = "68.32774000" }
                     }
                 },
 
@@ -595,6 +604,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Satpayev", Latitude = "47.90409000", Longitude = "67.54112000" }
                     }
                 },
 
@@ -613,16 +623,17 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Aqsay", Latitude = "51.16810000", Longitude = "52.99782000" },
                         new() { Id = 2, Name = "Burlin", Latitude = "51.42724000", Longitude = "52.71392000" },
                         new() { Id = 3, Name = "Chapaev", Latitude = "50.20000000", Longitude = "51.16667000" },
-                        new() { Id = 4, Name = "Chingirlau", Latitude = "51.09878000", Longitude = "54.08426000" },
-                        new() { Id = 5, Name = "Dzhambeyty", Latitude = "50.25676000", Longitude = "52.59895000" },
-                        new() { Id = 6, Name = "Fedorovka", Latitude = "51.22102000", Longitude = "51.95723000" },
-                        new() { Id = 7, Name = "Kaztalovka", Latitude = "49.76612000", Longitude = "48.68903000" },
-                        new() { Id = 8, Name = "Krūgloozernoe", Latitude = "51.07854000", Longitude = "51.28992000" },
-                        new() { Id = 9, Name = "Oral", Latitude = "51.23333000", Longitude = "51.36667000" },
-                        new() { Id = 10, Name = "Peremetnoe", Latitude = "51.19925000", Longitude = "50.85544000" },
-                        new() { Id = 11, Name = "Saykhin", Latitude = "48.85611000", Longitude = "46.83361000" },
+                        new() { Id = 4, Name = "Fedorovka", Latitude = "51.22102000", Longitude = "51.95723000" },
+                        new() { Id = 5, Name = "Karatobe", Latitude = "49.68914000", Longitude = "53.51005000" },
+                        new() { Id = 6, Name = "Kaztalovka", Latitude = "49.76612000", Longitude = "48.68903000" },
+                        new() { Id = 7, Name = "Krūgloozernoe", Latitude = "51.07854000", Longitude = "51.28992000" },
+                        new() { Id = 8, Name = "Oral", Latitude = "51.23333000", Longitude = "51.36667000" },
+                        new() { Id = 9, Name = "Peremetnoe", Latitude = "51.19925000", Longitude = "50.85544000" },
+                        new() { Id = 10, Name = "Saykhin", Latitude = "48.85611000", Longitude = "46.83361000" },
+                        new() { Id = 11, Name = "Shyngyrlau", Latitude = "51.09878000", Longitude = "54.08426000" },
                         new() { Id = 12, Name = "Tasqala", Latitude = "51.11073000", Longitude = "50.29454000" },
-                        new() { Id = 13, Name = "Zhänibek", Latitude = "49.42207000", Longitude = "46.84705000" }
+                        new() { Id = 13, Name = "Zhänibek", Latitude = "49.42207000", Longitude = "46.84705000" },
+                        new() { Id = 14, Name = "Zhympity", Latitude = "50.25676000", Longitude = "52.59895000" }
                     }
                 }
             }
