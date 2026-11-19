@@ -78,7 +78,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Muang Samakhixai", Latitude = "14.80539000", Longitude = "106.78164000" },
                         new() { Id = 4, Name = "Muang Sanamxai", Latitude = "14.73807000", Longitude = "106.41328000" },
                         new() { Id = 5, Name = "Muang Sanxai", Latitude = "15.02944000", Longitude = "107.23158000" },
-                        new() { Id = 6, Name = "Muang Xaiséttha", Latitude = "14.90594000", Longitude = "106.97894000" }
+                        new() { Id = 6, Name = "Muang Xaiséttha", Latitude = "14.90594000", Longitude = "106.97894000" },
+                        new() { Id = 7, Name = "Xaysetha", Latitude = "14.81444000", Longitude = "106.93444000" }
                     }
                 },
 
@@ -117,7 +118,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ban Nahin", Latitude = "18.24253000", Longitude = "104.21281000" },
-                        new() { Id = 2, Name = "Pakxan", Latitude = "18.39420000", Longitude = "103.66110000" }
+                        new() { Id = 2, Name = "Borikhan", Latitude = "18.56286000", Longitude = "103.72671000" },
+                        new() { Id = 3, Name = "Pakxan", Latitude = "18.39420000", Longitude = "103.66110000" }
                     }
                 },
 
@@ -244,7 +246,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Phôngsali", Latitude = "21.68080000", Longitude = "102.10030000" }
+                        new() { Id = 1, Name = "Khoa", Latitude = "21.07833000", Longitude = "102.50608000" },
+                        new() { Id = 2, Name = "Phôngsali", Latitude = "21.68080000", Longitude = "102.10030000" }
                     }
                 },
 
@@ -276,15 +279,16 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Muang Khôngxédôn", Latitude = "15.54626000", Longitude = "105.77051000" },
-                        new() { Id = 2, Name = "Muang Lakhonphéng", Latitude = "15.83308000", Longitude = "105.59745000" },
-                        new() { Id = 3, Name = "Muang Laongam", Latitude = "15.47745000", Longitude = "106.14111000" },
-                        new() { Id = 4, Name = "Muang Samouay", Latitude = "16.35868000", Longitude = "106.87480000" },
-                        new() { Id = 5, Name = "Muang Saravan", Latitude = "15.71587000", Longitude = "106.36158000" },
-                        new() { Id = 6, Name = "Muang Ta-Ôy", Latitude = "16.07765000", Longitude = "106.70304000" },
-                        new() { Id = 7, Name = "Muang Toumlan", Latitude = "16.02236000", Longitude = "106.23837000" },
-                        new() { Id = 8, Name = "Muang Vapi", Latitude = "15.75005000", Longitude = "105.95529000" },
-                        new() { Id = 9, Name = "Salavan", Latitude = "15.71652000", Longitude = "106.41744000" }
+                        new() { Id = 1, Name = "Ban Laongam", Latitude = "15.46549000", Longitude = "106.16682000" },
+                        new() { Id = 2, Name = "Muang Khôngxédôn", Latitude = "15.54626000", Longitude = "105.77051000" },
+                        new() { Id = 3, Name = "Muang Lakhonphéng", Latitude = "15.83308000", Longitude = "105.59745000" },
+                        new() { Id = 4, Name = "Muang Laongam", Latitude = "15.47745000", Longitude = "106.14111000" },
+                        new() { Id = 5, Name = "Muang Samouay", Latitude = "16.35868000", Longitude = "106.87480000" },
+                        new() { Id = 6, Name = "Muang Saravan", Latitude = "15.71587000", Longitude = "106.36158000" },
+                        new() { Id = 7, Name = "Muang Ta-Ôy", Latitude = "16.07765000", Longitude = "106.70304000" },
+                        new() { Id = 8, Name = "Muang Toumlan", Latitude = "16.02236000", Longitude = "106.23837000" },
+                        new() { Id = 9, Name = "Muang Vapi", Latitude = "15.75005000", Longitude = "105.95529000" },
+                        new() { Id = 10, Name = "Salavan", Latitude = "15.71652000", Longitude = "106.41744000" }
                     }
                 },
 
@@ -351,8 +355,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Muang Phôn-Hông", Latitude = "18.49530000", Longitude = "102.41530000" },
-                        new() { Id = 2, Name = "Vangviang", Latitude = "18.92350000", Longitude = "102.44784000" }
+                        new() { Id = 1, Name = "Muang Kasi", Latitude = "19.22926000", Longitude = "102.25319000" },
+                        new() { Id = 2, Name = "Muang Phôn-Hông", Latitude = "18.49530000", Longitude = "102.41530000" },
+                        new() { Id = 3, Name = "Vang Vieng", Latitude = "18.92350000", Longitude = "102.44784000" }
                     }
                 },
 

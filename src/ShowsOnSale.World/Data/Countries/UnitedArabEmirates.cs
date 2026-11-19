@@ -76,14 +76,18 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Abu Dhabi", Latitude = "24.41361000", Longitude = "54.43295000" },
                         new() { Id = 2, Name = "Al Ain City", Latitude = "24.19167000", Longitude = "55.76056000" },
                         new() { Id = 3, Name = "Al Dhafra", Latitude = "23.65745000", Longitude = "53.72225000" },
-                        new() { Id = 4, Name = "Bani Yas City", Latitude = "24.30978000", Longitude = "54.62944000" },
-                        new() { Id = 5, Name = "Ghayathi", Latitude = "23.90453420", Longitude = "52.58710260" },
-                        new() { Id = 6, Name = "Khalifa City", Latitude = "24.42588000", Longitude = "54.60500000" },
-                        new() { Id = 7, Name = "Liwa Oasis", Latitude = "22.86972550", Longitude = "53.24086080" },
-                        new() { Id = 8, Name = "Mussafah", Latitude = "24.35893000", Longitude = "54.48267000" },
-                        new() { Id = 9, Name = "Muzayri‘", Latitude = "23.14355000", Longitude = "53.78810000" },
-                        new() { Id = 10, Name = "Ruwais", Latitude = "24.11028000", Longitude = "52.73056000" },
-                        new() { Id = 11, Name = "Zayed City", Latitude = "23.65416000", Longitude = "53.70522000" }
+                        new() { Id = 4, Name = "Al Raha", Latitude = "24.44470000", Longitude = "54.57720000" },
+                        new() { Id = 5, Name = "Al Reem Island", Latitude = "24.49640000", Longitude = "54.40720000" },
+                        new() { Id = 6, Name = "Bani Yas City", Latitude = "24.30978000", Longitude = "54.62944000" },
+                        new() { Id = 7, Name = "Ghayathi", Latitude = "23.90453420", Longitude = "52.58710260" },
+                        new() { Id = 8, Name = "Khalifa City", Latitude = "24.42588000", Longitude = "54.60500000" },
+                        new() { Id = 9, Name = "Liwa Oasis", Latitude = "22.86972550", Longitude = "53.24086080" },
+                        new() { Id = 10, Name = "Mussafah", Latitude = "24.35893000", Longitude = "54.48267000" },
+                        new() { Id = 11, Name = "Muzayri‘", Latitude = "23.14355000", Longitude = "53.78810000" },
+                        new() { Id = 12, Name = "Ruwais", Latitude = "24.11028000", Longitude = "52.73056000" },
+                        new() { Id = 13, Name = "Saadiyat Island", Latitude = "24.54220000", Longitude = "54.43720000" },
+                        new() { Id = 14, Name = "Yas Island", Latitude = "24.49650000", Longitude = "54.60360000" },
+                        new() { Id = 15, Name = "Zayed City", Latitude = "23.65416000", Longitude = "53.70522000" }
                     }
                 },
 
@@ -117,7 +121,17 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "emirate",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Dubai", Latitude = "25.06570000", Longitude = "55.17128000" }
+                        new() { Id = 1, Name = "Al Awir", Latitude = "25.16670000", Longitude = "55.53330000" },
+                        new() { Id = 2, Name = "Al Barsha", Latitude = "25.10550000", Longitude = "55.20860000" },
+                        new() { Id = 3, Name = "Bur Dubai", Latitude = "25.26160000", Longitude = "55.29740000" },
+                        new() { Id = 4, Name = "Business Bay", Latitude = "25.18550000", Longitude = "55.26620000" },
+                        new() { Id = 5, Name = "Deira", Latitude = "25.27440000", Longitude = "55.31600000" },
+                        new() { Id = 6, Name = "Dubai", Latitude = "25.06570000", Longitude = "55.17128000" },
+                        new() { Id = 7, Name = "Dubai Marina", Latitude = "25.08050000", Longitude = "55.14030000" },
+                        new() { Id = 8, Name = "Ḩattā", Latitude = "24.80073000", Longitude = "56.12726000" },
+                        new() { Id = 9, Name = "Jebel Ali", Latitude = "24.99260000", Longitude = "55.06120000" },
+                        new() { Id = 10, Name = "Jumeirah", Latitude = "25.20480000", Longitude = "55.23600000" },
+                        new() { Id = 11, Name = "Naif", Latitude = "25.27480000", Longitude = "55.30550000" }
                     }
                 },
 
@@ -133,10 +147,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "emirate",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Dibba Al Fujairah", Latitude = "25.58580000", Longitude = "56.24792000" },
+                        new() { Id = 1, Name = "Dibba Al-Fujairah", Latitude = "25.58580000", Longitude = "56.24792000" },
                         new() { Id = 2, Name = "Dibba Al-Fujairah", Latitude = "25.59246000", Longitude = "56.26176000" },
-                        new() { Id = 3, Name = "Dibba Al-Hisn", Latitude = "25.61955000", Longitude = "56.27291000" },
-                        new() { Id = 4, Name = "Fujairah", Latitude = "25.11641000", Longitude = "56.34141000" }
+                        new() { Id = 3, Name = "Fujairah", Latitude = "25.11641000", Longitude = "56.34141000" }
                     }
                 },
 
@@ -172,11 +185,12 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 2, Name = "Al Dhaid", Latitude = "25.28812000", Longitude = "55.88157000" },
                         new() { Id = 3, Name = "Al Hamriyah", Latitude = "25.46121000", Longitude = "55.54813000" },
                         new() { Id = 4, Name = "Al Madam", Latitude = "24.95536000", Longitude = "55.76820000" },
-                        new() { Id = 5, Name = "Kalba", Latitude = "24.99816000", Longitude = "56.27207000" },
-                        new() { Id = 6, Name = "Khor Fakkan", Latitude = "25.33966000", Longitude = "56.30280000" },
-                        new() { Id = 7, Name = "Milehah", Latitude = "25.10097000", Longitude = "55.91282000" },
-                        new() { Id = 8, Name = "Murbaḩ", Latitude = "25.27623000", Longitude = "56.36256000" },
-                        new() { Id = 9, Name = "Sharjah", Latitude = "25.33737000", Longitude = "55.41206000" }
+                        new() { Id = 5, Name = "Dibba Al-Hisn", Latitude = "25.61955000", Longitude = "56.27291000" },
+                        new() { Id = 6, Name = "Kalba", Latitude = "25.05130000", Longitude = "56.35422000" },
+                        new() { Id = 7, Name = "Khor Fakkan", Latitude = "25.33966000", Longitude = "56.30280000" },
+                        new() { Id = 8, Name = "Milehah", Latitude = "25.10097000", Longitude = "55.91282000" },
+                        new() { Id = 9, Name = "Murbaḩ", Latitude = "25.27623000", Longitude = "56.36256000" },
+                        new() { Id = 10, Name = "Sharjah", Latitude = "25.33737000", Longitude = "55.41206000" }
                     }
                 },
 

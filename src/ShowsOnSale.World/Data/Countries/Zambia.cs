@@ -122,10 +122,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Chadiza", Latitude = "-14.06779000", Longitude = "32.43917000" },
-                        new() { Id = 2, Name = "Chipata", Latitude = "-13.63333000", Longitude = "32.65000000" },
-                        new() { Id = 3, Name = "Lundazi", Latitude = "-12.29292000", Longitude = "33.17820000" },
-                        new() { Id = 4, Name = "Nyimba", Latitude = "-14.55656000", Longitude = "30.81490000" },
-                        new() { Id = 5, Name = "Petauke", Latitude = "-14.24117000", Longitude = "31.31975000" }
+                        new() { Id = 2, Name = "Chama", Latitude = "-11.21303000", Longitude = "33.15210000" },
+                        new() { Id = 3, Name = "Chipata", Latitude = "-13.63333000", Longitude = "32.65000000" },
+                        new() { Id = 4, Name = "Katete", Latitude = "-14.05000000", Longitude = "32.08333000" },
+                        new() { Id = 5, Name = "Lundazi", Latitude = "-12.29292000", Longitude = "33.17820000" },
+                        new() { Id = 6, Name = "Nyimba", Latitude = "-14.55656000", Longitude = "30.81490000" },
+                        new() { Id = 7, Name = "Petauke", Latitude = "-14.24117000", Longitude = "31.31975000" }
                     }
                 },
 
@@ -180,11 +182,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Chama", Latitude = "-11.21303000", Longitude = "33.15210000" },
-                        new() { Id = 2, Name = "Chinsali", Latitude = "-10.54142000", Longitude = "32.08162000" },
-                        new() { Id = 3, Name = "Isoka", Latitude = "-10.16062000", Longitude = "32.63353000" },
-                        new() { Id = 4, Name = "Mpika", Latitude = "-11.83431000", Longitude = "31.45287000" },
-                        new() { Id = 5, Name = "Nakonde", Latitude = "-9.34213000", Longitude = "32.74500000" }
+                        new() { Id = 1, Name = "Chinsali", Latitude = "-10.54142000", Longitude = "32.08162000" },
+                        new() { Id = 2, Name = "Isoka", Latitude = "-10.16062000", Longitude = "32.63353000" },
+                        new() { Id = 3, Name = "Mpika", Latitude = "-11.83431000", Longitude = "31.45287000" },
+                        new() { Id = 4, Name = "Nakonde", Latitude = "-9.34213000", Longitude = "32.74500000" }
                     }
                 },
 
@@ -248,15 +249,16 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Choma", Latitude = "-16.80889000", Longitude = "26.98750000" },
                         new() { Id = 2, Name = "Gwembe", Latitude = "-16.49755000", Longitude = "27.60691000" },
                         new() { Id = 3, Name = "Itezhi-Tezhi", Latitude = "-15.74092000", Longitude = "26.04146000" },
-                        new() { Id = 4, Name = "Livingstone", Latitude = "-17.84194000", Longitude = "25.85425000" },
-                        new() { Id = 5, Name = "Maamba", Latitude = "-17.36667000", Longitude = "27.15000000" },
-                        new() { Id = 6, Name = "Mazabuka", Latitude = "-15.85601000", Longitude = "27.74800000" },
-                        new() { Id = 7, Name = "Monze", Latitude = "-16.28333000", Longitude = "27.48333000" },
-                        new() { Id = 8, Name = "Nakambala", Latitude = "-15.83244000", Longitude = "27.77994000" },
-                        new() { Id = 9, Name = "Namwala", Latitude = "-15.75042000", Longitude = "26.43839000" },
-                        new() { Id = 10, Name = "Siavonga", Latitude = "-16.53818000", Longitude = "28.70876000" },
-                        new() { Id = 11, Name = "Siavonga District", Latitude = "-16.26742000", Longitude = "28.55036000" },
-                        new() { Id = 12, Name = "Sinazongwe", Latitude = "-17.26140000", Longitude = "27.46179000" }
+                        new() { Id = 4, Name = "Kalomo", Latitude = "-17.02581000", Longitude = "26.48369000" },
+                        new() { Id = 5, Name = "Livingstone", Latitude = "-17.84194000", Longitude = "25.85425000" },
+                        new() { Id = 6, Name = "Maamba", Latitude = "-17.36667000", Longitude = "27.15000000" },
+                        new() { Id = 7, Name = "Mazabuka", Latitude = "-15.85601000", Longitude = "27.74800000" },
+                        new() { Id = 8, Name = "Monze", Latitude = "-16.28333000", Longitude = "27.48333000" },
+                        new() { Id = 9, Name = "Nakambala", Latitude = "-15.83244000", Longitude = "27.77994000" },
+                        new() { Id = 10, Name = "Namwala", Latitude = "-15.75042000", Longitude = "26.43839000" },
+                        new() { Id = 11, Name = "Siavonga", Latitude = "-16.53818000", Longitude = "28.70876000" },
+                        new() { Id = 12, Name = "Siavonga District", Latitude = "-16.26742000", Longitude = "28.55036000" },
+                        new() { Id = 13, Name = "Sinazongwe", Latitude = "-17.26140000", Longitude = "27.46179000" }
                     }
                 },
 
@@ -267,8 +269,8 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "01",
                     Iso3166_2 = "ZM-01",
                     TimeZoneId = "Africa/Lusaka",
-                    Latitude = "6.90160860",
-                    Longitude = "80.00877460",
+                    Latitude = "-16.05611111",
+                    Longitude = "23.75222222",
                     Type = "province",
                     Cities = new()
                     {
