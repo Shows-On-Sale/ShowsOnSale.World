@@ -26,6 +26,19 @@ public partial class WorldData
     }
     
     /// <summary>
+    /// Resolves a free-form country value: an ISO2 or ISO3 code first, then a name, translation or alias.
+    /// </summary>
+    /// <param name="codeOrName">The code, name, translation or alias of the country (e.g. <c>"GB"</c>, <c>"UK"</c>, <c>"Denmark"</c>).</param>
+    /// <returns>The country if found; otherwise, null.</returns>
+    public static Models.Country? ResolveCountry(string? codeOrName)
+    {
+        if (string.IsNullOrWhiteSpace(codeOrName))
+            return null;
+
+        return GetCountryByCode(codeOrName) ?? GetCountryByName(codeOrName);
+    }
+
+    /// <summary>
     /// Gets a country by its name, including aliases.
     /// </summary>
     /// <param name="name">The name of the country (English name, translation, or alias).</param>

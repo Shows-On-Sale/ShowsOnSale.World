@@ -165,6 +165,40 @@ public class WorldDataTests
         Assert.Equal("Czech Republic", country.Name);
     }
 
+    [Theory]
+    [InlineData("UK", "GB")]
+    [InlineData("u.k.", "GB")]
+    [InlineData("Britain", "GB")]
+    [InlineData("U.S.A.", "US")]
+    [InlineData("The Netherlands", "NL")]
+    [InlineData("Republic of Ireland", "IE")]
+    [InlineData("UAE", "AE")]
+    public void GetCountryByName_WithFeedAlias_ReturnsCountry(string alias, string expectedIso2)
+    {
+        Assert.Equal(expectedIso2, WorldData.GetCountryByName(alias)?.Iso2);
+    }
+
+    [Theory]
+    [InlineData("GB", "GB")]
+    [InlineData(" gbr ", "GB")]
+    [InlineData("UK", "GB")]
+    [InlineData("Denmark", "DK")]
+    [InlineData("Czechia", "CZ")]
+    public void ResolveCountry_ReadsACodeThenANameOrAlias(string value, string expectedIso2)
+    {
+        Assert.Equal(expectedIso2, WorldData.ResolveCountry(value)?.Iso2);
+    }
+
+    [Theory]
+    [InlineData(null)]
+    [InlineData("")]
+    [InlineData("   ")]
+    [InlineData("Atlantis")]
+    public void ResolveCountry_UnknownOrBlank_ReturnsNull(string? value)
+    {
+        Assert.Null(WorldData.ResolveCountry(value));
+    }
+
     [Fact]
     public void GetCountryByName_WithAlias_Turkiye_ReturnsCountry()
     {
