@@ -3,6 +3,15 @@
 All notable changes to **ShowsOnSale.World** are documented here. This project follows
 [Semantic Versioning](https://semver.org/).
 
+## [2.2.0]
+
+### Added
+
+- **`WorldData.ResolveCountry(codeOrName)`**: resolves a free-form country value, trying an ISO2 or ISO3
+  code first and then a name, translation or alias (`"GB"`, `"GBR"`, `"UK"`, `"Denmark"`).
+- Country aliases that ticket feeds send: `"UK"`, `"U.K."` and `"Britain"` (GB), `"U.S.A."` (US),
+  `"The Netherlands"` (NL), `"Republic of Ireland"` (IE) and `"UAE"` (AE).
+
 ## [2.1.0]
 
 ### Added
