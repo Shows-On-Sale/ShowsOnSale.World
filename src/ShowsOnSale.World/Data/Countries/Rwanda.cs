@@ -73,8 +73,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Kibungo", Latitude = "-2.15970000", Longitude = "30.54270000" },
-                        new() { Id = 2, Name = "Rwamagana", Latitude = "-1.94870000", Longitude = "30.43470000" }
+                        new() { Id = 1, Name = "Kayonza", Latitude = "-1.95090000", Longitude = "30.52050000" },
+                        new() { Id = 2, Name = "Kibungo", Latitude = "-2.15970000", Longitude = "30.54270000" },
+                        new() { Id = 3, Name = "Nyamata", Latitude = "-2.20419000", Longitude = "30.14494000" },
+                        new() { Id = 4, Name = "Rwamagana", Latitude = "-1.94870000", Longitude = "30.43470000" }
                     }
                 },
 
@@ -106,8 +108,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Byumba", Latitude = "-1.57630000", Longitude = "30.06750000" },
-                        new() { Id = 2, Name = "Musanze", Latitude = "-1.49984000", Longitude = "29.63497000" }
+                        new() { Id = 1, Name = "Busogo", Latitude = "-1.55840000", Longitude = "29.54340000" },
+                        new() { Id = 2, Name = "Byumba", Latitude = "-1.57630000", Longitude = "30.06750000" },
+                        new() { Id = 3, Name = "Musanze", Latitude = "-1.49984000", Longitude = "29.63497000" },
+                        new() { Id = 4, Name = "Shyorongi", Latitude = "-1.85439000", Longitude = "29.96238000" }
                     }
                 },
 
@@ -125,8 +129,11 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Butare", Latitude = "-2.59667000", Longitude = "29.73944000" },
                         new() { Id = 2, Name = "Eglise Catholique Centrale GIKO", Latitude = "-1.93653000", Longitude = "29.80610000" },
-                        new() { Id = 3, Name = "Gitarama", Latitude = "-2.07444000", Longitude = "29.75667000" },
-                        new() { Id = 4, Name = "Nzega", Latitude = "-2.47900000", Longitude = "29.55640000" }
+                        new() { Id = 3, Name = "Gikongoro", Latitude = "-2.46397000", Longitude = "29.57389000" },
+                        new() { Id = 4, Name = "Gitarama", Latitude = "-2.07444000", Longitude = "29.75667000" },
+                        new() { Id = 5, Name = "Nyanza", Latitude = "-2.35187000", Longitude = "29.75089000" },
+                        new() { Id = 6, Name = "Nzega", Latitude = "-2.47900000", Longitude = "29.55640000" },
+                        new() { Id = 7, Name = "Ruhango", Latitude = "-2.22460000", Longitude = "29.79088000" }
                     }
                 },
 
@@ -137,14 +144,15 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "04",
                     Iso3166_2 = "RW-04",
                     TimeZoneId = "Africa/Kigali",
-                    Latitude = "-0.77278910",
-                    Longitude = "30.08843240",
+                    Latitude = "-2.37500000",
+                    Longitude = "29.20972222",
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Cyangugu", Latitude = "-2.48460000", Longitude = "28.90750000" },
-                        new() { Id = 2, Name = "Gisenyi", Latitude = "-1.70278000", Longitude = "29.25639000" },
-                        new() { Id = 3, Name = "Kibuye", Latitude = "-2.06028000", Longitude = "29.34778000" }
+                        new() { Id = 1, Name = "Bugarama", Latitude = "-2.69240000", Longitude = "29.00770000" },
+                        new() { Id = 2, Name = "Cyangugu", Latitude = "-2.48460000", Longitude = "28.90750000" },
+                        new() { Id = 3, Name = "Gisenyi", Latitude = "-1.70278000", Longitude = "29.25639000" },
+                        new() { Id = 4, Name = "Kibuye", Latitude = "-2.06028000", Longitude = "29.34778000" }
                     }
                 }
             }

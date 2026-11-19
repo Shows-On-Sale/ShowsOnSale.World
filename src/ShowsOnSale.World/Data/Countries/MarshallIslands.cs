@@ -220,7 +220,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Ebeye", Latitude = "41.08110000", Longitude = "-111.92000000" }
+                        new() { Id = 1, Name = "Ebeye", Latitude = "8.77889000", Longitude = "167.73806000" }
                     }
                 },
 
@@ -300,7 +300,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Taroa", Latitude = "48.00000000", Longitude = "33.41666667" }
+                        new() { Id = 1, Name = "Taroa", Latitude = "8.70576000", Longitude = "171.22750000" }
                     }
                 },
 
