@@ -35,8 +35,8 @@ namespace ShowsOnSale.World.Data.Countries
             Timezones = new()
             {
                 new() { ZoneName = "America/Danmarkshavn", GmtOffset = 0, GmtOffsetName = "UTC±00", Abbreviation = "GMT", TzName = "Greenwich Mean Time" },
-                new() { ZoneName = "America/Nuuk", GmtOffset = -10800, GmtOffsetName = "UTC-03:00", Abbreviation = "WGT", TzName = "West Greenland Time" },
-                new() { ZoneName = "America/Scoresbysund", GmtOffset = -3600, GmtOffsetName = "UTC-01:00", Abbreviation = "EGT", TzName = "Eastern Greenland Time" },
+                new() { ZoneName = "America/Nuuk", GmtOffset = -7200, GmtOffsetName = "UTC-02:00", Abbreviation = "WGT", TzName = "West Greenland Time" },
+                new() { ZoneName = "America/Scoresbysund", GmtOffset = -7200, GmtOffsetName = "UTC-02:00", Abbreviation = "WGT", TzName = "West Greenland Time" },
                 new() { ZoneName = "America/Thule", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" }
             },
             Translations = new()
@@ -107,7 +107,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Qeqertalik",
                     StateCode = "QT",
                     Iso3166_2 = "GL-QT",
-                    TimeZoneId = "America/Danmarkshavn",
+                    TimeZoneId = "America/Nuuk",
                     Latitude = "68.82495530",
                     Longitude = "-54.76224720",
                     Type = "municipality",
@@ -149,11 +149,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Ammassalik", Latitude = "65.61452670", Longitude = "-37.65014660" },
-                        new() { Id = 2, Name = "Ittoqqortoormiit", Latitude = "70.48634210", Longitude = "-21.97986600" },
-                        new() { Id = 3, Name = "Ivittuut", Latitude = "61.20651840", Longitude = "-48.18198510" },
-                        new() { Id = 4, Name = "Nuuk", Latitude = "64.17910090", Longitude = "-51.74800910" },
-                        new() { Id = 5, Name = "Paamiut", Latitude = "62.00259620", Longitude = "-49.70519590" }
+                        new() { Id = 1, Name = "Ittoqqortoormiit", Latitude = "70.48634210", Longitude = "-21.97986600" },
+                        new() { Id = 2, Name = "Ivittuut", Latitude = "61.20651840", Longitude = "-48.18198510" },
+                        new() { Id = 3, Name = "Nuuk", Latitude = "64.17910090", Longitude = "-51.74800910" },
+                        new() { Id = 4, Name = "Paamiut", Latitude = "62.00259620", Longitude = "-49.70519590" },
+                        new() { Id = 5, Name = "Tasiilaq", Latitude = "65.61452670", Longitude = "-37.65014660" }
                     }
                 }
             }
