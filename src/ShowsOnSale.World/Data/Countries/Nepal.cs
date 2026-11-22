@@ -22,7 +22,7 @@ namespace ShowsOnSale.World.Data.Countries
             CurrencyName = "Nepalese rupee",
             CurrencySymbol = "₨",
             Tld = ".np",
-            Native = "नपल",
+            Native = "नेपाल",
             Region = "Asia",
             RegionId = 3,
             Subregion = "Southern Asia",
@@ -45,7 +45,7 @@ namespace ShowsOnSale.World.Data.Countries
                 ["nl"] = "Nepal",
                 ["hr"] = "Nepal",
                 ["fa"] = "نپال",
-                ["de"] = "Népal",
+                ["de"] = "Nepal",
                 ["es"] = "Nepal",
                 ["fr"] = "Népal",
                 ["ja"] = "ネパール",
@@ -73,19 +73,25 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Bhaktapur", Latitude = "27.67743440", Longitude = "85.40386700" },
-                        new() { Id = 2, Name = "Chitwan", Latitude = "27.61953620", Longitude = "84.02793400" },
-                        new() { Id = 3, Name = "Dhading", Latitude = "28.00725840", Longitude = "84.28464170" },
-                        new() { Id = 4, Name = "Dolakha", Latitude = "27.82371900", Longitude = "85.55991890" },
-                        new() { Id = 5, Name = "Kathmandu", Latitude = "27.70903020", Longitude = "85.28493270" },
-                        new() { Id = 6, Name = "Kavrepalanchok", Latitude = "27.54539810", Longitude = "85.30416730" },
-                        new() { Id = 7, Name = "Lalitpur", Latitude = "27.54820230", Longitude = "85.04201470" },
-                        new() { Id = 8, Name = "Makwanpur", Latitude = "27.43720820", Longitude = "84.75780400" },
-                        new() { Id = 9, Name = "Nuwakot", Latitude = "27.92205490", Longitude = "84.05968460" },
-                        new() { Id = 10, Name = "Ramechhap", Latitude = "27.53749850", Longitude = "85.85535100" },
-                        new() { Id = 11, Name = "Rasuwa", Latitude = "28.17177410", Longitude = "84.27823120" },
-                        new() { Id = 12, Name = "Sindhuli", Latitude = "27.18469330", Longitude = "85.24437150" },
-                        new() { Id = 13, Name = "Sindhupalchok", Latitude = "27.90711960", Longitude = "85.42360670" }
+                        new() { Id = 1, Name = "Banepā", Latitude = "27.63270000", Longitude = "85.52201000" },
+                        new() { Id = 2, Name = "Bhaktapur", Latitude = "27.67743440", Longitude = "85.40386700" },
+                        new() { Id = 3, Name = "Bharatpur", Latitude = "27.68027000", Longitude = "84.43647000" },
+                        new() { Id = 4, Name = "Chitwan", Latitude = "27.61953620", Longitude = "84.02793400" },
+                        new() { Id = 5, Name = "Dhading", Latitude = "28.00725840", Longitude = "84.28464170" },
+                        new() { Id = 6, Name = "Dolakha", Latitude = "27.82371900", Longitude = "85.55991890" },
+                        new() { Id = 7, Name = "Hetauda", Latitude = "27.42839000", Longitude = "85.03219000" },
+                        new() { Id = 8, Name = "Kathmandu", Latitude = "27.70903020", Longitude = "85.28493270" },
+                        new() { Id = 9, Name = "Kavrepalanchok", Latitude = "27.54539810", Longitude = "85.30416730" },
+                        new() { Id = 10, Name = "Ki̇̄rtipur", Latitude = "27.67851000", Longitude = "85.27574000" },
+                        new() { Id = 11, Name = "Lalitpur", Latitude = "27.54820230", Longitude = "85.04201470" },
+                        new() { Id = 12, Name = "Madhyapur Thimi", Latitude = "27.68056000", Longitude = "85.38750000" },
+                        new() { Id = 13, Name = "Makwanpur", Latitude = "27.43720820", Longitude = "84.75780400" },
+                        new() { Id = 14, Name = "Nuwakot", Latitude = "27.92205490", Longitude = "84.05968460" },
+                        new() { Id = 15, Name = "Panauti", Latitude = "27.58466000", Longitude = "85.52122000" },
+                        new() { Id = 16, Name = "Ramechhap", Latitude = "27.53749850", Longitude = "85.85535100" },
+                        new() { Id = 17, Name = "Rasuwa", Latitude = "28.17177410", Longitude = "84.27823120" },
+                        new() { Id = 18, Name = "Sindhuli", Latitude = "27.18469330", Longitude = "85.24437150" },
+                        new() { Id = 19, Name = "Sindhupalchok", Latitude = "27.90711960", Longitude = "85.42360670" }
                     }
                 },
 
@@ -111,7 +117,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 8, Name = "Nawalpur", Latitude = "27.65319650", Longitude = "83.72442870" },
                         new() { Id = 9, Name = "Parbat", Latitude = "28.20276430", Longitude = "83.36121860" },
                         new() { Id = 10, Name = "Syangja", Latitude = "28.04509710", Longitude = "83.40612700" },
-                        new() { Id = 11, Name = "Tanahun", Latitude = "27.93565560", Longitude = "83.91793110" }
+                        new() { Id = 11, Name = "Tanahun", Latitude = "27.93565560", Longitude = "83.91793110" },
+                        new() { Id = 12, Name = "Wāliṅ", Latitude = "27.98370000", Longitude = "83.75925000" }
                     }
                 },
 
@@ -152,20 +159,23 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Bhojpur", Latitude = "27.16432030", Longitude = "86.97399080" },
-                        new() { Id = 2, Name = "Dhankuta", Latitude = "26.98445610", Longitude = "87.24311290" },
-                        new() { Id = 3, Name = "Ilam", Latitude = "26.89856010", Longitude = "87.88160070" },
-                        new() { Id = 4, Name = "Jhapa", Latitude = "26.58377460", Longitude = "87.58265500" },
-                        new() { Id = 5, Name = "Khotang", Latitude = "27.15640300", Longitude = "86.37601470" },
-                        new() { Id = 6, Name = "Morang", Latitude = "26.61072710", Longitude = "87.13496260" },
-                        new() { Id = 7, Name = "Okhaldhunga", Latitude = "27.33668120", Longitude = "86.11507710" },
-                        new() { Id = 8, Name = "Panchthar", Latitude = "27.14929510", Longitude = "87.45396980" },
-                        new() { Id = 9, Name = "Sankhuwasabha", Latitude = "27.54665800", Longitude = "86.64912720" },
-                        new() { Id = 10, Name = "Solukhumbu", Latitude = "27.72514640", Longitude = "86.02324040" },
-                        new() { Id = 11, Name = "Sunsari", Latitude = "26.64116460", Longitude = "86.79919520" },
-                        new() { Id = 12, Name = "Taplejung", Latitude = "27.61014090", Longitude = "87.16355390" },
-                        new() { Id = 13, Name = "Terhathum", Latitude = "27.13268960", Longitude = "87.40691430" },
-                        new() { Id = 14, Name = "Udayapur", Latitude = "26.93274070", Longitude = "86.00264640" }
+                        new() { Id = 1, Name = "Bhadrapur", Latitude = "26.54404000", Longitude = "88.09436000" },
+                        new() { Id = 2, Name = "Bhojpur", Latitude = "27.16432030", Longitude = "86.97399080" },
+                        new() { Id = 3, Name = "Biratnagar", Latitude = "26.45505000", Longitude = "87.27007000" },
+                        new() { Id = 4, Name = "Dhankuta", Latitude = "26.98445610", Longitude = "87.24311290" },
+                        new() { Id = 5, Name = "Ilam", Latitude = "26.89856010", Longitude = "87.88160070" },
+                        new() { Id = 6, Name = "Īṭahari̇̄", Latitude = "26.66371000", Longitude = "87.27403000" },
+                        new() { Id = 7, Name = "Jhapa", Latitude = "26.58377460", Longitude = "87.58265500" },
+                        new() { Id = 8, Name = "Khotang", Latitude = "27.15640300", Longitude = "86.37601470" },
+                        new() { Id = 9, Name = "Morang", Latitude = "26.61072710", Longitude = "87.13496260" },
+                        new() { Id = 10, Name = "Okhaldhunga", Latitude = "27.33668120", Longitude = "86.11507710" },
+                        new() { Id = 11, Name = "Panchthar", Latitude = "27.14929510", Longitude = "87.45396980" },
+                        new() { Id = 12, Name = "Sankhuwasabha", Latitude = "27.54665800", Longitude = "86.64912720" },
+                        new() { Id = 13, Name = "Solukhumbu", Latitude = "27.72514640", Longitude = "86.02324040" },
+                        new() { Id = 14, Name = "Sunsari", Latitude = "26.64116460", Longitude = "86.79919520" },
+                        new() { Id = 15, Name = "Taplejung", Latitude = "27.61014090", Longitude = "87.16355390" },
+                        new() { Id = 16, Name = "Terhathum", Latitude = "27.13268960", Longitude = "87.40691430" },
+                        new() { Id = 17, Name = "Udayapur", Latitude = "26.93274070", Longitude = "86.00264640" }
                     }
                 },
 
@@ -184,15 +194,20 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Arghakhanchi", Latitude = "27.93234540", Longitude = "82.70966110" },
                         new() { Id = 2, Name = "Banke", Latitude = "28.09593710", Longitude = "81.51662830" },
                         new() { Id = 3, Name = "Bardiya", Latitude = "28.37201670", Longitude = "81.08316830" },
-                        new() { Id = 4, Name = "Dang", Latitude = "27.97887990", Longitude = "82.46841760" },
-                        new() { Id = 5, Name = "Eastern Rukum", Latitude = "28.67248040", Longitude = "82.48940030" },
-                        new() { Id = 6, Name = "Gulmi", Latitude = "28.09597820", Longitude = "82.98379720" },
-                        new() { Id = 7, Name = "Kapilvastu", Latitude = "27.54506960", Longitude = "82.97552520" },
-                        new() { Id = 8, Name = "Nawalparasi (West of Bardaghat Susta)", Latitude = "27.51977900", Longitude = "83.40494810" },
-                        new() { Id = 9, Name = "Palpa", Latitude = "27.81068740", Longitude = "83.30000220" },
-                        new() { Id = 10, Name = "Pyuthan", Latitude = "28.10805440", Longitude = "82.78532440" },
-                        new() { Id = 11, Name = "Rolpa", Latitude = "28.32573400", Longitude = "82.32376150" },
-                        new() { Id = 12, Name = "Rupandehi", Latitude = "27.54931420", Longitude = "83.08930670" }
+                        new() { Id = 4, Name = "Butwāl", Latitude = "27.69121000", Longitude = "83.45251000" },
+                        new() { Id = 5, Name = "Dang", Latitude = "27.97887990", Longitude = "82.46841760" },
+                        new() { Id = 6, Name = "Eastern Rukum", Latitude = "28.67248040", Longitude = "82.48940030" },
+                        new() { Id = 7, Name = "Gulariyā", Latitude = "28.20580000", Longitude = "81.34532000" },
+                        new() { Id = 8, Name = "Gulmi", Latitude = "28.09597820", Longitude = "82.98379720" },
+                        new() { Id = 9, Name = "Kapilvastu", Latitude = "27.54506960", Longitude = "82.97552520" },
+                        new() { Id = 10, Name = "Nawalparasi (West of Bardaghat Susta)", Latitude = "27.51977900", Longitude = "83.40494810" },
+                        new() { Id = 11, Name = "Nepalgunj", Latitude = "28.05000000", Longitude = "81.61667000" },
+                        new() { Id = 12, Name = "Palpa", Latitude = "27.81068740", Longitude = "83.30000220" },
+                        new() { Id = 13, Name = "Pyuthan", Latitude = "28.10805440", Longitude = "82.78532440" },
+                        new() { Id = 14, Name = "Rolpa", Latitude = "28.32573400", Longitude = "82.32376150" },
+                        new() { Id = 15, Name = "Rupandehi", Latitude = "27.54931420", Longitude = "83.08930670" },
+                        new() { Id = 16, Name = "Siddharthanagar", Latitude = "27.50000000", Longitude = "83.45000000" },
+                        new() { Id = 17, Name = "Tānsen", Latitude = "27.86655000", Longitude = "83.54587000" }
                     }
                 },
 
@@ -209,13 +224,16 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bara", Latitude = "27.10766310", Longitude = "84.73878940" },
-                        new() { Id = 2, Name = "Dhanusha", Latitude = "26.85112570", Longitude = "85.72433070" },
-                        new() { Id = 3, Name = "Mahottari", Latitude = "26.88439340", Longitude = "85.21963240" },
-                        new() { Id = 4, Name = "Parsa", Latitude = "27.21960860", Longitude = "83.54541570" },
-                        new() { Id = 5, Name = "Rautahat", Latitude = "26.98892410", Longitude = "85.00379450" },
-                        new() { Id = 6, Name = "Saptari", Latitude = "26.60706670", Longitude = "86.42052270" },
-                        new() { Id = 7, Name = "Sarlahi", Latitude = "26.96861190", Longitude = "85.23906480" },
-                        new() { Id = 8, Name = "Siraha", Latitude = "26.74287390", Longitude = "86.01304490" }
+                        new() { Id = 2, Name = "Birgañj", Latitude = "27.01736000", Longitude = "84.88047000" },
+                        new() { Id = 3, Name = "Dhanusha", Latitude = "26.85112570", Longitude = "85.72433070" },
+                        new() { Id = 4, Name = "Mahottari", Latitude = "26.88439340", Longitude = "85.21963240" },
+                        new() { Id = 5, Name = "Malaṅgawā", Latitude = "26.85622000", Longitude = "85.56032000" },
+                        new() { Id = 6, Name = "Parsa", Latitude = "27.21960860", Longitude = "83.54541570" },
+                        new() { Id = 7, Name = "Rājbirāj", Latitude = "26.53968000", Longitude = "86.74796000" },
+                        new() { Id = 8, Name = "Rautahat", Latitude = "26.98892410", Longitude = "85.00379450" },
+                        new() { Id = 9, Name = "Saptari", Latitude = "26.60706670", Longitude = "86.42052270" },
+                        new() { Id = 10, Name = "Sarlahi", Latitude = "26.96861190", Longitude = "85.23906480" },
+                        new() { Id = 11, Name = "Siraha", Latitude = "26.74287390", Longitude = "86.01304490" }
                     }
                 },
 
@@ -237,9 +255,11 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 4, Name = "Bajura", Latitude = "29.61008120", Longitude = "80.82948020" },
                         new() { Id = 5, Name = "Dadeldhura", Latitude = "29.20934090", Longitude = "80.15536460" },
                         new() { Id = 6, Name = "Darchula", Latitude = "29.91273330", Longitude = "80.79371590" },
-                        new() { Id = 7, Name = "Doti", Latitude = "29.18833610", Longitude = "80.52682610" },
-                        new() { Id = 8, Name = "Kailali", Latitude = "28.73090610", Longitude = "80.21847770" },
-                        new() { Id = 9, Name = "Kanchanpur", Latitude = "28.84394510", Longitude = "80.28330710" }
+                        new() { Id = 7, Name = "Dhangaḍhi̇̄", Latitude = "28.70159000", Longitude = "80.58991000" },
+                        new() { Id = 8, Name = "Doti", Latitude = "29.18833610", Longitude = "80.52682610" },
+                        new() { Id = 9, Name = "Kailali", Latitude = "28.73090610", Longitude = "80.21847770" },
+                        new() { Id = 10, Name = "Kanchanpur", Latitude = "28.84394510", Longitude = "80.28330710" },
+                        new() { Id = 11, Name = "Ṭikāpur", Latitude = "28.52819000", Longitude = "81.11828000" }
                     }
                 }
             }
