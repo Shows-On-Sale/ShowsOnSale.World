@@ -68,7 +68,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Bas-Uélé",
                     StateCode = "BU",
                     Iso3166_2 = "CD-BU",
-                    TimeZoneId = "Africa/Kinshasa",
+                    TimeZoneId = "Africa/Lubumbashi",
                     Latitude = "3.66444880",
                     Longitude = "25.21378710",
                     Type = "province",
@@ -92,10 +92,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Gemena", Latitude = "3.25651000", Longitude = "19.77234000" },
-                        new() { Id = 2, Name = "Lisala", Latitude = "2.15127000", Longitude = "21.51672000" },
-                        new() { Id = 3, Name = "Lukolela", Latitude = "-1.06046000", Longitude = "17.18210000" },
-                        new() { Id = 4, Name = "Mbandaka", Latitude = "0.04865000", Longitude = "18.26034000" }
+                        new() { Id = 1, Name = "Basankusu", Latitude = "1.22095000", Longitude = "19.80205000" },
+                        new() { Id = 2, Name = "Lukolela", Latitude = "-1.06046000", Longitude = "17.18210000" },
+                        new() { Id = 3, Name = "Mbandaka", Latitude = "0.04865000", Longitude = "18.26034000" }
                     }
                 },
 
@@ -105,14 +104,17 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Haut-Katanga",
                     StateCode = "HK",
                     Iso3166_2 = "CD-HK",
-                    TimeZoneId = "Africa/Kinshasa",
+                    TimeZoneId = "Africa/Lubumbashi",
                     Latitude = "-10.51971800",
                     Longitude = "27.84328040",
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Likasi", Latitude = "-10.98303000", Longitude = "26.73840000" },
-                        new() { Id = 2, Name = "Lubumbashi", Latitude = "-11.66089000", Longitude = "27.47938000" }
+                        new() { Id = 1, Name = "Kambove", Latitude = "-10.87352000", Longitude = "26.59746000" },
+                        new() { Id = 2, Name = "Kipushi", Latitude = "-11.76097000", Longitude = "27.25135000" },
+                        new() { Id = 3, Name = "Likasi", Latitude = "-10.98303000", Longitude = "26.73840000" },
+                        new() { Id = 4, Name = "Lubumbashi", Latitude = "-11.66089000", Longitude = "27.47938000" },
+                        new() { Id = 5, Name = "Pweto", Latitude = "-8.46604000", Longitude = "28.90079000" }
                     }
                 },
 
@@ -122,14 +124,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Haut-Lomami",
                     StateCode = "HL",
                     Iso3166_2 = "CD-HL",
-                    TimeZoneId = "Africa/Kinshasa",
+                    TimeZoneId = "Africa/Lubumbashi",
                     Latitude = "-8.14950360",
                     Longitude = "25.55579630",
                     Type = "province",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bukama", Latitude = "-9.20443000", Longitude = "25.85475000" },
-                        new() { Id = 2, Name = "Kamina", Latitude = "-8.73508000", Longitude = "24.99798000" }
+                        new() { Id = 2, Name = "Kamina", Latitude = "-8.73508000", Longitude = "24.99798000" },
+                        new() { Id = 3, Name = "Mulongo", Latitude = "-7.83486000", Longitude = "26.99852000" }
                     }
                 },
 
@@ -139,7 +142,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Haut-Uélé",
                     StateCode = "HU",
                     Iso3166_2 = "CD-HU",
-                    TimeZoneId = "Africa/Kinshasa",
+                    TimeZoneId = "Africa/Lubumbashi",
                     Latitude = "3.33984990",
                     Longitude = "28.78927400",
                     Type = "province",
@@ -157,7 +160,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Ituri",
                     StateCode = "IT",
                     Iso3166_2 = "CD-IT",
-                    TimeZoneId = "Africa/Kinshasa",
+                    TimeZoneId = "Africa/Lubumbashi",
                     Latitude = "1.83306230",
                     Longitude = "29.49807740",
                     Type = "province",
@@ -173,7 +176,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Kasaï",
                     StateCode = "KS",
                     Iso3166_2 = "CD-KS",
-                    TimeZoneId = "Africa/Kinshasa",
+                    TimeZoneId = "Africa/Lubumbashi",
                     Latitude = "-4.87408620",
                     Longitude = "21.12348990",
                     Type = "province",
@@ -192,12 +195,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Kasaï Central",
                     StateCode = "KC",
                     Iso3166_2 = "CD-KC",
-                    TimeZoneId = "Africa/Kinshasa",
+                    TimeZoneId = "Africa/Lubumbashi",
                     Latitude = "-5.90468960",
                     Longitude = "21.43344170",
                     Type = "province",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Kananga", Latitude = "-5.89624000", Longitude = "22.41659000" }
                     }
                 },
 
@@ -207,15 +211,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Kasaï Oriental",
                     StateCode = "KE",
                     Iso3166_2 = "CD-KE",
-                    TimeZoneId = "Africa/Kinshasa",
+                    TimeZoneId = "Africa/Lubumbashi",
                     Latitude = "-6.12589420",
                     Longitude = "23.59981110",
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Gandajika", Latitude = "-6.74504000", Longitude = "23.95328000" },
-                        new() { Id = 2, Name = "Kabinda", Latitude = "-6.13791000", Longitude = "24.48179000" },
-                        new() { Id = 3, Name = "Mbuji-Mayi", Latitude = "-6.13603000", Longitude = "23.58979000" }
+                        new() { Id = 1, Name = "Mbuji-Mayi", Latitude = "-6.13603000", Longitude = "23.58979000" },
+                        new() { Id = 2, Name = "Miabi", Latitude = "-6.22149000", Longitude = "23.39254000" }
                     }
                 },
 
@@ -249,10 +252,11 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Boma", Latitude = "-5.85098000", Longitude = "13.05364000" },
                         new() { Id = 2, Name = "Kasangulu", Latitude = "-4.58330000", Longitude = "15.16554000" },
-                        new() { Id = 3, Name = "Matadi", Latitude = "-5.83861000", Longitude = "13.46306000" },
-                        new() { Id = 4, Name = "Mbanza-Ngungu", Latitude = "-5.25837000", Longitude = "14.85838000" },
-                        new() { Id = 5, Name = "Moanda", Latitude = "-5.92753000", Longitude = "12.37148000" },
-                        new() { Id = 6, Name = "Tshela", Latitude = "-4.99707000", Longitude = "12.94840000" }
+                        new() { Id = 3, Name = "Kimpese", Latitude = "-5.56150000", Longitude = "14.43159000" },
+                        new() { Id = 4, Name = "Matadi", Latitude = "-5.83861000", Longitude = "13.46306000" },
+                        new() { Id = 5, Name = "Mbanza-Ngungu", Latitude = "-5.25837000", Longitude = "14.85838000" },
+                        new() { Id = 6, Name = "Moanda", Latitude = "-5.92753000", Longitude = "12.37148000" },
+                        new() { Id = 7, Name = "Tshela", Latitude = "-4.99707000", Longitude = "12.94840000" }
                     }
                 },
 
@@ -286,8 +290,10 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bandundu", Latitude = "-3.31687000", Longitude = "17.38063000" },
                         new() { Id = 2, Name = "Bulungu", Latitude = "-4.54437000", Longitude = "18.60364000" },
-                        new() { Id = 3, Name = "Kikwit", Latitude = "-5.04098000", Longitude = "18.81619000" },
-                        new() { Id = 4, Name = "Mangai", Latitude = "-4.02328000", Longitude = "19.53385000" }
+                        new() { Id = 3, Name = "Dibaya-Lubwe", Latitude = "-4.15869000", Longitude = "19.86190000" },
+                        new() { Id = 4, Name = "Idiofa", Latitude = "-4.96589000", Longitude = "19.59151000" },
+                        new() { Id = 5, Name = "Kikwit", Latitude = "-5.04098000", Longitude = "18.81619000" },
+                        new() { Id = 6, Name = "Mangai", Latitude = "-4.02328000", Longitude = "19.53385000" }
                     }
                 },
 
@@ -297,14 +303,16 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Lomami",
                     StateCode = "LO",
                     Iso3166_2 = "CD-LO",
-                    TimeZoneId = "Africa/Kinshasa",
+                    TimeZoneId = "Africa/Lubumbashi",
                     Latitude = "-6.12866400",
                     Longitude = "24.45779620",
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Lubao", Latitude = "-5.38771000", Longitude = "25.74885000" },
-                        new() { Id = 2, Name = "Mwene-Ditu", Latitude = "-7.00906000", Longitude = "23.45278000" }
+                        new() { Id = 1, Name = "Gandajika", Latitude = "-6.74504000", Longitude = "23.95328000" },
+                        new() { Id = 2, Name = "Kabinda", Latitude = "-6.13791000", Longitude = "24.48179000" },
+                        new() { Id = 3, Name = "Lubao", Latitude = "-5.38771000", Longitude = "25.74885000" },
+                        new() { Id = 4, Name = "Mwene-Ditu", Latitude = "-7.00906000", Longitude = "23.45278000" }
                     }
                 },
 
@@ -314,14 +322,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Lualaba",
                     StateCode = "LU",
                     Iso3166_2 = "CD-LU",
-                    TimeZoneId = "Africa/Kinshasa",
+                    TimeZoneId = "Africa/Lubumbashi",
                     Latitude = "-10.70278090",
                     Longitude = "25.46579790",
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Kasaji", Latitude = "-10.38342000", Longitude = "23.44987000" },
-                        new() { Id = 2, Name = "Kolwezi", Latitude = "-10.71666700", Longitude = "25.46666700" }
+                        new() { Id = 1, Name = "Fungurume", Latitude = "-10.61771000", Longitude = "26.32107000" },
+                        new() { Id = 2, Name = "Kasaji", Latitude = "-10.38342000", Longitude = "23.44987000" },
+                        new() { Id = 3, Name = "Kolwezi", Latitude = "-10.71666700", Longitude = "25.46666700" }
                     }
                 },
 
@@ -350,7 +359,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Maniema",
                     StateCode = "MA",
                     Iso3166_2 = "CD-MA",
-                    TimeZoneId = "Africa/Kinshasa",
+                    TimeZoneId = "Africa/Lubumbashi",
                     Latitude = "-2.96127780",
                     Longitude = "25.96348480",
                     Type = "province",
@@ -374,7 +383,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "province",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Bumba", Latitude = "2.18771000", Longitude = "22.46827000" }
+                        new() { Id = 1, Name = "Binga", Latitude = "2.37351000", Longitude = "20.49769000" },
+                        new() { Id = 2, Name = "Bumba", Latitude = "2.18771000", Longitude = "22.46827000" },
+                        new() { Id = 3, Name = "Lisala", Latitude = "2.15127000", Longitude = "21.51672000" }
                     }
                 },
 
@@ -384,7 +395,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Nord-Kivu",
                     StateCode = "NK",
                     Iso3166_2 = "CD-NK",
-                    TimeZoneId = "Africa/Kinshasa",
+                    TimeZoneId = "Africa/Lubumbashi",
                     Latitude = "-0.56456470",
                     Longitude = "28.70619450",
                     Type = "province",
@@ -393,7 +404,9 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Beni", Latitude = "0.49113000", Longitude = "29.47306000" },
                         new() { Id = 2, Name = "Butembo", Latitude = "0.14164000", Longitude = "29.29117000" },
                         new() { Id = 3, Name = "Goma", Latitude = "-1.67409000", Longitude = "29.22845000" },
-                        new() { Id = 4, Name = "Sake", Latitude = "-1.57386000", Longitude = "29.04339000" }
+                        new() { Id = 4, Name = "Kanyobagonga", Latitude = "-0.69978000", Longitude = "29.17181000" },
+                        new() { Id = 5, Name = "Rutshuru", Latitude = "-1.18666000", Longitude = "29.44669000" },
+                        new() { Id = 6, Name = "Sake", Latitude = "-1.57386000", Longitude = "29.04339000" }
                     }
                 },
 
@@ -421,7 +434,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Sankuru",
                     StateCode = "SA",
                     Iso3166_2 = "CD-SA",
-                    TimeZoneId = "Africa/Kinshasa",
+                    TimeZoneId = "Africa/Lubumbashi",
                     Latitude = "-3.50748850",
                     Longitude = "23.58450390",
                     Type = "province",
@@ -438,7 +451,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Sud-Kivu",
                     StateCode = "SK",
                     Iso3166_2 = "CD-SK",
-                    TimeZoneId = "Africa/Kinshasa",
+                    TimeZoneId = "Africa/Lubumbashi",
                     Latitude = "-3.29689580",
                     Longitude = "28.16740080",
                     Type = "province",
@@ -463,7 +476,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bongandanga", Latitude = "1.50695000", Longitude = "21.07260000" },
-                        new() { Id = 2, Name = "Libenge", Latitude = "3.65332000", Longitude = "18.63566000" }
+                        new() { Id = 2, Name = "Gemena", Latitude = "3.25651000", Longitude = "19.77234000" },
+                        new() { Id = 3, Name = "Libenge", Latitude = "3.65332000", Longitude = "18.63566000" }
                     }
                 },
 
@@ -473,7 +487,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Tanganyika",
                     StateCode = "TA",
                     Iso3166_2 = "CD-TA",
-                    TimeZoneId = "Africa/Kinshasa",
+                    TimeZoneId = "Africa/Lubumbashi",
                     Latitude = "-6.71057970",
                     Longitude = "27.98798610",
                     Type = "province",
@@ -481,7 +495,9 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Kabalo", Latitude = "-6.05255000", Longitude = "26.91430000" },
                         new() { Id = 2, Name = "Kalemie", Latitude = "-5.94749000", Longitude = "29.19471000" },
-                        new() { Id = 3, Name = "Kongolo", Latitude = "-5.38532000", Longitude = "27.00029000" }
+                        new() { Id = 3, Name = "Kongolo", Latitude = "-5.38532000", Longitude = "27.00029000" },
+                        new() { Id = 4, Name = "Manono", Latitude = "-7.29862000", Longitude = "27.39894000" },
+                        new() { Id = 5, Name = "Nyunzu", Latitude = "-5.95609000", Longitude = "28.01649000" }
                     }
                 },
 
@@ -491,7 +507,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Name = "Tshopo",
                     StateCode = "TO",
                     Iso3166_2 = "CD-TO",
-                    TimeZoneId = "Africa/Kinshasa",
+                    TimeZoneId = "Africa/Lubumbashi",
                     Latitude = "0.49914930",
                     Longitude = "25.16512260",
                     Type = "province",
