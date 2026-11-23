@@ -48,9 +48,9 @@ namespace ShowsOnSale.World.Data.Countries
                 ["de"] = "Taiwan",
                 ["es"] = "Taiwán",
                 ["fr"] = "Taïwan",
-                ["ja"] = "台湾（中華民国）",
+                ["ja"] = "台湾",
                 ["it"] = "Taiwan",
-                ["zh-CN"] = "中国台湾",
+                ["zh-CN"] = "台湾",
                 ["tr"] = "Tayvan",
                 ["ru"] = "Тайвань",
                 ["uk"] = "Тайвань",
@@ -73,8 +73,32 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Changhua", Latitude = "23.95361000", Longitude = "120.49083000" },
-                        new() { Id = 2, Name = "Yuanlin", Latitude = "23.95671000", Longitude = "120.57608000" }
+                        new() { Id = 1, Name = "Beidou Township", Latitude = "23.86667000", Longitude = "120.53333000" },
+                        new() { Id = 2, Name = "Changhua", Latitude = "24.06666667", Longitude = "120.53333333" },
+                        new() { Id = 3, Name = "Chutang Township", Latitude = "23.85280000", Longitude = "120.41100000" },
+                        new() { Id = 4, Name = "Dacheng Township", Latitude = "23.86666667", Longitude = "120.31666667" },
+                        new() { Id = 5, Name = "Dacun Township", Latitude = "23.99111111", Longitude = "120.53944444" },
+                        new() { Id = 6, Name = "Erhlin Township", Latitude = "23.92290000", Longitude = "120.40900000" },
+                        new() { Id = 7, Name = "Erhshui Township", Latitude = "23.81666667", Longitude = "120.61666667" },
+                        new() { Id = 8, Name = "Fangyuan Township", Latitude = "23.92500000", Longitude = "120.31583333" },
+                        new() { Id = 9, Name = "Fenyuan Township", Latitude = "24.01540000", Longitude = "120.62700000" },
+                        new() { Id = 10, Name = "Fuxing Township", Latitude = "24.03333000", Longitude = "120.43333000" },
+                        new() { Id = 11, Name = "Hemei Township", Latitude = "24.11666667", Longitude = "120.50000000" },
+                        new() { Id = 12, Name = "Hsichou Township", Latitude = "23.85110000", Longitude = "120.49866670" },
+                        new() { Id = 13, Name = "Hsiushui Township", Latitude = "24.03333333", Longitude = "120.50000000" },
+                        new() { Id = 14, Name = "Huatan Township", Latitude = "24.03333333", Longitude = "120.55000000" },
+                        new() { Id = 15, Name = "Lukang Township", Latitude = "24.08333000", Longitude = "120.45000000" },
+                        new() { Id = 16, Name = "Pitou Township", Latitude = "23.88333333", Longitude = "120.46666667" },
+                        new() { Id = 17, Name = "Pusin Township", Latitude = "23.95230000", Longitude = "120.53500000" },
+                        new() { Id = 18, Name = "Puyan Township", Latitude = "23.99610000", Longitude = "120.46200000" },
+                        new() { Id = 19, Name = "Shenkang Township", Latitude = "24.16480000", Longitude = "120.48900000" },
+                        new() { Id = 20, Name = "Shetou Township", Latitude = "23.91666667", Longitude = "120.60000000" },
+                        new() { Id = 21, Name = "Tianwei Township", Latitude = "23.90000000", Longitude = "120.51666667" },
+                        new() { Id = 22, Name = "Tianzhong Township", Latitude = "23.85000000", Longitude = "120.58333000" },
+                        new() { Id = 23, Name = "Xianxi Township", Latitude = "24.13750000", Longitude = "120.46916667" },
+                        new() { Id = 24, Name = "Xihu Township", Latitude = "23.95940000", Longitude = "120.48000000" },
+                        new() { Id = 25, Name = "Yongchin Township", Latitude = "23.93333333", Longitude = "120.53333333" },
+                        new() { Id = 26, Name = "Yuanlin", Latitude = "23.95671000", Longitude = "120.57608000" }
                     }
                 },
 
@@ -91,7 +115,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Chiayi", Latitude = "23.47722000", Longitude = "120.44527000" },
-                        new() { Id = 2, Name = "Pizitou", Latitude = "23.48556000", Longitude = "120.44472000" }
+                        new() { Id = 2, Name = "East District", Latitude = "23.48890000", Longitude = "120.47700000" },
+                        new() { Id = 3, Name = "Pizitou", Latitude = "23.48556000", Longitude = "120.44472000" },
+                        new() { Id = 4, Name = "West District", Latitude = "23.48370000", Longitude = "120.42200000" }
                     }
                 },
 
@@ -107,10 +133,24 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Budai", Latitude = "23.36000000", Longitude = "120.17000000" },
-                        new() { Id = 2, Name = "Chiayi", Latitude = "23.46333000", Longitude = "120.58166000" },
+                        new() { Id = 1, Name = "Alishan Township", Latitude = "23.35000000", Longitude = "120.80000000" },
+                        new() { Id = 2, Name = "Budai", Latitude = "23.36000000", Longitude = "120.17000000" },
                         new() { Id = 3, Name = "Dalin", Latitude = "23.59888889", Longitude = "120.47000000" },
-                        new() { Id = 4, Name = "Minxiong", Latitude = "23.55039900", Longitude = "120.44569600" }
+                        new() { Id = 4, Name = "Dapu Township", Latitude = "23.29455556", Longitude = "120.59372222" },
+                        new() { Id = 5, Name = "Dongshi Township", Latitude = "23.46660000", Longitude = "120.17900000" },
+                        new() { Id = 6, Name = "Fanlu Township", Latitude = "23.43333000", Longitude = "120.60000000" },
+                        new() { Id = 7, Name = "Lioujiao Township", Latitude = "23.51666667", Longitude = "120.26666667" },
+                        new() { Id = 8, Name = "Lucao Township", Latitude = "23.41330000", Longitude = "120.30900000" },
+                        new() { Id = 9, Name = "Meishan Township", Latitude = "23.55000000", Longitude = "120.63333000" },
+                        new() { Id = 10, Name = "Minxiong", Latitude = "23.55039900", Longitude = "120.44569600" },
+                        new() { Id = 11, Name = "Puzi City", Latitude = "23.46110000", Longitude = "120.24200000" },
+                        new() { Id = 12, Name = "Shueishang Township", Latitude = "23.43190000", Longitude = "120.41500000" },
+                        new() { Id = 13, Name = "Taibao City", Latitude = "23.48333333", Longitude = "120.33333333" },
+                        new() { Id = 14, Name = "Xikou Township", Latitude = "23.59470000", Longitude = "120.39500000" },
+                        new() { Id = 15, Name = "Xingang Township", Latitude = "23.55000000", Longitude = "120.35000000" },
+                        new() { Id = 16, Name = "Yizhu Township", Latitude = "23.35650000", Longitude = "120.22400000" },
+                        new() { Id = 17, Name = "Zhongpu Township", Latitude = "23.40820000", Longitude = "120.53400000" },
+                        new() { Id = 18, Name = "Zhuqi Township", Latitude = "23.50650000", Longitude = "120.60200000" }
                     }
                 },
 
@@ -126,7 +166,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "city",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Hsinchu", Latitude = "24.67416000", Longitude = "121.16111000" }
+                        new() { Id = 1, Name = "East District", Latitude = "24.79590000", Longitude = "120.99300000" },
+                        new() { Id = 2, Name = "Hsinchu", Latitude = "24.80361000", Longitude = "120.96861000" },
+                        new() { Id = 3, Name = "North District", Latitude = "24.82800000", Longitude = "120.94800000" },
+                        new() { Id = 4, Name = "Xiangshan District", Latitude = "24.77460000", Longitude = "120.92600000" }
                     }
                 },
 
@@ -142,9 +185,19 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Hsinchu", Latitude = "24.80361000", Longitude = "120.96861000" },
-                        new() { Id = 2, Name = "Hukou", Latitude = "24.90000000", Longitude = "121.05000000" },
-                        new() { Id = 3, Name = "Zhubei", Latitude = "24.83333333", Longitude = "121.01194444" }
+                        new() { Id = 1, Name = "Baoshan Township", Latitude = "24.74279167", Longitude = "120.99910278" },
+                        new() { Id = 2, Name = "Beipu Township", Latitude = "24.66388889", Longitude = "121.06805556" },
+                        new() { Id = 3, Name = "Emei Township", Latitude = "24.68333333", Longitude = "121.00000000" },
+                        new() { Id = 4, Name = "Guanxi Township", Latitude = "24.78333333", Longitude = "121.18333333" },
+                        new() { Id = 5, Name = "Hengshan Township", Latitude = "24.71666190", Longitude = "121.14126600" },
+                        new() { Id = 6, Name = "Hukou", Latitude = "24.90000000", Longitude = "121.05000000" },
+                        new() { Id = 7, Name = "Jianshi Township", Latitude = "24.61283333", Longitude = "121.29622222" },
+                        new() { Id = 8, Name = "Qionglin Township", Latitude = "24.76666667", Longitude = "121.10000000" },
+                        new() { Id = 9, Name = "Wufeng Township", Latitude = "24.63333333", Longitude = "121.11666667" },
+                        new() { Id = 10, Name = "Xinfeng Township", Latitude = "24.91666667", Longitude = "121.00000000" },
+                        new() { Id = 11, Name = "Xinpu Township", Latitude = "24.84780000", Longitude = "121.09600000" },
+                        new() { Id = 12, Name = "Zhubei", Latitude = "24.83333333", Longitude = "121.01194444" },
+                        new() { Id = 13, Name = "Zhudong Township", Latitude = "24.73661111", Longitude = "121.09157778" }
                     }
                 },
 
@@ -160,7 +213,19 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Hualien", Latitude = "23.78166000", Longitude = "121.39333000" }
+                        new() { Id = 1, Name = "Fengbin Township", Latitude = "23.58333000", Longitude = "121.48333000" },
+                        new() { Id = 2, Name = "Fenglin Township", Latitude = "23.75000000", Longitude = "121.43333333" },
+                        new() { Id = 3, Name = "Fuli Township", Latitude = "23.13333333", Longitude = "121.28333333" },
+                        new() { Id = 4, Name = "Guangfu Township", Latitude = "23.63506389", Longitude = "121.42276111" },
+                        new() { Id = 5, Name = "Hualien", Latitude = "23.97222222", Longitude = "121.60638889" },
+                        new() { Id = 6, Name = "Ji'an Township", Latitude = "23.95000000", Longitude = "121.57222222" },
+                        new() { Id = 7, Name = "Ruisui Township", Latitude = "23.51667000", Longitude = "121.40000000" },
+                        new() { Id = 8, Name = "Shoufeng Township", Latitude = "23.86666667", Longitude = "121.51666667" },
+                        new() { Id = 9, Name = "Wanrong Township", Latitude = "23.73333000", Longitude = "121.31667000" },
+                        new() { Id = 10, Name = "Xincheng Township", Latitude = "24.08333000", Longitude = "121.60000000" },
+                        new() { Id = 11, Name = "Xiulin Township", Latitude = "24.10000000", Longitude = "121.48333000" },
+                        new() { Id = 12, Name = "Yuli Township", Latitude = "23.38333000", Longitude = "121.35000000" },
+                        new() { Id = 13, Name = "Zhuoxi Township", Latitude = "23.33333333", Longitude = "121.28333333" }
                     }
                 },
 
@@ -176,7 +241,45 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "special municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Kaohsiung", Latitude = "22.61626000", Longitude = "120.31333000" }
+                        new() { Id = 1, Name = "Alian District", Latitude = "22.88333333", Longitude = "120.33333333" },
+                        new() { Id = 2, Name = "Cianjhen District", Latitude = "22.60060000", Longitude = "120.31500000" },
+                        new() { Id = 3, Name = "Cianjin District", Latitude = "22.62880000", Longitude = "120.29500000" },
+                        new() { Id = 4, Name = "Ciaotou District", Latitude = "22.75180000", Longitude = "120.30100000" },
+                        new() { Id = 5, Name = "Cieding District", Latitude = "22.90678611", Longitude = "120.18260278" },
+                        new() { Id = 6, Name = "Cijin District", Latitude = "22.58740600", Longitude = "120.28789000" },
+                        new() { Id = 7, Name = "Cishan District", Latitude = "22.86800000", Longitude = "120.47400000" },
+                        new() { Id = 8, Name = "Daliao District", Latitude = "22.59630000", Longitude = "120.41400000" },
+                        new() { Id = 9, Name = "Dashe District", Latitude = "22.74310000", Longitude = "120.37100000" },
+                        new() { Id = 10, Name = "Dashu District", Latitude = "22.69338889", Longitude = "120.43308333" },
+                        new() { Id = 11, Name = "Fongshan District", Latitude = "22.63333333", Longitude = "120.35000000" },
+                        new() { Id = 12, Name = "Gangshan District", Latitude = "22.80000000", Longitude = "120.28333333" },
+                        new() { Id = 13, Name = "Gushan District", Latitude = "22.64888889", Longitude = "120.27250000" },
+                        new() { Id = 14, Name = "Hunei District", Latitude = "22.89500000", Longitude = "120.22500000" },
+                        new() { Id = 15, Name = "Jiasian District", Latitude = "23.08333333", Longitude = "120.58333333" },
+                        new() { Id = 16, Name = "Kaohsiung", Latitude = "22.61626000", Longitude = "120.31333000" },
+                        new() { Id = 17, Name = "Lingya District", Latitude = "22.62360000", Longitude = "120.31700000" },
+                        new() { Id = 18, Name = "Linyuan District", Latitude = "22.50713240", Longitude = "120.39490240" },
+                        new() { Id = 19, Name = "Liouguei District", Latitude = "22.99700000", Longitude = "120.64800000" },
+                        new() { Id = 20, Name = "Luzhu District", Latitude = "22.85500000", Longitude = "120.26500000" },
+                        new() { Id = 21, Name = "Maolin District", Latitude = "22.92740000", Longitude = "120.74600000" },
+                        new() { Id = 22, Name = "Meinong District", Latitude = "22.90000000", Longitude = "120.54000000" },
+                        new() { Id = 23, Name = "Mituo District", Latitude = "22.78010000", Longitude = "120.24000000" },
+                        new() { Id = 24, Name = "Namasia District", Latitude = "23.27160000", Longitude = "120.72600000" },
+                        new() { Id = 25, Name = "Nanzih District", Latitude = "22.72680000", Longitude = "120.29750000" },
+                        new() { Id = 26, Name = "Neimen District", Latitude = "22.95180000", Longitude = "120.46800000" },
+                        new() { Id = 27, Name = "Niaosong District", Latitude = "22.66120000", Longitude = "120.37200000" },
+                        new() { Id = 28, Name = "Renwu District", Latitude = "22.69700000", Longitude = "120.35800000" },
+                        new() { Id = 29, Name = "Sanmin District", Latitude = "22.65620000", Longitude = "120.32700000" },
+                        new() { Id = 30, Name = "Shanlin District", Latitude = "23.00040000", Longitude = "120.56300000" },
+                        new() { Id = 31, Name = "Siaogang District", Latitude = "22.55440000", Longitude = "120.36000000" },
+                        new() { Id = 32, Name = "Sinsing District", Latitude = "22.62472222", Longitude = "120.30130556" },
+                        new() { Id = 33, Name = "Taoyuan District", Latitude = "23.23880000", Longitude = "120.83400000" },
+                        new() { Id = 34, Name = "Tianliao District", Latitude = "22.86510000", Longitude = "120.39000000" },
+                        new() { Id = 35, Name = "Yanchao District", Latitude = "22.78930000", Longitude = "120.36900000" },
+                        new() { Id = 36, Name = "Yancheng District", Latitude = "22.62466600", Longitude = "120.28679500" },
+                        new() { Id = 37, Name = "Yongan District", Latitude = "22.82270000", Longitude = "120.22700000" },
+                        new() { Id = 38, Name = "Zihguan District", Latitude = "22.74910000", Longitude = "120.25500000" },
+                        new() { Id = 39, Name = "Zuoying District", Latitude = "22.68220000", Longitude = "120.29400000" }
                     }
                 },
 
@@ -192,6 +295,13 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "city",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Anle District", Latitude = "25.15130000", Longitude = "121.70300000" },
+                        new() { Id = 2, Name = "Nuannuan District", Latitude = "25.08750000", Longitude = "121.74800000" },
+                        new() { Id = 3, Name = "Qidu District", Latitude = "25.11170000", Longitude = "121.68500000" },
+                        new() { Id = 4, Name = "Ren-ai District", Latitude = "25.12030000", Longitude = "121.74300000" },
+                        new() { Id = 5, Name = "Xinyi District", Latitude = "25.12860000", Longitude = "121.77300000" },
+                        new() { Id = 6, Name = "Zhongshan District", Latitude = "25.15190000", Longitude = "121.72900000" },
+                        new() { Id = 7, Name = "Zhongzheng District", Latitude = "25.14780000", Longitude = "121.77200000" }
                     }
                 },
 
@@ -208,7 +318,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Jincheng", Latitude = "24.43415000", Longitude = "118.31712000" },
-                        new() { Id = 2, Name = "Kinmen", Latitude = "24.45333000", Longitude = "118.38861000" }
+                        new() { Id = 2, Name = "Jinhu Township", Latitude = "24.43769100", Longitude = "118.42799300" },
+                        new() { Id = 3, Name = "Jinning Township", Latitude = "24.45672000", Longitude = "118.33450600" },
+                        new() { Id = 4, Name = "Jinsha Township", Latitude = "24.48110900", Longitude = "118.42799300" },
+                        new() { Id = 5, Name = "Lieyu Township", Latitude = "24.42805556", Longitude = "118.23500000" },
+                        new() { Id = 6, Name = "Wuqiu Township", Latitude = "24.98333333", Longitude = "119.45000000" }
                     }
                 },
 
@@ -224,8 +338,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Lienchiang", Latitude = "26.37004000", Longitude = "120.49545000" },
-                        new() { Id = 2, Name = "Nangan", Latitude = "26.15039000", Longitude = "119.93284000" }
+                        new() { Id = 1, Name = "Beigan Township", Latitude = "26.22361111", Longitude = "119.98916667" },
+                        new() { Id = 2, Name = "Dongyin Township", Latitude = "26.37666667", Longitude = "120.50666667" },
+                        new() { Id = 3, Name = "Juguang Township", Latitude = "25.96400000", Longitude = "119.95900000" },
+                        new() { Id = 4, Name = "Nangan", Latitude = "26.15039000", Longitude = "119.93284000" }
                     }
                 },
 
@@ -241,7 +357,24 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Miaoli", Latitude = "24.48972000", Longitude = "120.90638000" }
+                        new() { Id = 1, Name = "Dahu Township", Latitude = "24.40000000", Longitude = "120.85000000" },
+                        new() { Id = 2, Name = "Gongguan Township", Latitude = "24.50530000", Longitude = "120.84500000" },
+                        new() { Id = 3, Name = "Houlong Township", Latitude = "24.61666667", Longitude = "120.76666667" },
+                        new() { Id = 4, Name = "Miaoli", Latitude = "24.57000000", Longitude = "120.82000000" },
+                        new() { Id = 5, Name = "Nanzhuang Township", Latitude = "24.56666667", Longitude = "121.01666667" },
+                        new() { Id = 6, Name = "Sanwan Township", Latitude = "24.63200000", Longitude = "120.93700000" },
+                        new() { Id = 7, Name = "Sanyi Township", Latitude = "24.41666667", Longitude = "120.76666667" },
+                        new() { Id = 8, Name = "Shitan Township", Latitude = "24.53333333", Longitude = "120.91666667" },
+                        new() { Id = 9, Name = "Tai-an Township", Latitude = "24.41666667", Longitude = "121.06666667" },
+                        new() { Id = 10, Name = "Tongluo Township", Latitude = "24.48333333", Longitude = "120.78333333" },
+                        new() { Id = 11, Name = "Tongxiao Township", Latitude = "24.48333333", Longitude = "120.70000000" },
+                        new() { Id = 12, Name = "Toufen City", Latitude = "24.68333333", Longitude = "120.91666667" },
+                        new() { Id = 13, Name = "Touwu Township", Latitude = "24.56666667", Longitude = "120.86666667" },
+                        new() { Id = 14, Name = "Xihu Township", Latitude = "24.55000000", Longitude = "120.75000000" },
+                        new() { Id = 15, Name = "Yuanli Township", Latitude = "24.41666667", Longitude = "120.68333333" },
+                        new() { Id = 16, Name = "Zaoqiao Township", Latitude = "24.63333333", Longitude = "120.86666667" },
+                        new() { Id = 17, Name = "Zhunan Township", Latitude = "24.68333333", Longitude = "120.88333333" },
+                        new() { Id = 18, Name = "Zhuolan Township", Latitude = "24.33333333", Longitude = "120.85000000" }
                     }
                 },
 
@@ -257,10 +390,20 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Lugu", Latitude = "23.74639000", Longitude = "120.75250000" },
-                        new() { Id = 2, Name = "Nantou", Latitude = "23.83419000", Longitude = "120.92704000" },
-                        new() { Id = 3, Name = "Puli", Latitude = "23.96639000", Longitude = "120.96952000" },
-                        new() { Id = 4, Name = "Zhongxing New Village", Latitude = "23.95908000", Longitude = "120.68516000" }
+                        new() { Id = 1, Name = "Caotun Township", Latitude = "23.98333333", Longitude = "120.73333333" },
+                        new() { Id = 2, Name = "Guosing Township", Latitude = "24.01666667", Longitude = "120.85000000" },
+                        new() { Id = 3, Name = "Jhongliao Township", Latitude = "23.91666667", Longitude = "120.78333333" },
+                        new() { Id = 4, Name = "Jhushan Township", Latitude = "23.68888889", Longitude = "120.72888889" },
+                        new() { Id = 5, Name = "Jiji Township", Latitude = "23.82861111", Longitude = "120.78638889" },
+                        new() { Id = 6, Name = "Lugu", Latitude = "23.74639000", Longitude = "120.75250000" },
+                        new() { Id = 7, Name = "Mingjian Township", Latitude = "23.85000000", Longitude = "120.66666667" },
+                        new() { Id = 8, Name = "Nantou", Latitude = "23.91666667", Longitude = "120.68333333" },
+                        new() { Id = 9, Name = "Puli", Latitude = "23.96639000", Longitude = "120.96952000" },
+                        new() { Id = 10, Name = "Ren-ai Township", Latitude = "24.02527778", Longitude = "121.13111111" },
+                        new() { Id = 11, Name = "Shueili Township", Latitude = "23.81666667", Longitude = "120.85000000" },
+                        new() { Id = 12, Name = "Sinyi Township", Latitude = "23.66240000", Longitude = "121.01600000" },
+                        new() { Id = 13, Name = "Yuchih Township", Latitude = "23.88333333", Longitude = "120.91666667" },
+                        new() { Id = 14, Name = "Zhongxing New Village", Latitude = "23.95908000", Longitude = "120.68516000" }
                     }
                 },
 
@@ -276,6 +419,36 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "special municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Bali District", Latitude = "25.15000000", Longitude = "121.40000000" },
+                        new() { Id = 2, Name = "Banqiao", Latitude = "25.01427000", Longitude = "121.46719000" },
+                        new() { Id = 3, Name = "Gongliao District", Latitude = "25.01666667", Longitude = "121.90000000" },
+                        new() { Id = 4, Name = "Jinshan District", Latitude = "25.21667000", Longitude = "121.60000000" },
+                        new() { Id = 5, Name = "Jiufen", Latitude = "25.10957000", Longitude = "121.84424000" },
+                        new() { Id = 6, Name = "Linkou District", Latitude = "25.10000000", Longitude = "121.35000000" },
+                        new() { Id = 7, Name = "Luzhou District", Latitude = "25.08333333", Longitude = "121.46666667" },
+                        new() { Id = 8, Name = "Pinglin District", Latitude = "24.92444444", Longitude = "121.72666667" },
+                        new() { Id = 9, Name = "Pingxi District", Latitude = "25.02579700", Longitude = "121.73914400" },
+                        new() { Id = 10, Name = "Ruifang District", Latitude = "25.11666667", Longitude = "121.80000000" },
+                        new() { Id = 11, Name = "Sanchong District", Latitude = "25.06134330", Longitude = "121.49436950" },
+                        new() { Id = 12, Name = "Sanxia District", Latitude = "24.88333000", Longitude = "121.40000000" },
+                        new() { Id = 13, Name = "Sanzhi District", Latitude = "25.23666667", Longitude = "121.52527778" },
+                        new() { Id = 14, Name = "Shenkeng District", Latitude = "25.00000000", Longitude = "121.61667000" },
+                        new() { Id = 15, Name = "Shiding District", Latitude = "24.95000000", Longitude = "121.63333000" },
+                        new() { Id = 16, Name = "Shimen District", Latitude = "25.26667000", Longitude = "121.56667000" },
+                        new() { Id = 17, Name = "Shuangxi District", Latitude = "25.00972222", Longitude = "121.83416667" },
+                        new() { Id = 18, Name = "Shulin District", Latitude = "24.98333000", Longitude = "121.40000000" },
+                        new() { Id = 19, Name = "Taishan District", Latitude = "25.05000000", Longitude = "121.41667000" },
+                        new() { Id = 20, Name = "Tamsui District", Latitude = "25.16666667", Longitude = "121.43333333" },
+                        new() { Id = 21, Name = "Tucheng District", Latitude = "24.96670000", Longitude = "121.43300000" },
+                        new() { Id = 22, Name = "Wanli District", Latitude = "25.18333000", Longitude = "121.63333000" },
+                        new() { Id = 23, Name = "Wugu District", Latitude = "25.08093470", Longitude = "121.43634800" },
+                        new() { Id = 24, Name = "Wulai District", Latitude = "24.86666667", Longitude = "121.55000000" },
+                        new() { Id = 25, Name = "Xindian District", Latitude = "24.95000000", Longitude = "121.53333333" },
+                        new() { Id = 26, Name = "Xinzhuang District", Latitude = "25.03333333", Longitude = "121.45000000" },
+                        new() { Id = 27, Name = "Xizhi District", Latitude = "25.06666667", Longitude = "121.66666667" },
+                        new() { Id = 28, Name = "Yingge District", Latitude = "24.95000000", Longitude = "121.33333000" },
+                        new() { Id = 29, Name = "Yonghe District", Latitude = "25.00750000", Longitude = "121.51638889" },
+                        new() { Id = 30, Name = "Zhonghe District", Latitude = "24.99722222", Longitude = "121.50416667" }
                     }
                 },
 
@@ -291,8 +464,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Magong", Latitude = "23.56540000", Longitude = "119.58627000" },
-                        new() { Id = 2, Name = "Penghu", Latitude = "23.57111000", Longitude = "119.61138000" }
+                        new() { Id = 1, Name = "Baisha Township", Latitude = "23.66339167", Longitude = "119.59236111" },
+                        new() { Id = 2, Name = "Cimei Township", Latitude = "23.21138889", Longitude = "119.43166667" },
+                        new() { Id = 3, Name = "Huxi Township", Latitude = "23.58333333", Longitude = "119.66666667" },
+                        new() { Id = 4, Name = "Magong", Latitude = "23.56540000", Longitude = "119.58627000" },
+                        new() { Id = 5, Name = "Wangan Township", Latitude = "23.35805555", Longitude = "119.49722222" },
+                        new() { Id = 6, Name = "Xiyu Township", Latitude = "23.60861111", Longitude = "119.51138889" }
                     }
                 },
 
@@ -308,9 +485,39 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Donggang", Latitude = "22.46515000", Longitude = "120.44927000" },
-                        new() { Id = 2, Name = "Hengchun", Latitude = "22.00417000", Longitude = "120.74389000" },
-                        new() { Id = 3, Name = "Pingtung", Latitude = "22.49555000", Longitude = "120.61444000" }
+                        new() { Id = 1, Name = "Changjhih Township", Latitude = "22.70000000", Longitude = "120.55000000" },
+                        new() { Id = 2, Name = "Chaojhou Township", Latitude = "22.53333333", Longitude = "120.55000000" },
+                        new() { Id = 3, Name = "Checheng Township", Latitude = "22.08333333", Longitude = "120.75000000" },
+                        new() { Id = 4, Name = "Chunrih Township", Latitude = "22.38333333", Longitude = "120.70000000" },
+                        new() { Id = 5, Name = "Donggang", Latitude = "22.46515000", Longitude = "120.44927000" },
+                        new() { Id = 6, Name = "Fangliao Township", Latitude = "22.40000000", Longitude = "120.60000000" },
+                        new() { Id = 7, Name = "Fangshan Township", Latitude = "22.25638889", Longitude = "120.65833333" },
+                        new() { Id = 8, Name = "Gaoshu Township", Latitude = "22.80000000", Longitude = "120.58333333" },
+                        new() { Id = 9, Name = "Hengchun", Latitude = "22.00417000", Longitude = "120.74389000" },
+                        new() { Id = 10, Name = "Jhutian Township", Latitude = "22.59416667", Longitude = "120.53416667" },
+                        new() { Id = 11, Name = "Jiadong Township", Latitude = "22.43050000", Longitude = "120.54700000" },
+                        new() { Id = 12, Name = "Jiuru Township", Latitude = "22.73333333", Longitude = "120.48333333" },
+                        new() { Id = 13, Name = "Kanding Township", Latitude = "22.51666667", Longitude = "120.48333333" },
+                        new() { Id = 14, Name = "Laiyi Township", Latitude = "22.50000000", Longitude = "120.68333333" },
+                        new() { Id = 15, Name = "Ligang Township", Latitude = "22.80000000", Longitude = "120.50000000" },
+                        new() { Id = 16, Name = "Linbian Township", Latitude = "22.43333333", Longitude = "120.51666667" },
+                        new() { Id = 17, Name = "Linluo Township", Latitude = "22.65194444", Longitude = "120.52916667" },
+                        new() { Id = 18, Name = "Liouciou Township", Latitude = "22.34166667", Longitude = "120.36944444" },
+                        new() { Id = 19, Name = "Majia Township", Latitude = "22.67830000", Longitude = "120.66500000" },
+                        new() { Id = 20, Name = "Manjhou Township", Latitude = "22.05000000", Longitude = "120.83333333" },
+                        new() { Id = 21, Name = "Mudan Township", Latitude = "22.15000000", Longitude = "120.80000000" },
+                        new() { Id = 22, Name = "Nanjhou Township", Latitude = "22.47890000", Longitude = "120.51600000" },
+                        new() { Id = 23, Name = "Neipu Township", Latitude = "22.65000000", Longitude = "120.58750000" },
+                        new() { Id = 24, Name = "Pingtung", Latitude = "22.67611111", Longitude = "120.49416667" },
+                        new() { Id = 25, Name = "Sandimen Township", Latitude = "22.71666667", Longitude = "120.65000000" },
+                        new() { Id = 26, Name = "Shinyuan Township", Latitude = "22.51666667", Longitude = "120.45000000" },
+                        new() { Id = 27, Name = "Shizi Township", Latitude = "22.20177500", Longitude = "120.70543800" },
+                        new() { Id = 28, Name = "Sinpi Township", Latitude = "22.48333333", Longitude = "120.58333333" },
+                        new() { Id = 29, Name = "Taiwu Township", Latitude = "22.60000000", Longitude = "120.68333333" },
+                        new() { Id = 30, Name = "Wandan Township", Latitude = "22.58333333", Longitude = "120.46666667" },
+                        new() { Id = 31, Name = "Wanluan Township", Latitude = "22.58333333", Longitude = "120.58333333" },
+                        new() { Id = 32, Name = "Wutai Township", Latitude = "22.76666667", Longitude = "120.80000000" },
+                        new() { Id = 33, Name = "Yenpu Township", Latitude = "22.73333333", Longitude = "120.56666667" }
                     }
                 },
 
@@ -326,7 +533,36 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "special municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Taichung", Latitude = "24.14690000", Longitude = "120.68390000" }
+                        new() { Id = 1, Name = "Beitun District", Latitude = "24.18042778", Longitude = "120.74661389" },
+                        new() { Id = 2, Name = "Central District", Latitude = "24.14200000", Longitude = "120.68000000" },
+                        new() { Id = 3, Name = "Da'an District", Latitude = "24.36520000", Longitude = "120.59000000" },
+                        new() { Id = 4, Name = "Dadu District", Latitude = "24.15366000", Longitude = "120.54096000" },
+                        new() { Id = 5, Name = "Dajia District", Latitude = "24.34710000", Longitude = "120.62300000" },
+                        new() { Id = 6, Name = "Dali District", Latitude = "24.09166667", Longitude = "120.69166667" },
+                        new() { Id = 7, Name = "Daya District", Latitude = "24.21666667", Longitude = "120.65000000" },
+                        new() { Id = 8, Name = "Dongshi District", Latitude = "24.25869444", Longitude = "120.82816667" },
+                        new() { Id = 9, Name = "East District", Latitude = "24.13730000", Longitude = "120.69700000" },
+                        new() { Id = 10, Name = "Fengyuan District", Latitude = "24.25000000", Longitude = "120.71666667" },
+                        new() { Id = 11, Name = "Heping District", Latitude = "24.26666667", Longitude = "121.15000000" },
+                        new() { Id = 12, Name = "Houli District", Latitude = "24.31667000", Longitude = "120.70000000" },
+                        new() { Id = 13, Name = "Longjing District", Latitude = "24.21000000", Longitude = "120.51800000" },
+                        new() { Id = 14, Name = "Nantun District", Latitude = "24.14160000", Longitude = "120.63800000" },
+                        new() { Id = 15, Name = "North District", Latitude = "24.15760000", Longitude = "120.68100000" },
+                        new() { Id = 16, Name = "Qingshui District", Latitude = "24.27361000", Longitude = "120.58000000" },
+                        new() { Id = 17, Name = "Shalu District", Latitude = "24.23722000", Longitude = "120.56028000" },
+                        new() { Id = 18, Name = "Shengang District", Latitude = "24.25900000", Longitude = "120.66300000" },
+                        new() { Id = 19, Name = "Shigang District", Latitude = "24.26620000", Longitude = "120.78500000" },
+                        new() { Id = 20, Name = "South District", Latitude = "24.12160000", Longitude = "120.66500000" },
+                        new() { Id = 21, Name = "Taichung", Latitude = "24.14690000", Longitude = "120.68390000" },
+                        new() { Id = 22, Name = "Taiping District", Latitude = "24.11667000", Longitude = "120.76667000" },
+                        new() { Id = 23, Name = "Tanzi District", Latitude = "24.21611000", Longitude = "120.70611000" },
+                        new() { Id = 24, Name = "Waipu District", Latitude = "24.32990000", Longitude = "120.65400000" },
+                        new() { Id = 25, Name = "West District", Latitude = "24.14450000", Longitude = "120.66500000" },
+                        new() { Id = 26, Name = "Wufeng District", Latitude = "24.06666667", Longitude = "120.70000000" },
+                        new() { Id = 27, Name = "Wuqi District", Latitude = "24.25760000", Longitude = "120.52900000" },
+                        new() { Id = 28, Name = "Wuri District", Latitude = "24.08870000", Longitude = "120.63200000" },
+                        new() { Id = 29, Name = "Xinshe District", Latitude = "24.26430000", Longitude = "120.80000000" },
+                        new() { Id = 30, Name = "Xitun District", Latitude = "24.18290000", Longitude = "120.62600000" }
                     }
                 },
 
@@ -342,8 +578,44 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "special municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Tainan", Latitude = "22.99083000", Longitude = "120.21333000" },
-                        new() { Id = 2, Name = "Yujing", Latitude = "23.12493000", Longitude = "120.46138000" }
+                        new() { Id = 1, Name = "Anding District", Latitude = "23.09555556", Longitude = "120.22222222" },
+                        new() { Id = 2, Name = "Annan District", Latitude = "23.04730278", Longitude = "120.18468055" },
+                        new() { Id = 3, Name = "Anping District", Latitude = "22.99347778", Longitude = "120.16485278" },
+                        new() { Id = 4, Name = "Baihe District", Latitude = "23.36666667", Longitude = "120.45000000" },
+                        new() { Id = 5, Name = "Beimen District", Latitude = "23.28333333", Longitude = "120.13333333" },
+                        new() { Id = 6, Name = "Cigu District", Latitude = "23.13333333", Longitude = "120.11666667" },
+                        new() { Id = 7, Name = "Danei District", Latitude = "23.15000000", Longitude = "120.38333333" },
+                        new() { Id = 8, Name = "Dongshan District", Latitude = "23.28520000", Longitude = "120.43300000" },
+                        new() { Id = 9, Name = "Eastern District", Latitude = "22.98570000", Longitude = "120.22600000" },
+                        new() { Id = 10, Name = "Guanmiao District", Latitude = "22.95966000", Longitude = "120.32776000" },
+                        new() { Id = 11, Name = "Guantian District", Latitude = "23.20000000", Longitude = "120.33333333" },
+                        new() { Id = 12, Name = "Gueiren District", Latitude = "22.96666667", Longitude = "120.28333333" },
+                        new() { Id = 13, Name = "Houbi District", Latitude = "23.36270000", Longitude = "120.34900000" },
+                        new() { Id = 14, Name = "Jiali District", Latitude = "23.17000000", Longitude = "120.17800000" },
+                        new() { Id = 15, Name = "Jiangjyun District", Latitude = "23.20000000", Longitude = "120.11666667" },
+                        new() { Id = 16, Name = "Lioujia District", Latitude = "23.22400000", Longitude = "120.37700000" },
+                        new() { Id = 17, Name = "Liouying District", Latitude = "23.28333333", Longitude = "120.35000000" },
+                        new() { Id = 18, Name = "Longci District", Latitude = "22.96666667", Longitude = "120.38333333" },
+                        new() { Id = 19, Name = "Madou District", Latitude = "23.18333333", Longitude = "120.24833333" },
+                        new() { Id = 20, Name = "Nanhua District", Latitude = "23.11666667", Longitude = "120.55000000" },
+                        new() { Id = 21, Name = "Nansi District", Latitude = "23.18333333", Longitude = "120.51666667" },
+                        new() { Id = 22, Name = "North District", Latitude = "23.01090000", Longitude = "120.20700000" },
+                        new() { Id = 23, Name = "Rende District", Latitude = "22.95000000", Longitude = "120.23333333" },
+                        new() { Id = 24, Name = "Shanhua District", Latitude = "23.15000000", Longitude = "120.28333333" },
+                        new() { Id = 25, Name = "Shanshang District", Latitude = "23.10000000", Longitude = "120.36666667" },
+                        new() { Id = 26, Name = "Sigang District", Latitude = "23.13333333", Longitude = "120.20000000" },
+                        new() { Id = 27, Name = "Sinhua District", Latitude = "23.03833333", Longitude = "120.31083333" },
+                        new() { Id = 28, Name = "Sinshih District", Latitude = "23.08333333", Longitude = "120.26666667" },
+                        new() { Id = 29, Name = "Sinying District", Latitude = "23.30000000", Longitude = "120.28333333" },
+                        new() { Id = 30, Name = "South District", Latitude = "22.96160000", Longitude = "120.19100000" },
+                        new() { Id = 31, Name = "Syuejia District", Latitude = "23.25000000", Longitude = "120.18333333" },
+                        new() { Id = 32, Name = "Tainan", Latitude = "22.99083000", Longitude = "120.21333000" },
+                        new() { Id = 33, Name = "West Central District", Latitude = "22.99650000", Longitude = "120.19400000" },
+                        new() { Id = 34, Name = "Xiaying District", Latitude = "23.22905555", Longitude = "120.26455556" },
+                        new() { Id = 35, Name = "Yanshuei District", Latitude = "23.30000000", Longitude = "120.23305556" },
+                        new() { Id = 36, Name = "Yongkang District", Latitude = "23.03333333", Longitude = "120.25000000" },
+                        new() { Id = 37, Name = "Yujing", Latitude = "23.12493000", Longitude = "120.46138000" },
+                        new() { Id = 38, Name = "Zuojhen District", Latitude = "23.03333000", Longitude = "120.40000000" }
                     }
                 },
 
@@ -359,9 +631,19 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "special municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Banqiao", Latitude = "25.01427000", Longitude = "121.46719000" },
-                        new() { Id = 2, Name = "Jiufen", Latitude = "25.10957000", Longitude = "121.84424000" },
-                        new() { Id = 3, Name = "Taipei", Latitude = "25.04776000", Longitude = "121.53185000" }
+                        new() { Id = 1, Name = "Beitou District", Latitude = "25.11670000", Longitude = "121.50000000" },
+                        new() { Id = 2, Name = "Da'an District", Latitude = "25.02638889", Longitude = "121.53444444" },
+                        new() { Id = 3, Name = "Datong District", Latitude = "25.05972222", Longitude = "121.51416667" },
+                        new() { Id = 4, Name = "Nangang District", Latitude = "25.05331389", Longitude = "121.60740833" },
+                        new() { Id = 5, Name = "Neihu District", Latitude = "25.08333000", Longitude = "121.58333000" },
+                        new() { Id = 6, Name = "Shilin District", Latitude = "25.08330000", Longitude = "121.51700000" },
+                        new() { Id = 7, Name = "Songshan District", Latitude = "25.05920000", Longitude = "121.55900000" },
+                        new() { Id = 8, Name = "Taipei", Latitude = "25.04776000", Longitude = "121.53185000" },
+                        new() { Id = 9, Name = "Wanhua District", Latitude = "25.03330000", Longitude = "121.48300000" },
+                        new() { Id = 10, Name = "Wenshan District", Latitude = "24.98972222", Longitude = "121.57222222" },
+                        new() { Id = 11, Name = "Xinyi District", Latitude = "25.02875210", Longitude = "121.55480640" },
+                        new() { Id = 12, Name = "Zhongshan District", Latitude = "25.06888889", Longitude = "121.53305556" },
+                        new() { Id = 13, Name = "Zhongzheng District", Latitude = "25.03166667", Longitude = "121.51638889" }
                     }
                 },
 
@@ -377,7 +659,22 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Taitung", Latitude = "22.88361000", Longitude = "121.04833000" }
+                        new() { Id = 1, Name = "Beinan Township", Latitude = "22.78333333", Longitude = "121.11666667" },
+                        new() { Id = 2, Name = "Changbin Township", Latitude = "23.31666667", Longitude = "121.45000000" },
+                        new() { Id = 3, Name = "Chenggong Township", Latitude = "23.11666667", Longitude = "121.35000000" },
+                        new() { Id = 4, Name = "Chihshang Township", Latitude = "23.10000000", Longitude = "121.21666667" },
+                        new() { Id = 5, Name = "Daren Township", Latitude = "22.36666667", Longitude = "120.81666667" },
+                        new() { Id = 6, Name = "Dawu Township", Latitude = "22.36666667", Longitude = "120.90000000" },
+                        new() { Id = 7, Name = "Donghe Township", Latitude = "22.97480000", Longitude = "121.29830000" },
+                        new() { Id = 8, Name = "Guanshan Township", Latitude = "23.01805556", Longitude = "121.19388889" },
+                        new() { Id = 9, Name = "Haiduan Township", Latitude = "23.13333333", Longitude = "121.03333333" },
+                        new() { Id = 10, Name = "Jinfeng Township", Latitude = "22.60000000", Longitude = "120.96666667" },
+                        new() { Id = 11, Name = "Lanyu Township", Latitude = "22.04638889", Longitude = "121.53833333" },
+                        new() { Id = 12, Name = "Luye Township", Latitude = "22.95250000", Longitude = "121.16300000" },
+                        new() { Id = 13, Name = "Lyudao Township", Latitude = "22.66666667", Longitude = "121.48333333" },
+                        new() { Id = 14, Name = "Taimali Township", Latitude = "22.58333333", Longitude = "120.98333333" },
+                        new() { Id = 15, Name = "Taitung", Latitude = "22.75833333", Longitude = "121.14444444" },
+                        new() { Id = 16, Name = "Yanping Township", Latitude = "22.90000000", Longitude = "120.98333333" }
                     }
                 },
 
@@ -393,8 +690,19 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "special municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Daxi", Latitude = "24.88373000", Longitude = "121.29043000" },
-                        new() { Id = 2, Name = "Taoyuan", Latitude = "24.89500000", Longitude = "121.24611000" }
+                        new() { Id = 1, Name = "Bade District", Latitude = "24.95761944", Longitude = "121.29878333" },
+                        new() { Id = 2, Name = "Daxi", Latitude = "24.88373000", Longitude = "121.29043000" },
+                        new() { Id = 3, Name = "Dayuan District", Latitude = "25.06666667", Longitude = "121.20000000" },
+                        new() { Id = 4, Name = "Fuxing District", Latitude = "24.71500000", Longitude = "121.35500000" },
+                        new() { Id = 5, Name = "Guanyin District", Latitude = "25.03333333", Longitude = "121.10000000" },
+                        new() { Id = 6, Name = "Guishan District", Latitude = "25.03333333", Longitude = "121.35000000" },
+                        new() { Id = 7, Name = "Longtan District", Latitude = "24.84444444", Longitude = "121.20527778" },
+                        new() { Id = 8, Name = "Luzhu District", Latitude = "25.06666667", Longitude = "121.28333333" },
+                        new() { Id = 9, Name = "Pingzhen District", Latitude = "24.94388889", Longitude = "121.21611111" },
+                        new() { Id = 10, Name = "Taoyuan", Latitude = "24.89500000", Longitude = "121.24611000" },
+                        new() { Id = 11, Name = "Xinwu District", Latitude = "24.98333333", Longitude = "121.06666667" },
+                        new() { Id = 12, Name = "Yangmei District", Latitude = "24.91666667", Longitude = "121.11666667" },
+                        new() { Id = 13, Name = "Zhongli District", Latitude = "24.95694444", Longitude = "121.22361111" }
                     }
                 },
 
@@ -410,7 +718,18 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Yilan", Latitude = "24.54250000", Longitude = "121.63361000" }
+                        new() { Id = 1, Name = "Datong Township", Latitude = "24.67716667", Longitude = "121.60902778" },
+                        new() { Id = 2, Name = "Dongshan Township", Latitude = "24.65000000", Longitude = "121.76000000" },
+                        new() { Id = 3, Name = "Jiaoxi Township", Latitude = "24.81666667", Longitude = "121.73333333" },
+                        new() { Id = 4, Name = "Luodong Township", Latitude = "24.67668333", Longitude = "121.76692500" },
+                        new() { Id = 5, Name = "Nan'ao Township", Latitude = "24.46666667", Longitude = "121.80000000" },
+                        new() { Id = 6, Name = "Sanxing Township", Latitude = "24.66596340", Longitude = "121.65322920" },
+                        new() { Id = 7, Name = "Su'ao Township", Latitude = "24.59166667", Longitude = "121.85333333" },
+                        new() { Id = 8, Name = "Toucheng Township", Latitude = "24.90000000", Longitude = "121.85000000" },
+                        new() { Id = 9, Name = "Wujie Township", Latitude = "24.70000000", Longitude = "121.78333333" },
+                        new() { Id = 10, Name = "Yilan", Latitude = "24.75000000", Longitude = "121.75000000" },
+                        new() { Id = 11, Name = "Yuanshan Township", Latitude = "24.75000000", Longitude = "121.68333333" },
+                        new() { Id = 12, Name = "Zhuangwei Township", Latitude = "24.77020000", Longitude = "121.80200000" }
                     }
                 },
 
@@ -426,8 +745,26 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Douliu", Latitude = "23.70944000", Longitude = "120.54333000" },
-                        new() { Id = 2, Name = "Yunlin", Latitude = "23.70701000", Longitude = "120.38481000" }
+                        new() { Id = 1, Name = "Baojhong Township", Latitude = "23.71666667", Longitude = "120.30000000" },
+                        new() { Id = 2, Name = "Beigang Township", Latitude = "23.57010000", Longitude = "120.30162000" },
+                        new() { Id = 3, Name = "Cihtong Township", Latitude = "23.76667000", Longitude = "120.53333000" },
+                        new() { Id = 4, Name = "Dongshih Township", Latitude = "23.70000000", Longitude = "120.25000000" },
+                        new() { Id = 5, Name = "Douliu", Latitude = "23.70944000", Longitude = "120.54333000" },
+                        new() { Id = 6, Name = "Dounan Township", Latitude = "23.68333333", Longitude = "120.48333333" },
+                        new() { Id = 7, Name = "Erlun Township", Latitude = "23.78333000", Longitude = "120.40000000" },
+                        new() { Id = 8, Name = "Gukeng Township", Latitude = "23.65000000", Longitude = "120.56666667" },
+                        new() { Id = 9, Name = "Huwei Township", Latitude = "23.72000000", Longitude = "120.43500000" },
+                        new() { Id = 10, Name = "Kouhu Township", Latitude = "23.57630000", Longitude = "120.17300000" },
+                        new() { Id = 11, Name = "Linnei Township", Latitude = "23.75000000", Longitude = "120.61667000" },
+                        new() { Id = 12, Name = "Lunbei Township", Latitude = "23.78333000", Longitude = "120.33333000" },
+                        new() { Id = 13, Name = "Mailiao Township", Latitude = "23.78333000", Longitude = "120.25000000" },
+                        new() { Id = 14, Name = "Shueilin Township", Latitude = "23.56620000", Longitude = "120.23400000" },
+                        new() { Id = 15, Name = "Sihhu Township", Latitude = "23.65000000", Longitude = "120.20000000" },
+                        new() { Id = 16, Name = "Siluo Township", Latitude = "23.78333000", Longitude = "120.45000000" },
+                        new() { Id = 17, Name = "Taihsi Township", Latitude = "23.71667000", Longitude = "120.20000000" },
+                        new() { Id = 18, Name = "Tapi Township", Latitude = "23.64940000", Longitude = "120.42500000" },
+                        new() { Id = 19, Name = "Tuku Township", Latitude = "23.70000000", Longitude = "120.35000000" },
+                        new() { Id = 20, Name = "Yuanchang Township", Latitude = "23.64200000", Longitude = "120.32300000" }
                     }
                 }
             }

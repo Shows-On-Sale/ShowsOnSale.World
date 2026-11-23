@@ -126,8 +126,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Daugavpils", Latitude = "55.88333000", Longitude = "26.53333000" },
-                        new() { Id = 2, Name = "Ilūkste", Latitude = "55.97754000", Longitude = "26.29655000" }
+                        new() { Id = 1, Name = "Ilūkste", Latitude = "55.97754000", Longitude = "26.29655000" }
                     }
                 },
 
@@ -201,6 +200,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "state city",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Daugavpils", Latitude = "55.88333000", Longitude = "26.53333000" }
                     }
                 },
 
@@ -462,15 +462,16 @@ namespace ShowsOnSale.World.Data.Countries
                     StateCode = "059",
                     Iso3166_2 = "LV-059",
                     TimeZoneId = "Europe/Riga",
-                    Latitude = "56.85174670",
-                    Longitude = "26.21847690",
+                    Latitude = "56.85329000",
+                    Longitude = "26.21698000",
                     Type = "municipality",
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Cesvaine", Latitude = "56.96754000", Longitude = "26.30764000" },
                         new() { Id = 2, Name = "Ērgļi", Latitude = "56.89752000", Longitude = "25.63668000" },
                         new() { Id = 3, Name = "Lubāna", Latitude = "56.90425000", Longitude = "26.71606000" },
-                        new() { Id = 4, Name = "Madona", Latitude = "56.85329000", Longitude = "26.21698000" }
+                        new() { Id = 4, Name = "Madona", Latitude = "56.85329000", Longitude = "26.21698000" },
+                        new() { Id = 5, Name = "Varakļāni", Latitude = "56.60826000", Longitude = "26.75377000" }
                     }
                 },
 
@@ -551,22 +552,6 @@ namespace ShowsOnSale.World.Data.Countries
                 {
                     Id = 28,
                     Name = "Rēzekne",
-                    StateCode = "REZ",
-                    Iso3166_2 = "LV-REZ",
-                    TimeZoneId = "Europe/Riga",
-                    Latitude = "56.50628100",
-                    Longitude = "27.33066230",
-                    Type = "state city",
-                    Cities = new()
-                    {
-                        new() { Id = 1, Name = "Rēzekne", Latitude = "56.51028000", Longitude = "27.34000000" }
-                    }
-                },
-
-                new()
-                {
-                    Id = 29,
-                    Name = "Rēzekne",
                     StateCode = "077",
                     Iso3166_2 = "LV-077",
                     TimeZoneId = "Europe/Riga",
@@ -576,6 +561,22 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Viļāni", Latitude = "56.55253000", Longitude = "26.92449000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 29,
+                    Name = "Rēzekne",
+                    StateCode = "REZ",
+                    Iso3166_2 = "LV-REZ",
+                    TimeZoneId = "Europe/Riga",
+                    Latitude = "56.50628100",
+                    Longitude = "27.33066230",
+                    Type = "state city",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Rēzekne", Latitude = "56.51028000", Longitude = "27.34000000" }
                     }
                 },
 
@@ -786,22 +787,6 @@ namespace ShowsOnSale.World.Data.Countries
                 new()
                 {
                     Id = 41,
-                    Name = "Varakļāni",
-                    StateCode = "102",
-                    Iso3166_2 = "LV-102",
-                    TimeZoneId = "Europe/Riga",
-                    Latitude = "56.60887430",
-                    Longitude = "26.75390930",
-                    Type = "municipality",
-                    Cities = new()
-                    {
-                        new() { Id = 1, Name = "Varakļāni", Latitude = "56.60826000", Longitude = "26.75377000" }
-                    }
-                },
-
-                new()
-                {
-                    Id = 42,
                     Name = "Ventspils",
                     StateCode = "VEN",
                     Iso3166_2 = "LV-VEN",
@@ -817,7 +802,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 43,
+                    Id = 42,
                     Name = "Ventspils",
                     StateCode = "106",
                     Iso3166_2 = "LV-106",
