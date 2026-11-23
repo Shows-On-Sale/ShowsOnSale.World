@@ -159,7 +159,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Dorra", Latitude = "12.15028000", Longitude = "42.47624000" },
-                        new() { Id = 2, Name = "Tadjourah", Latitude = "11.78778000", Longitude = "42.88222000" }
+                        new() { Id = 2, Name = "Tadjoura", Latitude = "11.78778000", Longitude = "42.88222000" }
                     }
                 }
             }

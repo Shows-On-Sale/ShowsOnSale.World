@@ -292,6 +292,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Petnjica", Latitude = "42.90966000", Longitude = "19.96364000" }
                     }
                 },
 
