@@ -201,7 +201,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Kakata", Latitude = "6.53104000", Longitude = "-10.35368000" }
+                        new() { Id = 1, Name = "Harbel", Latitude = "6.24683000", Longitude = "-10.35642000" },
+                        new() { Id = 2, Name = "Kakata", Latitude = "6.53104000", Longitude = "-10.35368000" }
                     }
                 },
 
@@ -217,7 +218,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Harper", Latitude = "4.37820000", Longitude = "-7.71081000" }
+                        new() { Id = 1, Name = "Harper", Latitude = "4.37820000", Longitude = "-7.71081000" },
+                        new() { Id = 2, Name = "Pleebo City", Latitude = "4.58953000", Longitude = "-7.67218000" }
                     }
                 },
 
@@ -250,9 +252,10 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Ganta", Latitude = "7.30222000", Longitude = "-8.53083000" },
-                        new() { Id = 2, Name = "New Yekepa", Latitude = "7.57944000", Longitude = "-8.53778000" },
-                        new() { Id = 3, Name = "Sanniquellie", Latitude = "7.36215000", Longitude = "-8.71326000" }
+                        new() { Id = 1, Name = "Buutuo", Latitude = "6.82750000", Longitude = "-8.34280000" },
+                        new() { Id = 2, Name = "Ganta", Latitude = "7.30222000", Longitude = "-8.53083000" },
+                        new() { Id = 3, Name = "New Yekepa", Latitude = "7.57944000", Longitude = "-8.53778000" },
+                        new() { Id = 4, Name = "Sanniquellie", Latitude = "7.36215000", Longitude = "-8.71326000" }
                     }
                 },
 
@@ -268,7 +271,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "county",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Cestos City", Latitude = "5.45683000", Longitude = "-9.58167000" }
+                        new() { Id = 1, Name = "River Cess", Latitude = "5.45683000", Longitude = "-9.58167000" }
                     }
                 },
 
