@@ -114,32 +114,42 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Abomsa", Latitude = "9.98333000", Longitude = "39.98333000" },
                         new() { Id = 2, Name = "Addiet Canna", Latitude = "11.26667000", Longitude = "37.48333000" },
                         new() { Id = 3, Name = "Ādīs Zemen", Latitude = "12.11667000", Longitude = "37.78333000" },
-                        new() { Id = 4, Name = "Bahir Dar", Latitude = "11.59364000", Longitude = "37.39077000" },
-                        new() { Id = 5, Name = "Batī", Latitude = "11.19152000", Longitude = "40.01675000" },
-                        new() { Id = 6, Name = "Bichena", Latitude = "10.45000000", Longitude = "38.20000000" },
-                        new() { Id = 7, Name = "Burē", Latitude = "10.70000000", Longitude = "37.06667000" },
-                        new() { Id = 8, Name = "Dabat", Latitude = "12.98417000", Longitude = "37.76500000" },
-                        new() { Id = 9, Name = "Debark’", Latitude = "13.15611000", Longitude = "37.89806000" },
-                        new() { Id = 10, Name = "Debre Birhan", Latitude = "9.67954000", Longitude = "39.53262000" },
-                        new() { Id = 11, Name = "Debre Mark’os", Latitude = "10.35000000", Longitude = "37.73333000" },
-                        new() { Id = 12, Name = "Debre Sīna", Latitude = "9.84752000", Longitude = "39.76027000" },
-                        new() { Id = 13, Name = "Debre Tabor", Latitude = "11.85000000", Longitude = "38.01667000" },
-                        new() { Id = 14, Name = "Debre Werk’", Latitude = "10.66667000", Longitude = "38.16667000" },
-                        new() { Id = 15, Name = "Dejen", Latitude = "10.16667000", Longitude = "38.13333000" },
-                        new() { Id = 16, Name = "Desē", Latitude = "11.13333000", Longitude = "39.63333000" },
-                        new() { Id = 17, Name = "Finote Selam", Latitude = "10.70000000", Longitude = "37.26667000" },
-                        new() { Id = 18, Name = "Gondar", Latitude = "12.60000000", Longitude = "37.46667000" },
-                        new() { Id = 19, Name = "Kemisē", Latitude = "10.71668000", Longitude = "39.86997000" },
-                        new() { Id = 20, Name = "Kombolcha", Latitude = "11.08155000", Longitude = "39.74339000" },
-                        new() { Id = 21, Name = "Lalībela", Latitude = "12.03219000", Longitude = "39.04756000" },
-                        new() { Id = 22, Name = "North Shewa Zone", Latitude = "9.76900000", Longitude = "39.66800000" },
-                        new() { Id = 23, Name = "North Wollo Zone", Latitude = "11.92000000", Longitude = "39.10000000" },
-                        new() { Id = 24, Name = "Robīt", Latitude = "12.01667000", Longitude = "39.63333000" },
-                        new() { Id = 25, Name = "South Gondar Zone", Latitude = "11.83850000", Longitude = "38.09954000" },
-                        new() { Id = 26, Name = "South Wollo Zone", Latitude = "11.00000000", Longitude = "39.25000000" },
-                        new() { Id = 27, Name = "Wag Hemra Zone", Latitude = "12.76500000", Longitude = "38.84300000" },
-                        new() { Id = 28, Name = "Were Īlu", Latitude = "10.58964000", Longitude = "39.43767000" },
-                        new() { Id = 29, Name = "Werota", Latitude = "11.91667000", Longitude = "37.70000000" }
+                        new() { Id = 4, Name = "Āykel", Latitude = "12.55000000", Longitude = "37.06667000" },
+                        new() { Id = 5, Name = "Bahir Dar", Latitude = "11.59364000", Longitude = "37.39077000" },
+                        new() { Id = 6, Name = "Batī", Latitude = "11.19152000", Longitude = "40.01675000" },
+                        new() { Id = 7, Name = "Bichena", Latitude = "10.45000000", Longitude = "38.20000000" },
+                        new() { Id = 8, Name = "Burē", Latitude = "10.70000000", Longitude = "37.06667000" },
+                        new() { Id = 9, Name = "Chagni", Latitude = "10.95627000", Longitude = "36.50456000" },
+                        new() { Id = 10, Name = "Dabat", Latitude = "12.98417000", Longitude = "37.76500000" },
+                        new() { Id = 11, Name = "Dangila", Latitude = "11.26667000", Longitude = "36.83333000" },
+                        new() { Id = 12, Name = "Debark’", Latitude = "13.15611000", Longitude = "37.89806000" },
+                        new() { Id = 13, Name = "Debre Birhan", Latitude = "9.67954000", Longitude = "39.53262000" },
+                        new() { Id = 14, Name = "Debre Mark’os", Latitude = "10.35000000", Longitude = "37.73333000" },
+                        new() { Id = 15, Name = "Debre Sīna", Latitude = "9.84752000", Longitude = "39.76027000" },
+                        new() { Id = 16, Name = "Debre Tabor", Latitude = "11.85000000", Longitude = "38.01667000" },
+                        new() { Id = 17, Name = "Debre Werk’", Latitude = "10.66667000", Longitude = "38.16667000" },
+                        new() { Id = 18, Name = "Dejen", Latitude = "10.16667000", Longitude = "38.13333000" },
+                        new() { Id = 19, Name = "Dembech’a", Latitude = "10.55000000", Longitude = "37.48333000" },
+                        new() { Id = 20, Name = "Dessie", Latitude = "11.13333000", Longitude = "39.63333000" },
+                        new() { Id = 21, Name = "Finote Selam", Latitude = "10.70000000", Longitude = "37.26667000" },
+                        new() { Id = 22, Name = "Gondar", Latitude = "12.60000000", Longitude = "37.46667000" },
+                        new() { Id = 23, Name = "Kemisē", Latitude = "10.71668000", Longitude = "39.86997000" },
+                        new() { Id = 24, Name = "Kombolcha", Latitude = "11.08155000", Longitude = "39.74339000" },
+                        new() { Id = 25, Name = "Lalibela", Latitude = "12.03219000", Longitude = "39.04756000" },
+                        new() { Id = 26, Name = "Mersa", Latitude = "11.66667000", Longitude = "39.65000000" },
+                        new() { Id = 27, Name = "Metemma", Latitude = "12.95479000", Longitude = "36.15549000" },
+                        new() { Id = 28, Name = "Mot’a", Latitude = "11.08333000", Longitude = "37.86667000" },
+                        new() { Id = 29, Name = "Nefas Mewch’a", Latitude = "11.73333000", Longitude = "38.46667000" },
+                        new() { Id = 30, Name = "North Shewa Zone", Latitude = "9.76900000", Longitude = "39.66800000" },
+                        new() { Id = 31, Name = "North Wollo Zone", Latitude = "11.92000000", Longitude = "39.10000000" },
+                        new() { Id = 32, Name = "Robīt", Latitude = "12.01667000", Longitude = "39.63333000" },
+                        new() { Id = 33, Name = "Sek’ot’a", Latitude = "12.63056000", Longitude = "39.03472000" },
+                        new() { Id = 34, Name = "South Gondar Zone", Latitude = "11.83850000", Longitude = "38.09954000" },
+                        new() { Id = 35, Name = "South Wollo Zone", Latitude = "11.00000000", Longitude = "39.25000000" },
+                        new() { Id = 36, Name = "Wag Hemra Zone", Latitude = "12.76500000", Longitude = "38.84300000" },
+                        new() { Id = 37, Name = "Weldiya", Latitude = "11.82770000", Longitude = "39.59164000" },
+                        new() { Id = 38, Name = "Were Īlu", Latitude = "10.58964000", Longitude = "39.43767000" },
+                        new() { Id = 39, Name = "Werota", Latitude = "11.91667000", Longitude = "37.70000000" }
                     }
                 },
 
@@ -156,13 +166,38 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Asosa", Latitude = "10.00000000", Longitude = "34.50000000" },
-                        new() { Id = 2, Name = "Metekel", Latitude = "10.42673000", Longitude = "35.71975000" }
+                        new() { Id = 2, Name = "Bambesi", Latitude = "9.75000000", Longitude = "34.73333000" },
+                        new() { Id = 3, Name = "Mambuk", Latitude = "11.28333000", Longitude = "36.21667000" },
+                        new() { Id = 4, Name = "Metekel", Latitude = "10.42673000", Longitude = "35.71975000" }
                     }
                 },
 
                 new()
                 {
                     Id = 5,
+                    Name = "Central Ethiopia",
+                    StateCode = "55",
+                    Iso3166_2 = "",
+                    TimeZoneId = "Africa/Addis_Ababa",
+                    Latitude = "7.66666667",
+                    Longitude = "38.00000000",
+                    Type = "region",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Alaba Special Wereda", Latitude = "7.45347000", Longitude = "38.21189000" },
+                        new() { Id = 2, Name = "Butajīra", Latitude = "8.11667000", Longitude = "38.36667000" },
+                        new() { Id = 3, Name = "Guraghe Zone", Latitude = "8.25000000", Longitude = "38.00000000" },
+                        new() { Id = 4, Name = "Hadiya Zone", Latitude = "7.50000000", Longitude = "37.75000000" },
+                        new() { Id = 5, Name = "Hosa’ina", Latitude = "7.54978000", Longitude = "37.85374000" },
+                        new() { Id = 6, Name = "K’olīto", Latitude = "7.31667000", Longitude = "38.08333000" },
+                        new() { Id = 7, Name = "Kembata Alaba Tembaro Zone", Latitude = "7.27039000", Longitude = "37.77887000" },
+                        new() { Id = 8, Name = "Yem", Latitude = "7.83333000", Longitude = "37.50000000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 6,
                     Name = "Dire Dawa",
                     StateCode = "DD",
                     Iso3166_2 = "ET-DD",
@@ -178,7 +213,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 6,
+                    Id = 7,
                     Name = "Gambela",
                     StateCode = "GA",
                     Iso3166_2 = "ET-GA",
@@ -195,7 +230,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 7,
+                    Id = 8,
                     Name = "Harari",
                     StateCode = "HA",
                     Iso3166_2 = "ET-HA",
@@ -211,7 +246,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 8,
+                    Id = 9,
                     Name = "Oromia",
                     StateCode = "OR",
                     Iso3166_2 = "ET-OR",
@@ -221,66 +256,81 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Ādīs ‘Alem", Latitude = "9.03333000", Longitude = "38.40000000" },
-                        new() { Id = 2, Name = "Āgaro", Latitude = "7.85000000", Longitude = "36.65000000" },
-                        new() { Id = 3, Name = "Arsi Zone", Latitude = "7.50000000", Longitude = "39.50000000" },
-                        new() { Id = 4, Name = "Āsasa", Latitude = "7.10000000", Longitude = "39.20000000" },
-                        new() { Id = 5, Name = "Āsbe Teferī", Latitude = "9.08569000", Longitude = "40.86708000" },
-                        new() { Id = 6, Name = "Bedelē", Latitude = "8.45600000", Longitude = "36.35302000" },
-                        new() { Id = 7, Name = "Bedēsa", Latitude = "8.90000000", Longitude = "40.78333000" },
-                        new() { Id = 8, Name = "Bishoftu", Latitude = "8.75225000", Longitude = "38.97846000" },
-                        new() { Id = 9, Name = "Deder", Latitude = "9.31168000", Longitude = "41.44301000" },
-                        new() { Id = 10, Name = "Dembī Dolo", Latitude = "8.53333000", Longitude = "34.80000000" },
-                        new() { Id = 11, Name = "Dodola", Latitude = "6.98333000", Longitude = "39.18333000" },
-                        new() { Id = 12, Name = "East Harerghe Zone", Latitude = "8.70114000", Longitude = "42.00241000" },
-                        new() { Id = 13, Name = "East Shewa Zone", Latitude = "8.21353000", Longitude = "38.84809000" },
-                        new() { Id = 14, Name = "East Wellega Zone", Latitude = "9.51928000", Longitude = "36.75762000" },
-                        new() { Id = 15, Name = "Fichē", Latitude = "9.80000000", Longitude = "38.73333000" },
-                        new() { Id = 16, Name = "Gebre Guracha", Latitude = "9.80000000", Longitude = "38.40000000" },
-                        new() { Id = 17, Name = "Gēdo", Latitude = "9.01667000", Longitude = "37.45000000" },
-                        new() { Id = 18, Name = "Gelemso", Latitude = "8.81667000", Longitude = "40.51667000" },
-                        new() { Id = 19, Name = "Genet", Latitude = "9.06667000", Longitude = "38.50000000" },
-                        new() { Id = 20, Name = "Gimbi", Latitude = "9.17031000", Longitude = "35.83491000" },
-                        new() { Id = 21, Name = "Ginir", Latitude = "7.13952000", Longitude = "40.71083000" },
-                        new() { Id = 22, Name = "Goba", Latitude = "7.01667000", Longitude = "39.98333000" },
-                        new() { Id = 23, Name = "Gorē", Latitude = "8.15000000", Longitude = "35.53333000" },
-                        new() { Id = 24, Name = "Guji Zone", Latitude = "5.58800000", Longitude = "39.06700000" },
-                        new() { Id = 25, Name = "Hāgere Hiywet", Latitude = "8.98333000", Longitude = "37.85000000" },
-                        new() { Id = 26, Name = "Hagere Maryam", Latitude = "5.63418000", Longitude = "38.23603000" },
-                        new() { Id = 27, Name = "Hīrna", Latitude = "9.21667000", Longitude = "41.10000000" },
-                        new() { Id = 28, Name = "Huruta", Latitude = "8.15000000", Longitude = "39.35000000" },
-                        new() { Id = 29, Name = "Illubabor Zone", Latitude = "8.27526000", Longitude = "35.75596000" },
-                        new() { Id = 30, Name = "Jimma", Latitude = "7.67344000", Longitude = "36.83441000" },
-                        new() { Id = 31, Name = "Jimma Zone", Latitude = "7.66667000", Longitude = "37.00000000" },
-                        new() { Id = 32, Name = "Kibre Mengist", Latitude = "5.88333000", Longitude = "38.98333000" },
-                        new() { Id = 33, Name = "Kofelē", Latitude = "7.06667000", Longitude = "38.78333000" },
-                        new() { Id = 34, Name = "Mēga", Latitude = "4.05000000", Longitude = "38.30000000" },
-                        new() { Id = 35, Name = "Mendī", Latitude = "9.80000000", Longitude = "35.10000000" },
-                        new() { Id = 36, Name = "Metahāra", Latitude = "8.90000000", Longitude = "39.91667000" },
-                        new() { Id = 37, Name = "Metu", Latitude = "8.30000000", Longitude = "35.58333000" },
-                        new() { Id = 38, Name = "Mojo", Latitude = "8.58679000", Longitude = "39.12111000" },
-                        new() { Id = 39, Name = "Nazrēt", Latitude = "8.55000000", Longitude = "39.26667000" },
-                        new() { Id = 40, Name = "Nejo", Latitude = "9.50000000", Longitude = "35.50000000" },
-                        new() { Id = 41, Name = "North Shewa Zone", Latitude = "9.66915000", Longitude = "38.81240000" },
-                        new() { Id = 42, Name = "Sebeta", Latitude = "8.91667000", Longitude = "38.61667000" },
-                        new() { Id = 43, Name = "Sendafa", Latitude = "9.15203000", Longitude = "39.02335000" },
-                        new() { Id = 44, Name = "Shakiso", Latitude = "5.76494000", Longitude = "38.91006000" },
-                        new() { Id = 45, Name = "Shambu", Latitude = "9.56667000", Longitude = "37.10000000" },
-                        new() { Id = 46, Name = "Shashemenē", Latitude = "7.20000000", Longitude = "38.60000000" },
-                        new() { Id = 47, Name = "Sirre", Latitude = "8.31667000", Longitude = "39.48333000" },
-                        new() { Id = 48, Name = "Tulu Bolo", Latitude = "8.66667000", Longitude = "38.21667000" },
-                        new() { Id = 49, Name = "Waliso", Latitude = "8.53417000", Longitude = "37.96515000" },
-                        new() { Id = 50, Name = "Wenjī", Latitude = "8.45000000", Longitude = "39.28333000" },
-                        new() { Id = 51, Name = "West Harerghe Zone", Latitude = "8.67245000", Longitude = "40.84885000" },
-                        new() { Id = 52, Name = "West Wellega Zone", Latitude = "9.17283000", Longitude = "35.05279000" },
-                        new() { Id = 53, Name = "Yabēlo", Latitude = "4.88333000", Longitude = "38.08333000" },
-                        new() { Id = 54, Name = "Ziway", Latitude = "7.93333000", Longitude = "38.71667000" }
+                        new() { Id = 1, Name = "‘Alem T’ēna", Latitude = "8.30000000", Longitude = "38.95000000" },
+                        new() { Id = 2, Name = "Ādīs ‘Alem", Latitude = "9.03333000", Longitude = "38.40000000" },
+                        new() { Id = 3, Name = "Āgaro", Latitude = "7.85000000", Longitude = "36.65000000" },
+                        new() { Id = 4, Name = "Arsi Negele", Latitude = "7.35470000", Longitude = "38.67465000" },
+                        new() { Id = 5, Name = "Arsi Zone", Latitude = "7.50000000", Longitude = "39.50000000" },
+                        new() { Id = 6, Name = "Āsasa", Latitude = "7.10000000", Longitude = "39.20000000" },
+                        new() { Id = 7, Name = "Āsbe Teferī", Latitude = "9.08569000", Longitude = "40.86708000" },
+                        new() { Id = 8, Name = "Āsela", Latitude = "7.95000000", Longitude = "39.13333000" },
+                        new() { Id = 9, Name = "Bale Robe", Latitude = "7.12294000", Longitude = "40.00412000" },
+                        new() { Id = 10, Name = "Bedelē", Latitude = "8.45600000", Longitude = "36.35302000" },
+                        new() { Id = 11, Name = "Bedēsa", Latitude = "8.90000000", Longitude = "40.78333000" },
+                        new() { Id = 12, Name = "Bek’ojī", Latitude = "7.53333000", Longitude = "39.25000000" },
+                        new() { Id = 13, Name = "Bishoftu", Latitude = "8.75225000", Longitude = "38.97846000" },
+                        new() { Id = 14, Name = "Burayu", Latitude = "9.03528000", Longitude = "38.66083000" },
+                        new() { Id = 15, Name = "Deder", Latitude = "9.31168000", Longitude = "41.44301000" },
+                        new() { Id = 16, Name = "Dembī Dolo", Latitude = "8.53333000", Longitude = "34.80000000" },
+                        new() { Id = 17, Name = "Dodola", Latitude = "6.98333000", Longitude = "39.18333000" },
+                        new() { Id = 18, Name = "East Harerghe Zone", Latitude = "8.70114000", Longitude = "42.00241000" },
+                        new() { Id = 19, Name = "East Shewa Zone", Latitude = "8.21353000", Longitude = "38.84809000" },
+                        new() { Id = 20, Name = "East Wellega Zone", Latitude = "9.51928000", Longitude = "36.75762000" },
+                        new() { Id = 21, Name = "Fichē", Latitude = "9.80000000", Longitude = "38.73333000" },
+                        new() { Id = 22, Name = "Gebre Guracha", Latitude = "9.80000000", Longitude = "38.40000000" },
+                        new() { Id = 23, Name = "Gēdo", Latitude = "9.01667000", Longitude = "37.45000000" },
+                        new() { Id = 24, Name = "Gelemso", Latitude = "8.81667000", Longitude = "40.51667000" },
+                        new() { Id = 25, Name = "Genet", Latitude = "9.06667000", Longitude = "38.50000000" },
+                        new() { Id = 26, Name = "Gimbi", Latitude = "9.17031000", Longitude = "35.83491000" },
+                        new() { Id = 27, Name = "Ginir", Latitude = "7.13952000", Longitude = "40.71083000" },
+                        new() { Id = 28, Name = "Goba", Latitude = "7.01667000", Longitude = "39.98333000" },
+                        new() { Id = 29, Name = "Gobēsa", Latitude = "7.61667000", Longitude = "39.50000000" },
+                        new() { Id = 30, Name = "Gorē", Latitude = "8.15000000", Longitude = "35.53333000" },
+                        new() { Id = 31, Name = "Guder", Latitude = "8.97054000", Longitude = "37.76117000" },
+                        new() { Id = 32, Name = "Guji Zone", Latitude = "5.58800000", Longitude = "39.06700000" },
+                        new() { Id = 33, Name = "Hāgere Hiywet", Latitude = "8.98333000", Longitude = "37.85000000" },
+                        new() { Id = 34, Name = "Hagere Maryam", Latitude = "5.63418000", Longitude = "38.23603000" },
+                        new() { Id = 35, Name = "Hīrna", Latitude = "9.21667000", Longitude = "41.10000000" },
+                        new() { Id = 36, Name = "Huruta", Latitude = "8.15000000", Longitude = "39.35000000" },
+                        new() { Id = 37, Name = "Illubabor Zone", Latitude = "8.27526000", Longitude = "35.75596000" },
+                        new() { Id = 38, Name = "Īteya", Latitude = "8.13333000", Longitude = "39.23333000" },
+                        new() { Id = 39, Name = "Jimma", Latitude = "7.67344000", Longitude = "36.83441000" },
+                        new() { Id = 40, Name = "Jimma Zone", Latitude = "7.66667000", Longitude = "37.00000000" },
+                        new() { Id = 41, Name = "Kibre Mengist", Latitude = "5.88333000", Longitude = "38.98333000" },
+                        new() { Id = 42, Name = "Kofelē", Latitude = "7.06667000", Longitude = "38.78333000" },
+                        new() { Id = 43, Name = "Mēga", Latitude = "4.05000000", Longitude = "38.30000000" },
+                        new() { Id = 44, Name = "Mek’ī", Latitude = "8.15000000", Longitude = "38.81667000" },
+                        new() { Id = 45, Name = "Mendī", Latitude = "9.80000000", Longitude = "35.10000000" },
+                        new() { Id = 46, Name = "Metahāra", Latitude = "8.90000000", Longitude = "39.91667000" },
+                        new() { Id = 47, Name = "Metu", Latitude = "8.30000000", Longitude = "35.58333000" },
+                        new() { Id = 48, Name = "Mī’ēso", Latitude = "9.23478000", Longitude = "40.75593000" },
+                        new() { Id = 49, Name = "Mojo", Latitude = "8.58679000", Longitude = "39.12111000" },
+                        new() { Id = 50, Name = "Nazrēt", Latitude = "8.55000000", Longitude = "39.26667000" },
+                        new() { Id = 51, Name = "Negēlē", Latitude = "5.31667000", Longitude = "39.58333000" },
+                        new() { Id = 52, Name = "Nejo", Latitude = "9.50000000", Longitude = "35.50000000" },
+                        new() { Id = 53, Name = "Nek’emtē", Latitude = "9.08333000", Longitude = "36.55000000" },
+                        new() { Id = 54, Name = "North Shewa Zone", Latitude = "9.66915000", Longitude = "38.81240000" },
+                        new() { Id = 55, Name = "Sagurē", Latitude = "7.75000000", Longitude = "39.15000000" },
+                        new() { Id = 56, Name = "Sebeta", Latitude = "8.91667000", Longitude = "38.61667000" },
+                        new() { Id = 57, Name = "Sendafa", Latitude = "9.15203000", Longitude = "39.02335000" },
+                        new() { Id = 58, Name = "Shakiso", Latitude = "5.76494000", Longitude = "38.91006000" },
+                        new() { Id = 59, Name = "Shambu", Latitude = "9.56667000", Longitude = "37.10000000" },
+                        new() { Id = 60, Name = "Shashamane", Latitude = "7.20000000", Longitude = "38.60000000" },
+                        new() { Id = 61, Name = "Sirre", Latitude = "8.31667000", Longitude = "39.48333000" },
+                        new() { Id = 62, Name = "Tulu Bolo", Latitude = "8.66667000", Longitude = "38.21667000" },
+                        new() { Id = 63, Name = "Waliso", Latitude = "8.53417000", Longitude = "37.96515000" },
+                        new() { Id = 64, Name = "Welench’ītī", Latitude = "8.66667000", Longitude = "39.43333000" },
+                        new() { Id = 65, Name = "Wenjī", Latitude = "8.45000000", Longitude = "39.28333000" },
+                        new() { Id = 66, Name = "West Harerghe Zone", Latitude = "8.67245000", Longitude = "40.84885000" },
+                        new() { Id = 67, Name = "West Wellega Zone", Latitude = "9.17283000", Longitude = "35.05279000" },
+                        new() { Id = 68, Name = "Yabēlo", Latitude = "4.88333000", Longitude = "38.08333000" },
+                        new() { Id = 69, Name = "Ziway", Latitude = "7.93333000", Longitude = "38.71667000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 9,
+                    Id = 10,
                     Name = "Sidama",
                     StateCode = "SI",
                     Iso3166_2 = "ET-SI",
@@ -290,19 +340,18 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Dīla", Latitude = "6.41667000", Longitude = "38.31667000" },
-                        new() { Id = 2, Name = "Hāgere Selam", Latitude = "6.48333000", Longitude = "38.51667000" },
-                        new() { Id = 3, Name = "Hawassa", Latitude = "7.06205000", Longitude = "38.47635000" },
-                        new() { Id = 4, Name = "Leku", Latitude = "6.87309000", Longitude = "38.44425000" },
-                        new() { Id = 5, Name = "Sidama Zone", Latitude = "6.71800000", Longitude = "38.44800000" },
-                        new() { Id = 6, Name = "Wendo", Latitude = "6.60000000", Longitude = "38.41667000" },
-                        new() { Id = 7, Name = "Yirga ‘Alem", Latitude = "6.75000000", Longitude = "38.41667000" }
+                        new() { Id = 1, Name = "Hāgere Selam", Latitude = "6.48333000", Longitude = "38.51667000" },
+                        new() { Id = 2, Name = "Hawassa", Latitude = "7.06205000", Longitude = "38.47635000" },
+                        new() { Id = 3, Name = "Leku", Latitude = "6.87309000", Longitude = "38.44425000" },
+                        new() { Id = 4, Name = "Sidama Zone", Latitude = "6.71800000", Longitude = "38.44800000" },
+                        new() { Id = 5, Name = "Wendo", Latitude = "6.60000000", Longitude = "38.41667000" },
+                        new() { Id = 6, Name = "Yirga ‘Alem", Latitude = "6.75000000", Longitude = "38.41667000" }
                     }
                 },
 
                 new()
                 {
-                    Id = 10,
+                    Id = 11,
                     Name = "Somali",
                     StateCode = "SO",
                     Iso3166_2 = "ET-SO",
@@ -313,53 +362,51 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Afder Zone", Latitude = "5.25000000", Longitude = "43.00000000" },
-                        new() { Id = 2, Name = "Degehabur Zone", Latitude = "8.25000000", Longitude = "43.75000000" },
-                        new() { Id = 3, Name = "Gode Zone", Latitude = "6.00000000", Longitude = "43.75000000" },
-                        new() { Id = 4, Name = "Jijiga", Latitude = "9.35000000", Longitude = "42.80000000" },
-                        new() { Id = 5, Name = "Liben zone", Latitude = "4.75000000", Longitude = "40.50000000" },
-                        new() { Id = 6, Name = "Shinile Zone", Latitude = "10.17097000", Longitude = "41.83748000" }
-                    }
-                },
-
-                new()
-                {
-                    Id = 11,
-                    Name = "Southern Nations, Nationalities, and Peoples",
-                    StateCode = "SN",
-                    Iso3166_2 = "ET-SN",
-                    TimeZoneId = "Africa/Addis_Ababa",
-                    Latitude = "6.51569110",
-                    Longitude = "36.95410700",
-                    Type = "region",
-                    Cities = new()
-                    {
-                        new() { Id = 1, Name = "Alaba Special Wereda", Latitude = "7.45347000", Longitude = "38.21189000" },
-                        new() { Id = 2, Name = "Arba Minch", Latitude = "6.03333000", Longitude = "37.55000000" },
-                        new() { Id = 3, Name = "Āreka", Latitude = "7.06667000", Longitude = "37.70000000" },
-                        new() { Id = 4, Name = "Bako", Latitude = "5.78333000", Longitude = "36.56667000" },
-                        new() { Id = 5, Name = "Bodītī", Latitude = "6.96667000", Longitude = "37.86667000" },
-                        new() { Id = 6, Name = "Butajīra", Latitude = "8.11667000", Longitude = "38.36667000" },
-                        new() { Id = 7, Name = "Felege Neway", Latitude = "6.30000000", Longitude = "36.88333000" },
-                        new() { Id = 8, Name = "Gedeo Zone", Latitude = "6.12727000", Longitude = "38.27716000" },
-                        new() { Id = 9, Name = "Gīdolē", Latitude = "5.65000000", Longitude = "37.36667000" },
-                        new() { Id = 10, Name = "Guraghe Zone", Latitude = "8.25000000", Longitude = "38.00000000" },
-                        new() { Id = 11, Name = "Hadiya Zone", Latitude = "7.50000000", Longitude = "37.75000000" },
-                        new() { Id = 12, Name = "Hosa’ina", Latitude = "7.54978000", Longitude = "37.85374000" },
-                        new() { Id = 13, Name = "Jinka", Latitude = "5.65000000", Longitude = "36.65000000" },
-                        new() { Id = 14, Name = "K’olīto", Latitude = "7.31667000", Longitude = "38.08333000" },
-                        new() { Id = 15, Name = "Kembata Alaba Tembaro Zone", Latitude = "7.27039000", Longitude = "37.77887000" },
-                        new() { Id = 16, Name = "Konso", Latitude = "5.25000000", Longitude = "37.48333000" },
-                        new() { Id = 17, Name = "Lobuni", Latitude = "4.83333000", Longitude = "36.10000000" },
-                        new() { Id = 18, Name = "Sodo", Latitude = "6.86000000", Longitude = "37.76159000" },
-                        new() { Id = 19, Name = "Turmi", Latitude = "4.96667000", Longitude = "36.48333000" },
-                        new() { Id = 20, Name = "Wolayita Zone", Latitude = "6.84312000", Longitude = "37.70051000" },
-                        new() { Id = 21, Name = "Yem", Latitude = "7.83333000", Longitude = "37.50000000" }
+                        new() { Id = 2, Name = "Degeh Bur", Latitude = "8.22056000", Longitude = "43.55722000" },
+                        new() { Id = 3, Name = "Degehabur Zone", Latitude = "8.25000000", Longitude = "43.75000000" },
+                        new() { Id = 4, Name = "Gode", Latitude = "5.95056000", Longitude = "43.55186000" },
+                        new() { Id = 5, Name = "Gode Zone", Latitude = "6.00000000", Longitude = "43.75000000" },
+                        new() { Id = 6, Name = "Hartīshēk", Latitude = "9.15722000", Longitude = "43.35417000" },
+                        new() { Id = 7, Name = "Jijiga", Latitude = "9.35000000", Longitude = "42.80000000" },
+                        new() { Id = 8, Name = "Kebri Dahar", Latitude = "6.74000000", Longitude = "44.27806000" },
+                        new() { Id = 9, Name = "Liben zone", Latitude = "4.75000000", Longitude = "40.50000000" },
+                        new() { Id = 10, Name = "Shinile Zone", Latitude = "10.17097000", Longitude = "41.83748000" },
+                        new() { Id = 11, Name = "Warder", Latitude = "6.97444000", Longitude = "45.34083000" }
                     }
                 },
 
                 new()
                 {
                     Id = 12,
+                    Name = "South Ethiopia",
+                    StateCode = "56",
+                    Iso3166_2 = "",
+                    TimeZoneId = "Africa/Addis_Ababa",
+                    Latitude = "6.85294900",
+                    Longitude = "37.75454300",
+                    Type = "region",
+                    Cities = new()
+                    {
+                        new() { Id = 1, Name = "Arba Minch", Latitude = "6.03333000", Longitude = "37.55000000" },
+                        new() { Id = 2, Name = "Āreka", Latitude = "7.06667000", Longitude = "37.70000000" },
+                        new() { Id = 3, Name = "Bako", Latitude = "5.78333000", Longitude = "36.56667000" },
+                        new() { Id = 4, Name = "Bodītī", Latitude = "6.96667000", Longitude = "37.86667000" },
+                        new() { Id = 5, Name = "Dīla", Latitude = "6.41250000", Longitude = "38.31166667" },
+                        new() { Id = 6, Name = "Felege Neway", Latitude = "6.30000000", Longitude = "36.88333000" },
+                        new() { Id = 7, Name = "Gedeo Zone", Latitude = "6.12727000", Longitude = "38.27716000" },
+                        new() { Id = 8, Name = "Gīdolē", Latitude = "5.65000000", Longitude = "37.36667000" },
+                        new() { Id = 9, Name = "Jinka", Latitude = "5.65000000", Longitude = "36.65000000" },
+                        new() { Id = 10, Name = "Konso", Latitude = "5.34166667", Longitude = "37.44166667" },
+                        new() { Id = 11, Name = "Lobuni", Latitude = "4.83333000", Longitude = "36.10000000" },
+                        new() { Id = 12, Name = "Sodo", Latitude = "6.86000000", Longitude = "37.76159000" },
+                        new() { Id = 13, Name = "Turmi", Latitude = "4.96667000", Longitude = "36.48333000" },
+                        new() { Id = 14, Name = "Wolayita Zone", Latitude = "6.84312000", Longitude = "37.70051000" }
+                    }
+                },
+
+                new()
+                {
+                    Id = 13,
                     Name = "Southwest Ethiopia Peoples",
                     StateCode = "SW",
                     Iso3166_2 = "ET-SW",
@@ -379,7 +426,7 @@ namespace ShowsOnSale.World.Data.Countries
 
                 new()
                 {
-                    Id = 13,
+                    Id = 14,
                     Name = "Tigray",
                     StateCode = "TI",
                     Iso3166_2 = "ET-TI",
@@ -390,13 +437,17 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ādīgrat", Latitude = "14.27700000", Longitude = "39.46200000" },
-                        new() { Id = 2, Name = "Axum", Latitude = "14.12109000", Longitude = "38.72337000" },
-                        new() { Id = 3, Name = "Inda Silasē", Latitude = "14.10307000", Longitude = "38.28289000" },
-                        new() { Id = 4, Name = "Korem", Latitude = "12.50583000", Longitude = "39.52278000" },
-                        new() { Id = 5, Name = "Maych’ew", Latitude = "12.78750000", Longitude = "39.54222000" },
-                        new() { Id = 6, Name = "Mek'ele", Latitude = "13.49667000", Longitude = "39.47528000" },
-                        new() { Id = 7, Name = "Southeastern Tigray Zone", Latitude = "13.24797000", Longitude = "39.53156000" },
-                        new() { Id = 8, Name = "Southern Tigray Zone", Latitude = "12.96033000", Longitude = "39.52831000" }
+                        new() { Id = 2, Name = "Adwa", Latitude = "14.16347000", Longitude = "38.89924000" },
+                        new() { Id = 3, Name = "Alamata", Latitude = "12.41600000", Longitude = "39.55971000" },
+                        new() { Id = 4, Name = "Axum", Latitude = "14.12109000", Longitude = "38.72337000" },
+                        new() { Id = 5, Name = "Idaga Hamus", Latitude = "14.18722000", Longitude = "39.56389000" },
+                        new() { Id = 6, Name = "Inda Silasē", Latitude = "14.10307000", Longitude = "38.28289000" },
+                        new() { Id = 7, Name = "Intich’o", Latitude = "14.27889000", Longitude = "39.15000000" },
+                        new() { Id = 8, Name = "Korem", Latitude = "12.50583000", Longitude = "39.52278000" },
+                        new() { Id = 9, Name = "Maych’ew", Latitude = "12.78750000", Longitude = "39.54222000" },
+                        new() { Id = 10, Name = "Mek'ele", Latitude = "13.49667000", Longitude = "39.47528000" },
+                        new() { Id = 11, Name = "Southeastern Tigray Zone", Latitude = "13.24797000", Longitude = "39.53156000" },
+                        new() { Id = 12, Name = "Southern Tigray Zone", Latitude = "12.96033000", Longitude = "39.52831000" }
                     }
                 }
             }
