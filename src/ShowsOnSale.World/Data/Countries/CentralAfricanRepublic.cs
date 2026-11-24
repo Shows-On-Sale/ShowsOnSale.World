@@ -158,7 +158,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "prefecture",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Sibut", Latitude = "5.71801000", Longitude = "19.07389000" }
+                        new() { Id = 1, Name = "Dekoa", Latitude = "6.32229000", Longitude = "19.07922000" },
+                        new() { Id = 2, Name = "Sibut", Latitude = "5.71801000", Longitude = "19.07389000" }
                     }
                 },
 
@@ -174,10 +175,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "prefecture",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Boda", Latitude = "4.31887000", Longitude = "17.46953000" },
-                        new() { Id = 2, Name = "Boganangone", Latitude = "4.73558000", Longitude = "17.14047000" },
-                        new() { Id = 3, Name = "Mbaiki", Latitude = "3.97145000", Longitude = "17.93352000" },
-                        new() { Id = 4, Name = "Mongoumba", Latitude = "3.64153000", Longitude = "18.59364000" }
+                        new() { Id = 1, Name = "Bobangui", Latitude = "4.05000000", Longitude = "18.11667000" },
+                        new() { Id = 2, Name = "Boda", Latitude = "4.31887000", Longitude = "17.46953000" },
+                        new() { Id = 3, Name = "Boganangone", Latitude = "4.73558000", Longitude = "17.14047000" },
+                        new() { Id = 4, Name = "Mbaiki", Latitude = "3.97145000", Longitude = "17.93352000" },
+                        new() { Id = 5, Name = "Mongoumba", Latitude = "3.64153000", Longitude = "18.59364000" }
                     }
                 },
 
@@ -230,7 +232,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "economic prefecture",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Kaga Bandoro", Latitude = "6.98961000", Longitude = "19.18744000" }
+                        new() { Id = 1, Name = "Kaga-Bandoro", Latitude = "6.98961000", Longitude = "19.18744000" }
                     }
                 },
 
@@ -265,7 +267,9 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Bimbo", Latitude = "4.25671000", Longitude = "18.41583000" },
                         new() { Id = 2, Name = "Boali", Latitude = "4.80048000", Longitude = "18.12747000" },
-                        new() { Id = 3, Name = "Damara", Latitude = "4.96075000", Longitude = "18.70350000" }
+                        new() { Id = 3, Name = "Bossembélé", Latitude = "5.26667000", Longitude = "17.65000000" },
+                        new() { Id = 4, Name = "Damara", Latitude = "4.96075000", Longitude = "18.70350000" },
+                        new() { Id = 5, Name = "Yaloké", Latitude = "5.31953000", Longitude = "17.10114000" }
                     }
                 },
 

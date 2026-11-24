@@ -120,6 +120,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "parish",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Basseterre", Latitude = "17.29550000", Longitude = "-62.72499000" }
                     }
                 },
 

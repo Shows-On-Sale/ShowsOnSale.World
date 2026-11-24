@@ -223,10 +223,11 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Chisinau", Latitude = "47.00556000", Longitude = "28.85750000" },
                         new() { Id = 2, Name = "Ciorescu", Latitude = "47.13000000", Longitude = "28.88937000" },
                         new() { Id = 3, Name = "Cricova", Latitude = "47.13835000", Longitude = "28.86156000" },
-                        new() { Id = 4, Name = "Sîngera", Latitude = "46.91557000", Longitude = "28.96673000" },
-                        new() { Id = 5, Name = "Stăuceni", Latitude = "47.09643000", Longitude = "28.86791000" },
-                        new() { Id = 6, Name = "Vadul lui Vodă", Latitude = "47.09009000", Longitude = "29.07570000" },
-                        new() { Id = 7, Name = "Vatra", Latitude = "47.07460000", Longitude = "28.73685000" }
+                        new() { Id = 4, Name = "Durleşti", Latitude = "47.02156000", Longitude = "28.76303000" },
+                        new() { Id = 5, Name = "Sîngera", Latitude = "46.91557000", Longitude = "28.96673000" },
+                        new() { Id = 6, Name = "Stăuceni", Latitude = "47.09643000", Longitude = "28.86791000" },
+                        new() { Id = 7, Name = "Vadul lui Vodă", Latitude = "47.09009000", Longitude = "29.07570000" },
+                        new() { Id = 8, Name = "Vatra", Latitude = "47.07460000", Longitude = "28.73685000" }
                     }
                 },
 
