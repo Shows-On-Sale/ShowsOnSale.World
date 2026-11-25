@@ -56,7 +56,7 @@ namespace ShowsOnSale.World.Data.Countries
                 ["uk"] = "Камерун",
                 ["pl"] = "Kamerun",
                 ["hi"] = "कैमरून",
-                ["ar"] = " "
+                ["ar"] = "الكاميرون"
             },
             States = new()
             {
@@ -207,9 +207,10 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 11, Name = "Mouanko", Latitude = "3.63972000", Longitude = "9.77694000" },
                         new() { Id = 12, Name = "Ndom", Latitude = "4.49780000", Longitude = "9.56280000" },
                         new() { Id = 13, Name = "Ngambé", Latitude = "4.23343000", Longitude = "10.61532000" },
-                        new() { Id = 14, Name = "Nkongsamba", Latitude = "4.95470000", Longitude = "9.94040000" },
-                        new() { Id = 15, Name = "Penja", Latitude = "4.63911000", Longitude = "9.67987000" },
-                        new() { Id = 16, Name = "Yabassi", Latitude = "4.45697000", Longitude = "9.96822000" }
+                        new() { Id = 14, Name = "Njombé", Latitude = "4.58056000", Longitude = "9.66472000" },
+                        new() { Id = 15, Name = "Nkongsamba", Latitude = "4.95470000", Longitude = "9.94040000" },
+                        new() { Id = 16, Name = "Penja", Latitude = "4.63911000", Longitude = "9.67987000" },
+                        new() { Id = 17, Name = "Yabassi", Latitude = "4.45697000", Longitude = "9.96822000" }
                     }
                 },
 
@@ -234,7 +235,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 7, Name = "Pitoa", Latitude = "9.38390000", Longitude = "13.50231000" },
                         new() { Id = 8, Name = "Poli", Latitude = "8.47560000", Longitude = "13.24097000" },
                         new() { Id = 9, Name = "Rey Bouba", Latitude = "8.67240000", Longitude = "14.17860000" },
-                        new() { Id = 10, Name = "Tcholliré", Latitude = "8.40220000", Longitude = "14.16980000" }
+                        new() { Id = 10, Name = "Tcholliré", Latitude = "8.40220000", Longitude = "14.16980000" },
+                        new() { Id = 11, Name = "Touboro", Latitude = "7.77080000", Longitude = "15.35680000" }
                     }
                 },
 
