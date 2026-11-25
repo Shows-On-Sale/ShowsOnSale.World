@@ -34,7 +34,7 @@ namespace ShowsOnSale.World.Data.Countries
             EmojiU = "U+1F1F8 U+1F1E9",
             Timezones = new()
             {
-                new() { ZoneName = "Africa/Khartoum", GmtOffset = 7200, GmtOffsetName = "UTC+02:00", Abbreviation = "EAT", TzName = "Eastern African Time" }
+                new() { ZoneName = "Africa/Khartoum", GmtOffset = 7200, GmtOffsetName = "UTC+02:00", Abbreviation = "CAT", TzName = "Central Africa Time" }
             },
             Translations = new()
             {
@@ -114,7 +114,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Ad-Damazin", Latitude = "11.78910000", Longitude = "34.35920000" },
-                        new() { Id = 2, Name = "Ar Ruseris", Latitude = "11.86590000", Longitude = "34.38690000" },
+                        new() { Id = 2, Name = "Er Roseires", Latitude = "11.86590000", Longitude = "34.38690000" },
                         new() { Id = 3, Name = "Kurmuk", Latitude = "10.55000000", Longitude = "34.28333000" }
                     }
                 },
@@ -165,7 +165,8 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Aroma", Latitude = "15.81667000", Longitude = "36.13333000" },
                         new() { Id = 2, Name = "Kassala", Latitude = "15.45099000", Longitude = "36.39998000" },
-                        new() { Id = 3, Name = "Wagar", Latitude = "16.15250000", Longitude = "36.20320000" }
+                        new() { Id = 3, Name = "New Halfa", Latitude = "15.33021000", Longitude = "35.59854000" },
+                        new() { Id = 4, Name = "Wagar", Latitude = "16.15250000", Longitude = "36.20320000" }
                     }
                 },
 
@@ -240,7 +241,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 3, Name = "Dongola", Latitude = "19.18163000", Longitude = "30.47689000" },
                         new() { Id = 4, Name = "Karmah an Nuzul", Latitude = "19.63333000", Longitude = "30.41667000" },
                         new() { Id = 5, Name = "Kuraymah", Latitude = "18.55000000", Longitude = "31.85000000" },
-                        new() { Id = 6, Name = "Merowe", Latitude = "18.47036000", Longitude = "31.81126000" }
+                        new() { Id = 6, Name = "Merowe", Latitude = "18.47036000", Longitude = "31.81126000" },
+                        new() { Id = 7, Name = "Wadi Halfa", Latitude = "21.79577000", Longitude = "31.37129000" }
                     }
                 },
 
@@ -258,8 +260,9 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Gebeit", Latitude = "21.06667000", Longitude = "36.31667000" },
                         new() { Id = 2, Name = "Port Sudan", Latitude = "19.61745000", Longitude = "37.21644000" },
-                        new() { Id = 3, Name = "Sawākin", Latitude = "19.10590000", Longitude = "37.33210000" },
-                        new() { Id = 4, Name = "Tokār", Latitude = "18.42540000", Longitude = "37.72900000" }
+                        new() { Id = 3, Name = "Sinkat", Latitude = "18.84050000", Longitude = "36.83510000" },
+                        new() { Id = 4, Name = "Suakin", Latitude = "19.10590000", Longitude = "37.33210000" },
+                        new() { Id = 5, Name = "Tokār", Latitude = "18.42540000", Longitude = "37.72900000" }
                     }
                 },
 
@@ -275,9 +278,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "state",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Atbara", Latitude = "17.70217000", Longitude = "33.98638000" },
-                        new() { Id = 2, Name = "Berber", Latitude = "18.02158000", Longitude = "33.98299000" },
-                        new() { Id = 3, Name = "Ed Damer", Latitude = "17.59898000", Longitude = "33.97205000" },
+                        new() { Id = 1, Name = "Ad-Damir", Latitude = "17.59898000", Longitude = "33.97205000" },
+                        new() { Id = 2, Name = "Atbara", Latitude = "17.70217000", Longitude = "33.98638000" },
+                        new() { Id = 3, Name = "Berber", Latitude = "18.02158000", Longitude = "33.98299000" },
                         new() { Id = 4, Name = "El Bauga", Latitude = "18.26197000", Longitude = "33.90812000" },
                         new() { Id = 5, Name = "El Matama", Latitude = "16.70950000", Longitude = "33.35650000" },
                         new() { Id = 6, Name = "Shendi", Latitude = "16.69150000", Longitude = "33.43410000" }
@@ -374,7 +377,8 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Abū Zabad", Latitude = "12.35000000", Longitude = "29.25000000" },
                         new() { Id = 2, Name = "Al Lagowa", Latitude = "11.40000000", Longitude = "29.13333000" },
                         new() { Id = 3, Name = "Al Mijlad", Latitude = "11.03333000", Longitude = "27.73333000" },
-                        new() { Id = 4, Name = "An Nuhūd", Latitude = "12.70000000", Longitude = "28.43333000" }
+                        new() { Id = 4, Name = "An Nuhūd", Latitude = "12.70000000", Longitude = "28.43333000" },
+                        new() { Id = 5, Name = "Babanūsah", Latitude = "11.33333000", Longitude = "27.80000000" }
                     }
                 },
 
