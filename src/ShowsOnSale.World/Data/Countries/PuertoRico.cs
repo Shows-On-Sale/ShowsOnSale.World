@@ -200,7 +200,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Barceloneta", Latitude = "41.38010610", Longitude = "2.18969570" }
+                        new() { Id = 1, Name = "Barceloneta", Latitude = "18.45055556", Longitude = "-66.53861111" }
                     }
                 },
 
@@ -248,7 +248,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Cabo Rojo", Latitude = "18.08662650", Longitude = "-67.14573470" }
+                        new() { Id = 1, Name = "Boquerón Cabo Rojo", Latitude = "18.02691000", Longitude = "-67.16907000" },
+                        new() { Id = 2, Name = "Cabo Rojo", Latitude = "18.08662650", Longitude = "-67.14573470" }
                     }
                 },
 
@@ -440,7 +441,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Corozal", Latitude = "18.40308020", Longitude = "-88.39675360" }
+                        new() { Id = 1, Name = "Corozal", Latitude = "18.30416667", Longitude = "-66.32777778" }
                     }
                 },
 
@@ -472,7 +473,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Dorado", Latitude = "43.14805560", Longitude = "-77.57722220" }
+                        new() { Id = 1, Name = "Dorado", Latitude = "18.45888889", Longitude = "-66.26777778" }
                     }
                 },
 
@@ -504,7 +505,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Florida", Latitude = "27.66482740", Longitude = "-81.51575350" }
+                        new() { Id = 1, Name = "Florida", Latitude = "18.37333333", Longitude = "-66.56000000" }
                     }
                 },
 
@@ -648,7 +649,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Isabela", Latitude = "16.97537580", Longitude = "121.81070790" }
+                        new() { Id = 1, Name = "Isabela", Latitude = "18.51305556", Longitude = "-67.07000000" }
                     }
                 },
 
@@ -728,7 +729,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Lares", Latitude = "34.02508020", Longitude = "-118.45945930" }
+                        new() { Id = 1, Name = "Lares", Latitude = "18.29500000", Longitude = "-66.87861111" }
                     }
                 },
 
@@ -744,7 +745,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Las Marías", Latitude = "35.83822380", Longitude = "-78.61035660" }
+                        new() { Id = 1, Name = "Las Marías", Latitude = "18.25138889", Longitude = "-66.99333333" }
                     }
                 },
 
@@ -1032,7 +1033,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Río Grande", Latitude = "28.81063826", Longitude = "-101.83538780" }
+                        new() { Id = 1, Name = "Río Grande", Latitude = "18.38027778", Longitude = "-65.83138889" }
                     }
                 },
 
@@ -1064,7 +1065,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Salinas", Latitude = "36.67773720", Longitude = "-121.65550130" }
+                        new() { Id = 1, Name = "Salinas", Latitude = "18.01722222", Longitude = "-66.25361111" }
                     }
                 },
 
@@ -1096,7 +1097,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "region",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "San Juan", Latitude = "18.46320300", Longitude = "-66.11475710" }
+                        new() { Id = 1, Name = "Río Piedras", Latitude = "18.39972222", Longitude = "-66.05000000" },
+                        new() { Id = 2, Name = "San Juan", Latitude = "18.46320300", Longitude = "-66.11475710" }
                     }
                 },
 
@@ -1128,7 +1130,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "municipality",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "San Sebastián", Latitude = "43.31833400", Longitude = "-1.98123130" }
+                        new() { Id = 1, Name = "San Sebastián", Latitude = "18.33722222", Longitude = "-66.99055556" }
                     }
                 },
 

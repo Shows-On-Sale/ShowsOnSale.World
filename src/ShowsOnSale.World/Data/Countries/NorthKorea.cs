@@ -44,7 +44,7 @@ namespace ShowsOnSale.World.Data.Countries
                 ["pt"] = "Coreia do Norte",
                 ["nl"] = "Noord-Korea",
                 ["hr"] = "Sjeverna Koreja",
-                ["fa"] = "کره جنوبی",
+                ["fa"] = "کرهٔ شمالی",
                 ["de"] = "Nordkorea",
                 ["es"] = "Corea del Norte",
                 ["fr"] = "Corée du Nord",
@@ -326,13 +326,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Anju", Latitude = "39.61778000", Longitude = "125.66472000" },
-                        new() { Id = 2, Name = "Namp’o", Latitude = "38.73750000", Longitude = "125.40778000" },
-                        new() { Id = 3, Name = "P’yŏngsŏng", Latitude = "39.24639000", Longitude = "125.87194000" },
-                        new() { Id = 4, Name = "Sangsŏng-ni", Latitude = "39.16944000", Longitude = "126.88556000" },
-                        new() { Id = 5, Name = "Sil-li", Latitude = "39.49472000", Longitude = "125.47361000" },
-                        new() { Id = 6, Name = "Sinanju", Latitude = "39.59806000", Longitude = "125.60972000" },
-                        new() { Id = 7, Name = "Sunch’ŏn", Latitude = "39.43167000", Longitude = "125.93278000" },
-                        new() { Id = 8, Name = "Yonggang-ŭp", Latitude = "38.85611000", Longitude = "125.42444000" }
+                        new() { Id = 2, Name = "Kaech’ŏn", Latitude = "39.70056000", Longitude = "125.89333000" },
+                        new() { Id = 3, Name = "Namp’o", Latitude = "38.73750000", Longitude = "125.40778000" },
+                        new() { Id = 4, Name = "P’yŏngsŏng", Latitude = "39.24639000", Longitude = "125.87194000" },
+                        new() { Id = 5, Name = "Sangsŏng-ni", Latitude = "39.16944000", Longitude = "126.88556000" },
+                        new() { Id = 6, Name = "Sil-li", Latitude = "39.49472000", Longitude = "125.47361000" },
+                        new() { Id = 7, Name = "Sinanju", Latitude = "39.59806000", Longitude = "125.60972000" },
+                        new() { Id = 8, Name = "Sunch’ŏn", Latitude = "39.43167000", Longitude = "125.93278000" },
+                        new() { Id = 9, Name = "Tŏkch’ŏn", Latitude = "39.75261000", Longitude = "126.25798000" },
+                        new() { Id = 10, Name = "Yonggang-ŭp", Latitude = "38.85611000", Longitude = "125.42444000" }
                     }
                 }
             }
