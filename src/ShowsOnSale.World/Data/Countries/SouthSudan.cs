@@ -34,7 +34,7 @@ namespace ShowsOnSale.World.Data.Countries
             EmojiU = "U+1F1F8 U+1F1F8",
             Timezones = new()
             {
-                new() { ZoneName = "Africa/Juba", GmtOffset = 10800, GmtOffsetName = "UTC+03:00", Abbreviation = "EAT", TzName = "East Africa Time" }
+                new() { ZoneName = "Africa/Juba", GmtOffset = 7200, GmtOffsetName = "UTC+02:00", Abbreviation = "CAT", TzName = "Central Africa Time" }
             },
             Translations = new()
             {
@@ -73,6 +73,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "state",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Juba", Latitude = "4.85165000", Longitude = "31.58247000" },
+                        new() { Id = 2, Name = "Yei", Latitude = "4.09444000", Longitude = "30.67639000" }
                     }
                 },
 
@@ -88,6 +90,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "state",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Pajok", Latitude = "3.86512000", Longitude = "32.48212000" },
+                        new() { Id = 2, Name = "Torit", Latitude = "4.41177000", Longitude = "32.57046000" }
                     }
                 },
 
@@ -103,6 +107,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "state",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Bor", Latitude = "6.20889000", Longitude = "31.55861000" }
                     }
                 },
 
@@ -118,7 +123,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "state",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Yirol", Latitude = "6.55250000", Longitude = "30.49806000" }
+                        new() { Id = 1, Name = "Rumbek", Latitude = "6.80619000", Longitude = "29.67742000" },
+                        new() { Id = 2, Name = "Yirol", Latitude = "6.55250000", Longitude = "30.49806000" }
                     }
                 },
 
@@ -134,6 +140,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "state",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Aweil", Latitude = "8.76194000", Longitude = "27.39194000" }
                     }
                 },
 
@@ -149,6 +156,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "state",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Bentiu", Latitude = "9.25722000", Longitude = "29.79833000" },
+                        new() { Id = 2, Name = "Leer", Latitude = "8.30306000", Longitude = "30.14056000" }
                     }
                 },
 
@@ -164,6 +173,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "state",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Malakal", Latitude = "9.53342000", Longitude = "31.66049000" }
                     }
                 },
 
@@ -179,6 +189,9 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "state",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Gogrial", Latitude = "8.53324000", Longitude = "28.10037000" },
+                        new() { Id = 2, Name = "Kuacjok", Latitude = "8.30278000", Longitude = "27.98000000" },
+                        new() { Id = 3, Name = "Tonj", Latitude = "7.27389000", Longitude = "28.67750000" }
                     }
                 },
 
@@ -194,6 +207,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "state",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Wau", Latitude = "7.70111000", Longitude = "27.98972000" }
                     }
                 },
 
