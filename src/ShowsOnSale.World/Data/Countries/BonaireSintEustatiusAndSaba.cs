@@ -21,7 +21,7 @@ namespace ShowsOnSale.World.Data.Countries
             Currency = "USD",
             CurrencyName = "United States dollar",
             CurrencySymbol = "$",
-            Tld = ".an",
+            Tld = ".bq",
             Native = "Caribisch Nederland",
             Region = "Americas",
             RegionId = 2,
@@ -34,7 +34,7 @@ namespace ShowsOnSale.World.Data.Countries
             EmojiU = "U+1F1E7 U+1F1F6",
             Timezones = new()
             {
-                new() { ZoneName = "America/Curacao", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" }
+                new() { ZoneName = "America/Kralendijk", GmtOffset = -14400, GmtOffsetName = "UTC-04:00", Abbreviation = "AST", TzName = "Atlantic Standard Time" }
             },
             Translations = new()
             {
@@ -62,7 +62,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 1,
                     Name = "Bonaire",
                     StateCode = "BQ1",
-                    Iso3166_2 = "BQ-BQ1",
+                    Iso3166_2 = "BQ-BO",
                     TimeZoneId = "America/Curacao",
                     Latitude = "12.20189020",
                     Longitude = "-68.26238220",
@@ -71,12 +71,9 @@ namespace ShowsOnSale.World.Data.Countries
                     {
                         new() { Id = 1, Name = "Boven Bolivia", Latitude = "12.18190000", Longitude = "-68.21810000" },
                         new() { Id = 2, Name = "Dorp Tera Kora", Latitude = "12.13333000", Longitude = "-68.26667000" },
-                        new() { Id = 3, Name = "Oranjestad", Latitude = "17.48333333", Longitude = "-62.98333333" },
-                        new() { Id = 4, Name = "Rincon", Latitude = "12.23833333", Longitude = "-68.33250000" },
-                        new() { Id = 5, Name = "St. Johns", Latitude = "17.62100750", Longitude = "-63.24316830" },
-                        new() { Id = 6, Name = "The Bottom", Latitude = "17.62611111", Longitude = "-63.24916667" },
-                        new() { Id = 7, Name = "Windwardside", Latitude = "17.62864000", Longitude = "-63.23136000" },
-                        new() { Id = 8, Name = "Zion's Hill", Latitude = "17.64300000", Longitude = "-63.22649000" }
+                        new() { Id = 3, Name = "Rincon", Latitude = "12.23833333", Longitude = "-68.33250000" },
+                        new() { Id = 4, Name = "St. Johns", Latitude = "17.62100750", Longitude = "-63.24316830" },
+                        new() { Id = 5, Name = "Zion's Hill", Latitude = "17.64300000", Longitude = "-63.22649000" }
                     }
                 },
 
@@ -85,13 +82,15 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 2,
                     Name = "Saba",
                     StateCode = "BQ2",
-                    Iso3166_2 = "BQ-BQ2",
+                    Iso3166_2 = "BQ-SA",
                     TimeZoneId = "America/Curacao",
                     Latitude = "17.63546420",
                     Longitude = "-63.23267630",
                     Type = "special municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "The Bottom", Latitude = "17.62611111", Longitude = "-63.24916667" },
+                        new() { Id = 2, Name = "Windwardside", Latitude = "17.62864000", Longitude = "-63.23136000" }
                     }
                 },
 
@@ -100,13 +99,14 @@ namespace ShowsOnSale.World.Data.Countries
                     Id = 3,
                     Name = "Sint Eustatius",
                     StateCode = "BQ3",
-                    Iso3166_2 = "BQ-BQ3",
+                    Iso3166_2 = "BQ-SE",
                     TimeZoneId = "America/Curacao",
                     Latitude = "17.48903060",
                     Longitude = "-62.97355500",
                     Type = "special municipality",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Oranjestad", Latitude = "17.48333333", Longitude = "-62.98333333" }
                     }
                 }
             }
