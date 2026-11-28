@@ -18,9 +18,9 @@ namespace ShowsOnSale.World.Data.Countries
             NumericCode = "178",
             PhoneCode = "242",
             Capital = "Brazzaville",
-            Currency = "CDF",
-            CurrencyName = "Congolese Franc",
-            CurrencySymbol = "FC",
+            Currency = "XAF",
+            CurrencyName = "Central African CFA franc",
+            CurrencySymbol = "FCFA",
             Tld = ".cg",
             Native = "République du Congo",
             Region = "Africa",
@@ -73,8 +73,12 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "department",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Kayes", Latitude = "-4.20493000", Longitude = "13.28608000" },
-                        new() { Id = 2, Name = "Madingou", Latitude = "-4.15361000", Longitude = "13.55000000" }
+                        new() { Id = 1, Name = "Bouansa", Latitude = "-4.21861000", Longitude = "13.76167000" },
+                        new() { Id = 2, Name = "Kayes", Latitude = "-4.20493000", Longitude = "13.28608000" },
+                        new() { Id = 3, Name = "Loutété", Latitude = "-4.29611000", Longitude = "13.85083000" },
+                        new() { Id = 4, Name = "Madingou", Latitude = "-4.15361000", Longitude = "13.55000000" },
+                        new() { Id = 5, Name = "Mouyondzi", Latitude = "-3.99437000", Longitude = "13.92719000" },
+                        new() { Id = 6, Name = "Nkayi", Latitude = "-4.18396000", Longitude = "13.28590000" }
                     }
                 },
 
@@ -107,7 +111,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Makoua", Latitude = "0.00694000", Longitude = "15.63333000" },
-                        new() { Id = 2, Name = "Owando", Latitude = "-0.48193000", Longitude = "15.89988000" }
+                        new() { Id = 2, Name = "Owando", Latitude = "-0.48193000", Longitude = "15.89988000" },
+                        new() { Id = 3, Name = "Oyo", Latitude = "-1.16500000", Longitude = "15.97000000" }
                     }
                 },
 
@@ -139,6 +144,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "department",
                     Cities = new()
                     {
+                        new() { Id = 1, Name = "Loango", Latitude = "-4.65602000", Longitude = "11.81032000" }
                     }
                 },
 
@@ -170,7 +176,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "department",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Impfondo", Latitude = "1.61804000", Longitude = "18.05981000" }
+                        new() { Id = 1, Name = "Bétou", Latitude = "3.05500000", Longitude = "18.51722000" },
+                        new() { Id = 2, Name = "Impfondo", Latitude = "1.61804000", Longitude = "18.05981000" }
                     }
                 },
 

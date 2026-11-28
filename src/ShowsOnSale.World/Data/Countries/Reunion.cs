@@ -74,11 +74,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Bras-Panon", Latitude = "-21.03158160", Longitude = "55.54416340" },
-                        new() { Id = 2, Name = "La Plaine-des-Palmistes", Latitude = "-21.15295070", Longitude = "55.56180140" },
-                        new() { Id = 3, Name = "Saint-André", Latitude = "-20.95677270", Longitude = "55.55486740" },
-                        new() { Id = 4, Name = "Saint-Benoît", Latitude = "-21.08859460", Longitude = "55.46640760" },
-                        new() { Id = 5, Name = "Sainte-Rose", Latitude = "-21.17782890", Longitude = "55.65939810" },
-                        new() { Id = 6, Name = "Salazie", Latitude = "-21.05240970", Longitude = "55.43213370" }
+                        new() { Id = 2, Name = "La Plaine-des-Palmistes", Latitude = "-21.13500000", Longitude = "55.62555556" },
+                        new() { Id = 3, Name = "Saint-André", Latitude = "-20.96055556", Longitude = "55.65055556" },
+                        new() { Id = 4, Name = "Saint-Benoît", Latitude = "-21.03388889", Longitude = "55.71277778" },
+                        new() { Id = 5, Name = "Sainte-Rose", Latitude = "-21.12722222", Longitude = "55.79222222" },
+                        new() { Id = 6, Name = "Salazie", Latitude = "-21.02750000", Longitude = "55.54000000" }
                     }
                 },
 
@@ -95,8 +95,8 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Saint-Denis", Latitude = "-20.96456720", Longitude = "55.41835300" },
-                        new() { Id = 2, Name = "Sainte-Marie", Latitude = "-20.94628420", Longitude = "55.44095870" },
-                        new() { Id = 3, Name = "Sainte-Suzanne", Latitude = "-20.95063790", Longitude = "55.51114750" }
+                        new() { Id = 2, Name = "Sainte-Marie", Latitude = "-20.89694444", Longitude = "55.54916667" },
+                        new() { Id = 3, Name = "Sainte-Suzanne", Latitude = "-20.90555556", Longitude = "55.60722222" }
                     }
                 },
 
@@ -112,11 +112,11 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "La Possession", Latitude = "-20.99667150", Longitude = "55.30941960" },
+                        new() { Id = 1, Name = "La Possession", Latitude = "-20.92638889", Longitude = "55.33583333" },
                         new() { Id = 2, Name = "Le Port", Latitude = "-20.94599810", Longitude = "55.26258390" },
                         new() { Id = 3, Name = "Les Trois-Bassins", Latitude = "-21.11380650", Longitude = "55.25534670" },
                         new() { Id = 4, Name = "Saint-Leu", Latitude = "-21.18153740", Longitude = "55.26075530" },
-                        new() { Id = 5, Name = "Saint-Paul", Latitude = "-21.03656340", Longitude = "55.17542230" }
+                        new() { Id = 5, Name = "Saint-Paul", Latitude = "-21.00972222", Longitude = "55.26972222" }
                     }
                 },
 
@@ -132,16 +132,16 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Cilaos", Latitude = "-21.14026750", Longitude = "55.37314150" },
+                        new() { Id = 1, Name = "Cilaos", Latitude = "-21.13527778", Longitude = "55.47111111" },
                         new() { Id = 2, Name = "Entre-Deux", Latitude = "-21.21073870", Longitude = "55.41125940" },
                         new() { Id = 3, Name = "L'Étang-Salé", Latitude = "-21.23474080", Longitude = "55.31636860" },
-                        new() { Id = 4, Name = "Le Tampon", Latitude = "-21.22500920", Longitude = "55.48765410" },
+                        new() { Id = 4, Name = "Le Tampon", Latitude = "-21.27805556", Longitude = "55.51527778" },
                         new() { Id = 5, Name = "Les Avirons", Latitude = "-21.20186830", Longitude = "55.32166090" },
                         new() { Id = 6, Name = "Petite-Île", Latitude = "-21.33296780", Longitude = "55.52942050" },
-                        new() { Id = 7, Name = "Saint-Joseph", Latitude = "-21.29211860", Longitude = "55.56161730" },
-                        new() { Id = 8, Name = "Saint-Louis", Latitude = "-21.22548290", Longitude = "55.34004400" },
-                        new() { Id = 9, Name = "Saint-Philippe", Latitude = "-21.30837500", Longitude = "55.66118340" },
-                        new() { Id = 10, Name = "Saint-Pierre", Latitude = "-21.30893030", Longitude = "55.33953130" }
+                        new() { Id = 7, Name = "Saint-Joseph", Latitude = "-21.37861111", Longitude = "55.61916667" },
+                        new() { Id = 8, Name = "Saint-Louis", Latitude = "-21.28666667", Longitude = "55.40916667" },
+                        new() { Id = 9, Name = "Saint-Philippe", Latitude = "-21.35944444", Longitude = "55.76777778" },
+                        new() { Id = 10, Name = "Saint-Pierre", Latitude = "-21.34194444", Longitude = "55.47777778" }
                     }
                 }
             }

@@ -105,7 +105,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Type = "district",
                     Cities = new()
                     {
-                        new() { Id = 1, Name = "Leribe", Latitude = "-28.87185000", Longitude = "28.04501000" },
+                        new() { Id = 1, Name = "Hlotse", Latitude = "-28.87185000", Longitude = "28.04501000" },
                         new() { Id = 2, Name = "Maputsoe", Latitude = "-28.88660000", Longitude = "27.89915000" }
                     }
                 },

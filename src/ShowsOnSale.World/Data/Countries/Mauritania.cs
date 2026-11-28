@@ -198,8 +198,7 @@ namespace ShowsOnSale.World.Data.Countries
                     Cities = new()
                     {
                         new() { Id = 1, Name = "Aioun", Latitude = "16.66140000", Longitude = "-9.61490000" },
-                        new() { Id = 2, Name = "Ayoun el Atrous", Latitude = "16.66666667", Longitude = "-9.61666667" },
-                        new() { Id = 3, Name = "Togba", Latitude = "17.40000000", Longitude = "-10.36666667" }
+                        new() { Id = 2, Name = "Togba", Latitude = "17.40000000", Longitude = "-10.36666667" }
                     }
                 },
 
@@ -305,8 +304,7 @@ namespace ShowsOnSale.World.Data.Countries
                         new() { Id = 1, Name = "Ain Ben Tili", Latitude = "25.99444444", Longitude = "-9.55333333" },
                         new() { Id = 2, Name = "Chegga", Latitude = "25.37194444", Longitude = "-5.78666667" },
                         new() { Id = 3, Name = "Fderîck", Latitude = "22.67777778", Longitude = "-12.70750000" },
-                        new() { Id = 4, Name = "Zouérat", Latitude = "22.73444444", Longitude = "-12.47250000" },
-                        new() { Id = 5, Name = "Zouerate", Latitude = "22.73542000", Longitude = "-12.47134000" }
+                        new() { Id = 4, Name = "Zouérat", Latitude = "22.73542000", Longitude = "-12.47134000" }
                     }
                 },
 
